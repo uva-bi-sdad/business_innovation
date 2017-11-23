@@ -4,8 +4,8 @@ library(xml2)
 library(stringr)
 library(rvest)
 library(jsonlite)
-
-pt_scrape <- function(link){
+#this function takes a pharmacy times link, and also a counter integer n that is meant to help with text file output
+pt_scrape <- function(link,n){
   #get the link to scrape from
   new_link <- paste("http://www.pharmacytimes.com", link, sep ="")
   PTLink <- read_html(new_link)
@@ -21,5 +21,5 @@ pt_scrape <- function(link){
     html_text() %>%
     str_trim()
 
-  write(pt, file = paste0("./pharmacyTimes/PTscrape_", date,".txt"), append = FALSE) #appending because we want all data for one year in a single txt file
+  write(pt, file = paste0("./pharmacyTimes_OTC/",n,"PTscrape_", date,".txt"), append = FALSE) #run this line to write monthly data to a text file
 }
