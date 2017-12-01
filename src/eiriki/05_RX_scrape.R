@@ -1,4 +1,4 @@
-#this will scrape all of the issue links on the page
+#this will scrape all of the issue links on the page for Rx product news
 library(RCurl)
 library(xml2)
 library(stringr)
@@ -6,13 +6,13 @@ library(rvest)
 library(jsonlite)
 source("01_pt_Scrape.R")
 
-#This section will focus on getting all OTC Product news links
+#This section will focus on getting all Rx Product news links
 i=0
 otc_link = c()
 
-#Here, we grab the links to the first 10 pages of OTC product news. The data is missing past there: approx 2007
+#Here, we grab the links to the first 10 pages of Rx product news. The data is missing past there: approx 2007
 for(i in 1:11){
-  otc_link[i] = paste("http://www.pharmacytimes.com/publications/issue/departments/otc-product-news?p=", i, sep = '')
+  otc_link[i] = paste("http://www.pharmacytimes.com/publications/issue/departments/rx-product-news?p=", i, sep = '')
 }
 
 #Now we need to get each page link from the otclinks
@@ -33,7 +33,7 @@ for(i in 1:11){
 }
 master_list = data.frame(master_list, stringsAsFactors = F)
 
-#now we run the function on every single link provided
-for(k in 1:122){
-  pt_scrape(master_list[k,])
+#now we run the function on every single link provided: the text files for each month are stored separately
+for(k in 1:121){
+  pt_Rx_scrape(master_list[k,],k)
 }
