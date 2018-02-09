@@ -21,5 +21,5 @@ pt_Rx_scrape <- function(link,n){
     html_text() %>%
     str_trim()
 
-  write(pt, file = paste0("./pharmacyTimes_Rx/",n,"PT_RX_scrape_", date,".txt"), append = FALSE) #run this line to write monthly data to a text file
+  write(pt, file = paste0("./data/business_innovation/working/PHARMACY_TIMES/Rx/",n,"PT_RX_scrape_", date,".txt"), append = FALSE) #run this line to write monthly data to a text file
 }
