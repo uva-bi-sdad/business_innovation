@@ -1,38 +1,39 @@
-#Code to format all the Pharmacy Times text files into one single data frame
-
+#Prescription Drug Information Pharmacy times
 library(dplyr)
 library(stringr)
 library(ggplot2)
 #string we are trying to match
 market <- "Marketed"
 cap <-"MARKETED"
-#pull in all the data
-pdat1 <- readLines("./src/eiriki/pharmacyTimes_OTC/35PTscrape_JANUARY 09, 2015.txt", encoding = "UTF-8")
-pdat2 <- readLines("./src/eiriki/pharmacyTimes_OTC/34PTscrape_FEBRUARY 08, 2015.txt", encoding = "UTF-8")
-pdat3 <- readLines("./src/eiriki/pharmacyTimes_OTC/33PTscrape_MARCH 10, 2015.txt", encoding = "UTF-8")
-pdat4 <- readLines("./src/eiriki/pharmacyTimes_OTC/32PTscrape_APRIL 08, 2015.txt", encoding = "UTF-8")
-pdat5 <- readLines("./src/eiriki/pharmacyTimes_OTC/31PTscrape_MAY 10, 2015.txt", encoding = "UTF-8")
-pdat6 <- readLines("./src/eiriki/pharmacyTimes_OTC/30PTscrape_JUNE 11, 2015.txt", encoding = "UTF-8")
-pdat7 <- readLines("./src/eiriki/pharmacyTimes_OTC/29PTscrape_JULY 08, 2015.txt", encoding = "UTF-8")
-pdat8 <- readLines("./src/eiriki/pharmacyTimes_OTC/28PTscrape_AUGUST 10, 2015.txt", encoding = "UTF-8")
-pdat9 <- readLines("./src/eiriki/pharmacyTimes_OTC/27PTscrape_SEPTEMBER 08, 2015.txt", encoding = "UTF-8")
-pdat10 <- readLines("./src/eiriki/pharmacyTimes_OTC/26PTscrape_OCTOBER 13, 2015.txt", encoding = "UTF-8")
-pdat11 <- readLines("./src/eiriki/pharmacyTimes_OTC/25PTscrape_NOVEMBER 10, 2015.txt", encoding = "UTF-8")
-pdat12 <- readLines("./src/eiriki/pharmacyTimes_OTC/24PTscrape_DECEMBER 15, 2015.txt", encoding = "UTF-8")
+
+#pull in all the 2015data
+pdat1 <- readLines("./src/eiriki/pharmacyTimes_Rx/34PT_RX_scrape_JANUARY 11, 2015.txt", encoding = "UTF-8")
+pdat2 <- readLines("./src/eiriki/pharmacyTimes_Rx/33PT_RX_scrape_FEBRUARY 11, 2015.txt", encoding = "UTF-8")
+pdat3 <- readLines("./src/eiriki/pharmacyTimes_Rx/32PT_RX_scrape_MARCH 16, 2015.txt", encoding = "UTF-8")
+pdat4 <- readLines("./src/eiriki/pharmacyTimes_Rx/31PT_RX_scrape_APRIL 10, 2015.txt", encoding = "UTF-8")
+pdat5 <- readLines("./src/eiriki/pharmacyTimes_Rx/30PT_RX_scrape_MAY 13, 2015.txt", encoding = "UTF-8")
+pdat6 <- readLines("./src/eiriki/pharmacyTimes_Rx/29PT_RX_scrape_JUNE 15, 2015.txt", encoding = "UTF-8")
+pdat7 <- readLines("./src/eiriki/pharmacyTimes_Rx/28PT_RX_scrape_JULY 10, 2015.txt", encoding = "UTF-8")
+pdat8 <- readLines("./src/eiriki/pharmacyTimes_Rx/27PT_RX_scrape_AUGUST 11, 2015.txt", encoding = "UTF-8")
+pdat9 <- readLines("./src/eiriki/pharmacyTimes_Rx/26PT_RX_scrape_SEPTEMBER 09, 2015.txt", encoding = "UTF-8")
+pdat10 <- readLines("./src/eiriki/pharmacyTimes_Rx/25PT_RX_scrape_OCTOBER 14, 2015.txt", encoding = "UTF-8")
+pdat11 <- readLines("./src/eiriki/pharmacyTimes_Rx/24PT_RX_scrape_NOVEMBER 12, 2015.txt", encoding = "UTF-8")
+pdat12 <- readLines("./src/eiriki/pharmacyTimes_Rx/23PT_RX_scrape_DECEMBER 16, 2015.txt", encoding = "UTF-8")
 
 #2016 data
-pdat13 <- readLines("./src/eiriki/pharmacyTimes_OTC/23PTscrape_JANUARY 15, 2016.txt", encoding = "UTF-8")
-pdat14 <- readLines("./src/eiriki/pharmacyTimes_OTC/22PTscrape_FEBRUARY 10, 2016.txt", encoding = "UTF-8")
-pdat15 <- readLines("./src/eiriki/pharmacyTimes_OTC/21PTscrape_MARCH 14, 2016.txt", encoding = "UTF-8")
-pdat16 <- readLines("./src/eiriki/pharmacyTimes_OTC/20PTscrape_APRIL 07, 2016.txt", encoding = "UTF-8")
-pdat17 <- readLines("./src/eiriki/pharmacyTimes_OTC/19PTscrape_MAY 12, 2016.txt", encoding = "UTF-8")
-pdat18 <- readLines("./src/eiriki/pharmacyTimes_OTC/18PTscrape_JUNE 08, 2016.txt", encoding = "UTF-8")
-pdat19 <- readLines("./src/eiriki/pharmacyTimes_OTC/17PTscrape_JULY 12, 2016.txt", encoding = "UTF-8")
-pdat20 <- readLines("./src/eiriki/pharmacyTimes_OTC/16PTscrape_AUGUST 17, 2016.txt", encoding = "UTF-8")
-pdat21 <- readLines("./src/eiriki/pharmacyTimes_OTC/15PTscrape_SEPTEMBER 11, 2016.txt", encoding = "UTF-8")
-pdat22 <- readLines("./src/eiriki/pharmacyTimes_OTC/14PTscrape_OCTOBER 13, 2016.txt", encoding = "UTF-8")
-pdat23 <- readLines("./src/eiriki/pharmacyTimes_OTC/13PTscrape_NOVEMBER 21, 2016.txt", encoding = "UTF-8")
-pdat24 <- readLines("./src/eiriki/pharmacyTimes_OTC/12PTscrape_DECEMBER 05, 2016.txt", encoding = "UTF-8")
+pdat13 <- readLines("./src/eiriki/pharmacyTimes_Rx/22PT_RX_scrape_JANUARY 18, 2016.txt", encoding = "UTF-8")
+pdat14 <- readLines("./src/eiriki/pharmacyTimes_Rx/21PT_RX_scrape_FEBRUARY 12, 2016.txt", encoding = "UTF-8")
+pdat15 <- readLines("./src/eiriki/pharmacyTimes_Rx/20PT_RX_scrape_MARCH 15, 2016.txt", encoding = "UTF-8")
+pdat16 <- readLines("./src/eiriki/pharmacyTimes_Rx/19PT_RX_scrape_APRIL 08, 2016.txt", encoding = "UTF-8")
+pdat17 <- readLines("./src/eiriki/pharmacyTimes_Rx/18PT_RX_scrape_MAY 13, 2016.txt", encoding = "UTF-8")
+pdat18 <- readLines("./src/eiriki/pharmacyTimes_Rx/17PT_RX_scrape_JUNE 10, 2016.txt", encoding = "UTF-8")
+pdat19 <- readLines("./src/eiriki/pharmacyTimes_Rx/16PT_RX_scrape_JULY 14, 2016.txt", encoding = "UTF-8")
+pdat20 <- readLines("./src/eiriki/pharmacyTimes_Rx/15PT_RX_scrape_AUGUST 18, 2016.txt", encoding = "UTF-8")
+pdat21 <- readLines("./src/eiriki/pharmacyTimes_Rx/14PT_RX_scrape_SEPTEMBER 16, 2016.txt", encoding = "UTF-8")
+pdat22 <- readLines("./src/eiriki/pharmacyTimes_Rx/13PT_RX_scrape_OCTOBER 17, 2016.txt", encoding = "UTF-8")
+pdat23 <- readLines("./src/eiriki/pharmacyTimes_Rx/12PT_RX_scrape_NOVEMBER 20, 2016.txt", encoding = "UTF-8")
+pdat24 <- readLines("./src/eiriki/pharmacyTimes_Rx/11PT_RX_scrape_DECEMBER 08, 2016.txt", encoding = "UTF-8")
+
 
 #store all the text containing "Marketed" in separate lists
 pdat1 <- data.frame("Company" = str_subset(pdat1,market))
@@ -91,20 +92,18 @@ for(i in 1:length(x$Company)){
 for(i in 1:length(y$Company)){
   y$Company[i] <- str_extract(y$Company[i], '(?<=:\\s)\\S+')
 }
-#handle case for tufmed
-x$Company[47] <- "TUFMED"
 #put back into factor format
 x$Company <- as.factor(x$Company)
 y$Company <- as.factor(y$Company)
 #quick fix for company names
-x$Company <- plyr::revalue(x$Company, c(Arm = "Arm & Hammer", Bayer = "Bayer Consumer Healthcare", Galderma = "Galderma Laboratories", Matrixx
-                                        = "Matrixx Initiatives", Prestige = "Prestige Brands Holdings", Oxy = "Oxy Bump", Healthy = "Healthy Mama",
-                           Procter = "Procter & Gamble", Church = "Church & Dwight", Hello = "Hello Products", Nordic = "Nordic Naturals"))
-x$Company <- plyr::revalue(x$Company, c('Chattem,' = "Chattem")) #do this separate because the comma messes it up in previous line
-y$Company <- plyr::revalue(y$Company, c(Arm = "Arm & Hammer", Bayer = "Bayer Consumer Healthcare", Galderma = "Galderma Laboratories", Matrixx
-                                        = "Matrixx Initiatives", Prestige = "Prestige Brands Holdings", Oxy = "Oxy Bump", Healthy = "Healthy Mama",
-                                        Procter = "Procter & Gamble", Church = "Church & Dwight", Hello = "Hello Products", Nordic = "Nordic Naturals"))
-y$Company <- plyr::revalue(y$Company, c('Chattem,' = "Chattem")) #do this separate because the comma messes it up in previous line
+x$Company <- plyr::revalue(x$Company, c('Actavis,' = "Actavis", 'ActavisIndication:' = "Actavis", Bayer = "Bayer Consumer Healthcare", Galderma = "Galderma Laboratories",
+                                        'Amgen,' = "Amgen", 'Eisai,' = "Essai", 'NovartisIndication:' = "Novartis"))
+
+y$Company <- plyr::revalue(y$Company, c('Actavis,' = "Actavis", 'ActavisIndication:' = "Actavis", Bayer = "Bayer Consumer Healthcare", Galderma = "Galderma Laboratories",
+                                        'Amgen,' = "Amgen", 'Eisai,' = "Essai", 'NovartisIndication:' = "Novartis", 'AllerganIndication:' = "Allergan",
+                                        'AllerganINDICATION:' = "Allergan", 'GlaxoSmithKlineIndication:' = "GlaxoSmithKline",
+                                        'JanssenINDICATION:' = "Janssen", 'PfizerIndication:' = "Pfizer", Eli = "Eli Lilly"))
+
 pharmTimes15 <- table(x)
 pharmTimes15 <- as.data.frame(pharmTimes15)
 pharmTimes16 <- table(y)
@@ -112,7 +111,7 @@ pharmTimes16 <- as.data.frame(pharmTimes16)
 colnames(pharmTimes15) <- c("Company", "Freq")
 colnames(pharmTimes16) <- c("Company", "Freq")
 #sort only top companies of 2015
-pharmTimes15 <- subset(pharmTimes15, Freq >= 3)
+pharmTimes15 <- subset(pharmTimes15, Freq >= 2)
 pharmTimes16 <- subset(pharmTimes16, Freq >= 2)
 #ggplot2
 vis <- ggplot(pharmTimes15,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq)) + geom_bar(stat= "identity") +
@@ -122,7 +121,7 @@ vis <- ggplot(pharmTimes15,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq))
         axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
   theme(plot.title = element_text(size = 20, face = 'bold'))+
   theme(axis.text.x = element_text(angle = 40, hjust = 1)) + xlab("Company") +
-  ylab("Times Feautured in News Article") + ggtitle("Top Companies in Pharmacy Times OTC Product News 2015")
+  ylab("Times Feautured in News Article") + ggtitle("Top Companies in Pharmacy Times Rx Product News 2015")
 vis
 #ggsave(vis, filename = "otc_2015.png",width=20,height=11.25,scale=1,path = "./src/eiriki/")
 
@@ -134,20 +133,5 @@ vis2 <- ggplot(pharmTimes16,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq)
         axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
   theme(plot.title = element_text(size = 20, face = 'bold'))+
   theme(axis.text.x = element_text(angle = 40, hjust = 1)) + xlab("Company") +
-  ylab("Times Feautured in News Article") + ggtitle("Top Companies in Pharmacy Times OTC Product News 2016")
+  ylab("Times Feautured in News Article") + ggtitle("Top Companies in Pharmacy Times Rx Product News 2016")
 vis2
-#ggsave(vis2, filename = "otc_2016.png",width=20,height=11.25,scale=1,path = "./src/eiriki/")
-# code for later
-# market <- "Marketed"
-# link <- "For More Information: "
-# x <- str_subset(pdat,market)
-# x <- str_extract(x, '(?<=:\\s)\\S+')
-# x <- str_extract_all(x, boundary("word"))
-
-#this commented out code is for separating each word: will be useful for descriptions later
-
-# dat <- readLines("./src/eiriki/pharmacyTimes_OTC/28PTscrape_AUGUST 10, 2015.txt", encoding = "UTF-8")
-# words <- strsplit(dat," ")
-# words <- as.data.frame(words)
-# wordFrame <- cbind(words[])
-# table(words)
