@@ -1,0 +1,10 @@
+ECG Guide by QxMD: Features concise explanations with high-quality electrocardiogram (ECG) examples. Includes basics of interpretation, waves and segments, chamber enlargement, ischemia, arrhythmias, pericarditis, intracranial hemorrhage, pacemakers, and common artifacts. www.qxmd.com/apps/the-ecg-guide-for-iphone-ipad-android-blackberry
+
+FDA has expanded the approved use of nivolumab (Opdivo—Bristol-Myers Squibb) to treat patients with advanced squamous non–small cell lung cancer (NSCLC) with progression on or after platinum-based chemotherapy.
+FDA previously approved nivolumab to treat patients with unresectable or metastatic melanoma who no longer respond to other drugs.
+The most common type of lung cancer, NSCLC affects seven out of eight lung cancer patients.
+Nivolumab works by inhibiting the cellular pathway known as PD-1 protein on cells that blocks the body's immune system from attacking cancerous cells.
+Nivolumab's efficacy to treat squamous NSCLC was established in a randomized trial of 272 participants, of whom 135 received nivolumab and 137 received docetaxel. The trial was designed to measure the amount of time participants lived after starting treatment (overall survival). On average, participants who received nivolumab lived 3.2 months longer than participants who received docetaxel.
+Safety and efficacy for treatment of squamous NSCLC was supported by a single-arm trial of 117 participants who had progressed after receiving a platinum-based therapy and at least one additional systemic regimen. The study was designed to measure objective response rate (ORR), or the percentage of participants who experienced partial shrinkage or complete disappearance of the tumor.
+Results showed 15% of participants experienced ORR, of whom 59% had response durations of 6 months or longer.
+The most common adverse effects are fatigue, shortness of breath, musculoskeletal pain, decreased appetite, cough, nausea, and constipation. The most serious adverse effects are severe immune mediated effects involving healthy organs, including the lung, colon, liver, kidneys, and hormone-producing glands.

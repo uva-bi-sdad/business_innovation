@@ -1,0 +1,56 @@
+
+FDA granted accelerated approval to acalabrutinib (Calquence—AstraZeneca), a kinase inhibitor, to treat adults with mantle cell lymphoma who have received at least one prior therapy.
+Common adverse effects of acalabrutinib include headache, diarrhea, bruising, fatigue and muscle pain, anemia, and reduced platelets and neutrophils in the blood.
+Serious adverse effects include bleeding, infections, and irregular heartbeat. Additional cancers, known as second primary malignancies, have occurred in some patients taking acalabrutinib. Women who are breastfeeding should not take the drug because it may cause harm to a newborn baby.
+Benralizumab (Fasenra—AstraZeneca) has been FDA approved as an add-on maintenance treatment of patients aged 12 years and older who have severe asthma and an eosinophilic phenotype.
+Elevated levels of eosinophils, seen in about one-half of patients with severe asthma, affect airway inflammation and airway hyper-responsiveness, resulting in increased asthma severity and symptoms, decreased lung function, and increased risk of exacerbations. Benralizumab binds directly to the IL-5-alpha receptor on an eosinophil and uniquely attracts natural killer cells to induce apoptosis, resulting in direct, rapid, and near-complete depletion of eosinophils within 24 hours.
+The biologic will be available as a fixed-dose S.C. injection administered via a prefilled syringe once every 8 weeks.
+FDA approved vestronidase alfa-vjbk (Mepsevii—Ultragenyx Pharmaceutical) to treat pediatric and adult patients who have mucopolysaccharidosis type VII (MPS VII), an inherited metabolic condition also known as Sly syndrome. This extremely rare, progressive lysosomal storage disorder is caused by deficiency of the beta-glucuronidase enzyme, which results in an abnormal buildup of toxic materials in the body’s cells. The new agent works by replacing the missing enzyme.
+Features of MPS VII vary widely from patient to patient, but most patients have various skeletal abnormalities that become more pronounced with age, including short stature. Affected individuals can also develop heart valve abnormalities, enlarged liver and spleen, and narrowed airways, which can lead to lung infections and trouble breathing. Life expectancy depends on the severity of symptoms.
+The most common adverse effects in clinical trials were infusion site reactions, diarrhea, rash, and anaphylaxis.
+Axicabtagene ciloleucel (Yescarta—Kite Pharma), the second gene therapy to be FDA approved in the United States, is indicated for treatment of adult patients with large B-cell lymphoma after failure of at least two other kinds of treatment, including diffuse large B-cell lymphoma (DLBCL), primary mediastinal large B-cell lymphoma, high-grade B-cell lymphoma, and DLBCL arising from follicular lymphoma.
+The chimeric antigen receptor (CAR)-T cell therapy is also the first therapy for certain types of non-Hodgkin lymphoma (NHL).
+It is not indicated for treatment of patients with primary central nervous system lymphoma.
+Each dose is a customized treatment created using a patient’s own immune system to help fight the lymphoma. The patient’s T cells are collected and genetically modified to include a new gene that targets and kills the lymphoma cells. Once the cells are modified, they are infused back into the patient.
+The agent carries a boxed warning for cytokine release syndrome (CRS), a systemic response to the activation and proliferation of CAR-T cells causing high fever and influenza-like symptoms, and for neurologic toxicities. Both CRS and neurologic toxicities can be fatal or life-threatening. Because of these risks, axicabtagene ciloleucel is being approved with a risk evaluation and mitigation strategy (REMS). To further evaluate its long-term safety, FDA is also requiring the manufacturer to conduct a postmarketing observational study.
+Other adverse effects include serious infections, low blood cell counts, and a weakened immune system. Adverse effects usually appear within the first 1 to 2 weeks, but some may occur later.
+FDA approved abemaciclib (Verzenio—Eli Lilly) to treat adult patients who have hormone receptor (HR)–positive, human epidermal growth factor receptor 2 (HER2)–negative advanced or metastatic breast cancer that has progressed after endocrine therapy.
+It is approved to be given in combination with fulvestrant after the cancer has grown on its own or on endocrine therapy in patients who were previously treated with endocrine therapy and chemotherapy after the cancer had spread.
+Abemaciclib works by blocking cyclin-dependent kinases 4 and 6, which are involved in promoting the growth of cancer cells. Two other drugs in this class, palbociclib (approved in February 2015) and ribociclib (approved in March 2017), are approved for certain patients with breast cancer.
+Common adverse effects of abemaciclib include diarrhea, neutropenia and leukopenia, nausea, abdominal pain, infections, fatigue, anemia, decreased appetite, vomiting, and headache.
+Serious adverse effects include diarrhea, neutropenia, elevated liver blood tests, and blood clots. Women who are pregnant should not take abemaciclib because it may cause harm to a developing fetus.
+Latanoprostene bunod ophthalmic solution, 0.024% (Vyzulta—Valeant Pharmaceuticals), received FDA approval for reduction of intraocular pressure in patients with open-angle glaucoma or ocular hypertension.
+The most common ocular adverse events include conjunctival hyperemia, eye irritation, eye pain, and instillation site pain. Increased pigmentation of the iris and periorbital tissue and growth of eyelashes can occur.
+
+FDA has approved a new hepatitis B virus (HBV) vaccine, recombinant (adjuvanted) vaccine (Heplisav-B—Dynavax), to prevent infection caused by all known subtypes of HBV in adults aged 18 years and older. It is the first new HBV vaccine in the United States in more than 25 years and the only two-dose HBV vaccine for adults.
+Current HBV vaccines require three injections over a 6-month period. However, almost one-half of adults fail to complete the series within 1 year.
+Dynavax expects to commercially launch Heplisav-B in the United States in the first quarter of 2018.
+
+
+FDA has approved zoster vaccine recombinant, adjuvanted (Shingrix—GlaxoSmithKline), for prevention of shingles (herpes zoster) in adults aged 50 years and older.
+Shingrix is a nonlive, recombinant subunit vaccine given intramuscularly in two doses. It combines an antigen, glycoprotein E, and an adjuvant system, AS01B, intended to generate a strong and long-lasting immune response that can help overcome the decline in immunity as people age.
+In clinical trials, by preventing shingles, Shingrix also reduced the overall incidence of postherpetic neuralgia, a form of chronic nerve pain and the most common complication associated with shingles.
+
+Alectinib (Alecensa—Genentech) is now approved for treatment of anaplastic lymphoma kinase (ALK)–positive metastatic non–small cell lung cancer (NSCLC), as detected by an FDA-approved test.
+FDA also converted to full approval alectinib’s initial accelerated approval in December 2015 for treatment of ALK-positive metastatic NSCLC in patients who have progressed on or are intolerant to crizotinib (second-line).
+FDA expanded the approval of vemurafenib (Zelboraf—Hoffman-LaRoche), a kinase inhibitor, to include treatment of adult patients with Erdheim-Chester disease (ECD) whose cancer cells have the BRAF V600 genetic mutation.
+It is the first FDA-approved treatment for ECD, a slow-growing blood cancer that originates in the bone marrow and causes an increased production of histiocytes. Excess histiocytes can result in tumors infiltrating many organs and tissues throughout the body, including the heart, lungs, brain, and others.
+The product was first approved in 2011 to treat certain patients with melanoma who have the BRAF V600E mutation.
+Common adverse effects of vemurafenib in patients with ECD include joint pain, maculo-papular rash, hair loss, fatigue, prolonged QT interval, and skin growths.
+Severe adverse effects include development of new cancers, growth of tumors in patients with BRAF wild-type melanoma, hypersensitivity reactions, severe skin reactions, heart abnormalities, liver damage, photosensitivity, severe reactions in the eye, immune reactions after receiving radiation treatment, kidney failure, and thickening of tissue in the hands and feet.
+The agent can cause harm to a developing fetus, and women should be advised of the potential risk to a fetus.
+Keryx Biopharmaceuticals announced FDA approval of ferric citrate tablets (Auryxia) to treat iron deficiency anemia in adults with chronic kidney disease (CKD) who are not on dialysis. The agent was originally approved in September 2014 to control serum phosphorus levels in patients with CKD who require dialysis.
+Common adverse events include diarrhea, constipation, discolored feces, nausea, abdominal pain, and hyperkalemia.
+FDA granted regular approval to brentuximab vedotin (Brentuximab vedotin—Seattle Genetics) for treatment of adult patients with primary cutaneous anaplastic large cell lymphoma or CD30-expressing mycosis fungoides who have received prior systemic therapy.
+
+
+Eculizumab (Soliris—Alexion Pharmaceuticals) has been FDA approved to treat adult patients with generalized myasthenia gravis (gMG) who are antiacetylcholine receptor antibody-positive. By selectively and effectively inhibiting the terminal complement cascade, eculizumab targets a critical underlying cause of the disease.
+
+Exenatide extended-release (Bydureon BCise—AstraZeneca) was FDA approved as a once-weekly, single-dose autoinjector device for adults with type-2 diabetes whose blood glucose remains uncontrolled on one or more oral medicines in addition to diet and exercise.
+The most common adverse reactions reported in clinical trials were nausea and adverse events associated with injection-site nodules.
+The new formulation will be available in early 2018.
+FDA approved a 10-mg once-daily dose of rivaroxaban (Xarelto—Janssen) to reduce the continued risk for recurrent venous thromboembolism (VTE) after completing at least 6 months of initial anticoagulation therapy. VTE includes deep vein thrombosis (DVT) and pulmonary embolism (PE).
+Treatment is initiated with rivaroxaban 15 mg, dosed twice daily, for the first 21 days after a VTE occurrence. On days 22 through at least day 180, the daily dose decreases to 20 mg once daily. After at least 180 days (6 mo), the 10-mg once-daily can be used in patients at continued risk for DVT and/or PE.
+An I.V. formulation of rolapitant (Varubi—Tesaro), a highly selective and competitive antagonist of human substance P/neurokinin 1 receptors, has been FDA approved for use in combination with other antiemetic agents to prevent delayed nausea and vomiting associated with initial and repeat courses of emetogenic cancer chemotherapy.
+
+Sun Pharmaceutical Industries announced FDA approval of carvedilol phosphate, its generic version of Coreg CR, in 10-, 20-, 40-, and 80-mg extended-release capsules. The drug is indicated for treatment of various heart conditions, including heart failure and high blood pressure.

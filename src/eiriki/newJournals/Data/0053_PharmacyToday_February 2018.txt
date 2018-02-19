@@ -1,0 +1,83 @@
+
+Angiotensin II injection (Giapreza—La Jolla). Agent for I.V. infusion to increase blood pressure in adults with septic or other distributive shock.
+In a clinical trial of 321 patients with shock and a critically low blood pressure, significantly more patients responded to treatment with angiotensin II injection compared with those treated with placebo. The product effectively increased blood pressure when added to conventional treatments used to raise blood pressure.
+Because the agent can cause dangerous blood clots with serious consequences (clots in arteries and veins, including deep venous thrombosis), prophylactic treatment for blood clots should be used.
+Ertugliflozin (Steglatro—Pfizer, Merck). Oral sodium–glucose cotransporter 2 inhibitor indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes.
+Ertugliflozin is not recommended in patients with type 1 diabetes or for treatment of diabetic ketoacidosis. It is contraindicated in patients with severe renal impairment, end-stage renal disease, or who are on dialysis, or in patients who have a history of a serious hypersensitivity reaction to ertugliflozin.
+The most common adverse reactions are female genital mycotic infections.
+Mepolizumab (Nucala—Glaxo-SmithKline). Treats adult patients with eosinophilic granulomatosis with polyangiitis (EGPA), a rare autoimmune disease (formerly known as Churg-Strauss syndrome) characterized by asthma, high levels of eosinophils, and inflammation of small- to medium-sized blood vessels. The inflamed vessels can affect various organ systems including the lungs, GI tract, skin, heart, and nervous system.
+This new indication provides the first FDA-approved therapy specifically to treat EGPA.
+The agent is an interleukin-5 antagonist monoclonal antibody previously approved in 2015 to treat patients aged 12 years and older who have an eosinophilic phenotype and severe asthma despite receiving their current asthma medications.
+It is administered by a health professional once every 4 weeks by S.C. injection into the upper arm, thigh, or abdomen.
+The most common adverse reactions associated with mepolizumab in clinical trials were headache, injection site reaction, back pain, and fatigue.
+Macimorelin (Macrilen—Aeterna Zentaris). Orally available ghrelin agonist for use in diagnosis of adult growth hormone deficiency (AGHD).
+Macimorelin stimulates the secretion of growth hormone from the pituitary gland into the circulatory system. Stimulated growth hormone levels are measured in four blood samples over 90 minutes after oral administration of the agent.
+Prior to this approval, the standard for evaluation of AGHD was the insulin tolerance test, an I.V. test requiring many blood draws over several hours.
+Infliximab-qbtx (Ixifi—Pfizer). A biosimilar to infliximab (Remicade—Janssen) for treatment of rheumatoid arthritis (RA), Crohn disease, pediatric Crohn disease, ulcerative colitis, ankylosing spondylitis, psoriatic arthritis, and plaque psoriasis. The agent is a chimeric human-murine monoclonal antibody against tumor necrosis factor.
+Approval was based on a Phase III, multinational, randomized, double-blind, two-arm, parallel group study of infliximab-qbtx versus infliximab administered intravenously in combination with methotrexate to treat patients with moderate to severely active RA who have had an inadequate response to methotrexate therapy.
+The study met its primary endpoint of 20% or greater improvement by American College of Rheumatology criteria at week 14 and was supported by data at week 30.
+Netarsudil ophthalmic solution 0.02% (Rhopressa—Aerie). Lowers elevated intraocular pressure (IOP) in patients with open-angle glaucoma or ocular hypertension.
+The product is believed to reduce IOP by increasing the outflow of aqueous humor through the trabecular meshwork, the main fluid drain of the eye.
+Ozenoxacin cream, 1% (Xepi—Medimetriks). Topical treatment of impetigo due to Staphylococcus aureus or Streptococcus pyogenes in adult and pediatric patients aged 2 months and older. Applied topically twice daily for 5 days, the new chemical entity belongs to a new generation of nonfluorinated quinolones.
+Safety and effectiveness in pediatric patients younger than 2 months of age have not been established.
+Insulin lispro injection (Admelog—Sanofi-Aventis U.S.). First short-acting insulin approved as a follow-on product to improve blood glucose levels in adults and pediatric patients aged 3 years and older with type 1 diabetes and in adults with type 2 diabetes.
+The agent can be administered by S.C. injection, S.C. infusion (i.e., via insulin pump), or I.V. infusion. Dosing should be individualized according to route of administration and the patient’s metabolic needs, blood glucose monitoring results, and glycemic control goal.
+The most common adverse reactions in clinical trials were hypoglycemia, itching, and rash. Other potential adverse reactions include allergic reactions, injection site reactions, and lipodystrophy.
+
+Voretigene neparvovec-rzyl (Luxturna—Spark Therapeutics) is a one-time gene therapy for treatment of confirmed biallelic RPE65 mutation–associated retinal dystrophy.
+It is the first FDA-approved gene therapy for a genetic disease, the first and only pharmacologic treatment for an inherited retinal disease, and the first adeno-associated virus vector gene therapy approved in the United States.
+Treatment is delivered surgically via subretinal injection.
+The agent should only be administered to patients with mutations on both copies of the RPE65 gene who have sufficient viable retinal cells, as determined by their treating physicians.
+
+Nivolumab (Opdivo—Bristol-Myers Squibb). Antiprogrammed cell death protein 1 receptor monoclonal antibody for adjuvant treatment of melanoma with involvement of lymph nodes or in patients with metastatic disease who have undergone complete resection.
+The agent was previously approved for treatment of unresectable or metastatic melanoma.
+The recommended dose and schedule of nivolumab for this indication is 240 mg administered as an I.V. infusion over 60 minutes every 2 weeks until disease recurrence or unacceptable toxicity, for a maximum of 1 year.
+The most common adverse reactions are fatigue, diarrhea, rash, musculoskeletal pain, pruritus, headache, nausea, upper respiratory infection, and abdominal pain.
+Pertuzumab (Perjeta—Genentech). For use in combination with trastuzumab and chemotherapy as adjuvant treatment of human epidermal growth factor receptor 2–positive early breast cancer at high risk of recurrence.
+Initial dose is 840 mg administered as a 60-minute I.V. infusion, followed every 3 weeks thereafter by 420 mg administered as a 30- to 60-minute I.V. infusion.
+Adverse reactions include diarrhea, nausea, alopecia, fatigue, peripheral neuropathy, and vomiting.
+Denosumab (Xgeva—Amgen). Prevents skeletal-related events in patients with multiple myeloma. The agent was previously approved for bone metastases from solid tumors.
+Approval for this new indication was based on data from a pivotal Phase III trial that enrolled 1,718 patients, the largest international multiple myeloma clinical trial ever conducted, said Amgen in a news release.
+Denosumab is a fully human monoclonal antibody that targets the RANKL pathway to prevent the formation, function, and survival of osteoclasts, which break down bone.
+The agent is also indicated for treatment of adults and skeletally mature adolescents with giant cell tumor of bone that is unresectable or where surgical resection is likely to result in severe morbidity, and for treatment of hypercalcemia of malignancy refractory to bisphosphonate therapy.
+Two new products offer drug delivery options for patients with chronic obstructive pulmonary disease (COPD): glycopyrrolate inhalation solution (Lonhala Magnair, Sunovion Pharmaceuticals) and once-daily, single-inhaler, triple-therapy fluticasone furoate/umeclidinium/vilanterol (Trelegy Ellipta, GlaxoSmithKline, Innoviva).
+Glycopyrrolate inhalation solution is the first nebulized long-acting muscarinic antagonist (LAMA) indicated for long-term maintenance treatment of COPD, including chronic bronchitis and/or emphysema.
+“Glycopyrrolate inhalation solution has a specific nebulizer machine to deliver the medication, unlike the jet nebulizers some patients already have at home. This may make it somewhat confusing for the patients and health care providers. However, the delivery route may be helpful for those patients who struggle with inhalers,” said Lori Wilken, PharmD, BCACP, TT-S, AE-C, clinical pharmacist and clinical assistant professor at the University of Illinois at Chicago College of Pharmacy.
+Triple-therapy fluticasone furoate/umeclidinium/vilanterol is the first combination of an inhaled corticosteroid, a LAMA, and a long-acting beta2-adrenergic agonist (LABA).
+“The amount of inspiratory force the patient has to generate for a dose is lower in comparison to other dry powder inhalers, and I can see potential benefit for those patients on LAMA/LABA therapy who have a fairly high rate of exacerbations and need triple therapy,” said J. Andrew Woods, PharmD, BCPS, associate professor of pharmacy at Wingate University School of Pharmacy and internal medicine clinical specialist at Carolinas Medical Center in Charlotte, NC.
+
+Woods noted that the manufacturers began developing the product before the Global Initiative for Obstructive Lung Disease (GOLD) guidelines were updated in 2017, which note that triple therapy is considered a step up for patients with group D COPD.
+“We still have to follow the guidelines and follow a stepwise approach to therapy. At most, 1% to 2% of the COPD population will need an inhaled corticosteroid. Current literature suggests that we need more information on triple therapy before we recommend it to the majority of our COPD patients,” Woods said.
+Cabozantinib (Cabometyx—Exelixis). Treatment in the first-line setting for patients with advanced renal cell carcinoma (RCC). The agent was previously approved in 2016 for treatment of patients with advanced RCC who have received prior antiangiogenic therapy.
+The most commonly reported adverse reactions in the clinical trial were diarrhea, fatigue, nausea, decreased appetite, hypertension, palmar-plantar erythrodysesthesia, weight decrease, vomiting, dysgeusia, and stomatitis.
+The recommended dose of cabozantinib for this indication is 60 mg orally, once daily.
+The agent is also approved for treatment of medullary thyroid cancer under the trade name Cometriq. Cometriq and Cabometyx have different formulations and are not interchangeable.
+Bosutinib (Bosulif—Pfizer). Treatment of newly diagnosed chronic phase Philadelphia chromosome positive (Ph+) chronic myelogenous leukemia (CML).
+The most common adverse reactions in patients with newly-diagnosed CML are diarrhea, nausea, thrombocytopenia, rash, increased alanine aminotransferase, abdominal pain, and increased aspartate aminotransferase.
+The agent was first approved in 2012 for treatment of patients with chronic, accelerated, or blast phase Ph+ CML with resistance or intolerance to prior therapy.
+The recommended dose of bosutinib for this indication is 400 mg orally once daily with food.
+Hydroxyurea (Siklos—Addmedica). Reduces the frequency of painful crises and the need for blood transfusions in pediatric patients aged 2 years and older who have sickle cell anemia with recurrent moderate to severe painful crises.
+It is the first FDA approval of hydroxyurea for use in pediatric patients with sickle cell disease.
+The most common adverse reactions are infections and neutropenia.
+The recommended initial dose of hydroxyurea is 20 mg/kg/d.
+
+Once-weekly diabetes drug may result in greater reductions in A1C, weight (page 26)
+Simplified regimen approved for patients with virologically suppressed HIV-1 (page 27)
+Tofacitinib 5 mg twice daily and tofacitinib extended-release 11 mg once daily (Xeljanz, Xelijanz XR—Pfizer). Treatment of adult patients with active psoriatic arthritis (PsA) who have had an inadequate response or intolerance to methotrexate or other disease-modifying antirheumatic drugs (DMARDs).
+It is the first and only Janus kinase inhibitor approved by FDA for both moderate to severe RA and active PsA.
+The recommended dose is in combination with nonbiologic DMARDs, and use in combination with biologic DMARDs or with potent immunosuppressants such as azathioprine and cyclosporine is not recommended.
+The label carries a boxed warning on the risks of developing serious infections that may lead to hospitalization or death. Most patients who developed these infections were taking concomitant immunosuppressants such as methotrexate or corticosteroids.
+Evolocumab (Repatha—Amgen). First proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitor to prevent heart attacks, strokes, and coronary revascularizations in adults with established cardiovascular disease.
+The agent is a human monoclonal antibody that binds to PCSK9 and inhibits circulating PCSK9 from binding to the LDL receptor (LDLR).
+FDA also approved evolocumab to be used as an adjunct to diet, alone or in combination with other lipid-lowering therapies, such as statins, for treatment of adults with primary hyperlipidemia to reduce LDL-C.
+
+Brimonidine tartrate ophthalmic solution 0.025% (Lumify—Bausch & Lomb/Valeant). First and only OTC eye drop developed with low-dose brimonidine tartrate to treat ocular redness, a common condition caused by inflammation of almost any part of the eye.
+Brimonidine was first approved by FDA in 1996 for IOP reduction in patients with glaucoma.
+With frequent use, nonselective redness-relieving eye drops that constrict blood vessels in the eye can result in users developing a tolerance or loss of effectiveness, as well as rebound redness.
+In contrast, low-dose brimonidine selectively constricts veins in the eye, increasing the availability of oxygen to surrounding tissue, thereby reducing the potential risk of these adverse effects.
+High-concentration hydrogen peroxide–based topical solution, 40% (w/w) (Eskata—Aclaris Therapeutics). Treatment of raised seborrheic keratoses (SKs), noncancerous skin growths that affect more than 83 million American adults and can be an aesthetic skin concern.
+SKs tend to increase in size and number with age. The condition is more prevalent than acne, psoriasis, and rosacea combined.
+The solution is designed for in-office application by a health care provider using a pen-like applicator.
+FDA approved the first two generic versions of the erectile dysfunction drug sildenafil citrate (Viagra), one by generic manufacturer Teva and the other by the original manufacturer, Pfizer.
+Prices for generic sildenafil are about one-half the cost of the brand-name version. Current prices for brand-name sildenafil are around $70 per tablet, and prices for generic versions are expected to run between $35 and $40 per tablet without a discount.
+Generic sildenafil comes in 25-mg, 50-mg, or 100-mg dosage strengths (the 20-mg dose is typically used for pulmonary hypertension).
