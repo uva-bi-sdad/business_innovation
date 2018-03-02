@@ -4,7 +4,7 @@ library(xml2)
 library(stringr)
 library(rvest)
 library(jsonlite)
-source("01_pt_Scrape.R")
+source("./src/eiriki/PharmacyTimes/01_pt_Scrape.R")
 
 #This section will focus on getting all OTC Product news links
 i=0
@@ -34,6 +34,6 @@ for(i in 1:11){
 master_list = data.frame(master_list, stringsAsFactors = F)
 
 #now we run the function on every single link provided: the text files for each month are stored separately
-for(k in 1:121){
+for(k in 1:123){
   pt_scrape(master_list[k,],k)
 }
