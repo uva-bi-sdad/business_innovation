@@ -1,4 +1,4 @@
-install.packages("rvest")
+#install.packages("rvest")
 library(rvest)
 
 #
@@ -26,15 +26,20 @@ findSecTable = function(url){
 }
 
 cikSicCrosswalk = do.call(rbind, sapply(tableURLs, findSecTable))
+colnames(cikSicCrosswalk) = c("company", "cikNumber", "sicNumber")
 rownames(cikSicCrosswalk) = NULL
 
 #
 # The NAICS to SIC crosswalk wasn't amenable to scraping, but it was easy to just copy paste the table from the page. So we just load it in and do the merge
 #
 
-naicsSicCrosswalk = read.csv("./data/business_innovation/original/naicsSicCrosswalk.csv")
+naicsSicCrosswalk = read.csv("./data/business_innovation/original/naicsSicCrosswalk.csv", stringsAsFactors = F)[-c(1:3),]
+colnames(naicsSicCrosswalk) = c("sicNumber", "sicDesc", "naicsNumber", "naicsDesc")
+naicsSicCrosswalk$sicNumber = as.numeric(naicsSicCrosswalk$sicNumber)
 
-cikSicNaics = merge(cikSicCrosswalk, naicsSicCrosswalk, by.x = "SIC Code", by.y = "SIC.Code")
+cikSicNaics = merge(cikSicCrosswalk, naicsSicCrosswalk, all.x = T)
+
+
 write.csv(cikSicNaics, "./data/business_innovation/working/cikSicNaicsCrosswalk.csv")
 
 
