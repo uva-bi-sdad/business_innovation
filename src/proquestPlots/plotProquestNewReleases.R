@@ -6,29 +6,55 @@ library(ggplot2)
 library(viridis)
 library(scales)
 library(lubridate)
+library(data.table)
 
 # upload cleaned data
 scrapedFiles = list.files("./data/business_innovation/working/proquestScrapes", full.names = TRUE)
 ncompanies = length(scrapedFiles)
 keywords<-c("launch","new product","product release")
+pal <- rev(viridis_pal(alpha = 1, begin = 0, end = 1, direction = 1, option = "A")(10))[c(4,8)]
 
-activeFile = read.csv(scrapedFiles[1], stringsAsFactors = FALSE)
+# Set plotting parameters to loop over
+mains = c("Ford Motors", "General Motors", "GlaxoSmithKline", "Merck", "Novartis", "Pfizer", "Proctor & Gamble", "Tata Motors", "Toyota", "Volkswagen")
 
-articleHasKeyword = grepl(paste(keywords, collapse = '|'), activeFile$Full.Text)
-articleYear = year(ymd(activeFile$Publication.date))
-plotDat = data.frame(articleYear, articleHasKeyword)
+for(i in 1:ncompanies){
+  activeFile = fread(scrapedFiles[i], stringsAsFactors = FALSE)
+  activeFile = unique(activeFile, by = 'Article.Title')
 
-pdf("new_prod_articles_year.pdf",width=6,height=5)
-ggplot(tech_yrm) +
-  geom_bar(aes(x=year,y=value,fill=variable),stat="identity") +
-  theme_bw() +
-  scale_fill_manual(values=pal,name = "",labels = c("All Other Articles", "New Product Articles")) +
-  theme(axis.text.x=element_text(size=14),
-        axis.text.y=element_text(size=14),
-        axis.title=element_text(size=16),
-        title=element_text(size=20),
-        legend.position="bottom",
-        legend.text = element_text(size=16)) +
-  labs(x="Year",y="Number of Articles")
-dev.off()
+  articleHasKeyword = grepl(paste(keywords, collapse = '|'), activeFile$Full.Text)
+  articleYear = year(ymd(activeFile$Publication.date))
+  data.frame(articleYear, articleHasKeyword) %>%
+    group_by(articleYear, articleHasKeyword) %>%
+    summarise(n = n()) -> plotData
 
+
+
+  #pdf("new_prod_articles_year.pdf",width=6,height=5)
+  p = ggplot(plotData) +
+    geom_bar(aes(x=articleYear,y=n,fill=articleHasKeyword),stat="identity") +
+    theme_bw() +
+    scale_fill_manual(values=pal,name = "",labels = c("All Other Articles", "New Product Articles")) +
+    theme(axis.text.x=element_text(size=14),
+          axis.text.y=element_text(size=14),
+          axis.title=element_text(size=16),
+          title=element_text(size=20),
+          legend.position="bottom",
+          legend.text = element_text(size=16)) +
+    labs(x="Year",y="Number of Articles", title = mains[i])
+  plot(p)
+  #dev.off()
+}
+
+# Some other plots and summaries
+
+activeFile = fread(scrapedFiles[6], stringsAsFactors = FALSE)
+activeFile = unique(activeFile, by = 'Article.Title')
+
+# Look at companies mentioned at the same time as the main company
+
+pairedCompanies = str_extract_all(activeFile$Company, "(?<=Name: )(.*?)(?=;)")
+pairedCompanies = lapply(pairedCompanies, function(x){
+  x[grep("Ford Motor Co", x, invert = TRUE)]
+})
+
+sort(table(unlist(pairedCompanies)), decreasing = TRUE)[-1]
