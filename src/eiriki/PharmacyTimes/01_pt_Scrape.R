@@ -11,15 +11,21 @@ pt_scrape <- function(link,n){
   PTLink <- read_html(new_link)
 
   #Get the entire body of product news text
-  pt <- PTLink %>%
-    html_node('.orangebt') %>%
-    html_text() %>%
-    str_trim()
-
   date <- PTLink %>%
     html_node('.detailPublished') %>%
     html_text() %>%
     str_trim()
 
-  write(pt, file = paste0("./data/business_innovation/working/PHARMACY_TIMES/OTC/",n,"PTscrape_", date,".txt"), append = FALSE) #run this line to write monthly data to a text file
+  data <- PTLink %>%
+    html_node('.orangebt') %>%
+    html_text() %>%
+    str_trim()
+
+  #make date recognizable every time
+  date = paste0("Date: ",date)
+  data = paste(date,data, sep= "\n")
+
+
+  write(data, file = paste0("./data/business_innovation/working/PHARMACY_TIMES/OTC/",sprintf("%03d", as.numeric(n)) ,"PTscrape_", date,".txt"), append = FALSE) #run this line to write monthly data to a text file
 }
+
