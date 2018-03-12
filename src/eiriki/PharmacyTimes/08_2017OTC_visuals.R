@@ -84,6 +84,8 @@ for(i in 1:length(data)){
   }
 }
 v$Company <- as.factor(v$Company)
+v$Date <- as.Date(v$Date, format = "%B %d, %Y")
+v$Year <- as.numeric(v$Year)
 
 #graphics
 pharmTimes <- table(v$Company)
@@ -93,7 +95,7 @@ colnames(pharmTimes) <- c("Company", "Freq")
 pharmTimes <- subset(pharmTimes, Freq >= 4)
 #ggplot2
 vis <- ggplot(pharmTimes,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq)) + geom_bar(stat= "identity") +
-  scale_y_continuous(limits = c(0,16)) +
+  scale_y_continuous(breaks = round(seq(0, max(pharmTimes$Freq), by = 1))) +
   theme_bw()+
   theme(title = element_text(size=20), axis.text.x=element_text(size=16, face = 'bold'), axis.text.y = element_text(size = 15, face = 'bold'),
         axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
@@ -103,3 +105,12 @@ vis <- ggplot(pharmTimes,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq)) +
 vis
 #ggsave(vis, filename = "otc_2017.png",width=20,height=11.25,scale=1,path = "./src/eiriki/PharmacyTimes/")
 
+pfizertable = subset(v, v$Company == "Pfizer Consumer Healthcare")
+vis2 <- ggplot(pfizertable, aes(x=Date,y=Year)) + geom_histogram(stat= "identity") +
+  theme_bw()+
+  theme(title = element_text(size=20), axis.text.x=element_text(size=16, face = 'bold'), axis.text.y = element_text(size = 15, face = 'bold'),
+        axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
+  theme(plot.title = element_text(size = 28, face = 'bold'))+
+  theme(axis.text.x = element_text(angle = 40, hjust = 1)) + xlab("Company") +
+  ylab("Times Feautured in News Article") + ggtitle("Pfizer OTC Releases 2015-2017")
+vis2
