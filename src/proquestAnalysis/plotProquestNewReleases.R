@@ -9,13 +9,13 @@ library(lubridate)
 library(data.table)
 
 # upload cleaned data
-scrapedFiles = list.files("./data/business_innovation/working/proquestScrapes", full.names = TRUE)
+scrapedFiles = list.files("./data/business_innovation/working/ParsedVTLibData/Proquest", full.names = TRUE)
 ncompanies = length(scrapedFiles)
 keywords<-c("launch","new product","product release")
 pal <- rev(viridis_pal(alpha = 1, begin = 0, end = 1, direction = 1, option = "A")(10))[c(4,8)]
 
 # Set plotting parameters to loop over
-mains = c("Ford Motors", "General Motors", "GlaxoSmithKline", "Merck", "Novartis", "Pfizer", "Proctor & Gamble", "Tata Motors", "Toyota", "Volkswagen")
+mains = c("Ford Motors", "General Motors", "GlaxoSmithKline", "Merck", "NAICS 336111", "NAICS 511210", "NAICS 518210", "NAICS 541711", "NAICS 541712", "Novartis", "Pfizer", "Proctor & Gamble", "Tata Motors", "Toyota", "Volkswagen")
 
 for(i in 1:ncompanies){
   activeFile = fread(scrapedFiles[i], stringsAsFactors = FALSE)
@@ -47,7 +47,7 @@ for(i in 1:ncompanies){
 
 # Some other plots and summaries
 
-activeFile = fread(scrapedFiles[6], stringsAsFactors = FALSE)
+activeFile = fread(scrapedFiles[1], stringsAsFactors = FALSE)
 activeFile = unique(activeFile, by = 'Article.Title')
 
 # Look at companies mentioned at the same time as the main company
