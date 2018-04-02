@@ -35,5 +35,5 @@ master_list = data.frame(master_list, stringsAsFactors = F)
 
 #now we run the function on every single link provided: the text files for each month are stored separately
 for(k in 1:121){
-  pt_Rx_scrape(master_list[k,],k)
+  pt_RX_scrape(master_list[k,],k)
 }

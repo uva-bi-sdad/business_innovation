@@ -1,137 +1,236 @@
-#Prescription Drug Information Pharmacy times
+#this script is going back to the Pharmacy Times data and doing new visuals for 2013-2017
+#we have already done some for 2015 and 2017
 library(dplyr)
+library(plyr)
 library(stringr)
 library(ggplot2)
-#string we are trying to match
-market <- "Marketed"
-cap <-"MARKETED"
 
-#pull in all the 2015data
-pdat1 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/34PT_RX_scrape_JANUARY 11, 2015.txt", encoding = "UTF-8")
-pdat2 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/33PT_RX_scrape_FEBRUARY 11, 2015.txt", encoding = "UTF-8")
-pdat3 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/32PT_RX_scrape_MARCH 16, 2015.txt", encoding = "UTF-8")
-pdat4 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/31PT_RX_scrape_APRIL 10, 2015.txt", encoding = "UTF-8")
-pdat5 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/30PT_RX_scrape_MAY 13, 2015.txt", encoding = "UTF-8")
-pdat6 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/29PT_RX_scrape_JUNE 15, 2015.txt", encoding = "UTF-8")
-pdat7 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/28PT_RX_scrape_JULY 10, 2015.txt", encoding = "UTF-8")
-pdat8 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/27PT_RX_scrape_AUGUST 11, 2015.txt", encoding = "UTF-8")
-pdat9 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/26PT_RX_scrape_SEPTEMBER 09, 2015.txt", encoding = "UTF-8")
-pdat10 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/25PT_RX_scrape_OCTOBER 14, 2015.txt", encoding = "UTF-8")
-pdat11 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/24PT_RX_scrape_NOVEMBER 12, 2015.txt", encoding = "UTF-8")
-pdat12 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/23PT_RX_scrape_DECEMBER 16, 2015.txt", encoding = "UTF-8")
+#pull in all the data from OTC Pharmacy times
+file_list <- list.files("./data/business_innovation/working/PHARMACY_TIMES/Rx/", pattern="*.txt")
+data = data.frame("temp" = c(0))
 
-#2016 data
-pdat13 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/22PT_RX_scrape_JANUARY 18, 2016.txt", encoding = "UTF-8")
-pdat14 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/21PT_RX_scrape_FEBRUARY 12, 2016.txt", encoding = "UTF-8")
-pdat15 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/20PT_RX_scrape_MARCH 15, 2016.txt", encoding = "UTF-8")
-pdat16 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/19PT_RX_scrape_APRIL 08, 2016.txt", encoding = "UTF-8")
-pdat17 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/18PT_RX_scrape_MAY 13, 2016.txt", encoding = "UTF-8")
-pdat18 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/17PT_RX_scrape_JUNE 10, 2016.txt", encoding = "UTF-8")
-pdat19 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/16PT_RX_scrape_JULY 14, 2016.txt", encoding = "UTF-8")
-pdat20 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/15PT_RX_scrape_AUGUST 18, 2016.txt", encoding = "UTF-8")
-pdat21 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/14PT_RX_scrape_SEPTEMBER 16, 2016.txt", encoding = "UTF-8")
-pdat22 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/13PT_RX_scrape_OCTOBER 17, 2016.txt", encoding = "UTF-8")
-pdat23 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/12PT_RX_scrape_NOVEMBER 20, 2016.txt", encoding = "UTF-8")
-pdat24 <- readLines("./data/business_innovation/working/PHARMACY_TIMES/Rx/11PT_RX_scrape_DECEMBER 08, 2016.txt", encoding = "UTF-8")
-
-
-#store all the text containing "Marketed" in separate lists
-pdat1 <- data.frame("Company" = str_subset(pdat1,market))
-pdat2 <- data.frame("Company" = str_subset(pdat2,market))
-pdat3 <- data.frame("Company" = str_subset(pdat3,market))
-pdat4 <- data.frame("Company" = str_subset(pdat4,market))
-pdat5 <- data.frame("Company" = str_subset(pdat5,market))
-pdat6 <- data.frame("Company" = str_subset(pdat6,market))
-pdat7 <- data.frame("Company" = str_subset(pdat7,market))
-pdat8 <- data.frame("Company" = str_subset(pdat8,market))
-pdat9 <- data.frame("Company" = str_subset(pdat9,market))
-pdat10 <- data.frame("Company" = str_subset(pdat10,market))
-pdat11 <- data.frame("Company" = str_subset(pdat11,market))
-pdat12 <- data.frame("Company" = str_subset(pdat12,market))
-
-#Marketed match again, but for 2016
-pdat130 <- data.frame("Company" = str_subset(pdat13,market))
-pdat140 <- data.frame("Company" = str_subset(pdat14,market))
-pdat150 <- data.frame("Company" = str_subset(pdat15,market))
-pdat160 <- data.frame("Company" = str_subset(pdat16,market))
-pdat170 <- data.frame("Company" = str_subset(pdat17,market))
-pdat180 <- data.frame("Company" = str_subset(pdat18,market))
-pdat190 <- data.frame("Company" = str_subset(pdat19,market))
-pdat200 <- data.frame("Company" = str_subset(pdat20,market))
-pdat210 <- data.frame("Company" = str_subset(pdat21,market))
-pdat220 <- data.frame("Company" = str_subset(pdat22,market))
-pdat230 <- data.frame("Company" = str_subset(pdat23,market))
-pdat240 <- data.frame("Company" = str_subset(pdat24,market))
-#Account for change of format "MARKETED"
-pdat131 <- data.frame("Company" = str_subset(pdat13,cap))
-pdat141 <- data.frame("Company" = str_subset(pdat14,cap))
-pdat151 <- data.frame("Company" = str_subset(pdat15,cap))
-pdat161 <- data.frame("Company" = str_subset(pdat16,cap))
-pdat171 <- data.frame("Company" = str_subset(pdat17,cap))
-pdat181 <- data.frame("Company" = str_subset(pdat18,cap))
-pdat191 <- data.frame("Company" = str_subset(pdat19,cap))
-pdat201 <- data.frame("Company" = str_subset(pdat20,cap))
-pdat211 <- data.frame("Company" = str_subset(pdat21,cap))
-pdat221 <- data.frame("Company" = str_subset(pdat22,cap))
-pdat231 <- data.frame("Company" = str_subset(pdat23,cap))
-pdat241 <- data.frame("Company" = str_subset(pdat24,cap))
-
-#bind into one data frame
-x <- data.frame("Company" = c(0))
-x <- rbind(pdat1,pdat2,pdat3,pdat4,pdat5,pdat6,pdat7,pdat8,pdat9,pdat10,pdat11,pdat12)
-
-y <- data.frame("Company" = c(0))
-y <- rbind(pdat130,pdat140,pdat150,pdat160,pdat170,pdat180,pdat190,pdat200,pdat210,pdat220,pdat230,pdat240)
-y <- rbind(y,pdat131,pdat141,pdat151,pdat161,pdat171,pdat181,pdat191,pdat201,pdat211,pdat221,pdat231,pdat241)
-x$Company <- as.character(x$Company) #no factors yet
-y$Company <- as.character(y$Company)
-#this section below is using stringr to extract company names
-for(i in 1:length(x$Company)){
-  x$Company[i] <- str_extract(x$Company[i], '(?<=:\\s)\\S+')
+for (i in 1:length(file_list)){
+  temp <- readLines(paste0("./data/business_innovation/working/PHARMACY_TIMES/Rx/",file_list[i]), encoding = "UTF-8")
+  temp <- data.frame(temp)
+  data = rbind(data,temp)
 }
-for(i in 1:length(y$Company)){
-  y$Company[i] <- str_extract(y$Company[i], '(?<=:\\s)\\S+')
+data = data[-1,] #get rid of the fist row, it will always be empty
+
+#set up "empty" data frame
+v = data.frame("Drug Name" = c(1:length(data)), "Company" = c(1:length(data)), "Date" = c(1:length(data)),
+               "Year" = c(1:length(data)))
+#fill frame with NA
+for(i in 1:length(data)){
+  v$Drug.Name[i] = NA
+  v$Company[i] = NA
+  v$Date[i] = NA
+  v$Year[i] = NA
 }
-#put back into factor format
-x$Company <- as.factor(x$Company)
-y$Company <- as.factor(y$Company)
-#quick fix for company names
-x$Company <- plyr::revalue(x$Company, c('Actavis,' = "Actavis", 'ActavisIndication:' = "Actavis", Bayer = "Bayer Consumer Healthcare", Galderma = "Galderma Laboratories",
-                                        'Amgen,' = "Amgen", 'Eisai,' = "Essai", 'NovartisIndication:' = "Novartis"))
+date = "0" #need an initial value for date and year
+year = "0"
 
-y$Company <- plyr::revalue(y$Company, c('Actavis,' = "Actavis", 'ActavisIndication:' = "Actavis", Bayer = "Bayer Consumer Healthcare", Galderma = "Galderma Laboratories",
-                                        'Amgen,' = "Amgen", 'Eisai,' = "Essai", 'NovartisIndication:' = "Novartis", 'AllerganIndication:' = "Allergan",
-                                        'AllerganINDICATION:' = "Allergan", 'GlaxoSmithKlineIndication:' = "GlaxoSmithKline",
-                                        'JanssenINDICATION:' = "Janssen", 'PfizerIndication:' = "Pfizer", Eli = "Eli Lilly"))
+#this block is sacred#################################
+for(i in 1:length(data)){
+  #whenever we see "Date:", we want to reset variable date to know it's a new article
+  if (str_detect(data[i], 'Date: ')){
+    date = str_extract(data[i], '(?<=(Date: )).*')
+    year = str_extract(date, '(?<=(, )).*')
+    #this bool handles the first drug in 2015 and 2016 articles, they appear right below the date
+    first = TRUE
+    next() #this goes to the next iteration of the for loop
+  }
+  #when making a data table, we extract information according to patterns in data storage.
+  #since this text data is stored with various patterns, we do it based on year since each year seems to have
+  #somewhat of a storage pattern.
+  if(date == "JANUARY 09, 2015"){ #all special cases for the first script
+    #if right after a date, perform a certain pattern.
+    if(first == TRUE){
+      v$Drug.Name[i] <- str_extract(data[i], '.*(?=(Marketed|marketed))')
+      v$Company[i] <- str_extract(data[i], '(?<=(\\by: |\\BY: |\\By: )).*')
+      v$Date[i] = date
+      v$Year[i] = year
+      first = FALSE
+      next()
+    }
+    first_reg <- str_extract(data[i], '(?<=(\\.com)).*')
+    v$Drug.Name[i] <- str_extract(first_reg, '[^a-z\\-\\/]+([A-Z]*[A-z\\’\\-\\&0-9_\\s]*)*')
+    v$Company[i] <- str_extract(data[i+1], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+    #case for when there are multiple '.com's in a product description
+    if(is.na(v$Drug.Name[i]) || nchar(v$Drug.Name[i]) >= 40){
+      first_reg <- str_extract(data[i], '(?<=(\\www.)).*')
+      v$Drug.Name[i] <- str_extract(first_reg, '(?<=(\\.com)).*')
+    }
+    #case for the second product after date: See January
+    if(is.na(v$Drug.Name[i])){
+      v$Drug.Name[i] <- str_extract(data[i], '^.*(?=Marketed|MARKETED)')
+    }
+    #case for if the company is on the same line as the product name
+    if(is.na(v$Company[i])){
+      v$Company[i] <- str_extract(data[i], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+    }
+  }
+  if(date == "DECEMBER 05, 2016"){ #special cases for the last in 2016
+    #if right after a date, perform a certain pattern.
+    if(first == TRUE){
+      v$Drug.Name[i] <- str_extract(data[i], '.*(?=(Marketed|marketed))')
+      v$Company[i] <- str_extract(data[i], '(?<=(\\by:|\\BY:|\\By:)).*')
+      v$Date[i] = date
+      v$Year[i] = year
+      first = FALSE
+      next()
+    }
+    v$Drug.Name[i] <- str_extract(data[i], '.*(?=(Marketed|marketed))')
+    v$Company[i] <- str_extract(data[i], '(?<=(\\by:|\\BY:|\\By:)).*')
+  }
 
-pharmTimes15 <- table(x)
-pharmTimes15 <- as.data.frame(pharmTimes15)
-pharmTimes16 <- table(y)
-pharmTimes16 <- as.data.frame(pharmTimes16)
-colnames(pharmTimes15) <- c("Company", "Freq")
-colnames(pharmTimes16) <- c("Company", "Freq")
-#sort only top companies of 2015
-pharmTimes15 <- subset(pharmTimes15, Freq >= 2)
-pharmTimes16 <- subset(pharmTimes16, Freq >= 2)
-#ggplot2
-vis <- ggplot(pharmTimes15,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq)) + geom_bar(stat= "identity") +
-  scale_y_continuous(breaks = round(seq(0, max(pharmTimes15$Freq), by = 1),1)) +
+  else if(year == "2015"){ #all cases for the rest of 2015
+    #if right after a date, perform a certain pattern.
+    if(first == TRUE){
+      v$Drug.Name[i] <- str_extract(data[i], '.*')
+      v$Company[i] <- str_extract(data[i+1], '(?<=(\\by: |\\BY: |\\By: )).*')
+      v$Date[i] = date
+      v$Year[i] = year
+      first = FALSE
+      next()
+    }
+    first_reg <- str_extract(data[i], '(?<=(\\www.)).*')
+    first_reg<- str_extract(first_reg, '(?<=(\\.com)).*')
+    v$Drug.Name[i] <- str_extract(first_reg, '[^a-z\\-\\/]+([A-Z]*[A-z\\’\\-\\&0-9_\\s]*)')
+    if(is.na(v$Drug.Name[i])){
+      v$Drug.Name[i] <- first_reg
+    }
+    v$Company[i] <- str_extract(data[i+1], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+  }
+  else if(year == "2016" || year == "2017"){ #all cases for 2016
+    #if right after a date, perform a certain pattern.
+    if(first == TRUE){
+      v$Drug.Name[i] <- str_extract(data[i], '.*')
+      v$Company[i] <- str_extract(data[i+1], '(?<=(\\by: |\\BY: |\\By: )).*')
+      v$Date[i] = date
+      v$Year[i] = year
+      first = FALSE
+      next()
+    }
+    first_reg<- str_extract(data[i], '(?<=(\\.com)).*')
+    v$Drug.Name[i] <- first_reg
+    # v$Drug.Name[i] <- str_extract(first_reg, '[^a-z\\-\\/]+([A-Z]*[A-z\\’\\-\\&0-9_\\s]*)')
+    # if(is.na(v$Drug.Name[i])){
+    #   v$Drug.Name[i] <- first_reg
+    # }
+    v$Company[i] <- str_extract(data[i+1], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+  }
+  else if(year == "2014" || year == "2013"){ #all cases for 2014 and 2013
+    #if right after a date, perform a certain pattern.
+    if(first == TRUE){
+      v$Drug.Name[i] <- str_extract(data[i], '^.*(?=Marketed | MARKETED)')
+      v$Company[i] <- str_extract(data[i], '(?<=(\\by: |\\BY: |\\By: )).*')
+      v$Date[i] = date
+      v$Year[i] = year
+      first = FALSE
+      next()
+    }
+    first_reg<- str_extract(data[i], '(?<=(\\.com)).*')
+    if (grepl("(Marketed|MARKETED|Manufactured)",first_reg)){
+      first_reg <- str_extract(data[i], '^.*(?=Marketed|MARKETED|Manufactured)')
+      v$Drug.Name[i] <- first_reg
+      v$Company[i] <- str_extract(data[i], '(?<=(\\by: |\\BY: |\\By: )).*')
+      next()
+    }
+    v$Drug.Name[i] <- first_reg
+    # v$Drug.Name[i] <- str_extract(first_reg, '[^a-z\\-\\/]+([A-Z]*[A-z\\’\\-\\&0-9_\\s]*)')
+    # if(is.na(v$Drug.Name[i])){
+    #   v$Drug.Name[i] <- first_reg
+    # }
+
+    v$Company[i] <- str_extract(data[i+1], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+  }
+
+  # else if(year == "2017"){
+  #   v$Drug.Name[i] <- str_extract(data[i], '^.*(?=Marketed | MARKETED)')
+  #   v$Company[i] <- str_extract(data[i], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+  #   v$Date[i] = date
+  #   v$Year[i] = year
+  #   #if our text is formatted strange and drug name return NA, the name is usually pinned between 'Marketed By' and '.com'
+  #   if (is.na(v$Drug.Name[i])){
+  #     v$Drug.Name[i] <- str_extract(data[i], '(?<=(\\.com)).*')
+  #     v$Drug.Name[i] <- str_extract(v$Drug.Name[i], '[^a-z\\-\\/]+([A-Z]*[A-z\\’\\-\\&0-9_\\s]*)*')
+  #     v$Company[i] <- str_extract(data[i], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+
+  #   }
+  # }
+  # v$Drug.Name[i] <- str_extract(data[i], '^.*(?=Marketed | MARKETED)')
+  # v$Company[i] <- str_extract(data[i], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+  # v$Date[i] = date
+  # #if our text is formatted strange and drug name return NA, the name is usually pinned between 'Marketed By' and '.com'
+  # if (is.na(v$Drug.Name[i])){
+  #   v$Drug.Name[i] <- str_extract(data[i], '(?<=(com))(.*?)(?=Marketed | MARKETED)')
+  #   v$Company[i] <- str_extract(data[i], '(?<=By: |by: |BY: )(?s)((?:\\S+\\s+){0,3}\\S+)')
+  #
+  # }
+  v$Date[i] = date
+  v$Year[i] = year
+}
+#This BLOCK IS SACRED###################################
+v <- v[complete.cases(v),] #this gets rid of any row with NA's. Consider replacing loop above once done
+v <- na.omit(v)
+v$Company <- as.factor(v$Company)
+v$Date <- as.Date(v$Date, format = "%B %d, %Y")
+v$Year <- as.numeric(v$Year)
+
+#graphics - ####################################################MOVE TO ANOTHER FILE
+# pharmTimes <- table(v$Company)
+# pharmTimes <- as.data.frame(pharmTimes)
+# colnames(pharmTimes) <- c("Company", "Freq")
+# #sort only top companies of 2015
+# pharmTimes <- subset(pharmTimes, Freq >= 4)
+# #ggplot2
+# vis <- ggplot(pharmTimes,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq)) + geom_bar(stat= "identity") +
+#   scale_y_continuous(breaks = round(seq(0, max(pharmTimes$Freq), by = 1))) +
+#   theme_bw()+
+#   theme(title = element_text(size=20), axis.text.x=element_text(size=16, face = 'bold'), axis.text.y = element_text(size = 15, face = 'bold'),
+#         axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
+#   theme(plot.title = element_text(size = 28, face = 'bold'))+
+#   theme(axis.text.x = element_text(angle = 40, hjust = 1)) + xlab("Company") +
+#   ylab("Times Feautured in News Article") + ggtitle("Top Companies in Pharmacy Times OTC Product News 2015-2017")
+# vis
+# #ggsave(vis, filename = "otc_2017.png",width=20,height=11.25,scale=1,path = "./src/eiriki/PharmacyTimes/")
+#
+# pfizertable = subset(v, v$Company == "Pfizer Consumer Healthcare")
+# vis2 <- ggplot(pfizertable, aes(x=Date,y=Year)) + geom_histogram(stat= "identity") +
+#   theme_bw()+
+#   theme(title = element_text(size=20), axis.text.x=element_text(size=16, face = 'bold'), axis.text.y = element_text(size = 15, face = 'bold'),
+#         axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
+#   theme(plot.title = element_text(size = 28, face = 'bold'))+
+#   theme(axis.text.x = element_text(angle = 40, hjust = 1)) + xlab("Company") +
+#   ylab("Times Feautured in News Article") + ggtitle("Pfizer OTC Releases 2015-2017")
+# vis2
+
+#stacked bar
+pharmTimes <- table(v$Company, v$Year)
+pharmTimes <- as.data.frame(pharmTimes)
+pharmTimes <- subset(pharmTimes, Freq >= 2)
+colnames(pharmTimes) <- c("Company", "Year", "Freq")
+pharmTimes["max"] = c(0)
+max <- table(v$Company)
+max <- as.data.frame(max)
+colnames(max) <- c("Company", "Freq")
+max <- subset(max,  max$Freq >= 2)
+
+for (i in 1:nrow(pharmTimes)){
+  for (k in 1:nrow(max)){
+    if (pharmTimes$Company[i] == max$Company[k]){
+      pharmTimes$max[i] = max$Freq[k]
+    }
+  }
+}
+
+vis <- ggplot(pharmTimes,aes(x= reorder(Company, -as.numeric(max)),y=Freq)) + geom_col(aes(fill = Year)) +
+  scale_y_continuous(breaks = round(seq(0, 15, by = 1))) +
   theme_bw()+
-  theme(title = element_text(size=20), axis.text.x=element_text(size=10, face = 'bold'), axis.text.y = element_text(size = 10, face = 'bold'),
+  theme(title = element_text(size=20), axis.text.x=element_text(size=18, face = 'bold'), axis.text.y = element_text(size = 17, face = 'bold'),
         axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
-  theme(plot.title = element_text(size = 20, face = 'bold'))+
-  theme(axis.text.x = element_text(angle = 40, hjust = 1)) + xlab("Company") +
-  ylab("Times Feautured in News Article") + ggtitle("Top Companies in Pharmacy Times Rx Product News 2015")
+  theme(plot.title = element_text(size = 28, face = 'bold'))+
+  theme(legend.text=element_text(size=17))+
+  theme(axis.text.x = element_text(angle = -35, hjust = 0)) + xlab("Company") +
+  ylab("Times Featured in News Article") + ggtitle("Top Companies in Pharmacy Times OTC Product News 2013-2017")
 vis
-#ggsave(vis, filename = "otc_2015.png",width=20,height=11.25,scale=1,path = "./src/eiriki/")
-
-#2016 visualization
-vis2 <- ggplot(pharmTimes16,aes(x= reorder(Company, -as.numeric(Freq)), y= Freq)) + geom_bar(stat= "identity") +
-  scale_y_continuous(breaks = round(seq(0, max(pharmTimes16$Freq), by = 1),1)) +
-  theme_bw()+
-  theme(title = element_text(size=20), axis.text.x=element_text(size=10, face = 'bold'), axis.text.y = element_text(size = 10, face = 'bold'),
-        axis.title.x = element_text(size = 17, face = 'bold'),axis.title.y = element_text(size = 17, face = 'bold'))+
-  theme(plot.title = element_text(size = 20, face = 'bold'))+
-  theme(axis.text.x = element_text(angle = 40, hjust = 1)) + xlab("Company") +
-  ylab("Times Feautured in News Article") + ggtitle("Top Companies in Pharmacy Times Rx Product News 2016")
-vis2

@@ -1,13 +1,15 @@
+#this script will do bolded words for pharmacy times
 #Code to scrape the pharmaceutical Trade Journal, Pharmacy Times
 library(RCurl)
 library(xml2)
 library(stringr)
 library(rvest)
 library(jsonlite)
+
 #this function takes a pharmacy times link, and also a counter integer n that is meant to help with text file output
-pt_RX_scrape <- function(link,n){
+#pt_RX_scrape <- function(link,n){
   #get the link to scrape from
-  new_link <- paste("http://www.pharmacytimes.com", link, sep ="")
+  new_link <- "http://www.pharmacytimes.com/publications/issue/2018/february2018/rx-product-news-february-2018"
   PTLink <- read_html(new_link)
 
   #Get the entire body of product news text
@@ -38,6 +40,5 @@ pt_RX_scrape <- function(link,n){
   data[1] = frame_date #first entry is date
   data[2:length(data)] = bod
 
-
-  write(data, file = paste0("./data/business_innovation/working/PHARMACY_TIMES/Rx/",sprintf("%03d", as.numeric(n)) ,"RXscrape_", date,".txt"), append = FALSE) #run this line to write monthly data to a text file
-}
+  #write(data, file = paste0("./data/business_innovation/working/PHARMACY_TIMES/Rx/",sprintf("%03d", as.numeric(n)) ,"RXscrape_", date,".txt"), append = FALSE) #run this line to write monthly data to a text file
+#}
