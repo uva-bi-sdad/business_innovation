@@ -58,15 +58,17 @@ length(ciks_20f)
 
 
 ## FOR TESTING PATTERNS
-regex <- buildRegexPattern("&#174;", " ", " ")
+regex <- buildRegexPattern("&#174;", " ", "")
 regex2 <- buildRegexPattern(".{10}&#174;.{10}", " ", " ")
-f <- find_occurences(ciks_10k[2], 2014, "10-K", regex2)
+
+f <- unique(find_occurences(ciks_10k[2], 2014, "10-K", regex))
+
+
 
 ##LOOP FOR ALL COMPANIES
 length(ciks_10k)
 head(ciks_10k)
 
-regex <- buildRegexPattern("&#174;", " ", " ")
 outmatrix <- matrix("NA", nrow=length(ciks_10k), ncol = 7)
 head(outmatrix)
 colnames(outmatrix) <- c("cik","numDrugs_2013", "numDrugs_2014", "numDrugs_2015", "Drugs_2013","Drugs_2014","Drugs_2015")
@@ -76,7 +78,9 @@ y <- 1
 for(i in 1:length(ciks_10k)) {
   for(y in c(1:3)){
     outmatrix[i,1] <- ciks_10k[i]
-    f <- find_occurences(ciks_10k[i], yrs[y], "10-K", regex)
+    f <- unique(find_occurences(ciks_10k[i], yrs[y], "10-K", regex))
+    g <- unique(gsub("\n","",f))
+
     g <- gsub('[[:punct:] ]+',' ',unique(f))
     h <- gsub(c("SUP"),"",unique(g))
     h <- gsub(c("sup"),"",h)
