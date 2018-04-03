@@ -18,11 +18,11 @@ searchFilings(ciks, yrs, frms, search_patterns)
 # searchFilings(ciks, yrs, frms[1], search_patterns)
 
 
-files <- read.csv("Edgar_filenames.txt",sep="_", col.names = F)
+files <- read.csv("Edgar_filenames.txt",sep="_", header = F)
 head(files)
-files_10k <- files[which(files$"X10.K" == "10-K"),]
+files_10k <- files[which(files$"V2" == "10-K"),]
 dim(files_10k)
-files_20f<- files[which(files$"X10.K" == "20-F"),]
+files_20f<- files[which(files$"V2" == "20-F"),]
 dim(files_20f)
 
 ciks_10k <- unique(files_10k[,1])
