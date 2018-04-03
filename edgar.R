@@ -17,7 +17,7 @@ search_patterns <- data.table::fread("search_patterns.csv")
 searchFilings(ciks, yrs, frms, search_patterns)
 # searchFilings(ciks, yrs, frms[1], search_patterns)
 
-
+#list.files("./Edgar filings/")
 files <- read.csv("Edgar_filenames.txt",sep="_", header = F)
 head(files)
 files_10k <- files[which(files$"V2" == "10-K"),]
@@ -59,7 +59,7 @@ length(ciks_20f)
 
 ## FOR TESTING PATTERNS
 regex <- buildRegexPattern("&#174;", " ", " ")
-f <- find_occurences(1001316, 2014, "10-K", regex)
+f <- find_occurences(ciks_10k[2], 2014, "10-K", regex)
 
 
 ##LOOP FOR ALL COMPANIES
