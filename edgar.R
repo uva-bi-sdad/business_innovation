@@ -59,8 +59,8 @@ length(ciks_20f)
 
 ## FOR TESTING PATTERNS
 regex <- buildRegexPattern("&#174;", " ", " ")
-f <- find_occurences(ciks_10k[2], 2014, "10-K", regex)
-
+regex2 <- buildRegexPattern(".{10}&#174;.{10}", " ", " ")
+f <- find_occurences(ciks_10k[2], 2014, "10-K", regex2)
 
 ##LOOP FOR ALL COMPANIES
 length(ciks_10k)
