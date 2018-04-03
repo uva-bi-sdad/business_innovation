@@ -25,10 +25,31 @@ dim(files_10k)
 files_20f<- files[which(files$"V2" == "20-F"),]
 dim(files_20f)
 
-ciks_10k <- unique(files_10k[,1])
+head(files_10k)
+files_10k[,1] <- as.character(files_10k[,1])
+
+#find the ciks with sec's for 2013 through 2015
+files_10k <- files_10k[which(files_10k$V3 %in% c("2013","2014","2015")),]
+dim(files_10k)
+
+#find the ciks with sec's for all years (to remove the others)
+install.packages("dplyr")
+library(dplyr)
+library(plyr)
+files_10k_yrs <- ddply(files_10k, "V1", summarise,
+               num_yrs = length(V3))
+
+#files_10k_yrs <- files_10k %>%
+#  group_by(V1) %>%  summarise(yrs = length(V3))
+
+files_10k_3yrs <- files_10k_yrs[which(files_10k_yrs$num_yrs == 3),]
+dim(files_10k_3yrs)
+#374
+
+ciks_10k <- unique(files_10k_3yrs$V1)
 length(ciks_10k)
 #702
-ciks_10k <- ciks_10k[which(ciks_10k != "1012477")]
+#374
 
 
 ciks_20f <- unique(files_20f[,1])
@@ -38,18 +59,8 @@ length(ciks_20f)
 
 ## FOR TESTING PATTERNS
 regex <- buildRegexPattern("&#174;", " ", " ")
-
 f <- find_occurences(1001316, 2014, "10-K", regex)
 
-g <- gsub('[[:punct:] ]+',' ',unique(f))
-h <- gsub(c("SUP"),"",unique(g))
-j <- gsub("174","",unique(h))
-k <- gsub("\n","",unique(j))
-unique(k)
-#stripWhitespace(k)
-l <- gsub(" ","",unique(k))
-
-unique(l)
 
 ##LOOP FOR ALL COMPANIES
 length(ciks_10k)
@@ -85,8 +96,9 @@ for(i in 1:length(ciks_10k)) {
     unique(k)
   #stripWhitespace(k)
     l <- gsub(" ","",unique(k))
-    outmatrix[i,y+1] <- length(unique(l))
-    outmatrix[i,y+4] <- paste(unique(l),collapse="_")
+    outmatrix[i,y+1] <- length(unique(l[nchar(l) > 0]))
+    outmatrix[i,y+4] <- paste(unique(l[nchar(l) > 0]),collapse="_")
+    print(i)
   }
 }
 
