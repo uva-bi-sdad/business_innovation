@@ -23,13 +23,29 @@ pt_RX_scrape <- function(link,n){
   i =1
   bod = c() #this while loop goes through the body contents, and if we see "manufactured", get the company on next line
   while(i < length(dat)){
-    if(str_detect(str_to_lower(dat[i]), "manufactured")){
-      bod[i]=html_text(dat[i])
-      bod[i+1]=html_text(dat[i+1])
+    if(str_detect(str_to_lower(dat[i]), "manufactured|marketed")){
+      bod[i]=html_text(dat[i])%>%
+        str_trim()
+      #handle case if NA drug
+      if(str_to_lower(bod[i]) == "marketed by:" || str_to_lower(bod[i]) == "marketed by: "){
+        bod[i]=html_text(dat[i-2])%>%
+          str_trim()
+        bod[i+1]=html_text(dat[i])%>%
+          str_trim()
+        bod[i+2]=html_text(dat[i+1])%>%
+          str_trim()
+        i = i +3
+        next()
+      }
+      bod[i+1]=html_text(dat[i+1])%>%
+        str_trim()
       i = i +2
       next()
     }
     i = i +1
+  }
+  if(length(bod)==0){ #if we don't find the info we are looking for, mark for deletion
+    bod[1] = "IGNORE"
   }
   bod = bod[complete.cases(bod)]
 

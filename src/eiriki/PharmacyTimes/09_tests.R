@@ -9,7 +9,7 @@ library(jsonlite)
 #this function takes a pharmacy times link, and also a counter integer n that is meant to help with text file output
 #pt_RX_scrape <- function(link,n){
   #get the link to scrape from
-  new_link <- "http://www.pharmacytimes.com/publications/issue/2018/february2018/rx-product-news-february-2018"
+  new_link <- "http://www.pharmacytimes.com/publications/issue/2017/january2017/rx-product-updates-january-2017"
   PTLink <- read_html(new_link)
 
   #Get the entire body of product news text
@@ -25,13 +25,24 @@ library(jsonlite)
   i =1
   bod = c() #this while loop goes through the body contents, and if we see "manufactured", get the company on next line
   while(i < length(dat)){
-    if(str_detect(str_to_lower(dat[i]), "manufactured")){
+    if(str_detect(str_to_lower(dat[i]), "manufactured|marketed")){
       bod[i]=html_text(dat[i])
+      #handle case if NA drug
+      if(str_to_lower(bod[i]) == "marketed by:" || str_to_lower(bod[i]) == "marketed by: "){
+        bod[i]=html_text(dat[i-2])
+        bod[i+1]=html_text(dat[i])
+        bod[i+2]=html_text(dat[i+1])
+        i = i +3
+        next()
+      }
       bod[i+1]=html_text(dat[i+1])
       i = i +2
       next()
     }
     i = i +1
+  }
+  if(length(bod)==0){ #if we don't find the info we are looking for, mark for deletion
+   bod[1] = "IGNORE"
   }
   bod = bod[complete.cases(bod)]
 
