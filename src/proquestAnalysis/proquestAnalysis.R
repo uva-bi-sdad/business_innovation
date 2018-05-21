@@ -10,8 +10,29 @@ library(data.table)
 library(forcats)
 library(xtable)
 
+articlesByCompany = function(infile, keywords){
+
+  # Find top companies and compute the number of articles they're in
+  activeFile = unique(fread(infile), by = 'Article.Title')
+  companyList = str_extract_all(activeFile$Company, "(?<=Name: )(.*?)(?=;)")
+  articleIndicator = rep(1:length(companyList), sapply(companyList, length))
+  year = factor(rep(year(activeFile$Publication.date), sapply(companyList, length)), levels = c("2015", "2014", "2013"))
+  companyByArticle = data.table(article = articleIndicator, company = unlist(companyList), year = year)
+  articlesPerCompany = arrange(companyByArticle[,.N, by = company], -N)
+
+  # Do the same but for articles which mention a launch
+  activeFile = activeFile[grepl(paste(keywords, collapse = '|'), activeFile$Full.Text),]
+  companyList = str_extract_all(activeFile$Company, "(?<=Name: )(.*?)(?=;)")
+  articleIndicator = rep(1:length(companyList), sapply(companyList, length))
+  year = factor(rep(year(activeFile$Publication.date), sapply(companyList, length)), levels = c("2015", "2014", "2013"))
+  companyByArticle = data.table(article = articleIndicator, company = unlist(companyList), year = year)
+  articlesPerCompanyMentions = arrange(companyByArticle[,.N, by = company], -N)
+  return(list(articlesPerCompany = data.table(articlesPerCompany), innovationArticlesPerCompany = data.table(articlesPerCompanyMentions), mentionsByCompanyAndYear = data.table(companyByArticle)))
+}
+
+
 # upload cleaned data
-scrapedFiles = list.files("./data/business_innovation/working/ParsedVTLibData/Proquest", full.names = TRUE)
+scrapedFiles = list.files("./data/business_innovation/working/parsedProquestData/", full.names = TRUE)
 ncompanies = length(scrapedFiles)
 keywords<-c("launch","new product","product release")
 pal <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
@@ -22,29 +43,28 @@ companyNaics = fread("./data/business_innovation/working/companyToNaicsProQuest.
 
 # For auto (then the other codes) find out what company each article is about. Then for each company, count the number of innovation articles
 
-# 1) Each article has a list of companies attached. Count the number of times the company appears in the text body and say that the model company is the subject of the article. Only do this for 'innovation articles'.
+# 1) Each article has a list of companies attached. Count the number of times the company appears in the text body and say that the model company is the subject of the article. Do this for 'innovation articles' and all articles
 
-activeFile = unique(fread(scrapedFiles[6]), by = 'Article.Title')
-activeFile = activeFile[grepl(paste(keywords, collapse = '|'), activeFile$Full.Text),]
-
-companyList = str_extract_all(activeFile$Company, "(?<=Name: )(.*?)(?=;)")
+autoCompanies = articlesByCompany(scrapedFiles[6], keywords)
 
 # Because company names don't exactly show up as listed in the Company column, we need a function which takes a company name and makes some good regex
 # The above proved to be hard, so I'm just doing companies by article for now.
 
 # This makes a table of 1) indicators for each article and 2) companies that show in that article
-articleIndicator = rep(1:length(companyList), sapply(companyList, length))
-year = factor(rep(year(activeFile$Publication.date), sapply(companyList, length)), levels = c("2015", "2014", "2013"))
-companyByArticle = data.table(article = articleIndicator, company = unlist(companyList), year = year)
 
-# Find top 13 companies
-articlesPerCompany = arrange(companyByArticle[,.N, by = company], -N)
-top13CompaniesNAICS = articlesPerCompany[1:13,]
-top13CompaniesNAICS$company = fct_infreq(top13CompaniesNAICS$company)
+autoInnoArticles = autoCompanies[[2]]
+autoAllArticles = autoCompanies[[1]]
+companyByArticleYear = autoCompanies[[3]]
+
+# Find top 13 companies and get their total counts
+top13CompaniesNAICS = autoInnoArticles[1:13,]
+top13CompaniesNAICS$company = fct_inorder(top13CompaniesNAICS$company)
+
+top13Counts = autoAllArticles[company %in% top13CompaniesNAICS$company]
 
 
 # Break out top 13 by year
-articlesPerCompanyYear = arrange(companyByArticle[company %in% top13CompaniesNAICS$company,.N, by = .(company, year)], -N)
+articlesPerCompanyYear = arrange(companyByArticleYear[company %in% top13CompaniesNAICS$company,.N, by = .(company, year)], -N)
 
 # Plot the top 13 companies from the NAICS code search
 
@@ -63,7 +83,7 @@ naicsInnovationPlot =
 
 # Make the above plot using data from the 5 companies we scraped individually
 
-autoFiles = list.files("./data/business_innovation/working/ParsedVTLibData/Proquest", full.names = TRUE)[c(1, 2, 14, 15, 16)]
+autoFiles = list.files("./data/business_innovation/working/parsedProquestData/", full.names = TRUE)[c(1, 2, 14, 15, 16)]
 keywords<-c("launch","new product","product release")
 
 # Set plotting parameters to loop over
@@ -107,25 +127,26 @@ dev.off()
 # MAKE THE SAME PLOTS AS ABOVE FOR PHARMA
 #
 
-activeFile = unique(fread(scrapedFiles[5]), by = 'Article.Title')
-activeFile = activeFile[grepl(paste(keywords, collapse = '|'), activeFile$Full.Text),]
-
-companyList = str_extract_all(activeFile$Company, "(?<=Name: )(.*?)(?=;)")
+pharmaCompanies = articlesByCompany(scrapedFiles[5], keywords)
 
 # Because company names don't exactly show up as listed in the Company column, we need a function which takes a company name and makes some good regex
 # The above proved to be hard, so I'm just doing companies by article for now.
 
 # This makes a table of 1) indicators for each article and 2) companies that show in that article
-articleIndicator = rep(1:length(companyList), sapply(companyList, length))
-year = factor(rep(year(activeFile$Publication.date), sapply(companyList, length)), levels = c("2015", "2014", "2013"))
-companyByArticle = data.table(article = articleIndicator, company = unlist(companyList), year = year)
 
-# Find top 13 companies
-articlesPerCompany = na.omit(arrange(companyByArticle[,.N, by = company], -N))
-top13CompaniesNAICS = articlesPerCompany[1:13,]
-top13CompaniesNAICS$company = fct_infreq(top13CompaniesNAICS$company)
+pharmaInnoArticles = pharmaCompanies[[2]]
+pharmaAllArticles = pharmaCompanies[[1]]
+companyByArticleYear = pharmaCompanies[[3]]
+
+# Find top 13 companies and get their total counts
+top13CompaniesNAICS = pharmaInnoArticles[1:13,]
+top13CompaniesNAICS$company = fct_inorder(top13CompaniesNAICS$company)
+
+top13Counts = pharmaAllArticles[company %in% top13CompaniesNAICS$company]
 
 
+# Break out top 13 by year
+articlesPerCompanyYear = arrange(companyByArticleYear[company %in% top13CompaniesNAICS$company,.N, by = .(company, year)], -N)
 # Break out top 13 by year and rename some long ones
 articlesPerCompanyYear = na.omit(arrange(companyByArticle[company %in% top13CompaniesNAICS$company,.N, by = .(company, year)], -N))
 articlesPerCompanyYear$company[articlesPerCompanyYear$company == "Gilead Sciences Inc"] = "Gilead"
@@ -148,7 +169,7 @@ naicsInnovationPlot =
 
 # Make the above plot using data from the 5 companies we scraped individually
 
-pharmaFiles = list.files("./data/business_innovation/working/ParsedVTLibData/Proquest", full.names = TRUE)[c(3, 4, 11, 12, 13)]
+pharmaFiles = list.files("./data/business_innovation/working/parsedProquestData/", full.names = TRUE)[c(3, 4, 11, 12, 13)]
 keywords<-c("launch","new product","product release")
 
 # Set plotting parameters to loop over
@@ -192,7 +213,7 @@ dev.off()
 # Write a function to make a basic summary of each scraped file
 #
 
-scrapedFiles = list.files("./data/business_innovation/working/ParsedVTLibData/Proquest", full.names = TRUE)
+scrapedFiles = list.files("./data/business_innovation/working/parsedProquestData/", full.names = TRUE)
 ncompanies = length(scrapedFiles)
 keywords<-c("launch","new product","product release")
 
@@ -236,15 +257,9 @@ extractUniqueCompanies = function(inFile){
 sapply(naicsFiles, extractUniqueCompanies)
 
 
-
-
-
 articleIndicator = rep(1:length(companyList), sapply(companyList, length))
 year = factor(rep(year(activeFile$Publication.date), sapply(companyList, length)), levels = c("2015", "2014", "2013"))
 companyByArticle = data.table(article = articleIndicator, company = unlist(companyList), year = year)
 
 # Find top 13 companies
 articlesPerCompany = arrange(companyByArticle[,.N, by = company], -N)
-
-
-
