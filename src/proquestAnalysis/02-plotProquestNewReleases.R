@@ -9,7 +9,7 @@ library(lubridate)
 library(data.table)
 
 # upload cleaned data
-scrapedFiles = list.files("./data/business_innovation/working/ParsedVTLibData/Proquest", full.names = TRUE)
+scrapedFiles = list.files("./data/business_innovation/working/parsedProquestData/", full.names = TRUE)
 ncompanies = length(scrapedFiles)
 keywords<-c("launch","new product","product release")
 pal <- rev(viridis_pal(alpha = 1, begin = 0, end = 1, direction = 1, option = "A")(10))[c(4,8)]

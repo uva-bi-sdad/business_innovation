@@ -12,7 +12,7 @@ library(xtable)
 
 
 # upload cleaned data
-scrapedFiles = list.files("./data/business_innovation/working/ParsedVTLibData/Proquest", full.names = TRUE)
+scrapedFiles = list.files("./data/business_innovation/working/parsedProquestData/", full.names = TRUE)
 ncompanies = length(scrapedFiles)
 keywords<-c("launch","new product","product release")
 
