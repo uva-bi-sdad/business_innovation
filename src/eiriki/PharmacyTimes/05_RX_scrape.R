@@ -4,22 +4,22 @@ library(xml2)
 library(stringr)
 library(rvest)
 library(jsonlite)
-source("01_pt_Scrape.R")
+source("src/eiriki/PharmacyTimes/04_ptRx_Scrape.R")
 
 #This section will focus on getting all Rx Product news links
 i=0
-otc_link = c()
+Rx_link = c()
 
 #Here, we grab the links to the first 10 pages of Rx product news. The data is missing past there: approx 2007
 for(i in 1:11){
-  otc_link[i] = paste("http://www.pharmacytimes.com/publications/issue/departments/rx-product-news?p=", i, sep = '')
+  Rx_link[i] = paste("http://www.pharmacytimes.com/publications/issue/departments/rx-product-news?p=", i, sep = '')
 }
 
 #Now we need to get each page link from the otclinks
 master_list = c()
 simple_list = c()
 for(i in 1:11){
-  page <- read_html(otc_link[i])
+  page <- read_html(Rx_link[i])
   simple_list = page %>%         #this gets the link of every otc news article on the current page
     html_nodes('.articleTitle') %>%
     html_nodes('a:nth-child(1)') %>%
@@ -34,6 +34,6 @@ for(i in 1:11){
 master_list = data.frame(master_list, stringsAsFactors = F)
 
 #now we run the function on every single link provided: the text files for each month are stored separately
-for(k in 1:121){
+for(k in 1:nrow(master_list)){
   pt_RX_scrape(master_list[k,],k)
 }
