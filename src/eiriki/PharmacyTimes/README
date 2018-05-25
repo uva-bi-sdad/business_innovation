@@ -1,0 +1,21 @@
+This is the source folder for Eirik Iversen
+
+Web scraping scripts:
+  01_pt_Scrape.R
+  02_OTC_Scrape.R
+  04_ptRxScrape.R
+  05_RX_Scrape.R
+
+  These scripts include two functions for web scraping, and two loops to get all the data into text format.
+
+Analysis scripts:
+  03_make_dframe.R
+  06_FDA_visuals.R
+  07_pt_RX_Visuals.R
+  08_2017OTC_visuals.R
+  09_tests.R
+  10_spreads.R
+
+  Files 03 and 06 were used in the Fall, and did not end up being used for the most recent presentation
+  07, 08 ,09 and 10 are the most relevant. Include putting text data into DataFrame, and then plotting
+  data / small exploratory work.
