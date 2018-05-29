@@ -1,0 +1,18 @@
+This folder includes all the scripts for scraping Pharmacy Today
+
+Scraping function:
+  01_pTodayScrape.R
+
+Scraping Script:
+  02_Search.R
+    loops through search results and gets article links, then applies function
+
+Analysis:
+  03_makeDFrame.R
+    compile text data into a DataFrame, then exploratory analysis and figures
+
+Data Comparison:
+  04_comparions.R
+    comparing FDA sources to Trade Journals. Lag time visualization
+
+Data folder should be moved to correct location!!!!

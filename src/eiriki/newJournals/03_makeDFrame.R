@@ -142,6 +142,7 @@ vis
 #interested companies visuals
 compData <- subset(v, (Year >= 2013))
 compData <- subset(compData, (Year < 2016))
+#write.csv(compData, file = "./data/business_innovation/working/PHARMACY_TODAY/pToday.csv")
 
 compData$Parent.Company <- str_replace_all(compData$Parent.Company, ": ", "")
 compData$Parent.Company <- str_replace_all(compData$Parent.Company, "(?<=(Baxter)).*", "")
