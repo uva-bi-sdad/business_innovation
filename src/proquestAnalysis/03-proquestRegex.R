@@ -10,25 +10,7 @@ library(data.table)
 library(forcats)
 library(xtable)
 
-
-# upload cleaned data
-scrapedFiles = list.files("./data/business_innovation/working/parsedProquestData/", full.names = TRUE)
-ncompanies = length(scrapedFiles)
-keywords<-c("launch","new product","product release")
-
-#company by naics
-
-companyNaics = fread("./data/business_innovation/working/companyToNaicsProQuest.csv")
-
-fullCompanyRegex = regexFromCompanyName(unique(companyNaics$Company, by = "Company"))
-
-# Choose one of the files to work with
-activeFile = unique(fread(scrapedFiles[5]), by = 'Article.Title')
-activeFile = filter(activeFile, grepl(paste(keywords, collapse = '|'), activeFile$Full.Text))
-companyList = str_extract_all(activeFile$Company, "(?<=Name: )(.*?)(?=;)")
-
-names = companyList[[i]]
-
+# Make a list of plausible company names from a given one
 regexFromCompanyName = function(names){
   regexOut = vector("list", length(names))
   for(i in 1:length(names)){
@@ -46,7 +28,26 @@ regexFromCompanyName = function(names){
 }
 
 
-i = 4
+# upload cleaned data
+scrapedFiles = list.files("./data/business_innovation/working/parsedProquestData", full.names = TRUE)
+scrapedFiles = grep("naics", scrapedFiles, value = TRUE, invert = TRUE)
+ncompanies = length(scrapedFiles)
+keywords<-c("launch","new product","product release")
+
+#company by naics
+
+companyNaics = fread("./data/business_innovation/working/companyToNaicsProQuest.csv")
+
+fullCompanyRegex = regexFromCompanyName(unique(companyNaics$Company, by = "Company"))
+
+# Choose one of the files to work with
+activeFile = unique(fread(scrapedFiles[1]), by = 'Article.Title')
+activeFile = filter(activeFile, grepl(paste(keywords, collapse = '|'), activeFile$Full.Text))
+companyList = str_extract_all(activeFile$Company, "(?<=Name: )(.*?)(?=;)")
+
+
+i = 5
+names = companyList[[i]]
 
 companyRegex = regexFromCompanyName(companyList[[i]])
 companyRegex

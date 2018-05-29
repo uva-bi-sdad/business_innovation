@@ -46,7 +46,6 @@ parseProquest = function(proQuestHtml, fieldsOfInterest, reportEach = 100){
   return(out)
 }
 
-
 parseList = function(fileNames, fieldsOfInterest, reportEach = 100){
   outList = vector("list", length(fileNames))
   for(i in 1:length(fileNames)){
