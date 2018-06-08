@@ -28,13 +28,18 @@ html_nodes(divs[i], "p") %>%
 
 # Other fields
 
+# The period here is a dplyr thing. By defauly, the pipe f(a) %>% g() puts the result of f(a) into the first argument of g. If you want f(a) to go somewhere else, you can use a period to denote where you want the output from the pipe to go. If you look at all the dlyr functions, the 'grammatical object' of the function always is in the first argument. This means it's almost never necessary to use periods with dplyr functions, but as grep is a base R function I had to do that.
+
+# 'strong' here means it appears as a bold text. I noticed all the 'section names' seemed to be bolded, so I used that to filter.
 otherFields = html_nodes(divs[i], "p") %>% '['(grep("strong", .)) %>% html_text
+
+# Loop through and try to pull out all the fields besides the full text and title.
 for(j in 1:p){
   fieldText = otherFields[grep(fieldsOfInterest[j], str_extract(otherFields, ".{1,30}"))[1]]
   print(str_extract(fieldText, "(?<=: )(.*)"))
 }
 
-# Full text
+# Full text. Here's where the action is. Have fun.
 fullTextParagraphs = html_nodes(divs[i], "p") %>% html_attr("style") %>% is.na
 txt = paste((html_nodes(divs[i], "p") %>% html_text)[fullTextParagraphs], collapse = '')
 txt = gsub("\\n", "", txt) # This gets rid of newline characters
