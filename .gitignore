@@ -11,6 +11,7 @@ nohup.out
 
 data/*
 *.[rR][dD][aA][tT][aA]
+*.[rR][dD][aA]
 *.[cC][sS][vV]
 *.[hH][tT][mM][lL]
 *.[pP][dD][fF]
