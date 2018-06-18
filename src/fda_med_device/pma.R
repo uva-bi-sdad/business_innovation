@@ -6,7 +6,7 @@ library(data.table)
 library(dplyr)
 
 #import JSON file
-pma = fromJSON('data/business_innovation/original/fda_med_device/device-pma-0001-of-0001.json')
+pma = fromJSON('./data/business_innovation/original/med_device/device-pma-0001-of-0001.json')
 
 
 #  filter and pull out only the columns that are necessary
@@ -33,4 +33,4 @@ nrow(dt)
 
 pma_data = dt
 View(pma_data)
-saveRDS(pma_data, "./data/business_innovation/original/fda_med_device/pma_data")
+write.csv(pma_data, "./data//business_innovation/working/med_device_data/approved_med_device_pma.csv", row.names = FALSE)

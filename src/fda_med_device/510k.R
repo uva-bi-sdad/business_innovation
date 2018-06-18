@@ -4,9 +4,9 @@ library(jsonlite)
 library(lubridate)
 library(data.table)
 library(dplyr)
-
 #import JSON file
-d = fromJSON('data/business_innovation/original/fda_med_device/device-510k-0001-of-0001.json')
+
+d = fromJSON('./data/business_innovation/original/med_device/device-510k-0001-of-0001.json')
 
 #pull out device name, company name, decision date, and decision code
 # (name the decision date approved_date because later you will
@@ -36,4 +36,5 @@ unique(dat$decision_code)
 
 nrow(dat)
 View(dat)
-saveRDS(dat, "./data/business_innovation/original/fda_med_device/510k_data")
+
+write.csv(dat, "./data/business_innovation/working/med_device_data/approved_med_device_510k.csv", row.names = FALSE)

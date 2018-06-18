@@ -33,4 +33,4 @@ colnames(hde_data)[4] = "approved_date"
 
 View(hde_data)
 nrow(hde_data)
-saveRDS(hde_data, "./data/business_innovation/original/fda_med_device/hde_data")
+write.csv(hde_data, "./data/business_innovation/working/med_device_data/approved_med_device_hde.csv", row.names = FALSE)
