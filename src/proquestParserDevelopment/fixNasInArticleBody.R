@@ -139,6 +139,8 @@ new_parsedPfizer = parseList(pfizerNames, fieldsOfInterest, reportEach = 100)
 num_NA <- sum(is.na(new_parsedPfizer$Full.Text))
 num_NA / nrow(new_parsedPfizer) #percentage missing body text
 
+x <- new_parsedPfizer[Article.Title %in% temp$Article.Title] #old articles that were missing before
+
 
 
 
