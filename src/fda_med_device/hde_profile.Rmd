@@ -1,0 +1,64 @@
+---
+title: "hde_profile"
+author: "Luke Kim"
+date: "6/26/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Load libraries
+```{r, warning=FALSE, message=FALSE}
+library(dplyr)
+library(data.table)
+library(lubridate)
+library(purrr)
+library(rvest)
+```
+
+# COMPLETENESS
+# get count of missing values in each column from total table
+```{r}
+#getting the data frame
+df = read.csv(file = here::here("./data/business_innovation/working/med_device_data/approved_med_device_hde.csv"), header = TRUE, sep = ",")
+
+# recode missing string to NA
+df[df == ''] <- NA
+
+#count NA each column
+nac = colSums(is.na(df))
+word_miss_table = data.table(words = names(nac), nacounts = nac)
+
+```
+
+# percentage of missing values in target date range (2013-2015)
+```{r}
+
+#shows all columns by the percentage of missing values
+na_counts = colSums(is.na(df))
+na_counts_perc = round(na_counts / nrow(df) *100, 2)
+
+words = names(nac)
+dt = data.table("variable names" = words, "missing values (%)" = na_counts_perc)
+```
+
+# UNIQUENESS
+# get count of uniquenes of each variable
+```{r}
+uniq = map(df, function(x){length(unique(x))})
+
+dt_uniq = data.table("variable names" = words, "missing values (%)" = na_counts_perc, uniqueness = uniq)
+
+
+dt_uniq = arrange(dt_uniq, words)
+```
+
+# SUMMARY DATA TABLE
+
+```{r}
+print(dt_uniq)
+```
+
