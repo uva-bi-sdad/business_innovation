@@ -4,18 +4,35 @@ library(xml2)
 library(stringr)
 library(rvest)
 library(jsonlite)
-# source("./src/eiriki/PharmacyTimes/01_pt_Scrape.R")
-
-# str_subset(a_links, "product-release")
-# str_extract(a_links, "product")
-
 # a_links[grep("^(?=.*product-release)(?!.*jpg)", a_links, perl=TRUE)]
-url <- 'https://www.surgicalproductsmag.com/product-categories/apparel'
 
-urls <- paste('https://www.surgicalproductsmag.com/product-categories/apparel?page=', i = 1:22, sep = '')
+categories <- c('APPAREL',
+'Lighting-OR-Visualization-Diagnostics',
+'OR Equipment-Accessories',
+'BARIATRIC SURGICAL PRODUCTS',
+'ANESTHESIOLOGY',
+'CRITICAL-CAREEMERGENCY',
+'ELECTROSURGERY-PRODUCTS',
+'INFECTION-CONTROL-PRODUCTS',
+'INFORMATION-COMMUNICATION-SYSTEMS',
+'INSTRUMENTATION',
+'MINIMALLY-INVASIVE-SURGERY',
+'MONITORING-PRODUCTS',
+'OBGYN-PRODUCTS',
+'ORTHOPEDICSARTHROSCOPY-PRODUCTS',
+'SAFETY-PRODUCTS',
+'SERVICES-TRAINING',
+'WOUND-CLOSUREHEALING-PRODUCTS')
+
+base_url <- 'https://www.surgicalproductsmag.com/product-categories/'
+categories_url <- paste(base_url, categories, sep = "")
+
+
+url <- 'https://www.surgicalproductsmag.com/product-categories/apparel'
+urls <- str_c('https://www.surgicalproductsmag.com/product-categories/apparel?page=', 1:22)
 urls <- c(url, urls)
 
-resultsListTitle = vector("list", length(urls))
+results = vector("list", length(urls))
 
 # for(i  in 1:length(urls)){
 #page <-  read_html(urls[i])
@@ -27,18 +44,65 @@ resultsListTitle = vector("list", length(urls))
 
 # extract the titles of the articles
 
+# while extract the titles, also extract the hrefs of each link
+
+# a <- for(i in 1:length(urls)) {
+# i = 1L
+  # page <- read_html(urls[i])
+  # a <- html_nodes(page, 'a') %>%
+    # html_attr('href')
+    # as.character()
+  # resultsListTitle[[i]] = a %>%
+    # subset(str_detect(string = a,
+      #                pattern = "product-release/\\d{4}")) %>%
+    # str_extract(pattern = '(?<=>)\\w.*(?=\\s*</a>)') %>%
+    # na.omit()
+  # }
+
+# this loop goes through the pages and grabs the link to each articles
 a <- for(i in 1:length(urls)) {
+    page <- read_html(urls[i])
+    a <- html_nodes(page, '.smaller-heading a') %>%
+    html_attr('href')
+    results[[i]] = a
+}
 
-  page <- read_html(urls[i])
-  a <- html_nodes(page, 'a')
-  # grep("product-release", a, value = TRUE)
-  resultsListTitle[[i]] <- grep("^(?=.*product-release)(?!.*jpg)", a, perl=TRUE, value = TRUE)
+results
+
+# setting up the function
+
+scrape_surgical <- function(link,n){
+  new_link <- paste("https://www.surgicalproductsmag.com", link, sep ="")
+  PTLink <- read_html(new_link)
+
+  #Get the entire body of product news text
+  date <- PTLink %>%
+    html_node('.views-field-created .field-content') %>%
+    html_text() %>%
+    str_trim()
+
+  title <- PTLink %>%
+    html_node('h1') %>%
+    html_text() %>%
+    str_trim()
+
+  body <- PTLink %>%
+    html_nodes('#block-system-main p') %>%
+    html_text() %>%
+    str_trim %>%
+    paste(collapse = " ")
+
+  return(surgical_df <- data.frame(date = date,
+                        title = title,
+                        body = body))
 
 }
 
-# now extract the body text
-for(i in 1:length(urls)) {
+c <- scrape_surgical(results[[2]][1])
 
-}
+results <- unlist(results)
 
-html_nodes(page, 'p')
+d <- lapply(results, scrape_surgical) # outputs a list of dataframe
+
+# lapply on them, and use do.call
+g <- do.call(rbind, d)
