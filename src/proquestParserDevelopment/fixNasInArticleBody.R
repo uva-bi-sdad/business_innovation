@@ -76,9 +76,10 @@ parsedDataOutdir = "./data/business_innovation/working/parsedProquestData/"
 pfizerNames = grep("pfizer", fileNames, value = TRUE)
 parsedPfizer = parseList(pfizerNames, fieldsOfInterest, reportEach = 100)
 
-sum(is.na(parsedPfizer$Full.Text))
+num_NA <- sum(is.na(parsedPfizer$Full.Text))
+num_NA / nrow(parsedPfizer) #percentage missing body text
 #where are them dang NAs
-temp <- dplyr::filter(parsednovartis,is.na(parsednovartis$Full.Text))
+temp <- dplyr::filter(parsedPfizer,is.na(parsedPfizer$Full.Text))
 View(temp)
 
 #92 NA for regular, try with new function
@@ -133,9 +134,10 @@ parseProquest = function(proQuestHtml, fieldsOfInterest, reportEach = 100){
   }
   return(out)
 }
-parsedPfizer = parseList(pfizerNames, fieldsOfInterest, reportEach = 100)
+new_parsedPfizer = parseList(pfizerNames, fieldsOfInterest, reportEach = 100)
 
-sum(is.na(parsedPfizer$Full.Text))
+num_NA <- sum(is.na(new_parsedPfizer$Full.Text))
+num_NA / nrow(new_parsedPfizer) #percentage missing body text
 
 
 
