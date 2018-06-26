@@ -1,0 +1,84 @@
+---
+title: "pma_profile"
+author: "Luke Kim"
+date: "6/22/2018"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load libraries
+```{r, warning=FALSE, message=FALSE}
+library(dplyr)
+library(jsonlite)
+library(data.table)
+library(lubridate)
+library(purrr)
+```
+
+# COMPLETENESS
+# get count of missing values in each column from total table
+```{r}
+#getting the data frame
+total_data = fromJSON(here::here("./data/business_innovation/original/med_device/device-pma-0001-of-0001.json"))
+
+results <- total_data$results %>%
+  select(-openfda)
+ofda <- total_data$results$openfda
+
+df <- cbind(results, ofda)
+
+testthat::expect_equal(ncol(df), ncol(results) + ncol(ofda))
+
+# recode missing string to NA
+df[df == ''] <- NA
+
+#count NA each column
+nac = colSums(is.na(df))
+word_miss_table = data.table(words = names(nac), nacounts = nac)
+
+```
+
+# percentage of missing values in target date range (2013-2015)
+```{r}
+#filter the date range
+in_range = mutate(df, decision_date = ymd(decision_date))
+in_range = filter(df, decision_date > ymd('2013-01-01') &
+              decision_date < ymd('2015-12-31'))
+
+#handle missing values, only display the columns with missing values if needed
+mis_cols <- names(df)[colSums(is.na(df)) > 0]
+in_range_missing= select_(in_range, .dots = mis_cols)
+
+#shows all columns by the percentage of missing values
+na_counts = colSums(is.na(in_range))
+na_counts_perc = round(na_counts / nrow(in_range) *100, 2)
+
+#perc = paste(na_counts_perc, "%", sep = "")
+
+
+words = names(nac)
+dt = data.table("variable names" = words, "missing values (%)" = na_counts_perc)
+```
+
+# UNIQUENESS
+# get count of uniquenes of each variable
+```{r}
+uniq = map(in_range, function(x){length(unique(x))})
+
+dt_uniq = data.table("variable names" = words, "missing values (%)" = na_counts_perc, uniqueness = uniq)
+
+
+dt_uniq = arrange(dt_uniq, words)
+```
+
+# SUMMARY DATA TABLE
+
+```{r}
+print(dt_uniq)
+```
+
