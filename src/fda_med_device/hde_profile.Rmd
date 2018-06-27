@@ -61,4 +61,9 @@ dt_uniq = arrange(dt_uniq, words)
 ```{r}
 print(dt_uniq)
 ```
+# export
+```{r}
+library(xlsx)
+write.xlsx(dt_uniq, here::here("./data/business_innovation/working/med_device_data/hde_profile_chart.xlsx"))
+```
 

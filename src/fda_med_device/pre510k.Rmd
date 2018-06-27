@@ -76,3 +76,10 @@ dt_uniq = data.table("variable names" = words, "missing values (%)" = na_counts_
 
 dt_uniq = arrange(dt_uniq, words)
 ```
+
+
+```{r}
+library(xlsx)
+write.xlsx(dt_uniq, here::here("./data/business_innovation/working/med_device_data/510_profile_chart.xlsx"))
+```
+
