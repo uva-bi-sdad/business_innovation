@@ -19,6 +19,7 @@ parsedDataOutdir = "./data/business_innovation/working/parsedProquestData/"
 pfizerNames = grep("pfizer", fileNames, value = TRUE)
 parsedPfizer = parseList(pfizerNames, fieldsOfInterest, reportEach = 100)
 write.csv(parsedPfizer, paste0(parsedDataOutdir, "pfizer.csv"), row.names = FALSE)
+
 # Parse png
 
 pngNames = grep("png[0-9].html", fileNames, value = TRUE)
@@ -108,4 +109,17 @@ write.csv(parsedFile, paste0(parsedDataOutdir, "naics541712.csv"), row.names = F
 parseNames = list.files("./data/business_innovation/original/scrapedProquestData/naics325412", full.names = TRUE)
 parsedFile = parseList(parseNames, fieldsOfInterest, reportEach = 100)
 write.csv(parsedFile, paste0(parsedDataOutdir, "naics325412.csv"), row.names = FALSE)
+
+# Parse Naics 339114
+
+parseNames = list.files("./data/business_innovation/original/scrapedProquestData/naics339114", full.names = TRUE)
+parsedFile = parseList(parseNames, fieldsOfInterest, reportEach = 100)
+write.csv(parsedFile, paste0(parsedDataOutdir, "naics339114.csv"), row.names = FALSE)
+
+# Parse Naics 339115
+
+parseNames = list.files("./data/business_innovation/original/scrapedProquestData/naics339115", full.names = TRUE)
+parsedFile = parseList(parseNames, fieldsOfInterest, reportEach = 100)
+write.csv(parsedFile, paste0(parsedDataOutdir, "naics339115.csv"), row.names = FALSE)
+
 
