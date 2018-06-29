@@ -122,7 +122,7 @@ write.xlsx(dt_uniq, here::here("./data/business_innovation/working/med_device_da
 <!-- rbind(top10_1, top10_2, top10_3) -->
 <!-- ``` -->
 
-
+#extracting the top 10 companies
 ```{r}
 #for all years combined
 
