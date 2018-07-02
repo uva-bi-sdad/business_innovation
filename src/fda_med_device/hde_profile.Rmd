@@ -56,14 +56,51 @@ dt_uniq = data.table("variable names" = words, "missing values (%)" = na_counts_
 dt_uniq = arrange(dt_uniq, words)
 ```
 
-# SUMMARY DATA TABLE
-
-```{r}
-print(dt_uniq)
-```
 # export
 ```{r}
 library(xlsx)
 write.xlsx(dt_uniq, here::here("./data/business_innovation/working/med_device_data/hde_profile_chart.xlsx"))
 ```
+
+#extracting the top 10 companies
+```{r}
+#for all years combined
+
+top10Companies =  arrange(df[, .N, by = df$company_name], -N)[1:10,]
+df = df[grep("DecisionDate", df$approved_date, invert = TRUE) , ]
+df$approval_year = year(mdy(df$approved_date))
+df = data.table(df)
+decision_by_year = df[company_name %in% top10Companies, .N, by = c("company_name", "approval_year")]
+decision_by_year$approval_year = factor(decision_by_year$approval_year, levels = c("2015", "2014", "2013"))
+max = df[, .N, by = c("company_name")]
+```
+
+# plot stacking bar graphs for top 10 companies
+```{r}
+library(ggplot2)
+
+ggplot(data = decision_by_year) +
+  #reorder the x-axis by greatest to smallest
+  geom_bar(mapping = aes(x =forcats::fct_reorder(applicant, -N),
+                         fill = approval_year,
+                         y = N), stat = 'identity') +
+  # rotate the column names
+  theme(axis.text.x  = element_text(angle=60, vjust=1, hjust=1)) +
+  #table and axis names
+  ggtitle("Top 10 Companies with PMA-Approved Medical Devices 2013-2015") +
+  ylab("Number of Approved Medical Devices") +
+  xlab("Companies")+
+  #font sizes
+  theme(plot.title = element_text(hjust = 0.5, size = 25)) +
+  theme(axis.text=element_text(size=16),
+        axis.title=element_text(size=16)) +
+  # wrapping the column names at certain lenght
+  scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 20)) + 
+  # edit legend styles
+  theme(legend.text = element_text(size=22)) +
+  theme(legend.title = element_text(size=22)) + 
+  guides(fill = guide_legend(title= "Year"))
+
+```
+
 
