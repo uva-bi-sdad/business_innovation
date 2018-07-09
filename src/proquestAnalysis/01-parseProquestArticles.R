@@ -122,4 +122,14 @@ parseNames = list.files("./data/business_innovation/original/scrapedProquestData
 parsedFile = parseList(parseNames, fieldsOfInterest, reportEach = 100)
 write.csv(parsedFile, paste0(parsedDataOutdir, "naics339115.csv"), row.names = FALSE)
 
+# parse everything
+
+naicsFolders = list.files("./data/business_innovation/original/scrapedProquestData", full.names = TRUE, pattern = 'naics')
+codes = str_extract(naicsFolders, "[0-9]{6}")
+
+for(i in seq_along(naicsFolders)){
+  parseNames = list.files(sprintf("./data/business_innovation/original/scrapedProquestData/naics%s", codes[i]), full.names = TRUE)
+  parsedFile = parseList(parseNames, fieldsOfInterest, reportEach = 100)
+  write.csv(parsedFile, sprintf("%snaics%s.csv", parsedDataOutdir, codes[i]), row.names = FALSE)
+}
 

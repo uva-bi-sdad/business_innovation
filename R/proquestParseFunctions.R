@@ -18,7 +18,11 @@ parseProquest = function(proQuestHtml, fieldsOfInterest, reportEach = 100){
     html_nodes(divs[i], "p") %>%
       html_attr("style") %>%
       grep("bold", .) -> titleParagraph
-    out[i, 1] = (html_nodes(divs[i], "p") %>% html_text)[titleParagraph]
+    if(length(titleParagraph) > 0){
+      out[i, 1] = (html_nodes(divs[i], "p") %>% html_text)[titleParagraph]
+    }else{
+      out[i, 1] = NA
+    }
 
     # Other fields
 
@@ -32,9 +36,8 @@ parseProquest = function(proQuestHtml, fieldsOfInterest, reportEach = 100){
     fullTextParagraphs = html_nodes(divs[i], "p") %>% html_attr("style") %>% is.na
     txt = paste((html_nodes(divs[i], "p") %>% html_text)[fullTextParagraphs], collapse = '')
     txt = gsub("\\n", "", txt)
-    txt = str_extract(txt, ".{1,5000}")
+    txt = str_extract(txt, ".{1,10000}")
     out[i, p + 2] = txt
-
     if((i %% reportEach) == 0) print(sprintf("Just processed record %s!", i))
   }
   return(out)
