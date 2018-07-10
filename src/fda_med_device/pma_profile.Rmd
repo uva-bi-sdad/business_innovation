@@ -88,42 +88,41 @@ library(xlsx)
 write.xlsx(dt_uniq, here::here("./data/business_innovation/working/med_device_data/pma_profile_chart.xlsx"))
 ```
 
-# 2013 data by top 10 companies
-```{r}
-#for 2013
-first_year = filter(df, decision_date > ymd('2013-01-01') &
-              decision_date < ymd('2013-12-31'))
-top10_1 = as.data.frame(table(first_year$applicant))
-top10_1 = arrange(top10_1, -Freq)
-top10_1 = head(top10_1, 10)
-```
+<!-- # 2013 data by top 10 companies -->
+<!-- ```{r} -->
+<!-- #for 2013 -->
+<!-- first_year = filter(df, decision_date > ymd('2013-01-01') & -->
+<!--               decision_date < ymd('2013-12-31')) -->
+<!-- top10_1 = as.data.frame(table(first_year$applicant)) -->
+<!-- top10_1 = arrange(top10_1, -Freq) -->
+<!-- top10_1 = head(top10_1, 10) -->
+<!-- ``` -->
 
-# 2014 data by top 10 companies
-```{r}
-#for 2014
-second_year = filter(df, decision_date > ymd('2014-01-01') &
-              decision_date < ymd('2014-12-31'))
-top10_2 = as.data.frame(table(second_year$applicant))
-top10_2 = arrange(top10_2, -Freq)
-top10_2 = head(top10_2, 10)
-```
+<!-- # 2014 data by top 10 companies -->
+<!-- ```{r} -->
+<!-- #for 2014 -->
+<!-- second_year = filter(df, decision_date > ymd('2014-01-01') & -->
+<!--               decision_date < ymd('2014-12-31')) -->
+<!-- top10_2 = as.data.frame(table(second_year$applicant)) -->
+<!-- top10_2 = arrange(top10_2, -Freq) -->
+<!-- top10_2 = head(top10_2, 10) -->
+<!-- ``` -->
 
-# 2015 data by top 10 companies
-```{r}
-#for 2014
-third_year = filter(df, decision_date > ymd('2014-01-01') &
-              decision_date < ymd('2014-12-31'))
-top10_3 = as.data.frame(table(third_year$applicant))
-top10_3 = arrange(top10_3, -Freq)
-top10_3 = head(top10_3, 10)
-```
+<!-- # 2015 data by top 10 companies -->
+<!-- ```{r} -->
+<!-- #for 2014 -->
+<!-- third_year = filter(df, decision_date > ymd('2014-01-01') & -->
+<!--               decision_date < ymd('2014-12-31')) -->
+<!-- top10_3 = as.data.frame(table(third_year$applicant)) -->
+<!-- top10_3 = arrange(top10_3, -Freq) -->
+<!-- top10_3 = head(top10_3, 10) -->
+<!-- ``` -->
 
-```{r}
-rbind(top10_1, top10_2, top10_3)
-```
+<!-- ```{r} -->
+<!-- rbind(top10_1, top10_2, top10_3) -->
+<!-- ``` -->
 
-
-#
+#extracting the top 10 companies
 ```{r}
 #for all years combined
 
@@ -131,10 +130,8 @@ top10Companies =  arrange(in_range[, .N, by = c("applicant")], -N)[1:10,]
 in_range$approval_year = year(ymd(in_range$decision_date))
 in_range = data.table(in_range)
 decision_by_year = in_range[applicant %in% top10Companies$applicant, .N, by = c("applicant", "approval_year")]
-decision_by_year$approval_year = factor(decision_by_year$approval_year, levels = c("2013", "2014", "2015"))
+decision_by_year$approval_year = factor(decision_by_year$approval_year, levels = c("2015", "2014", "2013"))
 max = in_range[, .N, by = c("applicant")]
-
-
 ```
 
 # plot stacking bar graphs for top 10 companies
@@ -145,7 +142,17 @@ ggplot(data = decision_by_year) +
   geom_bar(mapping = aes(x =forcats::fct_reorder(applicant, -N),
                          fill = approval_year,
                          y = N), stat = 'identity') +
-  theme(axis.text.x  = element_text(angle=45, vjust=1, hjust=1)) +
-  labels(title = "PMA")
+  theme(axis.text.x  = element_text(angle=60, vjust=1, hjust=1)) +
+  ggtitle("Top 10 Companies with PMA-Approved Medical Devices 2013-2015") +
+  ylab("Number of Approved Medical Devices") +
+  xlab("Companies")+
+  theme(plot.title = element_text(hjust = 0.5, size = 25)) +
+  theme(axis.text=element_text(size=16),
+        axis.title=element_text(size=16)) +
+  scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 20)) + 
+  theme(legend.text=element_text(size=22)) +
+  theme(legend.title = element_text(size=22)) + 
+  guides(fill = guide_legend(title= "Year"))
+
 ```
 

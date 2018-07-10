@@ -12,7 +12,7 @@ docResutsFull = fread("./data/business_innovation/original/documenterResults/doc
 # common words in product launch articles, 'new product' in launch articles
 # count by article type, where does the product appear, words common to launch/approval articles, is company in company column
 
-docCorpus = Corpus(VectorSource(docResutsFull[rated == 'True', html])) %>%
+docCorpus = Corpus(VectorSource(docResutsFull[rated == TRUE, html])) %>%
   tm_map(content_transformer(tolower)) %>%
   tm_map(removeNumbers) %>%
   tm_map(removePunctuation) %>%
@@ -27,7 +27,7 @@ docCorpus = Corpus(VectorSource(docResutsFull[rated == 'True', html])) %>%
 docDTM = DocumentTermMatrix(docCorpus)
 #docDTM = docTfidf
 str(docDTM)
-aboutProduct = docResutsFull[rated == 'True', articleTopic] %in% c('fdaApproval', 'launch')
+aboutProduct = docResutsFull[rated == TRUE, articleTopic] %in% c('fdaApproval', 'launch')
 
 
 docMat = data.table(doc = docDTM$i, word = docDTM$dimnames$Terms[docDTM$j], count = docDTM$v) %>%
@@ -84,11 +84,11 @@ cvDocTree = cv.tree(docTree, method = 'deviance')
 
 pruneCvPlot = data.frame(size = pruneDocTree$size, pruneMisclass = pruneDocTree$dev, cvMisclass = cvDocTree$dev) %>%
   melt(id.vars = "size") %>%
-  `colnames<-`(c("size", "method", "Misclassifications"))
+  `colnames<-`(c("size", "method", "Deviance"))
 
 ggplot(data = pruneCvPlot) +
-  geom_line(aes(x = size, y = Misclassifications, col = method)) +
-  geom_point(aes(x = size, y = Misclassifications, col = method))
+  geom_line(aes(x = size, y = Deviance, col = method)) +
+  geom_point(aes(x = size, y = Deviance, col = method)) + theme(text = element_text(size = 22))
 
 finalTree = prune.tree(docTree, best = 6, method = 'misclass')
 finalTree; plot(finalTree); text(finalTree)
