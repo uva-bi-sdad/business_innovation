@@ -18,11 +18,7 @@ parseProquest = function(proQuestHtml, fieldsOfInterest, reportEach = 100){
     html_nodes(divs[i], "p") %>%
       html_attr("style") %>%
       grep("bold", .) -> titleParagraph
-    if(length(titleParagraph) > 0){
-      out[i, 1] = (html_nodes(divs[i], "p") %>% html_text)[titleParagraph]
-    }else{
-      out[i, 1] = NA
-    }
+    out[i, 1] = (html_nodes(divs[i], "p") %>% html_text)[titleParagraph]
 
     # Other fields
 
@@ -34,10 +30,22 @@ parseProquest = function(proQuestHtml, fieldsOfInterest, reportEach = 100){
 
     # Full text
     fullTextParagraphs = html_nodes(divs[i], "p") %>% html_attr("style") %>% is.na
+
+    #simple conditional handling NA
+    #if we see there is no full text (no nodes with NA style), then
+    #grab the abstract
+    if(!all(is.na(fullTextParagraphs))){
+      abstract_vec <- str_detect(as.character(xml_children(divs[i])),'Abstract: ') #vector for where string 'abstract' is true
+      truth_idx <- which(abstract_vec) #what index is it
+
+      #assign to full text variable
+      fullTextParagraphs = abstract_vec
+    }
     txt = paste((html_nodes(divs[i], "p") %>% html_text)[fullTextParagraphs], collapse = '')
     txt = gsub("\\n", "", txt)
     txt = str_extract(txt, ".{1,10000}")
     out[i, p + 2] = txt
+
     if((i %% reportEach) == 0) print(sprintf("Just processed record %s!", i))
   }
   return(out)
