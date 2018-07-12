@@ -2,7 +2,7 @@
 ** PROCEDURE 2 CREATE STANDARD NAME
 **
 ** This section standardises the way in which the type of legal entity is idenitified. For example
-** LIMITED is converted to LTD. These identifiers are country specific and, therefore, this is 
+** LIMITED is converted to LTD. These identifiers are country specific and, therefore, this is
 ** section is organised by country.
 ** It does this by, first, using the Derwent system and then doing some of our own country specific
 ** changes that are important. The specific changes come from sources such as Dinesh's code, Bronwyn's code
@@ -40,7 +40,7 @@ replace standard_name = subinstr( standard_name, " & CIA ", " CO ", 1)
 ** ITALIAN
 replace standard_name = subinstr( standard_name, " SOC IN ACCOMANDITA PER AZIONI ", " SA ", 1)
 replace standard_name = subinstr( standard_name, " SAPA ", " SA ", 1)
-replace standard_name = subinstr( standard_name, " SOC A RESPONSABILITÀ LIMITATA ", " SRL ", 1)
+replace standard_name = subinstr( standard_name, " SOC A RESPONSABILITY LIMITATA ", " SRL ", 1)
 
 ** SWEDISH
 replace standard_name = subinstr( standard_name, " HANDELSBOLAG ", " HB  ", 1)
@@ -144,7 +144,7 @@ replace standard_name = subinstr( standard_name, " KOMMANDIITTIYHTIO ", " KY ", 
 replace standard_name = subinstr( standard_name, " JULKINEN OSAKEYHTIO ", " OYJ ", 1)
 
 ** POLAND
-replace standard_name = subinstr( standard_name, " SPOLKA AKCYJNA ", " SA ", 1) 
+replace standard_name = subinstr( standard_name, " SPOLKA AKCYJNA ", " SA ", 1)
 replace standard_name = subinstr( standard_name, " SPOLKA PRAWA CYWILNEGO ", " SC ", 1)
 replace standard_name = subinstr( standard_name, " SPOLKA KOMANDYTOWA ", " SK ", 1)
 replace standard_name = subinstr( standard_name, " SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA ", " SPZOO ", 1)
@@ -162,8 +162,8 @@ replace standard_name = subinstr( standard_name, " OMORRYTHMOS ", " OE ", 1)
 replace standard_name = subinstr( standard_name, " AKCIOVA SPOLECNOST ", " AS ", 1)
 replace standard_name = subinstr( standard_name, " KOMANDITNI SPOLECNOST ", " KS ", 1)
 replace standard_name = subinstr( standard_name, " SPOLECNOST S RUCENIM OMEZENYM ", " SRO ", 1)
-replace standard_name = subinstr( standard_name, " VEREJNA OBCHODNI SPOLECNOST ", " VOS ", 1) 
-                
+replace standard_name = subinstr( standard_name, " VEREJNA OBCHODNI SPOLECNOST ", " VOS ", 1)
+
 ** BULGARIA
 replace standard_name = subinstr( standard_name, " AKTIONIERNO DRUSHESTWO ", " AD ", 1)
 replace standard_name = subinstr( standard_name, " KOMANDITNO DRUSHESTWO ", " KD ", 1)
