@@ -7,12 +7,12 @@ library(party)
 library(reshape2)
 library(ggplot2)
 library(rpart)
-docResutsFull = fread("./data/business_innovation/original/documenterResults/document_ratings_june13.csv")
+docResultsFull = fread("./data/business_innovation/original/documenterResults/document_ratings_june13.csv")
 
 # common words in product launch articles, 'new product' in launch articles
 # count by article type, where does the product appear, words common to launch/approval articles, is company in company column
 
-docCorpus = Corpus(VectorSource(docResutsFull[rated == TRUE, html])) %>%
+docCorpus = Corpus(VectorSource(docResultsFull[rated == TRUE, html])) %>%
   tm_map(content_transformer(tolower)) %>%
   tm_map(removeNumbers) %>%
   tm_map(removePunctuation) %>%
@@ -27,7 +27,7 @@ docCorpus = Corpus(VectorSource(docResutsFull[rated == TRUE, html])) %>%
 docDTM = DocumentTermMatrix(docCorpus)
 #docDTM = docTfidf
 str(docDTM)
-aboutProduct = docResutsFull[rated == TRUE, articleTopic] %in% c('fdaApproval', 'launch')
+aboutProduct = docResultsFull[rated == TRUE, articleTopic] %in% c('fdaApproval', 'launch')
 
 
 docMat = data.table(doc = docDTM$i, word = docDTM$dimnames$Terms[docDTM$j], count = docDTM$v) %>%
@@ -64,9 +64,11 @@ predMat[1:5, 1:5]
 y = as.factor(aboutProduct)
 
 # Three class problem
-yThree = docResutsFull[rated == 'True', articleTopic]
+yThree = docResultsFull[rated == TRUE, articleTopic]
 yThree[yThree == ""] = "neither"
 yThree = as.factor(yThree)
+
+fwrite(data.table(y = yThree, predMat), "./data/business_innovation/working/DocumenterModelData/termDocumentResponseMatrix.csv")
 
 # fit some tree
 
