@@ -12,6 +12,7 @@ ptoday <- read.csv('./data/business_innovation/working/PHARMACY_TODAY/pToday.csv
 ptimes <- read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/otc_dirty.csv')
 tmp <- read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/Rx_dirty.csv')
 ptimes <- rbind(ptimes, tmp)
+ptimes <- dplyr::filter(ptimes, Year <= 2015, Year >= 2013)
 
 #begin to standardize for each set
 Clean_Company_Names <- character(nrow(drugs))
