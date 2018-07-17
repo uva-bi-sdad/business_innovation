@@ -3,6 +3,8 @@ title: "pre_510k_profile"
 author: "Luke Kim"
 date: "6/25/2018"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -83,3 +85,42 @@ library(xlsx)
 write.xlsx(dt_uniq, here::here("./data/business_innovation/working/med_device_data/510_profile_chart.xlsx"))
 ```
 
+#extracting the top 10 companies
+```{r}
+#for all years combined
+top10Companies =  arrange(in_range[, .N, by = c("applicant")], -N)[1:10,]
+in_range$approval_year = year(ymd(in_range$decision_date))
+in_range = data.table(in_range)
+
+decision_by_year = in_range[applicant %in% top10Companies$applicant, .N, by = c("applicant", "approval_year")]
+decision_by_year$approval_year = factor(decision_by_year$approval_year, levels = c("2015", "2014", "2013"))
+max = in_range[, .N, by = c("applicant")]
+```
+
+# plot stacking bar graphs for top 10 companies
+```{r}
+library(ggplot2)
+
+ggplot(data = decision_by_year) +
+  #reorder the x-axis by greatest to smallest
+  geom_bar(mapping = aes(x =forcats::fct_reorder(applicant, -N),
+                         fill = approval_year,
+                         y = N), stat = 'identity') +
+  # rotate the column names
+  theme(axis.text.x  = element_text(angle=60, vjust=1, hjust=1)) +
+  #table and axis names
+  ggtitle("Top 10 Companies with 510k-Apporved Medical Devices 2013-2015") +
+  ylab("Number of Approved Medical Devices") +
+  xlab("Companies")+
+  #font sizes
+  theme(plot.title = element_text(hjust = 0.5, size = 25)) +
+  theme(axis.text=element_text(size=16),
+        axis.title=element_text(size=16)) +
+  # wrapping the column names at certain lenght
+  scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 20)) + 
+  # edit legend styles
+  theme(legend.text = element_text(size=22)) +
+  theme(legend.title = element_text(size=22)) + 
+  guides(fill = guide_legend(title= "Year"))
+
+```
