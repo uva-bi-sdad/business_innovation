@@ -79,7 +79,7 @@ for(i in 1:nrow(dfCorpus)) {
 # PL <- data.frame(PL)
 
 # bigram per document/bigram document matrix
-
+ is s
 ## attaching the new features to the original dataframe
 
 dfCorpus$NP <- NP
@@ -96,7 +96,7 @@ svm.model <- svm(as.factor(y) ~ ., data = bigramAndTd, cost = 1000, gamma = 0.00
 svm.pred <- predict(svm.model, bigramAndTd)
 table(svm.pred, bigramAndTd$y)
 
-#cross validate that shit
+#cross validation
 
 ## tree
 docTree = tree(as.factor(y) ~ ., method = 'deviance', data = bigramAndTd)
@@ -123,3 +123,4 @@ finalTree = prune.tree(docTree, best = 5, method = 'misclass')
 finalTree; plot(finalTree); text(finalTree)
 table(prediction = predict(finalTree, data.frame(predMat), type = 'class'), actual = bigramAndTd$y)
 summary(finalTree)
+

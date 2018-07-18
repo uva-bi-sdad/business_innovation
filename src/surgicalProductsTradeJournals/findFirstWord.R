@@ -1,15 +1,15 @@
 ### create a column that gets the first word of the body text
-
-tehe <- df[3:7,3]
-
-df$first_word <- gsub("([A-Za-z]+).*", "\\1", df$body) %>%
-  str_trim()
+library(RCurl)
+library(xml2)
+library(stringr)
+library(rvest)
+library(jsonlite)
+library(dplyr)
 
 ### GET COMPANY NAME AND CREATE FREQUENCY
 companyNamesA <- vector("list", 500)
 
-url <- 'https://www.surgicalproductsmag.com/product-categories/lighting-or-visualization-diagnostics'
-urlsLighting <- c(urlLighting, urlsLighting)
+urlsLighting <- str_c('https://www.surgicalproductsmag.com/product-categories/lighting-or-visualization-diagnostics?page=',0:35)
 companyNamesLighting <- vector("list", length(urlsLighting))
 
 for(i in length(urlsLighting)) {
@@ -126,6 +126,12 @@ aOr17
 
 companyName <- c(aOr, aOr2, aOr3, aOr4, aOr5, aOr6, aOr7, aOr8, aOr9, aOr10, aOr11, aOr12,
                  aOr13, aOr14, aOr15, aOr16, aOr17)
+
+companyName
+
+companyName <- data.frame(companyName)
+write.csv(companyName, './data/business_innovation/working/SurgicalProductCompanyNames.csv', row.names = FALSE)
+
 # get the frequency of company names
 company.Freq <- table(companyName)
 barplot(sort(company.Freq, decreasing = TRUE))
