@@ -23,7 +23,11 @@ FDA_vec <- str_trim(FDA_vec, side = 'both') %>%
   str_replace_all(" technologies$","") %>%
   str_replace_all(" intl$", "") %>%
   str_replace_all(" llc$", "") %>%
-  str_replace_all(" co$", "")
+  str_replace_all(" co$", "") %>%
+  str_replace_all(" north america$", "") %>%
+  str_replace_all(" international$", "") %>%
+  str_replace_all(" labs$", "") %>%
+  str_replace_all(" products$", "")
 #still cleaning
 TJ_vec <-  str_trim(TJ_vec, side = 'both') %>%
   str_replace_all("[[:punct:]]", "") %>%
@@ -32,7 +36,11 @@ TJ_vec <-  str_trim(TJ_vec, side = 'both') %>%
   str_replace_all(" technologies$","") %>%
   str_replace_all(" intl$", "") %>%
   str_replace_all(" llc$", "") %>%
-  str_replace_all(" co$", "")
+  str_replace_all(" co$", "") %>%
+  str_replace_all(" north america$", "") %>%
+  str_replace_all(" international$", "") %>%
+  str_replace_all(" labs$", "") %>%
+  str_replace_all(" products$", "")
 
 
 FDA_vec <- unique(FDA_vec)
@@ -59,7 +67,7 @@ hist(y$std_dist)
 quantile(y$std_dist,seq(0,1,length =11))
 
 y = y[order(y$std_dist),]
-View(head(y, 30))
+View(head(y, 100))
 #saving out to file
 #write.csv(y, file= "./data/business_innovation/working/Name Standardization/FDADrugs_Pharmtimes_Companies.csv", row.names = F)
 
