@@ -40,7 +40,17 @@ FDA_vec <- str_trim(FDA_vec, side = 'both') %>%
   str_replace_all(" con ", " consumer ")%>%
   str_replace_all(" con$", " consumer")%>%
   str_replace_all("hlth", "health") %>%
-  str_replace_all("health care", "healthcare")
+  str_replace_all("health care", "healthcare") %>%
+  str_replace_all("glaxosmithkline consumer [^h]", "glaxosmithkline consumer healthcare") %>%
+  str_replace_all("philadelphia pa", "") %>%
+  str_replace_all("philadelphia", "") %>%
+  str_replace_all("pittsburgh", "") %>%
+  str_replace_all("glaxosmithkline consumer [^h]", "glaxosmithkline consumer healthcare") %>%
+  str_replace_all("philadelphia", "") %>%
+  str_replace_all("philadelphia pa", "") %>%
+  str_replace_all(" pa(\\s|$)", "") %>%
+  str_replace_all(" england", "") %>%
+  str_replace_all(" grp ltd", " grp")
 
 
 #still cleaning
@@ -68,7 +78,14 @@ TJ_vec <-  str_trim(TJ_vec, side = 'both') %>%
   str_replace_all(" con ", " consumer ")%>%
   str_replace_all(" con$", " consumer")%>%
   str_replace_all("hlth", "health") %>%
-  str_replace_all("health care", "healthcare")
+  str_replace_all("health care", "healthcare") %>%
+  str_replace_all("glaxosmithkline consumer [^h]", "glaxosmithkline consumer healthcare") %>%
+  str_replace_all("philadelphia pa", "") %>%
+  str_replace_all("philadelphia", "") %>%
+  str_replace_all("pittsburgh", "") %>%
+  str_replace_all(" pa(\\s|$)", "") %>%
+  str_replace_all(" england", "") %>%
+  str_replace_all(" grp ltd", " grp")
 
 
 FDA_vec <- unique(FDA_vec)
