@@ -17,6 +17,7 @@ FDA_vec <- tolower(FDA_vec)
 TJ_vec <- tolower(TJ_vec)
 #still cleaning
 FDA_vec <- str_trim(FDA_vec, side = 'both') %>%
+  str_replace_all(" \\+ ", " and ") %>%
   str_replace_all("[[:punct:]]", "") %>%
   str_replace_all(" inc$","") %>%
   str_replace_all(" pharm.*$","") %>%
@@ -27,9 +28,24 @@ FDA_vec <- str_trim(FDA_vec, side = 'both') %>%
   str_replace_all(" north america$", "") %>%
   str_replace_all(" international$", "") %>%
   str_replace_all(" labs$", "") %>%
-  str_replace_all(" products$", "")
+  str_replace_all(" products$", "") %>%
+  str_replace_all("sanofiaventis", "sanofi aventis") %>%
+  str_replace_all(" us$", "") %>%
+  str_replace_all(" corp.*$", "") %>%
+  str_replace_all(" industries$", "") %>%
+  str_replace_all(" electronics$", "") %>%
+  str_replace_all(" medical$", "") %>%
+  str_replace_all(" cons ", " consumer ") %>%
+  str_replace_all(" cons$", " consumer")%>%
+  str_replace_all(" con ", " consumer ")%>%
+  str_replace_all(" con$", " consumer")%>%
+  str_replace_all("hlth", "health") %>%
+  str_replace_all("health care", "healthcare")
+
+
 #still cleaning
 TJ_vec <-  str_trim(TJ_vec, side = 'both') %>%
+  str_replace_all(" \\+ ", " and ") %>%
   str_replace_all("[[:punct:]]", "") %>%
   str_replace_all(" inc$","") %>%
   str_replace_all(" pharm.*$","") %>%
@@ -40,7 +56,19 @@ TJ_vec <-  str_trim(TJ_vec, side = 'both') %>%
   str_replace_all(" north america$", "") %>%
   str_replace_all(" international$", "") %>%
   str_replace_all(" labs$", "") %>%
-  str_replace_all(" products$", "")
+  str_replace_all(" products$", "")%>%
+  str_replace_all("sanofiaventis", "sanofi aventis")%>%
+  str_replace_all(" us$", "") %>%
+  str_replace_all(" corp.*$", "") %>%
+  str_replace_all(" industries$", "") %>%
+  str_replace_all(" electronics$", "") %>%
+  str_replace_all(" medical$", "") %>%
+  str_replace_all(" cons ", " consumer ") %>%
+  str_replace_all(" cons$", " consumer")%>%
+  str_replace_all(" con ", " consumer ")%>%
+  str_replace_all(" con$", " consumer")%>%
+  str_replace_all("hlth", "health") %>%
+  str_replace_all("health care", "healthcare")
 
 
 FDA_vec <- unique(FDA_vec)
@@ -67,7 +95,10 @@ hist(y$std_dist)
 quantile(y$std_dist,seq(0,1,length =11))
 
 y = y[order(y$std_dist),]
+colnames(y)[1:2] = c("FDA Database", "Pharmacy Times")
+y = dplyr::filter(y, std_dist < 1)
 View(head(y, 100))
+
 #saving out to file
 #write.csv(y, file= "./data/business_innovation/working/Name Standardization/FDADrugs_Pharmtimes_Companies.csv", row.names = F)
 
