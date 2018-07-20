@@ -5,10 +5,13 @@ library(reshape2)
 library(stringr)
 FDA <- read_xlsx("./data/business_innovation/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx")
 TJ <- read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/otc_dirty.csv',stringsAsFactors = F)
+#combine the OTC with RX
+TJ <- rbind(TJ, read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/Rx_dirty.csv',stringsAsFactors = F))
 
-#FDA <- read.csv('./data/business_innovation/working/med_device_data/masterkey.csv')
-#TJ <- read.csv('./data/business_innovation/working/Medical_Devices_Briefs/Standardized_Company_Names.csv')
-#uniques
+# FDA <- read.csv('./data/business_innovation/working/med_device_data/masterkey.csv')
+# TJ <- read.csv('./data/business_innovation/working/SurgicalProductCompanyNames.csv')
+
+#uniques- MAKE SURE TO CHANGE COMPANY NAME DEPENDING ON THE DATA SOURCE
 FDA_vec <- unique(FDA$Company)
 TJ_vec <- unique(TJ$Company)
 
@@ -50,7 +53,20 @@ FDA_vec <- str_trim(FDA_vec, side = 'both') %>%
   str_replace_all("philadelphia pa", "") %>%
   str_replace_all(" pa(\\s|$)", "") %>%
   str_replace_all(" england", "") %>%
-  str_replace_all(" grp ltd", " grp")
+  str_replace_all(" grp ltd", " grp") %>%
+  str_replace_all(" denver", "") %>%
+  str_replace_all("(?= health(\\s?)care)(.*)", "") %>%
+  str_trim(side = 'both') %>%
+  str_replace_all(" consumer healthcare.*$", " consumer healthcare") %>%
+  str_replace_all(" ireland$", "") %>%
+  str_replace_all("johnsonmerck", "johnson-merck") %>%
+  str_replace_all("johnson johnson ", "johnson and johnson ") %>%
+  str_replace_all("johnson  johnson ", "johnson and johnson ") %>%
+  str_replace_all("j and j", "johnson and johnson") %>%
+  str_replace_all("johnson and johnson consumer$", "johnson and johnson consumer healthcare") %>%
+  str_replace_all("johnson and johnsonconsumer healthcare", "johnson and johnson consumer healthcare") %>%
+  str_replace_all("(?= health(\\s?)care)(.*)", "")
+
 
 
 #still cleaning
@@ -85,7 +101,19 @@ TJ_vec <-  str_trim(TJ_vec, side = 'both') %>%
   str_replace_all("pittsburgh", "") %>%
   str_replace_all(" pa(\\s|$)", "") %>%
   str_replace_all(" england", "") %>%
-  str_replace_all(" grp ltd", " grp")
+  str_replace_all(" grp ltd", " grp") %>%
+  str_replace_all(" denver", "") %>%
+  str_trim(side = 'both') %>%
+  str_replace_all(" consumer healthcare.*$", " consumer healthcare") %>%
+  str_replace_all(" ireland$", "") %>%
+  str_replace_all("johnsonmerck", "johnson-merck") %>%
+  str_replace_all("johnson johnson ", "johnson and johnson ") %>%
+  str_replace_all("johnson  johnson ", "johnson and johnson ") %>%
+  str_replace_all("j and j", "johnson and johnson") %>%
+  str_replace_all("johnson and johnson consumer$", "johnson and johnson consumer healthcare") %>%
+  str_replace_all("johnson and johnsonconsumer healthcare", "johnson and johnson consumer healthcare") %>%
+  str_replace_all("(?= health(\\s?)care)(.*)", "")
+
 
 
 FDA_vec <- unique(FDA_vec)
