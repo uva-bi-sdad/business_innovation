@@ -3,19 +3,24 @@ library(readxl)
 library(dplyr)
 library(reshape2)
 library(stringr)
+library(gsubfn)
 FDA <- read_xlsx("./data/business_innovation/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx")
 TJ <- read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/otc_dirty.csv',stringsAsFactors = F)
 #combine the OTC with RX
 TJ <- rbind(TJ, read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/Rx_dirty.csv',stringsAsFactors = F))
 
 # FDA <- read.csv('./data/business_innovation/working/med_device_data/masterkey.csv')
-# TJ <- read.csv('./data/business_innovation/working/SurgicalProductCompanyNames.csv')
+#TJ <- read.csv('./data/business_innovation/working/SurgicalProductCompanyNames.csv')
+
+#variables for before and after
+beforeFDA  <- unique(FDA$Company)
+beforeTJ <- unique(TJ$Company)
 
 #uniques- MAKE SURE TO CHANGE COMPANY NAME DEPENDING ON THE DATA SOURCE
 FDA_vec <- unique(FDA$Company)
 TJ_vec <- unique(TJ$Company)
-
-#cleaning
+#
+# #cleaning
 FDA_vec <- tolower(FDA_vec)
 TJ_vec <- tolower(TJ_vec)
 #still cleaning
@@ -65,7 +70,12 @@ FDA_vec <- str_trim(FDA_vec, side = 'both') %>%
   str_replace_all("j and j", "johnson and johnson") %>%
   str_replace_all("johnson and johnson consumer$", "johnson and johnson consumer healthcare") %>%
   str_replace_all("johnson and johnsonconsumer healthcare", "johnson and johnson consumer healthcare") %>%
-  str_replace_all("(?= health(\\s?)care)(.*)", "")
+  str_replace_all("(?= health(\\s?)care)(.*)", " healthcare") %>%
+  str_replace_all(" and$", "")%>%
+  str_replace_all(" bristolmyers squibb", "bristol myers squibb") %>%
+  str_replace_all("sigmatau", "sigma tau") %>%
+  str_replace_all(" ip$", "")
+
 
 
 
@@ -112,7 +122,11 @@ TJ_vec <-  str_trim(TJ_vec, side = 'both') %>%
   str_replace_all("j and j", "johnson and johnson") %>%
   str_replace_all("johnson and johnson consumer$", "johnson and johnson consumer healthcare") %>%
   str_replace_all("johnson and johnsonconsumer healthcare", "johnson and johnson consumer healthcare") %>%
-  str_replace_all("(?= health(\\s?)care)(.*)", "")
+  str_replace_all("(?= health(\\s?)care)(.*)", " healthcare") %>%
+  str_replace_all(" and$", "")%>%
+  str_replace_all(" bristolmyers squibb", "bristol myers squibb") %>%
+  str_replace_all("sigmatau", "sigma tau")%>%
+  str_replace_all(" ip$", "")
 
 
 
@@ -141,10 +155,65 @@ quantile(y$std_dist,seq(0,1,length =11))
 
 y = y[order(y$std_dist),]
 colnames(y)[1:2] = c("FDA Database", "Pharmacy Times")
-y = dplyr::filter(y, std_dist < 1)
+#y = dplyr::filter(y, std_dist < 1)
 View(head(y, 100))
 
 #saving out to file
 #write.csv(y, file= "./data/business_innovation/working/Name Standardization/FDADrugs_Pharmtimes_Companies.csv", row.names = F)
 
 
+
+
+#
+# ##### new table
+# beforeFDA <- beforeFDA[1:50]
+# beforeFDA <- tolower(beforeFDA)
+#
+# afterFDA <-  str_trim(beforeFDA, side = 'both') %>%
+#   str_replace_all(" \\+ ", " and ") %>%
+#   str_replace_all("[[:punct:]]", "") %>%
+#   str_replace_all(" inc$","") %>%
+#   str_replace_all(" pharm.*$","") %>%
+#   str_replace_all(" technologies$","") %>%
+#   str_replace_all(" intl$", "") %>%
+#   str_replace_all(" llc$", "") %>%
+#   str_replace_all(" co$", "") %>%
+#   str_replace_all(" north america$", "") %>%
+#   str_replace_all(" international$", "") %>%
+#   str_replace_all(" labs$", "") %>%
+#   str_replace_all(" products$", "")%>%
+#   str_replace_all("sanofiaventis", "sanofi aventis")%>%
+#   str_replace_all(" us$", "") %>%
+#   str_replace_all(" corp.*$", "") %>%
+#   str_replace_all(" industries$", "") %>%
+#   str_replace_all(" electronics$", "") %>%
+#   str_replace_all(" medical$", "") %>%
+#   str_replace_all(" cons ", " consumer ") %>%
+#   str_replace_all(" cons$", " consumer")%>%
+#   str_replace_all(" con ", " consumer ")%>%
+#   str_replace_all(" con$", " consumer")%>%
+#   str_replace_all("hlth", "health") %>%
+#   str_replace_all("health care", "healthcare") %>%
+#   str_replace_all("glaxosmithkline consumer [^h]", "glaxosmithkline consumer healthcare") %>%
+#   str_replace_all("philadelphia pa", "") %>%
+#   str_replace_all("philadelphia", "") %>%
+#   str_replace_all("pittsburgh", "") %>%
+#   str_replace_all(" pa(\\s|$)", "") %>%
+#   str_replace_all(" england", "") %>%
+#   str_replace_all(" grp ltd", " grp") %>%
+#   str_replace_all(" denver", "") %>%
+#   str_trim(side = 'both') %>%
+#   str_replace_all(" consumer healthcare.*$", " consumer healthcare") %>%
+#   str_replace_all(" ireland$", "") %>%
+#   str_replace_all("johnsonmerck", "johnson-merck") %>%
+#   str_replace_all("johnson johnson ", "johnson and johnson ") %>%
+#   str_replace_all("johnson  johnson ", "johnson and johnson ") %>%
+#   str_replace_all("j and j", "johnson and johnson") %>%
+#   str_replace_all("johnson and johnson consumer$", "johnson and johnson consumer healthcare") %>%
+#   str_replace_all("johnson and johnsonconsumer healthcare", "johnson and johnson consumer healthcare") %>%
+#   str_replace_all("(?= health(\\s?)care)(.*)", " healthcare") %>%
+#   str_replace_all(" and$", "") %>%
+#   str_replace_all(" bristolmyers squibb", "bristol myers squibb") %>%
+#   str_replace_all("sigmatau", "sigma tau")
+# beforeFDA
+# afterFDA
