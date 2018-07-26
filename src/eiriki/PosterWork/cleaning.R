@@ -1,14 +1,20 @@
 #function for quickly cleaning company names
 cleaning <- function(name_list){
-  clean_name <- str_trim(name_list, side = 'both') %>%
+  clean_name <- tolower(name_list)
+  clean_name <- str_trim(clean_name, side = 'both') %>%
     str_replace_all(" \\+ ", " and ") %>%
-    str_replace_all("\\,", "") %>%
+    str_replace_all("\\,.*", "") %>%
+    str_replace_all(": ", "") %>%
+    str_replace_all("\\s\\(.*", "") %>%
+    str_replace_all("\\;.*", "") %>%
     # str_replace_all("[[:punct:]]", "") %>%
     str_replace_all(" inc$","") %>%
+    str_replace_all(" inc $","") %>% #result of taking out (
     str_replace_all(" pharm.*$","") %>%
     str_replace_all(" technologies$","") %>%
     str_replace_all(" intl$", "") %>%
     str_replace_all(" llc$", "") %>%
+    str_replace_all(" & co$", "") %>%
     str_replace_all(" co$", "") %>%
     str_replace_all(" north america$", "") %>%
     str_replace_all(" international$", "") %>%
@@ -16,6 +22,7 @@ cleaning <- function(name_list){
     # str_replace_all(" products$", "") %>%
     str_replace_all("sanofiaventis", "sanofi aventis") %>%
     str_replace_all(" us$", "") %>%
+    str_replace_all(" usa$", "") %>%
     str_replace_all(" corp.*$", "") %>%
     str_replace_all(" industries$", "") %>%
     str_replace_all(" electronics$", "") %>%
@@ -51,6 +58,7 @@ cleaning <- function(name_list){
     str_replace_all(" and$", "")%>%
     str_replace_all(" bristolmyers squibb", "bristol myers squibb") %>%
     str_replace_all("sigmatau", "sigma tau") %>%
-    str_replace_all(" ip$", "")
+    str_replace_all(" ip$", "") %>%
+    str_replace_all(" laboratories$", "")
   return(clean_name)
 }
