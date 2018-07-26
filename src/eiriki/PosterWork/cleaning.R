@@ -19,6 +19,7 @@ cleaning <- function(name_list){
     str_replace_all(" north america$", "") %>%
     str_replace_all(" international$", "") %>%
     str_replace_all(" labs$", "") %>%
+    str_replace_all(" brands.*$", "") %>%
     # str_replace_all(" products$", "") %>%
     str_replace_all("sanofiaventis", "sanofi aventis") %>%
     str_replace_all(" us$", "") %>%
@@ -31,6 +32,7 @@ cleaning <- function(name_list){
     str_replace_all(" cons$", " consumer")%>%
     str_replace_all(" con ", " consumer ")%>%
     str_replace_all(" con$", " consumer")%>%
+    str_replace_all(" consumer.*$", "")%>%
     str_replace_all("hlth", "health") %>%
     str_replace_all("health care", "healthcare") %>%
     str_replace_all("glaxosmithkline consumer [^h]", "glaxosmithkline consumer healthcare") %>%
