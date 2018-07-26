@@ -61,6 +61,42 @@ cleaning <- function(name_list){
     str_replace_all(" bristolmyers squibb", "bristol myers squibb") %>%
     str_replace_all("sigmatau", "sigma tau") %>%
     str_replace_all(" ip$", "") %>%
-    str_replace_all(" laboratories$", "")
+    str_replace_all(" laboratories$", "") %>%
+    str_replace_all("^lilly$", "eli lilly") %>%
+    str_replace_all("^3m.*$", "3m") %>%
+    str_replace_all("^abbvie.*$", "abbvie") %>%
+    str_replace_all("^actavis.*$", "actavis")%>%
+    str_replace_all("^air liquid.*$", "air liquid")%>%
+    str_replace_all("^airgas.*$", "airgas")%>%
+    str_replace_all("^alkem.*$", "alkem")%>%
+    str_replace_all("^alergan.*$", "allergan")%>%
+    str_replace_all("^alvogen.*$", "alvogen")%>%
+    str_replace_all("^astrazeneca.*$", "astrazeneca")%>%
+    str_replace_all("^bristol myers", "bristol-myers")%>%
+    str_replace_all("^dr reddys.*$", "dr reddys")%>%
+    str_replace_all("^fresenius.*$", "fresenius")%>%
+    str_replace_all("^galderma.*$", "galderma")%>%
+    str_replace_all("^hetero .*", "hetero") %>%
+    str_replace_all("^hoffman la", "hoffman-la")%>%
+    str_replace_all("^horizon.*", "horizon")%>%
+    str_replace_all("^ipsen.*$", "ipsen") %>%
+    str_replace_all("^janssen.*$", "janssen")%>%
+    str_replace_all("^linde.*$", "linde")%>%
+    str_replace_all("^mallinkrodt.*$", "mallinkrodt")%>%
+    str_replace_all("^mylan.*$", "mylan")%>%
+    str_replace_all("l perrigo", "perrigo")%>%
+    str_replace_all("^perrigo.*$", "perrigo")%>%
+    str_replace_all("^praxair.*", "praxair")%>%
+    str_replace_all("^ranbaxy.*$", "ranbaxy")%>%
+    str_replace_all("^sagent.*$", "sagent")%>%
+    str_replace_all("sanofi aventis", "sanofi-aventis")%>%
+    str_replace_all("sanofi us services", "sanofi")%>%
+    str_replace_all(" holding$", "")%>%
+    str_replace_all("^shire.*", "shire")%>%
+    str_replace_all("^teva.*$", "teva")%>%
+    str_replace_all("^unichem.*$", "unichem")%>%
+    str_replace_all("^valeant.*$", "valeant")%>%
+    str_replace_all("^wockhardt.*$", "wockhardt")%>%
+    str_replace_all("^zydus.*$", "zydus")
   return(clean_name)
 }
