@@ -4,6 +4,14 @@ library(dplyr)
 library(stringr)
 library(readxl)
 
+
+tmp1 <- read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/combined.csv')
+tmp2 <- read.csv('./data/business_innovation/working/PHARMACY_TODAY/pToday.csv')
+tmp3 <- read_xlsx('./data/business_innovation/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx')
+
+
+
+
 pharmtimes <- read.csv('./data/business_innovation/final/Trade_Journals/Pharmacy_Times.csv',stringsAsFactors = F)
 ptoday <- read.csv('./data/business_innovation/final/Trade_Journals/Pharmacy_Today.csv',stringsAsFactors = F)
 FDA <- read.csv('./data/business_innovation/final/FDA_DRUGS/Fda_Drugs.csv',stringsAsFactors = F)
