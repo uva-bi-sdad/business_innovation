@@ -88,6 +88,26 @@ pma_app$new_company_renamed = pma_app$new_company %>%
   str_replace(".*alcon.*","alcon") %>%
   str_replace(".*gore.*","wl gore associates") %>%
   str_replace(".*livanova.*","livanova") %>%
+  str_replace(".*depuy.*","depuy") %>%
+  str_replace(".*ev3 neurovascular.*","ev3 neurovascular") %>%
+  str_replace(".*cr bard.*","cr bard") %>%
+  str_replace(".*mentor.*","mentor") %>%
+  str_replace(".*thoratech.*","thoratech") %>%
+  str_replace(".*coopervision.*","coopervision") %>%
+  str_replace(".*qiagen.*","qiagen") %>%
+  str_replace(".*genprobe.*","genprobe") %>%
+  str_replace(".*medel.*","medel") %>%
+  str_replace(".*cook.*","cook") %>%
+  str_replace(".*irvine.*","irvine") %>%
+  str_replace(".*baxter.*","baxter") %>%
+  str_replace(".*biomet.*","biomet") %>%
+  str_replace(".*codman.*","codman") %>%
+  str_replace(".*genzyme.*","genzyme") %>%
+  str_replace(".*smithnephew.*","smith nephew") %>%
+  str_replace(".*dako.*","dako") %>%
+  str_replace(".*reshape.*","reshape") %>%
+  str_replace(".*bd diagnostics.*","bd diagnostics") %>%
+  str_replace(".*insightec.*","insightec")
 
 
 
@@ -542,24 +562,63 @@ length(unique(master_app$new_company))
 
 #cleaning the top company names------
 master_app$new_company_renamed = master_app$new_company %>%
-  str_replace(".*medtronic.*","medtronic") %>%
-  str_replace(".*st\\sjude.*", "st jude") %>%
-  str_replace(".*boston\\sscientific.*", "boston scientific") %>%
-  str_replace(".*abbott.*", "abbott") %>%
-  str_replace(".*roche.*", "roche") %>%
-  str_replace(".*livanova.*","livanova") %>%
-  str_replace(".*johnson\\sand\\sjohnson.*", "johnson and johnson") %>%
-  str_replace(".*siemens.*", "siemens") %>%
-  str_replace("^ge\\s.*", "ge") %>%
-  str_replace("stryker.*", "stryker") %>%
-  str_replace("zimmer.*", "zimmer") %>%
-  str_replace("covidien.*", "covidien")
+  str_replace_all(".*medtronic.*","medtronic") %>%
+  str_replace_all(".*st\\sjude.*", "st jude") %>%
+  str_replace_all(".*boston\\sscientific.*", "boston scientific") %>%
+  str_replace_all(".*abbott.*", "abbott") %>%
+  str_replace_all(".*roche.*", "roche") %>%
+  str_replace_all(".*livanova.*","livanova") %>%
+  str_replace_all(".*johnson\\sand\\sjohnson.*", "johnson and johnson") %>%
+  str_replace_all(".*siemens.*", "siemens") %>%
+  str_replace_all("^ge\\s.*", "ge") %>%
+  str_replace_all("stryker.*", "stryker") %>%
+  str_replace_all("zimmer.*", "zimmer") %>%
+  str_replace_all("covidien.*", "covidien") %>%
+  str_replace_all(".*alcon.*","alcon") %>%
+  str_replace_all(".*gore.*","wl gore associates") %>%
+  str_replace_all(".*depuy.*","depuy") %>%
+  str_replace_all(".*ev3 neurovascular.*","ev3 neurovascular") %>%
+  str_replace_all(".*cr bard.*","cr bard") %>%
+  str_replace_all(".*mentor.*","mentor") %>%
+  str_replace_all(".*thoratech.*","thoratech") %>%
+  str_replace_all(".*coopervision.*","coopervision") %>%
+  str_replace_all(".*qiagen.*","qiagen") %>%
+  str_replace_all(".*genprobe.*","genprobe") %>%
+  str_replace_all(".*medel.*","medel") %>%
+  str_replace_all(".*cook.*","cook") %>%
+  str_replace_all(".*irvine.*","irvine") %>%
+  str_replace_all(".*baxter.*","baxter") %>%
+  str_replace_all(".*biomet.*","biomet") %>%
+  str_replace_all(".*codman.*","codman") %>%
+  str_replace_all(".*genzyme.*","genzyme") %>%
+  str_replace_all(".*smithnephew.*","smith nephew") %>%
+  str_replace_all(".*dako.*","dako") %>%
+  str_replace_all(".*reshape.*","reshape") %>%
+  str_replace_all(".*bd diagnostics.*","bd diagnostics") %>%
+  str_replace_all(".*insightec.*","insightec") %>%
+  str_replace_all("maxon.*", "maxon precision motors") %>%
+  str_replace_all("techeth", "techetch") %>%
+  str_replace_all("bei kimco.*", "bei kimco") %>%
+  str_replace_all(".*micromedics.*", "micromedics") %>%
+  str_replace_all(".*nordson.*","nordson") %>%
+  str_replace_all("tdk.*","tdk") %>%
+  str_replace_all(".*bayer.*","bayer") %>%
+  str_replace_all(".*schnider electric motion usa.*", "schnider electric motion") %>%
+  str_replace_all(".*miyachi.*", "miyachi") %>%
+  str_replace_all(".*eos.*", "eos") %>%
+  str_replace_all(".*delo.*", "delo")
+
+fda_final <- master_app$new_company_renamed
+saveRDS(fda_final, "./data/business_innovation/final/FDA Medical Device/fdaVEC.RDS")
+
+
+
 
 top10_master = dplyr::arrange(master_app[, .N, by = master_app$new_company_renamed], -N)[1:10,]
 counts_master = dplyr::arrange(master_app[, .N, by = master_app$new_company_renamed], -N)
 nrow(counts_master)
 #SAVE INITAL-CLEAN TOP10 --------
-data.table::fwrite(top10_master, "./data/business_innovation/working/med_device_data/pma_init_clean.csv")
+data.table::fwrite(counts_master, "./data/business_innovation/final/FDA Medical Device/full_clean.csv")
 
 
 #ARRANGE BY TOP COMPANIES BY YEAR
