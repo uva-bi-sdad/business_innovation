@@ -126,3 +126,6 @@ vis <- ggplot(FDA_Drugs,aes(x= reorder(Company, -as.numeric(max)),y=Freq)) + geo
   ylab("Number of Submissions") + ggtitle("Top Companies in FDA Drugs 2013-2015")
 vis
 
+# #export the data
+write.csv(ptoday,'./data/business_innovation/final/Trade_Journals/pharmacytoday_by_year.csv',row.names = F)
+write.csv(pharmtimes,'./data/business_innovation/final/Trade_Journals/pharmacytimes_by_year.csv',row.names = F)
