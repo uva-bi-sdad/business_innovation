@@ -9,6 +9,8 @@ TJ <- read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/otc_d
 #combine the OTC with RX
 TJ <- rbind(TJ, read.csv('./data/business_innovation/working/PHARMACY_TIMES/combined/Rx_dirty.csv',stringsAsFactors = F))
 
+#NOTICE THAT THIS IS MATCHING WITH ALL YEARS IN PHARMACY TIMES. MUST SUBSET BY 2013-2015 LATER
+
 # FDA <- read.csv('./data/business_innovation/working/med_device_data/masterkey.csv')
 #TJ <- read.csv('./data/business_innovation/working/SurgicalProductCompanyNames.csv')
 
