@@ -45,7 +45,23 @@ FDA_ptoday <- output$`FDA Database`
 ##### now that we have both vectors, let's make the FDA vector.
 totals1 <- FDA[FDA$Company %in% FDA_pharmtimes,]
 totals2 <- FDA[FDA$Company %in% FDA_ptoday,]
-totals <- rbind(totals1,totals2)
+FDA_totals <- rbind(totals1,totals2)
 
-tab <- table(totals$Company)
+tab <- data.frame(table(FDA_totals$Company))
+#we have FDA, now get on a trade journal level
+totals3 <- pharmtimes[pharmtimes$Company %in% FDA_pharmtimes,]
+totals4 <- ptoday[ptoday$Parent.Company %in% FDA_ptoday,]
+#drop and rename columns so we can merge together
+totals4 <- totals4[ , c(-2,-4)]
+colnames(totals4)[2] <- "Company"
+#make tables
+pharmtimes_totals <- data.frame(table(totals3$Company))
+ptoday_totals <- data.frame(table(totals4$Company))
+#colnames
+colnames(tab) <- c("Company","FDA Frequency")
+colnames(pharmtimes_totals) <- c("Company","Pharmacy Times Frequency")
+colnames(ptoday_totals) <- c("Company","Pharmacy Today Frequency")
+#try to bind together
+master_table <- full_join(tab,pharmtimes_totals, by = "Company")
+master_table <- full_join(master_table,ptoday_totals, by = "Company")
 
