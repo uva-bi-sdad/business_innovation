@@ -3,7 +3,6 @@ library(data.table)
 fda = fread("./data/business_innovation/final/FDA Medical Device/full_clean.csv")
 tj = fread("./data/business_innovation/working/Scraping_MDB_Output/MDB_Scraping_File_Final.csv")
 
-fda
 tj_app = tj$Company_Name
 length(tj_app)
 
@@ -11,7 +10,7 @@ tj_app_dirty = data.table::data.table(tj_app)
 counts_tj_dirty = dplyr::arrange(tj_app_dirty[, .N, by = tj$Company_Name], -N)
 nrow(counts_tj_dirty)
 
-tj_vec = tolower(tj_app)
+tj_vec = tolower(tj$Company_Name)
 tj_vec <- str_trim(tj_vec, side = 'both') %>%
   str_replace_all(" \\+ ", " and ") %>%
   str_replace_all("[[:punct:]]", "") %>%
@@ -67,13 +66,11 @@ tj_vec <- str_trim(tj_vec, side = 'both') %>%
 
 tj$new_company = tj_vec
 
-tj_app <- subset(tj, select=c(Company_Name, new_company, Year))
-
-tj_app <- data.table::data.table(tj_app)
-length(unique(tj_app$new_company))
+tj <- data.table::data.table(tj)
+length(unique(tj$new_company))
 
 #cleaning the top company names------
-tj_app$new_company_renamed = tj_app$new_company %>%
+tj$new_company_renamed = tj$new_company %>%
   str_replace_all(".*medtronic.*","medtronic") %>%
   str_replace_all(".*st\\sjude.*", "st jude") %>%
   str_replace_all(".*boston\\sscientific.*", "boston scientific") %>%
@@ -119,17 +116,16 @@ tj_app$new_company_renamed = tj_app$new_company %>%
   str_replace_all(".*miyachi.*", "miyachi") %>%
   str_replace_all(".*eos.*", "eos") %>%
   str_replace_all(".*delo.*", "delo")
-tj_app$new_company_renamed
 
-
-saveRDS(tj_final, "./data/business_innovation/final/FDA Medical Device/tjVEC.RDS")
-top10_tj = dplyr::arrange(tj_app[, .N, by = tj_app$new_company_renamed], -N)[1:10,]
-counts_tj = dplyr::arrange(tj_app[, .N, by = tj_app$new_company_renamed], -N)
+data.table::fwrite(tj, "./data/business_innovation/working/med_device_data/tj_cleaned.csv")
+saveRDS(tj$new_company_renamed, "./data/business_innovation/final/FDA Medical Device/tjVEC.RDS")
+top10_tj = dplyr::arrange(tj[, .N, by = tj$new_company_renamed], -N)[1:10,]
+counts_tj = dplyr::arrange(tj[, .N, by = tj$new_company_renamed], -N)
 nrow(counts_tj)
 
 fwrite(counts_tj, "./data/business_innovation/final/FDA Medical Device/counts_tj.csv")
 
-tj_app_10 = data.table(counts_tj)
+tj_app_10 = data.table(counts_tj$tj)
 top10Companies =  dplyr::arrange(tj_app_10[, .N, by= tj_app_10$tj_app], -N)[1:10,]
 tj_app_10$approval_year = tj_app$Year
 
@@ -170,4 +166,6 @@ y = y[order(y$std_dist),]
 colnames(y)[1:2] = c("FDA Database", "Pharmacy Times")
 y = dplyr::filter(y, std_dist < 1)
 View(head(y, 100))
+
+data.table::fwrite(y, "./data/business_innovation/final/FDA Medical Device/mdb_matching.csv")
 
