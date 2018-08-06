@@ -9,6 +9,7 @@ length(unique(master$device_name))
 #PMA-----------------------------------------------------------------------------------------
 pma = dplyr::filter(master, type == "pma")
 nrow(pma) #6986
+length(unique(master$applicant))
 
 pma_app = pma$applicant
 #pma = data.table::data.table(pma)
@@ -177,7 +178,7 @@ pre = dplyr::filter(master, type == "510k")
 nrow(pre) #9274
 
 pre_app = pre$applicant
-length(pre_app)
+length(unique(pre_app))
 
 pre_app_dirty = data.table::data.table(pre_app)
 top10_pre_dirty = dplyr::arrange(pre_app_dirty[, .N, by = pre$applicant], -N)[1:10,]
@@ -337,7 +338,7 @@ hde = dplyr::filter(master, type == "HDE")
 nrow(hde) #346
 
 hde = hde[!(hde$applicant == "Applicant"), ]
-
+length(unique(hde$applicant))
 hde_app = hde$applicant
 
 hde_app_dirty = data.table::data.table(hde_app)
