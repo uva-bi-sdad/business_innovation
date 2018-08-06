@@ -13,7 +13,7 @@ FDA_Drugs <- read_xlsx('./data/business_innovation/original/fda_drugs/Copy of FD
 pharmtimes$Company <- as.factor(cleaning(pharmtimes$Company))
 
 #check our cleaning works
-levels(pharmtimes$Company)
+levels(as.factor(pharmtimes$Company))
 #write out
 write.csv(pharmtimes,file='./data/business_innovation/final/Trade_Journals/Pharmacy_Times.csv',row.names = F)
 ###pharmacy times bar charts again
@@ -97,7 +97,7 @@ FDA_Drugs$Company <- as.factor(cleaning(FDA_Drugs$Company))
 
 #check our cleaning works
 levels(FDA_Drugs$Company)
-write.csv(FDA_Drugs,file='./data/business_innovation/final/FDA_DRUGS/Fda_Drugs.csv',row.names = F)
+#write.csv(FDA_Drugs,file='./data/business_innovation/final/FDA_DRUGS/Fda_Drugs.csv',row.names = F)
 
 ###pharmacy times bar charts again
 max <- table(FDA_Drugs$Company)

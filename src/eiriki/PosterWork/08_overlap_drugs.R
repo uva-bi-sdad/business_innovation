@@ -2,14 +2,13 @@
 library(stringr)
 library(dplyr)
 library(data.table)
-source('src/eiriki/PosterWork/cleaning.R')
 pharmtimes <- read.csv('./data/business_innovation/final/Trade_Journals/Pharmacy_Times.csv',stringsAsFactors = F)
 ptoday <- read.csv('./data/business_innovation/final/Trade_Journals/Pharmacy_Today.csv',stringsAsFactors = F)
 FDA <- read.csv('./data/business_innovation/final/FDA_DRUGS/Fda_Drugs.csv',stringsAsFactors = F)
 #uniques
 FDA_vec <- unique(FDA$Company)
 TJ_vec <- unique(pharmtimes$Company)
-#str dist
+#str dist tells us where the matches are - equal if zero
 dist_mat <- adist(FDA_vec,TJ_vec)
 
 rownames(dist_mat) = FDA_vec
@@ -42,10 +41,17 @@ colnames(output)[1:2] = c("FDA Database", "Pharmacy Today")
 output = output[output$value ==0,]
 FDA_ptoday <- output$`FDA Database`
 
+#only original submissions is what we want
+# FDA$Submission <- str_replace_all(FDA$Submission,"ORIG.*","ORIG")
+# # table(FDA$Submission)
+# #subset by original submissions
+# FDA <- FDA[FDA$Submission == "ORIG",]
+
+
 ##### now that we have both vectors, let's make the FDA vector.
 totals1 <- FDA[FDA$Company %in% FDA_pharmtimes,]
 totals2 <- FDA[FDA$Company %in% FDA_ptoday,]
-FDA_totals <- rbind(totals1,totals2)
+FDA_totals <- rbind(totals1,setdiff(totals2,totals1))
 
 tab <- data.frame(table(FDA_totals$Company))
 #we have FDA, now get on a trade journal level
@@ -61,7 +67,11 @@ ptoday_totals <- data.frame(table(totals4$Company))
 colnames(tab) <- c("Company","FDA Frequency")
 colnames(pharmtimes_totals) <- c("Company","Pharmacy Times Frequency")
 colnames(ptoday_totals) <- c("Company","Pharmacy Today Frequency")
-#try to bind together
+#try to bind together - ignore the warnings
 master_table <- full_join(tab,pharmtimes_totals, by = "Company")
 master_table <- full_join(master_table,ptoday_totals, by = "Company")
+master_table[is.na(master_table)] <- 0
+
+#write out the master table
+#write.csv(master_table, file= './data/business_innovation/final/overlap_drugs.csv',row.names = F)
 
