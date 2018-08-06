@@ -127,21 +127,29 @@ nrow(change_design)
 
 labeling_change = pma %>%
   filter(supplement_reason == "Labeling Change - Indications/instructions/shelf life/tradename" |
-           supplement_reason == "Labeling Change - PAS")
+           supplement_reason == "Labeling Change - PAS") %>%
+  select(new_company_renamed, trade_name, device_name, decision_date,supplement_reason, applicant)
+
 nrow(labeling_change)
 
 post_approval_study = pma %>%
   filter(supplement_reason == "Postapproval Study Protocol - OSB" |
-          supplement_reason == "Postapproval Study Protocol - ODE/OIR")
+          supplement_reason == "Postapproval Study Protocol - ODE/OIR") %>%
+  select(new_company_renamed, trade_name, device_name, decision_date,supplement_reason, applicant)
+
 nrow(post_approval_study)
 
 
 other_report = pma %>%
-  filter(supplement_reason == "Other Report")
+  filter(supplement_reason == "Other Report") %>%
+  select(new_company_renamed, trade_name, device_name, decision_date,supplement_reason, applicant)
+
 nrow(other_report)
 
 none = pma %>%
-  filter(supplement_reason == "")
+  filter(supplement_reason == "") %>%
+  select(new_company_renamed, trade_name, device_name, decision_date,supplement_reason, applicant)
+
 nrow(none)
 
 counts = dplyr::arrange(pma[, .N, by = pma$supplement_reason], -N)

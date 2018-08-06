@@ -1,16 +1,16 @@
 library(data.table)
 
 fda = fread("./data/business_innovation/final/FDA Medical Device/full_clean.csv")
-tj = fread("./data/business_innovation/working/Scraping_MDB_Output/MDB_Scraping_File_Final.csv")
+tj = fread("./data/business_innovation/working/1-Surgical_Prod_Standardized_Company.csv")
 
-tj_app = tj$Company_Name
+tj_app = tj$companyName
 length(tj_app)
 
 tj_app_dirty = data.table::data.table(tj_app)
 counts_tj_dirty = dplyr::arrange(tj_app_dirty[, .N, by = tj$Company_Name], -N)
 nrow(counts_tj_dirty)
 
-tj_vec = tolower(tj$Company_Name)
+tj_vec = tolower(tj_app)
 tj_vec <- str_trim(tj_vec, side = 'both') %>%
   str_replace_all(" \\+ ", " and ") %>%
   str_replace_all("[[:punct:]]", "") %>%
@@ -117,28 +117,27 @@ tj$new_company_renamed = tj$new_company %>%
   str_replace_all(".*eos.*", "eos") %>%
   str_replace_all(".*delo.*", "delo")
 
-data.table::fwrite(tj, "./data/business_innovation/working/med_device_data/tj_cleaned.csv")
-saveRDS(tj$new_company_renamed, "./data/business_innovation/final/FDA Medical Device/tjVEC.RDS")
+data.table::fwrite(tj, "./data/business_innovation/working/med_device_data/tj_surged_cleaned.csv")
+saveRDS(tj$new_company_renamed, "./data/business_innovation/final/FDA Medical Device/tj1VEC.RDS")
 top10_tj = dplyr::arrange(tj[, .N, by = tj$new_company_renamed], -N)[1:10,]
 counts_tj = dplyr::arrange(tj[, .N, by = tj$new_company_renamed], -N)
 nrow(counts_tj)
 
-fwrite(counts_tj, "./data/business_innovation/final/FDA Medical Device/counts_tj.csv")
+fwrite(counts_tj, "./data/business_innovation/final/FDA Medical Device/counts_tj1.csv")
 
-tj_app_10 = data.table(counts_tj$tj)
-top10Companies =  dplyr::arrange(tj_app_10[, .N, by= tj_app_10$tj_app], -N)[1:10,]
-tj_app_10$approval_year = tj_app$Year
-
-
-decision_by_year = tj_app[tj_app %in% top10Companies$tj_app_10, .N, by = c("Company_Name", "Year")]
-decision_by_year$approval_year = factor(decision_by_year$approval_year, levels = c("2015", "2014", "2013"))
-max = in_range[, .N, by = c("applicant")]
-
-
+# tj_app_10 = data.table(counts_tj$tj)
+# top10Companies =  dplyr::arrange(tj_app_10[, .N, by= tj_app_10$tj_app], -N)[1:10,]
+#
+#
+# decision_by_year = tj_app[tj_app %in% top10Companies$tj_app_10, .N, by = c("Company_Name", "Year")]
+# decision_by_year$approval_year = factor(decision_by_year$approval_year, levels = c("2015", "2014", "2013"))
+# max = in_range[, .N, by = c("applicant")]
+#
+#
 
 #match
 FDA_vec = readRDS("./data/business_innovation/final/FDA Medical Device/fdaVEC.RDS")
-TJ_vec = readRDS("./data/business_innovation/final/FDA Medical Device/tjVEC.RDS")
+TJ_vec = readRDS("./data/business_innovation/final/FDA Medical Device/tj1VEC.RDS")
 FDA_vec <- unique(FDA_vec)
 TJ_vec <- unique(TJ_vec)
 
