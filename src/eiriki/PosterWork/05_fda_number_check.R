@@ -38,4 +38,6 @@ others_years %>% summarise(count = sum(table(Year)))
 #Daniel confirmed to us that the data he used to make the old visuals were using an outdated dataset
 #the correct data should be combined V2.So these numbers right here are the correct ones
 
+#let's do some plotting
+
 
