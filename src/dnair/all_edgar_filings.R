@@ -7,13 +7,15 @@ library(data.table)
 library(dplyr)
 library(htmltools)
 library(magrittr)
+library(htmltidy)
+library(readr)
 
 ## GRAB ALL PATHS
 paths_file <- "data/business_innovation/original/edgar_filings/ALL_SEC_files.txt"
 file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
 paths <- paste0("./data/business_innovation/original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
 paths[9]
-file_names <- list.files(head(paths), full.names = TRUE)
+file_names <- unique(list.files(paths, full.names = TRUE))
 file_names[9]
 head(file_names)
 
@@ -22,66 +24,152 @@ substrRight <- function(x, n){
   substr(x, nchar(x)-n+1, nchar(x))
 }
 
+removeDocTypes <-
+  function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP")) {
+    no_ns <- gsub("\\n", " ", xml_string)
+    #browser()
+    for (t in types) {
+      find_str <- paste0("<DOCUMENT> ?<TYPE> ?", t)
+      search_str <- paste0("<DOCUMENT> ?<TYPE> ?", t, ".*?</DOCUMENT>")
+      found <-
+        as.data.table(stringr::str_locate_all(no_ns, find_str))
+
+      for (i in 1:nrow(found)) {
+        locs <- as.data.table(stringr::str_locate(no_ns, search_str))
+        st <- locs[1, start] - 1
+        en <- locs[1, end] + 1
+        no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns)))
+      }
+    }
+    no_ns
+  }
+
+
+
 ## for loop
+if (exists("fin_o") == TRUE) rm(fin_o)
 
-for (i in file_names[8]) {
-  edgar <- read_html(i)
-  edgar <- edgar %>%
-    as.character() %>%
-    HTML() %>%
-    read_html()
+for (i in file_names[2002:2867]) {
+  tryCatch({
+    unclean <- read_file(i)
+    #unclean=read_file(file_names[7])
+    cleaned <- removeDocTypes(unclean)
+    edgar <- read_html(cleaned)
+    edgar <- edgar %>%
+      as.character() %>%
+      HTML() %>%
+      read_html()
+  }, warning = function(war) {
+    print(paste("MY_WARNING:  ", war))
+    return(NA)
 
-  metadata <- xml_find_all(edgar, ".//b")
-  date <- html_text(metadata[7])
-  company <- html_text(metadata[13])
-  patt <- c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
-  patt2 <-as.character(c(2010:2019))
-  month <- stringr::str_which(date, patt)
-  year <- patt2[stringr::str_which(date, patt2)]
+  }, error = function(err) {
+    print(paste("ERROR:  ", err))
+    #o <- out.matrix[i, 1] <- paste(basename(repo), "ERROR")
+    return(NA)
 
-  div <- xml_find_all(edgar, ".//p")
-  div_text <- div %>%
-    html_text() %>%
-    str_squish
+  }, finally = {
+    metadata <- xml_find_all(edgar, ".//b")
+    date <- html_text(metadata[7])
+    #company <- html_text(metadata[14])
+    company <- stringr::str_match(basename(i), "(^.*?)_")[, 2]
+    date <-
+      stringr::str_match(basename(i),
+                         "([0-9][0-9][0-9][0-9])-([0-9][0-9])-[0-9][0-9]")
+    month <- date[, 3]
+    year <- date[, 2]
+    #patt <- c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+    #patt2 <-as.character(c(2010:2019))
+    #month <- stringr::str_which(date, patt)
+    #year <- patt2[stringr::str_which(date, patt2)]
 
-  paragraphs <- subset(div_text, nchar(div_text) >= 20)
-  word_innov <- c("launch", "new product")
+    div <- xml_find_all(edgar, ".//p")
+    div_text <- div %>%
+      html_text() %>%
+      str_squish
 
-  innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
+    paragraphs <- subset(div_text, nchar(div_text) >= 20)
+    word_innov <- c("launch", "new product")
 
-  words <- unlist(stringr::str_split(gsub('[[:punct:] ]+',' ', paragraphs[innov_text]), " ", simplify = FALSE))
-  words <- words %>%
-    str_replace(pattern = "\u0092", "") %>%
-    str_replace(pattern = "\u0093", "") %>%
-    str_replace(pattern = "\u0094", "") %>%
-    str_replace(pattern = "\u0095", "") %>%
-    str_replace(pattern = "\u0097", "")
-  eng <- hunspell_check(words, dict = dictionary("en_US"))
-  caps <- grepl("^[[:upper:]]", words)
+    innov_text <-
+      which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
 
-  output1 <- tibble::tibble(
-    "Company" = company,
-    "Month" = month,
-    "Year" = year,
-    "Words" = words,
-    "English" = eng,
-    "Capitals" = caps
-  )
-  output2 <- output1 %>%
-    filter(English == FALSE & Capitals == TRUE & nchar(Words)>3 & substrRight(Words, 1) != "s") %>%
-    group_by(Words) %>%
-    summarise(count = n()) %>%
-    arrange(desc(count)) %>%
-    data.table::as.data.table()
+    words <-
+      unlist(stringr::str_split(gsub('[[:punct:] ]+', ' ', paragraphs[innov_text]), " ", simplify = FALSE))
+    words <- words %>%
+      str_replace(pattern = "\u0092", "") %>%
+      str_replace(pattern = "\u0093", "") %>%
+      str_replace(pattern = "\u0094", "") %>%
+      str_replace(pattern = "\u0095", "") %>%
+      str_replace(pattern = "\u0097", "") %>%
+      str_replace(pattern = "\u0099", "")
+    eng <- hunspell_check(words, dict = dictionary("en_US"))
+    caps <- grepl("^[[:upper:]]", words)
 
-  print(output1)
-  print(output2)
+    output1 <- tibble::tibble(
+      "Company" = company,
+      "Month" = month,
+      "Year" = year,
+      "Words" = words,
+      "English" = eng,
+      "Capitals" = caps
+    )
+    # output2 <- output1 %>%
+    #   filter(English == FALSE & Capitals == TRUE & nchar(Words)>3 & substrRight(Words, 1) != "s") %>%
+    #   group_by(Words) %>%
+    #   summarise(count = n()) %>%
+    #   arrange(desc(count)) %>%
+    #   data.table::as.data.table()
 
+    print(output1)
+    #print(output2)
+
+    o1 <- setDT(output1)
+    o2 <-
+      o1[English == FALSE &
+           Capitals == TRUE & nchar(Words) > 3 & substrRight(Words, 1) != "s",
+         .(count = .N),
+         .(Company, Words)][order(-count)]
+
+    print(o2)
+
+    if (exists("fin_o") == FALSE)
+      fin_o <- o2
+    else
+      fin_o <- rbindlist(list(fin_o, o2))
+  })
 }
 
+fin_o <- fin_o[, .(tot_cnt=sum(count)),.(Company, Words)][order(Company, -tot_cnt)]
+
+write_csv(fin_o, "data/business_innovation/working/word_counts_2001_2867.csv")
 
 #write.csv(example2, file = "data/business_innovation/working/dn_table.csv")
 
+# stringr::str_locate_all(cleaned, "<DOCUMENT><TYPE>...*?")
+# substr(unclean, 2342566-10, 2342566+1500)
+
+
+f1 <- fread("data/business_innovation/working/word_counts_1_1000.csv")
+f2 <- fread("data/business_innovation/working/word_counts_1001_2000.csv")
+f3 <- fread("data/business_innovation/working/word_counts_2001_2867.csv")
+f_all <- rbindlist(list(f1,f2,f3))
+f_all <- f_all[, .(tot_cnt=sum(tot_cnt)),.(Company, Words)][order(Company, -tot_cnt)]
+write_csv(f_all, "data/business_innovation/working/word_counts_all.csv")
 
 
 
+
+#CIK Names
+master_index <- readRDS("~/git/business_innovation/data/business_innovation/original/master_index.RDS")
+cik_unique <- unique(master_index[, .(CIK, COMPANY_NAME)])
+
+f_all_names <- merge(f_all_2, cik_unique, by = "CIK", all.x = TRUE)
+
+f_all_names_cat <- f_all_names[, .(company_name = paste(COMPANY_NAME, collapse = ", ")), .(CIK, Words, tot_cnt)]
+write_csv(f_all_names_cat, "data/business_innovation/working/word_counts_w_cat_names_all.csv")
+
+
+
+####
+#file_names <- unique(list.files("data/business_innovation/original/edgar_filings/Edgar_filings_folders", full.names = TRUE))
