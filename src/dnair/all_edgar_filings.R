@@ -29,8 +29,7 @@ if (exists("fin_o") == TRUE) rm(fin_o)
 for (i in file_names[2002:2867]) {
   tryCatch({
     unclean <- read_file(i)
-    #unclean=read_file(file_names[7])
-    cleaned <- remove_doc_types(unclean)
+    cleaned <- remove_doc_types(unclean, types = c("GRAPHIC", "EXCEL", "ZIP"))
     edgar <- read_html(cleaned)
     edgar <- edgar %>%
       as.character() %>%
@@ -105,7 +104,7 @@ for (i in file_names[2002:2867]) {
          .(count = .N),
          .(Company, Words)][order(-count)]
 
-    print(o2)
+    #print(o2)
 
     # combine results with final data.table
     if (exists("fin_o") == FALSE)
