@@ -46,15 +46,13 @@ for (i in file_names[2002:2867]) {
     return(NA)
 
   }, finally = {
-    metadata <- xml_find_all(edgar, ".//b")
-    date <- html_text(metadata[7])
-    #company <- html_text(metadata[14])
-    company <- stringr::str_match(basename(i), "(^.*?)_")[, 2]
-    date <-
-      stringr::str_match(basename(i),
-                         "([0-9][0-9][0-9][0-9])-([0-9][0-9])-[0-9][0-9]")
+    company <- str_match(basename(i), "(^.*?)_")[, 2]
+    date <- str_match(basename(i), "([0-9][0-9][0-9][0-9])-([0-9][0-9])-[0-9][0-9]")
     month <- date[, 3]
     year <- date[, 2]
+    #metadata <- xml_find_all(edgar, ".//b")
+    #company <- html_text(metadata[14])
+    #date <- html_text(metadata[7])
     #patt <- c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
     #patt2 <-as.character(c(2010:2019))
     #month <- stringr::str_which(date, patt)
