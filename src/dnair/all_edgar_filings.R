@@ -9,6 +9,7 @@ library(htmltools)
 library(magrittr)
 library(htmltidy)
 library(readr)
+R.utils::sourceDirectory("functions")
 
 ## GRAB ALL PATHS
 paths_file <- "data/business_innovation/original/edgar_filings/ALL_SEC_files.txt"
@@ -19,34 +20,7 @@ file_names <- unique(list.files(paths, full.names = TRUE))
 file_names[9]
 head(file_names)
 
-## CREATE FUNCTION
-substrRight <- function(x, n){
-  substr(x, nchar(x)-n+1, nchar(x))
-}
-
-removeDocTypes <-
-  function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP")) {
-    no_ns <- gsub("\\n", " ", xml_string)
-    #browser()
-    for (t in types) {
-      find_str <- paste0("<DOCUMENT> ?<TYPE> ?", t)
-      search_str <- paste0("<DOCUMENT> ?<TYPE> ?", t, ".*?</DOCUMENT>")
-      found <-
-        as.data.table(stringr::str_locate_all(no_ns, find_str))
-
-      for (i in 1:nrow(found)) {
-        locs <- as.data.table(stringr::str_locate(no_ns, search_str))
-        st <- locs[1, start] - 1
-        en <- locs[1, end] + 1
-        no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns)))
-      }
-    }
-    no_ns
-  }
-
-
-
-## for loop
+## remove final data.table if exists
 if (exists("fin_o") == TRUE) rm(fin_o)
 
 # Loop over file paths. For safety, I specify subsets (e.g. file_names[1:1000]) and
@@ -56,7 +30,7 @@ for (i in file_names[2002:2867]) {
   tryCatch({
     unclean <- read_file(i)
     #unclean=read_file(file_names[7])
-    cleaned <- removeDocTypes(unclean)
+    cleaned <- remove_doc_types(unclean)
     edgar <- read_html(cleaned)
     edgar <- edgar %>%
       as.character() %>%
@@ -149,6 +123,7 @@ fin_o <- fin_o[, .(tot_cnt=sum(count)),.(Company, Words)][order(Company, -tot_cn
 # Write to file
 write_csv(fin_o, "data/business_innovation/working/word_counts_2001_2867.csv")
 
+
 # Combine files
 f1 <- fread("data/business_innovation/working/word_counts_1_1000.csv")
 f2 <- fread("data/business_innovation/working/word_counts_1001_2000.csv")
@@ -160,7 +135,6 @@ f_all <- f_all[, .(tot_cnt=sum(tot_cnt)),.(Company, Words)][order(Company, -tot_
 write_csv(f_all, "data/business_innovation/working/word_counts_all.csv")
 
 
-
 # Add company names to combined file
 f_all_2 <- fread("data/business_innovation/working/word_counts_all.csv")
 master_index <- readRDS("~/git/business_innovation/data/business_innovation/original/master_index.RDS")
@@ -168,7 +142,6 @@ master_index <- readRDS("~/git/business_innovation/data/business_innovation/orig
 cik_unique <- unique(master_index[, .(CIK, COMPANY_NAME)])
 # Merge with combined file
 f_all_names <- merge(f_all_2, cik_unique, by = "CIK", all.x = TRUE)
-
 # Group by CIK, Words, and tot_cnt, then collapse multiple names for a CIK into a comma delimited list
 f_all_names_cat <- f_all_names[, .(company_name = paste(COMPANY_NAME, collapse = ", ")), .(CIK, Words, tot_cnt)]
 # Write combined file with names to a file
