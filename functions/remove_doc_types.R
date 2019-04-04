@@ -1,5 +1,5 @@
 remove_doc_types <-
-  function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP")) {
+  function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "EX-10.3", "EX-10.6")) {
     no_ns <- gsub("\\n", " ", xml_string)
     #browser()
     for (t in types) {
@@ -12,7 +12,8 @@ remove_doc_types <-
         locs <- as.data.table(stringr::str_locate(no_ns, search_str))
         st <- locs[1, start] - 1
         en <- locs[1, end] + 1
-        no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns)))
+        ifelse(is.na(locs$start) == TRUE & is.na(locs$end) == TRUE, no_ns,
+               no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns))) )
       }
     }
     no_ns

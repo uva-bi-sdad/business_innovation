@@ -1,4 +1,5 @@
 ## LIBRARIES
+R.utils::sourceDirectory("functions")
 library(xml2)
 library(rvest)
 library(stringr)
@@ -9,12 +10,11 @@ library(htmltools)
 library(magrittr)
 library(htmltidy)
 library(readr)
-R.utils::sourceDirectory("functions")
 
 ## GRAB ALL PATHS
 paths_file <- "data/business_innovation/original/edgar_filings/ALL_SEC_files.txt"
 file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
-paths <- paste0("./data/business_innovation/original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
+paths <- paste0("data/business_innovation/original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
 paths[9]
 file_names <- unique(list.files(paths, full.names = TRUE))
 file_names[9]
@@ -26,7 +26,7 @@ if (exists("fin_o") == TRUE) rm(fin_o)
 # Loop over file paths. For safety, I specify subsets (e.g. file_names[1:1000]) and
 # then write each to a file, combining all files at the end
 # use trycatch to skip errors
-for (i in file_names[2002:2867]) {
+for (i in file_names[1201:1800]) {
   tryCatch({
     unclean <- read_file(i)
     cleaned <- remove_doc_types(unclean, types = c("GRAPHIC", "EXCEL", "ZIP"))
@@ -35,12 +35,13 @@ for (i in file_names[2002:2867]) {
       as.character() %>%
       HTML() %>%
       read_html()
+    print(paste(i))
   }, warning = function(war) {
-    print(paste("MY_WARNING:  ", war))
+    print(paste(i, "MY_WARNING:  ", war))
     return(NA)
 
   }, error = function(err) {
-    print(paste("ERROR:  ", err))
+    print(paste(i, "ERROR:  ", err))
     #o <- out.matrix[i, 1] <- paste(basename(repo), "ERROR")
     return(NA)
 
@@ -102,7 +103,7 @@ for (i in file_names[2002:2867]) {
     o2 <-
       o1[English == FALSE & Capitals == TRUE & nchar(Words) > 3 & substrRight(Words, 1) != "s",
          .(count = .N),
-         .(Company, Words)][order(-count)]
+         .(Company, Year, Words)][order(-count)]
 
     #print(o2)
 
@@ -114,22 +115,26 @@ for (i in file_names[2002:2867]) {
   })
 }
 
+reshape2::dcast(fin_o, Company + Words ~ Year, sum)
+reshape2::dcast(fin_o, Words + Company ~ Year, sum)
+
 # Group output by Company and Words, then sum the counts
 fin_o <- fin_o[, .(tot_cnt=sum(count)),.(Company, Words)][order(Company, -tot_cnt)]
 
 # Write to file
-write_csv(fin_o, "data/business_innovation/working/word_counts_2001_2867.csv")
+write_csv(fin_o, "data/business_innovation/working/dnword_counts_2001_2867.csv")
 
 
 # Combine files
-f1 <- fread("data/business_innovation/working/word_counts_1_1000.csv")
-f2 <- fread("data/business_innovation/working/word_counts_1001_2000.csv")
-f3 <- fread("data/business_innovation/working/word_counts_2001_2867.csv")
+f1 <- fread("data/business_innovation/working/dnword_counts_1_1000.csv")
+f2 <- fread("data/business_innovation/working/dnword_counts_1001_2000.csv")
+f3 <- fread("data/business_innovation/working/dnword_counts_2001_2867.csv")
 f_all <- rbindlist(list(f1,f2,f3))
 # Group by Company and Words, then sum all tot_cnts
 f_all <- f_all[, .(tot_cnt=sum(tot_cnt)),.(Company, Words)][order(Company, -tot_cnt)]
 # Write combined to a file
-write_csv(f_all, "data/business_innovation/working/word_counts_all.csv")
+write_csv(f_all, "data/business_innovation/working/dnword_counts_all.csv")
+#----
 
 
 # Add company names to combined file
