@@ -1,5 +1,0 @@
-lookfor, between_this, and_this, ignore_case
-FDA APPROVALS, <table, </table>, T
-PRODUCT APPROVALS, <div, Table of Contents, T
-NEW PRODUCT, <div, >, T
-PRODUCT LAUNCH, <div, >, T
