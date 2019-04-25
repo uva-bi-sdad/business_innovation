@@ -1,0 +1,133 @@
+---
+title: "socialsim-workingdoc"
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache.lazy = FALSE)
+```
+
+## Regression to Predict the Event Counts
+
+The regression equation is specified below.
+
+\begin{align*}
+Y_{it}=\alpha + \beta_i Y_{i(t-1)} + T_i + \sum_{j=1}^{n}\gamma_j X_{ij(t-1)} + \sum_{k}\omega_k P_{k(t-1)} + \epsilon_t
+\end{align*}
+
+where the dependent variable $Y_{it}$ is the number of tweets (or tweets+retweets+mentions+quotes) by individual $i$ on day $t$. $T_i \in \{N,E\}$ is a dummy variable that represents the type of the individual (naive or experienced). $X$ denotes the individual features that will be used as independent variables such as the Reddit posts of individual $i$ on day $(t-1)$ and \emph{similarity} of individual $i$ to the tweets of day $(t-1)$. Finally, $P_k$ denotes the price of the cryptocurrency $k$ (e.g., Etherium, Bitcoin).
+
+## Dataset
+
+We have 26 csv files; 25 of them has 10K users, and the last file has 8,089 users. I will use the first 25 files (just to round up), so we have observations for 250K users and 242 days for each user.
+
+```{r, cache=TRUE}
+datafiles <- list.files('../data/original/socialsim/Econ_Model/input_files/')[-(1:2)]
+datafiles
+```
+
+## One file
+```{r, cache=TRUE}
+dat1 <- read.csv(paste('../data/original/socialsim/Econ_Model/input_files/',datafiles[1],sep=""))
+print("File dimension")
+dim(dat1)
+print("Number of users")
+length(unique(dat1$user))
+print("Number of days")
+length(unique(dat1$days))
+```
+
+
+## Combining files
+
+5 files to start with --> 50K users
+```{r merge, cache=TRUE}
+filenames=list.files(path='../data/original/socialsim/Econ_Model/input_files', full.names=TRUE)[-(1:2)]
+data_merged = rbindlist(lapply(filenames[-26][1:5], fread))
+```
+
+
+# Variables
+```{r variables, cache=TRUE}
+dat <- data_merged
+names(dat)[4:21] <- c("total.events.i.t","tweet.t_1","retweet.t_1","reply.t_1","quote.t_1","user.tweet.rate.t_1","similarity_i_.t.1.","friend_activity.t.1.","num_of_followers.t.1.",
+                     "num_of_followees.t.1.","num_of_friends.moody.","favorite_count_user_id.t.1.","volume_of_total_tweets_by_anyone.t.1.","closing_price_bitcoin.t.1.","closing_price_etherium.t.1.",
+                     "closing_price_of_monero.t.1.","reddit_posts.t.1.","github_posts.t.1.")  
+names(dat)
+print("Variables")
+ls.str(dat)
+```
+
+## Analyze variables
+
+## Previous day's activity
+
+We look at the plot of $Y_{it}$, total.events.i.t, against tweet.t_1 (tweeting event of user i on the previous day)
+
+```{r, cache=TRUE}
+dat1 <- dat[1:2420000,]
+plot(dat1$total.events.i.t,dat1$tweet.t_1)
+```
+
+We look at the plot of $Y_{it}$, total.events.i.t, against tweet.t_1 (total events user i on the previous day)
+
+```{r, cache=TRUE}
+dat$Y_i.t.1 <- rowSums(dat[,5:8])
+```
+
+```{r, cache=TRUE}
+dat1$Y_i.t.1 <- rowSums(dat1[,5:8])
+plot(dat1$total.events.i.t,dat1$Y_i.t.1)
+dat1_lm <- lm(dat1$total.events.i.t ~ dat1$Y_i.t.1)
+abline(dat1_lm,lwd=3, col="red")
+summary(dat1_lm)
+```
+
+##Regression
+
+#Using 50K users:
+
+```{r, cache=TRUE}
+model_glm <- glm(total.events.i.t ~ Y_i.t.1 + user.tweet.rate.t_1+similarity_i_.t.1.+friend_activity.t.1.+num_of_followers.t.1.+num_of_followees.t.1.+num_of_friends.moody.+favorite_count_user_id.t.1.+volume_of_total_tweets_by_anyone.t.1.+closing_price_bitcoin.t.1.+closing_price_etherium.t.1.+closing_price_of_monero.t.1.+reddit_posts.t.1.+github_posts.t.1., family=poisson(link=log), data=dat)
+summary(model_glm)
+```
+
+
+##Prediction
+Predictions made for the last file
+
+```{r, cache=TRUE}
+datafiles <- list.files('../data/original/socialsim/Econ_Model/input_files/')[-(1:2)]
+newdata <- read.csv(paste('../data/original/socialsim/Econ_Model/input_files/',datafiles[26],sep=""))
+names(newdata)[4:21] <- c("total.events.i.t","tweet.t_1","retweet.t_1","reply.t_1","quote.t_1","user.tweet.rate.t_1","similarity_i_.t.1.","friend_activity.t.1.","num_of_followers.t.1.",
+                      "num_of_followees.t.1.","num_of_friends.moody.","favorite_count_user_id.t.1.","volume_of_total_tweets_by_anyone.t.1.","closing_price_bitcoin.t.1.","closing_price_etherium.t.1.",
+                      "closing_price_of_monero.t.1.","reddit_posts.t.1.","github_posts.t.1.")  
+
+head(newdata)
+newdata$Y_i.t.1 <- rowSums(newdata[,5:8])
+
+data_gt <- newdata$total.events.i.t
+
+model_pred <- predict(model_glm,newdata,type="response")
+summary(model_pred)
+hist(model_pred)
+
+length(data_gt)
+length(model_pred)
+
+newdata <- data.frame(newdata)
+prediction_df <- cbind(newdata$user,newdata$days,data_gt,model_pred)
+head(prediction_df)
+dim(prediction_df)
+
+prediction_df <- data.frame(prediction_df)
+prediction_df$pred_bin <- round(prediction_df$model_pred,digits=0)
+  
+
+plot(prediction_df$data_gt,prediction_df$pred_bin)
+
+```
+
+
+

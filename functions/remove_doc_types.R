@@ -1,5 +1,5 @@
 remove_doc_types <-
-  function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "EX-10.3", "EX-10.6")) {
+  function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "EX-10.3", "EX-10.6", "EX-10.20")) {
     no_ns <- gsub("\\n", " ", xml_string)
     #browser()
     for (t in types) {
