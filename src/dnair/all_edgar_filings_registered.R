@@ -20,6 +20,10 @@ remove_doc_types <- function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "E
   no_ns
 }
 
+substrRight <- function(x, n){
+  substr(x, nchar(x)-n+1, nchar(x))
+}
+
 
 library(xml2)
 library(rvest)
@@ -52,7 +56,7 @@ if (exists("fin_o") == TRUE) rm(fin_o)
 # Loop over file paths. For safety, I specify subsets (e.g. file_names[1:1000]) and
 # then write each to a file, combining all files at the end
 # use trycatch to skip errors
-for (i in file_names[c(1:5,8)]) { # 2867
+for (i in file_names[1001:2000]) { # 2867
   tryCatch({
     unclean <- read_file(i)
     cleaned <- remove_doc_types(unclean)
@@ -126,7 +130,7 @@ for (i in file_names[c(1:5,8)]) { # 2867
 
 # Write to file
 
-write_csv(fin_o, "data/business_innovation/working/sec/wordcounts_2000_2867.csv")
+write_csv(fin_o, "data/business_innovation/working/sec/wordregcounts_1001_2000.csv")
 
 
 

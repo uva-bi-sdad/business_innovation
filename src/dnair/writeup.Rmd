@@ -1,133 +1,238 @@
 ---
-title: "socialsim-workingdoc"
+title: "SEC Documentation"
 output:
   html_document: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache.lazy = FALSE)
+```{r libraries, echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "hide"}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
+
+library(readr)
+library(dplyr)
+library(stringr)
+library(xml2)
+library(rvest)
+library(stringr)
+library(hunspell)
+library(data.table)
+library(htmltools)
+library(magrittr)
+library(htmltidy)
 ```
 
-## Regression to Predict the Event Counts
+```{r functions}
 
-The regression equation is specified below.
+remove_doc_types <- function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "EX-10.3", "EX-10.6", "EX-10.20")) {
+  no_ns <- gsub("\\n", " ", xml_string)
+  #browser()
+  for (t in types) {
+    find_str <- paste0("<DOCUMENT> ?<TYPE> ?", t)
+    search_str <- paste0("<DOCUMENT> ?<TYPE> ?", t, ".*?</DOCUMENT>")
+    found <-
+      as.data.table(stringr::str_locate_all(no_ns, find_str))
 
-\begin{align*}
-Y_{it}=\alpha + \beta_i Y_{i(t-1)} + T_i + \sum_{j=1}^{n}\gamma_j X_{ij(t-1)} + \sum_{k}\omega_k P_{k(t-1)} + \epsilon_t
-\end{align*}
-
-where the dependent variable $Y_{it}$ is the number of tweets (or tweets+retweets+mentions+quotes) by individual $i$ on day $t$. $T_i \in \{N,E\}$ is a dummy variable that represents the type of the individual (naive or experienced). $X$ denotes the individual features that will be used as independent variables such as the Reddit posts of individual $i$ on day $(t-1)$ and \emph{similarity} of individual $i$ to the tweets of day $(t-1)$. Finally, $P_k$ denotes the price of the cryptocurrency $k$ (e.g., Etherium, Bitcoin).
-
-## Dataset
-
-We have 26 csv files; 25 of them has 10K users, and the last file has 8,089 users. I will use the first 25 files (just to round up), so we have observations for 250K users and 242 days for each user.
-
-```{r, cache=TRUE}
-datafiles <- list.files('../data/original/socialsim/Econ_Model/input_files/')[-(1:2)]
-datafiles
-```
-
-## One file
-```{r, cache=TRUE}
-dat1 <- read.csv(paste('../data/original/socialsim/Econ_Model/input_files/',datafiles[1],sep=""))
-print("File dimension")
-dim(dat1)
-print("Number of users")
-length(unique(dat1$user))
-print("Number of days")
-length(unique(dat1$days))
-```
-
-
-## Combining files
-
-5 files to start with --> 50K users
-```{r merge, cache=TRUE}
-filenames=list.files(path='../data/original/socialsim/Econ_Model/input_files', full.names=TRUE)[-(1:2)]
-data_merged = rbindlist(lapply(filenames[-26][1:5], fread))
-```
-
-
-# Variables
-```{r variables, cache=TRUE}
-dat <- data_merged
-names(dat)[4:21] <- c("total.events.i.t","tweet.t_1","retweet.t_1","reply.t_1","quote.t_1","user.tweet.rate.t_1","similarity_i_.t.1.","friend_activity.t.1.","num_of_followers.t.1.",
-                     "num_of_followees.t.1.","num_of_friends.moody.","favorite_count_user_id.t.1.","volume_of_total_tweets_by_anyone.t.1.","closing_price_bitcoin.t.1.","closing_price_etherium.t.1.",
-                     "closing_price_of_monero.t.1.","reddit_posts.t.1.","github_posts.t.1.")  
-names(dat)
-print("Variables")
-ls.str(dat)
-```
-
-## Analyze variables
-
-## Previous day's activity
-
-We look at the plot of $Y_{it}$, total.events.i.t, against tweet.t_1 (tweeting event of user i on the previous day)
-
-```{r, cache=TRUE}
-dat1 <- dat[1:2420000,]
-plot(dat1$total.events.i.t,dat1$tweet.t_1)
-```
-
-We look at the plot of $Y_{it}$, total.events.i.t, against tweet.t_1 (total events user i on the previous day)
-
-```{r, cache=TRUE}
-dat$Y_i.t.1 <- rowSums(dat[,5:8])
-```
-
-```{r, cache=TRUE}
-dat1$Y_i.t.1 <- rowSums(dat1[,5:8])
-plot(dat1$total.events.i.t,dat1$Y_i.t.1)
-dat1_lm <- lm(dat1$total.events.i.t ~ dat1$Y_i.t.1)
-abline(dat1_lm,lwd=3, col="red")
-summary(dat1_lm)
-```
-
-##Regression
-
-#Using 50K users:
-
-```{r, cache=TRUE}
-model_glm <- glm(total.events.i.t ~ Y_i.t.1 + user.tweet.rate.t_1+similarity_i_.t.1.+friend_activity.t.1.+num_of_followers.t.1.+num_of_followees.t.1.+num_of_friends.moody.+favorite_count_user_id.t.1.+volume_of_total_tweets_by_anyone.t.1.+closing_price_bitcoin.t.1.+closing_price_etherium.t.1.+closing_price_of_monero.t.1.+reddit_posts.t.1.+github_posts.t.1., family=poisson(link=log), data=dat)
-summary(model_glm)
-```
-
-
-##Prediction
-Predictions made for the last file
-
-```{r, cache=TRUE}
-datafiles <- list.files('../data/original/socialsim/Econ_Model/input_files/')[-(1:2)]
-newdata <- read.csv(paste('../data/original/socialsim/Econ_Model/input_files/',datafiles[26],sep=""))
-names(newdata)[4:21] <- c("total.events.i.t","tweet.t_1","retweet.t_1","reply.t_1","quote.t_1","user.tweet.rate.t_1","similarity_i_.t.1.","friend_activity.t.1.","num_of_followers.t.1.",
-                      "num_of_followees.t.1.","num_of_friends.moody.","favorite_count_user_id.t.1.","volume_of_total_tweets_by_anyone.t.1.","closing_price_bitcoin.t.1.","closing_price_etherium.t.1.",
-                      "closing_price_of_monero.t.1.","reddit_posts.t.1.","github_posts.t.1.")  
-
-head(newdata)
-newdata$Y_i.t.1 <- rowSums(newdata[,5:8])
-
-data_gt <- newdata$total.events.i.t
-
-model_pred <- predict(model_glm,newdata,type="response")
-summary(model_pred)
-hist(model_pred)
-
-length(data_gt)
-length(model_pred)
-
-newdata <- data.frame(newdata)
-prediction_df <- cbind(newdata$user,newdata$days,data_gt,model_pred)
-head(prediction_df)
-dim(prediction_df)
-
-prediction_df <- data.frame(prediction_df)
-prediction_df$pred_bin <- round(prediction_df$model_pred,digits=0)
-  
-
-plot(prediction_df$data_gt,prediction_df$pred_bin)
+    for (i in 1:nrow(found)) {
+      locs <- as.data.table(stringr::str_locate(no_ns, search_str))
+      st <- locs[1, start] - 1
+      en <- locs[1, end] + 1
+      ifelse(is.na(locs$start) == TRUE & is.na(locs$end) == TRUE, no_ns,
+             no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns))) )
+    }
+  }
+  no_ns
+}
 
 ```
+
+```{r ingestfiles, results = "hide"}
+paths_file <- "~/git/business_innovation/data/business_innovation/original/edgar_filings/ALL_SEC_files.txt"
+file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
+paths <- paste0("~/git/business_innovation/data/business_innovation/original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
+file_names <- unique(list.files(paths, full.names = TRUE))
+
+wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_1_1000.csv")
+wordcounts_1001_2000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_1001_2000.csv")
+wordcounts_2000_2867 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_2000_2867.csv")
+allwordcounts <- as.data.table(rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867))
+cik_ticker <- read_delim("~/git/business_innovation/data/business_innovation/original/edgar_filings/cik_ticker.csv", delim = "|")
+sic <- read_rds("~/git/business_innovation/data/business_innovation/original/sic.download.RDS")
+ciknames <- read_rds("~/git/business_innovation/data/business_innovation/original/ciks_names.RDS")
+
+allwords <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/all_secwordlists.csv")
+allregwords <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/all_secregwordlists.csv")
+```
+
+```{r datatypes , results = "hide"}
+sic$SIC <- as.numeric(sic$SIC)
+sic$CIK <- as.numeric(sic$CIK)
+ciknames$cik <- as.numeric(ciknames$cik)
+ciknames$sic <- as.numeric(ciknames$sic)
+incorp <- cik_ticker %>% select(CIK, Incorporated)
+```
+
+```{r reshape data, results = "hide"}
+wcbycomp <- reshape2::dcast(allwordcounts, Company + Words ~ Year, value.var = "count", fun.aggregate = sum)
+wcbyword <- reshape2::dcast(allwordcounts, Words + Company ~ Year, value.var = "count", fun.aggregate = sum)
+wcbycompdetails <- wcbycomp %>%
+  left_join(ciknames, by = c("Company" = "cik")) %>%
+  left_join(sic, by = c("Company" = "CIK", "sic" = "SIC")) %>%
+  left_join(incorp, by = c("Company" = "CIK"))
+
+```
+
+```{r datarowshaping, results = "hide"}
+length(file_names)
+length(unique(ciknames$cik))  # 779 - total # of companies classified as pharm/med device by SEC 
+
+patt1 <- "(?<=Edgar_filings_folders/)(.*)(?=.txt)"
+patt2 <- "(?<=/)(.*)(?=_10-K_)"
+orig_companies <- str_extract(str_extract((file_names), patt1), patt2)
+length(unique(orig_companies)) #703 companies with filings
+
+length(unique(wcbycomp$Company)) # 365 - # of companies that we found non-English words in their filings
+
+orig_companies <- as.numeric(orig_companies)
+orig_companies <- as.data.frame(orig_companies)
+
+origcomp_details <- orig_companies %>%
+  filter(!is.na(orig_companies)) %>% 
+  unique() %>% 
+  left_join(ciknames, by = c("orig_companies" = "cik")) %>%
+  left_join(sic, by = c("orig_companies" = "CIK", "sic" = "SIC")) %>%
+  left_join(incorp, by = c("orig_companies" = "CIK"))
+
+```
+
+### Approach
+
+Our project goal is to identify, measure, and characterize 'innovation.' Today, this innovation is quantified via the annual BRDIS survey, issued by NSF, as an indicator variable as to whether a given company has performed innovation. We aim to supplement the information in BRDIS by implementing alternate methods on new sources of data. Specifically, we are developing text-based methods to be applied to a set of text-based data sources to determine:
+
+* whether a company has innovated?
+* how many new products are associated with that innovation?
+* what are the new products?
+* how that innovation trends over time?
+
+To answer these questions, we measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we have chosen to begin our exploration with a specific industry: the pharmaceutical and medical device industry. Their respective SIC codes are given here. 
+
+```{r}
+knitr::kable(tibble("SIC" = unique(origcomp_details$sic),
+       "Industry" = unique(origcomp_details$Industry)) %>% filter(!is.na(SIC)))
+```
+
+We chose to focus on the pharmaceutical and medical device industry because of the strictly regulated process of launching new products that is specific to this industry. Consider the following as a high-level illustration of the process a new drug or medical device might take to the market:
+
+1. Research & Development: Company undertakes research to develop, test, and trial new device and drug. 
+2. FDA Application: Company submits application to FDA for device or drug approval.
+3. Approval Announcements: FDA releases announcements to the public. 
+4. Press Activity: Media outlets report on the announcements, company and competitor relationships, and launches to market.
+5. Market Activity: Company retails device or drug.
+6. Financial Reports: Company submits financial reports to US Securities & Exchange Commission (SEC). 
+
+```{r}
+origcomp_details$Industry <- origcomp_details$`SIC Industry`
+compcount1 <- origcomp_details %>% 
+    group_by(`SIC Industry`) %>%
+    summarise(no_companies = n())
+
+```
+
+By tracing products through their lifecycle from FDA approval through financial impact, we can expand upon the BRDIS survey results by providing additional context and information around what innovation looks like in the pharmaceutical industry. Furthermore, we can illustrate a process by which innovation can be uncovered and measured, at least in a highly regulated environment. 
+
+#### About the Dataset
+
+This portion of the research focused on the last stage of the lifecycle: whether a new product appears in the financial activities of a company. For this we used the SEC's EDGAR database of 10-K filings. Using the criteria of the two industries of interest, we identified `r length(unique(ciknames$cik))` companies in their database as belonging to the pharmaceutical/medical device industries. Of these, `r nrow(unique(orig_companies))` filed 10-K forms with the SEC, which report on their financial well-being as a company. 
+
+Because a company submits these filings annually, we have many filings per company, and a total of `r length(file_names)` SEC filings. Of these, `r length(unique(wcbycomp$Company)) ` referenced non-English words in their filings. 
+
+Set | N
+------------- | -------------
+Total SEC Companies | `r length(unique(ciknames$cik))`
+Pharm SEC Companies | `r as.integer(compcount1["2",2]) `
+Device SEC Companies| `r as.integer(compcount1["3",2]) `
+SEC Companies w 10-K| `r nrow(unique(orig_companies))`
+Total 10-K Filings  | `r length(file_names)`
+10-K Filings w non-English | `r length(unique(wcbycomp$Company))`
+
+#### Identifying Candidate Innovation Tokens
+
+##### Step 1: Ingest the text of an SEC filing
+
+First the text of all filings was ingested, such that each text element represented an observation of the dataset. An example SEC filing can be found here: https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm.
+
+Here's the text using the above linked Merck filing as an example. 
+
+```{r, results = "markup"}
+url <- "https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm"
+edgar <- read_html(remove_doc_types(read_file(url)))
+paragraphs <- edgar %>% 
+  xml_find_all( ".//p") %>% 
+  html_text() %>%
+  str_squish
+
+print(head(paragraphs[dataplumbr::is_blank(paragraphs) == FALSE], 15))
+```
+
+##### Step 2: Filter text elements of significant length
+
+There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])`. 
+
+```{r}
+print(head(paragraphs[nchar(paragraphs)>20], 15))
+```
+
+##### Step 3: Filter text elements for key words
+
+We then wanted to identify text elements that contained our target innovation phrases, so we looked for elements that contained the phrase "launch" or "new product." As you can see, it looks like the keyword "launch" identified a product called "Zetia."
+
+```{r}
+word_innov <- c("launch", "new product")
+innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
+
+print(paragraphs[innov_text][11])
+```
+
+##### Step 4: Filter text elements for non-English words
+
+Next, we wanted to determine the number and names of the new products mentioned in paragraphs containing "launch" or new product, so we looked for any non-English words in these text elements. We do see "Zetia" in this list! 
+
+```{r}
+knitr::kable(allwordcounts[Company == 310158][1:5])
+```
+
+##### Step 5: Arrange data over time 
+
+But now I want to arrange this by time. We do see Zetia on the larger list; however, we also see mention of Teva, which is a competitor company. 
+
+```{r}
+merck <- data.table::as.data.table(wcbycompdetails)[company_names == "Merck   Co  Inc , Merck   Co   Inc ",]
+knitr::kable(merck[1, 9:14])
+knitr::kable(wcbycomp %>% filter(Company == 310158) %>% tail(10))
+```
+
+### Next Steps
+
+#### Phase 2: Identifying Registered & Trademarked Tokens
+
+```{r}
+
+head(unique(allregwords$Words), 10)
+
+```
+
+
+
+#### Phase 3: Removing Company Names 
+
+To the extent possible, we want to remove any cases where the non-English word used is actually a company. So we use our list of companies in the SEC database, the original set of `r length(orig_companies) ` companies. 
+
+```{r}
+colnames(origcomp_details) <- c("CIK Code", "CIK Company Name", "SIC Code", "SIC Company Name", "SIC Industry", "SIC Location", "Ticker Incorporation Location")
+knitr::kable(origcomp_details[31:36,c(1,2,5,6,7)])
+```
+
+
+
+
 
 
 
