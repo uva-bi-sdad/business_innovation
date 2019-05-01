@@ -129,9 +129,10 @@ We chose to focus on the pharmaceutical and medical device industry because of t
 6. Financial Reports: Company submits financial reports to US Securities & Exchange Commission (SEC). 
 
 ```{r}
-origcomp_details$Industry <- origcomp_details$`SIC Industry`
+# class(origcomp_details)
+# origcomp_details$Industry <- subset.data.frame(x = origcomp_details, select = 8)
 compcount1 <- origcomp_details %>% 
-    group_by(`SIC Industry`) %>%
+    group_by(Industry) %>%
     summarise(no_companies = n())
 
 ```
@@ -144,12 +145,17 @@ This portion of the research focused on the last stage of the lifecycle: whether
 
 Because a company submits these filings annually, we have many filings per company, and a total of `r length(file_names)` SEC filings. Of these, `r length(unique(wcbycomp$Company)) ` referenced non-English words in their filings. 
 
-Set | N
+Company Sets | N
 ------------- | -------------
 Total SEC Companies | `r length(unique(ciknames$cik))`
 Pharm SEC Companies | `r as.integer(compcount1["2",2]) `
 Device SEC Companies| `r as.integer(compcount1["3",2]) `
 SEC Companies w 10-K| `r nrow(unique(orig_companies))`
+
+For those, 703 SEC companies with a 10-K filing,
+
+Filings Sets | N
+------------- | -------------
 Total 10-K Filings  | `r length(file_names)`
 10-K Filings w non-English | `r length(unique(wcbycomp$Company))`
 
@@ -177,14 +183,14 @@ print(head(paragraphs[dataplumbr::is_blank(paragraphs) == FALSE], 15))
 There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])`. 
 
 ```{r}
-print(head(paragraphs[nchar(paragraphs)>20], 15))
+print(head(paragraphs[nchar(paragraphs)>20], c(1:10, 15)))
 ```
 
 ##### Step 3: Filter text elements for key words
 
 We then wanted to identify text elements that contained our target innovation phrases, so we looked for elements that contained the phrase "launch" or "new product." As you can see, it looks like the keyword "launch" identified a product called "Zetia."
 
-```{r}
+```{r, results="markup"}
 word_innov <- c("launch", "new product")
 innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
 
@@ -211,7 +217,10 @@ knitr::kable(wcbycomp %>% filter(Company == 310158) %>% tail(10))
 
 ### Next Steps
 
+As illustrated above, there is still much work to do with the data simply within the SEC filings. In addition to the phases listed below, we hope to dig deeper into competitive relationships at play. 
+
 #### Phase 2: Identifying Registered & Trademarked Tokens
+For example, we hope to add a column to indicate whether the identified word has a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. 
 
 ```{r}
 
@@ -223,11 +232,11 @@ head(unique(allregwords$Words), 10)
 
 #### Phase 3: Removing Company Names 
 
-To the extent possible, we want to remove any cases where the non-English word used is actually a company. So we use our list of companies in the SEC database, the original set of `r length(orig_companies) ` companies. 
+To the extent possible, we want to remove any cases where the non-English word used is actually a company. So we use our list of companies in the SEC database, the original set of `r nrow(unique(orig_companies)) ` companies. For cases where a company is named, rather than a product, we hope to find a way to flag that mention as a mention of 'self' or 'competitor.'
 
 ```{r}
 colnames(origcomp_details) <- c("CIK Code", "CIK Company Name", "SIC Code", "SIC Company Name", "SIC Industry", "SIC Location", "Ticker Incorporation Location")
-knitr::kable(origcomp_details[31:36,c(1,2,5,6,7)])
+knitr::kable(origcomp_details[31:36,c(1,2)]) #,5,6,7)])
 ```
 
 
