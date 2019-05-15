@@ -1,5 +1,5 @@
 ---
-title: "SEC Documentation"
+title: "Parsing SEC Filings to Identify Product Innovation: Working Document"
 output:
   html_document: default
 ---
@@ -103,16 +103,16 @@ origcomp_details <- orig_companies %>%
 
 ```
 
-### Approach
+### Introduction
 
-Our project goal is to identify, measure, and characterize 'innovation.' Today, this innovation is quantified via the annual BRDIS survey, issued by NSF, as an indicator variable as to whether a given company has performed innovation. We aim to supplement the information in BRDIS by implementing alternate methods on new sources of data. Specifically, we are developing text-based methods to be applied to a set of text-based data sources to determine:
+This project aims to test the feasibility to identify, measure, and characterize product innovation using non-survey data sources. Our goal is to develop methods to complement and enhance the BRDIS survey that collects information from a representative set of companies and asks whether they have introduced a new product to the market. Specifically, we are developing text-based methods to be applied to administrative (e.g., financial filings) and opportunity data (e.g., trade journals, press releases) to determine:
 
-* whether a company has innovated?
-* how many new products are associated with that innovation?
-* what are the new products?
+* whether a company has launched a new product?
+* how many new products are introduced?
+* what are the features of the new product(s)?
 * how that innovation trends over time?
 
-To answer these questions, we measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we have chosen to begin our exploration with a specific industry: the pharmaceutical and medical device industry. Their respective SIC codes are given here. 
+To answer these questions, we measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we focus on the pharmaceutical and medical device industry that are highly regulated such that new products require approval from the Food and Drug Administration (FDA). We make the assumption that the FDA approval dataset (which is publicly available) is the universal set of all new products, and ask what the portion of these products we can capture using administrative and opportunity data. Their respective SIC codes are given here. 
 
 ```{r}
 knitr::kable(tibble("SIC" = unique(origcomp_details$sic),
@@ -135,31 +135,51 @@ compcount1 <- origcomp_details %>%
     group_by(Industry) %>%
     summarise(no_companies = n())
 
+compcount2 <- ciknames %>% 
+  left_join(sic, by = c("cik" = "CIK", "sic" = "SIC")) %>% 
+  group_by(Industry) %>%
+  summarise(no_companies = n())
+
+compcount3 <- allwordcounts %>% 
+  group_by(Company, Year) %>% 
+  summarise(count = n())
+
 ```
 
 By tracing products through their lifecycle from FDA approval through financial impact, we can expand upon the BRDIS survey results by providing additional context and information around what innovation looks like in the pharmaceutical industry. Furthermore, we can illustrate a process by which innovation can be uncovered and measured, at least in a highly regulated environment. 
 
-#### About the Dataset
+### Data Source: SEC Filings
 
 This portion of the research focused on the last stage of the lifecycle: whether a new product appears in the financial activities of a company. For this we used the SEC's EDGAR database of 10-K filings. Using the criteria of the two industries of interest, we identified `r length(unique(ciknames$cik))` companies in their database as belonging to the pharmaceutical/medical device industries. Of these, `r nrow(unique(orig_companies))` filed 10-K forms with the SEC, which report on their financial well-being as a company. 
 
-Because a company submits these filings annually, we have many filings per company, and a total of `r length(file_names)` SEC filings. Of these, `r length(unique(wcbycomp$Company)) ` referenced non-English words in their filings. 
+
+Table below summarizes the number of companies on Edgar.
 
 Company Sets | N
 ------------- | -------------
-Total SEC Companies | `r length(unique(ciknames$cik))`
-Pharm SEC Companies | `r as.integer(compcount1["2",2]) `
-Device SEC Companies| `r as.integer(compcount1["3",2]) `
-SEC Companies w 10-K| `r nrow(unique(orig_companies))`
+Total Number of Pharma Companies on Edgar | `r length(unique(ciknames$cik))`
+SIC 2834: Drugs| `r as.integer(compcount2["1",2]) `
+SIC 3841: Devices | `r as.integer(compcount2["2",2]) `
+Number Pharma Companies w 10-K| `r nrow(unique(orig_companies))`
+SIC 2834: Drugs| `r as.integer(compcount1["2",2]) `
+SIC 3841: Devices | `r as.integer(compcount1["3",2]) `
 
-For those, 703 SEC companies with a 10-K filing,
+We collected the 10-K filings of the `r nrow(unique(orig_companies))` companies for the years 2013 -- 2016, which makes a total of `r length(file_names)` filings. 
+
+### Approaches
+
+Given the 10-K filing of a company, our goal is to identify mentions of product launches for a given year. This requires identifying product names in these filings, and finding those that are mentioned as being launched in the respective year. Currently, we are developing two parallel approaches which will be combined eventually. The first one involves obtaining non-English words in a filing and identifying those that are used in close "proximity" with our keywords of innovation, i.e., launch, new product (list to be expanded). Among the `r length(file_names)` filings, `r nrow(compcount3) ` referenced non-English words in their filings. The second approach is to identify names that are used with a trademark or a registered trademark sign.
+
+
+#### Approach 1. Identifying Non-English Words to Capture Product Names
+
+Below we describe our iterative process using one of the filings as an example.
 
 Filings Sets | N
 ------------- | -------------
 Total 10-K Filings  | `r length(file_names)`
-10-K Filings w non-English | `r length(unique(wcbycomp$Company))`
+10-K Filings w non-English | `r nrow(compcount3) `
 
-#### Identifying Candidate Innovation Tokens
 
 ##### Step 1: Ingest the text of an SEC filing
 
@@ -167,7 +187,7 @@ First the text of all filings was ingested, such that each text element represen
 
 Here's the text using the above linked Merck filing as an example. 
 
-```{r, results = "markup"}
+```{r}
 url <- "https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm"
 edgar <- read_html(remove_doc_types(read_file(url)))
 paragraphs <- edgar %>% 
@@ -183,14 +203,14 @@ print(head(paragraphs[dataplumbr::is_blank(paragraphs) == FALSE], 15))
 There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])`. 
 
 ```{r}
-print(head(paragraphs[nchar(paragraphs)>20], c(1:10, 15)))
+print(head(paragraphs[nchar(paragraphs)>20], 15))
 ```
 
 ##### Step 3: Filter text elements for key words
 
 We then wanted to identify text elements that contained our target innovation phrases, so we looked for elements that contained the phrase "launch" or "new product." As you can see, it looks like the keyword "launch" identified a product called "Zetia."
 
-```{r, results="markup"}
+```{r}
 word_innov <- c("launch", "new product")
 innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
 
@@ -205,33 +225,12 @@ Next, we wanted to determine the number and names of the new products mentioned 
 knitr::kable(allwordcounts[Company == 310158][1:5])
 ```
 
-##### Step 5: Arrange data over time 
+##### Step 5: Filtering out non-English words 
 
-But now I want to arrange this by time. We do see Zetia on the larger list; however, we also see mention of Teva, which is a competitor company. 
+5.1. Company Names
 
-```{r}
-merck <- data.table::as.data.table(wcbycompdetails)[company_names == "Merck   Co  Inc , Merck   Co   Inc ",]
-knitr::kable(merck[1, 9:14])
-knitr::kable(wcbycomp %>% filter(Company == 310158) %>% tail(10))
-```
-
-### Next Steps
-
-As illustrated above, there is still much work to do with the data simply within the SEC filings. In addition to the phases listed below, we hope to dig deeper into competitive relationships at play. 
-
-#### Phase 2: Identifying Registered & Trademarked Tokens
-For example, we hope to add a column to indicate whether the identified word has a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. 
-
-```{r}
-
-head(unique(allregwords$Words), 10)
-
-```
-
-
-
-#### Phase 3: Removing Company Names 
-
+We observe that the list of non-English words that we have obtained from the filings can also include (i) company names or (ii) sector-specific terms. Therefore,  dictionaries for these groups need to be generated to identify and eliminate them. 
+ 
 To the extent possible, we want to remove any cases where the non-English word used is actually a company. So we use our list of companies in the SEC database, the original set of `r nrow(unique(orig_companies)) ` companies. For cases where a company is named, rather than a product, we hope to find a way to flag that mention as a mention of 'self' or 'competitor.'
 
 ```{r}
@@ -239,9 +238,47 @@ colnames(origcomp_details) <- c("CIK Code", "CIK Company Name", "SIC Code", "SIC
 knitr::kable(origcomp_details[31:36,c(1,2)]) #,5,6,7)])
 ```
 
+Steps to identify and clean these names will include:
 
+* tokenizing
+* transforming to lower case
+* stemming words (eg. from 'sciences' to 'science')
+* identifying and separating English words (eg. 'pharmaceutical' or 'sciences')
+* identifying and separating common business naming tokens (eg. 'inc' or 'holdings')
 
+5.2. Mentions in Multiple Companies' Filings
 
+Moreover, we observe that some of these drugs are products of their competitors', hence their names will appear in filings of multiple companies. In order to address this, we look at the names across companies, and filter out those that appear in multiple companies' filings.  
 
+```{r}
+dis <- wcbyword %>% filter(Words == "Adderall")
 
+knitr::kable(dis)
+```
+
+We will consider these drugs appearing in multiple companies' filings separately from uniquely-mentioned drug.
+
+##### Step 6: Arrange data over time 
+
+In this step we will summarize the drug names by company by year, helping us to count mentions of new products for each company over time. 
+
+```{r}
+merck <- data.table::as.data.table(wcbycompdetails)[company_names == "Merck   Co  Inc , Merck   Co   Inc ",]
+knitr::kable(merck[1, 9:14])
+knitr::kable(wcbycomp %>% filter(Company == 310158) %>% tail(4))
+```
+
+##### Final Step: Count Products By Company
+TBD
+
+### Next Steps
+
+As illustrated above, there is still much work to do with the data simply within the SEC filings. In addition to the phases listed below, we hope to dig deeper into competitive relationships at play. 
+
+#### Approach 2: Identifying Registered & Trademarked Tokens
+For example, we hope to add a column to indicate whether the identified word has a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. 
+
+```{r}
+head(unique(allregwords$Words), 10)
+```
 
