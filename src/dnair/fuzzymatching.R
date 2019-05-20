@@ -25,9 +25,10 @@ incorp <- cik_ticker %>% select(CIK, Incorporated)
 
 wcbycompdetails <- wcbycomp %>%
   left_join(ciknames, by = c("Company" = "cik")) %>%
-  left_join(sic, by = c("Company" = "CIK", "sic" = "SIC")) %>%
-  left_join(incorp, by = c("Company" = "CIK"))
+  left_join(sic, by = c("Company" = "CIK")) %>%
+  left_join(cik_ticker, by = c("Company" = "CIK"))
 
+colnames(wcbycompdetails) <- c("CIK", "Token", as.character(2012:2017), "SEC_Company_Name", "SEC_SIC", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS")
 
 ###### COMPANY NAMES #########
 
@@ -69,41 +70,38 @@ findstops <- companylist %>%
 findstops
 stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa"))
 stopwords <- paste0( stopwords, collapse = "|")
-pharmstopwords <- c("biopharma|therapeutics?|||pharmaceuticals?|international|science|medical|technology|phrma|pharma|bio")
-pharmstopwords <- c("biopharma", "therapeutics?", "pharmaceuticals?", "international", "science", "medical", "technology", "phrma", "pharma", "bio")
+
+pharmstopwords <- c("biopharma", "therapeutics?", "pharmaceuticals?", "international", "sciences?", "medical", "technology", "phrma", "pharma", "bio", "biosciences?")
 pharmstopwords <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
 
-# testpatt <- paste0(paste0(paste0("(?<=\\s)", findstops$word,"?\\s"), collapse = "|"),
-#               paste0(paste0("(?<=[:space:])", findstops$word,"?\\s"), collapse = "|"),
-#               collapse = "|")
-#
-# testpatt <- paste0(paste0("[:space:]", findstops$word,"?\\s"), collapse = "|")
-#businesstops <- paste0(paste0("\\s", stopwords, "?\\w"), collapse = "|")
-#
 
-# pharmstopwords <- c("pharma\\W||therapeutic|pharmaceutical|international|science|medical|tech?nolog(y|ies)|phrma|health|diagnostic|tech|advance?d|care|system")
-#
-# pharmstopwords1 <- c("therapeutic", "pharmaceutical")
-#
-# pharmstopwords2 <- c("bio\\s")
-#
-# test <- c("BIO PATH HOLDINGS INC", "PRANA BIOTECHNOLOGY LTD", "ACHILLION PHARMACEUTICALS INC")
-# str_remove_all(string = str_to_lower(("ACHILLION PHARMACEUTICALS INC")), pattern = testpatt)
-#
-# str_remove_all(str_remove_all(string = str_to_lower(test), pattern = businesstops), pattern = testpatt)  # businesstops)
+comp_tokens <- str_split(companylist, pattern = " |[[:punct:]]")
 
-refcompanies <- companylist %>%
-  str_remove_all(pattern = "[[:punct:]]") %>%
-  str_to_lower() %>%
-  #str_remove_all(pattern = businesstops) %>%
-  #str_remove_all(pattern = testpatt) %>%
-  str_remove_all(pattern = stopwords) %>%
-  str_remove_all(pattern = pharmstopwords) %>%
-  str_squish()
+new_ref_companies <- tibble(companylist, comp_tokens) %>%
+  tidyr::unnest() %>%
+  filter(nchar(comp_tokens) > 3) %>%
+  mutate(
+    comp_lowword = comp_tokens %>%
+      #str_remove_all(pattern = "[[:punct:]]") %>%
+      str_to_lower() %>%
+      #str_remove_all(pattern = businesstops) %>%
+      #str_remove_all(pattern = testpatt) %>%
+      str_squish()
+    , comp_low_hun = text_tokens(new_ref_companies$comp_lowword, stemmer = stem_hunspell) %>% unlist()
+  )
 
-comp_tokens <- text_tokens(refcompanies, stemmer = stem_hunspell)
+## do this to new_ref_companies - LATER!! after the hunspell THEN filter out hunspell column based on stop words
+## str_remove_all(pattern = stopwords) %>% str_remove_all(pattern = pharmstopwords) %>%
 
-ref_companies <- tidyr::unnest(tibble::tibble(companylist, refcompanies, comp_tokens))  %>% filter(nchar(comp_tokens) > 2)
+topwords <- new_ref_companies %>% group_by(comp_low_hun) %>% summarise(count = n()) %>% arrange(desc(count))
+candidate_pharm_stopwords <- topwords %>% filter(count > 1) %>% mutate(eng = hunspell_check(comp_low_hun, dict = "en_US")) %>% filter(eng == TRUE) %>% select(comp_low_hun)
+pharmstopwords <- paste0(paste0("\\b", candidate_pharm_stopwords$comp_low_hun, "\\b"), collapse = "|")
+
+new_ref_companies <- new_ref_companies %>% mutate(pharmstop = grepl(x = comp_low_hun, pattern = pharmstopwords))
+
+
+new_ref_companies %>% filter(pharmstop == TRUE) %>% group_by(comp_tokens) %>% summarise(count = n())
+new_ref_companies %>% filter(pharmstop == FALSE) %>% group_by(comp_tokens) %>% summarise(count = n())
 
 #length(unique(ref_companies$comp_tokens))
 # dupecomptokens <- ref_companies$comp_tokens[which(duplicated(ref_companies$comp_tokens) == TRUE)] %>% as.data.frame()
@@ -112,7 +110,7 @@ ref_companies <- tidyr::unnest(tibble::tibble(companylist, refcompanies, comp_to
 # multimatch %>% group_by(word) %>% summarise(count = n()) %>% arrange(desc(count))
 
 ###### STRINGS TO TEST  #########
-stringtest <- unique(wcbycompdetails$Words)
+stringtest <- unique(wcbycompdetails$Token)
 
 cleanstring <- stringtest %>%
   str_remove_all(pattern = "[[:punct:]]") %>%
@@ -123,27 +121,34 @@ cleanstring <- stringtest %>%
 cleanstring
 
 #ref_companies <- ref_companies %>% filter(nchar(comp_tokens) > 3)
-ref_companies <- ref_companies %>% filter(hunspell::hunspell_check(comp_tokens) == FALSE)
-ref_companies %>% group_by(comp_tokens) %>% summarise(count = n()) %>% arrange((count))
+#ref_companies <- ref_companies %>% filter(hunspell::hunspell_check(comp_tokens) == FALSE)
+#ref_companies %>% group_by(comp_tokens) %>% summarise(count = n()) %>% arrange((count))
 
 #tofind <- paste(paste0("[:space:]", ref_companies$comp_tokens, "[:space:]"), collapse="|")
 tofind <- paste(paste0("^", ref_companies$comp_tokens, "$"), collapse="|")
-cleanstring <- str_extract(string = cleanstring, pattern = tofind)
+results <- str_extract(string = cleanstring, pattern = tofind)
+results2 <- str_extract(string = stringtest, pattern = tofind)
 
-ref_companies_unique <- ref_companies %>% group_by(comp_tokens) %>% summarise(count = n()) %>% filter(count == 1) %>% select(-count) %>%
-  left_join(ref_companies, by = "comp_tokens") %>% as.data.table()
-companyfind <- tibble::tibble(cleanstring, results)
-wcbycompdetails$lowword <- str_to_lower(wcbycompdetails$Words)
+#ref_companies_unique <- ref_companies %>% group_by(comp_tokens) %>% summarise(count = n()) %>% filter(count == 1) %>% select(-count) %>%
+#  left_join(ref_companies, by = "comp_tokens") %>% as.data.table()
+companyfind <- tibble::tibble("Token" = cleanstring, "Comp_lowword_Match" = results, "Comp_Token_Match" = results2)
+wcbycompdetails$lowword <- str_to_lower(wcbycompdetails$Token)
 
-wcbycompdetails %>% left_join(ref_companies %>% filter(count == 1), by = c("lowword" = "comp_tokens"))
+wcbycompdetails_compcheck <-
+wcbycompdetails %>%  left_join(companyfind, by = c("lowword" = "Token"))
+companyfind %>% left_join(ref_companies, by = c("Token" = "comp_tokens")) %>% filter(!is.na(companylist))
 
-wcbycomp_mincomp <- wcbycompdetails %>%  left_join(companyfind, by = c("lowword" = "cleanstring")) %>% filter(is.na(results)) %>% arrange(Words)
-wcbycomp_comp <- wcbycompdetails %>%  left_join(companyfind, by = c("lowword" = "cleanstring")) %>% filter(!is.na(results)) %>% arrange(Words)
+wcbycompdetails_compcheck %>% mutate(
+  SEC_name_match = as.numeric(mapply(grepl, wcbycompdetails_compcheck$Token, wcbycompdetails_compcheck$SEC_Company_Name)),
+  SIC_name_match = as.numeric(mapply(grepl, wcbycompdetails_compcheck$Token, wcbycompdetails_compcheck$SIC_Company_Name)),
+  Ticker_name_match = as.numeric(mapply(grepl, wcbycompdetails_compcheck$Token, wcbycompdetails_compcheck$Ticker_Company_Name)),
+  Self = (SEC_name_match + SIC_name_match + Ticker_name_match),
+  Comp = ifelse(Self == 0, 1, 0) ) %>%
+  #select(-SEC_name_match, -SIC_name_match, -Ticker_name_match) %>%
+  filter(companylist != "<NA>")
 
-View(wcbycomp_mincomp)
-View(wcbycomp_comp)
-
-head(ref_companies, 7)
+head(comp_tokens)
+head(comp_lowwords)
 
 # saveRDS(wcbycomp, "data/business_innovation/working/sec/fuzzymatching/1_wcbycomp.RDS")
 # saveRDS(wcbyword, "data/business_innovation/working/sec/fuzzymatching/1_wcbyword.RDS")
@@ -155,3 +160,27 @@ head(ref_companies, 7)
 wcbycomp_comp <- readRDS("data/business_innovation/working/sec/fuzzymatching/3_wcbycomp_actcomp.RDS")
 View(wcbycomp_comp)
 ########################################################################
+
+comptokensidentified <- wcbycompdetails_compcheck %>% filter(!dataplumbr::is_blank(Comp_Token_Match)) %>% select(CIK, Token, SEC_Company_Name, SIC_Company_Name, Ticker_Company_Name, lowword, Comp_Token_Match, companylist)
+
+comptokensidentified[20:25,]
+
+comptokensidentified <- comptokensidentified %>% mutate(
+  SEC_name_match = as.numeric(mapply(grepl, comptokensidentified$Token, comptokensidentified$SEC_Company_Name)),
+  SIC_name_match = as.numeric(mapply(grepl, comptokensidentified$Token, comptokensidentified$SIC_Company_Name)),
+  Ticker_name_match = as.numeric(mapply(grepl, comptokensidentified$Token, comptokensidentified$Ticker_Company_Name)),
+  Self = (SEC_name_match + SIC_name_match + Ticker_name_match),
+  Comp = ifelse(Self == 0, 1, 0) ) %>%
+  select(-SEC_name_match, -SIC_name_match, -Ticker_name_match)
+
+
+
+lapply(X = comptokensidentified, FUN =  grepl(x = comptokensidentified$Token, pattern = comptokensidentified$SEC_Company))
+
+mapply(grepl,pat,text)
+
+SEC_match <- mapply(grepl, comptokensidentified$Token, comptokensidentified$SEC_Company_Name)
+
+
+
+
