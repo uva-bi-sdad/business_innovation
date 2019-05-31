@@ -122,7 +122,7 @@ for (i in file_names[1:5]) { # 2867
 
 # Write to file
 
-write_csv(fin_o, "data/business_innovation/working/sec/wordcounts_2000_2867.csv")
+# write_csv(fin_o, "data/business_innovation/working/sec/wordcounts_2000_2867.csv")
 
 
 #filter(fin_o, Words == "Neutrolin")
