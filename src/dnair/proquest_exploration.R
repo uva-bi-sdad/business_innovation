@@ -105,13 +105,16 @@ as.data.frame(proqpharm_sub, row.names = rownames(proqpharm_sub))
 proqpharm_sub <- proqpharm_sub %>% mutate(row = row.names(proqpharm_sub))
 
 sample2 <- proqpharm_sub %>% filter(subjs == "TRUE" | titles == "TRUE")
-col
+
+
 
 sample3 <- tibble::tibble(sample2$row, sample2$Full.Text)
 
+saveRDS(sample4, "data/working/dn_sampleproquest_testsurvey2.RDS")
+
 #test <- split.data.frame(sample3, )
 
-
+sample4 <- split(sample3, rep(1:ceiling(nrow(sample3)/10), each=10, length.out=nrow(sample3)))
 
 write.table(tibble::tibble(sample2$row, sample2$Full.Text), file = "data/working/dn_sample2_survey.txt", sep = "\t",
             row.names = FALSE, col.names = NA)
