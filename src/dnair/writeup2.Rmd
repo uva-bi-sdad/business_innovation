@@ -1,0 +1,170 @@
+
+---
+title: "Parsing SEC Filings to Identify Product Innovation: Working Document"
+output:
+  html_document: default
+---
+
+```{r libraries, echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "hide"}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
+
+library(readr)
+library(dplyr)
+library(stringr)
+library(xml2)
+library(rvest)
+library(stringr)
+library(hunspell)
+library(data.table)
+library(htmltools)
+library(magrittr)
+library(htmltidy)
+
+
+library(ggplot2)
+```
+
+```{r ingestfiles, results = "hide"}
+wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_1_1000.csv")
+wordcounts_1001_2000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_1001_2000.csv")
+wordcounts_2000_2867 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_2000_2867.csv")
+allwordcounts <- as.data.table(rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867))
+
+ciknames <- read_rds("~/git/business_innovation/data/business_innovation/original/ciks_names.RDS")
+incorp <- read_delim("~/git/business_innovation/data/business_innovation/original/edgar_filings/cik_ticker.csv", delim = "|") # %>% select(CIK, Business, Incorporated) 
+#RANKANDFILE website
+cikcountries <- read_delim("~/git/business_innovation/data/business_innovation/original/edgar_filings/edgar_state_country.csv", delim = "|")
+sic <- read_rds("~/git/business_innovation/data/business_innovation/original/sic.download.RDS")
+
+origcomp_details <- readRDS("~/git/business_innovation/data/business_innovation/working/sec/origcomp_details.RDS")
+
+#allwords <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/all_secwordlists.csv")
+#allregwords <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/all_secregwordlists.csv")
+```
+
+```{r datatypes , results = "hide"}
+sic$SIC <- as.numeric(sic$SIC)
+sic$CIK <- as.numeric(sic$CIK)
+ciknames$cik <- as.numeric(ciknames$cik)
+ciknames$sic <- as.numeric(ciknames$sic)
+
+```
+
+```{r reshape data, results = "hide"}
+wcbycomp <- reshape2::dcast(allwordcounts, Company + Words ~ Year, value.var = "count", fun.aggregate = sum)
+wcbyword <- reshape2::dcast(allwordcounts, Words + Company ~ Year, value.var = "count", fun.aggregate = sum)
+wcbycompdetails <- wcbycomp %>%
+  left_join(ciknames, by = c("Company" = "cik")) %>%
+  left_join(sic, by = c("Company" = "CIK", "sic" = "SIC")) %>%
+  left_join(incorp, by = c("Company" = "CIK"))
+```
+
+
+#### Actually start writing 
+
+Stuff
+
+
+```{r}
+# counts of unique product mentions by company
+comps <- wcbycompdetails %>% group_by(company_names, Industry) %>% summarise(count = n())   %>% arrange(desc(count)) 
+pharm_comps <- wcbycompdetails %>% group_by(company_names, Industry) %>% summarise(count = n())   %>% arrange(desc(count)) %>% filter(Industry == "PHARMACEUTICAL PREPARATIONS")
+device_comps <- wcbycompdetails %>% group_by(company_names, Industry) %>% summarise(count = n())   %>% arrange(desc(count)) %>% filter(Industry == "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS")
+comps_top <- wcbycompdetails %>% group_by(company_names, Industry) %>% summarise(count = n())   %>% arrange(desc(count)) %>% head(30)
+
+ggplot(data=device_comps, aes(x=company_names, y=count)) +
+    geom_bar( stat="identity") + coord_flip() + 
+    guides(fill=FALSE)
+
+ggplot(data=pharm_comps, aes(x=company_names, y=count)) +
+    geom_bar( stat="identity") + coord_flip() + 
+    guides(fill=FALSE)
+
+ggplot(data=comps_top, aes(x=company_names, y=count, fill = Industry)) +
+    geom_bar( stat="identity") + coord_flip() + 
+    guides(fill=FALSE)
+
+```
+
+
+```{r}
+usa_sum <- wcbycompdetails %>% group_by(Business, Industry) %>% summarise(count = n()) %>% left_join(cikcountries, by = c("Business" = "Code")) %>%
+  filter(Business %in% c("CA", "CO", "CT", "DC", 
+                         "FL", "GA", "IL",  "IN",
+                         "MA", "MD", "MI", "MN",
+                         "MO", "NC", "NC", "NH", 
+                         "NJ", "NV", "NY", "OH",
+                         "PA", "SC", "TN", "TX",
+                         "UT", "WA"))
+
+ggplot(data=usa_sum, aes(x=State_Country, y=count, fill = Industry)) +
+    geom_bar( stat="identity") + coord_flip() + 
+    guides(fill=FALSE)
+
+'%ni%' <- Negate('%in%')
+
+countries_sum <- wcbycompdetails %>% group_by(Business, Industry) %>% summarise(count = n()) %>% left_join(cikcountries, by = c("Business" = "Code")) %>%
+  filter(Business %ni% c("CA", "CO", "CT", "DC", 
+                         "FL", "GA", "IL",  "IN",
+                         "MA", "MD", "MI", "MN",
+                         "MO", "NC", "NC", "NH", 
+                         "NJ", "NV", "NY", "OH",
+                         "PA", "SC", "TN", "TX",
+                         "UT", "WA"))
+
+ggplot(data=countries_sum, aes(x=State_Country, y=count, fill = Industry)) +
+    geom_bar( stat="identity") + coord_flip() + 
+    guides(fill=FALSE)
+
+
+```
+
+
+
+```{r}
+# counts of unique product mentions by company
+time_summ <- allwordcounts %>% left_join(origcomp_details, by = c("Company" = "orig_companies")) %>% group_by(Year, Industry) %>% summarise(count = n())
+ggplot(data = time_summ, aes(x=Year, y=count, group=Industry, colour = Industry)) + 
+    geom_line(linetype="dashed", size=1.5) + 
+    geom_point(size=4, shape=21, fill="white")
+```
+
+
+```{r}
+drugsbytime <- allwordcounts %>% group_by(Words, Year) %>% 
+  summarise(count = n()) %>% 
+  dcast(Words ~ Year, value.var = "count", fun.aggregate = sum) %>% 
+  mutate(sum = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`)  %>% arrange(desc(sum)) 
+
+drugsbytime_top <- drugsbytime %>% 
+  head(10) %>% 
+  select(-sum) %>% 
+  melt(id=c("Words"), variable.name = "Year")
+
+ggplot(data = drugsbytime_top, aes(x=Year, y=value, group = Words, colour = Words)) + 
+    geom_line(linetype="dashed", size=1.5) + 
+    geom_point(size=4, shape=21, fill="white")
+
+```
+
+
+```{r}
+wcbycompdetails %>% select(Words, `2012`,`2013`,`2014`,`2015`,`2016`,`2017`, Name.y, Exchange)
+
+exchange_products <- wcbycompdetails %>% 
+  group_by(`2012`,`2013`,`2014`,`2015`,`2016`,`2017`, Exchange) %>% 
+  summarise(count = n()) %>% 
+  melt(id = "Exchange")  %>% 
+  group_by(Exchange, variable) %>% 
+  summarise(sum = sum(value)) %>%
+  filter(variable != "count")
+
+colnames(exchange_products) <- c("Exchange", "Year", "Products")
+
+ggplot(data = exchange_products, aes(x=Year, y=Products, group = Exchange, colour = Exchange)) + 
+    geom_line(linetype="dashed", size=1.5) + 
+    geom_point(size=4, shape=21, fill="white")
+
+```
+
+

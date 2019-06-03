@@ -1,12 +1,11 @@
 ---
-title: "SEC Documentation"
+title: "Parsing SEC Filings to Identify Product Innovation: Working Document"
 output:
   html_document: default
 ---
 
 ```{r libraries, echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "hide"}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
-
 library(readr)
 library(dplyr)
 library(stringr)
@@ -18,6 +17,10 @@ library(data.table)
 library(htmltools)
 library(magrittr)
 library(htmltidy)
+library(ggplot2)
+library(wesanderson)
+#install.packages("rworldmap")
+library(rworldmap)
 ```
 
 ```{r functions}
@@ -54,29 +57,36 @@ wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/business_innovatio
 wordcounts_1001_2000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_1001_2000.csv")
 wordcounts_2000_2867 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_2000_2867.csv")
 allwordcounts <- as.data.table(rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867))
-cik_ticker <- read_delim("~/git/business_innovation/data/business_innovation/original/edgar_filings/cik_ticker.csv", delim = "|")
-sic <- read_rds("~/git/business_innovation/data/business_innovation/original/sic.download.RDS")
+
 ciknames <- read_rds("~/git/business_innovation/data/business_innovation/original/ciks_names.RDS")
+sic <- read_rds("~/git/business_innovation/data/business_innovation/original/sic.download.RDS")
+cik_ticker <- read_delim("~/git/business_innovation/data/business_innovation/original/edgar_filings/cik_ticker.csv", delim = "|")   #RANKANDFILE website
+cikcountries <- read_delim("~/git/business_innovation/data/business_innovation/original/edgar_filings/edgar_state_country.csv", delim = "|") #RANKANDFILE website
 
 allwords <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/all_secwordlists.csv")
 allregwords <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/all_secregwordlists.csv")
+
+colnames(sic) <- c("CIK", "SIC_CompName", "SIC_SIC", "SIC_Industry", "SIC_Location")
+colnames(ciknames) <- c("CIK", "SEC_CompName", "SEC_SIC")
+colnames(cik_ticker) <- c("CIK", "Ticker_TickerCode", "Ticker_CompName", "Ticker_Exchange", "Ticker_SIC", "Ticker_Location", "Ticker_Inc_Location", "Ticker_IRS")
+colnames(cikcountries) <- c("Code", "Ticker_StateCountry")
 ```
 
 ```{r datatypes , results = "hide"}
-sic$SIC <- as.numeric(sic$SIC)
+sic$SIC_SIC <- as.numeric(sic$SIC_SIC)
 sic$CIK <- as.numeric(sic$CIK)
-ciknames$cik <- as.numeric(ciknames$cik)
-ciknames$sic <- as.numeric(ciknames$sic)
-incorp <- cik_ticker %>% select(CIK, Incorporated)
+ciknames$CIK <- as.numeric(ciknames$CIK)
+ciknames$SEC_SIC <- as.numeric(ciknames$SEC_SIC)
+#incorp <- cik_ticker %>% select(CIK, Incorporated)
 ```
 
 ```{r reshape data, results = "hide"}
 wcbycomp <- reshape2::dcast(allwordcounts, Company + Words ~ Year, value.var = "count", fun.aggregate = sum)
 wcbyword <- reshape2::dcast(allwordcounts, Words + Company ~ Year, value.var = "count", fun.aggregate = sum)
 wcbycompdetails <- wcbycomp %>%
-  left_join(ciknames, by = c("Company" = "cik")) %>%
-  left_join(sic, by = c("Company" = "CIK", "sic" = "SIC")) %>%
-  left_join(incorp, by = c("Company" = "CIK"))
+  left_join(ciknames, by = c("Company" = "CIK")) %>%
+  left_join(sic, by = c("Company" = "CIK", "SEC_SIC" = "SIC_SIC")) %>%
+  left_join(cik_ticker, by = c("Company" = "CIK"))
 
 ```
 
@@ -97,26 +107,39 @@ orig_companies <- as.data.frame(orig_companies)
 origcomp_details <- orig_companies %>%
   filter(!is.na(orig_companies)) %>% 
   unique() %>% 
-  left_join(ciknames, by = c("orig_companies" = "cik")) %>%
-  left_join(sic, by = c("orig_companies" = "CIK", "sic" = "SIC")) %>%
-  left_join(incorp, by = c("orig_companies" = "CIK"))
+  left_join(ciknames, by = c("orig_companies" = "CIK")) %>%
+  left_join(sic, by = c("orig_companies" = "CIK", "SEC_SIC" = "SIC_SIC")) %>%
+  left_join(cik_ticker, by = c("orig_companies" = "CIK"))
+
+#saveRDS(origcomp_details, "~/git/business_innovation/data/business_innovation/working/sec/origcomp_details.RDS")
+
+cikcountries <- cikcountries %>%
+  mutate(US = recode(Code, 
+                     "CA"= "USA", "CO" = "USA", "CT" = "USA", "DC" = "USA", "FL" = "USA", "GA" = "USA",
+                     "IL" = "USA", "IN" = "USA", "MA" = "USA", "MD" = "USA", "MN" = "USA", "MI" = "USA",
+                     "MO" = "USA", "NC" = "USA", "NJ" = "USA", "NV" = "USA", "NY" = "USA", "OH" = "USA",
+                     "PA" = "USA", "SC" = "USA", "TN" = "USA", "TX" = "USA", "UT" = "USA", "WA" = "USA",
+                     "AK" = "USA", "AL" = "USA", "AR" = "USA", "AZ" = "USA", "DE" = "USA", "IA" = "USA",
+                     "ID" = "USA", "ME" = "USA", "MS" = "USA", "MT" = "USA", "ND" = "USA", "NE" = "USA",
+                     "OK" = "USA", "OR" = "USA", "PR" = "USA", "RI" = "USA", "SD" = "USA", "VA" = "USA",
+                     "VT" = "USA", "WA" = "USA", "WI" = "USA", "WV" = "USA", "WY" = "USA", "NH" = "USA")) 
 
 ```
 
-### Approach
+### Introduction
 
-Our project goal is to identify, measure, and characterize 'innovation.' Today, this innovation is quantified via the annual BRDIS survey, issued by NSF, as an indicator variable as to whether a given company has performed innovation. We aim to supplement the information in BRDIS by implementing alternate methods on new sources of data. Specifically, we are developing text-based methods to be applied to a set of text-based data sources to determine:
+This project aims to test the feasibility to identify, measure, and characterize product innovation using non-survey data sources. Our goal is to develop methods to complement and enhance the BRDIS survey that collects information from a representative set of companies and asks whether they have introduced a new product to the market. Specifically, we are developing text-based methods to be applied to administrative (e.g., financial filings) and opportunity data (e.g., trade journals, press releases) to determine:
 
-* whether a company has innovated?
-* how many new products are associated with that innovation?
-* what are the new products?
+* whether a company has launched a new product?
+* how many new products are introduced?
+* what are the features of the new product(s)?
 * how that innovation trends over time?
 
-To answer these questions, we measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we have chosen to begin our exploration with a specific industry: the pharmaceutical and medical device industry. Their respective SIC codes are given here. 
+To answer these questions, we measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we focus on the pharmaceutical and medical device industry that are highly regulated such that new products require approval from the Food and Drug Administration (FDA). We make the assumption that the FDA approval dataset (which is publicly available) is the universal set of all new products, and ask what the portion of these products we can capture using administrative and opportunity data. Their respective SIC codes are given here. 
 
 ```{r}
-knitr::kable(tibble("SIC" = unique(origcomp_details$sic),
-       "Industry" = unique(origcomp_details$Industry)) %>% filter(!is.na(SIC)))
+knitr::kable(tibble("SIC" = unique(origcomp_details$SEC_SIC),
+       "Industry" = unique(origcomp_details$SIC_Industry)) %>% filter(!is.na(SIC)))
 ```
 
 We chose to focus on the pharmaceutical and medical device industry because of the strictly regulated process of launching new products that is specific to this industry. Consider the following as a high-level illustration of the process a new drug or medical device might take to the market:
@@ -132,34 +155,54 @@ We chose to focus on the pharmaceutical and medical device industry because of t
 # class(origcomp_details)
 # origcomp_details$Industry <- subset.data.frame(x = origcomp_details, select = 8)
 compcount1 <- origcomp_details %>% 
-    group_by(Industry) %>%
+    group_by(SIC_Industry) %>%
     summarise(no_companies = n())
+
+compcount2 <- ciknames %>% 
+  left_join(sic, by = c("CIK", "SEC_SIC" = "SIC_SIC")) %>% 
+  group_by(SIC_Industry) %>%
+  summarise(no_companies = n())
+
+compcount3 <- allwordcounts %>% 
+  group_by(Company, Year) %>% 
+  summarise(count = n())
 
 ```
 
 By tracing products through their lifecycle from FDA approval through financial impact, we can expand upon the BRDIS survey results by providing additional context and information around what innovation looks like in the pharmaceutical industry. Furthermore, we can illustrate a process by which innovation can be uncovered and measured, at least in a highly regulated environment. 
 
-#### About the Dataset
+### Data Source: SEC Filings
 
 This portion of the research focused on the last stage of the lifecycle: whether a new product appears in the financial activities of a company. For this we used the SEC's EDGAR database of 10-K filings. Using the criteria of the two industries of interest, we identified `r length(unique(ciknames$cik))` companies in their database as belonging to the pharmaceutical/medical device industries. Of these, `r nrow(unique(orig_companies))` filed 10-K forms with the SEC, which report on their financial well-being as a company. 
 
-Because a company submits these filings annually, we have many filings per company, and a total of `r length(file_names)` SEC filings. Of these, `r length(unique(wcbycomp$Company)) ` referenced non-English words in their filings. 
+
+Table below summarizes the number of companies on Edgar.
 
 Company Sets | N
 ------------- | -------------
-Total SEC Companies | `r length(unique(ciknames$cik))`
-Pharm SEC Companies | `r as.integer(compcount1["2",2]) `
-Device SEC Companies| `r as.integer(compcount1["3",2]) `
-SEC Companies w 10-K| `r nrow(unique(orig_companies))`
+Total Number of Pharma Companies on Edgar | `r length(unique(ciknames$CIK))`
+SIC 2834: Drugs| `r as.integer(compcount2["1",2]) `
+SIC 3841: Devices | `r as.integer(compcount2["2",2]) `
+Number Pharma Companies w 10-K| `r nrow(unique(orig_companies))`
+SIC 2834: Drugs| `r as.integer(compcount1["2",2]) `
+SIC 3841: Devices | `r as.integer(compcount1["3",2]) `
 
-For those, 703 SEC companies with a 10-K filing,
+We collected the 10-K filings of the `r nrow(unique(orig_companies))` companies for the years 2013 -- 2016, which makes a total of `r length(file_names)` filings. 
+
+### Approaches
+
+Given the 10-K filing of a company, our goal is to identify mentions of product launches for a given year. This requires identifying product names in these filings, and finding those that are mentioned as being launched in the respective year. Currently, we are developing two parallel approaches which will be combined eventually. The first one involves obtaining non-English words in a filing and identifying those that are used in close "proximity" with our keywords of innovation, i.e., launch, new product (list to be expanded). Among the `r length(file_names)` filings, `r nrow(compcount3) ` referenced non-English words in their filings. The second approach is to identify names that are used with a trademark or a registered trademark sign.
+
+
+#### Approach 1. Identifying Non-English Words to Capture Product Names
+
+Below we describe our iterative process using one of the filings as an example.
 
 Filings Sets | N
 ------------- | -------------
 Total 10-K Filings  | `r length(file_names)`
-10-K Filings w non-English | `r length(unique(wcbycomp$Company))`
+10-K Filings w non-English | `r nrow(compcount3) `
 
-#### Identifying Candidate Innovation Tokens
 
 ##### Step 1: Ingest the text of an SEC filing
 
@@ -167,7 +210,7 @@ First the text of all filings was ingested, such that each text element represen
 
 Here's the text using the above linked Merck filing as an example. 
 
-```{r, results = "markup"}
+```{r}
 url <- "https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm"
 edgar <- read_html(remove_doc_types(read_file(url)))
 paragraphs <- edgar %>% 
@@ -183,14 +226,14 @@ print(head(paragraphs[dataplumbr::is_blank(paragraphs) == FALSE], 15))
 There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])`. 
 
 ```{r}
-print(head(paragraphs[nchar(paragraphs)>20], c(1:10, 15)))
+print(head(paragraphs[nchar(paragraphs)>20], 15))
 ```
 
 ##### Step 3: Filter text elements for key words
 
 We then wanted to identify text elements that contained our target innovation phrases, so we looked for elements that contained the phrase "launch" or "new product." As you can see, it looks like the keyword "launch" identified a product called "Zetia."
 
-```{r, results="markup"}
+```{r}
 word_innov <- c("launch", "new product")
 innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
 
@@ -205,33 +248,12 @@ Next, we wanted to determine the number and names of the new products mentioned 
 knitr::kable(allwordcounts[Company == 310158][1:5])
 ```
 
-##### Step 5: Arrange data over time 
+##### Step 5: Filtering out non-English words 
 
-But now I want to arrange this by time. We do see Zetia on the larger list; however, we also see mention of Teva, which is a competitor company. 
+5.1. Company Names
 
-```{r}
-merck <- data.table::as.data.table(wcbycompdetails)[company_names == "Merck   Co  Inc , Merck   Co   Inc ",]
-knitr::kable(merck[1, 9:14])
-knitr::kable(wcbycomp %>% filter(Company == 310158) %>% tail(10))
-```
-
-### Next Steps
-
-As illustrated above, there is still much work to do with the data simply within the SEC filings. In addition to the phases listed below, we hope to dig deeper into competitive relationships at play. 
-
-#### Phase 2: Identifying Registered & Trademarked Tokens
-For example, we hope to add a column to indicate whether the identified word has a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. 
-
-```{r}
-
-head(unique(allregwords$Words), 10)
-
-```
-
-
-
-#### Phase 3: Removing Company Names 
-
+We observe that the list of non-English words that we have obtained from the filings can also include (i) company names or (ii) sector-specific terms. Therefore,  dictionaries for these groups need to be generated to identify and eliminate them. 
+ 
 To the extent possible, we want to remove any cases where the non-English word used is actually a company. So we use our list of companies in the SEC database, the original set of `r nrow(unique(orig_companies)) ` companies. For cases where a company is named, rather than a product, we hope to find a way to flag that mention as a mention of 'self' or 'competitor.'
 
 ```{r}
@@ -239,9 +261,315 @@ colnames(origcomp_details) <- c("CIK Code", "CIK Company Name", "SIC Code", "SIC
 knitr::kable(origcomp_details[31:36,c(1,2)]) #,5,6,7)])
 ```
 
+Steps to identify and clean these names will include:
+
+* tokenizing
+* transforming to lower case
+* stemming words (eg. from 'sciences' to 'science')
+* identifying and separating English words (eg. 'pharmaceutical' or 'sciences')
+* identifying and separating common business naming tokens (eg. 'inc' or 'holdings')
+
+5.2. Mentions in Multiple Companies' Filings
+
+Moreover, we observe that some of these drugs are products of their competitors', hence their names will appear in filings of multiple companies. In order to address this, we look at the names across companies, and filter out those that appear in multiple companies' filings.  
+
+```{r}
+dis <- wcbyword %>% filter(Words == "Adderall")
+
+knitr::kable(dis)
+```
+
+We will consider these drugs appearing in multiple companies' filings separately from uniquely-mentioned drug.
+
+##### Step 6: Arrange data over time 
+
+In this step we will summarize the drug names by company by year, helping us to count mentions of new products for each company over time. 
+
+```{r}
+merck <- data.table::as.data.table(wcbycompdetails)[SEC_CompName == "Merck   Co  Inc , Merck   Co   Inc ",]
+knitr::kable(merck[1, 9:14])
+knitr::kable(merck %>% tail(4))
+```
+
+### Resulting Dataset
+
+##### Innovation Trends Per Industry
+
+```{r plotsettings_2n3}
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+customPlot3 = list(
+  theme(axis.text.x  = element_text(vjust=0.5, size=12), #plot.margin = unit(c(1,1,2,2), "cm"),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="bottom"), 
+  coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 3),
+        colour =guide_legend(title="Key", ncol = 3))
+)
+
+pal_ind <- wes_palette("GrandBudapest1", 3, type = "discrete")
+```
+
+
+```{r maketime}
+time_summ <- allwordcounts %>%
+  left_join(ciknames, by = c("Company" = "CIK")) %>% 
+  left_join(sic, by = c("Company" = "CIK", "SEC_SIC" = "SIC_SIC")) %>%
+  left_join(cik_ticker, by = c("Company" = "CIK")) %>%
+  group_by(SIC_Industry, Year) %>%
+  summarise(count = n())
+
+time_summ$SIC_Industry <- tidyr::replace_na(time_summ$SIC_Industry, "Unknown")
+time_summ$SIC_Industry <- sub("MEDICAL", "MEDICAL\n ", time_summ$SIC_Industry)
+
+drugsbytime <- allwordcounts %>% group_by(Words, Year) %>% 
+  summarise(count = n()) %>% 
+  dcast(Words ~ Year, value.var = "count", fun.aggregate = sum) %>% 
+  mutate(sum = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`)  %>% arrange(desc(sum)) 
+
+drugsbytime_top <- drugsbytime %>% 
+  head(5) %>% 
+  select(-sum) %>% 
+  melt(id=c("Words"), variable.name = "Year")
+
+pal_5 <- wes_palette("Moonrise3", 5, type = "discrete")
+```
+
+Overall, the pharmaceutical industry appears to show the greatest number of innovations and appear to mention these innovations in their SEC filings more often.
+
+```{r inntimeplot}
+# counts of unique product mentions by company
+ggplot(data = time_summ, aes(x=Year, y=count, color = SIC_Industry)) +   #, group = factor(SIC_Industry), colour = factor(SIC_Industry))) + 
+    geom_line(linetype="solid", size=1.5) + 
+    geom_point(size=3, shape=21, fill="white")  +
+   customPlot2 +
+  scale_color_manual(values = pal_ind)  +
+  labs(title = "Number of Innovations per Industry Over Time", x = "Year", y = "Number of Innovations")
+```
+
+The top 5 words are ANDA, FDCA, Pharma, Teva, and Waxman. It is important to note that all of these need to be cleaned out from our list because they don't represent true products. Teva and Waxman are company names, and will be cleaned out there. Pharma is a common term but specific to the pharmaceutical industry and should join a cleaning list of non-English pharmaceutical terms. ANDA and FDCA are FDA terms (a novel drug application and the Federal Food Drug and Cosmetic Act) and will also join the latter list. 
+
+```{r innwtimeplot}
+ggplot(data = drugsbytime_top, aes(x=Year, y=value, group = Words, colour = Words)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") + 
+  scale_color_manual(values = pal_5) +
+  customPlot2 +
+  labs(title = "Top 5 Words over Time", x = "Year", y = "Number of Mentions")
+```
+
+
+Sample list of products? 
+
+```{r wordlist}
+df <- wcbycompdetails %>% group_by(Words) %>% summarise(count = n()) %>% arrange(desc(count)) %>% select(Words) %>% head(50) 
+df2 <- cbind(df[1:10, ], df[11:20, ], df[21:30, ], df[31:40, ], df[41:50, ])
+knitr::kable(df2)
+```
+
+##### Top Companies
+
+```{r maketopcomps}
+# counts of unique product mentions by company
+comps <- wcbycompdetails %>% group_by(SIC_CompName, SIC_Industry) %>% summarise(count = n())   %>% arrange(desc(count)) 
+pharm_comps <- comps %>% filter(SIC_Industry == "PHARMACEUTICAL PREPARATIONS")
+device_comps <- comps %>% filter(SIC_Industry == "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS")
+comps_top <- comps %>% arrange(desc(count)) %>% head(25)
+
+customPlot = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF"), 
+        legend.position="bottom"),
+  coord_flip()
+  , guides(fill=guide_legend(title="Key", nrow = 2))
+)
+```
+
+Novartis AG, Sanofi, and ALlergan PLC appear to be the top three innovators on the pharmaceutical industry. 
+
+``` {r top25pharm_plot}
+ggplot(data=(pharm_comps %>% arrange(desc(count)) %>% head(25)), 
+       aes(x=reorder(SIC_CompName, count), y=count, fill = factor(SIC_Industry))) +
+  geom_bar( stat="identity") +
+  scale_fill_manual(values = pal_ind[1]) + 
+  customPlot +
+    labs(title = "Top 25 Pharm Companies", 
+      y = "Number of Products (All Time)",
+      x = "Companies")
+```
+
+Antares Pharma Inc, Lombard Medical Inc, and Resmed Inc appear to be the top three innovators on the pharmaceutical industry, but Antares is the strongest performer by far.
+
+``` {r top25device_plot}
+ggplot(data=device_comps %>% arrange(desc(count)) %>% head(25), 
+       aes(x=reorder(SIC_CompName, count), y=count, fill = factor(SIC_Industry))) +
+  geom_bar( stat="identity") +
+  scale_fill_manual(values = pal_ind[2]) + 
+  customPlot +
+    labs(title = "Top 25 Device Companies", 
+      y = "Number of Products (All Time)",
+      x = "Companies")
+```
+
+Across all industries, the top company trends are dominated by the pharmaceutical industry, with Antares the only medical device company that bubbles up to compete with the pharmaceutical companies. 
+
+```{r topcomps_plot}
+ggplot(data=comps_top %>% filter(!is.na(SIC_CompName)), aes(x=reorder(SIC_CompName, count), y=count, fill = factor(SIC_Industry))) +
+    geom_bar( stat="identity") + 
+  scale_fill_manual(values = pal_ind) +
+  customPlot + 
+  labs(title = "Top 25 Companies Across Industries", 
+      y = "Number of Products (All Time)",
+      x = "Companies")
+
+```
+
+##### Top Geographies
+
+```{r makegeo}
+pal_cut <- wes_palette("Zissou1", 5,  "discrete")
+
+usa_sum <- wcbycompdetails %>% 
+  group_by(Ticker_Location, SIC_Industry) %>% 
+  summarise(count = n()) %>% 
+  left_join(cikcountries, by = c("Ticker_Location" = "Code")) %>%
+  filter(US == "USA") 
+
+usa_sum$SIC_Industry  <- tidyr::replace_na(usa_sum$SIC_Industry , "Unknown")
+
+usa_sum$Ticker_StateCountry <- stringr::str_to_lower(usa_sum$Ticker_StateCountry)
+states <- map_data("state")
+usa_sum2 <- inner_join(states, usa_sum, by = c("region" = "Ticker_StateCountry"))
+
+'%ni%' <- Negate('%in%')
+
+countries_sum <- wcbycompdetails %>% 
+  group_by(SIC_Location, SIC_Industry) %>% 
+  summarise(count = n()) %>% 
+  left_join(cikcountries, by = c("SIC_Location" = "Code")) %>%
+  filter(US != "USA")
+
+countries_sum$ISO3code <- 
+  recode(countries_sum$Ticker_StateCountry,
+         "GERMANY" = "DEU", "AUSTRALIA" = "AUS","BELGIUM" = "BEL", "DENMARK" = "DNK", "FINLAND" = "FIN", "FRANCE" = "FRA", "NETHERLANDS" = "NLD", 
+         "SWEDEN" = "SWE", "SWITZERLAND" = "CHE", "UNITED KINGDOM" = "GBR", "JERSEY" = "JEY","IRELAND" = "IRL",
+         "BRITISH COLUMBIA, CANADA" = "CAN",  "MANITOBA, CANADA" = "CAN", "ONTARIO, CANADA" = "CAN", "QUEBEC, CANADA" = "CAN", 
+         "BERMUDA" = "BMU", "CAYMAN ISLANDS" = "CYM", "NETHERLANDS ANTILLES" = "ANT",
+         "CHINA" = "CHN", "HONG KONG" = "HKG", "INDIA" = "IND", "ISRAEL" = "ISR")
+
+countries_sum$FIPS <- 
+  recode(countries_sum$Ticker_StateCountry,
+         "GERMANY" = "GM", "AUSTRALIA" = "AS","BELGIUM" = "BE", "DENMARK" = "DA", "FINLAND" = "FI", "FRANCE" = "FR", "NETHERLANDS" = "NL", 
+         "SWEDEN" = "SW", "SWITZERLAND" = "SZ", "UNITED KINGDOM" = "UK", "JERSEY" = "JE","IRELAND" = "EI",
+         "BRITISH COLUMBIA, CANADA" = "CA",  "MANITOBA, CANADA" = "CA", "ONTARIO, CANADA" = "CA", "QUEBEC, CANADA" = "CA", 
+         "BERMUDA" = "BD", "CAYMAN ISLANDS" = "CJ", "NETHERLANDS ANTILLES" = "NL",
+         "CHINA" = "CH", "HONG KONG" = "HK", "INDIA" = "IN", "ISRAEL" = "IS")
+
+```
+
+California, Massachusetts, and New Jersey are the top three states where innovating companies exist.  
+
+```{r}
+ggplot(data=usa_sum, aes(x=reorder(Ticker_Location, count), y=count, fill = SIC_Industry)) +
+    geom_bar( stat="identity") +
+  scale_fill_manual(values = pal_ind) +
+  customPlot3 +
+  labs(title = "Total Innovations/Products Per State Across Industries", 
+       x = "States", y = "Number of Products (All Time)")  
+```
+
+New York, Pennsylvania, and North Carolina follow, but some states do not appear whatsoever. 
+
+```{r}
+ggplot(data = usa_sum2) + 
+  geom_polygon(aes(x = long, y = lat, fill = cut(count, breaks = c(0, 50, 100, 200, 400, 700)), group = group), color = "white") + 
+  coord_fixed(1.3) +
+  customPlot2 +
+  scale_fill_manual(values = pal_cut) +
+  labs(title = "Total Innovations/Products Per State Across Industries") + 
+  theme(axis.ticks = element_blank(), axis.title.x = element_blank(), 
+        axis.title.y = element_blank(), axis.text.y = element_blank(), axis.text.x = element_blank())
+```
+
+Ireland, the UK, Switzerland, and Israel are the top 4 countries where innovating companies are. 
+
+```{r}
+ggplot(data=countries_sum, aes(x=reorder(Ticker_StateCountry, count), y=count, fill = factor(SIC_Industry))) + 
+  geom_bar( stat="identity") + 
+  scale_fill_manual(values = pal_ind) + 
+  labs(title = "Total Innovations/Products Per Country Across Industries", 
+       x = "Countries", y = "Number of Products (All Time)") + 
+  customPlot3
+```
+
+```{r}
+## Re-merge
+countriesMap <- joinCountryData2Map(as.data.frame(countries_sum), joinCode = "ISO3",
+  nameJoinColumn = "ISO3code", nameCountryColumn = "Ticker_StateCountry", verbose = FALSE)
+
+## Specify the colourPalette argument
+mapCountryData(countriesMap,  nameColumnToPlot="count", catMethod = "pretty",
+  missingCountryCol = gray(.95), colourPalette = pal_cut)
+mapCountryData(countriesMap, mapRegion = "europe", nameColumnToPlot="count", catMethod = "pretty",
+  missingCountryCol = gray(.95), colourPalette = pal_cut)
+```
+
+##### Top Exchange
+
+```{r makeexch}
+exchange_products <- wcbycompdetails %>% 
+  group_by(`2012`,`2013`,`2014`,`2015`,`2016`,`2017`, Ticker_Exchange) %>% 
+  summarise(count = n()) %>% 
+  melt(id = "Ticker_Exchange")  %>% 
+  group_by(Ticker_Exchange, variable) %>% 
+  summarise(sum = sum(value)) %>%
+  filter(variable != "count")
+
+colnames(exchange_products) <- c("Exchange", "Year", "Products")
+exchange_products$Exchange <- tidyr::replace_na(exchange_products$Exchange, "Unknown")
+```
+
+This is probably not informative, but I thought it would be fun to include - the NASDAQ stock exchange is where most of the companies of the products are registered to trade their shares. 
+
+```{r excplot}
+ggplot(data = exchange_products %>% filter(Exchange != "Unknown"), aes(x=Year, y=Products, group = Exchange, colour = Exchange)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") +  
+  customPlot2 +
+  scale_color_manual(values = pal_5) +
+  labs(title = "Innovations Per Stock Exchange Over Time", x = "Year", y = "Number of Innovations")
+```
 
 
 
 
 
+##### Final Step: Count Products By Company
+TBD
+
+### Next Steps
+
+As illustrated above, there is still much work to do with the data simply within the SEC filings. In addition to the phases listed below, we hope to dig deeper into competitive relationships at play. 
+
+#### Approach 2: Identifying Registered & Trademarked Tokens
+For example, we hope to add a column to indicate whether the identified word has a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. 
+
+```{r}
+head(unique(allregwords$Words), 10)
+```
 
