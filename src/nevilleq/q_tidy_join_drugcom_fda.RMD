@@ -1,0 +1,80 @@
+---
+title: "BI - Scraped Drug Wrangle"
+author: "Quinton Neville, qn2119"
+date: "June 5, 2019"
+output: html_document
+---
+
+#1. Read, clean, tidy Drugs.com JSON file
+```{r eval = FALSE}
+library(tidyverse)
+#install rjson
+install.packages("rjson")
+library(jsonlite)
+
+drug.df <- read_json(file = "~/uva-bi-sdad/business_innovation/data/original/Drugs.com/DrugNamesandChemicalNames.json") %>%
+  janitor::clean_names() %>%
+  as.tibble() %>%
+  gather(key = drug, value = char) %>%
+  unnest() 
+ 
+drug.df <- tibble(
+    drug = unique(drug.df$drug),
+    char_string = drug.df$char[seq(2, nrow(drug.df), by = 2)],
+    company = drug.df$char[seq(1, nrow(drug.df) - 1, by = 2)]
+  ) %>% 
+  dplyr::select(drug, company, char_string) %>%
+  mutate(
+    date = char_string %>% str_split(., ": ") %>% 
+              map(2) %>%
+              unlist() %>%
+              str_remove("Company"),
+    company = char_string %>% str_split(., ": ") %>% 
+                map(3) %>%
+                unlist() %>%
+                str_remove("Treatment for"),
+    treatment = char_string %>% str_split(., ": ") %>% 
+                map(4) %>% unlist()
+  ) %>%
+  dplyr::select(-char_string)
+
+#write_csv(drug.df, "DrugsCompaniesData.csv")
+```
+
+Uncomment to write out existing tidy .csv file.
+
+#2. Join FDA and Drugs.com
+```{r packages, eval  = FALSE, echo = FALSE, warning = FALSE, message = FALSE}
+#install snakecase
+install.packages("snakecase")
+#to run clean_names() need janitor & snakecase
+#install janitor
+install.packages("janitor")
+
+#Call 
+library(rjson)
+library(snakecase)
+library(janitor)
+library(tidyverse)
+```
+
+```{r}
+#Read Final FDA from DSPG 2018
+fda.df <- read_csv("~/uva-bi-sdad/business_innovation/data/final/FDA_DRUGS/Fda_Drugs.csv") %>%
+  janitor::clean_names() %>%
+  arrange(drug_name) %>%
+  select(drug_name, everything()) %>%
+  mutate(
+    drug_name = tolower(drug_name)
+  )
+
+#Read scraped New Drug JSON from Drugs.com
+new_drug.df <- fromJSON(file = "~/uva-bi-sdad/business_innovation/data/original/Drugs.com/DrugNamesandChemicalNames.json") %>%
+  as.tibble() %>%
+  gather(key = "Drug", val = "Chemical") %>%
+  janitor::clean_names() %>%
+  mutate(
+    drug = tolower(drug)
+    ) %>%
+  arrange(drug)
+```
