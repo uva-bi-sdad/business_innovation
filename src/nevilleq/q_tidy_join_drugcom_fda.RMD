@@ -2,19 +2,51 @@
 title: "BI - Scraped Drug Wrangle"
 author: "Quinton Neville, qn2119"
 date: "June 5, 2019"
-output: html_document
+output:
+  html_document: default
+  github_document: default
 ---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Installation (if needed)
+#install rjson
+#install.packages("rjson")
+#install snakecase (janitor dependency)
+#install.packages("snakecase")
+#install janitor
+#install.packages("janitor") #help tidying
+#install.packages("viridis") #colourblind pallete
+
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+#  fig.height =   
+  fig.width = 6,
+#  fig.asp = .5,
+  out.width = "90%",
+#  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
 
 #1. Read, clean, tidy Drugs.com JSON file
 ```{r eval = FALSE}
-library(tidyverse)
-#install rjson
-install.packages("rjson")
-library(jsonlite)
-
-drug.df <- read_json(file = "~/uva-bi-sdad/business_innovation/data/original/Drugs.com/DrugNamesandChemicalNames.json") %>%
+drug.df <- read_json(path = "./data/original/Drugs.com/DrugsCompaniesDate.json") %>%
+  as_tibble() %>%
   janitor::clean_names() %>%
-  as.tibble() %>%
   gather(key = drug, value = char) %>%
   unnest() 
  
@@ -38,29 +70,15 @@ drug.df <- tibble(
   ) %>%
   dplyr::select(-char_string)
 
-#write_csv(drug.df, "DrugsCompaniesData.csv")
+#Check it out and write it out to data/original
+#head(drug.df)
+#write_csv(drug.df, "./data/original/DrugsCompaniesData.csv")
 ```
 
-Uncomment to write out existing tidy .csv file.
-
-#2. Join FDA and Drugs.com
-```{r packages, eval  = FALSE, echo = FALSE, warning = FALSE, message = FALSE}
-#install snakecase
-install.packages("snakecase")
-#to run clean_names() need janitor & snakecase
-#install janitor
-install.packages("janitor")
-
-#Call 
-library(rjson)
-library(snakecase)
-library(janitor)
-library(tidyverse)
-```
-
-```{r}
+#2. Read and Tidy FDA (and Drugs.com)
+```{r warning = FALSE, message = FALSE}
 #Read Final FDA from DSPG 2018
-fda.df <- read_csv("~/uva-bi-sdad/business_innovation/data/final/FDA_DRUGS/Fda_Drugs.csv") %>%
+fda.df <- read_csv("./data/final/FDA_DRUGS/Fda_Drugs.csv") %>%
   janitor::clean_names() %>%
   arrange(drug_name) %>%
   select(drug_name, everything()) %>%
@@ -68,13 +86,97 @@ fda.df <- read_csv("~/uva-bi-sdad/business_innovation/data/final/FDA_DRUGS/Fda_D
     drug_name = tolower(drug_name)
   )
 
-#Read scraped New Drug JSON from Drugs.com
-new_drug.df <- fromJSON(file = "~/uva-bi-sdad/business_innovation/data/original/Drugs.com/DrugNamesandChemicalNames.json") %>%
-  as.tibble() %>%
-  gather(key = "Drug", val = "Chemical") %>%
-  janitor::clean_names() %>%
+#Read tidy'd .csv of original scraped JSON Drugs.com (from code above)
+drug.df <- read_csv("./data/original/Drugs.com/DrugsCompaniesData.csv")
+```
+
+
+#3. Preliminary EDA on FDA and Drugs.com  
+
+* Frequency of Company production from 2013-2016  
+
+###a. FDA
+```{r fig.height = 7}
+fda.df %>%
+  group_by(company) %>%
+  summarise(
+    count = n()
+  ) %>%
+  arrange(desc(count)) %>%
   mutate(
-    drug = tolower(drug)
+    company = as.factor(company) %>%
+      forcats::fct_reorder(., count)
     ) %>%
-  arrange(drug)
+  slice(1:50) %>%
+  ggplot(aes(x = company, y = count, fill = count)) +
+  geom_bar(stat = "identity", width = 1, colour = "black") +
+  coord_flip() +
+  labs(
+    x = "Company",
+    y = "Number of New Products",
+    title = "New Product Counts of Top 50 Companies FDA"
+  ) +
+theme(legend.position = "right",
+  axis.text.y = element_text(color = "black", 
+  size = 10,  hjust = 1)) +
+  scale_fill_viridis_c("Number\nNew Products")
+```
+
+
+###b. Drugs.com  
+
+```{r fig.height = 6}
+drug.df %>%
+  mutate(
+    company = company %>%
+      str_split(., " ") %>%
+      map_chr(1)
+  ) %>%
+  group_by(company) %>%
+  summarise(
+    count = n()
+  ) %>%
+  arrange(desc(count)) %>%
+  mutate(
+    company = as.factor(company) %>%
+      forcats::fct_reorder(., count)
+    ) %>%
+  slice(1:50) %>%
+  ggplot(aes(x = company, y = count, fill = count)) +
+  geom_bar(stat = "identity", width = 1, colour = "black") +
+  coord_flip() +
+  labs(
+    x = "Company",
+    y = "Number of New Products",
+    title = "New Product Counts of Top 50 Companies (Drugs.com)"
+  ) +
+theme(legend.position = "right",
+  axis.text.y = element_text(color = "black", 
+  size = 10,  hjust = 1)) +
+  scale_fill_viridis_c("Number\nNew Products")
+
+```
+
+####i. Comments  
+
+A bit surprising whomst was at the top of the FDA's most productive companies between 2013-2016. I think just based on the clear discrepancy in size of unique companies and number of products taken from Drugs.com, that it is not a good proxy resource to supplement our FDA data for identification within DNA articles.  
+
+#4. Further EDA on FDA Data  
+
+```{r}
+fda.df %>%
+  group_by(company, year) %>%
+  summarise(
+    count = n()
+  ) %>%
+  arrange(year, desc(count)) %>%
+  ggplot(aes(x = year, y = count, colour = company)) +
+  geom_line(alpha = 0.4) +
+  labs(
+    x = "Year",
+    y = "Number of New Products",
+    title = "New Product Counts per Year by Company FDA"
+  ) +
+  theme(legend.position = "none") +
+  scale_colour_viridis_d()
 ```
