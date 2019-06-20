@@ -1,0 +1,120 @@
+---
+title: "FDA Exploratory Analysis"
+author: "Quinton Neville"
+date: "6/17/2019"
+output:
+  html_document: default
+  github_document: default
+---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Installation (if needed)
+#install rjson
+#install.packages("rjson")
+#install snakecase (janitor dependency)
+#install.packages("snakecase")
+#install janitor
+#install.packages("janitor") #help tidying
+#install.packages("viridis") #colourblind pallete
+
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(lubridate)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+#  fig.height =   
+  fig.width = 6,
+#  fig.asp = .5,
+  out.width = "90%",
+#  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+#1. Data Profile  
+
+###a. Read/Tidy Data
+```{r data_load, message = FALSE}
+#Read Final FDA from DSPG 2018
+fda.df <- read_csv("./data/final/FDA_DRUGS/Fda_Drugs.csv") %>%
+  janitor::clean_names() %>%
+  arrange(drug_name) %>%
+  select(drug_name, everything()) %>%
+  rename(approval_year = year) %>%
+  mutate(
+    drug_name = tolower(drug_name),
+    approval_month = month(approval_date, label = TRUE),
+    approval_day   = day(approval_date),
+    approval_time  = decimal_date(approval_date),
+    approval_year  = as.factor(approval_year)
+  ) %>% dplyr::select(company, everything(), - approval_date)
+
+```
+
+###b. Variable Description
+
+These data, after tidying and creation, described `r nrow(fda.df)` FDA drug approval observations in `r ncol(fda.df)` distinct variables: pharamaceutical company, name of the drug, active ingredients in the drug, submission identifier (unique number?), submission classification/type, the status of the submission, and lastly approval year, month, day, and discretized time (in decimal form `year.XXX`) for temporal plotting/analysis.  
+
+####Companies  
+
+From the years 2013-2016, there were `r unique(fda.df$company)` unique company names contained within these data. Of the `r nrow(fda.df)` observations, an illustrative example of the top 10 companies/manufacturers is given below ordered by the number of drugs approved/pending approval within these data.  
+
+```{r}
+fda.df %>%
+  group_by(company) %>%
+  summarise(
+    count = n()
+  ) %>%
+  arrange(desc(count)) %>%
+  mutate(
+    company = as.factor(company) %>%
+      forcats::fct_reorder(., count)
+    ) %>%
+  slice(1:10) %>%
+  knitr::kable()
+```
+
+
+###Drug Names  
+
+With respect to names of the drugs approved, there exist `r fda.df$drug_name %>% unique() %>% length()` unique drug names within these `r nrow(fda.df)` approvals, exhibiting `r fda.df$drug_name %>% unique() %>% length() / nrow(fda.df)`% unique new drugs over these three years.  
+
+###Submission  
+
+Here, it is not exactly clear what this variable is describing, but intuitively it appears that the format is: "an original/previous drug" - current number of times this drug has been submitted for updated or first time approval (e.g. `r fda.df$submission[1]`). As such we can split this variable into two variables `original`, a logical binary, and a `submission_num` for the number of times this particular drug has been submitted/updated.  
+
+```{r}
+fda.df <- fda.df %>%
+  mutate(
+    original       = str_split(submission, "-") %>% map_chr(1),
+    original       = ifelse(original %in% "ORIG", TRUE, FALSE),
+    submission_num = str_split(submission, "-") %>% map_chr(2) %>% as.numeric()
+  )
+```
+
+
+Here, there existed `r fda.df$original %>% sum()` original drugs comprising `r fda.df$original %>% sum() / nrow(fda.df)`% of the drug submissions. Additionally, the number of submissions ranges from `r range(fda.df$submission_num) %>% paste(., collapse = "-")` with the average number of `
+
+#2. Summary Statistics  
+
+
+
+
+#3. Visualization
+
+
+#4. Synopsis  
+
+

@@ -1,0 +1,114 @@
+---
+title: "DNA Sample"
+author: "Quinton Neville"
+date: "6/20/2019"
+output:
+  html_document: default
+  github_document: default
+---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Installation (if needed)
+#install rjson
+#install.packages("rjson")
+#install snakecase (janitor dependency)
+#install.packages("snakecase")
+#install janitor
+#install.packages("janitor") #help tidying
+#install.packages("viridis") #colourblind pallete
+
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(doParallel)
+library(foreach)
+library(parallel)
+library(maditr)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+#  fig.height =   
+  fig.width = 6,
+#  fig.asp = .5,
+  out.width = "90%",
+#  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+
+
+#1. Load DNA Data, Initial Clean
+
+```{r warning = FALSE}
+#Unzip and read all three files into a nested tibble
+zipfiles <- list.files(path = "./data/original/DNA-Extract/Aggregated-Data") %>%
+  as_tibble() %>%
+  rename(data_zip_path = value) %>%
+  mutate(
+    data_zip_path = str_c("./data/original/DNA-Extract/Aggregated-Data/", data_zip_path),
+    input_files = map(.x = data_zip_path, ~gzfile(.x) %>% fromJSON())
+  )
+
+#Unnest and clean unnecessary variables (i.e. almost all missing)
+dna.dt <- zipfiles %>%
+  unnest() %>%
+  as.data.table() %>%
+  dt_select(-c(data_zip_path, section)) #Section does not appear in the code book (DNA Snapshot)
+  
+#Missingness
+percent.missing <- dna.dt %>%
+  is.na.data.frame() %>%
+  apply(., 2, mean) %>%
+  round(3) #Percentage of missing in each variable
+  
+#Remove Dateline for 99% missing
+dna.dt <- dna.dt %>%
+  dt_select(-dateline)
+
+#str(dna.dt)
+```
+
+After unzipping, reading, and initially cleaning the data, we obtained the entire DNA data set describing `r nrow(dna.dt)` observations in `r ncol(dna.dt)` variables: `r str_c(names(dna.dt), collapse = ", ")`. The section and dateline variables were removed due to missingness from codebook and `r percent.missing["dateline"] * 100`% missing data, respectively. Further, all variables were initially read in as character vectors.  
+
+#2. Variable Mutation
+
+```{r}
+dna.dt <- dna.dt %>%
+  dt_mutate(
+    subject_codes = str_split(subject_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  )
+
+```
+
+#3. Data Profiling  
+
+```{r}
+#Rahgav
+
+```
+
+#4. Investigation for Sampling  
+
+##i. Subject Codes  
+```{r}
+#Storing subject codes as a nested list with each element being a vector of the subject code strings
+
+
+
+```
+
