@@ -51,24 +51,22 @@ options(scipen = 999999)
 
 
 
-#1. Load DNA Data, Initial Clean
+##1. Load DNA Data, Initial Clean
 
 ```{r warning = FALSE}
 #Unzip and read all three files into a nested tibble
-zipfiles <- list.files(path = "./data/original/DNA-Extract/Aggregated-Data") %>%
+dna.dt <- list.files(path = "./data/original/DNA-Extract/Aggregated-Data") %>%
   as_tibble() %>%
   rename(data_zip_path = value) %>%
   mutate(
     data_zip_path = str_c("./data/original/DNA-Extract/Aggregated-Data/", data_zip_path),
     input_files = map(.x = data_zip_path, ~gzfile(.x) %>% fromJSON())
-  )
-
-#Unnest and clean unnecessary variables (i.e. almost all missing)
-dna.dt <- zipfiles %>%
+  ) %>%
   unnest() %>%
   as.data.table() %>%
   dt_select(-c(data_zip_path, section)) #Section does not appear in the code book (DNA Snapshot)
-  
+
+
 #Missingness
 percent.missing <- dna.dt %>%
   is.na.data.frame() %>%
@@ -84,31 +82,117 @@ dna.dt <- dna.dt %>%
 
 After unzipping, reading, and initially cleaning the data, we obtained the entire DNA data set describing `r nrow(dna.dt)` observations in `r ncol(dna.dt)` variables: `r str_c(names(dna.dt), collapse = ", ")`. The section and dateline variables were removed due to missingness from codebook and `r percent.missing["dateline"] * 100`% missing data, respectively. Further, all variables were initially read in as character vectors.  
 
-#2. Variable Mutation
+##2. Variable Mutation
 
-```{r}
+```{r warning = FALSE, message = FALSE}
 dna.dt <- dna.dt %>%
   dt_mutate(
     subject_codes = str_split(subject_codes, ",") %>%
     lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
   )
+```
+
+##3. Data Profiling by Year  
+
+Here we are investigating (whichever vars)
+
+####Yearly Subsets
+```{r}
+# Subsetting data for 2013
+##Using poorly named generic "df" in order to repeat the code for different years (should be wrapped into function later)
+dna.2013 <- dna.dt[ which(dna.dt$publication_date > 1356998400
+& dna.dt$publication_date < 1388448000), ]
+
+# Subsetting data for 2014
+dna.2014 <- dna.dt[ which(dna.dt$publication_date > 1388534400
+& dna.dt$publication_date < 1419984000), ]
+
+# Subsetting data for 2015
+dna.2015 <- dna.dt[ which(dna.dt$publication_date > 1420070400
+& dna.dt$publication_date < 1451520000 ), ]
+
+# Subsetting data for 2016
+dna.2016 <- dna.dt[ which(dna.dt$publication_date > 1451606400
+& dna.dt$publication_date < 1483142400 ), ]
+
+#Remove original
+remove(dna.dt)
+gc()
+```
+
+Here 2013-16 elicit `r list(dna.2013, dna.2014, dna.2015, dna.2016) %>% map_dbl(nrow) %>% paste0(., collapse = ", ")` observations, repsectively.
+
+####2013
+
+Body uniqueness
+```{r}
+#Assign generic df label for code reproduction
+df <- dna.2013[sample(1:nrow(dna.2013), 100), ]
+#remove(dna.2013)
+gc()
+
+#Percentage Unique
+df$body %>% unique() %>% length()
+
+
 
 ```
 
-#3. Data Profiling  
+Here, we observed `r (df$body %>% unique() %>% length()) / nrow(df)`% unique body (text). A bar chart of the most frequently repeated observations can be found below:
 
 ```{r}
-#Rahgav
+#Counts top 5
+a <- df %>%
+  group_by(body) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  mutate(
+    body = as.character(body) %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:5) %>%
+    ggplot(aes(x = body, y = Count, fill = Count)) +
+  geom_bar(stat = "identity", width = 1, colour = "black") +
+  coord_flip() +
+  labs(
+    x = "Year",
+    y = "Number of Domiciles Built",
+    title = "Number of Domiciles Built by Year"
+  ) +
+theme(legend.position = "right",
+  axis.text.y = element_text(color = "black", 
+  size = 10,  hjust = 1)) +
+  scale_fill_viridis_c("Number of Domociles \nBuilt")
 
 ```
+
+####2014
+```{r}
+# Subsetting data for 2014
+dna.2014 <- dna.dt[ which(dna.dt$publication_date > 1388534400
+& dna.dt$publication_date < 1419984000), ]
+
+```
+
+####2015
+```{r}
+# Subsetting data for 2015
+dna.2015 <- dna.dt[ which(dna.dt$publication_date > 1420070400
+& dna.dt$publication_date < 1451520000 ), ]
+
+```
+
+####2016
+```{r}
+# Subsetting data for 2016
+newdates_2016 <- dna.dt[ which(dna.dt$publication_date > 1451606400
+& dna.dt$publication_date < 1483142400 ), ]
+
+```
+
 
 #4. Investigation for Sampling  
-
-##i. Subject Codes  
-```{r}
-#Storing subject codes as a nested list with each element being a vector of the subject code strings
-
-
-
-```
 

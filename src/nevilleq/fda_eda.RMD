@@ -105,7 +105,7 @@ fda.df <- fda.df %>%
 ```
 
 
-Here, there existed `r fda.df$original %>% sum()` original drugs comprising `r fda.df$original %>% sum() / nrow(fda.df)`% of the drug submissions. Additionally, the number of submissions ranges from `r range(fda.df$submission_num) %>% paste(., collapse = "-")` with the average number of `
+Here, there existed `r fda.df$original %>% sum()` original drugs comprising `r fda.df$original %>% sum() / nrow(fda.df)`% of the drug submissions. Additionally, the number of submissions ranges from `r range(fda.df$submission_num) %>% paste(., collapse = "-")` with the average number of 
 
 #2. Summary Statistics  
 
