@@ -53,7 +53,7 @@ options(scipen = 999999)
 
 ##1. Load DNA Data, Initial Clean
 
-```{r warning = FALSE}
+```{r warning = FALSE, eval = FALSE}
 #Unzip and read all three files into a nested tibble
 dna.dt <- list.files(path = "./data/original/DNA-Extract/Aggregated-Data") %>%
   as_tibble() %>%
@@ -78,7 +78,14 @@ dna.dt <- dna.dt %>%
   dt_select(-dateline)
 
 #str(dna.dt)
+write_rds(dna.dt, "./data/working/DNA_Aggregated/dna_full.RDS")
 ```
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, include = FALSE}
+dna.dt <- readRDS("./data/working/DNA_Aggregated/dna_full.RDS") %>%
+  as.data.table()
+```
+
 
 After unzipping, reading, and initially cleaning the data, we obtained the entire DNA data set describing `r nrow(dna.dt)` observations in `r ncol(dna.dt)` variables: `r str_c(names(dna.dt), collapse = ", ")`. The section and dateline variables were removed due to missingness from codebook and `r percent.missing["dateline"] * 100`% missing data, respectively. Further, all variables were initially read in as character vectors.  
 
@@ -239,19 +246,20 @@ summary(df$word_count %>% as.numeric())
 
 #Distribution
 ggplot(df, aes(x = word_count %>% as.numeric())) +
-  geom_density(fill = "purple", alpha = 0.5, adjust = 1, trim = FALSE) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 4, trim = FALSE) +
   labs(
     x = "Word Count",
     y = "Density",
     title = "Distribution of Word Count"
-  )
+  ) +
+  xlim(0, 5000)
 ```
 
 #####Company Codes  
 
 ```{r}
 #Unique Company Codes
-df$company %>% unique() %>% length()
+df$company_codes[1:10] %>% unique() %>% length()
 
 df %>%
   group_by(company_codes) %>%
@@ -260,7 +268,7 @@ df %>%
   ) %>%
     arrange(desc(Count)) %>%
   dt_mutate(
-    body = body %>% 
+    company_codes = company_codes %>% 
       as.factor() %>%
       forcats::fct_reorder(., Count)
     ) %>% 
@@ -273,21 +281,37 @@ df %>%
 
 Unique and top 10:  
 ```{r}
-#Percent Unique
-df$subject_codes %>% unlist() %>% unique() %>% length()
+#Str_split to get list of char vectors of region
+company <- df %>%
+  dt_mutate(
+    company_codes = str_split(company_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(company_codes)
+
+#Unique 
+company %>% unlist() %>% unique() %>% length()
 
 #Top 10
-data.table(subjects = df$subject_codes %>%
+data.table(company = company %>%
            unlist() %>%
            table() %>% 
            names(),
-counts = df$subject_codes %>%
+counts = company %>%
   unlist() %>%
   table() %>% 
   as.numeric()) %>%
   dt_arrange(counts) %>%
   tail()
 ```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(company)
+gc()
+
+```
+
 
 #####Region vs. Region of Origin
 
@@ -371,10 +395,19 @@ counts = industry %>%
   tail()
 ```
 
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(industry)
+gc()
+
+```
+
+
 ####2014
 
 #####Body uniqueness
 ```{r}
+#Dump the garbage
 remove(dna.2013)
 gc()
 
@@ -500,22 +533,35 @@ ggplot(df, aes(x = word_count %>% as.numeric())) +
 #####Company Codes  
 
 ```{r}
-#Unique Company Codes
-df$company %>% unique() %>% length()
-
-df %>%
-  group_by(company_codes) %>%
-  summarise(
-    Count = n()
-  ) %>%
-    arrange(desc(Count)) %>%
+#Str_split to get list of char vectors of region
+company <- df %>%
   dt_mutate(
-    body = body %>% 
-      as.factor() %>%
-      forcats::fct_reorder(., Count)
-    ) %>% 
-  slice(1:10) #%>%
-  #knitr::kable()
+    company_codes = str_split(company_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(company_codes)
+
+#Unique 
+company %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(company = company %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = company %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(company)
+gc()
+
 ```
 
 
@@ -750,22 +796,35 @@ ggplot(df, aes(x = word_count %>% as.numeric())) +
 #####Company Codes  
 
 ```{r}
-#Unique Company Codes
-df$company %>% unique() %>% length()
-
-df %>%
-  group_by(company_codes) %>%
-  summarise(
-    Count = n()
-  ) %>%
-    arrange(desc(Count)) %>%
+#Str_split to get list of char vectors of region
+company <- df %>%
   dt_mutate(
-    body = body %>% 
-      as.factor() %>%
-      forcats::fct_reorder(., Count)
-    ) %>% 
-  slice(1:10) #%>%
-  #knitr::kable()
+    company_codes = str_split(company_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(company_codes)
+
+#Unique 
+company %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(company = company %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = company %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(company)
+gc()
+
 ```
 
 
@@ -1000,22 +1059,35 @@ ggplot(df, aes(x = word_count %>% as.numeric())) +
 #####Company Codes  
 
 ```{r}
-#Unique Company Codes
-df$company %>% unique() %>% length()
-
-df %>%
-  group_by(company_codes) %>%
-  summarise(
-    Count = n()
-  ) %>%
-    arrange(desc(Count)) %>%
+#Str_split to get list of char vectors of region
+company <- df %>%
   dt_mutate(
-    body = body %>% 
-      as.factor() %>%
-      forcats::fct_reorder(., Count)
-    ) %>% 
-  slice(1:10) #%>%
-  #knitr::kable()
+    company_codes = str_split(company_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(company_codes)
+
+#Unique 
+company %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(company = company %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = company %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(company)
+gc()
+
 ```
 
 

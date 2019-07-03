@@ -1,10 +1,4 @@
 base
-methods
-datasets
-utils
-grDevices
-graphics
-stats
 jsonlite
 tidyverse
 ggplot2
@@ -21,6 +15,5 @@ viridis
 data.table
 foreach
 iterators
-parallel
 doParallel
 maditr
