@@ -64,7 +64,7 @@ dna.dt <- list.files(path = "./data/original/DNA-Extract/Aggregated-Data") %>%
   ) %>%
   unnest() %>%
   as.data.table() %>%
-  dt_select(-c(data_zip_path, section)) #Section does not appear in the code book (DNA Snapshot)
+  dt_select(., -c(data_zip_path, section)) #Section does not appear in the code book (DNA Snapshot)
 
 
 #Missingness
@@ -84,6 +84,7 @@ After unzipping, reading, and initially cleaning the data, we obtained the entir
 
 ##2. Variable Mutation
 
+Subject Codes:  
 ```{r warning = FALSE, message = FALSE}
 dna.dt <- dna.dt %>%
   dt_mutate(
@@ -124,75 +125,1005 @@ Here 2013-16 elicit `r list(dna.2013, dna.2014, dna.2015, dna.2016) %>% map_dbl(
 
 ####2013
 
-Body uniqueness
+#####Body uniqueness
 ```{r}
 #Assign generic df label for code reproduction
-df <- dna.2013[sample(1:nrow(dna.2013), 100), ]
+df <- dna.2013
 #remove(dna.2013)
 gc()
 
 #Percentage Unique
 df$body %>% unique() %>% length()
 
-
-
 ```
 
-Here, we observed `r (df$body %>% unique() %>% length()) / nrow(df)`% unique body (text). A bar chart of the most frequently repeated observations can be found below:
+Here, we observed `r (df$body %>% unique() %>% length()) / nrow(df)`% unique body (text). A table of the most frequently repeated observations can be found below:
 
 ```{r}
-#Counts top 5
-a <- df %>%
+#Top 5 Table
+df %>%
   group_by(body) %>%
   summarise(
     Count = n()
   ) %>%
     arrange(desc(Count)) %>%
-  mutate(
-    body = as.character(body) %>% 
+  dt_mutate(
+    body = body %>% 
       as.factor() %>%
       forcats::fct_reorder(., Count)
     ) %>% 
-  slice(1:5) %>%
-    ggplot(aes(x = body, y = Count, fill = Count)) +
-  geom_bar(stat = "identity", width = 1, colour = "black") +
-  coord_flip() +
-  labs(
-    x = "Year",
-    y = "Number of Domiciles Built",
-    title = "Number of Domiciles Built by Year"
-  ) +
-theme(legend.position = "right",
-  axis.text.y = element_text(color = "black", 
-  size = 10,  hjust = 1)) +
-  scale_fill_viridis_c("Number of Domociles \nBuilt")
+  slice(1:5) #%>%
+  #knitr::kable()
+```
 
+There are indeed empty body sections, as well as websites, and a few just date entries. (Ask Neil why). Using 50 Chars as a cutoff, lets see percentage of "true" articles there are:
+
+```{r}
+#Number
+(str_length(df$body %>% na.omit()) > 50) %>% sum()
+
+#Percent true articles
+(str_length(df$body %>% na.omit()) > 50) %>% mean() %>% round(4)
+```
+
+#####Action (add, rep, del)
+
+Here we look at a table of values and cross reference by "TRUE" articles (str_length > 50)
+```{r}
+#Table of action values
+table(df$action)
+
+#Strlength cross reference ADD with "TRUE" articles
+print("Number of action == add by str_length > 50")
+(str_length(df[action == "add", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == rep by str_length > 50")
+(str_length(df[action == "rep", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == del by str_length > 50")
+(str_length(df[action == "del", body] %>% na.omit()) > 50) %>% sum()
+```
+
+#####Unique Publishers
+
+Look at unique names vs. unique codes
+```{r}
+#Percent Unique Names
+df$publisher_name %>% unique() %>% length() / nrow(df)
+
+#Percent Unique Source Codes
+df$source_code %>% unique() %>% length() / nrow(df)
+
+#Top 10 Unique Names
+df %>%
+  group_by(publisher_name) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    publisher_name = publisher_name %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+
+
+#Top 10 Sources
+df %>%
+  group_by(source_code) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    source_code = as.character(source_code) %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+```
+
+Does not look like source code and Publisher name match particularly, and actully source_code has more unique values than publisher; which may imply publisher name is actually accurate (I was expecting the opposite). 
+
+#####Word Count
+
+Word Count
+```{r}
+#Summary
+summary(df$word_count %>% as.numeric())
+
+#Distribution
+ggplot(df, aes(x = word_count %>% as.numeric())) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 1, trim = FALSE) +
+  labs(
+    x = "Word Count",
+    y = "Density",
+    title = "Distribution of Word Count"
+  )
+```
+
+#####Company Codes  
+
+```{r}
+#Unique Company Codes
+df$company %>% unique() %>% length()
+
+df %>%
+  group_by(company_codes) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    body = body %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10) #%>%
+  #knitr::kable()
+```
+
+
+#####Subject Codes
+
+Unique and top 10:  
+```{r}
+#Percent Unique
+df$subject_codes %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(subjects = df$subject_codes %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = df$subject_codes %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+#####Region vs. Region of Origin
+
+Region:
+```{r}
+#Str_split to get list of char vectors of region
+region <- df %>%
+  dt_mutate(
+    region_codes = str_split(region_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(region_codes)
+
+#Unique 
+region %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(region = region %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = region %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(region)
+gc()
+
+```
+
+Region of Origin
+```{r}
+#Unique 
+df$region_of_origin %>% unique() %>% length()
+
+#Top 10
+data.table(region_of_origin = df$region_of_origin %>%
+           table() %>% 
+           names(),
+counts = df$region_of_origin %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+
+```
+
+#####Industry
+
+Industry Codes:  
+
+```{r}
+#Str_split to get list of char vectors of region
+industry <- df %>%
+  dt_mutate(
+    industry_codes = str_split(industry_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(industry_codes)
+
+#Unique 
+industry %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(industry = industry %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = industry %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
 ```
 
 ####2014
-```{r}
-# Subsetting data for 2014
-dna.2014 <- dna.dt[ which(dna.dt$publication_date > 1388534400
-& dna.dt$publication_date < 1419984000), ]
 
+#####Body uniqueness
+```{r}
+remove(dna.2013)
+gc()
+
+#Pass to  generic df label for code reproduction
+df <- dna.2014
+
+
+#Percentage Unique
+df$body %>% unique() %>% length()
+
+```
+
+Here, we observed `r (df$body %>% unique() %>% length()) / nrow(df)`% unique body (text). A table of the most frequently repeated observations can be found below:
+
+```{r}
+#Top 5 Table
+df %>%
+  group_by(body) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    body = body %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:5) #%>%
+  #knitr::kable()
+```
+
+There are indeed empty body sections, as well as websites, and a few just date entries. (Ask Neil why). Using 50 Chars as a cutoff, lets see percentage of "true" articles there are:
+
+```{r}
+#Number
+(str_length(df$body %>% na.omit()) > 50) %>% sum()
+
+#Percent true articles
+(str_length(df$body %>% na.omit()) > 50) %>% mean() %>% round(4)
+```
+
+#####Action (add, rep, del)
+
+Here we look at a table of values and cross reference by "TRUE" articles (str_length > 50)
+```{r}
+#Table of action values
+table(df$action)
+
+#Strlength cross reference ADD with "TRUE" articles
+print("Number of action == add by str_length > 50")
+(str_length(df[action == "add", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == rep by str_length > 50")
+(str_length(df[action == "rep", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == del by str_length > 50")
+(str_length(df[action == "del", body] %>% na.omit()) > 50) %>% sum()
+```
+
+#####Unique Publishers
+
+Look at unique names vs. unique codes
+```{r}
+#Percent Unique Names
+df$publisher_name %>% unique() %>% length() / nrow(df)
+
+#Percent Unique Source Codes
+df$source_code %>% unique() %>% length() / nrow(df)
+
+#Top 10 Unique Names
+df %>%
+  group_by(publisher_name) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    publisher_name = publisher_name %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+
+
+#Top 10 Sources
+df %>%
+  group_by(source_code) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    source_code = as.character(source_code) %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+```
+
+Does not look like source code and Publisher name match particularly, and actully source_code has more unique values than publisher; which may imply publisher name is actually accurate (I was expecting the opposite). 
+
+#####Word Count
+
+Word Count
+```{r}
+#Summary
+summary(df$word_count %>% as.numeric())
+
+#Distribution
+ggplot(df, aes(x = word_count %>% as.numeric())) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 1, trim = FALSE) +
+  labs(
+    x = "Word Count",
+    y = "Density",
+    title = "Distribution of Word Count"
+  )
+```
+
+#####Company Codes  
+
+```{r}
+#Unique Company Codes
+df$company %>% unique() %>% length()
+
+df %>%
+  group_by(company_codes) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    body = body %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10) #%>%
+  #knitr::kable()
+```
+
+
+#####Subject Codes
+
+Unique and top 10:  
+```{r}
+#Percent Unique
+df$subject_codes %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(subjects = df$subject_codes %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = df$subject_codes %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+#####Region vs. Region of Origin
+
+Region:
+```{r}
+#Str_split to get list of char vectors of region
+region <- df %>%
+  dt_mutate(
+    region_codes = str_split(region_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(region_codes)
+
+#Unique 
+region %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(region = region %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = region %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(region)
+gc()
+
+```
+
+Region of Origin
+```{r}
+#Unique 
+df$region_of_origin %>% unique() %>% length()
+
+#Top 10
+data.table(region_of_origin = df$region_of_origin %>%
+           table() %>% 
+           names(),
+counts = df$region_of_origin %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+
+```
+
+#####Industry
+
+Industry Codes:  
+
+```{r}
+#Str_split to get list of char vectors of region
+industry <- df %>%
+  dt_mutate(
+    industry_codes = str_split(industry_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(industry_codes)
+
+#Unique 
+industry %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(industry = industry %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = industry %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
 ```
 
 ####2015
-```{r}
-# Subsetting data for 2015
-dna.2015 <- dna.dt[ which(dna.dt$publication_date > 1420070400
-& dna.dt$publication_date < 1451520000 ), ]
 
+#####Body uniqueness
+```{r}
+remove(dna.2014)
+gc()
+
+#Pass to  generic df label for code reproduction
+df <- dna.2015
+
+
+#Percentage Unique
+df$body %>% unique() %>% length()
+
+```
+
+Here, we observed `r (df$body %>% unique() %>% length()) / nrow(df)`% unique body (text). A table of the most frequently repeated observations can be found below:
+
+```{r}
+#Top 5 Table
+df %>%
+  group_by(body) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    body = body %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:5) #%>%
+  #knitr::kable()
+```
+
+There are indeed empty body sections, as well as websites, and a few just date entries. (Ask Neil why). Using 50 Chars as a cutoff, lets see percentage of "true" articles there are:
+
+```{r}
+#Number
+(str_length(df$body %>% na.omit()) > 50) %>% sum()
+
+#Percent true articles
+(str_length(df$body %>% na.omit()) > 50) %>% mean() %>% round(4)
+```
+
+#####Action (add, rep, del)
+
+Here we look at a table of values and cross reference by "TRUE" articles (str_length > 50)
+```{r}
+#Table of action values
+table(df$action)
+
+#Strlength cross reference ADD with "TRUE" articles
+print("Number of action == add by str_length > 50")
+(str_length(df[action == "add", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == rep by str_length > 50")
+(str_length(df[action == "rep", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == del by str_length > 50")
+(str_length(df[action == "del", body] %>% na.omit()) > 50) %>% sum()
+```
+
+#####Unique Publishers
+
+Look at unique names vs. unique codes
+```{r}
+#Percent Unique Names
+df$publisher_name %>% unique() %>% length() / nrow(df)
+
+#Percent Unique Source Codes
+df$source_code %>% unique() %>% length() / nrow(df)
+
+#Top 10 Unique Names
+df %>%
+  group_by(publisher_name) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    publisher_name = publisher_name %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+
+
+#Top 10 Sources
+df %>%
+  group_by(source_code) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    source_code = as.character(source_code) %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+```
+
+Does not look like source code and Publisher name match particularly, and actully source_code has more unique values than publisher; which may imply publisher name is actually accurate (I was expecting the opposite). 
+
+#####Word Count
+
+Word Count
+```{r}
+#Summary
+summary(df$word_count %>% as.numeric())
+
+#Distribution
+ggplot(df, aes(x = word_count %>% as.numeric())) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 1, trim = FALSE) +
+  labs(
+    x = "Word Count",
+    y = "Density",
+    title = "Distribution of Word Count"
+  )
+```
+
+#####Company Codes  
+
+```{r}
+#Unique Company Codes
+df$company %>% unique() %>% length()
+
+df %>%
+  group_by(company_codes) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    body = body %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10) #%>%
+  #knitr::kable()
+```
+
+
+#####Subject Codes
+
+Unique and top 10:  
+```{r}
+#Percent Unique
+df$subject_codes %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(subjects = df$subject_codes %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = df$subject_codes %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+#####Region vs. Region of Origin
+
+Region:
+```{r}
+#Str_split to get list of char vectors of region
+region <- df %>%
+  dt_mutate(
+    region_codes = str_split(region_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(region_codes)
+
+#Unique 
+region %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(region = region %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = region %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(region)
+gc()
+
+```
+
+Region of Origin
+```{r}
+#Unique 
+df$region_of_origin %>% unique() %>% length()
+
+#Top 10
+data.table(region_of_origin = df$region_of_origin %>%
+           table() %>% 
+           names(),
+counts = df$region_of_origin %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+
+```
+
+#####Industry
+
+Industry Codes:  
+
+```{r}
+#Str_split to get list of char vectors of region
+industry <- df %>%
+  dt_mutate(
+    industry_codes = str_split(industry_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(industry_codes)
+
+#Unique 
+industry %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(industry = industry %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = industry %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
 ```
 
 ####2016
+
+#####Body uniqueness
 ```{r}
-# Subsetting data for 2016
-newdates_2016 <- dna.dt[ which(dna.dt$publication_date > 1451606400
-& dna.dt$publication_date < 1483142400 ), ]
+remove(dna.2015)
+gc()
+
+#Pass to  generic df label for code reproduction
+df <- dna.2016
+
+
+#Percentage Unique
+df$body %>% unique() %>% length()
 
 ```
 
+Here, we observed `r (df$body %>% unique() %>% length()) / nrow(df)`% unique body (text). A table of the most frequently repeated observations can be found below:
 
-#4. Investigation for Sampling  
+```{r}
+#Top 5 Table
+df %>%
+  group_by(body) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    body = body %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:5) #%>%
+  #knitr::kable()
+```
+
+There are indeed empty body sections, as well as websites, and a few just date entries. (Ask Neil why). Using 50 Chars as a cutoff, lets see percentage of "true" articles there are:
+
+```{r}
+#Number
+(str_length(df$body %>% na.omit()) > 50) %>% sum()
+
+#Percent true articles
+(str_length(df$body %>% na.omit()) > 50) %>% mean() %>% round(4)
+```
+
+#####Action (add, rep, del)
+
+Here we look at a table of values and cross reference by "TRUE" articles (str_length > 50)
+```{r}
+#Table of action values
+table(df$action)
+
+#Strlength cross reference ADD with "TRUE" articles
+print("Number of action == add by str_length > 50")
+(str_length(df[action == "add", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == rep by str_length > 50")
+(str_length(df[action == "rep", body] %>% na.omit()) > 50) %>% sum() 
+
+#Strlength cross reference  REP with "TRUE" articles
+print("Number of action == del by str_length > 50")
+(str_length(df[action == "del", body] %>% na.omit()) > 50) %>% sum()
+```
+
+#####Unique Publishers
+
+Look at unique names vs. unique codes
+```{r}
+#Percent Unique Names
+df$publisher_name %>% unique() %>% length() / nrow(df)
+
+#Percent Unique Source Codes
+df$source_code %>% unique() %>% length() / nrow(df)
+
+#Top 10 Unique Names
+df %>%
+  group_by(publisher_name) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    publisher_name = publisher_name %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+
+
+#Top 10 Sources
+df %>%
+  group_by(source_code) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    source_code = as.character(source_code) %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+```
+
+Does not look like source code and Publisher name match particularly, and actully source_code has more unique values than publisher; which may imply publisher name is actually accurate (I was expecting the opposite). 
+
+#####Word Count
+
+Word Count
+```{r}
+#Summary
+summary(df$word_count %>% as.numeric())
+
+#Distribution
+ggplot(df, aes(x = word_count %>% as.numeric())) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 1, trim = FALSE) +
+  labs(
+    x = "Word Count",
+    y = "Density",
+    title = "Distribution of Word Count"
+  )
+```
+
+#####Company Codes  
+
+```{r}
+#Unique Company Codes
+df$company %>% unique() %>% length()
+
+df %>%
+  group_by(company_codes) %>%
+  summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    body = body %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10) #%>%
+  #knitr::kable()
+```
+
+
+#####Subject Codes
+
+Unique and top 10:  
+```{r}
+#Percent Unique
+df$subject_codes %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(subjects = df$subject_codes %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = df$subject_codes %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+#####Region vs. Region of Origin
+
+Region:
+```{r}
+#Str_split to get list of char vectors of region
+region <- df %>%
+  dt_mutate(
+    region_codes = str_split(region_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(region_codes)
+
+#Unique 
+region %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(region = region %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = region %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r echo = FALSE, include = FALSE, warning = FALSE, message = FALSE}
+#Garbage Dump memory
+remove(region)
+gc()
+
+```
+
+Region of Origin
+```{r}
+#Unique 
+df$region_of_origin %>% unique() %>% length()
+
+#Top 10
+data.table(region_of_origin = df$region_of_origin %>%
+           table() %>% 
+           names(),
+counts = df$region_of_origin %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+
+```
+
+#####Industry
+
+Industry Codes:  
+
+```{r}
+#Str_split to get list of char vectors of region
+industry <- df %>%
+  dt_mutate(
+    industry_codes = str_split(industry_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(industry_codes)
+
+#Unique 
+industry %>% unlist() %>% unique() %>% length()
+
+#Top 10
+data.table(industry = industry %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = industry %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  tail()
+```
+
+```{r}
+#Final Garbage Dump
+remove(dna.2016)
+gc()
+```
 
