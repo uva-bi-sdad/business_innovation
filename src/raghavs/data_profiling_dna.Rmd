@@ -125,10 +125,34 @@ plot_missing(dna.dt)
 
 ##i. Subject Codes  
 ```{r}
-#Storing subject codes as a nested list with each element being a vector of the subject code strings
+
+# Subsetting data for 2016
+newdates_2016 <- dna.dt[ which(dna.dt$publication_date > 1451606400
+& dna.dt$publication_date < 1483142400 ), ]
+# Subsetting data for 2017
+newdates_2017 <- dna.dt[ which(dna.dt$publication_date > 1483228800
+& dna.dt$publication_date < 1514678400 ), ]
+# Subsetting data for 2018
+newdates_2018 <- dna.dt[ which(dna.dt$publication_date > 1514764800
+& dna.dt$publication_date < 1546214400), ]
+# Subsetting data for 2015
+newdates_2015 <- dna.dt[ which(dna.dt$publication_date > 1420070400
+& dna.dt$publication_date < 1451520000 ), ]
+# Subsetting data for 2014
+newdates_2014 <- dna.dt[ which(dna.dt$publication_date > 1388534400
+& dna.dt$publication_date < 1419984000), ]
+# Subsetting data for 2013
+newdates_2013 <- dna.dt[ which(dna.dt$publication_date > 1356998400
+& dna.dt$publication_date < 1388448000), ]
 
 
 
 ```
 
 
+```{python}
+
+library(reticulate)
+
+virtualenv_create("r-reticulate")
+```
