@@ -255,29 +255,8 @@ ggplot(df, aes(x = word_count %>% as.numeric())) +
   xlim(0, 5000)
 ```
 
-#####Company Codes  
 
-```{r}
-#Unique Company Codes
-df$company_codes[1:10] %>% unique() %>% length()
-
-df %>%
-  group_by(company_codes) %>%
-  summarise(
-    Count = n()
-  ) %>%
-    arrange(desc(Count)) %>%
-  dt_mutate(
-    company_codes = company_codes %>% 
-      as.factor() %>%
-      forcats::fct_reorder(., Count)
-    ) %>% 
-  slice(1:10) #%>%
-  #knitr::kable()
-```
-
-
-#####Subject Codes
+#####Company Codes
 
 Unique and top 10:  
 ```{r}

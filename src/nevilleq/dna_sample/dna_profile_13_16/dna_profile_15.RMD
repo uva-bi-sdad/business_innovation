@@ -1,0 +1,287 @@
+---
+title: "DNA Profile 2013"
+author: "DSPG Business Innovation Team"
+date: "7/3/2019"
+output:
+  html_document: default
+  github_document: default
+---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(doParallel)
+library(foreach)
+library(parallel)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+#  fig.height =   
+  fig.width = 6,
+#  fig.asp = .5,
+  out.width = "90%",
+#  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+##1. Read Data  
+
+```{r}
+dna.dt <- read_rds("./data/working/DNA_Aggregated/dna_2015.RDS") %>%
+  as.data.table()
+```
+
+##2. Profile
+
+Tidying the data.  
+```{r}
+#Unlist columns
+dna.dt <- dna.dt %>%
+  dt_mutate(
+    subject_codes = subject_codes %>% map_chr(.x = ., ~paste0(.x, collapse = ", "))
+  )
+```
+
+General description. 
+```{r}
+#Dimension 
+dna.dt %>%
+  introduce()
+
+#Tidy for head screenshot
+dna.dt <- dna.dt %>%
+  dplyr::select(c(an, title, body, publisher_name,
+            company_codes, subject_codes, everything()))
+```
+
+
+Names of variables
+```{r}
+#Variable Names
+#names(dna.dt) %>% paste0(., collapse = ", ")
+plot_str(dna.dt)
+
+```
+
+
+!["Head of DNA data 2015"](head_dna_2015.png)
+
+```{r}
+
+#Structure of Data
+str(dna.dt)
+
+#Percent Missing by Variable
+percent.missing <- dna.dt %>%
+  is.na.data.frame() %>%
+  apply(., 2, mean) %>%
+  round(3)
+percent.missing
+
+#plot_bar(dna.dt$action)
+```
+
+#3. Preliminary Cleaning
+
+
+####Word Count (Body of Text)
+Here, we filter out articles with body text less than 10 words in length, as this indicates is not a "true" article in the scope of our interest. For plotting, we trimmed at 5000 length word. The new data is renamed so the original is still available for later use.  
+
+
+```{r warning = FALSE}
+#Cleaning out WC
+dna.2.dt <- dna.dt %>%
+  dt_mutate(
+    word_count = word_count %>% as.numeric()
+  ) %>%
+  dt_filter(word_count > 10)
+
+#Summary
+summary(dna.2.dt$word_count)
+
+#Distribution
+ggplot(dna.2.dt, aes(x = word_count)) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 4, trim = FALSE) +
+  labs(
+    x = "Word Count",
+    y = "Density",
+    title = "Distribution of Word Count"
+  ) +
+  xlim(0, 5000)
+```
+
+
+####Sources (of Publishers)
+
+```{r}
+#Data frame for all combos of unique codes, names
+asd <- dna.2.dt[, list(source_code, source_name, publisher_name)] %>% unique()
+
+#Unique source codes
+dna.2.dt$source_code %>% unique() %>% length()
+
+#" " names
+dna.2.dt$source_name %>% unique() %>% length()
+
+#Unique publisher names
+dna.2.dt$publisher_name %>% unique() %>% length()
+
+
+#Joining for unique data frame (writen out)
+asd <- left_join(asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+  group_by(source_code) %>%
+  summarise(
+    count_source_code = n()
+  ), by = "source_code")
+
+asd <- left_join(
+  asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+  group_by(source_name) %>%
+  summarise(
+    count_source_name = n()
+  ), by = "source_name"
+)
+
+asd <- left_join(
+  asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+  group_by(publisher_name) %>%
+  summarise(
+    count_publisher_name = n()
+  ), by = "publisher_name"
+)
+
+#write_csv(unique(asd), "./data/working/DNA_Aggregated/unique_publisher_sources.csv")
+
+#Top 10 Unique Names
+dna.2.dt %>%
+  group_by(publisher_name) %>%
+   summarise(
+    Count = n()
+  ) %>%
+    arrange(desc(Count)) %>%
+  dt_mutate(
+    publisher_name = publisher_name %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+    ) %>% 
+  slice(1:10)
+
+```
+
+
+![](head_unique_publishers.png)
+
+####Company Names
+
+Look at unique company names and the top 10 mentioned in these articles (in combination with others).  
+
+```{r}
+#Str_split to get list of char vectors of region
+company <- dna.2.dt %>%
+  dt_mutate(
+    company_codes = str_split(company_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(company_codes)
+
+#Unique 
+company %>% unlist() %>% unique() %>% length()
+
+#Summary
+company.counts <- company$company_codes %>% map_dbl(.x = ., ~length(.x))
+company.counts %>% summary()
+
+#Histogram
+tibble(company.counts = company.counts) %>%
+  ggplot(aes(x = company.counts)) +
+  geom_histogram(fill = "purple") +
+# geom_density(fill = "purple", adjust = 5) +
+  xlim(0, 10)
+
+#Top 10
+data.table(company = company %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = company %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  Rev(margin = 1) %>%
+  slice(1:10)
+
+```
+
+
+####Company Names (About)
+
+Look at unique company names and the top 10 mentioned in these articles (in combination with others).  
+
+```{r}
+#Str_split to get list of char vectors of region
+company <- dna.2.dt %>%
+  dt_mutate(
+    company_codes_about = str_split(company_codes_about, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) %>%
+  dt_select(company_codes_about)
+
+#Unique 
+company %>% unlist() %>% unique() %>% length()
+
+#Summary
+company.counts <- company$company_codes %>% map_dbl(.x = ., ~length(.x))
+company.counts %>% summary()
+
+#Histogram
+tibble(company.counts = company.counts) %>%
+  ggplot(aes(x = company.counts)) +
+  geom_histogram(fill = "purple") +
+# geom_density(fill = "purple", adjust = 5) +
+  xlim(0, 10)
+
+#Top 10
+data.table(company = company %>%
+           unlist() %>%
+           table() %>% 
+           names(),
+counts = company %>%
+  unlist() %>%
+  table() %>% 
+  as.numeric()) %>%
+  dt_arrange(counts) %>%
+  Rev(margin = 1) %>%
+  slice(1:10)
+
+
+#Notes 
+
+#- Articles w/ no company codes 
+#- Count how many only fda, sec, and nasdaq (locate, filter)
+#- Subject_code, new_product (investigate?)
+#- Filtering by keywords "in the text body" / subject code?
+#- iterate "for all years"
+```
+
+
+
