@@ -1,13 +1,13 @@
 ---
   title: "DNA Profile 2013"
-author: "DSPG Business Innovation Team"
-date: "7/3/2019"
-output:
-  html_document: default
-github_document: default
+  author: "DSPG Business Innovation Team"
+  date: "7/3/2019"
+  output:
+    html_document: default
+    github_document: default
 ---
   
-  ```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
 #Libraries
 library(jsonlite)
 library(tidyverse)
@@ -206,18 +206,20 @@ Look at unique company names and the top 10 mentioned in these articles for `r y
 
 ```{r}
 #Str_split to get list of char vectors of region
-company <- dna.2.dt %>%
+dna.2.dt <- dna.2.dt %>%
   dt_mutate(
     company_codes = str_split(company_codes, ",") %>%
       lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
-  ) %>%
-  dt_select(company_codes)
+  )
 
 #Unique 
-company %>% unlist() %>% unique() %>% length()
+dna.2.dt$company_codes %>%
+  unlist() %>% 
+  unique() %>%
+  length()
 
 #Summary
-company.counts <- company$company_codes %>% map_dbl(.x = ., ~length(.x))
+company.counts <- dna.2.dt$company_codes %>% map_dbl(.x = ., ~length(.x))
 company.counts %>% summary()
 
 #Histogram
@@ -228,11 +230,11 @@ tibble(company.counts = company.counts) %>%
   xlim(0, 10)
 
 #Top 10
-data.table(company = company %>%
+data.table(company = dna.2.dt$company_codes %>%
              unlist() %>%
              table() %>% 
              names(),
-           counts = company %>%
+           counts = dna.2.dt$company_codes %>%
              unlist() %>%
              table() %>% 
              as.numeric()) %>%
@@ -249,18 +251,20 @@ Look at unique company names (about) and the top 10 mentioned in these articles 
 
 ```{r}
 #Str_split to get list of char vectors of region
-company.about <- dna.2.dt %>%
+dna.2.dt <- dna.2.dt %>%
   dt_mutate(
     company_codes_about = str_split(company_codes_about, ",") %>%
       lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
-  ) %>%
-  dt_select(company_codes_about)
+  ) 
 
 #Unique 
-company.about %>% unlist() %>% unique() %>% length()
+dna.2.dt$company_codes_about %>%
+  unlist() %>% 
+  unique() %>% 
+  length()
 
 #Summary
-company.counts <- company.about$company_codes %>% map_dbl(.x = ., ~length(.x))
+company.counts <- dna.2.dt$company_codes_about %>% map_dbl(.x = ., ~length(.x))
 company.counts %>% summary()
 
 #Histogram
@@ -271,11 +275,11 @@ tibble(company.counts = company.counts) %>%
   xlim(0, 10)
 
 #Top 10
-data.table(company = company.about %>%
+data.table(company = dna.2.dt$company_codes_about %>%
              unlist() %>%
              table() %>% 
              names(),
-           counts = company.about %>%
+           counts = dna.2.dt$company_codes_about %>%
              unlist() %>%
              table() %>% 
              as.numeric()) %>%
@@ -319,19 +323,22 @@ map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is
   round(4)
 ```
 
-The data suggest that `r map_lgl(.x = company.about$company_codes_about, is_empty) %>% sum()` "Company Codes About" are missing, or roughly `r map_lgl(company.about$company_codes_about, is_empty) %>% mean() %>% round(4)` proportion of the data; while for companies `r map_lgl(.x = company$company_codes, is_empty) %>% sum()` are empty, comprising roughly `r map_lgl(company$company_codes, is_empty) %>% mean() %>% round(4)` of these data. Considering the overlap between these two missing values, `r map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>% sum()` are missing both company and company about; comprising roughly `r map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>% mean() %>% round(4)` proportion of the data. Lastly, `r map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>% sum()` are missing either value, comprising `r map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>% mean() %>% round(4)` proportion of the data from `r year`. 
+The data suggest that `r map_lgl(.x = dna.2.dt$company_codes_about, is_empty) %>% sum()` "Company Codes About" are missing, or roughly `r map_lgl(dna.2.dt$company_codes_about, is_empty) %>% mean() %>% round(4)` proportion of the data; while for companies `r map_lgl(.x = dna.2.dt$company_codes, is_empty) %>% sum()` are empty, comprising roughly `r map_lgl(dna.2.dt$company_codes, is_empty) %>% mean() %>% round(4)` of these data. Considering the overlap between these two missing values, `r map2_lgl(.x = dna.2.dt$company_codes, .y = dna.2.dt$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>% sum()` are missing both company and company about; comprising roughly `r map2_lgl(.x = dna.2.dt$company_codes, .y = dna.2.dt$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>% mean() %>% round(4)` proportion of the data. Lastly, `r map2_lgl(.x = dna.2.dt$company_codes, .y = dna.2.dt$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>% sum()` are missing either value, comprising `r map2_lgl(.x = dna.2.dt$company_codes, .y = dna.2.dt$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>% mean() %>% round(4)` proportion of the data from `r year`. 
 
 
 ####Locate and Filter Company (FDA, SEC, NASDAQ)
 
 ```{r}
 #Filtered df by company != FDA, SEC, or NASDAQ
-dna.2.dt <- dna.2.dt %>%
+head(dna.2.dt$company_codes)
+head(dna.2.dt$company_codes_about)
+
+dna.3.dt <- dna.2.dt %>%
   dt_mutate(
-    company_codes = str_split(company_codes, ",") %>%
-      lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector
-    company_codes_about = str_split(company_codes_about, ",") %>%
-      lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector  
+ #   company_codes = str_split(company_codes, ",") %>%
+#      lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector
+#    company_codes_about = str_split(company_codes_about, ",") %>%
+#      lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector  
     filter_company = ifelse(map_lgl(.x = company_codes, ~length(.x) != 1),
                             FALSE,
                             map_lgl(.x = company_codes, ~str_detect(.x, "usfda|seexc|nasdaq") %>% any(isTRUE(.)))),
@@ -340,25 +347,26 @@ dna.2.dt <- dna.2.dt %>%
                                   map_lgl(.x = company_codes_about, ~str_detect(.x, "usfda|seexc|nasdaq") %>% any(isTRUE(.))))
   )
 
-#Number of Articles where only company is FDA, SEC, or NASDAQ
-dna.2.dt$filter_company %>% sum()
+head(dna.3.dt$company_codes)
+head(dna.3.dt$company_codes_about)
+head(dna.3.dt$filter_company)
+head(dna.3.dt$filter_company_about)
 
-#Number of Articles where only company about is FDA, SEC, or NASDAQ
-dna.2.dt$filter_company_about %>% sum()
+#Count how many have only fda, sec, nasdaq in company, company about, or either.
+dna.3.dt$filter_company %>% sum()
+dna.3.dt$filter_company_about %>% sum()
+(dna.3.dt$filter_company | dna.3.dt$filter_company_about) %>% sum()
 
-#Number of Articles where only company or company about is FDA, SEC, or NASDAQ
-(dna.2.dt$filter_company | dna.2.dt$filter_company_about) %>% sum()
-
-#Filter by company or company_about only containing FDA, SEC, NASDAQ
-dna.3.dt <- dna.2.dt %>%
+#Filter out either variable
+dna.3.dt <- dna.3.dt %>%
   dt_mutate(
-    company_or_filter = filter_company | filter_company_about
+    filter_either = dna.3.dt$filter_company | dna.3.dt$filter_company_about
   ) %>%
-  dt_filter(company_or_filter != TRUE) %>%
-  dt_select(-c(filter_company, filter_company_about, company_or_filter))
+  dt_filter(filter_either != TRUE) %>%
+  dt_select(-c(filter_company, filter_company_about, filter_either))
 ```
 
-The data gives that `r dna.2.dt$filter_company %>% sum()` of the articles have the only company listed as FDA, SEC, or NASDAQ; `r dna.2.dt$filter_company_about %>% sum()` of the articles have the only company about listed as FDA, SEC, or NASDAQ; and `r dna.3.dt$company_or_filter %>% sum()` have either the only company or company about listed as one of FDA, SEC, or NASDAQ. After filtering by the "OR" statement, we obtain a new, reduced data set of dimension `r paste0(dim(dna.3.dt), collapse = " x ")`. 
+ 
 
 
 ####Subject Code Filtering
@@ -371,15 +379,22 @@ gc()
 #Number of Unique Subject codes
 dna.3.dt <- dna.3.dt %>% 
   dt_mutate(
-    subject_codes = str_split(subject_codes, ", ") %>%
-      map(unlist)
+#    subject_codes = str_split(subject_codes, ", ") %>%
+#     map(unlist),
+    subject_codes = map(.x = subject_codes, ~ifelse(.x %in% "", character(0), .x))
   )
 
 #Number of Empty Subject Codes
-map_lgl(.x = dna.3.dt$subject_codes, ~(.x == "") %>% any(isTRUE(.))) %>% sum()
-map_lgl(company$subject_codes, is_empty) %>% mean()
+#map_lgl(.x = dna.3.dt$subject_codes, ~(.x == "") %>% any(isTRUE(.))) %>% sum()
+map_lgl(dna.3.dt$subject_codes, is.na) %>% sum()
+map_lgl(dna.3.dt$subject_codes, is.na) %>% mean()
 
-#dna.3.dt$subject_codes[[1]] == ""
+#Count Number of Certain Subj Codes
+
+
 
 #Finish subject codes and keyword filtering exploration
 ```
+
+
+
