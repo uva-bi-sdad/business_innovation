@@ -1,13 +1,13 @@
 ---
-title: "DNA Profile 2013"
+  title: "DNA Profile 2013"
 author: "DSPG Business Innovation Team"
 date: "7/3/2019"
 output:
   html_document: default
-  github_document: default
+github_document: default
 ---
-
-```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+  
+  ```{r setup, include=FALSE, message = FALSE, warning = FALSE}
 #Libraries
 library(jsonlite)
 library(tidyverse)
@@ -29,11 +29,11 @@ knitr::opts_knit$set(echo = TRUE,
 
 #Controlling figure output in markdown
 knitr::opts_chunk$set(
-#  fig.height =   
+  #  fig.height =   
   fig.width = 6,
-#  fig.asp = .5,
+  #  fig.asp = .5,
   out.width = "90%",
-#  out.height = 
+  #  out.height = 
   cache = TRUE
 )
 #Set Theme for ggplot2
@@ -45,7 +45,6 @@ options(scipen = 999999)
 
 ##1. Read Data  
 
-<<<<<<< HEAD
 Set year filter here.
 ```{r}
 year <- 2015
@@ -56,13 +55,6 @@ dna.dt <- read_rds(path) %>%
 
 This is the profiling for the year `r year`. 
 
-=======
-```{r}
-dna.dt <- read_rds("./data/working/DNA_Aggregated/dna_2015.RDS") %>%
-  as.data.table()
-```
-
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
 ##2. Profile
 
 Tidying the data.  
@@ -83,21 +75,14 @@ dna.dt %>%
 #Tidy for head screenshot
 dna.dt <- dna.dt %>%
   dplyr::select(c(an, title, body, publisher_name,
-            company_codes, subject_codes, everything()))
+                  company_codes, subject_codes, everything()))
 ```
 
 
-<<<<<<< HEAD
 Names of variables.  
 ```{r}
 #Variable Names
 names(dna.dt) %>% paste0(., collapse = ", ")
-=======
-Names of variables
-```{r}
-#Variable Names
-#names(dna.dt) %>% paste0(., collapse = ", ")
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
 plot_str(dna.dt)
 
 ```
@@ -106,10 +91,6 @@ plot_str(dna.dt)
 !["Head of DNA data 2015"](head_dna_2015.png)
 
 ```{r}
-<<<<<<< HEAD
-=======
-
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
 #Structure of Data
 str(dna.dt)
 
@@ -152,15 +133,12 @@ ggplot(dna.2.dt, aes(x = word_count)) +
   xlim(0, 5000)
 ```
 
-<<<<<<< HEAD
 ```{r include = FALSE, echo = FALSE}
 #Remove original data for memory storage
 remove(dna.dt)
 gc()
 ```
 
-=======
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
 
 ####Sources (of Publishers)
 
@@ -180,25 +158,25 @@ dna.2.dt$publisher_name %>% unique() %>% length()
 
 #Joining for unique data frame (writen out)
 asd <- left_join(asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
-  group_by(source_code) %>%
-  summarise(
-    count_source_code = n()
-  ), by = "source_code")
+                   group_by(source_code) %>%
+                   summarise(
+                     count_source_code = n()
+                   ), by = "source_code")
 
 asd <- left_join(
   asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
-  group_by(source_name) %>%
-  summarise(
-    count_source_name = n()
-  ), by = "source_name"
+    group_by(source_name) %>%
+    summarise(
+      count_source_name = n()
+    ), by = "source_name"
 )
 
 asd <- left_join(
   asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
-  group_by(publisher_name) %>%
-  summarise(
-    count_publisher_name = n()
-  ), by = "publisher_name"
+    group_by(publisher_name) %>%
+    summarise(
+      count_publisher_name = n()
+    ), by = "publisher_name"
 )
 
 #write_csv(unique(asd), "./data/working/DNA_Aggregated/unique_publisher_sources.csv")
@@ -206,15 +184,15 @@ asd <- left_join(
 #Top 10 Unique Names
 dna.2.dt %>%
   group_by(publisher_name) %>%
-   summarise(
+  summarise(
     Count = n()
   ) %>%
-    arrange(desc(Count)) %>%
+  arrange(desc(Count)) %>%
   dt_mutate(
     publisher_name = publisher_name %>% 
       as.factor() %>%
       forcats::fct_reorder(., Count)
-    ) %>% 
+  ) %>% 
   slice(1:10)
 
 ```
@@ -224,18 +202,14 @@ dna.2.dt %>%
 
 ####Company Names
 
-<<<<<<< HEAD
 Look at unique company names and the top 10 mentioned in these articles for `r year` (in combination with others).  
-=======
-Look at unique company names and the top 10 mentioned in these articles (in combination with others).  
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
 
 ```{r}
 #Str_split to get list of char vectors of region
 company <- dna.2.dt %>%
   dt_mutate(
     company_codes = str_split(company_codes, ",") %>%
-    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+      lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
   ) %>%
   dt_select(company_codes)
 
@@ -250,18 +224,18 @@ company.counts %>% summary()
 tibble(company.counts = company.counts) %>%
   ggplot(aes(x = company.counts)) +
   geom_histogram(fill = "purple") +
-# geom_density(fill = "purple", adjust = 5) +
+  # geom_density(fill = "purple", adjust = 5) +
   xlim(0, 10)
 
 #Top 10
 data.table(company = company %>%
-           unlist() %>%
-           table() %>% 
-           names(),
-counts = company %>%
-  unlist() %>%
-  table() %>% 
-  as.numeric()) %>%
+             unlist() %>%
+             table() %>% 
+             names(),
+           counts = company %>%
+             unlist() %>%
+             table() %>% 
+             as.numeric()) %>%
   dt_arrange(counts) %>%
   Rev(margin = 1) %>%
   slice(1:10)
@@ -271,63 +245,40 @@ counts = company %>%
 
 ####Company Names (About)
 
-<<<<<<< HEAD
 Look at unique company names (about) and the top 10 mentioned in these articles for `r year` (in combination with others).  
 
 ```{r}
 #Str_split to get list of char vectors of region
 company.about <- dna.2.dt %>%
-=======
-Look at unique company names and the top 10 mentioned in these articles (in combination with others).  
-
-```{r}
-#Str_split to get list of char vectors of region
-company <- dna.2.dt %>%
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
   dt_mutate(
     company_codes_about = str_split(company_codes_about, ",") %>%
-    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+      lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
   ) %>%
   dt_select(company_codes_about)
 
 #Unique 
-<<<<<<< HEAD
 company.about %>% unlist() %>% unique() %>% length()
 
 #Summary
 company.counts <- company.about$company_codes %>% map_dbl(.x = ., ~length(.x))
-=======
-company %>% unlist() %>% unique() %>% length()
-
-#Summary
-company.counts <- company$company_codes %>% map_dbl(.x = ., ~length(.x))
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
 company.counts %>% summary()
 
 #Histogram
 tibble(company.counts = company.counts) %>%
   ggplot(aes(x = company.counts)) +
   geom_histogram(fill = "purple") +
-# geom_density(fill = "purple", adjust = 5) +
+  # geom_density(fill = "purple", adjust = 5) +
   xlim(0, 10)
 
 #Top 10
-<<<<<<< HEAD
 data.table(company = company.about %>%
-           unlist() %>%
-           table() %>% 
-           names(),
-counts = company.about %>%
-=======
-data.table(company = company %>%
-           unlist() %>%
-           table() %>% 
-           names(),
-counts = company %>%
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
-  unlist() %>%
-  table() %>% 
-  as.numeric()) %>%
+             unlist() %>%
+             table() %>% 
+             names(),
+           counts = company.about %>%
+             unlist() %>%
+             table() %>% 
+             as.numeric()) %>%
   dt_arrange(counts) %>%
   Rev(margin = 1) %>%
   slice(1:10)
@@ -337,7 +288,6 @@ counts = company %>%
 
 #- Articles w/ no company codes 
 #- Count how many only fda, sec, and nasdaq (locate, filter)
-<<<<<<< HEAD
 #- Subject_code, new_product (investigate?) ns? C22 new product? CDNN innovation, cgvfil gov files?
 #- Filtering by keywords "in the text body" / subject code? 
 #- iterate "for all years"
@@ -379,16 +329,16 @@ The data suggest that `r map_lgl(.x = company.about$company_codes_about, is_empt
 dna.2.dt <- dna.2.dt %>%
   dt_mutate(
     company_codes = str_split(company_codes, ",") %>%
-    lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector
+      lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector
     company_codes_about = str_split(company_codes_about, ",") %>%
-    lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector  
+      lapply(., function(x) {x[c(-1, -length(x))]}),    #storing subj codes as nested list of char vector  
     filter_company = ifelse(map_lgl(.x = company_codes, ~length(.x) != 1),
                             FALSE,
-      map_lgl(.x = company_codes, ~str_detect(.x, "usfda|seexc|nasdaq") %>% any(isTRUE(.)))),
+                            map_lgl(.x = company_codes, ~str_detect(.x, "usfda|seexc|nasdaq") %>% any(isTRUE(.)))),
     filter_company_about = ifelse(map_lgl(.x = company_codes_about, ~length(.x) != 1),
-                            FALSE,
-      map_lgl(.x = company_codes_about, ~str_detect(.x, "usfda|seexc|nasdaq") %>% any(isTRUE(.))))
-    )
+                                  FALSE,
+                                  map_lgl(.x = company_codes_about, ~str_detect(.x, "usfda|seexc|nasdaq") %>% any(isTRUE(.))))
+  )
 
 #Number of Articles where only company is FDA, SEC, or NASDAQ
 dna.2.dt$filter_company %>% sum()
@@ -423,22 +373,13 @@ dna.3.dt <- dna.3.dt %>%
   dt_mutate(
     subject_codes = str_split(subject_codes, ", ") %>%
       map(unlist)
-    )
+  )
 
 #Number of Empty Subject Codes
 map_lgl(.x = dna.3.dt$subject_codes, ~(.x == "") %>% any(isTRUE(.))) %>% sum()
 map_lgl(company$subject_codes, is_empty) %>% mean()
 
-dna.3.dt$subject_codes[[1]] == ""
+#dna.3.dt$subject_codes[[1]] == ""
 
 #Finish subject codes and keyword filtering exploration
 ```
-=======
-#- Subject_code, new_product (investigate?)
-#- Filtering by keywords "in the text body" / subject code?
-#- iterate "for all years"
-```
-
-
-
->>>>>>> d2774d296e10ff1dde47362b8cf0cd1cdb00300f
