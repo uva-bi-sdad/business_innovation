@@ -1,10 +1,11 @@
 ---
-  title: "DNA Profile 2015"
-  author: "DSPG Business Innovation Team"
-  date: "7/9/2019"
-  output:
-    html_document: default
-    github_document: default
+title: "DNA Profile 2016"
+author: "DSPG Business Innovation Team"
+date: "7/9/2019"
+output:
+  html_document: default
+  pdf_document: default
+  github_document: default
 ---
   
 ```{r setup, include=FALSE, message = FALSE, warning = FALSE}
@@ -47,7 +48,7 @@ options(scipen = 999999)
 
 Set year filter here.
 ```{r}
-year <- 2015
+year <- 2016
 path <- sprintf("./data/working/DNA_Aggregated/dna_%s.RDS", year)
 dna.dt <- read_rds(path) %>%
   as.data.table()
