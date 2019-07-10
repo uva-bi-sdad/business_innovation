@@ -105,7 +105,7 @@ As it concerns the top unique company about's mentioned( (top 10):
 
 * ~75K codes about missing in 2013 to ~47K in 2016  
 
-* Missing codes about and codes are nearly identical in each year (suggesting poor articles?)  
+* Missing codes about and codes are nearly identical in each year (suggesting poor articles?) *REWORD*  
 
 #7. FDA, SEC, and NASDAQ Filtering  
 
@@ -138,5 +138,39 @@ As it concerns the top unique company about's mentioned( (top 10):
 #10. Post Filter  
 
 * Similar dimensions in 13, 14; fewer in 15, and obviously 16.
+
+#10. Notes for Later
+
+  
+* Combine this with 15 profile
+  
+* Cross reference unique company codes with company names  
+
+* Choose 15, integrate into this  
+
+* Stacked bar of source code, name, pub name discrepancy. (flip axis, look @ 50??) -- choose source_code
+
+* Histogram of Source_code counts, ordered high to low  
+
+* Source_codes unique? (unless missing)  
+
+* Look at 2015 Company_code 335 count max, valid?
+
+* Look at company_code_about 77 max  
+
+* Join Company Name to codes  
+
+* Create dictionary for code to name (company)  
+
+* Look at articles with no company_code_about (and company_code)  
+* Unique industry code counts distribution, names  
+
+* Pharma - Drugs vs. Med Devices ?
+
+* Re-run 2015 .html for subject codes  
+
+* Subject codes, CDINN - Best Articles??? Subset C22??? Too many SEC Filings, no bueno???  
+
+
 
 

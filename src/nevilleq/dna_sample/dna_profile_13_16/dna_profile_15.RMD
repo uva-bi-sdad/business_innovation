@@ -50,7 +50,10 @@ Set year filter here.
 year <- 2015
 path <- sprintf("./data/working/DNA_Aggregated/dna_%s.RDS", year)
 dna.dt <- read_rds(path) %>%
-  as.data.table()
+  as.data.table() #%>%
+#Filter whatever, SEC, cgvfi, etc.   
+
+#Re-run Doc.  
 ```
 
 This is the profiling for the year `r year`. 
@@ -108,7 +111,7 @@ percent.missing
 
 
 ####Word Count (Body of Text)
-Here, we filter out articles with body text less than 10 words in length, as this indicates is not a "true" article in the scope of our interest. For plotting, we trimmed at 5000 length word. The new data is renamed so the original is still available for later use.  
+Here, we filter out articles with body text less than 10 and more than 2000 words (95% Quantile of Distribution) in length, as this indicates is not a "true" article in the scope of our interest. For plotting, we trimmed at 5000 length word. The new data is renamed so the original is still available for later use.  
 
 
 ```{r warning = FALSE}
@@ -363,7 +366,7 @@ dna.3.dt <- dna.3.dt %>%
 
 ####Subject Code Filtering
 
-```{r include = FALSE, echo = FALSE, eval = FALSE}
+```{r}
 #Remove old data set
 remove(dna.2.dt)
 gc()
