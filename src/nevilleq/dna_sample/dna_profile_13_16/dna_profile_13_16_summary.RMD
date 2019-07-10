@@ -1,0 +1,176 @@
+---
+title: "DNA Profile Summary 13-16"
+author: "DSPG Business Innovation Team"
+date: "7/10/2019"
+output:
+  html_document: default
+  pdf_document: default
+  github_document: default
+---
+  
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(doParallel)
+library(foreach)
+library(parallel)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+##1. Observations
+  
+* 2013, 14, and 15 have roughly equal number of articles (360K, 360K, and 330K); while 2016 has fewer with 290K.  
+  
+* As for missing values, proportionally, 2015 has the most missing values, while 13, 14 are roughly equivalent and 16 has the fewest.  
+
+##2. Word Count
+
+After filtering the word count for those greater than 10 and less than 2000, all the medians for all years were very similar ~350-360.  
+
+* 2013 - Close to symmetric and center spread.  
+* 2014 - Less symmetric than 2013, spread increased.  
+* 2015 - Closer to symmetric and center spread than 2013
+* 2016 - Similar to 2014 but with higher variance (fewer obs.)  
+
+Shape of all distributions highly right skewed, poison-ish looking (counts) however slight bumps around 1500, 2000 for all years.  
+
+#3. Source code, name, and publisher
+  
+* Unique number of source code/names increases in time, sharpest increase between 14-15, all have far fewer unique publisher names. This discrepancy is most prominent in 2013, growing steadily less pronounced over time (i.e. more unqiue publisher names over time).  
+  
+* As for temporal trends of publisher names, NewsRX and Dow Jones dominate the top two consistently over time, however NewsRX alternates naming from NewsRX.com to NewsRX, LLC; split in 14 and 16, only .com in 13, only LLC in 16.  
+  
+* Other temporal trends are not particularly interesting, Thomson Reuter's enters the top 10 in 15-16, flyonthewall.com, Elsevier Science, Business Wire, and Athena Info Solutions are consistently top 10 throughought all years, others pop in and out.  
+
+#4. Company Codes  
+  
+* All years right skewed in number of unique names, this trend steadily increases in time (third quartile increases in time). Maximum number also increases in time, sharp increase in 2015. Median number increases in time as well.  
+  
+* Generally, an increase in number of unique company names in time as well as an increase in right skew (higher outlyingly high number). Easily visible in the histogram distributions.  
+  
+* SEC, FDA, NASDAQ after 2013, Pfizer, dominate the unique counts (generally in that order). Otherwise Glaxico SmithKline, Eli Lily, Bristol-Meyers Squibb are always prominent, as well as FFFAIM (?) and JONJON (?). Others like Bayer pop in and out.  
+
+#5. Company Codes About  
+
+*note that these are GENERALLY unique to each observation, i.e. only one per article*  
+
+* There is a steady decrease in the number of unique company about names over time.  
+  
+* Median number is one for all years (mean very close)  
+
+* Outlyingly high number of values decrease in time  
+
+* Fewer high values over time  
+
+As it concerns the top unique company about's mentioned( (top 10):  
+
+* FDA always top (though as we see later must rarely occur alone)  
+
+* SEC appears second only in 2013, disappears after  
+
+* Pfizer, Glaxico, Bristol-Meyers, Eli Lily still very prominent (also SCHPLO ?)  
+
+* Again, others pop in and out, most also appear prominently in company names  
+
+#6. Articles with no Company/Company About Codes  
+
+* Sharp decrease in the number of no codes and codes about over time  
+
+* ~75K codes about missing in 2013 to ~47K in 2016  
+
+* Missing codes about and codes are nearly identical in each year (suggesting poor articles?) *REWORD*  
+
+#7. FDA, SEC, and NASDAQ Filtering  
+
+* ~1400 in 13, 16; ~2000 in 14, 15 company codes
+
+* Steady number of company about ~4500 - 4900, except in 14 ~3700  
+
+* All together filtering out either/or (company | company_about), leads to a steady increase in time of 5200 - 6300 filtered articles  
+
+#8. Industry Codes  
+
+* None missing any years  
+
+* Always i951 (?), i257 (Pharma), i372 (Med Device) at top of unique counts  
+
+* i2569, idrugty, iphmed, ibioph, itheradv, ifinal, show up a lot too  
+
+* Fewer Device than Pharma articles, roughly half as many with a decrease over time.  
+
+* Decrease in number of Pharma articles over time 240K in 2013 to 200K in 2016  
+
+#9. Filtering Out FDA Related Source Codes  
+
+*note - these include different known types of FDA publications*  
+
+* 100% increase in the number of these published articles over time (1200 - 2400)  
+
+* Filter by body keywords????
+
+#10. Post Filter  
+
+* Similar dimensions in 13, 14; fewer in 15, and obviously 16.
+
+#10. Notes for Later
+
+  
+* Combine this with 15 profile
+  
+* Cross reference unique company codes with company names  
+
+* Choose 15, integrate into this  
+
+* Stacked bar of source code, name, pub name discrepancy. (flip axis, look @ 50??) -- choose source_code
+
+* Histogram of Source_code counts, ordered high to low  
+
+* Source_codes unique? (unless missing)  
+
+* Look at 2015 Company_code 335 count max, valid?
+
+* Look at company_code_about 77 max  
+
+* Join Company Name to codes  
+
+* Create dictionary for code to name (company)  
+
+* Look at articles with no company_code_about (and company_code)  
+* Unique industry code counts distribution, names  
+
+* Pharma - Drugs vs. Med Devices ?
+
+* Re-run 2015 .html for subject codes  
+
+* Subject codes, CDINN - Best Articles??? Subset C22??? Too many SEC Filings, no bueno???  
+
+
+
+
