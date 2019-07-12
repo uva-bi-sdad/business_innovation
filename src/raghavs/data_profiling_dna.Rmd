@@ -1,0 +1,158 @@
+---
+title: "DNA Sample"
+author: "Raghav Sawhney"
+date: "6/20/2019"
+output:
+  html_document: default
+  github_document: default
+---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+
+
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(doParallel)
+library(foreach)
+library(parallel)
+library(maditr)
+library(DataExplorer)
+library(DataExplorer)
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+#  fig.height =   
+  fig.width = 6,
+#  fig.asp = .5,
+  out.width = "90%",
+#  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+
+
+#1. Load DNA Data, Initial Clean
+
+```{r warning = FALSE}
+#Unzip and read all three files into a nested tibble
+zipfiles <- list.files(path = "./data/original/DNA-Extract/Aggregated-Data") %>%
+  as_tibble() %>%
+  rename(data_zip_path = value) %>%
+  mutate(
+    data_zip_path = str_c("./data/original/DNA-Extract/Aggregated-Data/", data_zip_path),
+    input_files = map(.x = data_zip_path, ~gzfile(.x) %>% fromJSON())
+  )
+
+#Unnest and clean unnecessary variables (i.e. almost all missing)
+dna.dt <- zipfiles %>%
+  unnest() %>%
+  as.data.table() %>%
+  dt_select(-c(data_zip_path, section)) #Section does not appear in the code book (DNA Snapshot)
+
+#Missingness
+percent.missing <- dna.dt %>%
+  is.na.data.frame() %>%
+  apply(., 2, mean) %>%
+  round(3) #Percentage of missing in each variable
+  
+#Remove Dateline for 99% missing
+dna.dt <- dna.dt %>%
+  dt_select(-dateline)
+
+#str(dna.dt)
+#distinct(dna.dt$source_name)
+
+
+
+```
+After unzipping, reading, and initially cleaning the data, we obtained the entire DNA data set describing `r nrow(dna.dt)` observations in `r ncol(dna.dt)` variables: `r str_c(names(dna.dt), collapse = ", ")`. The section and dateline variables were removed due to missingness from codebook and `r percent.missing["dateline"] * 100`% missing data, respectively. Further, all variables were initially read in as character vectors.  
+
+#2. Variable Mutation
+
+```{r}
+dna.dt <- dna.dt %>%
+  dt_mutate(
+    subject_codes = str_split(subject_codes, ",") %>%
+    lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  )
+
+#head(dna.dt)
+#glimpse(dna.dt)
+#plot(dna.dt$document_type)
+```
+
+#3. Data Profiling  
+
+```{r}
+#Raghav
+
+library(DataExplorer)
+
+# Visualizing structure for all variables in our dataset
+plot_str(dna.dt)
+
+# Data summary and introduction
+summary(dna.dt)
+introduce(dna.dt)
+
+# Plotting the intro
+plot_intro(dna.dt)
+
+# Plotting missing data
+plot_missing(dna.dt)
+
+# We can only plot discrete variables
+#plot_bar(dna.dt$subject_codes)
+#plot_bar(dna.dt$)
+
+```
+
+#4. Investigation for Sampling  
+
+##i. Subject Codes  
+```{r}
+
+# Subsetting data for 2016
+newdates_2016 <- dna.dt[ which(dna.dt$publication_date > 1451606400
+& dna.dt$publication_date < 1483142400 ), ]
+# Subsetting data for 2017
+newdates_2017 <- dna.dt[ which(dna.dt$publication_date > 1483228800
+& dna.dt$publication_date < 1514678400 ), ]
+# Subsetting data for 2018
+newdates_2018 <- dna.dt[ which(dna.dt$publication_date > 1514764800
+& dna.dt$publication_date < 1546214400), ]
+# Subsetting data for 2015
+newdates_2015 <- dna.dt[ which(dna.dt$publication_date > 1420070400
+& dna.dt$publication_date < 1451520000 ), ]
+# Subsetting data for 2014
+newdates_2014 <- dna.dt[ which(dna.dt$publication_date > 1388534400
+& dna.dt$publication_date < 1419984000), ]
+# Subsetting data for 2013
+newdates_2013 <- dna.dt[ which(dna.dt$publication_date > 1356998400
+& dna.dt$publication_date < 1388448000), ]
+
+
+
+```
+
+
+```{python}
+
+library(reticulate)
+
+virtualenv_create("r-reticulate")
+```
