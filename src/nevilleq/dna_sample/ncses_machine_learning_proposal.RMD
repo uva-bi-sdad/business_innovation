@@ -1,0 +1,27 @@
+---
+title: "Machine Learning Techniques"
+author: "DSPG Business Innovation Team"
+date: "7/15/2019"
+output:
+    html_document:   default
+    github_document: default
+    pdf_document:    default
+---
+
+Here, we present three proposed models for classfying these documents as indicating an innovation, as defined in OSLO ($2018$), or not. For all of these proposed models, we may extend the frameworks to include non-binary classification; such as a model to classify into ordinal categories "No Innovation", "Moderate Innovation", "High Impact Innovation"/"Disruptive Innovation", etc. Further, we explicate the general synopsis of how each model works, each model's strengths and weaknesses, and translate this into the context of our specific problem.  
+
+
+#1. Bag of Words (BoW)
+
+This type of model, used in both Image Classification and Natural Language Processing, is a relatively easy to implement and theoretically straight forward model. After removing stop words (things like "the", "and", "a", etc.), we first take the first article's text body. From their, we tokenize each individual word found in the document, such that if a word shows up twice, we associate a 2 count with that word. If it only showed up once, we give it a 1, and 0 if does not appear at all. We now have what's called a *bag of words*. This has reduced an article's text body in a matrix of individual word keys and their associated counts (a long vector of numbers). Then, we repeat this process for all documents in the data, combining these all together to get a large matrix with observations being key words and columns being the documents (or vice versa). We then perform one of a variaty of clustering algorithms, semi-supervised machine learning to utilize the underlying structure of the data to classify portions of it into groups ($2, 3, 4, ...$). These are then analyzed to decide which split is associated with your outcome of interest.  
+
+Moving away from the technical aspects, for our purposes, we are going to generate a DNA bag of words and cluster into two groups, one describing innovation and the other not. We can always extend this further to more ordered groups as mentioned above. The advantages of this model are that it is *relatively* easy computationally, interpretable in a sense (because it is semi-supervised), and can be repeated many times for validation of our results (sensitivity analysis, diagnostics, etc.). The main drawback is that since we are really just counting word frequency, this model does not take into account the order or relationship amongst/between words and sentences. This can be a really huge drawback if the key words describing innovation are actually longer phrases (words consistently occuring a specific order) rather than individual words.   
+
+
+#2. Support Vector Machines (SVM) 
+
+The underlying structure of support vector machines relies heavily on some very complicated multi-dimensional geometry, but at it's core it also utilizing the underlying structure of the data along with geometric distances between articles to predict a numeric or classification outcome. The difference between the BoW and SVM is mainly that Bow utilizes a semi-supervised structure while SVM is entirely supervised, relying on a specific outcome (innovation), rather than a cluster associated with innovation. The main advantage of this algorithm is accuracy, it well known to be very precise and robust between training (model building) and test (new, untouched) data. The biggest drawback is computational speed and memory, it is a very complicated and large process, requiring a long time for optimization and validation. So for larger data this can become very slow. Also this relies an an actual outcome, i.e. that innovation/no innovation has already been labeled for each article.  
+
+#3. Neural Nets  
+
+Much like SVM, Neural Nets also rely an a defined/labeled article (innovation/no innovation). However, unlike SVM which is precise but regidly defined geometrically, Neural Nets are extremely flexible and often useful when the data lacks a well defined structure. At their core, much like a brain, the generate a series of nodes and evaluate associated connections between words and articles, generating a web of associations which is very flexible and powerful. In our context, we have both unstructured data and data which is stratified in differently unstructured ways. The main advantage of these types of models is their flexibility, which may be very useful for our specific DNA data. The main drawback however, as usually comes with flexibility, is that it can pick up words/phrases in the article that are actually unrelated to our outcome and we would be woefully unaware of this fact, do to the almost entirely unsupervised nature of Neural Nets. This means that we give the algorithm input articles and innovation outputs to build on, then new articles to predict the outcome of innovation, but it is generally impossible for us to know exactly how this is being done as we cannot view the whole network in its entirety or evaluate the associations it believes are meaningful. So while we may evaluate it for accuracy, we cannot generally tell if it is really working the way it should/the way we want it to.  
