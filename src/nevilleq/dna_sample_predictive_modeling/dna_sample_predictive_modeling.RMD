@@ -93,10 +93,10 @@ reducedWordCount = data.table(reducedWordCount, filterWordIndex = match(reducedW
 
 # Turn into a long format matrix
 
-dna.mat = matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
+dna.mat <- matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
 for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
-rownames(dna.mat) = paste0('doc', 1:nrow(dna.mat))
-colnames(dna.mat) = unique(reducedWordCount$word)
+rownames(dna.mat) <- paste0('doc', 1:nrow(dna.mat))
+colnames(dna.mat) <- unique(reducedWordCount$word)
 ```
 
 
@@ -107,13 +107,104 @@ set.seed(2019)
 sample <- sample(1:nrow(dna.mat), 
                  (nrow(dna.mat) * .80) %>% ceiling(), replace = FALSE)
 
-train.df <- dna.mat[sample,  ]
-test.df  <- dna.mat[-sample, ]
+train.df      <- dna.mat[sample,  ]
+train.product <- new.product[sample] %>% as.factor()
+test.df       <- dna.mat[-sample, ]
+test.product  <- new.product[-sample] %>% as.factor()
 ```
 
 ##1. Trees and Forests
 
 ```{r tree}
+#Mixed alpha penalized reg.
+glm.mod <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "glmnet", 
+                   trControl = trainControl(method = "cv", number = 10))
 
+#Random forest w optimized mtry
+random.rf <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "rf", distribution = "bernoulli")
+
+#Boosting trees
+random.gmb <- train(train.product ~ ., data = data.frame(train.product, train.df), distribution = "bernoulli", method = "gbm")
+
+#Fixed/Default Sigmoid SVM
+default.svm <- train(train.product ~ ., data = data.frame(train.product, train.df), distribution = "bernoulli", method = "svmSigmoid")
+
+#Modlist Accuracy
+mod.list  <- list(glm.mod, random.rf, random.gmb, default.svm)
+pred.list <- map(mod.list, ~predict(.x, newdata = data.frame(test.product, test.df), type = "prob"))
+accuracy  <- map_dbl(pred.list, ~ (.x == test.product))
+model     <- c("Penalized Regression", "Random Forest", "Boosting", "Default SVM")
+
+#Visualize Accuracy in Table
+data.frame(Accuracy = accuracy, Model = model) %>%
+  knitr::kable(digits = 4)
+```
+
+#3. Visualize Preliminary Results
+```{r}
+glm.preds <- predict(glm.mod, newdata = data.frame(test.product, test.df))
+glm.accuracy <- (glm.preds == test.product) %>% mean()
+
+Roc.Log <- function(result,preds){
+  probs <- seq(0,1,by=0.005)
+  roc.log <- matrix(0,nrow=length(probs),ncol=2)
+ # result <- ifelse(result == "M", TRUE, FALSE)
+  i <- 1
+  for(p in probs){
+    pred <- preds > p
+    ##False positive rate
+    false.pos <- sum(!result & pred)/sum(!result)
+    ##True postive rate
+    true.pos <- sum(result & pred)/sum(result)
+    roc.log[i,] <- c(false.pos,true.pos)
+    i <- i+1
+  }
+  return(roc.log)
+}
+
+plotRoc <- function(roc.log,charstring){
+  data.frame(FP =rev(roc.log[,1]),TP=rev(roc.log[,2])) %>% 
+    ggplot()+
+    geom_point(aes(FP,TP),color="red",size=.5) +
+    geom_line(aes(FP,TP),color="blue") +
+    geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
+    labs(
+      x = "False Positive",
+      y = "True Positive",
+      title = paste0("ROC for New Product,", charstring)
+    )
+}
+auc <- function(roc){
+  len <- nrow(roc)
+  ##The "delta X" values
+  delta <- roc[-1,1]-roc[-len,1]
+  ##The "heights" the rectangle (drop the first or last).
+  hgt <- roc[-1,2]
+  ##The Riemann Sum
+  sum(-delta*hgt)
+}
+
+result  <- test.product %>% as.logical()
+preds   <- predict(glm.mod, newdata = data.frame(test.product, test.df), type = "prob")[,2]
+roc.log <- Roc.Log(result, preds)
+glm.test.roc <- plotRoc(roc.log, sprintf("Penalized GLM, AUC = %f", auc(roc.log) %>% round(3)))
+
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/glm_test_roc.jpg", glm.test.roc)
+```
+
+
+#4. Visualize All Models
+
+```{r}
+#Result
+result  <- test.product %>% as.logical()
+
+#Viz Function
+visualize.roc <- function(model) {
+  preds   <- predict(glm.mod, newdata = data.frame(test.product, test.df), type = "prob")[,2]
+  roc.log <- Roc.Log(result, preds)
+  glm.test.roc <- plotRoc(roc.log, sprintf("Penalized GLM, AUC = %f", auc(roc.log) %>% round(3)))
+  ggsave("./src/nevilleq/dna_sample_predictive_modeling/glm_test_roc.jpg", glm.test.roc)
+}
 
 ```
