@@ -465,5 +465,46 @@ dna.3.dt <- dna.3.dt %>%
 #Dimension
 dim(dna.3.dt)
 #Summary of final data
-str(dna.3.dt)
+#str(dna.3.dt)
+```
+
+
+####Subset Non-SEC for NS Subject Code Test Prediction
+
+```{r}
+#Filter out SEC Filing Subject Codes and Empty Body
+dna.3.dt <- dna.3.dt %>%
+  dt_mutate(
+    subject_codes_sec_filter = map_lgl(.x = subject_codes_split, ~ c("cgvfil") %in% .x),
+    subject_code_ns          = map_lgl(.x = subject_codes_split, ~ c("c22") %in% .x)
+  ) %>% 
+  dt_filter(subject_codes_sec_filter == FALSE)  %>%
+  slice(-c(which(dna.3.dt$body %>% is.na())))
+
+#New Number of Obs
+nrow(dna.3.dt)
+
+#Take Random Stratified Sample of 50/50 NS/Not NS
+#Size
+N <- 1000
+n <- N/2 %>% ceiling()
+
+#Sample
+set.seed(2019)
+sample <- c(sample(which(dna.3.dt$subject_code_ns == TRUE), n),
+            sample(which(dna.3.dt$subject_code_ns == FALSE), n)
+            )
+
+#Slice and Remove extra variables
+sample.dt <- dna.3.dt %>%
+  mutate(subject_codes = subject_codes_split) %>%
+  dt_select(-c(industry_codes_empty, subject_codes_split, subject_codes_sec_filter)) %>%
+  slice(sample)
+
+#Write out RDS
+write_rds(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS")
+
+#Mutate and write out json
+write_json(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.json")
+a <- read_json("./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.json")
 ```
