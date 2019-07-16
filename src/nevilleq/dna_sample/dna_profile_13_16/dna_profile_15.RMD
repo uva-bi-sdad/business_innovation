@@ -502,9 +502,9 @@ sample.dt <- dna.3.dt %>%
   slice(sample)
 
 #Write out RDS
-write_rds(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS")
+#write_rds(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS")
 
 #Mutate and write out json
-write_json(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.json")
-a <- read_json("./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.json")
+#write_json(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.json")
+#a <- read_json("./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.json")
 ```

@@ -1,0 +1,41 @@
+---
+title: "DNA Sample NS Prediction"
+author: "DSPG Business Innovation Team"
+date: "7/15/2019"
+  output:
+    html_document: default
+    github_document: default
+---
+  
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+library(caret)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
