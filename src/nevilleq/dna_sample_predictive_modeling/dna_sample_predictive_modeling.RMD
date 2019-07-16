@@ -39,3 +39,25 @@ theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.posi
 #Set Scientific notation output for knitr
 options(scipen = 999999)
 ```
+
+##1. Read and Split Sample
+
+```{r}
+dna.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS")
+
+set.seed(2019)
+sample <- sample(1:nrow(dna.df), 
+                 (nrow(dna.df) * .80) %>% ceiling(), replace = FALSE)
+
+train.df <- dna.df %>%
+  slice(sample)
+
+test.df  <- dna.df %>%
+  slice(-sample)
+```
+
+##1. Trees and Forests
+
+```{r}
+
+```
