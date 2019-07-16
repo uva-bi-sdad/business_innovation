@@ -20,6 +20,7 @@ library(DataExplorer)
 library(Hmisc)
 library(DescTools)
 library(caret)
+library(tm)
 
 #Setting root directory
 knitr::opts_knit$set(echo = TRUE,
@@ -42,22 +43,77 @@ options(scipen = 999999)
 
 ##1. Read and Split Sample
 
+
+Read, clean, and tidy; just like it's Sunday.  
+
 ```{r}
-dna.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS")
+#Read in the data
+dna.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS") %>%
+  slice(-c(which(body == "")))
 
+#Transfrom Body Text into a corpus and clean
+dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
+  tm_map(content_transformer(tolower)) %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(removeWords, c("the", "and", stopwords("english"))) %>%
+  tm_map(stripWhitespace)
+
+#Document Term Matrix
+dna.dtm.df = DocumentTermMatrix(dna.corpus)
+#dna.dtm.df = docTfidf
+str(dna.dtm.df)
+
+#Outcome
+new.product <- dna.df$subject_code_ns
+
+#Add Outcome to Document Matrix
+dna.doc.dt = data.table(doc = docDTM$i, word = docDTM$dimnames$Terms[docDTM$j], count = docDTM$v) %>%
+  merge(data.table(doc = seq_along(new.product), new_product = new.product))
+
+
+# This gives how many words appear a given number of times in total
+wordTable <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
+table(wordTable$count)
+#18722 - sum(table(wordTable$count)[1:20])
+
+# We require a word to appear at least this many times to be included in the analysis
+minWordCountThreshold <- 40
+
+survivorWords <- wordTable[count >= minWordCountThreshold, word]
+
+# Now we look at words broken out by topic
+
+reducedWordCount = dna.doc.dt[word %in% survivorWords]
+reducedWordCount = data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
+
+#
+#reducedWordCount = data.table(dna.doc.dt, filterWordIndex = match(dna.doc.dt$word, unique(dna.doc.dt$word)))
+#
+
+# Turn into a long format matrix
+
+dna.mat = matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
+for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
+rownames(dna.mat) = paste0('doc', 1:nrow(dna.mat))
+colnames(dna.mat) = unique(reducedWordCount$word)
+```
+
+
+Split Test/Train 80/20.  
+
+```{r test_train}
 set.seed(2019)
-sample <- sample(1:nrow(dna.df), 
-                 (nrow(dna.df) * .80) %>% ceiling(), replace = FALSE)
+sample <- sample(1:nrow(dna.mat), 
+                 (nrow(dna.mat) * .80) %>% ceiling(), replace = FALSE)
 
-train.df <- dna.df %>%
-  slice(sample)
-
-test.df  <- dna.df %>%
-  slice(-sample)
+train.df <- dna.mat[sample,  ]
+test.df  <- dna.mat[-sample, ]
 ```
 
 ##1. Trees and Forests
 
-```{r}
+```{r tree}
+
 
 ```
