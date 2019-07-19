@@ -155,7 +155,7 @@ glm.preds <- predict(glm.mod, newdata = data.frame(test.product, test.df))
 glm.accuracy <- (glm.preds == test.product) %>% mean()
 
 Roc.Log <- function(result,preds){
-  probs <- seq(0,1,by=0.001)
+  probs <- seq(0,1,by=0.01)
   roc.log <- matrix(0,nrow=length(probs),ncol=2)
  # result <- ifelse(result == "M", TRUE, FALSE)
   i <- 1
@@ -233,10 +233,14 @@ mod.list  <- list(glm.mod, random.rf, random.gmb, default.svm)
 pred.list <- map(mod.list, ~predict(.x, newdata = data.frame(test.product, test.df)))
 accuracy  <- map_dbl(pred.list, ~ (.x == test.product) %>% mean())
 model     <- c("Penalized Regression", "Random Forest", "Boosting", "Default SVM")
+```
 
+
+```{r}
 #Visualize Accuracy in Table
 data.frame(Accuracy = accuracy, Model = model) %>%
   knitr::kable(digits = 4)
+
 ```
 
 
@@ -254,6 +258,12 @@ ggplot <- (plot.list[[1]] + plot.list[[2]]) / plot.list[[3]]
 ggplot
 ggsave("./src/nevilleq/dna_sample_predictive_modeling/all_test_test_roc.jpg", ggplot)
 
+
+###NOTES
+##Edit and send off those two white papers for Gary
+###Interpretation of model, within context of problem --- Overleaf - outline
+#SEC algorithm to extract company name and product ---- compare to FDA ###
+#Curves, table, word cloud, example of true/false positve
 ```
 
 #3. Visualize Preliminary Results

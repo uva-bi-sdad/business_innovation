@@ -287,6 +287,19 @@ ggsave("./src/nevilleq/dna_sample_predictive_modeling/all_test_roc.jpg", ggplot)
 --------------
 
 ``` r
+#Visualize Accuracy in Table
+data.frame(Accuracy = accuracy, Model = model) %>%
+  knitr::kable(digits = 4)
+```
+
+|  Accuracy| Model                |
+|---------:|:---------------------|
+|    0.7487| Penalized Regression |
+|    0.7035| Random Forest        |
+|    0.7136| Boosting             |
+|    0.6432| Default SVM          |
+
+``` r
 pred.list <- map(mod.list[-4], ~predict(.x, newdata = data.frame(test.product, test.df), type = "prob")[,2])
 
 
@@ -300,7 +313,7 @@ ggplot <- (plot.list[[1]] + plot.list[[2]]) / plot.list[[3]]
 ggplot
 ```
 
-<img src="dna_sample_predictive_modeling_files/figure-markdown_github/unnamed-chunk-4-1.png" width="90%" />
+<img src="dna_sample_predictive_modeling_files/figure-markdown_github/unnamed-chunk-5-1.png" width="90%" />
 
 ``` r
 ggsave("./src/nevilleq/dna_sample_predictive_modeling/all_test_test_roc.jpg", ggplot)
