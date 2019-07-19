@@ -1,5 +1,5 @@
 library(data.table)
-library(dplyr)
+library(tidyverse)
 library(tm)
 library(stringr)
 library(tree)
@@ -7,7 +7,7 @@ library(party)
 library(reshape2)
 library(ggplot2)
 library(rpart)
-docResultsFull = fread("./data/business_innovation/original/documenterResults/document_ratings_june13.csv")
+docResultsFull = fread("./data/original/documenterResults/document_ratings_june13.csv")
 
 # common words in product launch articles, 'new product' in launch articles
 # count by article type, where does the product appear, words common to launch/approval articles, is company in company column

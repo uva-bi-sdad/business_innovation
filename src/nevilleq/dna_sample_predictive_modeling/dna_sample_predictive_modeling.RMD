@@ -1,0 +1,271 @@
+---
+title: "DNA Sample NS Prediction"
+author: "DSPG Business Innovation Team"
+date: "7/15/2019"
+output:
+    github_document: default
+    html_document: default
+---
+  
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+library(caret)
+library(tm)
+library(e1071)
+library(patchwork)
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+##1. Read and Split Sample
+
+
+Read, clean, and tidy; just like it's Sunday.  
+
+```{r}
+#Read in the data
+dna.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS") %>%
+  slice(-c(which(body == "")))
+
+#Transfrom Body Text into a corpus and clean
+dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
+  tm_map(content_transformer(tolower)) %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(removeWords, c("the", "and", stopwords("english"))) %>%
+  tm_map(stripWhitespace)
+
+#Document Term Matrix
+dna.dtm.df = DocumentTermMatrix(dna.corpus)
+#dna.dtm.df = docTfidf
+str(dna.dtm.df)
+
+#Outcome
+new.product <- dna.df$subject_code_ns
+
+#Add Outcome to Document Matrix
+dna.doc.dt = data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
+  merge(data.table(doc = seq_along(new.product), new_product = new.product))
+
+
+# This gives how many words appear a given number of times in total
+wordTable <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
+table(wordTable$count)
+#18722 - sum(table(wordTable$count)[1:20])
+
+# We require a word to appear at least this many times to be included in the analysis
+minWordCountThreshold <- 40
+
+survivorWords <- wordTable[count >= minWordCountThreshold, word]
+
+# Now we look at words broken out by topic
+
+reducedWordCount = dna.doc.dt[word %in% survivorWords]
+reducedWordCount = data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
+
+#
+#reducedWordCount = data.table(dna.doc.dt, filterWordIndex = match(dna.doc.dt$word, unique(dna.doc.dt$word)))
+#
+
+# Turn into a long format matrix
+
+dna.mat <- matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
+for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
+rownames(dna.mat) <- paste0('doc', 1:nrow(dna.mat))
+colnames(dna.mat) <- unique(reducedWordCount$word)
+```
+
+
+Split Test/Train 80/20.  
+
+```{r test_train}
+set.seed(2019)
+sample <- sample(1:nrow(dna.mat), 
+                 (nrow(dna.mat) * .80) %>% ceiling(), replace = FALSE)
+
+train.df      <- dna.mat[sample,  ]
+train.product <- new.product[sample] %>% as.factor()
+test.df       <- dna.mat[-sample, ]
+test.product  <- new.product[-sample] %>% as.factor()
+```
+
+##1. Exploration
+
+```{r tree, message = FALSE, error = FALSE, warning = FALSE}
+#tree.grid <- expand.grid(mtry = nrow(train.df) %>% sqrt(), ntree = c(50, 100, 250)) %>% as.data.frame()
+
+#tree.grid <- expand.grid(mtry = seq(4,16,4), ntree = c(700, 1000,2000) )
+#Mixed alpha penalized reg.
+glm.mod <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "glmnet",
+                 family = "binomial", trControl = trainControl(method = "cv", number = 10))
+
+#Random forest w optimized mtry
+#random.rf <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "rf", family = "bernoulli",
+#                   trControl = trainControl(method = "cv", number = 5, n = 50, mtry = 5))
+
+random.rf <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "rf", family = "bernoulli",
+                  trControl = trainControl(method = "none"))
+
+#Boosting trees
+random.gmb <- train(train.product ~ ., data = data.frame(train.product, train.df), distribution = "bernoulli", method = "gbm", trControl = trainControl(method = "none"))
+
+#Fixed/Default Sigmoid SVM
+default.svm <- train(train.product ~ ., data = data.frame(train.product, train.df), distribution = "bernoulli", method = "svmLinear", trControl = trainControl(method = "none"))
+
+#Modlist Accuracy
+mod.list  <- list(glm.mod, random.rf, random.gmb, default.svm)
+pred.list <- map(mod.list, ~predict(.x, newdata = data.frame(test.product, test.df)))
+accuracy  <- map_dbl(pred.list, ~ (.x == test.product) %>% mean())
+model     <- c("Penalized Regression", "Random Forest", "Boosting", "Default SVM")
+
+#Visualize Accuracy in Table
+data.frame(Accuracy = accuracy, Model = model) %>%
+  knitr::kable(digits = 4)
+```
+
+#3. Visualize Preliminary Results
+```{r}
+pred.list <- map(mod.list[-4], ~predict(.x, newdata = data.frame(test.product, test.df), type = "prob")[,2])
+glm.preds <- predict(glm.mod, newdata = data.frame(test.product, test.df))
+glm.accuracy <- (glm.preds == test.product) %>% mean()
+
+Roc.Log <- function(result,preds){
+  probs <- seq(0,1,by=0.01)
+  roc.log <- matrix(0,nrow=length(probs),ncol=2)
+ # result <- ifelse(result == "M", TRUE, FALSE)
+  i <- 1
+  for(p in probs){
+    pred <- preds > p
+    ##False positive rate
+    false.pos <- sum(!result & pred)/sum(!result)
+    ##True postive rate
+    true.pos <- sum(result & pred)/sum(result)
+    roc.log[i,] <- c(false.pos,true.pos)
+    i <- i+1
+  }
+  return(roc.log)
+}
+
+plotRoc <- function(roc.log,charstring){
+  data.frame(FP =rev(roc.log[,1]),TP=rev(roc.log[,2])) %>% 
+    ggplot()+
+    geom_point(aes(FP,TP),color="red",size=.5) +
+    geom_line(aes(FP,TP),color="blue") +
+    geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
+    labs(
+      x = "False Positive",
+      y = "True Positive",
+      title = charstring
+    )
+}
+auc <- function(roc){
+  len <- nrow(roc)
+  ##The "delta X" values
+  delta <- roc[-1,1]-roc[-len,1]
+  ##The "heights" the rectangle (drop the first or last).
+  hgt <- roc[-1,2]
+  ##The Riemann Sum
+  sum(-delta*hgt)
+}
+
+
+#Visualize ROC w/AUC
+result  <- test.product %>% as.logical()
+roc.list <- map(.x = pred.list, ~Roc.Log(result, .x))
+names <- c("Penalized GLM", "Random Forest", "Boosting")
+plot.list <- map2(.x = roc.list, .y = names, ~plotRoc(.x, sprintf("%s | AUC: %s Percent", .y, auc(.x) %>% round(4)*100)))
+
+ggplot <- (plot.list[[1]] + plot.list[[2]]) / plot.list[[3]]
+ggplot
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/all_test_roc.jpg", ggplot)
+```
+
+##3. Tune Models
+
+```{r include = FALSE, error = FALSE, message = FALSE, warning = FALSE}
+#tree.grid <- expand.grid(mtry = nrow(train.df) %>% sqrt(), ntree = c(50, 100, 250)) %>% as.data.frame()
+
+#tree.grid <- expand.grid(mtry = seq(4,16,4), ntree = c(700, 1000,2000) )
+#Mixed alpha penalized reg.
+glm.mod <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "glmnet",
+                 family = "binomial", trControl = trainControl(method = "cv", number = 10))
+
+#Random forest w optimized mtry
+#random.rf <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "rf", family = "bernoulli",
+#                   trControl = trainControl(method = "cv", number = 5, n = 50, mtry = 5))
+
+random.rf <- train(train.product ~ ., data = data.frame(train.product, train.df), method = "rf", family = "bernoulli",
+                  trControl = trainControl(method = "cv", number = 5))
+
+#Boosting trees
+random.gmb <- train(train.product ~ ., data = data.frame(train.product, train.df), distribution = "bernoulli", method = "gbm", trControl = trainControl(method = "cv", number = 5))
+
+#Fixed/Default Sigmoid SVM
+default.svm <- train(train.product ~ ., data = data.frame(train.product, train.df), distribution = "bernoulli", method = "svmLinear", trControl = trainControl(method = "cv", number = 5))
+
+#Modlist Accuracy
+mod.list  <- list(glm.mod, random.rf, random.gmb, default.svm)
+pred.list <- map(mod.list, ~predict(.x, newdata = data.frame(test.product, test.df)))
+accuracy  <- map_dbl(pred.list, ~ (.x == test.product) %>% mean())
+model     <- c("Penalized Regression", "Random Forest", "Boosting", "Default SVM")
+```
+
+
+```{r}
+#Visualize Accuracy in Table
+data.frame(Accuracy = accuracy, Model = model) %>%
+  knitr::kable(digits = 4)
+
+```
+
+
+```{r}
+pred.list <- map(mod.list[-4], ~predict(.x, newdata = data.frame(test.product, test.df), type = "prob")[,2])
+
+
+#Visualize ROC w/AUC
+result  <- test.product %>% as.logical()
+roc.list <- map(.x = pred.list, ~Roc.Log(result, .x))
+names <- c("Penalized GLM", "Random Forest", "Boosting")
+plot.list <- map2(.x = roc.list, .y = names, ~plotRoc(.x, sprintf("%s | AUC: %s Percent", .y, auc(.x) %>% round(4)*100)))
+
+ggplot <- (plot.list[[1]] + plot.list[[2]]) / plot.list[[3]]
+ggplot
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/all_test_test_roc.jpg", ggplot)
+
+
+###NOTES
+##Edit and send off those two white papers for Gary
+###Interpretation of model, within context of problem --- Overleaf - outline
+#SEC algorithm to extract company name and product ---- compare to FDA ###
+#Curves, table, word cloud, example of true/false positve
+```
+
+#3. Visualize Preliminary Results
+
+#4. Visualize All Models
