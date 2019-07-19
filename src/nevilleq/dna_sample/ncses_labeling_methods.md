@@ -49,6 +49,11 @@ Disadvantages:
 
 -   As an unsupervised method, also little to no information about the actually inner-workings of the model
 
+[Citation / Methodology]
+Train Once, Test Anywhere: Zero-shot Learning For Text Classification
+https://arxiv.org/pdf/1712.05972.pdf
+
+
 ### b. Outsourcing Automated Labels
 
 ##### Proprietary Software
