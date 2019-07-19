@@ -198,7 +198,7 @@ auc <- function(roc){
 result  <- test.product %>% as.logical()
 roc.list <- map(.x = pred.list, ~Roc.Log(result, .x))
 names <- c("Penalized GLM", "Random Forest", "Boosting")
-plot.list <- map2(.x = roc.list, .y = names, ~plotRoc(.x, sprintf("%s | AUC: %s Percent", .y, auc(.x) %>% round(4)*100)))
+plot.list <- map2(.x = roc.list, .y = names, ~plotRoc(.x, sprintf("%s | AUC: %s", .y, auc(.x) %>% round(4)*100)))
 
 ggplot <- (plot.list[[1]] + plot.list[[2]]) / plot.list[[3]]
 ggplot
@@ -252,7 +252,7 @@ pred.list <- map(mod.list[-4], ~predict(.x, newdata = data.frame(test.product, t
 result  <- test.product %>% as.logical()
 roc.list <- map(.x = pred.list, ~Roc.Log(result, .x))
 names <- c("Penalized GLM", "Random Forest", "Boosting")
-plot.list <- map2(.x = roc.list, .y = names, ~plotRoc(.x, sprintf("%s | AUC: %s Percent", .y, auc(.x) %>% round(4)*100)))
+plot.list <- map2(.x = roc.list, .y = names, ~plotRoc(.x, sprintf("%s | AUC: %s", .y, auc(.x) %>% round(4)*100)))
 
 ggplot <- (plot.list[[1]] + plot.list[[2]]) / plot.list[[3]]
 ggplot
@@ -264,6 +264,16 @@ ggsave("./src/nevilleq/dna_sample_predictive_modeling/all_test_test_roc.jpg", gg
 ###Interpretation of model, within context of problem --- Overleaf - outline
 #SEC algorithm to extract company name and product ---- compare to FDA ###
 #Curves, table, word cloud, example of true/false positve
+```
+
+Grab two example documents
+```{r}
+pred.list <-  map(mod.list[-4], ~predict(.x, newdata = data.frame(test.product, test.df)))
+which(test.product == FALSE & pred.list[[1]] == TRUE)
+sample[1]
+
+dna.df[sample[90],]$body
+dna.corpus[[sample[90]]]$content
 ```
 
 #3. Visualize Preliminary Results
