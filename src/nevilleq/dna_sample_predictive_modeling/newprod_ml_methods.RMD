@@ -59,59 +59,62 @@ dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
   tm_map(stripWhitespace)
 
 #Document Term Matrix
-dna.dtm.df = DocumentTermMatrix(dna.corpus)
-#dna.dtm.df = docTfidf
-str(dna.dtm.df)
+dna.dtm.df  <- DocumentTermMatrix(dna.corpus)
 
 #Outcome
 new.product <- dna.df$subject_code_ns
 
 #Add Outcome to Document Matrix
-dna.doc.dt = data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
+dna.doc.dt  <- data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
   merge(data.table(doc = seq_along(new.product), new_product = new.product))
 
 
 # This gives how many words appear a given number of times in total
-wordTable <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
+wordTable   <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
 
 # We require a word to appear at least this many times to be included in the analysis
 minWordCountThreshold <- min.threshold
-survivorWords <- wordTable[count >= minWordCountThreshold, word]
+survivorWords    <- wordTable[count >= minWordCountThreshold, word]
 
 # Now we look at words broken out by topic
-reducedWordCount = dna.doc.dt[word %in% survivorWords]
-reducedWordCount = data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
+reducedWordCount <- dna.doc.dt[word %in% survivorWords]
+reducedWordCount <- data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
 
 # Turn into a long format matrix
 dna.mat <- matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
 for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
+
+#Names
 rownames(dna.mat) <- paste0('doc', 1:nrow(dna.mat))
 colnames(dna.mat) <- unique(reducedWordCount$word)
 
-  return(dna.mat)
+  return(dna.mat %>% as_tibble())
 }
 ```
 
 
-```
-
-```{r}
+```{r read}
 #Store desired filepath
 file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
 
 #Test train sample
+train.split <- 80
 set.seed(2019)
-
+sample <- sample(1:1000, train.split, replace = FALSE)
 
 #Create tibble of each sample data identified by the variable 'sample', stored in the variable 'data'
 sample.df <- list.files(path = file.path) %>%
-  as_tibble() %>%
+  enframe() %>%
   rename(file_path = value) %>%
   mutate(
     sample      = str_split_fixed(file_path, "_", 5)[ ,4],
     file_path   = str_c(file.path, file_path),
     data        = map(.x = file_path, ~read_rds(.x) %>% as_tibble()),
-    train       = map(.xdata)
+    subject     = map(.x = data, ~.x %>% dplyr::select(subject_code_ns) %>% 
+                                  mutate(subject_code_ns = as.factor(subject_code_ns))),
+    data        = map2(.x = data, .y = subject, ~bind_cols(make_dtm(.x, 40)), .y),
+    train       = map(.x = data, ~.x %>% slice(sample)),
+    test        = map(.x = data, ~.x %>% slice(-sample))
   ) %>%
   dplyr::select(-file_path)
 
@@ -119,7 +122,6 @@ sample.df <- list.files(path = file.path) %>%
 
 
 
-```{r}
 ##2. Machine Learning Methods  
 
 ####a. Penalize Logistic Regression  
@@ -128,7 +130,8 @@ sample.df <- list.files(path = file.path) %>%
 sample.df <- sample.df %>%
   filter(sample == "half" | sample == "prop") %>%
   mutate(
-    glm = map(.x = data, ~)
+    glm = map(.x = data, ~train(train.product ~ ., data = data.frame(train.product, train.df), method = "glmnet",
+                 family = "binomial", trControl = trainControl(method = "cv", number = 10)))
   )
 
 
