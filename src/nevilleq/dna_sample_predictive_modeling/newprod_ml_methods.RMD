@@ -1,0 +1,135 @@
+---
+title: "New Product/Service ML Methods"
+author: "DSPG Business Innovation Team"
+date: "7/23/2019"
+output:
+    github_document: default
+    html_document: default
+---
+  
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+library(caret)
+library(tm)
+library(e1071)
+library(patchwork)
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+##1. Read in NPS Sample Data (50%, 20%, 10%, Proportional).  
+
+
+```{r dtm_function, echo = FALSE}
+#Function to transform data into Document Term Matrix
+make_dtm <- function(dna.df, min.threshold) { 
+
+###Transfrom Body Text into a corpus and clean
+dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
+  tm_map(content_transformer(tolower)) %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(removeWords, c("the", "and", stopwords("english"))) %>%
+  tm_map(stripWhitespace)
+
+#Document Term Matrix
+dna.dtm.df = DocumentTermMatrix(dna.corpus)
+#dna.dtm.df = docTfidf
+str(dna.dtm.df)
+
+#Outcome
+new.product <- dna.df$subject_code_ns
+
+#Add Outcome to Document Matrix
+dna.doc.dt = data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
+  merge(data.table(doc = seq_along(new.product), new_product = new.product))
+
+
+# This gives how many words appear a given number of times in total
+wordTable <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
+
+# We require a word to appear at least this many times to be included in the analysis
+minWordCountThreshold <- min.threshold
+survivorWords <- wordTable[count >= minWordCountThreshold, word]
+
+# Now we look at words broken out by topic
+reducedWordCount = dna.doc.dt[word %in% survivorWords]
+reducedWordCount = data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
+
+# Turn into a long format matrix
+dna.mat <- matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
+for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
+rownames(dna.mat) <- paste0('doc', 1:nrow(dna.mat))
+colnames(dna.mat) <- unique(reducedWordCount$word)
+
+  return(dna.mat)
+}
+```
+
+
+```
+
+```{r}
+#Store desired filepath
+file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
+
+#Test train sample
+set.seed(2019)
+
+
+#Create tibble of each sample data identified by the variable 'sample', stored in the variable 'data'
+sample.df <- list.files(path = file.path) %>%
+  as_tibble() %>%
+  rename(file_path = value) %>%
+  mutate(
+    sample      = str_split_fixed(file_path, "_", 5)[ ,4],
+    file_path   = str_c(file.path, file_path),
+    data        = map(.x = file_path, ~read_rds(.x) %>% as_tibble()),
+    train       = map(.xdata)
+  ) %>%
+  dplyr::select(-file_path)
+
+```
+
+
+
+```{r}
+##2. Machine Learning Methods  
+
+####a. Penalize Logistic Regression  
+
+```{r}
+sample.df <- sample.df %>%
+  filter(sample == "half" | sample == "prop") %>%
+  mutate(
+    glm = map(.x = data, ~)
+  )
+
+
+```
