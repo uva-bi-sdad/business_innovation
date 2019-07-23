@@ -340,10 +340,10 @@ plots <- gbm.df %>%
   mutate(
     roc     = map2(.x = test, .y = gbm_probs, ~roc.log(.x, .y)),
     roc_gg  = map2(.x = roc, .y  = c("Fifty-Fifty", "Proportional"), 
-                  ~plot.roc(.x, sprintf("GLM %s | AUC: %s", .y, auc(.x) %>% round(4)*100))),
+                  ~plot.roc(.x, sprintf("GBM %s | AUC: %s", .y, auc(.x) %>% round(4)*100))),
     cost    = map2(.x = test, .y = gbm_probs, ~cost.df(.x, .y)),
     cost_gg = map(.x = cost, .y = c("Fifty-Fifty", "Proportional"), 
-                  ~plot.cost(.x, paste("GLM", .y)))
+                  ~plot.cost(.x, paste("GBM", .y)))
   )
 
 #Store GG panels
