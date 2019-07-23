@@ -42,6 +42,9 @@ theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.posi
 options(scipen = 999999)
 ```
 
+##Introduction  
+
+This paper outlines the investigation, evaluation, and recomendation for building predictive models from a random sample of DNA (2015) articles
 
 ##1. Read in NPS Sample Data (50%, 20%, 10%, Proportional).  
 
@@ -93,7 +96,7 @@ colnames(dna.mat) <- unique(reducedWordCount$word)
 ```
 
 
-Here, we read in the data files each containing 1000 randomly sampled articles from DNA (2015); with 50%, 20%, 10%, and Proportional (to empirical distribution) describing articles coded as a New Product or Service and the remainder coming from elsewhere. The outcome of interest in our modeling is whether or not an article was labeled as a New Product or Service or not
+Here, we read in the data files each containing 1000 randomly sampled articles from DNA (2015); with 50%, 20%, 10%, and Proportional (to empirical distribution) describing articles coded as a New Product or Service and the remainder coming from elsewhere. The outcome of interest in our modeling is whether or not an article was labeled as a New Product or Service or not (supervised) or the seperation of article clusters into recognizable groups (N.P.S. or not, etc.).
 
 ```{r read, warning = FALSE, message = FALSE}
 #Store desired filepath
@@ -314,7 +317,7 @@ rf.cost
 
 
 ####c. Boosting (GBM Trees)  
-```{r boosting, fig.width = 8} 
+```{r boosting, warning = FALSE, message = FALSE, results = "hide"} 
 #Boosting (GBM Trees)
 gbm.df <- sample.df %>%
   filter(sample == "half" | sample == "prop") %>%
@@ -329,7 +332,9 @@ gbm.df <- sample.df %>%
     shrinkage = map_dbl(.x = gbm,  ~.x$bestTune[, 3]),
     n_bins    = map_dbl(.x = gbm,  ~.x$bestTune[, 4])
   )
+```
 
+```{r gbm_plots, fig.width = 8}
 #Check out best tuning parameters
 gbm.df %>%
   select(sample, n_trees, interaction_depth, shrinkage, n_bins) %>%
