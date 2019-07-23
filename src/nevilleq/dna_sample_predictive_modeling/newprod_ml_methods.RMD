@@ -157,6 +157,18 @@ sample.df <- list.files(path = file.path) %>%
     test        = map(.x = data, ~.x[setdiff(1:N, train.samp), ])
   ) %>%
   dplyr::select(-file_path)
+
+#Write out another split of size 500 @ 50/50
+export.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_half_sample.RDS")
+sampling  <- list(sample(1:500, 250, replace = FALSE), sample(1:500, 250, replace = FALSE))
+export.df <- bind_rows(export.df %>%
+                         filter(subject_code_ns == TRUE) %>%
+                         slice(sampling[[1]]),
+                       export.df %>%
+                         filter(subject_code_ns == FALSE) %>%
+                         slice(sampling[[2]]))
+#write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_500_sample.RDS")
+#write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_500_sample.json")
 ```
 
 
