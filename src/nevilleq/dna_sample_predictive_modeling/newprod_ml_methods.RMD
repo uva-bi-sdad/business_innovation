@@ -93,6 +93,8 @@ colnames(dna.mat) <- unique(reducedWordCount$word)
 ```
 
 
+Here, we read in the data files each containing 1000 randomly sampled articles from DNA (2015); with 50%, 20%, 10%, and Proportional (to empirical distribution) describing articles coded as a New Product or Service and the remainder coming from elsewhere. The outcome of interest in our modeling is whether or not an article was labeled as a New Product or Service or not
+
 ```{r read, warning = FALSE, message = FALSE}
 #Store desired filepath
 file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
@@ -126,12 +128,15 @@ sample.df <- list.files(path = file.path) %>%
 
 ##2. Machine Learning Methods  
 
-```{r diagnostic}
+We investigated a variety of machine learning methods, supervised and unsupervised, to explore the data and generate predictive models to classify an article from a given DNA (2015) random sample by New Product/Service outcome %; as a New Product/Service or not (binary). We will further assess these models according to diagnostics given by A
+
+###i. Supervised
+```{r diagnostic, echo = FALSE}
 #ROC
 roc.log <- function(test, preds){
   probs <- seq(0,1,by=0.01)
   roc.log <- matrix(0,nrow=length(probs),ncol=2)
-  result <- test$subject_code_ns
+  result <- test$subject_code_ns %>% as.logical()
   i <- 1
   for(p in probs){
     pred <- preds > p
@@ -150,7 +155,7 @@ plot.roc <- function(roc.log, charstring){
   data.frame(FP = rev(roc.log[ ,1]), TP=rev(roc.log[ ,2])) %>% 
     ggplot()+
     geom_point(aes(FP, TP), color="red", size=.5) +
-    geom_step(aes(FP, TP), color="blue") +
+    geom_line(aes(FP, TP), color="blue") +
     geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
     labs(
       x = "False Positive",
@@ -171,7 +176,7 @@ auc <- function(roc){
 }
 
 #Calculate Cost
-cost <- function(t, p){
+cost.func <- function(t, p){
     if(t & !p)
         return(2) #False positive weight
     if(!t & p)
@@ -183,13 +188,14 @@ cost <- function(t, p){
 
 #Cost.min 
 cost.df <- function(test, preds) {
-  probs <- seq(0,1,by=0.01)
-  cost  <- vector(mode = "numeric", length = length(probs))
+  probs  <- seq(0,1,by=0.01)
+  result <- test$subject_code_ns %>% as.logical()
+  cost   <- vector(mode = "numeric", length = length(probs))
   i <- 1
   for(p in probs){
     pred <- preds > p
-    frame <- with(test, cbind(test$subject_code_ns, pred))
-    cost[i] <- sum(apply(frame, 1, function(ls) cost(ls[1], ls[2])))
+  #  frame <- with(test, cbind(as.logical(subject_code_ns), pred))
+    cost[i] <- map2_dbl(.x = result, .y = pred, ~cost.func(.x, .y)) %>% sum()
     i <- i+1
   }
   return(tibble(probability = probs, cost = cost))
@@ -206,15 +212,19 @@ plot.cost <- function(cost.df, charstring) {
     labs(
       x = "Probability Threshold",
       y = "Cost",
-      title = sprintf("%s Cost: p = %d, cost = %d", charstring, cost.df$p[min.cost], cost.df$cost[min.cost])
+      title = sprintf("%s Cost: p = 0.%i, cost = %i", charstring, as.integer(cost.df$probability[min.cost] * 100), cost.df$cost[min.cost])
     )
 }
 
 ```
 
-####a. Penalize Logistic Regression  
+####a. Penalized Logistic Regression  
 
-```{r}
+Generalized linear models are one of the simplest and easily understood machine learning techniques, relying on parametric probability distributions and Newton Raphson or Coordinate Descent maximum likelihood algorithms. In this case, we employ a Logistic Regression to model our document term matrices by whether or not a new product or service was labeled for each observation (coming from a Bernoulli/Binomial distribution). In early iterations, this modeling was performing the best (at the 50-50 New Product Split), implying that there may exist some underlying linear structure to the DNA New Product labeling. Here we fit a generalized penalized logistic regression to each training sample, optimize the $\alpha$ (geometric penalization type) and $\lambda$ (penalization/shrinkage) parameters, and predict the probability that a given article in each test sample describes a New Product or Service, or not.  
+
+Results below give a table of the optimized parameter values, as well as the ROC and
+
+```{r glm, fig.width = 8} 
 #Penalized Logistic Regression over 
 glm.df <- sample.df %>%
   filter(sample == "half" | sample == "prop") %>%
@@ -233,12 +243,132 @@ glm.df %>%
   knitr::kable(digits = 5)
 
 #Plot Roc
-glm.df %>%
+plots <- glm.df %>%
   mutate(
-    roc = map2(.x = )
+    roc     = map2(.x = test, .y = glm_probs, ~roc.log(.x, .y)),
+    roc_gg  = map2(.x = roc, .y  = c("Fifty-Fifty", "Proportional"), 
+                  ~plot.roc(.x, sprintf("GLM %s | AUC: %s", .y, auc(.x) %>% round(4)*100))),
+    cost    = map2(.x = test, .y = glm_probs, ~cost.df(.x, .y)),
+    cost_gg = map(.x = cost, .y = c("Fifty-Fifty", "Proportional"), 
+                  ~plot.cost(.x, paste("GLM", .y)))
+  )
+
+#Store GG panels
+glm.roc  <- plots$roc_gg[[1]] + plots$roc_gg[[2]]
+glm.cost <- plots$cost_gg[[1]] + plots$cost_gg[[2]]
+
+#Save
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/glm_roc.jpg" , glm.roc)
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/glm_cost.jpg", glm.cost, width = 8)
+
+#Display
+glm.roc
+glm.cost
+```
+
+####b. Random Forest  
+```{r rf, fig.width = 8} 
+#Random Forest 
+rf.df <- sample.df %>%
+  filter(sample == "half" | sample == "prop") %>%
+  mutate(
+    rf        = map(.x = train, ~train(subject_code_ns ~ ., data = .x,
+                                       method = "rf", family = "bernoulli",
+                                       trControl = trainControl(method = "cv", number = 5))),
+    rf_preds = map2(.x = rf, .y = test, ~predict(.x, newdata = .y)),
+    rf_probs = map2(.x = rf, .y = test, ~predict(.x, newdata = .y, type = "prob")[ ,2]),
+    n_trees  = map_dbl(.x = rf, ~.x$finalModel$ntree),
+    mtry     = map_dbl(.x = rf, ~.x$finalModel$mtry)
   )
 
 
-#Plot Cost
 
-```
+#Check out best tuning parameters
+rf.df %>%
+  select(sample, n_trees, mtry) %>%
+  knitr::kable(digits = 5)
+
+#Plot Roc
+plots <- rf.df %>%
+  mutate(
+    roc     = map2(.x = test, .y = rf_probs, ~roc.log(.x, .y)),
+    roc_gg  = map2(.x = roc, .y  = c("Fifty-Fifty", "Proportional"), 
+                  ~plot.roc(.x, sprintf("RF %s | AUC: %s", .y, auc(.x) %>% round(4)*100))),
+    cost    = map2(.x = test, .y = rf_probs, ~cost.df(.x, .y)),
+    cost_gg = map(.x = cost, .y = c("Fifty-Fifty", "Proportional"), 
+                  ~plot.cost(.x, paste("RF", .y)))
+  )
+
+#Store GG panels
+rf.roc  <- plots$roc_gg[[1]] + plots$roc_gg[[2]]
+rf.cost <- plots$cost_gg[[1]] + plots$cost_gg[[2]]
+
+#Save
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/rf_roc.jpg", rf.roc)
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/rf_cost.jpg", rf.cost, width = 8)
+
+#Display
+rf.roc
+rf.cost
+``` 
+
+
+####c. Boosting (GBM Trees)  
+```{r boosting, fig.width = 8} 
+#Boosting (GBM Trees)
+gbm.df <- sample.df %>%
+  filter(sample == "half" | sample == "prop") %>%
+  mutate(
+    gbm        = map(.x = train, ~train(subject_code_ns ~ ., data = .x, 
+                                       distribution = "bernoulli", method = "gbm",
+                                       trControl = trainControl(method = "cv", number = 5))),
+    gbm_preds = map2(.x = gbm, .y = test, ~predict(.x, newdata = .y)),
+    gbm_probs = map2(.x = gbm, .y = test, ~predict(.x, newdata = .y, type = "prob")[ ,2]),
+    n_trees   = map_dbl(.x = gbm, ~.x$bestTune[, 1]),
+    interaction_depth = map_dbl(.x = gbm,  ~.x$bestTune[, 2]),
+    shrinkage = map_dbl(.x = gbm,  ~.x$bestTune[, 3]),
+    n_bins    = map_dbl(.x = gbm,  ~.x$bestTune[, 4])
+  )
+
+#Check out best tuning parameters
+gbm.df %>%
+  select(sample, n_trees, interaction_depth, shrinkage, n_bins) %>%
+  knitr::kable(digits = 5)
+
+#Plot Roc
+plots <- gbm.df %>%
+  mutate(
+    roc     = map2(.x = test, .y = gbm_probs, ~roc.log(.x, .y)),
+    roc_gg  = map2(.x = roc, .y  = c("Fifty-Fifty", "Proportional"), 
+                  ~plot.roc(.x, sprintf("GLM %s | AUC: %s", .y, auc(.x) %>% round(4)*100))),
+    cost    = map2(.x = test, .y = gbm_probs, ~cost.df(.x, .y)),
+    cost_gg = map(.x = cost, .y = c("Fifty-Fifty", "Proportional"), 
+                  ~plot.cost(.x, paste("GLM", .y)))
+  )
+
+#Store GG panels
+gbm.roc  <- plots$roc_gg[[1]] + plots$roc_gg[[2]]
+gbm.cost <- plots$cost_gg[[1]] + plots$cost_gg[[2]]
+
+#Save
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/gbm_roc.jpg", gbm.roc)
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/gbm_cost.jpg", gbm.cost, width = 8)
+
+#Display
+gbm.roc
+gbm.cost
+``` 
+
+
+###ii. Unsupervised
+
+####a. K-means  
+
+
+####b. Heirarchical  
+
+
+####c. Bayesian
+
+
+####d. Latent Dirichlet Allocation
