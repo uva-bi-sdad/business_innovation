@@ -1,0 +1,614 @@
+---
+title: "DNA Profile 2015"
+author: "DSPG Business Innovation Team"
+date: "7/9/2019"
+output:
+  word_document: default
+  html_document: default
+  github_document: default
+---
+  
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+
+library(jsonlite)
+library(tidyverse)
+library(stringr)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(doParallel)
+library(foreach)
+library(parallel)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+library(dplyr)
+library(data.table)
+
+#View(dna.dt)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+##1. Read Data  
+
+Set year filter here.
+```{r}
+year <- 2016
+path <- sprintf("./data/working/DNA_Aggregated/dna_%s.RDS", year)
+dna.dt <- read_rds(path) %>%
+  as.data.table() #%>%
+#Filter whatever, SEC, cgvfi, etc.   
+
+#Re-run Doc.  
+```
+
+This is the profiling for the year `r year`. 
+
+##2. Profile
+
+Tidying the data.  
+```{r, include=FALSE, message = FALSE, warning = FALSE}
+#Unlist columns
+dna.dt <- dna.dt %>%
+  dt_mutate(
+    subject_codes = subject_codes %>% map_chr(.x = ., ~paste0(.x, collapse = ", "))
+  )
+
+dna.dt$company_codes_about <- as.character(dna.dt$company_codes_about)
+dna.dt$company_codes_about[dna.dt$company_codes_about==""] <- "NULL"
+dna.dt$company_codes_about <- as.factor(dna.dt$company_codes_about)
+
+dna.dt$company_codes_relevance <- as.character(dna.dt$company_codes_relevance)
+dna.dt$company_codes_relevance[dna.dt$company_codes_relevance==""] <- "NULL"
+dna.dt$company_codes_relevance <- as.factor(dna.dt$company_codes_relevance)
+
+dna.dt$company_codes <- as.character(dna.dt$company_codes)
+dna.dt$company_codes[dna.dt$company_codes==""] <- "NULL"
+dna.dt$company_codes <- as.factor(dna.dt$company_codes)
+
+dna.dt$subject_codes <- as.character(dna.dt$subject_codes)
+dna.dt$subject_codes[dna.dt$subject_codes==""] <- "NULL"
+dna.dt$subject_codes <- as.factor(dna.dt$subject_codes)
+
+dna.dt$company_codes_occur <- as.character(dna.dt$company_codes_occur)
+dna.dt$company_codes_occur[dna.dt$company_codes_occur==""] <- "NULL"
+dna.dt$company_codes_occur <- as.factor(dna.dt$company_codes_occur)
+
+dna.dt$art <- as.character(dna.dt$art)
+dna.dt$art[dna.dt$art==""] <- "NULL"
+dna.dt$art <- as.factor(dna.dt$art)
+
+dna.dt$market_index_codes <- as.character(dna.dt$market_index_codes)
+dna.dt$market_index_codes[dna.dt$market_index_codes==""] <- "NULL"
+dna.dt$market_index_codes <- as.factor(dna.dt$market_index_codes)
+
+dna.dt$company_codes_lineage <- as.character(dna.dt$company_codes_lineage)
+dna.dt$company_codes_lineage[dna.dt$company_codes_lineage==""] <- "NULL"
+dna.dt$company_codes_lineage <- as.factor(dna.dt$company_codes_lineage)
+
+dna.dt$snippet <- as.character(dna.dt$snippet)
+dna.dt$snippet[dna.dt$snippet==""] <- "NULL"
+dna.dt$snippet <- as.factor(dna.dt$snippet)
+
+dna.dt$credit <- as.character(dna.dt$credit)
+dna.dt$credit[dna.dt$credit==""] <- "NULL"
+dna.dt$credit <- as.factor(dna.dt$credit)
+
+dna.dt$currency_codes <- as.character(dna.dt$currency_codes)
+dna.dt$currency_codes[dna.dt$currency_codes==""] <- "NULL"
+dna.dt$currency_codes <- as.factor(dna.dt$currency_codes)
+
+dna.dt$region_codes <- as.character(dna.dt$region_codes)
+dna.dt$region_codes[dna.dt$region_codes==""] <- "NULL"
+dna.dt$region_codes <- as.factor(dna.dt$region_codes)
+
+dna.dt$person_codes <- as.character(dna.dt$person_codes)
+dna.dt$person_codes[dna.dt$person_codes==""] <- "NULL"
+dna.dt$person_codes <- as.factor(dna.dt$person_codes)
+
+
+dna.dt$company_codes_association <- as.character(dna.dt$company_codes_association)
+dna.dt$company_codes_association[dna.dt$company_codes_association==""] <- "NULL"
+dna.dt$company_codes_association <- as.factor(dna.dt$company_codes_association)
+
+dna.dt$byline <- as.character(dna.dt$byline)
+dna.dt$byline[dna.dt$byline==""] <- "NULL"
+dna.dt$byline <- as.factor(dna.dt$byline)
+
+```
+
+
+General description. 
+```{r}
+#Dimension 
+dna.dt %>%
+  introduce()
+
+#Tidy for head screenshot
+dna.dt <- dna.dt %>%
+  dplyr::select(c(an, title, body, publisher_name,
+                  company_codes, company_codes_about, subject_codes, everything()))
+```
+
+
+Names of variables.  
+```{r}
+#Variable Names
+names(c2013) %>% paste0(., collapse = ", ")
+plot_str(dna.dt)
+
+
+
+```
+
+
+!["Head of DNA data 2015"](head_dna_2015.png)
+
+```{r, include=FALSE, message = FALSE, warning = FALSE}
+#Structure of Data
+str(dna.dt)
+
+#Percent Missing by Variable
+percent.missing <- dna.dt %>%
+  is.na.data.frame() %>%
+  apply(., 2, mean) %>%
+  round(3)
+percent.missing
+
+#plot_bar(dna.dt$action)
+```
+
+#3. Preliminary Cleaning
+
+
+####Word Count (Body of Text)
+Here, we filter out articles with body text less than 10 and more than 2000 words (95% Quantile of Distribution) in length, as this indicates is not a "true" article in the scope of our interest. For plotting, we trimmed at 5000 length word. The new data is renamed so the original is still available for later use.  
+
+After filtering the word count for those greater than 10 and less than 2000, all the medians for all years were very similar ~350-360.  
+
+* 2013 - Close to symmetric and center spread.  
+* 2014 - Less symmetric than 2013, spread increased.  
+* 2015 - Closer to symmetric and center spread than 2013
+* 2016 - Similar to 2014 but with higher variance (fewer obs.)  
+
+Shape of all distributions highly right skewed, poison-ish looking (counts) however slight bumps around 1500, 2000 for all years.  
+
+
+```{r warning = FALSE}
+#Cleaning out WC
+
+dna.2.dt <- dna.dt %>%
+  dt_mutate(
+    word_count = word_count %>% as.numeric()
+  ) %>%
+  dt_filter(word_count > 10 & word_count < 2000)
+  
+dna.3.dt <- dna.dt %>%
+  dt_mutate(
+    word_count = word_count %>% as.numeric()
+  ) #%>%
+  #dt_filter(word_count > 10 & word_count < 2000)
+
+#Summary
+summary(dna.2.dt$word_count)
+
+
+
+large_articles <- subset(dna.2.dt, dna.2.dt$word_count > 4000)
+#head(large_articles)
+
+#Distribution
+ggplot(dna.2.dt, aes(x = word_count)) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 4, trim = FALSE) +
+  labs(
+    x = "Word Count",
+    y = "Density",
+    title = "Distribution of word ount of all articles"
+  ) +
+  xlim(0, 5000)
+
+
+ggplot(dna.3.dt, aes(x = word_count)) +
+  geom_density(fill = "purple", alpha = 0.5, adjust = 4, trim = FALSE) +
+  labs(
+    x = "Word Count",
+    y = "Density",
+    title = "Distribution of word count of filtered articles"
+  ) +
+  xlim(0, 5000)
+
+
+```
+
+```{r include = FALSE, echo = FALSE}
+#Remove original data for memory storage
+remove(dna.dt)
+gc()
+```
+
+
+####Sources (of Publishers)
+
+
+* As for temporal trends of publisher names, NewsRX and Dow Jones dominate the top two consistently over time, however NewsRX alternates naming from NewsRX.com to NewsRX, LLC; split in 14 and 16, only .com in 13, only LLC in 16.  
+  
+* Other temporal trends are not particularly interesting, Thomson Reuter's enters the top 10 in 15-16, flyonthewall.com, Elsevier Science, Business Wire, and Athena Info Solutions are consistently top 10 throughought all years, others pop in and out.
+
+```{r}
+#Data frame for all combos of unique codes, names
+asd <- dna.2.dt[, list(source_code, source_name, publisher_name)] %>% unique()
+
+#Unique source codes
+dna.2.dt$source_code %>% unique() %>% length()
+
+#" " names
+dna.2.dt$source_name %>% unique() %>% length()
+
+#Unique publisher names
+dna.2.dt$publisher_name %>% unique() %>% length()
+
+
+#Joining for unique data frame (writen out)
+asd <- left_join(asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+                   group_by(source_code) %>%
+                   summarise(
+                     count_source_code = n()
+                   ), by = "source_code")
+
+asd <- left_join(
+  asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+    group_by(source_name) %>%
+    summarise(
+      count_source_name = n()
+    ), by = "source_name"
+)
+
+asd <- left_join(
+  asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+    group_by(publisher_name) %>%
+    summarise(
+      count_publisher_name = n()
+    ), by = "publisher_name"
+)
+
+#write_csv(unique(asd), "./data/working/DNA_Aggregated/unique_publisher_sources.csv")
+
+#Top 10 Unique Names
+dna.2.dt %>%
+  group_by(publisher_name) %>%
+  summarise(
+    Count = n()
+  ) %>%
+  arrange(desc(Count)) %>%
+  dt_mutate(
+    publisher_name = publisher_name %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+  ) %>% 
+  slice(1:15)
+
+```
+
+
+![](head_unique_publishers.png)
+
+####Company Names
+
+Look at unique company names and the top 10 mentioned in these articles for `r year` (in combination with others).  
+
+* All years right skewed in number of unique names, this trend steadily increases in time (third quartile increases in time). Maximum number also increases in time, sharp increase in 2015. Median number increases in time as well.  
+  
+* Generally, an increase in number of unique company names in time as well as an increase in right skew (higher outlyingly high number). Easily visible in the histogram distributions.  
+  
+* SEC, FDA, NASDAQ after 2013, Pfizer, dominate the unique counts (generally in that order). Otherwise Glaxico SmithKline, Eli Lily, Bristol-Meyers Squibb are always prominent, as well as FFFAIM and Jonson & Jonson. Others like Bayer pop in and out.  
+
+
+```{r}
+#Str_split to get list of char vectors of region
+dna.2.dt <- dna.2.dt %>%
+  dt_mutate(
+    company_codes = str_split(company_codes, ",") %>%
+      lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  )
+
+
+#a <- subset(dna.2.dt, length(dna.2.dt$company_codes_about) > 20)
+
+#Unique 
+dna.2.dt$company_codes %>%
+  unlist() %>% 
+  unique() %>%
+  length()
+
+
+#Summary
+company.counts <- dna.2.dt$company_codes %>% map_dbl(.x = ., ~length(.x))
+company.counts %>% summary()
+
+a <- subset(dna.2.dt,company.counts > 300)
+#View(a$company_codes)
+
+
+# We can have a look at the company code which have a 335 max count
+#View (a)
+a <- apply(a,2,as.character)
+# writ(a,"./data/working/DNA_Aggregated/company_code_335.xlsx")
+#b <- subset(company.counts, company.counts == 335)
+#df = data.frame('a' = rnorm(10), 'b' = runif(10), 'c' = letters[1:10])
+
+#Histogram
+tibble(company.counts = company.counts) %>%
+  ggplot(aes(x = company.counts)) +
+  geom_histogram(fill = "purple") +
+  # geom_density(fill = "purple", adjust = 5) +
+  xlim(0, 10)
+
+#Top 10
+data.table(company = dna.2.dt$company_codes %>%
+             unlist() %>%
+             table() %>% 
+             names(),
+           counts = dna.2.dt$company_codes %>%
+             unlist() %>%
+             table() %>% 
+             as.numeric()) %>%
+  dt_arrange(counts) %>%
+  Rev(margin = 1) %>%
+  slice(1:15)
+
+```
+
+
+####Company Names (About)
+
+Look at unique company names (about) and the top 10 mentioned in these articles for `r year` (in combination with others).  
+
+*note that these are GENERALLY unique to each observation, i.e. only one per article*  
+
+* There is a steady decrease in the number of unique company about names over time.  
+  
+* Median number is one for all years (mean very close)  
+
+* Outlyingly high number of values decrease in time  
+
+* Fewer high values over time  
+
+As it concerns the top unique company about's mentioned( (top 10):  
+
+* FDA always top (though as we see later must rarely occur alone)  
+
+* SEC appears second only in 2013, disappears after  
+
+* Pfizer, Glaxico, Bristol-Meyers, Eli Lily still very prominent (also SCHPLO ?)  
+
+* Again, others pop in and out, most also appear prominently in company names 
+
+```{r}
+#Str_split to get list of char vectors of region
+dna.2.dt <- dna.2.dt %>%
+  dt_mutate(
+    company_codes_about = str_split(company_codes_about, ",") %>%
+      lapply(., function(x) {x[c(-1, -length(x))]})    #storing subj codes as nested list of char vector
+  ) 
+
+#Unique 
+dna.2.dt$company_codes_about %>%
+  unlist() %>% 
+  unique() %>% 
+  length()
+
+
+#Summary
+company.counts <- dna.2.dt$company_codes_about %>% map_dbl(.x = ., ~length(.x))
+company.counts %>% summary()
+
+# We can have a look at the company_code_about with length > 70 (2 observations)
+
+#View(b)
+
+b <- subset(dna.2.dt,company.counts > 70)
+
+#Histogram
+tibble(company.counts = company.counts) %>%
+  ggplot(aes(x = company.counts)) +
+  geom_histogram(fill = "purple") +
+  # geom_density(fill = "purple", adjust = 5) +
+  xlim(0, 10)
+
+#Top 10
+data.table(company = dna.2.dt$company_codes_about %>%
+             unlist() %>%
+             table() %>% 
+             names(),
+           counts = dna.2.dt$company_codes_about %>%
+             unlist() %>%
+             table() %>% 
+             as.numeric()) %>%
+  dt_arrange(counts) %>%
+  Rev(margin = 1) %>% 
+  slice(1:10)
+
+```
+
+####Articles With No Company Code?
+
+
+* Sharp decrease in the number of no codes and codes about over time  
+
+* ~75K codes about missing in 2013 to ~47K in 2016  
+
+* Missing codes about and codes are nearly identical in each year (suggesting poor articles?)   
+
+```{r eval = FALSE}
+#Company Codes About
+map_lgl(.x = company.about$company_codes_about, is_empty) %>% sum()
+map_lgl(company.about$company_codes_about, is_empty) %>% mean()
+
+#Company Codes
+map_lgl(.x = company$company_codes, is_empty) %>% sum()
+map_lgl(company$company_codes, is_empty) %>% mean()
+
+#Both
+map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>%
+  sum()
+map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>%
+  mean() %>%
+  round(4)
+
+#Either
+map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>%
+  sum()
+map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>%
+  mean() %>%
+  round(4)
+```
+
+
+
+
+####Locate and Filter Company (FDA, SEC, NASDAQ)
+
+* In 2015, we have 2144 articles that only have NASDAQ, FDA or SEC in company or company_about
+ 
+* After filtering these articles, we have 307,442 articles in our dataset for 2015.
+
+* ~1400 in 2013, 201616; ~2000 in 2014, 2015 company codes
+
+
+
+ 
+
+
+####Subject Code Filtering
+
+We explore the subject codes and are interested in noting the following subject codes for 2015 data-
+
+* c22 (New Product) - 19823 articles
+* cdinn (Business/Disruptive Innovation) - 2 articles
+* cgvfil (SEC Filings) - 52576
+
+```{r}
+
+#Number of Unique Subject codes
+dna.3.dt <- dna.3.dt %>% 
+  dt_mutate(
+    subject_codes_split = str_split(subject_codes, ", ") %>%
+     map(unlist),
+    subject_codes = map(.x = subject_codes, ~ifelse(is.null(.x), character(0), .x)),
+    subject_codes_split = map(.x = subject_codes_split, ~ifelse(is.null(.x), character(0), .x))
+  )
+
+#c22 <- filter(str_detect(dna.3.dt$subject_codes, "c22"))
+#b <- subset(dna.3.dt,dna.3.dt$subject_codes == "c22" )
+
+positive <- read.csv("./data/working/PositiveArticlesDNA.csv")
+
+#head(positive)
+c2016 <- subset(positive,positive$Year == 2016)
+#c2015 <- subset(positive,positive$Year == 2015)
+#c2013 <- data.frame(c2013)
+#total2013 <- merge(dna.3.dt,c2013,by=c("an"))
+#total2013 <- merge(dna.3.dt,c2014,by=c("an"))
+
+#Number of Empty Subject Codes
+map_lgl(.x = dna.3.dt$subject_codes, ~is.na(.x)) %>% sum()
+map_lgl(.x = dna.3.dt$subject_codes, ~is.na(.x)) %>% mean()
+
+
+#Count Number of Certain Subj Codes# 
+#New Product
+
+library(data.table)
+map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("c22") %in% .x) %>% sum()
+
+bc <- dna.3.dt[dna.3.dt$subject_codes_split %like% "c22", ]
+
+bc <- data.frame(lapply(bc, trimws), stringsAsFactors = FALSE)
+c2016 <- data.frame(lapply(c2016,trimws),stringsAsFactors = FALSE)
+
+total2016 <- merge(c2016,bc,by=c("an"))
+total2016c <- merge(c2016,dna.3.dt, by=c("an")) 
+#Business/Disruptive Innovation
+map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cdinn") %in% .x) %>% sum()
+#Securities Filings
+map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cgvfil") %in% .x) %>% sum()
+```
+
+####Industry Investigation
+```{r}
+#Number of Unique Industry codes
+dna.3.dt <- dna.3.dt %>% 
+  dt_mutate(
+    industry_codes_empty =  map(.x = industry_codes, ~ifelse(.x %in% "", character(0), .x)),
+    industry_codes = str_split(industry_codes, ",") %>%
+      lapply(., function(x) {x[c(-1, -length(x))]}),    #storing industry codes as nested list of char vector
+    industry_codes = map(.x = industry_codes, ~ifelse(.x %in% "", character(0), .x))
+  )
+
+#Industry codes
+#Pharmaceuticals
+#Number of Empty INdustry Codes
+map_lgl(.x = dna.3.dt$industry_codes_empty, ~is.na(.x)) %>% sum()
+map_lgl(.x = dna.3.dt$industry_codes_empty, ~is.na(.x)) %>% mean()
+
+#Most Common Industry Codes (10)
+data.table(industry = dna.3.dt$industry_codes %>%
+             unlist() %>%
+             table() %>% 
+             names(),
+           counts = dna.3.dt$industry_codes %>%
+             unlist() %>%
+             table() %>% 
+             as.numeric()) %>%
+  dt_arrange(counts) %>%
+  Rev(margin = 1) %>%
+  slice(1:10)
+
+#Pharma
+map_lgl(.x = dna.3.dt$industry_codes, ~c("i257") %in% .x) %>% sum()
+
+#Medical Equipment/Supplies
+map_lgl(.x = dna.3.dt$industry_codes, ~c("i372") %in% .x ) %>% sum()
+```
+
+```{r}
+#Remove FDA Source Codes (from publisher)
+dna.3.dt <- dna.3.dt %>%
+  dt_mutate(
+    source_filter = str_detect(source_code, paste0(c("USFOD", "WCUSFOD", "FDADOC", "FDADB", "FDDB"), collapse = "|"))
+  )
+
+#Number of Publisher sources coming from FDA
+dna.3.dt$source_filter %>% sum()
+
+#View(Co)
+
+#Filter and remove sourc_filter variable
+dna.3.dt <- dna.3.dt %>%
+  dt_filter(source_filter %in% FALSE) %>%
+  dt_select(-source_filter)
+```
+
+
+

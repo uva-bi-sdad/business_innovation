@@ -1,0 +1,247 @@
+---
+title: "Exploring_Body_Source_Codes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+
+
+library(jsonlite)
+library(tidyverse)
+library(stringr)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(doParallel)
+library(foreach)
+library(parallel)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+library(dplyr)
+library(data.table)
+
+#View(dna.dt)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+
+
+
+```
+
+
+# Reading in the data
+
+```{r}
+
+year <- 2015
+path <- sprintf("./data/working/DNA_Aggregated/dna_%s.RDS", year)
+dna.dt <- read_rds(path) %>%
+  as.data.table()
+
+```
+
+# Cleaning data
+
+```{r, include=FALSE, message = FALSE, warning = FALSE}
+
+#Unlist columns
+dna.dt <- dna.dt %>%
+  dt_mutate(
+    subject_codes = subject_codes %>% map_chr(.x = ., ~paste0(.x, collapse = ", "))
+  )
+
+dna.2.dt <- dna.dt %>%
+  dt_mutate(
+    word_count = word_count %>% as.numeric()
+  ) %>%
+  dt_filter(word_count > 10 & word_count < 2000)
+  
+dna.3.dt <- dna.dt %>%
+  dt_mutate(
+    word_count = word_count %>% as.numeric()
+  ) #%>%
+  #dt_filter(word_count > 10 & word_count < 2000)
+
+#Summary
+summary(dna.2.dt$word_count)
+
+
+remove(dna.dt)
+
+
+```
+
+
+
+
+# Exploring Publisher Names (Specifically GlobalData)
+
+```{r}
+
+#Data frame for all combos of unique codes, names
+asd <- dna.2.dt[, list(source_code, source_name, publisher_name)] %>% unique()
+
+#Unique source codes
+dna.2.dt$source_code %>% unique() %>% length()
+
+#" " names
+dna.2.dt$source_name %>% unique() %>% length()
+
+#Unique publisher names
+dna.2.dt$publisher_name %>% unique() %>% length()
+
+
+#Joining for unique data frame (writen out)
+asd <- left_join(asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+                   group_by(source_code) %>%
+                   summarise(
+                     count_source_code = n()
+                   ), by = "source_code")
+
+asd <- left_join(
+  asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+    group_by(source_name) %>%
+    summarise(
+      count_source_name = n()
+    ), by = "source_name"
+)
+
+asd <- left_join(
+  asd, dna.2.dt[, list(source_code, source_name, publisher_name)] %>% 
+    group_by(publisher_name) %>%
+    summarise(
+      count_publisher_name = n()
+    ), by = "publisher_name"
+)
+
+#write_csv(unique(asd), "./data/working/DNA_Aggregated/unique_publisher_sources.csv")
+
+#Top 10 Unique Names
+dna.3.dt %>%
+  group_by(publisher_name) %>%
+  summarise(
+    Count = n()
+  ) %>%
+  arrange(desc(Count)) %>%
+  dt_mutate(
+    publisher_name = publisher_name %>% 
+      as.factor() %>%
+      forcats::fct_reorder(., Count)
+  ) %>% 
+  slice(1:20)
+
+
+#dna_globaldat <- subset(dna.3.dt, dna.3.dt$publisher_name == "GlobalData Limited")
+#dna_buswire <- subset(dna.3.dt, dna.3.dt$publisher_name == "Business Wire, Inc.")
+#dna_hdmedia <- subset(dna.3.dt, dna.3.dt$publisher_name == "HT Media Limited")
+
+```
+
+
+# Exploring the Body text (Strict filtering)
+
+
+```{r}
+
+
+x<- filter(dna.3.dt,grepl('new device|new devices|new drug|new drugs|new product|new products',dna.3.dt$body))
+
+y<- filter(dna.3.dt,grepl('announced the launch|announce the launch|announcing the launch|announces launch|announced launch|announcing launch|launch|launches|launched|launching|announced new|announces new|announcing new|introduce|introduces|introduced|introducing', dna.3.dt$body))
+
+a <- data.table(x)
+b <- data.table(y)
+keys <- b$an 
+
+z <- a[an %chin% keys]
+
+
+```
+
+
+
+# Exploring Source Codes 
+
+
+```{r}
+
+#Number of Unique Subject codes
+dna.3.dt <- dna.3.dt %>% 
+  dt_mutate(
+    subject_codes_split = str_split(subject_codes, ", ") %>%
+     map(unlist),
+    subject_codes = map(.x = subject_codes, ~ifelse(is.null(.x), character(0), .x)),
+    subject_codes_split = map(.x = subject_codes_split, ~ifelse(is.null(.x), character(0), .x))
+  )
+
+dna_hdmedia <- dna_hdmedia %>% 
+  dt_mutate(
+    subject_codes_split = str_split(subject_codes, ", ") %>%
+     map(unlist),
+    subject_codes = map(.x = subject_codes, ~ifelse(is.null(.x), character(0), .x)),
+    subject_codes_split = map(.x = subject_codes_split, ~ifelse(is.null(.x), character(0), .x))
+  )
+
+
+
+
+#c22 <- filter(str_detect(dna.3.dt$subject_codes, "c22"))
+#b <- subset(dna.3.dt,dna.3.dt$subject_codes == "c22" )
+
+#positive <- read.csv("./data/working/PositiveArticlesDNA.csv")
+
+#head(positive)
+#c2016 <- subset(positive,positive$Year == 2016)
+#c2015 <- subset(positive,positive$Year == 2015)
+#c2013 <- data.frame(c2013)
+#total2013 <- merge(dna.3.dt,c2013,by=c("an"))
+#total2013 <- merge(dna.3.dt,c2014,by=c("an"))
+
+#Number of Empty Subject Codes
+#map_lgl(.x = dna.3.dt$subject_codes, ~is.na(.x)) %>% sum()
+#map_lgl(.x = dna.3.dt$subject_codes, ~is.na(.x)) %>% mean()
+
+
+#Count Number of Certain Subj Codes# 
+#New Product
+
+#library(data.table)
+c<- map_lgl(.x = dna_hdmedia$subject_codes_split, ~ c("c22") %in% .x) 
+
+
+b2015<- filter(intersection,grepl("c22",intersection$s))
+
+
+
+
+bc <- dna_hdmedia[dna_hdmedia$subject_codes_split %like% "c22", ]
+
+bc <- data.frame(lapply(bc, trimws), stringsAsFactors = FALSE)
+c2016 <- data.frame(lapply(c2016,trimws),stringsAsFactors = FALSE)
+
+total2016 <- merge(c2016,bc,by=c("an"))
+total2016c <- merge(c2016,dna.3.dt, by=c("an")) 
+#Business/Disruptive Innovation
+map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cdinn") %in% .x) %>% sum()
+#Securities Filings
+map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cgvfil") %in% .x) %>% sum()
+```
