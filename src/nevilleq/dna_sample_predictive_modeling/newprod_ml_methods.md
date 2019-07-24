@@ -71,6 +71,19 @@ sample.df <- list.files(path = file.path) %>%
     test        = map(.x = data, ~.x[setdiff(1:N, train.samp), ])
   ) %>%
   dplyr::select(-file_path)
+
+#Write out another split of size 500 @ 50/50
+export.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/2019_7_23_half_sample.RDS")
+set.seed(2019)
+sampling  <- list(sample(1:500, 250, replace = FALSE), sample(1:500, 250, replace = FALSE))
+export.df <- bind_rows(export.df %>%
+                         filter(subject_code_ns == TRUE) %>%
+                         slice(sampling[[1]]),
+                       export.df %>%
+                         filter(subject_code_ns == FALSE) %>%
+                         slice(sampling[[2]]))
+#write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_500_sample.RDS")
+#write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_500_sample.json")
 ```
 
 2. Machine Learning Methods
@@ -98,7 +111,9 @@ glm.df <- sample.df %>%
     alpha     = map_dbl(.x  = glm, ~.x$bestTune[, 1]),
     lambda    = map_dbl(.x = glm,  ~.x$bestTune[, 2])
   )
+```
 
+``` r
 #Check out best tuning parameters
 glm.df %>%
   select(sample, alpha, lambda) %>%
@@ -114,7 +129,8 @@ glm.df %>%
 #Give Accuracy
 glm.df %>%
   mutate(
-    accuracy = map_dbl(.x = glm_preds, .y = test, ~mean(.x == .y$subject_code_ns))
+    accuracy = map2(.x = glm_preds, .y = test, ~.x == .y$subject_code_ns) %>%
+               map_dbl(mean)
   ) %>%
   dplyr::select(sample, accuracy) %>%
   knitr::kable(digits = 3)
@@ -122,8 +138,8 @@ glm.df %>%
 
 | sample |  accuracy|
 |:-------|---------:|
-| half   |       NaN|
-| prop   |       NaN|
+| half   |      0.70|
+| prop   |      0.95|
 
 ``` r
 #Plot Roc
@@ -158,13 +174,13 @@ ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/glm_co
 glm.roc
 ```
 
-<img src="newprod_ml_methods_files/figure-markdown_github/glm-1.png" width="90%" />
+<img src="newprod_ml_methods_files/figure-markdown_github/glm_diagnostic-1.png" width="90%" />
 
 ``` r
 glm.cost
 ```
 
-<img src="newprod_ml_methods_files/figure-markdown_github/glm-2.png" width="90%" />
+<img src="newprod_ml_methods_files/figure-markdown_github/glm_diagnostic-2.png" width="90%" />
 
 We observed significantly decreased AUC and optimized probability threshold between the model fit on the 50% New Product/Services vs. the Proportional (~7%) sample, with likewise reduced accuracy. However, on the 50% sample, this model is performing appreciably well and will be utilized as a baseline model moving forward.
 
@@ -187,9 +203,9 @@ rf.df <- sample.df %>%
     n_trees  = map_dbl(.x = rf, ~.x$finalModel$ntree),
     mtry     = map_dbl(.x = rf, ~.x$finalModel$mtry)
   )
+```
 
-
-
+``` r
 #Check out best tuning parameters
 rf.df %>%
   select(sample, n_trees, mtry) %>%
@@ -205,7 +221,8 @@ rf.df %>%
 #Give Accuracy
 rf.df %>%
   mutate(
-    accuracy = map_dbl(.x = rf_preds, .y = test, ~mean(.x == .y$subject_code_ns))
+    accuracy = map2(.x = rf_preds, .y = test, ~.x == .y$subject_code_ns) %>%
+               map_dbl(mean)
   ) %>%
   dplyr::select(sample, accuracy) %>%
   knitr::kable(digits = 3)
@@ -213,8 +230,8 @@ rf.df %>%
 
 | sample |  accuracy|
 |:-------|---------:|
-| half   |       NaN|
-| prop   |       NaN|
+| half   |      0.76|
+| prop   |      0.95|
 
 ``` r
 #Plot Roc
@@ -249,13 +266,13 @@ ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/rf_cos
 rf.roc
 ```
 
-<img src="newprod_ml_methods_files/figure-markdown_github/rf-1.png" width="90%" />
+<img src="newprod_ml_methods_files/figure-markdown_github/rf_diagnostic-1.png" width="90%" />
 
 ``` r
 rf.cost
 ```
 
-<img src="newprod_ml_methods_files/figure-markdown_github/rf-2.png" width="90%" />
+<img src="newprod_ml_methods_files/figure-markdown_github/rf_diagnostic-2.png" width="90%" />
 
 We observed that the random forest performed appreciably better than the penalized logistic regression (above) for the 50% split sample, but slightly worse for the smaller sample. This may imply that the logistic regression is more robust for samples with an emperically smaller probability of being about a New Product or Service. Additionally the optimally minimal cost for this model is significantly lower than that of the penalized GLM.
 
@@ -298,7 +315,8 @@ gbm.df %>%
 #Give Accuracy
 gbm.df %>%
   mutate(
-    accuracy = map_dbl(.x = gbm_preds, .y = test, ~mean(.x == .y$subject_code_ns))
+    accuracy = map2(.x = gbm_preds, .y = test, ~.x == .y$subject_code_ns) %>%
+               map_dbl(mean)
   ) %>%
   dplyr::select(sample, accuracy) %>%
   knitr::kable(digits = 3)
@@ -306,8 +324,8 @@ gbm.df %>%
 
 | sample |  accuracy|
 |:-------|---------:|
-| half   |       NaN|
-| prop   |       NaN|
+| half   |     0.735|
+| prop   |     0.960|
 
 ``` r
 #Plot Roc

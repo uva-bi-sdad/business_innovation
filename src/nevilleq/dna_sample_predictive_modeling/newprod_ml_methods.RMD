@@ -159,7 +159,8 @@ sample.df <- list.files(path = file.path) %>%
   dplyr::select(-file_path)
 
 #Write out another split of size 500 @ 50/50
-export.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_half_sample.RDS")
+export.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/2019_7_23_half_sample.RDS")
+set.seed(2019)
 sampling  <- list(sample(1:500, 250, replace = FALSE), sample(1:500, 250, replace = FALSE))
 export.df <- bind_rows(export.df %>%
                          filter(subject_code_ns == TRUE) %>%
@@ -284,7 +285,10 @@ glm.df <- sample.df %>%
     alpha     = map_dbl(.x  = glm, ~.x$bestTune[, 1]),
     lambda    = map_dbl(.x = glm,  ~.x$bestTune[, 2])
   )
+```
 
+
+```{r glm_diagnostic, fig.width = 8}
 #Check out best tuning parameters
 glm.df %>%
   select(sample, alpha, lambda) %>%
@@ -293,7 +297,8 @@ glm.df %>%
 #Give Accuracy
 glm.df %>%
   mutate(
-    accuracy = map_dbl(.x = glm_preds, .y = test, ~mean(.x == .y$subject_code_ns))
+    accuracy = map2(.x = glm_preds, .y = test, ~.x == .y$subject_code_ns) %>%
+               map_dbl(mean)
   ) %>%
   dplyr::select(sample, accuracy) %>%
   knitr::kable(digits = 3)
@@ -343,9 +348,10 @@ rf.df <- sample.df %>%
     n_trees  = map_dbl(.x = rf, ~.x$finalModel$ntree),
     mtry     = map_dbl(.x = rf, ~.x$finalModel$mtry)
   )
+```
 
 
-
+```{r rf_diagnostic, fig.width = 8}
 #Check out best tuning parameters
 rf.df %>%
   select(sample, n_trees, mtry) %>%
@@ -354,7 +360,8 @@ rf.df %>%
 #Give Accuracy
 rf.df %>%
   mutate(
-    accuracy = map_dbl(.x = rf_preds, .y = test, ~mean(.x == .y$subject_code_ns))
+    accuracy = map2(.x = rf_preds, .y = test, ~.x == .y$subject_code_ns) %>%
+               map_dbl(mean)
   ) %>%
   dplyr::select(sample, accuracy) %>%
   knitr::kable(digits = 3)
@@ -408,6 +415,8 @@ gbm.df <- sample.df %>%
   )
 ```
 
+
+
 ```{r gbm_plots, fig.width = 8}
 #Check out best tuning parameters
 gbm.df %>%
@@ -417,7 +426,8 @@ gbm.df %>%
 #Give Accuracy
 gbm.df %>%
   mutate(
-    accuracy = map_dbl(.x = gbm_preds, .y = test, ~mean(.x == .y$subject_code_ns))
+    accuracy = map2(.x = gbm_preds, .y = test, ~.x == .y$subject_code_ns) %>%
+               map_dbl(mean)
   ) %>%
   dplyr::select(sample, accuracy) %>%
   knitr::kable(digits = 3)
