@@ -94,8 +94,7 @@ remove(dna.dt)
 
 
 
-# Exploring Publisher Names (Specifically GlobalData)
-
+# Exploring Publisher Names 
 ```{r}
 
 #Data frame for all combos of unique codes, names
@@ -172,7 +171,9 @@ a <- data.table(x)
 b <- data.table(y)
 keys <- b$an 
 
-z <- a[an %chin% keys]
+z <- a[a$an %chin% keys,]
+
+
 
 
 ```
@@ -193,7 +194,11 @@ dna.3.dt <- dna.3.dt %>%
     subject_codes_split = map(.x = subject_codes_split, ~ifelse(is.null(.x), character(0), .x))
   )
 
-
+c22_2015_filtered <- filter(z, !grepl("c22",z$subject_codes))
+write.csv(c22_2015_filtered,"./data/working/DNA_Aggregated/c22_intersection_2015.csv")
+not_c22_2013_filtered <- filter(z, !grepl("c22",z$subject_codes)) 
+not_c22_2013_filtered <- apply(not_c22_2013_filtered,2,as.character)
+write.csv(c22_2015_filtered, ".")
 
 #c22 <- filter(str_detect(dna.3.dt$subject_codes, "c22"))
 #b <- subset(dna.3.dt,dna.3.dt$subject_codes == "c22" )
@@ -224,7 +229,11 @@ d <- filter(dna.3.dt,grepl("cdinn",dna.3.dt$subject_codes))
 
 b2015<- filter(intersection,grepl("c22",intersection$s))
 
+c22_2015_intersection <- filter(z, grepl("c22",z$subject_codes))
 
+not_c22_2013_filtered <- filter(z, !grepl("c22",z$subject_codes)) 
+not_c22_2013_filtered <- apply(not_c22_2013_filtered,2,as.character)
+write.csv(not_c22_2013_filtered, "./data/working/DNA_Aggregated/not_c22_filtered_2013.csv")
 
 
 #bc <- dna_hdmedia[dna_hdmedia$subject_codes_split %like% "c22", ]

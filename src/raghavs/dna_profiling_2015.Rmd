@@ -54,7 +54,7 @@ options(scipen = 999999)
 
 Set year filter here.
 ```{r}
-year <- 2015
+year <- 2013
 path <- sprintf("./data/working/DNA_Aggregated/dna_%s.RDS", year)
 dna.dt <- read_rds(path) %>%
   as.data.table() 
@@ -454,13 +454,14 @@ dna.3.dt <- dna.3.dt %>%
   )
 
 # Filter out all new product launch articles in 2015
-c22_2015 <- filter(dna.3.dt,grepl("c22",dna.3.dt$subject_codes))
-#write.csv(c22_2015,"./data/working/DNA_Aggregated/c22_articles_2015.csv")
+c22_2013 <- filter(dna.3.dt,grepl("c22",dna.3.dt$subject_codes))
+c22_2013 <- apply(c22_2013,2,as.character)
+write.csv(c22_2013,"./data/working/DNA_Aggregated/c22_articles_2013.csv")
 # Filter out all business/disruptive innovation articles in 2015
-cdinn_2015 <- filter(dna.3.dt,grepl("cdinn",dna.3.dt$subject_codes))
+cdinn_2013 <- filter(dna.3.dt,grepl("cdinn",dna.3.dt$subject_codes))
 
 # Filter out all SEC filing articles in 2015
-cgvfil_2015 <- filter(dna.3.dt,grepl("cgvfil",dna.3.dt$subject_codes))
+cgvfil_2013 <- filter(dna.3.dt,grepl("cgvfil",dna.3.dt$subject_codes))
 
 
 
@@ -488,9 +489,10 @@ keys <- y$an
 z <- x[x$an %chin% keys,]
 
 # Finding the count of c22 articles in the intersection set
-c22_2015_filtered <- filter(z, grepl("c22",z$subject_codes))
-not_c22_2015_filtered <- filter(z, !grepl("c22",z$subject_codes)) 
-write.csv(not_c22_2015_filtered, "./data/working/DNA_Aggregated/not_c22_filtered_2015.csv")
+c22_2013_filtered <- filter(z, grepl("c22",z$subject_codes))
+not_c22_2013_filtered <- filter(z, !grepl("c22",z$subject_codes)) 
+not_c22_2013_filtered <- apply(not_c22_2013_filtered,2,as.character)
+write.csv(not_c22_2013_filtered, "./data/working/DNA_Aggregated/not_c22_filtered_2013.csv")
 
 ```
 
