@@ -193,15 +193,6 @@ dna.3.dt <- dna.3.dt %>%
     subject_codes_split = map(.x = subject_codes_split, ~ifelse(is.null(.x), character(0), .x))
   )
 
-dna_hdmedia <- dna_hdmedia %>% 
-  dt_mutate(
-    subject_codes_split = str_split(subject_codes, ", ") %>%
-     map(unlist),
-    subject_codes = map(.x = subject_codes, ~ifelse(is.null(.x), character(0), .x)),
-    subject_codes_split = map(.x = subject_codes_split, ~ifelse(is.null(.x), character(0), .x))
-  )
-
-
 
 
 #c22 <- filter(str_detect(dna.3.dt$subject_codes, "c22"))
@@ -225,7 +216,10 @@ dna_hdmedia <- dna_hdmedia %>%
 #New Product
 
 #library(data.table)
-c<- map_lgl(.x = dna_hdmedia$subject_codes_split, ~ c("c22") %in% .x) 
+map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("c22") %in% .x)  %>% sum()
+
+c <- filter(dna.3.dt,grepl("c22",dna.3.dt$subject_codes))
+d <- filter(dna.3.dt,grepl("cdinn",dna.3.dt$subject_codes))
 
 
 b2015<- filter(intersection,grepl("c22",intersection$s))
@@ -233,7 +227,7 @@ b2015<- filter(intersection,grepl("c22",intersection$s))
 
 
 
-bc <- dna_hdmedia[dna_hdmedia$subject_codes_split %like% "c22", ]
+#bc <- dna_hdmedia[dna_hdmedia$subject_codes_split %like% "c22", ]
 
 bc <- data.frame(lapply(bc, trimws), stringsAsFactors = FALSE)
 c2016 <- data.frame(lapply(c2016,trimws),stringsAsFactors = FALSE)
@@ -244,4 +238,6 @@ total2016c <- merge(c2016,dna.3.dt, by=c("an"))
 map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cdinn") %in% .x) %>% sum()
 #Securities Filings
 map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cgvfil") %in% .x) %>% sum()
+
+
 ```
