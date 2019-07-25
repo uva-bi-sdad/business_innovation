@@ -54,13 +54,11 @@ options(scipen = 999999)
 
 Set year filter here.
 ```{r}
-year <- 2016
+year <- 2015
 path <- sprintf("./data/working/DNA_Aggregated/dna_%s.RDS", year)
 dna.dt <- read_rds(path) %>%
-  as.data.table() #%>%
-#Filter whatever, SEC, cgvfi, etc.   
+  as.data.table() 
 
-#Re-run Doc.  
 ```
 
 This is the profiling for the year `r year`. 
@@ -139,31 +137,7 @@ dna.dt$byline <- as.factor(dna.dt$byline)
 ```
 
 
-General description. 
-```{r}
-#Dimension 
-dna.dt %>%
-  introduce()
 
-#Tidy for head screenshot
-dna.dt <- dna.dt %>%
-  dplyr::select(c(an, title, body, publisher_name,
-                  company_codes, company_codes_about, subject_codes, everything()))
-```
-
-
-Names of variables.  
-```{r}
-#Variable Names
-names(c2013) %>% paste0(., collapse = ", ")
-plot_str(dna.dt)
-
-
-
-```
-
-
-!["Head of DNA data 2015"](head_dna_2015.png)
 
 ```{r, include=FALSE, message = FALSE, warning = FALSE}
 #Structure of Data
@@ -207,16 +181,10 @@ dna.2.dt <- dna.dt %>%
 dna.3.dt <- dna.dt %>%
   dt_mutate(
     word_count = word_count %>% as.numeric()
-  ) #%>%
-  #dt_filter(word_count > 10 & word_count < 2000)
-
+  ) 
 #Summary
 summary(dna.2.dt$word_count)
-
-
-
-large_articles <- subset(dna.2.dt, dna.2.dt$word_count > 4000)
-#head(large_articles)
+summary(dna.3.dt$word_count)
 
 #Distribution
 ggplot(dna.2.dt, aes(x = word_count)) +
@@ -451,40 +419,6 @@ data.table(company = dna.2.dt$company_codes_about %>%
 
 ```
 
-####Articles With No Company Code?
-
-
-* Sharp decrease in the number of no codes and codes about over time  
-
-* ~75K codes about missing in 2013 to ~47K in 2016  
-
-* Missing codes about and codes are nearly identical in each year (suggesting poor articles?)   
-
-```{r eval = FALSE}
-#Company Codes About
-map_lgl(.x = company.about$company_codes_about, is_empty) %>% sum()
-map_lgl(company.about$company_codes_about, is_empty) %>% mean()
-
-#Company Codes
-map_lgl(.x = company$company_codes, is_empty) %>% sum()
-map_lgl(company$company_codes, is_empty) %>% mean()
-
-#Both
-map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>%
-  sum()
-map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) & is_empty(.y)) %>%
-  mean() %>%
-  round(4)
-
-#Either
-map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>%
-  sum()
-map2_lgl(.x = company$company_codes, .y = company.about$company_codes_about, ~is_empty(.x) | is_empty(.y)) %>%
-  mean() %>%
-  round(4)
-```
-
-
 
 
 ####Locate and Filter Company (FDA, SEC, NASDAQ)
@@ -519,41 +453,48 @@ dna.3.dt <- dna.3.dt %>%
     subject_codes_split = map(.x = subject_codes_split, ~ifelse(is.null(.x), character(0), .x))
   )
 
-#c22 <- filter(str_detect(dna.3.dt$subject_codes, "c22"))
-#b <- subset(dna.3.dt,dna.3.dt$subject_codes == "c22" )
+# Filter out all new product launch articles in 2015
+c22_2015 <- filter(dna.3.dt,grepl("c22",dna.3.dt$subject_codes))
+#write.csv(c22_2015,"./data/working/DNA_Aggregated/c22_articles_2015.csv")
+# Filter out all business/disruptive innovation articles in 2015
+cdinn_2015 <- filter(dna.3.dt,grepl("cdinn",dna.3.dt$subject_codes))
 
-positive <- read.csv("./data/working/PositiveArticlesDNA.csv")
-
-#head(positive)
-c2016 <- subset(positive,positive$Year == 2016)
-#c2015 <- subset(positive,positive$Year == 2015)
-#c2013 <- data.frame(c2013)
-#total2013 <- merge(dna.3.dt,c2013,by=c("an"))
-#total2013 <- merge(dna.3.dt,c2014,by=c("an"))
-
-#Number of Empty Subject Codes
-map_lgl(.x = dna.3.dt$subject_codes, ~is.na(.x)) %>% sum()
-map_lgl(.x = dna.3.dt$subject_codes, ~is.na(.x)) %>% mean()
+# Filter out all SEC filing articles in 2015
+cgvfil_2015 <- filter(dna.3.dt,grepl("cgvfil",dna.3.dt$subject_codes))
 
 
-#Count Number of Certain Subj Codes# 
-#New Product
 
-library(data.table)
-map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("c22") %in% .x) %>% sum()
-
-bc <- dna.3.dt[dna.3.dt$subject_codes_split %like% "c22", ]
-
-bc <- data.frame(lapply(bc, trimws), stringsAsFactors = FALSE)
-c2016 <- data.frame(lapply(c2016,trimws),stringsAsFactors = FALSE)
-
-total2016 <- merge(c2016,bc,by=c("an"))
-total2016c <- merge(c2016,dna.3.dt, by=c("an")) 
-#Business/Disruptive Innovation
-map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cdinn") %in% .x) %>% sum()
-#Securities Filings
-map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("cgvfil") %in% .x) %>% sum()
 ```
+
+
+# Body Text Filtering based on the following query-
+
+(new device or new devices or new drug or new drugs or new product or new products) AND (announced the launch or announces the launch or announcing the launch or announces launch or announced launch or announcing launch or launch or launches or launched or launching or announced new or announces new or announcing new or introduce or introduces or introduced or introducing)
+
+```{r}
+
+x <- filter(dna.3.dt,grepl("new device|new devices|new drug|new drugs|new product|new products",dna.3.dt$body ))
+
+y <- filter(dna.3.dt,grepl("announced the launch|announces the launch|announcing the launch|announces launch|announced launch|announcing launch|launch|launches|launched|launching |announced new|announces new|announcing new|introduce|introduces|introduced|introducing" ,dna.3.dt$body))
+
+# Convert both datasets into dataframes
+x <- data.frame(x)
+y <- data.frame(y)
+
+
+keys <- y$an
+
+# Finding the intersection of both the sets
+z <- x[x$an %chin% keys,]
+
+# Finding the count of c22 articles in the intersection set
+c22_2015_filtered <- filter(z, grepl("c22",z$subject_codes))
+not_c22_2015_filtered <- filter(z, !grepl("c22",z$subject_codes)) 
+write.csv(not_c22_2015_filtered, "./data/working/DNA_Aggregated/not_c22_filtered_2015.csv")
+
+```
+
+
 
 ####Industry Investigation
 ```{r}
@@ -568,7 +509,7 @@ dna.3.dt <- dna.3.dt %>%
 
 #Industry codes
 #Pharmaceuticals
-#Number of Empty INdustry Codes
+#Number of Empty Industry Codes
 map_lgl(.x = dna.3.dt$industry_codes_empty, ~is.na(.x)) %>% sum()
 map_lgl(.x = dna.3.dt$industry_codes_empty, ~is.na(.x)) %>% mean()
 
@@ -602,9 +543,8 @@ dna.3.dt <- dna.3.dt %>%
 #Number of Publisher sources coming from FDA
 dna.3.dt$source_filter %>% sum()
 
-#View(Co)
 
-#Filter and remove sourc_filter variable
+#Filter and remove source_filter variable
 dna.3.dt <- dna.3.dt %>%
   dt_filter(source_filter %in% FALSE) %>%
   dt_select(-source_filter)
