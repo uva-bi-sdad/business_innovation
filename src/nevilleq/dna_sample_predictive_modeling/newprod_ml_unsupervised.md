@@ -1,99 +1,12 @@
----
-title: "Unsupervised ML Methods"
-author: "DSPG Business Innovation Team"
-date: "7/25/2019"
-output:
-    github_document: default
-    html_document: default
----
-  
-```{r setup, include=FALSE, message = FALSE, warning = FALSE}
-#Libraries
-library(jsonlite)
-library(tidyverse)
-library(janitor)
-library(viridis)
-library(purrr)
-library(data.table)
-library(maditr)
-library(DataExplorer)
-library(Hmisc)
-library(DescTools)
-library(caret)
-library(tm)
-library(e1071)
-library(patchwork)
-#Setting root directory
-knitr::opts_knit$set(echo = TRUE,
-                     root.dir = rprojroot::find_rstudio_root_file())
+Unsupervised ML Methods
+================
+DSPG Business Innovation Team
+7/25/2019
 
-#Controlling figure output in markdown
-knitr::opts_chunk$set(
-  #  fig.height =   
-  fig.width = 6,
-  #  fig.asp = .5,
-  out.width = "90%",
-  #  out.height = 
-  cache = TRUE
-)
-#Set Theme for ggplot2
-theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
-#Set Scientific notation output for knitr
-options(scipen = 999999)
-```
+2. Unsupervised Methods (Bag of Words)
+--------------------------------------
 
-
-```{r dtm_function, echo = FALSE}
-#Function to transform data into Document Term Matrix
-make_dtm <- function(dna.df, min.threshold) { 
-
-###Transfrom Body Text into a corpus and clean
-dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
-  tm_map(content_transformer(tolower)) %>%
-  tm_map(removeNumbers) %>%
-  tm_map(removePunctuation) %>%
-  tm_map(removeWords, c("the", "and", stopwords("english"))) %>%
-  tm_map(stripWhitespace)
-
-#Document Term Matrix
-dna.dtm.df  <- DocumentTermMatrix(dna.corpus)
-
-#Outcome
-new.product <- dna.df$subject_code_ns
-
-#Add Outcome to Document Matrix
-dna.doc.dt  <- data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
-  merge(data.table(doc = seq_along(new.product), new_product = new.product))
-
-
-# This gives how many words appear a given number of times in total
-wordTable   <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
-
-# We require a word to appear at least this many times to be included in the analysis
-minWordCountThreshold <- min.threshold
-survivorWords    <- wordTable[count >= minWordCountThreshold, word]
-
-# Now we look at words broken out by topic
-reducedWordCount <- dna.doc.dt[word %in% survivorWords]
-reducedWordCount <- data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
-
-# Turn into a long format matrix
-dna.mat <- matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
-for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
-
-#Names
-#rownames(dna.mat) <- paste0('doc', 1:nrow(dna.mat))
-colnames(dna.mat) <- unique(reducedWordCount$word)
-
-  return(dna.mat %>% as_tibble())
-}
-```
-
-
-
-##2. Unsupervised Methods (Bag of Words)
-
-```{r message = FALSE, warning = FALSE}
+``` r
 #Store desired filepath
 file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
 
@@ -121,7 +34,7 @@ sample.df <- list.files(path = file.path) %>%
   )
 ```
 
-```{r eval = FALSE}
+``` r
 #Write out json's for Neil 
 for(i in 1:nrow(sample.df)) {
   
@@ -134,40 +47,9 @@ sample.df <- sample.df %>%
   dplyr::select(-file_path)
 ```
 
-####a. K-means  
+#### a. K-means
 
-```{r predict_k_means, echo = FALSE}
-predict.kmeans <- function(object,
-                           newdata,
-                           method = c("centers", "classes")) {
-  method <- match.arg(method)
-
-  centers <- object$centers
-  ss_by_center <- apply(centers, 1, function(x) {
-    colSums((t(newdata) - x) ^ 2)
-  })
-  best_clusters <- apply(ss_by_center, 1, which.min)
-
-  if (method == "centers") {
-    centers[best_clusters, ]
-  } else {
-    best_clusters
-  }
-}
-
-wss <- function(d) {
-  sum(scale(d, scale = FALSE)^2)
-}
-
-wrap <- function(hcluster.obj, data) {
-#  mod <- cutree(hcluster.obj, k)
-  spl <- split(data, hcluster.obj)
-  wss <- sum(sapply(spl, wss))
-  wss
-}
-```
-
-```{r k_means}
+``` r
 kmeans.df <- sample.df %>%
   mutate(
     kmean     = map(.x = train, ~kmeans(.x %>% dplyr::select(-subject_code_ns), centers = 2), nstart = 50, iter.max = 100),
@@ -191,14 +73,31 @@ kmeans.df <- sample.df %>%
 
 #Not splitting well (along NS subject code)
 ((kmeans.df$kmean[[1]]$cluster == 1) == kmeans.df$test[[1]]$subject_code_ns) %>% mean()
-((kmeans.df$kmean[[1]]$cluster == 2) == kmeans.df$test[[1]]$subject_code_ns) %>% mean()
+```
 
+    ## [1] 0.53625
+
+``` r
+((kmeans.df$kmean[[1]]$cluster == 2) == kmeans.df$test[[1]]$subject_code_ns) %>% mean()
+```
+
+    ## [1] 0.46375
+
+``` r
 #Accuracy
 kmeans.df %>%
   dplyr::select(sample, k_accuracy) %>%
   knitr::kable(digits = 3)
+```
 
+| sample |  k\_accuracy|
+|:-------|------------:|
+| half   |        0.465|
+| prop   |        0.910|
+| ten    |        0.850|
+| twenty |        0.780|
 
+``` r
 #The model is basically
 empirical.proportion <- map_dbl(.x = kmeans.df$train, ~mean(.x$subject_code_ns %>% as.logical()))
 preds                <- map2(.x = kmeans.df$test, .y = empirical.proportion, ~rbinom(nrow(.x), 1, .y) == 1)
@@ -209,7 +108,16 @@ tibble(
   sample   = kmeans.df$sample,
   accuracy = accuracy 
 ) %>% knitr::kable(digits = 3)
+```
 
+| sample |  accuracy|
+|:-------|---------:|
+| half   |     0.495|
+| prop   |     0.865|
+| ten    |     0.850|
+| twenty |     0.690|
+
+``` r
 #Within Sum of Squares
 tibble(
   Sample                        = kmeans.df$sample,
@@ -218,11 +126,18 @@ tibble(
 ) %>% knitr::kable(digits = 2)
 ```
 
-The kmeans models do not appear to be seperating particularly well, and are performing poorly. Compared to the most uninformative model, using the estimated proportion to sample from a bernoulli $N$ `TRUE`/`FALSE` with porbability of drawing a true being the estimated proportion of `TRUE` in the training set, on the test set. Our kmeans models are only performing marginally better than the uninformative model; which actually appears to be good when the proportions are small because the models just predict all `FALSE`, which ends up being mostly correct (but it is an entirely inflexible model to variation in the the test data). 
+| Sample |  Total Within Sum of Squares|  Between Sum of Squares|
+|:-------|----------------------------:|-----------------------:|
+| half   |                     404394.2|                13206.79|
+| prop   |                     453343.8|                21501.04|
+| ten    |                     517335.3|                25423.82|
+| twenty |                     439155.0|                19955.06|
 
-####b. Heirarchical  
+The kmeans models do not appear to be seperating particularly well, and are performing poorly. Compared to the most uninformative model, using the estimated proportion to sample from a bernoulli *N* `TRUE`/`FALSE` with porbability of drawing a true being the estimated proportion of `TRUE` in the training set, on the test set. Our kmeans models are only performing marginally better than the uninformative model; which actually appears to be good when the proportions are small because the models just predict all `FALSE`, which ends up being mostly correct (but it is an entirely inflexible model to variation in the the test data).
 
-```{r, heirarchical}
+#### b. Heirarchical
+
+``` r
 #Store method vector
 methods <- c("average", "complete", "single", "mcquitty", "median", "centroid")
 
@@ -270,7 +185,36 @@ accuracy <- hclust.df %>%
 #Visualize
 accuracy %>%
   knitr::kable(digits = 3)
+```
 
+| sample | method           |  Within Sum of Squares|  Accuracy|
+|:-------|:-----------------|----------------------:|---------:|
+| half   | hclust\_average  |               499988.6|     0.501|
+| prop   | hclust\_average  |               556838.2|     0.933|
+| ten    | hclust\_average  |               646577.4|     0.899|
+| twenty | hclust\_average  |               532021.4|     0.799|
+| half   | hclust\_complete |               499988.6|     0.501|
+| prop   | hclust\_complete |               556838.2|     0.933|
+| ten    | hclust\_complete |               646577.4|     0.899|
+| twenty | hclust\_complete |               530049.4|     0.798|
+| half   | hclust\_single   |               499988.6|     0.501|
+| prop   | hclust\_single   |               556838.2|     0.933|
+| ten    | hclust\_single   |               646577.4|     0.899|
+| twenty | hclust\_single   |               532021.4|     0.799|
+| half   | hclust\_mcquitty |               499988.6|     0.501|
+| prop   | hclust\_mcquitty |               556838.2|     0.933|
+| ten    | hclust\_mcquitty |               646577.4|     0.899|
+| twenty | hclust\_mcquitty |               534846.7|     0.799|
+| half   | hclust\_median   |               499988.6|     0.501|
+| prop   | hclust\_median   |               556838.2|     0.933|
+| ten    | hclust\_median   |               646577.4|     0.899|
+| twenty | hclust\_median   |               532021.4|     0.799|
+| half   | hclust\_centroid |               499988.6|     0.501|
+| prop   | hclust\_centroid |               556838.2|     0.933|
+| ten    | hclust\_centroid |               646577.4|     0.899|
+| twenty | hclust\_centroid |               532021.4|     0.799|
+
+``` r
 #Plot
 accuracy %>%
   mutate(sample = as.factor(sample) %>% fct_relevel("prop", "ten", "twenty", "half")) %>%
@@ -287,7 +231,11 @@ accuracy %>%
   facet_wrap(~method, ncol = 3, nrow = 2) +
   scale_colour_viridis_d() +
   scale_fill_viridis_d()
+```
 
+<img src="newprod_ml_unsupervised_files/figure-markdown_github/heirarchical-1.png" width="90%" />
+
+``` r
 #Plot
 accuracy %>%
   mutate(sample = as.factor(sample) %>% fct_relevel("prop", "ten", "twenty", "half")) %>%
@@ -306,11 +254,13 @@ accuracy %>%
   scale_fill_viridis_d()
 ```
 
-Same problem as Kmeans.  
+<img src="newprod_ml_unsupervised_files/figure-markdown_github/heirarchical-2.png" width="90%" />
 
-####c. Bayesian
+Same problem as Kmeans.
 
-```{r bclust, eval = FALSE}
+#### c. Bayesian
+
+``` r
 #Store method vector
 bclust.df <- sample.df %>%
   mutate(
@@ -350,12 +300,6 @@ bclust.df %>%
   facet_wrap(~metric, ncol = 2, nrow = 1, scales = "free_x") +
   scale_colour_viridis_d() +
   scale_fill_viridis_d()
-
 ```
 
-####d. Latent Dirichlet Allocation
-
-```{r}
-
-
-```
+#### d. Latent Dirichlet Allocation
