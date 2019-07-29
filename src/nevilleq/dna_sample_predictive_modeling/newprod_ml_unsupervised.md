@@ -27,7 +27,7 @@ sample.df <- list.files(path = file.path) %>%
     data        = map(.x = file_path, ~read_rds(.x) %>% as_tibble()),
     subject     = map(.x = data, ~.x %>% dplyr::select(subject_code_ns) %>% 
                                   mutate(subject_code_ns = as.factor(subject_code_ns))),
-    data        = map2(.x = data, .y = subject, ~bind_cols(make_dtm(.x, 40), .y) %>%
+    data        = map2(.x = data, .y = subject, ~bind_cols(as_tibble(make_dtm(.x, 40)), .y) %>%
                                                  dplyr::select(subject_code_ns, everything())),
     train       = map(.x = data, ~.x[train.samp, ]),
     test        = map(.x = data, ~.x[setdiff(1:N, train.samp), ])
@@ -303,3 +303,100 @@ bclust.df %>%
 ```
 
 #### d. Latent Dirichlet Allocation
+
+##### i. Exploration
+
+``` r
+remove_zeroes <- function(x) {
+  ifelse(which(x[ ,-1] %>% apply(., 1, function(y) {all(y == 0)})) %>% is_empty(),
+       return(x),
+       return(x %>%
+              slice(-(which(x[, -1] %>% apply(., 1, function(y) {all(y == 0)})))))
+       )
+}
+
+lda.df <- sample.df %>%
+  mutate(
+    data      = map(.x = data, ~remove_zeroes(.x)),
+    lda       = map(.x = data, 
+               ~LDA(.x[ ,-1], k = 2, control = list(seed = 2019))),
+    lda_probs = map(.x = lda, ~tidytext::tidy(.x, matrix = "gamma") %>%
+                               spread(topic, gamma)),
+    lda_preds = map(.x = lda_probs, ~ifelse(.x$`2` > 0.5, 2, 1)),
+    cluster   = map2_dbl(.x = data, 
+                         .y = lda_preds, 
+                         ~which.max(
+                              c(mean((.y == 1) == .x$subject_code_ns),
+                              mean((.y == 2) == .x$subject_code_ns))
+                              )
+                         ),
+    logical   = map(.x = lda_preds, .y = cluster, ~(.x == .y)),
+    Accuracy  = map2_dbl(.x = logical, .y = data, ~mean(.x == .y$subject_code_ns)) 
+  )
+
+
+lda.df %>%
+  select(sample, Accuracy) %>%
+  mutate(sample = as.factor(sample) %>%
+                  forcats::fct_relevel("prop", "ten", "twenty", "half")) %>%
+  knitr::kable()
+```
+
+| sample |   Accuracy|
+|:-------|----------:|
+| half   |  0.5040000|
+| prop   |  0.5626881|
+| ten    |  0.5840000|
+| twenty |  0.4664665|
+
+##### ii. Prediction
+
+Alternate method to assess the LDA topic modeling as a predictive model.
+
+``` r
+#Store desired filepath
+file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
+
+#Test train sample
+train.split <- 0.8
+N <- 1000
+set.seed(2019)
+train.samp <- sample(1:N, train.split * N, replace = FALSE)
+
+#Create tibble of each sample data identified by the variable 'sample', stored in the variable 'data'
+sample.df <- list.files(path = file.path) %>%
+  enframe() %>%
+  rename(file_path = value) %>%
+  filter(file_path %>% str_detect(".RDS")) %>%
+  mutate(
+    sample      = str_split_fixed(file_path, "_", 5)[ ,4],
+    file_path   = str_c(file.path, file_path),
+    data        = map(.x = file_path, ~read_rds(.x) %>% as_tibble()),
+    subject     = map(.x = data, ~.x %>% dplyr::select(subject_code_ns) %>% 
+                                  mutate(subject_code_ns = as.factor(subject_code_ns))),
+    data        = map2(.x = data, .y = subject, ~bind_cols(make_dtm(.x, 40), .y) %>%
+                                                 dplyr::select(subject_code_ns, everything())),
+    train       = map(.x = data, ~.x[train.samp, ]),
+    test        = map(.x = data, ~.x[setdiff(1:N, train.samp), ])
+  )
+```
+
+``` r
+lda.df <- sample.df %>%
+  mutate(
+    lda       = map(.x = train, 
+               ~FitLdaModel(.x[ ,-1], k = 2, method = "gibbs", iterations = 500, burnin = 100))),
+    lda_probs = map(.x = lda, ~tidytext::tidy(.x, matrix = "gamma") %>%
+                               spread(topic, gamma)),
+    lda_preds = map(.x = lda_probs, ~ifelse(.x$`2` > 0.5, 2, 1)),
+    cluster   = map2_dbl(.x = data, 
+                         .y = lda_preds, 
+                         ~which.max(
+                              c(mean((.y == 1) == .x$subject_code_ns),
+                              mean((.y == 2) == .x$subject_code_ns))
+                              )
+                         ),
+    logical   = map(.x = lda_preds, .y = cluster, ~(.x == .y)),
+    Accuracy  = map2_dbl(.x = logical, .y = data, ~mean(.x == .y$subject_code_ns)) 
+  )
+```
