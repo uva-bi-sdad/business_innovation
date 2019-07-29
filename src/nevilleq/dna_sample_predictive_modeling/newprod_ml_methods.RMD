@@ -145,6 +145,7 @@ train.samp <- sample(1:N, train.split * N, replace = FALSE)
 sample.df <- list.files(path = file.path) %>%
   enframe() %>%
   rename(file_path = value) %>%
+  filter(file_path %>% str_detect(".RDS")) %>%
   mutate(
     sample      = str_split_fixed(file_path, "_", 5)[ ,4],
     file_path   = str_c(file.path, file_path),
@@ -170,8 +171,8 @@ export.df <- bind_rows(export.df %>%
                        export.df %>%
                          filter(subject_code_ns == FALSE) %>%
                          slice(sampling[[2]]))
-write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.RDS")
-write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.json")
+#write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.RDS")
+#write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.json")
 
 
 #Read and check for similarities  
@@ -187,8 +188,8 @@ export.df <- bind_rows(export.df %>%
                          filter(subject_code_ns == FALSE) %>%
                          slice(sampling[[2]]))
 export.df <- export.df[sample(1:nrow(export.df)), ]
-write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_1000_sample.RDS")
-write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_1000_sample.json")
+#write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_1000_sample.RDS")
+#write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_1000_sample.json")
 
 #new.data <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_750_sample.RDS")
 #old.data <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.RDS")

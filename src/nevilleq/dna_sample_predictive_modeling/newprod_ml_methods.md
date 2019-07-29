@@ -59,6 +59,7 @@ train.samp <- sample(1:N, train.split * N, replace = FALSE)
 sample.df <- list.files(path = file.path) %>%
   enframe() %>%
   rename(file_path = value) %>%
+  filter(file_path %>% str_detect(".RDS")) %>%
   mutate(
     sample      = str_split_fixed(file_path, "_", 5)[ ,4],
     file_path   = str_c(file.path, file_path),
@@ -75,15 +76,45 @@ sample.df <- list.files(path = file.path) %>%
 #Write out another split of size 500 @ 50/50
 export.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/2019_7_23_half_sample.RDS")
 set.seed(2019)
-sampling  <- list(sample(1:500, 250, replace = FALSE), sample(1:500, 250, replace = FALSE))
+N <- 750
+n <- N/2
+sampling  <- list(sample(1:N/2, n, replace = FALSE), sample(1:N/2, n, replace = FALSE))
 export.df <- bind_rows(export.df %>%
                          filter(subject_code_ns == TRUE) %>%
                          slice(sampling[[1]]),
                        export.df %>%
                          filter(subject_code_ns == FALSE) %>%
                          slice(sampling[[2]]))
-#write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_500_sample.RDS")
-#write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_500_sample.json")
+#write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.RDS")
+#write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.json")
+
+
+#Read and check for similarities  
+export.df <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/2019_7_23_half_sample.RDS") 
+
+N <- 1000
+set.seed(2019)
+sampling  <- list(sample(1:(N/2), N/2, replace = FALSE), sample(1:(N/2), N/2, replace = FALSE))
+export.df <- bind_rows(export.df %>%
+                         filter(subject_code_ns == TRUE) %>%
+                         slice(sampling[[1]]),
+                       export.df %>%
+                         filter(subject_code_ns == FALSE) %>%
+                         slice(sampling[[2]]))
+export.df <- export.df[sample(1:nrow(export.df)), ]
+#write_rds(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_1000_sample.RDS")
+#write_json(export.df, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_1000_sample.json")
+
+#new.data <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_750_sample.RDS")
+#old.data <- read_rds("./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_24_500_sample.RDS")
+
+#Check unique, proportion new prod/serv
+#new.data[-c(which(new.data$an %in% old.data$an)), ]$an %>% unique()
+#new.data[-c(which(new.data$an %in% old.data$an)), ]$subject_code_ns %>% mean()
+
+#Overwrite for new set
+#write_rds(new.data, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_750_sample.RDS")
+#write_json(new.data, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_25_750_sample.json")
 ```
 
 2. Machine Learning Methods
@@ -381,13 +412,3 @@ In progress.
 #### f. Supervised Learning Conclusion
 
 Given the baseline performance of the penalized generalized linear model (section a.), we observed significant improvement in accuracy and ROC AUC, with decreased cost, in both the random forest and gradient (tree) boosting machine models. With respect to the tree based models, it is unclear which method is outperforming the other, and it is our reccomendation that we instead use an ensemble method, averaging the predicted probability given by each model to produce a final predicted probability for classification. This ensemble methodolgy utilizes the "wisdom of the masses" in the sense that while two models generate different predictions and are driven by different sources of variance within these data, taking the average predictions of both theoretically generates a "sum" or whole" prediction that is an improvement upon each of individual parts.
-
-### ii. Unsupervised
-
-#### a. K-means
-
-#### b. Heirarchical
-
-#### c. Bayesian
-
-#### d. Latent Dirichlet Allocation

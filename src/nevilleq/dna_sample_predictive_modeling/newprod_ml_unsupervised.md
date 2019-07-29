@@ -353,6 +353,8 @@ lda.df %>%
 
 Alternate method to assess the LDA topic modeling as a predictive model.
 
+Need to restructure data to have comaptible data structures for the LDA prediction.
+
 ``` r
 #Store desired filepath
 file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
@@ -372,31 +374,111 @@ sample.df <- list.files(path = file.path) %>%
     sample      = str_split_fixed(file_path, "_", 5)[ ,4],
     file_path   = str_c(file.path, file_path),
     data        = map(.x = file_path, ~read_rds(.x) %>% as_tibble()),
-    subject     = map(.x = data, ~.x %>% dplyr::select(subject_code_ns) %>% 
-                                  mutate(subject_code_ns = as.factor(subject_code_ns))),
-    data        = map2(.x = data, .y = subject, ~bind_cols(make_dtm(.x, 40), .y) %>%
-                                                 dplyr::select(subject_code_ns, everything())),
+    subject     = map(.x = data, ~.x$subject_code_ns %>% 
+                                  as.factor()),
+    data        = map(.x = data, 
+                       ~CreateDtm(doc_vec = .x$body,
+                                  doc_names = .x$an,
+                                  ngram_window = c(1, 1),
+                                  stopword_vec = c(stopwords::stopwords("en"),
+                                                   stopwords::stopwords(source = "smart")),
+                                  verbose = FALSE,
+                                  cpus = 4)),
+    data        = map(.x = data, ~.x[ ,colSums(.x) >= 20]),
     train       = map(.x = data, ~.x[train.samp, ]),
-    test        = map(.x = data, ~.x[setdiff(1:N, train.samp), ])
+    train_ns    = map(.x = subject, ~.x[train.samp]),
+    test        = map(.x = data, ~.x[-train.samp, ]),
+    test_ns     = map(.x = subject, ~.x[-train.samp])
   )
 ```
 
+Here we employ the method, using a gibbs sampler with fixed iteration and burn in period to estimate that latent probabilities of a given document falling into a particular class. The longer the iteration period (and proportionally the burn in period), you are more likely to get optimal classification probabilities and prediction power.
+
 ``` r
+#Iteration and burnin for gibbs sampler
+iter <- 500
+burn <- 250
+
+#LDA data frame
 lda.df <- sample.df %>%
   mutate(
     lda       = map(.x = train, 
-               ~FitLdaModel(.x[ ,-1], k = 2, method = "gibbs", iterations = 500, burnin = 100))),
-    lda_probs = map(.x = lda, ~tidytext::tidy(.x, matrix = "gamma") %>%
-                               spread(topic, gamma)),
-    lda_preds = map(.x = lda_probs, ~ifelse(.x$`2` > 0.5, 2, 1)),
-    cluster   = map2_dbl(.x = data, 
-                         .y = lda_preds, 
+                    ~FitLdaModel(.x, k = 2, method = "gibbs",
+                                 iterations = iter, burnin = burn,
+                                 optimize_alpha = TRUE)),
+    cluster   = map(.x = lda, ~ifelse(.x$theta[,2] > 0.5, 2, 1)),
+    cluster   = map2_dbl(.x = train_ns, 
+                         .y = cluster, 
                          ~which.max(
-                              c(mean((.y == 1) == .x$subject_code_ns),
-                              mean((.y == 2) == .x$subject_code_ns))
+                              c(mean((.y == 1) == .x),
+                              mean((.y == 2) == .x))
                               )
                          ),
-    logical   = map(.x = lda_preds, .y = cluster, ~(.x == .y)),
-    Accuracy  = map2_dbl(.x = logical, .y = data, ~mean(.x == .y$subject_code_ns)) 
+    lda_probs = map2(.x = lda,
+                      .y = test,
+                      ~predict(.x, .y, k = 2, method = "gibbs", iterations = iter, burnin = burn)),
+    lda_preds = map2(.x = lda_probs, .y = cluster, ~ifelse(.x[,.y] > 0.5, TRUE, FALSE)),
+    Accuracy  = map2_dbl(.x = lda_preds, .y = test_ns, ~mean(.x == .y)) 
   )
 ```
+
+Visualize the results.
+
+``` r
+#Table of Results
+#Accuracy
+lda.df %>%
+  dplyr::select(sample, Accuracy) %>%
+  mutate(sample = as.factor(sample) %>% fct_relevel("prop", "ten", "twenty", "half")) %>%
+  knitr::kable()
+```
+
+| sample |  Accuracy|
+|:-------|---------:|
+| half   |     0.535|
+| prop   |     0.695|
+| ten    |     0.655|
+| twenty |     0.585|
+
+``` r
+#Plot Roc
+plots <- lda.df %>%
+  mutate(
+    lda_probs = map2(.x = lda_probs, .y = cluster, ~.x[, .y]),
+    sample    = sample %>% as.factor() %>% fct_relevel("prop", "ten", "twenty", "half"),
+    roc       = map2(.x = test_ns, .y = lda_probs, ~roc.log(.x, .y)),
+    roc_gg    = map2(.x = roc, .y  = c("Proportional", "Ten", "Twenty", "Half"), 
+                  ~plot.roc(.x, sprintf("LDA %s | AUC: %s", .y, auc(.x) %>% round(4)*100))),
+    cost      = map2(.x = test_ns, .y = lda_probs, ~cost.df(.x, .y)),
+    cost_gg   = map(.x = cost, .y = c("Proportional", "Ten", "Twenty", "Half"), 
+                  ~plot.cost(.x, paste("LDA", .y)))
+  )
+
+#Store GG panels
+lda.roc  <- (plots$roc_gg[[1]] + plots$roc_gg[[2]])   / (plots$roc_gg[[3]] + plots$roc_gg[[4]])
+lda.cost <- (plots$cost_gg[[1]] + plots$cost_gg[[2]]) / (plots$cost_gg[[3]] + plots$cost_gg[[4]])
+
+#Save
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/lda_roc.jpg" , lda.roc)
+```
+
+    ## Saving 7 x 8 in image
+
+``` r
+ggsave("./src/nevilleq/dna_sample_predictive_modeling/new_prod_ml_figures/lda_cost.jpg", lda.cost, width = 8)
+```
+
+    ## Saving 8 x 8 in image
+
+``` r
+#Display
+lda.roc
+```
+
+<img src="newprod_ml_unsupervised_files/figure-markdown_github/unnamed-chunk-6-1.png" width="90%" />
+
+``` r
+lda.cost
+```
+
+<img src="newprod_ml_unsupervised_files/figure-markdown_github/unnamed-chunk-6-2.png" width="90%" />
