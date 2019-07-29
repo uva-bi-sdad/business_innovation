@@ -486,23 +486,29 @@ nrow(dna.3.dt)
 
 #Take Random Stratified Sample of 50/50 NS/Not NS
 #Size
+num.nps <- map_lgl(.x = dna.3.dt$subject_codes_split, ~ c("c22") %in% .x) %>% sum()
+
 N <- 1000
-n <- N/2 %>% ceiling()
+#n <- (1/2 * N)  %>% ceiling()
+#n <- (1/5 * N)  %>% ceiling()
+#n <- (1/10 * N) %>% ceiling()
+n <- (num.nps/nrow(dna.3.dt) * N) %>% ceiling() 
 
 #Sample
 set.seed(2019)
 sample <- c(sample(which(dna.3.dt$subject_code_ns == TRUE), n),
-            sample(which(dna.3.dt$subject_code_ns == FALSE), n)
+            sample(which(dna.3.dt$subject_code_ns == FALSE), 1000 - n)
             )
 
 #Slice and Remove extra variables
 sample.dt <- dna.3.dt %>%
   mutate(subject_codes = subject_codes_split) %>%
   dt_select(-c(industry_codes_empty, subject_codes_split, subject_codes_sec_filter)) %>%
-  slice(sample)
+  slice(sample) %>%
+  as_tibble()
 
 #Write out RDS
-#write_rds(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.RDS")
+write_rds(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/2019_7_23_prop_sample.RDS")
 
 #Mutate and write out json
 #write_json(sample.dt, "./data/working/DNA_Aggregated/Machine_learning_sample/7_15_19_sample_data.json")
