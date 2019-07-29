@@ -98,7 +98,29 @@ colnames(dna.mat) <- unique(reducedWordCount$word)
 
 ##2. Unsupervised Methods (Bag of Words)
 
-```{r message = FALSE, warning = FALSE}
+Here, we utilize the same document term matrix generation procedure, test/train split, and samples of varying proportions of DNA labeled new product or service codes (50%, 20%, 10%, Proportional ~ 7%) to build and analyze unsupervised methods for clustering the data. Unlike the previous supervised models, all of these methods can be exploratory, with two also providing predictive algorithms for a defined outcome. Recalling from the previous document, the methods we are going to investigate take the form:  
+
+However, alternative *unsupervised* exploratory and predictive models can also be built without articles having a defined labeled outcome; exploiting the underlying structure of the article data (through distance, hierarchy, latent factors, etc.) to give further insight and provide potential predictive features/models to supplement the supervised models. We investigated the following *unsupervised* method(s):  
+
+* Bag of Words:  
+Takes a clean corpus of words, document term matrix of frequency, and utilizes an unsupervised clustering algorithm to predict a binary classification of articles into two corresponding groups (New Product/Service vs. Not). Unsupervised clustering algorithms investigated include:
+
+  - K-means Clustering (*Predicted Classification*)
+An algorithm that iteratively calculates centroids and euclidean distance of the article data to those centroids, minimizing the centroid distance to points until convergence. This produces groupings of the data that do not rely on a specific outcome. As a predictive model, we build the clusters on the training set, then, we select whichever cluster has a higher percentage of the desired outcome as the "positive" outcome, calculate which cluster the new test data points fall into, and see how many "positive" outcomes in the testing set were actually grouped into the "positve" cluster. 
+
+  - Hierarchical Clustering  
+Similar to decision trees, this algorithm considers a hierarchical structure to the data, splitting upon chosen measures of distance, and cutting the tree at the desired number of groups to produce the same clustering structure as above. Only used for exploratory analysis. 
+
+  - Bayesian Clustering  
+Similar to the above algorithms, this method also utilizes measures of distance but calculates groupings using the MArkov Chain Monte Carlo method with a conditional prior probability driving the predicted posterior probability of a data point falling into that particular group for group classification. Can be much more useful than the above methods if given an informative (good) prior distribution for the probability of being in a particular group. Only used for exploratory analysis.  
+
+  - Latent Dirichlet Allocation (*Predicted Probabilities*)
+Unlike the previous methods, this utilizes a latent variable clustering algorithm with a conditional expectation probability of being in a particular group. However, unlike the Bayesian method, this algorithm is done using an Expectation Maximization algorithm of the likelihood rather than an MCMC algorithm to describe the predicted probability of a data point falling into a particular latent cluster. Used often in topic modeling, which we are performing here, and has the highest likelihood of being effective given our data and end goal. As a predictive model, this is far more advantageous and flexible than K-means as it utilizes a stochastic chain procedure (uses the data to drive the algorithm) and provides *predicted probabilities* of being in a certain class, not just a classification.  
+
+
+We will evaluate the first three distance-driven algorithms based on Within and Between Cluster Sum of Squares (measures of consistency and separation of a distance-clustering model), as well as accuracy where applicable. For the hierarchical models that cannot be used as predictive models, we fit the model to the entire data set and simply calculate how many "positive" articles actually ended up in the "positive" cluster, giving us a sense of whether or not the algorithm is specifically picking up the difference between "positive" articles or not (by seperation into clusters). Finally, for the Latent Dirichlet Allocation clustering method, we will analyze this method as both exploratory (like the hierarchical model analysis) and predictive (just like in the previous supervised methods section).  
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
 #Store desired filepath
 file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
 
@@ -140,6 +162,8 @@ sample.df <- sample.df %>%
 ```
 
 ####a. K-means  
+
+Below, we analyze the predictive capabality of the $k$-means algorithm through consistency (within sum of squares), separation (between sum of squares), and predictive accuracy (proportion of correct predictions).  
 
 ```{r predict_k_means, echo = FALSE}
 predict.kmeans <- function(object,
@@ -227,6 +251,8 @@ The kmeans models do not appear to be seperating particularly well, and are perf
 
 ####b. Heirarchical  
 
+As an exploratory method, we will fit 6 different hierarchical clustering models to the entire data, each utilizing one of the following metrics to calculate distance: average, complete, single, McQuitty, median, or centroid. Further analysis consisted of comparing cluster consistency (within sum of squares) and overall ability to separate into "positive" and "negative" new product/services clusters ("accuracy" - number of "positive" articles in the "positive" cluster).  
+
 ```{r, heirarchical}
 #Store method vector
 methods <- c("average", "complete", "single", "mcquitty", "median", "centroid")
@@ -311,9 +337,11 @@ accuracy %>%
   scale_fill_viridis_d()
 ```
 
-Same problem as Kmeans.  
+Similarly to $k$-means above, this method is performing quite horribly at both creating consistent clusters (high within sum of squares) or seperating clearly into new product/service "positive" vs. "negative" clusters. Put simply, it is doing only marginally better than flipping a coin, using the empirical "positive" proportion as a model, or simply grouping every observation into the "negative" cluster (high "accuracy" when proportion of "positives" is small).    
 
-####c. Bayesian
+####c. Bayesian Hierarchical
+
+In similar fashion to the algorithm directly above, we will repeat a mirrored separability analysis; although given the poor performance above it would be unlikely for this method to perform much better. It is a similar hierarchical method with addition of a Bayesian hyperparameter describing the underlying probability of being in one group vs. another. In a setting where hierarchical clustering was useful/separating well, this method ought to be an improvement on the former.  
 
 ```{r bclust, eval = FALSE}
 #Store method vector
@@ -358,8 +386,11 @@ bclust.df %>%
 
 ```
 
+In almost exactly the same fashion as the hierarchical clustering above, we see that this method does lead to a clear separation into "positive" vs. "negative" new product or service article clusters. Further, it actually appears to be performing worse than general hierarchical clustering, which is a bit counterintuitive. Perhaps further time exploring the tuning and fitting of these models is necessary to produce better clustering separation.  
+
 ####d. Latent Dirichlet Allocation
 
+Recalling from the introduction the characteristics of Latent Dirichlet Allocation (LDA), this algorithm affords us the opportunity to both explore the data and be a 'true' predictive model. Unlike $k$-means, which is a quasi-predictive model, LDA outputs a predicted probability that each observation falls into one of $k$ categories. In our case, $k = 2$ and we obtain predicted probabilities that an article falls into one of the two latent variable clusters. For exploration, we fit the model to the entire data and then compute the separation or "accuracy" between articles "positive" or "negative" for new products or services. With respect to prediction, we fit the model to the training set, assign which ever latent cluster has the highest percentage of new product/service articles as the "positive" cluster, and predict on the test set to obtain predicted probabilities of an article falling into the "positive" cluster. These predicted probabilites can then be used to classify the articles and obtain ROC, AUC, and cost metrics for analysis.  
 
 #####i. Exploration  
 
@@ -399,11 +430,11 @@ lda.df %>%
   knitr::kable()
 ```
 
-
+Here, we see that the separation (through "accuracy" on the whole data) is not particularly high for this method. However, we are not seeing the same trend where the algorithm is basically putting everything into one bucket, and in essence predicting that everything will be "negative" at lower proportions of true "positive" values in each DNA article data sample. This is actually a potential positive, because as we extend these methods to articles labeled for innovation (not by DNA), a method such as this may actually be useful.  
 
 #####ii. Prediction  
 
-Alternate method to assess the LDA topic modeling as a predictive model.  
+Alternative methodology to assess the LDA topic modeling as a predictive model. Recall that identical analyses to the previous supervised methods will be applied here.     
 
 
 ```{r diagnostic, echo = FALSE}
@@ -493,7 +524,7 @@ plot.cost <- function(cost.df, charstring) {
 
 ```
 
-Need to restructure data to have comaptible data structures for the LDA prediction.  
+To utilize this method, we must employ different `r` packages to restructure data to have comaptible structures for the LDA prediction from the `textmineR` package vs. `tidytext` and `tm` above.    
 
 ```{r warning = FALSE, message = FALSE, error = FALSE}
 #Store desired filepath
@@ -533,7 +564,7 @@ sample.df <- list.files(path = file.path) %>%
 ```
 
 
-Here we employ the method, using a gibbs sampler with fixed iteration and burn in period to estimate that latent probabilities of a given document falling into a particular class. The longer the iteration period (and proportionally the burn in period), you are more likely to get optimal classification probabilities and prediction power.  
+Here we employ the method, using a gibbs sampler with fixed iteration and burn in period to estimate that latent probabilities of a given document falling into a particular class. The longer the iteration period (and proportionally the burn in period), the more likely one is to obtain optimal classification probabilities and prediction power.  
 
 
 ```{r}
@@ -566,6 +597,8 @@ lda.df <- sample.df %>%
 
 
 Visualize the results.  
+
+
 ```{r fig.height = 8, fig.width = 7}
 #Table of Results
 #Accuracy
@@ -580,10 +613,10 @@ plots <- lda.df %>%
     lda_probs = map2(.x = lda_probs, .y = cluster, ~.x[, .y]),
     sample    = sample %>% as.factor() %>% fct_relevel("prop", "ten", "twenty", "half"),
     roc       = map2(.x = test_ns, .y = lda_probs, ~roc.log(.x, .y)),
-    roc_gg    = map2(.x = roc, .y  = c("Proportional", "Ten", "Twenty", "Half"), 
+    roc_gg    = map2(.x = roc, .y  = c("Half", "Proportional", "Ten", "Twenty"), 
                   ~plot.roc(.x, sprintf("LDA %s | AUC: %s", .y, auc(.x) %>% round(4)*100))),
     cost      = map2(.x = test_ns, .y = lda_probs, ~cost.df(.x, .y)),
-    cost_gg   = map(.x = cost, .y = c("Proportional", "Ten", "Twenty", "Half"), 
+    cost_gg   = map(.x = cost, .y = c("Half", "Proportional", "Ten", "Twenty"), 
                   ~plot.cost(.x, paste("LDA", .y)))
   )
 
@@ -600,3 +633,12 @@ lda.roc
 lda.cost
 
 ```
+
+
+Here we observed some very interesting and unique behavior for LDA models by varying sample, with ROC curves below 0.5 for a probability threshold less than 0.5, and above for thresholds greater than 0.5. This implies that the accuracy measure above is not necessarilly reflective of the predictive capabiltiy of the model, given that a sufficiently high threshold is chosen for "positive" classification. Further, we see that this method, by sample, reaches an optimally minimized cost at a threshold of $p = 1$, meaning that every new observation is simply classified as false. That is a bit concerning, but the model still holds promise for alternative classification of innovation labeled articles vs. DNA labeling of new product/service.  
+
+####e. Conclusion  
+
+Overall, none of these methods were convincing in their effectiveness, usefulness, or compability to aid in separating and classifying these DNA news articles into new product/service articles vs. not (according to DNA's own labeling system). However, that does not mean that the exercise has been useless. We have observed and recorded the temperment of each method given our specific data, seeing where each method is potentially strong or weak. Moving forward, we would recommend that for the innovation labeled articles, we investigate both $k$-means and LDA as predictive algorithms (Bag of Words). It is unclear whether hierarchical modeling is useful at all given these data, but those methods will likewise be investigated. Changing the outcome from new product/service to innovation may greatly change the results for both the supervised and unsupervised methodology. 
+
+

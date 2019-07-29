@@ -8,12 +8,6 @@ Introduction
 
 This paper outlines the building, testing, evaluation, and recommendation for building predictive models from a random sample of DNA (2015) articles. The outcome of interest concerns whether or not an article is labeled (by DNA's mixture of dictionary and machine learning) as pertaining to a New Product or Service, or not. In this context, we will consider the following *supervised* models:
 
--   Bag of Words:
-    Takes a clean corpus of words, document term matrix of frequency, and utilizes an unsupervised clustering algorithm to predict a binary classification of articles into two corresponding groups (New Product/Service vs. Not).
-
--   Support Vector Machines
-    Geometrically elegant classifier with generally high precision.
-
 -   Penalized Generalized Linear Model
     Logistic regression generating predicted probabilities for a binary classifier, parametric (Binomial Distribution), with penalization and shrinkage parameters to adjust for number of features (words in articles).
 
@@ -23,10 +17,16 @@ This paper outlines the building, testing, evaluation, and recommendation for bu
 -   Gradiant Boosting Machine (Trees)
     Similar to random forest, however the bag of trees being built is not independent; rather each tree is built based on the performance of the previous one, allowing for a learning rate as the forest grows. Same outcome as random forest.
 
+-   Support Vector Machines
+    Geometrically elegant classifier with generally high precision, however it is computationally costly to tune and very dependent on tuning to be a good clasifier. If technical issues (convergence, tuning grid, etc.) can be ameliorated, should provide a robust binary text classifier.
+
 -   Neural Network
     Extremely flexible network of interconnected nodes, performing gradient descent linear models between nodes, to create probablistically likely paths through the network of features ultimately leading to a probability threshold for binary classification.
 
-The main feature of these methods is that require a labeled outcome to be built and optimized, with the result being a direct correspondence to a predicted probability of belonging to said label class (New Product or Service). However, alternative *unsupervised* exploratory and predictive models can also be built without articles having a defined labeled outcome; exploiting the underlying structure of the article data (through distance, hierarchy, latent factors, etc.) to give further insight and provide potential predictive features/models to supplement the supervised models. We investigated the following *unsupervised* methods:
+The main feature of these methods is that require a labeled outcome to be built and optimized, with the result being a direct correspondence to a predicted probability of belonging to said label class (New Product or Service). However, alternative *unsupervised* exploratory and predictive models can also be built without articles having a defined labeled outcome; exploiting the underlying structure of the article data (through distance, hierarchy, latent factors, etc.) to give further insight and provide potential predictive features/models to supplement the supervised models. We investigated the following *unsupervised* method(s):
+
+-   Bag of Words:
+    Takes a clean corpus of words, document term matrix of frequency, and utilizes an unsupervised clustering algorithm to predict a binary classification of articles into two corresponding groups (New Product/Service vs. Not). Unsupervised clustering algorithms investigated include:
 
 -   K-means Clustering
     An algorithm that iteratively calculates centroids and euclidean distance of the article data to those centroids, minimizing the centroid distance to points until convergence. This produces groupings of the data that do not rely on a specific outcome.
