@@ -101,28 +101,30 @@ colnames(dna.mat) <- unique(reducedWordCount$word)
 ```{r diagnostic_funcs, echo = FALSE}
 #ROC
 roc.log <- function(test, preds){
-  probs <- seq(0,1,by=0.01)
-  roc.log <- matrix(0,nrow=length(probs),ncol=2)
-  result <- test$subject_code_ns %>% as.logical()
+  probs   <- seq(0, 1, by = 0.01)
+  roc.log <- matrix(0, nrow = length(probs), ncol = 2)
+  result  <- test$subject_code_ns %>% as.logical()
   i <- 1
   for(p in probs){
-    pred <- preds > p
+    pred         <- preds > p
     ##False positive rate
-    false.pos <- sum(!result & pred)/sum(!result)
+    false.pos    <- sum(!result & pred)/sum(!result)
     ##True postive rate
-    true.pos <- sum(result & pred)/sum(result)
+    true.pos     <- sum(result & pred)/sum(result)
     roc.log[i, ] <- c(false.pos, true.pos)
     i <- i + 1  
   }
-  return(roc.log)
+  roc.log <- apply(roc.log, 2, rev)
+  colnames(roc.log) <- c("FP", "TP")
+  return(as_tibble(roc.log))
 }
 
 #Plot ROC
 plot.roc <- function(roc.log, charstring){
-  data.frame(FP = rev(roc.log[ ,1]), TP=rev(roc.log[ ,2])) %>% 
+  data.frame(FP = rev(roc.log[ ,1]), TP = rev(roc.log[ ,2])) %>% 
     ggplot()+
-    geom_point(aes(FP, TP), color="red", size=.5) +
-    geom_line(aes(FP, TP), color="blue") +
+    geom_point(aes(FP, TP), color = "red", size = .5) +
+    geom_line(aes(FP, TP), color = "blue") +
     geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
     labs(
       x = "False Positive",
@@ -132,7 +134,7 @@ plot.roc <- function(roc.log, charstring){
 }
 
 #Calculate AUC
-auc <- function(roc){
+auc_func <- function(roc){
   len <- nrow(roc)
   ##The "delta X" values
   delta <- roc[-1,1]-roc[-len,1]
@@ -155,7 +157,7 @@ cost.func <- function(t, p){
 
 #Cost.min 
 cost.df <- function(test, preds) {
-  probs  <- seq(0,1,by=0.01)
+  probs  <- seq(0, 1, by=0.01)
   result <- test$subject_code_ns %>% as.logical()
   cost   <- vector(mode = "numeric", length = length(probs))
   i <- 1
@@ -189,6 +191,15 @@ predict.kmeans <- function(object,
   }
 }
 
+lda_predict <- function(lda, new.data) {
+    #find which cluster has more postive response
+    cluster <- ifelse(lda$theta[,2] > 0.5, 2, 1)
+    cluster <- which.max(c(mean((cluster == 1) == new.data[ ,1]),
+                          mean((cluster == 2) == new.data[ ,1])))
+    #Return Predicted Probability of positive response
+    list(lda = predict(lda, new.data, k = 2, method = "gibbs", iterations = iter, burnin = burn)[ ,cluster])
+      }
+
 wss <- function(d) {
   sum(scale(d, scale = FALSE)^2)
 }
@@ -201,33 +212,282 @@ wrap <- function(hcluster.obj, data) {
 }
 ```
 
-#1. Read, Tidy, and Format the Data
+#1. Read, Tidy, and Split the Data
 
 ```{r warning = FALSE, message = FALSE}
-#Store desired filepath
-file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
-
 #Test train sample
 train.split <- 0.8
 N <- 1000
 set.seed(2019)
 train.samp <- sample(1:N, train.split * N, replace = FALSE)
 
+#Data read
+dna.df <- readRDS("./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/2019_7_23_half_sample.RDS")
+
 #Create tibble of each sample data identified by the variable 'sample', stored in the variable 'data'
-sample.df <- list.files(path = file.path) %>%
-  enframe() %>%
-  rename(file_path = value) %>%
-  filter(file_path %>% str_detect(".RDS")) %>%
-  mutate(
-    sample      = str_split_fixed(file_path, "_", 5)[ ,4],
-    file_path   = str_c(file.path, file_path),
-    data        = map(.x = file_path, ~read_rds(.x) %>% as_tibble()),
-    subject     = map(.x = data, ~.x %>% dplyr::select(subject_code_ns) %>% 
-                                  mutate(subject_code_ns = as.factor(subject_code_ns))),
-    data        = map2(.x = data, .y = subject, ~bind_cols(as_tibble(make_dtm(.x, 40)), .y) %>%
-                                                 dplyr::select(subject_code_ns, everything())),
-    train       = map(.x = data, ~.x[train.samp, ]),
-    test        = map(.x = data, ~.x[setdiff(1:N, train.samp), ])
-  ) %>%
-  dplyr::select(-file_path)
+sample.df <- bind_cols(dna.df %>% 
+                         make_dtm(., 40) %>%
+                         as_tibble(),
+                       dna.df %>% dplyr::select(subject_code_ns) %>%
+                         mutate(subject_code_ns = as.factor(subject_code_ns))) %>%
+             dplyr::select(subject_code_ns, everything())
+
+#Test train split
+train.df <- sample.df %>% slice(train.samp)
+test.df  <- sample.df %>% slice(-train.samp)
+
+#LDA Sample.df & test/train (different data format)
+lda.sample <- CreateDtm(doc_vec = dna.df$body,
+                                  doc_names = dna.df$an,
+                                  ngram_window = c(1, 1),
+                                  stopword_vec = c(stopwords::stopwords("en"),
+                                                   stopwords::stopwords(source = "smart")),
+                                  verbose = FALSE,
+                                  cpus = 4)
+lda.sample <- lda.sample[ ,colSums(lda.sample) >= 40]
+train.lda  <- lda.sample[ train.samp, ]
+test.lda   <- lda.sample[-train.samp, ]
 ```
+
+#2. Tune and Fit Models
+
+```{r}
+#LDA Gibbs Parameters (iterations should be 1000, testing is needed for proper burn in paramter)
+iter <- 300
+burn <- 200
+
+#Fit Models
+a <- Sys.time()
+mod.list <- list(
+  glm = train(subject_code_ns ~ ., data = train.df, method = "glmnet", family = "binomial",
+             trControl = trainControl(method = "cv", number = 5)),
+  rf  = train(subject_code_ns ~ ., data = train.df, method = "rf", family = "bernoulli",
+             trControl = trainControl(method = "cv", number = 5)),
+  gbm = train(subject_code_ns ~ ., data = train.df, distribution = "bernoulli", method = "gbm",
+             trControl = trainControl(method = "cv", number = 5)),
+  #svm = ,
+  #nn  = ,
+  lda   = FitLdaModel(train.lda, k = 2, method = "gibbs",
+                                 iterations = iter, burnin = burn,
+                                 optimize_alpha = TRUE)
+  )
+
+b <- Sys.time()
+(b - a)
+
+pred.df <- tibble(
+  model = names(mod.list),
+  fit   = mod.list,
+  type  = c(rep("Supervised", 3), "Unsupervised"),
+  preds = c(map(mod.list[-4], ~predict(.x, newdata = test.df, type = "prob")[ ,2]), lda_predict(mod.list[[4]], test.lda))
+)
+```
+
+
+#3. Diagnostics 
+
+####a. Reciever Operator Characteristic Curves (AUC)
+```{r message = FALSE}
+#ROC
+pred.df <- pred.df %>%
+  mutate(
+    roc = map(preds, ~roc.log(test.df, .x)),
+    auc = map_dbl(roc, auc_func),
+    model = as.factor(model) %>% fct_reorder(., auc)
+  ) 
+
+roc.gg <- pred.df %>%
+  mutate(
+    roc = map(preds, ~roc.log(test.df, .x)),
+    auc = map_dbl(roc, auc_func),
+    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(., auc)
+  ) %>%
+  unnest(roc) %>%
+  ggplot(aes(x = FP, y = TP, colour = model)) +
+  geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
+  geom_step(size = 1.2, alpha = 0.4) +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.8) +
+#  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
+  labs(
+    x = "False Positive Rate",
+    y = "True Positive Rate",
+    title = "ROC Curves by Model"
+  ) + 
+  scale_colour_viridis_d("Model") +
+  theme(legend.position = "bottom")
+
+roc.gg
+```
+
+```{r echo = FALSE, include = FALSE}
+ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_roc.jpg", roc.gg)
+```
+
+####b. Cost 
+
+```{r message = FALSE}
+#Cost
+pred.df <- pred.df %>%
+  mutate(
+    cost = map(preds, ~cost.df(test.df, .x))
+  ) 
+
+cost.gg <- pred.df %>%
+  mutate(
+    model = as.factor(model)
+  ) %>%
+  unnest(cost) %>%
+  mutate(model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(cost, min)) %>%
+  ggplot(aes(x = probability, y = cost, colour = model)) +
+  geom_step(size = 1.2, alpha = 0.4) +
+#  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.6) +
+  labs(
+    x = "Probability Threshold",
+    y = "Cost",
+    title = "False Negative Adverse Cost by Model"
+  ) +
+  scale_colour_viridis_d("Model")
+```
+
+
+```{r echo = FALSE, include = FALSE}
+ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_cost.jpg", cost.gg)
+```
+
+
+#4. Final Cost Optimized Result
+
+Accuracy, precision, recall
+```{r}
+#test.df <- test.df %>%
+#  mutate(
+#    subject_code_ns = as.logical(subject_code_ns)
+#  )
+
+accuracy <- function(preds, threshold) {
+  
+  mean((preds > threshold) == test.df[,1])
+
+  }
+
+precision <- function(preds, threshold) {
+  
+  preds     <- preds > threshold
+  true.pos  <- sum(preds & test.df[,1])
+  false.pos <- sum(preds & !test.df[,1])
+  return(true.pos / (true.pos + false.pos))
+
+}
+
+recall <- function(preds, threshold) {
+  
+  preds     <- preds > threshold
+  true.pos  <- sum(preds & test.df[,1])
+  false.neg <- sum(!preds & test.df[,1])
+  return(true.pos / (true.pos + false.neg))
+  
+}
+
+opt.result <- pred.df %>%
+  mutate(
+    min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
+    accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~accuracy(.x, .y)),
+    precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~precision(.x, .y)),
+    recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~recall(.x, .y))
+  ) 
+
+opt.result %>%
+  dplyr::select(model, accuracy:recall) %>%
+  mutate(
+    model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm")
+  ) %>%
+  rename(Model = model, Accuracy = accuracy, Precision = precision, Recall = recall) %>%
+  knitr::kable(digits = 3)
+```
+
+#5. Internal Validation
+
+
+####a. Set up Parallelizing
+```{r}
+#Repeated Train/Test split
+n.boot       <- 100
+boot.resamps <- list()
+
+#Create n.boot bootstrapped sample indices ("training set")
+for(i in 1:n.boot) { 
+  boot.resamps[[i]] <- sample(1:N, N, replace = TRUE)
+}
+#Find the out of bag observations (not in the boot samp, these are "test")
+out.of.bag <- map(.x = 1:n.boot, ~setdiff(1:N, boot.resamps[[.x]]))
+
+boot_diagnostics <- function(i) {
+  
+  mod.list <- list(
+  glm = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], method = "glmnet", family = "binomial",
+             trControl = trainControl(method = "cv", number = 5)),
+  rf  = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], method = "rf", family = "bernoulli",
+             trControl = trainControl(method = "cv", number = 5)),
+  gbm = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], distribution = "bernoulli", method = "gbm",
+             trControl = trainControl(method = "cv", number = 5)),
+  #svm = ,
+  #nn  = ,
+  lda   = FitLdaModel(lda.sample[boot.resamps[[i]], ], k = 2, method = "gibbs",
+                                 iterations = iter, burnin = burn,
+                                 optimize_alpha = TRUE)
+  )
+  
+  pred.df <- tibble(
+  model = names(mod.list),
+  fit   = mod.list,
+  type  = c(rep("Supervised", 3), "Unsupervised"),
+  preds = c(map(mod.list[-4], ~predict(.x, newdata = sample.df[out.of.bag[[i]], ], type = "prob")[ ,2]), lda_predict(mod.list[[4]], lda.sample[out.of.bag[[i]], ]))
+  )
+  
+  opt.result <- pred.df %>%
+  mutate(
+    min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
+    accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~accuracy(.x, .y)),
+    precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~precision(.x, .y)),
+    recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~recall(.x, .y))
+  ) 
+
+return(opt.result %>% dplyr::select(model, accuracy:recall, auc))
+  
+}
+```
+
+####b. Parallelize Out of Bag Results
+```{r}
+nCores <- 10
+#taskFun <- boot.lasso
+#taskFun <- boot.ridge
+#taskFun <- boot.pen.reg
+#taskFun <- boot.lm
+
+registerDoParallel(nCores)
+
+combine <- function(x, ...) {  
+  mapply(rbind, x, ..., SIMPLIFY = FALSE)
+}
+
+#100 X 10 = 1000 iterations
+result.glmnet <- foreach(i = 1:1000, .combine = combine, .multicombine = TRUE,
+                         .packages = c("dplyr", "glmnet", "caret", "elasticnet")) %dopar% {
+  outSub <- taskFun(hdd.df, n.boot = 1)
+  list(coefficients = outSub$coefficients, lambda = outSub$lambda, boot.selected = outSub$boot.selected, alpha = outSub$alpha)
+} 
+result.glmnet[[3]] <- result.glmnet[[3]] %>% t()
+
+
+```
+
+
+
