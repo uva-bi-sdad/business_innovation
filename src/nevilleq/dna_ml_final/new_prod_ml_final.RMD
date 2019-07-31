@@ -1,0 +1,233 @@
+---
+title: "Final New Product ML"
+author: "Quinton Neville"
+date: "7/31/2019"
+output:
+    github_document: default
+    html_document: default
+---
+  
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+library(caret)
+library(tm)
+library(e1071)
+library(patchwork)
+library(topicmodels)
+library(broom)
+library(tidytext)
+library(textmineR)
+library(doParallel)
+library(iterators)
+library(foreach)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+```{r dtm_func, echo = FALSE}
+#Function to transform data into Document Term Matrix
+make_dtm <- function(dna.df, min.threshold) { 
+
+###Transfrom Body Text into a corpus and clean
+dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
+  tm_map(content_transformer(tolower)) %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(removeWords, c("the", "and", stopwords("english"))) %>%
+  tm_map(stripWhitespace)
+
+#Document Term Matrix
+dna.dtm.df  <- DocumentTermMatrix(dna.corpus)
+
+#Outcome
+new.product <- dna.df$subject_code_ns
+
+#Add Outcome to Document Matrix
+dna.doc.dt  <- data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
+  merge(data.table(doc = seq_along(new.product), new_product = new.product))
+
+
+# This gives how many words appear a given number of times in total
+wordTable   <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
+
+# We require a word to appear at least this many times to be included in the analysis
+minWordCountThreshold <- min.threshold
+survivorWords    <- wordTable[count >= minWordCountThreshold, word]
+
+# Now we look at words broken out by topic
+reducedWordCount <- dna.doc.dt[word %in% survivorWords]
+reducedWordCount <- data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
+
+# Turn into a long format matrix
+dna.mat <- matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
+for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
+
+#Names
+#rownames(dna.mat) <- paste0('doc', 1:nrow(dna.mat))
+colnames(dna.mat) <- unique(reducedWordCount$word)
+
+  return(dna.mat)
+}
+```
+
+
+```{r diagnostic_funcs, echo = FALSE}
+#ROC
+roc.log <- function(test, preds){
+  probs <- seq(0,1,by=0.01)
+  roc.log <- matrix(0,nrow=length(probs),ncol=2)
+  result <- test$subject_code_ns %>% as.logical()
+  i <- 1
+  for(p in probs){
+    pred <- preds > p
+    ##False positive rate
+    false.pos <- sum(!result & pred)/sum(!result)
+    ##True postive rate
+    true.pos <- sum(result & pred)/sum(result)
+    roc.log[i, ] <- c(false.pos, true.pos)
+    i <- i + 1  
+  }
+  return(roc.log)
+}
+
+#Plot ROC
+plot.roc <- function(roc.log, charstring){
+  data.frame(FP = rev(roc.log[ ,1]), TP=rev(roc.log[ ,2])) %>% 
+    ggplot()+
+    geom_point(aes(FP, TP), color="red", size=.5) +
+    geom_line(aes(FP, TP), color="blue") +
+    geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
+    labs(
+      x = "False Positive",
+      y = "True Positive",
+      title = charstring
+    )
+}
+
+#Calculate AUC
+auc <- function(roc){
+  len <- nrow(roc)
+  ##The "delta X" values
+  delta <- roc[-1,1]-roc[-len,1]
+  ##The "heights" the rectangle (drop the first or last).
+  hgt <- roc[-1,2]
+  ##The Riemann Sum
+  sum(-delta*hgt)
+}
+
+#Calculate Cost
+cost.func <- function(t, p){
+    if(t & !p)
+        return(2) #False positive weight
+    if(!t & p)
+        return(5) #False Negative
+  if(t & p)
+    return(-1) #True Positive prediction
+    return(0)  #True Negative
+}
+
+#Cost.min 
+cost.df <- function(test, preds) {
+  probs  <- seq(0,1,by=0.01)
+  result <- test$subject_code_ns %>% as.logical()
+  cost   <- vector(mode = "numeric", length = length(probs))
+  i <- 1
+  for(p in probs){
+    pred <- preds > p
+  #  frame <- with(test, cbind(as.logical(subject_code_ns), pred))
+    cost[i] <- map2_dbl(.x = result, .y = pred, ~cost.func(.x, .y)) %>% sum()
+    i <- i+1
+  }
+  return(tibble(probability = probs, cost = cost))
+}
+
+```
+
+```{r cluster_func, echo = FALSE}
+predict.kmeans <- function(object,
+                           newdata,
+                           method = c("centers", "classes")) {
+  method <- match.arg(method)
+
+  centers <- object$centers
+  ss_by_center <- apply(centers, 1, function(x) {
+    colSums((t(newdata) - x) ^ 2)
+  })
+  best_clusters <- apply(ss_by_center, 1, which.min)
+
+  if (method == "centers") {
+    centers[best_clusters, ]
+  } else {
+    best_clusters
+  }
+}
+
+wss <- function(d) {
+  sum(scale(d, scale = FALSE)^2)
+}
+
+wrap <- function(hcluster.obj, data) {
+#  mod <- cutree(hcluster.obj, k)
+  spl <- split(data, hcluster.obj)
+  wss <- sum(sapply(spl, wss))
+  wss
+}
+```
+
+#1. Read, Tidy, and Format the Data
+
+```{r warning = FALSE, message = FALSE}
+#Store desired filepath
+file.path <- "./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/"
+
+#Test train sample
+train.split <- 0.8
+N <- 1000
+set.seed(2019)
+train.samp <- sample(1:N, train.split * N, replace = FALSE)
+
+#Create tibble of each sample data identified by the variable 'sample', stored in the variable 'data'
+sample.df <- list.files(path = file.path) %>%
+  enframe() %>%
+  rename(file_path = value) %>%
+  filter(file_path %>% str_detect(".RDS")) %>%
+  mutate(
+    sample      = str_split_fixed(file_path, "_", 5)[ ,4],
+    file_path   = str_c(file.path, file_path),
+    data        = map(.x = file_path, ~read_rds(.x) %>% as_tibble()),
+    subject     = map(.x = data, ~.x %>% dplyr::select(subject_code_ns) %>% 
+                                  mutate(subject_code_ns = as.factor(subject_code_ns))),
+    data        = map2(.x = data, .y = subject, ~bind_cols(as_tibble(make_dtm(.x, 40)), .y) %>%
+                                                 dplyr::select(subject_code_ns, everything())),
+    train       = map(.x = data, ~.x[train.samp, ]),
+    test        = map(.x = data, ~.x[setdiff(1:N, train.samp), ])
+  ) %>%
+  dplyr::select(-file_path)
+```
