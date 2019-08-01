@@ -67,7 +67,7 @@ dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
 dna.dtm.df  <- DocumentTermMatrix(dna.corpus)
 
 #Outcome
-new.product <- dna.df$subject_code_ns
+new.product <- dna.df$innovation
 
 #Add Outcome to Document Matrix
 dna.doc.dt  <- data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
@@ -103,7 +103,7 @@ colnames(dna.mat) <- unique(reducedWordCount$word)
 roc.log <- function(test, preds){
   probs   <- seq(0, 1, by = 0.01)
   roc.log <- matrix(0, nrow = length(probs), ncol = 2)
-  result  <- test$subject_code_ns %>% as.logical()
+  result  <- test$innovation %>% as.logical()
   i <- 1
   for(p in probs){
     pred         <- preds > p
@@ -158,12 +158,12 @@ cost.func <- function(t, p){
 #Cost.min 
 cost.df <- function(test, preds) {
   probs  <- seq(0, 1, by=0.01)
-  result <- test$subject_code_ns %>% as.logical()
+  result <- test$innovation %>% as.logical()
   cost   <- vector(mode = "numeric", length = length(probs))
   i <- 1
   for(p in probs){
     pred <- preds > p
-  #  frame <- with(test, cbind(as.logical(subject_code_ns), pred))
+  #  frame <- with(test, cbind(as.logical(innovation), pred))
     cost[i] <- map2_dbl(.x = result, .y = pred, ~cost.func(.x, .y)) %>% sum()
     i <- i+1
   }
@@ -199,6 +199,7 @@ lda_predict <- function(lda, test.data, train.data) {
     #Return Predicted Probability of positive response
     list(lda = predict(lda, test.data, k = 2, method = "gibbs", iterations = iter, burnin = burn)[ ,cluster])
       }
+
 wss <- function(d) {
   sum(scale(d, scale = FALSE)^2)
 }
@@ -215,25 +216,43 @@ wrap <- function(hcluster.obj, data) {
 
 ```{r warning = FALSE, message = FALSE}
 #Test train sample
-train.split <- 0.8
-N <- 1000
-set.seed(2019)
-train.samp <- sample(1:N, train.split * N, replace = FALSE)
+#train.split <- 0.8
+#N <- 1000
+#set.seed(2019)
+#train.samp <- sample(1:N, train.split * N, replace = FALSE)
+
+#Here the data is being read in with split coming from Neil's python script for Neural Net
 
 #Data read
-dna.df <- readRDS("./data/working/DNA_Aggregated/Machine_learning_sample/NPS_sample_data/2019_7_23_half_sample.RDS")
+#Train to dtm
+train.df <- read_csv("./data/working/DNA_Aggregated/Machine_learning_sample/innovation_sample_data/trainset.csv", col_names = FALSE) %>%
+  rename(body = X9, innovation = X5, an = X4) %>%
+  mutate(innovation = ifelse(innovation == "Yes", TRUE, FALSE) %>% as.factor()) %>%
+  select(innovation, body, an)
 
-#Create tibble of each sample data identified by the variable 'sample', stored in the variable 'data'
+#Train to dtm
+test.df <- read_csv("./data/working/DNA_Aggregated/Machine_learning_sample/innovation_sample_data/testset.csv", col_names = FALSE) %>% 
+  rename(body = X9, innovation = X5, an = X4) %>%
+  mutate(innovation = ifelse(innovation == "Yes", TRUE, FALSE) %>% as.factor()) %>%
+  select(innovation, body, an)
+
+#Full sample to dtm
+dna.df    <- bind_rows(train.df, test.df)
 sample.df <- bind_cols(dna.df %>% 
                          make_dtm(., 40) %>%
                          as_tibble(),
-                       dna.df %>% dplyr::select(subject_code_ns) %>%
-                         mutate(subject_code_ns = as.factor(subject_code_ns))) %>%
-             dplyr::select(subject_code_ns, everything())
+                       dna.df %>% dplyr::select(innovation) %>%
+                         mutate(innovation = as.factor(innovation))) %>%
+             dplyr::select(innovation, everything())
+train.df  <- sample.df[1:nrow(train.df), ]
+test.df   <- sample.df[(nrow(train.df) + 1):(nrow(train.df) + nrow(test.df)), ]
+
+#Grab Sample Size
+N <- nrow(dna.df)
 
 #Test train split
-train.df <- sample.df %>% slice(train.samp)
-test.df  <- sample.df %>% slice(-train.samp)
+#train.df <- sample.df %>% slice(train.samp)
+#test.df  <- sample.df %>% slice(-train.samp)
 
 #LDA Sample.df & test/train (different data format)
 lda.sample <- CreateDtm(doc_vec = dna.df$body,
@@ -244,8 +263,9 @@ lda.sample <- CreateDtm(doc_vec = dna.df$body,
                                   verbose = FALSE,
                                   cpus = 4)
 lda.sample <- lda.sample[ ,colSums(lda.sample) >= 40]
-train.lda  <- lda.sample[ train.samp, ]
-test.lda   <- lda.sample[-train.samp, ]
+
+train.lda <- lda.sample[1:nrow(train.df), ]
+test.lda   <- lda.sample[(nrow(train.df) + 1):(nrow(train.df) + nrow(test.df)), ]
 ```
 
 #2. Tune and Fit Models
@@ -258,11 +278,11 @@ burn <- 200
 #Fit Models
 a <- Sys.time()
 mod.list <- list(
-  glm = train(subject_code_ns ~ ., data = train.df, method = "glmnet", family = "binomial",
+  glm = train(innovation ~ ., data = train.df, method = "glmnet", family = "binomial",
              trControl = trainControl(method = "cv", number = 5)),
-  rf  = train(subject_code_ns ~ ., data = train.df, method = "rf", family = "bernoulli",
+  rf  = train(innovation ~ ., data = train.df, method = "rf", family = "bernoulli",
              trControl = trainControl(method = "cv", number = 5)),
-  gbm = train(subject_code_ns ~ ., data = train.df, distribution = "bernoulli", method = "gbm",
+  gbm = train(innovation ~ ., data = train.df, distribution = "bernoulli", method = "gbm",
              trControl = trainControl(method = "cv", number = 5)),
   #svm = ,
   #nn  = ,
@@ -273,7 +293,9 @@ mod.list <- list(
 
 b <- Sys.time()
 (b - a)
+```
 
+```{r}
 pred.df <- tibble(
   model = names(mod.list),
   fit   = mod.list,
@@ -286,7 +308,7 @@ pred.df <- tibble(
 #3. Diagnostics 
 
 ####a. Reciever Operator Characteristic Curves (AUC)
-```{r message = FALSE}
+```{r message = FALSE, warning = FALSE}
 #ROC
 pred.df <- pred.df %>%
   mutate(
@@ -299,7 +321,7 @@ roc.gg <- pred.df %>%
   mutate(
     roc = map(preds, ~roc.log(test.df, .x)),
     auc = map_dbl(roc, auc_func),
-    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(., auc)
+    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(., auc, .desc = TRUE)
   ) %>%
   unnest(roc) %>%
   ggplot(aes(x = FP, y = TP, colour = model)) +
@@ -319,7 +341,7 @@ roc.gg
 ```
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_roc.jpg", roc.gg)
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_1_inn_roc.jpg", roc.gg)
 ```
 
 ####b. Cost 
@@ -336,22 +358,24 @@ cost.gg <- pred.df %>%
     model = as.factor(model)
   ) %>%
   unnest(cost) %>%
-  mutate(model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(cost, min)) %>%
+  mutate(model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(cost, median)) %>%
   ggplot(aes(x = probability, y = cost, colour = model)) +
   geom_step(size = 1.2, alpha = 0.4) +
 #  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
-  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.6) +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 1) +
   labs(
     x = "Probability Threshold",
     y = "Cost",
     title = "False Negative Adverse Cost by Model"
   ) +
   scale_colour_viridis_d("Model")
+
+cost.gg
 ```
 
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_cost.jpg", cost.gg)
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_1_inn_cost.jpg", cost.gg)
 ```
 
 
@@ -361,20 +385,20 @@ Accuracy, precision, recall
 ```{r}
 #test.df <- test.df %>%
 #  mutate(
-#    subject_code_ns = as.logical(subject_code_ns)
+#    innovation = as.logical(innovation)
 #  )
 
 accuracy <- function(preds, threshold, test.df) {
   
-  mean((preds > threshold) == test.df$subject_code_ns)
+  mean((preds > threshold) == test.df$innovation)
 
   }
 
 precision <- function(preds, threshold, test.df) {
   
   preds     <- preds > threshold
-  true.pos  <- sum(preds & as.logical(test.df$subject_code_ns))
-  false.pos <- sum(!as.logical(test.df$subject_code_ns) & preds)
+  true.pos  <- sum(preds & as.logical(test.df$innovation))
+  false.pos <- sum(!as.logical(test.df$innovation) & preds)
   return(true.pos / (true.pos + false.pos))
 
 }
@@ -382,8 +406,8 @@ precision <- function(preds, threshold, test.df) {
 recall <- function(preds, threshold, test.df) {
   
   preds     <- preds > threshold
-  true.pos  <- sum(preds & as.logical(test.df$subject_code_ns))
-  false.neg <- sum(!preds & as.logical(test.df$subject_code_ns))
+  true.pos  <- sum(preds & as.logical(test.df$innovation))
+  false.neg <- sum(!preds & as.logical(test.df$innovation))
   return(true.pos / (true.pos + false.neg))
   
 }
@@ -392,11 +416,11 @@ opt.result <- pred.df %>%
   mutate(
     min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
     accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~accuracy(.x, .y)),
+                                  ~accuracy(.x, .y, test.df)),
     precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~precision(.x, .y)),
+                                  ~precision(.x, .y, test.df)),
     recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~recall(.x, .y))
+                                  ~recall(.x, .y, test.df))
   ) 
 
 opt.result %>%
@@ -427,11 +451,11 @@ out.of.bag <- map(.x = 1:n.boot, ~setdiff(1:N, boot.resamps[[.x]]))
 boot_diagnostics <- function(i) {
   
   mod.list <- list(
-  glm = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], method = "glmnet", family = "binomial",
+  glm = train(innovation ~ ., data = sample.df[boot.resamps[[i]], ], method = "glmnet", family = "binomial",
              trControl = trainControl(method = "cv", number = 5)),
-  rf  = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], method = "rf", family = "bernoulli",
+  rf  = train(innovation ~ ., data = sample.df[boot.resamps[[i]], ], method = "rf", family = "bernoulli",
              trControl = trainControl(method = "cv", number = 5)),
-  gbm = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], distribution = "bernoulli", method = "gbm",
+  gbm = train(innovation ~ ., data = sample.df[boot.resamps[[i]], ], distribution = "bernoulli", method = "gbm",
              trControl = trainControl(method = "cv", number = 5))
   #svm = ,
   #nn  = ,
@@ -444,12 +468,12 @@ boot_diagnostics <- function(i) {
   model = names(mod.list),
   fit   = mod.list,
   type  = rep("Supervised", 3),# "Unsupervised"),
-  preds = map(mod.list, ~predict(.x, newdata = sample.df[out.of.bag[[i]], ], type = "prob")[ ,2])#, lda_predict(mod.list[[4]], lda.sample[out.of.bag[[i]], ], sample.df[boot.resamps[[i]], ]))
+  preds = c(map(mod.list, ~predict(.x, newdata = sample.df[out.of.bag[[i]], ], type = "prob")[ ,2]), lda_predict(mod.list[[4]], lda.sample[out.of.bag[[i]], ], sample.df[boot.resamps[[i]], ]))
   )
   
   opt.result <- pred.df %>%
   mutate(
-  #  subject_code_ns    = map(sample.df[out.of.bag[[i]], ]$subject_code_ns, ~as.logical),
+  #  innovation    = map(sample.df[out.of.bag[[i]], ]$innovation, ~as.logical),
     roc                = map(preds, ~roc.log(sample.df[out.of.bag[[i]], ], .x)),
     auc                = map_dbl(roc, auc_func),
     cost               = map(preds, ~cost.df(sample.df[out.of.bag[[i]], ], .x)),
@@ -469,7 +493,7 @@ return(opt.result %>% dplyr::select(iteration, min_cost_threshold, model, accura
 
 #Test
 a <- Sys.time()
-#boot_diagnostics(1)
+boot_diagnostics(1)
 b <- Sys.time()
 
 b - a
