@@ -275,7 +275,11 @@ b <- Sys.time()
 (b - a)
 
 nnet.df <- read_csv("./data/working/DNA_Aggregated/Machine_learning_sample/innovation_sample_data/ROCData-NewSubjectNeuralNet.csv") %>%
-  dplyr::select(-X1)
+  dplyr::select(-X1) %>%
+  mutate(
+    actual = ifelse(actual %in% 1, TRUE, FALSE) %>% as.factor()
+  ) %>%
+  rename(subject_code_ns = actual)
 
 pred.df <- tibble(
   model = c(names(mod.list), "BERT"),
@@ -291,24 +295,30 @@ pred.df <- tibble(
 ####a. Reciever Operator Characteristic Curves (AUC)
 ```{r message = FALSE}
 #ROC
-pred.df <- pred.df %>%
+pred.df <- bind_rows(pred.df %>%
+  filter(model != "BERT") %>%
   mutate(
     roc = map(preds, ~roc.log(test.df, .x)),
-    auc = map_dbl(roc, auc_func),
-    model = as.factor(model) %>% fct_reorder(., auc)
-  ) 
+    auc = map_dbl(roc, auc_func)
+  ), 
+  pred.df %>%
+  filter(model %in% "BERT") %>%
+  mutate(
+    roc = map(preds, ~roc.log(nnet.df, .x)),
+    auc = map_dbl(roc, auc_func)
+  ))
 
 roc.gg <- pred.df %>%
   mutate(
-    roc = map(preds, ~roc.log(test.df, .x)),
-    auc = map_dbl(roc, auc_func),
-    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm", "BERT" = "BERT") %>% fct_reorder(., auc)
+#    roc = map(preds, ~roc.log(test.df, .x)),
+#    auc = map_dbl(roc, auc_func),
+    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(., auc, .desc = TRUE)
   ) %>%
   unnest(roc) %>%
   ggplot(aes(x = FP, y = TP, colour = model)) +
   geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
   geom_step(size = 1.2, alpha = 0.4) +
-  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.8) +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 1) +
 #  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
   labs(
     x = "False Positive Rate",
@@ -322,24 +332,32 @@ roc.gg
 ```
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_roc.jpg", roc.gg)
+ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_roc_2.jpg", roc.gg)
 ```
 
 ####b. Cost 
 
 ```{r message = FALSE}
 #Cost
-pred.df <- pred.df %>%
-  mutate(
+pred.df <- bind_rows(
+  pred.df %>%
+    filter(model != "BERT") %>%
+    mutate(
     cost = map(preds, ~cost.df(test.df, .x))
-  ) 
+    ),
+  pred.df %>%
+    filter(model %in% "BERT") %>%
+    mutate(
+    cost = map(preds, ~cost.df(nnet.df, .x))
+    )
+  )
 
 cost.gg <- pred.df %>%
   mutate(
     model = as.factor(model)
   ) %>%
   unnest(cost) %>%
-  mutate(model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(cost, min)) %>%
+  mutate(model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm", "BERT" = "BERT") %>% fct_reorder(cost, min)) %>%
   ggplot(aes(x = probability, y = cost, colour = model)) +
   geom_step(size = 1.2, alpha = 0.4) +
 #  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
@@ -350,11 +368,13 @@ cost.gg <- pred.df %>%
     title = "False Negative Adverse Cost by Model"
   ) +
   scale_colour_viridis_d("Model")
+
+cost.gg
 ```
 
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_cost.jpg", cost.gg)
+ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_cost_2.jpg", cost.gg)
 ```
 
 
@@ -391,16 +411,31 @@ recall <- function(preds, threshold, test.df) {
   
 }
 
-opt.result <- pred.df %>%
-  mutate(
-    min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
-    accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~accuracy(.x, .y)),
-    precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~precision(.x, .y)),
-    recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~recall(.x, .y))
-  ) 
+opt.result <- bind_rows(
+  pred.df %>%
+   filter(model != "BERT") %>%
+   mutate(
+     min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
+     accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~accuracy(.x, .y, test.df)),
+     precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~precision(.x, .y, test.df)),
+     recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~recall(.x, .y, test.df))
+   ),
+  pred.df %>%
+   filter(model %in% "BERT") %>%
+   mutate(
+     min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
+     accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~accuracy(.x, .y, nnet.df)),
+     precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~precision(.x, .y, nnet.df)),
+     recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~recall(.x, .y, nnet.df))
+   )
+  
+ )
 
 opt.result %>%
   dplyr::select(model, accuracy:recall) %>%
