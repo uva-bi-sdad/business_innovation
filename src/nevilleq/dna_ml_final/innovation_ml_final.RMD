@@ -296,9 +296,10 @@ b <- Sys.time()
 ```
 
 ```{r}
+
 pred.df <- tibble(
   model = names(mod.list),
-  fit   = mod.list,
+#  fit   = mod.list,
   type  = c(rep("Supervised", 3), "Unsupervised"),
   preds = c(map(mod.list[-4], ~predict(.x, newdata = test.df, type = "prob")[ ,2]), lda_predict(mod.list[[4]], test.lda, train.df))
 )
@@ -317,6 +318,8 @@ pred.df <- pred.df %>%
     model = as.factor(model) %>% fct_reorder(., auc)
   ) 
 
+
+
 roc.gg <- pred.df %>%
   mutate(
     roc = map(preds, ~roc.log(test.df, .x)),
@@ -327,7 +330,7 @@ roc.gg <- pred.df %>%
   ggplot(aes(x = FP, y = TP, colour = model)) +
   geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
   geom_step(size = 1.2, alpha = 0.4) +
-  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.8) +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.9) +
 #  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
   labs(
     x = "False Positive Rate",
@@ -362,7 +365,7 @@ cost.gg <- pred.df %>%
   ggplot(aes(x = probability, y = cost, colour = model)) +
   geom_step(size = 1.2, alpha = 0.4) +
 #  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
-  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 1) +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.8) +
   labs(
     x = "Probability Threshold",
     y = "Cost",

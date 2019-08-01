@@ -274,11 +274,14 @@ mod.list <- list(
 b <- Sys.time()
 (b - a)
 
+nnet.df <- read_csv("./data/working/DNA_Aggregated/Machine_learning_sample/innovation_sample_data/ROCData-NewSubjectNeuralNet.csv") %>%
+  dplyr::select(-X1)
+
 pred.df <- tibble(
-  model = names(mod.list),
-  fit   = mod.list,
-  type  = c(rep("Supervised", 3), "Unsupervised"),
-  preds = c(map(mod.list[-4], ~predict(.x, newdata = test.df, type = "prob")[ ,2]), lda_predict(mod.list[[4]], test.lda, train.df))
+  model = c(names(mod.list), "BERT"),
+ # fit   = mod.list,
+  type  = c(rep("Supervised", 3), "Unsupervised", "Supervised"),
+  preds = c(map(mod.list[-4], ~predict(.x, newdata = test.df, type = "prob")[ ,2]), lda_predict(mod.list[[4]], test.lda, train.df), list(nnet.df$pred))
 )
 ```
 
@@ -299,7 +302,7 @@ roc.gg <- pred.df %>%
   mutate(
     roc = map(preds, ~roc.log(test.df, .x)),
     auc = map_dbl(roc, auc_func),
-    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(., auc)
+    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm", "BERT" = "BERT") %>% fct_reorder(., auc)
   ) %>%
   unnest(roc) %>%
   ggplot(aes(x = FP, y = TP, colour = model)) +
