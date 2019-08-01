@@ -141,7 +141,7 @@ auc_func <- function(roc){
   ##The "heights" the rectangle (drop the first or last).
   hgt <- roc[-1,2]
   ##The Riemann Sum
-  sum(-delta*hgt)
+  -sum(-delta*hgt)
 }
 
 #Calculate Cost
@@ -191,13 +191,13 @@ predict.kmeans <- function(object,
   }
 }
 
-lda_predict <- function(lda, new.data) {
+lda_predict <- function(lda, lda.data, new.data) {
     #find which cluster has more postive response
     cluster <- ifelse(lda$theta[,2] > 0.5, 2, 1)
-    cluster <- which.max(c(mean((cluster == 1) == new.data[ ,1]),
-                          mean((cluster == 2) == new.data[ ,1])))
+    cluster <- which.max(c(mean((cluster == 1) == new.data$subject_code_ns),
+                          mean((cluster == 2) == new.data$subject_code_ns)))
     #Return Predicted Probability of positive response
-    list(lda = predict(lda, new.data, k = 2, method = "gibbs", iterations = iter, burnin = burn)[ ,cluster])
+    list(lda = predict(lda, lda.data, k = 2, method = "gibbs", iterations = iter, burnin = burn)[ ,cluster])
       }
 
 wss <- function(d) {
@@ -365,26 +365,26 @@ Accuracy, precision, recall
 #    subject_code_ns = as.logical(subject_code_ns)
 #  )
 
-accuracy <- function(preds, threshold) {
+accuracy <- function(preds, threshold, test.df = test.df) {
   
-  mean((preds > threshold) == test.df[,1])
+  mean((preds > threshold) == test.df$subject_code_ns)
 
   }
 
-precision <- function(preds, threshold) {
+precision <- function(preds, threshold, test.df = test.df) {
   
   preds     <- preds > threshold
-  true.pos  <- sum(preds & test.df[,1])
-  false.pos <- sum(preds & !test.df[,1])
+  true.pos  <- sum(preds & as.logical(test.df$subject_code_ns))
+  false.pos <- sum(!as.logical(test.df$subject_code_ns) & preds)
   return(true.pos / (true.pos + false.pos))
 
 }
 
-recall <- function(preds, threshold) {
+recall <- function(preds, threshold, test.df = test.df) {
   
   preds     <- preds > threshold
-  true.pos  <- sum(preds & test.df[,1])
-  false.neg <- sum(!preds & test.df[,1])
+  true.pos  <- sum(preds & as.logical(test.df$subject_code_ns))
+  false.neg <- sum(!preds & as.logical(test.df$subject_code_ns))
   return(true.pos / (true.pos + false.neg))
   
 }
@@ -433,44 +433,52 @@ boot_diagnostics <- function(i) {
   rf  = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], method = "rf", family = "bernoulli",
              trControl = trainControl(method = "cv", number = 5)),
   gbm = train(subject_code_ns ~ ., data = sample.df[boot.resamps[[i]], ], distribution = "bernoulli", method = "gbm",
-             trControl = trainControl(method = "cv", number = 5)),
+             trControl = trainControl(method = "cv", number = 5))
   #svm = ,
   #nn  = ,
-  lda   = FitLdaModel(lda.sample[boot.resamps[[i]], ], k = 2, method = "gibbs",
-                                 iterations = iter, burnin = burn,
-                                 optimize_alpha = TRUE)
+#  lda   = FitLdaModel(lda.sample[boot.resamps[[i]], ], k = 2, method = "gibbs",
+#                                 iterations = iter, burnin = burn,
+#                                 optimize_alpha = TRUE)
   )
   
   pred.df <- tibble(
   model = names(mod.list),
   fit   = mod.list,
-  type  = c(rep("Supervised", 3), "Unsupervised"),
-  preds = c(map(mod.list[-4], ~predict(.x, newdata = sample.df[out.of.bag[[i]], ], type = "prob")[ ,2]), lda_predict(mod.list[[4]], lda.sample[out.of.bag[[i]], ]))
+  type  = rep("Supervised", 3),# "Unsupervised"),
+  preds = map(mod.list, ~predict(.x, newdata = sample.df[out.of.bag[[i]], ], type = "prob")[ ,2])#, lda_predict(mod.list[[4]], lda.sample[out.of.bag[[i]], ], sample.df[out.of.bag[[i]], ]))
   )
   
   opt.result <- pred.df %>%
   mutate(
+    roc                = map(preds, ~roc.log(sample.df[out.of.bag[[i]]], .x)),
+    auc                = map_dbl(roc, auc_func),
+    cost               = map(preds, ~cost.df(sample.df[out.of.bag[[i]], ], .x)),
     min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
     accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~accuracy(.x, .y)),
+                                  ~accuracy(.x, .y, sample.df[out.of.bag[[i]], ])),
     precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~precision(.x, .y)),
+                                  ~precision(.x, .y, sample.df[out.of.bag[[i]], ])),
     recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
-                                  ~recall(.x, .y))
+                                  ~recall(.x, .y, sample.df[out.of.bag[[i]], ])),
+    iteration          = rep(i, length(recall))
   ) 
 
-return(opt.result %>% dplyr::select(model, accuracy:recall, auc))
+return(opt.result %>% dplyr::select(iteration, roc, auc, cost, min_cost_threshold, preds, model, accuracy:recall, auc))
   
 }
+
+#Test
+a <- Sys.time()
+boot_diagnostics(1)
+b <- Sys.time()
+
+b - a
 ```
 
 ####b. Parallelize Out of Bag Results
 ```{r}
 nCores <- 10
-#taskFun <- boot.lasso
-#taskFun <- boot.ridge
-#taskFun <- boot.pen.reg
-#taskFun <- boot.lm
+taskFun <- boot_diagnostics
 
 registerDoParallel(nCores)
 
@@ -479,13 +487,12 @@ combine <- function(x, ...) {
 }
 
 #100 X 10 = 1000 iterations
-result.glmnet <- foreach(i = 1:1000, .combine = combine, .multicombine = TRUE,
-                         .packages = c("dplyr", "glmnet", "caret", "elasticnet")) %dopar% {
-  outSub <- taskFun(hdd.df, n.boot = 1)
-  list(coefficients = outSub$coefficients, lambda = outSub$lambda, boot.selected = outSub$boot.selected, alpha = outSub$alpha)
+result.glmnet <- foreach(i = 1:10, .combine = rbind, .packages = c("tidyverse", "glmnet", "caret", "elasticnet")) %dopar% {
+  outSub <- taskFun(i)
+  outSub
 } 
-result.glmnet[[3]] <- result.glmnet[[3]] %>% t()
 
+write_rds(result.glmnet, "./data/src/nevilleq/dna_ml_final/nps_result/19_7_31_nps_boot_result.RDS")
 
 ```
 
