@@ -262,7 +262,7 @@ In similar fashion to the algorithm directly above, we will repeat a mirrored se
 bclust.df <- sample.df %>%
   mutate(
     bclust    = map(.x = data, 
-               ~bclust(.x %>% dplyr::select(-subject_code_ns) %>% dist())),
+               ~bclust(.x %>% dplyr::select(-subject_code_ns))),
     b_h_clust = map(bclust, ~.x$hclust %>% cutree(., 2)),
     wss       = map2_dbl(.x = data, .y = b_h_clust, ~wrap(.y, .x %>% dplyr::select(-subject_code_ns))),
     cluster   = map2_dbl(.x = data, 
@@ -276,13 +276,33 @@ bclust.df <- sample.df %>%
     Accuracy  = map2_dbl(.x = logical, .y = data, ~mean(.x == .y$subject_code_ns)) 
 
   ) %>%
-  dplyr::select(c(sample, `Within Sum of Squares`, Accuracy)) %>%
+  dplyr::select(c(sample, wss, Accuracy)) %>%
   rename(`Within Sum of Squares` = wss)
+```
 
+    ## Committee Member: 1(1) 2(1) 3(1) 4(1) 5(1) 6(1) 7(1) 8(1) 9(1) 10(1)
+    ## Computing Hierarchical Clustering
+    ## Committee Member: 1(1) 2(1) 3(1) 4(1) 5(1) 6(1) 7(1) 8(1) 9(1) 10(1)
+    ## Computing Hierarchical Clustering
+    ## Committee Member: 1(1) 2(1) 3(1) 4(1) 5(1) 6(1) 7(1) 8(1) 9(1) 10(1)
+    ## Computing Hierarchical Clustering
+    ## Committee Member: 1(1) 2(1) 3(1) 4(1) 5(1) 6(1) 7(1) 8(1) 9(1) 10(1)
+    ## Computing Hierarchical Clustering
+
+``` r
 #Visualize
 bclust.df %>%
   knitr::kable(digits = 3)
+```
 
+| sample |  Within Sum of Squares|  Accuracy|
+|:-------|----------------------:|---------:|
+| half   |               513927.6|     0.500|
+| prop   |               574227.7|     0.702|
+| ten    |               666260.0|     0.679|
+| twenty |               545317.9|     0.644|
+
+``` r
 #Plot
 bclust.df %>%
   mutate(sample = as.factor(sample) %>% fct_relevel("prop", "ten", "twenty", "half")) %>%
@@ -298,6 +318,8 @@ bclust.df %>%
   scale_colour_viridis_d() +
   scale_fill_viridis_d()
 ```
+
+<img src="newprod_ml_unsupervised_files/figure-markdown_github/bclust-1.png" width="90%" />
 
 In almost exactly the same fashion as the hierarchical clustering above, we see that this method does lead to a clear separation into "positive" vs. "negative" new product or service article clusters. Further, it actually appears to be performing worse than general hierarchical clustering, which is a bit counterintuitive. Perhaps further time exploring the tuning and fitting of these models is necessary to produce better clustering separation.
 

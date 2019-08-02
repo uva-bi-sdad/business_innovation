@@ -343,12 +343,12 @@ Similarly to $k$-means above, this method is performing quite horribly at both c
 
 In similar fashion to the algorithm directly above, we will repeat a mirrored separability analysis; although given the poor performance above it would be unlikely for this method to perform much better. It is a similar hierarchical method with addition of a Bayesian hyperparameter describing the underlying probability of being in one group vs. another. In a setting where hierarchical clustering was useful/separating well, this method ought to be an improvement on the former.  
 
-```{r bclust, eval = FALSE}
+```{r bclust}
 #Store method vector
 bclust.df <- sample.df %>%
   mutate(
     bclust    = map(.x = data, 
-               ~bclust(.x %>% dplyr::select(-subject_code_ns) %>% dist())),
+               ~bclust(.x %>% dplyr::select(-subject_code_ns))),
     b_h_clust = map(bclust, ~.x$hclust %>% cutree(., 2)),
     wss       = map2_dbl(.x = data, .y = b_h_clust, ~wrap(.y, .x %>% dplyr::select(-subject_code_ns))),
     cluster   = map2_dbl(.x = data, 
@@ -362,7 +362,7 @@ bclust.df <- sample.df %>%
     Accuracy  = map2_dbl(.x = logical, .y = data, ~mean(.x == .y$subject_code_ns)) 
 
   ) %>%
-  dplyr::select(c(sample, `Within Sum of Squares`, Accuracy)) %>%
+  dplyr::select(c(sample, wss, Accuracy)) %>%
   rename(`Within Sum of Squares` = wss)
 
 #Visualize

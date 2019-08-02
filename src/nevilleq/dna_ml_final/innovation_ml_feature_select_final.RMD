@@ -1,0 +1,673 @@
+---
+title: "Final New Product ML"
+author: "Quinton Neville"
+date: "7/31/2019"
+output:
+    github_document: default
+    html_document: default
+---
+  
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+#Libraries
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(viridis)
+library(purrr)
+library(data.table)
+library(maditr)
+library(DataExplorer)
+library(Hmisc)
+library(DescTools)
+library(caret)
+library(tm)
+library(e1071)
+library(patchwork)
+library(topicmodels)
+library(broom)
+library(tidytext)
+library(textmineR)
+library(doParallel)
+library(iterators)
+library(foreach)
+
+#Setting root directory
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  #  fig.height =   
+  fig.width = 6,
+  #  fig.asp = .5,
+  out.width = "90%",
+  #  out.height = 
+  cache = TRUE
+)
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+#Set Scientific notation output for knitr
+options(scipen = 999999)
+```
+
+
+```{r dtm_func, echo = FALSE}
+#Function to transform data into Document Term Matrix
+make_dtm <- function(dna.df, min.threshold) { 
+
+###Transfrom Body Text into a corpus and clean
+dna.corpus <- Corpus(VectorSource(dna.df$body)) %>%
+  tm_map(content_transformer(tolower)) %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(removeWords, c("the", "and", stopwords("english"))) %>%
+  tm_map(stripWhitespace)
+
+#Document Term Matrix
+dna.dtm.df  <- DocumentTermMatrix(dna.corpus)
+
+#Outcome
+new.product <- dna.df$innovation
+
+#Add Outcome to Document Matrix
+dna.doc.dt  <- data.table(doc = dna.dtm.df$i, word = dna.dtm.df$dimnames$Terms[dna.dtm.df$j], count = dna.dtm.df$v) %>%
+  merge(data.table(doc = seq_along(new.product), new_product = new.product))
+
+
+# This gives how many words appear a given number of times in total
+wordTable   <- dna.doc.dt[,.(count = sum(count)), by = c('word')] %>% arrange(-count) %>% data.table
+
+# We require a word to appear at least this many times to be included in the analysis
+minWordCountThreshold <- min.threshold
+survivorWords    <- wordTable[count >= minWordCountThreshold, word]
+
+# Now we look at words broken out by topic
+reducedWordCount <- dna.doc.dt[word %in% survivorWords]
+reducedWordCount <- data.table(reducedWordCount, filterWordIndex = match(reducedWordCount$word, unique(reducedWordCount$word)))
+
+# Turn into a long format matrix
+dna.mat <- matrix(0, nrow = length(dna.corpus), ncol = length(unique(reducedWordCount$word)))
+for(i in 1:nrow(reducedWordCount)) dna.mat[reducedWordCount$doc[i], reducedWordCount$filterWordIndex[i]] = reducedWordCount$count[i]
+
+#Names
+#rownames(dna.mat) <- paste0('doc', 1:nrow(dna.mat))
+colnames(dna.mat) <- unique(reducedWordCount$word)
+
+  return(dna.mat)
+}
+```
+
+
+```{r diagnostic_funcs, echo = FALSE}
+#ROC
+roc.log <- function(test, preds){
+  probs   <- seq(0, 1, by = 0.01)
+  roc.log <- matrix(0, nrow = length(probs), ncol = 2)
+  result  <- test$innovation %>% as.logical()
+  i <- 1
+  for(p in probs){
+    pred         <- preds > p
+    ##False positive rate
+    false.pos    <- sum(!result & pred)/sum(!result)
+    ##True postive rate
+    true.pos     <- sum(result & pred)/sum(result)
+    roc.log[i, ] <- c(false.pos, true.pos)
+    i <- i + 1  
+  }
+  roc.log <- apply(roc.log, 2, rev)
+  colnames(roc.log) <- c("FP", "TP")
+  return(as_tibble(roc.log))
+}
+
+#Plot ROC
+plot.roc <- function(roc.log, charstring){
+  data.frame(FP = rev(roc.log[ ,1]), TP = rev(roc.log[ ,2])) %>% 
+    ggplot()+
+    geom_point(aes(FP, TP), color = "red", size = .5) +
+    geom_line(aes(FP, TP), color = "blue") +
+    geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
+    labs(
+      x = "False Positive",
+      y = "True Positive",
+      title = charstring
+    )
+}
+
+#Calculate AUC
+auc_func <- function(roc){
+  len <- nrow(roc)
+  ##The "delta X" values
+  delta <- roc[-1,1]-roc[-len,1]
+  ##The "heights" the rectangle (drop the first or last).
+  hgt <- roc[-1,2]
+  ##The Riemann Sum
+  sum(delta*hgt)
+}
+
+#Calculate Cost
+cost.func <- function(t, p){
+    if(t & !p)
+        return(2) #False positive weight
+    if(!t & p)
+        return(5) #False Negative
+  if(t & p)
+    return(-1) #True Positive prediction
+    return(0)  #True Negative
+}
+
+#Cost.min 
+cost.df <- function(test, preds) {
+  probs  <- seq(0, 1, by=0.01)
+  result <- test$innovation %>% as.logical()
+  cost   <- vector(mode = "numeric", length = length(probs))
+  i <- 1
+  for(p in probs){
+    pred <- preds > p
+  #  frame <- with(test, cbind(as.logical(innovation), pred))
+    cost[i] <- map2_dbl(.x = result, .y = pred, ~cost.func(.x, .y)) %>% sum()
+    i <- i+1
+  }
+  return(tibble(probability = probs, cost = cost))
+}
+
+```
+
+```{r cluster_func, echo = FALSE}
+predict.kmeans <- function(object,
+                           newdata,
+                           method = c("centers", "classes")) {
+  method <- match.arg(method)
+
+  centers <- object$centers
+  ss_by_center <- apply(centers, 1, function(x) {
+    colSums((t(newdata) - x) ^ 2)
+  })
+  best_clusters <- apply(ss_by_center, 1, which.min)
+
+  if (method == "centers") {
+    centers[best_clusters, ]
+  } else {
+    best_clusters
+  }
+}
+
+lda_predict <- function(lda, test.data, train.data) {
+    #find which cluster has more postive response
+    cluster <- ifelse(lda$theta[,2] > 0.5, 2, 1)
+    cluster <- which.max(c(mean((cluster == 1) == train.data$innovation),
+                          mean((cluster == 2) == train.data$innovation)))
+    #Return Predicted Probability of positive response
+    list(lda = predict(lda, test.data, k = 2, method = "gibbs", iterations = iter, burnin = burn)[ ,cluster])
+      }
+
+wss <- function(d) {
+  sum(scale(d, scale = FALSE)^2)
+}
+
+wrap <- function(hcluster.obj, data) {
+#  mod <- cutree(hcluster.obj, k)
+  spl <- split(data, hcluster.obj)
+  wss <- sum(sapply(spl, wss))
+  wss
+}
+```
+
+#1. Read, Tidy, and Split the Data
+
+```{r warning = FALSE, message = FALSE}
+#Test train sample
+#train.split <- 0.8
+#N <- 1000
+#set.seed(2019)
+#train.samp <- sample(1:N, train.split * N, replace = FALSE)
+
+#Here the data is being read in with split coming from Neil's python script for Neural Net
+
+#Data read
+#Train to dtm
+train.df <- read_csv("./data/working/DNA_Aggregated/Machine_learning_sample/innovation_sample_data/trainset.csv", col_names = FALSE) %>%
+  rename(body = X9, innovation = X5, an = X4) %>%
+  mutate(innovation = ifelse(innovation == "Yes", TRUE, FALSE) %>% as.factor()) %>%
+  select(innovation, body, an)
+
+#Train to dtm
+test.df <- read_csv("./data/working/DNA_Aggregated/Machine_learning_sample/innovation_sample_data/testset.csv", col_names = FALSE) %>% 
+  rename(body = X9, innovation = X5, an = X4) %>%
+  mutate(innovation = ifelse(innovation == "Yes", TRUE, FALSE) %>% as.factor()) %>%
+  select(innovation, body, an)
+
+#Full sample to dtm
+dna.df    <- bind_rows(train.df, test.df)
+sample.df <- bind_cols(dna.df %>% 
+                         make_dtm(., 40) %>%
+                         as_tibble(),
+                       dna.df %>% dplyr::select(innovation) %>%
+                         mutate(innovation = as.factor(innovation))) %>%
+             dplyr::select(innovation, everything())
+train.df  <- sample.df[1:nrow(train.df), ]
+test.df   <- sample.df[(nrow(train.df) + 1):(nrow(train.df) + nrow(test.df)), ]
+
+#Grab Sample Size
+N <- nrow(dna.df)
+
+#Test train split
+#train.df <- sample.df %>% slice(train.samp)
+#test.df  <- sample.df %>% slice(-train.samp)
+
+#LDA Sample.df & test/train (different data format)
+lda.sample <- CreateDtm(doc_vec = dna.df$body,
+                                  doc_names = dna.df$an,
+                                  ngram_window = c(1, 1),
+                                  stopword_vec = c(stopwords::stopwords("en"),
+                                                   stopwords::stopwords(source = "smart")),
+                                  verbose = FALSE,
+                                  cpus = 4)
+lda.sample <- lda.sample[ ,colSums(lda.sample) >= 40]
+
+train.lda <- lda.sample[1:nrow(train.df), ]
+test.lda   <- lda.sample[(nrow(train.df) + 1):(nrow(train.df) + nrow(test.df)), ]
+```
+
+#2. Tune and Fit Models
+
+```{r}
+#LDA Gibbs Parameters (iterations should be 1000, testing is needed for proper burn in paramter)
+iter <- 1000
+burn <- 500
+
+#Fit lasso to get feature selection (word importance selection)
+glm <- train(innovation ~ ., data = train.df, method = "glmnet", family = "binomial",
+          trControl = trainControl(method = "cv", number = 5))
+
+#Fit Models
+a <- Sys.time()
+mod.list <- list(
+  glm = glm,
+  rf  = train(innovation ~ ., 
+              data = train.df[ ,coef(glm$finalModel, 
+                                     glm$bestTune$.lambda) %>% 
+                                     apply(., 1, function(x) {!all(x == 0)})
+                               ],
+              method = "rf", family = "bernoulli",
+             trControl = trainControl(method = "cv", number = 5)),
+  gbm = train(innovation ~ ., 
+              data = train.df[ ,coef(glm$finalModel, 
+                                     glm$bestTune$.lambda) %>% 
+                                     apply(., 1, function(x) {!all(x == 0)})
+                               ],
+              distribution = "bernoulli", method = "gbm",
+             trControl = trainControl(method = "cv", number = 5)),
+  #svm = ,
+  #nn  = ,
+  lda   = FitLdaModel(train.lda, k = 2, method = "gibbs",
+                                 iterations = iter, burnin = burn,
+                                 optimize_alpha = TRUE)
+  )
+
+b <- Sys.time()
+(b - a)
+```
+
+```{r}
+
+pred.df <- tibble(
+  model = names(mod.list),
+#  fit   = mod.list,
+  type  = c(rep("Supervised", 3), "Unsupervised"),
+  preds = c(map(mod.list[-4], ~predict(.x, newdata = test.df, type = "prob")[ ,2]), lda_predict(mod.list[[4]], test.lda, train.df))
+)
+```
+
+
+#3. Diagnostics 
+
+####a. Reciever Operator Characteristic Curves (AUC)
+```{r message = FALSE, warning = FALSE}
+#ROC
+pred.df <- pred.df %>%
+  mutate(
+    roc = map(preds, ~roc.log(test.df, .x)),
+    auc = map_dbl(roc, auc_func),
+    model = as.factor(model) %>% fct_reorder(., auc)
+  ) 
+
+
+
+roc.gg <- pred.df %>%
+  mutate(
+    roc = map(preds, ~roc.log(test.df, .x)),
+    auc = map_dbl(roc, auc_func),
+    model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(., auc, .desc = TRUE)
+  ) %>%
+  unnest(roc) %>%
+  ggplot(aes(x = FP, y = TP, colour = model)) +
+  geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
+  geom_step(size = 1.2, alpha = 0.4) +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.9) +
+#  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
+  labs(
+    x = "False Positive Rate",
+    y = "True Positive Rate",
+    title = "ROC Curves by Model"
+  ) + 
+  scale_colour_viridis_d("Model") +
+  theme(legend.position = "bottom")
+
+roc.gg
+```
+
+```{r echo = FALSE, include = FALSE}
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_1_inn_roc_2.jpg", roc.gg)
+```
+
+####b. Cost 
+
+```{r message = FALSE}
+#Cost
+pred.df <- pred.df %>%
+  mutate(
+    cost = map(preds, ~cost.df(test.df, .x))
+  ) 
+
+cost.gg <- pred.df %>%
+  mutate(
+    model = as.factor(model)
+  ) %>%
+  unnest(cost) %>%
+  mutate(model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(cost, median)) %>%
+  ggplot(aes(x = probability, y = cost, colour = model)) +
+  geom_step(size = 1.2, alpha = 0.4) +
+#  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
+  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.8) +
+  labs(
+    x = "Probability Threshold",
+    y = "Cost",
+    title = "False Negative Adverse Cost by Model"
+  ) +
+  scale_colour_viridis_d("Model")
+
+cost.gg
+```
+
+
+```{r echo = FALSE, include = FALSE}
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_1_inn_cost_2.jpg", cost.gg)
+```
+
+
+#4. Final Cost Optimized Result
+
+Accuracy, precision, recall
+```{r}
+#test.df <- test.df %>%
+#  mutate(
+#    innovation = as.logical(innovation)
+#  )
+
+accuracy <- function(preds, threshold, test.df) {
+  
+  mean((preds > threshold) == test.df$innovation)
+
+  }
+
+precision <- function(preds, threshold, test.df) {
+  
+  preds     <- preds > threshold
+  true.pos  <- sum(preds & as.logical(test.df$innovation))
+  false.pos <- sum(!as.logical(test.df$innovation) & preds)
+  return(true.pos / (true.pos + false.pos))
+
+}
+
+recall <- function(preds, threshold, test.df) {
+  
+  preds     <- preds > threshold
+  true.pos  <- sum(preds & as.logical(test.df$innovation))
+  false.neg <- sum(!preds & as.logical(test.df$innovation))
+  return(true.pos / (true.pos + false.neg))
+  
+}
+
+opt.result <- pred.df %>%
+  mutate(
+    min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
+    accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~accuracy(.x, .y, test.df)),
+    precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~precision(.x, .y, test.df)),
+    recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~recall(.x, .y, test.df))
+  ) 
+
+opt.result %>%
+  dplyr::select(model, accuracy:recall) %>%
+  mutate(
+    model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm")
+  ) %>%
+  rename(Model = model, Accuracy = accuracy, Precision = precision, Recall = recall) %>%
+  knitr::kable(digits = 3)
+```
+
+#5. Internal Validation
+
+
+####a. Set up Parallelizing
+```{r include = FALSE}
+#Repeated Train/Test split
+n.boot       <- 100
+boot.resamps <- list()
+
+#Create n.boot bootstrapped sample indices ("training set")
+for(i in 1:n.boot) { 
+  boot.resamps[[i]] <- sample(1:N, N, replace = TRUE)
+}
+#Find the out of bag observations (not in the boot samp, these are "test")
+out.of.bag <- map(.x = 1:n.boot, ~setdiff(1:N, boot.resamps[[.x]]))
+
+boot_diagnostics <- function(i) {
+  
+  glm <- train(innovation ~ ., data = sample.df[boot.resamps[[i]], ],
+               method = "glmnet", family = "binomial", trControl = trainControl(method = "cv", number = 5))
+  
+  mod.list <- list(
+  glm = glm,
+  rf  = train(innovation ~ ., data = sample.df[boot.resamps[[i]], 
+                                                coef(glm$finalModel, 
+                                                    glm$bestTune$.lambda) %>% 
+                                                    apply(., 1, function(x) {!all(x == 0)})],
+               method = "rf", family = "bernoulli", trControl = trainControl(method = "cv", number = 5)),
+  gbm = train(innovation ~ ., data = sample.df[boot.resamps[[i]],
+                                                coef(glm$finalModel, 
+                                                    glm$bestTune$.lambda) %>% 
+                                                    apply(., 1, function(x) {!all(x == 0)})],
+              distribution = "bernoulli", method = "gbm",
+             trControl = trainControl(method = "cv", number = 5)),
+  #svm = ,
+  #nn  = ,
+  lda   = FitLdaModel(lda.sample[boot.resamps[[i]], ], k = 2, method = "gibbs",
+                                 iterations = iter, burnin = burn,
+                                 optimize_alpha = TRUE)
+  )
+  
+  pred.df <- tibble(
+  model = names(mod.list),
+  fit   = mod.list,
+  type  = c(rep("Supervised", 3), "Unsupervised"),
+  preds = c(map(mod.list[-4], ~predict(.x, newdata = sample.df[out.of.bag[[i]], ], type = "prob")[ ,2]), lda_predict(mod.list[[4]], lda.sample[out.of.bag[[i]], ], sample.df[boot.resamps[[i]], ]))
+  )
+  
+  opt.result <- pred.df %>%
+  mutate(
+  #  innovation    = map(sample.df[out.of.bag[[i]], ]$innovation, ~as.logical),
+    roc                = map(preds, ~roc.log(sample.df[out.of.bag[[i]], ], .x)),
+    auc                = map_dbl(roc, auc_func),
+    cost               = map(preds, ~cost.df(sample.df[out.of.bag[[i]], ], .x)),
+    min_cost_threshold = map_dbl(.x = cost, ~.x$probability[which.min(.x$cost)]),
+    accuracy           = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~accuracy(.x, .y, sample.df[out.of.bag[[i]], ])),
+    precision          = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~precision(.x, .y, sample.df[out.of.bag[[i]], ])),
+    recall             = map2_dbl(.x = preds, .y = min_cost_threshold,
+                                  ~recall(.x, .y, sample.df[out.of.bag[[i]], ])),
+    iteration          = rep(i, length(recall))
+  ) 
+  
+  final.result <- opt.result %>% dplyr::select(iteration, min_cost_threshold, model, accuracy:recall, auc)
+  write_rds(final.result, 
+            sprintf("./src/nevilleq/dna_ml_final/nps_result/19_8_1_innovation_boot_result_%i.RDS", i))
+return(final.result)
+  
+}
+
+#Test
+a <- Sys.time()
+#boot_diagnostics(1)
+b <- Sys.time()
+
+b - a
+```
+
+####b. Map Boot Iterations
+
+```{r include = FALSE, eval = FALSE}
+result <- map(.x = 96:100, ~boot_diagnostics(.x))
+
+#final.result <- do.call(rbind.data.frame, result) %>% as_tibble()
+#write_csv(final.result, "./src/nevilleq/dna_ml_final/nps_result/19_8_1_innovation_boot_result.csv")
+#write_rds(final.result, "./src/nevilleq/dna_ml_final/nps_result/19_8_1_innovation_boot_result.RDS")
+```
+
+
+####b. Parallelize Out of Bag Results
+```{r eval = FALSE}
+n.boot  <- 100
+nCores  <- 5
+taskFun <- boot_diagnostics
+
+registerDoParallel(nCores)
+
+#combine <- function(x, ...) {  
+#  mapply(rbind, x, ..., SIMPLIFY = FALSE)
+#}
+a <- Sys.time()
+#100 X 10 = 1000 iterations
+result <- foreach(i = 1:100, .combine = rbind,
+                         .packages = c("tidyverse", "caret")) %dopar% {
+  outSub <- taskFun(i)
+  outSub
+} 
+b <- Sys.time()
+b - a
+
+write_rds(result, "./src/nevilleq/dna_ml_final/innovation_boot_result/19_7_31_nps_boot_result.RDS")
+
+```
+
+####b. Visualize Results
+```{r warning = FALSE, fig.height = 8, fig.width = 6}
+file.path <- "./src/nevilleq/dna_ml_final/innovation_boot_result/"
+
+boot.df <- tibble(files = list.files(file.path, ".RDS")) %>%
+  mutate(
+    data = map(.x = files, ~read_rds(str_c(file.path, .x)))
+  ) %>%
+  unnest() %>%
+  dplyr::select(model, everything(), -c(files, iteration)) %>%
+  gather(key = diagnostic, value = `Out of Bag Result`, min_cost_threshold:auc) %>%
+  mutate(
+    model = as.factor(model) %>% fct_recode("GLM" = "glm",
+                                            "Random Forest" = "rf",
+                                            "GBM" = "gbm",
+                                            "LDA" = "lda")
+    
+  ) %>%
+  filter(diagnostic != "min_cost_threshold") %>%
+  mutate(
+         model = fct_reorder(model, `Out of Bag Result`, .desc = FALSE, .fun = median),
+         diagnostic = as.factor(diagnostic) %>% 
+           fct_recode("Accuracy"  = "accuracy",
+                      "Precision" = "precision",
+                      "Recall"    = "recall",
+                      "AUC"       = "auc") %>%
+           fct_relevel("AUC", "Accuracy", "Precision", "Recall")
+           
+         ) %>% 
+  rename(Diagnostic = diagnostic) 
+
+precision.nan <- boot.df %>% filter(Diagnostic %in% "Precision") %>% dplyr::select(`Out of Bag Result`) %>% map(is.nan) %>% unlist() %>% sum()
+  
+precision.nan.model <- boot.df %>% 
+  filter(Diagnostic %in% "Precision") %>% 
+  group_by(model) %>%
+  summarise(
+  `NaN` = `Out of Bag Result` %>% map(is.nan) %>% unlist() %>% sum()
+)
+
+precision.nan.model %>% knitr::kable()
+
+#AUC and Accuracy
+boot.gg.1 <- boot.df %>%
+    filter(Diagnostic %in% c("AUC", "Accuracy")) %>%
+    mutate(
+      model = fct_reorder(model, `Out of Bag Result`, median, .desc = TRUE)
+    ) %>%
+  ggplot(aes(x = model, y = `Out of Bag Result`)) + 
+  geom_violin(aes(fill = model), trim = FALSE, alpha = 0.3) + 
+  geom_boxplot(width = 0.25) +
+  labs(
+    y = "Diagnostic Value",
+    x = "Model",
+    title = "Bootstrap Out of Bag Result"
+  ) +
+  viridis::scale_fill_viridis(
+  #  option = "magma",
+    name = "",
+    begin = 1,
+    end = 0,
+    discrete = TRUE) +
+  ylim(c(0, 1)) +
+  theme(
+    axis.text.y = element_text( 
+    size = 10),
+    axis.text.x = element_text(angle = 430, vjust = 0.5, size = 10) 
+  ) +
+  coord_flip() +
+  facet_wrap(. ~ Diagnostic, ncol = 2)
+
+
+#Precision Recall (w/out LDA)
+boot.gg.2 <- boot.df %>%
+    filter(Diagnostic %in% c("Precision", "Recall")) %>%
+    filter(model != "LDA") %>%
+    mutate(
+      model = fct_reorder(model, `Out of Bag Result`, median, .desc = TRUE)
+    ) %>%
+  ggplot(aes(x = model, y = `Out of Bag Result`)) + 
+  geom_violin(aes(fill = model), trim = FALSE, alpha = 0.3) + 
+  geom_boxplot(width = 0.25) +
+  labs(
+    y = "Diagnostic Value",
+    x = "Model",
+    title = "Bootstrap Out of Bag Result"
+  ) +
+  viridis::scale_fill_viridis(
+  #  option = "magma",
+    name = "",
+    begin = 1,
+    end = 0,
+    discrete = TRUE) +
+  ylim(c(0, 1)) +
+  theme(
+    axis.text.y = element_text( 
+    size = 10),
+    axis.text.x = element_text(angle = 430, vjust = 0.5, size = 10) 
+  ) +
+  coord_flip() +
+  facet_wrap(. ~ Diagnostic, ncol = 2)
+
+#Final Plot
+boot.result.gg <- boot.gg.1 / boot.gg.2
+
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_2_boot_validation.jpg", boot.result.gg)
+
+```
