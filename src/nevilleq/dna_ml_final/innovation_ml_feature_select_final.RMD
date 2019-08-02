@@ -564,29 +564,110 @@ write_rds(result, "./src/nevilleq/dna_ml_final/innovation_boot_result/19_7_31_np
 ```
 
 ####b. Visualize Results
-```{r eval = FALSE}
+```{r warning = FALSE, fig.height = 8, fig.width = 6}
 file.path <- "./src/nevilleq/dna_ml_final/innovation_boot_result/"
 
-boot.df <- list.files(file.path, ".RDS")
+boot.df <- tibble(files = list.files(file.path, ".RDS")) %>%
+  mutate(
+    data = map(.x = files, ~read_rds(str_c(file.path, .x)))
+  ) %>%
+  unnest() %>%
+  dplyr::select(model, everything(), -c(files, iteration)) %>%
+  gather(key = diagnostic, value = `Out of Bag Result`, min_cost_threshold:auc) %>%
+  mutate(
+    model = as.factor(model) %>% fct_recode("GLM" = "glm",
+                                            "Random Forest" = "rf",
+                                            "GBM" = "gbm",
+                                            "LDA" = "lda")
+    
+  ) %>%
+  filter(diagnostic != "min_cost_threshold") %>%
+  mutate(
+         model = fct_reorder(model, `Out of Bag Result`, .desc = FALSE, .fun = median),
+         diagnostic = as.factor(diagnostic) %>% 
+           fct_recode("Accuracy"  = "accuracy",
+                      "Precision" = "precision",
+                      "Recall"    = "recall",
+                      "AUC"       = "auc") %>%
+           fct_relevel("AUC", "Accuracy", "Precision", "Recall")
+           
+         ) %>% 
+  rename(Diagnostic = diagnostic) 
 
-violin.mse <- read_rds("./src/nevilleq/dna_ml_final/nps_result/19_7_31_nps_boot_result.RDS")
-  gather(key = model, value = `Out of Bag Error`) %>% 
-  mutate(model = as.factor(model), 
-         model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm"),
-         model = fct_reorder(model, `Out of Bag Error`, .desc = FALSE, .fun = median)) %>% 
-  ggplot(aes(x = model, y = `Out of Bag Error`)) + 
+precision.nan <- boot.df %>% filter(Diagnostic %in% "Precision") %>% dplyr::select(`Out of Bag Result`) %>% map(is.nan) %>% unlist() %>% sum()
+  
+precision.nan.model <- boot.df %>% 
+  filter(Diagnostic %in% "Precision") %>% 
+  group_by(model) %>%
+  summarise(
+  `NaN` = `Out of Bag Result` %>% map(is.nan) %>% unlist() %>% sum()
+)
+
+precision.nan.model %>% knitr::kable()
+
+#AUC and Accuracy
+boot.gg.1 <- boot.df %>%
+    filter(Diagnostic %in% c("AUC", "Accuracy")) %>%
+    mutate(
+      model = fct_reorder(model, `Out of Bag Result`, median, .desc = TRUE)
+    ) %>%
+  ggplot(aes(x = model, y = `Out of Bag Result`)) + 
   geom_violin(aes(fill = model), trim = FALSE, alpha = 0.3) + 
   geom_boxplot(width = 0.25) +
   labs(
-    y = "Out of Bag Bootsrapped Error",
+    y = "Diagnostic Value",
     x = "Model",
-    title = sprintf("Bootstrap Validation: %i Iterations", n.boot)
+    title = "Bootstrap Out of Bag Result"
   ) +
   viridis::scale_fill_viridis(
-    option = "magma",
+  #  option = "magma",
     name = "",
     begin = 1,
     end = 0,
-    discrete = TRUE) 
+    discrete = TRUE) +
+  ylim(c(0, 1)) +
+  theme(
+    axis.text.y = element_text( 
+    size = 10),
+    axis.text.x = element_text(angle = 430, vjust = 0.5, size = 10) 
+  ) +
+  coord_flip() +
+  facet_wrap(. ~ Diagnostic, ncol = 2)
+
+
+#Precision Recall (w/out LDA)
+boot.gg.2 <- boot.df %>%
+    filter(Diagnostic %in% c("Precision", "Recall")) %>%
+    filter(model != "LDA") %>%
+    mutate(
+      model = fct_reorder(model, `Out of Bag Result`, median, .desc = TRUE)
+    ) %>%
+  ggplot(aes(x = model, y = `Out of Bag Result`)) + 
+  geom_violin(aes(fill = model), trim = FALSE, alpha = 0.3) + 
+  geom_boxplot(width = 0.25) +
+  labs(
+    y = "Diagnostic Value",
+    x = "Model",
+    title = "Bootstrap Out of Bag Result"
+  ) +
+  viridis::scale_fill_viridis(
+  #  option = "magma",
+    name = "",
+    begin = 1,
+    end = 0,
+    discrete = TRUE) +
+  ylim(c(0, 1)) +
+  theme(
+    axis.text.y = element_text( 
+    size = 10),
+    axis.text.x = element_text(angle = 430, vjust = 0.5, size = 10) 
+  ) +
+  coord_flip() +
+  facet_wrap(. ~ Diagnostic, ncol = 2)
+
+#Final Plot
+boot.result.gg <- boot.gg.1 / boot.gg.2
+
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_2_boot_validation.jpg", boot.result.gg)
 
 ```
