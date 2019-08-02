@@ -308,13 +308,21 @@ b <- Sys.time()
 (b - a)
 ```
 
-```{r}
+```{r message = FALSE}
+
+nnet.df <- tibble(innovation = read_csv("./data/actuallabelshumanlabels.csv", col_names = FALSE)[,1],
+                  pred = read_csv("./data/resultprobabilitiesforhumanlabels-Copy1.csv")$`1`
+  ) %>%
+ # dplyr::select(-X1) %>%
+  mutate(
+    innovation = ifelse(innovation == "Yes", TRUE, FALSE) %>% as.factor()
+  ) 
 
 pred.df <- tibble(
-  model = names(mod.list),
-#  fit   = mod.list,
-  type  = c(rep("Supervised", 3), "Unsupervised"),
-  preds = c(map(mod.list[-4], ~predict(.x, newdata = test.df, type = "prob")[ ,2]), lda_predict(mod.list[[4]], test.lda, train.df))
+  model = c(names(mod.list), "BERT"),
+ # fit   = mod.list,
+  type  = c(rep("Supervised", 3), "Unsupervised", "Supervised"),
+  preds = c(map(mod.list[-4], ~predict(.x, newdata = test.df, type = "prob")[ ,2]), lda_predict(mod.list[[4]], test.lda, train.df), list(nnet.df$pred))
 )
 ```
 
@@ -323,27 +331,32 @@ pred.df <- tibble(
 
 ####a. Reciever Operator Characteristic Curves (AUC)
 ```{r message = FALSE, warning = FALSE}
-#ROC
-pred.df <- pred.df %>%
+ #ROC
+pred.df <- bind_rows(pred.df %>%
+  filter(model != "BERT") %>%
   mutate(
     roc = map(preds, ~roc.log(test.df, .x)),
-    auc = map_dbl(roc, auc_func),
-    model = as.factor(model) %>% fct_reorder(., auc)
-  ) 
+    auc = map_dbl(roc, auc_func)
+  ), 
+ pred.df %>%
+  filter(model %in% "BERT") %>%
+  mutate(
+    roc = map(preds, ~roc.log(nnet.df, .x)),
+    auc = map_dbl(roc, auc_func)
+  ))
 
 
 
 roc.gg <- pred.df %>%
   mutate(
-    roc = map(preds, ~roc.log(test.df, .x)),
-    auc = map_dbl(roc, auc_func),
     model = as.factor(model) %>% fct_recode("LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm") %>% fct_reorder(., auc, .desc = TRUE)
   ) %>%
   unnest(roc) %>%
+  filter(model != "LDA") %>%
   ggplot(aes(x = FP, y = TP, colour = model)) +
   geom_abline(slope = 1, linetype = 2, colour = "lightgrey") +
-  geom_step(size = 1.2, alpha = 0.4) +
-  geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.9) +
+  geom_step(direction = "vh", size = 1.2, alpha = 0.4) +
+ # geom_smooth(size = 1.2, alpha = 0.6, se = F, span = 0.9) +
 #  geom_point(size = 1.2, alpha = 0.4, position = "jitter") +
   labs(
     x = "False Positive Rate",
@@ -357,18 +370,25 @@ roc.gg
 ```
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_1_inn_roc_2.jpg", roc.gg)
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_2_inn_roc_4.jpg", roc.gg)
 ```
 
 ####b. Cost 
 
 ```{r message = FALSE}
 #Cost
-pred.df <- pred.df %>%
-  mutate(
+pred.df <- bind_rows(
+  pred.df %>%
+    filter(model != "BERT") %>%
+    mutate(
     cost = map(preds, ~cost.df(test.df, .x))
-  ) 
-
+    ),
+  pred.df %>%
+    filter(model %in% "BERT") %>%
+    mutate(
+    cost = map(preds, ~cost.df(nnet.df, .x))
+    )
+  )
 cost.gg <- pred.df %>%
   mutate(
     model = as.factor(model)
@@ -391,7 +411,7 @@ cost.gg
 
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_1_inn_cost_2.jpg", cost.gg)
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_2_inn_cost_3.jpg", cost.gg)
 ```
 
 
@@ -440,7 +460,7 @@ opt.result <- pred.df %>%
   ) 
 
 opt.result %>%
-  dplyr::select(model, accuracy:recall) %>%
+  dplyr::select(model, accuracy:recall, auc) %>%
   mutate(
     model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm")
   ) %>%
@@ -607,43 +627,12 @@ precision.nan.model %>% knitr::kable()
 
 #AUC and Accuracy
 boot.gg.1 <- boot.df %>%
-    filter(Diagnostic %in% c("AUC", "Accuracy")) %>%
-    mutate(
-      model = fct_reorder(model, `Out of Bag Result`, median, .desc = TRUE)
-    ) %>%
-  ggplot(aes(x = model, y = `Out of Bag Result`)) + 
-  geom_violin(aes(fill = model), trim = FALSE, alpha = 0.3) + 
-  geom_boxplot(width = 0.25) +
-  labs(
-    y = "Diagnostic Value",
-    x = "Model",
-    title = "Bootstrap Out of Bag Result"
-  ) +
-  viridis::scale_fill_viridis(
-  #  option = "magma",
-    name = "",
-    begin = 1,
-    end = 0,
-    discrete = TRUE) +
-  ylim(c(0, 1)) +
-  theme(
-    axis.text.y = element_text( 
-    size = 10),
-    axis.text.x = element_text(angle = 430, vjust = 0.5, size = 10) 
-  ) +
-  coord_flip() +
-  facet_wrap(. ~ Diagnostic, ncol = 2)
-
-
-#Precision Recall (w/out LDA)
-boot.gg.2 <- boot.df %>%
-    filter(Diagnostic %in% c("Precision", "Recall")) %>%
     filter(model != "LDA") %>%
     mutate(
       model = fct_reorder(model, `Out of Bag Result`, median, .desc = TRUE)
     ) %>%
   ggplot(aes(x = model, y = `Out of Bag Result`)) + 
-  geom_violin(aes(fill = model), trim = FALSE, alpha = 0.3) + 
+  geom_violin(aes(fill = model), trim = FALSE, alpha = 0.4) + 
   geom_boxplot(width = 0.25) +
   labs(
     y = "Diagnostic Value",
@@ -666,8 +655,8 @@ boot.gg.2 <- boot.df %>%
   facet_wrap(. ~ Diagnostic, ncol = 2)
 
 #Final Plot
-boot.result.gg <- boot.gg.1 / boot.gg.2
+#boot.result.gg <- boot.gg.1 / boot.gg.2
 
-ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_2_boot_validation.jpg", boot.result.gg)
+ggsave("./src/nevilleq/dna_ml_final/innovation_ml_figures/19_8_2_boot_validation_2.jpg", boot.gg.1)
 
 ```
