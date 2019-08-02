@@ -438,7 +438,7 @@ opt.result <- bind_rows(
  )
 
 opt.result %>%
-  dplyr::select(model, accuracy:recall) %>%
+  dplyr::select(model, accuracy:recall, auc) %>%
   mutate(
     model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm")
   ) %>%
