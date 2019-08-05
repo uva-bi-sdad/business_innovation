@@ -332,7 +332,7 @@ roc.gg
 ```
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_roc_2.jpg", roc.gg)
+ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_8_5_nps_roc.jpg", roc.gg)
 ```
 
 ####b. Cost 
@@ -374,7 +374,7 @@ cost.gg
 
 
 ```{r echo = FALSE, include = FALSE}
-ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_7_31_nps_cost_2.jpg", cost.gg)
+ggsave("./src/nevilleq/dna_ml_final/nps_ml_figures/19_8_5_nps_cost.jpg", cost.gg)
 ```
 
 
@@ -442,7 +442,7 @@ opt.result %>%
   mutate(
     model = fct_recode(model, "LDA" = "lda", "GLM" = "glm", "Random Forest" = "rf", "Gradient Boosting" = "gbm")
   ) %>%
-  rename(Model = model, Accuracy = accuracy, Precision = precision, Recall = recall) %>%
+  rename(Model = model, Accuracy = accuracy, Precision = precision, Recall = recall, AUC = auc) %>%
   knitr::kable(digits = 3)
 ```
 
