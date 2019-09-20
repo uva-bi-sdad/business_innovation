@@ -1,0 +1,238 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(readxl)
+library(stringr)
+library(dplyr)
+library(fuzzyjoin)
+library(quanteda)
+library(tidytext)
+library(dataplumbr)
+#remotes::install_github("dads2busy/dataplumbr", force = TRUE)
+```
+
+Load data from joins: 
+START: CIK Names - company names from SEC - Reference name
+ADD: SIC (Industry-based company names) - Reference name
+ADD: Ticker Codes (company names from stock exchange) - Reference name
+ADD: FDA Approvals companynames - *Partial name*
+```{r load, echo=F, message=F}
+## READ IN: CIK codes & company names, SIC company names, Ticker Company Names, FDA Approval Company Names
+ciknames <- read_rds("~/git/business_innovation/data/original/ciks_names.RDS")
+sic <- read_rds("~/git/business_innovation/data/original/sic.download.RDS")
+cik_ticker <- read_delim("~/git/business_innovation/data/original/edgar_filings/cik_ticker.csv", delim = "|")
+fda_approvals <- read_excel("~/git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx") 
+
+```
+
+Join data: 
+SIC -> CIK -> Ticker
+```{r initial_join, echo=FALSE}
+## CLEAN AND DO FIRST JOIN BETWEEN CIK--SIC--TICKER
+sic$SIC <- as.numeric(sic$SIC)
+sic$CIK <- as.numeric(sic$CIK)
+ciknames$cik <- as.numeric(ciknames$cik)
+ciknames$sic <- as.numeric(ciknames$sic)
+
+# nrow(ciknames) #779   # nrow(sic) #58427  # nrow(cik_ticker) #13737
+
+company_list <- sic %>%
+  full_join(ciknames, by = c("CIK" = "cik")) %>%
+  left_join(cik_ticker, by = c("CIK", "SIC"))
+
+colnames(company_list) <- c(
+  "SEC_CIK", "SIC_Company_Name", "SIC_Code", "SIC_Industry", "SIC_Location",
+  "SEC_Company_Name", "SEC_SIC_Code",
+  "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_Location", "Ticker_Incorporated", "Ticker_IRS" )
+
+head(company_list)
+rm(cik_ticker, ciknames, sic)
+```
+
+Select subset of companies:
+SIC: 
+* 3814: Surgical and Medical Instruments and Apparatus
+* 2834: Pharmaceutical Preparations
+* 5047: Medical, Dental, and Hospital Equipment
+* 8731: Commercial Physical and Biological Research
+
+```{r}
+## SELECT COMPANIES IN PHARMA & MED DEVICE SIC CODE --- note may need to expand this!!! based on FDA SIC codes
+pharm_comp_names_only <- company_list %>% filter(SIC_Code == 3841|SIC_Code == 2834|SIC_Code == 5047| SIC_Code == 8731) # %>% select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name) %>% mutate(name_count = 3 - rowSums(is.na(.)))
+```
+
+Regex Common Patterns for company suffixes
+
+```{r}
+## CREATE TEXT FILTER FOR BLANKS, NAS, COMMON COMPANY ABBREVIATIONS
+inc_list <- c("inc", "corp", "corporation", "plc", "de", "co", "llc", "ltd", "com", "int", "and", "&", "us", "health", "holdings")
+inc_patt <- paste0(
+  c(paste0("\\s", inc_list, "\\s"),
+    paste0("\\b", inc_list, "\\b"),
+    paste0("\\s", c("NA", "na"), "\\s"),
+    paste0("\\b", c("NA", "na")),
+    paste0(c("NA", "na"), "\\b"), "&" ),
+  collapse = "|")
+```
+
+Regex Patterns for FDA company names
+
+```{r}
+## CREATE TEXT FILTER FOR FDA COMPANY NAMES
+fda_companies <- data.frame(FDA_ORIG = unique(fda_approvals$Company))
+fda_patt <- paste0(fda_companies$FDA_ORIG, collapse = "|")
+rm(fda_approvals)
+```
+
+Match any portion of entire FDA company name - this gets 93 out of 2020
+
+```{r}
+pharm_comp_names_wfda <- pharm_comp_names_only %>% 
+  mutate(FDA_Name_Orig1 = str_extract(string = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name), pattern = fda_patt)) #%>% filter(is.na(FDA_Name_Orig1))
+rm(pharm_comp_names_only)
+
+table(is.na(pharm_comp_names_wfda$FDA_Name_Orig1))
+pharm_comp_names_wfda[61:70,] %>% select(c(2,6, 9,14)) %>% data.table::as.data.table()
+
+```
+
+
+Clean/standardize the company name text (both in FDA set and in SEC-SIC-Ticker set) to optimize matching
+* original - concatenated string of all names
+* clean - original in lower case minus punctuation
+* more clean - clean minus common company suffixes (ex inc, co, etc)
+
+Idea - alphabetize tokens within name?
+
+```{r}
+## CREATE COLUMNS FOR
+#### MASHUP_ORIG: CONCATENATED NAME
+#### MASHUP_CLEAN: CONCATENATED NAME MINUS PUNCTUATION
+#### MASHUP_MORE_CLEAN: TRIMMED, CONCATENATED NAME MINUS PUNCTUATION MINUS COMPANY ABBREVIATIONS
+## consider alphabetizing tokens withing this name
+pharm_comp_names_wfda <- pharm_comp_names_wfda %>%
+  mutate(mashup_orig = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name, FDA_Name_Orig1, sep = "; "),
+         mashup_clean = paste(tolower(str_replace_all(SIC_Company_Name, "[:punct:]", " ")),
+                       tolower(str_replace_all(SEC_Company_Name, "[:punct:]", " ")),
+                       tolower(str_replace_all(Ticker_Company_Name, "[:punct:]", " "))),
+         #mashup_more_clean = str_trim(str_remove_all(str_remove_all(mashup_clean, inc_patt), "\\s.\\s|\\s..\\s"), side = "right"),
+         mashup_more_clean = str_trim((str_replace_all(string = mashup_clean, pattern = inc_patt, replacement = " ")), side = "right"),
+         mashup_sort = str_trim(vapply(lapply(strsplit(mashup_more_clean, " "), unique), paste, character(1L), collapse = " "))
+         )
+
+fda_companies <- fda_companies %>% mutate(fda_clean = tolower(str_replace_all(FDA_ORIG, "[:punct:]", " ")),
+                         fda_more_clean = str_trim((str_replace_all(string = fda_clean, pattern = inc_patt, replacement = " ")), side = "right")
+                         #fda_sort = str_trim(vapply(lapply(strsplit(fda_more_clean, " "), unique), paste, character(1L), collapse = " "))
+                         ) 
+# pharm_comp_names_wfda[15:18]  
+# fda_companies
+# length(unique(pharm_comp_names_wfda$mashup_sort))
+# length(unique(fda_companies$fda_more_clean))
+```
+
+Match cleaned FDA company names against cleaned SEC-SIC-Ticker set - this gets 129 out of 2020 - but a total of 145 out of 2020 if you combine them
+
+```{r}
+fda_patt_regex <- paste0( c(paste0("\\s", fda_companies$fda_more_clean, "\\s"), paste0("\\b", fda_companies$fda_more_clean, "\\b")), collapse = "|")
+pharm_comp_names_wfda <- pharm_comp_names_wfda %>%
+  mutate(FDAmatch = str_extract(mashup_sort, pattern = fda_patt_regex))
+
+table(is.na(pharm_comp_names_wfda$FDAmatch))
+```
+
+Who is matching? 
+
+```{r}
+pharm_comp_names_wfda %>% select(FDA_Name_Orig1, FDAmatch) %>% filter(!is.na(FDA_Name_Orig1)|!is.na(FDAmatch)) 
+```
+
+Who isn't matching...??
+
+```{r}
+pharm_comp_names_wfda %>% filter(is.na(FDA_Name_Orig1)|is.na(FDAmatch)) %>% select(mashup_sort) #select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name)
+```
+
+```{r}
+pharm_comp_names_wfda %>% filter(str_detect(mashup_sort, "abbott biotherapeutics") == TRUE) %>% select(mashup_sort)
+```
+
+
+
+```{r}
+pharm_clean_names<- unique(pharm_comp_names_wfda$mashup_sort)
+pharmpatt <- paste0( c(paste0("\\s", pharm_clean_names, "\\s"), paste0("\\b", pharm_clean_names, "\\b")), collapse = "|")
+thing <- fda_companies %>% mutate(sec_sic_tick_match = str_extract(fda_more_clean, pattern = pharmpatt))
+thing
+table(is.na(thing$sec_sic_tick_match))
+thing %>% filter(is.na(sec_sic_tick_match))
+```
+
+
+```{r}
+pharm_comp_names_wfda %>% select(mashup_sort) %>% filter(str_detect(mashup_sort, "vintage") == TRUE)
+
+searchfor <- "reddy"
+company_list %>% filter(str_detect(tolower(SIC_Company_Name), searchfor) == TRUE|str_detect(tolower(SEC_Company_Name), searchfor) == TRUE|str_detect(tolower(Ticker_Company_Name), searchfor) == TRUE)
+```
+
+```{r}
+'%!in%' <- function(x,y)!('%in%'(x,y))
+fda_companies <- fda_companies %>% 
+  mutate(FDAToken = str_split(fda_companies$fda_more_clean, "[ |-]")) %>% 
+  tidyr::unnest() %>% 
+  filter(nchar(as.character(FDAToken)) > 1)
+
+fda_token_freq <- fda_companies %>% group_by(FDAToken) %>% summarise(n = n()) %>% arrange(desc(n))
+fda_token_sing <- fda_token_freq %>% filter(n ==1)
+genericpharmatokens <- c("pharms", "pharma", "labs", "pharm", "usa", "hlthcare", "intl", "pharmaceuticals", "therapeutics", "international", "biopharma",
+                         "holding", "development", "american", "warner")
+
+fda_tokens <- fda_tokens %>% filter(token %!in% genericpharmatokens) %>% filter(token %in% fda_token_sing$FDAToken) 
+patt_fda_token <- paste0(paste0("\\b",fda_tokens_single$token,"\\b"), collapse = "|")
+
+pharm_comp_names_wfda %>% select(mashup_sort) %>%
+  mutate(#FDAmatchtoken = str_detect(),
+         FDAmatchtoken = vapply(lapply(str_extract_all(mashup_sort, pattern = patt_fda_token), unique), paste, character(1L), collapse = " ")) %>% 
+  filter(nchar(FDAmatchtoken2) > 1)
+
+thing <- pharm_comp_names_wfda[str_detect(pharm_comp_names_wfda$mashup_sort, patt_fda_token),18]
+thing <- tibble(string = thing, fdamatch = str_extract_all(string = thing, patt_fda_token))
+thing <- tidyr::unnest(thing)
+thing %>% group_by(fdamatch) %>% summarise(n = n()) %>% arrange(desc(n))
+thing %>% filter(fdamatch == "warner")
+```
+
+```{r}
+
+# fda_tokens[str_detect(fda_tokens$token, patt_fda_token) == TRUE, ]
+# patt_fda_token2 <- paste0(fda_tokens$token, collapse = "|")
+# patt_fda_token3 <- paste0(paste0(".*",fda_tokens$token,".*"), collapse = "|")
+
+pharm_comp_names_wfda$FDAmatchtoken <- NULL 
+
+table(is.na(pharm_comp_names_wfda$FDAmatchtoken))
+pharm_comp_names_wfda$mashup_sort[str_detect(pharm_comp_names_wfda$mashup_sort[1L], patt_fda_token3)]
+
+pharm_comp_names_wfda %>% select(mashup_sort) %>% mutate(match = str_extract(mashup_sort, patt_fda_token2)) %>% filter(!is.na(match)) 
+patt_fda_token2
+
+
+ 
+pharm_comp_names_wfda %>% select(mashup_sort, FDAmatch, FDAmatchtoken) %>% filter(!is.na(FDAmatch)) 
+pharm_comp_names_wfda %>% select(mashup_sort, FDAmatch, FDAmatchtoken) %>% filter(is.na(FDAmatch)) %>% select(mashup_sort, FDAmatchtoken) 
+
+```
+
+
+
+
+
+
+
+
+
