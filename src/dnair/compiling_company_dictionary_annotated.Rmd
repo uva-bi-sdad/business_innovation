@@ -1,0 +1,59 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(readxl)
+library(stringr)
+library(dplyr)
+library(fuzzyjoin)
+library(quanteda)
+library(tidytext)
+library(dataplumbr)
+#remotes::install_github("dads2busy/dataplumbr", force = TRUE)
+```
+
+```{r import}
+ciknames <- read_rds("data/original/ciks_names.RDS")
+sic <- read_rds("data/original/sic.download.RDS")
+cik_ticker <- read_delim("data/original/edgar_filings/cik_ticker.csv", delim = "|")
+fda_approvals <- read_excel("data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx")
+
+```
+
+## CLEAN AND DO FIRST JOIN BETWEEN CIK--SIC--TICKER
+nrow(ciknames) #779
+nrow(sic) #58427
+nrow(cik_ticker) #13737
+
+```{r pressure, echo=FALSE}
+sic$SIC <- as.numeric(sic$SIC)
+sic$CIK <- as.numeric(sic$CIK)
+ciknames$cik <- as.numeric(ciknames$cik)
+ciknames$sic <- as.numeric(ciknames$sic)
+
+company_list <- sic %>%
+  full_join(ciknames, by = c("CIK" = "cik")) %>%
+  left_join(cik_ticker, by = c("CIK", "SIC"))
+
+colnames(company_list) <- c(
+  "SEC_CIK", "SIC_Company_Name", "SIC_Code", "SIC_Industry", "SIC_Location",
+  "SEC_Company_Name", "SEC_SIC_Code",
+  "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_Location", "Ticker_Incorporated", "Ticker_IRS" )
+
+head(company_list)
+
+```
+
+
+
+
+
+
+
+
+
+

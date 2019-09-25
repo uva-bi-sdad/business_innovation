@@ -190,21 +190,22 @@ fda_companies <- fda_companies %>%
 fda_token_freq <- fda_companies %>% group_by(FDAToken) %>% summarise(n = n()) %>% arrange(desc(n))
 fda_token_sing <- fda_token_freq %>% filter(n ==1)
 genericpharmatokens <- c("pharms", "pharma", "labs", "pharm", "usa", "hlthcare", "intl", "pharmaceuticals", "therapeutics", "international", "biopharma",
-                         "holding", "development", "american", "warner")
+                         "holding", "development", "american", "warner", "science", "of", "care", "company", "molecular", "ventures", "genetics", "oncology", 
+                         "general", "services", "biomedical")
 
 fda_tokens <- fda_tokens %>% filter(token %!in% genericpharmatokens) %>% filter(token %in% fda_token_sing$FDAToken) 
-patt_fda_token <- paste0(paste0("\\b",fda_tokens_single$token,"\\b"), collapse = "|")
+patt_fda_token <- paste0(paste0("\\b",fda_tokens$token,"\\b"), collapse = "|")
 
 pharm_comp_names_wfda %>% select(mashup_sort) %>%
   mutate(#FDAmatchtoken = str_detect(),
          FDAmatchtoken = vapply(lapply(str_extract_all(mashup_sort, pattern = patt_fda_token), unique), paste, character(1L), collapse = " ")) %>% 
-  filter(nchar(FDAmatchtoken2) > 1)
+  filter(nchar(FDAmatchtoken) > 1) %>% arrange(FDAmatchtoken)
 
 thing <- pharm_comp_names_wfda[str_detect(pharm_comp_names_wfda$mashup_sort, patt_fda_token),18]
-thing <- tibble(string = thing, fdamatch = str_extract_all(string = thing, patt_fda_token))
+thing <- tibble(mashup_sort = thing, fdamatch = str_extract_all(string = thing, patt_fda_token))
 thing <- tidyr::unnest(thing)
 thing %>% group_by(fdamatch) %>% summarise(n = n()) %>% arrange(desc(n))
-thing %>% filter(fdamatch == "warner")
+
 ```
 
 ```{r}
@@ -228,6 +229,17 @@ pharm_comp_names_wfda %>% select(mashup_sort, FDAmatch, FDAmatchtoken) %>% filte
 
 ```
 
+```{r}
+fda_companies %>% select(fda_more_clean) %>% mutate(fda_more_clean = str_trim(fda_more_clean, "both"),
+                                                    spacecount = str_count(fda_more_clean, "\\s"),
+                                                    #bigrams = str_split(fda_more_clean, "\\s.*\\s+"),
+                                                    #bigrams = str_split(fda_more_clean, ".*\\s\\b")
+                                                    bigrams = quanteda::tokens(fda_more_clean, ngram = 2)
+                                                    ) 
+  mutate(FDAToken = str_split(fda_companies$fda_more_clean, "[ |-]")) %>% 
+  tidyr::unnest() %>% 
+  filter(nchar(as.character(FDAToken)) > 1)
+```
 
 
 

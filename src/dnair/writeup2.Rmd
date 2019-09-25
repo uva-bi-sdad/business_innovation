@@ -25,7 +25,7 @@ library(ggplot2)
 ```
 
 ```{r ingestfiles, results = "hide"}
-wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_1_1000.csv")
+wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/  ")#"    wordcounts_1_1000.csv")
 wordcounts_1001_2000 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_1001_2000.csv")
 wordcounts_2000_2867 <- read_csv("~/git/business_innovation/data/business_innovation/working/sec/wordcounts_2000_2867.csv")
 allwordcounts <- as.data.table(rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867))
