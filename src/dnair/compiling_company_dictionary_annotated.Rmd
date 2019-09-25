@@ -17,10 +17,10 @@ library(dataplumbr)
 ```
 
 ```{r import}
-ciknames <- read_rds("data/original/ciks_names.RDS")
-sic <- read_rds("data/original/sic.download.RDS")
-cik_ticker <- read_delim("data/original/edgar_filings/cik_ticker.csv", delim = "|")
-fda_approvals <- read_excel("data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx")
+ciknames <- read_rds("~/git/business_innovation/data/original/ciks_names.RDS")
+sic <- read_rds("~/git/business_innovation/data/original/sic.download.RDS")
+cik_ticker <- read_delim("~/git/business_innovation/data/original/edgar_filings/cik_ticker.csv", delim = "|")
+fda_approvals <- read_excel("~/git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx")
 
 ```
 
@@ -45,6 +45,9 @@ colnames(company_list) <- c(
   "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_Location", "Ticker_Incorporated", "Ticker_IRS" )
 
 head(company_list)
+
+#saveRDS(company_list, "~/git/business_innovation/data/working/sec/companylist_secsictick.RDS")
+
 
 ```
 

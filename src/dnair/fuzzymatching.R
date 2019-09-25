@@ -1,34 +1,41 @@
-
 library(readr)
-wordcounts_1_1000 <- read_csv("data/business_innovation/working/sec/wordcounts_1_1000.csv")
-wordcounts_1001_2000 <- read_csv("data/business_innovation/working/sec/wordcounts_1001_2000.csv")
-wordcounts_2000_2867 <- read_csv("data/business_innovation/working/sec/wordcounts_2000_2867.csv")
-allwordcounts <- rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867)
-cik_ticker <- read_delim("data/business_innovation/original/edgar_filings/cik_ticker.csv", delim = "|")
-sic <- read_rds("data/business_innovation/original/sic.download.RDS")
-ciknames <- read_rds("data/business_innovation/original/ciks_names.RDS")
+# wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_1_1000.csv")
+# wordcounts_1001_2000 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_1001_2000.csv")
+# wordcounts_2000_2867 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_2000_2867.csv")
+# allwordcounts <- rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867)
+allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/allnonenglishwordcounts.RDS")
+# cik_ticker <- read_delim("~/git/business_innovation/data/original/edgar_filings/cik_ticker.csv", delim = "|")
+# sic <- read_rds("~/git/business_innovation/data/original/sic.download.RDS")
+# ciknames <- read_rds("~/git/business_innovation/data/original/ciks_names.RDS")
+companylist <- readRDS("~/git/business_innovation/data/working/sec/companylist.RDS")
+#saveRDS(companylist, "~/git/business_innovation/data/working/sec/companylist.RDS")
 
-wcbycomp <- reshape2::dcast(allwordcounts, Company + Words ~ Year, sum)
+
+#wcbycomp <- reshape2::dcast(allwordcounts, Company + Words ~ Year, sum)
 wcbyword <- reshape2::dcast(allwordcounts, Words + Company ~ Year, sum)
 
 #wcbyword %>% group_by(Words, Company) %>% summarise(count1 = n()) %>% select(-count1) %>% group_by(Words) %>% summarise(count = n()) %>% filter(count == 1)
 
-head(wcbycomp)
-head(wcbyword)
-head(cik_ticker)
 
 sic$SIC <- as.numeric(sic$SIC)
 sic$CIK <- as.numeric(sic$CIK)
 ciknames$cik <- as.numeric(ciknames$cik)
 ciknames$sic <- as.numeric(ciknames$sic)
-incorp <- cik_ticker %>% select(CIK, Incorporated)
 
-wcbycompdetails <- wcbycomp %>%
-  left_join(ciknames, by = c("Company" = "cik")) %>%
-  left_join(sic, by = c("Company" = "CIK")) %>%
-  left_join(cik_ticker, by = c("Company" = "CIK"))
+# wcbycompdetails <- wcbycomp %>%
+#   left_join(ciknames, by = c("Company" = "cik")) %>%
+#   left_join(sic, by = c("Company" = "CIK")) %>%
+#   left_join(cik_ticker, by = c("Company" = "CIK"))
+#
+# colnames(wcbycompdetails) <- c("CIK", "Token", as.character(2012:2017), "SEC_Company_Name", "SEC_SIC", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS")
 
-colnames(wcbycompdetails) <- c("CIK", "Token", as.character(2012:2017), "SEC_Company_Name", "SEC_SIC", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS")
+companylist <- sic %>%
+  full_join(ciknames, by = c("CIK" = "cik")) %>%
+  full_join(cik_ticker, by = c("CIK" = "CIK"))
+
+colnames(companylist) <- c("CIK", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location",
+                           "SEC_Company_Name", "SEC_SIC",
+                           "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS")
 
 ###### COMPANY NAMES #########
 
@@ -69,21 +76,21 @@ findstops <- companylist %>%
 
 findstops
 stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa"))
-stopwords <- paste0( stopwords, collapse = "|")
+stopwords_patt <- paste0( stopwords, collapse = "|")
 
 pharmstopwords <- c("biopharma", "therapeutics?", "pharmaceuticals?", "international", "sciences?", "medical", "technology", "phrma", "pharma", "bio", "biosciences?")
-pharmstopwords <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
+pharmstopwords_patt <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
 
 
-comp_tokens <- str_split(companylist, pattern = " |[[:punct:]]")
+#comp_tokens <- str_split(companylist, pattern = " |[[:punct:]]")
+comp_tokens <- str_split(company_reference_names$CompanyString, pattern = " |[[:punct:]]")
 
-new_ref_companies <- tibble(companylist, comp_tokens) %>%
-  tidyr::unnest() %>%
-  filter(nchar(comp_tokens) > 3) %>%
-  mutate(
-    comp_lowword = str_squish(comp_tokens))
+'%!in%' <- function(x,y)!('%in%'(x,y))
 
-new_ref_companies <- new_ref_companies %>%
+new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) %>%
+  tidyr::unnest() %>% filter(nchar(comp_tokens) >1) %>% as.data.frame() %>%
+  left_join(company_reference_names, by = c("company_reference_names$CompanyString" = "CompanyString")) %>%
+  mutate(comp_lowword = str_to_lower(str_squish(comp_tokens))) %>% filter(comp_lowword %!in% stopwords) %>%
   mutate(comp_low_hun = text_tokens(new_ref_companies$comp_lowword, stemmer = stem_hunspell) %>% unlist())
 
 ## do this to new_ref_companies - LATER!! after the hunspell THEN filter out hunspell column based on stop words
@@ -132,6 +139,8 @@ wcbycompdetails$lowword <- str_to_lower(wcbycompdetails$Token)
 wcbycompdetails_compcheck <- wcbycompdetails %>%
   left_join(companyfind, by = c("lowword" = "Token"))
 
+wcbycompdetails
+
 companyfind %>% left_join(new_ref_companies, by = c("Comp_Token_Match" = "comp_tokens")) %>% filter(!is.na(companylist))
 
 wcbycompdetails_compcheck <- wcbycompdetails_compcheck %>% mutate(
@@ -150,10 +159,10 @@ View(wcbycompdetails_compcheck)
 # saveRDS(wcbycomp_comp, "data/business_innovation/working/sec/fuzzymatching/3_wcbycomp_actcomp.RDS")
 
 #saveRDS(wcbycomp_mincomp, "data/business_innovation/working/sec/fuzzymatching/3_wcbycomp_mincomp.RDS")
-wcbycomp_comp <- readRDS("data/business_innovation/working/sec/fuzzymatching/3_wcbycomp_actcomp.RDS")
-View(wcbycomp_comp)
+wcbycomp_comp <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/3_wcbycomp_actcomp.RDS")
+saveRDS(wcbycompdetails_compcheck, "~/git/business_innovation/data/working/sec/fuzzymatching/4_tokencompanyrefset.RDS")
 ########################################################################
-
+head(wcbycomp_comp)
 
 
 
