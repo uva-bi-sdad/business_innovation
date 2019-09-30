@@ -3,13 +3,14 @@ title: "Text Method on SEC Filings - Cleaning Wordlist Results"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(stringr)
 library(dplyr)
 library(corpus)
 ```
+HEllo testing whatever changes cmda 
 
 ```{r functions}
 stem_hunspell <- function(term) {
@@ -38,9 +39,10 @@ companylist <- readRDS("~/git/business_innovation/data/working/sec/companylist.R
 ```{r shaping_data}
 #wcbyword <- reshape2::dcast(allwordcounts, Words + Company ~ Year, sum)
 wcbyword <- reshape2::dcast(allwordcounts, Words ~ Year, sum)
-company_reference_names <- companylist %>% select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name) %>% distinct() 
+company_reference_names <- companylist %>% distinct() 
 
-company_reference_names <- company_reference_names %>% mutate(CompanyString = paste0(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name)) 
+company_reference_names %>% 
+  mutate(CompanyString = paste0(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name, collapse = " ")) 
 head(company_reference_names)
 ```
 
@@ -56,21 +58,61 @@ pharmstopwords <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
 ```{r}
 comp_tokens <- str_split(company_reference_names$CompanyString, pattern = " |[[:punct:]]")
 
-new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) %>%
+new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) %>% # head() %>% 
   tidyr::unnest() %>% filter(nchar(comp_tokens) >1) %>% as.data.frame() %>%
   left_join(company_reference_names, by = c("company_reference_names$CompanyString" = "CompanyString")) %>%
   mutate(comp_lowword = str_to_lower(str_squish(comp_tokens))) %>% filter(comp_lowword %!in% stopwords) %>% 
-  mutate(comp_low_hun = text_tokens(comp_lowword, stemmer = stem_hunspell)) %>% unlist() %>% distinct()
+  mutate(comp_low_hun = text_tokens(comp_lowword, stemmer = stem_hunspell)) %>% tidyr::unnest() %>% distinct()
 
-colnames(new_ref_companies) <- c("CompanyString", "Tokens", "SIC_Company_Name", "SEC_Company_Name", "Ticker_Company_Name", "token_low", "token_hun")
+head(new_ref_companies)
+colnames(new_ref_companies) <- c("CompanyString", "Tokens", "CIK", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "SEC_Company_Name", "SEC_SIC", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS", "token_low", "token_hun")
 
-multenglishtokens <- new_ref_companies 
-  select(CompanyString, Tokens, token_hun) %>% mutate(eng = hunspell::hunspell_check(token_hun)) %>% filter(eng == "TRUE") %>% 
-  group_by(token_hun) %>% summarise(n = n()) %>% filter(n > 1)
+multenglishtokens <- new_ref_companies %>% mutate(eng = hunspell::hunspell_check(token_hun)) %>% filter(eng == "TRUE") %>% group_by(token_hun) %>% summarise(n = n()) %>% filter(n > 1)
 
+multtokens <- new_ref_companies %>% group_by(Tokens) %>% summarise(n = n()) %>% filter(n > 1)
+new_ref_companies <- new_ref_companies %>% filter(Tokens %!in% multtokens$Tokens)
 
 ```
 
+```{r}
+patt = paste0("^", new_ref_companies$Tokens, "$", collapse = "|")
+pattlow = paste0("^", new_ref_companies$token_low, "$", collapse = "|")
+patthun = paste0("^", new_ref_companies$token_hun, "$", collapse = "|")
+
+wcbyword_findcompanies <- wcbyword %>% mutate(
+  word_low = str_to_lower(Words),
+  companyTF = str_detect(Words, patt), # 1357 FALSES, 2490 TRUES
+  compmatch = str_extract(Words, patt), 
+  complowTF = str_detect(word_low, pattlow),
+  complowmatch = str_extract(word_low, patthun))
+
+
+table(wcbyword_findcompanies$companyTF) # 3650 FALSE, 197 TRUe
+table(wcbyword_findcompanies$complowTF) # 3401 FALSE, 446 TRUe
+
+
+wcbyword_findcompanies %>% select(Words,companyTF, compmatch,complowTF, complowmatch) %>% filter(complowTF == TRUE)
+
+wcbyword_companies_set1 <- wcbyword_findcompanies %>% 
+  filter(companyTF == TRUE) %>%
+  inner_join(new_ref_companies, by = c("Words" = "Tokens", "word_low" = "token_low")) 
+
+wcbyword_companies_set2 <- wcbyword_findcompanies %>% 
+  filter(complowTF == TRUE) %>% 
+  anti_join(new_ref_companies, by = c("Words" = "Tokens", "word_low" = "token_low")) 
+
+
+new_ref_companies %>% filter(is.na(CompanyString))  ##dataplumbr::var.is_blank(CompanyString))
+wcbyword_companies_set1 %>% filter(nchar(CompanyString)<1)  ##dataplumbr::var.is_blank(CompanyString))
+wcbyword_companies_set2 %>% filter(is.na(CompanyString)) %>% select(Words, word_low, complowmatch, CompanyString)
+
+new_ref_companies[str_detect(new_ref_companies$token_low, "biocryst") == TRUE, ]
+
+wcbyword_companies %>% 
+  select(-`2012`,-`2013`,-`2014`,-`2015`,-`2016`,-`2017`, -companyTF, -complowTF, -CompanyString)
+# %>% select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name) %>% distinct()
+
+```
 
 
 
