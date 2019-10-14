@@ -3,14 +3,15 @@ title: "Text Method on SEC Filings - Cleaning Wordlist Results"
 output: html_document
 ---
 
-```{r setup, include=FALSE
+
+
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(stringr)
 library(dplyr)
 library(corpus)
 ```
-HEllo testing whatever changes cmda 
 
 ```{r functions}
 stem_hunspell <- function(term) {
@@ -29,6 +30,11 @@ stem_hunspell <- function(term) {
 '%!in%' <- function(x,y)!('%in%'(x,y))
 ```
 
+Loading: 
+
+* non-English words from SEC 10K filings
+* any word with R or TM at end
+* list of all companies (SIC-SEC-Ticker)
 
 ```{r load_data}
 allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/allnonenglishwordcounts.RDS")
@@ -36,15 +42,34 @@ regwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordl
 companylist <- readRDS("~/git/business_innovation/data/working/sec/companylist.RDS")
 ```
 
-```{r shaping_data}
-#wcbyword <- reshape2::dcast(allwordcounts, Words + Company ~ Year, sum)
-wcbyword <- reshape2::dcast(allwordcounts, Words ~ Year, sum)
-company_reference_names <- companylist %>% distinct() 
+```{r loaddata}
+#allwordcounts <- read_csv("~/git/business_innovation/data/working/sec/all_secwordlists.csv")
+wcbycompdetails <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/2_wcbycompdetails.RDS")
+#nonEnglishwords_detectedascompanies <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/4_tokencompanyrefset.RDS")
 
-company_reference_names %>% 
-  mutate(CompanyString = paste0(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name, collapse = " ")) 
-head(company_reference_names)
+#wcbycompdetails_compcheck %>% select(Token, SEC_Company_Name, Self, Comp) %>% filter( Comp > 0 )
+regwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordlists.csv")
+company_list <- readRDS("~/git/business_innovation/data/working/sec/companylist_secsictick.RDS")
 ```
+
+Manipulate data:
+
+* "pivot" words to move years from rows into columns
+* find distinct companies in original list
+* create column that concatenates all name strings across CIK codes
+
+Note: 5,679 word-mentions
+
+```{r shaping_data}
+wcbywordcomp <- reshape2::dcast(allwordcounts, Words + Company ~ Year, sum) #wcbyword <- reshape2::dcast(allwordcounts, Words ~ Year, sum)
+company_reference_names <- companylist %>% distinct() %>% 
+  mutate(CompanyString = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name)) 
+```
+
+Create two 'dictionaries':
+
+* company name stop words ex. inc, corp
+* pharma stop words ex. biopharma, therapeutics
 
 ```{r}
 stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa"))
@@ -54,6 +79,14 @@ stopwords <- paste0( stopwords, collapse = "|")
 pharmstopwords <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
 ```
 
+Create company name reference set: 
+
+* new columns 
+    - tokens of company names
+    - tokens as lower case
+    - stemmed tokens 
+* remove tokens less than a character long
+* rename columns to indicate source of each name
 
 ```{r}
 comp_tokens <- str_split(company_reference_names$CompanyString, pattern = " |[[:punct:]]")
@@ -66,83 +99,83 @@ new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) 
 
 head(new_ref_companies)
 colnames(new_ref_companies) <- c("CompanyString", "Tokens", "CIK", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "SEC_Company_Name", "SEC_SIC", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS", "token_low", "token_hun")
+```
 
+Manipulate company set: 
+
+* find English tokens that repeat 
+* remove tokens that repeat 
+
+Consequence: you lose any names that are only composed of generic pharma names: ex. Drugs Pharmaceuticals Inc. would be lost
+
+```{r}
 multenglishtokens <- new_ref_companies %>% mutate(eng = hunspell::hunspell_check(token_hun)) %>% filter(eng == "TRUE") %>% group_by(token_hun) %>% summarise(n = n()) %>% filter(n > 1)
 
 multtokens <- new_ref_companies %>% group_by(Tokens) %>% summarise(n = n()) %>% filter(n > 1)
+new_ref_companies2 <- new_ref_companies
 new_ref_companies <- new_ref_companies %>% filter(Tokens %!in% multtokens$Tokens)
-
 ```
+
+Companies in Wordlist?
+
+* generate regex patterns of company name tokens
+    - original token
+    - lower case token
+    - stemmed token
+* generate corresponding columns of wordlist
+    - lower case word
+* detect and extract company name tokens in wordlist
 
 ```{r}
 patt = paste0("^", new_ref_companies$Tokens, "$", collapse = "|")
 pattlow = paste0("^", new_ref_companies$token_low, "$", collapse = "|")
 patthun = paste0("^", new_ref_companies$token_hun, "$", collapse = "|")
 
-wcbyword_findcompanies <- wcbyword %>% mutate(
+wcbyword_findcompanies <- wcbywordcomp %>% mutate(
   word_low = str_to_lower(Words),
-  companyTF = str_detect(Words, patt), # 1357 FALSES, 2490 TRUES
+  companyTF = str_detect(Words, patt), 
   compmatch = str_extract(Words, patt), 
   complowTF = str_detect(word_low, pattlow),
   complowmatch = str_extract(word_low, patthun))
 
+```
 
+First pass results: 
+
+* 13% company tokens, found using original token 
+    - 5007 word-mentions are candidate products
+    - 672 word-mentions are company tokens
+* 22% company tokens, found using lowcase token
+    - 4634 word mentions are candidate products
+    - 1045 word-mentions are company tokens
+
+```{r}
 table(wcbyword_findcompanies$companyTF) # 3650 FALSE, 197 TRUe
 table(wcbyword_findcompanies$complowTF) # 3401 FALSE, 446 TRUe
+```
 
+```{r}
+wcbyword_findcompanies %>% select(Words, Company, compmatch, complowmatch)
+test <- companylist %>% select(CIK, SIC_Company_Name)
+
+wcbyword_findcompanies %>% inner_join(test, by = c("Company" = "CIK"))
+```
+
+
+```{r}
 
 wcbyword_findcompanies %>% select(Words,companyTF, compmatch,complowTF, complowmatch) %>% filter(complowTF == TRUE)
 
-wcbyword_companies_set1 <- wcbyword_findcompanies %>% 
+wcbyword_companies_TRUE <- wcbyword_findcompanies %>% 
   filter(companyTF == TRUE) %>%
   inner_join(new_ref_companies, by = c("Words" = "Tokens", "word_low" = "token_low")) 
 
-wcbyword_companies_set2 <- wcbyword_findcompanies %>% 
+wcbyword_companies_candPRODS <- wcbyword_findcompanies %>% 
   filter(complowTF == TRUE) %>% 
   anti_join(new_ref_companies, by = c("Words" = "Tokens", "word_low" = "token_low")) 
 
-
-new_ref_companies %>% filter(is.na(CompanyString))  ##dataplumbr::var.is_blank(CompanyString))
-wcbyword_companies_set1 %>% filter(nchar(CompanyString)<1)  ##dataplumbr::var.is_blank(CompanyString))
-wcbyword_companies_set2 %>% filter(is.na(CompanyString)) %>% select(Words, word_low, complowmatch, CompanyString)
-
-new_ref_companies[str_detect(new_ref_companies$token_low, "biocryst") == TRUE, ]
-
-wcbyword_companies %>% 
-  select(-`2012`,-`2013`,-`2014`,-`2015`,-`2016`,-`2017`, -companyTF, -complowTF, -CompanyString)
-# %>% select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name) %>% distinct()
-
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```{r loaddata}
-allwordcounts <- read_csv("~/git/business_innovation/data/working/sec/all_secwordlists.csv")
-wcbycompdetails <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/2_wcbycompdetails.RDS")
-#nonEnglishwords_detectedascompanies <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/4_tokencompanyrefset.RDS")
-
-#wcbycompdetails_compcheck %>% select(Token, SEC_Company_Name, Self, Comp) %>% filter( Comp > 0 )
-regwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordlists.csv")
-company_list <- readRDS("~/git/business_innovation/data/working/sec/companylist_secsictick.RDS")
-```
 
 ```{r cars}
 regwords2 <- regwords %>% mutate(Brand = str_remove(Words, "[®|™]"), 
@@ -152,6 +185,10 @@ regwords2 <- regwords %>% mutate(Brand = str_remove(Words, "[®|™]"),
 
 brands <- regwords2 %>% select(Brand, Protection) %>% distinct()
 
+
+
+
+
 wcbycompdetails %>% left_join(brands, by = c("Words" = "Brand")) %>% filter(!is.na(Protection)) #1118 words are protected brands
 
 wcbycompdetails %>% left_join(brands, by = c("Words" = "Brand")) %>% filter(is.na(Protection)) #4605 words aren't protected brands
@@ -160,3 +197,4 @@ wcbycompdetails %>% left_join(brands, by = c("Words" = "Brand")) %>% filter(is.n
 
 ```
 
+To do later - check words for ending in TM or space letter R? may need to go back to original ALL words list 
