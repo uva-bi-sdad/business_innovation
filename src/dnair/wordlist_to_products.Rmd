@@ -140,7 +140,7 @@ wcbyword_findcompanies <- wcbywordcomp %>% mutate(
 
 ```
 
-First pass results: 
+Results: 
 
 * 13% company tokens, found using original token 
     - 5007 word-mentions are candidate products
@@ -154,28 +154,21 @@ table(wcbyword_findcompanies$companyTF) # 3650 FALSE, 197 TRUe
 table(wcbyword_findcompanies$complowTF) # 3401 FALSE, 446 TRUe
 ```
 
+Join wordlist w company v. cand products to ORIGINAL CIK so you have the name of the company that submitting that filing
+
 ```{r}
 wcbyword_findcompanies %>% select(Words, Company, compmatch, complowmatch)
-test <- companylist %>% select(CIK, SIC_Company_Name)
+submittingcompanies <- companylist %>% select(CIK, SIC_Company_Name)
+wcbyword_findcompanies <- wcbyword_findcompanies %>% inner_join(submittingcompanies, by = c("Company" = "CIK"))
+colnames(wcbyword_findcompanies) <- c("Words", "SubmittingCIK", "Y2012", "Y2013", "Y2014", "Y2015", "Y2016", "Y2017",
+                                      "Words_Low", "CompanyTF", "CompMatch", "CompLowTF", "CompLowMatch", "SubmittingCompany")
 
-wcbyword_findcompanies %>% inner_join(test, by = c("Company" = "CIK"))
+wcbyword_findcompanies <- wcbyword_findcompanies %>% 
+  select(SubmittingCIK, SubmittingCompany, Words, Words_Low, CompMatch, CompLowMatch, Y2012, Y2013, Y2014, Y2015, Y2016, Y2017) %>%
+  arrange(Words)
 ```
 
-
-```{r}
-
-wcbyword_findcompanies %>% select(Words,companyTF, compmatch,complowTF, complowmatch) %>% filter(complowTF == TRUE)
-
-wcbyword_companies_TRUE <- wcbyword_findcompanies %>% 
-  filter(companyTF == TRUE) %>%
-  inner_join(new_ref_companies, by = c("Words" = "Tokens", "word_low" = "token_low")) 
-
-wcbyword_companies_candPRODS <- wcbyword_findcompanies %>% 
-  filter(complowTF == TRUE) %>% 
-  anti_join(new_ref_companies, by = c("Words" = "Tokens", "word_low" = "token_low")) 
-
-```
-
+Create list of registered and trademarked brands, join to wordlist
 
 ```{r cars}
 regwords2 <- regwords %>% mutate(Brand = str_remove(Words, "[®|™]"), 
@@ -185,16 +178,69 @@ regwords2 <- regwords %>% mutate(Brand = str_remove(Words, "[®|™]"),
 
 brands <- regwords2 %>% select(Brand, Protection) %>% distinct()
 
+wcbyword_findcompanies <- wcbyword_findcompanies %>% left_join(brands, by = c("Words" = "Brand"))
+```
 
+Results: 
 
+* 4605 word-mentions NOT protected brands - 80%
+* 1016 word-mentions are REGISTERED brands - 17%
+* 102 word-mentions are TRADEMARKED bradns - 1.7%
 
+```{r}
+table(wcbyword_findcompanies$Protection)
+sum(is.na(wcbyword_findcompanies$Protection))
+```
 
-wcbycompdetails %>% left_join(brands, by = c("Words" = "Brand")) %>% filter(!is.na(Protection)) #1118 words are protected brands
+Overlap? 
 
-wcbycompdetails %>% left_join(brands, by = c("Words" = "Brand")) %>% filter(is.na(Protection)) #4605 words aren't protected brands
-wcbycompdetails %>% left_join(brands, by = c("Words" = "Brand")) %>% filter(is.na(Protection)) %>% select(Words, lowword) %>% distinct()
+* 5723 word mentions total
 
+Company token matched set:
+
+* 1047 total 
+* 1006 not protected - 96%
+* 41 protected - 3.9%
+    - 39 R - 3.7% of all - 95% of protected
+    - 2 TM - 0.0% of all - 4% of protected
+
+Candidate products:
+
+* 4676 total 
+* 3599 not protected - 76%
+* 1077 protected - 23%
+    - 977 R - 20% of all - 90% of protected
+    - 100 TM - 21% of all - 9 % of protected
+
+```{r}
+```
+
+If Company - Self v Other? 
+
+```{r}
+wcbyword_findcompanies <- wcbyword_findcompanies %>% 
+  mutate(SelfFlag1 = as.numeric(mapply(grepl, Words, SubmittingCompany)),
+         SelfFlag2 = as.numeric(mapply(grepl, Words_Low, str_to_lower(SubmittingCompany))),
+         SelfFlag = SelfFlag1 + SelfFlag2,
+         SelfOther = ifelse(is.na(CompLowMatch),"PossProd", ifelse(SelfFlag > 0, "CompSelf", "CompOther" ))) 
+```
+
+Results: 
+
+* 4676 Possible Products
+* 932 word mentions - Companies talking about other companies
+* 115 word mentions - Companies talking about themselves
+
+```{r}
+table(wcbyword_findcompanies$SelfOther)
 
 ```
+
+```{r}
+finalset <- wcbyword_findcompanies %>% select(SubmittingCompany, Words, Y2012, Y2013, Y2014, Y2015, Y2016, Y2017, Protection, SelfOther)
+# saveRDS(finalset, "~/git/business_innovation/data/final/SEC/candidateproduct.RDS")
+# write.csv(finalset, "~/git/business_innovation/data/final/SEC/candidateproduct.csv", row.names = FALSE)
+```
+
 
 To do later - check words for ending in TM or space letter R? may need to go back to original ALL words list 
