@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Compiling Company Dictionary - Finding Matches between FDA Submitting Companies and SEC-SIC-Stock Exchange Company Names"
 output: html_document
 ---
 
@@ -16,11 +16,13 @@ library(dataplumbr)
 #remotes::install_github("dads2busy/dataplumbr", force = TRUE)
 ```
 
-Load data from joins: 
-START: CIK Names - company names from SEC - Reference name
-ADD: SIC (Industry-based company names) - Reference name
-ADD: Ticker Codes (company names from stock exchange) - Reference name
-ADD: FDA Approvals companynames - *Partial name*
+## Load data from joins: 
+
+* START: CIK Names - company names from SEC - Reference name
+* ADD: SIC (Industry-based company names) - Reference name
+* ADD: Ticker Codes (company names from stock exchange) - Reference name
+* ADD: FDA Approvals companynames - *Partial name*
+
 ```{r load, echo=F, message=F}
 ## READ IN: CIK codes & company names, SIC company names, Ticker Company Names, FDA Approval Company Names
 ciknames <- read_rds("~/git/business_innovation/data/original/ciks_names.RDS")
@@ -28,11 +30,39 @@ sic <- read_rds("~/git/business_innovation/data/original/sic.download.RDS")
 cik_ticker <- read_delim("~/git/business_innovation/data/original/edgar_filings/cik_ticker.csv", delim = "|")
 fda_approvals <- read_excel("~/git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx") 
 
+master_indices_all_96_18 <- readRDS("~/git/business_innovation/data/original/Master Index/master_index_ALL_96_18.RDS")
+#CIKNAMES <- saveRDS("~/git/business_innovation/data/working/sec/ALL_company_names_CIK_SIC/CIKNAMES_ALL_1996_2018.RDS")
+CIKNAMES <- readRDS("~/git/business_innovation/data/working/sec/ALL_company_names_CIK_SIC/CIKNAMES_ALL_1996_2018.RDS")
+sicdata <- readr::read_tsv("~/git/business_innovation/data/original/SIC.Download.txt")
 ```
+
+
+Original ciknames and sic did not go far back enough in time to get all company names (they publish batches of company names that submit filings that particular year)
+
+New CIKNAMES and sicdata take 1996-2018
+
+THESE (CIKNAMES and sicdata) DO MERGE, but not enough matches on the SIC side. APOTEX only in CIKNAMES, not SICdata
+
+```{r, eval=FALSE}
+ciknames
+sic
+cik_ticker
+
+CIKNAMES
+sicdata
+
+# Years GO: 
+#    2012    2013    2014    2015    2016    2017    2018 
+# 1950150 1981212 1993732 1990840 1905770 1938842  488810 
+
+
+```
+
 
 Join data: 
 SIC -> CIK -> Ticker
-```{r initial_join, echo=FALSE}
+ First chunk is disabled (from old join)
+```{r initial_join, echo=FALSE, eval=FALSE}
 ## CLEAN AND DO FIRST JOIN BETWEEN CIK--SIC--TICKER
 sic$SIC <- as.numeric(sic$SIC)
 sic$CIK <- as.numeric(sic$CIK)
@@ -51,8 +81,30 @@ colnames(company_list) <- c(
   "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_Location", "Ticker_Incorporated", "Ticker_IRS" )
 
 head(company_list)
-rm(cik_ticker, ciknames, sic)
+rm(ciknames, sic)
 ```
+ 
+ 
+ Second chunk full joins CIKNAMES, SIC_DOWNLOAD.TXT, and Stock info
+```{r}
+sicdata$CIK2 <- as.numeric(sicdata$CIK)  #58,427
+CIKNAMES$CIK2 <- as.numeric(as.character(CIKNAMES$CIK)) #677,693
+#test <- CIKNAMES %>% inner_join(sicdata, by = c("CIK2")) # 	76,808
+#company_list <- CIKNAMES %>% left_join(sicdata, by = c("CIK2")) # 	677,693
+company_list <- CIKNAMES %>% full_join(sicdata, by = c("CIK2")) # 	678,821
+company_list <- company_list %>% full_join(cik_ticker, by = c("CIK2" = "CIK")) # 678,822 
+colnames(company_list) <- c("SEC_CIK", "SEC_Company_Name", "SEC_n", "SIC_CIK", "SIC_FULLCIK", "SIC_Company_Name", "SIC_Ind_Code", "SIC_Ind_Name", "SIC_Location", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_Industry_Code", "Ticker_Location", "Ticker_Incorporated", "Ticker_IRS" )
+
+rm(cik_ticker, CIKNAMES)
+head(company_list)
+```
+
+```{r}
+industries <- sicdata %>% select(SIC, Industry) %>% distinct() %>% mutate(SICNAME = paste(SIC, Industry, sep = ": "))
+rm(sicdata)
+head(industries)
+```
+
 
 Select subset of companies:
 SIC: 
@@ -63,10 +115,54 @@ SIC:
 
 ```{r}
 ## SELECT COMPANIES IN PHARMA & MED DEVICE SIC CODE --- note may need to expand this!!! based on FDA SIC codes
-pharm_comp_names_only <- company_list %>% filter(SIC_Code == 3841|SIC_Code == 2834|SIC_Code == 5047| SIC_Code == 8731) # %>% select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name) %>% mutate(name_count = 3 - rowSums(is.na(.)))
+pharm_comp_names_only <- company_list %>% filter(SIC_Ind_Code %in% c(3841, 2834, 5047, 8731)) 
+# %>% select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name) %>% mutate(name_count = 3 - rowSums(is.na(.)))
+head(pharm_comp_names_only)
+```
+
+Regex Patterns for FDA company names - Round 1
+1. Take entire FDA company names
+2. Combine entire names into single regex search pattern string, e.g., search for ```Devika Health Holdings, Inc``` OR ```Antares Pharma Inc```
+3. Match against entire FDA company name - this gets 136 and misses 3106
+
+```{r}
+## CREATE TEXT FILTER FOR FDA COMPANY NAMES
+fda_companies <- data.frame(FDA_ORIG = unique(fda_approvals$Company))
+fda_patt <- paste0(fda_companies$FDA_ORIG, collapse = "|")
+rm(fda_approvals)
+```
+
+Sampling of the ones it finds: note, FDA_Name_Orig1 is the pattern it actually matches
+
+```{r}
+pharm_comp_names_wfda <- pharm_comp_names_only %>% 
+  mutate(FDA_Name_Orig1 = str_extract(string = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name), pattern = fda_patt)) #%>% filter(is.na(FDA_Name_Orig1))
+rm(pharm_comp_names_only)
+
+table(is.na(pharm_comp_names_wfda$FDA_Name_Orig1))
+pharm_comp_names_wfda[61:70,] %>% select(c(2,6, 9,14, 17)) %>% data.table::as.data.table()
+
 ```
 
 Regex Common Patterns for company suffixes
+
+Company  suffixes:
+
+* inc
+* corp, corporation
+* plc
+* de
+* co, com
+* llc
+* ltd
+* us, int
+* holdings
+
+Other
+
+* and, &
+* health
+* na, NA
 
 ```{r}
 ## CREATE TEXT FILTER FOR BLANKS, NAS, COMMON COMPANY ABBREVIATIONS
@@ -78,27 +174,6 @@ inc_patt <- paste0(
     paste0("\\b", c("NA", "na")),
     paste0(c("NA", "na"), "\\b"), "&" ),
   collapse = "|")
-```
-
-Regex Patterns for FDA company names
-
-```{r}
-## CREATE TEXT FILTER FOR FDA COMPANY NAMES
-fda_companies <- data.frame(FDA_ORIG = unique(fda_approvals$Company))
-fda_patt <- paste0(fda_companies$FDA_ORIG, collapse = "|")
-rm(fda_approvals)
-```
-
-Match any portion of entire FDA company name - this gets 93 out of 2020
-
-```{r}
-pharm_comp_names_wfda <- pharm_comp_names_only %>% 
-  mutate(FDA_Name_Orig1 = str_extract(string = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name), pattern = fda_patt)) #%>% filter(is.na(FDA_Name_Orig1))
-rm(pharm_comp_names_only)
-
-table(is.na(pharm_comp_names_wfda$FDA_Name_Orig1))
-pharm_comp_names_wfda[61:70,] %>% select(c(2,6, 9,14)) %>% data.table::as.data.table()
-
 ```
 
 
@@ -133,9 +208,35 @@ fda_companies <- fda_companies %>% mutate(fda_clean = tolower(str_replace_all(FD
 # fda_companies
 # length(unique(pharm_comp_names_wfda$mashup_sort))
 # length(unique(fda_companies$fda_more_clean))
+
+```
+
+Problem: The FDA doesn't rigorously enforce name entry when companies submit a drug application, so the result is that the names we have on the FDA side do not strictly match: 
+
+* each other
+* external references point-in-time
+* external references over time (e.g., changes in corporate structures and names, such as rebrands, mergers, acquisitions, splits, etc. )
+
+```{r}
+fda_companies %>% arrange(fda_more_clean) %>% filter(stringr::str_detect(fda_more_clean, "abbvie") == TRUE)
+```
+
+
+Solution: You can see below how all the string names were combined and then cleaned down to the core tokens
+
+```{r}
+data.table::transpose(pharm_comp_names_wfda[str_detect(pharm_comp_names_wfda$mashup_sort, "abbvie"),18:21])
 ```
 
 Match cleaned FDA company names against cleaned SEC-SIC-Ticker set - this gets 129 out of 2020 - but a total of 145 out of 2020 if you combine them
+
+Regex Patterns for FDA company names - Round 2
+
+1. Take all the unique sub-strings that comprise FDA company names
+2. Filter to sub-strings that MORE UNIQUELY identify that company, e.g., ```Devika Nair Holdings, Inc``` is uniquely identified by the token ```Devika Nair```
+3. Combine entire names into single regex search pattern string, e.g., search for ```Devika Nair``` OR ```Antares```
+4. Match against entire FDA company name - this gets 207 and misses 3035
+
 
 ```{r}
 fda_patt_regex <- paste0( c(paste0("\\s", fda_companies$fda_more_clean, "\\s"), paste0("\\b", fda_companies$fda_more_clean, "\\b")), collapse = "|")
@@ -143,44 +244,126 @@ pharm_comp_names_wfda <- pharm_comp_names_wfda %>%
   mutate(FDAmatch = str_extract(mashup_sort, pattern = fda_patt_regex))
 
 table(is.na(pharm_comp_names_wfda$FDAmatch))
+#pharm_comp_names_wfda %>% select(mashup_sort, FDAmatch) %>% distinct()
 ```
 
 Who is matching? 
 
 ```{r}
-pharm_comp_names_wfda %>% select(FDA_Name_Orig1, FDAmatch) %>% filter(!is.na(FDA_Name_Orig1)|!is.na(FDAmatch)) 
+pharm_comp_names_wfda %>% filter(!is.na(FDAmatch)) %>% select(mashup_sort, FDAmatch) 
 ```
 
 Who isn't matching...??
 
 ```{r}
-pharm_comp_names_wfda %>% filter(is.na(FDA_Name_Orig1)|is.na(FDAmatch)) %>% select(mashup_sort) #select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name)
+pharm_comp_names_wfda %>% filter(is.na(FDAmatch)) %>% select(mashup_sort, FDAmatch) 
+pharm_comp_names_wfda %>% filter(is.na(FDAmatch)) %>% select(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name)
 ```
+
+Example of one that WAS NOT detected as a match DESPITE presence in both SEC and FDA.
+
+Here: the reference strings of ```abbott bioterapeutics facet biotech``` in our reference set from SIC, SEC, and the stock exchange, do not match our search string ```abbott labs``` as the company has referred to itself when submitting the FDA application
 
 ```{r}
 pharm_comp_names_wfda %>% filter(str_detect(mashup_sort, "abbott biotherapeutics") == TRUE) %>% select(mashup_sort)
+
+fda_companies %>% filter(str_detect(fda_more_clean, "abbott") == TRUE)
 ```
 
+So far, we started with our reference set and matched back to FDA. This answers the question - how many FDA company names are in our reference set?
 
+What if you went in the opposite direction? What if you took all the SEC-SIC-Ticker clean names and matched them against the FDA original names? This answers the question - how many reference names are in our FDA set? 
+
+Little improvement - 149 FDA companies match to reference set, and 826 not found
 
 ```{r}
 pharm_clean_names<- unique(pharm_comp_names_wfda$mashup_sort)
 pharmpatt <- paste0( c(paste0("\\s", pharm_clean_names, "\\s"), paste0("\\b", pharm_clean_names, "\\b")), collapse = "|")
-thing <- fda_companies %>% mutate(sec_sic_tick_match = str_extract(fda_more_clean, pattern = pharmpatt))
-thing
-table(is.na(thing$sec_sic_tick_match))
-thing %>% filter(is.na(sec_sic_tick_match))
+fda_TO_ref_matching <- fda_companies %>% mutate(sec_sic_tick_match = str_extract(fda_more_clean, pattern = pharmpatt))
+table(is.na(fda_TO_ref_matching$sec_sic_tick_match))
+```
+
+Examples where it matches...
+
+```{r}
+fda_TO_ref_matching %>% filter(!is.na(sec_sic_tick_match)) %>% head()
+```
+
+Examples where it doesn't match...two reasons
+
+* company does not exist in reference set (Zydus)
+* company exists in reference set, but substring pattern did not find it (Lilly, Bayer, Dr. Reddy's Labs)
+
+FDA side: 
+```{r}
+fda_TO_ref_matching %>% filter(is.na(sec_sic_tick_match)) %>% head()
+```
+
+Reference string patterns: 
+```{r}
+pharm_clean_names[str_detect(pharm_clean_names, "bayer")]
+pharm_clean_names[str_detect(pharm_clean_names, "reddy")]
+pharm_clean_names[str_detect(pharm_clean_names, "lilly")]
 ```
 
 
-```{r}
-pharm_comp_names_wfda %>% select(mashup_sort) %>% filter(str_detect(mashup_sort, "vintage") == TRUE)
+For those not found, one possible explanation is that these companies are not in SEC/SIC/Ticker set (like the vintage) OR they are still named differently (as a name like reddy, or as a corporate structure)
 
-searchfor <- "reddy"
-company_list %>% filter(str_detect(tolower(SIC_Company_Name), searchfor) == TRUE|str_detect(tolower(SEC_Company_Name), searchfor) == TRUE|str_detect(tolower(Ticker_Company_Name), searchfor) == TRUE)
+Nothing appears for apotex, reddy, or vintage in sec-sic-ticker set
+
+The Apotex one is concerning - bc we know it's in the set - but upon investigation, it doesn't have an SIC code - so we need to expand the reference list to not limit to pharma companies. 
+
+Note for myself: Instead of pharmcomp only, we need to use companylist
+
+
+```{r eval=FALSE}
+allcomp_only <- company_list %>% 
+  mutate(FDA_Name_Orig1 = str_extract(string = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name), pattern = fda_patt),
+         mashup_orig = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name, FDA_Name_Orig1, sep = "; "),
+         mashup_clean = paste(tolower(str_replace_all(SIC_Company_Name, "[:punct:]", " ")),
+                              tolower(str_replace_all(SEC_Company_Name, "[:punct:]", " ")),
+                              tolower(str_replace_all(Ticker_Company_Name, "[:punct:]", " "))),
+         #mashup_more_clean = str_trim(str_remove_all(str_remove_all(mashup_clean, inc_patt), "\\s.\\s|\\s..\\s"), side = "right"),
+         mashup_more_clean = str_trim((str_replace_all(string = mashup_clean, pattern = inc_patt, replacement = " ")), side = "right"),
+         mashup_sort = str_trim(vapply(lapply(strsplit(mashup_more_clean, " "), unique), paste, character(1L), collapse = " "))
+         )
+
+head(allcomp_only)
 ```
 
-```{r}
+
+now with fda matches - entire name matches - 
+3,590 match, 
+675,232 do not
+
+```{r eval=FALSE}
+table(is.na(allcomp_only$FDA_Name_Orig1))
+```
+
+now with fda matches - unique substring matches - 
+3,590 match, 
+675,232 do not
+
+
+```{r eval=FALSE}
+allcomp_only <- allcomp_only %>% mutate(FDAmatch = str_extract(mashup_sort, pattern = fda_patt_regex))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r eval=FALSE}
 '%!in%' <- function(x,y)!('%in%'(x,y))
 fda_companies <- fda_companies %>% 
   mutate(FDAToken = str_split(fda_companies$fda_more_clean, "[ |-]")) %>% 
@@ -208,7 +391,7 @@ thing %>% group_by(fdamatch) %>% summarise(n = n()) %>% arrange(desc(n))
 
 ```
 
-```{r}
+```{r eval=FALSE}
 
 # fda_tokens[str_detect(fda_tokens$token, patt_fda_token) == TRUE, ]
 # patt_fda_token2 <- paste0(fda_tokens$token, collapse = "|")
@@ -229,7 +412,7 @@ pharm_comp_names_wfda %>% select(mashup_sort, FDAmatch, FDAmatchtoken) %>% filte
 
 ```
 
-```{r}
+```{r eval=FALSE}
 fda_companies %>% select(fda_more_clean) %>% mutate(fda_more_clean = str_trim(fda_more_clean, "both"),
                                                     spacecount = str_count(fda_more_clean, "\\s"),
                                                     #bigrams = str_split(fda_more_clean, "\\s.*\\s+"),
@@ -242,6 +425,9 @@ fda_companies %>% select(fda_more_clean) %>% mutate(fda_more_clean = str_trim(fd
 ```
 
 
+```{r}
+company_list
+```
 
 
 

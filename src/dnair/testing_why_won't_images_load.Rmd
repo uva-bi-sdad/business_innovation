@@ -1,0 +1,11 @@
+---
+title: "Untitled"
+output:
+  html_document:
+    self_contained: no
+---
+
+
+![Caption for the picture.](~/git/business_innovation/src/dnair/images/comp_noneng_brand_mentions.png)    
+
+

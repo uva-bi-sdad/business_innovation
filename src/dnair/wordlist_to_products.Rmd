@@ -1,19 +1,19 @@
 ---
-title: "Text Method on SEC Filings - Cleaning Wordlist Results"
+title: "Text Method on SEC Filings - Cleaning Wordlist Results using/adding Protected Brands"
 output: html_document
 ---
 
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 library(readr)
 library(stringr)
 library(dplyr)
-library(corpus)
+library(corpus) #new package from writeup1 (aka "Parsing" writeup) 
 ```
 
-```{r functions}
+```{r functions, eval=FALSE}
 stem_hunspell <- function(term) {
   # look up the term in the dictionary
   stems <- hunspell::hunspell_stem(term)[[1]]
@@ -30,11 +30,36 @@ stem_hunspell <- function(term) {
 '%!in%' <- function(x,y)!('%in%'(x,y))
 ```
 
-Loading: 
 
-* non-English words from SEC 10K filings
+```{r, eval = FALSE}
+allwordcounts %>% distinct(Company, Year) %>% count()
+regwords %>% distinct(Company, Year) %>% count()
+
+nonenglish_submissions <- allwordcounts %>% transmute(id = paste(Company, Year))
+registered_submissions <- regwords %>% transmute(id = paste(Company, Year))
+
+length(intersect(nonenglish_submissions$id, registered_submissions$id))
+length(setdiff(nonenglish_submissions$id, registered_submissions$id))
+length(setdiff(registered_submissions$id, nonenglish_submissions$id))
+```
+
+
+#### Loading Data: 
+
+* 15K non-English words from SEC 10K filings 
+    - 15K word-mentions by company-filings 
+    - e.g., each row = COUNT(company x yearly filing x non-English word)
+    - ex: CIK Company 1001316's 2013 filing mentions Rituxan 3 times = 1 row
 * any word with R or TM at end
+    - 37K protected words detected by company-filings 
+    - e.g., each row = company  x yearly filing x non=English word 
+    - repeats allowed, no counts yet here
+    - ex: CIK Company 1001316's March 2013 filing mentions Rituxan® = 1 row
 * list of all companies (SIC-SEC-Ticker)
+    - this is old - may need to update this based on new company filings
+    - I think this is all companies who ever submitted a 10K filing between our time period (2013-2016?)
+    - Company dictionary is now working on anyone who ever submitted anything between 1996 and 2018
+    - 59K companies: CIK Code, SIC name, SIC Industry, SIC Location, SEC name, SEC SIC Code, Stock Exchange Ticker, etc...
 
 ```{r load_data}
 allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/allnonenglishwordcounts.RDS")
@@ -44,32 +69,34 @@ companylist <- readRDS("~/git/business_innovation/data/working/sec/companylist.R
 
 ```{r loaddata}
 #allwordcounts <- read_csv("~/git/business_innovation/data/working/sec/all_secwordlists.csv")
-wcbycompdetails <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/2_wcbycompdetails.RDS")
+# wcbycompdetails <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/2_wcbycompdetails.RDS")
 #nonEnglishwords_detectedascompanies <- readRDS("~/git/business_innovation/data/working/sec/fuzzymatching/4_tokencompanyrefset.RDS")
 
 #wcbycompdetails_compcheck %>% select(Token, SEC_Company_Name, Self, Comp) %>% filter( Comp > 0 )
-regwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordlists.csv")
-company_list <- readRDS("~/git/business_innovation/data/working/sec/companylist_secsictick.RDS")
+# regwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordlists.csv")
+# company_list <- readRDS("~/git/business_innovation/data/working/sec/companylist_secsictick.RDS")
 ```
 
-Manipulate data:
+
+#### Manipulating Words Data: 
+
+*Track word mentions over time*
 
 * "pivot" words to move years from rows into columns
-* find distinct companies in original list
-* create column that concatenates all name strings across CIK codes
 
-Note: 5,679 word-mentions
+*Result:* 15K word-filing-company mentions --> 5,679 words x companies 
 
 ```{r shaping_data}
 wcbywordcomp <- reshape2::dcast(allwordcounts, Words + Company ~ Year, sum) #wcbyword <- reshape2::dcast(allwordcounts, Words ~ Year, sum)
-company_reference_names <- companylist %>% distinct() %>% 
-  mutate(CompanyString = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name)) 
+knitr::kable(head(wcbywordcomp))
 ```
 
-Create two 'dictionaries':
+*Create two vocabularies to filter against:*
 
 * company name stop words ex. inc, corp
 * pharma stop words ex. biopharma, therapeutics
+
+DECIDED NOT TO USE THESE AT THIS POINT - would like to match - WHERE DID I USE THIS?? 
 
 ```{r}
 stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa"))
@@ -79,14 +106,32 @@ stopwords <- paste0( stopwords, collapse = "|")
 pharmstopwords <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
 ```
 
-Create company name reference set: 
+#### Manipulating Company Names Data: 
 
+*Create company name reference set:* 
+
+* create column that concatenates all name strings across CIK codes
 * new columns 
     - tokens of company names
     - tokens as lower case
     - stemmed tokens 
 * remove tokens less than a character long
 * rename columns to indicate source of each name
+
+*Result:* 1 long string of company names combined (Q. First bullet - Is this the best way to do this?)
+
+```{r shaping_data2}
+company_reference_names <- companylist %>% distinct() %>% 
+  mutate(CompanyString = paste(SIC_Company_Name, SEC_Company_Name, Ticker_Company_Name)) 
+knitr::kable(company_reference_names[781:787, c(2, 6, 9, 15)])
+```
+
+
+*Result:* Long company name string is decomposed into its tokens in their:
+
+* original form
+* lower case form
+* stemmed form
 
 ```{r}
 comp_tokens <- str_split(company_reference_names$CompanyString, pattern = " |[[:punct:]]")
@@ -97,26 +142,43 @@ new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) 
   mutate(comp_lowword = str_to_lower(str_squish(comp_tokens))) %>% filter(comp_lowword %!in% stopwords) %>% 
   mutate(comp_low_hun = text_tokens(comp_lowword, stemmer = stem_hunspell)) %>% tidyr::unnest() %>% distinct()
 
-head(new_ref_companies)
 colnames(new_ref_companies) <- c("CompanyString", "Tokens", "CIK", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "SEC_Company_Name", "SEC_SIC", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS", "token_low", "token_hun")
+
+new_ref_companies %>% filter(str_detect(CompanyString, "Dorato Resources Inc")) %>% select(c(1,2, 17,18)) %>% knitr::kable()
 ```
 
-Manipulate company set: 
+*Reduce company token set:* 
 
-* find English tokens that repeat 
-* remove tokens that repeat 
+* found repeating English tokens 
+* remove any (English or non-English) tokens that repeat
 
-Consequence: you lose any names that are only composed of generic pharma names: ex. Drugs Pharmaceuticals Inc. would be lost
+*Risk:* (Both ways) You lose any names that are only composed of generic pharma names: ex. Drugs Pharmaceuticals Inc. would be lost
+*Risk:* (2nd Method) You may lose companies that are in same corporate family and have same unique-ish token but since it appears for two companies, it's lost: ex. Apogee Technology vs. Apogee Enterprises would both be lost. 
 
+*Result:* Decided repeating English tokens was still too generic and we would want to also remove non-English - below was not used. 
 ```{r}
 multenglishtokens <- new_ref_companies %>% mutate(eng = hunspell::hunspell_check(token_hun)) %>% filter(eng == "TRUE") %>% group_by(token_hun) %>% summarise(n = n()) %>% filter(n > 1)
-
-multtokens <- new_ref_companies %>% group_by(Tokens) %>% summarise(n = n()) %>% filter(n > 1)
-new_ref_companies2 <- new_ref_companies
-new_ref_companies <- new_ref_companies %>% filter(Tokens %!in% multtokens$Tokens)
+knitr::kable(multenglishtokens[964:970,])
 ```
 
-Companies in Wordlist?
+*Result:* Apogee appears as a token that appears twice. Our original set included two companies with that token. Our new company match set NO LONGER INCLUDES THESE COMPANIES. 
+
+*Result:* The companies that remain have uniquely identifiable tokens.  
+
+```{r}
+multtokens <- new_ref_companies %>% group_by(Tokens) %>% summarise(n = n()) %>% filter(n > 1)
+multtokens[str_detect(multtokens$Tokens, "Apogee"),]
+new_ref_companies2 <- new_ref_companies
+new_ref_companies <- new_ref_companies %>% filter(Tokens %!in% multtokens$Tokens)
+new_ref_companies2 %>% filter(str_detect(CompanyString, "Apogee")) %>% select(1:2) %>% distinct()
+
+new_ref_companies %>% filter(SIC_SIC == 2834) %>% select(1:2) %>% head() %>% knitr::kable()
+```
+
+#### Matching Wordlist to Company Names:
+
+FROM: SIC-SEC-Stock Exchange
+TO: Non English Words
 
 * generate regex patterns of company name tokens
     - original token
@@ -140,24 +202,92 @@ wcbyword_findcompanies <- wcbywordcomp %>% mutate(
 
 ```
 
-Results: 
+*Results:* 
+
+Roughly a quarter of our original 5K non-English words are companies. Over three-quarters of the set do not match with companies and remain potentially identifiable as products. 
 
 * 13% company tokens, found using original token 
     - 5007 word-mentions are candidate products
-    - 672 word-mentions are company tokens
+    - 672 word-mentions are company tokens (299 unique tokens)
 * 22% company tokens, found using lowcase token
     - 4634 word mentions are candidate products
-    - 1045 word-mentions are company tokens
+    - 1045 word-mentions are company tokens (444 unique tokens)
+
+```{r, eval = FALSE}
+#table(wcbyword_findcompanies$companyTF) # 5007 FALSE, 672 TRUe
+#table(wcbyword_findcompanies$complowTF) # 4634 FALSE, 1045 TRUe
+#as.integer(100*(5007/(5007+672)))
+#as.integer(100*(4634/(4634+1045)))
+
+orig <- wcbyword_findcompanies %>% filter(companyTF == TRUE) %>% select(compmatch) %>% mutate(source = "orig")
+low <- wcbyword_findcompanies %>% filter(complowTF == TRUE) %>% select(complowmatch) %>% mutate(source = "low") 
+nrow(orig) #672
+nrow(low) #1045
+length(intersect(str_to_lower(orig$compmatch), low$complowmatch)) # 299 - common between orig and lowmatch
+length(intersect(low$complowmatch, str_to_lower(orig$compmatch))) # 299 - common between orig and lowmatch
+length(setdiff(str_to_lower(orig$compmatch), low$complowmatch)) # 0
+length(setdiff(low$complowmatch, str_to_lower(orig$compmatch))) # 145
+
+intersect(str_to_lower(orig$compmatch), low$complowmatch) # 299 - common between orig and lowmatch
+intersect(low$complowmatch, str_to_lower(orig$compmatch)) # 299 - common between orig and lowmatch
+setdiff(str_to_lower(orig$compmatch), low$complowmatch) # 0
+setdiff(low$complowmatch, str_to_lower(orig$compmatch)) # 145
+
+orig <- orig %>% mutate(compmatch = str_to_lower(compmatch))
+low
+
+checkme_anti <- anti_join(orig, low, by = c("compmatch" = "complowmatch")) #0 rows
+checkme_inner <- inner_join(orig, low, by = c("compmatch" = "complowmatch")) %>% distinct() #0 rows
+checkme_full <- full_join(orig, low, by = c("compmatch" = "complowmatch")) %>% distinct() #0 rows
+
+anyDuplicated(orig$compmatch) #3
+anyDuplicated(low$complowmatch) #4
+
+uniqueorig <- orig[!duplicated(orig$compmatch),] #299 unique
+uniquelow <- low[!duplicated(low$complowmatch), ] # 444 unique
+
+
+length(intersect(uniqueorig$compmatch, uniquelow$complowmatch)) #299 - totally included both sides
+length(setdiff(uniqueorig$compmatch, uniquelow$complowmatch)) #0 - the orig token adds NOTHING 
+length(setdiff(uniquelow$complowmatch, uniqueorig$compmatch)) #145 - on the low-token side
+
+commontoboth <- data.frame(match = intersect(uniqueorig$compmatch, uniquelow$complowmatch)) #299 - totally included both sides
+onlylow <- data.frame(onlylow = setdiff(uniquelow$complowmatch, uniqueorig$compmatch)) #145 - on the low-token side
+
+# Can say from here that ALL Orig tokens are in both sets - all 672 are fully inside low token set
+# can say from here that low token adds 145 unique new tokens 
+
+low %>% anti_join(commontoboth, by = c("complowmatch" = "match")) 
+low %>% inner_join(commontoboth, by = c("complowmatch" = "match"))
+
+```
 
 ```{r}
-table(wcbyword_findcompanies$companyTF) # 3650 FALSE, 197 TRUe
-table(wcbyword_findcompanies$complowTF) # 3401 FALSE, 446 TRUe
+slices <- c(13, 88)
+lbls <- c("Company Tokens - 13%", "Words Remaining - 88%")
+pie(slices, labels = lbls, main="Pie Chart of Words Identified as Companies using Original Token")
+
+slices2 <- c(22, 81)
+lbls2 <- c("Company Tokens - 22%", "Words Remaining - 81%")
+pie(slices2, labels = lbls2, main="Pie Chart of Words Identified as Companies using lowcase Token")
+
 ```
+
+Overlap: 
+
+Metric: | Original Tokens | Low Tokens
+--------|-----------------|-----------
+Total Rows| 672 | 1045
+Total Shared| 672 | 716
+Total Different| 0 | 329
+Unique Rows| 299 | 444
+Uniquely Shared| 299| 299
+Uniquely Different| 0| 145
 
 Join wordlist w company v. cand products to ORIGINAL CIK so you have the name of the company that submitting that filing
 
 ```{r}
-wcbyword_findcompanies %>% select(Words, Company, compmatch, complowmatch)
+wcbyword_findcompanies %>% select(Words, Company, compmatch, complowmatch) %>% filter(str_detect(str_to_lower(Words)), )
 submittingcompanies <- companylist %>% select(CIK, SIC_Company_Name)
 wcbyword_findcompanies <- wcbyword_findcompanies %>% inner_join(submittingcompanies, by = c("Company" = "CIK"))
 colnames(wcbyword_findcompanies) <- c("Words", "SubmittingCIK", "Y2012", "Y2013", "Y2014", "Y2015", "Y2016", "Y2017",

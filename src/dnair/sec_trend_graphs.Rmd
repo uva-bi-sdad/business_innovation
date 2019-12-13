@@ -1,0 +1,273 @@
+---
+title: "Graphs"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Resulting Dataset
+
+##### Innovation Trends Per Industry
+
+```{r plotsettings_2n3}
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+customPlot3 = list(
+  theme(axis.text.x  = element_text(vjust=0.5, size=12), #plot.margin = unit(c(1,1,2,2), "cm"),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="bottom"), 
+  coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 3),
+        colour =guide_legend(title="Key", ncol = 3))
+)
+
+pal_ind <- wes_palette("GrandBudapest1", 3, type = "discrete")
+```
+
+
+```{r maketime}
+time_summ <- allwordcounts %>%
+  left_join(ciknames, by = c("Company" = "CIK")) %>% 
+  left_join(sic, by = c("Company" = "CIK", "SEC_SIC" = "SIC_SIC")) %>%
+  left_join(cik_ticker, by = c("Company" = "CIK")) %>%
+  group_by(SIC_Industry, Year) %>%
+  summarise(count = n())
+
+time_summ$SIC_Industry <- tidyr::replace_na(time_summ$SIC_Industry, "Unknown")
+time_summ$SIC_Industry <- sub("MEDICAL", "MEDICAL\n ", time_summ$SIC_Industry)
+
+drugsbytime <- allwordcounts %>% group_by(Words, Year) %>% 
+  summarise(count = n()) %>% 
+  dcast(Words ~ Year, value.var = "count", fun.aggregate = sum) %>% 
+  mutate(sum = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`)  %>% arrange(desc(sum)) 
+
+drugsbytime_top <- drugsbytime %>% 
+  head(5) %>% 
+  select(-sum) %>% 
+  melt(id=c("Words"), variable.name = "Year")
+
+pal_5 <- wes_palette("Moonrise3", 5, type = "discrete")
+```
+
+Overall, the pharmaceutical industry appears to show the greatest number of innovations and appear to mention these innovations in their SEC filings more often.
+
+```{r inntimeplot}
+# counts of unique product mentions by company
+ggplot(data = time_summ, aes(x=Year, y=count, color = SIC_Industry)) +   #, group = factor(SIC_Industry), colour = factor(SIC_Industry))) + 
+    geom_line(linetype="solid", size=1.5) + 
+    geom_point(size=3, shape=21, fill="white")  +
+   customPlot2 +
+  scale_color_manual(values = pal_ind)  +
+  labs(title = "Number of Innovations per Industry Over Time", x = "Year", y = "Number of Innovations")
+```
+
+The top 5 words are ANDA, FDCA, Pharma, Teva, and Waxman. It is important to note that all of these need to be cleaned out from our list because they don't represent true products. Teva and Waxman are company names, and will be cleaned out there. Pharma is a common term but specific to the pharmaceutical industry and should join a cleaning list of non-English pharmaceutical terms. ANDA and FDCA are FDA terms (a novel drug application and the Federal Food Drug and Cosmetic Act) and will also join the latter list. 
+
+```{r innwtimeplot}
+ggplot(data = drugsbytime_top, aes(x=Year, y=value, group = Words, colour = Words)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") + 
+  scale_color_manual(values = pal_5) +
+  customPlot2 +
+  labs(title = "Top 5 Words over Time", x = "Year", y = "Number of Mentions")
+```
+
+
+Sample list of products? 
+
+```{r wordlist}
+df <- wcbycompdetails %>% group_by(Words) %>% summarise(count = n()) %>% arrange(desc(count)) %>% select(Words) %>% head(50) 
+df2 <- cbind(df[1:10, ], df[11:20, ], df[21:30, ], df[31:40, ], df[41:50, ])
+knitr::kable(df2)
+```
+
+##### Top Companies
+
+```{r maketopcomps}
+# counts of unique product mentions by company
+comps <- wcbycompdetails %>% group_by(SIC_CompName, SIC_Industry) %>% summarise(count = n())   %>% arrange(desc(count)) 
+pharm_comps <- comps %>% filter(SIC_Industry == "PHARMACEUTICAL PREPARATIONS")
+device_comps <- comps %>% filter(SIC_Industry == "SURGICAL & MEDICAL INSTRUMENTS & APPARATUS")
+comps_top <- comps %>% arrange(desc(count)) %>% head(25)
+
+customPlot = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF"), 
+        legend.position="bottom"),
+  coord_flip()
+  , guides(fill=guide_legend(title="Key", nrow = 2))
+)
+```
+
+Novartis AG, Sanofi, and ALlergan PLC appear to be the top three innovators on the pharmaceutical industry. 
+
+``` {r top25pharm_plot}
+ggplot(data=(pharm_comps %>% arrange(desc(count)) %>% head(25)), 
+       aes(x=reorder(SIC_CompName, count), y=count, fill = factor(SIC_Industry))) +
+  geom_bar( stat="identity") +
+  scale_fill_manual(values = pal_ind[1]) + 
+  customPlot +
+    labs(title = "Top 25 Pharm Companies", 
+      y = "Number of Products (All Time)",
+      x = "Companies")
+```
+
+Antares Pharma Inc, Lombard Medical Inc, and Resmed Inc appear to be the top three innovators on the pharmaceutical industry, but Antares is the strongest performer by far.
+
+``` {r top25device_plot}
+ggplot(data=device_comps %>% arrange(desc(count)) %>% head(25), 
+       aes(x=reorder(SIC_CompName, count), y=count, fill = factor(SIC_Industry))) +
+  geom_bar( stat="identity") +
+  scale_fill_manual(values = pal_ind[2]) + 
+  customPlot +
+    labs(title = "Top 25 Device Companies", 
+      y = "Number of Products (All Time)",
+      x = "Companies")
+```
+
+Across all industries, the top company trends are dominated by the pharmaceutical industry, with Antares the only medical device company that bubbles up to compete with the pharmaceutical companies. 
+
+```{r topcomps_plot}
+ggplot(data=comps_top %>% filter(!is.na(SIC_CompName)), aes(x=reorder(SIC_CompName, count), y=count, fill = factor(SIC_Industry))) +
+    geom_bar( stat="identity") + 
+  scale_fill_manual(values = pal_ind) +
+  customPlot + 
+  labs(title = "Top 25 Companies Across Industries", 
+      y = "Number of Products (All Time)",
+      x = "Companies")
+
+```
+
+##### Top Geographies
+
+```{r makegeo}
+pal_cut <- wes_palette("Zissou1", 5,  "discrete")
+
+usa_sum <- wcbycompdetails %>% 
+  group_by(Ticker_Location, SIC_Industry) %>% 
+  summarise(count = n()) %>% 
+  left_join(cikcountries, by = c("Ticker_Location" = "Code")) %>%
+  filter(US == "USA") 
+
+usa_sum$SIC_Industry  <- tidyr::replace_na(usa_sum$SIC_Industry , "Unknown")
+
+usa_sum$Ticker_StateCountry <- stringr::str_to_lower(usa_sum$Ticker_StateCountry)
+states <- map_data("state")
+usa_sum2 <- inner_join(states, usa_sum, by = c("region" = "Ticker_StateCountry"))
+
+'%ni%' <- Negate('%in%')
+
+countries_sum <- wcbycompdetails %>% 
+  group_by(SIC_Location, SIC_Industry) %>% 
+  summarise(count = n()) %>% 
+  left_join(cikcountries, by = c("SIC_Location" = "Code")) %>%
+  filter(US != "USA")
+
+countries_sum$ISO3code <- 
+  recode(countries_sum$Ticker_StateCountry,
+         "GERMANY" = "DEU", "AUSTRALIA" = "AUS","BELGIUM" = "BEL", "DENMARK" = "DNK", "FINLAND" = "FIN", "FRANCE" = "FRA", "NETHERLANDS" = "NLD", 
+         "SWEDEN" = "SWE", "SWITZERLAND" = "CHE", "UNITED KINGDOM" = "GBR", "JERSEY" = "JEY","IRELAND" = "IRL",
+         "BRITISH COLUMBIA, CANADA" = "CAN",  "MANITOBA, CANADA" = "CAN", "ONTARIO, CANADA" = "CAN", "QUEBEC, CANADA" = "CAN", 
+         "BERMUDA" = "BMU", "CAYMAN ISLANDS" = "CYM", "NETHERLANDS ANTILLES" = "ANT",
+         "CHINA" = "CHN", "HONG KONG" = "HKG", "INDIA" = "IND", "ISRAEL" = "ISR")
+
+countries_sum$FIPS <- 
+  recode(countries_sum$Ticker_StateCountry,
+         "GERMANY" = "GM", "AUSTRALIA" = "AS","BELGIUM" = "BE", "DENMARK" = "DA", "FINLAND" = "FI", "FRANCE" = "FR", "NETHERLANDS" = "NL", 
+         "SWEDEN" = "SW", "SWITZERLAND" = "SZ", "UNITED KINGDOM" = "UK", "JERSEY" = "JE","IRELAND" = "EI",
+         "BRITISH COLUMBIA, CANADA" = "CA",  "MANITOBA, CANADA" = "CA", "ONTARIO, CANADA" = "CA", "QUEBEC, CANADA" = "CA", 
+         "BERMUDA" = "BD", "CAYMAN ISLANDS" = "CJ", "NETHERLANDS ANTILLES" = "NL",
+         "CHINA" = "CH", "HONG KONG" = "HK", "INDIA" = "IN", "ISRAEL" = "IS")
+
+```
+
+California, Massachusetts, and New Jersey are the top three states where innovating companies exist.  
+
+```{r}
+ggplot(data=usa_sum, aes(x=reorder(Ticker_Location, count), y=count, fill = SIC_Industry)) +
+    geom_bar( stat="identity") +
+  scale_fill_manual(values = pal_ind) +
+  customPlot3 +
+  labs(title = "Total Innovations/Products Per State Across Industries", 
+       x = "States", y = "Number of Products (All Time)")  
+```
+
+New York, Pennsylvania, and North Carolina follow, but some states do not appear whatsoever. 
+
+```{r}
+ggplot(data = usa_sum2) + 
+  geom_polygon(aes(x = long, y = lat, fill = cut(count, breaks = c(0, 50, 100, 200, 400, 700)), group = group), color = "white") + 
+  coord_fixed(1.3) +
+  customPlot2 +
+  scale_fill_manual(values = pal_cut) +
+  labs(title = "Total Innovations/Products Per State Across Industries") + 
+  theme(axis.ticks = element_blank(), axis.title.x = element_blank(), 
+        axis.title.y = element_blank(), axis.text.y = element_blank(), axis.text.x = element_blank())
+```
+
+Ireland, the UK, Switzerland, and Israel are the top 4 countries where innovating companies are. 
+
+```{r}
+ggplot(data=countries_sum, aes(x=reorder(Ticker_StateCountry, count), y=count, fill = factor(SIC_Industry))) + 
+  geom_bar( stat="identity") + 
+  scale_fill_manual(values = pal_ind) + 
+  labs(title = "Total Innovations/Products Per Country Across Industries", 
+       x = "Countries", y = "Number of Products (All Time)") + 
+  customPlot3
+```
+
+```{r}
+## Re-merge
+countriesMap <- joinCountryData2Map(as.data.frame(countries_sum), joinCode = "ISO3",
+  nameJoinColumn = "ISO3code", nameCountryColumn = "Ticker_StateCountry", verbose = FALSE)
+
+## Specify the colourPalette argument
+mapCountryData(countriesMap,  nameColumnToPlot="count", catMethod = "pretty",
+  missingCountryCol = gray(.95), colourPalette = pal_cut)
+mapCountryData(countriesMap, mapRegion = "europe", nameColumnToPlot="count", catMethod = "pretty",
+  missingCountryCol = gray(.95), colourPalette = pal_cut)
+```
+
+##### Top Exchange
+
+```{r makeexch}
+exchange_products <- wcbycompdetails %>% 
+  group_by(`2012`,`2013`,`2014`,`2015`,`2016`,`2017`, Ticker_Exchange) %>% 
+  summarise(count = n()) %>% 
+  melt(id = "Ticker_Exchange")  %>% 
+  group_by(Ticker_Exchange, variable) %>% 
+  summarise(sum = sum(value)) %>%
+  filter(variable != "count")
+
+colnames(exchange_products) <- c("Exchange", "Year", "Products")
+exchange_products$Exchange <- tidyr::replace_na(exchange_products$Exchange, "Unknown")
+```
+
+This is probably not informative, but I thought it would be fun to include - the NASDAQ stock exchange is where most of the companies of the products are registered to trade their shares. 
+
+```{r excplot}
+ggplot(data = exchange_products %>% filter(Exchange != "Unknown"), aes(x=Year, y=Products, group = Exchange, colour = Exchange)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") +  
+  customPlot2 +
+  scale_color_manual(values = pal_5) +
+  labs(title = "Innovations Per Stock Exchange Over Time", x = "Year", y = "Number of Innovations")
+```
+
