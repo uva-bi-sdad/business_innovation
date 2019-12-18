@@ -1,0 +1,224 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set()
+library(corpus)
+```
+
+```{r}
+format(stopwords_en)
+```
+
+
+```{r}
+format(stopwords_en, justify = "centre")
+```
+
+```{r}
+sprintf(stopwords_en)
+```
+
+
+
+##### Top Geographies
+
+```{r makegeo, eval = FALSE}
+pal_cut <- wes_palette("Zissou1", 5,  "discrete")
+
+usa_sum <- wcbycompdetails %>% 
+  group_by(Ticker_Location, SIC_Industry) %>% 
+  summarise(count = n()) %>% 
+  left_join(cikcountries, by = c("Ticker_Location" = "Code")) %>%
+  filter(US == "USA") 
+
+usa_sum$SIC_Industry  <- tidyr::replace_na(usa_sum$SIC_Industry , "Unknown")
+
+usa_sum$Ticker_StateCountry <- stringr::str_to_lower(usa_sum$Ticker_StateCountry)
+states <- map_data("state")
+usa_sum2 <- inner_join(states, usa_sum, by = c("region" = "Ticker_StateCountry"))
+
+'%ni%' <- Negate('%in%')
+
+countries_sum <- wcbycompdetails %>% 
+  group_by(SIC_Location, SIC_Industry) %>% 
+  summarise(count = n()) %>% 
+  left_join(cikcountries, by = c("SIC_Location" = "Code")) %>%
+  filter(US != "USA")
+
+countries_sum$ISO3code <- 
+  recode(countries_sum$Ticker_StateCountry,
+         "GERMANY" = "DEU", "AUSTRALIA" = "AUS","BELGIUM" = "BEL", "DENMARK" = "DNK", "FINLAND" = "FIN", "FRANCE" = "FRA", "NETHERLANDS" = "NLD", 
+         "SWEDEN" = "SWE", "SWITZERLAND" = "CHE", "UNITED KINGDOM" = "GBR", "JERSEY" = "JEY","IRELAND" = "IRL",
+         "BRITISH COLUMBIA, CANADA" = "CAN",  "MANITOBA, CANADA" = "CAN", "ONTARIO, CANADA" = "CAN", "QUEBEC, CANADA" = "CAN", 
+         "BERMUDA" = "BMU", "CAYMAN ISLANDS" = "CYM", "NETHERLANDS ANTILLES" = "ANT",
+         "CHINA" = "CHN", "HONG KONG" = "HKG", "INDIA" = "IND", "ISRAEL" = "ISR")
+
+countries_sum$FIPS <- 
+  recode(countries_sum$Ticker_StateCountry,
+         "GERMANY" = "GM", "AUSTRALIA" = "AS","BELGIUM" = "BE", "DENMARK" = "DA", "FINLAND" = "FI", "FRANCE" = "FR", "NETHERLANDS" = "NL", 
+         "SWEDEN" = "SW", "SWITZERLAND" = "SZ", "UNITED KINGDOM" = "UK", "JERSEY" = "JE","IRELAND" = "EI",
+         "BRITISH COLUMBIA, CANADA" = "CA",  "MANITOBA, CANADA" = "CA", "ONTARIO, CANADA" = "CA", "QUEBEC, CANADA" = "CA", 
+         "BERMUDA" = "BD", "CAYMAN ISLANDS" = "CJ", "NETHERLANDS ANTILLES" = "NL",
+         "CHINA" = "CH", "HONG KONG" = "HK", "INDIA" = "IN", "ISRAEL" = "IS")
+
+```
+
+California, Massachusetts, and New Jersey are the top three states where innovating companies exist.  
+
+```{r, eval = FALSE}
+ggplot(data=usa_sum, aes(x=reorder(Ticker_Location, count), y=count, fill = SIC_Industry)) +
+    geom_bar( stat="identity") +
+  scale_fill_manual(values = pal_ind) +
+  customPlot3 +
+  labs(title = "Total Innovations/Products Per State Across Industries", 
+       x = "States", y = "Number of Products (All Time)")  
+```
+
+New York, Pennsylvania, and North Carolina follow, but some states do not appear whatsoever. 
+
+```{r, eval = FALSE}
+ggplot(data = usa_sum2) + 
+  geom_polygon(aes(x = long, y = lat, fill = cut(count, breaks = c(0, 50, 100, 200, 400, 700)), group = group), color = "white") + 
+  coord_fixed(1.3) +
+  customPlot2 +
+  scale_fill_manual(values = pal_cut) +
+  labs(title = "Total Innovations/Products Per State Across Industries") + 
+  theme(axis.ticks = element_blank(), axis.title.x = element_blank(), 
+        axis.title.y = element_blank(), axis.text.y = element_blank(), axis.text.x = element_blank())
+```
+
+Ireland, the UK, Switzerland, and Israel are the top 4 countries where innovating companies are. 
+
+```{r, eval = FALSE}
+ggplot(data=countries_sum, aes(x=reorder(Ticker_StateCountry, count), y=count, fill = factor(SIC_Industry))) + 
+  geom_bar( stat="identity") + 
+  scale_fill_manual(values = pal_ind) + 
+  labs(title = "Total Innovations/Products Per Country Across Industries", 
+       x = "Countries", y = "Number of Products (All Time)") + 
+  customPlot3
+```
+
+```{r, eval = FALSE}
+## Re-merge
+countriesMap <- joinCountryData2Map(as.data.frame(countries_sum), joinCode = "ISO3",
+  nameJoinColumn = "ISO3code", nameCountryColumn = "Ticker_StateCountry", verbose = FALSE)
+
+## Specify the colourPalette argument
+mapCountryData(countriesMap,  nameColumnToPlot="count", catMethod = "pretty",
+  missingCountryCol = gray(.95), colourPalette = pal_cut)
+mapCountryData(countriesMap, mapRegion = "europe", nameColumnToPlot="count", catMethod = "pretty",
+  missingCountryCol = gray(.95), colourPalette = pal_cut)
+```
+
+##### Top Exchange
+
+```{r makeexch, eval = FALSE}
+exchange_products <- wcbycompdetails %>% 
+  group_by(`2012`,`2013`,`2014`,`2015`,`2016`,`2017`, Ticker_Exchange) %>% 
+  summarise(count = n()) %>% 
+  melt(id = "Ticker_Exchange")  %>% 
+  group_by(Ticker_Exchange, variable) %>% 
+  summarise(sum = sum(value)) %>%
+  filter(variable != "count")
+
+colnames(exchange_products) <- c("Exchange", "Year", "Products")
+exchange_products$Exchange <- tidyr::replace_na(exchange_products$Exchange, "Unknown")
+```
+
+This is probably not informative, but I thought it would be fun to include - the NASDAQ stock exchange is where most of the companies of the products are registered to trade their shares. 
+
+```{r excplot, eval = FALSE}
+ggplot(data = exchange_products %>% filter(Exchange != "Unknown"), aes(x=Year, y=Products, group = Exchange, colour = Exchange)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") +  
+  customPlot2 +
+  scale_color_manual(values = pal_5) +
+  labs(title = "Innovations Per Stock Exchange Over Time", x = "Year", y = "Number of Innovations")
+```
+
+
+
+
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+############NONCODING DNA? 
+
+
+
+5.1. Company Names
+
+To the extent possible, we want to remove any cases where the non-English word used is actually a company. So we use our list of companies in the SEC database, the original set of  *nrow(unique(orig_companies))*  companies. These are the companies with the Pharmaceutical or Medical Device industry code that submitted filings over the years 2013-2016. For cases where a company is named, rather than a product, we hope to find a way to flag that mention as a mention of 'self' or 'competitor.'
+
+```{r illustrate_sec_companylist_2, eval = FALSE}
+colnames(origcomp_details) <- c("CIK Code", "CIK Company Name", "SIC Code", "SIC Company Name", "SIC Industry", "SIC Location", "Ticker Incorporation Location")
+knitr::kable(origcomp_details[31:36,c(1,2)]) #,5,6,7)])
+```
+
+Steps to identify and clean these names will include:
+
+* tokenizing
+* transforming to lower case
+* stemming words (eg. from 'sciences' to 'science')
+* identifying and separating English words (eg. 'pharmaceutical' or 'sciences')
+* identifying and separating common business naming tokens (eg. 'inc' or 'holdings')
+
+5.2. Mentions in Multiple Companies' Filings
+
+Moreover, we observe that some of these drugs are products of their competitors', hence their names will appear in filings of multiple companies. In order to address this, we look at the names across companies, and filter out those that appear in multiple companies' filings.  
+
+```{r illustratething, eval = FALSE}
+dis <- wcbyword %>% filter(Words == "Adderall")
+
+knitr::kable(dis)
+```
+
+We will consider these drugs appearing in multiple companies' filings separately from uniquely-mentioned drug.
+
+##### Step 6: Arrange data over time 
+
+In this step we will summarize the drug names by company by year, helping us to count mentions of new products for each company over time. 
+
+```{r illustratesomethingelse , eval = FALSE}
+merck <- data.table::as.data.table(wcbycompdetails)[SEC_CompName == "Merck   Co  Inc , Merck   Co   Inc ",]
+knitr::kable(merck[1, 9:14])
+knitr::kable(merck %>% tail(4))
+```
+
+
+
+
+#### Loading Data: 
+Ignore this bulletpoint? From wordlist to products Rmd, may remove later 
+
+* list of all companies (SIC-SEC-Ticker)
+    - this is old - may need to update this based on new company filings
+    - I think this is all companies who ever submitted a 10K filing between our time period (2013-2016?)
+    - Company dictionary is now working on anyone who ever submitted anything between 1996 and 2018
+    - 59K companies: CIK Code, SIC name, SIC Industry, SIC Location, SEC name, SEC SIC Code, Stock Exchange Ticker, etc...
+
+Start here: 
+ 
+
+

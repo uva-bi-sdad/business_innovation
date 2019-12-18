@@ -1,0 +1,1075 @@
+---
+title: "Parsing SEC Filings to Identify Product Innovation: Working Document"
+output:
+  html_document:
+    self_contained: no
+---
+
+<style>
+  .col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+  .col3 {
+    columns: 3 100px;
+    -webkit-columns: 3 100px;
+    -moz-columns: 3 100px;
+  }
+</style>
+
+```{r libraries, echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "hide"}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
+library(readr)
+library(dplyr)
+library(stringr)
+library(xml2)
+library(rvest)
+library(stringr)
+library(hunspell)
+library(data.table)
+library(htmltools)
+library(magrittr)
+library(htmltidy)
+library(ggplot2)
+
+library(wesanderson)
+library(corpus)
+library(rworldmap)
+```
+
+```{r functions}
+
+remove_doc_types <- function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "EX-10.3", "EX-10.6", "EX-10.20")) {
+  no_ns <- gsub("\\n", " ", xml_string)
+  #browser()
+  for (t in types) {
+    find_str <- paste0("<DOCUMENT> ?<TYPE> ?", t)
+    search_str <- paste0("<DOCUMENT> ?<TYPE> ?", t, ".*?</DOCUMENT>")
+    found <-
+      as.data.table(stringr::str_locate_all(no_ns, find_str))
+
+    for (i in 1:nrow(found)) {
+      locs <- as.data.table(stringr::str_locate(no_ns, search_str))
+      st <- locs[1, start] - 1
+      en <- locs[1, end] + 1
+      ifelse(is.na(locs$start) == TRUE & is.na(locs$end) == TRUE, no_ns,
+             no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns))) )
+    }
+  }
+  no_ns
+}
+
+
+stem_hunspell <- function(term) {
+  # look up the term in the dictionary
+  stems <- hunspell::hunspell_stem(term)[[1]]
+
+  if (length(stems) == 0) { # if there are no stems, use the original term
+    stem <- term
+  } else { # if there are multiple stems, use the last one
+    stem <- stems[[length(stems)]]
+  }
+
+  stem
+}
+
+'%!in%' <- function(x,y)!('%in%'(x,y))
+```
+
+```{r load_1, results = "hide", message=FALSE, warning=FALSE}
+# wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_1_1000.csv")
+# wordcounts_1001_2000 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_1001_2000.csv")
+# wordcounts_2000_2867 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_2000_2867.csv")
+# allwordcounts <- as.data.table(rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867))
+#saveRDS(allwordcounts, "~/git/business_innovation/data/working/sec/all_wordlist.RDS")
+#allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/all_wordlist.RDS") duplicated below
+
+paths_file <- "~/git/business_innovation/data/original/edgar_filings/ALL_SEC_files.txt"
+file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
+paths <- paste0("~/git/business_innovation/data/original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
+file_names <- unique(list.files(paths, full.names = TRUE))
+
+ciknames <- read_rds("~/git/business_innovation/data/original/ciks_names.RDS")
+sic <- read_rds("~/git/business_innovation/data/original/sic.download.RDS")
+cik_ticker <- read_delim("~/git/business_innovation/data/original/edgar_filings/cik_ticker.csv", delim = "|")   #RANKANDFILE website
+cikcountries <- read_delim("~/git/business_innovation/data/original/edgar_filings/edgar_state_country.csv", delim = "|") #RANKANDFILE website
+
+allwords <- read_csv("~/git/business_innovation/data/working/sec/all_secwordlists.csv") # 4M TOTAL WORDS ACROSS ALL FILINGS
+allregwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordlists.csv") # 37K REG WORDS ACROSS ALL FILINGS
+allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/all_wordlist.RDS") #15K NON ENGLISH WORDS ACROSS ALL FILINGS
+
+### WORK IN PROGRESS - SEPTEMBER 2019 ATTEMPT at full company list  - ACTUALLy 
+#companylist <- readRDS("~/git/business_innovation/data/working/sec/companylist.RDS") 
+```
+
+```{r joinprep_1, warning=FALSE}
+colnames(sic) <- c("CIK", "SIC_CompName", "SIC_SIC", "SIC_Industry", "SIC_Location")
+colnames(ciknames) <- c("CIK", "SEC_CompName", "SEC_SIC")
+colnames(cik_ticker) <- c("CIK", "Ticker_TickerCode", "Ticker_CompName", "Ticker_Exchange", "Ticker_SIC", "Ticker_Location", "Ticker_Inc_Location", "Ticker_IRS")
+colnames(cikcountries) <- c("Code", "Ticker_StateCountry")
+
+sic$SIC_SIC <- as.numeric(sic$SIC_SIC)
+sic$CIK <- as.numeric(sic$CIK)
+ciknames$CIK <- as.numeric(ciknames$CIK)
+ciknames$SEC_SIC <- as.numeric(ciknames$SEC_SIC)
+```
+
+```{r comp_reference_1}
+cikcountries <- cikcountries %>%
+  mutate(US = recode(Code, 
+                     "CA"= "USA", "CO" = "USA", "CT" = "USA", "DC" = "USA", "FL" = "USA", "GA" = "USA",
+                     "IL" = "USA", "IN" = "USA", "MA" = "USA", "MD" = "USA", "MN" = "USA", "MI" = "USA",
+                     "MO" = "USA", "NC" = "USA", "NJ" = "USA", "NV" = "USA", "NY" = "USA", "OH" = "USA",
+                     "PA" = "USA", "SC" = "USA", "TN" = "USA", "TX" = "USA", "UT" = "USA", "WA" = "USA",
+                     "AK" = "USA", "AL" = "USA", "AR" = "USA", "AZ" = "USA", "DE" = "USA", "IA" = "USA",
+                     "ID" = "USA", "ME" = "USA", "MS" = "USA", "MT" = "USA", "ND" = "USA", "NE" = "USA",
+                     "OK" = "USA", "OR" = "USA", "PR" = "USA", "RI" = "USA", "SD" = "USA", "VA" = "USA",
+                     "VT" = "USA", "WA" = "USA", "WI" = "USA", "WV" = "USA", "WY" = "USA", "NH" = "USA")) 
+
+companyref <- sic %>% # 58K  
+  full_join(ciknames, by = "CIK") %>% # 779      
+  full_join(cik_ticker, by = "CIK") %>%  #13K
+  full_join(cikcountries, by = c("Ticker_Location" = "Code")) #309 - but doens't affect rows
+                                                 
+companyref_pickname <- companyref %>%
+  mutate(Name = ifelse(!is.na(SEC_CompName), SEC_CompName,
+                       ifelse(!is.na(SIC_CompName), SIC_CompName,
+                              ifelse(!is.na(Ticker_CompName), Ticker_CompName, paste(SEC_CompName, SIC_CompName, Ticker_CompName)))),
+         SIC = ifelse(!is.na(SEC_SIC), SEC_SIC,
+                       ifelse(!is.na(SIC_SIC), SIC_SIC,
+                              ifelse(!is.na(Ticker_SIC), Ticker_SIC, 0)))) %>%
+  transmute(Name = Name, CIK = CIK, SIC = SEC_SIC, SIC_Loc = SIC_Location, TickerCode = Ticker_TickerCode, Exchange = Ticker_Exchange, Ticker_Location, Ticker_Inc_Location, Ticker_StateCountry, US)
+
+##################################################
+#length(file_names) # 2867 filings
+#length(unique(ciknames$CIK))  # 779 - total # of companies classified as pharm/med device by SEC 
+
+patt1 <- "(?<=Edgar_filings_folders/)(.*)(?=.txt)"
+patt2 <- "(?<=/)(.*)(?=_10-K_)"
+orig_companies <- str_extract(str_extract((file_names), patt1), patt2)
+
+#length(unique(orig_companies$orig_companies)) #703 companies with filings
+#length(unique(wcbycomp$Company)) # 365 - # of companies that we found non-English words in their filings
+
+orig_companies <- as.numeric(orig_companies)
+orig_companies <- as.data.frame(orig_companies)
+
+origcomp_details <- orig_companies %>%
+  filter(!is.na(orig_companies)) %>% 
+  unique() %>% 
+  left_join(ciknames, by = c("orig_companies" = "CIK")) %>%
+  left_join(sic, by = c("orig_companies" = "CIK", "SEC_SIC" = "SIC_SIC")) %>%
+  left_join(cik_ticker, by = c("orig_companies" = "CIK"))
+
+```
+
+
+```{r remind_me_3_sets_are_1_and_2, eval=FALSE}
+# 3 word datasets
+allwords # 4 million words across all filings
+allwordcounts # 15K non-English words across all filings 
+allregwords # 37K protected words across all filings
+```
+
+```{r company_reference_sets_and_multtokens }
+company_reference_names <- companyref %>% distinct() %>% 
+  mutate(CompanyString = paste(SIC_CompName, SEC_CompName, Ticker_CompName)) 
+
+comp_tokens <- str_split(company_reference_names$CompanyString, pattern = " |[[:punct:]]")
+stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa"))
+#stopwords <- paste0( stopwords, collapse = "|")
+
+new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) %>% # head() %>% 
+  tidyr::unnest() %>% filter(nchar(comp_tokens) >1) %>% as.data.frame() %>%
+  left_join(company_reference_names, by = c("company_reference_names$CompanyString" = "CompanyString")) %>%
+  mutate(comp_lowword = str_to_lower(str_squish(comp_tokens))) %>% filter(comp_lowword %!in% stopwords) %>% 
+  mutate(comp_low_hun = text_tokens(comp_lowword, stemmer = stem_hunspell)) %>% tidyr::unnest() %>% distinct()
+
+colnames(new_ref_companies) <- c("CompanyString", "Tokens", "CIK", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "SEC_Company_Name", "SEC_SIC", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS", "CIK_Ticker_US_Country", "CIK_Ticker_USA", "token_low", "token_hun")
+
+multtokens <- new_ref_companies %>% group_by(Tokens) %>% summarise(n = n()) %>% filter(n > 1)
+#knitr::kable(multtokens[str_detect(multtokens$Tokens, "Apogee"),])
+new_ref_companies2 <- new_ref_companies
+new_ref_companies <- new_ref_companies %>% filter(Tokens %!in% multtokens$Tokens)
+
+multenglishtokens <- new_ref_companies2 %>% mutate(eng = hunspell::hunspell_check(token_hun)) %>% filter(eng == "TRUE") %>% group_by(token_hun) %>% summarise(n = n()) %>% filter(n > 1)
+```
+
+```{r stopwordsandpatterns}
+pharmstopwords <- c("biopharma", "therapeutics?", "pharmaceuticals?", "international", "sciences?", "medical", "technology",  "pharma?", "bio", "biosciences?", "anda", "fdca", "uspto", "investigational")
+pharmstopwords <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
+
+patt = paste0("^", new_ref_companies$Tokens, "$", collapse = "|")
+pattlow = paste0("^", new_ref_companies$token_low, "$", collapse = "|")
+patthun = paste0("^", new_ref_companies$token_hun, "$", collapse = "|")
+
+```
+
+```{r wordlistsandsearchcompanies}
+allregwords <- allregwords %>% count(Company, Year, Words)
+allwordcounts$n <- allwordcounts$count
+allwordcounts$count <- NULL
+wordlist_engreg_rbind <- rbind(allwordcounts, allregwords)
+
+wordlist_enreg_count <- wordlist_engreg_rbind %>% 
+  mutate(Protect = str_extract(Words, "®|™"), Token = str_remove(Words, "®|™")) %>% 
+  group_by(Company, Year, Token, Protect) %>% 
+  summarise(n = sum(n))
+
+wcbycomp <- reshape2::dcast(wordlist_enreg_count, Company + Token + Protect ~ Year, value.var = "n", fun.aggregate = sum)
+
+#table(is.na(wordlist_enreg_count$Protect))
+
+wcbyword_searchcompanies <- wcbycomp %>% mutate(
+  word_low = str_to_lower(Token),
+  companyTF = str_detect(Token, patt), 
+  compmatch = str_extract(Token, patt), 
+  complowTF = str_detect(word_low, pattlow),
+  complowmatch = str_extract(word_low, patthun))
+
+```
+
+```{r remove_companies_from_final_wordlist_2_final_set }
+wcbyword_findcompanies <- wcbyword_searchcompanies %>% 
+  left_join(company_reference_names %>% select(CIK, CompanyString), by = c("Company" = "CIK")) %>%
+  mutate(Self = ifelse(str_detect(str_to_lower(CompanyString), pattern = complowmatch), 1, 0),
+         Pharma = ifelse(str_detect(string = str_to_lower(Token), pattern = pharmstopwords), 1, 0 )) #%>%  
+  #select(-word_low, -companyTF, -compmatch, -complowmatch, -CompanyString)
+
+final_product_list <- wcbyword_findcompanies %>% 
+  filter(complowTF == FALSE & Pharma == 0) %>% 
+  select(-word_low, -companyTF, -compmatch, -complowTF, -complowmatch, -Self, -Pharma) %>% 
+  left_join(companyref_pickname, by = c("Company" = "CIK"))
+```
+
+
+
+```{r}
+#### for each company - what was the first time they individually mentioned that product? 
+firstmention_by_company <- final_product_list %>% 
+  transmute(Name = Name, 
+        first_mention = ifelse(`2012` > 0, 2012, 
+                                ifelse(`2013` > 0, 2013, 
+                                        ifelse(`2014` > 0, 2014, 
+                                                ifelse(`2015` > 0, 2015, 
+                                                        ifelse(`2016` > 0, 2016,
+                                                               ifelse(`2017` > 0, 2017, 1900)))))), 
+         #Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token),
+        Token = Token, 
+        Protect = Protect)
+final_product_list
+firstmention_by_company
+final_product_list %>% left_join(firstmention_by_company, by = c("Name", "Token" = "Product"))
+
+#### for commonly mentioned products - which company mentioned it first? for ties - remove the tokens
+
+#### how to find tokens that have multiple companies mentioning them
+#firstmention_by_company %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
+#### example of how to find first mention YEAR among multiple company years with Abilify
+#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention))
+#### example how to take first mention YEAR and then filter for rows with that year
+#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company %>% filter(Token == "Abilify"), by = c("Token")) %>% filter(minyear == first_mention)
+
+#### run above on entire set 
+creditcompanybyfirstmention <- firstmention_by_company %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company, by = c("Token")) %>% filter(minyear == first_mention)
+
+tokens_with_tied_firstmention <- creditcompanybyfirstmention %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
+
+creditcompanybyfirstmention_NO_TIES <- creditcompanybyfirstmention %>% filter(Token %!in% tokens_with_tied_firstmention$Token) %>% select(Token, Protect, Name, minyear)
+
+final_product_list_singlefirstmentionsONLY <- final_product_list %>% 
+  left_join(firstmention_by_company, by = c("Name", "Token", "Protect")) %>% 
+  inner_join(creditcompanybyfirstmention_NO_TIES, by = c("Token", "Name", "Protect", "first_mention" = "minyear"))
+
+```
+
+### Introduction
+
+This project aims to test the feasibility to identify, measure, and characterize product innovation using non-survey data sources. Our goal is to develop methods to complement and enhance the BRDIS survey that collects information from a representative set of companies and asks whether they have introduced a new product to the market. Specifically, we are developing text-based methods to be applied to administrative (e.g., financial filings) and opportunity data (e.g., trade journals, press releases) to determine:
+
+* whether a company has launched a new product?
+* how many new products are introduced?
+* what are the features of the new product(s)?
+* how that innovation trends over time?
+
+To answer these questions, we measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we focus on the pharmaceutical and medical device industry that are highly regulated such that new products require approval from the Food and Drug Administration (FDA). We make the assumption that the FDA approval dataset (which is publicly available) is the universal set of all new products, and ask what the portion of these products we can capture using administrative and opportunity data. Their respective SIC codes are given here. 
+
+```{r illustrate_industries_1}
+knitr::kable(distinct(sic[SIC_SIC %in% c(2834, 3841), 3:4])) 
+# originally referenced the actual files - and there are some filings that weren't in these two industries
+```
+
+We chose to focus on the pharmaceutical and medical device industry because of the strictly regulated process of launching new products that is specific to this industry. Consider the following as a high-level illustration of the process a new drug or medical device might take to the market:
+
+1. Research & Development: Company undertakes research to develop, test, and trial new device and drug. 
+2. FDA Application: Company submits application to FDA for device or drug approval.
+3. Approval Announcements: FDA releases announcements to the public. 
+4. Press Activity: Media outlets report on the announcements, company and competitor relationships, and launches to market.
+5. Market Activity: Company retails device or drug.
+6. Financial Reports: Company submits financial reports to US Securities & Exchange Commission (SEC). 
+
+```{r illustrate_counts_1}
+compcount1 <- origcomp_details %>% 
+    count(SIC_Industry) 
+
+compcount2 <- ciknames %>% 
+  left_join(sic, by = c("CIK", "SEC_SIC" = "SIC_SIC")) %>% 
+  count(SIC_Industry) 
+
+compcount3 <- allwordcounts %>% 
+  count(Company, Year) 
+
+compcount4 <- allregwords %>% 
+  count(Company, Year) 
+```
+
+
+By tracing products through their lifecycle from FDA approval through financial impact, we can expand upon the BRDIS survey results by providing additional context and information around what innovation looks like in the pharmaceutical industry. Furthermore, we can illustrate a process by which innovation can be uncovered and measured, at least in a highly regulated environment. 
+
+### Data Source: SEC Filings
+
+This portion of the research focused on the last stage of the lifecycle: whether a new product appears in the financial activities of a company. For this we used the SEC's EDGAR database of 10-K filings. Using the criteria of the two industries of interest, we identified `r length(unique(ciknames$cik))` companies in their database as belonging to the pharmaceutical/medical device industries. Of these, `r nrow(unique(orig_companies))` filed 10-K forms with the SEC, which report on their financial well-being as a company. 
+
+
+Table below summarizes the number of companies on Edgar.
+
+Company Sets | N
+------------- | -------------
+Total Number of Pharma Companies on Edgar | `r length(unique(ciknames$CIK))`
+SIC 2834: Drugs| `r as.integer(compcount2["1",2]) `
+SIC 3841: Devices | `r as.integer(compcount2["2",2]) `
+Number Pharma Companies w 10-K| `r nrow(unique(orig_companies))`
+SIC 2834: Drugs| `r as.integer(compcount1["2",2]) `
+SIC 3841: Devices | `r as.integer(compcount1["3",2]) `
+
+We collected the 10-K filings of the `r nrow(unique(orig_companies))` companies for the years 2013--2016, which makes a total of `r length(file_names)` filings. 
+
+Filings Sets | N
+------------- | -------------
+Total 10-K Filings  | `r length(file_names)`
+10-K Filings w non-English | `r nrow(compcount3) `
+10-K Filings w Protected Brand | `r nrow(compcount4) `
+
+### Methods: Natural Language Processing 
+
+**Outline for myself:**
+
+1. Ingest text
+2. Length check
+3. Candidate product capture 
+    a) Paragraphs containing launch/new product --> non-English words
+    b) ANY paragraph --> R/TM symbol
+4. Refine capture results
+    a) Company name dictionary
+    b) Pharma term dictionary
+
+
+Our goal is to identify mentions of product launches for a given year using the 10-K filings of pharmaceutical companies. This is a challenging task, given the hundreds of filings in our dataset and the thousands of words within each filing. We specifically needed to find a way to: 
+
+1. limit the body of text down to sections of the filings that describe products 
+2. identify specific words most likely to represent a product
+
+Below we step through our iterative process using one of the filings as an example (#1 above), and then walk through our two approaches for product capture (#2)
+
+##### Step 1: Ingest the text of an SEC filing
+
+First the text of all filings was ingested, such that each text element represented an observation of the dataset. An example SEC filing can be found here: [https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm](https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm).
+
+Here's the text using the above linked Merck filing as an example. 
+
+```{r illustrate_sectext_1}
+url <- "https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm"
+edgar <- read_html(remove_doc_types(read_file(url)))
+paragraphs <- edgar %>% 
+  xml_find_all( ".//p") %>% 
+  html_text() %>%
+  str_squish
+
+paragraphs <- paragraphs[dataplumbr::var.is_blank(paragraphs) == FALSE] #[c(1,5,7,10,11,12, 16, 64)]
+merck_example <- paragraphs[c(1,5,7,10,11,12, 16, 64)]
+#knitr::knit_print(merck_example) 
+data.frame("Merck" = merck_example[1:7]) %>% knitr::kable() %>% kableExtra::kable_styling(full_width = F, position = "float_right")
+```
+
+##### Step 2: Filter text elements of significant length
+
+There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example from its original size at `r length(paragraphs)` elements by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])` elements. 
+
+```{r illustrate_sectextbylength_1}
+#knitr::knit_print(merck_example[nchar(merck_example) > 20])
+#format(merck_example[nchar(merck_example) > 20])
+data.frame("Merck" = merck_example[nchar(merck_example) > 20]) %>% knitr::kable() %>% kableExtra::kable_styling(full_width = F, position = "float_right")
+```
+
+
+##### Step 3: Candidate Product Capture
+
+Given the 10-K filing of a company, our goal is to identify mentions of product launches for a given year. This requires identifying product names in these filings, and finding those that are mentioned as being launched in the respective year. Currently, we are developing two parallel approaches which will be combined eventually. The first one involves obtaining non-English words in a filing and identifying those that are used in close "proximity" with our keywords of innovation, i.e., launch, new product (list to be expanded). Among the `r length(file_names)` filings, `r nrow(compcount3) ` referenced non-English words in their filings. The second approach is to identify names that are used with a trademark or a registered trademark sign.
+
+We wanted to determine the number and names of the new products and took two approaches to capturing candidate product words in the SEC 10-K filing text. 
+
+**A) Searching text for non-English words**
+
+We then wanted to identify text elements that contained our target innovation phrases, so we looked for elements that contained the phrase "launch" or "new product." As you can see, it looks like the keyword "launch" identified a product called "Zetia."
+```{r illustrate_sectextbykeyword_1}
+word_innov <- c("launch", "new product")
+innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
+
+knitr::knit_print(paragraphs[innov_text][11]) #%>% kableExtra::kable_styling(full_width = F, position = "float_right")
+
+```
+
+Then, for these paragraphs containing "launch" or new product, we looked for any non-English words in these text elements. We do see "Zetia" in this list! 
+
+```{r illustrate_sec_nonenglish_1}
+#knitr::kable(allwordcounts[Company == 310158][1:5])
+allwordcounts[Company == 310158][1:5]
+```
+
+
+**B) Searching text for protected brands**
+
+Second, for any paragraph, we looked for any word with a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. Note that this list can include both English and non-English words. 
+
+```{r}
+protectedunique <- unique(allregwords$Words)
+#knitr::knit_print(head(protectedunique, 3))
+head(protectedunique, 3)
+```
+
+```{r illustrate_sec_protected_1}
+#knitr::knit_print(protectedunique[protectedunique %in% c("Click®", "Coach®", "Blue®" )])
+protectedunique[protectedunique %in% c("Click®", "Coach®", "Blue®" )]
+```
+
+##### Step 4: Refine Capture Results
+
+Ideally, all words captured by these two approaches would represent true product names; however, we observe that the list of words that we have obtained from the filings can also include (i) company names or (ii) sector-specific terms. Therefore,  dictionaries for these groups need to be generated to identify and eliminate them. In other words, we need to refine our results.  
+
+```{r illustrates_refine_problem_2}
+wordlist_enreg_count[wordlist_enreg_count$Token %in% c("Abbvie", "ANDA", "Mallinckrodt", "Pharma", "AstraZeneca", "Bausch"),c("Token", "n")] %>% 
+  group_by(Token) %>% 
+  summarise(n = sum(n)) %>% 
+  knitr::kable()
+
+#wcbyword_findcompanies %>% count(complowTF, Self, Pharma) %>% knitr::kable()
+```
+
+**A) Create dictionary of unique company tokens**
+
+1. Create company name stop words (e.g., incorporated, inc)
+2. Combine company names from a variety of sources
+    a) SIC
+    b) SEC
+    c) Stock Exchanges
+3. Create columns to optimize matches
+    a) Concatenate string of all names across CIK codes
+    b) Tokenize company names
+    c) Lower case of company tokens
+    d) Stem company tokens
+4. Reduce set
+    a) remove single character tokens
+    b) remove company name stop words 
+    c) remove repeating tokens (tokens appearing for more than 1 company)
+
+```{r illustrate_tokens_per_company}
+new_ref_companies2 %>% filter(str_detect(CompanyString, "Dorato Resources Inc")) %>% 
+  #select(c(1,2, 19, 20)) 
+  select(c(1, 20)) %>% knitr::kable()
+```
+
+**B) Create dictionary generic industry terms**
+
+1. Create a summary set of tokens ranked by number of total appearances
+2. Manually evaluate tokens with over 10 appearances
+3. Create list of generic industry terms
+
+```{r illustrate_industry_terms}
+# We find 16 terms that altogether represent 246 observations. 
+wcbyword_searchcompanies %>% 
+  filter(str_detect(string = word_low, pattern = pharmstopwords) ==  TRUE) %>% 
+  select(Token) %>% count(Token) %>% 
+  arrange(desc(n)) %>% 
+  head(4) %>% 
+  knitr::kable()
+```
+
+
+**C) Check wordlist against two dictionaries**
+
+1. Generate regular expressions patterns
+    a) `r length(unique(new_ref_companies$Tokens)) ` company name tokens
+        i) original
+        ii) lower case
+        iii) stemmed token
+    b) `r length(pharmstopwords) ` industry terms
+2. Create wordlist columns to optimize matches
+    a) Lower case of tokens
+3. Apply regular expressions patterns to wordlist resulting from Step 3
+4. Remove words from wordlist that match either dictionary
+
+```{r}
+wcbyword_findcompanies %>% 
+  select(Token, complowmatch, CompanyString, Self, Pharma) %>% 
+  distinct() %>% 
+  filter(Token %in% c("AbbVie", "HUMIRA", "LASIK", "Akorn", "ANDA", "Antihemophilic")) %>%
+  filter(CompanyString %in% c("ABBOTT LABORATORIES NA Abbott Laboratories", "AKORN INC NA Akorn Inc", "BAXTER INTERNATIONAL INC BAXTER INTERNATIONAL INC Baxter International Inc")) %>% 
+  knitr::kable()
+```
+
+
+```{r plotsettings_3}
+customPlot3 = list(
+  theme(axis.text.x  = element_text(vjust=0.5, size=12), #plot.margin = unit(c(1,1,2,2), "cm"),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="bottom"), 
+  coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 3),
+        colour =guide_legend(title="Key", ncol = 3))
+)
+
+
+```
+
+```{r}
+# pal_ind <- wes_palette("GrandBudapest1", 3, type = "discrete")
+# pal_5 <- wes_palette("Moonrise3", 5, type = "discrete")
+
+library(RColorBrewer)
+myCol <- brewer.pal(3, "Pastel2")
+```
+
+### Results
+
+The results presented below align with the methodology outlined previously, and illustrate the outputs of each step of this work. 
+
+##### Results of SEC filing text ingestion the text of an SEC filing
+
+As shown in Table X, a total of 779 companies across the pharmaceutical and medical device industries submitted a total of 703 10-K filings to the SEC. These filings were submitted over the years 2012-2018; however, the bulk of the observations fall in the years 2013-2017 and as mentioned previously, the pharmaceutical industry submits more filings than does the medical device industry. All together, these 703 filings consisted of over 4 million words with the bulk of filings showing sizes under 50,000 words. It is also interesting to note that on a whole, the filings submitted by pharmaceutical companies are decidely longer in word count than those by medical device companies.   
+
+```{r}
+filing_years <- str_extract(file_headers$X1, pattern = "\\d{0,4}$")
+filing_comps <- str_extract(file_headers$X1, pattern = "^\\d*")
+filings <- tibble(filing_years, filing_comps) %>% left_join(ciknames, by = c("filing_comps" = "cik"))
+#table(filings$filing_years)
+
+ggplot(data = filings, aes(x=as.factor(filing_years), fill = as.factor(sic))) +
+  geom_bar( position = "dodge") +
+  customPlot2 +
+  scale_fill_manual(values = myCol, na.translate = FALSE) +
+  labs(title = "Filings Over Years Per Industry", x = "Years", y = "Number of Filings")
+
+ggplot(data = filings_wc, aes(x=(n/100), fill = as.factor(sic))) +
+  geom_bar(binwidth = 10, position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol, na.translate = FALSE) +
+  labs(title = "Filing Word Count Distribution", x = "Number of Words (Hundreds)", y = "Number of Filings")
+
+
+```
+
+The 4 million words from the filings break out fairly evenly across the years 2013-2017 by total words across all filings. Because 2012 and 2018 have only 2 and 4 filings respectively, we are not surprised that these filings show very low total word counts. 
+
+When considering the 4 million words by mean words per filing, the average filing length by word count is also even for years 2013-2017, but shows year 2012's 2 pharmaceutical filings with much greater average length than all other years and year 2018's 4 pharmaceutical filings with much lower average length than all other years. 
+
+```{r}
+filings_wc <- allwords %>% count(Company, Year) 
+ciknames$cik2 <- as.double(ciknames$cik)
+filings_wc <- filings_wc %>% left_join(ciknames, by = c("Company" = "cik2"))
+filings_wc2 <- filings_wc %>% group_by(Year,sic) %>% summarise(sum = sum(n), mean = mean(n))
+
+ggplot(data = filings_wc2, aes(x=as.factor(Year), y = (sum/1000), fill = as.factor(sic))) +
+  geom_col(position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol, na.translate = FALSE) +
+  labs(title = "Total Words Across All Years of Filings", x = "Years", y = "Number of Words (Thousands)")
+
+ggplot(data = filings_wc2, aes(x=as.factor(Year), y = mean, fill = as.factor(sic))) +
+  geom_col(position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol, na.translate = FALSE) +
+  labs(title = "Average Filing Word Count Per Year", x = "Years", y = "Number of Words (Thousands)")
+```
+
+##### Results of dictionary generation
+
+###### A) Company Names
+
+```{r}
+company_reference_names
+new_ref_companies
+new_ref_companies2
+```
+
+###### B) Pharmaceutical Industry terms
+
+```{r}
+knit_print((c("biopharma", "therapeutics?", "pharmaceuticals", "international", "sciences", "medical", "technology",  "pharma", "bio", "biosciences?", "anda", "fdca", "uspto", "investigational")))
+```
+
+
+##### Results of candidate product capture
+
+```{r}
+
+filings_wc_capture <- wordlist_enreg_count %>% left_join(ciknames, by = c("Company" = "cik2")) %>% group_by(Year,sic) %>% summarise(sum = sum(n), mean = mean(n))
+
+ggplot(data = filings_wc_capture, aes(x=as.factor(Year), y = (sum/1000), fill = as.factor(sic))) +
+  geom_col(position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol, na.translate = FALSE) +
+  labs(title = "Total Captures Across All Years of Filings", x = "Years", y = "Number of Words (Thousands)")
+
+ggplot(data = filings_wc_capture, aes(x=as.factor(Year), y = mean, fill = as.factor(sic))) +
+  geom_col(position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol, na.translate = FALSE) +
+  labs(title = "Average Captures Across All Years of Filings", x = "Years", y = "Number of Words")
+
+
+```
+
+
+
+
+RESULTS
+
+dictionary 1 = 
+dictionary 2 = 
+
+Things we're removing: 
+
+* words that match with companies - 1162 words
+* words that look like products but got a self/other result - 29
+* words that are pharma industry terms - 192 
+
+What's left: 7209 words
+
+
+```{r illustrate_tokens_over_time}
+wcbyword_findcompanies %>% filter(Token %in% c("ENBREL", "Integra")) %>% select(1:10,16:17) %>% head() %>% knitr::kable()
+```
+
+
+#### Results: Product Capture (Step 3) - Standalone data results from each approach
+
+Wordlist Sets | N (# Word-Mentions)| Unique Words/Tokens
+------------- | --------------|------------------
+Total Words  | `r nrow(allwords)` |`r length(unique(allwords$Words))`
+Non-English words| `r nrow(allwordcounts)` |`r length(unique(allwordcounts$Words))`
+Brand-protected words| `r nrow(allregwords)`|`r length(unique(allregwords$Words))`
+
+
+* Total Words: 
+    - Entire sentences transposed by word into vertical columns
+    - Each row represents a single word per filing
+    - Sequence preserved
+
+```{r illustrate_allfilingwords_2}
+allwords[allwords$Company == 1001316,][132:137,] %>% knitr::kable()
+```
+
+* Non-English Words: 
+    - Words that do not pass English spell check function, grouped by filing
+    - Each row represents a grouped count so sequence is lost
+    - e.g., each row = COUNT(company x yearly filing x non-English word)
+    - ex: CIK Company 1001316's 2013 filing mentions Rituxan 3 times = 1 row
+
+
+```{r illustrate_nonengwords_2}
+allwordcounts[2:6,]  %>% knitr::kable()
+```
+
+* Brand-Protected Words: 
+    - Words that end R or TM symbols 
+    - Each row represents a grouped count so sequence is lost
+    - e.g., each row = company  x yearly filing x brand-protected word 
+    - ex: CIK Company 1001316's 2013 filing mentions Rituxan® 3 times = 1 row
+
+```{r illustrate_regwords_2}
+allregwords %>% 
+  count(Company, Year, Words) %>% 
+  arrange(Company, Year) %>% 
+  filter(Company == 1001316) %>% 
+  head(10)  %>% 
+  knitr::kable()
+```
+
+#### Results: Product Capture (Step 3) - How do Non-English and Protected-Word Results Compare? 
+
+Now that we understand what each of these resulting datasets look like alone, we want to understand what words each approach was *uniquely* able to capture and what words *both* approaches captured. How redundant are these methods? Would a single one of these methods suffice for this work?
+
+The quick answer is no, while both methods appear to capture a subset of words they do uniquely capture distinct words. Running both methods allows us to capture the largest swath of possible products. 
+
+There are two ways to review the results, by company-specific mention of the word or word (regardless of who mentioned). When you review results by which company mentions the word, you can see both methods capture almost 600 words but separately uniquely capture thousands more results. When you review results by word (without referencing which company made the reference), this pattern remains stable. Both methods capture almost 700 words but separately uniquely capture thousands more results. 
+
+
+```{r collapses_regnoneng_tokens_2}
+noneng_token <- wordlist_enreg_count %>% filter(!is.na(Protect)) # %>% select(Token) %>% distinct()
+prot_token  <- wordlist_enreg_count %>% filter(is.na(Protect)) #%>% select(Token) %>% distinct()
+noneng_token <- unique(noneng_token$Token)
+prot_token <- unique(prot_token$Token)
+#length(intersect(noneng_token, prot_token))
+```
+
+
+<div class="col2">
+![Overlap of Word Mentions by Company Filing.](~/git/business_innovation/src/dnair/images/comp_noneng_brand_mentions.png)
+![Overlap of Unique Words.](~/git/business_innovation/src/dnair/images/comp_noneng_brand_tokens.png)
+</div>
+
+
+Ultimately, these results give us confidence that both approaches should be applied and the resulting subsets combined. In the newly combined set we now have: `r nrow(wordlist_engreg_rbind)` by company mention. You can see the number of times the "Abilify" product was mentioned by various company filings over time, along with where that mention appeared with a brand protection. 
+
+```{r}
+wordlist_enreg_count %>% arrange(Token, Year) %>% filter(Token == "Abilify" & Year == 2015) %>% knitr::kable()
+```
+
+
+```{r}
+innov_per_company <- final_product_list %>% count(Company, Name, SIC)
+```
+
+
+**Summary Table - Products Per Company**
+
+Statistic | Value
+----------|-------
+Mean | `r mean(innov_per_company$n)`
+Min | `r min(innov_per_company$n) `
+Max | `r  max(innov_per_company$n)`
+StDev | `r  sd(innov_per_company$n)`
+Median | `r  median(innov_per_company$n) `
+
+```{r plotsettings2}
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+```
+
+
+```{r histograms}
+ggplot(data = innov_per_company %>% filter(SIC == 3841), aes(x=n)) +  #, y=Product, group = Product, colour = Product)) + 
+  geom_histogram() +
+  customPlot2 +
+  labs(title = "Products Per Medical Devices Company", x = "Number of Companies", y = "Number of Products")
+
+ggplot(data = innov_per_company %>% filter(SIC == 2834), aes(x=n)) +  #, y=Product, group = Product, colour = Product)) + 
+  geom_histogram() +
+  customPlot2 +
+  labs(title = "Products Per Pharmaceutical Company", x = "Number of Companies", y = "Number of Products")
+
+```
+
+
+```{r eval=FALSE}
+final_product_list %>% count(US)
+final_product_list %>% count(SIC_Loc, US)
+final_product_list %>% count(SIC_Loc, US, Ticker_StateCountry)
+
+table(is.na(final_product_list$US == "USA"))
+```
+
+
+
+##### Innovation Trends Per Industry
+
+```{r maketime}
+time_summ <- final_product_list %>% group_by(SIC) %>% 
+  summarise(`2012` = sum(`2012`),
+            `2013` = sum(`2013`),
+            `2014` = sum(`2014`),
+            `2015` = sum(`2015`),
+            `2016` = sum(`2016`), 
+            `2017` = sum(`2017`)) %>% 
+  reshape2::melt(id.vars = "SIC", measure.vars = c("2012", "2013", "2014", "2015", "2016", "2017"), variable.name = "Year" )  %>%
+  filter(!is.na(SIC))
+  #reshape2::dcast(Year~SIC, fun.aggregate = sum) %>% select(-`NA`)
+
+```
+
+Overall, the pharmaceutical industry appears to show the greatest number of innovations and appear to mention these innovations in their SEC filings more often.
+
+```{r}
+ggplot(data = time_summ, aes(x=as.factor(SIC), y=value, fill = as.factor(SIC), group = as.factor(SIC) )) + 
+  geom_col() +
+  #geom_line(linetype="solid", size=1.5) + 
+  #geom_point(size=3, shape=21, fill="white")  +
+  customPlot2 +
+  scale_color_manual(values = pal_ind)  +
+  labs(title = "Number of Unique Products per Industry", x = "Industry", y = "Number of Products")
+
+```
+
+
+```{r inntimeplot}
+ggplot(data = time_summ, aes(x=Year, y=value, color = as.factor(SIC), group = factor(SIC) )) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white")  +
+  customPlot2 +
+  scale_color_manual(values = pal_ind)  +
+  labs(title = "Number of Products Detected per Industry Over Time", x = "Year", y = "Number of Products")
+```
+
+
+```{r}
+drugsbytime <- final_product_list %>% 
+  count(Token, Protect, `2012`, `2013`, `2014`, `2015`, `2016`, `2017`) %>% 
+  mutate(nummentionsallyears = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`) 
+
+drugsbytime$compcount <- drugsbytime$n 
+drugsbytime$n <- NULL
+
+drugsbytime_top <- drugsbytime %>% 
+  arrange(desc(nummentionsallyears)) %>%
+  head(5) %>% 
+  mutate(Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token)) %>% 
+  select(Product, `2012`, `2013`, `2014`, `2015`, `2016`, `2017`) %>% 
+  reshape2::melt(id.vars = "Product", measure.vars = c("2012", "2013", "2014", "2015", "2016", "2017"), variable.name = "Year" )
+
+
+```
+
+
+The top 5 products are AGGRASTAT, Fanapt, ONSOLIS, OraQuick, and Vascepa. It is reassuring to note that all of these are in fact products. 
+
+```{r innwtimeplot}
+ggplot(data = drugsbytime_top, aes(x=Year, y=value, group = Product, colour = Product)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") + 
+  scale_color_manual(values = pal_5) +
+  customPlot2 +
+  labs(title = "Top 5 Products over Time", x = "Year", y = "Number of Mentions")
+```
+
+First Mentioned? 
+
+
+```{r}
+ggplot(data = firstmention_by_company, aes(x=first_mention)) +  #, y=Product, group = Product, colour = Product)) + 
+  geom_histogram(binwidth = 0.5, fill = pal_5[1]) +
+  #scale_fill_manual(values = ) +
+  customPlot2 +
+  labs(title = "First Mentions of Product", x = "Year", y = "Number of Products")
+
+```
+
+436 companies have 7208 drugs/devices
+
+
+```{r}
+final_product_list_better_location <- final_product_list %>% left_join(cikcountries, by = c("SIC_Loc" = "Code")) 
+
+topcompanies <- final_product_list_better_location %>% count(Name) %>% arrange(desc(n)) %>% head(5)
+topcompanies <- final_product_list_better_location %>% 
+  filter(Name %in% topcompanies$Name) %>% 
+  group_by(Name, Ticker_StateCountry.y) %>%
+  summarise(`2012` = sum(`2012`), `2013` = sum(`2013`), `2014` = sum(`2014`), `2015` = sum(`2015`), `2016` = sum(`2016`), `2017` = sum(`2017`)) %>%
+  reshape2::melt(id.vars = c("Name", "Ticker_StateCountry.y"), measure.vars = c("2012", "2013", "2014", "2015", "2016", "2017"), variable.name = "Year" )
+```
+
+
+```{r}
+ggplot(data = topcompanies, aes(x=Year, y=value, group = Name, colour = Name)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") + 
+  scale_color_manual(values = pal_5) +
+  customPlot2 +
+  labs(title = "Top 5 Companies over Time", x = "Year", y = "Total Product-Mentions")
+
+```
+
+```{r eval=FALSE}
+ggplot(data = topcompanies, aes(x=Year, y=value, group = Ticker_StateCountry.y, colour = Ticker_StateCountry.y)) + 
+  geom_line(linetype="solid", size=1.5) + 
+  geom_point(size=3, shape=21, fill="white") + 
+  scale_color_manual(values = pal_5) +
+  customPlot2 +
+  labs(title = "Top 5 Companies over Time - Location", x = "Year", y = "Number of Mentions")
+  
+```
+           
+
+```{r}
+productspercompany <- final_product_list %>% 
+  mutate(Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token)) %>%
+  count(Name) 
+```
+
+
+
+```{r}
+ggplot(data = productspercompany, aes(x=n)) +  #, y=Product, group = Product, colour = Product)) + 
+  geom_histogram(binwidth = 0.5, fill = pal_5[1]) +
+  #scale_fill_manual(values = ) +
+  customPlot2 +
+  labs(title = "Distribution of # of Unique Products by Company", x = "Number of Products", y = "Number of Companies")
+```
+
+
+
+```{r maketopcomps}
+# counts of unique product mentions by company
+customPlot = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF"), 
+        legend.position="bottom"),
+  coord_flip()
+  , guides(fill=guide_legend(title="Key", nrow = 2))
+)
+```
+
+
+
+
+
+Venn Diagram Code: 
+
+When you come back to this don't use wcbycompdetails
+
+```{r makes_mention_venndiagram_2, eval = FALSE}
+nonenglish_mentions <- wcbycompdetails %>% transmute(mention_id = paste(Company, Words))
+nrow(nonenglish_mentions)
+nonenglish_mentions <- unique(nonenglish_mentions$mention_id)
+length(nonenglish_mentions)
+
+protected_mentions <- wcbycompdetails_reg %>% transmute(mention_id = paste(Company, str_remove(Words, "®|™")))
+nrow(protected_mentions)
+protected_mentions <- unique(protected_mentions$mention_id)
+length(protected_mentions)
+
+length(nonenglish_mentions)
+length(protected_mentions)
+length(intersect(nonenglish_mentions, protected_mentions))
+
+# Load library
+library(VennDiagram)
+library(RColorBrewer)
+myCol <- brewer.pal(3, "Pastel2")
+
+# Chart
+venn.diagram(
+        x = list(nonenglish_mentions, protected_mentions),
+        category.names = c("Non-English" , "Brand-Protected"),
+        filename = '~/git/business_innovation/src/dnair/images/comp_noneng_brand_mentions.png',
+        output=TRUE,
+        
+        # Output features
+        imagetype="png" ,
+        height = 480 , 
+        width = 480 , 
+        resolution = 300,
+        compression = "lzw",
+        
+        # Circles
+        lwd = 2,
+        lty = 'blank',
+        fill = myCol[c(1,3)],
+
+        # Numbers
+        cex = .4,
+        fontface = "bold",
+        fontfamily = "sans",
+        
+        # Set names
+        cat.cex = 0.5,
+        cat.fontface = "bold",
+        cat.default.pos = "outer",
+        cat.pos = c(-27, 180),
+        cat.dist = c(0.055, 0.055),
+        cat.fontfamily = "sans"
+
+)
+```
+
+```{r makes_unqword_venndiagram_2, eval = FALSE}
+nonenglish_tokens <- unique(wcbycompdetails$Words)
+protected_tokens <- unique(str_remove(wcbycompdetails_reg$Words, "®|™"))
+
+length(nonenglish_tokens)
+length(protected_tokens)
+length(intersect(nonenglish_tokens, protected_tokens))
+
+# Load library
+library(VennDiagram)
+library(RColorBrewer)
+myCol <- brewer.pal(3, "Pastel2")
+
+# Chart
+venn.diagram(
+        x = list(nonenglish_tokens, protected_tokens),
+        category.names = c("Non-English" , "Brand-Protected"),
+        filename = '~/git/business_innovation/src/dnair/images/comp_noneng_brand_tokens.png',
+        output=TRUE,
+        
+        # Output features
+        imagetype="png" ,
+        height = 480 , 
+        width = 480 , 
+        resolution = 300,
+        compression = "lzw",
+        
+        # Circles
+        lwd = 2,
+        lty = 'blank',
+        fill = myCol[c(1,3)],
+
+        # Numbers
+        cex = .4,
+        fontface = "bold",
+        fontfamily = "sans",
+        
+        # Set names
+        cat.cex = 0.5,
+        cat.fontface = "bold",
+        cat.default.pos = "outer",
+        cat.pos = c(-27, 180),
+        cat.dist = c(0.055, 0.055),
+        cat.fontfamily = "sans"
+
+)
+
+```
+
+
+
+
+DISCUSSION - risk of removing repeating tokens
+
+*Risk:* (Both ways) You lose any names that are only composed of generic pharma names: ex. Drugs Pharmaceuticals Inc. would be lost
+*Risk:* (2nd Method) You may lose companies that are in same corporate family and have same unique-ish token but since it appears for two companies, it's lost: ex. Apogee Technology vs. Apogee Enterprises would both be lost. 
+
+*Result:* Decided repeating English tokens was still too generic and we would want to also remove non-English - below was not used. 
+```{r illustrate_mult_eng_tokens }
+knitr::kable(multenglishtokens[str_detect(multenglishtokens$token_hun, "^phar"),])
+```
+
+
+*Result:* Apogee appears as a token that appears in two company names: Apogee Enterprises, Inc and Apotee Technology Inc. Our original set included these two companies with that token. Our new company match set NO LONGER INCLUDES THESE COMPANIES. 
+
+```{r illustrate_repeating_tokens}
+new_ref_companies2 %>% filter(str_detect(Tokens, "Apogee|APOGEE")) %>% select(1:2) %>% distinct() %>% knitr::kable()
+```
+
+
+*Result:* The companies that remain have uniquely identifiable tokens.  
+
+```{r illustrate_unique_tokens}
+new_ref_companies %>% filter(SIC_SIC == 2834) %>% select(1:2) %>% head(4) %>% knitr::kable()
+```
+
