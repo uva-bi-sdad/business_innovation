@@ -8,6 +8,42 @@ knitr::opts_chunk$set()
 library(corpus)
 ```
 
+
+I.  Introduction \newline
+II.  Data Sources \newline
+    A.  SEC 10-K Filings
+    B.  Food & Drug Administration
+        1.  FDA Approvals
+        2.  National Drug Codes
+III.  Natural Language Processing Methods
+    A.  Text Ingestion
+    B.  ~~Length Check ~~
+    C.  Candidate Product Capture
+        1.  Non-English
+        2.  Branded
+    D.  Refine Capture Results
+        1.  Company Names 
+        2.  Industry Terms
+        3.  Compare candidate product captures to dictionaries
+    E.  Validate Captures
+IV.  Results
+    A.  Text Ingestion
+    B.  Candidate Product Capture
+        1.  Non-English
+        2.  Branded
+        3.  Compare Capture Approaches
+    C.  Refine Capture Results
+        1.  Company Names
+        2.  Industry Terms
+    D.  Validate Captures
+V.  Discussion
+    A.  Limitations 
+VI.  Bibliography
+VII.  Data Citations
+VIII.  Appendix
+
+
+
 ```{r}
 format(stopwords_en)
 ```
