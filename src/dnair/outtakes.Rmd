@@ -1,0 +1,17 @@
+---
+title: "Outtakes"
+output: html_document
+---
+
+
+
+Similarly, medical devices refer to any "instrument, apparatus, implement, machine, contrivance, implant, in vitro reagent...intended for use in the diagnosis of disease or other conditions, or in the cure, mitigation, treatment, or prevention of disease, in man or other animals" with the added constraint that the device must "not achieve its primary intended purposes through chemical action." **(additional constraints not mentioned here)** 
+
+[device definition fda website](https://www.fda.gov/medical-devices/classify-your-medical-device/how-determine-if-your-product-medical-device)
+
+***Device Identifiers***
+
+"Currently, although Unique Device Identifiers (UDI) are available for some medical devices (in the form of GTIN or HIBC identifiers, which are numbers located under bar codes), they are not routinely captured in observational data sources like billing claims data or registries, as is the case with National Drug Codes, which permit universal drug identification."
+
+
+[no registry for medical devices, but there is an identifier](https://www.ncbi.nlm.nih.gov/books/NBK208640/)

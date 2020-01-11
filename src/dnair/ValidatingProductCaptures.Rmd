@@ -1,0 +1,510 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(readr)
+library(dplyr)
+library(stringr)
+library(xml2)
+library(rvest)
+library(stringr)
+library(hunspell)
+library(data.table)
+library(htmltools)
+library(magrittr)
+library(htmltidy)
+library(ggplot2)
+
+library(wesanderson)
+library(corpus)
+library(rworldmap)
+```
+
+
+
+```{r cars}
+ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
+final_product_list <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_dec20.RDS")
+final_product_list_singlefirstmentionsONLY <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
+
+```
+
+```{r}
+ndc_prop_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$PROPRIETARYNAME, "[:punct:]")))),"$" , collapse = "|") #37,140
+ndc_nonprop_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$NONPROPRIETARYNAME, "[:punct:]")))),"$" , collapse = "|") #37,140
+ndc_sub_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$SUBSTANCENAME, "[:punct:]")))),"$" , collapse = "|") #37,140
+
+```
+
+
+```{r}
+final_products_validating <- final_product_list %>% 
+  transmute(Token = str_remove(Token, "TM$")) %>% # select(Token)
+  distinct() %>% 
+  mutate(ndc_prop = ifelse(str_detect(str_to_lower(Token), ndc_prop_patt), 1, 0),
+         ndc_prop_text = str_extract_all(str_to_lower(Token), ndc_prop_patt), 
+         ndc_nonprop = ifelse(str_detect(str_to_lower(Token), ndc_nonprop_patt), 1, 0),
+         ndc_nonprop_text = str_extract_all(str_to_lower(Token), ndc_nonprop_patt),
+         ndc_sub = ifelse(str_detect(str_to_lower(Token), ndc_sub_patt), 1, 0),
+         ndc_sub_text = str_extract_all(str_to_lower(Token), ndc_sub_patt))
+
+final_products_validating <- final_products_validating %>% mutate(drugmatch = ndc_prop + ndc_nonprop + ndc_sub, 
+                                     ndcnamematch = ifelse(drugmatch == 1, yes = 
+                                                           ifelse(ndc_prop == 1, "1 - prop", 
+                                                                  ifelse(ndc_nonprop == 1, "1 - non-prop", 
+                                                                         ifelse(ndc_sub == 1, "1 - substance", "none"))), 
+                                                           ifelse(drugmatch == 0 , "0 - none", 
+                                                                  ifelse(drugmatch == 3, "3 - all", 
+                                                                         ifelse(ndc_prop == 0, "2 - non-prop + sub", 
+                                                                                ifelse(ndc_sub == 0, "2 - prop + non-prop", 
+                                                                                       ifelse(ndc_nonprop == 0, "2 - prop + sub", "2 - question")))))))
+
+```
+
+```{r}
+table(final_products_validating$drugmatch)
+table(final_products_validating$ndcnamematch)
+```
+
+
+CHecking NDC for our captures
+
+
+```{r ndc_references}
+ndc_names <- ndc_product %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>% 
+  select(21, 4, 6, 14) %>% 
+  distinct() %>% 
+  mutate(Prop_low = str_to_lower(PROPRIETARYNAME), 
+         Nonprop_low = str_to_lower(NONPROPRIETARYNAME),
+         Sub_low = str_to_lower(SUBSTANCENAME))
+
+table(ndc_names$year)
+```
+
+
+```{r capture_references}
+##REF
+captures <-  final_products_validating %>% 
+  filter(drugmatch >0) %>% 
+  transmute(Token = Token, Token_low = str_to_lower(Token)) %>% 
+  filter(Token_low != "as" & Token_low != "max")
+
+captures_patt = paste0(unique(captures$Token_low), collapse = "|")
+```
+
+```{r ndc_capture_matching}
+## PROPRIETARY
+prop_name_matches <- ndc_names %>% select(year, Prop_low) %>% 
+  left_join(captures, by = c("Prop_low" = "Token_low")) %>%
+  mutate(test = str_extract(string = Prop_low, pattern = captures_patt))
+
+## NONPROPRIETARY
+nonprop_name_matches <- ndc_names %>% select(year, Nonprop_low) %>% 
+  left_join(captures, by = c("Nonprop_low" = "Token_low")) %>%
+  mutate(test = str_extract(string = Nonprop_low, pattern = captures_patt))
+
+## SUBSTANCE
+sub_name_matches <- ndc_names %>% select(year, Sub_low) %>% 
+  left_join(captures, by = c("Sub_low" = "Token_low")) %>%
+  mutate(test = str_extract(string = Sub_low, pattern = captures_patt))
+
+matches <- ndc_names %>% select(year, Prop_low, Nonprop_low, Sub_low) %>% 
+  left_join(captures, by = c("Prop_low" = "Token_low")) %>%
+  mutate(propmatch = str_extract(string = Prop_low, pattern = captures_patt)) %>%
+  left_join(captures, by = c("Nonprop_low" = "Token_low")) %>%
+  mutate(npmatch = str_extract(string = Nonprop_low, pattern = captures_patt)) %>%
+  left_join(captures, by = c("Sub_low" = "Token_low")) %>%
+  mutate(submatch = str_extract(string = Sub_low, pattern = captures_patt))
+  
+matches %>% filter(year > 2011) %>% select(year, Prop_low, propmatch) %>% mutate(prop_na = is.na(Prop_low))
+# 
+# prop_name_matches
+# nonprop_name_matches
+# sub_name_matches
+
+matches <- matches %>% mutate(match = ifelse(!is.na(propmatch)|!is.na(npmatch)|!is.na(submatch), 1, 0 ))
+#table(matches$match)
+#saveRDS(matches, "~/git/business_innovation/data/working/sec/ndc_matches1.RDS")
+
+matches %>% mutate(prop_na = is.na(propmatch)) %>% count(year, prop_na)  %>% filter(year > 2011) %>% reshape2::dcast(prop_na~year)
+matches %>%  count(year, Prop_low)  %>% filter(year > 2011) #%>% reshape2::dcast(match~year)
+
+match_tbl <- matches %>% count(year, match) %>% filter(year > 2011) 
+match_tbl %>% reshape2::dcast(match~year)
+```
+
+
+
+
+```{r prop_name_matching}
+
+
+
+##CHECKS
+table(is.na(name_matches$Token))
+table(is.na(name_matches$test))
+name_matches %>% filter(!is.na(test) & is.na(Token)) 
+test <- ndc_names %>% select(Prop_low) %>% distinct()
+didntmatch <- captures %>% anti_join(test, by = c("Token_low" = "Prop_low"))
+didmatch <- captures %>% inner_join(test, by = c("Token_low" = "Prop_low"))
+
+didntmatch
+ndc_names %>% filter(str_detect(PROPRIETARYNAME, pattern =  "Pegvisomant"))
+
+##FINAL
+single_prop_totals <- name_matches %>% 
+  mutate(exact = ifelse(is.na(Token), 0, 1),
+         substring = ifelse(is.na(test), 0, 1)) %>% 
+  group_by(year) %>% 
+  summarise(sum_e = sum(exact), sum_s = sum(substring)) %>% 
+  arrange(desc(year))
+
+ndc_totals <- ndc_names %>% count(year)
+
+comparetotals_prop <- ndc_totals %>% left_join(single_prop_totals, by = "year")
+colnames(comparetotals_prop) <- c("year", "ndc_total", "by_ent_exct", "by_substr")
+comparetotals_prop <- comparetotals_prop %>% arrange(desc(year)) %>% mutate(perc_match_e = as.integer(100*(by_ent_exct/ndc_total)),
+                                                 perc_match_s = as.integer(100*(by_substr/ndc_total)))
+
+comparetotals_prop %>% filter(year > 2011 & year < 2019) 
+
+```
+
+```{r}
+
+##CHECKS
+table(is.na(sub_name_matches$Token))
+table(is.na(sub_name_matches$test))
+sub_name_matches %>% filter(!is.na(test) & is.na(Token)) 
+test <- ndc_names %>% select(Prop_low) %>% distinct()
+didntmatch <- captures %>% anti_join(test, by = c("Token_low" = "Prop_low"))
+didmatch <- captures %>% inner_join(test, by = c("Token_low" = "Prop_low"))
+
+didntmatch
+ndc_names %>% filter(str_detect(PROPRIETARYNAME, pattern =  "Pegvisomant"))
+
+##FINAL
+single_nonprop_totals <- nonprop_name_matches %>% 
+  mutate(exact = ifelse(is.na(Token), 0, 1),
+         substring = ifelse(is.na(test), 0, 1)) %>% 
+  group_by(year) %>% 
+  summarise(sum_e = sum(exact), sum_s = sum(substring)) %>% 
+  arrange(desc(year))
+
+ndc_totals <- ndc_names %>% count(year)
+
+comparetotals_nonprop <- ndc_totals %>% left_join(single_nonprop_totals, by = "year")
+colnames(comparetotals_nonprop) <- c("year", "ndc_total", "by_ent_exct", "by_substr")
+comparetotals_nonprop <- comparetotals_nonprop %>% arrange(desc(year)) %>% mutate(perc_match_e = as.integer(100*(by_ent_exct/ndc_total)),
+                                                 perc_match_s = as.integer(100*(by_substr/ndc_total)))
+
+comparetotals_nonprop %>% filter(year > 2011 & year < 2019) 
+```
+
+```{r}
+
+##CHECKS
+table(is.na(nonprop_name_matches$Token))
+table(is.na(nonprop_name_matches$test))
+nonprop_name_matches %>% filter(!is.na(test) & is.na(Token)) 
+test <- ndc_names %>% select(Prop_low) %>% distinct()
+didntmatch <- captures %>% anti_join(test, by = c("Token_low" = "Prop_low"))
+didmatch <- captures %>% inner_join(test, by = c("Token_low" = "Prop_low"))
+
+didntmatch
+ndc_names %>% filter(str_detect(PROPRIETARYNAME, pattern =  "Pegvisomant"))
+
+##FINAL
+single_nonprop_totals <- nonprop_name_matches %>% 
+  mutate(exact = ifelse(is.na(Token), 0, 1),
+         substring = ifelse(is.na(test), 0, 1)) %>% 
+  group_by(year) %>% 
+  summarise(sum_e = sum(exact), sum_s = sum(substring)) %>% 
+  arrange(desc(year))
+
+ndc_totals <- ndc_names %>% count(year)
+
+comparetotals_nonprop <- ndc_totals %>% left_join(single_nonprop_totals, by = "year")
+colnames(comparetotals_nonprop) <- c("year", "ndc_total", "by_ent_exct", "by_substr")
+comparetotals_nonprop <- comparetotals_nonprop %>% arrange(desc(year)) %>% mutate(perc_match_e = as.integer(100*(by_ent_exct/ndc_total)),
+                                                 perc_match_s = as.integer(100*(by_substr/ndc_total)))
+
+comparetotals_nonprop %>% filter(year > 2011 & year < 2019) 
+
+```
+
+
+```{r, eval = FALSE}
+#table(final_products_validating$ndc) #2509 YES!!! 2224 NO
+
+device_510k_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_510k$results$device_name, "[:punct:]")))), "$", collapse = "|")
+device_hde_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_hde$device_name, "[:punct:]")))), "$", collapse = "|")
+device_pma_g_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_pma$results$generic_name, "[:punct:]")))), "$", collapse = "|")
+device_pma_t_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_pma$results$trade_name, "[:punct:]")))), "$", collapse = "|")
+
+final_products_validating2 <- final_products_validating %>% 
+  mutate(dev_5 = ifelse(str_detect(str_to_lower(Token), device_510k_patt), 1, 0),
+         dev_h = ifelse(str_detect(str_to_lower(Token), device_hde_patt), 1, 0),
+         dev_p_g = ifelse(str_detect(str_to_lower(Token), device_pma_g_patt), 1, 0),
+         dev_p_t = ifelse(str_detect(str_to_lower(Token), device_pma_t_patt), 1, 0),
+         dev_sum = dev_5 + dev_h + dev_p_g + dev_p_t,
+         dev_5_txt = str_extract_all(str_to_lower(Token), device_510k_patt),
+         dev_h_txt = str_extract_all(str_to_lower(Token), device_hde_patt),
+         dev_p_g_txt = str_extract_all(str_to_lower(Token), device_pma_g_patt),
+         dev_p_t_txt = str_extract_all(str_to_lower(Token), device_pma_t_patt))
+
+```
+
+
+
+```{r, eval = FALSE}
+final_products_validated <- final_products_validating2 %>% transmute(Token = Token, matchtype = ifelse(ndc > dev_sum, "drug", ifelse(dev_sum > 0, "device", "no match")),
+                                        matchval = ifelse(ndc > dev_sum, ndc, ifelse(dev_sum > 0, dev_sum, -1)),
+                                        matchtxt = ifelse(matchtype == "drug", ndc_text, 
+                                                          ifelse(matchtype != "device", "no match", 
+                                                                 ifelse(dev_5 >0, dev_5_txt, ifelse(dev_p_t > 0, dev_p_t_txt, "0")) )) ) #%>% 
+ # tidyr::unnest() # %>% filter(matchtype)
+
+# final_products_validating %>% filter(ndc > 0|dev_sum > 0)  # %>% filter(Token == 1)
+
+# table(final_products_validated$matchtype)
+# table(final_products_validated$matchval)
+  
+table(final_products_validated$matchtype)
+
+final_products_validated %>% filter(matchtype == "no match")
+```
+
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+
+*Capture list --> Pattern*
+Remaining captures -3,432
+check captures for english tokens and remove for now -3,278
+captures - remove punctuation, lower case, get unique - 3,181 
+make single capture pattern
+
+```{r possibledevices, eval = FALSE}
+possibledevices <- actualdrugs %>% filter(drug == 0) %>% select(-drug) %>% mutate(eng = hunspell::hunspell_check(Token))
+possibledevices_noneng <- possibledevices %>% filter(eng == FALSE)
+findus <- unique(str_to_lower(str_remove(possibledevices_noneng$Token, "[:punct:]")))
+capture_patt <- paste0("\\b", findus,  "\\b", collapse = "|")
+```
+
+*Reference list --> Strings*
+reference list of devices -2.6M across all sources
+low case, remove punctuation, distinct - 157K (sources not considered)
+
+```{r all_devices_unqnames,eval=FALSE, warning=FALSE}
+all_devices_unqnames <- all_devices %>% 
+  select(Name) %>% 
+  distinct() %>% 
+  mutate(Name_low_p = str_trim(str_to_lower(str_remove_all(string = Name, pattern = "[:punct:]"))))
+
+all_devices_unqnames <- all_devices_unqnames %>% select(Name_low_p) %>% distinct()
+
+all_devices_unqnames$match_txt <- NA
+
+for (i in 1:nrow(all_devices_unqnames)) {
+  all_devices_unqnames$match_txt[i] <- str_extract_all(string = all_devices_unqnames$Name_low_p[i], pattern = capture_patt)
+}
+
+#saveRDS(all_devices_unqnames, "~/git/business_innovation/data/working/sec/finalwordlists/all_devices_unqnames_results.RDS")
+```
+
+Results:
+
+Find Drugs - 897 drugs out of 4,651 first-single-mention captures
+
+Possible Devices - originally 3278 - 551 = devices
+
+
+
+1714 actual products
+3565 filings
+
+```{r validated, eval=FALSE}
+
+actual_devices1 <- all_devices_unqnames %>% tidyr::unnest() %>% distinct()
+length(unique(actual_devices1$match_txt)) #532
+
+possibledevices_noneng_res <- possibledevices_noneng %>% 
+  select(Token) %>% 
+  mutate(Name_low_p = str_to_lower(str_remove(Token, pattern = "[:punct:]"))) %>% 
+  left_join(actual_devices1, by = c("Name_low_p" = "match_txt")) %>% 
+  mutate(device = ifelse(is.na(Name_low_p.y), 0, 1))
+
+num_device_matches <- possibledevices_noneng_res %>% count(Token, device) 
+
+validated <- actualdrugs %>% left_join(num_device_matches, by = "Token")
+
+validated %>% count(drug, device)
+whynot <- validated %>% filter(drug == FALSE & device == 0)
+
+validated <- final_product_list_singlefirstmentionsONLY %>% 
+  mutate(Token = str_remove(Token, "TM$")) %>% 
+  left_join(validated, by = "Token")
+
+textsearchcandidates <- validated %>% 
+  filter(drug == TRUE|device == 1) %>% 
+  reshape2::melt(id.vars = c("Company", "Token", "Protect"), 
+                 measure.vars = c("2012", "2013", "2014", "2015", "2016", "2017")) %>% 
+  filter(value > 0)
+
+textsearchcandidates %>% arrange(desc(value))
+
+#saveRDS(validated, file = "~/git/business_innovation/data/working/sec/finalwordlists/all_devices_result_validated.RDS")
+```
+
+
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+
+##### E. Validating Product Captures
+
+```{r}
+#all_tokens <- unique(str_trim(str_to_lower(final_product_list$Token))) #4733
+# ndc_prop_names[str_detect(str_to_lower(ndc_prop_names), "alinity")]
+# all_tokens[str_detect(str_to_lower(all_tokens), "alinity")]
+
+# device_510k$results$device_name
+# device_hde$device_name
+# device_pma$results$generic_name
+# device_pma$results$trade_name
+```
+
+
+
+```{r}
+
+names_510 <- tibble("Name" = device_510k$results$device_name, "Source" = "510K_DeviceName")
+names_hde <- tibble("Name" = device_hde$device_name, "Source" = "HDE_DeviceName")
+names_PMA_g <- tibble("Name" = device_pma$results$generic_name, "Source" = "PMA_GenericName")
+names_PMG_t <- tibble("Name" = device_pma$results$trade_name, "Source" = "510K_TradeName")
+
+all_devices <- rbind(names_510, names_hde, names_PMA_g, names_PMG_t)
+
+```
+
+```{r}
+ndc_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$PROPRIETARYNAME, "[:punct:]")))),"$" , collapse = "|")
+validateme <- final_product_list_singlefirstmentionsONLY %>% 
+  transmute(Token = str_remove(Token, "TM$")) %>% # select(Token)
+  distinct() %>% 
+  mutate(ndc = ifelse(str_detect(str_to_lower(Token), ndc_patt), 1, 0),
+         ndc_text = str_extract_all(str_to_lower(Token), ndc_patt))
+
+actualdrugs <- validateme %>% tidyr::unnest()
+
+possibledevices <- validateme %>% filter(ndc == 0) %>% select(-ndc, -ndc_text)
+
+capture_patt <- paste0("\\b", unique(str_to_lower(str_remove(possibledevices$Token, "\\(|\\)"))),  "\\b", collapse = "|")
+
+
+#all_devices <- all_devices %>% mutate(device_match = str_extract_all(str_to_lower(Name), capture_patt))
+```
+
+
+
+
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+################################################################################################################
+
+
+
+
+```{r TRASHHHH, eval = FALSE}
+
+all_devices_unqnames %>% filter(str_detect(Name_low_p, pattern = "naloxone"))
+ndc_product %>% select(PROPRIETARYNAME) %>% filter(str_detect(str_to_lower(PROPRIETARYNAME), "^lox"))
+
+unique(whynot$Token)
+
+ndc_product %>% filter(str_detect(str_to_lower(PROPRIETARYNAME), "diethyloproprion"))
+ndc_product %>% filter(str_detect(str_to_lower(NONPROPRIETARYNAME), "diethyloproprion"))
+ndc_product %>% filter(str_detect(str_to_lower(SUBSTANCENAME), "diethyloproprion"))
+
+fda[str_detect(str_to_lower(fda$`Drug Name`), pattern = "diethyloproprion"),]
+fda %>% arrange(`Drug Name`) %>% filter(str_detect(`Drug Name`, "^D|^d"))
+
+
+length(unique(possibledevices_noneng_res$Token)) #3278
+length(unique(possibledevices_noneng_res$Name_low_p.y)) #7925
+
+#possibledevices <- possibledevices %>% mutate(first_pass = ifelse(ndc == 1, "drug", ifelse(device == 1, "device", "none")))
+
+table(possibledevices_noneng_res$device) #8828
+table(possibledevices_noneng_res$Name_low_p.y)
+
+possibledevices_noneng_res %>% count(Token)
+possibledevices_noneng_res %>% count(device) 
+
+possibledevices_noneng_res %>% filter(device == 1) %>% count(Token) %>% arrange(desc(n)) %>% filter(n < 20)
+possibledevices_noneng_res %>% filter(device == 1) %>% select(Token, Name_low_p.y) %>% filter(Token == "Optix")
+
+all_devices %>% filter(str_detect(Name, "HIgH"))
+
+
+
+
+
+validateme %>% filter(device == 1)
+validateme %>% filter(first_pass == "none")
+all_devices_unqnames %>% filter(is.na(match_txt.y)) %>% filter(str_detect(str_to_lower(Name), pattern = "alinity|eximer"))
+all_devices_unqnames %>% filter(str_detect(Name, "^AL|^Al|^al")) %>% arrange(Name)
+
+possibledevices
+table(str_detect(all_devices_unqnames$Name, "[:punct:]"))
+all_devices_unqnames %>% filter(str_detect(str_to_lower(Name), pattern = "xience"))
+
+
+testme <- all_devices_unqnames %>% filter(str_detect(Name_low_p, "alinity")) %>% select(Name_low_p)
+str_extract_all(testme$Name_low_p, pattern = capture_patt)
+
+for (i in 1:nrow(testme)) {
+  testme$match_txt[i] <- str_extract_all(string = testme$Name_low_p[i], pattern = capture_patt)
+}
+
+all_devices_unqnames  %>% filter(str_detect(Name_low_p, "alinity"))  %>% tidyr::unnest()
+
+actual_devices1 %>% filter(str_detect(match_txt, "\\balinity\\b")) %>% mutate(n = nchar(match_txt))
+
+```
+
+
+What's not in: 
+
+* alinity - medical equipment, may not be available in us yet?
+* Multifocal - contact lenses
+* Hemopatch - device? 
+* Steriliator
+* Allergan - company
+* Dentapure/DentaPure - device
+* Roxane, Byrne, Rohit, Desai - people's names
+* GlaxoSmithKline, SmithKline - companies
+* intuitiv - device
+* influvac - flu thing??
+* catalys - lasik surgery
+* 
+
+```{r}
+#data.frame("Tokens" = all_tokens) 
+```
+
+
+

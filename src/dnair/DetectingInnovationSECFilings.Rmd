@@ -1,10 +1,17 @@
 ---
-title: "Parsing SEC Filings to Identify Product Innovation: Working Document"
+title: "[Working Paper] Capturing Products in Paragraphs: Can financial filings inform us about innovation?"
+subtitle: 'A text-based method to identifying innovation in non-survey sources.'
+author: "Devika Mahoney-Nair & Gizem Korkmaz"
 output:
   html_document:
     self_contained: no
     toc: true
-    toc_float: true
+date: "`r format(Sys.time(), '%d %B %Y')`"
+tags: [nothing, nothingness]
+abstract: |
+  This is the abstract.
+  
+  It consists of two paragraphs.
 ---
 
 <style>
@@ -251,7 +258,7 @@ wordlist_engreg_rbind <- rbind(allwordcounts, allregwords)
 wordlist_enreg_count <- wordlist_engreg_rbind %>% 
   mutate(Protect = str_extract(Words, "®|™"), Token = str_remove(Words, "®|™")) %>% 
   group_by(Company, Year, Token, Protect) %>% 
-  summarise(n = sum(n))
+  summarise(n = sum(n)) %>% as.data.frame()
 
 wcbycomp <- reshape2::dcast(wordlist_enreg_count, Company + Token + Protect ~ Year, value.var = "n", fun.aggregate = sum)
 
@@ -329,12 +336,14 @@ protected_tokens <- unique(str_remove(allregwords$Words, "®|™"))
 ```{r}
 fda <- readxl::read_excel("~/git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx", sheet = "Sheet1")
 ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
+
 device_510k <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/510k.RDS")
 device_hde <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/hde.RDS") %>% select(1:4)
 device_pma <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/pma.RDS")
 
-colnames(device_hde) <- device_hde[4,] 
+colnames(device_hde) <- device_hde[4,]
 device_hde <- device_hde[5:nrow(device_hde),]
+colnames(device_hde) <- dataplumbr::name.standard_col_names(colnames(device_hde))
 ```
 
 
@@ -346,9 +355,55 @@ final_product_list <- readRDS("~/git/business_innovation/data/working/sec/finalw
 final_product_list_singlefirstmentionsONLY <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
 ```
 
+```{r}
+ndc_names <- ndc_product %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>% 
+  select(21, 4, 6, 14) %>% 
+  distinct() %>% 
+  mutate(Prop_low = str_to_lower(PROPRIETARYNAME), 
+         Nonprop_low = str_to_lower(NONPROPRIETARYNAME),
+         Sub_low = str_to_lower(SUBSTANCENAME))
+
+```
 
 
-### Outline
+```{r plotsettings2}
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+```
+
+```{r plotsettings_3}
+customPlot3 = list(
+  theme(axis.text.x  = element_text(vjust=0.5, size=12), #plot.margin = unit(c(1,1,2,2), "cm"),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="bottom"), 
+  coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 3),
+        colour =guide_legend(title="Key", ncol = 3))
+)
+
+```
+
+```{r}
+library(RColorBrewer)
+myCol <- brewer.pal(3, "Pastel2")
+myCol6 <- brewer.pal(6, "Pastel2")
+```
+
+
+
+
+**Outline**
 
 I.  Introduction 
 II.  Data Sources 
@@ -378,7 +433,9 @@ IV.  Results
         2.  Industry Terms
     E.  Validate Captures
 V.  Discussion
-    A.  Limitations 
+    A.  Conclusions 
+    B.  Challenges/Limitations
+    C.  Future Works
 VI.  Bibliography
 VII.  Data Citations
 VIII.  Appendix
@@ -390,31 +447,63 @@ VIII.  Appendix
 
 ### I. Introduction
 
-***OSLO Definition of Innovation***
-***Background on BRDIS***
+* Why does innovation matter?  Economic growth
+* BRDIS 
+* OSLO Definition
 
-This project aims to test the feasibility to identify, measure, and characterize product innovation using non-survey data sources. Our goal is to develop methods to complement and enhance the BRDIS survey that collects information from a representative set of companies and asks whether they have introduced a new product to the market. Specifically, we are developing text-based methods to determine:
+*History of Federal Surveys of Innovation*
+
+To better understand and foster economic growth via stimulation of innovation, the federal government has taken a number of survey approaches over time to measuring innovation nationally. The first iteration of these efforts, the Survey of Industrial Research & Development, deployed in 1957 to for-profit companies to gather information about the kinds of research activities companies undertake (e.eg. basic versus applied research) and how companies invest in and profit from R&D activities. 
+
+Historically, this data was used to develop tax policy and investigate company productivity; however, in 2008, the survey was succeeded by the Business R&D and Innovation Survey (BRDIS) which sought to expand the information collected to capture the innovations that resulted from these R&D activities. Conducted annually from 2008-2016, BRDIS targeted for-profit businesses employing 5 or more individuals (excluding farms) to survey innovation via two critical questions shown in the snapshot image of the 2009 questionnaire below. It cannot be understated how crucial a step this served, as the addition of thse questions represented for the first time, insight into how the R&D activities translated into real-life products and services. The data was used (and continues to be of use) across many federal agencies, including:
+
+* legislators, particularly those involved in tax legislation
+* policymakers, like those from Bureau of Economoic Analysis
+* congressional staff, like those involved with the Congressional Research Service
+* Congress members (e.g., the House and Senate science committees) 
+
+The collection of this data allowed stakeholders nationally insight into innovation and facilitated decision-making in key areas whose impact is felt in legislation and the economy. 
+
+<div class="col2">
+
+![History of Federal Surveys](DetectingInnovationSECFilings_files/figure-html/CopyOfsec_writeup/history of survey instruments.png)
+
+![2009 BRDIS Questionnare - Innov Questions](DetectingInnovationSECFilings_files/figure-html/CopyOfsec_writeup/BRDIS_innovqs_2009.png)
+
+</div>
+
+[SIRD - lot of info](https://nsf.gov/statistics/srvyindustry/sird.cfm)
+[SIRD - basic info](https://www.census.gov/econ/overview/mu1200.html)
+[BRDIS 2008 including who uses this](https://bhs.econ.census.gov/bhs/brdis/about.html)
+[BRDIS 2009 questionnaire image, page 7](https://nsf.gov/statistics/srvyindustry/about/brdis/surveys/srvybrdis_2009.pdf)
+[BRDS 2017 onwards](https://nsf.gov/statistics/srvybrds/#sd)
+[ABS 2018 onwards](https://nsf.gov/statistics/srvyabs/)
+
+However, there are a number of opportunities BRDIS highlights for us as researchers to extend the findings of the BRDIS innovation data, and those opportunities are the focus of this work. The primary aim of this project is to test the feasibility to identify, measure, and characterize product innovation using non-survey data sources. Our goal is to develop methods to complement and enhance the BRDIS survey data. Specifically, we are developing text-based methods to determine:
 
 * whether a company has launched a new product?
 * how many new products are introduced?
 * what are the features of the new product(s)?
 * how that innovation trends over time?
 
-To answer these questions, we levy our text-based methods against administrative data, specifically financial filings. We measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we focus on the pharmaceutical and medical device industry that are highly regulated such that new products require approval from the Food and Drug Administration (FDA). We make the assumption that the FDA approval dataset (which is publicly available) is the universal set of all new products, and ask what the portion of these products we can capture using administrative and opportunity data. Their respective SIC codes are given here. 
+To answer these questions, we levy our text-based methods against administrative data, specifically financial filings. We measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. In asking the question -- what portion of these new products can we capture using administrative and opportunity data -- we assume that annual financial reports filed by publicly-traded companies mention products in their portfolio that bear relevance to and help explain their financial well-being to regulatory bodies.
 
-```{r illustrate_industries_1}
-knitr::kable(distinct(sic[SIC_SIC %in% c(2834, 3841), 3:4])) 
-# originally referenced the actual files - and there are some filings that weren't in these two industries
-```
+Our focus in this work lies with the pharmaceutical industry, given by the SIC industry code 2834, Pharmaceutical Preparations, for a number of reasons. First, the pharmaceutical industry provides us a concrete product to focus on: drugs. According to the FDA, a new drug is defined as "any product that is intended for use in the diagnosis, cure mitigation, treatment or prevention of disease; and that is intended to affect the structure or any function of the body." 
 
-We chose to focus on the pharmaceutical and medical device industry because of the strictly regulated process of launching new products that is specific to this industry. Consider the following as a high-level illustration of the process a new drug or medical device might take to the market:
+[drug definition fda media handout](https://www.fda.gov/media/82381/download) 
 
-1. *Research & Development:* Company undertakes research to develop, test, and trial new device and drug. 
-2. *FDA Application:* Company submits application to FDA for device or drug approval.
-3. *Approval Announcements: FDA releases announcements to the public. 
-4. *Press Activity:* Media outlets report on the announcements, company and competitor relationships, and launches to market.
-5. *Market Activity:* Company retails device or drug.
-6. *Financial Reports:* Company submits financial reports to US Securities & Exchange Commission (SEC). 
+The second benefit of focusing on this space is the degree of regulation that new products undergo prior to arriving on the market. All new, and even modified, drugs in this space require approval from the Food and Drug Administration (FDA) in a tightly-controlled, well-segmented process, which often takes years, before the products can be marketed and sold in the United States. While the process differs between the two industries and types of products, with different regulatory bodies overseeing the approval process, we consider the following as a high-level summary of the process a new drug might take to the market:
+
+1. *Research & Development:* Company undertakes research to develop, test, and trial new device and drug, including laboratory and animal testing. 
+2. *FDA Application:* Company submits application to FDA for device or drug approval, and begins Phase I, II, and III clinical trials.
+3. *FDA Decision*: FDA publicly announces decision to approve or reject drug application. Approved drugs are now marketable, but the FDA will monitor the population for adverse effects reported by physicians and clinicians.
+4. *Market Activity & Financial Reports:* Company retails device or drug and publicly-traded companies submit financial reports to US Securities & Exchange Commission (SEC). 
+5. *Press Activity:* Media outlets report on all activities throughout the drug development pipeline, from initial R&D through the approval announcements and launches to market, often including information about company and competitor relationships.
+
+
+![FDA Approval Process Diagram](DetectingInnovationSECFilings_files/figure-html/CopyOfsec_writeup/FDA Approval diagram, no press no devices.png)
+
+Third is the availability of a well-validated reference set of new products. We make the assumption that the Food and Drug Administration (FDA) approval dataset (which is publicly available) is the universal set of all new products eligible for market launch and that the National Drug Code represents the portion of those eligible new products that did actually arrive to market. 
 
 ```{r illustrate_counts_1}
 compcount1 <- origcomp_details %>% 
@@ -431,7 +520,6 @@ compcount4 <- allregwords %>%
   count(Company, Year) 
 ```
 
-
 By tracing products through their lifecycle from FDA approval through financial impact, we can expand upon the BRDIS survey results by providing additional context and information around what innovation looks like in the pharmaceutical industry. Furthermore, we can illustrate a process by which innovation can be uncovered and measured, at least in a highly regulated environment. 
 
 ***
@@ -440,7 +528,7 @@ By tracing products through their lifecycle from FDA approval through financial 
 
 ##### A. SEC Filings
 
-The U.S. Securities and Exchange Commission (SEC) is an indepdendent agency created by the 1934 Securities Exchange Act. As an arm of the federal government, the SEC's primary responsibilities lie in the regulation of the nation's securities, which refer to any financial instruments used in trade. These responsibilities include oversight of the national stock and options exchanges. Publicly traded companies are those that are those companies whose equity is distributed through shares that are traded on a stock exchange, and thus, their oversight falls too to the SEC. Public companies are required to disclose their financial performance annually to the SEC, via lengthy reports that often cover a wide range of topics including (but not limited to):
+The U.S. Securities and Exchange Commission (SEC) is an independent agency created by the 1934 Securities Exchange Act. As an arm of the federal government, the SEC's primary responsibilities lie in the regulation of the nation's securities, which refer to any financial instruments used in trade. These responsibilities include oversight of the national stock and options exchanges. Publicly traded companies are those that are those companies whose equity is distributed through shares that are traded on a stock exchange, and thus, their oversight falls too to the SEC. Public companies are required to disclose their financial performance annually to the SEC, via lengthy reports that often cover a wide range of topics including (but not limited to):
 
 * company history
 * organizational structure
@@ -459,7 +547,7 @@ The 10-K form is one such report filed by publicly traded companies. These filin
 
 The reports represent sources containing rich and detailed information about the companies and present an opportunity to glean data of interest from its text. 
 
-This work makes use of filings submitted by companies belonging to the pharmaceutical and medical device industries. Our primary aim is to capture full product names from the yearly SEC 10-K filings. Once captured, these names will represent the universe of drugs and devices associated with companies who submitted these filings. *** For the purposes of this work, we treat drugs and devices mentioned in the 10-K filings as our product innovations. ***
+This work makes use of filings submitted by companies belonging to the pharmaceutical industry, given by the SIC code 2834. Our primary aim is to capture full product names from the yearly SEC 10-K filings. Once captured, these names will represent the universe of drugs and devices associated with companies who submitted these filings. *** For the purposes of this work, we treat drugs and devices mentioned in the 10-K filings as our product innovations. ***
 
 
 ***
@@ -496,10 +584,151 @@ Here, we use the FDA approvals as a candidate for our single source of truth for
 [metadata](https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files)
 [[MISSING]] - link to where the FDA data came from originally, drugs @ fda 
 
+```{r manip_fda}
+fda <- fda %>% mutate(sub_type = stringr::str_extract(Submission, "ORIG|SUPPL"),
+                      sub_class = recode(`Submission Classification *`, 
+                                         "Type 1 - New Molecular Entity" = "Type 1",
+                                         "Type 2 - New Active Ingredient" = "Type 2",
+                                         "Type 3 - New Dosage Form" = "Type 3",
+                                         "Type 4 - New Combination" = "Type 4",
+                                         "Type 5 - New Formulation or New Manufacturer" = "Type 5",
+                                         "Type 7 - Drug Already Marketed without Approved NDA" = "Type 7",
+                                         "Type 8 - Partial Rx to OTC Switch" = "Type 8",
+                                         "Type 9 - New Indication Submitted as Distinct NDA, Consolidated with Original NDA after Approval" = "Type 9",
+                                         "Type 1 - New Molecular Entity and Type 4 - New Combination" = "Combo - 1, 4",
+                                         "Type 10 - New Indication Submitted as Distinct NDA - Not Consolidated" = "Type 10",
+                                         "Type 2 - New Active Ingredient and Type 3 - New Dosage Form" = "Combo - 2, 3",
+                                         "Type 2 New Active Ingredient and Type 4 New Combination" = "Combo - 2, 4",
+                                         "Type 3 - New Dosage Form and Type 4 - New Combination" = "Combo - 3, 4"
+                                           ),
+                      sub_class_simple = recode(sub_class,
+                                                "Type 1" = "Single",
+                                                "Type 2" = "Single",
+                                                "Type 3" = "Single",
+                                                "Type 4" = "Single",
+                                                "Type 5" = "Single",
+                                                "Type 7" = "Single",
+                                                "Type 8" = "Single",
+                                                "Type 9" = "Single",
+                                                "Type 10" = "Single",
+                                                "Combo - 1, 4" = "Combo",
+                                                "Combo - 2, 3" = "Combo",
+                                                "Combo - 2, 4" = "Combo",
+                                                "Combo - 3, 4" = "Combo"
+                                                ))
+
+fda <- fda %>% filter(`Submission Status` == "Approval")
+```
+
+There are several avenues to submit for approval of a new or modified drug to the FDA, particularly for NDAs. The NDA Classification Codes are as follows:
+
+OSLO Notes | Change Type| Classification Type | Meaning
+-----|------|--------|----------------------------------------------------------
+brand new |Ingredients| Type 1 - New Molecular Entity | No ingredient has previously been approved
+brand new |Ingredients| Type 2 - New Active Ingredient | Active ingredient is new, but other ingredients are previously approved
+? |Dosage| Type 3 - New Dosage Form | New dosage of active ingredient, but all ingredients previously approved
+brand new |Ingredients| Type 4 - New Combination | New (chemical or physical) combination of previously approved active ingredients
+brand new |Ingredients| Combo 1, 4 | New combination of ingredients, but one inactive ingredient needs approval
+brand new |Ingredients| Combo 2, 4 | New combination of ingredients, but one active ingredient needs approval
+depends? new to company |Formulation| Type 5 - New Formulation / Manufacturer | Formulation changes (e.g. swaps bioequivalent inactive ingredients, generic manufacturer, standalone active ingredient from combination approval)
+new to market?  |Ingredients | Type 7 - Previously Marketed without NDA | Historical drugs needing updated approvals
+expanded market |Ingredients | Type 8 - Rx to OTC | Prescription drug switching to Over-the-Counter
+price change |Indication | Type 9 - New Indication/Claim | duplicate drug product (labeling/proprietary name distinct from original NDA)
+new? |Ingredients | Medical Gas | 
+market change |Packaging | Labeling | Safety information on label changes
+sig imp |Performance | Efficacy | changes in efficacy
+new? |Manufacturer | Manufacturer (CMC) | changes in manufacturer 
+new? |  | REMS | Risk Evaluation and Mitigation Strategies
+new? |  | Supplement | 
+
+[source on Types 1:10 + combos](https://www.fda.gov/media/94381/download)
+
+[source on labeling?](https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-labeling-changes-slc-database)
+
+[fda drug labeling resources](https://www.fda.gov/drugs/laws-acts-and-rules/prescription-drug-labeling-resources)
+
+[CFR - regulations for labeling](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfCFR/CFRSearch.cfm?CFRPart=201)
+
+<div class="col2">
+```{r}
+ggplot(data = fda, aes(x = sub_type, fill = sub_type)) +
+  geom_bar() + 
+  geom_text(stat = "count", aes(label = ..count..), hjust = .5) +
+  coord_polar("y", start = 0) + 
+  customPlot2 +
+  scale_fill_manual(values = myCol6[c(1,3)], na.translate = FALSE) +
+  labs(title = "What kinds of applications did the FDA approve over the study period?", 
+       subtitle = "Number of FDA Approvals by Application Type", 
+       x = "Number of applications", y = "Application Type") 
+```
+
+```{r}
+ggplot(data = fda, aes(x = as.integer(lubridate::year(`Approval Date`)), fill = sub_type)) +
+  geom_bar(stat = "count", position = position_dodge2(preserve = "single")) + 
+  geom_text(stat = "count", aes(label = ..count..), vjust = 2, 
+            position = position_dodge2(preserve = "single", width = 1)) +
+  customPlot2 +
+  scale_fill_manual(values = myCol6[c(1,3)], na.translate = FALSE) +
+  labs(title = "What categories did FDA supplemental approvals fall into?", 
+       subtitle = "FDA Supplemental Approvals by Application Type", 
+       y = "Number of applications", x = "Application Type") 
+```
+</div>
+
+<div class="col2">
+```{r}
+ggplot(data = fda %>% filter(sub_type == "ORIG"), aes(x = sub_class_simple, fill = sub_type)) +
+  geom_bar(position = position_dodge2(preserve = "single")) +
+  geom_text(stat = "count", aes(label = ..count..), hjust = .5) +
+  customPlot3 +
+  scale_fill_manual(values = myCol[1], na.translate = FALSE) +
+  labs(title = "What categories did FDA original approvals fall into?", 
+       subtitle = "FDA Original Approvals by Application Type", 
+       y = "Number of applications", x = "Application Type") 
+```
+
+```{r}
+ggplot(data = fda %>% filter(sub_type == "SUPPL"), aes(x = sub_class_simple, fill = sub_type)) +
+  geom_bar(position = position_dodge2(preserve = "single")) +
+  geom_text(stat = "count", aes(label = ..count..), hjust = .5) +
+  customPlot3 +
+  scale_fill_manual(values = myCol[3], na.translate = FALSE) +
+  labs(title = "What categories did FDA supplemental approvals fall into?", 
+       subtitle = "FDA Supplemental Approvals by Application Type", 
+       y = "Number of applications", x = "Application Type") 
+```
+</div>
+
+
+<div class="col2">
+```{r}
+ggplot(data = fda %>% filter(sub_type == "ORIG"), aes(x = sub_class, fill = sub_type)) +
+  geom_bar() +
+  geom_text(stat = "count", aes(label = ..count..), hjust = .5) +
+  customPlot3 +
+  scale_fill_manual(values = myCol[1], na.translate = FALSE) +
+  labs(title = "What categories did FDA supplemental approvals fall into?", 
+       subtitle = "FDA Supplemental Approvals by Application Type", 
+       y = "Number of applications", x = "Application Type") 
+```
+
+```{r}
+ggplot(data = fda %>% filter(sub_type == "SUPPL"), aes(x = sub_class, fill = sub_type)) +
+  geom_bar() +
+  geom_text(stat = "count", aes(label = ..count..), hjust = .5) +
+  customPlot3 +
+  scale_fill_manual(values = myCol6[3], na.translate = FALSE) +
+  labs(title = "What categories did FDA supplemental approvals fall into?", 
+       subtitle = "FDA Supplemental Approvals by Application Type", 
+       y = "Number of applications", x = "Application Type") 
+```
+</div>
 
 ***National Drug Codes***
 
-In addition to the drug and medical device approvals, the FDA also furnishes a database of product identifiers for drugs, referred to as the National Drug Code (NDC). The Drug Listing Act of 1972 mandated collection of this data to facilitate FDA regulation of the manufacture and distribution of drugs. The NDC is particularly useful to this work, as the 1-11 digit numeric identifier is comprised of 3 component identifiers. The first indicates the labeler, the company involved in the manufacture, repacking, or distribution of a drug product. The second indicates the product, which represents not only the formulation of the drug, but also the strength and dosage specific to the company's product portfolio. The third indicates the packaging form and size, also specific to the company's product portfolio.
+In addition to the drug approvals, the FDA also furnishes a database of product identifiers for drugs, referred to as the National Drug Code (NDC). The Drug Listing Act of 1972 mandated collection of this data to facilitate FDA regulation of the manufacture and distribution of drugs. The NDC is particularly useful to this work, as the 1-11 digit numeric identifier is comprised of 3 component identifiers. The first indicates the labeler, the company involved in the manufacture, repacking, or distribution of a drug product. The second indicates the product, which represents not only the formulation of the drug, but also the strength and dosage specific to the company's product portfolio. The third indicates the packaging form and size, also specific to the company's product portfolio.
+
+[source:](https://www.idmedicaid.com/Reference/NDC%20Format%20for%20Billing%20PAD.pdf)
 
 Code | Length  | Meaning
 -----|--------|---------
@@ -508,13 +737,163 @@ NDC|10-11 digits| product identifier, given per company
 *Product*| 3-4 digits | product identifier
 *Package*| 1-2 digits | packaging designation
 
+The NDC serves here as a clean dataset of drug names as a registry of drugs and their associated labeller companies (`r nrow(ndc_product)`  such listings) over the time period 1900-2019. The drug names arise during the development and FDA approval processes. When a new drug is developed and discovered, it is assigned a substance name based on the scientific nomenclature of its chemical constituents. When a drug is submitted for FDA approval, the submitting company requests a proprietary name. The FDA can choose to accept or reject this name, in line with its responsibility to maintain a body of unique drug names. This proprietary name can only be used by companies who hold exlusive rights to market a drug (often via a number of patents) at the time of drug approval. Once the drug is approved, the United States Adopted Names (USAN) Council assigns the drug a generic name - regardless of whether the drug will be available as a generic at the time of approval. Once any applicable patents expire, other companies may choose whether or not to also manufacture the drug, but they can never make use of the proprietary name. It is important to note that not all drugs with expired patents will have generic versions (often due to difficulty and cost of production or size of potential market).
 
-***Device Identifiers***
+Name Type | Meaning  | N (# names)
+-----|--------|---------
+proprietary | brand names | `r ndc_names %>% count(PROPRIETARYNAME) %>% nrow() `
+non-proprietary | generic names | `r ndc_names %>% count(NONPROPRIETARYNAME) %>% nrow() `
+substance  | chemical names | `r ndc_names %>% count(SUBSTANCENAME) %>% nrow() `
 
-"Currently, although Unique Device Identifiers (UDI) are available for some medical devices (in the form of GTIN or HIBC identifiers, which are numbers located under bar codes), they are not routinely captured in observational data sources like billing claims data or registries, as is the case with National Drug Codes, which permit universal drug identification."
+[source? india?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3770914/)
+[merck source](https://www.merckmanuals.com/home/drugs/brand-name-and-generic-drugs/overview-of-generic-drugs-and-drug-naming)
+
+The figure below shows when drugs listed in the NDC began being marketed, and though the registry stretches back to 1900, a huge subset of drugs did begin marketing in 2012 and later, our study period of interest. Specifically, 67,515 drugs are considered in study, while 38,164 drugs are considered out of study in this dataset. Almost 3/5 of the drugs listed in the NDC began marketing in our study period, quite recently. 
+
+<div class="col2">
+```{r}
+year <- ndc_product %>% transmute(year = str_extract(STARTMARKETINGDATE, "^\\d{4}")) %>% mutate(Period = ifelse(as.numeric(year) > 2011, "Study Period", "Out of Study"))
+
+ggplot(data = year, aes(x=as.numeric(year), fill = Period)) +
+  geom_histogram(stat = "count", binwidth = 5, position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol, na.translate = FALSE) +
+  labs(title = "When did drugs listed in National Drug Code registry begin marketing?", 
+       subtitle = "Number of NDC Drugs Over Time by Marketing Start", 
+       x = "Year", y = "Number of Drugs") 
+```
+
+```{r}
+ggplot(data = year %>% filter(as.numeric(year) > 2011), aes(x=as.numeric(year), fill = Period)) +
+  geom_histogram(stat = "count", binwidth = 5, position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol[2], na.translate = FALSE) +
+  labs(title = "When did drugs listed in National Drug Code registry begin marketing?", 
+       subtitle = "Number of NDC Drugs Over Time by Marketing Start", 
+       x = "Year", y = "Number of Drugs") 
+```
+</div>
+
+<div class="col2">
+```{r}
+ndc_cat_year <- ndc_product %>% 
+  transmute(type = MARKETINGCATEGORYNAME, year = str_extract(STARTMARKETINGDATE, "^\\d{4}")) %>% 
+  mutate(Period = ifelse(as.numeric(year) > 2011, "Study Period", "Out of Study")) %>% 
+  mutate(simplecategory = recode(type,
+                                 "UNAPPROVED MEDICAL GAS" = "Unapproved", 
+                                 "UNAPPROVED HOMEOPATHIC" = "Unapproved", 
+                                 "UNAPPROVED DRUG OTHER" = "Unapproved", 
+                                 "UNAPPROVED DRUG FOR USE IN DRUG SHORTAGE" = "Unapproved", 
+                                 "OTC MONOGRAPH NOT FINAL" = "OTC", 
+                                 "OTC MONOGRAPH FINAL" = "OTC", 
+                                 "NDA AUTHORIZED GENERIC" = "NDA Auth Gen"
+                                 ))
+
+ggplot(ndc_cat_year %>% filter(as.numeric(year) > 2011), aes(x=simplecategory, fill = simplecategory)) +
+  geom_histogram(stat = "count", binwidth = 5, position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol6, na.translate = FALSE) +
+  labs(title = "What categories did NDC listings fall into?", 
+       subtitle = "Number of NDC listings by Marketing Category", 
+       x = "Marketing Category", y = "Number of Drugs") 
+```
+
+```{r}
+ggplot(ndc_cat_year %>% filter(as.numeric(year) > 2011), aes(x=as.numeric(year), fill = simplecategory)) +
+  geom_histogram(stat = "count", binwidth = 5, position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol6, na.translate = FALSE) +
+  labs(title = "What categories did NDC listings fall into over time?", 
+       subtitle = "Number of NDC Listings Over Time by Marketing Categories", 
+       x = "Year", y = "Number of Listings") 
+```
+</div>
 
 
-[no registry for medical devices, but there is an identifier](https://www.ncbi.nlm.nih.gov/books/NBK208640/)
+
+Upon approval, the FDA also assigns a permissible marketing category. 
+
+Proprietaries:
+
+* NDA: New Drug Application, formal review of new pharmaceuticals
+
+Generics:
+
+* NDA Authorized Generic: Generic drugs marketed under an approved NDA, rather than an ANDA (I think this means that the company who developed drug can also sell it as a generic)
+* ANDA: Abbreviated New Drug Application, abbreviated review of a generic drug product must only demonstrate bioequivalence, not full clinical testing, sold by companies other than the original company
+
+Other:
+
+* BLA: Biologic License Application, review of those products synthesized in or extracted from biological sources, such as vaccines, blood, allergenics, somatic cells, gene therapies, tissues, recombinant proteins
+* OTC Monograph: Over-the-Counter
+* UNAPPROVED: Unapproved, other marketing categories 
+
+[authorized generics](https://www.fda.gov/drugs/abbreviated-new-drug-application-anda/fda-list-authorized-generic-drugs)
+[monograph source](https://www.chpa.org/FAQsOTCReview.aspx#Monograph)
+
+```{r, eval = FALSE}
+cats <- as.data.frame(table(ndc_product$MARKETINGCATEGORYNAME))
+colnames(cats) <- c("MarketingCategory2", "Num Drugs")
+
+cats <- cats %>% mutate(`Marketing Category` = recode(`MarketingCategory2`, 
+                                              `NDA AUTHORIZED GENERIC` = "NDA AUTH GEN",        
+                                              `OTC MONOGRAPH FINAL` = "OTC MONOGRAPH",
+                                              `OTC MONOGRAPH NOT FINAL` = "OTC MONOGRAPH",
+                                              `UNAPPROVED DRUG FOR USE IN DRUG SHORTAGE` = "UNAPPROVED",
+                                              `UNAPPROVED DRUG OTHER` = "UNAPPROVED",
+                                              `UNAPPROVED MEDICAL GAS` = "UNAPPROVED",
+                                              `UNAPPROVED HOMEOPATHIC` = "UNAPPROVED")) %>%
+  group_by(`Marketing Category`) %>% summarise(`Num Drugs` = sum(`Num Drugs`))
+
+ggplot(data = cats, aes(x=`Marketing Category`, y = `Num Drugs`, fill = `Marketing Category`)) +
+  geom_col(position = position_dodge2(preserve = "single")) +
+  customPlot2 +
+  scale_fill_manual(values = myCol6, na.translate = FALSE) +
+  labs(title = "What kinds of drug products are represented by NDC?", 
+       subtitle = "Number of NDC Drugs Over Time by Marketing Category", 
+       x = "Marketing Category", y = "Number of Drugs") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0))
+```
+
+[source](https://www.fda.gov/drugs/data-standards-manual-monographs/data-standards-manual-monograph-marketing-category)
+
+Use of NDC Instead of FDA
+
+<div class="col2">
+```{r}
+fda_compare <- fda %>% count(`Submission Status`, lubridate::year(`Approval Date`), sub_type,  sub_class_simple, sub_class)
+colnames(fda_compare) <- c("Status", "Year", "Type", "Class_simple", "Class_detail", "n")
+
+fda_grandtotals <- fda_compare %>% group_by(Status, Year) %>% summarise(sum = sum(n)) %>% mutate(source = "fda") %>% as.data.frame()
+
+ndc_grandtotals <- ndc_product %>% mutate(Year = as.numeric(str_extract(STARTMARKETINGDATE, "\\d{0,4}"))) %>% group_by(Year) %>% summarise(sum = n()) %>% mutate(Status = "Approved", source = "ndc") %>% select(Status, Year, sum, source) %>% filter(Year > 2010) %>% as.data.frame()
+
+fda_grandtotals
+ndc_grandtotals
+
+compare_grandtotals_fda_ndc <- rbind(fda_grandtotals, ndc_grandtotals)
+
+compare_grandtotals_fda_ndc
+
+ggplot(data = compare_grandtotals_fda_ndc, aes(x = Year, y = sum, fill = source)) +
+  geom_bar(stat = "identity",  position = position_dodge2(preserve = "single"))
+```
+
+```{r}
+fda_grandtotals2 <- fda_compare %>% group_by(Status, Year, Type) %>% summarise(sum = sum(n)) %>% mutate(source = "fda") %>% as.data.frame()
+
+ndc_grandtotals2 <- ndc_product %>% mutate(Year = as.numeric(str_extract(STARTMARKETINGDATE, "\\d{0,4}")), Type = MARKETINGCATEGORYNAME) %>% group_by(Year, Type) %>% summarise(sum = n()) %>% mutate(Status = "Approved", source = "ndc") %>% filter(Year > 2010) %>% as.data.frame()
+
+compare_grandtotals_fda_ndc2 <- rbind(fda_grandtotals2, ndc_grandtotals2) %>% group_by(Status, Year, Type, source) %>% summarise(sum = sum(sum)) %>% as.data.frame() %>% arrange(Status, Year, Type, source, sum)
+
+
+ggplot(data = compare_grandtotals_fda_ndc2 %>% filter(Year > 2012 & Year < 2016), aes(x = Type, y = sum, fill = source)) +
+  geom_col(  position = position_dodge2(preserve = "single")) +
+  facet_wrap(~Year, nrow = 3) + 
+  coord_flip()
+
+```
+</div>
 
 
 ***
@@ -530,11 +909,7 @@ Below we step through our iterative process using one of the filings as an examp
 
 ##### A. Text ingestion of SEC 10-K filings
 
-First the text of all filings was ingested, such that each text element represented an observation of the dataset. An example SEC filing can be found here: [https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm](https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm).
-
-Here's the text using the above linked Merck filing as an example. 
-
-```{r illustrate_sectext_1}
+```{r}
 url <- "https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm"
 edgar <- read_html(remove_doc_types(read_file(url)))
 paragraphs <- edgar %>% 
@@ -543,17 +918,18 @@ paragraphs <- edgar %>%
   str_squish
 
 paragraphs <- paragraphs[dataplumbr::var.is_blank(paragraphs) == FALSE] #[c(1,5,7,10,11,12, 16, 64)]
-merck_example <- paragraphs[c(1,5,7,10,11,12, 16, 64)]
-#knitr::knit_print(merck_example) 
-data.frame("Merck" = merck_example[1:7]) %>% knitr::kable() %>% kableExtra::kable_styling(full_width = F, position = "float_right")
 ```
 
-There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example from its original size at `r length(paragraphs)` elements by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])` elements. 
 
-```{r illustrate_sectextbylength_1}
-#knitr::knit_print(merck_example[nchar(merck_example) > 20])
-#format(merck_example[nchar(merck_example) > 20])
-data.frame("Merck" = merck_example[nchar(merck_example) > 20]) %>% knitr::kable() %>% kableExtra::kable_styling(full_width = F, position = "float_right")
+First the text of all filings was ingested, such that each text element represented an observation of the dataset. An example SEC filing can be found here: [https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm](https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm). There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example from its original size at `r length(paragraphs)` elements by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])` elements. Below is a table showing the text sourced from the above linked Merck filing as an example, as well as each text element's length and its subsequent retention decision.
+
+```{r illustrate_sectext_1}
+merck_example <- paragraphs[c(1,5,7,10,11,12, 16, 64)]
+#knitr::knit_print(merck_example) 
+data.frame("Merck" = merck_example[1:7], 
+           "Length" = nchar(merck_example[1:7]), 
+           "Decision" = c("Kept", "Removed", "Kept","Kept", "Removed", "Removed", "Kept")) %>% 
+  knitr::kable() %>% kableExtra::kable_styling(full_width = F, position = "float_right")
 ```
 
 
@@ -566,19 +942,19 @@ We wanted to determine the number and names of the new products and took two app
 **1. Searching text for non-English words**
 
 We then wanted to identify text elements that contained our target innovation phrases, so we looked for elements that contained the phrase "launch" or "new product." As you can see, it looks like the keyword "launch" identified a product called "Zetia."
+
 ```{r illustrate_sectextbykeyword_1}
 word_innov <- c("launch", "new product")
 innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
 
-knitr::knit_print(paragraphs[innov_text][11]) #%>% kableExtra::kable_styling(full_width = F, position = "float_right")
-
+paragraphs[innov_text][11] %>% knitr::knit_print() #%>% kableExtra::kable_styling(full_width = F, position = "float_right")
 ```
 
 Then, for these paragraphs containing "launch" or new product, we looked for any non-English words in these text elements. We do see "Zetia" in this list! 
 
 ```{r illustrate_sec_nonenglish_1}
 #knitr::kable(allwordcounts[Company == 310158][1:5])
-allwordcounts[Company == 310158][1:5] %>% knitr::kable()
+allwordcounts %>% filter(Company == 310158) %>% head(4) %>% as.data.frame() %>% knitr::kable(format = "pandoc")
 ```
 
 
@@ -586,15 +962,10 @@ allwordcounts[Company == 310158][1:5] %>% knitr::kable()
 
 Second, for any paragraph, we looked for any word with a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. Note that this list can include both English and non-English words. 
 
-```{r}
+```{r illustrate_sec_protected_1}
 protectedunique <- unique(allregwords$Words)
 #knitr::knit_print(head(protectedunique, 3))
-head(protectedunique, 3)
-```
-
-```{r illustrate_sec_protected_1}
-#knitr::knit_print(protectedunique[protectedunique %in% c("Click®", "Coach®", "Blue®" )])
-protectedunique[protectedunique %in% c("Click®", "Coach®", "Blue®" )]
+c(head(protectedunique, 3), protectedunique[protectedunique %in% c("Click®", "Coach®")]) %>% knitr::knit_print() #"Blue®"
 ```
 
 ##### C. Refine Capture Results
@@ -602,10 +973,13 @@ protectedunique[protectedunique %in% c("Click®", "Coach®", "Blue®" )]
 Ideally, all words captured by these two approaches would represent true product names; however, we observe that the list of words that we have obtained from the filings can also include (i) company names or (ii) sector-specific terms. Therefore,  dictionaries for these groups need to be generated to identify and eliminate them. In other words, we need to refine our results.  
 
 ```{r illustrates_refine_problem_2}
-wordlist_enreg_count[wordlist_enreg_count$Token %in% c("Abbvie", "ANDA", "Mallinckrodt", "Pharma", "AstraZeneca", "Bausch"),c("Token", "n")] %>% 
+wordlist_enreg_count %>% 
+  filter(Token %in% c("HUMIRA", "Abbvie", "ANDA", "Pharma", "AstraZeneca")) %>%  
   group_by(Token) %>% 
   summarise(n = sum(n)) %>% 
-  knitr::kable()
+  mutate("Notes" = c("Company Name", "Pharma Term", "Company Name", "Product Name", "Pharma Term")) %>%
+  as.data.frame() %>% 
+  knitr::kable(format = "pandoc")
 
 #wcbyword_findcompanies %>% count(complowTF, Self, Pharma) %>% knitr::kable()
 ```
@@ -630,10 +1004,13 @@ We needed to create a reference set, or a dictionary of unique company tokens. O
     b) remove company name stop words 
     c) remove repeating tokens (tokens appearing for more than 1 company)
 
+
 ```{r illustrate_tokens_per_company}
-new_ref_companies2 %>% filter(str_detect(CompanyString, "Dorato Resources Inc")) %>% 
+tokens_example <- new_ref_companies2 %>% filter(str_detect(CompanyString, "Dorato Resources Inc")) %>% 
   #select(c(1,2, 19, 20)) 
-  select(c(1, 20)) %>% knitr::kable()
+  as.data.frame() %>% select(1, 20)
+
+knitr::kable(tokens_example, format = "pandoc")
 ```
 
 
@@ -645,14 +1022,15 @@ Similarly, for words thats... Create dictionary generic industry terms
 2. Manually evaluate tokens with over 10 appearances
 3. Create list of generic industry terms
 
+
 ```{r illustrate_industry_terms}
 
 wcbyword_searchcompanies %>% 
   filter(str_detect(string = word_low, pattern = pharmstopwords) ==  TRUE) %>% 
   select(Token) %>% count(Token) %>% 
   arrange(desc(n)) %>% 
-  head(4) %>% 
-  knitr::kable()
+  head(4) %>% as.data.frame() %>% 
+  knitr::kable(format = "pandoc")
 ```
 
 
@@ -675,13 +1053,13 @@ wcbyword_findcompanies %>%
   distinct() %>% 
   filter(Token %in% c("AbbVie", "HUMIRA", "LASIK", "Akorn", "ANDA", "Antihemophilic")) %>%
   filter(CompanyString %in% c("ABBOTT LABORATORIES NA Abbott Laboratories", "AKORN INC NA Akorn Inc", "BAXTER INTERNATIONAL INC BAXTER INTERNATIONAL INC Baxter International Inc")) %>% 
-  knitr::kable()
+  as.data.frame() %>% 
+  knitr::kable(format = "pandoc")
 ```
 
 ##### D. Validate Captures
 
 
-Talk about FDA and NDC, variables
 
 
 
@@ -692,47 +1070,10 @@ Talk about FDA and NDC, variables
 
 
 
-
-
-```{r plotsettings2}
-customPlot2 = list(
-  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
-        axis.text.x  = element_text(vjust=0.5, size=12),
-        plot.title=element_text(size=12, vjust=2),
-        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-        panel.background = element_rect(fill = "#FFFFFF") , 
-        legend.position="right"),  #coord_flip(), 
-  guides(fill=guide_legend(title="Key", ncol = 1),
-        colour =guide_legend(title="Key", ncol = 1))
-)
-```
-
-```{r plotsettings_3}
-customPlot3 = list(
-  theme(axis.text.x  = element_text(vjust=0.5, size=12), #plot.margin = unit(c(1,1,2,2), "cm"),
-        plot.title=element_text(size=12, vjust=2),
-        panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #axis.title.x = element_blank(), axis.title.y = element_blank(),
-        panel.background = element_rect(fill = "#FFFFFF") , 
-        legend.position="bottom"), 
-  coord_flip(), 
-  guides(fill=guide_legend(title="Key", ncol = 3),
-        colour =guide_legend(title="Key", ncol = 3))
-)
-
-```
-
-```{r}
-# pal_ind <- wes_palette("GrandBudapest1", 3, type = "discrete")
-# pal_5 <- wes_palette("Moonrise3", 5, type = "discrete")
-
-library(RColorBrewer)
-myCol <- brewer.pal(3, "Pastel2")
-myCol <- brewer.pal(3, "Pastel2")
-```
 
 ***
 
-### Results
+### IV. Results
 
 The results presented below align with the methodology outlined previously, and illustrate the outputs of each step of this work. 
 
@@ -907,1138 +1248,32 @@ We find 16 terms that altogether represent 246 observations.
 knitr::knit_print((c("biopharma", "therapeutics?", "pharmaceuticals", "international", "sciences", "medical", "technology",  "pharma", "bio", "biosciences", "anda", "fdca", "uspto", "investigational")))
 ```
 
-##### E. Validating Product Captures
-
-```{r}
-#all_tokens <- unique(str_trim(str_to_lower(final_product_list$Token))) #4733
-# ndc_prop_names[str_detect(str_to_lower(ndc_prop_names), "alinity")]
-# all_tokens[str_detect(str_to_lower(all_tokens), "alinity")]
-
-# device_510k$results$device_name
-# device_hde$`Device Name`
-# device_pma$results$generic_name
-# device_pma$results$trade_name
-```
-
-
-```{r}
-ndc_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$PROPRIETARYNAME, "[:punct:]")))),"$" , collapse = "|") #37,140
-#table(final_products_validating$ndc) #2509 YES!!! 2224 NO
-
-device_510k_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_510k$results$device_name, "[:punct:]")))), "$", collapse = "|")
-device_hde_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_hde$`Device Name`, "[:punct:]")))), "$", collapse = "|")
-device_pma_g_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_pma$results$generic_name, "[:punct:]")))), "$", collapse = "|")
-device_pma_t_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_pma$results$trade_name, "[:punct:]")))), "$", collapse = "|")
-
-final_products_validating <- final_product_list %>% 
-  transmute(Token = str_remove(Token, "TM$")) %>% # select(Token)
-  distinct() %>% 
-  mutate(ndc = ifelse(str_detect(str_to_lower(Token), ndc_patt), 1, 0),
-         ndc_text = str_extract_all(str_to_lower(Token), ndc_patt),
-         dev_5 = ifelse(str_detect(str_to_lower(Token), device_510k_patt), 1, 0),
-         dev_h = ifelse(str_detect(str_to_lower(Token), device_hde_patt), 1, 0),
-         dev_p_g = ifelse(str_detect(str_to_lower(Token), device_pma_g_patt), 1, 0),
-         dev_p_t = ifelse(str_detect(str_to_lower(Token), device_pma_t_patt), 1, 0),
-         dev_sum = dev_5 + dev_h + dev_p_g + dev_p_t,
-         dev_5_txt = str_extract_all(str_to_lower(Token), device_510k_patt),
-         dev_h_txt = str_extract_all(str_to_lower(Token), device_hde_patt),
-         dev_p_g_txt = str_extract_all(str_to_lower(Token), device_pma_g_patt),
-         dev_p_t_txt = str_extract_all(str_to_lower(Token), device_pma_t_patt))
-
-final_products_validated <- final_products_validating %>% transmute(Token = Token, matchtype = ifelse(ndc > dev_sum, "drug", ifelse(dev_sum > 0, "device", "no match")),
-                                        matchval = ifelse(ndc > dev_sum, ndc, ifelse(dev_sum > 0, dev_sum, -1)),
-                                        matchtxt = ifelse(matchtype == "drug", ndc_text, 
-                                                          ifelse(matchtype != "device", "no match", 
-                                                                 ifelse(dev_5 >0, dev_5_txt, ifelse(dev_p_t > 0, dev_p_t_txt, "0")) )) ) %>% 
-  tidyr::unnest() # %>% filter(matchtype)
-
-final_products_validating %>% filter(ndc > 0|dev_sum > 0)  # %>% filter(Token == 1)
-
-table(final_products_validated$matchtype)
-table(final_products_validated$matchval)
-```
-
-```{r}
-
-names_510 <- tibble("Name" = device_510k$results$device_name, "Source" = "510K_DeviceName")
-names_hde <- tibble("Name" = device_hde$`Device Name`, "Source" = "HDE_DeviceName")
-names_PMA_g <- tibble("Name" = device_pma$results$generic_name, "Source" = "PMA_GenericName")
-names_PMG_t <- tibble("Name" = device_pma$results$trade_name, "Source" = "510K_TradeName")
-
-all_devices <- rbind(names_510, names_hde, names_PMA_g, names_PMG_t)
-
-```
-
-```{r}
-ndc_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$PROPRIETARYNAME, "[:punct:]")))),"$" , collapse = "|")
-validateme <- final_product_list_singlefirstmentionsONLY %>% 
-  transmute(Token = str_remove(Token, "TM$")) %>% # select(Token)
-  distinct() %>% 
-  mutate(ndc = ifelse(str_detect(str_to_lower(Token), ndc_patt), 1, 0),
-         ndc_text = str_extract_all(str_to_lower(Token), ndc_patt))
-
-actualdrugs <- validateme %>% tidyr::unnest()
-
-possibledevices <- validateme %>% filter(ndc == 0) %>% select(-ndc, -ndc_text)
-
-capture_patt <- paste0("\\b", unique(str_to_lower(str_remove(possibledevices$Token, "\\(|\\)"))),  "\\b", collapse = "|")
-
-
-#all_devices <- all_devices %>% mutate(device_match = str_extract_all(str_to_lower(Name), capture_patt))
-
----
-title: "Parsing SEC Filings to Identify Product Innovation: Working Document"
-output:
-  html_document:
-    self_contained: no
-    toc: true
-    toc_float: true
----
-
-<style>
-  .col2 {
-    columns: 2 200px;         /* number of columns and width in pixels*/
-    -webkit-columns: 2 200px; /* chrome, safari */
-    -moz-columns: 2 200px;    /* firefox */
-  }
-  .col3 {
-    columns: 3 100px;
-    -webkit-columns: 3 100px;
-    -moz-columns: 3 100px;
-  }
-</style>
-
-```{r libraries, echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "hide"}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
-library(readr)
-library(dplyr)
-library(stringr)
-library(xml2)
-library(rvest)
-library(stringr)
-library(hunspell)
-library(data.table)
-library(htmltools)
-library(magrittr)
-library(htmltidy)
-library(ggplot2)
-
-library(wesanderson)
-library(corpus)
-library(rworldmap)
-```
-
-```{r functions}
-
-remove_doc_types <- function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "EX-10.3", "EX-10.6", "EX-10.20")) {
-  no_ns <- gsub("\\n", " ", xml_string)
-  #browser()
-  for (t in types) {
-    find_str <- paste0("<DOCUMENT> ?<TYPE> ?", t)
-    search_str <- paste0("<DOCUMENT> ?<TYPE> ?", t, ".*?</DOCUMENT>")
-    found <-
-      as.data.table(stringr::str_locate_all(no_ns, find_str))
-
-    for (i in 1:nrow(found)) {
-      locs <- as.data.table(stringr::str_locate(no_ns, search_str))
-      st <- locs[1, start] - 1
-      en <- locs[1, end] + 1
-      ifelse(is.na(locs$start) == TRUE & is.na(locs$end) == TRUE, no_ns,
-             no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns))) )
-    }
-  }
-  no_ns
-}
-
-
-stem_hunspell <- function(term) {
-  # look up the term in the dictionary
-  stems <- hunspell::hunspell_stem(term)[[1]]
-
-  if (length(stems) == 0) { # if there are no stems, use the original term
-    stem <- term
-  } else { # if there are multiple stems, use the last one
-    stem <- stems[[length(stems)]]
-  }
-
-  stem
-}
-
-'%!in%' <- function(x,y)!('%in%'(x,y))
-```
-
-```{r load_1, results = "hide", message=FALSE, warning=FALSE}
-# wordcounts_1_1000 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_1_1000.csv")
-# wordcounts_1001_2000 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_1001_2000.csv")
-# wordcounts_2000_2867 <- read_csv("~/git/business_innovation/data/working/sec/wordcounts_2000_2867.csv")
-# allwordcounts <- as.data.table(rbind(wordcounts_1_1000, wordcounts_2000_2867, wordcounts_2000_2867))
-#saveRDS(allwordcounts, "~/git/business_innovation/data/working/sec/all_wordlist.RDS")
-#allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/all_wordlist.RDS") duplicated below
-
-paths_file <- "~/git/business_innovation/data/original/edgar_filings/ALL_SEC_files.txt"
-file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
-paths <- paste0("~/git/business_innovation/data/original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
-file_names <- unique(list.files(paths, full.names = TRUE))
-
-ciknames <- read_rds("~/git/business_innovation/data/original/ciks_names.RDS")
-sic <- read_rds("~/git/business_innovation/data/original/sic.download.RDS")
-cik_ticker <- read_delim("~/git/business_innovation/data/original/edgar_filings/cik_ticker.csv", delim = "|")   #RANKANDFILE website
-cikcountries <- read_delim("~/git/business_innovation/data/original/edgar_filings/edgar_state_country.csv", delim = "|") #RANKANDFILE website
-
-allwords <- read_csv("~/git/business_innovation/data/working/sec/all_secwordlists.csv") # 4M TOTAL WORDS ACROSS ALL FILINGS
-allregwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordlists.csv") # 37K REG WORDS ACROSS ALL FILINGS
-allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/all_wordlist.RDS") #15K NON ENGLISH WORDS ACROSS ALL FILINGS
-
-### WORK IN PROGRESS - SEPTEMBER 2019 ATTEMPT at full company list  - ACTUALLy 
-#companylist <- readRDS("~/git/business_innovation/data/working/sec/companylist.RDS") 
-```
-
-```{r joinprep_1, warning=FALSE}
-colnames(sic) <- c("CIK", "SIC_CompName", "SIC_SIC", "SIC_Industry", "SIC_Location")
-colnames(ciknames) <- c("CIK", "SEC_CompName", "SEC_SIC")
-colnames(cik_ticker) <- c("CIK", "Ticker_TickerCode", "Ticker_CompName", "Ticker_Exchange", "Ticker_SIC", "Ticker_Location", "Ticker_Inc_Location", "Ticker_IRS")
-colnames(cikcountries) <- c("Code", "Ticker_StateCountry")
-
-sic$SIC_SIC <- as.numeric(sic$SIC_SIC)
-sic$CIK <- as.numeric(sic$CIK)
-ciknames$CIK <- as.numeric(ciknames$CIK)
-ciknames$SEC_SIC <- as.numeric(ciknames$SEC_SIC)
-```
-
-```{r comp_reference_1}
-cikcountries <- cikcountries %>%
-  mutate(US = recode(Code, 
-                     "CA"= "USA", "CO" = "USA", "CT" = "USA", "DC" = "USA", "FL" = "USA", "GA" = "USA",
-                     "IL" = "USA", "IN" = "USA", "MA" = "USA", "MD" = "USA", "MN" = "USA", "MI" = "USA",
-                     "MO" = "USA", "NC" = "USA", "NJ" = "USA", "NV" = "USA", "NY" = "USA", "OH" = "USA",
-                     "PA" = "USA", "SC" = "USA", "TN" = "USA", "TX" = "USA", "UT" = "USA", "WA" = "USA",
-                     "AK" = "USA", "AL" = "USA", "AR" = "USA", "AZ" = "USA", "DE" = "USA", "IA" = "USA",
-                     "ID" = "USA", "ME" = "USA", "MS" = "USA", "MT" = "USA", "ND" = "USA", "NE" = "USA",
-                     "OK" = "USA", "OR" = "USA", "PR" = "USA", "RI" = "USA", "SD" = "USA", "VA" = "USA",
-                     "VT" = "USA", "WA" = "USA", "WI" = "USA", "WV" = "USA", "WY" = "USA", "NH" = "USA")) 
-
-companyref <- sic %>% # 58K  
-  full_join(ciknames, by = "CIK") %>% # 779      
-  full_join(cik_ticker, by = "CIK") %>%  #13K
-  full_join(cikcountries, by = c("Ticker_Location" = "Code")) #309 - but doens't affect rows
-                                                 
-companyref_pickname <- companyref %>%
-  mutate(Name = ifelse(!is.na(SEC_CompName), SEC_CompName,
-                       ifelse(!is.na(SIC_CompName), SIC_CompName,
-                              ifelse(!is.na(Ticker_CompName), Ticker_CompName, paste(SEC_CompName, SIC_CompName, Ticker_CompName)))),
-         SIC = ifelse(!is.na(SEC_SIC), SEC_SIC,
-                       ifelse(!is.na(SIC_SIC), SIC_SIC,
-                              ifelse(!is.na(Ticker_SIC), Ticker_SIC, 0)))) %>%
-  transmute(Name = Name, CIK = CIK, SIC = SEC_SIC, SIC_Loc = SIC_Location, TickerCode = Ticker_TickerCode, Exchange = Ticker_Exchange, Ticker_Location, Ticker_Inc_Location, Ticker_StateCountry, US)
-
-##################################################
-#length(file_names) # 2867 filings
-#length(unique(ciknames$CIK))  # 779 - total # of companies classified as pharm/med device by SEC 
-
-patt1 <- "(?<=Edgar_filings_folders/)(.*)(?=.txt)"
-patt2 <- "(?<=/)(.*)(?=_10-K_)"
-orig_companies <- str_extract(str_extract((file_names), patt1), patt2)
-
-#length(unique(orig_companies$orig_companies)) #703 companies with filings
-#length(unique(wcbycomp$Company)) # 365 - # of companies that we found non-English words in their filings
-
-orig_companies <- as.numeric(orig_companies)
-orig_companies <- as.data.frame(orig_companies)
-
-origcomp_details <- orig_companies %>%
-  filter(!is.na(orig_companies)) %>% 
-  unique() %>% 
-  left_join(ciknames, by = c("orig_companies" = "CIK")) %>%
-  left_join(sic, by = c("orig_companies" = "CIK", "SEC_SIC" = "SIC_SIC")) %>%
-  left_join(cik_ticker, by = c("orig_companies" = "CIK"))
-
-```
-
-```{r remind_me_3_sets_are_1_and_2, eval=FALSE}
-# 3 word datasets
-# allwords # 4 million words across all filings
-# allwordcounts # 15K non-English words across all filings 
-# allregwords # 37K protected words across all filings
-```
-
-```{r company_reference_sets_and_multtokens }
-company_reference_names <- companyref %>% distinct() %>% 
-  mutate(CompanyString = paste(SIC_CompName, SEC_CompName, Ticker_CompName)) 
-
-comp_tokens <- str_split(company_reference_names$CompanyString, pattern = " |[[:punct:]]")
-stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa"))
-#stopwords <- paste0( stopwords, collapse = "|")
-
-new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) %>% # head() %>% 
-  tidyr::unnest() %>% filter(nchar(comp_tokens) >1) %>% as.data.frame() %>%
-  left_join(company_reference_names, by = c("company_reference_names$CompanyString" = "CompanyString")) %>%
-  mutate(comp_lowword = str_to_lower(str_squish(comp_tokens))) %>% filter(comp_lowword %!in% stopwords) %>% 
-  mutate(comp_low_hun = text_tokens(comp_lowword, stemmer = stem_hunspell)) %>% tidyr::unnest() %>% distinct()
-
-colnames(new_ref_companies) <- c("CompanyString", "Tokens", "CIK", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "SEC_Company_Name", "SEC_SIC", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS", "CIK_Ticker_US_Country", "CIK_Ticker_USA", "token_low", "token_hun")
-
-multtokens <- new_ref_companies %>% group_by(Tokens) %>% summarise(n = n()) %>% filter(n > 1)
-#knitr::kable(multtokens[str_detect(multtokens$Tokens, "Apogee"),])
-new_ref_companies2 <- new_ref_companies
-new_ref_companies <- new_ref_companies %>% filter(Tokens %!in% multtokens$Tokens)
-
-multenglishtokens <- new_ref_companies2 %>% mutate(eng = hunspell::hunspell_check(token_hun)) %>% filter(eng == "TRUE") %>% group_by(token_hun) %>% summarise(n = n()) %>% filter(n > 1)
-```
-
-```{r stopwordsandpatterns}
-pharmstopwords <- c("biopharma", "therapeutics?", "pharmaceuticals?", "international", "sciences?", "medical", "technology",  "pharma?", "bio", "biosciences?", "anda", "fdca", "uspto", "investigational")
-pharmstopwords <- paste0(paste0("\\b", pharmstopwords, "\\b"), collapse = "|")
-
-patt = paste0("^", new_ref_companies$Tokens, "$", collapse = "|")
-pattlow = paste0("^", new_ref_companies$token_low, "$", collapse = "|")
-patthun = paste0("^", new_ref_companies$token_hun, "$", collapse = "|")
-
-```
-
-```{r wordlistsandsearchcompanies}
-allregwords <- allregwords %>% count(Company, Year, Words)
-allwordcounts$n <- allwordcounts$count
-allwordcounts$count <- NULL
-wordlist_engreg_rbind <- rbind(allwordcounts, allregwords)
-
-wordlist_enreg_count <- wordlist_engreg_rbind %>% 
-  mutate(Protect = str_extract(Words, "®|™"), Token = str_remove(Words, "®|™")) %>% 
-  group_by(Company, Year, Token, Protect) %>% 
-  summarise(n = sum(n))
-
-wcbycomp <- reshape2::dcast(wordlist_enreg_count, Company + Token + Protect ~ Year, value.var = "n", fun.aggregate = sum)
-
-#table(is.na(wordlist_enreg_count$Protect))
-
-wcbyword_searchcompanies <- wcbycomp %>% mutate(
-  word_low = str_to_lower(Token),
-  companyTF = str_detect(Token, patt), 
-  compmatch = str_extract(Token, patt), 
-  complowTF = str_detect(word_low, pattlow),
-  complowmatch = str_extract(word_low, patthun))
-
-```
-
-```{r remove_companies_from_final_wordlist_2_final_set }
-wcbyword_findcompanies <- wcbyword_searchcompanies %>% 
-  left_join(company_reference_names %>% select(CIK, CompanyString), by = c("Company" = "CIK")) %>%
-  mutate(Self = ifelse(str_detect(str_to_lower(CompanyString), pattern = complowmatch), 1, 0),
-         Pharma = ifelse(str_detect(string = str_to_lower(Token), pattern = pharmstopwords), 1, 0 )) #%>%  
-  #select(-word_low, -companyTF, -compmatch, -complowmatch, -CompanyString)
-
-final_product_list <- wcbyword_findcompanies %>% 
-  filter(complowTF == FALSE & Pharma == 0) %>% 
-  select(-word_low, -companyTF, -compmatch, -complowTF, -complowmatch, -Self, -Pharma) %>% 
-  left_join(companyref_pickname, by = c("Company" = "CIK"))
-```
-
-```{r firstmention}
-#### for each company - what was the first time they individually mentioned that product? 
-firstmention_by_company <- final_product_list %>% 
-  transmute(Name = Name, 
-        first_mention = ifelse(`2012` > 0, 2012, 
-                                ifelse(`2013` > 0, 2013, 
-                                        ifelse(`2014` > 0, 2014, 
-                                                ifelse(`2015` > 0, 2015, 
-                                                        ifelse(`2016` > 0, 2016,
-                                                               ifelse(`2017` > 0, 2017, 1900)))))), 
-         #Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token),
-        Token = Token, 
-        Protect = Protect)
-
-
-#### for commonly mentioned products - which company mentioned it first? for ties - remove the tokens
-
-#### how to find tokens that have multiple companies mentioning them
-#firstmention_by_company %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
-#### example of how to find first mention YEAR among multiple company years with Abilify
-#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention))
-#### example how to take first mention YEAR and then filter for rows with that year
-#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company %>% filter(Token == "Abilify"), by = c("Token")) %>% filter(minyear == first_mention)
-
-#### run above on entire set 
-creditcompanybyfirstmention <- firstmention_by_company %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company, by = c("Token")) %>% filter(minyear == first_mention)
-
-tokens_with_tied_firstmention <- creditcompanybyfirstmention %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
-
-creditcompanybyfirstmention_NO_TIES <- creditcompanybyfirstmention %>% filter(Token %!in% tokens_with_tied_firstmention$Token) %>% select(Token, Protect, Name, minyear)
-
-final_product_list_singlefirstmentionsONLY <- final_product_list %>% 
-  left_join(firstmention_by_company, by = c("Name", "Token", "Protect")) %>% 
-  inner_join(creditcompanybyfirstmention_NO_TIES, by = c("Token", "Name", "Protect", "first_mention" = "minyear"))
-
-```
-
-```{r venn_data}
-nonenglish_mentions <- allwordcounts %>% transmute(mention_id = paste(Company, Words))
-protected_mentions <- allregwords %>% transmute(mention_id = paste(Company, str_remove(Words, "®|™")))
-nonenglish_mentions <- unique(nonenglish_mentions$mention_id)
-protected_mentions <- unique(protected_mentions$mention_id)
-nonenglish_tokens <- unique(allwordcounts$Words)
-protected_tokens <- unique(str_remove(allregwords$Words, "®|™"))
-
-```
-
-```{r}
-fda <- readxl::read_excel("~/git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx", sheet = "Sheet1")
-ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
-device_510k <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/510k.RDS")
-device_hde <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/hde.RDS") %>% select(1:4)
-device_pma <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/pma.RDS")
-
-colnames(device_hde) <- device_hde[4,] 
-device_hde <- device_hde[5:nrow(device_hde),]
-```
-```{r}
-# saveRDS(final_product_list, file = "~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_dec20.RDS")
-# saveRDS(final_product_list_singlefirstmentionsONLY, file = "~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
-
-final_product_list <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_dec20.RDS")
-final_product_list_singlefirstmentionsONLY <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
-```
-
-
-
-### Outline
-
-I.  Introduction 
-II.  Data Sources 
-    A.  SEC 10-K Filings
-    B.  Food & Drug Administration
-        1.  FDA Approvals
-        2.  National Drug Codes
-III.  Natural Language Processing Methods
-    A.  Text Ingestion
-    C.  Candidate Product Capture
-        1.  Non-English
-        2.  Branded
-    D.  Refine Capture Results
-        1.  Company Names 
-        2.  Industry Terms
-        3.  Compare candidate product captures to dictionaries
-    E.  Validate Captures
-IV.  Results
-    A.  Text Ingestion
-    B.  Candidate Product Capture
-        1.  Non-English
-        2.  Branded
-        3.  Compare Capture Approaches
-    C.  Results of Dictionary Generation
-    D.  Refine Capture Results
-        1.  Company Names
-        2.  Industry Terms
-    E.  Validate Captures
-V.  Discussion
-    A.  Limitations 
-VI.  Bibliography
-VII.  Data Citations
-VIII.  Appendix
-
-
-
-
-***
-
-### I. Introduction
-
-***OSLO Definition of Innovation***
-***Background on BRDIS***
-
-This project aims to test the feasibility to identify, measure, and characterize product innovation using non-survey data sources. Our goal is to develop methods to complement and enhance the BRDIS survey that collects information from a representative set of companies and asks whether they have introduced a new product to the market. Specifically, we are developing text-based methods to determine:
-
-* whether a company has launched a new product?
-* how many new products are introduced?
-* what are the features of the new product(s)?
-* how that innovation trends over time?
-
-To answer these questions, we levy our text-based methods against administrative data, specifically financial filings. We measure innovation in terms of products, and seek to capture a new product and characterize its trajectory across a number of text based sources. Additionally, we focus on the pharmaceutical and medical device industry that are highly regulated such that new products require approval from the Food and Drug Administration (FDA). We make the assumption that the FDA approval dataset (which is publicly available) is the universal set of all new products, and ask what the portion of these products we can capture using administrative and opportunity data. Their respective SIC codes are given here. 
-
-```{r illustrate_industries_1}
-knitr::kable(distinct(sic[SIC_SIC %in% c(2834, 3841), 3:4])) 
-# originally referenced the actual files - and there are some filings that weren't in these two industries
-```
-
-We chose to focus on the pharmaceutical and medical device industry because of the strictly regulated process of launching new products that is specific to this industry. Consider the following as a high-level illustration of the process a new drug or medical device might take to the market:
-
-1. *Research & Development:* Company undertakes research to develop, test, and trial new device and drug. 
-2. *FDA Application:* Company submits application to FDA for device or drug approval.
-3. *Approval Announcements: FDA releases announcements to the public. 
-4. *Press Activity:* Media outlets report on the announcements, company and competitor relationships, and launches to market.
-5. *Market Activity:* Company retails device or drug.
-6. *Financial Reports:* Company submits financial reports to US Securities & Exchange Commission (SEC). 
-
-```{r illustrate_counts_1}
-compcount1 <- origcomp_details %>% 
-    count(SIC_Industry) 
-
-compcount2 <- ciknames %>% 
-  left_join(sic, by = c("CIK", "SEC_SIC" = "SIC_SIC")) %>% 
-  count(SIC_Industry) 
-
-compcount3 <- allwordcounts %>% 
-  count(Company, Year) 
-
-compcount4 <- allregwords %>% 
-  count(Company, Year) 
-```
-
-
-By tracing products through their lifecycle from FDA approval through financial impact, we can expand upon the BRDIS survey results by providing additional context and information around what innovation looks like in the pharmaceutical industry. Furthermore, we can illustrate a process by which innovation can be uncovered and measured, at least in a highly regulated environment. 
-
-***
-
-### II. Data Sources 
-
-##### A. SEC Filings
-
-The U.S. Securities and Exchange Commission (SEC) is an indepdendent agency created by the 1934 Securities Exchange Act. As an arm of the federal government, the SEC's primary responsibilities lie in the regulation of the nation's securities, which refer to any financial instruments used in trade. These responsibilities include oversight of the national stock and options exchanges. Publicly traded companies are those that are those companies whose equity is distributed through shares that are traded on a stock exchange, and thus, their oversight falls too to the SEC. Public companies are required to disclose their financial performance annually to the SEC, via lengthy reports that often cover a wide range of topics including (but not limited to):
-
-* company history
-* organizational structure
-* financial statements
-* earnings per share
-* corporate hierarchy
-* executive compensation
-
-The 10-K form is one such report filed by publicly traded companies. These filings are comprehensive reports that summarize and break down the company's financial performance into a number of dimensions. The form itself consists of the following sections:
-
-1. Overview of business: *What products and services does the company provide? How does it conduct its main operations?* 
-2. Foreseeable risks: *What risks pose threats to the company's future?*
-3. Highlighted financial data: *How has the company performed recently?*
-4. Management discussion and analysis: *How does the company explain its performance from the previous fiscal year?*
-5. Financial statements and supplementary data: *What other materials help to explain the company's position?*
-
-The reports represent sources containing rich and detailed information about the companies and present an opportunity to glean data of interest from its text. 
-
-This work makes use of filings submitted by companies belonging to the pharmaceutical and medical device industries. Our primary aim is to capture full product names from the yearly SEC 10-K filings. Once captured, these names will represent the universe of drugs and devices associated with companies who submitted these filings. *** For the purposes of this work, we treat drugs and devices mentioned in the 10-K filings as our product innovations. ***
-
-
-***
-
-##### B. Food & Drug Administration 
-
-The U.S. Food & Drug Administration (FDA) is a different federal agency, created by the 1906 Pure Food and Drugs Act and housed within the U.S. Department of Health & Human Services. As an extension of the federal executive department, the FDA's primary responsibilities lie in the regulation of food products, drugs, and other substances, including: 
-
-[source](https://www.fda.gov/about-fda/history-fdas-fight-consumer-protection-and-public-health )
-
-* tobacco products
-* prescription drugs (synthetics, synthesized in lab)
-* over-the-counter drugs (synthetics, synthesized in lab)
-* vaccines
-* biopharmaceuticals (biologics, extracted from biological sources)
-* blood transfusions
-* medical devices
-* electromagnetic radiation emitting devices
-* cosmetics
-* ~~ animal foods & feed~~
-* ~~ veterinary products~~
-
-[source](https://www.fda.gov/about-fda/fda-basics/what-does-fda-regulate)
-
-Here, we focus on a subset of these products: medical devices and drugs. Drugs, for this work, includes any synthetic or biologic agent, regardless of its accessibility (whether it is available over-the-counter (OTC) or whether it requires prescription). Development of new treatments, on a whole, is an extremely complex process, often requiring several years of clinical trials to determine the safety and efficacy of a new treatment as well as evaluate and weigh its potential risks.
-
-***FDA Approvals***
-
-All companies seeking to develop, manufacture, or distribute new drugs or medical devices must seek approval from the FDA. The approval processes differ between drugs and medical devices. They must submit either a New Drug Application (NDA) or, depending on the novelty and the ***invasiveness*** (word choice) of their device,  file for pre-market notifications or approvals. 
-
-Here, we use the FDA approvals as a candidate for our single source of truth for innovations. We take the FDA approvals of drugs and devices as our reliable, known universe of *actual* innovation. This necessitates the assumption that all innovations in drugs and medical devices must go to and through the FDA for review prior to availability on the market, per the OSLO definition of innovation.  
-
-[opinions about FDA as source for innovation](https://jnis.bmj.com/content/5/4/269)
-[metadata](https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files)
-[[MISSING]] - link to where the FDA data came from originally, drugs @ fda 
-
-
-***National Drug Codes***
-
-In addition to the drug and medical device approvals, the FDA also furnishes a database of product identifiers for drugs, referred to as the National Drug Code (NDC). The Drug Listing Act of 1972 mandated collection of this data to facilitate FDA regulation of the manufacture and distribution of drugs. The NDC is particularly useful to this work, as the 1-11 digit numeric identifier is comprised of 3 component identifiers. The first indicates the labeler, the company involved in the manufacture, repacking, or distribution of a drug product. The second indicates the product, which represents not only the formulation of the drug, but also the strength and dosage specific to the company's product portfolio. The third indicates the packaging form and size, also specific to the company's product portfolio.
-
-Code | Length  | Meaning
------|--------|---------
-NDC|10-11 digits| product identifier, given per company
-*Labeler*| 5-6 digits | company identifier
-*Product*| 3-4 digits | product identifier
-*Package*| 1-2 digits | packaging designation
-
-
-***Device Identifiers***
-
-"Currently, although Unique Device Identifiers (UDI) are available for some medical devices (in the form of GTIN or HIBC identifiers, which are numbers located under bar codes), they are not routinely captured in observational data sources like billing claims data or registries, as is the case with National Drug Codes, which permit universal drug identification."
-
-
-[no registry for medical devices, but there is an identifier](https://www.ncbi.nlm.nih.gov/books/NBK208640/)
-
-
-***
-
-### III. Natural Language Processing Method
-
-Our goal is to identify mentions of product launches for a given year using the 10-K filings of pharmaceutical companies. This is a challenging task, given the hundreds of filings in our dataset and the thousands of words within each filing. We specifically needed to find a way to: 
-
-1. limit the body of text down to sections of the filings that describe products 
-2. identify specific words most likely to represent a product
-
-Below we step through our iterative process using one of the filings as an example (#1 above), and then walk through our two approaches for product capture (#2)
-
-##### A. Text ingestion of SEC 10-K filings
-
-First the text of all filings was ingested, such that each text element represented an observation of the dataset. An example SEC filing can be found here: [https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm](https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm).
-
-Here's the text using the above linked Merck filing as an example. 
-
-```{r illustrate_sectext_1}
-url <- "https://www.sec.gov/Archives/edgar/data/310158/000119312512084319/d274705d10k.htm"
-edgar <- read_html(remove_doc_types(read_file(url)))
-paragraphs <- edgar %>% 
-  xml_find_all( ".//p") %>% 
-  html_text() %>%
-  str_squish
-
-paragraphs <- paragraphs[dataplumbr::var.is_blank(paragraphs) == FALSE] #[c(1,5,7,10,11,12, 16, 64)]
-merck_example <- paragraphs[c(1,5,7,10,11,12, 16, 64)]
-#knitr::knit_print(merck_example) 
-data.frame("Merck" = merck_example[1:7]) %>% knitr::kable() %>% kableExtra::kable_styling(full_width = F, position = "float_right")
-```
-
-There were `r length(paragraphs)` text elements overall in this filing. For each of these text elements, we selected only those elements that were at least 20 characters. This reduces the example from its original size at `r length(paragraphs)` elements by `r length(paragraphs) - length(paragraphs[nchar(paragraphs)>20])` to `r length(paragraphs[nchar(paragraphs)>20])` elements. 
-
-```{r illustrate_sectextbylength_1}
-#knitr::knit_print(merck_example[nchar(merck_example) > 20])
-#format(merck_example[nchar(merck_example) > 20])
-data.frame("Merck" = merck_example[nchar(merck_example) > 20]) %>% knitr::kable() %>% kableExtra::kable_styling(full_width = F, position = "float_right")
-```
-
-
-##### B. Candidate Product Capture
-
-Given the 10-K filing of a company, our goal is to identify mentions of product launches for a given year. This requires identifying product names in these filings, and finding those that are mentioned as being launched in the respective year. Currently, we are developing two parallel approaches which will be combined eventually. The first one involves obtaining non-English words in a filing and identifying those that are used in close "proximity" with our keywords of innovation, i.e., launch, new product (list to be expanded). Among the `r length(file_names)` filings, `r nrow(compcount3) ` referenced non-English words in their filings. The second approach is to identify names that are used with a trademark or a registered trademark sign.
-
-We wanted to determine the number and names of the new products and took two approaches to capturing candidate product words in the SEC 10-K filing text. 
-
-**1. Searching text for non-English words**
-
-We then wanted to identify text elements that contained our target innovation phrases, so we looked for elements that contained the phrase "launch" or "new product." As you can see, it looks like the keyword "launch" identified a product called "Zetia."
-```{r illustrate_sectextbykeyword_1}
-word_innov <- c("launch", "new product")
-innov_text <- which(grepl(paste(word_innov, collapse = "|"), tolower(paragraphs)) == TRUE)
-
-knitr::knit_print(paragraphs[innov_text][11]) #%>% kableExtra::kable_styling(full_width = F, position = "float_right")
-
-```
-
-Then, for these paragraphs containing "launch" or new product, we looked for any non-English words in these text elements. We do see "Zetia" in this list! 
-
-```{r illustrate_sec_nonenglish_1}
-#knitr::kable(allwordcounts[Company == 310158][1:5])
-allwordcounts[Company == 310158][1:5] %>% knitr::kable()
-```
-
-
-**2. Searching text for protected brands**
-
-Second, for any paragraph, we looked for any word with a "Registered" or "Trademarked" symbol adjacent to it. Below, you can see some registered and trademarked tokens we hope to match to our existing word list. Note that this list can include both English and non-English words. 
-
-```{r}
-protectedunique <- unique(allregwords$Words)
-#knitr::knit_print(head(protectedunique, 3))
-head(protectedunique, 3)
-```
-
-```{r illustrate_sec_protected_1}
-#knitr::knit_print(protectedunique[protectedunique %in% c("Click®", "Coach®", "Blue®" )])
-protectedunique[protectedunique %in% c("Click®", "Coach®", "Blue®" )]
-```
-
-##### C. Refine Capture Results
-
-Ideally, all words captured by these two approaches would represent true product names; however, we observe that the list of words that we have obtained from the filings can also include (i) company names or (ii) sector-specific terms. Therefore,  dictionaries for these groups need to be generated to identify and eliminate them. In other words, we need to refine our results.  
-
-```{r illustrates_refine_problem_2}
-wordlist_enreg_count[wordlist_enreg_count$Token %in% c("Abbvie", "ANDA", "Mallinckrodt", "Pharma", "AstraZeneca", "Bausch"),c("Token", "n")] %>% 
-  group_by(Token) %>% 
-  summarise(n = sum(n)) %>% 
-  knitr::kable()
-
-#wcbyword_findcompanies %>% count(complowTF, Self, Pharma) %>% knitr::kable()
-```
-
-
-**1. Company Names **
-
-We needed to create a reference set, or a dictionary of unique company tokens. Once compiled, we could find words in our candidate product list that actually represent company names and remove them from our final list. 
-
-1. Create company name stop words (e.g., incorporated, inc)
-2. Combine company names from a variety of sources
-    a) SIC
-    b) SEC
-    c) Stock Exchanges
-3. Create columns to optimize matches
-    a) Concatenate string of all names across CIK codes
-    b) Tokenize company names
-    c) Lower case of company tokens
-    d) Stem company tokens
-4. Reduce set
-    a) remove single character tokens
-    b) remove company name stop words 
-    c) remove repeating tokens (tokens appearing for more than 1 company)
-
-```{r illustrate_tokens_per_company}
-new_ref_companies2 %>% filter(str_detect(CompanyString, "Dorato Resources Inc")) %>% 
-  #select(c(1,2, 19, 20)) 
-  select(c(1, 20)) %>% knitr::kable()
-```
-
-
-**2. Industry Terms**
-
-Similarly, for words thats... Create dictionary generic industry terms
-
-1. Create a summary set of tokens ranked by number of total appearances
-2. Manually evaluate tokens with over 10 appearances
-3. Create list of generic industry terms
-
-```{r illustrate_industry_terms}
-
-wcbyword_searchcompanies %>% 
-  filter(str_detect(string = word_low, pattern = pharmstopwords) ==  TRUE) %>% 
-  select(Token) %>% count(Token) %>% 
-  arrange(desc(n)) %>% 
-  head(4) %>% 
-  knitr::kable()
-```
-
-
-**3. Compare candidate product captures to dictionaries**
-
-1. Generate regular expressions patterns
-    a) `r length(unique(new_ref_companies$Tokens)) ` company name tokens
-        i) original
-        ii) lower case
-        iii) stemmed token
-    b) `r length(pharmstopwords) ` industry terms
-2. Create wordlist columns to optimize matches
-    a) Lower case of tokens
-3. Apply regular expressions patterns to wordlist resulting from Step 3
-4. Remove words from wordlist that match either dictionary
-
-```{r}
-wcbyword_findcompanies %>% 
-  select(Token, complowmatch, CompanyString, Self, Pharma) %>% 
-  distinct() %>% 
-  filter(Token %in% c("AbbVie", "HUMIRA", "LASIK", "Akorn", "ANDA", "Antihemophilic")) %>%
-  filter(CompanyString %in% c("ABBOTT LABORATORIES NA Abbott Laboratories", "AKORN INC NA Akorn Inc", "BAXTER INTERNATIONAL INC BAXTER INTERNATIONAL INC Baxter International Inc")) %>% 
-  knitr::kable()
-```
-
-##### D. Validate Captures
-
-
-Talk about FDA and NDC, variables
-
-
-
-
-
-
-
-
-
-
-
-
-```{r plotsettings2}
-customPlot2 = list(
-  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
-        axis.text.x  = element_text(vjust=0.5, size=12),
-        plot.title=element_text(size=12, vjust=2),
-        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-        panel.background = element_rect(fill = "#FFFFFF") , 
-        legend.position="right"),  #coord_flip(), 
-  guides(fill=guide_legend(title="Key", ncol = 1),
-        colour =guide_legend(title="Key", ncol = 1))
-)
-```
-
-```{r plotsettings_3}
-customPlot3 = list(
-  theme(axis.text.x  = element_text(vjust=0.5, size=12), #plot.margin = unit(c(1,1,2,2), "cm"),
-        plot.title=element_text(size=12, vjust=2),
-        panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #axis.title.x = element_blank(), axis.title.y = element_blank(),
-        panel.background = element_rect(fill = "#FFFFFF") , 
-        legend.position="bottom"), 
-  coord_flip(), 
-  guides(fill=guide_legend(title="Key", ncol = 3),
-        colour =guide_legend(title="Key", ncol = 3))
-)
-
-```
-
-```{r}
-# pal_ind <- wes_palette("GrandBudapest1", 3, type = "discrete")
-# pal_5 <- wes_palette("Moonrise3", 5, type = "discrete")
-
-library(RColorBrewer)
-myCol <- brewer.pal(3, "Pastel2")
-myCol <- brewer.pal(3, "Pastel2")
-```
-
-***
-
-### Results
-
-The results presented below align with the methodology outlined previously, and illustrate the outputs of each step of this work. 
-
-##### A. Results of SEC filing text ingestion the text of an SEC filing
-
-As shown in Table X, a total of 779 companies across the pharmaceutical and medical device industries submitted a total of 703 10-K filings to the SEC. These filings were submitted over the years 2012-2018; however, the bulk of the observations fall in the years 2013-2017 and as mentioned previously, the pharmaceutical industry submits more filings than does the medical device industry. All together, these 703 filings consisted of over 4 million words with the bulk of filings showing sizes under 50,000 words. It is also interesting to note that on a whole, the filings submitted by pharmaceutical companies are decidely longer in word count than those by medical device companies.   
-
-This portion of the research focused on the last stage of the lifecycle: whether a new product appears in the financial activities of a company. For this we used the SEC's EDGAR database of 10-K filings. Using the criteria of the two industries of interest, we identified `r length(unique(ciknames$cik))` companies in their database as belonging to the pharmaceutical/medical device industries. Of these, `r nrow(unique(orig_companies))` filed 10-K forms with the SEC, which report on their financial well-being as a company. 
-
-
-Table below summarizes the number of companies on Edgar.
-
-Company Sets | N            | Subset with 10-K Filings
-------------- | -------------|----------
-Total Number of Pharma Companies on Edgar | `r length(unique(ciknames$CIK))` | `r nrow(unique(orig_companies))`
-SIC 2834: Drugs| `r as.integer(compcount2["1",2]) ` | `r as.integer(compcount1["2",2]) `
-SIC 3841: Devices | `r as.integer(compcount2["2",2]) ` | `r as.integer(compcount1["3",2]) `
-
-
-We collected the 10-K filings of the `r nrow(unique(orig_companies))` companies for the years 2013--2016, which makes a total of `r length(file_names)` filings. 
-
-Filings Sets | N
-------------- | -------------
-Total 10-K Filings  | `r length(file_names)`
-10-K Filings w non-English | `r nrow(compcount3) `
-10-K Filings w Protected Brand | `r nrow(compcount4) `
-
-
-
-```{r}
-filing_years <- str_extract(file_headers$X1, pattern = "\\d{0,4}$")
-filing_comps <- as.numeric(str_extract(file_headers$X1, pattern = "^\\d*"))
-filings <- tibble(filing_years, filing_comps) %>% left_join(ciknames, by = c("filing_comps" = "CIK"))
-#table(filings$filing_years)
-
-filings_wc <- allwords %>% count(Company, Year) 
-ciknames$cik2 <- as.double(ciknames$CIK)
-filings_wc <- filings_wc %>% left_join(ciknames, by = c("Company" = "cik2"))
-filings_wc2 <- filings_wc %>% group_by(Year,SEC_SIC) %>% summarise(sum = sum(n), mean = mean(n))
-```
-
-
-The 4 million words from the filings break out fairly evenly across the years 2013-2017 by total words across all filings. Because 2012 and 2018 have only 2 and 4 filings respectively, we are not surprised that these filings show very low total word counts. On a whole, filings typically seem to show lengths under 5,000 words.
-
-<div class="col2">
-```{r}
-ggplot(data = filings, aes(x=as.factor(filing_years), fill = as.factor(SEC_SIC))) +
-  geom_bar( position = "dodge") +
-  customPlot2 +
-  scale_fill_manual(values = myCol, na.translate = FALSE) +
-  labs(title = "How many filings were submitted each year?", subtitle = "Filings Over Years Per Industry", x = "Years", y = "Number of Filings")
-```
-
-```{r}
-ggplot(data = filings_wc, aes(x=(n), fill = as.factor(SEC_SIC))) +
-  geom_bar(binwidth = 1000, position = position_dodge2(preserve = "single")) +
-  customPlot2 +
-  scale_fill_manual(values = myCol, na.translate = FALSE) +
-  labs(title = "On a whole, how long are filings?", subtitle = "Filing Word Count Distribution", x = "Number of Words ", y = "Number of Filings")
-```
-
-</div>
-
-When considering the 4 million words by mean words per filing, we look at how filing length changes over time by total words submitted and average filing size by word count. By total words submitted, the years appears to trend with the total number of filings. The average filing length by word count is similarly even for years 2013-2017, but, interestingly, shows year 2012’s 2 pharmaceutical filings with much greater average length than all other years and year 2018’s 4 pharmaceutical filings with much lower average length than all other years. 
-
-***QUESTION Based on this, should we exclude 2012?***
-
-<div class="col2">
-```{r}
-ggplot(data = filings_wc2, aes(x=as.factor(Year), y = (sum/1000), fill = as.factor(SEC_SIC))) +
-  geom_col(position = position_dodge2(preserve = "single")) +
-  customPlot2 +
-  scale_fill_manual(values = myCol, na.translate = FALSE) +
-  labs(title = "How do filings change in total length over years?", subtitle = "Total Words Across All Years of Filings", x = "Years", y = "Number of Words (Thousands)")
-```
-
-```{r}
-ggplot(data = filings_wc2, aes(x=as.factor(Year), y = mean, fill = as.factor(SEC_SIC))) +
-  geom_col(position = position_dodge2(preserve = "single")) +
-  customPlot2 +
-  scale_fill_manual(values = myCol, na.translate = FALSE) +
-  labs(title = "How do filings change in average length over years?", subtitle = "Average Filing Word Count Per Year", x = "Years", y = "Number of Words (Thousands)")
-```
-</div>
-
-
-##### B. Results of candidate product capture
-
-```{r}
-filings_wc_capture <- wordlist_enreg_count %>% left_join(ciknames, by = c("Company" = "cik2")) %>% group_by(Year,SEC_SIC) %>% summarise(sum = sum(n), mean = mean(n))
-```
-
-When considering the 16,815 candidate product words captured over the years, we note the difference in scale on the number of words identified as candidate products from the original 4 million words. For 2016, for example, just over 20,000 words were identified as candidate products from the original 800,000 words submitted across filings for that year.  We also find that the pharmaceutical industry seems to trend with the filing count, but the medical device industry appears to show fewer captures overall. Interestingly, the two industries are fairly similar in the number of captures per filing. 
-
-
-<div class="col2">
-```{r}
-ggplot(data = filings_wc_capture, aes(x=as.factor(Year), y = (sum/1000), fill = as.factor(SEC_SIC))) +
-  geom_col(position = position_dodge2(preserve = "single")) +
-  customPlot2 +
-  scale_fill_manual(values = myCol, na.translate = FALSE) +
-  labs(title = "Total Captures Across All Years of Filings", x = "Years", y = "Number of Words (Thousands)")
-```
-
-```{r}
-ggplot(data = filings_wc_capture, aes(x=as.factor(Year), y = mean, fill = as.factor(SEC_SIC))) +
-  geom_col(position = position_dodge2(preserve = "single")) +
-  customPlot2 +
-  scale_fill_manual(values = myCol, na.translate = FALSE) +
-  labs(title = "Average Captures Across All Years of Filings", x = "Years", y = "Number of Words")
-```
-</div>
-
-##### C. Comparison of Capture Approaches
-
-***Note this is after refining step...should this move?***
-
-
-
-<div class="col2">
-Captures by Mention
-```{r}
-venn::venn(list(nonenglish_mentions, protected_mentions), ilabels = TRUE,  zcolor = myCol[1:2], snames = c("Non-English", "Branded"))
-```
-Captures by Token
-```{r}
-venn::venn(list(nonenglish_tokens, protected_tokens), ilabels = TRUE, zcolor = myCol[1:2], snames = c("Non-English", "Branded"))
-```
-</div>
-
-##### D. Results of dictionary generation
-
-To reduce our word-capture list to those words that most likely represent a product name that can be attributed back to a company, we generated two dictionaries of company names and industry terms that help clean the results of our word capture.  
-
-###### 1) Company Names
-
-
-
-Company Name Set                     | N
--------------------------------------|--------
-Total Company Names                  | `r nrow(company_reference_names)`
-Uniquely Identifiable Company Names  | `r length(unique(new_ref_companies$CompanyString))`
-Non-Unique Company Names             | `r length(setdiff(unique(new_ref_companies2$CompanyString), unique(new_ref_companies$CompanyString)))`
-
-Company Token Set    | N
----------------------|--------
-Total Company Tokens | `r nrow(new_ref_companies2)`
-Unique Company Tokens| `r length(new_ref_companies$Tokens)`
-Repeat Company Tokens| `r nrow(multtokens)`
-
-```{r, eval=FALSE}
-company_reference_names # string concatenated
-new_ref_companies # unique tokens
-new_ref_companies2 # all tokens
-
-sum(multtokens$n) + nrow(new_ref_companies) # 252127 repeat tokens + 27929 unique tokens = 280056 total tokens
-
-nrow(new_ref_companies2) # all tokens #280056 total tokens
-length(new_ref_companies$Tokens) # unique tokens
-nrow(multtokens) # repeat tokens
-
-length(unique(company_reference_names$CompanyString)) # 59303 - total company names
-length(unique(new_ref_companies$CompanyString)) # 22184 - uniquely identifiable company names
-length(setdiff(unique(new_ref_companies2$CompanyString), unique(new_ref_companies$CompanyString))) # 37119 non-uniquely identifiable company names
-```
-
-###### 2) Pharmaceutical Industry terms
-
-We find 16 terms that altogether represent 246 observations. 
-
-```{r}
-knitr::knit_print((c("biopharma", "therapeutics?", "pharmaceuticals", "international", "sciences", "medical", "technology",  "pharma", "bio", "biosciences", "anda", "fdca", "uspto", "investigational")))
-```
 
 ##### E. Validating Product Captures
 
-```{r}
-#all_tokens <- unique(str_trim(str_to_lower(final_product_list$Token))) #4733
-# ndc_prop_names[str_detect(str_to_lower(ndc_prop_names), "alinity")]
-# all_tokens[str_detect(str_to_lower(all_tokens), "alinity")]
+As discussed earlier, the reference set of products originate with the FDA and NDC. 
 
-# device_510k$results$device_name
-# device_hde$`Device Name`
-# device_pma$results$generic_name
-# device_pma$results$trade_name
-```
-
-
-```{r}
-ndc_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$PROPRIETARYNAME, "[:punct:]")))),"$" , collapse = "|") #37,140
-#table(final_products_validating$ndc) #2509 YES!!! 2224 NO
-
-device_510k_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_510k$results$device_name, "[:punct:]")))), "$", collapse = "|")
-device_hde_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_hde$`Device Name`, "[:punct:]")))), "$", collapse = "|")
-device_pma_g_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_pma$results$generic_name, "[:punct:]")))), "$", collapse = "|")
-device_pma_t_patt <-paste0("^", unique(str_trim(str_to_lower(str_remove_all(device_pma$results$trade_name, "[:punct:]")))), "$", collapse = "|")
-
-final_products_validating <- final_product_list %>% 
-  transmute(Token = str_remove(Token, "TM$")) %>% # select(Token)
-  distinct() %>% 
-  mutate(ndc = ifelse(str_detect(str_to_lower(Token), ndc_patt), 1, 0),
-         ndc_text = str_extract_all(str_to_lower(Token), ndc_patt),
-         dev_5 = ifelse(str_detect(str_to_lower(Token), device_510k_patt), 1, 0),
-         dev_h = ifelse(str_detect(str_to_lower(Token), device_hde_patt), 1, 0),
-         dev_p_g = ifelse(str_detect(str_to_lower(Token), device_pma_g_patt), 1, 0),
-         dev_p_t = ifelse(str_detect(str_to_lower(Token), device_pma_t_patt), 1, 0),
-         dev_sum = dev_5 + dev_h + dev_p_g + dev_p_t,
-         dev_5_txt = str_extract_all(str_to_lower(Token), device_510k_patt),
-         dev_h_txt = str_extract_all(str_to_lower(Token), device_hde_patt),
-         dev_p_g_txt = str_extract_all(str_to_lower(Token), device_pma_g_patt),
-         dev_p_t_txt = str_extract_all(str_to_lower(Token), device_pma_t_patt))
-
-final_products_validated <- final_products_validating %>% transmute(Token = Token, matchtype = ifelse(ndc > dev_sum, "drug", ifelse(dev_sum > 0, "device", "no match")),
-                                        matchval = ifelse(ndc > dev_sum, ndc, ifelse(dev_sum > 0, dev_sum, -1)),
-                                        matchtxt = ifelse(matchtype == "drug", ndc_text, 
-                                                          ifelse(matchtype != "device", "no match", 
-                                                                 ifelse(dev_5 >0, dev_5_txt, ifelse(dev_p_t > 0, dev_p_t_txt, "0")) )) ) %>% 
-  tidyr::unnest() # %>% filter(matchtype)
-
-final_products_validating %>% filter(ndc > 0|dev_sum > 0)  # %>% filter(Token == 1)
-
-table(final_products_validated$matchtype)
-table(final_products_validated$matchval)
-```
+Reference | Size
+----------|-----
+NDC Proprietary Names | `r length(ndc_product$PROPRIETARYNAME)`
+NDC Proprietary Names | `r length(ndc_product$NONPROPRIETARYNAME)`
+NDC Proprietary Names | `r length(ndc_product$SUBSTANCENAME)`
+FDA? 510k names | `r length(device_510k$results$device_name) ` 
+FDA? HDE names | `r length(device_hde$device_name) ` 
+FDA? PMA generic names | `r length(device_pma$results$generic_name) ` 
+FDA? PMA trade names | `r length(device_pma$results$trade_name) ` 
 
 ```{r}
-
-names_510 <- tibble("Name" = device_510k$results$device_name, "Source" = "510K_DeviceName")
-names_hde <- tibble("Name" = device_hde$`Device Name`, "Source" = "HDE_DeviceName")
-names_PMA_g <- tibble("Name" = device_pma$results$generic_name, "Source" = "PMA_GenericName")
-names_PMG_t <- tibble("Name" = device_pma$results$trade_name, "Source" = "510K_TradeName")
-
-all_devices <- rbind(names_510, names_hde, names_PMA_g, names_PMG_t)
-
+matches <- readRDS("~/git/business_innovation/data/working/sec/ndc_matches1.RDS")
+#matches %>% filter(match > 0) %>% filter(year == 2015) %>% arrange(year, Nonprop_low) %>% head(10)
 ```
 
 
-Find Drugs - 897 drugs out of 4,651 first-single-mention captures 4329 FIRST SINGLE MENTION CAPTURES
-```{r}
-ndc_patt_propnm <- paste0("\\b", unique(str_trim(str_to_lower(str_remove_all(ndc_product$PROPRIETARYNAME, "[:punct:]")))),"\\b" , collapse = "|")
-
-ndc_patt_nonpropnm <- paste0("\\b", unique(str_trim(str_to_lower(str_remove_all(ndc_product$NONPROPRIETARYNAME, "[:punct:]")))),"\\b" , collapse = "|")
-
-ndc_patt_subnm <- paste0("\\b", unique(str_trim(str_to_lower(str_remove_all(ndc_product$SUBSTANCENAME, "[:punct:]")))),"\\b" , collapse = "|")
-
-validateme <- final_product_list_singlefirstmentionsONLY %>% 
-  transmute(Token = str_remove(Token, "TM$")) %>% # select(Token)
-  distinct()
-
-validateme_drugs <- validateme %>% 
-  mutate(ndc_prop = ifelse(str_detect(str_to_lower(Token), ndc_patt_propnm), 1, 0),
-         ndc_text_prop = str_extract_all(str_to_lower(Token), ndc_patt_propnm),
-         ndc_nonprop = ifelse(str_detect(str_to_lower(Token), ndc_patt_nonpropnm), 1, 0),
-         ndc_text_nonprop = str_extract_all(str_to_lower(Token), ndc_patt_nonpropnm),
-         ndc_sub = ifelse(str_detect(str_to_lower(Token), ndc_patt_subnm), 1, 0),
-         ndc_text_sub = str_extract_all(str_to_lower(Token), ndc_patt_subnm))
-
-actualdrugs <- validateme_drugs %>% transmute(Token = Token, drug = (ndc_prop+ndc_nonprop+ndc_sub)>0 )
-
+```{r validated_readin, eval=FALSE}
+all_devices_unqnames <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/all_devices_unqnames_results.RDS")
+validated <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/all_devices_result_validated.RDS")
 ```
 
-```{r}
-table(validateme_drugs$ndc_prop) #962
-table(validateme_drugs$ndc_nonprop) #107
-table(validateme_drugs$ndc_sub) #76
-
-table(actualdrugs$drug) #992 DRUGS/ 4329 ALL
-
-actualdrugs %>% filter(drug == 0)
-```
-
-
-*Capture list --> Pattern*
-Remaining captures -3,432
-check captures for english tokens and remove for now -3,278
-captures - remove punctuation, lower case, get unique - 3,181 
-make single capture pattern
-
-```{r}
-possibledevices <- actualdrugs %>% filter(drug == 0) %>% select(-drug) %>% mutate(eng = hunspell::hunspell_check(Token))
-possibledevices_noneng <- possibledevices %>% filter(eng == FALSE)
-
-findus <- unique(str_to_lower(str_remove(possibledevices_noneng$Token, "[:punct:]")))
-
-capture_patt <- paste0("\\b", findus,  "\\b", collapse = "|")
-# capture_patt <- paste0("\\b", findus,  "\\b", collapse = "|")
-# capture_patt <- paste0("\\b|\\w", findus,  "\\b", collapse = "|")
-
-```
-
-*Reference list --> Strings*
-reference list of devices -2.6M across all sources
-low case, remove punctuation, distinct - 157K (sources not considered)
-
-```{r, warning=FALSE}
-all_devices_unqnames <- all_devices %>% 
-  select(Name) %>% 
-  distinct() %>% 
-  mutate(Name_low_p = str_trim(str_to_lower(str_remove_all(string = Name, pattern = "[:punct:]"))))
-
-all_devices_unqnames <- all_devices_unqnames %>% select(Name_low_p) %>% distinct()
-
-all_devices_unqnames$match_txt <- NA
-
-for (i in 1:nrow(all_devices_unqnames)) {
-  all_devices_unqnames$match_txt[i] <- str_extract_all(string = all_devices_unqnames$Name_low_p[i], pattern = capture_patt)
-}
-
-#saveRDS(all_devices_unqnames, "~/git/business_innovation/data/working/sec/finalwordlists/all_devices_unqnames_results.RDS")
-```
-
-Results:
-
-Find Drugs - 897 drugs out of 4,651 first-single-mention captures
-
-Possible Devices - originally 3278 - 551 = devices
-
-
-```{r}
-
-actual_devices1 <- all_devices_unqnames %>% tidyr::unnest() %>% distinct()
-length(unique(actual_devices1$match_txt)) #532
-
-possibledevices_noneng_res <- possibledevices_noneng %>% 
-  select(Token) %>% 
-  mutate(Name_low_p = str_to_lower(str_remove(Token, pattern = "[:punct:]"))) %>% 
-  left_join(actual_devices1, by = c("Name_low_p" = "match_txt")) %>% 
-  mutate(device = ifelse(is.na(Name_low_p.y), 0, 1))
-
-num_device_matches <- possibledevices_noneng_res %>% count(Token, device) 
-
-validated <- actualdrugs %>% left_join(num_device_matches, by = "Token")
-
-validated %>% count(drug, device)
-whynot <- validated %>% filter(drug == FALSE & device == 0)
-
-```
-
-
-1714 actual products
-3565 filings
-
-```{r}
-validated <- final_product_list_singlefirstmentionsONLY %>% 
-  mutate(Token = str_remove(Token, "TM$")) %>% 
-  left_join(validated, by = "Token")
-
-textsearchcandidates <- validated %>% 
-  filter(drug == TRUE|device == 1) %>% 
-  reshape2::melt(id.vars = c("Company", "Token", "Protect"), 
-                 measure.vars = c("2012", "2013", "2014", "2015", "2016", "2017")) %>% 
-  filter(value > 0)
-
-textsearchcandidates %>% arrange(desc(value))
-```
 
 ```{r}
 url <- "https://www.sec.gov/Archives/edgar/data/1051514/000119312513091842/0001193125-13-091842.txt"
@@ -2052,7 +1287,6 @@ paragraphs <- edgar %>%
 paragraphs <- paragraphs[dataplumbr::var.is_blank(paragraphs) == FALSE] #[c(1,5,7,10,11,12, 16, 64)]
 
 melafind <- paragraphs[str_detect(paragraphs, pattern = "MelaFind")]
-melafind
 melafind <- str_replace(melafind, pattern = "i\\.e\\.", replacement = "ie")
 melafind <- str_replace(melafind, pattern = "e\\.g\\.", replacement = "eg")
 melafind_ <- str_extract_all(melafind, "[^.]*MelaFind[^.]*")
@@ -2060,153 +1294,21 @@ melafind_ <- melafind_ %>% unlist()
 
 test <- melafind_ %>% str_remove_all(pattern = "[:punct:]") %>% str_split(pattern = " ") %>% unlist()
 
-
-
-get_context_pos(word_vec = test, target = "melafind", n = 5, p_o_s = "Adjective") 
-get_context_pos(word_vec = test, target = "melafind", n = 5, p_o_s = "Noun") 
-get_context_pos(word_vec = test, target = "melafind", n = 5, p_o_s = "Adverb") 
-
-get_context_pos(word_vec = test, target = "melafind", n = 1, p_o_s = "Adjective") 
-get_context_pos(word_vec = test, target = "melafind", n = 2, p_o_s = "Verb (transitive)") 
-
-get_context_pos(word_vec = test, target = "melafind", n = 5, p_o_s = "Noun") 
-get_context_pos(word_vec = test, target = "melafind", n = 5, p_o_s = "Adverb") 
-
-unique(tidytext::parts_of_speech$pos)
-
 ```
 
 ```{r}
+as.data.frame(get_context_pos(word_vec = test, target = "melafind", n = 1, p_o_s = "Adjective") )
 
-
+as.data.frame(unique(tidytext::parts_of_speech$pos))
 ```
-
-
-
-```{r TRASHHHH, eval = FALSE}
-
-all_devices_unqnames %>% filter(str_detect(Name_low_p, pattern = "naloxone"))
-ndc_product %>% select(PROPRIETARYNAME) %>% filter(str_detect(str_to_lower(PROPRIETARYNAME), "^lox"))
-
-unique(whynot$Token)
-
-ndc_product %>% filter(str_detect(str_to_lower(PROPRIETARYNAME), "diethyloproprion"))
-ndc_product %>% filter(str_detect(str_to_lower(NONPROPRIETARYNAME), "diethyloproprion"))
-ndc_product %>% filter(str_detect(str_to_lower(SUBSTANCENAME), "diethyloproprion"))
-
-fda[str_detect(str_to_lower(fda$`Drug Name`), pattern = "diethyloproprion"),]
-fda %>% arrange(`Drug Name`) %>% filter(str_detect(`Drug Name`, "^D|^d"))
-
-
-length(unique(possibledevices_noneng_res$Token)) #3278
-length(unique(possibledevices_noneng_res$Name_low_p.y)) #7925
-
-#possibledevices <- possibledevices %>% mutate(first_pass = ifelse(ndc == 1, "drug", ifelse(device == 1, "device", "none")))
-
-table(possibledevices_noneng_res$device) #8828
-table(possibledevices_noneng_res$Name_low_p.y)
-
-possibledevices_noneng_res %>% count(Token)
-possibledevices_noneng_res %>% count(device) 
-
-possibledevices_noneng_res %>% filter(device == 1) %>% count(Token) %>% arrange(desc(n)) %>% filter(n < 20)
-possibledevices_noneng_res %>% filter(device == 1) %>% select(Token, Name_low_p.y) %>% filter(Token == "Optix")
-
-all_devices %>% filter(str_detect(Name, "HIgH"))
-
-
-
-
-
-validateme %>% filter(device == 1)
-validateme %>% filter(first_pass == "none")
-all_devices_unqnames %>% filter(is.na(match_txt.y)) %>% filter(str_detect(str_to_lower(Name), pattern = "alinity|eximer"))
-all_devices_unqnames %>% filter(str_detect(Name, "^AL|^Al|^al")) %>% arrange(Name)
-
-possibledevices
-table(str_detect(all_devices_unqnames$Name, "[:punct:]"))
-all_devices_unqnames %>% filter(str_detect(str_to_lower(Name), pattern = "xience"))
-
-
-testme <- all_devices_unqnames %>% filter(str_detect(Name_low_p, "alinity")) %>% select(Name_low_p)
-str_extract_all(testme$Name_low_p, pattern = capture_patt)
-
-for (i in 1:nrow(testme)) {
-  testme$match_txt[i] <- str_extract_all(string = testme$Name_low_p[i], pattern = capture_patt)
-}
-
-all_devices_unqnames  %>% filter(str_detect(Name_low_p, "alinity"))  %>% tidyr::unnest()
-
-actual_devices1 %>% filter(str_detect(match_txt, "\\balinity\\b")) %>% mutate(n = nchar(match_txt))
-
-```
-
-
-
-```{r}
-final_product_list_singlefirstmentionsONLY
-```
-
-
-```{r eval = FALSE}
-
-
-
-
-#saveRDS(all_devices, "~/git/business_innovation/data/working/sec/finalwordlists/all_devices_result1.RDS")
-
-maybedevices <- all_devices %>% tidyr::unnest()
-
-length(maybedevices$match_txt) #48,185
-length(all_devices$Name) #226,490
-
-all_devices <- all_devices %>% select(-match_txt) %>% left_join(maybedevices, by = c("Name", "Source"))
-  
-length(all_devices$Name) #2,600,796
-table(is.na(all_devices$match_txt))
-
-#   FALSE    TRUE 
-# 2412091  188705 
-
-all_devices %>% filter(!is.na(match_txt))
-```
-
-
-```{r}
-final_products_validating 
-final_products_validated %>% filter(matchtype == "no match")
-View(device_510k$results)
-
-```
-
-
-What's not in: 
-
-* alinity - medical equipment, may not be available in us yet?
-* Multifocal - contact lenses
-* Hemopatch - device? 
-* Steriliator
-* Allergan - company
-* Dentapure/DentaPure - device
-* Roxane, Byrne, Rohit, Desai - people's names
-* GlaxoSmithKline, SmithKline - companies
-* intuitiv - device
-* influvac - flu thing??
-* catalys - lasik surgery
-* 
-
-```{r}
-data.frame("Tokens" = all_tokens) 
-```
-
 
 
 
 ***
 
-### DISCUSSION
+### V. DISCUSSION
 
-##### C. Limitations
+##### A. Limitations
 ***QUESTION Where should this section go? Discussion? Introduction?***
 
 For the purposes of this work, we treat drugs and devices mentioned in the 10-K filings as our product innovations. 
@@ -2220,53 +1322,14 @@ For the purposes of this work, we treat drugs and devices mentioned in the 10-K 
 * possibility of products outside of FDA? 
 
 
-```
+
 
 
 
 ```{r}
-final_products_validating 
-final_products_validated %>% filter(matchtype == "no match")
-View(device_510k$results)
+# final_products_validating 
+# final_products_validated %>% filter(matchtype == "no match")
+
 
 ```
 
-
-What's not in: 
-
-* alinity - medical equipment, may not be available in us yet?
-* Multifocal - contact lenses
-* Hemopatch - device? 
-* Steriliator
-* Allergan - company
-* Dentapure/DentaPure - device
-* Roxane, Byrne, Rohit, Desai - people's names
-* GlaxoSmithKline, SmithKline - companies
-* intuitiv - device
-* influvac - flu thing??
-* catalys - lasik surgery
-* 
-
-```{r}
-data.frame("Tokens" = all_tokens) 
-```
-
-
-
-
-***
-
-### DISCUSSION
-
-##### C. Limitations
-***QUESTION Where should this section go? Discussion? Introduction?***
-
-For the purposes of this work, we treat drugs and devices mentioned in the 10-K filings as our product innovations. 
-
-* products can be mentioned by companies who didn't create them
-* products can be mentioned in years after they were brought to market
-* 10-K filings intended to discuss financial performance; innovation is part of story but not true goal
-* products without a brand protection or whose names consist entirely of English words are missed
-* products with same name as company are missed
-* companies whose names do not consist of unique tokens are not removed from candidate product capture 
-* possibility of products outside of FDA? 

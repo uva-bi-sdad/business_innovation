@@ -1,0 +1,36 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/all_wordlist.RDS") #15K NON ENGLISH WORDS ACROSS ALL FILINGS
+#allwordcounts %>% filter(Company == 310158) %>% head(4) %>% as.data.frame() %>% knitr::kable(format = "pandoc")
+```
+
+```{r, results='markup'}
+knitr::knit_print(allwordcounts$Words[1:6])
+```
+
+```{r}
+vignette('knit_print', package = 'knitr')
+```
+
+```{r,eval = FALSE, results='asis'}
+library(knitr)
+# define a method for objects of the class data.frame
+knit_print.data.frame = function(x, ...) {
+    res = paste(c("", "", kable(x)), collapse = "\n")
+    asis_output(res)
+}
+# register the method
+registerS3method("knit_print", "data.frame", knit_print.data.frame)
+
+knit_print.data.frame(mtcars)
+```
+
