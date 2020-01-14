@@ -1,0 +1,79 @@
+---
+title: "Exploring NDA & FDA"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## OLD
+
+```{r cars}
+ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
+fda <- readxl::read_excel("git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx")
+```
+
+```{r pressure, echo=FALSE}
+ndc_summary1 <- ndc_product %>% transmute(ndc = PRODUCTNDC, year = stringr::str_extract(STARTMARKETINGDATE, "^\\d{0,4}"))
+ndc_summary2 <- ndc_product %>% transmute(product = SUBSTANCENAME, year = stringr::str_extract(STARTMARKETINGDATE, "^\\d{0,4}"))
+
+ndc_by_yr_ndc <- ndc_summary1 %>% count(year)
+ndc_by_yr_sub <- ndc_summary2 %>% count(year)
+
+colnames(ndc_by_yr_ndc) <- c("year", "ndc_num")
+colnames(ndc_by_yr_sub) <- c("year", "sub_num")
+
+fda_by_yr <- as.data.frame(table(as.numeric(lubridate::year(fda$`Approval Date`))))
+colnames(fda_by_yr) <- c("year", "fda_num")
+
+compare <- merge(merge(ndc_by_yr_ndc, fda_by_yr, by = "year"), ndc_by_yr_sub, by = "year")
+compare
+```
+
+```{r}
+library(ggplot2)
+
+
+table(fda$sub_class)
+
+fda %>% count(`Submission Status`, sub_type)
+fda %>% count(sub_type, `Submission Classification *`)
+
+ggplot(data = fda) +
+  geom_bar(aes(x = `Submission Status`, fill = sub_type), stat = "count") +
+  coord_flip()
+
+ggplot(data = fda, aes(x = sub_class_simple, fill = sub_type)) +
+  geom_bar() +
+  geom_text(stat = "count", aes(label = ..count..), hjust = .5) +
+  coord_flip()
+
+ggplot(data = fda, aes(x = sub_class, fill = sub_type)) +
+  geom_bar() +
+  geom_text(stat = "count", aes(label = ..count..), hjust = .5) +
+  coord_flip() 
+  
+
+table(fda$`Submission Classification *`)
+fda %>% count(sub_class_simple, sub_type) %>% count(sub_class_simple)
+```
+
+
+## Newer
+
+
+```{r}
+fda_submissions <-  read_tsv("~/git/business_innovation/data/original/fda_drugs/drugs@fda_JAN12_2020/Submissions.txt")
+fda_applications <- read_tsv("~/git/business_innovation/data/original/fda_drugs/drugs@fda_JAN12_2020/Applications.txt")
+fda_products <- read_tsv("~/git/business_innovation/data/original/fda_drugs/drugs@fda_JAN12_2020/Products.txt")
+fda_submit_type <-  read_tsv("~/git/business_innovation/data/original/fda_drugs/drugs@fda_JAN12_2020/SubmissionPropertyType.txt")
+unique(fda_submit_type$SubmissionPropertyTypeCode)
+
+table(lubridate::year(fda_submissions$SubmissionStatusDate))
+table(fda_applications$SponsorName)
+
+```
+
+
+
