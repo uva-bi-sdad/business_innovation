@@ -25,11 +25,104 @@ library(rworldmap)
 
 
 ```{r cars}
-ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
+ndc_product <- readr::read_tsv() read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
 final_product_list <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_dec20.RDS")
 final_product_list_singlefirstmentionsONLY <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
 
 ```
+
+```{r}
+ndc_names <- ndc_product %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>% 
+  select(21, 4, 6, 14) %>% 
+  distinct() %>% 
+  mutate(Prop_low = str_to_lower(PROPRIETARYNAME), 
+         Nonprop_low = str_to_lower(NONPROPRIETARYNAME),
+         Sub_low = str_to_lower(SUBSTANCENAME))
+
+captures <- final_product_list_singlefirstmentionsONLY %>% select(first_mention, Token, Name )
+
+```
+
+
+```{r}
+
+
+captures_patt <- paste0(paste("\\b",str_trim(str_replace_all(str_remove_all(str_to_lower(unique(captures$Token)), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), "\\b", sep = ""), collapse = "|")
+
+library(data.table)
+library(maditr)
+
+prop_results <- ndc_names %>% as.data.table() %>%
+  dt_select(year, PROPRIETARYNAME, Prop_low) %>% 
+  dt_mutate(prop_match = str_extract_all(Prop_low, pattern = captures_patt), 
+         matches = lengths(prop_match))
+
+nonprop_results <- ndc_names %>% 
+  select(year, NONPROPRIETARYNAME, Nonprop_low) %>% 
+  mutate(nonprop_match = str_extract_all(Nonprop_low, pattern = captures_patt),
+         matches = lengths(nonprop_match))
+
+sub_results <- ndc_names %>% 
+  select(year, SUBSTANCENAME, Sub_low) %>% 
+  mutate(sub_match = str_extract_all(Sub_low, pattern = captures_patt), 
+         matches = lengths(sub_match))
+
+
+sum(is_greater_than(e1 = prop_results$matches, 0)) / nrow(ndc_names)
+# sum(is_greater_than(e1 = nonprop_results$matches, 0)) / nrow(ndc_names)
+# sum(is_greater_than(e1 = sub_results$matches, 0)) / nrow(ndc_names)
+
+
+```
+
+```{r}
+sum(is_greater_than(e1 = prop_results$matches, 0)) / nrow(ndc_names)
+```
+
+```{r}
+prop_results
+
+ggplot(prop_results, aes(x = as.integer(year), fill = as.factor(matches))) + geom_bar(stat = "count")
+
+ggplot(prop_results %>% filter(as.integer(year) > 2010), aes(x = as.factor(year), fill = as.factor(matches))) + geom_bar(stat = "count")
+
+prop_matching_results <- prop_results %>% count(year, matches) %>% 
+  filter(as.integer(year) > 2010) %>% 
+  reshape2::dcast(year~matches, fun.aggregate = sum, value.var = "n") %>% 
+  transmute(year = year, 
+            products_unmatched = `0`, 
+            products_matched = `1`+`2`+`3`+`4`+`5`, 
+            perc_matched = paste0(as.character(as.integer(100*(products_matched/products_unmatched))), "%", sep = " "))
+
+prop_matches <- prop_results %>% 
+  tidyr::unnest() 
+
+prop_matches <- prop_results %>% 
+  left_join(prop_matches, by = c("year", "PROPRIETARYNAME", "Prop_low", "matches"))
+
+captures$token_clean <- str_trim(str_replace_all(str_remove_all(str_to_lower(captures$Token), "\\(|\\)"), "\\\u0097|\\\u0093", " "))
+
+removeme <- captures %>% count(first_mention, Name, token_clean) %>% select(-n) %>% count(first_mention, token_clean) %>% filter(n>1)
+
+captures <- captures %>% filter(token_clean %!in% removeme$token_clean)
+
+prop_matches$year <- as.numeric(prop_matches$year)
+captures 
+
+innjoin <- prop_matches %>% 
+  inner_join(captures, by = c("year" = "first_mention", "prop_match.y" = "token_clean"))
+
+antjoin <- prop_matches %>% 
+  anti_join(captures, by = c("year" = "first_mention", "prop_match.y" = "token_clean"))
+
+antjoin <- antjoin %>% filter(year > 2012 & year < 2019)
+barplot(as.integer(100*(table(innjoin$year)/table(antjoin$year))))
+
+```
+
+
+
 
 ```{r}
 ndc_prop_patt <- paste0("^", unique(str_trim(str_to_lower(str_remove_all(ndc_product$PROPRIETARYNAME, "[:punct:]")))),"$" , collapse = "|") #37,140

@@ -346,13 +346,13 @@ protected_tokens <- unique(str_remove(allregwords$Words, "®|™"))
 fda <- readxl::read_excel("~/git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx", sheet = "Sheet1")
 ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
 
-device_510k <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/510k.RDS")
-device_hde <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/hde.RDS") %>% select(1:4)
-device_pma <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/pma.RDS")
-
-colnames(device_hde) <- device_hde[4,]
-device_hde <- device_hde[5:nrow(device_hde),]
-colnames(device_hde) <- dataplumbr::name.standard_col_names(colnames(device_hde))
+# device_510k <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/510k.RDS")
+# device_hde <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/hde.RDS") %>% select(1:4)
+# device_pma <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/pma.RDS")
+# 
+# colnames(device_hde) <- device_hde[4,]
+# device_hde <- device_hde[5:nrow(device_hde),]
+# colnames(device_hde) <- dataplumbr::name.standard_col_names(colnames(device_hde))
 ```
 
 
@@ -480,9 +480,11 @@ STRATIFIED by industry, company size, ownership frames
 Sampling in ABS more complicated
 COmpanies without employees not included
 
+![History of Federal Surveys](DetectingInnovationSECFilings_files/figure-html/CopyOfsec_writeup/history of survey instruments.png)
+
 <div class="col2">
 
-![History of Federal Surveys](DetectingInnovationSECFilings_files/figure-html/CopyOfsec_writeup/history of survey instruments.png)
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 
 ![2009 BRDIS Questionnare - Innov Questions](DetectingInnovationSECFilings_files/figure-html/CopyOfsec_writeup/BRDIS_innovqs_2009.png)
 
@@ -1463,6 +1465,12 @@ matches <- readRDS("~/git/business_innovation/data/working/sec/ndc_matches1.RDS"
 all_devices_unqnames <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/all_devices_unqnames_results.RDS")
 validated <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/all_devices_result_validated.RDS")
 ```
+
+```{r}
+final_product_list_singlefirstmentionsONLY2 %>% count(Token, Company) %>% select(-n) %>% count(Token) %>% filter(n>1)
+final_product_list_singlefirstmentionsONLY2 %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
+```
+
 
 
 ```{r}
