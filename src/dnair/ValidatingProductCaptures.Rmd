@@ -22,12 +22,15 @@ library(corpus)
 library(rworldmap)
 ```
 
+```{r}
+datapath <- "/project/biocomplexity/sdad/projects-active/volume_nyc1_01/business_innovation/" #new rivanna location
+```
 
 
 ```{r cars}
-ndc_product <- readr::read_tsv() read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
-final_product_list <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_dec20.RDS")
-final_product_list_singlefirstmentionsONLY <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
+ndc_product <-  readr::read_tsv(paste0(datapath, "original/NDC/product.txt"))
+final_product_list <- readRDS(paste0(datapath, "working/sec/finalwordlists/final_product_list_dec20.RDS"))
+final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath, "working/sec/finalwordlists/final_product_list_singmention_dec20.RDS"))
 
 ```
 
@@ -53,7 +56,10 @@ captures_patt <- paste0(paste("\\b",str_trim(str_replace_all(str_remove_all(str_
 library(data.table)
 library(maditr)
 
-prop_results <- ndc_names %>% as.data.table() %>%
+ndc_names <- ndc_names %>% as.data.table()
+
+
+prop_results <- ndc_names %>% 
   dt_select(year, PROPRIETARYNAME, Prop_low) %>% 
   dt_mutate(prop_match = str_extract_all(Prop_low, pattern = captures_patt), 
          matches = lengths(prop_match))
@@ -237,7 +243,7 @@ match_tbl %>% reshape2::dcast(match~year)
 
 
 ##CHECKS
-table(is.na(name_matches$Token))
+table(is.na(prop_name_matches$Token))
 table(is.na(name_matches$test))
 name_matches %>% filter(!is.na(test) & is.na(Token)) 
 test <- ndc_names %>% select(Prop_low) %>% distinct()

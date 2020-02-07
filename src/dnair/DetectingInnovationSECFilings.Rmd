@@ -130,19 +130,22 @@ for (i in 1:length(target_rows$id)) {
 #saveRDS(allwordcounts, "~/git/business_innovation/data/working/sec/all_wordlist.RDS")
 #allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/all_wordlist.RDS") duplicated below
 
-paths_file <- "~/git/business_innovation/data/original/edgar_filings/ALL_SEC_files.txt"
+datapath <- "/project/biocomplexity/sdad/projects-active/volume_nyc1_01/business_innovation/" #new rivanna location
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" #new rivanna location
+
+paths_file <- paste0(datapath1, "original/edgar_filings/ALL_SEC_files.txt")
 file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
-paths <- paste0("~/git/business_innovation/data/original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
+paths <- paste0(datapath1, "original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
 file_names <- unique(list.files(paths, full.names = TRUE))
 
-ciknames <- read_rds("~/git/business_innovation/data/original/ciks_names.RDS")
-sic <- read_rds("~/git/business_innovation/data/original/sic.download.RDS")
-cik_ticker <- read_delim("~/git/business_innovation/data/original/edgar_filings/cik_ticker.csv", delim = "|")   #RANKANDFILE website
-cikcountries <- read_delim("~/git/business_innovation/data/original/edgar_filings/edgar_state_country.csv", delim = "|") #RANKANDFILE website
+ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
+sic <- readRDS(paste0(datapath1, "original/sic.download.RDS"))
+cik_ticker <- read_delim(paste0(datapath1, "original/edgar_filings/cik_ticker.csv"), delim = "|")   #RANKANDFILE website
+cikcountries <- read_delim(paste0(datapath1, "original/edgar_filings/edgar_state_country.csv"), delim = "|") #RANKANDFILE website
 
-allwords <- read_csv("~/git/business_innovation/data/working/sec/all_secwordlists.csv") # 4M TOTAL WORDS ACROSS ALL FILINGS
-allregwords <- read_csv("~/git/business_innovation/data/working/sec/all_secregwordlists.csv") # 37K REG WORDS ACROSS ALL FILINGS
-allwordcounts <- readRDS("~/git/business_innovation/data/working/sec/all_wordlist.RDS") #15K NON ENGLISH WORDS ACROSS ALL FILINGS
+allwords <- read_csv(paste0(datapath1, "working/sec/all_secwordlists.csv")) # 4M TOTAL WORDS ACROSS ALL FILINGS
+allregwords <- read_csv(paste0(datapath1, "working/sec/all_secregwordlists.csv")) # 37K REG WORDS ACROSS ALL FILINGS
+allwordcounts <- readRDS(paste0(datapath1, "working/sec/all_wordlist.RDS")) #15K NON ENGLISH WORDS ACROSS ALL FILINGS
 
 ### WORK IN PROGRESS - SEPTEMBER 2019 ATTEMPT at full company list  - ACTUALLy 
 #companylist <- readRDS("~/git/business_innovation/data/working/sec/companylist.RDS") 
@@ -343,8 +346,12 @@ protected_tokens <- unique(str_remove(allregwords$Words, "®|™"))
 ```
 
 ```{r}
-fda <- readxl::read_excel("~/git/business_innovation/data/original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx", sheet = "Sheet1")
-ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt")
+
+#datapath <- "/project/biocomplexity/sdad/projects-active/volume_nyc1_01/business_innovation/" #new rivanna location
+fda <- readxl::read_excel(paste0(datapath, "original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx"), sheet = "Sheet1")
+ndc_product <- readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))
+
+colnames(fda) <- dataplumbr::name.standard_col_names(colnames(fda))
 
 # device_510k <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/510k.RDS")
 # device_hde <- read_rds("~/git/business_innovation/data/original/FDA_Med_Device_Dataset/hde.RDS") %>% select(1:4)
@@ -360,8 +367,8 @@ ndc_product <- read_tsv("~/git/business_innovation/data/original/NDC/product.txt
 # saveRDS(final_product_list_clean, file = "~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_dec20.RDS")
 # saveRDS(final_product_list_singlefirstmentionsONLY, file = "~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
 
-final_product_list <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_dec20.RDS")
-final_product_list_singlefirstmentionsONLY <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/final_product_list_singmention_dec20.RDS")
+final_product_list <- readRDS(paste0(datapath, "working/sec/finalwordlists/final_product_list_dec20.RDS"))
+final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath, "working/sec/finalwordlists/final_product_list_singmention_dec20.RDS"))
 ```
 
 ```{r}
@@ -1389,7 +1396,7 @@ ggplot(data = multcounts,
        y = "Number of capture", x = "First Mention Year") 
 ```
 
-At this stage, we pulled individual companies with earliest year BUT multiple companies can have same earliest first year...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah blah...blah blah 
+At this stage, we pulled individual companies with earliest year BUT multiple companies can have same earliest first year.
 </div>
 
 
@@ -1450,20 +1457,300 @@ Reference | Size
 NDC Proprietary Names | `r length(ndc_product$PROPRIETARYNAME)`
 NDC Proprietary Names | `r length(ndc_product$NONPROPRIETARYNAME)`
 NDC Proprietary Names | `r length(ndc_product$SUBSTANCENAME)`
-FDA? 510k names | `r length(device_510k$results$device_name) ` 
-FDA? HDE names | `r length(device_hde$device_name) ` 
-FDA? PMA generic names | `r length(device_pma$results$generic_name) ` 
-FDA? PMA trade names | `r length(device_pma$results$trade_name) ` 
+FDA Drug Names | `r length(unique(fda$drug_name)) `
+FDA Active Ingredient Names | `r length(unique(fda$active_ingredients)) `
+<!-- FDA? 510k names | `r length(device_510k$results$device_name) `  -->
+<!-- FDA? HDE names | `r length(device_hde$device_name) `  -->
+<!-- FDA? PMA generic names | `r length(device_pma$results$generic_name) `  -->
+<!-- FDA? PMA trade names | `r length(device_pma$results$trade_name) `  -->
 
 ```{r}
-matches <- readRDS("~/git/business_innovation/data/working/sec/ndc_matches1.RDS")
+#matches <- readRDS(paste0(datapath, "working/sec/ndc_matches1.RDS"))
 #matches %>% filter(match > 0) %>% filter(year == 2015) %>% arrange(year, Nonprop_low) %>% head(10)
+
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/"
+prop_results <- readRDS(paste0(datapath1, "ndc_prop_match_results.RDS"))
+nonprop_results <- readRDS(paste0(datapath1, "ndc_nonprop_match_results.RDS"))
+sub_results <- readRDS(paste0(datapath1, "ndc_sub_match_results.RDS"))
+
+# OVERALL - without time matching
+prop_matching_results <- prop_results %>% count(year, matches) %>%
+  filter(as.integer(year) > 2010) %>%
+  reshape2::dcast(year~matches, fun.aggregate = sum, value.var = "n") %>%
+  transmute(year = year,
+            products_unmatched = `0`,
+            products_matched = `1`+`2`+`3`+`4`+`5`,
+            perc_matched = paste0(as.character(as.integer(100*(products_matched/products_unmatched))), "%", sep = " "),
+            match = "prop")
+
+nonprop_matching_results <- nonprop_results %>% count(year, matches) %>%
+  filter(as.integer(year) > 2010) %>%
+  reshape2::dcast(year~matches, fun.aggregate = sum, value.var = "n") %>%
+  transmute(year = year,
+            products_unmatched = `0`,
+            products_matched = `1`+`2`+`3`+`4`+`5`,
+            perc_matched = paste0(as.character(as.integer(100*(products_matched/products_unmatched))), "%", sep = " "),
+            match = "nonprop")
+
+sub_matching_results <- sub_results %>% count(year, matches) %>%
+  filter(as.integer(year) > 2010) %>%
+  reshape2::dcast(year~matches, fun.aggregate = sum, value.var = "n") %>%
+  transmute(year = year,
+            products_unmatched = `0`,
+            products_matched = `1`+`2`+`3`+`4`+`5`,
+            perc_matched = paste0(as.character(as.integer(100*(products_matched/products_unmatched))), "%", sep = " "),
+            match = "sub")
+
+matching_results <- rbind(prop_matching_results, nonprop_matching_results, sub_matching_results)
+
+ggplot(data = matching_results, aes(x = year, y = perc_matched, fill = match)) + 
+  geom_bar(stat = "identity", position = "dodge") + 
+  customPlot2 +
+  scale_fill_manual(values = myCol6[c(2, 3, 5)], na.translate = FALSE) +
+  labs(title = "What drug name generates the most matches?", 
+       subtitle = "Annual NDC listings by Capture Match", 
+       y = "Number of listings", x = "Year") 
+  
+
 ```
+
+
+Steps: 
+
+1. read in NDC products, pull initial digits and labeler name (NDC Labeler Code + Name)
+2. read in CIK submitting companies, filter for pharma,  clean names (punctuation, case), and distinct 
+3. run inner and anti joins
+4. generate string distances
+5. manually check sec-ndc names using string distances 
+
+Results - 
+Total - 117 CIK codes, 131 NDC Labeler codes & 128 NDC Labeler names
+
+```{r eval = FALSE}
+datapath1
+
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+
+ndc_companies <- readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))  %>% 
+  count(l_num = str_extract(PRODUCTID, "^\\d*"), LABELERNAME) %>% 
+  select(-n)
+
+cik_companies <- readRDS(paste0(datapath1, "original/ciks_names.RDS")) %>% 
+  filter(sic == 2834) %>% 
+  mutate(name = str_trim(str_to_lower(str_replace_all(company_names, "[:punct:]", replacement = " ")))) %>% 
+  distinct()
+
+exactmatches <- cik_companies %>% 
+  inner_join(ndc_companies, by = "name")
+
+matchmakers <- cik_companies %>% 
+  anti_join(ndc_companies, by = "name")
+
+matchees <- ndc_companies %>% 
+  anti_join(cik_companies, by = "name")
+
+matchmakers_cleaned <- matchmakers %>% 
+  select(-name) %>% 
+  mutate(comp_split = str_split(company_names, ",")) %>% 
+  tidyr::unnest(comp_split) %>% 
+  mutate(cik, name = str_trim(str_to_lower(str_replace_all(comp_split, "[:punct:]", replacement = " "))))
+
+
+rm(i)
+distances <- matrix()
+val <- numeric()
+matchset <- data.frame()
+finalset <- list()
+
+for (i in 1:nrow(matchmakers_cleaned)) {
+  distances <- adist(unique(matchees$name), matchmakers_cleaned$name[i])
+  val <- min(distances[,1])
+  distances <- as.data.frame(distances) %>% mutate(match = unique(matchees$name))
+  colnames(distances)[1] <- matchmakers_cleaned$name[i]
+  matchset <- distances[distances == val, ]
+  finalset[[i]] <- tibble(SEC = rep(colnames(matchset)[1], times = length(matchset$match)), match = matchset$match, val = val)
+}
+
+
+finalset <- do.call("rbind", finalset)
+#one_match_only <- finalset %>% count(SEC) %>% filter(n == 1)
+#finalset %>% filter(SEC %in% one_match_only$SEC) %>% arrange(val)
+
+
+#write.csv(finalset, "~/sec_ndc_name_distance_match_set_approach_2_1.csv")
+
+ndc_sec_matches <- readxl::read_excel(paste0(datapath1, "working/NDC/the 90 SEC_NDC matches.xlsx"), sheet = "Sheet1")
+
+ndc_sec_ref <- ndc_sec_matches %>% 
+  left_join(ndc_companies, by = c("NDC company" = "name"))  %>% 
+  left_join(matchmakers_cleaned, by = c("SEC Company" = "name")) %>% 
+  select(cik, SECCompany = company_names, sic, l_num, NDCCompany = LABELERNAME) %>% # SEC_clean = `SEC Company`, NDC_clean = `NDC company` 
+  distinct()
+
+ndc_sec_ref
+ndc_sec_exactmatches <- exactmatches %>% select(cik, SECCompany = company_names, sic,l_num, NDCCompany = LABELERNAME)
+
+ndc_sec_ref <- rbind(ndc_sec_ref, ndc_sec_exactmatches)
+#saveRDS(ndc_sec_ref, paste0(datapath1, "working/NDC/ndc_sec_ref90.RDS"))
+# ndc_sec_ref <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_ref90.RDS"))
+```
+
+
+```{r ndc_90_validation}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))
+final_product_list <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_dec20.RDS"))
+final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_singmention_dec20.RDS"))
+
+ndc_sec_ref <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_ref90.RDS"))
+
+ndc_names1 <- ndc_product %>%
+  filter(LABELERNAME %in% ndc_sec_ref$NDCCompany) %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+  select(21, 4, 6, 14) %>%
+  distinct() %>%
+  mutate(Prop_low = str_to_lower(PROPRIETARYNAME),
+         Nonprop_low = str_to_lower(NONPROPRIETARYNAME),
+         Sub_low = str_to_lower(SUBSTANCENAME))
+
+captures <- final_product_list_singlefirstmentionsONLY %>% select(first_mention, Token, Name )
+
+captures_patt <- paste0("\\b", "(", paste0( paste(str_trim(str_replace_all(str_remove_all(str_to_lower(unique(captures$Token)), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), sep = ""), collapse = "|"), ")", "\\b")
+
+library(data.table)
+library(maditr)
+
+### ALL TIME
+
+prop_results1 <- ndc_names1 %>% as.data.table() %>%
+  dt_select(year, PROPRIETARYNAME, Prop_low) %>%
+  dt_mutate(prop_match = str_extract_all(Prop_low, pattern = captures_patt),
+            matches = lengths(prop_match))
+
+#saveRDS(prop_results, paste0(datapath1, "working/NDC/ndc_prop_match_results1.RDS"))
+
+nonprop_results1 <- ndc_names1 %>%  as.data.table() %>%
+  dt_select(year, NONPROPRIETARYNAME, Nonprop_low) %>%
+  dt_mutate(nonprop_match = str_extract_all(Nonprop_low, pattern = captures_patt),
+            matches = lengths(nonprop_match))
+
+#saveRDS(nonprop_results, paste0(datapath1, "working/NDC/ndc_nonprop_match_results1.RDS")) 
+
+sub_results1 <- ndc_names1 %>% as.data.table() %>%
+  dt_select(year, SUBSTANCENAME, Sub_low) %>%
+  dt_mutate(sub_match = str_extract_all(Sub_low, pattern = captures_patt),
+            matches = lengths(sub_match))
+
+#saveRDS(sub_results, paste0(datapath1, "working/NDC/ndc_sub_match_results1.RDS"))
+
+
+
+# prop_results <- readRDS(paste0(datapath1, "working/NDC/ndc_prop_match_results1.RDS"))
+# nonprop_results <- readRDS(paste0(datapath1, "working/NDC/ndc_nonprop_match_results1.RDS"))
+# sub_results <- readRDS(paste0(datapath1, "working/NDC/ndc_sub_match_results1.RDS"))
+
+# table(prop_results$matches)
+# table(nonprop_results$matches)
+# table(sub_results$matches)
+
+# OVERALL - without time matching
+prop_matching_results1 <- prop_results1 %>% count(year, matches) %>%
+  filter(as.integer(year) > 2010) %>%
+  reshape2::dcast(year~matches, fun.aggregate = sum, value.var = "n") %>%
+  transmute(year = year,
+            products_unmatched = `0`,
+            products_matched = `1`+`2`,
+            perc_matched = paste0(as.character(as.integer(100*(products_matched/(products_unmatched + products_matched)))), "%", sep = " "))
+
+nonprop_matching_results1 <- nonprop_results1 %>% count(year, matches) %>%
+  filter(as.integer(year) > 2010) %>%
+  reshape2::dcast(year~matches, fun.aggregate = sum, value.var = "n") %>%
+  transmute(year = year,
+            products_unmatched = `0`,
+            products_matched = `1`+`2`+`3`,
+            perc_matched = paste0(as.character(as.integer(100*(products_matched/(products_unmatched + products_matched)))), "%", sep = " "))
+
+sub_matching_results1 <- sub_results1 %>% count(year, matches) %>%
+  filter(as.integer(year) > 2010) %>%
+  reshape2::dcast(year~matches, fun.aggregate = sum, value.var = "n") %>%
+  transmute(year = year,
+            products_unmatched = `0`,
+            products_matched = `1`+`2`,
+            perc_matched = paste0(as.character(as.integer(100*(products_matched/(products_unmatched + products_matched)))), "%", sep = " "))
+
+prop_matching_results1 <- prop_matching_results1 %>% mutate(match = "prop")
+nonprop_matching_results1 <-nonprop_matching_results1 %>% mutate(match = "nonprop")
+sub_matching_results1 <- sub_matching_results1 %>% mutate(match = "sub")
+
+matching_results1 <- rbind(prop_matching_results1, nonprop_matching_results1, sub_matching_results1)
+
+
+```
+
+```{r}
+matching_results1_ <-  matching_results1 %>% 
+  select(-perc_matched) %>% 
+  reshape2::melt(id = c("year")) %>% filter(variable != "match")
+
+matching_results1_ %>% filter(year == 2011)
+
+ggplot(data = matching_results1_, aes(x = year, y = value, fill = variable)) +
+  geom_bar(stat = "identity") + 
+  geom_text(aes(label = value), hjust = .5) + 
+  customPlot2 +
+  scale_fill_manual(values = myCol6[c(2, 3, 5)], na.translate = FALSE) +
+  labs(title = "What drug name generates the most matches? (100 matched companies)", 
+       subtitle = "Annual NDC listings by Capture Match", 
+       y = "Number of listings", x = "Year") 
+
+
+ggplot(data = matching_results1, aes(x = year, y = perc_matched, fill = match)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  customPlot2 +
+  scale_fill_manual(values = myCol6[c(2, 3, 5)], na.translate = FALSE) +
+  labs(title = "What drug name generates the most matches? (100 matched companies)", 
+       subtitle = "Annual NDC listings by Capture Match", 
+       y = "Number of listings", x = "Year") 
+```
+
+
+
+
+
+
+
+
+
+
+```{r}
+match_tbl <- matches %>% count(year, match) %>% filter(year > 2011) 
+match_tbl %>% reshape2::dcast(match~year)
+
+
+matches_12onwards <- matches %>% 
+  filter(year > 2011) %>% 
+  mutate(match_type = paste0(ifelse(!is.na(propmatch), "prop ", ""), ifelse(!is.na(npmatch), "np ", ""), ifelse(!is.na(submatch), "sub ", "")))
+
+table(matches_12onwards$match_type)
+
+ggplot(data = matches_12onwards, aes(x = year, fill = as.factor(match))) + 
+  geom_bar(stat = "count", inherit.aes = T) + 
+  geom_text(stat = "count", aes(label = ..count..), vjust = 1.5, 
+             width = 1) +
+  customPlot2 +
+  scale_fill_manual(values = myCol6[c(1, 5)], na.translate = FALSE) +
+  labs(title = "How many of NDC's products per year are matched by ANY capture?", 
+       subtitle = "Annual NDC listings by Capture Match", 
+       y = "Number of listings", x = "Year") 
+
+```
+
+
 
 
 ```{r validated_readin, eval=FALSE}
 all_devices_unqnames <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/all_devices_unqnames_results.RDS")
-validated <- readRDS("~/git/business_innovation/data/working/sec/finalwordlists/all_devices_result_validated.RDS")
+validated <- readRDS(paste0(datapath, "working/sec/finalwordlists/all_devices_result_validated.RDS"))
 ```
 
 ```{r}

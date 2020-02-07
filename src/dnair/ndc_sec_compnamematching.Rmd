@@ -1,0 +1,153 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(stringr)
+```
+
+```{r}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+ndc_product <- readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))
+ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
+ciknames %>% filter(str_detect(str_to_lower(company_names), pattern = "collegium"))
+```
+
+
+
+```{r}
+cik_2834_names <- ciknames %>% filter(sic == 2834)
+
+ndc_labelers <- ndc_product %>% count(l_num = str_extract(PRODUCTID, "^\\d*"), LABELERNAME) %>% select(-n)
+
+```
+
+```{r}
+cik_companies <- cik_2834_names %>% mutate(name = str_trim(str_to_lower(str_replace_all(company_names, "[:punct:]", replacement = " ")))) %>% distinct()
+
+ndc_companies <- ndc_labelers %>% mutate(name = str_trim(str_to_lower(str_replace_all(LABELERNAME, "[:punct:]", replacement = " ")))) %>% distinct()
+
+```
+
+
+
+```{r}
+nrow(cik_2834_names)
+nrow(ndc_labelers)
+length(intersect(cik_2834_names$company_names, ndc_labelers$LABELERNAME))
+
+nrow(cik_companies)
+nrow(ndc_companies)
+length(intersect(cik_companies$name, ndc_companies$name))
+```
+
+Split on comma 
+lower case
+
+Approach 1 - remove exact matches
+
+```{r}
+intersect(cik_companies$name, ndc_companies$name)
+
+exactmatches <- cik_companies %>% 
+  inner_join(ndc_companies, by = "name")
+
+matchmakers <- cik_companies %>% 
+  anti_join(ndc_companies, by = "name")
+
+matchees <- ndc_companies %>% 
+  anti_join(cik_companies, by = "name")
+
+nrow(ndc_companies) - nrow(matchees) #42 - some names repeat in labelers? 
+nrow(cik_companies) - nrow(matchmakers) == 38
+```
+
+Approach 2 Opt 1 - CLEANED acronyms WITH all tokens - match sets then spot check 
+```{r}
+matchmakers_cleaned <- matchmakers %>% 
+  select(-name) %>% 
+  mutate(comp_split = str_split(company_names, ",")) %>% 
+  tidyr::unnest(comp_split) %>% 
+  mutate(cik, name = str_trim(str_to_lower(str_replace_all(comp_split, "[:punct:]", replacement = " "))))
+
+
+
+rm(i)
+distances <- matrix()
+val <- numeric()
+matchset <- data.frame()
+finalset <- list()
+
+for (i in 1:nrow(matchmakers_cleaned)) {
+  distances <- adist(unique(matchees$name), matchmakers_cleaned$name[i])
+  val <- min(distances[,1])
+  distances <- as.data.frame(distances) %>% mutate(match = unique(matchees$name))
+  colnames(distances)[1] <- matchmakers_cleaned$name[i]
+  matchset <- distances[distances == val, ]
+  finalset[[i]] <- tibble(SEC = rep(colnames(matchset)[1], times = length(matchset$match)), match = matchset$match, val = val)
+}
+
+
+finalset <- do.call("rbind", finalset)
+#one_match_only <- finalset %>% count(SEC) %>% filter(n == 1)
+#finalset %>% filter(SEC %in% one_match_only$SEC) %>% arrange(val)
+write.csv(finalset, "~/sec_ndc_name_distance_match_set_approach_2_1.csv")
+```
+
+Remove inc/corp 
+Replace double space with single space and squish 
+
+```{r}
+stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa", "l l c", "co", "us", "u s"))
+stop_patt <- paste0( stopwords, collapse = "|")
+
+matchmakers_ultra_clean <- matchmakers_cleaned %>% mutate(name = str_trim(str_replace_all(str_remove(name, pattern = stop_patt), pattern = "  ",replacement =  " ")))
+
+matchees <- matchees %>% mutate(name2 = str_trim(str_replace_all(str_remove_all(name, pattern = stop_patt), pattern = "  ",replacement =  " ")))
+
+rm(i)
+distances <- matrix()
+val <- numeric()
+matchset <- data.frame()
+finalset2 <- list()
+
+for (i in 1:nrow(matchmakers_ultra_clean)) {
+  distances <- adist(unique(matchees$name2), matchmakers_ultra_clean$name[i])
+  val <- min(distances[,1])
+  distances <- as.data.frame(distances) %>% mutate(match = unique(matchees$name2))
+  colnames(distances)[1] <- matchmakers_ultra_clean$name[i]
+  matchset <- distances[distances == val, ]
+  finalset[[i]] <- tibble(SEC = rep(colnames(matchset)[1], times = length(matchset$match)), match = matchset$match, val = val)
+}
+
+finalset <- do.call("rbind", finalset)
+
+finalsetwnames <-  finalset %>% left_join(matchmakers_ultra_clean, by = c("SEC" ="name")) %>% left_join(matchees, by = c("match" = "name2"))
+
+#one_match_only <- finalset %>% count(SEC) %>% filter(n == 1)
+#finalset %>% filter(SEC %in% one_match_only$SEC) %>% arrange(val)
+write.csv(finalsetwnames, "~/sec_ndc_name_distance_match_set_approach_2_2.csv")
+```
+
+
+
+Approach 2 Opt 2 - remove generic tokens (business/pharma) then match
+Approach 2 Opt 3 - spell check all tokens? then match
+
+
+
+```{r}
+ndc_companies %>% filter(str_detect(name, "genv"))
+
+#write.csv(ndc_companies, "ndc_companies.csv")
+
+
+```
+
+```{r}
+cik_companies %>% filter(str_detect(name, "active"))
+```
+

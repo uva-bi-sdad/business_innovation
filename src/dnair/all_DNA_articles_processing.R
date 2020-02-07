@@ -16,9 +16,17 @@ library(htmltidy)
 library(readr)
 
 ##GRAB METADATA
-dna_2015 <- readRDS("~/git/business_innovation/data/working/DNA_Aggregated/dna_2015.RDS")
+datapath <- "/project/biocomplexity/sdad/projects-active/volume_nyc1_01/business_innovation/" #new rivanna location
+datapath_perm <- "/project/biocomplexity/sdad/projects-active/ncses/bi/" #new NEW rivanna location
+dna_2015 <- readRDS(paste0(datapath, "working/DNA_Aggregated/dna_2015.RDS"))
+dna_cmda_hlbody <- readr::read_csv(paste0(datapath, "working/DNA_Aggregated/CMDA_FALL2019/CMDA_FALL2019_hlwbody_hlbasedlabel.csv"))
+
+dna_cmda_hlbody <- dna_cmda_hlbody %>% transmute(id, label = recode(innovYN, `No` = 0, `no` = 0, `Yes` = 1, `yes` = 1), hl = title, text = paste0(title, body))
+#saveRDS(dna_cmda_hlbody, file = paste0("data/dna_cmda_clean.RDS")) # Needs to move to new NEW rivanna location
+
 # colnames(dna_2015)
-dna_2015_hl = dna_2015 %>% select(an, title)
+# dna_2015_hl = dna_2015 %>% select(an, title)
+# dna_2015_hl = dna_2015 %>% select(an, body)
 #dna_2015_body = dna_2015 %>% select(an, body)
 # test <- head(dna_2015_hl)
 # dna_2015_hl
