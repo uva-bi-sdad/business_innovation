@@ -140,8 +140,8 @@ file_names <- unique(list.files(paths, full.names = TRUE))
 
 ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
 sic <- readRDS(paste0(datapath1, "original/sic.download.RDS"))
-cik_ticker <- read_delim(paste0(datapath1, "original/edgar_filings/cik_ticker.csv"), delim = "|")   #RANKANDFILE website
-cikcountries <- read_delim(paste0(datapath1, "original/edgar_filings/edgar_state_country.csv"), delim = "|") #RANKANDFILE website
+cik_ticker <- readr::read_delim(paste0(datapath1, "original/edgar_filings/cik_ticker.csv"), delim = "|")   #RANKANDFILE website
+cikcountries <- readr::read_delim(paste0(datapath1, "original/edgar_filings/edgar_state_country.csv"), delim = "|") #RANKANDFILE website
 
 allwords <- read_csv(paste0(datapath1, "working/sec/all_secwordlists.csv")) # 4M TOTAL WORDS ACROSS ALL FILINGS
 allregwords <- read_csv(paste0(datapath1, "working/sec/all_secregwordlists.csv")) # 37K REG WORDS ACROSS ALL FILINGS
@@ -348,6 +348,7 @@ protected_tokens <- unique(str_remove(allregwords$Words, "®|™"))
 ```{r}
 
 #datapath <- "/project/biocomplexity/sdad/projects-active/volume_nyc1_01/business_innovation/" #new rivanna location
+datapath <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
 fda <- readxl::read_excel(paste0(datapath, "original/fda_drugs/Copy of FDA Database - COMBINED V2.xlsx"), sheet = "Sheet1")
 ndc_product <- readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))
 
@@ -1464,6 +1465,20 @@ FDA Active Ingredient Names | `r length(unique(fda$active_ingredients)) `
 <!-- FDA? PMA generic names | `r length(device_pma$results$generic_name) `  -->
 <!-- FDA? PMA trade names | `r length(device_pma$results$trade_name) `  -->
 
+^^ PRIOR TO MATCHING.... AND SLIDES
+SEC - top companies by captures/cand products PER the 90 companies - mapped annually - stacked bars, each color is year, axis is companies, a second one with R / TM 
+NDC - overall top labelers over years  - histogram of all AND top 20 
+talk about the 90 in common in both
+
+1 graph - unvalidated SEC captures vs. NDC ground truth - for top 10 of both sources - sorted by ground truth  ACCOUNTING FOR COMPANY
+for each of the top 10 companies - what percent of that company's products were captured (x axis = count, y axis = company)
+same graph again - validated ACCOUNTING FOR COMPANY
+remake validated percentage - accounting for company
+
+boxplot - MEAN percentage captured PER company BETWEEN unvalidated and validated
+
+
+
 ```{r}
 #matches <- readRDS(paste0(datapath, "working/sec/ndc_matches1.RDS"))
 #matches %>% filter(match > 0) %>% filter(year == 2015) %>% arrange(year, Nonprop_low) %>% head(10)
@@ -1513,6 +1528,8 @@ ggplot(data = matching_results, aes(x = year, y = perc_matched, fill = match)) +
   
 
 ```
+
+
 
 
 Steps: 
@@ -1714,6 +1731,106 @@ ggplot(data = matching_results1, aes(x = year, y = perc_matched, fill = match)) 
 ```
 
 
+
+```{r}
+datapath <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" #new rivanna location
+dna_cmda_hlbody <- readr::read_csv(paste0(datapath, "working/DNA_Aggregated/CMDA_FALL2019/CMDA_FALL2019_hlwbody_hlbasedlabel.csv"))
+dna_cmda_hlbody <- dna_cmda_hlbody %>% transmute(id, label = recode(innovYN, `No` = 0, `no` = 0, `Yes` = 1, `yes` = 1), hl = title, text = paste0(title, body))
+dna_cmda_hlbody
+
+dna_cmda_body <- dna_cmda_hlbody %>%
+  mutate(hl = stringr::str_trim(stringr::str_replace_all(str_remove_all(text, "\\(|\\)"), "[:punct:]", " ")),
+         text_tokens = stringr::str_split(string = hl, pattern = " ")) %>%
+  tidyr::unnest(text_tokens) %>%
+  mutate(brand = str_extract(text_tokens, "®|™"),
+         text_tokens = str_remove_all(str_trim(text_tokens), "®|™")) %>%    # filter(str_detect(text_tokens, "®|™")) # %>% select(text) %>% View()
+  filter(text_tokens != "^\\s*$") %>%
+  mutate(eng = hunspell::hunspell_check(text_tokens),
+         caps = stringr::str_detect(text_tokens, pattern = "^[[:upper:]]"),
+         stem = ifelse(eng == TRUE & caps == FALSE, 1, 0)) %>%
+  filter(!dataplumbr::var.is_blank(text_tokens))
+
+dna_cmda_body_nested_all <- dna_cmda_body %>% select(id, label, text_tokens, brand, eng) %>% tidyr::nest(cols = c("text_tokens", "eng", "brand"))
+candidateproducts <- dna_cmda_body %>% select(id, label, text_tokens, brand, eng) %>% filter(!is.na(brand)|eng == FALSE)
+candidateproducts_nested <- candidateproducts %>% tidyr::nest(cols = c("text_tokens", "eng", "brand"))
+
+```
+
+
+```{r}
+
+candidateproducts <- candidateproducts %>% count(id, Token = text_tokens, brand, eng) 
+
+
+dna_candprods_searchcompanies <- candidateproducts %>% mutate(
+  word_low = str_to_lower(Token),
+  companyTF = str_detect(Token, patt), 
+  compmatch = str_extract(Token, patt), 
+  complowTF = str_detect(word_low, pattlow),
+  complowmatch = str_extract(word_low, patthun))
+
+table(dna_candprods_searchcompanies$complowTF)
+
+```
+
+```{r remove_companies_from_final_wordlist_2_final_set }
+wcbyword_findcompanies <- wcbyword_searchcompanies %>% 
+  left_join(company_reference_names %>% select(CIK, CompanyString), by = c("Company" = "CIK")) %>%
+  mutate(Self = ifelse(str_detect(str_to_lower(CompanyString), pattern = complowmatch), 1, 0),
+         Pharma = ifelse(str_detect(string = str_to_lower(Token), pattern = pharmstopwords), 1, 0 )) #%>%  
+  #select(-word_low, -companyTF, -compmatch, -complowmatch, -CompanyString)
+
+final_product_list <- wcbyword_findcompanies %>% 
+  filter(complowTF == FALSE & Pharma == 0) %>% 
+  #select(-word_low, -companyTF, -compmatch, -complowTF, -complowmatch, -Self, -Pharma) %>% 
+  left_join(companyref_pickname, by = c("Company" = "CIK"))
+
+final_product_list_clean <- wcbyword_findcompanies %>% 
+  filter(complowTF == FALSE & Pharma == 0) %>% 
+  select(-word_low, -companyTF, -compmatch, -complowTF, -complowmatch, -Self, -Pharma) %>% 
+  left_join(companyref_pickname, by = c("Company" = "CIK"))
+```
+
+```{r firstmention}
+#### for each company - what was the first time they individually mentioned that product? 
+firstmention_by_company <- final_product_list_clean %>% 
+  transmute(Name = Name, 
+        first_mention = ifelse(`2012` > 0, 2012, 
+                                ifelse(`2013` > 0, 2013, 
+                                        ifelse(`2014` > 0, 2014, 
+                                                ifelse(`2015` > 0, 2015, 
+                                                        ifelse(`2016` > 0, 2016,
+                                                               ifelse(`2017` > 0, 2017, 1900)))))), 
+         #Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token),
+        Token = Token, 
+        Protect = Protect)
+
+
+#### for commonly mentioned products - which company mentioned it first? for ties - remove the tokens
+
+#### how to find tokens that have multiple companies mentioning them
+#firstmention_by_company %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
+#### example of how to find first mention YEAR among multiple company years with Abilify
+#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention))
+#### example how to take first mention YEAR and then filter for rows with that year
+#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company %>% filter(Token == "Abilify"), by = c("Token")) %>% filter(minyear == first_mention)
+
+#### run above on entire set 
+
+# get earliest year
+creditcompanybyfirstmention <- firstmention_by_company %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company, by = c("Token")) %>% filter(minyear == first_mention)
+# get tokens with multiple companies first mentions
+tokens_with_tied_firstmention <- creditcompanybyfirstmention %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
+
+# remove mult-tokens from set
+creditcompanybyfirstmention_NO_TIES <- creditcompanybyfirstmention %>% filter(Token %!in% tokens_with_tied_firstmention$Token) %>% select(Token, Protect, Name, minyear)
+
+# join back to original list 
+final_product_list_singlefirstmentionsONLY <- final_product_list_clean %>% 
+  left_join(firstmention_by_company, by = c("Name", "Token", "Protect")) %>% 
+  inner_join(creditcompanybyfirstmention_NO_TIES, by = c("Token", "Name", "Protect", "first_mention" = "minyear"))
+
+```
 
 
 

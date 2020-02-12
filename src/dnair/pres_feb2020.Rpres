@@ -1,0 +1,488 @@
+NLP Product Extraction Method
+========================================================
+author: SDAD
+date: `r Sys.Date()`
+font-family: 'Helvetica'
+autosize: true
+<style>
+.reveal .slides section .slideContent{
+    font-size: 12pt;
+}
+</style>
+
+```{r libraries, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis",
+                      fig.height = 5, fig.width = 6)
+library(ggplot2)
+library(RColorBrewer)
+library(dplyr)
+library(stringr)
+```
+
+```{r data}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))
+
+final_product_list <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_dec20.RDS"))
+final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_singmention_dec20.RDS"))
+
+ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
+ndc_sec_ref <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_ref90.RDS"))
+
+```
+
+```{r plotsettings2}
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        axis.text.x  = element_text(vjust=0.5, size=12),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") ,
+        legend.position="right"),  #coord_flip(),
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+```
+
+```{r plotsettings_3}
+customPlot3 = list(
+  theme(axis.text.x  = element_text(vjust=0.5, size=12), #plot.margin = unit(c(1,1,2,2), "cm"),
+        plot.title=element_text(size=12, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #axis.title.x = element_blank(), axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") ,
+        legend.position="bottom"),
+  coord_flip(),
+  guides(fill=guide_legend(title="Key", ncol = 3),
+        colour =guide_legend(title="Key", ncol = 3))
+)
+
+```
+
+```{r plotcolors}
+myCol <- brewer.pal(3, "Pastel2")
+myCol6 <- brewer.pal(6, "Pastel2")
+myCol8 <- brewer.pal(8, "Pastel2")
+```
+
+```{r ndc_manip}
+ndc_labelers <- ndc_product %>%
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+  select(year, PRODUCTTYPENAME, MARKETINGCATEGORYNAME, LABELERNAME) %>%
+  distinct()
+
+ndc_products_labelers <- ndc_product %>%
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+  select(year, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME, PRODUCTTYPENAME, MARKETINGCATEGORYNAME, LABELERNAME) %>%
+  distinct()
+
+top25ndccompanies <- ndc_products_labelers %>% count(LABELERNAME) %>% arrange(desc(n)) %>% head(25)
+top25ndccompanies <- ndc_products_labelers %>% filter(LABELERNAME %in% top25ndccompanies$LABELERNAME)
+
+ndc_labelers <- ndc_labelers %>% mutate(top25 = ifelse(LABELERNAME %in% top25ndccompanies$LABELERNAME,  "top25", "75"))
+ndc_products_labelers <- ndc_products_labelers %>% mutate(top25 = ifelse(LABELERNAME %in% top25ndccompanies$LABELERNAME,  "top25", "75"))
+
+ndc_catgry_products <- ndc_products_labelers %>%
+  count(PRODUCTTYPENAME) %>%
+  mutate(product = recode(PRODUCTTYPENAME,  `PLASMA DERIVATIVE` = "OTHER", `STANDARDIZED ALLERGENIC` = "OTHER", `VACCINE` = "OTHER", `CELLULAR THERAPY` = "OTHER")) %>%
+  group_by(product) %>%
+  summarise(n = sum(n))
+
+ndc_catgry_products_top25 <- ndc_products_labelers %>%
+  filter(top25 == "top25") %>%
+  count(PRODUCTTYPENAME) %>%
+  mutate(product = recode(PRODUCTTYPENAME,  `PLASMA DERIVATIVE` = "OTHER", `STANDARDIZED ALLERGENIC` = "OTHER", `VACCINE` = "OTHER", `CELLULAR THERAPY` = "OTHER")) %>%
+  group_by(product) %>%
+  summarise(n = sum(n))
+
+```
+
+```{r sec_manip}
+sec_filers <- final_product_list_singlefirstmentionsONLY %>%
+  select(first_mention, Company) %>%
+  distinct()
+
+sec_tokens_filers <- final_product_list_singlefirstmentionsONLY %>%
+  select(first_mention, Company, Token) %>%
+    distinct()
+
+
+top25seccompanies <- sec_tokens_filers %>% count(Company) %>% arrange(desc(n)) %>% head(25)
+top25seccompanies <- sec_tokens_filers %>% filter(Company %in% top25seccompanies$Company)
+
+sec_filers <- sec_filers %>% mutate(top25 = ifelse(Company %in% top25seccompanies$Company,  "top25", "75"))
+sec_tokens_filers <- sec_tokens_filers %>% mutate(top25 = ifelse(Company %in% top25seccompanies$Company,  "top25", "75"))
+```
+
+
+Overview:
+========================================================
+
+NDC:
+- Distributions of All Labelers (Companies)
+- Distributions of Top 25 Labelers (Companies)
+- Distributions of Marketing Categories
+
+SEC:
+- Distributions of All Filers (Companies)
+- Distributions of Top 25 Filers (Companies)
+
+
+
+Distributions of Labelers (Companies)
+========================================================
+
+All NDC Labelers
+
+```{r}
+ggplot(data = ndc_labelers %>% count(year, top25, LABELERNAME) %>% select(-n), aes(x = year, fill = as.factor(top25))) +
+  geom_bar(stat = "count") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  labs(title = "Number of NDC companies over time",
+       subtitle = "Yearly NDC Company Counts",
+       y = "Number of companies", x = "Year")
+```
+***
+Top 25 NDC Labelers
+
+```{r}
+ggplot(top25ndccompanies, aes(x =year, fill = "1")) +
+  geom_bar(stat = "count") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(1, 5)], na.translate = FALSE) +
+  labs(title = "Top 25 NDC companies over time",
+       subtitle = "Yearly NDC Company Counts Among Top 25 Labelers",
+       y = "Number of companies", x = "Year")
+```
+
+Distributions of Marketing Categories
+========================================================
+
+NDC Listings by all Labelers
+```{r}
+ggplot(data = ndc_products_labelers %>% count(PRODUCTTYPENAME, top25), aes(x = PRODUCTTYPENAME, y = n, fill = as.factor(top25))) +
+  geom_bar(stat = "identity") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  labs(title = "Number of NDC listings per Marketing Category",
+       subtitle = "Yearly NDC Company Counts",
+       y = "Number of NDC listing", x = "Marketing Category")
+```
+
+***
+NDC Listings by Top 25 NDC Labelers
+```{r}
+ggplot(ndc_products_labelers %>% filter(top25 == "top25") %>% count(PRODUCTTYPENAME), aes(x =PRODUCTTYPENAME, y = n, fill = "1")) +
+  geom_bar(stat = "identity") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(1, 5)], na.translate = FALSE) +
+  labs(title = "Top 25 NDC companies over time",
+       subtitle = "Yearly NDC Company Counts Among Top 25 Labelers",
+       y = "Number of companies", x = "Year")
+```
+
+
+Marketing Categories (Pie)
+========================================================
+
+NDC Listings by all Labelers
+```{r}
+ggplot(data = ndc_catgry_products, aes(x = "", y = n, fill = product)) +
+  geom_bar(stat = "identity") +
+  #geom_text(aes(label = n), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_polar("y") +
+  scale_fill_manual(values = myCol8, na.translate = FALSE) +
+  labs(title = "Number of NDC listings per Marketing Category",
+       subtitle = "Yearly NDC Company Counts",
+       y = "Number of NDC listing", x = "Marketing Category")
+```
+
+***
+NDC Listings by Top 25 NDC Labelers
+```{r}
+ggplot(data = ndc_catgry_products_top25, aes(x = "", y = n, fill = product)) +
+  geom_bar(stat = "identity") +
+  #geom_text(aes(label = n), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_polar("y") +
+  scale_fill_manual(values = myCol8, na.translate = FALSE) +
+  labs(title = "Number of NDC listings per Marketing Category",
+       subtitle = "Yearly NDC Company Counts",
+       y = "Number of NDC listing", x = "Marketing Category")
+```
+
+N.B. Other includes the following categories: plasma derivative, standardized allergenic, vaccine, and cellular therapy. All Labelers had values for all 4 of these categories (values ranged from 6-132). The Top 25 labelers only had values for standardized allergenics and vaccines (both <30).
+
+
+SEC Overview
+========================================================
+
+All SEC Filers
+
+```{r }
+ggplot(data = sec_filers %>% count(first_mention, top25, Company) %>% select(-n), aes(x = first_mention, fill = as.factor(top25))) +
+  geom_bar(stat = "count") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  labs(title = "Number of SEC companies over time",
+       subtitle = "Yearly SEC Company Counts",
+       y = "Number of companies", x = "Year")
+```
+***
+Top 25 SEC Filers
+
+```{r}
+ggplot(top25seccompanies, aes(x =first_mention, fill = "1")) +
+  geom_bar(stat = "count") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(1, 5)], na.translate = FALSE) +
+  labs(title = "Top 25 SEC companies over time",
+       subtitle = "Yearly SEC Company Counts Among Top 25 Filers",
+       y = "Number of companies", x = "Year")
+```
+
+
+
+Matching Method
+========================================================
+
+- Company Name Matching
+- Validating Captures
+
+NDC <- SEC
+
+Company Name Matching
+========================================================
+
+Steps:
+
+1. Cleaned SEC & NDC Company names
+    - split at comma
+    - low case
+    - remove punctuation
+2. Identified exact name matches
+3. Generated string distance matches
+    - Calculated string distances
+    - Identified smallest string distance value per SEC name
+    - Pulled all NDC names with that minimum string distance value
+4. Manually selected best (if any) match per match sets
+
+***
+Example:
+
+
+SEC: Actavis Ltd, Actavis plc, Allergan plc
+
+    a. `r str_trim(str_to_lower(str_replace_all("Actavis Ltd", "[:punct:]", replacement = " ")))`
+    b. `r str_trim(str_to_lower(str_replace_all("Actavis plc", "[:punct:]", replacement = " ")))`
+    c. `r str_trim(str_to_lower(str_replace_all("Allergan plc", "[:punct:]", replacement = " ")))`
+
+NDC: Allergan, Inc. --> `r str_trim(str_to_lower(str_replace_all("Allergan, Inc.", "[:punct:]", replacement = " ")))`
+
+```{r}
+vec <- str_trim(str_to_lower(str_replace_all(unlist(str_split("Actavis Ltd, Actavis plc, Allergan plc", ",")), "[:punct:]", replacement = " ")))
+pat <- str_trim(str_to_lower(str_replace_all("Allergan, Inc.", "[:punct:]", replacement = " ")))
+stringdistance <- as.data.frame(adist(vec, pat))
+
+rownames(stringdistance) <- vec
+colnames(stringdistance) <- pat
+stringdistance %>% knitr::kable()
+```
+
+
+Product Name Matching
+========================================================
+
+```{r}
+#ndc_sec_ref
+prop_results <- readRDS(paste0(datapath1, "working/NDC/ndc_prop_match_results.RDS"))
+prop_pos_matches_sec_ndc <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_prop_positive_match_results.RDS"))
+
+nonprop_results <- readRDS(paste0(datapath1, "working/NDC/ndc_nonprop_match_results.RDS"))
+nonprop_pos_matches_sec_ndc <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_nonprop_positive_match_results.RDS"))
+
+sub_results <- readRDS(paste0(datapath1, "working/NDC/ndc_sub_match_results.RDS"))
+sub_pos_matches_sec_ndc <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_sub_positive_match_results.RDS"))
+```
+
+SEC Steps:
+
+1. Limited SEC captures (first, single mention only) - 4,651 captures
+2. Cleaned SEC capture names
+    - 4156 unique patterns
+    - 495 repeating tokens due to capitalization and brand-protection
+
+NDC Steps:
+
+1. Limited NDC listings to those whose labeler companies existed in SEC
+2. Cleaned NDC product names (75K distinct records by year, labeler, and 3 prod names -- all time)
+    - proprietary (37K --> 33K)
+    - non-proprietary (18K --> 15K)
+    - substance (10K --> 10K)
+
+Match Steps:
+
+1. Detected presence of SEC capture WITHIN NDC product names
+2. Joined back to SEC filers and NDC labelers (2 one to many joins!)
+
+
+Validated Product Results
+========================================================
+
+```{r}
+prop_match_summary <- as.data.frame(table(prop_results$matches)) %>% mutate(match = "prop")
+nonprop_match_summary <- as.data.frame(table(nonprop_results$matches)) %>% mutate(match = "nonprop")
+sub_match_summary <- as.data.frame(table(sub_results$matches)) %>% mutate(match = "sub")
+
+match_summary <- rbind(prop_match_summary, nonprop_match_summary, sub_match_summary)
+match_summary <- match_summary %>% group_by(match, val = ifelse(Var1 == 0, "NDC - missing", "NDC - Captured")) %>% summarise(n = sum(Freq))
+# match_summary %>% dcast(match ~ val)
+
+#sum(c(0:5) *match_summary$Freq) + 61057
+#sum(match_summary$Freq)
+
+ggplot(data = match_summary, aes(x = match, y = n, fill = val)) +
+  geom_bar(stat = "identity")  +
+  #geom_text(aes(label = as.integer(100*(n/sum(n)))), vjust = 3.5) +
+  geom_text(aes(label = n), vjust = 3.5) +
+  customPlot2 +
+  scale_fill_manual(values = myCol6, na.translate = FALSE) +
+  labs(title = "How do NDC products stack up in each name matching method? ",
+       subtitle = "Proportion of NDC Products per Match Method",
+       y = "Number of NDC Names", x = "Match Type")
+```
+***
+```{r}
+venn::venn(list(prop_pos_matches_sec_ndc$prop_match, nonprop_pos_matches_sec_ndc$nonprop_match, sub_pos_matches_sec_ndc$sub_match), ilabels = TRUE,  zcolor = myCol6[1:3], snames = c("Proprietary", "Non-Proprietary", "Substance"))
+```
+
+
+
+Example "coreg" - NDC Match Results
+========================================================
+
+```{r}
+example <- data.frame("column" = colnames(prop_pos_matches_sec_ndc), "example" = maditr::transpose(head(prop_pos_matches_sec_ndc, 1)))
+colnames(example) <- c("Column", "Example")
+#prop_pos_matches_sec_ndc %>% filter(prop_match == "advair") %>% select(-matches,,-Prop_low, -prop_match) %>% knitr::kable()
+knitr::kable(example[c(7, 2, 1, 26),])
+```
+
+***
+Our token coreg matched with a proprietary name in NDC called "COREG." This particular listing shows a Marketing Start Date in 2007 by GlaxoSmithKline.
+
+Example "coreg" - SEC Match Results A
+========================================================
+
+```{r}
+knitr::kable(example[c(7,6, 9, 10, 18:19),])
+```
+***
+This token was pulled from an SEC filing filed by *FLAMEL TECHNOLOGIES SA, AVADEL PHARMACEUTICALS PLC* a pharma industry company. When it was pulled they didn't refer to it with a brand protection. The company is not based in the US. We have first mention as 2013, but note we haven't pulled filings prior to 2012.
+
+Example "coreg" - SEC Match Results B
+========================================================
+
+```{r}
+knitr::kable(example[c(7,11:16),])
+```
+***
+Here you can see how Flamel has referred to this token over time, with the most references in their 2013 10-K filing and a quarter of those in 2014.
+
+Example "coreg" - SEC Match Results C
+========================================================
+
+```{r}
+knitr::kable(example[c(7,20:24),])
+```
+***
+We also have some information about their stock exchange listing, where we see that they are based in France.
+
+
+Slide With Plot
+========================================================
+
+```{r}
+library(ggplot2)
+match_summary
+top25seccompanies
+top25ndccompanies
+#sec_prop_bars <- prop_results %>% mutate(validated = ifelse(matches == 0, "unvalidated", "validated"))
+
+sec_prop_bars <- prop_pos_matches_sec_ndc %>% count(LABELERNAME, PROPRIETARYNAME) %>% select(-n) %>% count(LABELERNAME) %>% mutate(bucket = "sec_capture")
+
+ndc_prop_bars <- ndc_names_122 %>% count(LABELERNAME, PROPRIETARYNAME) %>% select(-n) %>% count(LABELERNAME) %>% mutate(bucket = "ndc_total")
+
+doublebars <- rbind(sec_prop_bars, ndc_prop_bars) %>% filter(LABELERNAME %in% top25ndccompanies$LABELERNAME)
+doublebarstop <- doublebars[doublebars$n > 10, 1]
+doublebarstop <- unique(doublebarstop$LABELERNAME)
+doublebars_1 <- doublebars %>% filter(LABELERNAME %in% doublebarstop) %>% filter(LABELERNAME != "A-S Medication Solutions")
+
+
+
+
+library(ggplot2)
+library(plyr)
+#library(reshape)
+library(scales)
+
+# ggplot(doublebars, aes(x=LABELERNAME)) +
+#    geom_bar(data = subset(doublebars, bucket == "sec_capture"),
+#    aes(y=n, fill = n), stat = "identity") +
+#   geom_bar(data = subset(doublebars, bucket == "ndc_total"),
+#   aes(y=-n, fill = -n), stat = 'identity') +
+#   scale_y_continuous(labels = comma) +
+#   xlab("") +
+#   ylab("SEC Captures vs  NDC Totals") +
+#   scale_fill_gradient2(low = muted("red"),
+#   mid = "white", high = muted("blue"), midpoint = 0,space = "rgb") +
+#   coord_flip()
+
+ggplot(doublebars_1, aes(x=LABELERNAME)) +
+   geom_bar(data = subset(doublebars_1, bucket == "sec_capture"),
+   aes(y=n, fill = n), stat = "identity") +
+  geom_bar(data = subset(doublebars_1, bucket == "ndc_total"),
+  aes(y=-n, fill = -n), stat = 'identity') +
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures vs  NDC Totals") +
+  scale_fill_gradient2(low = muted("red"),
+  mid = "white", high = muted("blue"), midpoint = 0,space = "rgb") +
+  coord_flip()
+
+ggplot(doublebars_1, aes(x=LABELERNAME)) +
+   geom_bar(data = subset(doublebars_1, bucket == "sec_capture"),
+   aes(y=n, fill = bucket), stat = "identity") +
+  geom_bar(data = subset(doublebars_1, bucket == "ndc_total"),
+  aes(y=-n, fill = bucket), stat = 'identity') +
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures vs  NDC Totals") +
+  scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  #scale_fill_gradient2(low = muted("red"), mid = "white", high = muted("blue"), midpoint = 0,space = "rgb") +
+  coord_flip()
+
+
+```
+
+
+
+
+
+Thank you!
+========================================================
+
+
