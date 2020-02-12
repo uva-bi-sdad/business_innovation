@@ -414,7 +414,6 @@ This token was pulled from an SEC filing filed by *FLAMEL TECHNOLOGIES SA, AVADE
 
 *Example "coreg" - SEC Match Results B*
 
-<div class="col2">
 ```{r}
 knitr::kable(example[c(7,11:16),])
 ```
@@ -451,11 +450,11 @@ We also have some information about their stock exchange listing, where we see t
 ```
 
 ```{r}
-sec_prop_bars <- prop_pos_matches_sec_ndc %>% count(LABELERNAME, PROPRIETARYNAME) %>% select(-n) %>% count(LABELERNAME) %>% mutate(bucket = "sec_capture")
+sec_prop_bars <- prop_pos_matches_sec_ndc %>% count(LABELERNAME, prop_match) %>% select(-n) %>% count(LABELERNAME) %>% mutate(bucket = "sec_capture")
 ndc_prop_bars <- ndc_names_122 %>% count(LABELERNAME, PROPRIETARYNAME) %>% select(-n) %>% count(LABELERNAME) %>% mutate(bucket = "ndc_total")
 
 doublebars <- rbind(sec_prop_bars, ndc_prop_bars) 
-table(doublebars$n)
+#table(doublebars$n)
 doublebarstop <- doublebars[doublebars$n > 10, 1]
 doublebarstop <- unique(doublebarstop$LABELERNAME)
 doublebars_1 <- doublebars %>% filter(LABELERNAME %in% doublebarstop) %>% filter(LABELERNAME != "A-S Medication Solutions")
@@ -473,17 +472,52 @@ ggplot(doublebars_1, aes(x=LABELERNAME)) +
   xlab("") +
   ylab("SEC Captures vs  NDC Totals") +
   scale_fill_manual(values = c(muted("red"), muted("blue"))) +
-  coord_flip()
+  coord_flip() + customPlot2
 
 ```
 
-```{r}
+```{r eval = FALSE}
 sic <- readRDS(paste0(datapath1, "original/sic.download.RDS"))
 
 doublebars_1 %>% filter(LABELERNAME == "Endo Pharmaceuticals, Inc.")
 ndc_sec_ref %>%  filter(NDCCompany == "Endo Pharmaceuticals, Inc.")
-sic %>% filter(CIK == 1100962)
-final_product_list_singlefirstmentionsONLY %>% filter(str_detect(str_to_lower(CompanyString), "endo"))
+ciknames %>% filter(str_detect(str_to_lower(company_names), "endo p"))
+ciknames %>% filter(cik == "1100962")
+
+sic  %>% filter(str_detect(str_to_lower(Name), "endo ph"))
+
+doublebars_1 <- doublebars_1 %>% left_join(ndc_sec_ref, by = c("LABELERNAME" = "NDCCompany")) 
+doublebars_1 <- doublebars_1 %>% select(-SECCompany, -sic)
+
+intersect(as.character(final_product_list_singlefirstmentionsONLY$Company), doublebars_1$cik)
+
+totalcapturesdoublebars <- final_product_list_singlefirstmentionsONLY %>% 
+  filter(as.character(Company) %in% doublebars_1$cik) %>% 
+  select(Company, Token, Protect) %>% 
+  count(Company, Token) %>% select(-n) %>%
+  mutate(Company = as.character(Company)) %>%
+  count(Company) %>% 
+  left_join(ndc_sec_ref, by = c("Company" = "cik")) %>%
+  select(LABELERNAME = NDCCompany, n) %>%
+  mutate(bucket = "sec_unval_caps")
+
+final_product_list_singlefirstmentionsONLY_C <- final_product_list_singlefirstmentionsONLY
+final_product_list_singlefirstmentionsONLY_C$Company_c <- as.character(final_product_list_singlefirstmentionsONLY$Company)
+  
+totalcapturesdoublebars <- final_product_list_singlefirstmentionsONLY_C %>%
+  filter(Company_c %in% doublebars_1$cik) %>% 
+  left_join(ndc_sec_ref, by = c("Company_c" = "cik")) %>% 
+  count(NDCCompany, Token) %>%
+  select(-n) %>% 
+  count(NDCCompany)
+
+# doublebars_2 <- doublebars_1 %>% 
+#   left_join(totalcapturesdoublebars, by = c("cik" = "Company")) %>% 
+#   group_by(LABELERNAME, num = n.x, bucket = recode(bucket, `sec_capture` = "sec_val_capts")) %>% 
+#   summarise(num2 = sum(n.y, na.rm = T)) %>% filter(num2 >0)
+
+rbind(doublebars_1 %>% select(-cik) %>% distinct(), totalcapturesdoublebars) %>% arrange(LABELERNAME)
+
 
 ```
 
@@ -492,7 +526,7 @@ final_product_list_singlefirstmentionsONLY %>% filter(str_detect(str_to_lower(Co
 ```
 
 
-```{r}
+```{r eval = F}
 print("intersection of ciks between captures and original ciknames")
 length(intersect(final_product_list_singlefirstmentionsONLY$Company, ciknames$cik))
 print("number of captures")
@@ -506,6 +540,53 @@ length(unique(ciknames$cik))
 
 ```{r}
 setdiff(final_product_list_singlefirstmentionsONLY$Company, ciknames$cik)
+```
+
+
+
+```{r}
+
+final_product_list_singlefirstmentionsONLY_C <- final_product_list_singlefirstmentionsONLY
+final_product_list_singlefirstmentionsONLY_C$Company_c <- as.character(final_product_list_singlefirstmentionsONLY$Company)
+
+total_unval <- final_product_list_singlefirstmentionsONLY_C %>% 
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = NDCCompany), by = c("Company_c" = "cik")) %>%
+  select(LABELERNAME, Token, Protect, Name) %>% 
+  count(LABELERNAME, Token) %>% select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "unval")
+
+total_val <- prop_pos_matches_sec_ndc %>% 
+  filter(as.character(Company) %in% ndc_sec_ref$cik) %>% 
+  count(LABELERNAME, Token) %>% 
+  select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "val")
+
+total_ndc <- ndc_names_122 %>% 
+  count(LABELERNAME, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "ndc")
+
+
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(LABELERNAME)
+doublebarsdoublecheck <- doublebars %>% count(LABELERNAME, sec) %>% select(-n) %>% count(LABELERNAME) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(LABELERNAME %in% doublebarsdoublecheck$LABELERNAME)
+
+```
+
+
+```{r}
+ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures vs  NDC Totals") +
+  scale_fill_manual(values = myCol6) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
 ```
 
 
