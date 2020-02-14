@@ -24,6 +24,15 @@ ndc_names_122 <- ndc_product %>%
   mutate(Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),  #str_to_lower(PROPRIETARYNAME),
          Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), # str_to_lower(NONPROPRIETARYNAME),
          Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) # str_to_lower(SUBSTANCENAME))
+##did this one for marketing categories
+ndc_names_2 <- ndc_product %>%
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+  select(21, 4, 6, 13, 14, 3, 11) %>%
+  distinct() %>%
+  filter(LABELERNAME %in% ndc_sec_ref$NDCCompany) %>%
+  mutate(Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),  #str_to_lower(PROPRIETARYNAME),
+         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), # str_to_lower(NONPROPRIETARYNAME),
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) # str_to_lower(SUBSTANCENAME))
 
 nrow(ndc_names_122)
 length(unique(ndc_names_122$PROPRIETARYNAME))
@@ -66,6 +75,18 @@ prop_pos_matches_sec_ndc_122 <- prop_pos_matches_122 %>%
   left_join(ndc_names %>% select(year, PROPRIETARYNAME, LABELERNAME, Prop_low), by = c("PROPRIETARYNAME", "Prop_low", "year"))
 
 
+### DID THIS TO MAKE MARKETING CATEGORIES WORK for gary
+
+#used the read out prop_results
+prop_pos_matches_2 <- prop_results %>% tidyr::unnest(cols = c(prop_match))
+prop_pos_matches_sec_ndc_2 <- prop_pos_matches_2 %>%
+  left_join(captures, by = c("prop_match" = "capture")) %>%
+  left_join(final_product_list_singlefirstmentionsONLY, by = c("first_mention", "Token", "Name", "Protect")) %>%
+  left_join(ndc_names_2 %>% select(year, PROPRIETARYNAME, LABELERNAME, PRODUCTTYPENAME, MARKETINGCATEGORYNAME,  Prop_low), by = c("PROPRIETARYNAME", "Prop_low", "year"))
+
+
+#saveRDS(prop_pos_matches_sec_ndc_2, paste0(datapath1, "working/NDC/ndc_sec_prop_posmatch_markcatgary_results.RDS"))
+
 # saveRDS(prop_results_122, paste0(datapath1, "working/NDC/ndc_prop_match_results.RDS")) # "git/business_innovation/data/ndc_prop_match_results_122.RDS")
 #saveRDS(prop_pos_matches_sec_ndc_122, paste0(datapath1, "working/NDC/ndc_sec_prop_positive_match_results.RDS"))
 
@@ -83,7 +104,16 @@ nonprop_pos_matches_sec_ndc_122 <- nonprop_pos_matches_122 %>%
   left_join(final_product_list_singlefirstmentionsONLY, by = c("first_mention", "Token", "Name", "Protect")) %>%
   left_join(ndc_names %>% select(year, NONPROPRIETARYNAME, LABELERNAME, Nonprop_low), by = c("NONPROPRIETARYNAME", "Nonprop_low", "year"))
 
+### DID THIS TO MAKE MARKETING CATEGORIES WORK for gary
 
+#used the read out prop_results
+nonprop_pos_matches_2 <- nonprop_results %>% tidyr::unnest(cols = c(nonprop_match))
+nonprop_pos_matches_sec_ndc_2 <- nonprop_pos_matches_2 %>%
+  left_join(captures, by = c("nonprop_match" = "capture")) %>%
+  left_join(final_product_list_singlefirstmentionsONLY, by = c("first_mention", "Token", "Name", "Protect")) %>%
+  left_join(ndc_names_2 %>% select(year, NONPROPRIETARYNAME, LABELERNAME, PRODUCTTYPENAME, MARKETINGCATEGORYNAME,  Nonprop_low), by = c("NONPROPRIETARYNAME", "Nonprop_low", "year"))
+
+#saveRDS(nonprop_pos_matches_sec_ndc_2, paste0(datapath1, "working/NDC/ndc_sec_nonprop_posmatch_markcatgary_results.RDS"))
 #saveRDS(nonprop_results_122, paste0(datapath1, "working/NDC/ndc_nonprop_match_results.RDS"))
 # "git/business_innovation/data/ndc_prop_match_results_122.RDS")
 #saveRDS(nonprop_pos_matches_sec_ndc_122, paste0(datapath1, "working/NDC/ndc_sec_nonprop_positive_match_results.RDS"))

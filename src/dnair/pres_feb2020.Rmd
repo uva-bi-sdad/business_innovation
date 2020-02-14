@@ -23,8 +23,8 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 </style>
 
 ```{r libraries, echo = FALSE, warning=F, message=F}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis",
-                      fig.height = 5, fig.width = 6)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
+# fig.height = 5, fig.width = 6
 library(ggplot2)
 library(RColorBrewer)
 library(dplyr)
@@ -157,7 +157,7 @@ SEC:
 
 ### Distributions of Labelers (Companies)
 
-<div class="col2">
+
 All NDC Labelers
 
 ```{r}
@@ -174,7 +174,9 @@ ggplot(data = ndc_labelers %>% count(year, top25, LABELERNAME) %>% select(-n), a
 
 Top 25 NDC Labelers
 ```{r}
-ggplot(top25ndccompanies, aes(x =year, fill = "1")) +
+top_25_ndc_companies <- top25ndccompanies %>% select(year, LABELERNAME) %>% distinct()
+
+ggplot(top_25_ndc_companies, aes(x =year, fill = "1")) +
   geom_bar(stat = "count") +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
   customPlot2 +
@@ -184,11 +186,11 @@ ggplot(top25ndccompanies, aes(x =year, fill = "1")) +
        subtitle = "Yearly NDC Company Counts Among Top 25 Labelers",
        y = "Number of companies", x = "Year")
 ```
-</div>
+
 
 ### Distributions of Marketing Categories
 
-<div class="col2">
+
 NDC Listings by all Labelers
 ```{r}
 ggplot(data = ndc_products_labelers %>% count(PRODUCTTYPENAME, top25), aes(x = PRODUCTTYPENAME, y = n, fill = as.factor(top25))) +
@@ -214,11 +216,11 @@ ggplot(ndc_products_labelers %>% filter(top25 == "top25") %>% count(PRODUCTTYPEN
        subtitle = "Yearly NDC Company Counts Among Top 25 Labelers",
        y = "Number of companies", x = "Year")
 ```
-</div>
+
 
 ### Marketing Categories (Pie)
 
-<div class="col2">
+
 NDC Listings by all Labelers
 ```{r}
 ggplot(data = ndc_catgry_products, aes(x = "", y = n, fill = product)) +
@@ -245,17 +247,17 @@ ggplot(data = ndc_catgry_products_top25, aes(x = "", y = n, fill = product)) +
        y = "Number of NDC listing", x = "Marketing Category")
 ```
 
-</div>
+
 
 N.B. Other includes the following categories: plasma derivative, standardized allergenic, vaccine, and cellular therapy. All Labelers had values for all 4 of these categories (values ranged from 6-132). The Top 25 labelers only had values for standardized allergenics and vaccines (both <30).
 
 
 ### SEC Overview
 
-<div class="col2">
+
 All SEC Filers
 ```{r }
-ggplot(data = sec_filers %>% count(first_mention, top25, Company) %>% select(-n), aes(x = first_mention, fill = as.factor(top25))) +
+ggplot(data = sec_filers %>% count(first_mention, top25, Company) %>% select(-n) %>% filter(first_mention > 2012), aes(x = first_mention, fill = as.factor(top25))) +
   geom_bar(stat = "count") +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
   customPlot2 +
@@ -268,7 +270,7 @@ ggplot(data = sec_filers %>% count(first_mention, top25, Company) %>% select(-n)
 
 Top 25 SEC Filers
 ```{r}
-ggplot(top25seccompanies, aes(x =first_mention, fill = "1")) +
+ggplot(top25seccompanies %>% count(first_mention, Company) %>% select(-n), aes(x =first_mention, fill = "1")) +
   geom_bar(stat = "count") +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
   customPlot2 +
@@ -278,14 +280,14 @@ ggplot(top25seccompanies, aes(x =first_mention, fill = "1")) +
        subtitle = "Yearly SEC Company Counts Among Top 25 Filers",
        y = "Number of companies", x = "Year")
 ```
-</div>
+
 
 
 ## Matching Method
 
 ### Company Name Matching
 
-<div class="col2">
+
 Steps:
 
 1. Cleaned SEC & NDC Company names
@@ -320,11 +322,11 @@ rownames(stringdistance) <- vec
 colnames(stringdistance) <- pat
 stringdistance %>% knitr::kable()
 ```
-</div>
 
-Product Name Matching
 
-<div class="col3">
+### Product Name Matching
+
+
 ```{r}
 #ndc_sec_ref
 prop_results <- readRDS(paste0(datapath1, "working/NDC/ndc_prop_match_results.RDS"))
@@ -356,11 +358,12 @@ Match Steps:
 
 1. Detected presence of SEC capture WITHIN NDC product names
 2. Joined back to SEC filers and NDC labelers (2 one to many joins!)
-</div>
+
 
 
 ### Validated Listings Results
-<div class="col2">
+
+
 ```{r}
 prop_match_summary <- as.data.frame(table(prop_results$matches)) %>% mutate(match = "prop")
 nonprop_match_summary <- as.data.frame(table(nonprop_results$matches)) %>% mutate(match = "nonprop")
@@ -376,171 +379,23 @@ match_summary <- match_summary %>% group_by(match, val = ifelse(Var1 == 0, "NDC 
 ggplot(data = match_summary, aes(x = match, y = n, fill = val)) +
   geom_bar(stat = "identity")  +
   #geom_text(aes(label = as.integer(100*(n/sum(n)))), vjust = 3.5) +
-  geom_text(aes(label = n)) +
+  geom_text(aes(x = match, y = ifelse(n > 500, 250, 770), label = n, group = val)) +
   customPlot2 +
   scale_fill_manual(values = myCol6, na.translate = FALSE) +
   labs(title = "How do NDC listings stack up in each name matching method? ",
        subtitle = "Proportion of NDC Listings per Match Method",
        y = "Number of NDC Names", x = "Match Type")
 ```
-</div>
 
+
+
+
+```{r eval = F}
 ### Look by product
-
-```{r}
 venn::venn(list(prop_pos_matches_sec_ndc$prop_match, nonprop_pos_matches_sec_ndc$nonprop_match, sub_pos_matches_sec_ndc$sub_match), ilabels = TRUE,  zcolor = myCol6[1:3], snames = c("Proprietary", "Non-Proprietary", "Substance"))
 ```
 
 
-*Example "coreg" - NDC Match Results*
-
-```{r}
-example <- data.frame("column" = colnames(prop_pos_matches_sec_ndc), "example" = maditr::transpose(head(prop_pos_matches_sec_ndc, 1)))
-colnames(example) <- c("Column", "Example")
-#prop_pos_matches_sec_ndc %>% filter(prop_match == "advair") %>% select(-matches,,-Prop_low, -prop_match) %>% knitr::kable()
-knitr::kable(example[c(7, 2, 1, 26),])
-```
-
-Our token coreg matched with a proprietary name in NDC called "COREG." This particular listing shows a Marketing Start Date in 2007 by GlaxoSmithKline.
-
-*Example "coreg" - SEC Match Results A*
-
-
-```{r}
-knitr::kable(example[c(7,6, 9, 10, 18:19),])
-```
-
-This token was pulled from an SEC filing filed by *FLAMEL TECHNOLOGIES SA, AVADEL PHARMACEUTICALS PLC* a pharma industry company. When it was pulled they didn't refer to it with a brand protection. The company is not based in the US. We have first mention as 2013, but note we haven't pulled filings prior to 2012.
-
-*Example "coreg" - SEC Match Results B*
-
-```{r}
-knitr::kable(example[c(7,11:16),])
-```
-
-Here you can see how Flamel has referred to this token over time, with the most references in their 2013 10-K filing and a quarter of those in 2014.
-
-*Example "coreg" - SEC Match Results C*
-
-```{r}
-knitr::kable(example[c(7,20:24),])
-```
-
-We also have some information about their stock exchange listing, where we see that they are based in France.
-
-
-```{r trash, eval = FALSE}
-# match_summary
-# top25seccompanies
-# top25ndccompanies
-#sec_prop_bars <- prop_results %>% mutate(validated = ifelse(matches == 0, "unvalidated", "validated"))
-
-# ggplot(doublebars_1, aes(x=LABELERNAME)) +
-#    geom_bar(data = subset(doublebars_1, bucket == "sec_capture"),
-#    aes(y=n, fill = n), stat = "identity") +
-#   geom_bar(data = subset(doublebars_1, bucket == "ndc_total"),
-#   aes(y=-n, fill = -n), stat = 'identity') +
-#   scale_y_continuous(labels = comma) +
-#   xlab("") +
-#   ylab("SEC Captures vs  NDC Totals") +
-#   scale_fill_gradient2(low = muted("red"),
-#   mid = "white", high = muted("blue"), midpoint = 0,space = "rgb") +
-#   coord_flip()
-
-```
-
-```{r}
-sec_prop_bars <- prop_pos_matches_sec_ndc %>% count(LABELERNAME, prop_match) %>% select(-n) %>% count(LABELERNAME) %>% mutate(bucket = "sec_capture")
-ndc_prop_bars <- ndc_names_122 %>% count(LABELERNAME, PROPRIETARYNAME) %>% select(-n) %>% count(LABELERNAME) %>% mutate(bucket = "ndc_total")
-
-doublebars <- rbind(sec_prop_bars, ndc_prop_bars) 
-#table(doublebars$n)
-doublebarstop <- doublebars[doublebars$n > 10, 1]
-doublebarstop <- unique(doublebarstop$LABELERNAME)
-doublebars_1 <- doublebars %>% filter(LABELERNAME %in% doublebarstop) %>% filter(LABELERNAME != "A-S Medication Solutions")
-
-```
-
-
-```{r}
-ggplot(doublebars_1, aes(x=LABELERNAME)) +
-   geom_bar(data = subset(doublebars_1, bucket == "sec_capture"),
-   aes(y=n, fill = bucket), stat = "identity") +
-  geom_bar(data = subset(doublebars_1, bucket == "ndc_total"),
-  aes(y=-n, fill = bucket), stat = 'identity') +
-  scale_y_continuous(labels = comma) +
-  xlab("") +
-  ylab("SEC Captures vs  NDC Totals") +
-  scale_fill_manual(values = c(muted("red"), muted("blue"))) +
-  coord_flip() + customPlot2
-
-```
-
-```{r eval = FALSE}
-sic <- readRDS(paste0(datapath1, "original/sic.download.RDS"))
-
-doublebars_1 %>% filter(LABELERNAME == "Endo Pharmaceuticals, Inc.")
-ndc_sec_ref %>%  filter(NDCCompany == "Endo Pharmaceuticals, Inc.")
-ciknames %>% filter(str_detect(str_to_lower(company_names), "endo p"))
-ciknames %>% filter(cik == "1100962")
-
-sic  %>% filter(str_detect(str_to_lower(Name), "endo ph"))
-
-doublebars_1 <- doublebars_1 %>% left_join(ndc_sec_ref, by = c("LABELERNAME" = "NDCCompany")) 
-doublebars_1 <- doublebars_1 %>% select(-SECCompany, -sic)
-
-intersect(as.character(final_product_list_singlefirstmentionsONLY$Company), doublebars_1$cik)
-
-totalcapturesdoublebars <- final_product_list_singlefirstmentionsONLY %>% 
-  filter(as.character(Company) %in% doublebars_1$cik) %>% 
-  select(Company, Token, Protect) %>% 
-  count(Company, Token) %>% select(-n) %>%
-  mutate(Company = as.character(Company)) %>%
-  count(Company) %>% 
-  left_join(ndc_sec_ref, by = c("Company" = "cik")) %>%
-  select(LABELERNAME = NDCCompany, n) %>%
-  mutate(bucket = "sec_unval_caps")
-
-final_product_list_singlefirstmentionsONLY_C <- final_product_list_singlefirstmentionsONLY
-final_product_list_singlefirstmentionsONLY_C$Company_c <- as.character(final_product_list_singlefirstmentionsONLY$Company)
-  
-totalcapturesdoublebars <- final_product_list_singlefirstmentionsONLY_C %>%
-  filter(Company_c %in% doublebars_1$cik) %>% 
-  left_join(ndc_sec_ref, by = c("Company_c" = "cik")) %>% 
-  count(NDCCompany, Token) %>%
-  select(-n) %>% 
-  count(NDCCompany)
-
-# doublebars_2 <- doublebars_1 %>% 
-#   left_join(totalcapturesdoublebars, by = c("cik" = "Company")) %>% 
-#   group_by(LABELERNAME, num = n.x, bucket = recode(bucket, `sec_capture` = "sec_val_capts")) %>% 
-#   summarise(num2 = sum(n.y, na.rm = T)) %>% filter(num2 >0)
-
-rbind(doublebars_1 %>% select(-cik) %>% distinct(), totalcapturesdoublebars) %>% arrange(LABELERNAME)
-
-
-```
-
-```{r}
-
-```
-
-
-```{r eval = F}
-print("intersection of ciks between captures and original ciknames")
-length(intersect(final_product_list_singlefirstmentionsONLY$Company, ciknames$cik))
-print("number of captures")
-nrow(final_product_list_singlefirstmentionsONLY)
-print("number of unique ciks in captures")
-length(unique(final_product_list_singlefirstmentionsONLY$Company))
-print("number of ciknames")
-length(unique(ciknames$cik))
-
-```
-
-```{r}
-setdiff(final_product_list_singlefirstmentionsONLY$Company, ciknames$cik)
-```
 
 
 
@@ -576,22 +431,292 @@ doublebars <- doublebars %>% filter(LABELERNAME %in% doublebarsdoublecheck$LABEL
 
 ```
 
-
 ```{r}
-ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
+all_bars <- ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
   geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
   scale_y_continuous(labels = comma) +
   xlab("") +
-  ylab("SEC Captures vs  NDC Totals") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
   scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
+
+all_bars
+```
+
+
+```{r}
+valndc_bars <- ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars, sec == "val"), aes(y=n, fill = sec), stat = "identity") +
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6[c(1,3)]) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+
+valndc_bars
+```
+
+```{r}
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(LABELERNAME  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)), 
+         ndc_perc = scales::percent(val/ndc))
+
+ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
+  geom_text(data = doublebars_perc, aes(reorder(LABELERNAME, ndc), y = -140), label = doublebars_perc$ndc_perc) + 
+  geom_text(data = doublebars_perc, aes(reorder(LABELERNAME, ndc), y = +150), label = doublebars_perc$val_perc) + 
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+  
+
 ```
 
 
 
-Thank you!
+```{r}
+doublebars_perc2 <- doublebars %>%
+  reshape2::dcast(LABELERNAME  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_ndc_perc = val/ndc, 
+         unval_ndc_perc = unval/ndc) %>% 
+  tidyr::pivot_longer(c(`val_ndc_perc`, `unval_ndc_perc`)) %>% select(-ndc, -unval, -val) %>% 
+  mutate(val_perc = as.integer(100*(value)))
+
+# ggplot(data = doublebars_perc2, aes(x = name, y = value)) +
+#   geom_boxplot(outlier.colour="black", outlier.shape=16, outlier.size=2, notch=FALSE)
+
+ggplot(data = doublebars_perc2 %>% filter(name == "val_ndc_perc"), aes(x = name, y = val_perc)) +
+  geom_boxplot(outlier.colour="black", outlier.shape=16, outlier.size=2, notch=FALSE) 
 
 
+```
+
+```{r}
+ggplot(data = doublebars_perc2 %>% filter(name == "unval_ndc_perc"), aes(x = val_perc)) +
+  geom_histogram() +
+  facet_wrap(~name) +
+  customPlot2
+```
+
+```{r}
+ggplot(data = doublebars_perc2 %>% filter(name == "val_ndc_perc"), aes(x = val_perc)) +
+  geom_histogram() +
+  facet_wrap(~name) +
+  customPlot2
+```
+
+
+### Marketing Category Results
+
+
+```{r}
+prop_pos_matches_sec_ndc_markcat <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_prop_posmatch_markcatgary_results.RDS"))
+
+ndc_names_2 <- ndc_product %>%
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+  select(21, 4, 6, 13, 14, 3, 11) %>%
+  distinct() %>%
+  filter(LABELERNAME %in% ndc_sec_ref$NDCCompany) %>%
+  mutate(Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),
+         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) 
+
+
+total_val2 <- prop_pos_matches_sec_ndc_markcat %>% 
+  filter(as.character(Company) %in% ndc_sec_ref$cik) %>% 
+  count(PRODUCTTYPENAME, Token) %>% 
+  select(-n) %>% 
+  count(PRODUCTTYPENAME) %>% 
+  mutate(sec = "val")
+
+total_ndc2 <- ndc_names_2 %>% 
+  count(PRODUCTTYPENAME, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(PRODUCTTYPENAME) %>% 
+  mutate(sec = "ndc")
+
+doublebars2 <- rbind(total_val2, total_ndc2) %>% arrange(PRODUCTTYPENAME)
+doublebarsdoublecheck2 <- doublebars2 %>% count(PRODUCTTYPENAME, sec) %>% select(-n) %>% count(PRODUCTTYPENAME) %>% filter(n == 2)
+doublebars2 <- doublebars2 %>% filter(PRODUCTTYPENAME %in% doublebarsdoublecheck2$PRODUCTTYPENAME)
+
+```
+
+
+```{r}
+valndc_bars <- ggplot(doublebars2, aes(x=reorder(PRODUCTTYPENAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars2, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars2, sec == "val"), aes(y=n, fill = sec), stat = "identity") +
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6[c(1,3)]) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+
+valndc_bars
+```
+
+
+
+```{r}
+doublebars_perc2 <- doublebars2 %>%
+  reshape2::dcast(PRODUCTTYPENAME  ~ sec, sum, value.var = "n") %>% 
+  mutate(ndc_perc = scales::percent(val/ndc))
+
+ggplot(doublebars2, aes(x=reorder(PRODUCTTYPENAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars2, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars2, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
+  geom_text(data = doublebars_perc2, aes(reorder(PRODUCTTYPENAME, ndc), y = -480), label = doublebars_perc2$ndc_perc) + 
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6[c(1,3)]) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+
+```
+
+------
+### Example 
+
+*Example "coreg" - NDC Match Results*
+
+```{r}
+example <- data.frame("column" = colnames(prop_pos_matches_sec_ndc_markcat), "example" = maditr::transpose(head(prop_pos_matches_sec_ndc_markcat, 1)))
+colnames(example) <- c("Column", "Example")
+#prop_pos_matches_sec_ndc %>% filter(prop_match == "advair") %>% select(-matches,,-Prop_low, -prop_match) %>% knitr::kable()
+
+knitr::kable(example)
+
+#View(example)
+
+#knitr::kable(example[c(7, 2, 1, 26),])
+```
+
+Our token coreg matched with a proprietary name in NDC called "COREG." This particular listing shows a Marketing Start Date in 2007 by GlaxoSmithKline.
+
+*Example "coreg" - SEC Match Results A*
+
+
+```{r eval = F}
+knitr::kable(example[c(7,6, 9, 10, 18:19),])
+```
+
+This token was pulled from an SEC filing filed by *FLAMEL TECHNOLOGIES SA, AVADEL PHARMACEUTICALS PLC* a pharma industry company. When it was pulled they didn't refer to it with a brand protection. The company is not based in the US. We have first mention as 2013, but note we haven't pulled filings prior to 2012.
+
+*Example "coreg" - SEC Match Results B*
+
+```{r eval = F}
+knitr::kable(example[c(7,11:16),])
+```
+
+Here you can see how Flamel has referred to this token over time, with the most references in their 2013 10-K filing and a quarter of those in 2014.
+
+*Example "coreg" - SEC Match Results C*
+
+```{r eval = F}
+knitr::kable(example[c(7,20:24),])
+```
+
+We also have some information about their stock exchange listing, where we see that they are based in France.
+
+
+```{r}
+final_product_list_singlefirstmentionsONLY_C <- final_product_list_singlefirstmentionsONLY
+final_product_list_singlefirstmentionsONLY_C$Company_c <- as.character(final_product_list_singlefirstmentionsONLY$Company)
+
+total_unval <- final_product_list_singlefirstmentionsONLY_C %>% 
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = NDCCompany), by = c("Company_c" = "cik")) %>%
+  select(LABELERNAME, Token, Protect, Name) %>% 
+  count(LABELERNAME, Token) %>% select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "unval")
+
+total_val <- nonprop_pos_matches_sec_ndc %>% 
+  filter(as.character(Company) %in% ndc_sec_ref$cik) %>% 
+  count(LABELERNAME, Token) %>% 
+  select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "val")
+
+total_ndc <- ndc_names_122 %>% 
+  count(LABELERNAME, NONPROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "ndc")
+
+
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(LABELERNAME)
+doublebarsdoublecheck <- doublebars %>% count(LABELERNAME, sec) %>% select(-n) %>% count(LABELERNAME) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(LABELERNAME %in% doublebarsdoublecheck$LABELERNAME)
+```
+
+```{r}
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(LABELERNAME  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)), 
+         ndc_perc = scales::percent(val/ndc))
+
+ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
+  geom_text(data = doublebars_perc, aes(reorder(LABELERNAME, ndc), y = -140), label = doublebars_perc$ndc_perc) + 
+  geom_text(data = doublebars_perc, aes(reorder(LABELERNAME, ndc), y = +150), label = doublebars_perc$val_perc) + 
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+
+```
+
+
+```{r}
+nonprop_pos_matches_sec_ndc_2 <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_nonprop_posmatch_markcatgary_results.RDS"))
+
+total_val2 <- nonprop_pos_matches_sec_ndc_2 %>% 
+  filter(as.character(Company) %in% ndc_sec_ref$cik) %>% 
+  count(PRODUCTTYPENAME, Token) %>% 
+  select(-n) %>% 
+  count(PRODUCTTYPENAME) %>% 
+  mutate(sec = "val")
+
+total_ndc2 <- ndc_names_2 %>% 
+  count(PRODUCTTYPENAME, NONPROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(PRODUCTTYPENAME) %>% 
+  mutate(sec = "ndc")
+
+doublebars2 <- rbind(total_val2, total_ndc2) %>% arrange(PRODUCTTYPENAME)
+doublebarsdoublecheck2 <- doublebars2 %>% count(PRODUCTTYPENAME, sec) %>% select(-n) %>% count(PRODUCTTYPENAME) %>% filter(n == 2)
+doublebars2 <- doublebars2 %>% filter(PRODUCTTYPENAME %in% doublebarsdoublecheck2$PRODUCTTYPENAME)
+
+```
+
+```{r}
+doublebars_perc2 <- doublebars2 %>%
+  reshape2::dcast(PRODUCTTYPENAME  ~ sec, sum, value.var = "n") %>% 
+  mutate(ndc_perc = scales::percent(val/ndc))
+
+ggplot(doublebars2, aes(x=reorder(PRODUCTTYPENAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars2, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars2, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
+  geom_text(data = doublebars_perc2, aes(reorder(PRODUCTTYPENAME, ndc), y = -480), label = doublebars_perc2$ndc_perc) + 
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6[c(1,3)]) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+```
 

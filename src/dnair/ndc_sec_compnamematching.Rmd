@@ -13,7 +13,7 @@ library(stringr)
 datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
 ndc_product <- readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))
 ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
-ciknames %>% filter(str_detect(str_to_lower(company_names), pattern = "collegium"))
+ciknames %>% filter(str_detect(str_to_lower(company_names), pattern = "endo"))
 ```
 
 
