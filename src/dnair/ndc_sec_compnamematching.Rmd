@@ -26,7 +26,7 @@ ndc_labelers <- ndc_product %>% count(l_num = str_extract(PRODUCTID, "^\\d*"), L
 ```
 
 ```{r}
-cik_companies <- cik_2834_names %>% mutate(name = str_trim(str_to_lower(str_replace_all(company_names, "[:punct:]", replacement = " ")))) %>% distinct()
+cik_companies <- ciknames %>% mutate(name = str_trim(str_to_lower(str_replace_all(company_names, "[:punct:]", replacement = " ")))) %>% distinct()
 
 ndc_companies <- ndc_labelers %>% mutate(name = str_trim(str_to_lower(str_replace_all(LABELERNAME, "[:punct:]", replacement = " ")))) %>% distinct()
 
@@ -55,6 +55,8 @@ intersect(cik_companies$name, ndc_companies$name)
 exactmatches <- cik_companies %>% 
   inner_join(ndc_companies, by = "name")
 
+#write.csv(exactmatches, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/NDC_SEC_CompNames/exactcleanednamematches.csv")
+
 matchmakers <- cik_companies %>% 
   anti_join(ndc_companies, by = "name")
 
@@ -62,7 +64,7 @@ matchees <- ndc_companies %>%
   anti_join(cik_companies, by = "name")
 
 nrow(ndc_companies) - nrow(matchees) #42 - some names repeat in labelers? 
-nrow(cik_companies) - nrow(matchmakers) == 38
+nrow(cik_companies) - nrow(matchmakers) #== 38
 ```
 
 Approach 2 Opt 1 - CLEANED acronyms WITH all tokens - match sets then spot check 
@@ -73,6 +75,7 @@ matchmakers_cleaned <- matchmakers %>%
   tidyr::unnest(comp_split) %>% 
   mutate(cik, name = str_trim(str_to_lower(str_replace_all(comp_split, "[:punct:]", replacement = " "))))
 
+matchmakers_cleaned
 
 
 rm(i)
@@ -94,7 +97,9 @@ for (i in 1:nrow(matchmakers_cleaned)) {
 finalset <- do.call("rbind", finalset)
 #one_match_only <- finalset %>% count(SEC) %>% filter(n == 1)
 #finalset %>% filter(SEC %in% one_match_only$SEC) %>% arrange(val)
-write.csv(finalset, "~/sec_ndc_name_distance_match_set_approach_2_1.csv")
+#write.csv(finalset, "~/sec_ndc_name_distance_match_set_approach_2_1.csv")
+matchresult1 <- read.csv("~/dtn2ep_homedir_overflow/sec_ndc_name_distance_match_set_approach_2_1.csv")
+length(unique(matchresult1$SEC))
 ```
 
 Remove inc/corp 
@@ -129,7 +134,9 @@ finalsetwnames <-  finalset %>% left_join(matchmakers_ultra_clean, by = c("SEC" 
 
 #one_match_only <- finalset %>% count(SEC) %>% filter(n == 1)
 #finalset %>% filter(SEC %in% one_match_only$SEC) %>% arrange(val)
-write.csv(finalsetwnames, "~/sec_ndc_name_distance_match_set_approach_2_2.csv")
+#write.csv(finalsetwnames, "~/sec_ndc_name_distance_match_set_approach_2_2.csv")
+matchresult2 <- read.csv("~/dtn2ep_homedir_overflow/sec_ndc_name_distance_match_set_approach_2_2.csv")
+length(unique(matchresult2$SEC))
 ```
 
 
@@ -140,11 +147,8 @@ Approach 2 Opt 3 - spell check all tokens? then match
 
 
 ```{r}
-ndc_companies %>% filter(str_detect(name, "genv"))
-
+ndc_companies %>% filter(str_detect(name, "access "))
 #write.csv(ndc_companies, "ndc_companies.csv")
-
-
 ```
 
 ```{r}

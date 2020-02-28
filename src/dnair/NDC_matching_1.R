@@ -9,7 +9,7 @@ final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working
 ndc_sec_ref <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_ref90.RDS"))
 
 ndc_names1 <- ndc_product %>%
-  filter(LABELERNAME %in% ndc_sec_ref$NDCCompany) %>% 
+  filter(LABELERNAME %in% ndc_sec_ref$NDCCompany) %>%
   mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
   select(21, 4, 6, 14) %>%
   distinct() %>%
@@ -38,7 +38,7 @@ nonprop_results1 <- ndc_names1 %>%  as.data.table() %>%
   dt_mutate(nonprop_match = str_extract_all(Nonprop_low, pattern = captures_patt),
             matches = lengths(nonprop_match))
 
-#saveRDS(nonprop_results, paste0(datapath1, "working/NDC/ndc_nonprop_match_results1.RDS")) 
+#saveRDS(nonprop_results, paste0(datapath1, "working/NDC/ndc_nonprop_match_results1.RDS"))
 
 sub_results1 <- ndc_names1 %>% as.data.table() %>%
   dt_select(year, SUBSTANCENAME, Sub_low) %>%
@@ -102,52 +102,51 @@ ggplot(data = matching_results, aes(x = year, y = perc_matched, fill = match)) +
 
 
 # ### Year specific
-# 
-# 
+#
+#
 # ndc <- ndc_names %>% filter(year > 2011 & year < 2018)
 # ndc_by_yr <- split(x = ndc, f = ndc$year )
 # captures_by_yr <- split(captures, f = captures$first_mention)
-# 
+#
 # library(data.table)
 # library(maditr)
-# 
+#
 # patt <- list()
-# 
+#
 # for (i in 1:length(captures_by_yr)) {
 #   capts <- unique(captures_by_yr[[i]]$Token)
 #   patt[i] <- paste0("\\b", "(", paste0( paste(str_trim(str_replace_all(str_remove_all(str_to_lower(capts), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), sep = ""), collapse = "|"), ")", "\\b")
 #   patt <- unlist(patt)
 # }
-# 
+#
 # ndc_p_res_by_yr <- list()
 # ndc_np_res_by_yr <- list()
 # ndc_s_res_by_yr <- list()
-# 
+#
 # for (i in 1:length(ndc_by_yr)) {
 #   ndc_p_res_by_yr[[i]] <- ndc_by_yr[[i]] %>% as.data.table() %>%
 #     dt_select(year, PROPRIETARYNAME, Prop_low) %>%
 #     dt_mutate(prop_match = str_extract_all(Prop_low, pattern = patt[i]),
 #               matches = lengths(prop_match))
-#   
+#
 #   ndc_np_res_by_yr[[i]] <- ndc_by_yr[[i]] %>% as.data.table() %>%
 #     dt_select(year, PROPRIETARYNAME, Prop_low) %>%
 #     dt_mutate(prop_match = str_extract_all(Prop_low, pattern = patt[i]),
 #               matches = lengths(prop_match))
-#   
+#
 #   ndc_s_res_by_yr[[i]] <- ndc_by_yr[[i]] %>% as.data.table() %>%
 #     dt_select(year, PROPRIETARYNAME, Prop_low) %>%
 #     dt_mutate(prop_match = str_extract_all(Prop_low, pattern = patt[i]),
 #               matches = lengths(prop_match))
 # }
-# 
+#
 # saveRDS(ndc_p_res_by_yr, "~/git/business_innovation/ yearly_prop_match_results.RDS")
 # saveRDS(ndc_np_res_by_yr, "~/git/business_innovation/data/yearly_nonprop_match_results.RDS")
 # saveRDS(ndc_s_res_by_yr, "~/git/business_innovation/data/yearly_sub_match_results.RDS")
-# 
+#
 # ndc_p_res_by_yr <- readRDS("~/git/business_innovation/datayearly_prop_match_results.RDS")
 # ndc_np_res_by_yr <- readRDS("~/git/business_innovation/data/yearly_nonprop_match_results.RDS")
 # ndc_s_res_by_yr <- readRDS("~/git/business_innovation/data/yearly_sub_match_results.RDS")
-# 
-
+#
 
 

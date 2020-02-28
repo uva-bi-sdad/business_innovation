@@ -34,15 +34,51 @@ library(scales)
 
 ```{r data}
 datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
-ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt"))
+ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt")) %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"), formulationcode = str_extract(PRODUCTNDC, "(?<=-)\\d*"))
 
 final_product_list <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_dec20.RDS"))
 final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_singmention_dec20.RDS"))
 
 ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
-ndc_sec_ref <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_ref90.RDS")) %>% select(-l_num) %>% distinct()
-
+#ndc_sec_ref <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_ref90.RDS")) %>% select(-l_num) %>% distinct()
+ndc_sec_ref <- readxl::read_excel(paste0(datapath2, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
 ```
+
+```{r eval=FALSE}
+length(unique(ndc_sec_ref$family))
+length(unique(ndc_sec_ref$cik))
+length(unique(ndc_sec_ref$secname))
+length(unique(ndc_sec_ref$sec))
+length(unique(ndc_sec_ref$ndc_labeler))
+lnums <- unique(str_trim(unlist(str_split(ndc_sec_ref$lnum, ","))))
+length(lnums[!is.na(lnums)])
+
+ndc_percorpfamily_ct <- ndc_sec_ref %>% count(family, ndc_labeler) %>% select(-n) %>% count(family)
+sec_percorpfamily_ct <- ndc_sec_ref %>% count(family, cik) %>% select(-n) %>% count(family)
+max(ndc_percorpfamily_ct$n)
+
+ndc_sec_ref %>% count(method)
+
+ggplot(ndc_percorpfamily_ct, aes(x = reorder(family, X = n), y = n)) + 
+  geom_bar(stat = "identity") +
+  coord_flip()
+
+ggplot(sec_percorpfamily_ct, aes(x = reorder(family, X = n), y = n)) + 
+  geom_bar(stat = "identity") +
+  coord_flip()
+
+secmults <- sec_percorpfamily_ct %>% filter(n > 1) %>% .$family
+ndcmults <- ndc_percorpfamily_ct %>% filter(n > 1) %>% .$family
+
+ndc_sec_ref %>% select(1,4,5) %>% distinct() %>% filter(family %in% secmults)
+ndc_sec_ref %>% select(1,10) %>% distinct() %>% filter(family %in% ndcmults) %>% View()
+
+ndc_sec_ref
+```
+
 
 ```{r plotsettings2}
 customPlot2 = list(
@@ -78,28 +114,154 @@ myCol8 <- brewer.pal(8, "Pastel2")
 ```
 
 ```{r}
-ndc_names_122 <- ndc_product %>%
-  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
-  select(21, 4, 6, 13, 14) %>%
-  distinct() %>%
-  filter(LABELERNAME %in% ndc_sec_ref$NDCCompany) %>%
-  mutate(Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),  
-         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
-         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) 
+# ndc_validateset <- ndc_product %>%
+#   mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+#   select(21, 4, 6, 13, 14) %>%
+#   distinct() %>%
+#   filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
+#   mutate(Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),  #str_to_lower(PROPRIETARYNAME),
+#          Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), # str_to_lower(NONPROPRIETARYNAME),
+#          Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")))
 
 ```
 
 
+```{r}
+# ndc_names_122 <- ndc_product %>%
+#   mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+#   select(21, 4, 6, 13, 14) %>%
+#   distinct() %>%
+#   filter(LABELERNAME %in% ndc_sec_ref$NDCCompany) %>%
+#   mutate(Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),  
+#          Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
+#          Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) 
+
+```
+
+
+```{r, eval = F}
+colnames(ndc_product)
+head(ndc_product)
+unique(ndc_product$DOSAGEFORMNAME)
+length(unique(ndc_product$PRODUCTNDC))
+ndc_product <- ndc_product %>% mutate(lnum = str_extract(PRODUCTNDC, "^\\d*\\b"))
+length(unique(ndc_product$lnum))
+```
+
+```{r}
+ndc_product %>% select(3,4,6:11, 13:14, 15:17) %>% head() %>% View()
+
+universe_ndc_listings_ct <- ndc_product %>% count(year = as.integer(year)) %>% mutate(product = "listing")
+universe_ndc_drugs_ct <- ndc_product %>% count(year = as.integer(year), PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME) %>% select(-n) %>% count(year) %>% mutate(product = "drug")
+sum(universe_ndc_drugs_ct$n)
+
+products_ct = rbind(universe_ndc_listings_ct, universe_ndc_drugs_ct)
+products_ct$year <- as.integer(products_ct$year)
+
+```
+
+
+
+```{r}
+ggplot(data = products_ct, aes(x = year, y = n, fill = product)) +
+  geom_bar(stat = "identity", position = position_dodge(preserve = "total")) +
+  #geom_text(data = products_ct %>% filter(product == "listing") %>% filter(n > 1000),  stat = "identity", aes(label = n), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(3,5)], na.translate = FALSE) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
+  labs(title = "Number of NDC drugs and listings over time",
+       y = "Number of drugs and listings", x = "Year") 
+
+ggplot(data = universe_ndc_drugs_ct, aes(x = year, y = n)) +
+  geom_bar(stat = "identity") +
+  #geom_text(data = products_ct %>% filter(product == "listing") %>% filter(n > 1000),  stat = "identity", aes(label = n), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  #scale_fill_manual(values = myCol6[c(3,5)], na.translate = FALSE) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
+  labs(title = "Number of NDC drugs over time",
+       y = "Number of drugs", x = "Year") 
+
+ggplot(data = universe_ndc_listings_ct, aes(x = year, y = n)) +
+  geom_bar(stat = "identity") +
+  #geom_text(data = products_ct %>% filter(product == "listing") %>% filter(n > 1000),  stat = "identity", aes(label = n), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  #scale_fill_manual(values = myCol6[c(3,5)], na.translate = FALSE) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
+  labs(title = "Number of NDC listings over time",
+       y = "Number of listings", x = "Year") 
+```
+
+
+
+```{r}
+labelers_over_years  <- ndc_product %>% count(year = as.integer(year), LABELERNAME) %>% select(-n) %>% count(year)
+```
+
+
+```{r}
+ggplot(data = labelers_over_years, aes(x = year, y = n )) +
+  geom_bar(stat = "identity") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
+  labs(title = "Number of NDC labelers over time",
+       y = "Number of labelers", x = "Year")
+
+ggplot(data = labelers_over_years %>% filter(year > 2012 ), aes(x = year, y = n )) +
+  geom_bar(stat = "identity") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 7)) +
+  labs(title = "Number of NDC labelers over study period",
+       y = "Number of labelers", x = "Year")
+```
+
+
+```{r}
+drugs_per_labeler <- ndc_product %>% count(LABELERNAME, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME)  %>% select(-n) %>% count(LABELERNAME) %>% arrange(desc(n))
+listings_per_labeler <- ndc_product %>% count(LABELERNAME) %>% arrange(desc(n))
+
+toplabelersbydrugs <- drugs_per_labeler %>% head(10) %>% mutate(top = "drugs")
+toplabelersbylistings <- listings_per_labeler %>% head(10) %>% mutate(top = "listings")
+
+top10 <- rbind(toplabelersbydrugs, toplabelersbylistings)
+
+```
+
+
+```{r}
+ggplot(data = top10, aes(x = LABELERNAME, y = n, fill = top)) +
+  geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
+  #facet_wrap(~top) + 
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  labs(title = "Top 10 Companies by Products",
+       y = "Number of products", x = "Labeler")
+#+ theme(legend.position = "none")
+```
+
+
+
 ```{r ndc_manip}
-ndc_labelers <- ndc_product %>%
-  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
+universe_ndc_labelers <- ndc_product %>%
   select(year, PRODUCTTYPENAME, MARKETINGCATEGORYNAME, LABELERNAME) %>%
   distinct()
 
-ndc_products_labelers <- ndc_product %>%
-  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}")) %>%
-  select(year, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME, PRODUCTTYPENAME, MARKETINGCATEGORYNAME, LABELERNAME) %>%
+universe_ndc_prod_labelers <- ndc_product %>%
+  #select(year, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME, PRODUCTTYPENAME, MARKETINGCATEGORYNAME, LABELERNAME) %>%
+  select(year, LABELERNAME, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME) %>% # PRODUCTTYPENAME, MARKETINGCATEGORYNAME, formulationcode, 
   distinct()
+
+ndc_product %>% filter(PROPRIETARYNAME == "Valcyte")
 
 top25ndccompanies <- ndc_products_labelers %>% count(LABELERNAME) %>% arrange(desc(n)) %>% head(25)
 top25ndccompanies <- ndc_products_labelers %>% filter(LABELERNAME %in% top25ndccompanies$LABELERNAME)
