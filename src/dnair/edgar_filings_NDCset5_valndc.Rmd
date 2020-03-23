@@ -1,0 +1,170 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(stringr)
+library(dplyr)
+```
+
+
+```{r cars}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" 
+#final_product_list <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_mar8.RDS"))
+final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_singmention_mar19.RDS"))
+```
+
+```{r}
+datapath <- "/project/biocomplexity/sdad/projects_data/volume_nyc1_01/business_innovation/" 
+ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt")) %>% mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"))
+
+ndc_sec_ref <- readxl::read_excel(paste0(datapath1, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe))
+
+```
+
+
+```{r}
+ndc_percorpfamily <- ndc_sec_ref %>% count(family, ndc_labeler) # %>% select(-n) %>% count(family)
+sec_percorpfamily <- ndc_sec_ref %>% count(family, cik) #%>% select(-n) %>% count(family)
+
+ndc_percorpfamily
+sec_percorpfamily
+```
+
+```{r}
+ndc_validateset <- ndc_product %>%
+  select(4, 6, 13, 14) %>%
+  distinct() %>%
+  filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
+  mutate(LABELERNAME,
+         Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),
+         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) %>%
+  left_join(ndc_sec_ref %>% select(1,11), by = c("LABELERNAME" = "ndc_labeler")) %>% 
+  select(8,3,5, 6, 1,2 )
+
+ndc_validateset %>% head(10)
+```
+
+
+
+```{r pressure, echo=FALSE}
+final_product_list_singlefirstmentionsONLY <- final_product_list_singlefirstmentionsONLY %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+
+mega_token_patt <- paste0("\\b(", paste0(unique(final_product_list_singlefirstmentionsONLY$token_low), collapse = "|"), ")\\b")
+
+```
+
+
+```{r}
+ndc_validateset_results <- ndc_validateset %>% 
+  mutate(Prop_YN = str_detect(Prop_low, pattern = mega_token_patt),
+         Prop_matches = str_extract(Prop_low, pattern = mega_token_patt),
+         NonProp_YN = str_detect(Nonprop_low, pattern = mega_token_patt),
+         NonProp_matches = str_extract(Nonprop_low, pattern = mega_token_patt))
+
+ndc_validateset_results %>% head()
+table(ndc_validateset_results$Prop_YN)
+table(ndc_validateset_results$NonProp_YN)
+
+ndc_validateset_results <- ndc_validateset_results %>% mutate(match_ct = Prop_YN + NonProp_YN,
+                                       match_type = ifelse(match_ct == 0, "missed", ifelse(match_ct ==2, "both detected", ifelse(Prop_YN == TRUE, "prop only", "non-prop only"))))
+
+table(ndc_validateset_results$match_ct)
+table(ndc_validateset_results$match_type)
+
+ndc_validateset_results %>% filter(match_type == "missed") %>% select(c(5:6, 8, 10))
+```
+
+
+```{r}
+# comparetolasttime <- readRDS(paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/ndc_validateset_results_march9.RDS"))
+# 
+# table(comparetolasttime$match_type)
+# 
+# comparetolasttime %>% filter(match_type == "both detected")
+```
+
+
+```{r}
+# saveRDS(ndc_validateset_results, paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/ndc_validateset_results_march20.RDS"))
+```
+
+
+
+```{r}
+
+ndc_prop <- unique(unlist(str_split(str_replace_all(unlist(str_split(ndc_validateset$Prop_low, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+ndc_prop <- ndc_prop[nchar(ndc_prop) > 2 & str_detect(ndc_prop, "[[:alpha:]]")]
+
+ndc_nonprop <- unique(unlist(str_split(str_replace_all(unlist(str_split(ndc_validateset$Nonprop_low, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+ndc_nonprop <- ndc_nonprop[nchar(ndc_nonprop) > 2 & str_detect(ndc_nonprop, "[[:alpha:]]")]
+
+mega_ndc_prop_patt <- paste0("\\b(", paste0(ndc_prop, collapse = "|"), ")\\b")
+mega_ndc_nonprop_patt <- paste0("\\b(", paste0(ndc_nonprop, collapse = "|"), ")\\b")
+
+final_product_list_singlefirstmentionsONLY_valunval <- final_product_list_singlefirstmentionsONLY %>% 
+  mutate(Prop_YN = str_detect(word_low, pattern = mega_ndc_prop_patt),
+         Prop_matches = str_extract(word_low, pattern = mega_ndc_prop_patt),
+         NonProp_YN = str_detect(word_low, pattern = mega_ndc_nonprop_patt),
+         NonProp_matches = str_extract(word_low, pattern = mega_ndc_nonprop_patt))
+
+table(final_product_list_singlefirstmentionsONLY_valunval$Prop_YN)
+table(final_product_list_singlefirstmentionsONLY_valunval$NonProp_YN)
+
+```
+
+
+
+
+```{r}
+# saveRDS(final_product_list_singlefirstmentionsONLY_valunval, paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march20.RDS"))
+```
+
+
+```{r}
+final_product_list_singlefirstmentionsONLY_valunval <- final_product_list_singlefirstmentionsONLY_valunval %>% 
+  transmute(cik = as.double(Company), Name, Token, Brand, Prop_YN, Prop_matches, NonProp_YN, NonProp_matches) %>%
+  left_join(ndc_sec_ref %>% select(cik, family), by =  "cik") %>% 
+  select(family, cik, Name, Token, Brand, Prop_YN, Prop_matches, NonProp_YN, NonProp_matches)
+```
+
+
+```{r}
+ndc_validateset_results <- readRDS(paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/ndc_validateset_results_march20.RDS"))
+
+final_product_list_singlefirstmentionsONLY_valunval <- readRDS(paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march20.RDS"))
+```
+
+
+```{r}
+ndc_validateset_results %>% filter(family == "lilly") #head() %>% left_join(final_product_list_singlefirstmentionsONLY_valunval, by = c("family", "Prop_matches", "NonProp_matches"))
+
+
+```
+
+```{r}
+matchset_selfother <- final_product_list_singlefirstmentionsONLY_valunval %>% 
+  filter(!is.na(Prop_matches) | !is.na(NonProp_matches)) %>% 
+  left_join(ndc_validateset_results %>% transmute(family, Prop_matches, NonProp_matches, Self = 1) %>% distinct(), by = c("family", "Prop_matches", "NonProp_matches")) %>%
+  mutate(Self = ifelse(is.na(Self), 0, Self))
+
+matchset_nomatch <- final_product_list_singlefirstmentionsONLY_valunval %>% 
+  filter(is.na(Prop_matches) & is.na(NonProp_matches)) %>% mutate(Self = -1)
+
+final_product_list_singlefirstmentionsONLY_valunval_selfother <- rbind(matchset_selfother, matchset_nomatch)
+
+ 
+```
+
+
+
+```{r}
+saveRDS(final_product_list_singlefirstmentionsONLY_valunval_selfother, paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march21.RDS"))
+```

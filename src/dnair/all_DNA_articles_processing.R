@@ -17,11 +17,14 @@ library(readr)
 
 ##GRAB METADATA
 datapath <- "/project/biocomplexity/sdad/projects-active/volume_nyc1_01/business_innovation/" #new rivanna location
-datapath_perm <- "/project/biocomplexity/sdad/projects-active/ncses/bi/" #new NEW rivanna location
+datapath_perm <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" #new NEW rivanna location
 dna_2015 <- readRDS(paste0(datapath, "working/DNA_Aggregated/dna_2015.RDS"))
-dna_cmda_hlbody <- readr::read_csv(paste0(datapath, "working/DNA_Aggregated/CMDA_FALL2019/CMDA_FALL2019_hlwbody_hlbasedlabel.csv"))
+dna_cmda_hlbody <- readr::read_csv(paste0(datapath_perm, "working/DNA_Aggregated/CMDA_FALL2019/CMDA_FALL2019_hlwbody_hlbasedlabel.csv"))
 
 dna_cmda_hlbody <- dna_cmda_hlbody %>% transmute(id, label = recode(innovYN, `No` = 0, `no` = 0, `Yes` = 1, `yes` = 1), hl = title, text = paste0(title, body))
+
+table(dna_cmda_hlbody$label)
+55/(55+512)
 #saveRDS(dna_cmda_hlbody, file = paste0("data/dna_cmda_clean.RDS")) # Needs to move to new NEW rivanna location
 
 # colnames(dna_2015)

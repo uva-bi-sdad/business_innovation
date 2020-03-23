@@ -1,0 +1,54 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+get_context_pos <- function(word_vec, target, n, p_o_s) {
+  wordlist <- data.frame(word_vec) %>% 
+    transmute(Word = as.character(word_vec), 
+    eng = hunspell_check(Word), 
+    stem = hunspell_stem(Word),
+    id = row_number(), 
+    target = ifelse(str_detect(str_to_lower(Word), pattern = target), 1, 0))
+ 
+  target_rows <- wordlist  %>% filter(target == 1)
+  target_rows
+  target_rows$seq_up <- NA
+  target_rows$seq_down <- NA
+ 
+for (i in 1:length(target_rows$id)) {
+  target_rows$seq_up[i] <- list(seq(target_rows$id[i] +1, target_rows$id[i] + n))
+  target_rows$seq_down[i] <- list(seq(target_rows$id[i] -1, target_rows$id[i] - n))
+}
+  before_target <- unlist(target_rows$seq_up)
+  after_target <- unlist(target_rows$seq_down)
+
+  context <- wordlist[wordlist$id %in% before_target|wordlist$id %in% after_target, ] %>%
+    mutate(pstn = ifelse(id %in% before_target, "before", ifelse(id %in% after_target, "after", "none")))
+
+  context <- context %>%
+    filter(!dataplumbr::var.is_blank(Word)) %>%
+    tidyr::unnest() %>%
+    count(stem) %>%
+    arrange(desc(n)) %>%
+    filter(stem %!in% stopwords_en) %>%
+    left_join(tidytext::parts_of_speech, by = c("stem" = "word"))  %>%
+    filter(pos == p_o_s)
+
+  context
+}
+```
+
+
+
+```{r}
+data_all <- readRDS("~/sec_wordlists_captures_march172020_all.RDS")
+```
+
+

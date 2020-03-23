@@ -25,15 +25,19 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 ```{r libraries, echo = FALSE, warning=F, message=F}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
 # fig.height = 5, fig.width = 6
+
+#install.packages("dichromat")
 library(ggplot2)
 library(RColorBrewer)
 library(dplyr)
 library(stringr)
 library(scales)
+library(dichromat)
 ```
 
 ```{r data}
 datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+datapath2 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" #new rivanna location
 ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt")) %>% 
   mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"), formulationcode = str_extract(PRODUCTNDC, "(?<=-)\\d*"))
 
@@ -45,6 +49,10 @@ ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
 ndc_sec_ref <- readxl::read_excel(paste0(datapath2, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
 colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
 ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
+
+allname_matchresults_mar2 <- readRDS(paste0(datapath1, "working/NDC/ndc_all_match_resultsmar2.RDS"))
+allname_matchresults_mar2_summary <- readRDS(paste0(datapath1, "working/NDC/ndc_all_match_resultssummarymar2.RDS"))
+
 ```
 
 ```{r eval=FALSE}
@@ -82,13 +90,13 @@ ndc_sec_ref
 
 ```{r plotsettings2}
 customPlot2 = list(
-  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
-        axis.text.x  = element_text(vjust=0.5, size=12),
-        plot.title=element_text(size=12, vjust=2),
+  theme(text = element_text(size=20), 
+        #plot.margin = unit(c(1,1,2,2), "cm"),
+        #axis.text.x  = element_text(vjust=0.5),
+        #plot.title=element_text(vjust=2),
         panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_rect(fill = "#FFFFFF") ,
         legend.position="right"),  #coord_flip(),
-  guides(fill=guide_legend(title="Key", ncol = 1),
         colour =guide_legend(title="Key", ncol = 1))
 )
 ```
@@ -111,6 +119,14 @@ customPlot3 = list(
 myCol <- brewer.pal(3, "Pastel2")
 myCol6 <- brewer.pal(6, "Pastel2")
 myCol8 <- brewer.pal(8, "Pastel2")
+
+sequential7cols <- colorschemes$LightBluetoDarkBlue.7
+noassociation18cols <- colorschemes$DarkRedtoBlue.18
+signalnoise8 <- colorschemes$BluetoGray.8
+categorical12 <- colorschemes$Categorical.12
+
+UVA2cols <- noassociation18cols[c(4, 14)]
+
 ```
 
 ```{r}
@@ -149,49 +165,97 @@ length(unique(ndc_product$lnum))
 ```
 
 ```{r}
-ndc_product %>% select(3,4,6:11, 13:14, 15:17) %>% head() %>% View()
+ndc_product %>% select(3,4,6:11, 13:14, 15:17) %>% head() 
 
 universe_ndc_listings_ct <- ndc_product %>% count(year = as.integer(year)) %>% mutate(product = "listing")
 universe_ndc_drugs_ct <- ndc_product %>% count(year = as.integer(year), PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME) %>% select(-n) %>% count(year) %>% mutate(product = "drug")
-sum(universe_ndc_drugs_ct$n)
+universe_ndc_drugs_ct_prop <- ndc_product %>% count(year = as.integer(year), PROPRIETARYNAME) %>% select(-n) %>% count(year) %>% mutate(product = "proprietary")
+universe_ndc_drugs_ct_nonprop <- ndc_product %>% count(year = as.integer(year), NONPROPRIETARYNAME) %>% select(-n) %>% count(year) %>% mutate(product = "nonproprietary")
+universe_ndc_drugs_ct_sub <- ndc_product %>% count(year = as.integer(year), SUBSTANCENAME) %>% select(-n) %>% count(year) %>% mutate(product = "substance")
+#sum(universe_ndc_drugs_ct$n)
 
 products_ct = rbind(universe_ndc_listings_ct, universe_ndc_drugs_ct)
+products_ct_2 = rbind(universe_ndc_listings_ct, universe_ndc_drugs_ct_prop, universe_ndc_drugs_ct_nonprop, universe_ndc_drugs_ct_sub)
 products_ct$year <- as.integer(products_ct$year)
+
+products_ct <- products_ct %>% filter(year >= 2000)
+products_ct_2 <- products_ct_2 %>% filter(year >= 2000)
 
 ```
 
 
 
 ```{r}
-ggplot(data = products_ct, aes(x = year, y = n, fill = product)) +
-  geom_bar(stat = "identity", position = position_dodge(preserve = "total")) +
-  #geom_text(data = products_ct %>% filter(product == "listing") %>% filter(n > 1000),  stat = "identity", aes(label = n), just = 1.5, width = 1) +
+# ggplot(data = products_ct, aes(x = year, y = n, fill = product)) +
+#   geom_bar(stat = "identity", position = position_dodge(preserve = "total")) +
+#   geom_text(data = products_ct %>% filter(n > 1000),  stat = "identity", aes(label = round(n, -2)), just = 1.5, width = 1) +
+#   customPlot2 +
+#   coord_flip() +
+#   scale_fill_manual(values = UVA2cols, na.translate = FALSE) +
+#   scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
+#   labs(title = "Number of NDC drugs and listings over time",
+#        y = "Number of drugs and listings", x = "Year") 
+
+
+
+# ggplot(data = universe_ndc_drugs_ct, aes(x = year, y = n)) +
+#   geom_bar(stat = "identity") +
+#   #geom_text(data = products_ct %>% filter(product == "listing") %>% filter(n > 1000),  stat = "identity", aes(label = n), just = 1.5, width = 1) +
+#   customPlot2 +
+#   coord_flip() +
+#   #scale_fill_manual(values = myCol6[c(3,5)], na.translate = FALSE) +
+#   scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
+#   labs(title = "Number of NDC drugs over time",
+#        y = "Number of drugs", x = "Year") 
+
+ggplot(data = universe_ndc_listings_ct %>% filter(year >= 2000), aes(x = year, y = n, fill = product)) +
+  geom_bar(stat = "identity") +
+  geom_text(data =  universe_ndc_listings_ct %>% filter(year >= 2000),  stat = "identity", aes(label = n), just = 1.5, width = 1, suze = 10) +
   customPlot2 +
   coord_flip() +
-  scale_fill_manual(values = myCol6[c(3,5)], na.translate = FALSE) +
+  scale_fill_manual(values = UVA2cols[2], na.translate = FALSE) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
+  labs(title = "Number of NDC listings over time",
+       y = "Number of listings", x = "Year") 
+
+ggplot(data = products_ct, aes(x = year, y = n, fill = product)) +
+  geom_bar(stat = "identity", position = position_dodge(preserve = "total")) +
+  geom_text(data = products_ct ,  stat = "identity", aes(label = n, y = n + 500), position = position_dodge(preserve = "total", width = 0.75), size = 6) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = UVA2cols, na.translate = FALSE) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
   labs(title = "Number of NDC drugs and listings over time",
        y = "Number of drugs and listings", x = "Year") 
 
-ggplot(data = universe_ndc_drugs_ct, aes(x = year, y = n)) +
-  geom_bar(stat = "identity") +
-  #geom_text(data = products_ct %>% filter(product == "listing") %>% filter(n > 1000),  stat = "identity", aes(label = n), just = 1.5, width = 1) +
+ggplot(data = products_ct_2 %>% filter(year > 2011), aes(x = year, y = n, fill = reorder(product, n))) +
+  geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
+  geom_text(data = products_ct_2 %>% filter(n > 1000 & product != "listing" & year > 2011),  stat = "identity", aes(label = n, y = n + 900), 
+             size = 7, position = position_dodge(preserve = "total", width = .75), vjust = 1) +
   customPlot2 +
   coord_flip() +
-  #scale_fill_manual(values = myCol6[c(3,5)], na.translate = FALSE) +
+  scale_fill_manual(values = c(sequential7cols[c(3, 6, 7)], UVA2cols[2]), na.translate = FALSE) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
-  labs(title = "Number of NDC drugs over time",
-       y = "Number of drugs", x = "Year") 
+  labs(title = "Number of NDC drugs and listings over time",
+       y = "Number of drugs and listings", x = "Year") 
+```
 
-ggplot(data = universe_ndc_listings_ct, aes(x = year, y = n)) +
-  geom_bar(stat = "identity") +
-  #geom_text(data = products_ct %>% filter(product == "listing") %>% filter(n > 1000),  stat = "identity", aes(label = n), just = 1.5, width = 1) +
-  customPlot2 +
-  coord_flip() +
-  #scale_fill_manual(values = myCol6[c(3,5)], na.translate = FALSE) +
-  scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
-  labs(title = "Number of NDC listings over time",
-       y = "Number of listings", x = "Year") 
+
+```{r}
+ndcnamecomp <- ndc_product %>% transmute(year, prop = is.na(PROPRIETARYNAME), nonprop = is.na(NONPROPRIETARYNAME), sub = is.na(SUBSTANCENAME), count = 3 - (prop + nonprop + sub))
+
+ndcnamecomp <- ndcnamecomp %>% mutate(name = ifelse(count == 3, "all", ifelse(count == 2, ifelse(sub == TRUE, "prop+nonprop", ifelse(prop == TRUE, "nonprop+sub", "error")), "error")))
+table(ndcnamecomp$name)
+
+nrow(ndcnamecomp)  - sum(is.na(ndc_product$PROPRIETARYNAME))
+nrow(ndcnamecomp)  - sum(is.na(ndc_product$NONPROPRIETARYNAME))
+nrow(ndcnamecomp)  - sum(is.na(ndc_product$SUBSTANCENAME))
+
+sequential7cols[7] # proprietary
+sequential7cols[6] # nonproprietary
+sequential7cols[3] # substance
+
+
 ```
 
 
@@ -202,25 +266,25 @@ labelers_over_years  <- ndc_product %>% count(year = as.integer(year), LABELERNA
 
 
 ```{r}
-ggplot(data = labelers_over_years, aes(x = year, y = n )) +
+ggplot(data = labelers_over_years, aes(x = year, y = n, fill = "1" )) +
   geom_bar(stat = "identity") +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
   customPlot2 +
   coord_flip() +
-  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  scale_fill_manual(values = UVA2cols[1], na.translate = FALSE) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 12)) +
   labs(title = "Number of NDC labelers over time",
        y = "Number of labelers", x = "Year")
 
-ggplot(data = labelers_over_years %>% filter(year > 2012 ), aes(x = year, y = n )) +
+ggplot(data = labelers_over_years %>% filter(year > 2012 ), aes(x = year, y = n , fill = "1")) +
   geom_bar(stat = "identity") +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
   customPlot2 +
   coord_flip() +
-  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  scale_fill_manual(values = UVA2cols[1], na.translate = FALSE) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 7)) +
   labs(title = "Number of NDC labelers over study period",
-       y = "Number of labelers", x = "Year")
+       y = "Number of labelers", x = "Year") + scale_y_continuous(limits=c(1000,2000),oob = rescale_none)
 ```
 
 
@@ -233,185 +297,325 @@ toplabelersbylistings <- listings_per_labeler %>% head(10) %>% mutate(top = "lis
 
 top10 <- rbind(toplabelersbydrugs, toplabelersbylistings)
 
+drugs_per_labeler_studyperiod <- ndc_product %>% filter(year > 2011) %>% count(LABELERNAME, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME)  %>% select(-n) %>% count(LABELERNAME) %>% arrange(desc(n))
+listings_per_labeler_studyperiod <- ndc_product  %>% filter(year > 2011) %>% count(LABELERNAME) %>% arrange(desc(n))
+
+toplabelersbydrugs_studyperiod <- drugs_per_labeler_studyperiod %>% head(10) %>% mutate(top = "drugs")
+toplabelersbylistings_studyperiod <- listings_per_labeler_studyperiod %>% head(10) %>% mutate(top = "listings")
+
+top10_studyperiod <- rbind(toplabelersbydrugs_studyperiod, toplabelersbylistings_studyperiod)
+
+
 ```
 
 
+
 ```{r}
-ggplot(data = top10, aes(x = LABELERNAME, y = n, fill = top)) +
+ggplot(data = transform(top10, top=factor(top,levels=c("listings","drugs"))), 
+                                          aes(x = reorder(LABELERNAME, n, FUN = sum), y = n, fill = top)) +
   geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
-  #facet_wrap(~top) + 
-  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  facet_wrap(~top) + 
+  geom_text(stat = "identity", aes(label = n, y = n + 200), position = position_dodge(preserve = "single"), size = 5) +
   customPlot2 +
   coord_flip() +
-  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  scale_fill_manual(values = UVA2cols[c(2,1)], na.translate = FALSE) +
   labs(title = "Top 10 Companies by Products",
        y = "Number of products", x = "Labeler")
-#+ theme(legend.position = "none")
+
+ggplot(data = transform(top10_studyperiod, top=factor(top,levels=c("listings","drugs"))), 
+                                          aes(x = reorder(LABELERNAME, n, FUN = sum), y = n, fill = top)) +
+  geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
+  facet_wrap(~top) + 
+  geom_text(stat = "identity", aes(label = n, y = n + 200), position = position_dodge(preserve = "single"), size = 5) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = UVA2cols[c(2,1)], na.translate = FALSE) +
+  labs(title = "Top 10 Companies by Products - 2012 onwards",
+       y = "Number of products", x = "Labeler")
+
+```
+
+
+
+```{r}
+drug_ref <- ndc_product %>% count(PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME) %>% mutate(count = ifelse(n == 1, 1, 0))
+
+class(drug_ref$count)
+
+# ndc_product %>% filter(SUBSTANCENAME == "GABAPENTIN")
+# 
+# drug_ref %>% filter(n > 200)
+# 
+# table(drug_ref$n)
+
+ggplot(drug_ref, aes(x = n, fill = count)) +
+  geom_bar(stat = "count", position = position_dodge(preserve = "total")) +   
+  customPlot2 +
+#  coord_flip() +
+  #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  labs(title = "Number of Listings per Drug",
+       y = "Number of drugs", x = "Number of Listings") + 
+  scale_x_continuous(trans='sqrt') + scale_y_continuous(trans='sqrt')
+```
+
+
+```{r}
+ndc_catgry_listings <- ndc_product %>%
+  count(PRODUCTTYPENAME) 
+
+ndc_catgry_listings_studyperiod <- ndc_product %>%
+  count(year, PRODUCTTYPENAME) %>%
+  mutate(product = recode(PRODUCTTYPENAME,  `PLASMA DERIVATIVE` = "OTHER", `STANDARDIZED ALLERGENIC` = "OTHER", `NON-STANDARDIZED ALLERGENIC` = "OTHER", `VACCINE` = "OTHER", `CELLULAR THERAPY` = "OTHER")) %>%
+  group_by(year, product) %>%
+  summarise(n = sum(n)) %>% filter(year > 2011) %>% group_by(product) %>% summarise(n = sum(n))
+
+
+
+```
+
+
+```{r}
+colororder <- c(rev(categorical12[1:7])[c(2,1,3)], rev(categorical12[1:7])[c( 4:7)])
+
+ggplot(ndc_catgry_listings, aes(x = PRODUCTTYPENAME, y = n, fill = PRODUCTTYPENAME)) + 
+    geom_bar(stat = "identity") +   
+  geom_text(stat = "identity", aes(label = n), position = position_dodge("total", width = 1), size = 6) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = colororder, na.translate = FALSE) +
+  labs(title = "Number of Listings per product type",
+       y = "Number of listings", x = "Product Type")  + theme(legend.position = "none")
+
+ggplot(ndc_catgry_listings_studyperiod , aes(x = product, y = n, fill = product)) + 
+  geom_bar(stat = "identity", position = position_dodge(preserve = "total")) +   
+  geom_text(stat = "identity", aes(label = n), position = position_dodge("total", width = 1)) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = categorical12[c(7, 5, 1)], na.translate = FALSE) +
+  labs(title = "Number of Listings per product type",
+       y = "Number of listings", x = "Product Type") 
+
+
+
+```
+
+
+```{r}
+colororder
+```
+
+
+```{r}
+# ndc_markcatgry_listings <- ndc_product %>%
+#   count(MARKETINGCATEGORYNAME)
+
+ndc_markcatgry_listings_studyperiod <- ndc_product %>%
+  count(year, MARKETINGCATEGORYNAME) %>% filter(year >2011) %>%
+  mutate(product = recode(MARKETINGCATEGORYNAME,  `OTC MONOGRAPH FINAL` = "OTC", `OTC MONOGRAPH NOT FINAL` = "OTC", 
+                          `UNAPPROVED DRUG FOR USE IN DRUG SHORTAGE` = "UNAPPROVED", `UNAPPROVED DRUG OTHER` = "UNAPPROVED", 
+                          `UNAPPROVED HOMEOPATHIC` = "UNAPPROVED", `UNAPPROVED MEDICAL GAS` = "UNAPPROVED",
+                          `NDA AUTHORIZED GENERIC` = "NDA")) %>%
+  group_by(MARKETINGCATEGORYNAME, product) %>%
+  summarise(n = sum(n))
+
+```
+
+
+```{r}
+# ggplot(ndc_markcatgry_listings, aes(x = reorder(MARKETINGCATEGORYNAME, n), y = n)) + 
+#     geom_bar(stat = "identity") +   
+#   customPlot2 +
+#   coord_flip() +
+#   labs(title = "Number of Listings per marketing category",
+#        y = "Number of listings", x = "Marketing Category") 
+
+# ggplot(ndc_markcatgry_listings_yr %>% filter(year > 2012), aes(x = year, y = n, fill = product)) + 
+#   geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +   
+#   geom_text(stat = "identity", aes(label = n), position = position_dodge(width = 1)) +
+#   customPlot2 +
+#   coord_flip() +
+#   scale_fill_manual(values = myCol6, na.translate = FALSE) +
+#   labs(title = "Number of Listings per product type",
+#        y = "Number of listings", x = "Product Type") 
+
+ggplot(ndc_markcatgry_listings_studyperiod, aes(x = reorder(product, n), y = n, fill = MARKETINGCATEGORYNAME)) + 
+  geom_bar(stat = "identity", position = position_dodge(preserve = "total")) +   
+  # geom_text(stat = "identity", aes(label = n), position = position_dodge(preserve = "total", width = 0), just = 1, size = 6) +
+    geom_text(stat = "identity", aes(label = n, y = n + 1000), 
+             size = 6, position = position_dodge(preserve = "total", width = .75), vjust = .5) +
+  customPlot2 +
+  coord_flip() +
+  scale_fill_manual(values = categorical12, na.translate = FALSE) +
+  labs(title = "Number of Listings per marketing category",
+       y = "Number of listings", x = "marketing category") +
+  theme(legend.position = "bottom")
+
 ```
 
 
 
-```{r ndc_manip}
-universe_ndc_labelers <- ndc_product %>%
-  select(year, PRODUCTTYPENAME, MARKETINGCATEGORYNAME, LABELERNAME) %>%
-  distinct()
 
-universe_ndc_prod_labelers <- ndc_product %>%
-  #select(year, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME, PRODUCTTYPENAME, MARKETINGCATEGORYNAME, LABELERNAME) %>%
-  select(year, LABELERNAME, PROPRIETARYNAME, NONPROPRIETARYNAME, SUBSTANCENAME) %>% # PRODUCTTYPENAME, MARKETINGCATEGORYNAME, formulationcode, 
-  distinct()
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
 
-ndc_product %>% filter(PROPRIETARYNAME == "Valcyte")
-
-top25ndccompanies <- ndc_products_labelers %>% count(LABELERNAME) %>% arrange(desc(n)) %>% head(25)
-top25ndccompanies <- ndc_products_labelers %>% filter(LABELERNAME %in% top25ndccompanies$LABELERNAME)
-
-ndc_labelers <- ndc_labelers %>% mutate(top25 = ifelse(LABELERNAME %in% top25ndccompanies$LABELERNAME,  "top25", "75"))
-ndc_products_labelers <- ndc_products_labelers %>% mutate(top25 = ifelse(LABELERNAME %in% top25ndccompanies$LABELERNAME,  "top25", "75"))
-
-ndc_catgry_products <- ndc_products_labelers %>%
-  count(PRODUCTTYPENAME) %>%
-  mutate(product = recode(PRODUCTTYPENAME,  `PLASMA DERIVATIVE` = "OTHER", `STANDARDIZED ALLERGENIC` = "OTHER", `VACCINE` = "OTHER", `CELLULAR THERAPY` = "OTHER")) %>%
-  group_by(product) %>%
-  summarise(n = sum(n))
-
-ndc_catgry_products_top25 <- ndc_products_labelers %>%
-  filter(top25 == "top25") %>%
-  count(PRODUCTTYPENAME) %>%
-  mutate(product = recode(PRODUCTTYPENAME,  `PLASMA DERIVATIVE` = "OTHER", `STANDARDIZED ALLERGENIC` = "OTHER", `VACCINE` = "OTHER", `CELLULAR THERAPY` = "OTHER")) %>%
-  group_by(product) %>%
-  summarise(n = sum(n))
-
-```
 
 ```{r sec_manip}
-sec_filers <- final_product_list_singlefirstmentionsONLY %>%
-  select(first_mention, Company) %>%
-  distinct()
+datapath <- "/project/biocomplexity/sdad/projects-active/volume_nyc1_01/business_innovation/" #new rivanna location
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" #new rivanna location
+paths_file <- paste0(datapath1, "original/edgar_filings/ALL_SEC_files.txt")
+file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
+paths <- paste0(datapath1, "original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
+file_names <- unique(list.files(paths, full.names = TRUE))
+ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
+sic <- readRDS(paste0(datapath1, "original/sic.download.RDS"))
+cik_ticker <- readr::read_delim(paste0(datapath1, "original/edgar_filings/cik_ticker.csv"), delim = "|")   #RANKANDFILE website
+cikcountries <- readr::read_delim(paste0(datapath1, "original/edgar_filings/edgar_state_country.csv"), delim = "|") #RANKANDFILE website
+colnames(sic) <- c("CIK", "SIC_CompName", "SIC_SIC", "SIC_Industry", "SIC_Location")
+colnames(ciknames) <- c("CIK", "SEC_CompName", "SEC_SIC")
+colnames(cik_ticker) <- c("CIK", "Ticker_TickerCode", "Ticker_CompName", "Ticker_Exchange", "Ticker_SIC", "Ticker_Location", "Ticker_Inc_Location", "Ticker_IRS")
+colnames(cikcountries) <- c("Code", "Ticker_StateCountry")
+sic$SIC_SIC <- as.numeric(sic$SIC_SIC)
+sic$CIK <- as.numeric(sic$CIK)
+ciknames$CIK <- as.numeric(ciknames$CIK)
+ciknames$SEC_SIC <- as.numeric(ciknames$SEC_SIC)
+cikcountries <- cikcountries %>%
+  mutate(US = recode(Code, 
+                     "CA"= "USA", "CO" = "USA", "CT" = "USA", "DC" = "USA", "FL" = "USA", "GA" = "USA",
+                     "IL" = "USA", "IN" = "USA", "MA" = "USA", "MD" = "USA", "MN" = "USA", "MI" = "USA",
+                     "MO" = "USA", "NC" = "USA", "NJ" = "USA", "NV" = "USA", "NY" = "USA", "OH" = "USA",
+                     "PA" = "USA", "SC" = "USA", "TN" = "USA", "TX" = "USA", "UT" = "USA", "WA" = "USA",
+                     "AK" = "USA", "AL" = "USA", "AR" = "USA", "AZ" = "USA", "DE" = "USA", "IA" = "USA",
+                     "ID" = "USA", "ME" = "USA", "MS" = "USA", "MT" = "USA", "ND" = "USA", "NE" = "USA",
+                     "OK" = "USA", "OR" = "USA", "PR" = "USA", "RI" = "USA", "SD" = "USA", "VA" = "USA",
+                     "VT" = "USA", "WA" = "USA", "WI" = "USA", "WV" = "USA", "WY" = "USA", "NH" = "USA")) 
 
-sec_tokens_filers <- final_product_list_singlefirstmentionsONLY %>%
-  select(first_mention, Company, Token) %>%
-    distinct()
+patt1 <- "(?<=Edgar_filings_folders/)(.*)(?=.txt)"
+patt2 <- "(?<=/)(.*)(?=_10-K_)"
+orig_companies <- str_extract(str_extract((file_names), patt1), patt2)
 
+#length(unique(orig_companies$orig_companies)) #703 companies with filings
+#length(unique(wcbycomp$Company)) # 365 - # of companies that we found non-English words in their filings
 
-top25seccompanies <- sec_tokens_filers %>% count(Company) %>% arrange(desc(n)) %>% head(25)
-top25seccompanies <- sec_tokens_filers %>% filter(Company %in% top25seccompanies$Company)
+orig_companies <- as.numeric(orig_companies)
+orig_companies <- as.data.frame(orig_companies)
 
-sec_filers <- sec_filers %>% mutate(top25 = ifelse(Company %in% top25seccompanies$Company,  "top25", "75"))
-sec_tokens_filers <- sec_tokens_filers %>% mutate(top25 = ifelse(Company %in% top25seccompanies$Company,  "top25", "75"))
+origcomp_details <- orig_companies %>%
+  filter(!is.na(orig_companies)) %>% 
+  unique()  %>% 
+  left_join(ciknames, by = c("orig_companies" = "CIK")) %>%
+  left_join(sic, by = c("orig_companies" = "CIK", "SEC_SIC" = "SIC_SIC")) %>%
+  left_join(cik_ticker, by = c("orig_companies" = "CIK"))
+
+origcomp_details
+
 ```
-
-
-## Overview:
-
-NDC:
-
-- Distributions of All Labelers (Companies)
-- Distributions of Top 25 Labelers (Companies)
-- Distributions of Marketing Categories
-
-SEC:
-
-- Distributions of All Filers (Companies)
-- Distributions of Top 25 Filers (Companies)
-
-
-
-### Distributions of Labelers (Companies)
-
-
-All NDC Labelers
 
 ```{r}
-ggplot(data = ndc_labelers %>% count(year, top25, LABELERNAME) %>% select(-n), aes(x = year, fill = as.factor(top25))) +
-  geom_bar(stat = "count") +
-  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+
+
+ggplot(origcomp_details, aes(x = "", fill = ifelse(is.na(SEC_SIC), "unknown", SEC_SIC))) + 
+  geom_bar(stat = "count", width = 1) + 
+  coord_polar(theta = "y", start = pi / 3) +
   customPlot2 +
-  coord_flip() +
-  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
-  labs(title = "Number of NDC companies over time",
-       subtitle = "Yearly NDC Company Counts",
-       y = "Number of companies", x = "Year")
+  scale_fill_manual(values = categorical12[c(8, 10, 1)]) +
+  labs(title = "Number of Filers per industry",
+       y = "Number of companies", x = "Industry") 
+
+
+
 ```
 
-Top 25 NDC Labelers
+
 ```{r}
-top_25_ndc_companies <- top25ndccompanies %>% select(year, LABELERNAME) %>% distinct()
+allwords <- read_csv(paste0(datapath1, "working/sec/all_secwordlists.csv")) # 4M TOTAL WORDS ACROSS ALL FILINGS
+allregwords <- read_csv(paste0(datapath1, "working/sec/all_secregwordlists.csv")) # 37K REG WORDS ACROSS ALL FILINGS
+allwordcounts <- readRDS(paste0(datapath1, "working/sec/all_wordlist.RDS")) #15K NON ENGLISH WORDS ACROSS ALL FILINGS
 
-ggplot(top_25_ndc_companies, aes(x =year, fill = "1")) +
-  geom_bar(stat = "count") +
-  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
-  customPlot2 +
-  coord_flip() +
-  scale_fill_manual(values = myCol6[c(1, 5)], na.translate = FALSE) +
-  labs(title = "Top 25 NDC companies over time",
-       subtitle = "Yearly NDC Company Counts Among Top 25 Labelers",
-       y = "Number of companies", x = "Year")
 ```
 
 
-### Distributions of Marketing Categories
+```{r eval = FALSE}
+wordlist_engreg_rbind <- rbind(allwordcounts, allregwords)
+
+wordlist_enreg_count <- wordlist_engreg_rbind %>% 
+  mutate(Protect = str_extract(Words, "®|™"), Token = str_remove(Words, "®|™")) %>% 
+  group_by(Company, Year, Token, Protect) %>% 
+  summarise(n = sum(n)) %>% as.data.frame()
+
+wcbycomp <- reshape2::dcast(wordlist_enreg_count, Company + Token + Protect ~ Year, value.var = "n", fun.aggregate = sum)
+
+capturespriortodictionary <- wcbycomp %>% count(Company, Token) %>% select(-n) %>% count(Company)
+
+sum(capturespriortodictionary$n)
+
+wcbycomp %>% count(Token) %>% nrow()
+
+```
+
+```{r eval = FALSE}
+capturespriortodictionary <- capturespriortodictionary %>% left_join(company_reference_names %>% select(CIK, SIC_CompName, CompanyString), by = c("Company" = "CIK"))
+capturespriortodictionary %>% arrange(desc(n)) %>% head(10)
+
+wcbyword_findcompanies <- wcbyword_searchcompanies %>% 
+  left_join(company_reference_names %>% select(CIK, CompanyString), by = c("Company" = "CIK")) %>%
+  mutate(Self = ifelse(str_detect(str_to_lower(CompanyString), pattern = complowmatch), 1, 0),
+         Pharma = ifelse(str_detect(string = str_to_lower(Token), pattern = pharmstopwords), 1, 0 )) #%>%  
 
 
-NDC Listings by all Labelers
+```
+
+
 ```{r}
-ggplot(data = ndc_products_labelers %>% count(PRODUCTTYPENAME, top25), aes(x = PRODUCTTYPENAME, y = n, fill = as.factor(top25))) +
-  geom_bar(stat = "identity") +
-  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
-  customPlot2 +
-  coord_flip() +
-  scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
-  labs(title = "Number of NDC listings per Marketing Category",
-       subtitle = "Yearly NDC Company Counts",
-       y = "Number of NDC listing", x = "Marketing Category")
+
+# sec_filers_yr <- final_product_list_singlefirstmentionsONLY %>%
+#   select(first_mention, Company) %>%
+#   distinct() %>% 
+#   count(first_mention)
+
+sec_tokens_filers_all <- final_product_list_singlefirstmentionsONLY %>%
+  select(Company, Token) %>%
+  distinct() %>%
+  count(Company) %>% 
+  left_join(ciknames, by = c("Company" = "CIK"))
+
+sec_tokens_filers_top10 <- sec_tokens_filers_all %>% arrange(desc(n)) %>% head(10)
+
+sec_tokens_filers_bymethod <- final_product_list_singlefirstmentionsONLY %>%
+  count(Company, Protect) %>%
+  left_join(ciknames, by = c("Company" = "CIK"))
+
+capturemethod <- final_product_list_singlefirstmentionsONLY %>%
+  count(Protect) 
+
+capturemethod$Protect <- ifelse(is.na(capturemethod$Protect), "Non-English",capturemethod$Protect)
+
+# isthisright <- sec_tokens_filers_top10 %>% 
+#   select(-n, -sic) %>%
+#   left_join(final_product_list_singlefirstmentionsONLY %>% count(Company = as.character(Company), Token, Protect, first_mention), by = "Company") %>% 
+#   select(-n) %>%
+#   count(company_names, first_mention)
+
+# top25seccompanies <- sec_tokens_filers %>% count(Company) %>% arrange(desc(n)) %>% head(25)
+# top25seccompanies <- sec_tokens_filers %>% filter(Company %in% top25seccompanies$Company)
+# 
+# sec_filers <- sec_filers %>% mutate(top25 = ifelse(Company %in% top25seccompanies$Company,  "top25", "75"))
+# sec_tokens_filers <- sec_tokens_filers %>% mutate(top25 = ifelse(Company %in% top25seccompanies$Company,  "top25", "75"))
 ```
 
-NDC Listings by Top 25 NDC Labelers
 ```{r}
-ggplot(ndc_products_labelers %>% filter(top25 == "top25") %>% count(PRODUCTTYPENAME), aes(x =PRODUCTTYPENAME, y = n, fill = "1")) +
-  geom_bar(stat = "identity") +
-  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
-  customPlot2 +
-  coord_flip() +
-  scale_fill_manual(values = myCol6[c(1, 5)], na.translate = FALSE) +
-  labs(title = "Top 25 NDC companies over time",
-       subtitle = "Yearly NDC Company Counts Among Top 25 Labelers",
-       y = "Number of companies", x = "Year")
+final_product_list_singlefirstmentionsONLY %>%
+  count(Company, Token, Protect) %>% filter(Company == 1003642) %>% arrange(Token)
+
+final_product_list_singlefirstmentionsONLY %>% filter(Company == 1003642)
 ```
-
-
-### Marketing Categories (Pie)
-
-
-NDC Listings by all Labelers
-```{r}
-ggplot(data = ndc_catgry_products, aes(x = "", y = n, fill = product)) +
-  geom_bar(stat = "identity") +
-  #geom_text(aes(label = n), just = 1.5, width = 1) +
-  customPlot2 +
-  coord_polar("y") +
-  scale_fill_manual(values = myCol8, na.translate = FALSE) +
-  labs(title = "Number of NDC listings per Marketing Category",
-       subtitle = "Yearly NDC Company Counts",
-       y = "Number of NDC listing", x = "Marketing Category")
-```
-
-NDC Listings by Top 25 NDC Labelers
-```{r}
-ggplot(data = ndc_catgry_products_top25, aes(x = "", y = n, fill = product)) +
-  geom_bar(stat = "identity") +
-  #geom_text(aes(label = n), just = 1.5, width = 1) +
-  customPlot2 +
-  coord_polar("y") +
-  scale_fill_manual(values = myCol8, na.translate = FALSE) +
-  labs(title = "Number of NDC listings per Marketing Category",
-       subtitle = "Yearly NDC Company Counts",
-       y = "Number of NDC listing", x = "Marketing Category")
-```
-
-
-
-N.B. Other includes the following categories: plasma derivative, standardized allergenic, vaccine, and cellular therapy. All Labelers had values for all 4 of these categories (values ranged from 6-132). The Top 25 labelers only had values for standardized allergenics and vaccines (both <30).
 
 
 ### SEC Overview
@@ -419,29 +623,231 @@ N.B. Other includes the following categories: plasma derivative, standardized al
 
 All SEC Filers
 ```{r }
-ggplot(data = sec_filers %>% count(first_mention, top25, Company) %>% select(-n) %>% filter(first_mention > 2012), aes(x = first_mention, fill = as.factor(top25))) +
+# Something gizem asked for, but not readable
+ggplot(data = sec_tokens_filers_all, aes(x = reorder(SEC_CompName, n), y = n)) +
+  geom_bar(stat = "identity") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  coord_flip() +
+  #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  labs(title = "Number of captures per SEC filer",
+       y = "Number of captures", x = "Company")
+
+ggplot(data = sec_tokens_filers_all, aes(x = n)) +
   geom_bar(stat = "count") +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
+  labs(title = "Number of captures per SEC filer",
+       y = "Number of companies", x = "Number of captures")
+
+ggplot(data = sec_tokens_filers_top10, aes(x = reorder(SEC_CompName, n), y = n)) +
+  geom_bar(stat = "identity") +
+  geom_text(stat = "identity", aes(label = n, y = n + 20)) +
+  customPlot2 +
+  coord_flip() +
+  #scale_fill_manual(values = myCol6, na.translate = FALSE) +
+  labs(title = "Top 10 Filers by number of 10-K captures",
+       y = "Number of captures", x = "Top 10 Filers")
+
+ggplot(data = sec_tokens_filers_bymethod, aes(x = n, fill = ifelse(is.na(Protect), "Non-English", "Protect"))) +
+  geom_bar(stat = "count") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  scale_fill_manual(values = UVA2cols, na.translate = FALSE) +
+  labs(title = "Number of captures per SEC filer",
+       y = "Number of companies", x = "Number of captures")
+
+ggplot(data = capturemethod, aes(x = ifelse(Protect == "Non-English", "Non-English", "Protect"), y = n, fill = Protect)) +
+  geom_bar(stat = "identity") +
+  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+  customPlot2 +
+  scale_fill_manual(values = categorical12[6:8], na.translate = TRUE) +
+  labs(title = "Number of captures per capture method",
+       y = "Number of captures", x = "Method")
+
+
+```
+
+```{r}
+exampletop10 <- sec_tokens_filers_top10 %>% 
+  select(-n, -sic) %>%
+  left_join(final_product_list_singlefirstmentionsONLY %>% count(Company = as.character(Company), Token, Protect, first_mention), by = "Company")
+
+teva_example_prods <- exampletop10 %>% filter(str_detect(company_names, "TEVA")) %>% transmute(prod = paste0(Token, ifelse(!is.na(Protect), Protect, ""))) 
+teva_example_prods$prod
+```
+
+
+
+```{r}
+ggplot(data = allname_results_mar2_summary, aes(x = year, fill = ifelse(match_at_all ==1, "detected NDC drug", "undetected NDC drug"))) +
+  geom_bar(stat = "count") + 
   customPlot2 +
   coord_flip() +
   scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
-  labs(title = "Number of SEC companies over time",
-       subtitle = "Yearly SEC Company Counts",
-       y = "Number of companies", x = "Year")
+  labs(title = "Detected NDC drugs over Time",
+       y = "Number of drugs", x = "Year")
+
 ```
 
-Top 25 SEC Filers
 ```{r}
-ggplot(top25seccompanies %>% count(first_mention, Company) %>% select(-n), aes(x =first_mention, fill = "1")) +
-  geom_bar(stat = "count") +
-  #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
+test_test <- allname_matchresults_mar2_summary %>% mutate(match_where = ifelse(match_at_all == 0, "0 - none", 
+                                                             ifelse(prop_matches > 0 & nonprop_matches > 0 & sub_matches > 0, "3 - all", 
+                                                                    ifelse(prop_matches > 0 & nonprop_matches == 0 & sub_matches == 0, "1 - prop",
+                                                                           ifelse(prop_matches == 0 & nonprop_matches > 0 & sub_matches == 0, "1- nonprop",
+                                                                                  ifelse(prop_matches == 0 & nonprop_matches == 0 & sub_matches > 0, "1 - sub",
+                                                                                         ifelse(prop_matches > 0 & nonprop_matches > 0 & sub_matches == 0, "2 - prop + nonprop",
+                                                                                                ifelse(prop_matches == 0 & nonprop_matches > 0 & sub_matches > 0, "2 - nonprop + sub",
+                                                                                                       ifelse(prop_matches > 0 & nonprop_matches == 0 & sub_matches > 0, "2 - prop + sub", "error"))
+                                                                                                )))))))
+
+#test <- allname_results_mar2_summary %>% reshape2::melt(id.vars = c("year", "LABELERNAME", "PROPRIETARYNAME", "NONPROPRIETARYNAME", "SUBSTANCENAME", "match_at_all"))
+table(allname_matchresults_mar2_summary$match_at_all)
+table(test_test$match_at_all)
+
+ggplot(data = test_test, aes(x = "", fill = match_where)) +
+  geom_bar(stat = "count", width = 1) +
   customPlot2 +
-  coord_flip() +
-  scale_fill_manual(values = myCol6[c(1, 5)], na.translate = FALSE) +
-  labs(title = "Top 25 SEC companies over time",
-       subtitle = "Yearly SEC Company Counts Among Top 25 Filers",
-       y = "Number of companies", x = "Year")
+  coord_polar(theta = "y", start = pi / 3) +
+  scale_fill_manual(values = c(signalnoise8[6], rev(noassociation18cols[1:7])), na.translate = FALSE) + 
+  labs(title = "Detected NDC drugs by name match",
+       y = "Number of listings", x = "Name match") +
+  theme(axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())
+
+test_test <- test_test %>% mutate(name_match_ct = str_extract(match_where, "\\d"),
+                     match_type = str_remove(match_where, "\\d - |\\d- "))
+
+ggplot(data = test_test, aes(x = match_at_all, fill = match_where)) + 
+  geom_bar(stat = "count")
+
+ggplot(data = test_test, aes(x = name_match_ct, fill = match_type)) + 
+  geom_bar(stat = "count")
+
+test_test_test <- test_test %>% count(prop = ifelse(prop_matches > 0, 1, 0),
+                    nonprop = ifelse(nonprop_matches > 0, 1, 0), 
+                    sub = ifelse(sub_matches > 0, 1, 0 ))
+
+test_test_test %>% reshape2::melt()
+
 ```
+
+
+```{r}
+prop_summary <- allname_matchresults_mar2_summary %>% count(match = prop_matches > 0) %>% mutate(method = "prop")
+nonprop_summary <- allname_matchresults_mar2_summary %>% count(match = nonprop_matches > 0) %>% mutate(method = "nonprop")
+sub_summary <- allname_matchresults_mar2_summary %>% count(match = sub_matches > 0) %>% mutate(method = "sub")
+
+summarymethod <- rbind(prop_summary, nonprop_summary, sub_summary)
+
+sum(prop_summary$n)
+
+ggplot(data = summarymethod, aes(x = method, y = n, fill = match)) + 
+  geom_bar(stat = "identity") + 
+  geom_text(aes(x= method, y = n - 300, label = n )) +
+  customPlot2 +
+  scale_fill_manual(values = myCol6[c(2, 1)], na.translate = FALSE) +
+  labs(title = "Detected NDC drugs per match Method",
+       y = "Number of drugs", x = "Method")
+```
+
+
+```{r}
+
+final_product_list_singlefirstmentionsONLY_C <- final_product_list_singlefirstmentionsONLY
+final_product_list_singlefirstmentionsONLY_C$Company_c <- as.character(final_product_list_singlefirstmentionsONLY$Company)
+
+prop_pos_matches_sec_ndc_mar2 <- readRDS(paste0(datapath1, "working/NDC/ndc_sec_prop_positive_match_results_mar2.RDS"))
+
+prop_pos_matches_sec_ndc_shortcutting <- allname_matchresults_mar2 %>% tidyr::unnest(prop_match)
+
+prop_pos_matches_sec_ndc_shortcutting %>% filter(LABELERNAME %in% ndc_sec_ref$LABELERNAME )
+
+total_unval <- final_product_list_singlefirstmentionsONLY_C %>% 
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(LABELERNAME, Token, Protect, Name) %>% 
+  count(LABELERNAME, Token) %>% select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "unval")
+
+total_val <- prop_pos_matches_sec_ndc_mar2 %>% 
+  filter(as.character(Company) %in% ndc_sec_ref$cik) %>% 
+  count(LABELERNAME, Token) %>% 
+  select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "val")
+
+ total_ndc <- ndc_validateset %>% 
+  count(LABELERNAME, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(LABELERNAME) %>% 
+  mutate(sec = "ndc")
+
+
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(LABELERNAME)
+doublebarsdoublecheck <- doublebars %>% count(LABELERNAME, sec) %>% select(-n) %>% count(LABELERNAME) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(LABELERNAME %in% doublebarsdoublecheck$LABELERNAME)
+
+```
+
+```{r}
+all_bars <- ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+
+all_bars
+
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(LABELERNAME  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)), 
+         ndc_perc = scales::percent(val/ndc))
+
+ggplot(doublebars, aes(x=reorder(LABELERNAME, n))) + #reorder(day, -perc)
+  geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
+  geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
+  geom_text(data = doublebars_perc, aes(reorder(LABELERNAME, ndc), y = -140), label = doublebars_perc$ndc_perc) + 
+  geom_text(data = doublebars_perc, aes(reorder(LABELERNAME, ndc), y = +150), label = doublebars_perc$val_perc) + 
+  scale_y_continuous(labels = comma) +
+  xlab("") +
+  ylab("SEC Captures & Proprietary Validations vs  NDC PROPRIETARY Totals") +
+  scale_fill_manual(values = myCol6) +
+  #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
+  coord_flip() + customPlot2
+```
+
+
+
+
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+
+
 
 
 

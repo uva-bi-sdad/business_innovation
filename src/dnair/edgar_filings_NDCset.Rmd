@@ -1,0 +1,456 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+## LIBRARIES
+R.utils::sourceDirectory("functions")
+library(xml2) 
+library(rvest) 
+library(stringr)
+library(hunspell)
+library(data.table)
+library(dplyr)
+library(htmltools)
+library(magrittr)
+library(htmltidy)
+library(readr)
+
+
+remove_doc_types <- function(xml_string, types = c("GRAPHIC", "EXCEL", "ZIP", "EX-10.3", "EX-10.6", "EX-10.20")) {
+  no_ns <- gsub("\\n", " ", xml_string)
+  #browser()
+  for (t in types) {
+    find_str <- paste0("<DOCUMENT> ?<TYPE> ?", t)
+    search_str <- paste0("<DOCUMENT> ?<TYPE> ?", t, ".*?</DOCUMENT>")
+    found <-
+      as.data.table(stringr::str_locate_all(no_ns, find_str))
+
+    for (i in 1:nrow(found)) {
+      locs <- as.data.table(stringr::str_locate(no_ns, search_str))
+      st <- locs[1, start] - 1
+      en <- locs[1, end] + 1
+      ifelse(is.na(locs$start) == TRUE & is.na(locs$end) == TRUE, no_ns,
+             no_ns <- paste0(substr(no_ns, 1, st), substr(no_ns, en, nchar(no_ns))) )
+    }
+  }
+  no_ns
+}
+
+
+html_text_collapse <- function(x, trim = FALSE, collapse = "\n"){
+  UseMethod("html_text_collapse")
+}
+
+html_text_collapse.xml_nodeset <- function(x, trim = FALSE, collapse = "\n"){
+  vapply(x, html_text_collapse.xml_node, character(1), trim = trim, collapse = collapse)
+}
+
+html_text_collapse.xml_node <- function(x, trim = FALSE, collapse = "\n"){
+  paste(xml2::xml_find_all(x, ".//text()"), collapse = collapse)
+}
+
+```
+
+```{r}
+project_folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+```
+
+
+```{r}
+ndc_sec_ref <- readxl::read_excel(paste0(project_folder, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
+
+refciks <- unique(ndc_sec_ref$cik)
+```
+
+
+```{r}
+## GRAB ALL PATHS
+paths_file <- paste0(project_folder, "original/edgar_filings/ALL_SEC_files.txt")
+file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
+
+patt <- paste0("^(", paste0(refciks, collapse = "|"), ")" )
+
+ndc_file_headers <- file_headers[str_detect(file_headers$X1, pattern = patt),][[1]]
+
+paths <- paste0(project_folder, "original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
+paths[9]
+file_names <- unique(list.files(paths, full.names = TRUE))
+file_names[9]
+#head(file_names)
+
+ndc_paths <- paste0(project_folder, "original/edgar_filings/Edgar_filings_folders/", ndc_file_headers)
+ndc_file_names <- unique(list.files(ndc_paths, full.names = TRUE))
+
+ndc_sec_ref %>% filter(family == "glaxosmithkline") %>% .$cik %>% unique
+ndc_sec_ref %>% filter(family == "teva") %>% .$cik %>% unique
+
+test <- ndc_file_names[str_detect(ndc_file_names, "1003642")]
+
+# test <- ndc_file_names[str_detect(ndc_file_names, pattern = "1103021")]
+# test <- test[2]
+
+```
+
+```{r}
+eaglefilings <- file_names[str_detect(file_names, "827871")]
+tryme <- eaglefilings[1]
+
+unclean <- read_file(eaglefilings[1])
+cleaned <- remove_doc_types(unclean)
+edgar <- read_html(cleaned)
+edgar <- edgar %>%
+      as.character() %>%
+      HTML() %>%
+      read_html()
+
+company <- str_match(basename(tryme), "(^.*?)_")[, 2]
+date <- str_match(basename(tryme), "([0-9][0-9][0-9][0-9])-([0-9][0-9])-[0-9][0-9]")
+month <- date[, 3]
+year <- date[, 2]
+
+div <- xml_find_all(edgar, ".//body") %>% html_text() %>% str_squish %>% str_remove_all(pattern = "<.*>")
+
+words <- unlist(str_split(str_replace_all(unlist(str_split(div, "\\s", simplify = FALSE)), pattern = "[[:punct:]]", replacement = " "), "\\s"))
+words <- words[dataplumbr::var.is_blank(str_squish(words)) == FALSE & nchar(words) > 3 & grepl(x = words, pattern =  "[[:alpha:]]") == TRUE]
+
+words_cc <- words[str_detect(words, "[a-z][A-Z][a-z]") & nchar(words)> 25]
+words_ncc <- words[str_detect(words, "[a-z][A-Z][a-z]") == FALSE & nchar(words)<= 25]
+
+words_cc <- str_squish(unlist(str_split(words_cc, "(?=[A-Z])", simplify = FALSE)))
+words_cc <- words_cc[dataplumbr::var.is_blank(str_squish(words_cc)) == FALSE & nchar(words_cc) > 3 & grepl(x = words_cc, pattern =  "[[:alpha:]]") == TRUE]
+
+words <- c(words_ncc, words_cc)
+
+words_df <- as.data.frame(words) %>% transmute(words = as.character(words))
+words_df <- words_df %>%   
+  mutate(eng = hunspell_check(words, dict = dictionary("en_US")), 
+  caps = grepl("^[[:upper:]]", words)) %>% 
+  filter(str_detect(words, "=|htm|false") == FALSE) %>%
+  filter((caps == FALSE)|(eng == FALSE & nchar(words) < 25))
+
+  output1 <- tibble::tibble(
+      "Company" = company,
+      "Month" = month,
+      "Year" = year,
+      "Words" = words_df$words,
+      "English" = words_df$caps,
+      "Capitals" = words_df$eng
+    )
+
+savepath <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_march2020/"
+saveRDS(output1, paste0(savepath, company, "_", date[,1], ".RDS"))
+
+
+
+
+```
+
+
+```{r}
+unclean_man <- str_remove_all(unclean, "\\<(.*?)\\>")
+
+cleaned_man <- unclean_man %>% 
+      remove_doc_types() %>% 
+      #iconv(, to = "ASCII") %>% 
+      # read_html() %>% 
+      # xml_find_all(".//body") %>% 
+      # html_text_collapse() %>% 
+      textclean::replace_non_ascii2(replacement = " ")
+"\\.style =\\."
+
+str_extract(cleaned, "[^.]* style= [^.]*\\.") #"style=")
+
+words <- unlist(str_split(str_replace_all(unlist(str_split(cleaned_man, "\\s", simplify = FALSE)), pattern = "[[:punct:]]", replacement = " "), "\\s"))
+    words2 <- words[dataplumbr::var.is_blank(str_squish(words)) == FALSE & nchar(words) > 3 & grepl(x = words, pattern =  "[[:alpha:]]") == TRUE]
+    words_cc <- words2[str_detect(words2, "[a-z][A-Z][a-z]") & nchar(words2)> 25]
+    words_ncc <- words2[str_detect(words2, "[a-z][A-Z][a-z]") == FALSE & nchar(words2)<= 25]
+
+    words_cc <- str_squish(unlist(str_split(words_cc, "(?=[A-Z])", simplify = FALSE)))
+    words_cc <- words_cc[dataplumbr::var.is_blank(str_squish(words_cc)) == FALSE & nchar(words_cc) > 3 & grepl(x = words_cc, pattern =  "[[:alpha:]]") == TRUE]
+
+    words <- c(words_ncc, words_cc)
+    eng <- hunspell_check(words) 
+    init_caps <- grepl("^[[:upper:]]", words)
+    brand <- str_extract(words, "®|™")
+    
+    output1 <- tibble::tibble(
+      # "Company" = company,
+      # "Month" = month,
+      # "Year" = year,
+      "Words" = words,
+      "English" = eng,
+      "Capitals" = init_caps,
+      "Brand" = brand
+    )
+    
+output1 %>% filter(English == FALSE) %>% count(Words) %>% arrange(desc(n))
+test[2]    
+    
+```
+
+
+```{r forloop, eval = FALSE}
+## remove final data.table if exists
+
+rm(i)
+if (exists("fin_o") == TRUE) rm(fin_o)
+
+symbol_dict <- rbind(data.frame(String = c("\u00AE", "®", "&#174;", "&#xae;", "&reg;"), 
+                                Symbol = rep("®", 5)),
+                     data.frame(String = c("\u0099", "™", "&#8482;", "&#x2122", "&#153;", "&#x99;", "&trade;", "\u2122"), 
+                                Symbol = rep("™", 8)))
+
+symbol_dict$String <- as.character(symbol_dict$String)
+symbol_dict$Symbol <- as.character(symbol_dict$Symbol)
+
+# Loop over file paths. For safety, I specify subsets (e.g. file_names[1:1000]) and
+# then write each to a file, combining all files at the end
+# use trycatch to skip errors
+
+for (i in ndc_file_names) { # 2867
+  tryCatch({
+    
+    unclean <- read_file(test[4])
+    
+    # registered_cleaned <- str_extract_all(unclean, pattern = "\\b[\\w-]+(\u00AE|®|&#174;|&#xae;|&reg;)")
+    # trademarks_cleaned <- str_extract_all(unclean, pattern = "\\b[\\w-]+(\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)") 
+    # symbols <- data.frame(Capture = c(unlist(registered_cleaned), unlist(trademarks_cleaned)))
+    # symbols$Capture <- as.character(symbols$Capture)
+    # symbol_captures <- symbols %>% 
+    #   mutate(Symbol_string = str_extract(Capture, 
+    #                               "(\u00AE|®|&#174;|&#xae;|&reg;|\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)$"),
+    #          Capture = str_remove(Capture, 
+    #                               "(\u00AE|®|&#174;|&#xae;|&reg;|\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)$")) %>%
+    #   left_join(symbol_dict, by = c("Symbol_string" = "String"))
+    
+    cleaned <- unclean %>% 
+      remove_doc_types() %>% 
+      # textutils::HTMLdecode() %>% 
+      gsub(pattern = "&nbsp;?", rep = " ")  %>%
+      gsub(pattern = "&#60;|&#x3c;|&lt;|\u003C", replacement = "<") %>% 
+      gsub(pattern = "&#62;|&#x3e;|&gt;|\u003E", replacement = ">") %>% 
+      gsub(pattern = paste0("<tr> ?",  ".*?</tr>"), replacement = " ") %>% 
+      gsub(pattern = paste0("<MyReports> ?",  ".*?</MyReports>"), replacement = " ") %>% 
+      # textutils::HTMLdecode()
+      read_html() %>%
+      html_text_collapse() %>% 
+      textclean::replace_non_ascii2(replacement = " ")
+    
+    # str_count(cleaned, pattern = "nbsp")
+    
+    print(paste(i))
+  }, warning = function(war) {
+    print(paste(i, "MY_WARNING:  ", war))
+    return(NA)
+
+  }, error = function(err) {
+    print(paste(i, "ERROR:  ", err))
+    
+    return(NA)
+
+  }, finally = {
+    
+    company <- str_match(basename(i), "(^.*?)_")[, 2]
+    date <- str_match(basename(i), "([0-9][0-9][0-9][0-9])-([0-9][0-9])-[0-9][0-9]")
+    month <- date[, 3]
+    year <- date[, 2]
+    
+    words <- unlist(str_split(str_replace_all(unlist(str_split(cleaned, "\\s", simplify = FALSE)), pattern = "[[:punct:]]", replacement = " "), "\\s"))
+    words2 <- words[dataplumbr::var.is_blank(str_squish(words)) == FALSE & nchar(words) > 3 & grepl(x = words, pattern =  "[[:alpha:]]") == TRUE]
+    words_cc <- words2[str_detect(words2, "[a-z][A-Z][a-z]") & nchar(words2)> 25]
+    words_ncc <- words2[str_detect(words2, "[a-z][A-Z][a-z]") == FALSE & nchar(words2)<= 25]
+
+    words_cc <- str_squish(unlist(str_split(words_cc, "(?=[A-Z])", simplify = FALSE)))
+    words_cc <- words_cc[dataplumbr::var.is_blank(str_squish(words_cc)) == FALSE & nchar(words_cc) > 3 & grepl(x = words_cc, pattern =  "[[:alpha:]]") == TRUE]
+
+    words <- c(words_ncc, words_cc)
+    
+    words <- unlist(strsplit(iconv(x = words, to = "latin1"), split = "[[:punct:]]"))
+    
+    eng <- hunspell_check(words) 
+    init_caps <- grepl("^[[:upper:]]", words)
+    brand <- str_extract(words, "®|™")
+    
+    output1 <- tibble::tibble(
+      "Company" = company,
+      "Month" = month,
+      "Year" = year,
+      "Words" = words,
+      "English" = eng,
+      "Capitals" = init_caps,
+      "Brand" = brand
+    )
+    
+
+    savepath_all <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_march2020/"
+    savepath_sym <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_sym_march2020/"
+    # savepath <- "~/teva_xml_experiments/"
+    saveRDS(output1, paste0(savepath_all, company, "_", year, ".RDS"))
+    saveRDS(symbol_captures, paste0(savepath_sym, company,"_", "sym", "_", year, ".RDS"))
+    
+  })
+}
+
+```
+
+
+
+
+```{r forloop, eval = FALSE}
+## remove final data.table if exists
+
+rm(i)
+if (exists("fin_o") == TRUE) rm(fin_o)
+
+symbol_dict <- rbind(data.frame(String = c("\u00AE", "®", "&#174;", "&#xae;", "&reg;"), 
+                                Brand = rep("®", 5)),
+                     data.frame(String = c("\u0099", "™", "&#8482;", "&#x2122", "&#153;", "&#x99;", "&trade;", "\u2122"), 
+                                Brand = rep("™", 8)))
+
+symbol_dict$String <- as.character(symbol_dict$String)
+symbol_dict$Brand <- as.character(symbol_dict$Brand)
+
+# Loop over file paths. For safety, I specify subsets (e.g. file_names[1:1000]) and
+# then write each to a file, combining all files at the end
+# use trycatch to skip errors
+
+for (i in tail(ndc_file_names,)) { # 2867
+    print(paste(i))
+    unclean <- read_file(i)
+    company <- str_match(basename(i), "(^.*?)_")[, 2]
+    date <- str_match(basename(i), "([0-9][0-9][0-9][0-9])-([0-9][0-9])-[0-9][0-9]")
+    month <- date[, 3]
+    year <- date[, 2]
+    
+    registered_cleaned <- 
+      str_extract_all(unclean, pattern = "\\b[\\w-]+(\u00AE|®|&#174;|&#xae;|&reg;)|\\b[A-Z][a-z]+\\s[\\w-]+(\u00AE|®|&#174;|&#xae;|&reg;)")
+    trademarks_cleaned <- 
+      str_extract_all(unclean, pattern = "\\b[\\w-]+(\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)|\\b[A-Z][a-z]+\\s[\\w-]+(\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)")
+    symbols <- data.frame(Capture = c(unlist(registered_cleaned), unlist(trademarks_cleaned)))
+    symbols$Capture <- as.character(symbols$Capture)
+    
+    symbol_captures <- symbols %>%
+      mutate(Company = company,
+             Month = month, 
+             Year = year,
+             Symbol_string = str_extract(Capture,
+                                  "(\u00AE|®|&#174;|&#xae;|&reg;|\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)$"),
+             Word = str_remove(Capture,
+                                  "(\u00AE|®|&#174;|&#xae;|&reg;|\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)$")) %>%
+      left_join(symbol_dict, by = c("Symbol_string" = "String"))
+    
+    savepath_sym <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_sym_march2020/"
+    saveRDS(symbol_captures, paste0(savepath_sym, company,"_", "sym", "_", year, ".RDS"))
+    
+    
+}
+
+
+```
+
+
+
+
+
+```{r}
+str_count(cleaned, pattern = "nbsp")
+str_count(cleaned, pattern = "&nbsp")
+
+cleaned_ <- cleaned %>% read_html(options = "NOENT")
+
+str_count(cleaned_, pattern = "nbsp;")
+str_count(cleaned_, pattern = "&nbsp")
+
+cleaned__ <- cleaned %>% read_html()
+
+str_count(cleaned__, pattern = "nbsp")
+str_count(cleaned__, pattern = "&nbsp")
+
+str_count(cleaned, pattern = "&amp")
+str_count(cleaned_, pattern = "&amp")
+str_count(cleaned__, pattern = "&amp")
+
+
+```
+
+
+```{r}
+str_extract(cleaned, pattern = "[^.?!]*(?<=[.?\\s!])nbsp(?=[\\s.?!])[^.?!]*[.?!]")
+```
+
+
+```{r}
+    cleaned <- unclean %>% 
+      remove_doc_types() %>% 
+      # textutils::HTMLdecode() %>% 
+      #gsub(pattern = "&nbsp;?", rep = " ")  %>%
+      gsub(pattern = "&#60;|&#x3c;|&lt;|\u003C", replacement = "<") %>% 
+      gsub(pattern = "&#62;|&#x3e;|&gt;|\u003E", replacement = ">") %>% 
+      gsub(pattern = paste0("<tr> ?",  ".*?</tr>"), replacement = " ") %>% 
+      gsub(pattern = paste0("<MyReports> ?",  ".*?</MyReports>"), replacement = " ") %>% 
+      # textutils::HTMLdecode()
+      read_html() %>%
+      html_text_collapse() %>% 
+      textclean::replace_non_ascii2(replacement = " ")
+```
+
+```{r}
+cleaned <- unclean %>% 
+      remove_doc_types() %>% 
+      # textutils::HTMLdecode() %>% 
+      #gsub(pattern = "&nbsp;?", rep = " ")  %>%
+      gsub(pattern = "&#60;|&#x3c;|&lt;|\u003C", replacement = "<") %>% 
+      gsub(pattern = "&#62;|&#x3e;|&gt;|\u003E", replacement = ">") %>% 
+      gsub(pattern = paste0("<tr> ?",  ".*?</tr>"), replacement = " ") %>% 
+      gsub(pattern = paste0("<MyReports> ?",  ".*?</MyReports>"), replacement = " ") 
+
+```
+
+
+```{r}
+rvest_cleaned <- rvest::html(cleaned)
+str_count(rvest_cleaned, pattern = "nbsp")
+str_count(rvest_cleaned, pattern = "&nbsp")
+
+# devtools::install_github("trinker/textreadr")
+# if (!require("pacman")) install.packages("pacman")
+# pacman::p_load_gh("trinker/textreadr")
+
+rvest_cleaned <- rvest::html(cleaned)
+str_count(rvest_cleaned, pattern = "nbsp")
+str_count(rvest_cleaned, pattern = "&nbsp")
+
+textutils::HTMLdecode("&nbsp")
+```
+
+```{r}
+url <- "https://html.spec.whatwg.org/entities.json"
+
+thing <- jsonlite::fromJSON(url)
+
+head(thing)
+
+class(thing)
+names(thing)
+
+thing2<- jsonlite::read_json(url)
+unlist(thing2)
+install.packages("tidyjson")
+
+rlist::list.table(thing)
+
+data <- bind_rows(thing, .id = 'play')
+
+thing2 <- tidyjson::read_json(url)
+
+thing %>% tidyjson::spread_all()
+
+```
+
+

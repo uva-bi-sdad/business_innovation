@@ -266,6 +266,8 @@ wordlist_enreg_count <- wordlist_engreg_rbind %>%
 
 wcbycomp <- reshape2::dcast(wordlist_enreg_count, Company + Token + Protect ~ Year, value.var = "n", fun.aggregate = sum)
 
+wcbycomp %>% count(Company, Token) %>% select(-n) %>% count(Company)
+
 #table(is.na(wordlist_enreg_count$Protect))
 
 wcbyword_searchcompanies <- wcbycomp %>% mutate(
@@ -1773,7 +1775,7 @@ table(dna_candprods_searchcompanies$complowTF)
 
 ```
 
-```{r remove_companies_from_final_wordlist_2_final_set }
+```{r remove_companies_from_final_wordlist_2_final_set2 }
 wcbyword_findcompanies <- wcbyword_searchcompanies %>% 
   left_join(company_reference_names %>% select(CIK, CompanyString), by = c("Company" = "CIK")) %>%
   mutate(Self = ifelse(str_detect(str_to_lower(CompanyString), pattern = complowmatch), 1, 0),
@@ -1791,7 +1793,7 @@ final_product_list_clean <- wcbyword_findcompanies %>%
   left_join(companyref_pickname, by = c("Company" = "CIK"))
 ```
 
-```{r firstmention}
+```{r firstmention2}
 #### for each company - what was the first time they individually mentioned that product? 
 firstmention_by_company <- final_product_list_clean %>% 
   transmute(Name = Name, 

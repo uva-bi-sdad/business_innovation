@@ -171,5 +171,3 @@ for (i in file_names[1:5]) { # 2867
 # f_all_names_cat <- f_all_names[, .(company_name = paste(COMPANY_NAME, collapse = ", ")), .(CIK, Words, tot_cnt)]
 # # Write combined file with names to a file
 # write_csv(f_all_names_cat, "data/business_innovation/working/word_counts_w_cat_names_all.csv")
-
-

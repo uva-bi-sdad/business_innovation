@@ -1,0 +1,234 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(stringr)
+```
+
+
+
+```{r}
+
+savepath_all <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_march2020/"
+savepath_sym <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_sym_march2020/"
+
+# "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_march2020/"
+
+data_all <- paste0(savepath_all,list.files(savepath_all)[1:615]) %>%
+  purrr::map(readRDS) %>% 
+  purrr::reduce(rbind)
+
+
+data_sym <- paste0(savepath_sym,list.files(savepath_sym)) %>%
+  purrr::map(readRDS) %>% 
+  purrr::reduce(rbind)
+
+processed_sizes <- data_all %>% count(Company, Year)
+processed_sizes %>% saveRDS("~/sec_wordlists_captures_march172020_all_sizes.RDS") 
+#didn't update this after rerunning all and sym
+
+
+
+data_sym_ <- data_sym %>% select(-Capture, -Symbol_string) %>% mutate(English = FALSE, Words = Word) %>% select(-Word)
+data_all <- data_all %>% select(-Capitals)
+
+
+
+# data %>% saveRDS("~/sec_wordlists_captures_march172020_all.RDS")
+
+```
+
+```{r}
+data_all <- readRDS("~/sec_wordlists_captures_march172020_all.RDS")
+```
+
+
+```{r}
+noclue <- c("Percentage1")
+```
+
+What was removed: 
+
+54,039,140 - number of US English terms
+~~1,130,193 - number of GB English terms now 502405~~
+1,325,485 - number of financial terms
+775,920 - number of html entities  w/o # (hashtag)
+63,502 - number of terms with only 1 letter 
+3,402 - date patterns
+
+ 
+now looking at hex color codes, dates (remove date terms or remove date substrings )
+also want to expand financial terms
+
+120,291 more removed for a couple hex-ish patterns, (numeric) datepatterns, and parse issues
+
+
+```{r NONENGLISH}
+data_all_filtered_ <- data_all %>% 
+  filter(English == FALSE)
+
+noneng <- tibble(Step = "1. Non-English (US)",
+       Diff = -(nrow(data_all) - nrow(data_all_filtered_)),
+       Set = nrow(data_all_filtered_))
+```
+
+```{r finance}
+
+fin_terms <- readxl::read_excel("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/original/investopedia_financial_terms_march122020.xlsx")
+
+fin <- unlist(strsplit(fin_terms$Term, "\\s"))
+fin <- str_replace_all(fin, pattern = "(?<=\\d\\d)-(?=[:alpha:])", replacement = "")
+fin <- str_replace_all(fin, pattern = "[[:punct:]]", replacement = " ")
+fin <- str_squish(unlist(strsplit(fin, "\\s")))
+fin <- str_to_lower(fin[nchar(fin) >2 & str_detect(fin, "[[:alpha:]]") == TRUE & hunspell::hunspell_check(fin) == FALSE])
+
+fin_manual <- c("nonvested", "unvested", "undiscounted", "payor", "nonoperating", "noncash", "indemnitee", "(non)?cancelable", "cancelable", "joinder", "uspto", "nonemployee", "recordkeeping", "incurrence", "iso4217", "level[123]", "unaudited")
+
+fin <- paste0(c(fin, fin_manual))
+patt <- paste0(fin, "s?", collapse = "|")
+
+data_all_filtered_fin <- data_all_filtered_ %>% 
+  mutate(Word_low = str_to_lower(Words)) %>% 
+  filter(Word_low %in% fin == FALSE) %>%
+  filter(str_detect(Word_low, patt) == FALSE) 
+
+finance <- tibble(Step = "2. Financial", 
+       Diff = -(nrow(data_all_filtered_) - nrow(data_all_filtered_fin)),
+       Set = nrow(data_all_filtered_fin))
+```
+
+
+```{r html}
+
+html_entities <- readxl::read_excel("~/W3 plu comments.xlsx", sheet = 1) %>% mutate(string = str_remove(str_to_lower(Name), ";"))
+
+
+parse_issue_manual <- c("extlink", "hidear", "helvetica", "nowrap", "sgml", "extlink",  "nump", "XBRL", "Arial", "Helvetica", "P10Y", "x2014",  "nbsp", "x2019", "x201...", "CFF0FC", "FFFFFF", "f0f0f0", "D9D9D9", "f0f9ee","ffffff", "P15Y", "P12M", "P30D", "x201C", "x201D", "x2022", "P24M", "innerHTML", "P24M", "P6Y3M", "P5Y6M", "P2Y6M", "xmltruetrueXML", "sgml", "xbrl", "xbrli","html", "cceeff", "D9D9D9", "f0f9ee", "CCEEFF", "Html", "Namespace", "dddddd", "d8d8d8", "CCECFF", "E6E7E8", "ccffcc", "B7DEE8", "cccccc", "c0c0c0", "CCFFCC", "BDD7EE", "bfe4ff", "webkit", "windowtext", "ARIAL", "ROWSHADECOLOR", "xbrldi","nowrap", "Calibri", "nonnum")
+
+xml <- c(str_to_lower(html_entities$string), str_to_lower(parse_issue_manual))
+
+xml_patt <- paste0("\\b(", paste0(xml, collapse = "|"), ")\\b")
+
+data_all_filtered_html <- data_all_filtered_fin %>%  
+  filter(Word_low %in% html_entities$string == FALSE) %>% 
+  filter(Word_low %in% xml == FALSE) %>%
+  filter(str_detect(Word_low, xml_patt) == FALSE)
+  
+
+html <- tibble(Step = "3. HTML", 
+       Diff = -(nrow(data_all_filtered_fin) - nrow(data_all_filtered_html)),
+       Set = nrow(data_all_filtered_html))
+
+```
+
+```{r}
+data_all_filtered_dates <- data_all_filtered_html %>% 
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>% 
+  filter((str_detect(Word_low, "jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,4}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>% 
+  filter(str_detect(Word_low, "\\bmay\\s?\\d") == FALSE)
+
+dates <- tibble(Step = "4. Dates", 
+       Diff = -(nrow(data_all_filtered_html) - nrow(data_all_filtered_dates)),
+       Set = nrow(data_all_filtered_dates))
+
+```
+
+
+```{r}
+pharma_terms <- str_to_lower(c("FDCA", "HIPAA", "USPTO", "FDASIA", "ANDA",  "anda", "Anda", "pharmacokinetic", "bioequivalen(t|ce|cy)",  "biosimilar", "biologic", "biopharmaceutical", "biopharma", "therapeutic", "pharmaceutical", "science", "bio", "bioscience", "investigational", "Pharma"))
+
+pharma_manual <- c("flml", "pharmacovigilance", "pharm")
+
+pharma_terms <- c(str_to_lower(pharma_terms), str_to_lower(pharma_manual))
+
+pharm_patt <- paste0(paste0("\\b", pharma_terms, "s?\\b"), collapse = "|")
+
+data_all_filtered_pharma <- data_all_filtered_dates %>%
+  filter(Word_low %in% pharma_manual == FALSE) %>%
+  filter(Word_low %in% pharma_terms == FALSE) %>% 
+  filter(str_detect(Word_low, pharm_patt) == FALSE)
+  
+pharma <- tibble(Step = "5. Pharma", 
+       Diff = -(nrow(data_all_filtered_dates) - nrow(data_all_filtered_pharma)),
+       Set = nrow(data_all_filtered_pharma))
+
+```
+
+
+```{r}
+data_all_filtered_t1 <- data_all_filtered_pharma %>% 
+  filter(str_count(Words, "[[:alpha:]]") > 1)
+
+t1 <- tibble(Step = "T1. Contains >1 letter", 
+       Diff = -(nrow(data_all_filtered_pharma) - nrow(data_all_filtered_t1)),
+       Set = nrow(data_all_filtered_t1))
+
+```
+
+```{r}
+data_all_filtered_t2 <- data_all_filtered_t1 %>% 
+  filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
+
+t2 <- tibble(Step = "T2. Letter? 1-3 Nums Letter", 
+       Diff = -(nrow(data_all_filtered_t1) - nrow(data_all_filtered_t2)),
+       Set = nrow(data_all_filtered_t2))
+
+
+```
+
+
+```{r}
+results <- rbind(noneng, finance, html, dates, pharma, t1, t2)
+results
+
+saveRDS(results, "~/orig_to_filtered_steps.RDS")
+```
+
+
+```{r}
+data_all_filtered_t2 %>% 
+  count(Word_low) %>% 
+  arrange(desc(n))
+  
+```
+
+```{r}
+data_all_filtered_t2 %>% 
+  count(Word_low) %>% 
+  arrange(desc(n)) %>% 
+  filter(str_detect(Word_low, "[0-9A-Fa-f]{6}"))
+```
+
+
+
+```{r}
+
+saveRDS(data_all_filtered_t2, "~/sec_wordlists_captures_march2020_filtered_march202020.RDS")
+
+
+```
+
+
+
+HEx codes - 
+```{r}
+data_all_filtered__ %>% count(Words) %>% arrange(desc(n)) %>% filter(nchar(Words) == 6 & str_detect(Words, "[0-9A-Fa-f]{6}") == TRUE)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+

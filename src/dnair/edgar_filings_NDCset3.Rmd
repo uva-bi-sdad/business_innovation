@@ -1,0 +1,153 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(stringr)
+
+'%!in%' <- function(x,y)!('%in%'(x,y))
+
+# stem_hunspell <- function(term) {
+#   # look up the term in the dictionary
+#   stems <- hunspell::hunspell_stem(term)[[1]]
+# 
+#   if (length(stems) == 0) { # if there are no stems, use the original term
+#     stem <- term
+#   } else { # if there are multiple stems, use the last one
+#     stem <- stems[[length(stems)]]
+#   }
+# 
+#   stem
+# }
+```
+
+
+
+```{r}
+# data <- readRDS("~/sec_wordlists_captures_march2020_all.RDS")
+data <- readRDS("~/sec_wordlists_captures_march2020_filtered_march202020.RDS")
+
+new_ref_companies <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_newreftokens.RDS")
+
+companyref_pickname <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_pickname.RDS")
+
+company_reference_names <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_comprefnames.RDS")
+
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+cik_ticker <- readr::read_delim(paste0(datapath1, "original/edgar_filings/cik_ticker.csv"), delim = "|") 
+```
+
+
+```{r}
+patt = paste0("^", new_ref_companies$Tokens, "$", collapse = "|")
+pattlow = paste0("^", new_ref_companies$token_low, "$", collapse = "|")
+patthun = paste0("^", new_ref_companies$token_hun, "$", collapse = "|")
+patt_ticker = paste0("^", str_to_lower(cik_ticker$Ticker), "$", collapse = "|")
+```
+
+
+
+```{r}
+data_ct <- data %>% 
+  count(Company, Year, Token = Words, Brand)
+
+wcbycomp <- reshape2::dcast(data_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
+```
+
+
+
+```{r}
+
+wcbyword_searchcompanies <- wcbycomp %>% mutate(
+  word_low = str_to_lower(Token),
+  complowTF = str_detect(word_low, pattlow),
+  complowmatch = str_extract(word_low, patthun))
+
+table(wcbyword_searchcompanies$complowTF)
+
+wcbyword_searchcompanies <- wcbyword_searchcompanies %>% 
+  mutate(tickerlowTF = str_detect(word_low, patt_ticker))
+
+table(wcbyword_searchcompanies$tickerlowTF)
+
+# wcbyword_searchcompanies %>% count(Token, complowTF, tickerlowTF) %>% filter(complowTF == TRUE | tickerlowTF == TRUE)
+# wcbyword_searchcompanies %>% count(Token, complowTF, tickerlowTF) %>% filter(complowTF == FALSE & tickerlowTF == FALSE)
+```
+
+
+```{r}
+wcbyword_findcompanies <- wcbyword_searchcompanies %>%
+  left_join(company_reference_names %>% transmute(CIK = as.character(CIK), CompanyString), by = c("Company" = "CIK")) %>%
+  mutate(Self = ifelse(str_detect(str_to_lower(CompanyString), pattern = complowmatch), 1, 0))  %>%
+  left_join(cik_ticker %>% transmute(CIK = as.character(CIK), Ticker, Name), by = c("Company" = "CIK")) %>%
+  mutate(Self_Ticker = ifelse(tickerlowTF == TRUE & str_detect(word_low, pattern = str_to_lower(Ticker)) == TRUE, 1, 0))
+
+wcbyword_findcompanies %>% filter(complowTF == TRUE) %>% select(Token, Brand, word_low, CompanyString, Self)
+wcbyword_findcompanies %>% filter(tickerlowTF == TRUE) %>% select(Token, Brand, word_low, Ticker, Self_Ticker)
+
+# table(is.na(wcbyword_findcompanies$Ineligible))
+# wcbyword_findcompanies %>% count(complowTF, Self, Pharma, Fin, Ineligible)
+
+final_product_list <- wcbyword_searchcompanies %>% 
+  filter(complowTF == FALSE & tickerlowTF == FALSE) %>% 
+  left_join(companyref_pickname %>% mutate(CIK = as.character(CIK)), by = c("Company" = "CIK"))
+
+
+```
+
+
+```{r firstmention}
+#### for each company - what was the first time they individually mentioned that product? 
+firstmention_by_company <- final_product_list %>% 
+  transmute(Name = Name, 
+        first_mention = ifelse(`2012` > 0, 2012, 
+                                ifelse(`2013` > 0, 2013, 
+                                        ifelse(`2014` > 0, 2014, 
+                                                ifelse(`2015` > 0, 2015, 
+                                                        ifelse(`2016` > 0, 2016,
+                                                               ifelse(`2017` > 0, 2017, 1900)))))), 
+         #Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token),
+        Token, 
+        Brand)
+
+
+#### for commonly mentioned products - which company mentioned it first? for ties - remove the tokens
+
+#### how to find tokens that have multiple companies mentioning them
+#firstmention_by_company %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
+#### example of how to find first mention YEAR among multiple company years with Abilify
+#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention))
+#### example how to take first mention YEAR and then filter for rows with that year
+#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company %>% filter(Token == "Abilify"), by = c("Token")) %>% filter(minyear == first_mention)
+
+#### run above on entire set 
+
+# get earliest year
+creditcompanybyfirstmention <- firstmention_by_company %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company, by = c("Token")) %>% filter(minyear == first_mention)
+# get tokens with multiple companies first mentions
+tokens_with_tied_firstmention <- creditcompanybyfirstmention %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
+
+# remove mult-tokens from set
+creditcompanybyfirstmention_NO_TIES <- creditcompanybyfirstmention %>% filter(Token %!in% tokens_with_tied_firstmention$Token) %>% select(Token, Brand, Name, minyear)
+
+# join back to original list 
+final_product_list_singlefirstmentionsONLY <- final_product_list %>% 
+  left_join(firstmention_by_company, by = c("Name", "Token", "Brand")) %>% 
+  inner_join(creditcompanybyfirstmention_NO_TIES, by = c("Token", "Name", "Brand", "first_mention" = "minyear"))
+
+```
+
+```{r}
+# saveRDS(final_product_list, file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_mar19.RDS")
+# saveRDS(final_product_list_singlefirstmentionsONLY, file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_singmention_mar19.RDS")
+ # saveRDS(wcbyword_findcompanies, file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbyword_mar20.RDS")
+
+final_product_list <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_mar19.RDS"))
+final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_singmention_mar19.RDS"))
+wcbyword_findcompanies <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbyword_mar20.RDS")
+```
+

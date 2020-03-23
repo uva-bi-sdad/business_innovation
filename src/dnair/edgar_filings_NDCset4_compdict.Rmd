@@ -1,0 +1,97 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" #new rivanna location
+
+ciknames <- readRDS(paste0(datapath1, "original/ciks_names.RDS"))
+sic <- readRDS(paste0(datapath1, "original/sic.download.RDS"))
+cik_ticker <- readr::read_delim(paste0(datapath1, "original/edgar_filings/cik_ticker.csv"), delim = "|")   #RANKANDFILE website
+cikcountries <- readr::read_delim(paste0(datapath1, "original/edgar_filings/edgar_state_country.csv"), delim = "|") #RANKANDFILE website
+
+sic
+```
+
+```{r}
+colnames(sic) <- c("CIK", "SIC_CompName", "SIC_SIC", "SIC_Industry", "SIC_Location")
+colnames(ciknames) <- c("CIK", "SEC_CompName", "SEC_SIC")
+colnames(cik_ticker) <- c("CIK", "Ticker_TickerCode", "Ticker_CompName", "Ticker_Exchange", "Ticker_SIC", "Ticker_Location", "Ticker_Inc_Location", "Ticker_IRS")
+colnames(cikcountries) <- c("Code", "Ticker_StateCountry")
+
+sic$SIC_SIC <- as.numeric(sic$SIC_SIC)
+sic$CIK <- as.numeric(sic$CIK)
+ciknames$CIK <- as.numeric(ciknames$CIK)
+ciknames$SEC_SIC <- as.numeric(ciknames$SEC_SIC)
+
+```
+
+```{r comp_reference_1}
+cikcountries <- cikcountries %>%
+  mutate(US = recode(Code, 
+                     "CA"= "USA", "CO" = "USA", "CT" = "USA", "DC" = "USA", "FL" = "USA", "GA" = "USA",
+                     "IL" = "USA", "IN" = "USA", "MA" = "USA", "MD" = "USA", "MN" = "USA", "MI" = "USA",
+                     "MO" = "USA", "NC" = "USA", "NJ" = "USA", "NV" = "USA", "NY" = "USA", "OH" = "USA",
+                     "PA" = "USA", "SC" = "USA", "TN" = "USA", "TX" = "USA", "UT" = "USA", "WA" = "USA",
+                     "AK" = "USA", "AL" = "USA", "AR" = "USA", "AZ" = "USA", "DE" = "USA", "IA" = "USA",
+                     "ID" = "USA", "ME" = "USA", "MS" = "USA", "MT" = "USA", "ND" = "USA", "NE" = "USA",
+                     "OK" = "USA", "OR" = "USA", "PR" = "USA", "RI" = "USA", "SD" = "USA", "VA" = "USA",
+                     "VT" = "USA", "WA" = "USA", "WI" = "USA", "WV" = "USA", "WY" = "USA", "NH" = "USA")) 
+
+companyref <- sic %>% # 58K  
+  full_join(ciknames, by = "CIK") %>% # 779      
+  full_join(cik_ticker, by = "CIK") %>%  #13K
+  full_join(cikcountries, by = c("Ticker_Location" = "Code")) #309 - but doens't affect rows
+                                                 
+companyref_pickname <- companyref %>%
+  mutate(Name = ifelse(!is.na(SEC_CompName), SEC_CompName,
+                       ifelse(!is.na(SIC_CompName), SIC_CompName,
+                              ifelse(!is.na(Ticker_CompName), Ticker_CompName, paste(SEC_CompName, SIC_CompName, Ticker_CompName)))),
+         SIC = ifelse(!is.na(SEC_SIC), SEC_SIC,
+                       ifelse(!is.na(SIC_SIC), SIC_SIC,
+                              ifelse(!is.na(Ticker_SIC), Ticker_SIC, 0)))) %>%
+  transmute(Name = Name, CIK = CIK, SIC = SEC_SIC, SIC_Loc = SIC_Location, TickerCode = Ticker_TickerCode, Exchange = Ticker_Exchange, Ticker_Location, Ticker_Inc_Location, Ticker_StateCountry, US)
+
+```
+
+```{r company_reference_sets_and_multtokens }
+company_reference_names <- companyref %>% distinct() %>% 
+  mutate(CompanyString = paste(SIC_CompName, SEC_CompName, Ticker_CompName)) 
+
+comp_tokens <- str_split(company_reference_names$CompanyString, pattern = " |[[:punct:]]")
+stopwords <- as.vector(c("inc", "corp", "ltd","plc","llc","hold?ing?s","international","group","acquisition","american","china","usa"))
+#stopwords <- paste0( stopwords, collapse = "|")
+
+new_ref_companies <- tibble(company_reference_names$CompanyString, comp_tokens) %>% # head() %>% 
+  tidyr::unnest(cols = c("comp_tokens")) %>% filter(nchar(comp_tokens) >1) %>% as.data.frame() %>%
+  left_join(company_reference_names, by = c("company_reference_names$CompanyString" = "CompanyString")) %>%
+  mutate(comp_lowword = str_to_lower(str_squish(comp_tokens))) %>% filter(comp_lowword %!in% stopwords) %>% 
+  mutate(comp_low_hun = corpus::text_tokens(comp_lowword, stemmer = stem_hunspell)) %>% tidyr::unnest(cols = c("comp_low_hun")) %>% distinct()
+
+colnames(new_ref_companies) <- c("CompanyString", "Tokens", "CIK", "SIC_Company_Name", "SIC_SIC", "SIC_Industry", "SIC_Location", "SEC_Company_Name", "SEC_SIC", "Ticker_Code", "Ticker_Company_Name", "Ticker_Exchange", "Ticker_SIC_Code", "Ticker_Location", "Ticker_IncLoc", "Ticker_IRS", "CIK_Ticker_US_Country", "CIK_Ticker_USA", "token_low", "token_hun")
+
+multtokens <- new_ref_companies %>% group_by(Tokens) %>% summarise(n = n()) %>% filter(n > 1)
+#knitr::kable(multtokens[str_detect(multtokens$Tokens, "Apogee"),])
+new_ref_companies2 <- new_ref_companies
+new_ref_companies <- new_ref_companies %>% filter(Tokens %!in% multtokens$Tokens)
+
+multenglishtokens <- new_ref_companies2 %>% mutate(eng = hunspell::hunspell_check(token_hun)) %>% filter(eng == "TRUE") %>% group_by(token_hun) %>% summarise(n = n()) %>% filter(n > 1)
+```
+
+
+```{r}
+saveRDS(object = new_ref_companies, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_newreftokens.RDS")
+saveRDS(companyref_pickname, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_pickname.RDS")
+
+saveRDS(company_reference_names, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_comprefnames.RDS")
+
+```
+
+
