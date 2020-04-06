@@ -17,6 +17,21 @@ final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working
 ```
 
 ```{r}
+# final_product_list_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_PROX_mar26.RDS")
+
+final_product_list_singlefirstmentionsONLY_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_singmention_PROX_mar26.RDS")
+
+# wcbyword_searchcompanies_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbywordsearch_PROX_mar26.RDS")
+
+# final_product_list_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_BRAND_mar26.RDS")
+final_product_list_singlefirstmentionsONLY_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_singmention_BRAND_mar26.RDS")
+
+# wcbyword_searchcompanies_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbywordsearch_BRAND_mar26.RDS")
+
+```
+
+
+```{r}
 datapath <- "/project/biocomplexity/sdad/projects_data/volume_nyc1_01/business_innovation/" 
 ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt")) %>% mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"))
 
@@ -26,6 +41,7 @@ colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_re
 ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe))
 
 ```
+
 
 
 ```{r}
@@ -40,11 +56,13 @@ sec_percorpfamily
 ndc_validateset <- ndc_product %>%
   select(4, 6, 13, 14) %>%
   distinct() %>%
-  filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
   mutate(LABELERNAME,
          Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),
          Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
-         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) %>%
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) 
+
+ndc_validate_subset  <- ndc_validateset %>%
+  filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
   left_join(ndc_sec_ref %>% select(1,11), by = c("LABELERNAME" = "ndc_labeler")) %>% 
   select(8,3,5, 6, 1,2 )
 
@@ -62,8 +80,22 @@ mega_token_patt <- paste0("\\b(", paste0(unique(final_product_list_singlefirstme
 ```
 
 
+
+```{r pressure, echo=FALSE}
+final_product_list_singlefirstmentionsONLY_prox <- final_product_list_singlefirstmentionsONLY_prox %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+
+final_product_list_singlefirstmentionsONLY_brand <- final_product_list_singlefirstmentionsONLY_brand %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+
+mega_token_prox_patt <- paste0("\\b(", paste0(unique(final_product_list_singlefirstmentionsONLY_prox$token_low), collapse = "|"), ")\\b")
+mega_token_brand_patt <- paste0("\\b(", paste0(unique(final_product_list_singlefirstmentionsONLY_brand$token_low), collapse = "|"), ")\\b")
+
+```
+
+
 ```{r}
-ndc_validateset_results <- ndc_validateset %>% 
+ndc_validateset_results <- ndc_validate_subset %>% 
   mutate(Prop_YN = str_detect(Prop_low, pattern = mega_token_patt),
          Prop_matches = str_extract(Prop_low, pattern = mega_token_patt),
          NonProp_YN = str_detect(Nonprop_low, pattern = mega_token_patt),
@@ -79,8 +111,34 @@ ndc_validateset_results <- ndc_validateset_results %>% mutate(match_ct = Prop_YN
 table(ndc_validateset_results$match_ct)
 table(ndc_validateset_results$match_type)
 
+(ndc_validateset_results %>% filter(match_ct > 0) %>% nrow()) / nrow(ndc_validateset_results)
+
 ndc_validateset_results %>% filter(match_type == "missed") %>% select(c(5:6, 8, 10))
 ```
+
+```{r}
+ndc_validateset_results_prox <- ndc_validate_subset %>% 
+  mutate(Prop_YN = str_detect(Prop_low, pattern = mega_token_prox_patt),
+         Prop_matches = str_extract(Prop_low, pattern = mega_token_prox_patt),
+         NonProp_YN = str_detect(Nonprop_low, pattern = mega_token_prox_patt),
+         NonProp_matches = str_extract(Nonprop_low, pattern = mega_token_prox_patt)) %>% mutate(match_ct = Prop_YN + NonProp_YN,
+                                       match_type = ifelse(match_ct == 0, "missed", ifelse(match_ct ==2, "both detected", ifelse(Prop_YN == TRUE, "prop only", "non-prop only"))))
+
+(ndc_validateset_results_prox %>% filter(match_ct > 0) %>% nrow()) / nrow(ndc_validateset_results_prox)
+```
+
+```{r}
+ndc_validateset_results_brand <- ndc_validate_subset %>% 
+  mutate(Prop_YN = str_detect(Prop_low, pattern = mega_token_brand_patt),
+         Prop_matches = str_extract(Prop_low, pattern = mega_token_brand_patt),
+         NonProp_YN = str_detect(Nonprop_low, pattern = mega_token_brand_patt),
+         NonProp_matches = str_extract(Nonprop_low, pattern = mega_token_brand_patt)) %>% mutate(match_ct = Prop_YN + NonProp_YN,
+                                       match_type = ifelse(match_ct == 0, "missed", ifelse(match_ct ==2, "both detected", ifelse(Prop_YN == TRUE, "prop only", "non-prop only"))))
+
+(ndc_validateset_results_brand %>% filter(match_ct > 0) %>% nrow()) / nrow(ndc_validateset_results_brand)
+
+```
+
 
 
 ```{r}
@@ -96,10 +154,9 @@ ndc_validateset_results %>% filter(match_type == "missed") %>% select(c(5:6, 8, 
 # saveRDS(ndc_validateset_results, paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/ndc_validateset_results_march20.RDS"))
 ```
 
-
+NDC Products
 
 ```{r}
-
 ndc_prop <- unique(unlist(str_split(str_replace_all(unlist(str_split(ndc_validateset$Prop_low, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
 ndc_prop <- ndc_prop[nchar(ndc_prop) > 2 & str_detect(ndc_prop, "[[:alpha:]]")]
 
@@ -108,18 +165,207 @@ ndc_nonprop <- ndc_nonprop[nchar(ndc_nonprop) > 2 & str_detect(ndc_nonprop, "[[:
 
 mega_ndc_prop_patt <- paste0("\\b(", paste0(ndc_prop, collapse = "|"), ")\\b")
 mega_ndc_nonprop_patt <- paste0("\\b(", paste0(ndc_nonprop, collapse = "|"), ")\\b")
+```
 
-final_product_list_singlefirstmentionsONLY_valunval <- final_product_list_singlefirstmentionsONLY %>% 
-  mutate(Prop_YN = str_detect(word_low, pattern = mega_ndc_prop_patt),
-         Prop_matches = str_extract(word_low, pattern = mega_ndc_prop_patt),
-         NonProp_YN = str_detect(word_low, pattern = mega_ndc_nonprop_patt),
-         NonProp_matches = str_extract(word_low, pattern = mega_ndc_nonprop_patt))
 
-table(final_product_list_singlefirstmentionsONLY_valunval$Prop_YN)
-table(final_product_list_singlefirstmentionsONLY_valunval$NonProp_YN)
+European
+```{r}
+europeanmeds <- readxl::read_excel("~/Medicines_output_european_public_assessment_reports.xlsx")
+
+european_meds <- europeanmeds %>% select(`Medicine name`, `International non-proprietary name (INN) / common name`, Generic, Biosimilar, `Marketing authorisation date`, `Marketing authorisation holder/company name`)
+
+eur_prop <- unique(unlist(str_split(str_replace_all(unlist(str_split(european_meds$`Medicine name`, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+eur_prop <- str_to_lower(eur_prop[nchar(eur_prop) > 2 & str_detect(eur_prop, "[[:alpha:]]") & hunspell::hunspell_check(eur_prop) == FALSE & !is.na(eur_prop)])
+
+eur_nonprop <- unique(unlist(str_split(str_replace_all(unlist(str_split(european_meds$`International non-proprietary name (INN) / common name`, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+eur_nonprop <- str_to_lower(eur_nonprop[nchar(eur_nonprop) > 2 & str_detect(eur_nonprop, "[[:alpha:]]") & hunspell::hunspell_check(eur_nonprop) == FALSE & !is.na(eur_nonprop)])
+
+mega_eur_prop_patt <- paste0("\\b(", paste0(eur_prop, collapse = "|"), ")\\b")
+mega_eur_nonprop_patt <- paste0("\\b(", paste0(eur_nonprop, collapse = "|"), ")\\b")
 
 ```
 
+Devices
+```{r}
+devices <- readxl::read_excel("~/Other validating sets BINN.xlsx", sheet = "FDA_Devices_Prop_Name")
+
+device_prop <- unique(unlist(str_split(str_replace_all(unlist(str_split(devices$PROPRIETARY_NAME, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+device_prop <- str_to_lower(device_prop[nchar(device_prop) > 2 & str_detect(device_prop, "[[:alpha:]]") & hunspell::hunspell_check(device_prop) == FALSE & !is.na(device_prop)])
+
+device_prop <- textclean::replace_non_ascii2(device_prop)
+device_prop <- str_replace_all(device_prop, pattern = "\\+", "")
+device_prop <- str_replace_all(device_prop, pattern = "~|=", " ")
+device_prop <- str_replace_all(device_prop, pattern = "~", " ")
+device_prop <- str_replace_all(device_prop, pattern = "`|<|>|\\^|\\$", " ")
+
+device_prop <- unique(unlist(str_split(str_replace_all(unlist(str_split(device_prop, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+device_prop <- str_to_lower(device_prop[nchar(device_prop) > 2 & str_detect(device_prop, "[[:alpha:]]") & hunspell::hunspell_check(device_prop) == FALSE & !is.na(device_prop)])
+
+mega_device_prop_patt <- paste0("\\b(", paste0(device_prop, collapse = "|"), ")\\b")
+
+```
+
+Diagnoses
+```{r}
+diagnoses <- read.delim("~/icd10cm_codes_2019.txt", header = F)
+
+diagnosis_prop <- unique(unlist(str_split(str_replace_all(unlist(str_split(diagnoses$V1, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+diagnosis_prop <- diagnosis_prop[str_detect(diagnosis_prop, "[0-9]") ==FALSE] 
+diagnosis_prop <- str_to_lower(diagnosis_prop[nchar(diagnosis_prop) > 2 & str_detect(diagnosis_prop, "[[:alpha:]]") & hunspell::hunspell_check(diagnosis_prop) == FALSE & !is.na(diagnosis_prop)])
+
+mega_diag_patt <- paste0("\\b(", paste0(diagnosis_prop, collapse = "|"), ")\\b")
+```
+
+Names
+```{r}
+names <- babynames::babynames %>% select(name) %>% distinct() %>% mutate(name_low = str_to_lower(name))
+mega_name_patt <- paste0("\\b(", paste0(names$name_low, collapse = "|"), ")\\b")
+```
+
+
+```{r}
+final_product_list_singlefirstmentionsONLY_awaitingvals <- final_product_list_singlefirstmentionsONLY %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+final_product_list_singlefirstmentionsONLY_awaitingvals_prox <- final_product_list_singlefirstmentionsONLY_prox %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+final_product_list_singlefirstmentionsONLY_awaitingvals_brand <- final_product_list_singlefirstmentionsONLY_brand %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+nrow(final_product_list_singlefirstmentionsONLY_awaitingvals) # before dropping numbers 24,093 , after dropping numbers 22,130
+
+final_product_list_singlefirstmentionsONLY_valunval <- final_product_list_singlefirstmentionsONLY_awaitingvals %>% 
+  mutate(# US PRODUCT NAMES
+         Prop_YN = str_detect(word_low, pattern = mega_ndc_prop_patt),
+         Prop_matches = str_extract(word_low, pattern = mega_ndc_prop_patt),
+         NonProp_YN = str_detect(word_low, pattern = mega_ndc_nonprop_patt),
+         NonProp_matches = str_extract(word_low, pattern = mega_ndc_nonprop_patt),
+         US_match_ct = Prop_YN + NonProp_YN,
+         # EUROPE PRODUCT NAMES
+         Eur_Prop_YN = str_detect(word_low, pattern = mega_eur_prop_patt),
+         Eur_Prop_matches = str_extract(word_low, pattern = mega_eur_prop_patt),
+         Eur_NonProp_YN = str_detect(word_low, pattern = mega_eur_nonprop_patt),
+         Eur_NonProp_matches = str_extract(word_low, pattern = mega_eur_nonprop_patt),
+         EUR_match_ct = Eur_Prop_YN + Eur_NonProp_YN,
+         # DEVICE NAMES
+         Device_Prop_YN = str_detect(word_low, pattern = mega_device_prop_patt),
+         Device_Prop_matches = str_extract(word_low, pattern = mega_device_prop_patt),
+         # DIAGNOSES
+         Diag_YN = str_detect(word_low, pattern = mega_diag_patt),
+         Diag_matches = str_extract(word_low, pattern = mega_diag_patt),
+         # FIRST NAMES
+         FName = str_detect(word_low, pattern = mega_name_patt),
+         FNamee_matchese = str_extract(word_low, pattern = mega_name_patt),
+         match_ct = US_match_ct + EUR_match_ct + Device_Prop_YN + Diag_YN)
+
+final_product_list_singlefirstmentionsONLY_valunval_prox <- final_product_list_singlefirstmentionsONLY_awaitingvals_prox %>% 
+  mutate(# US PRODUCT NAMES
+         Prop_YN = str_detect(word_low, pattern = mega_ndc_prop_patt),
+         Prop_matches = str_extract(word_low, pattern = mega_ndc_prop_patt),
+         NonProp_YN = str_detect(word_low, pattern = mega_ndc_nonprop_patt),
+         NonProp_matches = str_extract(word_low, pattern = mega_ndc_nonprop_patt),
+         US_match_ct = Prop_YN + NonProp_YN)
+
+final_product_list_singlefirstmentionsONLY_valunval_brand <- final_product_list_singlefirstmentionsONLY_awaitingvals_brand %>% 
+  mutate(# US PRODUCT NAMES
+         Prop_YN = str_detect(word_low, pattern = mega_ndc_prop_patt),
+         Prop_matches = str_extract(word_low, pattern = mega_ndc_prop_patt),
+         NonProp_YN = str_detect(word_low, pattern = mega_ndc_nonprop_patt),
+         NonProp_matches = str_extract(word_low, pattern = mega_ndc_nonprop_patt),
+         US_match_ct = Prop_YN + NonProp_YN)
+
+matchset_selfother <- final_product_list_singlefirstmentionsONLY_valunval %>% 
+  filter(!is.na(Prop_matches) | !is.na(NonProp_matches)) %>% 
+  left_join(ndc_validateset_results %>% transmute(family, Prop_matches, NonProp_matches, Self = 1) %>% distinct(), by = c("family", "Prop_matches", "NonProp_matches")) %>%
+  mutate(Self = ifelse(is.na(Self), 0, Self))
+
+matchset_nomatch <- final_product_list_singlefirstmentionsONLY_valunval %>% 
+  filter(is.na(Prop_matches) & is.na(NonProp_matches)) %>% mutate(Self = -1)
+
+final_product_list_singlefirstmentionsONLY_valunval_selfother <- rbind(matchset_selfother, matchset_nomatch)
+
+
+matchset_selfother_prox <- final_product_list_singlefirstmentionsONLY_valunval_prox %>% 
+  filter(!is.na(Prop_matches) | !is.na(NonProp_matches)) %>% 
+  left_join(ndc_validateset_results_prox %>% transmute(family, Prop_matches, NonProp_matches, Self = 1) %>% distinct(), by = c("family", "Prop_matches", "NonProp_matches")) %>%
+  mutate(Self = ifelse(is.na(Self), 0, Self))
+
+matchset_nomatch_prox <- final_product_list_singlefirstmentionsONLY_valunval_prox %>% 
+  filter(is.na(Prop_matches) & is.na(NonProp_matches)) %>% mutate(Self = -1)
+
+final_product_list_singlefirstmentionsONLY_valunval_selfother_prox <- rbind(matchset_selfother_prox, matchset_nomatch_prox)
+
+
+matchset_selfother_brand <- final_product_list_singlefirstmentionsONLY_valunval_brand %>% 
+  filter(!is.na(Prop_matches) | !is.na(NonProp_matches)) %>% 
+  left_join(ndc_validateset_results_brand %>% transmute(family, Prop_matches, NonProp_matches, Self = 1) %>% distinct(), by = c("family", "Prop_matches", "NonProp_matches")) %>%
+  mutate(Self = ifelse(is.na(Self), 0, Self))
+
+matchset_nomatch_brand <- final_product_list_singlefirstmentionsONLY_valunval_brand %>% 
+  filter(is.na(Prop_matches) & is.na(NonProp_matches)) %>% mutate(Self = -1)
+
+final_product_list_singlefirstmentionsONLY_valunval_selfother_brand <- rbind(matchset_selfother_brand, matchset_nomatch_brand)
+
+
+```
+
+
+```{r}
+table(final_product_list_singlefirstmentionsONLY_valunval_selfother$match_ct > 0)
+4574 / (4574 + 17556) #20%
+# table(final_product_list_singlefirstmentionsONLY_valunval_selfother$Self)
+# final_product_list_singlefirstmentionsONLY_valunval_selfother %>% filter(Self == 1) %>% .$Token %>% str_count(pattern = "[0-9]")
+
+brandtest <- final_product_list_singlefirstmentionsONLY_valunval_selfother %>% filter(!is.na(Brand))
+table(brandtest$match_ct > 0)
+718/(718+391) # 64%
+
+subtractdiagsandnames <- final_product_list_singlefirstmentionsONLY_valunval_selfother %>% filter(Diag_YN == FALSE & FName == FALSE) # 20,328
+
+table(subtractdiagsandnames$match_ct > 0)
+3815  / (3815 + 16513) #18%
+table(subtractdiagsandnames$Self)
+324 / nrow(subtractdiagsandnames)
+(324+ 2131) / nrow(subtractdiagsandnames)
+
+nrow(subtractdiagsandnames) %>% filter(Eur_Prop_YN == FALSE & Eur_NonProp_YN == FALSE) %>% nrow() #19338
+subtractdiagsandnames %>% filter(Device_Prop_YN == FALSE) %>% nrow() #19338
+```
+
+```{r}
+subtractdiagsandnames %>% filter(US_match_ct < 1) %>% .$Token
+
+# url <- "http://ftp.debian.org/debian/pool/main/h/hunspell-en-med/hunspell-en-med_0.0.20080513.orig.tar.gz"
+# download.file(url, "~/dictionary_medicalterms")
+
+word_lows <- unique(subtractdiagsandnames$word_low)
+
+subtractdiagsandnames <- subtractdiagsandnames %>% mutate(french = ifelse(US_match_ct <1, hunspell::hunspell_check(word_low, hunspell::dictionary(lang = "fr_FR")), FALSE))
+subtractdiagsandnames <- subtractdiagsandnames %>% mutate(german = ifelse(US_match_ct <1, hunspell::hunspell_check(word_low, hunspell::dictionary(lang = "de_DE")), FALSE))
+
+subtractdiagsandnames_langs <- subtractdiagsandnames %>% filter(french == FALSE) %>% filter(german == FALSE)
+
+subtractdiagsandnames_langs %>% filter(US_match_ct == 0) %>% .$Token %>% unique()
+
+
+```
+
+
+
+Ideas for future: 
+```{r}
+final_product_list_singlefirstmentionsONLY_valunval_selfother_val3_nonames <- final_product_list_singlefirstmentionsONLY_valunval_selfother_val3_nonames %>% filter( str_detect(Token, "[0-9]") == FALSE) %>% mutate(spell = hunspell::hunspell_check(Token, dict = hunspell::dictionary("en_GB"))) %>% filter(spell == FALSE) 
+```
 
 
 
@@ -127,13 +373,6 @@ table(final_product_list_singlefirstmentionsONLY_valunval$NonProp_YN)
 # saveRDS(final_product_list_singlefirstmentionsONLY_valunval, paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march20.RDS"))
 ```
 
-
-```{r}
-final_product_list_singlefirstmentionsONLY_valunval <- final_product_list_singlefirstmentionsONLY_valunval %>% 
-  transmute(cik = as.double(Company), Name, Token, Brand, Prop_YN, Prop_matches, NonProp_YN, NonProp_matches) %>%
-  left_join(ndc_sec_ref %>% select(cik, family), by =  "cik") %>% 
-  select(family, cik, Name, Token, Brand, Prop_YN, Prop_matches, NonProp_YN, NonProp_matches)
-```
 
 
 ```{r}
@@ -149,19 +388,58 @@ ndc_validateset_results %>% filter(family == "lilly") #head() %>% left_join(fina
 
 ```
 
+
+
 ```{r}
-matchset_selfother <- final_product_list_singlefirstmentionsONLY_valunval %>% 
-  filter(!is.na(Prop_matches) | !is.na(NonProp_matches)) %>% 
-  left_join(ndc_validateset_results %>% transmute(family, Prop_matches, NonProp_matches, Self = 1) %>% distinct(), by = c("family", "Prop_matches", "NonProp_matches")) %>%
-  mutate(Self = ifelse(is.na(Self), 0, Self))
 
-matchset_nomatch <- final_product_list_singlefirstmentionsONLY_valunval %>% 
-  filter(is.na(Prop_matches) & is.na(NonProp_matches)) %>% mutate(Self = -1)
 
-final_product_list_singlefirstmentionsONLY_valunval_selfother <- rbind(matchset_selfother, matchset_nomatch)
+brandonly <- final_product_list_singlefirstmentionsONLY_valunval_selfother_ %>% filter(!is.na(Brand))
+table(brandonly$Self)
 
- 
+brandonly_val2 <- brandonly %>% 
+  mutate(word_low = str_to_lower(Token)) %>%
+  mutate(Eur_Prop_YN = str_detect(word_low, pattern = mega_eur_prop_patt),
+         Eur_Prop_matches = str_extract(word_low, pattern = mega_eur_prop_patt),
+         Eur_NonProp_YN = str_detect(word_low, pattern = mega_eur_nonprop_patt),
+         Eur_NonProp_matches = str_extract(word_low, pattern = mega_eur_nonprop_patt)) %>%
+  mutate(US_match_ct = Prop_YN + NonProp_YN,
+         EUR_match_ct = Eur_Prop_YN + Eur_NonProp_YN,
+         match_ct = US_match_ct + EUR_match_ct)
+
+brandonly_val3 <- brandonly_val2 %>% 
+  mutate(Device_Prop_YN = str_detect(word_low, pattern = mega_device_prop_patt),
+         Device_Prop_matches = str_extract(word_low, pattern = mega_device_prop_patt)) %>%
+  mutate(match_ct = match_ct + Device_Prop_YN)
+
 ```
+
+
+
+```{r}
+
+table(brandonly_val3$Device_Prop_YN)
+table(brandonly_val3$match_ct)
+table(brandonly_val3$match_ct > 0)
+
+brandonly_val3 %>% filter(match_ct == 0) %>% .$Token %>% unique()
+
+ndc_product %>% filter(str_detect(SUBSTANCENAME, "BISMUTH SUBSALICYLATE"))
+
+```
+
+
+
+```{r}
+
+final_product_list_singlefirstmentionsONLY_valunval_selfother_val3_nonames %>% count(Token) %>% arrange(desc(n)) %>% head(100) %>% mutate(suggest = hunspell::hunspell_suggest(Token))
+
+```
+
+```{r}
+hunspell::hunspell_check("onwards")
+```
+
+
 
 
 

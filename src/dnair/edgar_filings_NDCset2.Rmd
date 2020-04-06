@@ -44,6 +44,10 @@ data_all <- data_all %>% select(-Capitals)
 
 ```{r}
 data_all <- readRDS("~/sec_wordlists_captures_march172020_all.RDS")
+
+orig_removal  <- readRDS("~/orig_to_filtered_steps.RDS")
+
+launch_proximity_words <- readRDS("~/launch_proximity_words.RDS")
 ```
 
 
@@ -71,9 +75,24 @@ also want to expand financial terms
 data_all_filtered_ <- data_all %>% 
   filter(English == FALSE)
 
-noneng <- tibble(Step = "1. Non-English (US)",
-       Diff = -(nrow(data_all) - nrow(data_all_filtered_)),
-       Set = nrow(data_all_filtered_))
+launch_proximity_words_ <- launch_proximity_words %>% filter(English == FALSE)
+
+brand_words_ <- data_all %>% filter(!is.na(Brand)) 
+
+noneng_all <- tibble(Step = "1. Non-English (US)", Method = "A. ALL", 
+                     Diff = -(nrow(data_all) - nrow(data_all_filtered_)),
+                     Set = nrow(data_all_filtered_))
+
+noneng_prox <- tibble(Step = "1. Non-English (US)", Method = "B. Proximity", 
+                     Diff = -(nrow(launch_proximity_words) - nrow(launch_proximity_words_)),
+                     Set = nrow(launch_proximity_words_))
+
+noneng_brand <- tibble(Step = "1. Non-English (US)", Method = "C. Brand", 
+                     Diff = 0,
+                     Set = nrow(brand_words_))
+
+noneng_all, 
+noneng <- rbind(noneng_prox, noneng_brand)
 ```
 
 ```{r finance}
@@ -96,9 +115,34 @@ data_all_filtered_fin <- data_all_filtered_ %>%
   filter(Word_low %in% fin == FALSE) %>%
   filter(str_detect(Word_low, patt) == FALSE) 
 
-finance <- tibble(Step = "2. Financial", 
+
+
+
+launch_proximity_words_fin <- launch_proximity_words_ %>% 
+  mutate(Word_low = str_to_lower(Words)) %>% 
+  filter(Word_low %in% fin == FALSE) %>%
+  filter(str_detect(Word_low, patt) == FALSE) 
+
+brand_words_fin <- brand_words_ %>% 
+  mutate(Word_low = str_to_lower(Words)) %>% 
+  filter(Word_low %in% fin == FALSE) %>%
+  filter(str_detect(Word_low, patt) == FALSE) 
+
+finance_all <- tibble(Step = "2. Financial", 
        Diff = -(nrow(data_all_filtered_) - nrow(data_all_filtered_fin)),
        Set = nrow(data_all_filtered_fin))
+
+finance_prox <- tibble(Step = "2. Financial", Method = "B. Proximity", 
+       Diff = -(nrow(launch_proximity_words_) - nrow(launch_proximity_words_fin)),
+       Set = nrow(launch_proximity_words_fin))
+
+finance_brand <- tibble(Step = "2. Financial", Method = "C. Brand", 
+       Diff = -(nrow(brand_words_) - nrow(brand_words_fin)),
+       Set = nrow(brand_words_fin))
+
+finance <- rbind(finance_prox, finance_brand)
+
+
 ```
 
 
@@ -117,11 +161,32 @@ data_all_filtered_html <- data_all_filtered_fin %>%
   filter(Word_low %in% html_entities$string == FALSE) %>% 
   filter(Word_low %in% xml == FALSE) %>%
   filter(str_detect(Word_low, xml_patt) == FALSE)
+
+launch_proximity_words_html <- launch_proximity_words_fin  %>%  
+  filter(Word_low %in% html_entities$string == FALSE) %>% 
+  filter(Word_low %in% xml == FALSE) %>%
+  filter(str_detect(Word_low, xml_patt) == FALSE)
+
+brand_words_html <- brand_words_fin  %>%  
+  filter(Word_low %in% html_entities$string == FALSE) %>% 
+  filter(Word_low %in% xml == FALSE) %>%
+  filter(str_detect(Word_low, xml_patt) == FALSE)
+
   
 
 html <- tibble(Step = "3. HTML", 
        Diff = -(nrow(data_all_filtered_fin) - nrow(data_all_filtered_html)),
        Set = nrow(data_all_filtered_html))
+
+html_prox <- tibble(Step = "3. HTML", Method = "B. Proximity", 
+       Diff = -(nrow(launch_proximity_words_fin) - nrow(launch_proximity_words_html)),
+       Set = nrow(launch_proximity_words_html))
+
+html_brand <- tibble(Step = "3. HTML", Method = "C. Brand", 
+       Diff = -(nrow(brand_words_fin) - nrow(brand_words_html)),
+       Set = nrow(brand_words_html))
+
+html <- rbind(html_prox, html_brand)
 
 ```
 
@@ -132,9 +197,31 @@ data_all_filtered_dates <- data_all_filtered_html %>%
   filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>% 
   filter(str_detect(Word_low, "\\bmay\\s?\\d") == FALSE)
 
+launch_proximity_words_dates <- launch_proximity_words_html %>% 
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>% 
+  filter((str_detect(Word_low, "jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,4}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>% 
+  filter(str_detect(Word_low, "\\bmay\\s?\\d") == FALSE)
+
+brand_words_dates <- brand_words_html %>% 
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>% 
+  filter((str_detect(Word_low, "jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,4}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>% 
+  filter(str_detect(Word_low, "\\bmay\\s?\\d") == FALSE)
+
 dates <- tibble(Step = "4. Dates", 
        Diff = -(nrow(data_all_filtered_html) - nrow(data_all_filtered_dates)),
        Set = nrow(data_all_filtered_dates))
+
+dates_prox <- tibble(Step = "4. Dates", Method = "B. Proximity", 
+       Diff = -(nrow(launch_proximity_words_html) - nrow(launch_proximity_words_dates)),
+       Set = nrow(launch_proximity_words_dates))
+
+dates_brand <- tibble(Step = "4. Dates", Method = "C. Brand", 
+       Diff = -(nrow(brand_words_html) - nrow(brand_words_dates)),
+       Set = nrow(brand_words_dates))
+
+dates <- rbind(dates_prox, dates_brand)
 
 ```
 
@@ -152,10 +239,31 @@ data_all_filtered_pharma <- data_all_filtered_dates %>%
   filter(Word_low %in% pharma_manual == FALSE) %>%
   filter(Word_low %in% pharma_terms == FALSE) %>% 
   filter(str_detect(Word_low, pharm_patt) == FALSE)
+
+launch_proximity_words_pharma <- launch_proximity_words_dates %>%
+  filter(Word_low %in% pharma_manual == FALSE) %>%
+  filter(Word_low %in% pharma_terms == FALSE) %>% 
+  filter(str_detect(Word_low, pharm_patt) == FALSE)
+
+brand_words_pharma <- brand_words_dates %>%
+  filter(Word_low %in% pharma_manual == FALSE) %>%
+  filter(Word_low %in% pharma_terms == FALSE) %>% 
+  filter(str_detect(Word_low, pharm_patt) == FALSE)
   
 pharma <- tibble(Step = "5. Pharma", 
        Diff = -(nrow(data_all_filtered_dates) - nrow(data_all_filtered_pharma)),
        Set = nrow(data_all_filtered_pharma))
+
+pharma_prox <- tibble(Step = "5. Pharma", Method = "B. Proximity", 
+       Diff = -(nrow(launch_proximity_words_dates) - nrow(launch_proximity_words_pharma)),
+       Set = nrow(launch_proximity_words_pharma))
+
+pharma_brand <- tibble(Step = "5. Pharma", Method = "C. Brand", 
+       Diff = -(nrow(brand_words_dates) - nrow(brand_words_pharma)),
+       Set = nrow(brand_words_pharma))
+
+pharma <- rbind(pharma_prox, pharma_brand)
+
 
 ```
 
@@ -164,9 +272,25 @@ pharma <- tibble(Step = "5. Pharma",
 data_all_filtered_t1 <- data_all_filtered_pharma %>% 
   filter(str_count(Words, "[[:alpha:]]") > 1)
 
+launch_proximity_words_t1 <- launch_proximity_words_pharma %>% 
+  filter(str_count(Words, "[[:alpha:]]") > 1)
+
+brand_words_t1 <- brand_words_pharma %>% 
+  filter(str_count(Words, "[[:alpha:]]") > 1)
+
 t1 <- tibble(Step = "T1. Contains >1 letter", 
        Diff = -(nrow(data_all_filtered_pharma) - nrow(data_all_filtered_t1)),
        Set = nrow(data_all_filtered_t1))
+
+t1_prox <- tibble(Step = "T1. Contains >1 letter", Method = "B. Proximity", 
+       Diff = -(nrow(launch_proximity_words_pharma) - nrow(launch_proximity_words_t1)),
+       Set = nrow(launch_proximity_words_t1))
+
+t1_brand <- tibble(Step = "T1. Contains >1 letter", Method = "C. Brand", 
+       Diff = -(nrow(brand_words_pharma) - nrow(brand_words_t1)),
+       Set = nrow(brand_words_t1))
+
+t1 <- rbind(t1_prox, t1_brand)
 
 ```
 
@@ -178,30 +302,33 @@ t2 <- tibble(Step = "T2. Letter? 1-3 Nums Letter",
        Diff = -(nrow(data_all_filtered_t1) - nrow(data_all_filtered_t2)),
        Set = nrow(data_all_filtered_t2))
 
+launch_proximity_words_t2 <- launch_proximity_words_t1 %>% 
+  filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
 
+brand_words_t2 <- brand_words_t1 %>% 
+  filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
+
+
+t2_prox <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "B. Proximity", 
+       Diff = -(nrow(launch_proximity_words_t1) - nrow(launch_proximity_words_t2)),
+       Set = nrow(launch_proximity_words_t2))
+
+t2_brand <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "C. Brand", 
+       Diff = -(nrow(brand_words_t1) - nrow(brand_words_t2)),
+       Set = nrow(brand_words_t2))
+
+t2 <- rbind(t2_prox, t2_brand)
 ```
 
 
 ```{r}
 results <- rbind(noneng, finance, html, dates, pharma, t1, t2)
-results
+results <- rbind(orig_removal %>% mutate(Method = "A. All"), noneng, finance, html, dates, pharma, t1, t2)
+results <- results %>% select(1, 4,2,3) %>% arrange(Step, Method)
+results %>% select(-Diff) %>% reshape2::dcast(Step~Method)
+results %>% select(-Set) %>% reshape2::dcast(Step~Method)
 
 saveRDS(results, "~/orig_to_filtered_steps.RDS")
-```
-
-
-```{r}
-data_all_filtered_t2 %>% 
-  count(Word_low) %>% 
-  arrange(desc(n))
-  
-```
-
-```{r}
-data_all_filtered_t2 %>% 
-  count(Word_low) %>% 
-  arrange(desc(n)) %>% 
-  filter(str_detect(Word_low, "[0-9A-Fa-f]{6}"))
 ```
 
 
@@ -209,25 +336,11 @@ data_all_filtered_t2 %>%
 ```{r}
 
 saveRDS(data_all_filtered_t2, "~/sec_wordlists_captures_march2020_filtered_march202020.RDS")
+saveRDS(launch_proximity_words_t2, "~/launch_proximity_march2020_filtered_march262020.RDS")
+saveRDS(brand_words_t2, "~/brand_words_march2020_filtered_march262020.RDS")
 
 
 ```
-
-
-
-HEx codes - 
-```{r}
-data_all_filtered__ %>% count(Words) %>% arrange(desc(n)) %>% filter(nchar(Words) == 6 & str_detect(Words, "[0-9A-Fa-f]{6}") == TRUE)
-
-```
-
-
-
-
-
-
-
-
 
 
 

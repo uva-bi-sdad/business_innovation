@@ -5,23 +5,34 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(stringr)
+library(hunspell)
+library(tidytext)
+
+
+
 ```
 
 
 ```{r}
+
+'%!in%' <- function(x,y)!('%in%'(x,y))
+
 get_context_pos <- function(word_vec, target, n, p_o_s) {
   wordlist <- data.frame(word_vec) %>% 
     transmute(Word = as.character(word_vec), 
-    eng = hunspell_check(Word), 
-    stem = hunspell_stem(Word),
+    eng = hunspell::hunspell_check(Word), 
+    stem = hunspell::hunspell_stem(Word),
     id = row_number(), 
-    target = ifelse(str_detect(str_to_lower(Word), pattern = target), 1, 0))
+    target = ifelse(stringr::str_detect(stringr::str_to_lower(Word), pattern = target), 1, 0))
  
   target_rows <- wordlist  %>% filter(target == 1)
   target_rows
   target_rows$seq_up <- NA
   target_rows$seq_down <- NA
- 
+
 for (i in 1:length(target_rows$id)) {
   target_rows$seq_up[i] <- list(seq(target_rows$id[i] +1, target_rows$id[i] + n))
   target_rows$seq_down[i] <- list(seq(target_rows$id[i] -1, target_rows$id[i] - n))
@@ -37,7 +48,7 @@ for (i in 1:length(target_rows$id)) {
     tidyr::unnest() %>%
     count(stem) %>%
     arrange(desc(n)) %>%
-    filter(stem %!in% stopwords_en) %>%
+    filter(stem %!in% corpus::stopwords_en) %>%
     left_join(tidytext::parts_of_speech, by = c("stem" = "word"))  %>%
     filter(pos == p_o_s)
 
@@ -48,7 +59,53 @@ for (i in 1:length(target_rows$id)) {
 
 
 ```{r}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
 data_all <- readRDS("~/sec_wordlists_captures_march172020_all.RDS")
+
+final_product_list_singlefirstmentionsONLY_valunval <- readRDS(paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march21.RDS"))
 ```
+
+```{r}
+validated <- final_product_list_singlefirstmentionsONLY_valunval %>% filter(Self == 1)
+```
+
+
+
+```{r}
+
+tokens <- validated %>% .$Token %>% str_to_lower()
+tokens[1]
+```
+
+
+```{r}
+get_context_pos(word_vec = c("I", "think", "the","new", "Citrate", "is", "great!"), target = tokens[1], n = 1, p_o_s = "Adjective")
+
+head(data_all$Words, 100)
+test <- c("I", "think", "the","new", "Citrate", "is", "great!")
+
+```
+
+
+```{r}
+test_adjectives_citrate <- get_context_pos(data_all$Words, target = tokens[1], n = 5, "Adjective")
+
+test_adjectives_citrate
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
