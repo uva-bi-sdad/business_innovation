@@ -77,7 +77,16 @@ proqpharm_sub <- proqpharm_sub %>%
   left_join(subjnewprod, by = "Subject") %>%
   left_join(titlenewprod, by = "Article.Title")
 
-proqpharm_sub_more[1:10,1:8]
+proqpharm_sub[1:10,1:8]
+colnames(proqpharm_sub)
+proqpharm_sub$Article.Title <- str_trim(proqpharm_sub$Article.Title)
+proqpharm_sub$Article.Title <- str_trim(proqpharm_sub$Company[1:8])
+typeof(str_trim(proqpharm_sub$Company[1:8]))
+
+sample <- as.data.frame(proqpharm_sub[1:3, 3])
+colnames(sample) <- c("Company")
+
+sample %>%  mutate(companies = strsplit(as.character(Company), ";")) %>% tidyr::unnest(companies) %>% strsplit(companies, ":") #%>% reshape2::melt(Company)
 
 nrow(proqpharm_orig)
 nrow(proqpharm_sub) #got to 2222 by ensuring text had both innovation words and business words
@@ -92,5 +101,22 @@ proqpharm_sub %>% filter(str_detect(Document.type, pattern = "Book Review-Favora
 
 proqpharm %>% group_by(Document.type) %>% summarise(n = n()) %>% View()
 
+as.data.frame(proqpharm_sub, row.names = rownames(proqpharm_sub))
+proqpharm_sub <- proqpharm_sub %>% mutate(row = row.names(proqpharm_sub))
+
+sample2 <- proqpharm_sub %>% filter(subjs == "TRUE" | titles == "TRUE")
+
+
+
+sample3 <- tibble::tibble(sample2$row, sample2$Full.Text)
+
+saveRDS(sample4, "data/working/dn_sampleproquest_testsurvey2.RDS")
+
+#test <- split.data.frame(sample3, )
+
+sample4 <- split(sample3, rep(1:ceiling(nrow(sample3)/10), each=10, length.out=nrow(sample3)))
+
+write.table(tibble::tibble(sample2$row, sample2$Full.Text), file = "data/working/dn_sample2_survey.txt", sep = "\t",
+            row.names = FALSE, col.names = NA)
 
 
