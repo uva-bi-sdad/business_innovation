@@ -1,0 +1,355 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(stringr)
+```
+
+```{r}
+capt_val_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_may072020.RDS")
+
+capt_val_launch <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_capt_val_may072020.RDS")
+
+capt_val_new_prod <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewprod_capt_val_may072020.RDS")
+
+capt_val_new_drug <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewdrug_capt_val_may072020.RDS")
+
+capt_val_new_device <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewdevice_capt_val_may072020.RDS")
+
+capt_val_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_capt_val_may072020.RDS")
+
+```
+
+```{r}
+ndc_validateset_results_all_noneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_ndc_val_may072020.RDS")
+ndc_validateset_results_launch_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_ndc_val_may072020.RDS")
+ndc_validateset_results_newprod_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_ndc_val_may072020.RDS")
+ndc_validateset_results_newdrug_prox <-  readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_ndc_val_may072020.RDS")
+ndc_validateset_results_newdevice_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_ndc_val_may072020.RDS")
+ndc_validateset_results_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_ndc_val_may072020.RDS")
+
+
+```
+
+
+```{r ndc_actual}
+project_folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+
+ndc_sec_ref <- readxl::read_excel(paste0(project_folder, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
+refciks <- unique(ndc_sec_ref$cik)
+
+ndc_product <-  readr::read_tsv(paste0(project_folder, "original/NDC/product.txt")) %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"), formulationcode = str_extract(PRODUCTNDC, "(?<=-)\\d*"))
+
+ndc_validateset <- ndc_product %>%
+  select(4, 6, 13, 14) %>%
+  distinct() %>%
+  filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
+  mutate(LABELERNAME,
+         Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),
+         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) %>%
+  left_join(ndc_sec_ref %>% select(family,ndc_labeler), by = c("LABELERNAME" = "ndc_labeler")) %>% 
+  select(8,3,5, 6, 1,2 )
+
+
+```
+
+
+```{r}
+capt_val_allnoneng %>% 
+  select(family, Token, US_match_ct_ANY, US_match_ct_OWN , Prop_matches_ANY, NonProp_matches_ANY, Prop_matches_OWN, NonProp_matches_OWN, PROPRIETARYNAME, PROPRIETARYNAME_y) %>%
+  filter(family  == "abbvie")
+```
+
+```{r}
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+```
+
+ALL Non English
+
+```{r}
+
+# total_ndc_allnoneng <- ndc_validateset_results_all_noneng %>% 
+#   count(family, drug = PROPRIETARYNAME, 
+#         ndc_val_any = ifelse(!is.na(Prop_matches_ANY) | !is.na(NonProp_matches_ANY), 1, 0),
+#         ndc_val_own = ifelse(!is.na(Prop_matches_OWN) | !is.na(NonProp_matches_OWN), 1, 0)) %>% 
+#   select(-n) %>% 
+#   count(family, ndc_val_any, ndc_val_own) 
+#   # mutate(sec = ifelse(Any + Own == 0, "ndc_unval", ifelse(Any == 1 & Own == 1, "ndc_val_both", ifelse(Own == 1, "ndc_val_own", "ndc_val_any")))) %>%
+#   # select(-Any, - Own)
+
+total_unval_allnoneng <- capt_val_allnoneng %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_allnoneng_ANY <- capt_val_allnoneng %>%
+  filter(US_match_ct_ANY > 0) %>%
+  count(family, drug = PROPRIETARYNAME_y) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_any")
+
+total_val_allnoneng_OWN <- capt_val_allnoneng %>% 
+  filter(US_match_ct_OWN > 0) %>%
+  count(family, drug = PROPRIETARYNAME) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_own")
+
+doublebars_allnoneng <- rbind(total_unval_allnoneng, total_val_allnoneng_ANY, total_val_allnoneng_OWN, total_ndc) %>% arrange(family)
+doublebars_allnonengdoublecheck <- doublebars_allnoneng %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars_allnoneng <- doublebars_allnoneng %>% filter(family %in% doublebars_allnonengdoublecheck$family)
+doublebars_allnoneng_perc <- doublebars_allnoneng %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>%
+  mutate(sec_perc_any1 = val_any/(unval+val_any),
+         sec_perc_any = scales::percent(sec_perc_any1), 
+         sec_perc_own1 = val_own/(unval+val_own),
+         sec_perc_own = scales::percent(sec_perc_any1), 
+         ndc_perc_any1 = val_any/(val_own + val_any),
+         ndc_perc_any = scales::percent(ndc_perc_any1),
+         ndc_perc_own1 = val_own/ndc,
+         ndc_perc_own = scales::percent(val_own/ndc))
+
+# saveRDS(doublebars_allnoneng_perc, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/doublebars_allnoneng_perc.RDS")
+
+```
+
+#LAUNCH 
+
+```{r}
+total_unval_launch <- capt_val_launch %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_launch_ANY <- capt_val_launch %>%
+  filter(US_match_ct_ANY > 0) %>%
+  count(family, drug = PROPRIETARYNAME_y) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_any")
+
+total_val_launch_OWN <- capt_val_launch %>% 
+  filter(US_match_ct_OWN > 0) %>%
+  count(family, drug = PROPRIETARYNAME) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_own")
+
+doublebars_launch <- rbind(total_unval_launch, total_val_launch_ANY, total_val_launch_OWN, total_ndc) %>% arrange(family)
+doublebars_launchdoublecheck <- doublebars_launch %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars_launch <- doublebars_launch %>% filter(family %in% doublebars_launchdoublecheck$family)
+doublebars_launch_perc <- doublebars_launch %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>%
+  mutate(sec_perc_any1 = val_any/(unval+val_any),
+         sec_perc_any = scales::percent(sec_perc_any1), 
+         sec_perc_own1 = val_own/(unval+val_own),
+         sec_perc_own = scales::percent(sec_perc_any1), 
+         ndc_perc_any1 = val_any/(val_own + val_any),
+         ndc_perc_any = scales::percent(ndc_perc_any1),
+         ndc_perc_own1 = val_own/ndc,
+         ndc_perc_own = scales::percent(val_own/ndc))
+
+# saveRDS(doublebars_launch_perc, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/doublebars_launch_perc.RDS")
+
+```
+
+NEW PRODUCT
+
+```{r}
+total_unval_newprod <- capt_val_new_prod %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_newprod_ANY <- capt_val_new_prod %>%
+  filter(US_match_ct_ANY > 0) %>%
+  count(family, drug = PROPRIETARYNAME_y) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_any")
+
+total_val_newprod_OWN <- capt_val_new_prod %>% 
+  filter(US_match_ct_OWN > 0) %>%
+  count(family, drug = PROPRIETARYNAME) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_own")
+
+doublebars_newprod <- rbind(total_unval_newprod, total_val_newprod_ANY, total_val_newprod_OWN, total_ndc) %>% arrange(family)
+doublebars_newproddoublecheck <- doublebars_newprod %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars_newprod <- doublebars_newprod %>% filter(family %in% doublebars_newproddoublecheck$family)
+doublebars_newprod_perc <- doublebars_newprod %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>%
+  mutate(sec_perc_any1 = val_any/(unval+val_any),
+         sec_perc_any = scales::percent(sec_perc_any1), 
+         sec_perc_own1 = val_own/(unval+val_own),
+         sec_perc_own = scales::percent(sec_perc_any1), 
+         ndc_perc_any1 = val_any/(val_own + val_any),
+         ndc_perc_any = scales::percent(ndc_perc_any1),
+         ndc_perc_own1 = val_own/ndc,
+         ndc_perc_own = scales::percent(val_own/ndc))
+
+# saveRDS(doublebars_newprod_perc, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/doublebars_newprod_perc.RDS")
+
+```
+
+
+NEW DRUG
+
+```{r}
+total_unval_newdrug <- capt_val_new_drug %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_newdrug_ANY <- capt_val_new_drug %>%
+  filter(US_match_ct_ANY > 0) %>%
+  count(family, drug = PROPRIETARYNAME_y) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_any")
+
+total_val_newdrug_OWN <- capt_val_new_drug %>% 
+  filter(US_match_ct_OWN > 0) %>%
+  count(family, drug = PROPRIETARYNAME) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_own")
+
+doublebars_newdrug <- rbind(total_unval_newdrug, total_val_newdrug_ANY, total_val_newdrug_OWN, total_ndc) %>% arrange(family)
+doublebars_newdrugdoublecheck <- doublebars_newdrug %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars_newdrug <- doublebars_newdrug %>% filter(family %in% doublebars_newdrugdoublecheck$family)
+doublebars_newdrug_perc <- doublebars_newdrug %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>%
+  mutate(sec_perc_any1 = val_any/(unval+val_any),
+         sec_perc_any = scales::percent(sec_perc_any1), 
+         sec_perc_own1 = val_own/(unval+val_own),
+         sec_perc_own = scales::percent(sec_perc_any1), 
+         ndc_perc_any1 = val_any/(val_own + val_any),
+         ndc_perc_any = scales::percent(ndc_perc_any1),
+         ndc_perc_own1 = val_own/ndc,
+         ndc_perc_own = scales::percent(val_own/ndc))
+
+# saveRDS(doublebars_newdrug_perc, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/doublebars_newdrug_perc.RDS")
+
+```
+
+BRAND
+
+```{r}
+total_unval_brand <- capt_val_brand %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_brand_ANY <- capt_val_brand %>%
+  filter(US_match_ct_ANY > 0) %>%
+  count(family, drug = PROPRIETARYNAME_y) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_any")
+
+total_val_brand_OWN <- capt_val_brand %>% 
+  filter(US_match_ct_OWN > 0) %>%
+  count(family, drug = PROPRIETARYNAME) %>% 
+  filter(!is.na(drug)) %>%
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val_own")
+
+doublebars_brand <- rbind(total_unval_brand, total_val_brand_ANY, total_val_brand_OWN, total_ndc) %>% arrange(family)
+doublebars_branddoublecheck <- doublebars_brand %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars_brand <- doublebars_brand %>% filter(family %in% doublebars_branddoublecheck$family)
+doublebars_brand_perc <- doublebars_brand %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>%
+  mutate(sec_perc_any1 = val_any/(unval+val_any),
+         sec_perc_any = scales::percent(sec_perc_any1), 
+         sec_perc_own1 = val_own/(unval+val_own),
+         sec_perc_own = scales::percent(sec_perc_any1), 
+         ndc_perc_any1 = val_any/(val_own + val_any),
+         ndc_perc_any = scales::percent(ndc_perc_any1),
+         ndc_perc_own1 = val_own/ndc,
+         ndc_perc_own = scales::percent(val_own/ndc))
+
+# saveRDS(doublebars_brand_perc, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/doublebars_brand_perc.RDS")
+
+```
+
+
+
+```{r}
+## ANY
+# onlygreenbars_ANY_allnoneng <- rbind(total_unval_allnoneng, total_val_allnoneng_ANY) %>% arrange(family)
+# top10greens_ANY_allnoneng <- onlygreenbars_ANY_allnoneng %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+# top10greens_ANY_allnoneng <- onlygreenbars_ANY_allnoneng %>%  filter(family %in% top10greens_ANY_allnoneng$family)
+# top10green_perc_ANY_allnoneng <- top10greens_ANY_allnoneng %>%
+#   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+#   mutate(val_perc = scales::percent(val_any/(unval+val_any)))
+# top10greens_ANY_allnoneng$family <- reorder(top10greens_ANY_allnoneng$family, top10greens_ANY_allnoneng$n, order = T)
+
+
+
+## OWN
+# onlygreenbars_OWN_allnoneng <- rbind(total_unval_allnoneng, total_val_allnoneng_OWN) %>% arrange(family)
+# top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+# top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+# top10green_perc <- top10greens %>%
+#   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+#   mutate(val_perc = scales::percent(val/(unval+val)))
+# top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+
+
+# ANY
+onlyndcbars_ANY_allnoneng <- rbind(total_val_allnoneng_ANY, total_ndc)  %>% arrange(family)
+top10ndcbars_ANY_allnoneng <- onlyndcbars_ANY_allnoneng %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars_ANY_allnoneng <- onlyndcbars_ANY_allnoneng %>%  filter(family %in% top10ndcbars_ANY_allnoneng$family)
+
+top10ndc_perc_ANY_allnoneng <- top10ndcbars_ANY_allnoneng  %>% select(family) %>% distinct() %>% left_join(doublebars_allnoneng_perc, by = "family")
+top10ndc_perc_VAL_ANY_allnoneng <- top10ndc_perc_ANY_allnoneng %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc_ANY_allnoneng %>% select(family,sec_perc_any1), by = "family")
+top10ndc_perc_DET_ANY_allnoneng <- top10ndc_perc_ANY_allnoneng %>% select(family,ndc,val_any) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc_ANY_allnoneng %>% select(family,ndc_perc_any1), by = "family")
+
+# ALL 
+onlyndcbars_OWN_allnoneng <- rbind(total_val_allnoneng_OWN, total_ndc)  %>% arrange(family)
+top10ndcbars_OWN_allnoneng <- onlyndcbars_OWN_allnoneng %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars_OWN_allnoneng <- onlyndcbars_OWN_allnoneng %>%  filter(family %in% top10ndcbars_OWN_allnoneng$family)
+
+top10ndc_perc_OWN_allnoneng <- top10ndcbars_OWN_allnoneng  %>% select(family) %>% distinct() %>% left_join(doublebars_allnoneng_perc, by = "family")
+top10ndc_perc_VAL_OWN_allnoneng <- top10ndc_perc_OWN_allnoneng %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc_OWN_allnoneng %>% select(1,5), by = "family")
+top10ndc_perc_DET_OWN_allnoneng <- top10ndc_perc_OWN_allnoneng %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc_OWN_allnoneng %>% select(1,7), by = "family")
+
+# saveRDS(total_unval_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/total_unval_allnoneng.RDS")
+# saveRDS(total_val_allnoneng_ANY, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/total_val_allnoneng_ANY.RDS")
+# saveRDS(total_val_allnoneng_OWN, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/total_val_allnoneng_OWN.RDS")
+# saveRDS(doublebars_allnoneng_perc, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/doublebars_allnoneng_perc.RDS")
+# saveRDS(top10ndc_perc_ANY_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/top10ndc_perc_ANY_allnoneng.RDS")
+# saveRDS(top10ndc_perc_VAL_ANY_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/top10ndc_perc_VAL_ANY_allnoneng.RDS")
+# saveRDS(top10ndc_perc_DET_ANY_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/top10ndc_perc_DET_ANY_allnoneng.RDS")
+# saveRDS(top10ndc_perc_OWN_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/top10ndc_perc_OWN_allnoneng.RDS")
+# saveRDS(top10ndc_perc_VAL_OWN_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/top10ndc_perc_VAL_OWN_allnoneng.RDS")
+# saveRDS(top10ndc_perc_DET_OWN_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/final/sec_nlp_metrics/top10ndc_perc_DET_OWN_allnoneng.RDS")
+```
+
+
+

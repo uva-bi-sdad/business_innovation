@@ -1,0 +1,304 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(stringr)
+library(dplyr)
+```
+
+
+```{r}
+'%!in%' <- function(x,y)!('%in%'(x,y))
+
+get_context_words <- function(word_df, targ_patt, n) {
+  wordlist <- word_df %>% 
+    mutate(low = str_to_lower(Words), 
+           # id = row_number(), 
+           target = ifelse(stringr::str_detect(stringr::str_to_lower(Words), pattern = targ_patt), 1, 0))
+ 
+  target_rows <- wordlist %>% filter(target == 1)
+  target_rows
+  target_rows$seq_up <- NA
+  target_rows$seq_down <- NA
+
+for (i in 1:length(target_rows$id)) {
+  target_rows$seq_up[i] <- list(seq(target_rows$id[i] - 1, target_rows$id[i] - n))
+  target_rows$seq_down[i] <- list(seq(target_rows$id[i] +1, target_rows$id[i] + n))
+}
+  before_target <- unlist(target_rows$seq_up)
+  after_target <- unlist(target_rows$seq_down)
+  
+  context_words <- wordlist %>% 
+    filter(id %in% c(target_rows$id, before_target, after_target)) %>% 
+    arrange(Company, Year, Month, id) %>% 
+    mutate(pstn = ifelse(id %in% before_target, "before", ifelse(id %in% after_target, "after", "target")))
+
+  context_words 
+}
+
+
+get_context_words_id <- function(word_df, targ_id , n) {
+  wordlist <- word_df %>% 
+    mutate(low = str_to_lower(Words), 
+           # id = row_number(), 
+           target = ifelse(id %in% targ_id, 1, 0))
+ 
+  target_rows <- wordlist %>% filter(target == 1)
+  target_rows
+  target_rows$seq_up <- NA
+  target_rows$seq_down <- NA
+
+for (i in 1:length(target_rows$id)) {
+  target_rows$seq_up[i] <- list(seq(target_rows$id[i] - 1, target_rows$id[i] - n))
+  target_rows$seq_down[i] <- list(seq(target_rows$id[i] +1, target_rows$id[i] + n))
+}
+  before_target <- unlist(target_rows$seq_up)
+  after_target <- unlist(target_rows$seq_down)
+  
+  context_words <- wordlist %>% 
+    filter(id %in% c(target_rows$id, before_target, after_target)) %>% 
+    arrange(Company, Year, Month, id) %>% 
+    mutate(pstn = ifelse(id %in% before_target, "before", ifelse(id %in% after_target, "after", "target")))
+
+  context_words 
+}
+```
+
+
+```{r}
+# data_all <- readRDS("~/sec_wordlists_captures_april212020.RDS")
+data_all <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/sec_wordlists_captures_april212020.RDS")
+data_all <- data_all %>% filter(nchar(Words) > 3 | str_detect(str_to_lower(Words), "new")) 
+
+# saveRDS(data_all, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/sec_wordlists_captures_WITHOUT3charWITHNEW_april212020.RDS")
+
+
+```
+
+```{r}
+data_all_3NEW <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/sec_wordlists_captures_WITHOUT3charWITHNEW_april212020.RDS")
+```
+
+
+Launch
+
+```{r}
+launch_proximity_words <- get_context_words(word_df = data_all, targ_patt = "launch", n = 20)
+
+saveRDS(launch_proximity_words, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_launch_prox_words_april23_2020.RDS")
+
+```
+
+
+```{r}
+launch_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_launch_prox_words_april23_2020.RDS")
+```
+
+
+New
+```{r}
+new_proximity_words <- get_context_words(word_df = data_all, targ_patt = "\\bnew(er|est|\\b)", n = 21)
+
+saveRDS(new_proximity_words, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_new21w_prox_words_april23_2020.RDS")
+```
+
+
+Step 1 - get the 'new' + 21 words in the whole dataset (but change name of target variable, bc the function will overwrite it)
+
+```{r}
+new_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_new21w_prox_words_april23_2020.RDS")
+new_proximity_words_subset <- new_proximity_words %>% select(Company, Month, Year, Words, English, Capitals, Brand, id, new = target)
+```
+
+Step 2 - get the products + 2 words in that dataset 
+
+```{r}
+product_1_word <- get_context_words(word_df = new_proximity_words_subset, targ_patt = "\\bproducts?\\b", n = 2)
+drug_1_word <- get_context_words(word_df = new_proximity_words_subset, targ_patt = "\\drugs?\\b", n = 2)
+```
+
+Step 3 - We get more products than products + new, so we need to eliminate products that are not near new. Get the ids of the 'new'  references in the produt+2 set and add 1 and 2 to them (new should always be 1-2 words BEFORE product).
+
+```{r}
+new_ids <- product_1_word %>% filter(new == 1) %>% .$id
+# product_ids <- product_1_word %>% filter(target == 1) %>% .$id
+lookfor_ids <- c(new_ids + 1, new_ids + 2)
+
+product_1_word <- product_1_word %>% mutate(productY = ifelse(target == 1 & id %in% lookfor_ids, 1, 0))
+
+new_product_ids <- product_1_word %>% filter(new == 1 |productY == 1) %>% .$id
+```
+
+Step 4: join back to original dataset and grab surrounding words!
+
+```{r}
+new_proximity_PRODUCT_subset2 <- get_context_words_id(data_all, targ_id = new_product_ids, n = 20)
+saveRDS(new_proximity_PRODUCT_subset2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newproduct20w_prox_words_april27_2020.RDS")
+```
+
+
+
+new drug
+```{r}
+drug_2_word <- get_context_words(word_df = new_proximity_words_subset, targ_patt = "\\bdrugs?\\b", n = 2)
+drug_ids <- drug_2_word %>% filter(new == 1) %>% .$id
+lookfor_ids <- c(drug_ids + 1, drug_ids + 2)
+
+drug_2_word <- drug_2_word %>% mutate(drugY = ifelse(target == 1 & id %in% lookfor_ids, 1, 0))
+
+new_drug_ids <- drug_2_word %>% filter(new == 1 |drugY == 1) %>% .$id
+
+new_proximity_DRUG_subset2 <- get_context_words_id(data_all_3NEW, targ_id = new_drug_ids, n = 20)
+
+saveRDS(new_proximity_DRUG_subset2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newdrug20w_prox_words_april27_2020.RDS")
+```
+
+
+new device
+```{r}
+device_2_word <- get_context_words(word_df = new_proximity_words_subset, targ_patt = "\\bdevices?\\b", n = 2)
+device_ids <- device_2_word %>% filter(new == 1) %>% .$id
+lookfor_ids <- c(device_ids + 1, device_ids + 2)
+
+device_2_word <- device_2_word %>% mutate(deviceY = ifelse(target == 1 & id %in% lookfor_ids, 1, 0))
+
+new_device_ids <- device_2_word %>% filter(new == 1 |deviceY == 1) %>% .$id
+
+new_proximity_DEVICE_subset2 <- get_context_words_id(data_all_3NEW, targ_id = new_device_ids, n = 20)
+
+saveRDS(new_proximity_DEVICE_subset2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newdevice20w_prox_words_april27_2020.RDS")
+```
+
+
+
+
+```{r}
+
+n <- 20
+seq(target_rows$id[[1]] - 1, target_rows$id[[1]] - 20)
+
+length(target_rows$id)
+nrow(target_rows)
+
+mode(target_rows$id[1])
+```
+
+
+
+new device
+```{r}
+
+```
+
+
+
+
+################
+
+
+```{r}
+##NEW PRODUCT
+# test_1M <- get_context_words(word_df = head(data_all, 1000000), targ_patt = "product", n = 20)
+
+
+# for (i in 1:length(products$id)) {
+#   products$seq_up[i] <- list(seq(products$id[i] - 1, products$id[i] - n))
+#   products$seq_down[i] <- list(seq(products$id[i] +1, products$id[i] + n))
+# }
+#   before_target <- unlist(target_rows$seq_up)
+#   after_target <- unlist(target_rows$seq_down)
+
+data_all_new %>% filter(id %in% c(743, 744, 745))
+
+
+###TRASH THESE
+# saveRDS(product_contextwords, "~/product_context_words_april8.RDS")
+saveRDS(new_contextwords, "~/product_context_words_april8.RDS")
+
+```
+
+
+
+
+```{r}
+product_contextwords_firstrun <- readRDS("~/product_context_words_april8.RDS")
+
+target_capts <- product_contextwords %>% filter(target == 1) %>% count(low)
+target_capts$n
+product_ids <- product_contextwords %>% filter(target == 1) %>% .$id
+product_wordbefore <- product_contextwords %>% filter(id %in% (product_ids - 1))  
+product_wordafter <- product_contextwords %>% filter(id %in% (product_ids + 1))  
+
+product_wordbefore %>% count(low) %>% arrange(desc(n))
+product_wordafter %>% count(low) %>% arrange(desc(n))
+
+any_new_at_all <- product_contextwords %>% filter(str_detect(low, "new")) %>% count(low) %>% arrange(desc(n)) 
+any_new_at_all %>% mutate(stem = hunspell::hunspell_stem(low)) %>% tidyr::unnest(c("stem"))
+any_new_at_all %>% mutate(stem = hunspell::hunspell_stem(low)) %>% tidyr::unnest(c("stem")) %>% filter(stem == "new")
+
+
+# Run a pass with drug
+# try with diff bigram - FDA approval 
+# try new - lower case, different bounds
+```
+
+
+
+
+```{r}
+data_all_id <- data_all %>% transmute(id =  row_number(), Words) 
+
+products <- data_all %>% transmute(id =  row_number(), Words) %>% filter(str_detect(str_to_lower(Words), "products?"))
+products_br <- data_all %>% transmute(id =  row_number(), Words) %>% filter(str_detect(str_to_lower(Words), "\\bproducts?\\b"))
+
+tail(products_br)
+
+table(products_br$Words)
+
+n = 2
+
+rm(i)
+
+for (i in 1:length(products_br$id)) {
+  products_br$seq_up[i] <- list(seq(products_br$id[i] - 1, products_br$id[i] - n))
+  print(i)
+}
+
+before_target <- unlist(products_br$seq_up)
+
+before_target %>% head()
+products_br %>% head() %>% tidyr::unnest(c("seq_up"))
+  
+word_before_2 <- products_br %>% tidyr::unnest(c("seq_up"))  %>% left_join(data_all_id, by = c("seq_up" = "id"))
+
+word_before_2 %>% count(Words.y) %>% arrange(desc(n)) %>% mutate(stem = hunspell::hunspell_stem(Words.y)) %>% tidyr::unnest(c("stem")) %>% count(stem) %>% arrange(desc(n))
+
+word_before_2 %>% filter(str_detect(Words.y, "\\bdeliver(s|y|ed|\\b)")) %>% .$Words.y %>% table()
+
+
+adjectives <- c("new", "innov", "novel", "experimental") # ignore - current, commercialize, market, bio/equivalent ? , branded, pipeline
+verbs <- c("releas", "introduc", "develop", "research", "invent(ed|ing|ive|\\b)", "originat", "lead", "announc", "offer", "reveal", "approv", "commenc", "\\bdeliver(s|y|ed|\\b)", "repurpos")
+
+patt <- paste(c(adjectives, verbs), collapse = "|")
+
+word_before_2 <- word_before_2 %>% mutate(tag = ifelse(str_detect(str_to_lower(Words.y), patt), 1, 0))
+word_before_2 %>% filter(tag == 1) %>% filter(str_detect(Words.y, "new"))
+
+table(data_all$Company)
+
+remember <- data_all %>% count(Company, Year)
+
+data_all_new %>% filter(Company == "1003642" & Year == "2013") %>% mutate(id = row_number(), new = ifelse(str_detect(Words, "new"), 1, 0)) %>% slice(6880:7000)  #" Registration is for fixed terms and may be renewed indefinitely."
+```
+
+
+
+
+
+

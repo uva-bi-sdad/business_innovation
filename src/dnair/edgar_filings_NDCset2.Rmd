@@ -12,43 +12,47 @@ library(stringr)
 
 
 ```{r}
-
-savepath_all <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_march2020/"
 savepath_sym <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_sym_march2020/"
-
-# "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_march2020/"
-
-data_all <- paste0(savepath_all,list.files(savepath_all)[1:615]) %>%
-  purrr::map(readRDS) %>% 
-  purrr::reduce(rbind)
 
 
 data_sym <- paste0(savepath_sym,list.files(savepath_sym)) %>%
   purrr::map(readRDS) %>% 
   purrr::reduce(rbind)
 
-processed_sizes <- data_all %>% count(Company, Year)
-processed_sizes %>% saveRDS("~/sec_wordlists_captures_march172020_all_sizes.RDS") 
-#didn't update this after rerunning all and sym
-
+# saveRDS(data_sym, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_apr21_2020_SYM/data_sym_march2020.RDS")
 
 
 data_sym_ <- data_sym %>% select(-Capture, -Symbol_string) %>% mutate(English = FALSE, Words = Word) %>% select(-Word)
-data_all <- data_all %>% select(-Capitals)
-
 
 
 # data %>% saveRDS("~/sec_wordlists_captures_march172020_all.RDS")
 
+# folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_apr212020/"
+# files <- list.files(folder)
+# data_all_new <- files %>% paste0(folder, .) %>% purrr::map_df(.f = readRDS) %>% mutate(id = row_number())
+# saveRDS(data_all_new, "~/sec_wordlists_captures_april212020.RDS")
+
+
 ```
 
 ```{r}
-data_all <- readRDS("~/sec_wordlists_captures_march172020_all.RDS")
+data_all<- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/sec_wordlists_captures_WITHOUT3charWITHNEW_april212020.RDS")
+data_sym <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_apr21_2020_SYM/data_sym_march2020.RDS")
 
-orig_removal  <- readRDS("~/orig_to_filtered_steps.RDS")
+data_sym_ <- data_sym %>% select(-Capture, -Symbol_string) %>% mutate(English = FALSE, Words = Word, Capitals = str_detect(Word, "[A-Z]"), id = row_number()) %>% select(-Word) %>% select(1,2,3,6, 5, 7,4,8)
 
-launch_proximity_words <- readRDS("~/launch_proximity_words.RDS")
+
+
+launch_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_launch_prox_words_april23_2020.RDS")
+
+new_PROD_proximity_words <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newproduct20w_prox_words_april27_2020.RDS")
+
+new_DRUG_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newdrug20w_prox_words_april27_2020.RDS")
+
+new_DEVICE_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newdevice20w_prox_words_april27_2020.RDS")
+
 ```
+
 
 
 ```{r}
@@ -57,18 +61,50 @@ noclue <- c("Percentage1")
 
 What was removed: 
 
-54,039,140 - number of US English terms
-~~1,130,193 - number of GB English terms now 502405~~
-1,325,485 - number of financial terms
-775,920 - number of html entities  w/o # (hashtag)
-63,502 - number of terms with only 1 letter 
-3,402 - date patterns
+<!-- 54,039,140 - number of US English terms -->
+<!-- ~~1,130,193 - number of GB English terms now 502405~~ -->
+<!-- 1,325,485 - number of financial terms -->
+<!-- 775,920 - number of html entities  w/o # (hashtag) -->
+<!-- 63,502 - number of terms with only 1 letter  -->
+<!-- 3,402 - date patterns -->
 
- 
-now looking at hex color codes, dates (remove date terms or remove date substrings )
-also want to expand financial terms
 
-120,291 more removed for a couple hex-ish patterns, (numeric) datepatterns, and parse issues
+<!-- now looking at hex color codes, dates (remove date terms or remove date substrings ) -->
+<!-- also want to expand financial terms -->
+
+<!-- 120,291 more removed for a couple hex-ish patterns, (numeric) datepatterns, and parse issues -->
+
+
+```{r}
+orig_all <- tibble(Step = "0. Original", Method = "A. ALL", 
+                     Diff = 0,
+                     Set = nrow(data_all))
+
+orig_prox_launch <- tibble(Step = "0. Original", Method = "B. Proximity - Launch", 
+                     Diff = 0,
+                     Set = nrow(launch_proximity_words))
+
+
+orig_prox_newprod <- tibble(Step = "0. Original", Method = "B. Proximity - New Product", 
+                     Diff = 0,
+                     Set = nrow(new_PROD_proximity_words))
+
+orig_prox_newdrug <- tibble(Step = "0. Original", Method = "B. Proximity - New Drug", 
+                     Diff = 0,
+                     Set = nrow(new_DRUG_proximity_words))
+
+orig_prox_newdevice <- tibble(Step = "0. Original", Method = "B. Proximity - New Device", 
+                     Diff = 0,
+                     Set = nrow(new_DEVICE_proximity_words))
+
+
+orig_brand <- tibble(Step = "0. Original", Method = "C. Brand", 
+                     Diff = 0,
+                     Set = nrow(data_sym_))
+
+orig <- rbind(orig_all, orig_prox_launch, orig_prox_newprod, orig_prox_newdrug, orig_prox_newdevice, orig_brand)
+```
+
 
 
 ```{r NONENGLISH}
@@ -76,24 +112,40 @@ data_all_filtered_ <- data_all %>%
   filter(English == FALSE)
 
 launch_proximity_words_ <- launch_proximity_words %>% filter(English == FALSE)
+new_PROD_proximity_words_ <- new_PROD_proximity_words %>% filter(English == FALSE)
+new_DRUG_proximity_words_ <- new_DRUG_proximity_words %>% filter(English == FALSE)
+new_DEVICE_proximity_words_ <- new_DEVICE_proximity_words %>% filter(English == FALSE)
 
-brand_words_ <- data_all %>% filter(!is.na(Brand)) 
+brand_words_ <- data_sym_
 
 noneng_all <- tibble(Step = "1. Non-English (US)", Method = "A. ALL", 
                      Diff = -(nrow(data_all) - nrow(data_all_filtered_)),
                      Set = nrow(data_all_filtered_))
 
-noneng_prox <- tibble(Step = "1. Non-English (US)", Method = "B. Proximity", 
+noneng_prox_launch <- tibble(Step = "1. Non-English (US)", Method = "B. Proximity - Launch", 
                      Diff = -(nrow(launch_proximity_words) - nrow(launch_proximity_words_)),
                      Set = nrow(launch_proximity_words_))
+
+noneng_prox_newprod <- tibble(Step = "1. Non-English (US)", Method = "B. Proximity - New Product", 
+                     Diff = -(nrow(new_PROD_proximity_words) - nrow(new_PROD_proximity_words_)),
+                     Set = nrow(new_PROD_proximity_words_))
+
+noneng_prox_newdrug <- tibble(Step = "1. Non-English (US)", Method = "B. Proximity - New Drug", 
+                     Diff = -(nrow(new_DRUG_proximity_words) - nrow(new_DRUG_proximity_words_)),
+                     Set = nrow(new_DRUG_proximity_words_))
+
+noneng_prox_newdev <- tibble(Step = "1. Non-English (US)", Method = "B. Proximity - New Device", 
+                     Diff = -(nrow(new_DEVICE_proximity_words) - nrow(new_DEVICE_proximity_words_)),
+                     Set = nrow(new_DEVICE_proximity_words_))
+
 
 noneng_brand <- tibble(Step = "1. Non-English (US)", Method = "C. Brand", 
                      Diff = 0,
                      Set = nrow(brand_words_))
 
-noneng_all, 
-noneng <- rbind(noneng_prox, noneng_brand)
+noneng <- rbind(noneng_all, noneng_prox_launch, noneng_prox_newprod, noneng_prox_newdrug, noneng_prox_newdev, noneng_brand)
 ```
+
 
 ```{r finance}
 
@@ -105,44 +157,70 @@ fin <- str_replace_all(fin, pattern = "[[:punct:]]", replacement = " ")
 fin <- str_squish(unlist(strsplit(fin, "\\s")))
 fin <- str_to_lower(fin[nchar(fin) >2 & str_detect(fin, "[[:alpha:]]") == TRUE & hunspell::hunspell_check(fin) == FALSE])
 
-fin_manual <- c("nonvested", "unvested", "undiscounted", "payor", "nonoperating", "noncash", "indemnitee", "(non)?cancelable", "cancelable", "joinder", "uspto", "nonemployee", "recordkeeping", "incurrence", "iso4217", "level[123]", "unaudited")
+fin_manual <- c("nonvested", "unvested", "undiscounted", "payor", "nonoperating", "noncash", "indemnitee", "(non)?cancelable", "cancelable", "joinder", "uspto", "nonemployee", "recordkeeping", "incurrence", "iso4217", "level[123]", "unaudited", "chargeback", "commercialisation", "enforceability", "expensed", "collectability", "expirations", "depreciable", "sublicense", "saleable", "forecasted", "amortised", "exercisable", "deliverables", "ratably", "annum", "issuable", "extinguishment", "forma", "issuance", "financing", "licensor", "reportable", "authorisation", "reclassification", "counterparties", "payable", "counterparty", "tolerability", "depositary", "sublicensee", "volatilities", "remeasurement", "realizability", "investee", "programme", "rentable", "licence", "acquiree", "allocable", "withholding", "litigation", "unremitted", "transferee", "unpatented", "sublicensed", "resubmission", "evaluable", "bona", "patentable", "registrable", "judgement", "redemption", "exclusivity", "exclusivities", "amortisation", "deductibility", "cyber", "reorganisation", "ratable", "exercisability", "participations", "undesignated", "overpayment", "anticompetitive", "favour", "favourable", "monetization", "dilutive", "accreted", "authorised", "assignee", "certiorari", "transferor", "capitalised", "noteholder", "longstop", "tradable", "commercialise", "appealable", "noninfringement", "translational", "externalisation", "transactional", "patentee", "authorise", "reacquisition", "betterment")
 
-fin <- paste0(c(fin, fin_manual))
-patt <- paste0(fin, "s?", collapse = "|")
+fin_eng_terms <- c("cancelled", "recognised", "endeavours", "cancellable", "premarket", "centre", "undrawn", "acknowledgement", "preliminarily", "amongst", "transferability", "durations", "onwards", "scrollbars", "minimise", "memoranda", "recognises", "totalling", "fulfil", "centres", "underperformance", "realised")
+
+fin <- paste0(c(fin, fin_manual, fin_eng_terms))
+fin_plural <- paste0(fin, "s")
 
 data_all_filtered_fin <- data_all_filtered_ %>% 
   mutate(Word_low = str_to_lower(Words)) %>% 
   filter(Word_low %in% fin == FALSE) %>%
-  filter(str_detect(Word_low, patt) == FALSE) 
-
-
-
+  filter(Word_low %in% fin_plural == FALSE) 
 
 launch_proximity_words_fin <- launch_proximity_words_ %>% 
   mutate(Word_low = str_to_lower(Words)) %>% 
   filter(Word_low %in% fin == FALSE) %>%
-  filter(str_detect(Word_low, patt) == FALSE) 
+  filter(Word_low %in% fin_plural == FALSE) 
+
+new_PROD_proximity_words_fin <- new_PROD_proximity_words_ %>% 
+  mutate(Word_low = str_to_lower(Words)) %>% 
+  filter(Word_low %in% fin == FALSE) %>%
+  filter(Word_low %in% fin_plural == FALSE) 
+
+new_DRUG_proximity_words_fin <- new_DRUG_proximity_words_ %>% 
+  mutate(Word_low = str_to_lower(Words)) %>% 
+  filter(Word_low %in% fin == FALSE) %>%
+  filter(Word_low %in% fin_plural == FALSE) 
+
+new_DEVICE_proximity_words_fin <- new_DEVICE_proximity_words_ %>% 
+  mutate(Word_low = str_to_lower(Words)) %>% 
+  filter(Word_low %in% fin == FALSE) %>%
+  filter(Word_low %in% fin_plural == FALSE) 
 
 brand_words_fin <- brand_words_ %>% 
   mutate(Word_low = str_to_lower(Words)) %>% 
   filter(Word_low %in% fin == FALSE) %>%
-  filter(str_detect(Word_low, patt) == FALSE) 
+  filter(Word_low %in% fin_plural == FALSE) 
 
-finance_all <- tibble(Step = "2. Financial", 
+finance_all <- tibble(Step = "2. Financial", Method = "A. ALL",
        Diff = -(nrow(data_all_filtered_) - nrow(data_all_filtered_fin)),
        Set = nrow(data_all_filtered_fin))
 
-finance_prox <- tibble(Step = "2. Financial", Method = "B. Proximity", 
+finance_prox_launch <- tibble(Step = "2. Financial", Method = "B. Proximity - Launch", 
        Diff = -(nrow(launch_proximity_words_) - nrow(launch_proximity_words_fin)),
        Set = nrow(launch_proximity_words_fin))
+
+finance_prox_newprod <- tibble(Step = "2. Financial", Method = "B. Proximity - New Product", 
+       Diff = -(nrow(new_PROD_proximity_words_) - nrow(new_PROD_proximity_words_fin)),
+       Set = nrow(new_PROD_proximity_words_fin))
+
+finance_prox_newdrug <- tibble(Step = "2. Financial", Method = "B. Proximity - New Drug", 
+       Diff = -(nrow(new_DRUG_proximity_words_) - nrow(new_DRUG_proximity_words_fin)),
+       Set = nrow(new_DRUG_proximity_words_fin))
+
+finance_prox_newdev <- tibble(Step = "2. Financial", Method = "B. Proximity - New Device", 
+       Diff = -(nrow(new_DEVICE_proximity_words_) - nrow(new_DEVICE_proximity_words_fin)),
+       Set = nrow(new_DEVICE_proximity_words_fin))
 
 finance_brand <- tibble(Step = "2. Financial", Method = "C. Brand", 
        Diff = -(nrow(brand_words_) - nrow(brand_words_fin)),
        Set = nrow(brand_words_fin))
 
-finance <- rbind(finance_prox, finance_brand)
+finance <- rbind(finance_all, finance_prox_launch, finance_prox_newprod, finance_prox_newdrug,finance_prox_newdev,  finance_brand)
 
-
+# data_all_filtered_fin %>% count(Words) %>% arrange(desc(n)) %>% mutate(check = hunspell::hunspell_check(Words, "en_GB")) %>% filter(check == TRUE)
 ```
 
 
@@ -150,8 +228,7 @@ finance <- rbind(finance_prox, finance_brand)
 
 html_entities <- readxl::read_excel("~/W3 plu comments.xlsx", sheet = 1) %>% mutate(string = str_remove(str_to_lower(Name), ";"))
 
-
-parse_issue_manual <- c("extlink", "hidear", "helvetica", "nowrap", "sgml", "extlink",  "nump", "XBRL", "Arial", "Helvetica", "P10Y", "x2014",  "nbsp", "x2019", "x201...", "CFF0FC", "FFFFFF", "f0f0f0", "D9D9D9", "f0f9ee","ffffff", "P15Y", "P12M", "P30D", "x201C", "x201D", "x2022", "P24M", "innerHTML", "P24M", "P6Y3M", "P5Y6M", "P2Y6M", "xmltruetrueXML", "sgml", "xbrl", "xbrli","html", "cceeff", "D9D9D9", "f0f9ee", "CCEEFF", "Html", "Namespace", "dddddd", "d8d8d8", "CCECFF", "E6E7E8", "ccffcc", "B7DEE8", "cccccc", "c0c0c0", "CCFFCC", "BDD7EE", "bfe4ff", "webkit", "windowtext", "ARIAL", "ROWSHADECOLOR", "xbrldi","nowrap", "Calibri", "nonnum")
+parse_issue_manual <- c("extlink", "hidear", "helvetica", "nowrap", "sgml", "extlink",  "nump", "XBRL", "Arial", "Helvetica", "P10Y", "x2014",  "nbsp", "x2019", "x201...", "CFF0FC", "FFFFFF", "f0f0f0", "D9D9D9", "f0f9ee","ffffff", "P15Y", "P12M", "P30D", "x201C", "x201D", "x2022", "P24M", "innerHTML", "P24M", "P6Y3M", "P5Y6M", "P2Y6M", "xmltruetrueXML", "sgml", "xbrl", "xbrli","html", "cceeff", "D9D9D9", "f0f9ee", "CCEEFF", "Html", "Namespace", "dddddd", "d8d8d8", "CCECFF", "E6E7E8", "ccffcc", "B7DEE8", "cccccc", "c0c0c0", "CCFFCC", "BDD7EE", "bfe4ff", "webkit", "windowtext", "ARIAL", "ROWSHADECOLOR", "xbrldi","nowrap", "Calibri", "nonnum", "http")
 
 xml <- c(str_to_lower(html_entities$string), str_to_lower(parse_issue_manual))
 
@@ -167,6 +244,21 @@ launch_proximity_words_html <- launch_proximity_words_fin  %>%
   filter(Word_low %in% xml == FALSE) %>%
   filter(str_detect(Word_low, xml_patt) == FALSE)
 
+new_PROD_proximity_words_html <- new_PROD_proximity_words_fin  %>%  
+  filter(Word_low %in% html_entities$string == FALSE) %>% 
+  filter(Word_low %in% xml == FALSE) %>%
+  filter(str_detect(Word_low, xml_patt) == FALSE)
+
+new_DRUG_proximity_words_html <- new_DRUG_proximity_words_fin  %>%  
+  filter(Word_low %in% html_entities$string == FALSE) %>% 
+  filter(Word_low %in% xml == FALSE) %>%
+  filter(str_detect(Word_low, xml_patt) == FALSE)
+
+new_DEVICE_proximity_words_html <- new_DEVICE_proximity_words_fin  %>%  
+  filter(Word_low %in% html_entities$string == FALSE) %>% 
+  filter(Word_low %in% xml == FALSE) %>%
+  filter(str_detect(Word_low, xml_patt) == FALSE)
+
 brand_words_html <- brand_words_fin  %>%  
   filter(Word_low %in% html_entities$string == FALSE) %>% 
   filter(Word_low %in% xml == FALSE) %>%
@@ -174,60 +266,103 @@ brand_words_html <- brand_words_fin  %>%
 
   
 
-html <- tibble(Step = "3. HTML", 
+html_all <- tibble(Step = "3. HTML", Method = "A. ALL", 
        Diff = -(nrow(data_all_filtered_fin) - nrow(data_all_filtered_html)),
        Set = nrow(data_all_filtered_html))
 
-html_prox <- tibble(Step = "3. HTML", Method = "B. Proximity", 
+html_prox_launch <- tibble(Step = "3. HTML", Method = "B. Proximity - Launch", 
        Diff = -(nrow(launch_proximity_words_fin) - nrow(launch_proximity_words_html)),
        Set = nrow(launch_proximity_words_html))
+
+html_prox_newprod <- tibble(Step = "3. HTML", Method = "B. Proximity - New Product", 
+       Diff = -(nrow(new_PROD_proximity_words_fin) - nrow(new_PROD_proximity_words_html)),
+       Set = nrow(new_PROD_proximity_words_html))
+
+html_prox_newdrug <- tibble(Step = "3. HTML", Method = "B. Proximity - New Drug", 
+       Diff = -(nrow(new_DRUG_proximity_words_fin) - nrow(new_DRUG_proximity_words_html)),
+       Set = nrow(new_DRUG_proximity_words_html))
+
+html_prox_newdev <- tibble(Step = "3. HTML", Method = "B. Proximity - New Device", 
+       Diff = -(nrow(new_DEVICE_proximity_words_fin) - nrow(new_DEVICE_proximity_words_html)),
+       Set = nrow(new_DEVICE_proximity_words_html))
+
 
 html_brand <- tibble(Step = "3. HTML", Method = "C. Brand", 
        Diff = -(nrow(brand_words_fin) - nrow(brand_words_html)),
        Set = nrow(brand_words_html))
 
-html <- rbind(html_prox, html_brand)
+html <- rbind(html_all, html_prox_launch, html_prox_newprod, html_prox_newdrug, html_prox_newdev, html_brand)
 
 ```
 
-```{r}
+```{r dates}
 data_all_filtered_dates <- data_all_filtered_html %>% 
-  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>% 
-  filter((str_detect(Word_low, "jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,4}")) == FALSE) %>%
-  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>% 
-  filter(str_detect(Word_low, "\\bmay\\s?\\d") == FALSE)
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>%
+  filter((str_detect(Word_low, "jan|feb|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,6}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>%
+  filter(str_detect(Word_low, "\\bmay\\s?\\d|\\bmar[^A-Za-z]") == FALSE) 
 
 launch_proximity_words_dates <- launch_proximity_words_html %>% 
-  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>% 
-  filter((str_detect(Word_low, "jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,4}")) == FALSE) %>%
-  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>% 
-  filter(str_detect(Word_low, "\\bmay\\s?\\d") == FALSE)
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>%
+  filter((str_detect(Word_low, "jan|feb|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,6}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>%
+  filter(str_detect(Word_low, "\\bmay\\s?\\d|\\bmar[^A-Za-z]") == FALSE) 
+
+newprod_proximity_words_dates <- new_PROD_proximity_words_html %>% 
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>%
+  filter((str_detect(Word_low, "jan|feb|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,6}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>%
+  filter(str_detect(Word_low, "\\bmay\\s?\\d|\\bmar[^A-Za-z]") == FALSE) 
+
+newDRUG_proximity_words_dates <- new_DRUG_proximity_words_html %>% 
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>%
+  filter((str_detect(Word_low, "jan|feb|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,6}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>%
+  filter(str_detect(Word_low, "\\bmay\\s?\\d|\\bmar[^A-Za-z]") == FALSE) 
+
+newDEVICE_proximity_words_dates <- new_DEVICE_proximity_words_html %>% 
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>%
+  filter((str_detect(Word_low, "jan|feb|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,6}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>%
+  filter(str_detect(Word_low, "\\bmay\\s?\\d|\\bmar[^A-Za-z]") == FALSE) 
 
 brand_words_dates <- brand_words_html %>% 
-  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>% 
-  filter((str_detect(Word_low, "jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,4}")) == FALSE) %>%
-  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>% 
-  filter(str_detect(Word_low, "\\bmay\\s?\\d") == FALSE)
+  filter(str_detect(Word_low, "20[0-1][0-9][0-3][0-9][0-3][0-9]|[0-3][0-9][0-3][0-9]20[0-1][0-9]") == FALSE) %>%
+  filter((str_detect(Word_low, "jan|feb|apr|may|jun|jul|aug|sept?|oct|nov|dec") & str_detect(Word_low, "\\d{2,6}")) == FALSE) %>%
+  filter(str_detect(Word_low, "january|february|march|april|june|july|august|september|october|november|december") == FALSE) %>%
+  filter(str_detect(Word_low, "\\bmay\\s?\\d|\\bmar[^A-Za-z]") == FALSE) 
 
-dates <- tibble(Step = "4. Dates", 
+dates_all <- tibble(Step = "4. Dates", Method = "A. ALL", 
        Diff = -(nrow(data_all_filtered_html) - nrow(data_all_filtered_dates)),
        Set = nrow(data_all_filtered_dates))
 
-dates_prox <- tibble(Step = "4. Dates", Method = "B. Proximity", 
+dates_prox_launch <- tibble(Step = "4. Dates", Method = "B. Proximity - Launch", 
        Diff = -(nrow(launch_proximity_words_html) - nrow(launch_proximity_words_dates)),
        Set = nrow(launch_proximity_words_dates))
+
+dates_prox_newprod <- tibble(Step = "4. Dates", Method = "B. Proximity - New Product", 
+       Diff = -(nrow(new_PROD_proximity_words_html) - nrow(newprod_proximity_words_dates)),
+       Set = nrow(newprod_proximity_words_dates))
+
+dates_prox_newdrug <- tibble(Step = "4. Dates", Method = "B. Proximity - New Drug", 
+       Diff = -(nrow(new_DRUG_proximity_words_html) - nrow(newDRUG_proximity_words_dates)),
+       Set = nrow(newDRUG_proximity_words_dates))
+
+dates_prox_newdevice <- tibble(Step = "4. Dates", Method = "B. Proximity - New Device", 
+       Diff = -(nrow(new_DEVICE_proximity_words_html) - nrow(newDEVICE_proximity_words_dates)),
+       Set = nrow(newDEVICE_proximity_words_dates))
 
 dates_brand <- tibble(Step = "4. Dates", Method = "C. Brand", 
        Diff = -(nrow(brand_words_html) - nrow(brand_words_dates)),
        Set = nrow(brand_words_dates))
 
-dates <- rbind(dates_prox, dates_brand)
+dates <- rbind(dates_all, dates_prox_launch, dates_prox_newprod, dates_prox_newdrug, dates_prox_newdevice, dates_brand)
 
 ```
 
 
 ```{r}
-pharma_terms <- str_to_lower(c("FDCA", "HIPAA", "USPTO", "FDASIA", "ANDA",  "anda", "Anda", "pharmacokinetic", "bioequivalen(t|ce|cy)",  "biosimilar", "biologic", "biopharmaceutical", "biopharma", "therapeutic", "pharmaceutical", "science", "bio", "bioscience", "investigational", "Pharma"))
+pharma_terms <- str_to_lower(c("FDCA", "HIPAA", "USPTO", "FDASIA", "ANDA",  "anda", "Anda", "pharmacokinetic", "bioequivalen(t|ce|cy)",  "biosimilar", "biologic", "biopharmaceutical", "biopharma", "therapeutic", "pharmaceutical", "science", "bio", "bioscience", "investigational", "Pharma", "prescriber", "preclinical", "formulary", "formularies", "rheumatology", "homozygous", "infective", "adjunctive", "intranasal", "chewable", "unobservable", "injectable", "pharmacodynamic", "recombinant", "vitro", "intraocular", "comparator", "recoverability", "macular", "Materiality", "immunotherapy", "mRNA", "multidrug", "dystrophy", "colorectal", "antisense", "fractionation", "biomarker", "parenteral", "neurodegenerative", "ulcerative", "antipsychotic", "neuropathic", "gastroenterology", "liposomal", "neuromuscular", "intra", "bioavailability", "monotherapy", "ligand", "oculus", "submental", "cytotoxic", "chaperone", "benchmarking", "responder", "intracellular", "neuroscience", "radiological", "subpopulation", "tumours", "excipient", "titration", "genotype", "genomic", "ophthalmic"))
 
 pharma_manual <- c("flml", "pharmacovigilance", "pharm")
 
@@ -245,24 +380,53 @@ launch_proximity_words_pharma <- launch_proximity_words_dates %>%
   filter(Word_low %in% pharma_terms == FALSE) %>% 
   filter(str_detect(Word_low, pharm_patt) == FALSE)
 
+newprod_proximity_words_pharma <- newprod_proximity_words_dates %>%
+  filter(Word_low %in% pharma_manual == FALSE) %>%
+  filter(Word_low %in% pharma_terms == FALSE) %>% 
+  filter(str_detect(Word_low, pharm_patt) == FALSE)
+
+newDRUG_proximity_words_pharma <- newDRUG_proximity_words_dates %>%
+  filter(Word_low %in% pharma_manual == FALSE) %>%
+  filter(Word_low %in% pharma_terms == FALSE) %>% 
+  filter(str_detect(Word_low, pharm_patt) == FALSE)
+
+newDEVICE_proximity_words_pharma <- newDEVICE_proximity_words_dates %>%
+  filter(Word_low %in% pharma_manual == FALSE) %>%
+  filter(Word_low %in% pharma_terms == FALSE) %>% 
+  filter(str_detect(Word_low, pharm_patt) == FALSE)
+
 brand_words_pharma <- brand_words_dates %>%
   filter(Word_low %in% pharma_manual == FALSE) %>%
   filter(Word_low %in% pharma_terms == FALSE) %>% 
   filter(str_detect(Word_low, pharm_patt) == FALSE)
   
-pharma <- tibble(Step = "5. Pharma", 
+pharma_all <- tibble(Step = "5. Pharma",  Method = "A. ALL", 
        Diff = -(nrow(data_all_filtered_dates) - nrow(data_all_filtered_pharma)),
        Set = nrow(data_all_filtered_pharma))
 
-pharma_prox <- tibble(Step = "5. Pharma", Method = "B. Proximity", 
+pharma_prox_launch <- tibble(Step = "5. Pharma", Method = "B. Proximity - Launch", 
        Diff = -(nrow(launch_proximity_words_dates) - nrow(launch_proximity_words_pharma)),
        Set = nrow(launch_proximity_words_pharma))
+
+pharma_prox_newprod <- tibble(Step = "5. Pharma", Method = "B. Proximity - New Product", 
+       Diff = -(nrow(newprod_proximity_words_dates) - nrow(newprod_proximity_words_pharma)),
+       Set = nrow(newprod_proximity_words_pharma))
+
+pharma_prox_newdrug <- tibble(Step = "5. Pharma", Method = "B. Proximity - New Drug", 
+       Diff = -(nrow(newDRUG_proximity_words_dates) - nrow(newDRUG_proximity_words_pharma)),
+       Set = nrow(newDRUG_proximity_words_pharma))
+
+pharma_prox_newdevice <- tibble(Step = "5. Pharma", Method = "B. Proximity - New Device", 
+       Diff = -(nrow(newDEVICE_proximity_words_dates) - nrow(newDEVICE_proximity_words_pharma)),
+       Set = nrow(newDEVICE_proximity_words_pharma))
+
+
 
 pharma_brand <- tibble(Step = "5. Pharma", Method = "C. Brand", 
        Diff = -(nrow(brand_words_dates) - nrow(brand_words_pharma)),
        Set = nrow(brand_words_pharma))
 
-pharma <- rbind(pharma_prox, pharma_brand)
+pharma <- rbind(pharma_all, pharma_prox_launch, pharma_prox_newprod, pharma_prox_newdrug, pharma_prox_newdevice, pharma_brand)
 
 
 ```
@@ -275,73 +439,136 @@ data_all_filtered_t1 <- data_all_filtered_pharma %>%
 launch_proximity_words_t1 <- launch_proximity_words_pharma %>% 
   filter(str_count(Words, "[[:alpha:]]") > 1)
 
+newprod_proximity_words_t1 <- newprod_proximity_words_pharma %>% 
+  filter(str_count(Words, "[[:alpha:]]") > 1)
+
+newDRUG_proximity_words_t1 <- newDRUG_proximity_words_pharma %>% 
+  filter(str_count(Words, "[[:alpha:]]") > 1)
+
+newDEVICE_proximity_words_t1 <- newDEVICE_proximity_words_pharma %>% 
+  filter(str_count(Words, "[[:alpha:]]") > 1)
+
 brand_words_t1 <- brand_words_pharma %>% 
   filter(str_count(Words, "[[:alpha:]]") > 1)
 
-t1 <- tibble(Step = "T1. Contains >1 letter", 
+t1_all <- tibble(Step = "T1. Contains >1 letter", Method = "A. ALL",
        Diff = -(nrow(data_all_filtered_pharma) - nrow(data_all_filtered_t1)),
        Set = nrow(data_all_filtered_t1))
 
-t1_prox <- tibble(Step = "T1. Contains >1 letter", Method = "B. Proximity", 
+t1_prox_launch <- tibble(Step = "T1. Contains >1 letter", Method = "B. Proximity - Launch", 
        Diff = -(nrow(launch_proximity_words_pharma) - nrow(launch_proximity_words_t1)),
        Set = nrow(launch_proximity_words_t1))
+
+t1_prox_newprod <- tibble(Step = "T1. Contains >1 letter", Method = "B. Proximity - New Product", 
+       Diff = -(nrow(newprod_proximity_words_pharma) - nrow(newprod_proximity_words_t1)),
+       Set = nrow(newprod_proximity_words_t1))
+
+t1_prox_newdrug <- tibble(Step = "T1. Contains >1 letter", Method = "B. Proximity - New Drug", 
+       Diff = -(nrow(newDRUG_proximity_words_pharma) - nrow(newDRUG_proximity_words_t1)),
+       Set = nrow(newDRUG_proximity_words_t1))
+
+t1_prox_newdevice <- tibble(Step = "T1. Contains >1 letter", Method = "B. Proximity - New Device", 
+       Diff = -(nrow(newDEVICE_proximity_words_pharma) - nrow(newDEVICE_proximity_words_t1)),
+       Set = nrow(newDEVICE_proximity_words_t1))
 
 t1_brand <- tibble(Step = "T1. Contains >1 letter", Method = "C. Brand", 
        Diff = -(nrow(brand_words_pharma) - nrow(brand_words_t1)),
        Set = nrow(brand_words_t1))
 
-t1 <- rbind(t1_prox, t1_brand)
-
+t1 <- rbind(t1_all, t1_prox_launch, t1_prox_newprod, t1_prox_newdrug, t1_prox_newdevice, t1_brand)
 ```
 
 ```{r}
 data_all_filtered_t2 <- data_all_filtered_t1 %>% 
   filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
 
-t2 <- tibble(Step = "T2. Letter? 1-3 Nums Letter", 
-       Diff = -(nrow(data_all_filtered_t1) - nrow(data_all_filtered_t2)),
-       Set = nrow(data_all_filtered_t2))
 
 launch_proximity_words_t2 <- launch_proximity_words_t1 %>% 
+  filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
+
+newprod_proximity_words_t2 <- newprod_proximity_words_t1 %>% 
+  filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
+
+newDRUG_proximity_words_t2 <- newDRUG_proximity_words_t1 %>% 
+  filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
+
+newDEVICE_proximity_words_t2 <- newDEVICE_proximity_words_t1 %>% 
   filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
 
 brand_words_t2 <- brand_words_t1 %>% 
   filter(str_detect(Words, "[[:alpha:]]?\\d{1,3}[[:alpha:]]") == FALSE)
 
+t2_all <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "A. ALL",
+       Diff = -(nrow(data_all_filtered_t1) - nrow(data_all_filtered_t2)),
+       Set = nrow(data_all_filtered_t2))
 
-t2_prox <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "B. Proximity", 
+t2_prox_launch <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "B. Proximity - Launch", 
        Diff = -(nrow(launch_proximity_words_t1) - nrow(launch_proximity_words_t2)),
        Set = nrow(launch_proximity_words_t2))
+
+t2_prox_newprod <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "B. Proximity - New Product", 
+       Diff = -(nrow(newprod_proximity_words_t1) - nrow(newprod_proximity_words_t2)),
+       Set = nrow(newprod_proximity_words_t2))
+
+t2_prox_newdrug <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "B. Proximity - New Drug", 
+       Diff = -(nrow(newDRUG_proximity_words_t1) - nrow(newDRUG_proximity_words_t2)),
+       Set = nrow(newDRUG_proximity_words_t2))
+
+t2_prox_newdevice <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "B. Proximity - New Device", 
+       Diff = -(nrow(newDEVICE_proximity_words_t1) - nrow(newDEVICE_proximity_words_t2)),
+       Set = nrow(newDEVICE_proximity_words_t2))
 
 t2_brand <- tibble(Step = "T2. Letter? 1-3 Nums Letter", Method = "C. Brand", 
        Diff = -(nrow(brand_words_t1) - nrow(brand_words_t2)),
        Set = nrow(brand_words_t2))
 
-t2 <- rbind(t2_prox, t2_brand)
+t2 <- rbind(t2_all, t2_prox_launch, t2_prox_newprod, t2_prox_newdrug, t2_prox_newdevice, t2_brand)
+
 ```
 
 
 ```{r}
-results <- rbind(noneng, finance, html, dates, pharma, t1, t2)
-results <- rbind(orig_removal %>% mutate(Method = "A. All"), noneng, finance, html, dates, pharma, t1, t2)
-results <- results %>% select(1, 4,2,3) %>% arrange(Step, Method)
-results %>% select(-Diff) %>% reshape2::dcast(Step~Method)
+results <- rbind(orig, noneng, finance, html, dates, pharma, t1, t2)
+# results <- rbind(orig_removal %>% mutate(Method = "A. All"), noneng, finance, html, dates, pharma, t1, t2)
+# results <- results %>% select(1, 4,2,3) %>% arrange(Step, Method)
+results %>% select(-Diff) %>% reshape2::dcast(Step~Method, fun.aggregate = sum)
 results %>% select(-Set) %>% reshape2::dcast(Step~Method)
+results %>% filter(Step == "2. Financial") %>% select(2,4)
 
-saveRDS(results, "~/orig_to_filtered_steps.RDS")
+# saveRDS(results, "~/orig_to_filtered_steps_2020JUN05.RDS")
+
+results <- readRDS("~/orig_to_filtered_steps_2020JUN05.RDS")
+# write.csv(results %>% select(-Diff) %>% reshape2::dcast(Step~Method, fun.aggregate = sum), "~/RefiningChart1June52020.csv")
+# write.csv(results %>% select(-Set) %>% reshape2::dcast(Step~Method, fun.aggregate = sum), "~/RefiningChart2June52020.csv")
 ```
 
 
 
 ```{r}
 
-saveRDS(data_all_filtered_t2, "~/sec_wordlists_captures_march2020_filtered_march202020.RDS")
-saveRDS(launch_proximity_words_t2, "~/launch_proximity_march2020_filtered_march262020.RDS")
-saveRDS(brand_words_t2, "~/brand_words_march2020_filtered_march262020.RDS")
+saveRDS(data_all_filtered_t2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_filtered_2020JUN05.RDS")
+saveRDS(launch_proximity_words_t2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_filtered_2020JUN05.RDS")
+saveRDS(newprod_proximity_words_t2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_filtered_2020JUN05.RDS")
+saveRDS(brand_words_t2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_filtered_2020JUN05.RDS")
 
+saveRDS(newDRUG_proximity_words_t2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_filtered_2020JUN05.RDS")
+saveRDS(newDEVICE_proximity_words_t2, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_filtered_2020JUN05.RDS")
 
 ```
 
 
 
+```{r}
+data_all_filtered_t2 <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_filtered_2020JUN05.RDS")
+
+launch_proximity_words_t2 <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_filtered_2020JUN05.RDS")
+
+newprod_proximity_words_t2 <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_filtered_2020JUN05.RDS")
+
+brand_words_t2 <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_filtered_2020JUN05.RDS")
+
+newDRUG_proximity_words_t2 <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_filtered_2020JUN05.RDS")
+
+newDEVICE_proximity_words_t2 <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_filtered_2020JUN05.RDS")
+```
 

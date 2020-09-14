@@ -78,60 +78,51 @@ patt <- paste0("^(", paste0(refciks, collapse = "|"), ")" )
 
 ndc_file_headers <- file_headers[str_detect(file_headers$X1, pattern = patt),][[1]]
 
+
+## GET ALL FILINGS PATHS
 paths <- paste0(project_folder, "original/edgar_filings/Edgar_filings_folders/", file_headers$X1)
 paths[9]
 file_names <- unique(list.files(paths, full.names = TRUE))
 file_names[9]
-#head(file_names)
 
+## GET NDC FILINGS PATHS
 ndc_paths <- paste0(project_folder, "original/edgar_filings/Edgar_filings_folders/", ndc_file_headers)
 ndc_file_names <- unique(list.files(ndc_paths, full.names = TRUE))
 
+## EXAMPLE
 ndc_sec_ref %>% filter(family == "glaxosmithkline") %>% .$cik %>% unique
 ndc_sec_ref %>% filter(family == "teva") %>% .$cik %>% unique
-
 test <- ndc_file_names[str_detect(ndc_file_names, "1003642")]
 
 # eaglefilings <- file_names[str_detect(file_names, "827871")]
 # test <- ndc_file_names[str_detect(ndc_file_names, pattern = "1103021")]
 # test <- test[2]
 
+head(ndc_sec_ref)
+
+
+```
+
+```{r}
+"/project/biocomplexity/sdad/projects_data/ncses/bi/binn/original/edgar_filings/Edgar_filings_folders/1003642_10-K_2013/1003642_10-K_2013-02-26.txt"
 ```
 
 
-```{r registered_and_allnonenglish_forloop, eval = FALSE}
+
+```{r allnonenglish_forloop_RANAPRIL2020, eval = FALSE}
 ## remove final data.table if exists
 
 rm(i)
-if (exists("fin_o") == TRUE) rm(fin_o)
 
-symbol_dict <- rbind(data.frame(String = c("\u00AE", "®", "&#174;", "&#xae;", "&reg;"), 
-                                Symbol = rep("®", 5)),
-                     data.frame(String = c("\u0099", "™", "&#8482;", "&#x2122", "&#153;", "&#x99;", "&trade;", "\u2122"), 
-                                Symbol = rep("™", 8)))
-
-symbol_dict$String <- as.character(symbol_dict$String)
-symbol_dict$Symbol <- as.character(symbol_dict$Symbol)
 
 # Loop over file paths. For safety, I specify subsets (e.g. file_names[1:1000]) and
 # then write each to a file, combining all files at the end
 # use trycatch to skip errors
 
-for (i in ndc_file_names) { # 2867
-  tryCatch({
+
+for (i in ndc_file_names[390:616]) { # 2867
     
-    unclean <- read_file(test[4])
-    
-    registered_cleaned <- str_extract_all(unclean, pattern = "\\b[\\w-]+(\u00AE|®|&#174;|&#xae;|&reg;)")
-    trademarks_cleaned <- str_extract_all(unclean, pattern = "\\b[\\w-]+(\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)")
-    symbols <- data.frame(Capture = c(unlist(registered_cleaned), unlist(trademarks_cleaned)))
-    symbols$Capture <- as.character(symbols$Capture)
-    symbol_captures <- symbols %>%
-      mutate(Symbol_string = str_extract(Capture,
-                                  "(\u00AE|®|&#174;|&#xae;|&reg;|\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)$"),
-             Capture = str_remove(Capture,
-                                  "(\u00AE|®|&#174;|&#xae;|&reg;|\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)$")) %>%
-      left_join(symbol_dict, by = c("Symbol_string" = "String"))
+    unclean <- read_file(i)
     
     cleaned <- unclean %>% 
       remove_doc_types() %>% 
@@ -147,26 +138,16 @@ for (i in ndc_file_names) { # 2867
       textclean::replace_non_ascii2(replacement = " ")
     
     # str_count(cleaned, pattern = "nbsp")
-    
-    print(paste(i))
-  }, warning = function(war) {
-    print(paste(i, "MY_WARNING:  ", war))
-    return(NA)
-
-  }, error = function(err) {
-    print(paste(i, "ERROR:  ", err))
-    
-    return(NA)
-
-  }, finally = {
+  
     
     company <- str_match(basename(i), "(^.*?)_")[, 2]
     date <- str_match(basename(i), "([0-9][0-9][0-9][0-9])-([0-9][0-9])-[0-9][0-9]")
     month <- date[, 3]
     year <- date[, 2]
     
+    ## DMN TO ADD COMMENTS
     words <- unlist(str_split(str_replace_all(unlist(str_split(cleaned, "\\s", simplify = FALSE)), pattern = "[[:punct:]]", replacement = " "), "\\s"))
-    words2 <- words[dataplumbr::var.is_blank(str_squish(words)) == FALSE & nchar(words) > 3 & grepl(x = words, pattern =  "[[:alpha:]]") == TRUE]
+    words2 <- words[dataplumbr::var.is_blank(str_squish(words)) == FALSE & nchar(words) > 2 & grepl(x = words, pattern =  "[[:alpha:]]") == TRUE]
     words_cc <- words2[str_detect(words2, "[a-z][A-Z][a-z]") & nchar(words2)> 25]
     words_ncc <- words2[str_detect(words2, "[a-z][A-Z][a-z]") == FALSE & nchar(words2)<= 25]
 
@@ -192,18 +173,17 @@ for (i in ndc_file_names) { # 2867
     )
     
 
-    savepath_all <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_march2020/"
-    savepath_sym <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_sym_march2020/"
+    savepath_all <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_apr212020/"
+    
     # savepath <- "~/teva_xml_experiments/"
     saveRDS(output1, paste0(savepath_all, company, "_", year, ".RDS"))
-    saveRDS(symbol_captures, paste0(savepath_sym, company,"_", "sym", "_", year, ".RDS"))
     
-  })
+    print(i)
+    
+  
 }
 
 ```
-
-
 
 
 
@@ -277,7 +257,7 @@ for (i in test[1]) { # 2867
     # symbols <- data.frame(Capture = c(unlist(registered_cleaned), unlist(trademarks_cleaned)))
     # symbols$Capture <- as.character(symbols$Capture)
     
-    sentence <- str_extract_all(unclean, "[^.?!]*(?<=[.?\\s!])(launch|new product)(?=[\s.?!])[^.?!]*[.?!]")
+    sentence <- str_extract_all(unclean, "[^.?!]*(?<=[.?\\s!])(launch|new product)(?=[\\s.?!])[^.?!]*[.?!]")
     
     symbol_captures <- symbols %>%
       mutate(Company = company,
@@ -289,8 +269,8 @@ for (i in test[1]) { # 2867
                                   "(\u00AE|®|&#174;|&#xae;|&reg;|\u0099|™|&#8482;|&#x2122|&#153;|&#x99;|&trade;|\u2122)$")) %>%
       left_join(symbol_dict, by = c("Symbol_string" = "String"))
     
-    savepath_sym <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_sym_march2020/"
-    saveRDS(symbol_captures, paste0(savepath_sym, company,"_", "sym", "_", year, ".RDS"))
+    # savepath_sym <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_captures_sym_march2020/"
+    # saveRDS(symbol_captures, paste0(savepath_sym, company,"_", "sym", "_", year, ".RDS"))
     
     
 }
@@ -301,159 +281,27 @@ for (i in test[1]) { # 2867
 
 
 ```{r}
-str_count(cleaned, pattern = "nbsp")
-str_count(cleaned, pattern = "&nbsp")
-
-cleaned_ <- cleaned %>% read_html(options = "NOENT")
-
-str_count(cleaned_, pattern = "nbsp;")
-str_count(cleaned_, pattern = "&nbsp")
-
-cleaned__ <- cleaned %>% read_html()
-
-str_count(cleaned__, pattern = "nbsp")
-str_count(cleaned__, pattern = "&nbsp")
-
-str_count(cleaned, pattern = "&amp")
-str_count(cleaned_, pattern = "&amp")
-str_count(cleaned__, pattern = "&amp")
-
-
-```
-
-
-```{r}
-str_extract(cleaned, pattern = "[^.?!]*(?<=[.?\\s!])nbsp(?=[\\s.?!])[^.?!]*[.?!]")
-```
-
-
-```{r}
-    cleaned <- unclean %>% 
-      remove_doc_types() %>% 
-      # textutils::HTMLdecode() %>% 
-      #gsub(pattern = "&nbsp;?", rep = " ")  %>%
-      gsub(pattern = "&#60;|&#x3c;|&lt;|\u003C", replacement = "<") %>% 
-      gsub(pattern = "&#62;|&#x3e;|&gt;|\u003E", replacement = ">") %>% 
-      gsub(pattern = paste0("<tr> ?",  ".*?</tr>"), replacement = " ") %>% 
-      gsub(pattern = paste0("<MyReports> ?",  ".*?</MyReports>"), replacement = " ") %>% 
-      # textutils::HTMLdecode()
-      read_html() %>%
-      html_text_collapse() %>% 
-      textclean::replace_non_ascii2(replacement = " ")
+# folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_apr212020/"
+# files <- list.files(folder)
+# data_all_new <- files %>% paste0(folder, .) %>% purrr::map_df(.f = readRDS) %>% mutate(id = row_number())
+# saveRDS(data_all_new, "~/sec_wordlists_captures_april212020.RDS")
 ```
 
 ```{r}
-cleaned <- unclean %>% 
-      remove_doc_types() %>% 
-      # textutils::HTMLdecode() %>% 
-      #gsub(pattern = "&nbsp;?", rep = " ")  %>%
-      gsub(pattern = "&#60;|&#x3c;|&lt;|\u003C", replacement = "<") %>% 
-      gsub(pattern = "&#62;|&#x3e;|&gt;|\u003E", replacement = ">") %>% 
-      gsub(pattern = paste0("<tr> ?",  ".*?</tr>"), replacement = " ") %>% 
-      gsub(pattern = paste0("<MyReports> ?",  ".*?</MyReports>"), replacement = " ") 
-
-```
-
-
-```{r}
-rvest_cleaned <- rvest::html(cleaned)
-str_count(rvest_cleaned, pattern = "nbsp")
-str_count(rvest_cleaned, pattern = "&nbsp")
-
-# devtools::install_github("trinker/textreadr")
-# if (!require("pacman")) install.packages("pacman")
-# pacman::p_load_gh("trinker/textreadr")
-
-rvest_cleaned <- rvest::html(cleaned)
-str_count(rvest_cleaned, pattern = "nbsp")
-str_count(rvest_cleaned, pattern = "&nbsp")
-
-textutils::HTMLdecode("&nbsp")
-```
-
-```{r}
-url <- "https://html.spec.whatwg.org/entities.json"
-
-thing <- jsonlite::fromJSON(url)
-
-head(thing)
-
-class(thing)
-names(thing)
-
-thing2<- jsonlite::read_json(url)
-unlist(thing2)
-install.packages("tidyjson")
-
-rlist::list.table(thing)
-
-data <- bind_rows(thing, .id = 'play')
-
-thing2 <- tidyjson::read_json(url)
-
-thing %>% tidyjson::spread_all()
-
-```
-
-
-```{r}
-'%!in%' <- function(x,y)!('%in%'(x,y))
-
-get_context_pos <- function(word_df, targ_patt, n) {
-  # wordlist <- data.frame(word_vec) %>% 
-  #   transmute(Word = as.character(word_vec), 
-  #   eng = hunspell::hunspell_check(Word), 
-  #   stem = hunspell::hunspell_stem(Word),
-  #   id = row_number(), 
-  #   target = ifelse(stringr::str_detect(stringr::str_to_lower(Word), pattern = target), 1, 0))
-  wordlist <- word_df %>% 
-    mutate(low = str_to_lower(Words), 
-           id = row_number(), 
-           target = ifelse(stringr::str_detect(stringr::str_to_lower(Words), pattern = targ_patt), 1, 0))
- 
-  target_rows <- wordlist %>% filter(target == 1)
-  target_rows
-  target_rows$seq_up <- NA
-  target_rows$seq_down <- NA
-
-for (i in 1:length(target_rows$id)) {
-  target_rows$seq_up[i] <- list(seq(target_rows$id[i] +1, target_rows$id[i] + n))
-  target_rows$seq_down[i] <- list(seq(target_rows$id[i] -1, target_rows$id[i] - n))
-}
-  before_target <- unlist(target_rows$seq_up)
-  after_target <- unlist(target_rows$seq_down)
-
-  context <- wordlist[wordlist$id %in% before_target|wordlist$id %in% after_target, ] %>%
-    mutate(pstn = ifelse(id %in% before_target, "before", ifelse(id %in% after_target, "after", "none")))
-
-  # context <- context %>%
-  #   filter(!dataplumbr::var.is_blank(Word)) %>%
-  #   tidyr::unnest() %>%
-  #   count(stem) %>%
-  #   arrange(desc(n)) %>%
-  #   filter(stem %!in% corpus::stopwords_en) %>%
-  #   left_join(tidytext::parts_of_speech, by = c("stem" = "word"))  %>%
-  #   filter(pos == p_o_s)
-
-  context
-}
+data_all_new
 ```
 
 
 ```{r}
 data_all <- readRDS("~/sec_wordlists_captures_march172020_all.RDS")
 
-data_all %>% head(10000) %>% filter(str_detect(Words, "launch(es|ed|ing)?"))
-data_all %>% head(10000) %>% filter(str_detect(Words, "innovat(es|ed|ing|ive)?"))
+data_all_new <- readRDS("~/sec_wordlists_captures_april212020.RDS")
 
-testset  <- data_all %>% head(10000) 
+data_all_new %>% filter(English == FALSE)
 
-test_get <- get_context_pos(word_df = testset, targ_patt = "launch(es|ed|ing)?", n = 12)
-test_get2 <- get_context_pos(word_df = testset, targ_patt = "innovat(es|ed|ing|ive)?", n = 12)
 
-test_get %>% filter(English == FALSE)
-test_get2 %>% filter(English == FALSE)
+# OLD function for gathering nearby words - it will give same results, new function just adds the "launch" and improves before/after column
+# launch_proximity_words <- get_context_pos(word_df = data_all, targ_patt = "launch(es|ed|ing)?", n = 20)
 
-launch_proximity_words <- get_context_pos(word_df = data_all, targ_patt = "launch(es|ed|ing)?", n = 20)
 ```
 

@@ -1,0 +1,600 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(stringr)
+library(dplyr)
+```
+
+
+```{r eval = FALSE}
+
+#final_product_list <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_mar8.RDS"))
+final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_singmention_mar19.RDS"))
+```
+
+```{r eval = FALSE}
+# final_product_list_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_PROX_mar26.RDS")
+
+final_product_list_singlefirstmentionsONLY_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_singmention_PROX_mar26.RDS")
+
+# wcbyword_searchcompanies_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbywordsearch_PROX_mar26.RDS")
+
+# final_product_list_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_BRAND_mar26.RDS")
+final_product_list_singlefirstmentionsONLY_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_singmention_BRAND_mar26.RDS")
+
+# wcbyword_searchcompanies_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbywordsearch_BRAND_mar26.RDS")
+
+```
+
+## Wordlists from Step 3/4
+
+```{r}
+
+
+# final_product_list_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_nocomps_apr282020.RDS")
+# final_product_list_prox_LAUNCH <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_nocomps_apr282020.RDS")
+# final_product_list_prox_NEWPROD <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_nocomps_apr282020.RDS")
+# final_product_list_prox_NEWDRUG <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_nocomps_apr282020.RDS")
+# final_product_list_prox_NEWDEVICE <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_nocomps_apr282020.RDS")
+# final_product_list_brand_ <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_nocomps_apr282020.RDS")
+
+final_product_list_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_nocomps_JUN052020.RDS")
+final_product_list_prox_LAUNCH <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_nocomps_JUN052020.RDS")
+final_product_list_prox_NEWPROD <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_nocomps_JUN052020.RDS")
+final_product_list_prox_NEWDRUG <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_nocomps_JUN052020.RDS")
+final_product_list_prox_NEWDEVICE <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_nocomps_JUN052020.RDS")
+final_product_list_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_nocomps_JUN052020.RDS")
+```
+
+
+## NDC Data
+
+* original ndc product from FDA + create marketing year
+* NDC-SEC mapped subset (156 CIKs)
+* grouped counts of families against NDC and SEC
+
+
+```{r}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" 
+datapath <- "/project/biocomplexity/sdad/projects_data/volume_nyc1_01/business_innovation/" 
+ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt")) %>% mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"))
+
+ndc_sec_ref <- readxl::read_excel(paste0(datapath1, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe))
+
+
+ndc_percorpfamily <- ndc_sec_ref %>% count(family, ndc_labeler) # %>% select(-n) %>% count(family)
+sec_percorpfamily <- ndc_sec_ref %>% count(family, cik) #%>% select(-n) %>% count(family)
+
+ndc_validateset <- ndc_product %>%
+  select(4, 6, 13, 14) %>%
+  distinct() %>%
+  mutate(LABELERNAME,
+         Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),
+         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) 
+
+ndc_validate_subset  <- ndc_validateset %>%
+  filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
+  left_join(ndc_sec_ref %>% select(1,11), by = c("LABELERNAME" = "ndc_labeler")) %>% 
+  select(8,3,5, 6, 1,2 )
+
+# ndc_validateset %>% head(10)
+```
+
+
+```{r}
+final_product_list_allnoneng <- final_product_list_allnoneng %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+
+final_product_list_prox_LAUNCH <- final_product_list_prox_LAUNCH %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+final_product_list_prox_NEWPROD <- final_product_list_prox_NEWPROD %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+final_product_list_prox_NEWDRUG <- final_product_list_prox_NEWDRUG %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+final_product_list_prox_NEWDEVICE <- final_product_list_prox_NEWDEVICE %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+
+final_product_list_brand <- final_product_list_brand %>%
+  mutate(token_low = str_replace_all(str_to_lower(Token), pattern = "[^A-Za-z0-9]", replacement = ""))
+```
+
+# patterns for looking at NDC and checking if ANY token was grabbed
+
+```{r}
+mega_noneng_token_patt <- paste0("\\b(", paste0(unique(final_product_list_allnoneng$token_low), collapse = "|"), ")\\b")
+
+mega_launch_token_patt <- paste0("\\b(", paste0(unique(final_product_list_prox_LAUNCH$token_low), collapse = "|"), ")\\b")
+mega_newprod_token_patt <- paste0("\\b(", paste0(unique(final_product_list_prox_NEWPROD$token_low), collapse = "|"), ")\\b")
+mega_newdrug_token_patt <- paste0("\\b(", paste0(unique(final_product_list_prox_NEWDRUG$token_low), collapse = "|"), ")\\b")
+mega_newdevice_token_patt <- paste0("\\b(", paste0(unique(final_product_list_prox_NEWDEVICE$token_low), collapse = "|"), ")\\b")
+mega_brand_token_patt <- paste0("\\b(", paste0(unique(final_product_list_brand$token_low), collapse = "|"), ")\\b")
+```
+
+# patterns for looking at NDC and checking if FAMILY PORTFOLIO token was grabbed
+
+```{r}
+cik_families <- ndc_sec_ref %>% transmute(cik = as.character(cik), family) %>% distinct()
+
+portfolio_noneng_token_patt <- final_product_list_allnoneng %>% 
+  left_join(cik_families, by = c("Company" = "cik")) %>% 
+  group_by(family) %>% 
+  summarise(portfolio_pattern_token = paste0("\\b(", paste0(unique(word_low), collapse = "|"), ")\\b"))
+
+portfolio_launch_token_patt <- final_product_list_prox_LAUNCH %>% 
+  left_join(cik_families, by = c("Company" = "cik")) %>% 
+  group_by(family) %>% 
+  summarise(portfolio_pattern_token = paste0("\\b(", paste0(unique(word_low), collapse = "|"), ")\\b"))
+
+portfolio_product_token_patt <- final_product_list_prox_NEWPROD %>% 
+  left_join(cik_families, by = c("Company" = "cik")) %>% 
+  group_by(family) %>% 
+  summarise(portfolio_pattern_token = paste0("\\b(", paste0(unique(word_low), collapse = "|"), ")\\b"))
+
+portfolio_drug_token_patt <- final_product_list_prox_NEWDRUG %>% 
+  left_join(cik_families, by = c("Company" = "cik")) %>% 
+  group_by(family) %>% 
+  summarise(portfolio_pattern_token = paste0("\\b(", paste0(unique(word_low), collapse = "|"), ")\\b"))
+
+portfolio_device_token_patt <- final_product_list_prox_NEWDEVICE %>% 
+  left_join(cik_families, by = c("Company" = "cik")) %>% 
+  group_by(family) %>% 
+  summarise(portfolio_pattern_token = paste0("\\b(", paste0(unique(word_low), collapse = "|"), ")\\b"))
+
+portfolio_brand_token_patt <- final_product_list_brand %>% 
+  left_join(cik_families, by = c("Company" = "cik")) %>% 
+  group_by(family) %>% 
+  summarise(portfolio_pattern_token = paste0("\\b(", paste0(unique(word_low), collapse = "|"), ")\\b"))
+
+```
+
+# patterns (table of tokens) for looking at CAPTURES and checking if FAMILY PORTFOLIO NDC drug was grabbed so you can get Proprietary name attached to capture list
+
+```{r}
+ndc_portfolio_patterns <- ndc_validate_subset %>% 
+  group_by(family) %>% 
+  summarise(portfolio_pattern_prop = paste0("\\b(", paste0(unique(Prop_low), collapse = "|"), ")\\b"),
+            portfolio_pattern_nonprop = paste0("\\b(", paste0(unique(Nonprop_low), collapse = "|"), ")\\b"))
+
+ndc_portfolio_names_prop <- ndc_validate_subset %>% 
+  select(family, PROPRIETARYNAME) %>% distinct() %>%
+  mutate(ndc_prop_tokens = str_split(str_to_lower(PROPRIETARYNAME), "\\s")) %>%
+  tidyr::unnest(c("ndc_prop_tokens"))
+
+ndc_portfolio_names_nonprop <- ndc_validate_subset %>% 
+  select(family, PROPRIETARYNAME, NONPROPRIETARYNAME) %>% distinct() %>%
+  mutate(ndc_nonprop_tokens = str_split(str_to_lower(NONPROPRIETARYNAME), "\\s")) %>%
+  tidyr::unnest(c("ndc_nonprop_tokens")) %>% 
+  select(family, PROPRIETARYNAME, ndc_nonprop_tokens) %>% filter(nchar(ndc_nonprop_tokens) > 2)
+```
+
+# MATCHING FROM NDC TO SEC CAPTURES
+
+```{r ndc_allnoneng_familyspecific_own_any }
+ndc_validateset_results_all_noneng <- ndc_validate_subset %>% 
+  mutate(Prop_YN_ANY = str_detect(Prop_low, pattern = mega_noneng_token_patt),
+         Prop_matches_ANY = str_extract(Prop_low, pattern = mega_noneng_token_patt),
+         NonProp_YN_ANY = str_detect(Nonprop_low, pattern = mega_noneng_token_patt),
+         NonProp_matches_ANY = str_extract(Nonprop_low, pattern = mega_noneng_token_patt)) %>% 
+  left_join(portfolio_noneng_token_patt, by = "family") %>%
+  mutate(Prop_YN_OWN = str_detect(Prop_low, pattern = portfolio_pattern_token),
+         Prop_matches_OWN = str_extract(Prop_low, pattern = portfolio_pattern_token),
+         NonProp_YN_OWN = str_detect(Nonprop_low, pattern = portfolio_pattern_token),
+         NonProp_matches_OWN = str_extract(Nonprop_low, pattern = portfolio_pattern_token)
+         )  %>% 
+  mutate(match_ct_ANY = Prop_YN_ANY + NonProp_YN_ANY,
+         match_type_ANY = ifelse(match_ct_ANY == 0, "missed", ifelse(match_ct_ANY ==2, "both detected", 
+                                                                     ifelse(Prop_YN_ANY == TRUE, "prop only", "non-prop only"))),
+         match_ct_OWN = Prop_YN_OWN + NonProp_YN_OWN,
+         match_type_OWN = ifelse(match_ct_OWN == 0, "missed", ifelse(match_ct_OWN ==2, "both detected", 
+                                                                     ifelse(Prop_YN_OWN == TRUE, "prop only", "non-prop only")))) 
+
+# table(ndc_validateset_results_all_noneng$match_type_ANY)
+# table(ndc_validateset_results_all_noneng$match_type_OWN)
+# ndc_validateset_results_all_noneng %>% filter(match_ct_OWN > 0) %>% select(family, LABELERNAME, PROPRIETARYNAME, NONPROPRIETARYNAME, Prop_matches_OWN, NonProp_matches_OWN, match_type_OWN)
+```
+
+```{r ndc_launch_familyspecific_own_any}
+mega_patt <- mega_launch_token_patt
+
+ndc_validateset_results_launch_prox <- ndc_validate_subset %>% 
+  mutate(Prop_YN_ANY = str_detect(Prop_low, pattern = mega_patt),
+         Prop_matches_ANY = str_extract(Prop_low, pattern = mega_patt),
+         NonProp_YN_ANY = str_detect(Nonprop_low, pattern = mega_patt),
+         NonProp_matches_ANY = str_extract(Nonprop_low, pattern = mega_patt)) %>% 
+  left_join(portfolio_launch_token_patt, by = "family") %>%
+  mutate(Prop_YN_OWN = str_detect(Prop_low, pattern = portfolio_pattern_token),
+         Prop_matches_OWN = str_extract(Prop_low, pattern = portfolio_pattern_token),
+         NonProp_YN_OWN = str_detect(Nonprop_low, pattern = portfolio_pattern_token),
+         NonProp_matches_OWN = str_extract(Nonprop_low, pattern = portfolio_pattern_token)
+         )  %>% 
+  mutate(match_ct_ANY = Prop_YN_ANY + NonProp_YN_ANY,
+         match_type_ANY = ifelse(match_ct_ANY == 0, "missed", ifelse(match_ct_ANY ==2, "both detected", 
+                                                                     ifelse(Prop_YN_ANY == TRUE, "prop only", "non-prop only"))),
+         match_ct_OWN = Prop_YN_OWN + NonProp_YN_OWN,
+         match_type_OWN = ifelse(match_ct_OWN == 0, "missed", ifelse(match_ct_OWN ==2, "both detected", 
+                                                                     ifelse(Prop_YN_OWN == TRUE, "prop only", "non-prop only")))) 
+
+# table(ndc_validateset_results_launch_prox$match_type_ANY)
+# table(ndc_validateset_results_launch_prox$match_type_OWN)
+
+# ndc_validateset_results_launch_prox %>% filter(family == "abbvie")
+```
+
+```{r ndc_newprod_familyspecific_own_any}
+mega_patt <- mega_newprod_token_patt
+
+ndc_validateset_results_newprod_prox <- ndc_validate_subset %>% 
+  mutate(Prop_YN_ANY = str_detect(Prop_low, pattern = mega_patt),
+         Prop_matches_ANY = str_extract(Prop_low, pattern = mega_patt),
+         NonProp_YN_ANY = str_detect(Nonprop_low, pattern = mega_patt),
+         NonProp_matches_ANY = str_extract(Nonprop_low, pattern = mega_patt)) %>% 
+  left_join(portfolio_product_token_patt, by = "family") %>%
+  mutate(Prop_YN_OWN = str_detect(Prop_low, pattern = portfolio_pattern_token),
+         Prop_matches_OWN = str_extract(Prop_low, pattern = portfolio_pattern_token),
+         NonProp_YN_OWN = str_detect(Nonprop_low, pattern = portfolio_pattern_token),
+         NonProp_matches_OWN = str_extract(Nonprop_low, pattern = portfolio_pattern_token)
+         )  %>% 
+  mutate(match_ct_ANY = Prop_YN_ANY + NonProp_YN_ANY,
+         match_type_ANY = ifelse(match_ct_ANY == 0, "missed", ifelse(match_ct_ANY ==2, "both detected", 
+                                                                     ifelse(Prop_YN_ANY == TRUE, "prop only", "non-prop only"))),
+         match_ct_OWN = Prop_YN_OWN + NonProp_YN_OWN,
+         match_type_OWN = ifelse(match_ct_OWN == 0, "missed", ifelse(match_ct_OWN ==2, "both detected", 
+                                                                     ifelse(Prop_YN_OWN == TRUE, "prop only", "non-prop only")))) 
+
+
+# table(ndc_validateset_results_newprod_prox$match_type_ANY)
+# table(ndc_validateset_results_newprod_prox$match_type_OWN)
+```
+
+```{r ndc_newdrug_familyspecific_own_any}
+mega_patt <- mega_newdrug_token_patt
+
+ndc_validateset_results_newdrug_prox <- ndc_validate_subset %>% 
+  mutate(Prop_YN_ANY = str_detect(Prop_low, pattern = mega_patt),
+         Prop_matches_ANY = str_extract(Prop_low, pattern = mega_patt),
+         NonProp_YN_ANY = str_detect(Nonprop_low, pattern = mega_patt),
+         NonProp_matches_ANY = str_extract(Nonprop_low, pattern = mega_patt)) %>% 
+  left_join(portfolio_drug_token_patt, by = "family") %>%
+  mutate(Prop_YN_OWN = str_detect(Prop_low, pattern = portfolio_pattern_token),
+         Prop_matches_OWN = str_extract(Prop_low, pattern = portfolio_pattern_token),
+         NonProp_YN_OWN = str_detect(Nonprop_low, pattern = portfolio_pattern_token),
+         NonProp_matches_OWN = str_extract(Nonprop_low, pattern = portfolio_pattern_token)
+         )  %>% 
+  mutate(match_ct_ANY = Prop_YN_ANY + NonProp_YN_ANY,
+         match_type_ANY = ifelse(match_ct_ANY == 0, "missed", ifelse(match_ct_ANY ==2, "both detected", 
+                                                                     ifelse(Prop_YN_ANY == TRUE, "prop only", "non-prop only"))),
+         match_ct_OWN = Prop_YN_OWN + NonProp_YN_OWN,
+         match_type_OWN = ifelse(match_ct_OWN == 0, "missed", ifelse(match_ct_OWN ==2, "both detected", 
+                                                                     ifelse(Prop_YN_OWN == TRUE, "prop only", "non-prop only")))) 
+
+
+# table(ndc_validateset_results_newdrug_prox$match_type_ANY)
+# table(ndc_validateset_results_newdrug_prox$match_type_OWN)
+```
+
+```{r ndc_newdevice_familyspecific_own_any}
+mega_patt <- mega_newdevice_token_patt
+
+ndc_validateset_results_newdevice_prox <- ndc_validate_subset %>% 
+  mutate(Prop_YN_ANY = str_detect(Prop_low, pattern = mega_patt),
+         Prop_matches_ANY = str_extract(Prop_low, pattern = mega_patt),
+         NonProp_YN_ANY = str_detect(Nonprop_low, pattern = mega_patt),
+         NonProp_matches_ANY = str_extract(Nonprop_low, pattern = mega_patt)) %>% 
+  left_join(portfolio_device_token_patt, by = "family") %>%
+  mutate(Prop_YN_OWN = str_detect(Prop_low, pattern = portfolio_pattern_token),
+         Prop_matches_OWN = str_extract(Prop_low, pattern = portfolio_pattern_token),
+         NonProp_YN_OWN = str_detect(Nonprop_low, pattern = portfolio_pattern_token),
+         NonProp_matches_OWN = str_extract(Nonprop_low, pattern = portfolio_pattern_token)
+         )  %>% 
+  mutate(match_ct_ANY = Prop_YN_ANY + NonProp_YN_ANY,
+         match_type_ANY = ifelse(match_ct_ANY == 0, "missed", ifelse(match_ct_ANY ==2, "both detected", 
+                                                                     ifelse(Prop_YN_ANY == TRUE, "prop only", "non-prop only"))),
+         match_ct_OWN = Prop_YN_OWN + NonProp_YN_OWN,
+         match_type_OWN = ifelse(match_ct_OWN == 0, "missed", ifelse(match_ct_OWN ==2, "both detected", 
+                                                                     ifelse(Prop_YN_OWN == TRUE, "prop only", "non-prop only")))) 
+
+
+# table(ndc_validateset_results_newdevice_prox$match_type_ANY)
+# table(ndc_validateset_results_newdevice_prox$match_type_OWN)
+```
+
+```{r ndc_brand_familyspecific_own_any}
+
+mega_patt <- mega_brand_token_patt
+
+ndc_validateset_results_brand <- ndc_validate_subset %>% 
+  mutate(Prop_YN_ANY = str_detect(Prop_low, pattern = mega_patt),
+         Prop_matches_ANY = str_extract(Prop_low, pattern = mega_patt),
+         NonProp_YN_ANY = str_detect(Nonprop_low, pattern = mega_patt),
+         NonProp_matches_ANY = str_extract(Nonprop_low, pattern = mega_patt)) %>% 
+  left_join(portfolio_brand_token_patt, by = "family") %>%
+  mutate(Prop_YN_OWN = str_detect(Prop_low, pattern = portfolio_pattern_token),
+         Prop_matches_OWN = str_extract(Prop_low, pattern = portfolio_pattern_token),
+         NonProp_YN_OWN = str_detect(Nonprop_low, pattern = portfolio_pattern_token),
+         NonProp_matches_OWN = str_extract(Nonprop_low, pattern = portfolio_pattern_token)
+         )  %>% 
+  mutate(match_ct_ANY = Prop_YN_ANY + NonProp_YN_ANY,
+         match_type_ANY = ifelse(match_ct_ANY == 0, "missed", ifelse(match_ct_ANY ==2, "both detected", 
+                                                                     ifelse(Prop_YN_ANY == TRUE, "prop only", "non-prop only"))),
+         match_ct_OWN = Prop_YN_OWN + NonProp_YN_OWN,
+         match_type_OWN = ifelse(match_ct_OWN == 0, "missed", ifelse(match_ct_OWN ==2, "both detected", 
+                                                                     ifelse(Prop_YN_OWN == TRUE, "prop only", "non-prop only")))) 
+
+
+# table(ndc_validateset_results_brand$match_type_ANY)
+# table(ndc_validateset_results_brand$match_type_OWN)
+```
+
+```{r saveouttheonesabove}
+ndc_validateset_results_all_noneng %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_ndc_val_05June2020.RDS")
+ndc_validateset_results_launch_prox  %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newprod_prox %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newdrug_prox %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newdevice_prox %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_brand %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_ndc_val_05June2020.RDS")
+
+```
+
+
+
+NDC Products
+
+```{r}
+ndc_prop <- unique(unlist(str_split(str_replace_all(unlist(str_split(ndc_validateset$Prop_low, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+ndc_prop <- ndc_prop[nchar(ndc_prop) > 2 & str_detect(ndc_prop, "[[:alpha:]]")]
+
+ndc_nonprop <- unique(unlist(str_split(str_replace_all(unlist(str_split(ndc_validateset$Nonprop_low, "\\s")), "[[:punct:]]", replacement = " "), "\\s")))
+ndc_nonprop <- ndc_nonprop[nchar(ndc_nonprop) > 2 & str_detect(ndc_nonprop, "[[:alpha:]]")]
+
+mega_ndc_prop_patt <- paste0("\\b(", paste0(ndc_prop, collapse = "|"), ")\\b")
+mega_ndc_nonprop_patt <- paste0("\\b(", paste0(ndc_nonprop, collapse = "|"), ")\\b")
+```
+
+
+```{r}
+final_product_list_awaitingvals_allnoneng <- final_product_list_allnoneng %>% 
+  mutate(cik = as.double(Company)) %>% 
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+final_product_list_awaitingvals_prox_launch <- final_product_list_prox_LAUNCH %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+final_product_list_awaitingvals_prox_newproduct <- final_product_list_prox_NEWPROD %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+final_product_list_awaitingvals_prox_newdrug <- final_product_list_prox_NEWDRUG %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2012`+`2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+final_product_list_awaitingvals_prox_newdevice <- final_product_list_prox_NEWDEVICE %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2013`+`2014`+`2015`+`2016`+`2017`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+final_product_list_awaitingvals_prox_brand <- final_product_list_brand %>% 
+  mutate(cik = as.double(Company)) %>%
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by =  "cik") %>% 
+  transmute(family, cik, Name, Token, Brand, mentions = `2013`+`2014`+`2015`+`2016`+`2017`+`2018`, word_low) %>%
+  filter(str_detect(word_low, "[0-9]") == FALSE)
+
+# final_product_list_awaitingvals_prox_launch %>% filter(family == "abbvie")
+# final_product_list_prox_LAUNCH %>% filter(Company == "1551152")
+```
+
+
+# CAPTURES AGAINST NDC
+
+All Non English
+
+```{r}
+prop_matches_any <- ndc_validateset_results_all_noneng %>% select( 8) %>% distinct() %>% filter(!is.na(Prop_matches_ANY)) %>% mutate(PROP_MATCH_ANY = 1)
+
+nonprop_matches_any <- ndc_validateset_results_all_noneng %>% select(10) %>% distinct() %>% filter(!is.na(NonProp_matches_ANY)) %>% mutate(NONPROP_MATCH_ANY = 1)
+
+prop_matches_self <- ndc_validateset_results_all_noneng %>% select(1, 13) %>% distinct() %>% filter(!is.na(Prop_matches_OWN)) %>% mutate(PROP_MATCH_SELF = 1)
+
+nonprop_matches_self <- ndc_validateset_results_all_noneng %>% select(1, 15) %>% distinct() %>% filter(!is.na(NonProp_matches_OWN)) %>% mutate(NONPROP_MATCH_SELF = 1)
+
+
+final_product_list_allnoneng_selfany <-  final_product_list_awaitingvals_allnoneng %>%
+  left_join(prop_matches_any, by = c( "word_low" = "Prop_matches_ANY")) %>%
+  left_join(nonprop_matches_any, by = c( "word_low" = "NonProp_matches_ANY")) %>% 
+  mutate(ANY = ifelse((PROP_MATCH_ANY| NONPROP_MATCH_ANY) > 0, 1, 0)) %>% 
+  left_join(prop_matches_self, by = c("family", "word_low" = "Prop_matches_OWN")) %>% 
+  left_join(nonprop_matches_self, by = c("family", "word_low" = "NonProp_matches_OWN")) %>% 
+  mutate(SELF = ifelse((PROP_MATCH_SELF| NONPROP_MATCH_SELF) > 0, 1, 0))
+
+
+# saveRDS(final_product_list_allnoneng_selfany, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_05june2020.RDS")
+
+# final_product_list_allnoneng_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_05june2020.RDS")
+
+
+```
+
+Brand
+
+```{r}
+prop_matches_any <- ndc_validateset_results_brand %>% select( 8) %>% distinct() %>% filter(!is.na(Prop_matches_ANY)) %>% mutate(PROP_MATCH_ANY = 1)
+
+nonprop_matches_any <- ndc_validateset_results_brand %>% select(10) %>% distinct() %>% filter(!is.na(NonProp_matches_ANY)) %>% mutate(NONPROP_MATCH_ANY = 1)
+
+prop_matches_self <- ndc_validateset_results_brand %>% select(1, 13) %>% distinct() %>% filter(!is.na(Prop_matches_OWN)) %>% mutate(PROP_MATCH_SELF = 1)
+
+nonprop_matches_self <- ndc_validateset_results_brand %>% select(1, 15) %>% distinct() %>% filter(!is.na(NonProp_matches_OWN)) %>% mutate(NONPROP_MATCH_SELF = 1)
+
+
+final_product_list_brand_selfany <-  final_product_list_awaitingvals_prox_brand %>%
+  left_join(prop_matches_any, by = c( "word_low" = "Prop_matches_ANY")) %>%
+  left_join(nonprop_matches_any, by = c( "word_low" = "NonProp_matches_ANY")) %>% 
+  mutate(ANY = ifelse((PROP_MATCH_ANY| NONPROP_MATCH_ANY) > 0, 1, 0)) %>% 
+  left_join(prop_matches_self, by = c("family", "word_low" = "Prop_matches_OWN")) %>% 
+  left_join(nonprop_matches_self, by = c("family", "word_low" = "NonProp_matches_OWN")) %>% 
+  mutate(SELF = ifelse((PROP_MATCH_SELF| NONPROP_MATCH_SELF) > 0, 1, 0))
+
+
+
+saveRDS(final_product_list_brand_selfany, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_capt_val_june052020.RDS")
+
+final_product_list_brand_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_capt_val_june052020.RDS")
+
+
+```
+
+Launch
+
+```{r}
+prop_matches_any <- ndc_validateset_results_launch_prox %>% select( 8) %>% distinct() %>% filter(!is.na(Prop_matches_ANY)) %>% mutate(PROP_MATCH_ANY = 1)
+
+nonprop_matches_any <- ndc_validateset_results_launch_prox %>% select(10) %>% distinct() %>% filter(!is.na(NonProp_matches_ANY)) %>% mutate(NONPROP_MATCH_ANY = 1)
+
+prop_matches_self <- ndc_validateset_results_launch_prox %>% select(1, 13) %>% distinct() %>% filter(!is.na(Prop_matches_OWN)) %>% mutate(PROP_MATCH_SELF = 1)
+
+nonprop_matches_self <- ndc_validateset_results_launch_prox %>% select(1, 15) %>% distinct() %>% filter(!is.na(NonProp_matches_OWN)) %>% mutate(NONPROP_MATCH_SELF = 1)
+
+
+final_product_list_launch_selfany <-  final_product_list_awaitingvals_prox_launch %>%
+  left_join(prop_matches_any, by = c( "word_low" = "Prop_matches_ANY")) %>%
+  left_join(nonprop_matches_any, by = c( "word_low" = "NonProp_matches_ANY")) %>% 
+  mutate(ANY = ifelse((PROP_MATCH_ANY| NONPROP_MATCH_ANY) > 0, 1, 0)) %>% 
+  left_join(prop_matches_self, by = c("family", "word_low" = "Prop_matches_OWN")) %>% 
+  left_join(nonprop_matches_self, by = c("family", "word_low" = "NonProp_matches_OWN")) %>% 
+  mutate(SELF = ifelse((PROP_MATCH_SELF| NONPROP_MATCH_SELF) > 0, 1, 0))
+
+
+
+saveRDS(final_product_list_launch_selfany, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_capt_val_05june2020.RDS")
+
+final_product_list_launch_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_capt_val_05june2020.RDS")
+
+```
+
+New Product
+
+```{r}
+
+prop_matches_any <- ndc_validateset_results_newprod_prox %>% select( 8) %>% distinct() %>% filter(!is.na(Prop_matches_ANY)) %>% mutate(PROP_MATCH_ANY = 1)
+
+nonprop_matches_any <- ndc_validateset_results_newprod_prox %>% select(10) %>% distinct() %>% filter(!is.na(NonProp_matches_ANY)) %>% mutate(NONPROP_MATCH_ANY = 1)
+
+prop_matches_self <- ndc_validateset_results_newprod_prox %>% select(1, 13) %>% distinct() %>% filter(!is.na(Prop_matches_OWN)) %>% mutate(PROP_MATCH_SELF = 1)
+
+nonprop_matches_self <- ndc_validateset_results_newprod_prox %>% select(1, 15) %>% distinct() %>% filter(!is.na(NonProp_matches_OWN)) %>% mutate(NONPROP_MATCH_SELF = 1)
+
+
+final_product_list_newprod_selfany <-  final_product_list_awaitingvals_prox_newproduct %>%
+  left_join(prop_matches_any, by = c( "word_low" = "Prop_matches_ANY")) %>%
+  left_join(nonprop_matches_any, by = c( "word_low" = "NonProp_matches_ANY")) %>% 
+  mutate(ANY = ifelse((PROP_MATCH_ANY| NONPROP_MATCH_ANY) > 0, 1, 0)) %>% 
+  left_join(prop_matches_self, by = c("family", "word_low" = "Prop_matches_OWN")) %>% 
+  left_join(nonprop_matches_self, by = c("family", "word_low" = "NonProp_matches_OWN")) %>% 
+  mutate(SELF = ifelse((PROP_MATCH_SELF| NONPROP_MATCH_SELF) > 0, 1, 0))
+
+
+saveRDS(final_product_list_newprod_selfany, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_capt_val_05june2020.RDS")
+
+# final_product_list_newprod_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_capt_val_05june2020.RDS")
+```
+
+New Drug
+
+```{r}
+
+prop_matches_any <- ndc_validateset_results_newdrug_prox %>% select( 8) %>% distinct() %>% filter(!is.na(Prop_matches_ANY)) %>% mutate(PROP_MATCH_ANY = 1)
+
+nonprop_matches_any <- ndc_validateset_results_newdrug_prox %>% select(10) %>% distinct() %>% filter(!is.na(NonProp_matches_ANY)) %>% mutate(NONPROP_MATCH_ANY = 1)
+
+prop_matches_self <- ndc_validateset_results_newdrug_prox %>% select(1, 13) %>% distinct() %>% filter(!is.na(Prop_matches_OWN)) %>% mutate(PROP_MATCH_SELF = 1)
+
+nonprop_matches_self <- ndc_validateset_results_newdrug_prox %>% select(1, 15) %>% distinct() %>% filter(!is.na(NonProp_matches_OWN)) %>% mutate(NONPROP_MATCH_SELF = 1)
+
+
+final_product_list_newdrug_selfany <-  final_product_list_awaitingvals_prox_newdrug %>%
+  left_join(prop_matches_any, by = c( "word_low" = "Prop_matches_ANY")) %>%
+  left_join(nonprop_matches_any, by = c( "word_low" = "NonProp_matches_ANY")) %>% 
+  mutate(ANY = ifelse((PROP_MATCH_ANY| NONPROP_MATCH_ANY) > 0, 1, 0)) %>% 
+  left_join(prop_matches_self, by = c("family", "word_low" = "Prop_matches_OWN")) %>% 
+  left_join(nonprop_matches_self, by = c("family", "word_low" = "NonProp_matches_OWN")) %>% 
+  mutate(SELF = ifelse((PROP_MATCH_SELF| NONPROP_MATCH_SELF) > 0, 1, 0))
+
+
+saveRDS(final_product_list_newdrug_selfany, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_capt_val_05june2020.RDS")
+
+final_product_list_newdrug_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_capt_val_05june2020.RDS")
+```
+
+
+New Device
+
+```{r}
+
+prop_matches_any <- ndc_validateset_results_newdevice_prox %>% select( 8) %>% distinct() %>% filter(!is.na(Prop_matches_ANY)) %>% mutate(PROP_MATCH_ANY = 1)
+
+nonprop_matches_any <- ndc_validateset_results_newdevice_prox %>% select(10) %>% distinct() %>% filter(!is.na(NonProp_matches_ANY)) %>% mutate(NONPROP_MATCH_ANY = 1)
+
+prop_matches_self <- ndc_validateset_results_newdevice_prox %>% select(1, 13) %>% distinct() %>% filter(!is.na(Prop_matches_OWN)) %>% mutate(PROP_MATCH_SELF = 1)
+
+nonprop_matches_self <- ndc_validateset_results_newdevice_prox %>% select(1, 15) %>% distinct() %>% filter(!is.na(NonProp_matches_OWN)) %>% mutate(NONPROP_MATCH_SELF = 1)
+
+
+final_product_list_newdevice_selfany <-  final_product_list_awaitingvals_prox_newdevice %>%
+  left_join(prop_matches_any, by = c( "word_low" = "Prop_matches_ANY")) %>%
+  left_join(nonprop_matches_any, by = c( "word_low" = "NonProp_matches_ANY")) %>% 
+  mutate(ANY = ifelse((PROP_MATCH_ANY| NONPROP_MATCH_ANY) > 0, 1, 0)) %>% 
+  left_join(prop_matches_self, by = c("family", "word_low" = "Prop_matches_OWN")) %>% 
+  left_join(nonprop_matches_self, by = c("family", "word_low" = "NonProp_matches_OWN")) %>% 
+  mutate(SELF = ifelse((PROP_MATCH_SELF| NONPROP_MATCH_SELF) > 0, 1, 0))
+
+
+
+saveRDS(final_product_list_newdevice_selfany, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_capt_val_05june2020.RDS")
+
+final_product_list_newdevice_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_capt_val_05june2020.RDS")
+```
+
+
+
+```{r}
+final_product_list_allnoneng_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_05june2020.RDS")
+
+final_product_list_launch_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_capt_val_05june2020.RDS")
+
+final_product_list_newprod_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_capt_val_05june2020.RDS")
+
+final_product_list_newdrug_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_capt_val_05june2020.RDS")
+
+final_product_list_newdevice_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_capt_val_05june2020.RDS")
+
+final_product_list_brand_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_capt_val_june052020.RDS")
+
+```
+
+
+
+```{r}
+ndc_validateset_results_all_noneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_ndc_val_05June2020.RDS")
+ndc_validateset_results_launch_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newprod_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newdrug_prox <-  readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newdevice_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_ndc_val_05June2020.RDS")
+```

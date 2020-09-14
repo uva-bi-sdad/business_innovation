@@ -25,14 +25,33 @@ library(stringr)
 # }
 ```
 
+```{r}
+# all_non_eng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_filtered_apr272020.RDS")
+# launch_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_filtered_apr272020.RDS")
+# newprod_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_filtered_apr272020.RDS")
+# newdrug_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_filtered_apr272020.RDS")
+# newdevice_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_filtered_apr272020.RDS")
+# brand_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_filtered_apr272020.RDS")
+####
+all_non_eng <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_filtered_2020JUN05.RDS")
+
+launch_prox <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_filtered_2020JUN05.RDS")
+
+newprod_prox <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_filtered_2020JUN05.RDS")
+
+newdrug_prox <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_filtered_2020JUN05.RDS")
+
+newdevice_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_filtered_2020JUN05.RDS")
+
+brand_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_filtered_2020JUN05.RDS")
+
+#### <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_filtered_2020JUN05.RDS")
+```
+
+
 
 
 ```{r}
-# data <- readRDS("~/sec_wordlists_captures_march2020_all.RDS")
-data <- readRDS("~/sec_wordlists_captures_march2020_filtered_march202020.RDS")
-
-launch_proximity_words <- readRDS("~/launch_proximity_march2020_filtered_march262020.RDS")
-brand_words <- readRDS( "~/brand_words_march2020_filtered_march262020.RDS")
 
 new_ref_companies <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_newreftokens.RDS")
 
@@ -55,30 +74,58 @@ patt_ticker = paste0("^", str_to_lower(cik_ticker$Ticker), "$", collapse = "|")
 
 
 ```{r}
-data_ct <- data %>% 
-  count(Company, Year, Token = Words, Brand)
-
+data_ct <- all_non_eng %>% count(Company, Year, Token = Words, Brand) 
 wcbycomp_all <- reshape2::dcast(data_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
+nrow(all_non_eng)
 
-launch_ct <- launch_proximity_words %>% 
-  count(Company, Year, Token = Words, Brand)
+launch_ct <- launch_prox %>% count(Company, Year, Token = Words, Brand)
+wcbycomp_launch_prox <- reshape2::dcast(launch_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
 
-wcbycomp_prox <- reshape2::dcast(launch_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
+newprod_ct <- newprod_prox %>% count(Company, Year, Token = Words, Brand)
+wcbycomp_newprod_prox <- reshape2::dcast(newprod_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
 
-brand_ct <- brand_words %>% 
-  count(Company, Year, Token = Words, Brand)
+newdrug_ct <- newdrug_prox %>% count(Company, Year, Token = Words, Brand)
+wcbycomp_newdrug_prox <- reshape2::dcast(newdrug_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
 
+newdevice_ct <- newdevice_prox %>% count(Company, Year, Token = Words, Brand)
+wcbycomp_newdevice_prox <- reshape2::dcast(newdevice_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
+
+brand_ct <- brand_words %>% count(Company, Year, Token = Words, Brand)
 wcbycomp_brand <- reshape2::dcast(brand_ct, Company + Token + Brand ~ Year, value.var = "n", fun.aggregate = sum)
 
-tibble(Method = c("All", "Proximity", "Brand"),
-       Total_Word_Mentions = c(nrow(data), nrow(launch_proximity_words), nrow(brand_words)),
-       Company_Word_Pairs = c(nrow(wcbycomp_all), nrow(wcbycomp_prox), nrow(wcbycomp_brand)),
-       Company_ct = c(length(unique(data_ct$Company)), length(unique(launch_ct$Company)), length(unique(brand_ct$Company))),
-       Unq_Word_ct = c(length(unique(data_ct$Token)), length(unique(launch_ct$Token)), length(unique(brand_ct$Token)))
+accounting <- tibble(Method = c("A. All", "B. Proximity - Launch", 
+                  "B. Proximity - New Product","B. Proximity - New Drug", "B. Proximity - New Device",
+                  "C. Brand"),
+       Total_Word_Mentions = c(nrow(all_non_eng), 
+                               nrow(launch_prox), 
+                               nrow(newprod_prox), nrow(newdrug_prox), nrow(newdevice_prox), 
+                               nrow(brand_words)),
+       Company_Word_Pairs = c(nrow(wcbycomp_all), 
+                              nrow(wcbycomp_launch_prox), 
+                              nrow(wcbycomp_newprod_prox), nrow(wcbycomp_newdrug_prox), nrow(wcbycomp_newdevice_prox), 
+                              nrow(wcbycomp_brand)),
+       Company_ct = c(length(unique(data_ct$Company)), 
+                      length(unique(launch_ct$Company)), 
+                      length(unique(newprod_ct$Company)), length(unique(newdrug_ct$Company)), length(unique(newdevice_ct$Company)), 
+                      length(unique(brand_ct$Company))),
+       Unq_Word_ct = c(length(unique(data_ct$Token)), 
+                       length(unique(launch_ct$Token)), 
+                       length(unique(newprod_ct$Token)), length(unique(newdrug_ct$Token)), length(unique(newdevice_ct$Token)), 
+                       length(unique(brand_ct$Token)))
        )
+
+# saveRDS(accounting, "~/filtered_precompany_sizes.RDS")
 
 ```
 
+```{r}
+# wcbycomp_all
+# wcbycomp_launch_prox
+# wcbycomp_newprod_prox
+# wcbycomp_newdrug_prox
+# wcbycomp_newdevice_prox
+# wcbycomp_brand
+```
 
 
 ```{r}
@@ -86,13 +133,28 @@ tibble(Method = c("All", "Proximity", "Brand"),
 wcbyword_searchcompanies_all <- wcbycomp_all %>% mutate(
   word_low = str_to_lower(Token),
   complowTF = str_detect(word_low, pattlow),
-  complowmatch = str_extract(word_low, patthun))
-
-wcbyword_searchcompanies <- wcbyword_searchcompanies_ %>% 
+  complowmatch = str_extract(word_low, patthun))  %>% 
   mutate(tickerlowTF = str_detect(word_low, patt_ticker))
 
+wcbyword_searchcompanies_prox_LAUNCH <- wcbycomp_launch_prox %>% mutate(
+  word_low = str_to_lower(Token),
+  complowTF = str_detect(word_low, pattlow),
+  complowmatch = str_extract(word_low, patthun))  %>% 
+  mutate(tickerlowTF = str_detect(word_low, patt_ticker))
 
-wcbyword_searchcompanies_prox <- wcbycomp_prox %>% mutate(
+wcbyword_searchcompanies_prox_NEWPROD <- wcbycomp_newprod_prox %>% mutate(
+  word_low = str_to_lower(Token),
+  complowTF = str_detect(word_low, pattlow),
+  complowmatch = str_extract(word_low, patthun))  %>% 
+  mutate(tickerlowTF = str_detect(word_low, patt_ticker))
+
+wcbyword_searchcompanies_prox_NEWDRUG <- wcbycomp_newdrug_prox %>% mutate(
+  word_low = str_to_lower(Token),
+  complowTF = str_detect(word_low, pattlow),
+  complowmatch = str_extract(word_low, patthun))  %>% 
+  mutate(tickerlowTF = str_detect(word_low, patt_ticker))
+
+wcbyword_searchcompanies_prox_NEWDEVICE <- wcbycomp_newdevice_prox %>% mutate(
   word_low = str_to_lower(Token),
   complowTF = str_detect(word_low, pattlow),
   complowmatch = str_extract(word_low, patthun))  %>% 
@@ -104,34 +166,177 @@ wcbyword_searchcompanies_brand <- wcbycomp_brand %>% mutate(
   complowmatch = str_extract(word_low, patthun)) %>% 
   mutate(tickerlowTF = str_detect(word_low, patt_ticker))
 
-table(wcbyword_searchcompanies_prox$complowTF)
-table(wcbyword_searchcompanies_prox$tickerlowTF)
+comp_results <- tibble(Method = c("A. All", "B. Proximity - Launch", 
+                  "B. Proximity - New Product","B. Proximity - New Drug", "B. Proximity - New Device",
+                  "C. Brand"),
+       CompTokenMatches = c(sum(wcbyword_searchcompanies_all$complowTF), 
+                               sum(wcbyword_searchcompanies_prox_LAUNCH$complowTF), 
+                               sum(wcbyword_searchcompanies_prox_NEWPROD$complowTF), 
+                               sum(wcbyword_searchcompanies_prox_NEWDRUG$complowTF), 
+                               sum(wcbyword_searchcompanies_prox_NEWDEVICE$complowTF), 
+                               sum(wcbyword_searchcompanies_brand$complowTF)),
+       CompTickerMatches = c(sum(wcbyword_searchcompanies_all$tickerlowTF), 
+                               sum(wcbyword_searchcompanies_prox_LAUNCH$tickerlowTF), 
+                               sum(wcbyword_searchcompanies_prox_NEWPROD$tickerlowTF), 
+                               sum(wcbyword_searchcompanies_prox_NEWDRUG$tickerlowTF), 
+                               sum(wcbyword_searchcompanies_prox_NEWDEVICE$tickerlowTF), 
+                               sum(wcbyword_searchcompanies_brand$tickerlowTF)),
+       TotalRows         = c(nrow(wcbyword_searchcompanies_all), 
+                               nrow(wcbyword_searchcompanies_prox_LAUNCH), 
+                               nrow(wcbyword_searchcompanies_prox_NEWPROD), 
+                               nrow(wcbyword_searchcompanies_prox_NEWDRUG), 
+                               nrow(wcbyword_searchcompanies_prox_NEWDEVICE), 
+                               nrow(wcbyword_searchcompanies_brand))
 
+       ) %>%
+  mutate(PercComp = scales::percent((CompTokenMatches + CompTickerMatches) / TotalRows) )
 
-
+# saveRDS(comp_results, "~/companymatches_JUNE052020.RDS")
+# write.csv(comp_results, "~/company_matches_JUNE052020.csv")
 # wcbyword_searchcompanies %>% count(Token, complowTF, tickerlowTF) %>% filter(complowTF == TRUE | tickerlowTF == TRUE)
 # wcbyword_searchcompanies %>% count(Token, complowTF, tickerlowTF) %>% filter(complowTF == FALSE & tickerlowTF == FALSE)
+
+sum(wcbyword_searchcompanies_prox_NEWDEVICE$complowTF)
 ```
 
 
 ```{r}
-wcbyword_findcompanies <- wcbyword_searchcompanies %>%
+wcbyword_searchcompanies_all
+wcbyword_searchcompanies_prox_LAUNCH
+wcbyword_searchcompanies_prox_NEWPROD
+wcbyword_searchcompanies_prox_NEWDRUG
+wcbyword_searchcompanies_prox_NEWDEVICE
+wcbyword_searchcompanies_brand
+```
+
+```{r}
+comp_res_T_all <- wcbyword_searchcompanies_all %>% 
+  filter(complowTF == TRUE|tickerlowTF == TRUE) %>% 
+  transmute(Company, Token, Brand, comp = ifelse(complowTF == TRUE, "name", "ticker"), 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+comp_res_F_all <- wcbyword_searchcompanies_all %>% 
+  filter(complowTF == FALSE&tickerlowTF == FALSE) %>% 
+  transmute(Company, Token, Brand, comp = "none", 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+sum(comp_res_T_all$n)
+
+######################################################################################
+
+comp_res_T_launch <- wcbyword_searchcompanies_prox_LAUNCH %>% 
+  filter(complowTF == TRUE|tickerlowTF == TRUE) %>% 
+  transmute(Company, Token, Brand, comp = ifelse(complowTF == TRUE, "name", "ticker"), 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+comp_res_F_launch <- wcbyword_searchcompanies_prox_LAUNCH %>% 
+  filter(complowTF == FALSE&tickerlowTF == FALSE) %>% 
+  transmute(Company, Token, Brand, comp = "none", 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+sum(comp_res_T_launch$n)
+
+######################################################################################
+
+comp_res_T_newprod <- wcbyword_searchcompanies_prox_NEWPROD %>% 
+  filter(complowTF == TRUE|tickerlowTF == TRUE) %>% 
+  transmute(Company, Token, Brand, comp = ifelse(complowTF == TRUE, "name", "ticker"), 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+comp_res_F_newprod <- wcbyword_searchcompanies_prox_NEWPROD %>% 
+  filter(complowTF == FALSE&tickerlowTF == FALSE) %>% 
+  transmute(Company, Token, Brand, comp = "none", 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+sum(comp_res_T_newprod$n)
+comp_res_F_newprod
+
+######################################################################################
+
+comp_res_T_newdrug <- wcbyword_searchcompanies_prox_NEWDRUG %>% 
+  filter(complowTF == TRUE|tickerlowTF == TRUE) %>% 
+  transmute(Company, Token, Brand, comp = ifelse(complowTF == TRUE, "name", "ticker"), 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+comp_res_F_newdrug <- wcbyword_searchcompanies_prox_NEWDRUG %>% 
+  filter(complowTF == FALSE&tickerlowTF == FALSE) %>% 
+  transmute(Company, Token, Brand, comp = "none", 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+sum(comp_res_T_newdrug$n)
+comp_res_F_newdrug
+
+######################################################################################
+
+comp_res_T_brand <- wcbyword_searchcompanies_brand %>% 
+  filter(complowTF == TRUE|tickerlowTF == TRUE) %>% 
+  transmute(Company, Token, Brand, comp = ifelse(complowTF == TRUE, "name", "ticker"), 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+comp_res_F_brand <- wcbyword_searchcompanies_brand %>% 
+  filter(complowTF == FALSE&tickerlowTF == FALSE) %>% 
+  transmute(Company, Token, Brand, comp = "none", 
+            count =  `2013` + `2014` + `2015` + `2016` + `2017` ) %>%
+  group_by(comp) %>%
+  summarise(n = sum(count))
+
+sum(comp_res_T_brand$n)
+comp_res_F_brand
+
+
+```
+
+If you want to look at the company co-mention networks...
+
+```{r}
+wcbyword_findcompanies_all <- wcbyword_searchcompanies_all %>%
   left_join(company_reference_names %>% transmute(CIK = as.character(CIK), CompanyString), by = c("Company" = "CIK")) %>%
   mutate(Self = ifelse(str_detect(str_to_lower(CompanyString), pattern = complowmatch), 1, 0))  %>%
   left_join(cik_ticker %>% transmute(CIK = as.character(CIK), Ticker, Name), by = c("Company" = "CIK")) %>%
   mutate(Self_Ticker = ifelse(tickerlowTF == TRUE & str_detect(word_low, pattern = str_to_lower(Ticker)) == TRUE, 1, 0))
 
-wcbyword_findcompanies %>% filter(complowTF == TRUE) %>% select(Token, Brand, word_low, CompanyString, Self)
-wcbyword_findcompanies %>% filter(tickerlowTF == TRUE) %>% select(Token, Brand, word_low, Ticker, Self_Ticker)
+wcbyword_findcompanies_all %>% filter(complowTF == TRUE) %>% select(Token, Brand, word_low, CompanyString, Self)
+wcbyword_findcompanies_all %>% filter(tickerlowTF == TRUE) %>% select(Token, Brand, word_low, Ticker, Self_Ticker)
+```
 
-# table(is.na(wcbyword_findcompanies$Ineligible))
-# wcbyword_findcompanies %>% count(complowTF, Self, Pharma, Fin, Ineligible)
 
-final_product_list <- wcbyword_searchcompanies %>% 
+```{r}
+
+final_product_list_allnoneng <- wcbyword_searchcompanies_all %>% 
   filter(complowTF == FALSE & tickerlowTF == FALSE) %>% 
   left_join(companyref_pickname %>% mutate(CIK = as.character(CIK)), by = c("Company" = "CIK"))
 
-final_product_list_prox <- wcbyword_searchcompanies_prox %>% 
+final_product_list_prox_LAUNCH <- wcbyword_searchcompanies_prox_LAUNCH %>% 
+  filter(complowTF == FALSE & tickerlowTF == FALSE) %>% 
+  left_join(companyref_pickname %>% mutate(CIK = as.character(CIK)), by = c("Company" = "CIK"))
+
+final_product_list_prox_NEWPROD <- wcbyword_searchcompanies_prox_NEWPROD %>% 
+  filter(complowTF == FALSE & tickerlowTF == FALSE) %>% 
+  left_join(companyref_pickname %>% mutate(CIK = as.character(CIK)), by = c("Company" = "CIK"))
+
+final_product_list_prox_NEWDRUG <- wcbyword_searchcompanies_prox_NEWDRUG %>% 
+  filter(complowTF == FALSE & tickerlowTF == FALSE) %>% 
+  left_join(companyref_pickname %>% mutate(CIK = as.character(CIK)), by = c("Company" = "CIK"))
+
+final_product_list_prox_NEWDEVICE <- wcbyword_searchcompanies_prox_NEWDEVICE %>% 
   filter(complowTF == FALSE & tickerlowTF == FALSE) %>% 
   left_join(companyref_pickname %>% mutate(CIK = as.character(CIK)), by = c("Company" = "CIK"))
 
@@ -139,6 +344,22 @@ final_product_list_brand <- wcbyword_searchcompanies_brand %>%
   filter(complowTF == FALSE & tickerlowTF == FALSE) %>% 
   left_join(companyref_pickname %>% mutate(CIK = as.character(CIK)), by = c("Company" = "CIK"))
   
+```
+
+```{r}
+saveRDS(final_product_list_allnoneng, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_nocomps_JUN052020.RDS")
+saveRDS(final_product_list_prox_LAUNCH, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_nocomps_JUN052020.RDS")
+saveRDS(final_product_list_prox_NEWPROD, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_nocomps_JUN052020.RDS")
+saveRDS(final_product_list_prox_NEWDRUG, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_nocomps_JUN052020.RDS")
+saveRDS(final_product_list_prox_NEWDEVICE, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_nocomps_JUN052020.RDS")
+saveRDS(final_product_list_brand, "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_nocomps_JUN052020.RDS")
+
+final_product_list_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_nocomps_JUN052020.RDS")
+final_product_list_prox_LAUNCH <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_nocomps_JUN052020.RDS")
+final_product_list_prox_NEWPROD <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_nocomps_JUN052020.RDS")
+final_product_list_prox_NEWDRUG <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_nocomps_JUN052020.RDS")
+final_product_list_prox_NEWDEVICE <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_nocomps_JUN052020.RDS")
+final_product_list_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_nocomps_JUN052020.RDS")
 ```
 
 
@@ -178,87 +399,6 @@ creditcompanybyfirstmention_NO_TIES <- creditcompanybyfirstmention %>% filter(To
 
 # join back to original list 
 final_product_list_singlefirstmentionsONLY <- final_product_list %>% 
-  left_join(firstmention_by_company, by = c("Name", "Token", "Brand")) %>% 
-  inner_join(creditcompanybyfirstmention_NO_TIES, by = c("Token", "Name", "Brand", "first_mention" = "minyear"))
-
-```
-
-```{r firstmention}
-#### for each company - what was the first time they individually mentioned that product? 
-firstmention_by_company <- final_product_list_prox %>% 
-  transmute(Name = Name, 
-        first_mention = ifelse(`2012` > 0, 2012, 
-                                ifelse(`2013` > 0, 2013, 
-                                        ifelse(`2014` > 0, 2014, 
-                                                ifelse(`2015` > 0, 2015, 
-                                                        ifelse(`2016` > 0, 2016,
-                                                               ifelse(`2017` > 0, 2017, 1900)))))), 
-         #Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token),
-        Token, 
-        Brand)
-
-
-#### for commonly mentioned products - which company mentioned it first? for ties - remove the tokens
-
-#### how to find tokens that have multiple companies mentioning them
-#firstmention_by_company %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
-#### example of how to find first mention YEAR among multiple company years with Abilify
-#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention))
-#### example how to take first mention YEAR and then filter for rows with that year
-#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company %>% filter(Token == "Abilify"), by = c("Token")) %>% filter(minyear == first_mention)
-
-#### run above on entire set 
-
-# get earliest year
-creditcompanybyfirstmention <- firstmention_by_company %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company, by = c("Token")) %>% filter(minyear == first_mention)
-# get tokens with multiple companies first mentions
-tokens_with_tied_firstmention <- creditcompanybyfirstmention %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
-
-# remove mult-tokens from set
-creditcompanybyfirstmention_NO_TIES <- creditcompanybyfirstmention %>% filter(Token %!in% tokens_with_tied_firstmention$Token) %>% select(Token, Brand, Name, minyear)
-
-# join back to original list 
-final_product_list_singlefirstmentionsONLY_prox <- final_product_list_prox %>% 
-  left_join(firstmention_by_company, by = c("Name", "Token", "Brand")) %>% 
-  inner_join(creditcompanybyfirstmention_NO_TIES, by = c("Token", "Name", "Brand", "first_mention" = "minyear"))
-
-```
-
-```{r firstmention}
-#### for each company - what was the first time they individually mentioned that product? 
-firstmention_by_company <- final_product_list_brand %>% 
-  transmute(Name = Name, 
-        first_mention = ifelse(`2013` > 0, 2013, 
-                                        ifelse(`2014` > 0, 2014, 
-                                                ifelse(`2015` > 0, 2015, 
-                                                        ifelse(`2016` > 0, 2016,
-                                                               ifelse(`2017` > 0, 2017, 1900))))), 
-         #Product = ifelse(!is.na(Protect), paste0(Token, Protect), Token),
-        Token, 
-        Brand)
-
-
-#### for commonly mentioned products - which company mentioned it first? for ties - remove the tokens
-
-#### how to find tokens that have multiple companies mentioning them
-#firstmention_by_company %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
-#### example of how to find first mention YEAR among multiple company years with Abilify
-#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention))
-#### example how to take first mention YEAR and then filter for rows with that year
-#firstmention_by_company %>% filter(Token == "Abilify") %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company %>% filter(Token == "Abilify"), by = c("Token")) %>% filter(minyear == first_mention)
-
-#### run above on entire set 
-
-# get earliest year
-creditcompanybyfirstmention <- firstmention_by_company %>% group_by(Token) %>% summarise(minyear = min(first_mention)) %>% left_join(firstmention_by_company, by = c("Token")) %>% filter(minyear == first_mention)
-# get tokens with multiple companies first mentions
-tokens_with_tied_firstmention <- creditcompanybyfirstmention %>% count(Token, Name) %>% select(-n) %>% count(Token) %>% filter(n>1)
-
-# remove mult-tokens from set
-creditcompanybyfirstmention_NO_TIES <- creditcompanybyfirstmention %>% filter(Token %!in% tokens_with_tied_firstmention$Token) %>% select(Token, Brand, Name, minyear)
-
-# join back to original list 
-final_product_list_singlefirstmentionsONLY_brand <- final_product_list_brand %>% 
   left_join(firstmention_by_company, by = c("Name", "Token", "Brand")) %>% 
   inner_join(creditcompanybyfirstmention_NO_TIES, by = c("Token", "Name", "Brand", "first_mention" = "minyear"))
 

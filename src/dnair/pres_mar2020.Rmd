@@ -21,11 +21,9 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
     -moz-columns: 3 100px;
   }
 </style>
-
 ```{r libraries, echo = FALSE, warning=F, message=F}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, results = "asis")
 # fig.height = 5, fig.width = 6
-
 #install.packages("dichromat")
 library(ggplot2)
 library(RColorBrewer)
@@ -34,7 +32,6 @@ library(stringr)
 library(scales)
 library(dichromat)
 ```
-
 ```{r plotsettings2}
 customPlot2 = list(
   theme(#plot.margin = unit(c(1,1,2,2), "cm"),
@@ -48,96 +45,68 @@ customPlot2 = list(
         colour =guide_legend(title="Key", ncol = 1))
 )
 ```
-
-
 ```{r}
 project_folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
 ```
-
 ```{r companyset}
 ndc_sec_ref <- readxl::read_excel(paste0(project_folder, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
 colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
 ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
-
 refciks <- unique(ndc_sec_ref$cik)
 ```
-
 Company Set: 
-
 * 148 corporate families
 * 156 CIKs
 * 241 ndc labelers
-
 ```{r}
 length(unique(ndc_sec_ref$family))
 length(unique(ndc_sec_ref$cik))
 length(unique(ndc_sec_ref$ndc_labeler))
 ```
-
 ```{r}
 paths <- readRDS("~/sec_filings_raw_text_sizes.RDS")
 ```
-
-
 ```{r sizes}
 # allwords
-# orig_57Mwords <- readRDS("~/sec_wordlists_captures_march172020_all.RDS") #original ALL word set 
+orig_57Mwords <- readRDS("~/sec_wordlists_captures_march172020_all.RDS") #original ALL word set 
 # rm(orig_57Mwords)
 # processed_sizes <- orig_57Mwords %>% count(Company, Year)
 # processed_sizes %>% saveRDS("~/sec_wordlists_captures_march20_2020_all_sizes.RDS") 
-
 # brand <- data1 %>% count(Company, Year, Brand = ifelse(is.na(Brand), "NonEnglish", "Brand")) %>% 
 #   reshape2::dcast(Company+Year~Brand) %>%
 #   transmute(files = paste0(Company, "_", Year), Brand, NonEnglish)
 # saveRDS(brand, "~/sec_wordlists_captures_march20_2020_filtered_brandvnonenglishsizes.RDS")
-
 # filtered_sizes <- data1 %>% count(Company, Year)
 # filtered_sizes %>% saveRDS("~/sec_wordlists_captures_march20_2020_filtered_sizes.RDS") 
-
 ```
-
-
 ```{r}
 data1 <- readRDS("~/sec_wordlists_captures_march2020_filtered_march202020.RDS") #final filtered words
-
 brand_words_ <- orig_57Mwords %>% filter(!is.na(Brand)) 
 ```
-
 ```{r }
 #allwords 
 savepath <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_march2020/"
 orig_sizes <- readRDS("~/sec_wordlists_captures_march20_2020_all_sizes.RDS") %>%
   transmute(files = paste0(Company, "_", Year),
             orig_num_words_ingested = n)
-
-
 filt_sizes <- readRDS("~/sec_wordlists_captures_march20_2020_filtered_sizes.RDS") %>%
   transmute(files = paste0(Company, "_", Year),
             filt_num_words = n)
-
 brand_sizes <- readRDS("~/sec_wordlists_captures_march20_2020_filtered_brandvnonenglishsizes.RDS")
-
 # these can be deleted...
 #allwords_nonengprot_noasci_mar7 %>% saveRDS(file = "~/ndc_set_filings_subset_noneng_prot_noasci_mar7.RDS")
 # allwords_nonengprot_noasci_mar7_ct %>% saveRDS(file = "~/ndc_set_filings_subset_noneng_prot_noasci_mar7_ct.RDS")
-
 savepath <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_march2020/"
 paths <- data.frame(files = str_remove(list.files(savepath), ".RDS$"), paths = paste0(savepath, list.files(savepath)))
 paths$paths <- as.character(paths$paths)
-
 paths <- paths %>% left_join(orig_sizes, c("files")) %>% left_join(filt_sizes, by = c("files")) %>% left_join(brand_sizes, by = c("files"))
-
 ```
-
 For 156 companies, there are 598 filings over 2012-2018 representing a total of 55,744,108.
-
 ```{r}
 # nrow(paths)
 # sum(paths$orig_num_words_ingested)
 # table(data1$Year)
-
 paths <- paths %>% mutate(perc_diff = (orig_num_words_ingested - filt_num_words)/orig_num_words_ingested )
-
 ggplot(paths, aes(x = orig_num_words_ingested)) +
   geom_histogram() + 
   customPlot2 +
@@ -147,7 +116,6 @@ ggplot(paths, aes(x = orig_num_words_ingested)) +
   scale_x_continuous(labels = comma) + 
   labs(title = "Histogram of ingested word counts by number of listings",
        y = "Number of listings", x = "Ingested Word Count") 
-
 ggplot(paths, aes(x = perc_diff)) +
   geom_histogram() + 
   customPlot2 +
@@ -157,8 +125,6 @@ ggplot(paths, aes(x = perc_diff)) +
   # scale_x_continuous() + 
   labs(title = "Histogram of percent words removed by number of listings",
        y = "Number of listings", x = "Percent Removed") 
-
-
 ggplot(paths, aes(x = filt_num_words)) +
   geom_histogram() + 
   customPlot2 +
@@ -168,46 +134,28 @@ ggplot(paths, aes(x = filt_num_words)) +
   scale_x_continuous(labels = comma) + 
   labs(title = "Histogram of filtered word counts by number of listings",
        y = "Number of listings", x = "Filtered Word Count") 
-
-
 ```
-
-
 ```{r}
 launch_proximity_words <- readRDS("~/launch_proximity_words.RDS")
  # <- readRDS("~/launch_proximity_march2020_filtered_march262020.RDS")
 # brand_words <- readRDS( "~/brand_words_march2020_filtered_march262020.RDS")
-
 launch_proximity_words_filt <- readRDS("~/launch_proximity_march2020_filtered_march262020.RDS")
 brand_words_filt <- readRDS("~/brand_words_march2020_filtered_march262020.RDS")
-
 final_product_list_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_PROX_mar26.RDS")
-
 final_product_list_singlefirstmentionsONLY_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_singmention_PROX_mar26.RDS")
-
 wcbyword_searchcompanies_prox <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbywordsearch_PROX_mar26.RDS")
-
 final_product_list_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_BRAND_mar26.RDS")
 final_product_list_singlefirstmentionsONLY_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/final_product_list_singmention_BRAND_mar26.RDS")
-
 wcbyword_searchcompanies_brand <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbywordsearch_BRAND_mar26.RDS")
 ```
-
-
 ```{r}
 launch_origsize <- launch_proximity_words %>% count(Company, Year, Words) %>% select(-n) %>% count(Company, Year) 
 brand_origsize <- brand_words_ %>% count(Company, Year, Words) %>% select(-n) %>% count(Company, Year) 
 launch_filtsize <- launch_proximity_words_filt %>% count(Company, Year, Words) %>% select(-n) %>% count(Company, Year) 
 brand_filtsize<- brand_words_filt  %>% count(Company, Year, Words) %>% select(-n) %>% count(Company, Year) 
-
 launch_perc_remov <- launch_origsize %>% transmute(Company, Year, orig = n) %>% left_join(launch_filtsize %>% transmute(Company, Year, filt = n), by = c("Company", "Year")) %>% mutate(perc_remov = (orig-filt)/orig)
-
 brand_perc_remov <- brand_origsize %>% transmute(Company, Year, orig = n) %>% left_join(brand_filtsize %>% transmute(Company, Year, filt = n), by = c("Company", "Year")) %>% mutate(perc_remov = (orig-filt)/orig)
-
-
 ```
-
-
 ```{r}
 ggplot(launch_origsize, aes(x = n)) +
   geom_histogram() + 
@@ -218,7 +166,6 @@ ggplot(launch_origsize, aes(x = n)) +
   scale_x_continuous(labels = comma) + 
   labs(title = "Histogram of ingested word counts by number of listings",
        y = "Number of listings", x = "Ingested Word Count") 
-
 ggplot(launch_perc_remov, aes(x = perc_remov)) +
   geom_histogram() + 
   customPlot2 +
@@ -228,8 +175,6 @@ ggplot(launch_perc_remov, aes(x = perc_remov)) +
   # scale_x_continuous() + 
   labs(title = "Histogram of percent words removed by number of listings",
        y = "Number of listings", x = "Percent Removed") 
-
-
 ggplot(launch_filtsize, aes(x = n)) +
   geom_histogram() + 
   customPlot2 +
@@ -239,14 +184,7 @@ ggplot(launch_filtsize, aes(x = n)) +
   scale_x_continuous(labels = comma) + 
   labs(title = "Histogram of filtered word counts by number of listings",
        y = "Number of listings", x = "Filtered Word Count") 
-
-
 ```
-
-
-
-
-
 ```{r}
 ggplot(brand_origsize, aes(x = n)) +
   geom_histogram() + 
@@ -257,7 +195,6 @@ ggplot(brand_origsize, aes(x = n)) +
   scale_x_continuous(labels = comma) + 
   labs(title = "Histogram of ingested word counts by number of listings",
        y = "Number of listings", x = "Ingested Word Count") 
-
 ggplot(brand_perc_remov, aes(x = perc_remov)) +
   geom_histogram() + 
   customPlot2 +
@@ -267,8 +204,6 @@ ggplot(brand_perc_remov, aes(x = perc_remov)) +
   # scale_x_continuous() + 
   labs(title = "Histogram of percent words removed by number of listings",
        y = "Number of listings", x = "Percent Removed") 
-
-
 ggplot(brand_filtsize, aes(x = n)) +
   geom_histogram() + 
   customPlot2 +
@@ -278,14 +213,8 @@ ggplot(brand_filtsize, aes(x = n)) +
   scale_x_continuous(labels = comma) + 
   labs(title = "Histogram of filtered word counts by number of listings",
        y = "Number of listings", x = "Filtered Word Count") 
-
-
 ```
-
-
-
 How terms were removed to go from original to filtered word count 
-
 ```{r}
 removals <- readRDS("~/orig_to_filtered_steps.RDS")
 # removals
@@ -293,73 +222,45 @@ removals <- readRDS("~/orig_to_filtered_steps.RDS")
 # sum(paths$orig_num_words_ingested)
 # sum(abs(removals$Diff))
 ```
-
-
 Original Company set
-
 * 59,459 CIK companies
 * 449 SIC industries represented
-
 Uniquely Identifiable Tokens - Company Dictionary
-
 * 22,184 CIK companies
 * 27,929 company tokens
 * 445 SIC industries represented
-
 ```{r}
 company_reference_names <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_comprefnames.RDS")
-
 # length(unique(company_reference_names$CIK))
 # length(unique(company_reference_names$SIC_SIC))
-
 new_ref_companies <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/company_dict/company_dictionary_newreftokens.RDS")
-
 # nrow(new_ref_companies)
 # length(unique(new_ref_companies$CIK))
 # length(unique(new_ref_companies$Tokens))
 # length(unique(new_ref_companies$SIC_SIC))
-
 ```
-
 After processing...there are 61,158 capture-company mentions before company cleaning. 
-
 After dictionary cleaning, there are 55,113 observations remaining as possible product captures. 
-
-
-
 ```{r}
 datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
 wcbyword_findcompanies <- readRDS(file = "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/finalwordlists/wcbyword_mar20.RDS")
-
 wcbyword_findcompanies %>% count(complowTF, tickerlowTF)
-
 final_product_list <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_mar19.RDS"))
 final_product_list_singlefirstmentionsONLY <- readRDS(paste0(datapath1, "working/sec/finalwordlists/final_product_list_singmention_mar19.RDS"))
-
 # nrow(final_product_list)
 # nrow(final_product_list_singlefirstmentionsONLY)
-
 ```
-
-
 When you apply the first, single mention only rule, 55,113  -->  24,093
-
 24,093 captures have a single company that mentioned them first
-
-
 ```{r}
-
 # don't use final_product_list - think i screwed up the filtering.. 
 #final_product_list <- readRDS(paste0(project_folder, "working/sec/finalwordlists/final_product_list_mar8.RDS"))
-
 captspercompany <- final_product_list_singlefirstmentionsONLY %>% count(Company, Token, Brand) %>% select(-n) %>% count(Company)
 captspercompany_10 <- final_product_list_singlefirstmentionsONLY %>% count(Name, Company, Token) %>% select(-n) %>% count(Name, Company) %>% arrange(desc(n)) %>% head(10)
 captspercompany_method <- final_product_list_singlefirstmentionsONLY %>% count(Brand) 
 captspercompany_method_ct <- final_product_list_singlefirstmentionsONLY %>% count(Company, Brand) 
-
 # captspercompany %>% filter(Company == "1003642")
 # captspercompany_method_ct %>% filter(Company == "1003642")
-
 ggplot(data = captspercompany, aes(x = n)) +
   geom_histogram() +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
@@ -367,7 +268,6 @@ ggplot(data = captspercompany, aes(x = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
 ggplot(data = captspercompany_method_ct, aes(x = n, fill = Brand)) +
   geom_histogram() +
   #geom_text(stat = "identity", aes(label = n, y = n ), just = 1.5, width = 1) +
@@ -376,7 +276,6 @@ ggplot(data = captspercompany_method_ct, aes(x = n, fill = Brand)) +
   #scale_fill_manual(values = categorical12[6:8], na.translate = TRUE) +
   labs(title = "Number of captures per SEC filer per capture method",
        y = "Number of companies", x = "Number of captures")
-
 ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   geom_bar(stat = "identity") +
   geom_text(stat = "identity", aes(label = n, y = n + 200), just = 1.5, width = 1, size = 7) +
@@ -385,8 +284,6 @@ ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
-
 ggplot(data = captspercompany_method, aes(x = ifelse(is.na(Brand), "Non-English", "Brand"), y = n, fill = Brand)) +
   geom_bar(stat = "identity") +
   #geom_text(stat = "identity", aes(label = n, y = n ), just = 1.5, width = 1) +
@@ -395,26 +292,16 @@ ggplot(data = captspercompany_method, aes(x = ifelse(is.na(Brand), "Non-English"
   #scale_fill_manual(values = categorical12[6:8], na.translate = TRUE) +
   labs(title = "Number of captures per capture method",
        y = "Number of captures", x = "Method")
-
-
-
 ```
-
-
-
 ```{r}
-
 # don't use final_product_list - think i screwed up the filtering.. 
 #final_product_list <- readRDS(paste0(project_folder, "working/sec/finalwordlists/final_product_list_mar8.RDS"))
-
 captspercompany <- final_product_list_singlefirstmentionsONLY %>% count(Company, Token, Brand) %>% select(-n) %>% count(Company)
 captspercompany_10 <- final_product_list_singlefirstmentionsONLY %>% count(Name, Company, Token) %>% select(-n) %>% count(Name, Company) %>% arrange(desc(n)) %>% head(10)
 captspercompany_method <- final_product_list_singlefirstmentionsONLY %>% count(Brand) 
 captspercompany_method_ct <- final_product_list_singlefirstmentionsONLY %>% count(Company, Brand) 
-
 # captspercompany %>% filter(Company == "1003642")
 # captspercompany_method_ct %>% filter(Company == "1003642")
-
 ggplot(data = captspercompany, aes(x = n)) +
   geom_histogram() +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
@@ -422,7 +309,6 @@ ggplot(data = captspercompany, aes(x = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
 ggplot(data = captspercompany_method_ct, aes(x = n, fill = Brand)) +
   geom_histogram() +
   #geom_text(stat = "identity", aes(label = n, y = n ), just = 1.5, width = 1) +
@@ -431,7 +317,6 @@ ggplot(data = captspercompany_method_ct, aes(x = n, fill = Brand)) +
   #scale_fill_manual(values = categorical12[6:8], na.translate = TRUE) +
   labs(title = "Number of captures per SEC filer per capture method",
        y = "Number of companies", x = "Number of captures")
-
 ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   geom_bar(stat = "identity") +
   geom_text(stat = "identity", aes(label = n, y = n + 200), just = 1.5, width = 1, size = 7) +
@@ -440,8 +325,6 @@ ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
-
 ggplot(data = captspercompany_method, aes(x = ifelse(is.na(Brand), "Non-English", "Brand"), y = n, fill = Brand)) +
   geom_bar(stat = "identity") +
   #geom_text(stat = "identity", aes(label = n, y = n ), just = 1.5, width = 1) +
@@ -450,26 +333,16 @@ ggplot(data = captspercompany_method, aes(x = ifelse(is.na(Brand), "Non-English"
   #scale_fill_manual(values = categorical12[6:8], na.translate = TRUE) +
   labs(title = "Number of captures per capture method",
        y = "Number of captures", x = "Method")
-
-
-
 ```
-
-
-
 ```{r}
-
 # don't use final_product_list - think i screwed up the filtering.. 
 #final_product_list <- readRDS(paste0(project_folder, "working/sec/finalwordlists/final_product_list_mar8.RDS"))
-
 captspercompany <- final_product_list_singlefirstmentionsONLY_prox %>% count(Company, Token, Brand) %>% select(-n) %>% count(Company)
 captspercompany_10 <- final_product_list_singlefirstmentionsONLY_prox %>% count(Name, Company, Token) %>% select(-n) %>% count(Name, Company) %>% arrange(desc(n)) %>% head(10)
 captspercompany_method <- final_product_list_singlefirstmentionsONLY_prox %>% count(Brand) 
 captspercompany_method_ct <- final_product_list_singlefirstmentionsONLY_prox %>% count(Company, Brand) 
-
 # captspercompany %>% filter(Company == "1003642")
 # captspercompany_method_ct %>% filter(Company == "1003642")
-
 ggplot(data = captspercompany, aes(x = n)) +
   geom_histogram() +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
@@ -477,8 +350,6 @@ ggplot(data = captspercompany, aes(x = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
-
 ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   geom_bar(stat = "identity") +
   geom_text(stat = "identity", aes(label = n, y = n + 200), just = 1.5, width = 1, size = 7) +
@@ -487,28 +358,16 @@ ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
-
-
-
-
 ```
-
-
-
 ```{r}
-
 # don't use final_product_list - think i screwed up the filtering.. 
 #final_product_list <- readRDS(paste0(project_folder, "working/sec/finalwordlists/final_product_list_mar8.RDS"))
-
 captspercompany <- final_product_list_singlefirstmentionsONLY_brand %>% count(Company, Token, Brand) %>% select(-n) %>% count(Company)
 captspercompany_10 <- final_product_list_singlefirstmentionsONLY_brand %>% count(Name, Company, Token) %>% select(-n) %>% count(Name, Company) %>% arrange(desc(n)) %>% head(10)
 captspercompany_method <- final_product_list_singlefirstmentionsONLY_brand %>% count(Brand) 
 captspercompany_method_ct <- final_product_list_singlefirstmentionsONLY_brand %>% count(Company, Brand) 
-
 # captspercompany %>% filter(Company == "1003642")
 # captspercompany_method_ct %>% filter(Company == "1003642")
-
 ggplot(data = captspercompany, aes(x = n)) +
   geom_histogram() +
   #geom_text(stat = "count", aes(label = ..count..), just = 1.5, width = 1) +
@@ -516,8 +375,6 @@ ggplot(data = captspercompany, aes(x = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
-
 ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   geom_bar(stat = "identity") +
   geom_text(stat = "identity", aes(label = n, y = n + 200), just = 1.5, width = 1, size = 7) +
@@ -526,56 +383,37 @@ ggplot(data = captspercompany_10, aes(x = reorder(Name, n), y = n)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of captures per SEC filer",
        y = "Number of companies", x = "Number of captures")
-
 ```
-
-
 ```{r}
 final_product_list_singlefirstmentionsONLY <-  final_product_list_singlefirstmentionsONLY %>%
   mutate(Brand = ifelse(str_detect(Token, "[[:alpha:]]TM$") == TRUE, "™", Brand),
          Token = ifelse(str_detect(Token, "[[:alpha:]]TM$") == TRUE, str_remove(Token, "TM$"), Token)) %>%
   filter(nchar(Token)>3 )
-
 ```
-
 ```{r}
 # captspercompany_10
 # 
 # final_product_list_singlefirstmentionsONLY %>% filter(Company == "818686") %>% filter(str_detect(Token, "Accuhaler|Adasuve|Aerivio|Aggrenox|Agopton|Azilect|Bendeka")) # %>% select(2,3)
 #final_product_list_singlefirstmentionsONLY %>% filter(str_detect(Token, "[[:alpha:]]TM$"))
 ```
-
-
 ```{r}
 # ndc_sec_ref
 ```
-
-
 ```{r}
-ndc_product %>% filter(str_detect(str_to_lower(NONPROPRIETARYNAME), "ibuprofen"))
+# ndc_product %>% filter(str_detect(str_to_lower(NONPROPRIETARYNAME), "ibuprofen"))
 ```
-
-
-
 ```{r}
 ndc_validateset_results <- readRDS(paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/ndc_validateset_results_march20.RDS"))
-
 ```
-
-
 ```{r}
 ndc_validateset_results_prox
 ndc_validateset_results_brand
 ```
-
-
-
 ```{r}
 matchsets <- ndc_validateset_results %>% 
   count(match_ct, match_type) %>% 
   mutate(test = ifelse(match_ct == 2, "prop", ifelse(match_type == "prop only", "prop", match_type)),
          success = ifelse(match_ct == 0, "missed", "detected"))
-
 ggplot(matchsets, aes(x = match_ct, y = n, fill = match_type)) + 
   geom_bar(stat = "identity") +
   geom_text(stat = "identity", aes(label = n, y = n-100), just = 1.5, width = 1, size = 7) +
@@ -583,7 +421,6 @@ ggplot(matchsets, aes(x = match_ct, y = n, fill = match_type)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of NDC drugs by SEC capture match",
        y = "Number of NDC drugs", x = "# Matches")
-
 ggplot(matchsets %>% group_by(test) %>% summarise(sum = sum(n)), aes(x = factor(test,levels =  c("prop", "non-prop only", "missed")), y = sum)) + 
   geom_bar(stat = "identity") +
     geom_text(stat = "identity", aes(label = sum, y = sum-100), just = 1.5, width = 1, size = 7) +
@@ -591,7 +428,6 @@ ggplot(matchsets %>% group_by(test) %>% summarise(sum = sum(n)), aes(x = factor(
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Number of NDC drugs by SEC capture match",
        y = "Number of NDC drugs", x = "# Matches")
-
 ggplot(data = matchsets %>% group_by(success) %>% summarise(n = sum(n)), aes(x = "", y = n, fill = success)) +
   geom_bar(stat = "identity", width = 1) +
   geom_text(stat = "identity", aes(label = n, y = c(4000, 2000)), size = 7) +
@@ -600,13 +436,8 @@ ggplot(data = matchsets %>% group_by(success) %>% summarise(n = sum(n)), aes(x =
   #scale_fill_manual(values = categorical12[6:8], na.translate = TRUE) +
   labs(title = "Number of captures per capture method",
        y = "Number of captures", x = "Method")
-
-
 ```
-
-
 ```{r}
-
 ndc_product <-  readr::read_tsv(paste0(project_folder, "original/NDC/product.txt")) %>% 
   mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"), formulationcode = str_extract(PRODUCTNDC, "(?<=-)\\d*"))
 
@@ -626,24 +457,15 @@ ndc_validateset <- ndc_product %>%
 
 
 ```
-
-
 ```{r}
 ndc_capt_n <- ndc_validateset_results %>% count(family, LABELERNAME, match_ct, match_type)
-
 ndc_capt_n_ <- reshape2::dcast(data = ndc_capt_n, formula = family + LABELERNAME ~ match_type, value.var = "n", fun.aggregate = sum) 
 colnames(ndc_capt_n_) <- dataplumbr::name.standard_col_names(colnames(ndc_capt_n_))
-
 ndc_capt_n_ <- ndc_capt_n_ %>% mutate(detected = both_detected + non_prop_only + prop_only)
-
 ndc_capt_n_ <- ndc_capt_n_ %>% select(1,2,4, 7) %>% group_by(family) %>% summarise(missed = sum(missed), detected = sum(detected)) 
-
 ndc_capt_n_ <- ndc_capt_n_ %>% mutate(perc_detected = detected / (missed + detected))
-
 ndc_capt_n__ <- ndc_capt_n_ %>% select(1,2,3) %>% tidyr::pivot_longer(cols = c("missed", "detected")) #reshape2::recast(formula = family ~ missed + detected)
 colnames(ndc_capt_n__) <- c("family", "drug_result", "n")
-
-
 ```
 
 ```{r}
@@ -660,7 +482,6 @@ ggplot(ndc_capt_n_, aes(x = reorder(family, -perc_detected), y = perc_detected, 
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Percent NDC drugs detected",
        y = "Percent Matched", x = "Corporate Families")
-
 ggplot(ndc_capt_n_, aes(x = perc_detected)) +
   geom_histogram(aes( fill = as.factor(round(perc_detected, 1))))  +  
   stat_bin(geom="text", aes(label=..count..)) + 
@@ -668,7 +489,6 @@ ggplot(ndc_capt_n_, aes(x = perc_detected)) +
   #scale_fill_manual(values = myCol6[c(5, 1)], na.translate = FALSE) +
   labs(title = "Histogram of percent NDC drugs detected",
        y = "Number of Corporate Families", x = "Percent Matched")
-
 ggplot(ndc_capt_n__, aes(x = reorder(family, -n), y = n, fill = drug_result)) +
   geom_bar(stat = "identity") +
   coord_flip() +  
@@ -682,20 +502,13 @@ ggplot(ndc_capt_n__, aes(x = reorder(family, -n), y = n, fill = drug_result)) +
 
 ```{r}
 ndc_capt_n <- ndc_validateset_results_prox %>% count(family, LABELERNAME, match_ct, match_type)
-
 ndc_capt_n_ <- reshape2::dcast(data = ndc_capt_n, formula = family + LABELERNAME ~ match_type, value.var = "n", fun.aggregate = sum) 
 colnames(ndc_capt_n_) <- dataplumbr::name.standard_col_names(colnames(ndc_capt_n_))
-
 ndc_capt_n_ <- ndc_capt_n_ %>% mutate(detected = both_detected + non_prop_only + prop_only)
-
 ndc_capt_n_ <- ndc_capt_n_ %>% select(1,2,4, 7) %>% group_by(family) %>% summarise(missed = sum(missed), detected = sum(detected)) 
-
 ndc_capt_n_ <- ndc_capt_n_ %>% mutate(perc_detected = detected / (missed + detected))
-
 ndc_capt_n__ <- ndc_capt_n_ %>% select(1,2,3) %>% tidyr::pivot_longer(cols = c("missed", "detected")) #reshape2::recast(formula = family ~ missed + detected)
 colnames(ndc_capt_n__) <- c("family", "drug_result", "n")
-
-
 ```
 
 
@@ -709,7 +522,6 @@ ggplot(ndc_capt_n_, aes(x = "1", y = perc_detected)) +
 ```{r}
 total_detected_93 <- ndc_capt_n_ %>% filter(perc_detected == 1) %>% .$family
 imperfect_detection <- ndc_capt_n_ %>% filter(perc_detected < 1) %>% .$family
-
 ggplot(ndc_capt_n__ %>% filter(family %in% total_detected_93), aes(x = reorder(family, -n), y = n, fill = drug_result)) +
   geom_bar(stat = "identity") +
   coord_flip() +  
@@ -718,9 +530,7 @@ ggplot(ndc_capt_n__ %>% filter(family %in% total_detected_93), aes(x = reorder(f
   scale_y_continuous(trans='sqrt') + 
   labs(title = "Number NDC drugs detected per corporate family",
        y = "Number of Drugs", x = "Corporate Families")  
-
 ndc_capt_n__imp <- ndc_capt_n__ %>% filter(family %in% imperfect_detection) %>% left_join(ndc_capt_n_ %>% filter(family %in% imperfect_detection) %>% select(1,4), by = "family")
-
 ggplot(ndc_capt_n__imp, aes(x = reorder(family, -n), y = n, fill = drug_result)) +
   geom_bar(stat = "identity") +
   geom_text(data = ndc_capt_n__imp %>% filter(drug_result == "detected") ,stat = "identity", aes(label = round(perc_detected, 2), y = 79)) + 
@@ -730,8 +540,6 @@ ggplot(ndc_capt_n__imp, aes(x = reorder(family, -n), y = n, fill = drug_result))
   scale_y_continuous(trans='sqrt') + 
   labs(title = "Number NDC drugs detected per corporate family",
        y = "Number of Drugs", x = "Corporate Families")  
-
-
 ggplot(ndc_capt_n__imp %>% filter(drug_result == "detected"), aes(x = perc_detected)) +
   geom_histogram() +  
   customPlot2 +
@@ -747,45 +555,28 @@ ggplot(ndc_capt_n__imp %>% filter(drug_result == "detected"), aes(x = perc_detec
 ```{r}
 # final_product_list_singlefirstmentionsONLY_valunval <- readRDS(paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march9.RDS"))
 # final_product_list_singlefirstmentionsONLY_valunval
-
 # final_product_list_singlefirstmentionsONLY_valunval <-  readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march20.RDS")
-
-
-
-
 #self other in the one here now 
 final_product_list_singlefirstmentionsONLY_valunval <- readRDS(paste0(datapath1, "working/sec/ndc_sec_results_validation_march9/finalprod_validateset_results_march21.RDS"))
-
-
-
 ```
 
 ```{r}
 valunval_ct_family <- final_product_list_singlefirstmentionsONLY_valunval %>% count(family, Prop_YN, NonProp_YN)
-
 valunval_ct_family_ <- reshape2::dcast(valunval_ct_family, formula = family ~ Prop_YN + NonProp_YN, value.var = "n", fun.aggregate = sum)
 colnames(valunval_ct_family_) <- c("family", "neither", "nonprop_only", "prop_only", "both")
 valunval_ct_family_ <- valunval_ct_family_ %>% mutate( match = nonprop_only+prop_only+both)
-
 valunval_ct_family__ <- valunval_ct_family_ %>% select(family, neither, match)  %>% tidyr::pivot_longer(cols = c("neither", "match"))
 colnames(valunval_ct_family__) <- c("family", "val_status", "n")
-
 valunval_ct_family__
-
-
 ```
 
 ```{r}
 topseccompanies10 <- valunval_ct_family_ %>% mutate(total = neither+match ) %>% arrange(desc(total)) %>% head(10) %>% .$family
-
-
 ggplot(valunval_ct_family__ %>% filter(family %in% topseccompanies10), aes(x = reorder(family, -n), y = n, fill = val_status)) + 
   geom_bar(stat = "identity") + 
   coord_flip()
-
 ggplot() +
   geom_boxplot()
-
 ```
 
 
@@ -795,7 +586,6 @@ ggplot() +
 ```{r}
 # prop_pos_matches_sec_ndc_shortcutting <- allname_matchresults_mar2 %>% tidyr::unnest(prop_match)
 # prop_pos_matches_sec_ndc_shortcutting %>% filter(LABELERNAME %in% ndc_sec_ref$LABELERNAME )
-
 total_unval <- final_product_list_singlefirstmentionsONLY_valunval %>% 
   #mutate(Company = as.numeric(Company)) %>%
   inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by =  "cik") %>%
@@ -803,7 +593,6 @@ total_unval <- final_product_list_singlefirstmentionsONLY_valunval %>%
   count(family, Token) %>% select(-n) %>% 
   count(family) %>% 
   mutate(sec = "unval")
-
 total_val <- final_product_list_singlefirstmentionsONLY_valunval_selfother_prox %>% 
   #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
   filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
@@ -812,31 +601,23 @@ total_val <- final_product_list_singlefirstmentionsONLY_valunval_selfother_prox 
   select(-n) %>% 
   count(family) %>% 
   mutate(sec = "val")
-
  total_ndc <- ndc_validateset %>% 
   count(family, PROPRIETARYNAME) %>% 
   select(-n) %>% 
   count(family) %>% 
   mutate(sec = "ndc")
-
-
 doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
 doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
 doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
-
-
 doublebars_perc <- doublebars %>%
   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
   mutate(val_perc1 = val/(unval+val),
     val_perc = scales::percent(val/(unval+val)), 
     ndc_perc1 = val/ndc,
          ndc_perc = scales::percent(val/ndc))
-
-
 topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
 doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
 doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
-
   
 ```
 
@@ -851,9 +632,7 @@ all_bars <- ggplot(doublebars, aes(x=reorder(family, n))) + #reorder(day, -perc)
   #scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 # all_bars
-
 all_perc_bars <- ggplot(doublebars, aes(x=reorder(family, n))) + #reorder(day, -perc)
   geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
@@ -871,22 +650,15 @@ all_perc_bars <- ggplot(doublebars, aes(x=reorder(family, n))) + #reorder(day, -
 ```{r}
 onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
 top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
-
 top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
-
 top10green_perc <- top10greens %>%
   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
   mutate(val_perc = scales::percent(val/(unval+val)))
-
 top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
-
 onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
 top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
 top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
-
 top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
-
-
 ggplot(top10greens, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -perc)
   #geom_bar(data = subset(doublebars_topndc, sec != "unval"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = top10greens, aes(y=n, fill = sec), stat = "identity") +
@@ -898,7 +670,6 @@ ggplot(top10greens, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -per
   # scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 ggplot(top10ndcbars, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -perc)
   #geom_bar(data = subset(doublebars_topndc, sec != "unval"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = top10ndcbars, aes(y=n, fill = sec), stat = "identity") +
@@ -910,32 +681,24 @@ ggplot(top10ndcbars, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -pe
   # scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 ```
 
 
 
 
 ```{r}
-
-
 top10greens
-
 doublebars_perc
-
 ggplot(doublebars_perc, aes(x = "148 companies", y = val_perc1, fill = "#GGGGGG")) + 
   geom_violin() +
   customPlot2 + 
   xlab("") +
   ylab("Validation Rates of SEC tokens") 
-
 ggplot(doublebars_perc, aes(x = "148 companies", y = ndc_perc1, fill = "#GGGGGG")) + 
   geom_violin() +
   customPlot2 + 
   xlab("") +
   ylab("Detection Rates of SEC tokens") 
-
-
 ```
 
 
@@ -947,7 +710,6 @@ ggplot(doublebars_perc, aes(x = "148 companies", y = ndc_perc1, fill = "#GGGGGG"
 ```{r}
 # prop_pos_matches_sec_ndc_shortcutting <- allname_matchresults_mar2 %>% tidyr::unnest(prop_match)
 # prop_pos_matches_sec_ndc_shortcutting %>% filter(LABELERNAME %in% ndc_sec_ref$LABELERNAME )
-
 total_unval <- final_product_list_singlefirstmentionsONLY_prox %>% 
   mutate(Company = as.numeric(Company)) %>%
   inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
@@ -955,7 +717,6 @@ total_unval <- final_product_list_singlefirstmentionsONLY_prox %>%
   count(family, Token) %>% select(-n) %>% 
   count(family) %>% 
   mutate(sec = "unval")
-
 total_val <- final_product_list_singlefirstmentionsONLY_valunval_selfother_prox %>% 
   #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
   filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
@@ -964,31 +725,23 @@ total_val <- final_product_list_singlefirstmentionsONLY_valunval_selfother_prox 
   select(-n) %>% 
   count(family) %>% 
   mutate(sec = "val")
-
  total_ndc <- ndc_validateset %>% 
   count(family, PROPRIETARYNAME) %>% 
   select(-n) %>% 
   count(family) %>% 
   mutate(sec = "ndc")
-
-
 doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
 doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
 doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
-
-
 doublebars_perc <- doublebars %>%
   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
   mutate(val_perc1 = val/(unval+val),
     val_perc = scales::percent(val/(unval+val)), 
     ndc_perc1 = val/ndc,
          ndc_perc = scales::percent(val/ndc))
-
-
 topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
 doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
 doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
-
   
 ```
 
@@ -1003,9 +756,7 @@ all_bars <- ggplot(doublebars, aes(x=reorder(family, n))) + #reorder(day, -perc)
   #scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 # all_bars
-
 all_perc_bars <- ggplot(doublebars, aes(x=reorder(family, n))) + #reorder(day, -perc)
   geom_bar(data = subset(doublebars, sec == "ndc"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = subset(doublebars, sec != "ndc"), aes(y=n, fill = sec), stat = "identity") +
@@ -1023,22 +774,15 @@ all_perc_bars <- ggplot(doublebars, aes(x=reorder(family, n))) + #reorder(day, -
 ```{r}
 onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
 top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
-
 top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
-
 top10green_perc <- top10greens %>%
   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
   mutate(val_perc = scales::percent(val/(unval+val)))
-
 top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
-
 onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
 top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
 top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
-
 top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
-
-
 ggplot(top10greens, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -perc)
   #geom_bar(data = subset(doublebars_topndc, sec != "unval"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = top10greens, aes(y=n, fill = sec), stat = "identity") +
@@ -1050,7 +794,6 @@ ggplot(top10greens, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -per
   # scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 ggplot(top10ndcbars, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -perc)
   #geom_bar(data = subset(doublebars_topndc, sec != "unval"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = top10ndcbars, aes(y=n, fill = sec), stat = "identity") +
@@ -1062,32 +805,24 @@ ggplot(top10ndcbars, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -pe
   # scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 ```
 
 
 
 
 ```{r}
-
-
 top10greens
-
 doublebars_perc
-
 ggplot(doublebars_perc, aes(x = "148 companies", y = val_perc1, fill = "#GGGGGG")) + 
   geom_violin() +
   customPlot2 + 
   xlab("") +
   ylab("Validation Rates of SEC tokens") 
-
 ggplot(doublebars_perc, aes(x = "148 companies", y = ndc_perc1, fill = "#GGGGGG")) + 
   geom_violin() +
   customPlot2 + 
   xlab("") +
   ylab("Detection Rates of SEC tokens") 
-
-
 ```
 
 
@@ -1097,7 +832,6 @@ ggplot(doublebars_perc, aes(x = "148 companies", y = ndc_perc1, fill = "#GGGGGG"
 ```{r}
 # prop_pos_matches_sec_ndc_shortcutting <- allname_matchresults_mar2 %>% tidyr::unnest(prop_match)
 # prop_pos_matches_sec_ndc_shortcutting %>% filter(LABELERNAME %in% ndc_sec_ref$LABELERNAME )
-
 total_unval <- final_product_list_singlefirstmentionsONLY_brand %>% 
   mutate(Company = as.numeric(Company)) %>%
   inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
@@ -1105,7 +839,6 @@ total_unval <- final_product_list_singlefirstmentionsONLY_brand %>%
   count(family, Token) %>% select(-n) %>% 
   count(family) %>% 
   mutate(sec = "unval")
-
 total_val <- final_product_list_singlefirstmentionsONLY_valunval_selfother_brand %>% 
   #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
   filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
@@ -1114,31 +847,23 @@ total_val <- final_product_list_singlefirstmentionsONLY_valunval_selfother_brand
   select(-n) %>% 
   count(family) %>% 
   mutate(sec = "val")
-
  total_ndc <- ndc_validateset %>% 
   count(family, PROPRIETARYNAME) %>% 
   select(-n) %>% 
   count(family) %>% 
   mutate(sec = "ndc")
-
-
 doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
 doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
 doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
-
-
 doublebars_perc <- doublebars %>%
   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
   mutate(val_perc1 = val/(unval+val),
     val_perc = scales::percent(val/(unval+val)), 
     ndc_perc1 = val/ndc,
          ndc_perc = scales::percent(val/ndc))
-
-
 topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
 doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
 doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
-
   
 ```
 
@@ -1146,23 +871,15 @@ doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
 ```{r}
 onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
 top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
-
 top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
-
 top10green_perc <- top10greens %>%
   reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
   mutate(val_perc = scales::percent(val/(unval+val)))
-
 top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
-
 onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
 top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
 top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
-
 top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
-
-
-
 ggplot(top10greens, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -perc)
   #geom_bar(data = subset(doublebars_topndc, sec != "unval"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = top10greens, aes(y=n, fill = sec), stat = "identity") +
@@ -1174,7 +891,6 @@ ggplot(top10greens, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -per
   # scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 ggplot(top10ndcbars, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -perc)
   #geom_bar(data = subset(doublebars_topndc, sec != "unval"), aes(y=-n, fill = sec), stat = 'identity') +
   geom_bar(data = top10ndcbars, aes(y=n, fill = sec), stat = "identity") +
@@ -1186,19 +902,15 @@ ggplot(top10ndcbars, aes(x=reorder(family, n,  sum)), y = n) + #reorder(day, -pe
   # scale_fill_manual(values = myCol6) +
   #scale_fill_manual(values = c(muted("red"), muted("blue"))) +
   coord_flip() + customPlot2
-
 ```
 
 
 ```{r}
-
 ggplot(doublebars_perc, aes(x = "148 companies", y = val_perc1, fill = "#GGGGGG")) + 
   geom_violin() +
   customPlot2 + 
   xlab("") +
   ylab("Validation Rates of SEC tokens") 
-
-
 ggplot(doublebars_perc, aes(x = "148 companies", y = ndc_perc1, fill = "#GGGGGG")) + 
   geom_violin() +
   customPlot2 + 
@@ -1234,7 +946,6 @@ ggplot()
 ```{r}
 final_product_list_singlefirstmentionsONLY_valunval %>% filter(Prop_YN == FALSE & NonProp_YN == FALSE) %>% filter(Token == "Oxycontin") 
 final_product_list_singlefirstmentionsONLY_valunval %>% filter(Prop_YN == TRUE | NonProp_YN == TRUE) 
-
 ```
 
 
@@ -1243,9 +954,7 @@ final_product_list_singlefirstmentionsONLY_valunval %>% filter(Prop_YN == TRUE |
 ndc_product %>% filter(str_detect(str_to_lower(PROPRIETARYNAME), "oxycontin"))
 ndc_product %>% filter(str_detect(str_to_lower(NONPROPRIETARYNAME), "numient"))
 ndc_product %>% filter(str_detect(str_to_lower(SUBSTANCENAME), "numient"))
-
 ndc_sec_ref
-
 ```
 
 
@@ -1263,10 +972,6 @@ ndc_sec_ref
 # ndc_sec_ref <- readxl::read_excel(paste0(datapath2, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
 # colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
 # ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
-
 # allname_matchresults_mar2 <- readRDS(paste0(datapath1, "working/NDC/ndc_all_match_resultsmar2.RDS"))
 # allname_matchresults_mar2_summary <- readRDS(paste0(datapath1, "working/NDC/ndc_all_match_resultssummarymar2.RDS"))
-
 ```
-
-

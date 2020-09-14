@@ -1,0 +1,450 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(dplyr)
+library(stringr)
+
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        text = element_text(size=20), 
+        # axis.text.x  = element_text(vjust=0.5, size=14),
+        # plot.title=element_text(size=14, vjust=2),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+```
+
+```{r}
+data_all<- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/sec_wordlists_captures_WITHOUT3charWITHNEW_april212020.RDS")
+data_sym <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/sec_wordlists_apr21_2020_SYM/data_sym_march2020.RDS")
+
+data_sym_ <- data_sym %>% select(-Capture, -Symbol_string) %>% mutate(English = FALSE, Words = Word, Capitals = str_detect(Word, "[A-Z]"), id = row_number()) %>% select(-Word) %>% select(1,2,3,6, 5, 7,4,8)
+
+
+
+launch_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_launch_prox_words_april23_2020.RDS")
+
+new_PROD_proximity_words <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newproduct20w_prox_words_april27_2020.RDS")
+
+new_DRUG_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newdrug20w_prox_words_april27_2020.RDS")
+
+new_DEVICE_proximity_words <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/all_newdevice20w_prox_words_april27_2020.RDS")
+```
+
+
+
+```{r}
+final_product_list_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_nocomps_JUN052020.RDS")  %>% filter(str_detect(word_low, "[0-9]") == FALSE)
+final_product_list_prox_LAUNCH <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_nocomps_JUN052020.RDS")  %>% filter(str_detect(word_low, "[0-9]") == FALSE)
+final_product_list_prox_NEWPROD <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_nocomps_JUN052020.RDS")  %>% filter(str_detect(word_low, "[0-9]") == FALSE)
+final_product_list_prox_NEWDRUG <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_nocomps_JUN052020.RDS") %>% filter(str_detect(word_low, "[0-9]") == FALSE) 
+final_product_list_prox_NEWDEVICE <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_nocomps_JUN052020.RDS")  %>% filter(str_detect(word_low, "[0-9]") == FALSE)
+final_product_list_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_nocomps_JUN052020.RDS") %>% filter(str_detect(word_low, "[0-9]") == FALSE)
+```
+
+```{r}
+project_folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+
+ndc_sec_ref <- readxl::read_excel(paste0(project_folder, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
+```
+
+
+```{r}
+filingwc_allnoneng_orig <- data_all %>% 
+  filter(English == FALSE) %>% 
+  count(Company, Words) %>% select(-n) %>% 
+  count(Company)
+
+filingwc_brand_orig <- data_sym_ %>% 
+  count(Company, Words) %>% select(-n) %>% 
+  count(Company)
+
+filingwc_launch_orig <- launch_proximity_words %>% 
+  count(Company, Words) %>% select(-n) %>% 
+  count(Company)
+
+filingwc_product_orig <- new_PROD_proximity_words %>% 
+  count(Company, Words) %>% select(-n) %>% 
+  count(Company)
+
+filingwc_drug_orig <- new_DRUG_proximity_words %>% 
+  count(Company, Words) %>% select(-n) %>% 
+  count(Company)
+
+final_product_list_prox_LAUNCH_orig <- launch_proximity_words %>% filter(Year > 2012 & Year < 2018) %>% select(Company, Words, Brand) %>% distinct()
+
+newprods_toaddtolaunch <- new_PROD_proximity_words %>% filter(Year > 2012 & Year < 2018) %>% anti_join(final_product_list_prox_LAUNCH_orig , by = c("Company", "Words", "Brand")) 
+
+
+launch_prod_together <- bind_rows(launch_proximity_words, newprods_toaddtolaunch)
+
+newdrugs_toaddtolaunch <- new_DRUG_proximity_words %>% anti_join(launch_prod_together %>% select(Company, Words, Brand), by = c("Company", "Words", "Brand"))
+
+final_product_list_prox_3methods_orig <- bind_rows( launch_prod_together, newdrugs_toaddtolaunch)
+
+filingwc_3prox_orig <- final_product_list_prox_3methods_orig %>% 
+  filter(English == FALSE) %>%
+  count(Company, Words) %>% select(-n) %>% 
+  count(Company)
+  
+```
+
+```{r}
+## GRAB ALL PATHS
+paths_file <- paste0(project_folder, "original/edgar_filings/ALL_SEC_files.txt")
+file_headers <- readr::read_tsv(paths_file, col_names = FALSE)
+file_headers %>% mutate(X2 = str_extract(X1, pattern = "\\d*_")) %>% count(X2) %>% .$n %>% sum
+year_filings <- file_headers %>% mutate(X2 = str_extract(X1, pattern = "20\\d\\d$")) %>% count(X2) %>% filter(X2 != "2012" & X2 != "2018")
+
+ggplot(year_filings, aes(x = X2, y = n)) + 
+  geom_bar(stat = "identity", fill = "#171ca6") + 
+  geom_text(aes(label = n, y = n + 50)) +
+  customPlot2 + 
+  labs(title = "Filings Collected Over Time", x = "Years", y = "# Filings")
+
+```
+
+```{r}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/volume_nyc1_01/business_innovation/" 
+ndc_product <-  readr::read_tsv(paste0(datapath1, "original/NDC/product.txt")) %>% mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"))
+
+ndc_product_ct <- ndc_product %>% count(year) %>% filter(year > 2012 & year < 2018)
+
+ggplot(ndc_product_ct, aes(x = year, y = n)) + 
+  geom_bar(stat = "identity", fill = "#171ca6") + 
+  geom_text(aes(label = n, y = n + 300)) +
+  customPlot2 + 
+  labs(title = "NDC Listings Over Time", x = "Years", y = "# Listings")
+```
+
+
+
+```{r}
+filingwc_allnoneng <- final_product_list_allnoneng %>% 
+  mutate(Company = as.numeric(Company)) %>% 
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>% 
+  count(family, Token) %>% select(-n) %>%
+  count(family) 
+
+
+filingwc_brand <- final_product_list_brand %>% 
+  mutate(Company = as.numeric(Company)) %>% 
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>% 
+  count(family, Token) %>% select(-n) %>%
+  count(family) 
+
+final_product_list_prox_LAUNCH <- final_product_list_prox_LAUNCH %>% select(-`2012`, -`2018`)
+newprods_toaddtolaunch <- final_product_list_prox_NEWPROD %>% select(-`2018`) %>% anti_join(final_product_list_prox_LAUNCH %>% select(1:3), by = c("Company", "Token", "Brand")) 
+
+launch_prod_together <- bind_rows( final_product_list_prox_LAUNCH, newprods_toaddtolaunch)
+
+newdrugs_toaddtolaunch <- final_product_list_prox_NEWDRUG %>% anti_join(launch_prod_together %>% select(1:3), by = c("Company", "Token", "Brand"))
+
+final_product_list_prox_3methods <- bind_rows( launch_prod_together, newdrugs_toaddtolaunch)
+
+filingwc_3prox <- final_product_list_prox_3methods %>% 
+  mutate(Company = as.numeric(Company)) %>% 
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>% 
+  count(family, Token) %>% select(-n) %>%
+  count(family) 
+
+filing_wc_launch <- final_product_list_prox_LAUNCH %>%
+  mutate(Company = as.numeric(Company)) %>% 
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>% 
+  count(family, Token) %>% select(-n) %>%
+  count(family) 
+
+filing_wc_newprod <- final_product_list_prox_NEWPROD %>%
+  mutate(Company = as.numeric(Company)) %>% 
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>% 
+  count(family, Token) %>% select(-n) %>%
+  count(family) 
+
+filing_wc_newdrug <- final_product_list_prox_NEWDRUG %>%
+  mutate(Company = as.numeric(Company)) %>% 
+  left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>% 
+  count(family, Token) %>% select(-n) %>%
+  count(family) 
+
+```
+
+```{r}
+final_product_list_prox_LAUNCH %>% 
+  filter(Company == 818686) %>% 
+  select(Token, 5:9) %>% 
+  transmute(Token,
+    first_mention = ifelse(`2013` > 0, "2013", ifelse(`2014` > 0, "2014", ifelse(`2015` > 0, "2015", 
+         ifelse(`2016` > 0, "2016", "2017"))))) %>% count(first_mention)
+
+# ndc_sec_ref %>% filter(family == "teva") %>% .$cik %>% unique
+```
+
+
+```{r eval = F}
+final_product_list_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_nocomps_JUN052020.RDS")
+
+final_product_list_allnoneng_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_05june2020.RDS")
+
+final_product_list_allnoneng #what I used for histograms, once companies are removed, what I used going into validation
+final_product_list_allnoneng_port # what I used for violin plots
+
+final_product_list_allnoneng %>% filter(str_detect(word_low, "[0-9]") == FALSE)
+
+```
+
+
+```{r}
+nrow(filingwc_allnoneng)
+nrow(filing_wc_launch)
+nrow(filing_wc_newprod)
+nrow(filing_wc_newdrug)
+nrow(filingwc_brand)
+nrow(filingwc_3prox)
+
+sum(filingwc_allnoneng$n)
+sum(filing_wc_launch$n)
+sum(filing_wc_newprod$n)
+sum(filing_wc_newdrug$n)
+sum(filingwc_brand$n)
+sum(filingwc_3prox$n)
+
+mean(filingwc_allnoneng$n)
+mean(filing_wc_launch$n)
+mean(filing_wc_newprod$n)
+mean(filing_wc_newdrug$n)
+mean(filingwc_brand$n)
+mean(filingwc_3prox$n)
+
+median(filingwc_allnoneng$n)
+median(filing_wc_launch$n)
+median(filing_wc_newprod$n)
+median(filing_wc_newdrug$n)
+median(filingwc_brand$n)
+median(filingwc_3prox$n)
+
+```
+
+```{r}
+
+final_product_list_prox_LAUNCH$Company <- as.numeric(final_product_list_prox_LAUNCH$Company)
+
+final_product_list_prox_LAUNCH %>% 
+  left_join(ndc_sec_ref %>% select(family, cik) %>% distinct(), by = c("Company" = "cik")) %>% filter(family == "teva") %>% 
+  select(family, Company, Token, Brand, `2013`, `2014`, `2015`, `2016`, `2017`) %>% head(200) %>% filter(`2013` == 0 & `2014` == 0 & `2015` == 0 & `2016` == 0  & `2017` > 0) %>% .$Token
+
+ndc_sec_ref %>% filter(family == "teva") %>% select(lnum, ndc_labeler)
+
+```
+
+
+
+```{r}
+ggplot(filingwc_allnoneng_orig, aes(x = n)) +
+  geom_histogram( fill = "#fcba03") + 
+  customPlot2 +
+  labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 1 - All Non-English") + 
+  scale_x_continuous(limits = c(0, 4000), breaks = seq(0, 4000, 500)) +
+  scale_y_continuous(limits = c(0, 50))
+  # theme(axis.text.x = element_text(angle = 75, hjust = 1))
+
+ggplot(filingwc_allnoneng, aes(x = n)) +
+  geom_histogram( fill = "#fcba03") + 
+  customPlot2 +
+  labs(x = "Innovation Count \n(Refined)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 1 - All Non-English") +
+  scale_x_continuous(limits = c(0,4000), breaks = seq(0, 4000, 500)) 
+  # theme(axis.text.x = element_text(angle = 75, hjust = 1))
+
+```
+
+```{r}
+
+ggplot(filingwc_3prox_orig, aes(x = n)) +
+  geom_histogram( fill = "#fcba03") + 
+  customPlot2 +
+    labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3") +
+  scale_x_continuous(limits = c(0, 450), breaks = seq(0, 450, 50)) +
+  scale_y_continuous(limits = c(0, 60))
+  
+ggplot(filingwc_3prox, aes(x = n)) +
+  geom_histogram( fill = "#fcba03") + 
+  customPlot2 +
+  labs(x = "Innovation Count \n(Refined)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3") + 
+  scale_x_continuous(limits = c(0, 450), breaks = seq(0, 450, 50))
+  # theme(axis.text.x = element_text(angle = 75, hjust = 1))
+```
+
+
+```{r}
+ggplot(filingwc_brand_orig, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") + 
+  customPlot2 +
+    labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 3 - Brand") +
+   scale_x_continuous(limits = c(0, 420), breaks = seq(0, 450, 50 )) +
+  scale_y_continuous(limits = c(0, 50))
+  # theme(axis.text.x = element_text(angle = 75, hjust = 1))
+
+ggplot(filingwc_brand, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") + 
+  customPlot2 +
+    labs(x = "Innovation Count \n(Refined)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 3 - Brand") +
+  scale_x_continuous(limits = c(0, 420), breaks = seq(0, 450, 50 )) +
+  scale_y_continuous(limits = c(0, 50))
+  # scale_x_continuous( breaks = seq(0, 250, 50)) 
+  # theme(axis.text.x = element_text(angle = 75, hjust = 1))
+```
+
+
+```{r}
+ggplot(filingwc_launch_orig, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") + 
+  customPlot2 +
+  labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3 - A. Launch")
+
+ggplot(filingwc_product_orig, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") + 
+  customPlot2 +
+  labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3 - B. New Product")
+  # + scale_y_continuous(limits = c(0, 80)) +
+  # scale_x_continuous(limits = c(0, 1550))
+
+
+ggplot(filingwc_drug_orig, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") + 
+  customPlot2 +
+  labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3 - C. New Drug")
+  # + scale_y_continuous(limits = c(0, 80)) +
+  # scale_x_continuous(limits = c(0, 1550))
+
+
+```
+
+```{r}
+ggplot(filingwc_launch_orig, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") +
+  customPlot2 +
+  labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3 - A. Launch") + 
+  scale_y_continuous(limits = c(0, 25)) +
+  scale_x_continuous(limits = c(0, 3000), breaks = seq(0, 3000, 500))
+
+ggplot(filingwc_product_orig, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") +
+  customPlot2 +
+  labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3 - B. New Product") +
+  scale_y_continuous(limits = c(0, 25)) +
+  scale_x_continuous(limits = c(0, 3000), breaks = seq(0, 3000, 500))
+
+
+ggplot(filingwc_drug_orig, aes(x = n)) +
+  geom_histogram(fill = "#fcba03") +
+  customPlot2 +
+  labs(x = "Innovation Count \n(Potential)", y = "Number of Companies", title = "Histogram of Innovation Count ", subtitle =  "Method 2 - Proximity 3 - C. New Drug") +
+  scale_y_continuous(limits = c(0, 25)) +
+  scale_x_continuous(limits = c(0, 3000), breaks = seq(0, 3000, 500))
+```
+
+
+```{r}
+
+# ggplot(filingwc_allnoneng, aes(x = n)) +
+#   geom_histogram(binwidth = 50, fill = "#fcba03") + 
+#   customPlot2 +
+#   labs(x = "Refined Word Count", y = "Number of Filings", title = "Histogram of Word Count per Filing", subtitle =  "All Non-English") + 
+#   scale_y_continuous(limits = c(0, 200)) + 
+#   scale_x_continuous(breaks = seq(0, 7500, 500)) + 
+#   theme(axis.text.x = element_text(angle = 75, hjust = 1))
+# 
+# ggplot(filingwc_3prox, aes(x = n)) +
+#   geom_histogram(binwidth = 50, fill = "#fcba03") + 
+#   customPlot2 +
+#   labs(x = "Refined Word Count", y = "Number of Filings", title = "Histogram of Word Count per Filing", subtitle =  "Proximity - 3") +
+#   scale_y_continuous(limits = c(0, 200)) + 
+#   scale_x_continuous(limits = c(0, 7500), breaks = seq(0, 7500, 500)) + 
+#   theme(axis.text.x = element_text(angle = 75, hjust = 1))
+# 
+# ggplot(filingwc_brand, aes(x = n)) +
+#   geom_histogram(binwidth = 50, fill = "#fcba03") + 
+#   customPlot2 +
+#   labs(x = "Refined Word Count", y = "Number of Filings", title = "Histogram of Word Count per Filing", subtitle =  "Brand")  +
+#   scale_y_continuous(limits = c(0, 200)) + 
+#   scale_x_continuous(limits = c(0, 7500), breaks = seq(0, 7500, 500)) + 
+#   theme(axis.text.x = element_text(angle = 75, hjust = 1))
+
+
+```
+
+```{r}
+datapath1 <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/" 
+ndc_sec_ref <- readxl::read_excel(paste0(datapath1, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe))
+```
+
+
+
+
+```{r}
+# filingwc_allnoneng$Company <- as.numeric(filingwc_allnoneng$Company)
+# filingwc_3prox$Company <- as.numeric(filingwc_3prox$Company)
+# filingwc_brand$Company <- as.numeric(filingwc_brand$Company)
+
+top10_allnoneng <- filingwc_allnoneng %>% 
+  # left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>%
+  group_by(family) %>%
+  summarise(wc = sum(n)) %>% 
+  arrange(desc(wc)) %>%
+  head(10)
+
+top10_3prox <- filingwc_3prox %>% 
+  # left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>%
+  group_by(family) %>%
+  summarise(wc = sum(n)) %>% 
+  arrange(desc(wc)) %>%
+  head(10)
+
+top10_brand <- filingwc_brand %>% 
+  # left_join(ndc_sec_ref %>% select(cik, family) %>% distinct(), by = c("Company" = "cik")) %>%
+  group_by(family) %>%
+  summarise(wc = sum(n)) %>% 
+  arrange(desc(wc)) %>%
+  head(10)
+
+```
+
+
+```{r}
+ggplot(data = top10_allnoneng, aes(x = reorder(family, wc), y = wc)) + 
+  geom_bar(stat = "identity", fill = "#fcba03") +
+  geom_text(aes(label = scales::comma(wc), y = wc - 100)) +
+  coord_flip() +
+  customPlot2  +
+  labs(x = "Company", y = "Innovation Count \n(Refined)", title = "Top 10 Companies", subtitle =  "All Non-English") 
+
+ggplot(data = top10_3prox, aes(x = reorder(family, wc), y = wc)) + 
+  geom_bar(stat = "identity", fill = "#fcba03") +
+  geom_text(aes(label = wc, y = wc - 10)) +
+  coord_flip() +
+  customPlot2  +
+  labs(x = "Company", y = "Innovation Count \n(Refined)", title = "Top 10 Companies", subtitle =  "Proximity - 3") 
+
+ggplot(data = top10_brand, aes(x = reorder(family, wc), y = wc)) + 
+  geom_bar(stat = "identity", fill = "#fcba03") +
+  geom_text(aes(label = wc, y = wc - 10)) +
+  coord_flip() +
+  customPlot2  +
+  labs(x = "Company", y = "Innovation Count \n(Refined)", title = "Top 10 Companies", subtitle =  "Brand") 
+```
+
+
+

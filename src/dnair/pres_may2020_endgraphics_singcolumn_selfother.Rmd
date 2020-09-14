@@ -1,0 +1,1330 @@
+---
+title: "NDC Detection Rates vs. SEC Capture Validation Rates"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message=FALSE)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+```
+
+```{r plotsettings2}
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        text = element_text(size=15), 
+        # axis.text.x  = element_text(vjust=0.5, size=14),
+        # plot.title=element_text(size=14, vjust=2),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        text = element_text(size=15), 
+        # axis.text.x  = element_text(vjust=0.5, size=14),
+        # plot.title=element_text(size=14, vjust=2),
+        panel.grid.major = element_line(size = (0.2), colour="grey"), 
+        panel.grid.minor = element_line(size = (0.2), colour="grey"),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+violin_addons = list(geom_boxplot(width=0.1), scale_fill_grey())
+```
+
+
+
+```{r june5data_capture}
+final_product_list_allnoneng_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_05june2020.RDS")
+
+final_product_list_launch_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_capt_val_05june2020.RDS")
+
+final_product_list_newprod_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_capt_val_05june2020.RDS")
+
+final_product_list_newdrug_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_capt_val_05june2020.RDS")
+
+final_product_list_newdevice_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_capt_val_05june2020.RDS")
+
+final_product_list_brand_port <- readRDS( "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_capt_val_june052020.RDS")
+
+
+```
+
+
+```{r june5data_ndc}
+ndc_validateset_results_all_noneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_ndc_val_05June2020.RDS")
+ndc_validateset_results_launch_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newprod_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newdrug_prox <-  readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_newdevice_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_ndc_val_05June2020.RDS")
+ndc_validateset_results_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_ndc_val_05June2020.RDS")
+```
+
+
+```{r ndc_actual}
+project_folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+
+ndc_sec_ref <- readxl::read_excel(paste0(project_folder, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
+refciks <- unique(ndc_sec_ref$cik)
+
+ndc_product <-  readr::read_tsv(paste0(project_folder, "original/NDC/product.txt")) %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"), formulationcode = str_extract(PRODUCTNDC, "(?<=-)\\d*"))
+
+ndc_validateset <- ndc_product %>%
+  select(4, 6, 13, 14) %>%
+  distinct() %>%
+  filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
+  mutate(LABELERNAME,
+         Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),
+         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) %>%
+  left_join(ndc_sec_ref %>% select(family,ndc_labeler), by = c("LABELERNAME" = "ndc_labeler")) %>% 
+  select(8,3,5, 6, 1,2 )
+
+
+```
+
+```{r}
+doublebars_perc_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_allnoneng_2020june05.RDS")
+
+doublebars_perc_launchprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_launch_2020june05.RDS")
+
+doublebars_perc_newprodprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newprod_2020june05.RDS")
+
+doublebars_perc_newdrugprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdrug_2020june05.RDS")
+
+doublebars_perc_newdeviceprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdevice_2020june05.RDS")
+
+doublebars_perc_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_brand_2020june05.RDS")
+
+doublebars_perc_3prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_3prox_2020june05.RDS")
+
+# doublebars_perc_allnoneng %>% filter(family == "johnson")
+# doublebars_perc_3prox %>% filter(family == "johnson")
+```
+
+```{r}
+median(doublebars_perc_allnoneng$val_perc_any)
+median(doublebars_perc_launchprox$val_perc_any)
+median(doublebars_perc_newprodprox$val_perc_any)
+median(doublebars_perc_newdrugprox$val_perc_any)
+median(doublebars_perc_brand$val_perc_any)
+median(doublebars_perc_3prox$val_perc_any)
+
+median(doublebars_perc_allnoneng$val_perc_own)
+median(doublebars_perc_launchprox$val_perc_own)
+median(doublebars_perc_newprodprox$val_perc_own)
+median(doublebars_perc_newdrugprox$val_perc_own)
+median(doublebars_perc_brand$val_perc_own)
+median(doublebars_perc_3prox$val_perc_own)
+
+median(doublebars_perc_allnoneng$ndc_perc_own)
+median(doublebars_perc_launchprox$ndc_perc_own)
+median(doublebars_perc_newprodprox$ndc_perc_own)
+median(doublebars_perc_newdrugprox$ndc_perc_own)
+median(doublebars_perc_brand$ndc_perc_own)
+median(doublebars_perc_3prox$ndc_perc_own)
+```
+
+```{r}
+
+
+
+nrow(doublebars_perc_allnoneng)
+nrow(doublebars_perc_launchprox)
+nrow(doublebars_perc_newprodprox)
+nrow(doublebars_perc_newdrugprox)
+nrow(doublebars_perc_brand)
+nrow(doublebars_perc_3prox)
+
+sum(doublebars_perc_allnoneng$unval)
+sum(doublebars_perc_launchprox$unval)
+sum(doublebars_perc_newprodprox$unval)
+sum(doublebars_perc_newdrugprox$unval)
+sum(doublebars_perc_brand$unval)
+sum(doublebars_perc_3prox$unval)
+
+mean(doublebars_perc_allnoneng$unval)
+mean(doublebars_perc_launchprox$unval)
+mean(doublebars_perc_newprodprox$unval)
+mean(doublebars_perc_newdrugprox$unval)
+mean(doublebars_perc_brand$unval)
+mean(doublebars_perc_3prox$unval)
+
+median(doublebars_perc_allnoneng$unval)
+median(doublebars_perc_launchprox$unval)
+median(doublebars_perc_newprodprox$unval)
+median(doublebars_perc_newdrugprox$unval)
+median(doublebars_perc_brand$unval)
+median(doublebars_perc_3prox$unval)
+
+```
+
+```{r}
+final_product_list_launch_port %>% 
+  # filter(family == "teva") %>% 
+  select(Token, ANY, SELF) %>% 
+  filter(Token == "Fentora")
+  # filter(ANY == 1 & is.na(SELF) )
+# ndc_validateset_results_launch_prox %>% filter(family == "teva")
+```
+
+
+```{r}
+ndc_validateset_results_launch_prox %>% filter(family == "teva") %>% filter(str_detect(PROPRIETARYNAME, "^Add"))
+ndc_validateset_results_launch_prox %>% filter(family == "teva") %>% filter(str_detect(NONPROPRIETARYNAME, "^Add"))
+```
+
+```{r}
+final_product_list_allnoneng_port %>% filter(family %in% doublebars_perc_allnoneng$family)  %>% nrow()
+final_product_list_launch_port  %>% filter(family %in% doublebars_perc_launchprox$family) %>% nrow()
+final_product_list_newprod_port  %>% filter(family %in% doublebars_perc_newprodprox$family) %>% nrow()
+final_product_list_newdrug_port  %>% filter(family %in% doublebars_perc_newdrugprox$family) %>% nrow()
+final_product_list_brand_port  %>% filter(family %in% doublebars_perc_brand$family) %>% nrow()
+# final_product_list_por  %>% filter(family %in% doublebars_perc_brand$family) %>% nrow()
+
+final_product_list_allnoneng_port %>% filter(family %in% doublebars_perc_allnoneng$family) %>% count(family) %>% nrow()
+final_product_list_launch_port  %>% filter(family %in% doublebars_perc_launchprox$family)  %>% count(family) %>% nrow()
+final_product_list_newprod_port  %>% filter(family %in% doublebars_perc_newprodprox$family)  %>% count(family) %>% nrow()
+final_product_list_newdrug_port  %>% filter(family %in% doublebars_perc_newdrugprox$family)  %>% count(family) %>% nrow()
+final_product_list_brand_port  %>% filter(family %in% doublebars_perc_brand$family)  %>% count(family) %>% nrow()
+
+final_product_list_allnoneng_port %>% filter(family %in% doublebars_perc_allnoneng$family) %>% count(family) %>% .$n %>% mean
+final_product_list_launch_port  %>% filter(family %in% doublebars_perc_launchprox$family)  %>% count(family) %>% .$n %>% mean
+final_product_list_newprod_port  %>% filter(family %in% doublebars_perc_newprodprox$family)  %>% count(family) %>% .$n %>% mean
+final_product_list_newdrug_port  %>% filter(family %in% doublebars_perc_newdrugprox$family)  %>% count(family) %>% .$n %>% mean
+final_product_list_brand_port  %>% filter(family %in% doublebars_perc_brand$family)  %>% count(family) %>% .$n %>% mean
+
+final_product_list_allnoneng_port %>% filter(family %in% doublebars_perc_allnoneng$family) %>% count(family) %>% .$n %>% median
+final_product_list_launch_port  %>% filter(family %in% doublebars_perc_launchprox$family)  %>% count(family) %>% .$n %>% median
+final_product_list_newprod_port  %>% filter(family %in% doublebars_perc_newprodprox$family)  %>% count(family) %>% .$n %>% median
+final_product_list_newdrug_port  %>% filter(family %in% doublebars_perc_newdrugprox$family)  %>% count(family) %>% .$n %>% median
+final_product_list_brand_port  %>% filter(family %in% doublebars_perc_brand$family)  %>% count(family) %>% .$n %>% median
+
+# a <- final_product_list_launch_port  %>% filter(family %in% doublebars_perc_launchprox$family) %>% count(family, Token) %>% select(-n)
+# b <- final_product_list_newprod_port  %>% filter(family %in% doublebars_perc_newprodprox$family) %>% count(family, Token) %>% select(-n)
+# c <- final_product_list_newdrug_port  %>% filter(family %in% doublebars_perc_newdrugprox$family) %>% count(family, Token) %>% select(-n)
+# 
+# d <- rbind(a, b, c)
+# d %>% count(family, Token) %>% select(-n) %>% count(family) %>% nrow()
+
+#had to get these from prox 3 section
+a <- rbind(total_unval_launch, total_unval_newprod, total_unval_newdrug) %>% distinct() 
+
+a %>% filter(family %in% doublebars_perc_3prox$family) %>% nrow()
+a %>% filter(family %in% doublebars_perc_3prox$family) %>% count(family) %>% nrow()
+a %>% filter(family %in% doublebars_perc_3prox$family) %>% count(family) %>% .$n %>% mean
+a %>% filter(family %in% doublebars_perc_3prox$family) %>% count(family) %>% .$n %>% median
+
+```
+
+***
+
+Method | Company Ct | Mean Prec - ANY | SD | Mean Prec - SELF | SD | Mean Recall  | SD
+------|-------|-------|-------|-------|-------|-------|-------
+All Non-English | `r length(unique(doublebars_perc_allnoneng$family))` | `r scales::percent(mean(doublebars_perc_allnoneng$val_perc_any)) ` | `r scales::percent(sd(doublebars_perc_allnoneng$val_perc_any)) ` |  `r scales::percent(mean(doublebars_perc_allnoneng$val_perc_own)) ` |  `r scales::percent(sd(doublebars_perc_allnoneng$val_perc_own)) ` |`r scales::percent(mean(doublebars_perc_allnoneng$ndc_perc_own)) ` | `r scales::percent(sd(doublebars_perc_allnoneng$ndc_perc_own)) `
+Proximity - Launch  | `r length(unique(doublebars_perc_launchprox$family))` | `r scales::percent(mean(doublebars_perc_launchprox$val_perc_any)) ` | `r scales::percent(sd(doublebars_perc_launchprox$val_perc_any)) ` |  `r scales::percent(mean(doublebars_perc_launchprox$val_perc_own)) ` |  `r scales::percent(sd(doublebars_perc_launchprox$val_perc_own)) ` |`r scales::percent(mean(doublebars_perc_launchprox$ndc_perc_own)) ` | `r scales::percent(sd(doublebars_perc_launchprox$ndc_perc_own)) `
+Proximity - New Product  | `r length(unique(doublebars_perc_newprodprox$family))` | `r scales::percent(mean(doublebars_perc_newprodprox$val_perc_any)) ` | `r scales::percent(sd(doublebars_perc_newprodprox$val_perc_any)) ` |  `r scales::percent(mean(doublebars_perc_newprodprox$val_perc_own)) ` |  `r scales::percent(sd(doublebars_perc_newprodprox$val_perc_own)) ` |`r scales::percent(mean(doublebars_perc_newprodprox$ndc_perc_own)) ` | `r scales::percent(sd(doublebars_perc_newprodprox$ndc_perc_own)) `
+Proximity - New Drug  | `r length(unique(doublebars_perc_newdrugprox$family))` | `r scales::percent(mean(doublebars_perc_newdrugprox$val_perc_any)) ` | `r scales::percent(sd(doublebars_perc_newdrugprox$val_perc_any)) ` |  `r scales::percent(mean(doublebars_perc_newdrugprox$val_perc_own)) ` |  `r scales::percent(sd(doublebars_perc_newdrugprox$val_perc_own)) ` |`r scales::percent(mean(doublebars_perc_newdrugprox$ndc_perc_own)) ` | `r scales::percent(sd(doublebars_perc_newdrugprox$ndc_perc_own)) `
+Brand  | `r length(unique(doublebars_perc_brand$family))` | `r scales::percent(mean(doublebars_perc_brand$val_perc_any)) ` | `r scales::percent(sd(doublebars_perc_brand$val_perc_any)) ` |  `r scales::percent(mean(doublebars_perc_brand$val_perc_own)) ` |  `r scales::percent(sd(doublebars_perc_brand$val_perc_own)) ` |`r scales::percent(mean(doublebars_perc_brand$ndc_perc_own)) ` | `r scales::percent(sd(doublebars_perc_brand$ndc_perc_own)) `
+Proximity - 3 | `r length(unique(doublebars_perc_3prox$family))` | `r scales::percent(mean(doublebars_perc_3prox$val_perc_any)) ` | `r scales::percent(sd(doublebars_perc_3prox$val_perc_any)) ` |  `r scales::percent(mean(doublebars_perc_3prox$val_perc_own)) ` |  `r scales::percent(sd(doublebars_perc_3prox$val_perc_own)) ` |`r scales::percent(mean(doublebars_perc_3prox$ndc_perc_own)) ` | `r scales::percent(sd(doublebars_perc_3prox$ndc_perc_own)) `
+
+
+
+***
+
+Terminology - 
+
+- detected set - predicted positives (non eng, brand, etc)
+- true pos - validated positives 
+    - true pos for ANY NDC
+    - true pos for SELF NDC
+- actual pos - NDC ground truth
+    - true pos for SELF predictions
+
+    
+predicted positives --> y/n NDC
+
+actual positives --> y/n in predicted set 
+
+***
+
+## All Non-English 
+
+
+```{r}
+total_unval <- final_product_list_allnoneng_port %>% 
+  # mutate(Company = as.numeric(Company)) %>%
+  # inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("family",  "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_any <- final_product_list_allnoneng_port %>%
+  filter(ANY == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_ANY > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_ANY), Prop_matches_ANY, NonProp_matches_ANY))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_any")
+
+total_val_own <- final_product_list_allnoneng_port %>%
+  filter(SELF == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_OWN > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_OWN), Prop_matches_OWN, NonProp_matches_OWN))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_own")
+
+total_ndc_own <- ndc_validateset_results_all_noneng %>%
+  filter(match_ct_OWN > 0) %>%
+  count(family, PROPRIETARYNAME) %>% select(-n) %>%
+  count(family) %>% 
+  mutate(sec = "ndc_own")
+
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+
+doublebars <- rbind(total_unval, total_val_any, total_val_own, total_ndc_own, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc_any = ifelse(unval > 0, val_any/unval, 0),
+    val_perc_own = ifelse(unval > 0, val_own/unval, 0),
+    ndc_perc_own = ndc_own/ndc)
+
+
+top10byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, unval, val_any, val_perc_any) %>% reshape2::melt(value.name = "n")
+
+top10byvalrateanyself <- doublebars_perc %>% arrange(desc(val_perc_any)) %>% head(10) %>% select(family, val_perc_any, val_perc_own) %>% reshape2::melt(value.name = "n")
+
+order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_allnoneng_2020june05.RDS")
+
+```
+
+
+
+
+
+#### Precision Rates
+
+```{r}
+
+ggplot(doublebars_perc, aes(x = "", y = val_perc_any, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#68d0e8") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Precision Rates of Filers", subtitle = "All Non-English - Any") +
+  ylab( " ") + #"SEC Capture Precision Rate \nPer Company (Labeler)") + 
+  xlab(paste0(length(doublebars_perc$family), " Companies"))
+
+ggplot(doublebars_perc, aes(x = "", y = val_perc_own, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#4c96a8") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Precision Rates of Filers", subtitle = "All Non-English - Self") +
+  ylab(" ") +#"SEC Capture Precision Rate \nPer Company (Labeler)") + 
+  xlab(paste0(length(doublebars_perc$family), " Companies")) +
+  ylim(0, 0.25)
+
+```
+
+Any
+
+```{r}
+ggplot(top10byportfolio %>% filter(variable != "val_perc_any"), aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity", position = position_identity()) +
+  geom_text(data = top10byportfolio %>% filter(variable == "val_perc_any"), aes( y = 400, label = scales::percent(round(n, 3)))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#68d0e8", "#FFFFFF")) +
+  labs(title = "Top 10 Filers by Predicted Positives", subtitle = "All Non-English") +
+  xlab( "Company") + 
+  ylab("Number of predicted positives")
+
+ggplot(top10byvalrateanyself, aes(x = reorder(family, -order), y = n,  fill = variable )) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  geom_text(data = top10byvalrateanyself %>% filter(variable == "val_perc_any"), aes( y = n + 0.02, label = scales::percent(round(n, 3)))) +
+   geom_text(data = top10byvalrateanyself %>% filter(variable != "val_perc_any"), aes( y = n + 0.02, label = scales::percent(round(n, 2)), width = 1))+
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c( "#68d0e8", "#4c96a8")) + # change color
+  labs(title = "Top 10 Filers By Precision Rate", subtitle = "All Non-English") +
+  xlab( "Company") + 
+  ylab("Precision") +
+  theme(legend.position = "none") 
+
+```
+
+
+#### Detection Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc_own, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#198a00") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Recall Rates of Filers", subtitle = "All Non-English - Self") +
+  # labs(title = "All Non-English - Detection Rates") +
+  ylab(" ") +
+  xlab(paste0(length(doublebars_perc$family), " Companies")) 
+```
+
+
+```{r}
+# top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,ndc_perc_own) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+top10detection_byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, ndc, ndc_own, ndc_perc_own) %>% reshape2::melt(value.name = "n")
+
+# order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+# top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+
+ggplot(top10detection_byportfolio %>% filter(variable != "ndc_perc_own"), aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity", position = position_identity()) +
+  geom_text(data = top10detection_byportfolio %>% filter(variable == "ndc_perc_own"), aes(y = 200, label = scales::percent(n))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00", "#FFFFFF")) +
+  labs(title = "Top 10 Filers By Number of Listings \nwith Recall Rate", subtitle = "All Non-English - Self") +
+  xlab( "Company") + 
+  ylab("Portfolio Size")
+```
+
+
+#### Comparing Validation and Detection Rates 
+
+ndc # listings
+
+```{r}
+hist(doublebars_perc$ndc)
+```
+
+
+```{r }
+ggplot(data = doublebars_perc, aes(x = val_perc_any, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rate by Number of NDC Listings", subtitle = "All Non-English - Any") +
+  xlab("Precision Rate (Any)") + 
+  ylab("Listing Count")
+
+ggplot(data = doublebars_perc, aes(x = val_perc_own, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rate by Number of NDC Listings", subtitle = "All Non-English - Self") +
+  xlab("Precision Rate (Self)") + 
+  ylab("Listing Count")
+
+ggplot(data = doublebars_perc, aes(x = ndc_perc_own, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Recall Rate by Number of NDC Listings", subtitle = "All Non-English") +
+  xlab("Recall Rate") + 
+  ylab("Listing Count")
+```
+
+tradeoff
+
+```{r }
+ggplot(data = doublebars_perc, aes(x = val_perc_any, y = ndc_perc_own)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rates by Recall Rate \nPer Labeller ", subtitle = "All Non-English - Any") +
+  xlab("Precision Rate") + 
+  ylab("Recall Rate")
+
+ggplot(data = doublebars_perc, aes(x = val_perc_own, y = ndc_perc_own)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rates by Recall Rate \nPer Labeller ", subtitle = "All Non-English - Self") +
+  xlab("Precision Rate") + 
+  ylab("Recall Rate")
+```
+
+
+
+
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+***
+## Proximity - Launch - Detection Rate
+
+```{r}
+total_unval <- final_product_list_launch_port %>% 
+  # mutate(Company = as.numeric(Company)) %>%
+  # inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("family",  "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_any <- final_product_list_launch_port %>%
+  filter(ANY == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_ANY > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_ANY), Prop_matches_ANY, NonProp_matches_ANY))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_any")
+
+total_val_own <- final_product_list_launch_port %>%
+  filter(SELF == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_OWN > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_OWN), Prop_matches_OWN, NonProp_matches_OWN))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_own")
+
+total_ndc_own <- ndc_validateset_results_launch_prox %>%
+  filter(match_ct_OWN > 0) %>%
+  count(family, PROPRIETARYNAME) %>% select(-n) %>%
+  count(family) %>% 
+  mutate(sec = "ndc_own")
+
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+
+doublebars <- rbind(total_unval, total_val_any, total_val_own, total_ndc_own, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc_any = ifelse(unval > 0, val_any/unval, 0),
+    val_perc_own = ifelse(unval > 0, val_own/unval, 0),
+    ndc_perc_own = ndc_own/ndc)
+
+
+top10byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, unval, val_any, val_perc_any) %>% reshape2::melt(value.name = "n")
+
+top10byvalrateanyself <- doublebars_perc %>% arrange(desc(val_perc_any)) %>% head(10) %>% select(family, val_perc_any, val_perc_own) %>% reshape2::melt(value.name = "n")
+
+order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_launch_2020june05.RDS")
+
+```
+
+
+***
+
+## Proximity - New Product - Detection Rate
+
+```{r}
+total_unval <- final_product_list_newprod_port %>% 
+  # mutate(Company = as.numeric(Company)) %>%
+  # inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("family",  "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_any <- final_product_list_newprod_port %>%
+  filter(ANY == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_ANY > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_ANY), Prop_matches_ANY, NonProp_matches_ANY))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_any")
+
+total_val_own <- final_product_list_newprod_port %>%
+  filter(SELF == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_OWN > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_OWN), Prop_matches_OWN, NonProp_matches_OWN))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_own")
+
+total_ndc_own <- ndc_validateset_results_newprod_prox %>%
+  filter(match_ct_OWN > 0) %>%
+  count(family, PROPRIETARYNAME) %>% select(-n) %>%
+  count(family) %>% 
+  mutate(sec = "ndc_own")
+
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+
+doublebars <- rbind(total_unval, total_val_any, total_val_own, total_ndc_own, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc_any = ifelse(unval > 0, val_any/unval, 0),
+    val_perc_own = ifelse(unval > 0, val_own/unval, 0),
+    ndc_perc_own = ndc_own/ndc)
+
+
+top10byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, unval, val_any, val_perc_any) %>% reshape2::melt(value.name = "n")
+
+top10byvalrateanyself <- doublebars_perc %>% arrange(desc(val_perc_any)) %>% head(10) %>% select(family, val_perc_any, val_perc_own) %>% reshape2::melt(value.name = "n")
+
+order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newprod_2020june05.RDS")
+
+```
+
+
+***
+
+## Proximity - New Drug - Detection Rate
+
+```{r}
+total_unval <- final_product_list_newdrug_port %>% 
+  # mutate(Company = as.numeric(Company)) %>%
+  # inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("family",  "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_any <- final_product_list_newdrug_port %>%
+  filter(ANY == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_ANY > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_ANY), Prop_matches_ANY, NonProp_matches_ANY))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_any")
+
+total_val_own <- final_product_list_newdrug_port %>%
+  filter(SELF == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_OWN > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_OWN), Prop_matches_OWN, NonProp_matches_OWN))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_own")
+
+total_ndc_own <- ndc_validateset_results_newdrug_prox %>%
+  filter(match_ct_OWN > 0) %>%
+  count(family, PROPRIETARYNAME) %>% select(-n) %>%
+  count(family) %>% 
+  mutate(sec = "ndc_own")
+
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+
+doublebars <- rbind(total_unval, total_val_any, total_val_own, total_ndc_own, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc_any = ifelse(unval > 0, val_any/unval, 0),
+    val_perc_own = ifelse(unval > 0, val_own/unval, 0),
+    ndc_perc_own = ndc_own/ndc)
+
+
+top10byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, unval, val_any, val_perc_any) %>% reshape2::melt(value.name = "n")
+
+top10byvalrateanyself <- doublebars_perc %>% arrange(desc(val_perc_any)) %>% head(10) %>% select(family, val_perc_any, val_perc_own) %>% reshape2::melt(value.name = "n")
+
+order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdrug_2020june05.RDS")
+
+```
+
+
+***
+## Proximity - New Device - Detection Rate
+
+```{r}
+total_unval <- final_product_list_newdevice_port %>% 
+  # mutate(Company = as.numeric(Company)) %>%
+  # inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("family",  "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_any <- final_product_list_newdevice_port %>%
+  filter(ANY == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_ANY > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_ANY), Prop_matches_ANY, NonProp_matches_ANY))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_any")
+
+total_val_own <- final_product_list_newdevice_port %>%
+  filter(SELF == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_OWN > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_OWN), Prop_matches_OWN, NonProp_matches_OWN))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_own")
+
+total_ndc_own <- ndc_validateset_results_newdevice_prox %>%
+  filter(match_ct_OWN > 0) %>%
+  count(family, PROPRIETARYNAME) %>% select(-n) %>%
+  count(family) %>% 
+  mutate(sec = "ndc_own")
+
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+
+doublebars <- rbind(total_unval, total_val_any, total_val_own, total_ndc_own, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc_any = ifelse(unval > 0, val_any/unval, 0),
+    val_perc_own = ifelse(unval > 0, val_own/unval, 0),
+    ndc_perc_own = ndc_own/ndc)
+
+
+top10byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, unval, val_any, val_perc_any) %>% reshape2::melt(value.name = "n")
+
+top10byvalrateanyself <- doublebars_perc %>% arrange(desc(val_perc_any)) %>% head(10) %>% select(family, val_perc_any, val_perc_own) %>% reshape2::melt(value.name = "n")
+
+order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:nrow(.))
+top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdevice_2020june05.RDS")
+
+```
+
+
+***
+
+## Brand - Detection Rate
+
+```{r}
+total_unval <- final_product_list_brand_port %>% 
+  # mutate(Company = as.numeric(Company)) %>%
+  # inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("family",  "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+total_val_any <- final_product_list_brand_port %>%
+  filter(ANY == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_ANY > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_ANY), Prop_matches_ANY, NonProp_matches_ANY))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_any")
+
+total_val_own <- final_product_list_brand_port %>%
+  filter(SELF == 1) %>%
+  count(family, word_low) %>% 
+  # ndc_validateset_results_all_noneng %>% 
+  # filter(match_ct_OWN > 0) %>%
+  # count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches_OWN), Prop_matches_OWN, NonProp_matches_OWN))) %>%
+  select(-n) %>%
+  count(family) %>%
+  mutate(sec = "val_own")
+
+total_ndc_own <- ndc_validateset_results_brand %>%
+  filter(match_ct_OWN > 0) %>%
+  count(family, PROPRIETARYNAME) %>% select(-n) %>%
+  count(family) %>% 
+  mutate(sec = "ndc_own")
+
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+
+doublebars <- rbind(total_unval, total_val_any, total_val_own, total_ndc_own, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc_any = ifelse(unval > 0, val_any/unval, 0),
+    val_perc_own = ifelse(unval > 0, val_own/unval, 0),
+    ndc_perc_own = ndc_own/ndc)
+
+
+top10byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, unval, val_any, val_perc_any) %>% reshape2::melt(value.name = "n")
+
+top10byvalrateanyself <- doublebars_perc %>% arrange(desc(val_perc_any)) %>% head(10) %>% select(family, val_perc_any, val_perc_own) %>% reshape2::melt(value.name = "n")
+
+order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_brand_2020june05.RDS")
+
+```
+
+#### Precision Rates
+
+```{r}
+
+ggplot(doublebars_perc, aes(x = "", y = val_perc_any, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#68d0e8") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Precision Rates of Filers", subtitle = "Brand - Any") +
+  ylab( " ") + #"SEC Capture Precision Rate \nPer Company (Labeler)") + 
+  xlab(paste0(length(doublebars_perc$family), " Companies"))
+
+ggplot(doublebars_perc, aes(x = "", y = val_perc_own, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#4c96a8") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Precision Rates of Filers", subtitle = "Brand - Self") +
+  ylab(" ") +#"SEC Capture Precision Rate \nPer Company (Labeler)") + 
+  xlab(paste0(length(doublebars_perc$family), " Companies")) +
+  ylim(0, 1)
+
+```
+
+Any
+
+```{r}
+ggplot(top10byportfolio %>% filter(variable != "val_perc_any"), aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity", position = position_identity()) +
+  geom_text(data = top10byportfolio %>% filter(variable == "val_perc_any"), aes( y = 70, label = scales::percent(round(n, 3)))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#68d0e8", "#FFFFFF")) +
+  labs(title = "Top 10 Filers by Predicted Positives", subtitle = "Brand") +
+  xlab( "Company") + 
+  ylab("Number of predicted positives")
+
+ggplot(top10byvalrateanyself, aes(x = reorder(family, -order), y = n,  fill = variable )) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  geom_text(data = top10byvalrateanyself %>% filter(variable == "val_perc_any"), aes( y = n + 0.02, label = scales::percent(round(n, 3)))) +
+   geom_text(data = top10byvalrateanyself %>% filter(variable != "val_perc_any"), aes( y = n + 0.02, label = scales::percent(round(n, 2)), width = 1))+
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c( "#68d0e8", "#4c96a8")) + # change color
+  labs(title = "Top 10 Filers By Precision Rate", subtitle = "Brand") +
+  xlab( "Company") + 
+  ylab("Precision") +
+  theme(legend.position = "none") 
+
+```
+
+
+
+#### Detection Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc_own, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#198a00") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Recall Rates of Filers", subtitle = "Brand - Self") +
+  # labs(title = "All Non-English - Detection Rates") +
+  ylab(" ") +
+  xlab(paste0(length(doublebars_perc$family), " Companies")) 
+```
+
+
+```{r}
+# top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,ndc_perc_own) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+top10detection_byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, ndc, ndc_own, ndc_perc_own) %>% reshape2::melt(value.name = "n")
+
+# order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+# top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+
+ggplot(top10detection_byportfolio %>% filter(variable != "ndc_perc_own"), aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity", position = position_identity()) +
+  geom_text(data = top10detection_byportfolio %>% filter(variable == "ndc_perc_own"), aes(y = 200, label = scales::percent(n))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00", "#FFFFFF")) +
+  labs(title = "Top 10 Filers By Number of Listings \nwith Recall Rate", subtitle = "Brand - Self") +
+  xlab( "Company") + 
+  ylab("Portfolio Size")
+```
+
+
+#### Comparing Validation and Detection Rates 
+
+ndc # listings
+```{r }
+ggplot(data = doublebars_perc, aes(x = val_perc_any, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rate by Number of NDC Listings", subtitle = "Brand - Any") +
+  xlab("Precision Rate (Any)") + 
+  ylab("Listing Count")
+
+ggplot(data = doublebars_perc, aes(x = val_perc_own, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rate by Number of NDC Listings", subtitle = "Brand - Self") +
+  xlab("Precision Rate (Self)") + 
+  ylab("Listing Count")
+
+ggplot(data = doublebars_perc, aes(x = ndc_perc_own, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Recall Rate by Number of NDC Listings", subtitle = "Brand") +
+  xlab("Recall Rate") + 
+  ylab("Listing Count")
+```
+
+tradeoff
+
+```{r }
+ggplot(data = doublebars_perc, aes(x = val_perc_any, y = ndc_perc_own)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rates by Recall Rate \nPer Labeller ", subtitle = "Brand - Any") +
+  xlab("Precision Rate") + 
+  ylab("Recall Rate")
+
+ggplot(data = doublebars_perc, aes(x = val_perc_own, y = ndc_perc_own)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rates by Recall Rate \nPer Labeller ", subtitle = "Brand - Self") +
+  xlab("Precision Rate") + 
+  ylab("Recall Rate")
+```
+
+
+
+
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+
+
+## Other Things
+
+
+```{r }
+# capt_val_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_apr282020.RDS")
+# 
+# capt_val_launch <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxlaunch_capt_val_apr282020.RDS")
+# 
+# capt_val_new_prod <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewprod_capt_val_apr282020.RDS")
+# 
+# capt_val_new_drug <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewdrug_capt_val_apr282020.RDS")
+# 
+# capt_val_new_device <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewdevice_capt_val_apr282020.RDS")
+# 
+# capt_val_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_capt_val_apr282020.RDS")
+
+```
+
+
+```{r}
+# capt_val_allnoneng %>% head(10)
+
+```
+
+```{r}
+# capt_val_allnoneng %>% count(prop_match_blank = is.na(Prop_matches), nonprop_blank = is.na(NonProp_matches))
+# lookatme <- capt_val_allnoneng %>% filter(is.na(Prop_matches) & is.na(NonProp_matches))
+# 
+# lookatme %>% count(eur_match_blank = is.na(Eur_Prop_matches)) %>% knitr::kable()
+# lookatme %>% count(diag_match_blank = is.na(Diag_matches)) %>% knitr::kable()
+# lookatme %>% count(name_match_blank = is.na(FNamee_matchese)) %>% knitr::kable()
+# lookatme %>% count(device_match_blank = is.na(Device_Prop_matches)) %>% knitr::kable()
+# lookatme %>% count(french = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("fr_FR"))) %>% knitr::kable()
+# lookatme %>% count(german = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("de_DE"))) %>% knitr::kable()
+# lookatme %>% count(spanish = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("es_ES"))) %>% knitr::kable()
+# # lookatme %>% count(hebrew = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("he_IS")))
+# 
+# lookatme %>% 
+#   filter(is.na(Eur_Prop_matches) & is.na(Diag_matches) & is.na(FNamee_matchese) & is.na(Device_Prop_matches)) %>%
+#   filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("fr_FR")) ==  FALSE) %>%
+#   filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("de_DE")) ==  FALSE) %>% 
+#   filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("es_ES")) ==  FALSE) %>% 
+#   nrow()
+# 
+# lookatme %>% 
+#   filter(is.na(Eur_Prop_matches) & is.na(Diag_matches) & is.na(FNamee_matchese) & is.na(Device_Prop_matches)) %>%
+#   filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("fr_FR")) ==  FALSE) %>%
+#   filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("de_DE")) ==  FALSE) %>% 
+#   filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("es_ES")) ==  FALSE) %>% 
+#   head(10000) %>% count(word_low) %>% arrange(desc(n)) %>% head(10) %>% knitr::kable()
+```
+
+***
+
+
+
+## Proximity - 3 Methods Combined
+
+```{r}
+total_unval_launch <- final_product_list_launch_port %>% 
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_unval_newprod <- final_product_list_newprod_port %>% 
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_unval_newdrug <- final_product_list_newdrug_port %>% 
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_unval <- rbind(total_unval_launch, total_unval_newprod, total_unval_newdrug) %>% distinct()  %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+
+```
+
+```{r}
+total_val_any_launch <- final_product_list_launch_port %>% 
+  filter(ANY == 1) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_val_any_newprod <- final_product_list_newprod_port %>% 
+  filter(ANY == 1) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_val_any_newdrug <- final_product_list_newdrug_port %>% 
+  filter(ANY == 1) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token)%>% select(-n)
+
+total_val_any <- rbind(total_val_any_launch, total_val_any_newprod, total_val_any_newdrug) %>% distinct()  %>% 
+  count(family) %>% 
+  mutate(sec = "val_any")
+```
+
+```{r}
+total_val_self_launch <- final_product_list_launch_port %>% 
+  filter(SELF == 1) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_val_self_newprod <- final_product_list_newprod_port %>% 
+  filter(SELF == 1) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_val_self_newdrug <- final_product_list_newdrug_port %>% 
+  filter(SELF == 1) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token)%>% select(-n)
+
+total_val_self <- rbind(total_val_self_launch, total_val_self_newprod, total_val_self_newdrug) %>% distinct()  %>% 
+  count(family) %>% 
+  mutate(sec = "val_own")
+```
+
+```{r}
+
+total_ndc_self_launch <- ndc_validateset_results_launch_prox  %>% 
+  filter(match_ct_OWN > 0) %>% 
+  count(family, PROPRIETARYNAME) %>% select(-n)
+
+total_ndc_self_newprod <- ndc_validateset_results_newprod_prox  %>% 
+  filter(match_ct_OWN > 0) %>% 
+  count(family, PROPRIETARYNAME) %>% select(-n)
+
+total_ndc_self_newprox <- ndc_validateset_results_newdrug_prox  %>% 
+  filter(match_ct_OWN > 0) %>% 
+  count(family, PROPRIETARYNAME) %>% select(-n)
+
+total_ndc_own <- rbind(total_ndc_self_launch, total_ndc_self_newprod, total_ndc_self_newprox) %>% distinct() %>% 
+  count(family) %>% 
+  mutate(sec = "ndc_own")
+
+```
+
+```{r}
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+```
+
+```{r}
+
+doublebars <- rbind(total_unval, total_val_any, total_val_own, total_ndc_own, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n >= 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc_any = ifelse(unval > 0, val_any/unval, 0),
+    val_perc_own = ifelse(unval > 0, val_own/unval, 0),
+    ndc_perc_own = ndc_own/ndc)
+
+
+top10byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, unval, val_any, val_perc_any) %>% reshape2::melt(value.name = "n")
+
+top10byvalrateanyself <- doublebars_perc %>% arrange(desc(val_perc_any)) %>% head(10) %>% select(family, val_perc_any, val_perc_own) %>% reshape2::melt(value.name = "n")
+
+order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_3prox_2020june05.RDS")
+
+```
+
+
+
+```{r}
+
+ggplot(doublebars_perc, aes(x = "", y = val_perc_any, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#68d0e8") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Precision Rates of Filers", subtitle = "Proximity 3 - Any") +
+  ylab( " ") + #"SEC Capture Precision Rate \nPer Company (Labeler)") + 
+  xlab(paste0(length(doublebars_perc$family), " Companies"))
+
+ggplot(doublebars_perc, aes(x = "", y = val_perc_own, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#4c96a8") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Precision Rates of Filers", subtitle = "Proximity 3 - Self") +
+  ylab(" ") +#"SEC Capture Precision Rate \nPer Company (Labeler)") + 
+  xlab(paste0(length(doublebars_perc$family), " Companies")) +
+  ylim(0, 1)
+
+```
+
+Any
+
+```{r}
+ggplot(top10byportfolio %>% filter(variable != "val_perc_any"), aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity", position = position_identity()) +
+  geom_text(data = top10byportfolio %>% filter(variable == "val_perc_any"), aes( y = 100, label = scales::percent(round(n, 3)))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#68d0e8", "#FFFFFF")) +
+  labs(title = "Top 10 Filers by Predicted Positives", subtitle = "Proximity 3") +
+  xlab( "Company") + 
+  ylab("Number of predicted positives")
+
+
+ggplot(top10byvalrateanyself, aes(x = reorder(family, -order), y = n,  fill = variable )) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  geom_text(data = top10byvalrateanyself %>% filter(variable == "val_perc_any"), aes( y = n + 0.02, label = scales::percent(round(n, 3)))) +
+   geom_text(data = top10byvalrateanyself %>% filter(variable != "val_perc_any"), aes( y = n + 0.02, label = scales::percent(round(n, 2)), width = 1))+
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c( "#68d0e8", "#4c96a8")) + # change color
+  labs(title = "Top 10 Filers By Precision Rate", subtitle = "Proximity 3") +
+  xlab( "Company") + 
+  ylab("Precision") +
+  theme(legend.position = "none") 
+
+
+```
+
+
+#### Detection Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc_own, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#198a00") +
+  theme(legend.position = "none") +
+  labs(title = "Distribution of Recall Rates of Filers", subtitle = "Proximity 3 - Self") +
+  # labs(title = "All Non-English - Detection Rates") +
+  ylab(" ") +
+  xlab(paste0(length(doublebars_perc$family), " Companies")) 
+```
+
+
+```{r}
+# top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,ndc_perc_own) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+top10detection_byportfolio <- doublebars_perc %>% arrange(desc(ndc)) %>% head(10) %>% select(family, ndc, ndc_own, ndc_perc_own) %>% reshape2::melt(value.name = "n")
+
+# order <- top10byvalrateanyself %>% filter(variable == "val_perc_any") %>% arrange(desc(n)) %>% mutate(order = 1:10)
+# top10byvalrateanyself <- top10byvalrateanyself %>% left_join(order %>% select(1, 4), by = "family")
+
+
+ggplot(top10detection_byportfolio %>% filter(variable != "ndc_perc_own"), aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity", position = position_identity()) +
+  geom_text(data = top10detection_byportfolio %>% filter(variable == "ndc_perc_own"), aes(y = 200, label = scales::percent(n))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00", "#FFFFFF")) +
+  labs(title = "Top 10 Filers By Number of Listings \nwith Recall Rate", subtitle = "Proximity 3 - Self") +
+  xlab( "Company") + 
+  ylab("Portfolio Size")
+```
+
+
+#### Comparing Validation and Detection Rates 
+
+ndc # listings
+```{r }
+ggplot(data = doublebars_perc, aes(x = val_perc_any, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rate by Number of NDC Listings", subtitle = "Proximity 3 - Any") +
+  xlab("Precision Rate (Any)") + 
+  ylab("Listing Count")
+
+ggplot(data = doublebars_perc, aes(x = val_perc_own, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rate by Number of NDC Listings", subtitle = "Proximity 3 -  Self") +
+  xlab("Precision Rate (Self)") + 
+  ylab("Listing Count")
+
+ggplot(data = doublebars_perc, aes(x = ndc_perc_own, y = ndc)) +
+  geom_count(aes(color = ndc)) +
+  # geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Recall Rate by Number of NDC Listings", subtitle = "Proximity 3") +
+  xlab("Recall Rate") + 
+  ylab("Listing Count")
+```
+
+tradeoff
+
+```{r }
+ggplot(data = doublebars_perc, aes(x = val_perc_any, y = ndc_perc_own)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rates by Recall Rate \nPer Labeller ", subtitle = "Proximity 3 - Any") +
+  xlab("Precision Rate") + 
+  ylab("Recall Rate")
+
+ggplot(data = doublebars_perc, aes(x = val_perc_own, y = ndc_perc_own)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Precision Rates by Recall Rate \nPer Labeller ", subtitle = "Proximity 3 - Self") +
+  xlab("Precision Rate") + 
+  ylab("Recall Rate")
+```
+
+
+
+
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+
+
+
+
+

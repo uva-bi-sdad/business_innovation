@@ -1,0 +1,1459 @@
+---
+title: "NDC Detection Rates vs. SEC Capture Validation Rates"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message=FALSE)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+```
+
+```{r plotsettings2}
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        text = element_text(size=15), 
+        # axis.text.x  = element_text(vjust=0.5, size=14),
+        # plot.title=element_text(size=14, vjust=2),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+customPlot2 = list(
+  theme(#plot.margin = unit(c(1,1,2,2), "cm"),
+        text = element_text(size=15), 
+        # axis.text.x  = element_text(vjust=0.5, size=14),
+        # plot.title=element_text(size=14, vjust=2),
+        panel.grid.major = element_line(size = (0.2), colour="grey"), 
+        panel.grid.minor = element_line(size = (0.2), colour="grey"),
+        panel.background = element_rect(fill = "#FFFFFF") , 
+        legend.position="right"),  #coord_flip(), 
+  guides(fill=guide_legend(title="Key", ncol = 1),
+        colour =guide_legend(title="Key", ncol = 1))
+)
+
+violin_addons = list(geom_boxplot(width=0.1), scale_fill_grey())
+```
+
+```{r unvalidated_datasets}
+final_product_list_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_nocomps_apr282020.RDS")
+final_product_list_prox_LAUNCH <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_nocomps_apr282020.RDS")
+final_product_list_prox_NEWPROD <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_nocomps_apr282020.RDS")
+final_product_list_prox_NEWDRUG <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_nocomps_apr282020.RDS")
+final_product_list_prox_NEWDEVICE <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_nocomps_apr282020.RDS")
+final_product_list_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_nocomps_apr282020.RDS")
+```
+
+```{r validated_datasets}
+ndc_validateset_results_all_noneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_ndc_val_apr282020.RDS")
+ndc_validateset_results_launch_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_prox_ndc_val_apr282020.RDS")
+ndc_validateset_results_newprod_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_prox_ndc_val_apr282020.RDS")
+ndc_validateset_results_newdrug_prox <-  readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_prox_ndc_val_apr282020.RDS")
+ndc_validateset_results_newdevice_prox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_prox_ndc_val_apr282020.RDS")
+ndc_validateset_results_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_ndc_val_apr282020.RDS")
+```
+
+```{r ndc_actual}
+project_folder <- "/project/biocomplexity/sdad/projects_data/ncses/bi/binn/"
+
+ndc_sec_ref <- readxl::read_excel(paste0(project_folder, "working/NDC_SEC_CompNames/final_ndc_sec_companies.xlsx"), sheet = "finalset") %>% select(-12,-13, -14)
+colnames(ndc_sec_ref) <- dataplumbr::name.standard_col_names(colnames(ndc_sec_ref))
+ndc_sec_ref <- ndc_sec_ref %>% filter(is.na(dupe)) %>% select(-dupe)
+refciks <- unique(ndc_sec_ref$cik)
+
+ndc_product <-  readr::read_tsv(paste0(project_folder, "original/NDC/product.txt")) %>% 
+  mutate(year = str_extract(string = STARTMARKETINGDATE, pattern = "^\\d{4}"), formulationcode = str_extract(PRODUCTNDC, "(?<=-)\\d*"))
+
+ndc_validateset <- ndc_product %>%
+  select(4, 6, 13, 14) %>%
+  distinct() %>%
+  filter(LABELERNAME %in% ndc_sec_ref$ndc_labeler) %>%
+  mutate(LABELERNAME,
+         Prop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(PROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")),
+         Nonprop_low = str_trim(str_replace_all(str_remove_all(str_to_lower(NONPROPRIETARYNAME), "\\(|\\)"), "\\\u0097|\\\u0093", " ")), 
+         Sub_low = str_trim(str_replace_all(str_remove_all(str_to_lower(SUBSTANCENAME), "\\(|\\)"), "\\\u0097|\\\u0093", " "))) %>%
+  left_join(ndc_sec_ref %>% select(family,ndc_labeler), by = c("LABELERNAME" = "ndc_labeler")) %>% 
+  select(8,3,5, 6, 1,2 )
+
+
+```
+
+```{r}
+doublebars_perc_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_allnoneng_2020may01.RDS")
+doublebars_perc_launchprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_launchprox_2020may01.RDS")
+
+doublebars_perc_newprodprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_launchnewprod_2020may01.RDS")
+doublebars_perc_newdrugprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdrugprox_2020may01.RDS")
+doublebars_perc_newdeviceprox <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdeviceprox_2020may01.RDS")
+
+doublebars_perc_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_brand_2020may01.RDS")
+
+```
+
+```{r}
+comparison <- tibble("Method" = c("All Non Eng", "Proximity - Launch", "Proximity - New Product", "Proximity - New Drug", "Proximity - New Device", "Brand"),
+       "MeanValRate" = c(mean(doublebars_perc_allnoneng$val_perc1), mean(doublebars_perc_launchprox$val_perc1),
+                           mean(doublebars_perc_newprodprox$val_perc1), mean(doublebars_perc_newdrugprox$val_perc1),
+                           mean(doublebars_perc_newdeviceprox$val_perc1), mean(doublebars_perc_brand$val_perc1)),
+       "MeanDetRate" = c(mean(doublebars_perc_allnoneng$ndc_perc1), mean(doublebars_perc_newdrugprox$ndc_perc1),
+                           mean(doublebars_perc_newprodprox$ndc_perc1), mean(doublebars_perc_launchprox$ndc_perc1),
+                           mean(doublebars_perc_newdeviceprox$ndc_perc1), mean(doublebars_perc_brand$ndc_perc1))
+       )
+```
+
+
+***
+
+Method| Company Ct | Mean Validation Rate | SD |Mean Detection Rate | SD
+--------------------|----|----------|----------|------------|---------
+All Non-English | `r length(unique(doublebars_perc_allnoneng$family))` | `r scales::percent(mean(doublebars_perc_allnoneng$val_perc1)) ` | `r scales::percent(sd(doublebars_perc_allnoneng$val_perc1)) ` |`r scales::percent(mean(doublebars_perc_allnoneng$ndc_perc1)) ` | `r scales::percent(sd(doublebars_perc_allnoneng$ndc_perc1)) `
+Proximity - Launch | `r length(unique(doublebars_perc_launchprox$family))`  |  `r scales::percent(mean(doublebars_perc_launchprox$val_perc1)) ` |`r scales::percent(sd(doublebars_perc_launchprox$val_perc1)) ` | `r scales::percent(mean(doublebars_perc_launchprox$ndc_perc1)) ` | `r scales::percent(sd(doublebars_perc_launchprox$ndc_perc1)) `
+Proximity - New Product | `r length(unique(doublebars_perc_newprodprox$family))`  | `r scales::percent(mean(doublebars_perc_newprodprox$val_perc1)) ` |`r scales::percent(sd(doublebars_perc_newprodprox$val_perc1)) ` |`r scales::percent(mean(doublebars_perc_newprodprox$ndc_perc1)) ` | `r scales::percent(sd(doublebars_perc_newprodprox$ndc_perc1)) `
+Proximity - New Drug | `r length(unique(doublebars_perc_newdrugprox$family))`  | `r scales::percent(mean(doublebars_perc_newdrugprox$val_perc1)) ` | `r scales::percent(sd(doublebars_perc_newdrugprox$val_perc1)) ` |`r scales::percent(mean(doublebars_perc_newdrugprox$ndc_perc1)) `|`r scales::percent(sd(doublebars_perc_newdrugprox$ndc_perc1)) `
+Brand | `r length(unique(doublebars_perc_brand$family))`| `r scales::percent(mean(doublebars_perc_brand$val_perc1))` | `r scales::percent(sd(doublebars_perc_brand$val_perc1)) ` |`r scales::percent(mean(doublebars_perc_brand$ndc_perc1)) ` | `r scales::percent(sd(doublebars_perc_brand$ndc_perc1)) `
+
+
+<!-- Proximity - New Device | `r length(unique(doublebars_perc_newdeviceprox$family))`  | `r scales::percent(mean(doublebars_perc_newdeviceprox$val_perc1)) `| `r scales::percent(sd(doublebars_perc_newdeviceprox$val_perc1)) `  |`r scales::percent(mean(doublebars_perc_newdeviceprox$ndc_perc1)) `|`r scales::percent(sd(doublebars_perc_newdeviceprox$ndc_perc1)) ` -->
+
+
+```{r, eval = FALSE}
+ggplot(data = comparison, aes(x = MeanValRate, y = MeanDetRate)) +
+  geom_point(stat = "identity", aes(color = Method, size = 5)) +
+  geom_text(aes(label = Method, hjust = ifelse(Method == "All Non Eng", 0, 1))) +
+  theme(legend.position = "none")
+```
+
+
+***
+
+## All Non-English 
+
+```{r}
+total_unval <- final_product_list_allnoneng %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+total_val <- ndc_validateset_results_all_noneng %>% 
+  #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
+  filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
+  # filter(Self == 1) %>% 
+  count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val")
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc1 = val/(unval+val),
+    val_perc = scales::percent(val/(unval+val)), 
+    ndc_perc1 = val/ndc,
+         ndc_perc = scales::percent(val/ndc))
+# topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
+# doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
+# doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_allnoneng_2020may01.RDS")
+```
+
+```{r}
+onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
+top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+top10green_perc <- top10greens %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)))
+top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
+top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
+top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
+
+```
+
+#### Validation Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = val_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "All Non-English - Validation Rates") +
+  ylab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  xlab("134 Companies")
+
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, val_perc1), y = val_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(val_perc1)), hjust=1) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by SEC Capture Validation Rate" ) +
+  xlab("Family") +
+  ylab("SEC Capture Validation Rates") 
+```
+
+```{r}
+top10ndc_perc_VAL <- top10ndc_perc %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,5), by = "family")
+
+ggplot(top10ndc_perc_VAL, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_VAL %>% filter(variable == "unval"), aes(label = scales::percent(val_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#198a00")) +
+  labs(title = "SEC Capture Validation Rates \nof Top 10 Filers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Number of captures")
+```
+
+
+#### Detection Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#78d119") +
+  theme(legend.position = "none") +
+  labs(title = "All Non-English - Detection Rates") +
+  ylab("NDC Portfolio Detection Rate \nPer Company (Filer)") +
+  xlab("134 companies")
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, ndc_perc1), y = ndc_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(ndc_perc1), y = ndc_perc1 + 0.04)) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#2159ff") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by NDC Portfolio Detection Rate" ) +
+  xlab("Family") +
+  ylab("Detection Rates of NDC Portfolio") 
+```
+
+```{r}
+top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+ggplot(top10ndc_perc_DET, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_DET %>% filter(variable == "ndc"), aes(label = scales::percent(ndc_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00")) +
+  labs(title = "NDC Portfolio Detection Rates \nof Top 10 Labelers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Portfolio Size \n(by unique proprietary names)")
+```
+
+
+#### Comparing Validation and Detection Rates 
+
+
+```{r, eval = FALSE}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc))
+
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), aes(label = family, vjust = 0.1, hjust = 0.1))
+```
+
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "All Non-English - Validation Rates by NDC Portfolio Size") +
+  xlab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = ndc_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "All Non-English - Detection Rates by NDC Portfolio Size") +
+  xlab("NDC Detection Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+
+
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+***
+## Proximity - Launch - Detection Rate
+
+```{r}
+total_unval <- final_product_list_prox_LAUNCH %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+total_val <- ndc_validateset_results_launch_prox %>% 
+  #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
+  filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
+  # filter(Self == 1) %>% 
+  count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val")
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc1 = val/(unval+val),
+    val_perc = scales::percent(val/(unval+val)), 
+    ndc_perc1 = val/ndc,
+         ndc_perc = scales::percent(val/ndc))
+topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
+doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
+doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_launchprox_2020may01.RDS")
+```
+
+```{r}
+onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
+top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+top10green_perc <- top10greens %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)))
+top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
+top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
+top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
+
+```
+
+#### Validation Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = val_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'Launch' - Validation Rates") +
+  ylab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  xlab("134 Companies")
+
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, val_perc1), y = val_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(val_perc1)), hjust=1) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by SEC Capture Validation Rate" ) +
+  xlab("Family") +
+  ylab("SEC Capture Validation Rates") 
+```
+
+```{r}
+top10ndc_perc_VAL <- top10ndc_perc %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,5), by = "family")
+
+ggplot(top10ndc_perc_VAL, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_VAL %>% filter(variable == "unval"), aes(label = scales::percent(val_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#198a00")) +
+  labs(title = "SEC Capture Validation Rates \nof Top 10 Filers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Number of captures")
+```
+
+
+#### Detection Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#78d119") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'Launch' - Detection Rates") +
+  ylab("NDC Portfolio Detection Rate \nPer Company (Filer)") +
+  xlab("134 companies")
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, ndc_perc1), y = ndc_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(ndc_perc1), y = ndc_perc1 + 0.04)) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#2159ff") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by NDC Portfolio Detection Rate" ) +
+  xlab("Family") +
+  ylab("Detection Rates of NDC Portfolio") 
+```
+
+```{r}
+top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+ggplot(top10ndc_perc_DET, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_DET %>% filter(variable == "ndc"), aes(label = scales::percent(ndc_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00")) +
+  labs(title = "NDC Portfolio Detection Rates \nof Top 10 Labelers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Portfolio Size \n(by unique proprietary names)")
+```
+
+
+
+#### Proximity to 'Launch' - Comparing Validation and Detection Rates 
+
+```{r, eval = FALSE}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc))
+
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), aes(label = family, vjust = 0.1, hjust = 0.1))
+```
+
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Launch Proximity - Validation Rates by NDC Portfolio Size") +
+  xlab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = ndc_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Launch Proximity - Detection Rates by NDC Portfolio Size") +
+  xlab("NDC Detection Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+***
+
+## Proximity - New Product - Detection Rate
+
+```{r}
+total_unval <- final_product_list_prox_NEWPROD %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+total_val <- ndc_validateset_results_newprod_prox %>% 
+  #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
+  filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
+  # filter(Self == 1) %>% 
+  count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val")
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc1 = val/(unval+val),
+    val_perc = scales::percent(val/(unval+val)), 
+    ndc_perc1 = val/ndc,
+         ndc_perc = scales::percent(val/ndc))
+topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
+doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
+doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_launchnewprod_2020may01.RDS")
+```
+
+```{r}
+onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
+top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+top10green_perc <- top10greens %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)))
+top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
+top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
+top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
+
+```
+
+#### Validation Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = val_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'New Product' - Validation Rates") +
+  ylab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  xlab("134 Companies")
+
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, val_perc1), y = val_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(val_perc1)), hjust=1) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by SEC Capture Validation Rate" ) +
+  xlab("Family") +
+  ylab("SEC Capture Validation Rates") 
+```
+
+```{r}
+top10ndc_perc_VAL <- top10ndc_perc %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,5), by = "family")
+
+ggplot(top10ndc_perc_VAL, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_VAL %>% filter(variable == "unval"), aes(label = scales::percent(val_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#198a00")) +
+  labs(title = "SEC Capture Validation Rates \nof Top 10 Filers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Number of captures")
+```
+
+
+#### Detection Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#78d119") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'New Product' - Detection Rates") +
+  ylab("NDC Portfolio Detection Rate \nPer Company (Filer)") +
+  xlab("134 companies")
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, ndc_perc1), y = ndc_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(ndc_perc1), y = ndc_perc1 + 0.04)) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#2159ff") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by NDC Portfolio Detection Rate" ) +
+  xlab("Family") +
+  ylab("Detection Rates of NDC Portfolio") 
+```
+
+```{r}
+top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+ggplot(top10ndc_perc_DET, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_DET %>% filter(variable == "ndc"), aes(label = scales::percent(ndc_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00")) +
+  labs(title = "NDC Portfolio Detection Rates \nof Top 10 Labelers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Portfolio Size \n(by unique proprietary names)")
+```
+
+
+
+#### Proximity to 'New Product' - Comparing Validation and Detection Rates 
+
+```{r, eval = FALSE}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc))
+
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), aes(label = family, vjust = 0.1, hjust = 0.1))
+```
+
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "New Product Proximity - Validation Rates by NDC Portfolio Size") +
+  xlab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = ndc_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "New Product Proximity - Detection Rates by NDC Portfolio Size") +
+  xlab("NDC Detection Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+***
+
+## Proximity - New Drug - Detection Rate
+
+```{r}
+total_unval <- final_product_list_prox_NEWDRUG %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+total_val <- ndc_validateset_results_newdrug_prox %>% 
+  #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
+  filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
+  # filter(Self == 1) %>% 
+  count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val")
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc1 = val/(unval+val),
+    val_perc = scales::percent(val/(unval+val)), 
+    ndc_perc1 = val/ndc,
+         ndc_perc = scales::percent(val/ndc))
+topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
+doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
+doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdrugprox_2020may01.RDS")
+```
+
+```{r}
+onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
+top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+top10green_perc <- top10greens %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)))
+top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
+top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
+top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
+
+```
+
+#### Validation Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = val_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'New Drug' - Validation Rates") +
+  ylab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  xlab("134 Companies")
+
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, val_perc1), y = val_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(val_perc1)), hjust=1) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by SEC Capture Validation Rate" ) +
+  xlab("Family") +
+  ylab("SEC Capture Validation Rates") 
+```
+
+```{r}
+top10ndc_perc_VAL <- top10ndc_perc %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,5), by = "family")
+
+ggplot(top10ndc_perc_VAL, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_VAL %>% filter(variable == "unval"), aes(label = scales::percent(val_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#198a00")) +
+  labs(title = "SEC Capture Validation Rates \nof Top 10 Filers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Number of captures")
+```
+
+
+#### Detection Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#78d119") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'New Drug' - Detection Rates") +
+  ylab("NDC Portfolio Detection Rate \nPer Company (Filer)") +
+  xlab("134 companies")
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, ndc_perc1), y = ndc_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(ndc_perc1), y = ndc_perc1 + 0.04)) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#2159ff") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by NDC Portfolio Detection Rate" ) +
+  xlab("Family") +
+  ylab("Detection Rates of NDC Portfolio") 
+```
+
+```{r}
+top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+ggplot(top10ndc_perc_DET, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_DET %>% filter(variable == "ndc"), aes(label = scales::percent(ndc_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00")) +
+  labs(title = "NDC Portfolio Detection Rates \nof Top 10 Labelers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Portfolio Size \n(by unique proprietary names)")
+```
+
+
+#### Proximity to 'New Drug' - Comparing Validation and Detection Rates 
+
+```{r, eval = FALSE}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc))
+
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), aes(label = family, vjust = 0.1, hjust = 0.1))
+```
+
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "New Drug Proximity - Validation Rates by NDC Portfolio Size") +
+  xlab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = ndc_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "New Drug Proximity - Detection Rates by NDC Portfolio Size") +
+  xlab("NDC Detection Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+***
+## Proximity - New Device - Detection Rate
+
+```{r}
+total_unval <- final_product_list_prox_NEWDEVICE %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+total_val <- ndc_validateset_results_newdevice_prox %>% 
+  #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
+  filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
+  # filter(Self == 1) %>% 
+  count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val")
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc1 = val/(unval+val),
+    val_perc = scales::percent(val/(unval+val)), 
+    ndc_perc1 = val/ndc,
+         ndc_perc = scales::percent(val/ndc))
+topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
+doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
+doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_newdeviceprox_2020may01.RDS")
+```
+
+```{r}
+onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
+top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+top10green_perc <- top10greens %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)))
+top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
+top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
+top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
+
+```
+
+#### Validation Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = val_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'New Device' - Validation Rates") +
+  ylab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  xlab("134 Companies")
+
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, val_perc1), y = val_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(val_perc1)), hjust=1) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by SEC Capture Validation Rate" ) +
+  xlab("Family") +
+  ylab("SEC Capture Validation Rates") 
+```
+
+```{r}
+top10ndc_perc_VAL <- top10ndc_perc %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,5), by = "family")
+
+ggplot(top10ndc_perc_VAL, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_VAL %>% filter(variable == "unval"), aes(label = scales::percent(val_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#198a00")) +
+  labs(title = "SEC Capture Validation Rates \nof Top 10 Filers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Number of captures")
+```
+
+
+#### Detection Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#78d119") +
+  theme(legend.position = "none") +
+  labs(title = "Proximity to 'New Device' - Detection Rates") +
+  ylab("NDC Portfolio Detection Rate \nPer Company (Filer)") +
+  xlab("134 companies")
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, ndc_perc1), y = ndc_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(ndc_perc1), y = ndc_perc1 + 0.04)) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#2159ff") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by NDC Portfolio Detection Rate" ) +
+  xlab("Family") +
+  ylab("Detection Rates of NDC Portfolio") 
+```
+
+```{r}
+top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+ggplot(top10ndc_perc_DET, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_DET %>% filter(variable == "ndc"), aes(label = scales::percent(ndc_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00")) +
+  labs(title = "NDC Portfolio Detection Rates \nof Top 10 Labelers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Portfolio Size \n(by unique proprietary names)")
+```
+
+
+#### Proximity to 'New Device' - Comparing Validation and Detection Rates 
+
+```{r, eval = FALSE}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc))
+
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), aes(label = family, vjust = 0.1, hjust = 0.1))
+```
+
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "New Device Proximity - Validation Rates by NDC Portfolio Size") +
+  xlab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = ndc_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "New Device Proximity - Detection Rates by NDC Portfolio Size") +
+  xlab("NDC Detection Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+
+***
+
+## Brand - Detection Rate
+
+```{r}
+total_unval <- final_product_list_brand %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+total_val <- ndc_validateset_results_brand %>% 
+  #filter(as.character(cik) %in% ndc_sec_ref$cik) %>% 
+  filter(!is.na(Prop_matches)|!is.na(NonProp_matches)) %>%
+  # filter(Self == 1) %>% 
+  count(family, drug = str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "val")
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc1 = val/(unval+val),
+    val_perc = scales::percent(val/(unval+val)), 
+    ndc_perc1 = val/ndc,
+         ndc_perc = scales::percent(val/ndc))
+topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
+doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
+doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_brand_2020may01.RDS")
+```
+
+```{r}
+onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
+top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+top10green_perc <- top10greens %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)))
+top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
+top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
+top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
+
+```
+
+#### Validation Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = val_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Brand - Validation Rates") +
+  ylab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  xlab("134 Companies")
+
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, val_perc1), y = val_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(val_perc1)), hjust=1) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by SEC Capture Validation Rate" ) +
+  xlab("Family") +
+  ylab("SEC Capture Validation Rates") 
+```
+
+```{r}
+top10ndc_perc_VAL <- top10ndc_perc %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,5), by = "family")
+
+ggplot(top10ndc_perc_VAL, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_VAL %>% filter(variable == "unval"), aes(label = scales::percent(val_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#198a00")) +
+  labs(title = "SEC Capture Validation Rates \nof Top 10 Filers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Number of captures")
+```
+
+
+#### Detection Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#78d119") +
+  theme(legend.position = "none") +
+  labs(title = "Brand - Detection Rates") +
+  ylab("NDC Portfolio Detection Rate \nPer Company (Filer)") +
+  xlab("134 companies")
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, ndc_perc1), y = ndc_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(ndc_perc1), y = ndc_perc1 + 0.04)) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#2159ff") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by NDC Portfolio Detection Rate" ) +
+  xlab("Family") +
+  ylab("Detection Rates of NDC Portfolio") 
+```
+
+```{r}
+top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+ggplot(top10ndc_perc_DET, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_DET %>% filter(variable == "ndc"), aes(label = scales::percent(ndc_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00")) +
+  labs(title = "NDC Portfolio Detection Rates \nof Top 10 Labelers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Portfolio Size \n(by unique proprietary names)")
+```
+
+
+
+#### Brand - Comparing Validation and Detection Rates 
+
+```{r, eval = FALSE}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc))
+
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc_perc1)) +
+  geom_point(stat = "identity", aes(color = ndc, size = ndc)) +
+  scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), aes(label = family, vjust = 0.1, hjust = 0.1))
+```
+
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = val_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Brand - Validation Rates by NDC Portfolio Size") +
+  xlab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+```{r}
+ggplot(data = doublebars_perc, aes(x = ndc_perc1, y = ndc)) +
+  geom_point(stat = "identity", aes()) +
+  # scale_color_continuous(type = "viridis") +
+  geom_text(data = doublebars_perc %>% filter(ndc > 50), 
+            aes(label = family, vjust = -0.4, hjust = 0.4)) +
+  customPlot2 +
+  labs(title = "Brand - Detection Rates by NDC Portfolio Size") +
+  xlab("NDC Detection Rate \nPer Company (Labeler)") + 
+  ylab("NDC Portfolio Size \n(by Unique Proprietary Drug Names)")
+```
+
+Companies labeled on right have NDC Portfolios with more than 50 unique proprietary drug names.
+
+
+## Other Things
+
+
+```{r }
+capt_val_allnoneng <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_capt_val_apr282020.RDS")
+
+capt_val_launch <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxlaunch_capt_val_apr282020.RDS")
+
+capt_val_new_prod <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewprod_capt_val_apr282020.RDS")
+
+capt_val_new_drug <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewdrug_capt_val_apr282020.RDS")
+
+capt_val_new_device <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/proxnewdevice_capt_val_apr282020.RDS")
+
+capt_val_brand <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_capt_val_apr282020.RDS")
+
+```
+
+
+```{r}
+# capt_val_allnoneng %>% head(10)
+
+```
+
+```{r}
+capt_val_allnoneng %>% count(prop_match_blank = is.na(Prop_matches), nonprop_blank = is.na(NonProp_matches))
+lookatme <- capt_val_allnoneng %>% filter(is.na(Prop_matches) & is.na(NonProp_matches))
+
+lookatme %>% count(eur_match_blank = is.na(Eur_Prop_matches)) %>% knitr::kable()
+lookatme %>% count(diag_match_blank = is.na(Diag_matches)) %>% knitr::kable()
+lookatme %>% count(name_match_blank = is.na(FNamee_matchese)) %>% knitr::kable()
+lookatme %>% count(device_match_blank = is.na(Device_Prop_matches)) %>% knitr::kable()
+lookatme %>% count(french = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("fr_FR"))) %>% knitr::kable()
+lookatme %>% count(german = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("de_DE"))) %>% knitr::kable()
+lookatme %>% count(spanish = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("es_ES"))) %>% knitr::kable()
+# lookatme %>% count(hebrew = hunspell::hunspell_check(word_low, dict = hunspell::dictionary("he_IS")))
+
+lookatme %>% 
+  filter(is.na(Eur_Prop_matches) & is.na(Diag_matches) & is.na(FNamee_matchese) & is.na(Device_Prop_matches)) %>%
+  filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("fr_FR")) ==  FALSE) %>%
+  filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("de_DE")) ==  FALSE) %>% 
+  filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("es_ES")) ==  FALSE) %>% 
+  nrow()
+
+lookatme %>% 
+  filter(is.na(Eur_Prop_matches) & is.na(Diag_matches) & is.na(FNamee_matchese) & is.na(Device_Prop_matches)) %>%
+  filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("fr_FR")) ==  FALSE) %>%
+  filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("de_DE")) ==  FALSE) %>% 
+  filter(hunspell::hunspell_check(word_low, dict = hunspell::dictionary("es_ES")) ==  FALSE) %>% 
+  head(10000) %>% count(word_low) %>% arrange(desc(n)) %>% head(10) %>% knitr::kable()
+```
+
+***
+
+
+
+```{r eval = FALSE}
+all_eng_portfolio_results <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/allnoneng_val_portf_check_may062020.RDS")
+prox_launch_portfolio_results <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/launch_val_portf_check_may062020.RDS")
+prox_newprod_portfolio_results <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newprod_val_portf_check_may062020.RDS")
+prox_newdrug_portfolio_results <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdrug_val_portf_check_may062020.RDS")
+prox_newdevice_portfolio_results <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/newdevice_val_portf_check_may062020.RDS")
+brand_portfolio_match <- readRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/brand_val_portf_check_may062020.RDS")
+```
+
+
+
+### Proximity - 3 Methods Combined
+
+```{r}
+total_unval_launch <- final_product_list_prox_LAUNCH %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% filter(family == "abbvie") %>% 
+  count(family, Token) %>% select(-n) 
+
+total_unval_product <- final_product_list_prox_NEWPROD %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_unval_drug <- final_product_list_prox_NEWDRUG %>% 
+  mutate(Company = as.numeric(Company)) %>%
+  inner_join(ndc_sec_ref %>% select(cik, LABELERNAME = ndc_labeler, family), by = c("Company" = "cik")) %>%
+  select(family, Token, Brand, Name) %>% 
+  count(family, Token) %>% select(-n)
+
+total_unval <- rbind(total_unval_launch, total_unval_product, total_unval_drug) %>% distinct()  %>% 
+  count(family) %>% 
+  mutate(sec = "unval")
+```
+
+
+```{r}
+total_val_launch <- ndc_validateset_results_launch_prox %>% 
+  filter(!is.na(Prop_matches_ANY)|!is.na(NonProp_matches_ANY)) %>%
+  count(family, drug = PROPRIETARYNAME) %>% #str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) 
+
+total_val_product <- ndc_validateset_results_newprod_prox %>% 
+  filter(!is.na(Prop_matches_ANY)|!is.na(NonProp_matches_ANY)) %>%
+  count(family, drug = PROPRIETARYNAME) %>%  #str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) 
+
+total_val_drug <- ndc_validateset_results_newdrug_prox %>% 
+  filter(!is.na(Prop_matches_ANY)|!is.na(NonProp_matches_ANY)) %>%
+  count(family, drug = PROPRIETARYNAME) %>% #str_to_lower(ifelse(!is.na(Prop_matches), Prop_matches, NonProp_matches))) %>% 
+  select(-n) 
+
+total_val <- rbind(total_val_launch, total_val_product, total_val_drug) %>% distinct() %>% 
+  count(family) %>% 
+  mutate(sec = "val")
+```
+
+```{r}
+total_ndc <- ndc_validateset %>% 
+  count(family, PROPRIETARYNAME) %>% 
+  select(-n) %>% 
+  count(family) %>% 
+  mutate(sec = "ndc")
+```
+
+```{r}
+doublebars <- rbind(total_unval, total_val, total_ndc) %>% arrange(family)
+doublebarsdoublecheck <- doublebars %>% count(family, sec) %>% select(-n) %>% count(family) %>% filter(n == 3)
+doublebars <- doublebars %>% filter(family %in% doublebarsdoublecheck$family)
+doublebars_perc <- doublebars %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc1 = val/(unval+val),
+    val_perc = scales::percent(val/(unval+val)), 
+    ndc_perc1 = val/ndc,
+         ndc_perc = scales::percent(val/ndc))
+# topndcportfolios <- doublebars %>% filter(sec == "ndc" & n > 100) %>% .$family
+# doublebars_topndc <- doublebars %>% filter(family %in% topndcportfolios)
+# doublebars_perc_top <- doublebars_perc %>% filter(family %in% topndcportfolios)
+
+# doublebars_perc %>% saveRDS("/project/biocomplexity/sdad/projects_data/ncses/bi/binn/working/sec/wordlist_april21_2020_MANIP/doublebars_3proxmethods_2020may07.RDS")
+```
+
+```{r}
+onlygreenbars <- rbind(total_unval, total_val) %>% arrange(family)
+top10greens <- onlygreenbars %>% group_by(family) %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10greens <- onlygreenbars %>%  filter(family %in% top10greens$family)
+top10green_perc <- top10greens %>%
+  reshape2::dcast(family  ~ sec, sum, value.var = "n") %>% 
+  mutate(val_perc = scales::percent(val/(unval+val)))
+top10greens$family <- reorder(top10greens$family, top10greens$n, order = T)
+onlyndcbars <- rbind(total_val, total_ndc)  %>% arrange(family)
+top10ndcbars <- onlyndcbars %>% group_by(family)  %>% summarise(sum = sum(n)) %>% arrange(desc(sum)) %>% head(10)
+top10ndcbars <- onlyndcbars %>%  filter(family %in% top10ndcbars$family)
+top10ndc_perc <- top10ndcbars  %>% select(family) %>% distinct() %>% left_join(doublebars_perc, by = "family")
+
+```
+
+
+#### Validation Rates
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = val_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "3 Proximity Methods - Validation Rates") +
+  ylab("SEC Capture Validation Rate \nPer Company (Labeler)") + 
+  xlab(" Companies")
+
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, val_perc1), y = val_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(val_perc1)), hjust=1) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#fcba03") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by SEC Capture Validation Rate" ) +
+  xlab("Family") +
+  ylab("SEC Capture Validation Rates") 
+```
+
+```{r}
+top10ndc_perc_VAL <- top10ndc_perc %>% select(1,3,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,5), by = "family")
+
+ggplot(top10ndc_perc_VAL, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_VAL %>% filter(variable == "unval"), aes(label = scales::percent(val_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#fcba03", "#198a00")) +
+  labs(title = "SEC Capture Validation Rates \nof Top 10 Filers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Number of captures")
+```
+
+
+#### Detection Rates
+
+
+```{r}
+ggplot(doublebars_perc, aes(x = "", y = ndc_perc1, fill = "")) +
+  geom_violin() +
+  violin_addons +
+  customPlot2 +
+  scale_fill_manual(values = "#78d119") +
+  theme(legend.position = "none") +
+  labs(title = "3 Proximity Methods - Detection Rates") +
+  ylab("NDC Portfolio Detection Rate \nPer Company (Filer)") +
+  xlab(" companies")
+```
+
+```{r eval = FALSE}
+ggplot(top10ndc_perc, aes(x = reorder(family, ndc_perc1), y = ndc_perc1, fill = "")) + 
+  geom_bar(stat = "identity") +
+  geom_text(aes(label=scales::percent(ndc_perc1), y = ndc_perc1 + 0.04)) +
+  customPlot2 + 
+  coord_flip() +
+  scale_fill_manual(values = "#2159ff") +
+  theme(legend.position = "none") +
+  labs(title = "Top 10 Corporate families by NDC Portfolio Detection Rate" ) +
+  xlab("Family") +
+  ylab("Detection Rates of NDC Portfolio") 
+```
+
+```{r}
+top10ndc_perc_DET <- top10ndc_perc %>% select(1,2,4) %>% reshape2::melt(value.name = "n") %>% left_join(top10ndc_perc %>% select(1,7), by = "family")
+
+ggplot(top10ndc_perc_DET, aes(x = reorder(family, n), y = n,  fill = variable)) +
+  geom_bar(stat = "identity") +
+  geom_text(data = top10ndc_perc_DET %>% filter(variable == "ndc"), aes(label = scales::percent(ndc_perc1))) +
+  coord_flip() +
+  customPlot2 +
+  scale_fill_manual(values = c("#78d119", "#198a00")) +
+  labs(title = "NDC Portfolio Detection Rates \nof Top 10 Labelers", subtitle = "(top 10 by total captures)") +
+  xlab( "Company") + 
+  ylab("Portfolio Size \n(by unique proprietary names)")
+```
