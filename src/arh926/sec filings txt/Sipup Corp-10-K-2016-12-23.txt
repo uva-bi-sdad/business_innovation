@@ -1,0 +1,10539 @@
+
+
+ACCESSION NUMBER:		0001213900-16-019657
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		37
+CONFORMED PERIOD OF REPORT:	20151130
+FILED AS OF DATE:		20161223
+DATE AS OF CHANGE:		20161223
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Sipup Corp
+		CENTRAL INDEX KEY:			0001563227
+		STANDARD INDUSTRIAL CLASSIFICATION:	DAIRY PRODUCTS [2020]
+		IRS NUMBER:				990382107
+		FISCAL YEAR END:			1130
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-185408
+		FILM NUMBER:		162068050
+	BUSINESS ADDRESS:	
+		STREET 1:		245 PARK AVENUE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10167
+		BUSINESS PHONE:		212-792-4000
+	MAIL ADDRESS:	
+		STREET 1:		245 PARK AVENUE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10167
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+Washington
+ D.C. 20549
+
+
+
+
+
+
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the fiscal year ended November 30
+ 2015
+or
+
+
+
+For the transition period from ____________________to
+_________________________
+
+
+
+    
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+
+    
+
+    
+    
+identification no.)
+
+    
+    
+    
+
+ floor
+New York
+ NY
+    
+    
+
+    
+    
+    
+
+
+
+
+
+Registrant&rsquo;s telephone number
+ including area code&nbsp;212-792-4000
+
+
+Securities registered pursuant to Section
+12(b) of the Act: none
+
+
+of the Act: Common Stock
+ par value $0.001 per share
+
+
+a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act.&nbsp;Yes&#9744;&nbsp;No&nbsp;&#9746;
+
+
+not required to file reports pursuant to Section 13 or Section 15(d) of the Act.&nbsp;Yes&nbsp;&#9744;&nbsp;&nbsp;No&nbsp;&#9746;
+
+
+(1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding
+12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2) has been subject to such
+filing requirements for the past 90 days.&nbsp;Yes&nbsp;&#9744;&nbsp;&nbsp;No&nbsp;&#9746;
+
+
+has submitted electronically and posted on its corporate Web site
+ if any
+ every Interactive Data File required to be submitted
+and posted pursuant to Rule 405 of Regulation S-T (&sect; 232.405 of this chapter) during the preceding 12 months (or for such
+shorter period that the registrant was required to submit and post such files).&nbsp;Yes&nbsp;&#9746;&nbsp;&nbsp;No&nbsp;&#9744;
+
+
+filers pursuant to Item 405 of Regulation S-K (&sect; 229.405 of this chapter) is not contained herein
+ and will not be contained
+to the best of registrant&rsquo;s knowledge
+ in definitive proxy or information statements incorporated by reference in Part III
+of this Form 10-K or any amendment to this Form 10-K.&nbsp; &#9744;
+
+Indicate
+by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller
+reporting company. See the definitions of&nbsp;&ldquo;large accelerated filer&rdquo;
+ &ldquo;accelerated filer&rdquo; and &ldquo;smaller
+reporting company&rdquo; in Rule 12b-2 of the Exchange Act.
+
+
+
+Large
+    accelerated filer&nbsp; &#9744;
+Accelerated
+    filer&nbsp;&nbsp; &#9744;
+
+Non-accelerated
+filer &#9744;
+Smaller
+    reporting company&nbsp;&nbsp; &#9746;
+
+
+
+is a shell company (as defined in Rule 12b-2 of the Act).&nbsp;Yes&nbsp;&nbsp;&#9746;&nbsp;&nbsp;&nbsp;No&#9744;
+
+
+non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold
+ or
+the average bid and asked price of such common equity
+ as of the last business day of the registrant&rsquo;s most recently completed
+second fiscal quarter is $152
+500.
+
+
+ 2016
+ Sipup Corporation
+had 4
+000
+000 shares issued and outstanding.
+
+
+
+
+
+
+    
+    
+
+
+
+2015
+ANNUAL REPORT ON FORM 10-K
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+Item 5. Market for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+Item 10. Directors
+ Executive Officers and Corporate Governance
+    
+
+    
+    
+
+    
+    
+
+Item 13 Certain Relationships and Related Transactions
+ and Director Independence
+    
+
+    
+    
+
+Item 15. Exhibits
+ Financial Statement Schedules
+    
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+10-K of Sipup Corporation
+ a Nevada corporation
+ contains &ldquo;forward-looking statements
+&rdquo; as defined in the United States
+Private Securities Litigation Reform Act of 1995. In some cases
+ you can identify forward-looking statements by terminology such
+as &ldquo;may&rdquo;
+ &ldquo;will&rdquo;
+ &ldquo;should&rdquo;
+ &ldquo;could&rdquo;
+ &ldquo;expects&rdquo;
+ &ldquo;plans&rdquo;
+&ldquo;intends&rdquo;
+ &ldquo;anticipates&rdquo;
+ &ldquo;believes&rdquo;
+ &ldquo;estimates&rdquo;
+ &ldquo;predicts&rdquo;
+ &ldquo;potential&rdquo;
+or &ldquo;continue&rdquo; or the negative of such terms and other comparable terminology. These forward-looking statements include
+without limitation
+ statements about our market opportunity
+ our strategies
+ competition
+ expected activities and expenditures
+as we pursue our business plan
+ and the adequacy of our available cash resources. Although we believe that the expectations reflected
+in the forward-looking statements are reasonable
+ we cannot guarantee future results
+ levels of activity
+ performance or achievements.
+Actual results may differ materially from the predictions discussed in these forward-looking statements. The economic environment
+within which we operate could materially affect our actual results. Additional factors that could materially affect these forward-looking
+statements and/or predictions include
+ among other things:
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+
+
+
+list of the factors that may affect any of our forward-looking statements. These and other factors should be considered carefully
+and readers should not place undue reliance on our forward-looking statements. Forward looking statements are made based on management&rsquo;s
+beliefs
+ estimates and opinions on the date the statements are made and we undertake no obligation to update forward-looking statements
+if these beliefs
+ estimates and opinions or other circumstances should change. Although we believe that the expectations reflected
+in the forward-looking statements are reasonable
+ we cannot guarantee future results
+ levels of activity
+ performance or achievements.
+Except as required by applicable law
+ including the securities laws of the United States
+ we do not intend to update any of the
+forward-looking statements to conform these statements to actual results.
+
+
+to place undue reliance on any such forward-looking statements
+ which speak only as of the date made. We disclaim any obligation
+subsequently to revise any forward-looking statements to reflect events or circumstances after the date of such statements or to
+reflect the occurrence of anticipated or unanticipated events.
+
+
+Form 10-K to the &ldquo;Company&rdquo;
+ &ldquo;Sipup&rdquo;
+ &ldquo;we&rdquo;
+ &ldquo;us
+&rdquo; or &ldquo;our&rdquo; are to Sipup
+Corporation
+
+
+
+
+
+
+on October 31
+ 2012 under the laws of the State of Nevada for the purpose of producing
+ packing and selling flavored yogurts. &nbsp;We
+currently have no revenue generating business.
+
+
+the terms of a proposed transaction whereby the Company would acquire all of the outstanding capital stock of a privately held
+company engaged in the business of acquiring and developing commercial real estate property (the &quot;Target Company&quot;) in
+exchange for the issuance to the stockholders of the Target Company shares of the Company&rsquo;s common stock in an amount
+ after
+giving effect to the transaction
+ which would be equal to approximately 60% of the issued and outstanding stock of the Company.
+The transaction is expected to be treated as a recapitalization with the Target Company as the accounting acquirer (reverse acquisition).
+The proposed transaction is subject to the negotiation
+ execution and delivery of definitive agreements as well as the satisfaction
+of certain significant additional conditions
+ including the remittance by the Target Company up to $1
+000
+000 to the Company to
+be used to pay certain debts of the Company and the Company's legal and accounting fees in connection with negotiating the proposed
+transaction
+ the definitive documents for the proposed transaction and the preparation and filing of the Company's past due SEC
+reports. We are also exploring opportunities in the oil and gas exploration industry
+ focusing on acquisition of small &ndash;
+mid producing wells in USA and Canada. No assurance can be provided that the Company and Target Company will successfully conclude
+the proposed transaction with the Target Company or the other noted opportunity.
+
+
+
+    
+    
+
+
+
+
+
+ 2012
+ the
+Company was incorporated under the laws of the State of Nevada. Through fiscal year 2013
+ we were engaged in the production
+ packing
+and selling of flavored yogurts and have not generated any revenue; our independent auditors have issued an opinion about our ability
+to continue as a going concern in connection with our audited financial statements for the year ended November 30
+ 2015. Our accumulated
+deficit is $111
+841 as of November 30
+ 2015. We currently have no revenue generating business and are focusing on finalizing the
+transaction with the Target Company.
+
+
+an overview of our operations
+ discusses our results of operations
+ our plan of operations and our liquidity and capital resources.
+
+
+75
+000
+000 shares of common stock
+ par value $.001 per share. On November 19
+ 2012
+ we issued 3
+000
+000 shares of common stock
+to our sole officer and director on that date. Mr. Naeem purchased such 3
+000
+000 shares at a purchase price of $0.001 per share
+for an aggregate purchase price of $3
+000.
+
+
+ 2013
+ Mr.
+Nissim Barih (&ldquo;Barih&rdquo;) and several other unrelated persons (each a &ldquo;Buyer&rdquo; and collectively
+ the &ldquo;Buyers&rdquo;)
+closed on a transaction (the &ldquo;Purchase&rdquo;) in which the Buyers acquired a total of 3
+000
+000 shares (the &ldquo;Shares&rdquo;)
+of common stock
+ par value $0.001 per share (the &ldquo;Common Stock&rdquo;) of Sipup from Rashid Naeem
+ the Company&rsquo;s sole
+director and officer (&ldquo;Naeem&rdquo;) immediately prior to the Purchase. The Purchase was consummated pursuant to the Stock
+Purchase Agreement by and among the Buyers and Naeem. The aggregate purchase price paid for the Shares was $131
+000. The Shares
+represented&nbsp;in the aggregate 75% of all of the issued and outstanding shares of the Company&rsquo;s Common Stock.&nbsp;Barih
+one of the Buyers
+ holds 2
+475
+000 of the Shares
+ representing approximately 61% of all of our issued and outstanding Common Stock.
+The funds used to consummate the Purchase of the Shares were the personal funds of each participating Buyer. Accordingly
+ the purchase
+of the Shares resulted in a change in control of the Company.
+
+
+above transaction
+ Naeem resigned from all officers&rsquo; positions that he held in the Company
+ including President
+ Chief Executive
+Officer
+ Secretary and Treasurer
+ which resignation became effective immediately upon the closing of the Purchase.&nbsp;&nbsp;Contemporaneously
+with closing of the Purchase
+ Jacob Daddon was appointed as our President and Chief Executive Officer and our sole director. Effective
+July 1 2014
+ Messrs Rafi Elul and Peretz Winkler were appointed director and chief executive officer and director
+ respectively
+whereupon Mr. Daddon resigned. Thereafter
+ Effective March 17
+ 2015
+ Mr. Elul resigned and effective December 21
+ 2015
+ Mr. Baruch
+Yadid was appointed as a director
+ Mr. Yochai Ozeri was appointed as Interim Chief Executive Officer and Chief Financial Officer
+and as a director and Mr. Natanael Solomon was appointed VP Marketing and Investor Relations and as a director.
+
+
+
+
+October 31
+ 2012 in the State of Nevada. We have never declared bankruptcy
+ have never been in receivership
+ and have never been
+involved in any legal action or proceedings. Since incorporation
+ we have not made any significant purchase or sale of assets.
+&nbsp;.
+
+
+date of this filing we have had limited operating activities.&nbsp;Our financial statements from inception (October 31
+ 2012) through
+our fiscal year ended November 30
+ 2015 report no revenues and a net loss of $111
+841. Our independent auditor has issued an audit
+opinion for our Company which includes a statement expressing substantial doubt as to our ability to continue as a going concern.
+
+
+have incurred losses since inception.
+
+
+
+
+insurance. Because we do not have any insurance
+ if we are made a party of a legal action
+ we may not have sufficient funds to
+defend the litigation. If that occurs a judgment could be rendered against us that could cause us to cease operations.
+
+
+
+
+
+2016
+ we have two employees
+ all of whom are officers and work out of Israel. None of our employees are subject to a collective
+bargaining agreement.
+
+
+
+
+ floor
+ New York
+ NY 10005. Our telephone number is 212 792-4000.
+
+
+
+
+comply with all regulations
+ rules and directives of governmental authorities and agencies in any jurisdiction which we would conduct
+activities in the future. As of now there are no required governments approvals present that we need approval from or any existing
+government regulation on our business.
+
+
+any copyrights
+ patents or trademarks. We do not anticipate filing any copyright or trademark applications related to any assets
+over the next 12 months.
+
+
+
+    
+    
+
+
+
+
+
+as of November 30
+ 2015. We do not believe that our cash balance is sufficient to fund our limited levels of operations beyond
+one year&rsquo;s time.
+
+
+public accountant has issued a going concern opinion. This means that there is substantial doubt that we can continue as an on-going
+business for the next twelve months unless we obtain additional capital to pay our bills. This is because we have not generated
+revenues and no revenues are anticipated until we complete our initial business development. There is no assurance we will ever
+reach that stage.
+
+
+current cash and cash equivalents and cash generated from operations
+ if any
+ will be insufficient to satisfy our liquidity requirements
+for at least the next 12 months. We will require additional funds prior to such time and the Company will seek to obtain these
+funds by selling additional capital through private equity placements
+ debt or other sources of financing. If we are unable to
+obtain sufficient additional financing
+ we may be required to reduce the scope of our planned operations
+ which could harm our
+business
+ financial condition and operating results. Additional funding to meet our requirements may not be available on favorable
+terms
+ if at all.
+
+
+ we
+have been able to raise additional cash by selling of common stock
+ it will likely not be sufficient to support our planned operations.
+If we are unable to raise the cash needed to support our operations
+ we will either suspend product development and marketing activities
+until we do raise the cash
+ or cease operations entirely
+
+
+towards concluding the terms of the proposed transaction with the Target Company and finalizing and executing legally binding agreements
+with Target Company. If we enter into definitive agreement with the Target Company
+ we will be engaged in acquisition
+ development
+and management of income-producing properties in urban growth markets in Israel. In addition
+ if we successfully conclude appropriate
+agreement
+ we will be engaged in oil and gas exploration focus on acquisition of small &ndash; mid producing wells in USA and Canada.
+However
+ no assurance can be provided that we will be successful in concluding any of these or other transactions.
+
+
+capital
+ for which we have no commitments
+ management may also consider other business opportunities
+ including a strategic merger
+or acquisition outside our current line of business
+ in order to increase shareholder value.
+
+
+
+
+sheet arrangements that have or are reasonably likely to have a current or future effect on our financial condition
+ changes in
+financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures or capital resources.
+
+Limited operating history; Need for additional
+capital
+
+
+financial information about us upon which to base an evaluation of our performance. We are in start-up stage operations and have
+not generated any revenues. We cannot guarantee we will be successful in our business operations. Our business is subject to risks
+inherent in the establishment of a new business enterprise
+ including limited capital resources and possible cost overruns due
+to price and cost increases in services and products.
+
+
+future financing will be available to us on acceptable terms. If financing is not available on satisfactory terms
+ we may be unable
+to continue
+ develop or expand our operations. Equity financing could result in additional dilution to existing shareholders.
+
+Item
+1A. Risk Factors.
+
+
+reporting company as defined by rule 12b-2 of the Exchange Act and is not required to provide the information required under this
+item.
+
+Item 1B. Unresolved
+Staff Comments.
+
+
+
+
+
+
+ floor
+ Manhattan
+ NY. Our lease expires on February
+2017. We believe that our facilities are suitable and adequate for our present needs.
+
+
+
+    
+    
+
+
+Item 3. Legal
+Proceedings.
+
+
+to any legal proceedings
+ nor is there any known legal proceedings contemplated against the Company.
+
+
+ officer or
+affiliate of the Company and no owner of record or beneficial owner of more than 5.0% of the securities of the Company
+ or any
+associate of any such director
+ officer or security holder is a party adverse to the Company or has a material interest adverse
+to the Company in reference to pending litigation.
+
+Item 4. Mine
+Safety Disclosures.
+
+
+
+
+
+Item 5. Market
+for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+
+QUOTATION ON THE OTC BULLETIN BOARD AND
+OTC MARKETS GROUP INC.
+
+
+Sheets under the symbol &ldquo;SPUP.&rdquo;
+
+
+forth
+ for the periods indicated
+ the high and low closing bid prices of our common stock. These prices reflect inter-dealer prices
+without retail mark-up
+ mark-down or commission
+ and may not represent actual transactions.
+
+
+
+
+    
+    
+    
+
+
+ 2015
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+    
+    
+    
+
+
+ 2014
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+10-K&nbsp;the Company had 4
+000
+000 shares of our common stock issued and outstanding held by 12 holders of record.
+
+
+
+
+paid dividends on our common stock since our formation
+ and we do not anticipate paying dividends in the foreseeable future. Declaration
+or payment of dividends
+ if any
+ in the future
+ will be at the discretion of our Board of Directors and will depend on our then
+current financial condition
+ results of operations
+ capital requirements and other factors deemed relevant by the Board of Directors.
+There are no contractual restrictions on our ability to declare or pay dividends.
+
+SECURITIES AUTHORIZED UNDER EQUITY COMPENSATION
+PLANS
+
+
+or stock option plans. We may in the future adopt a stock option plan as our mineral exploration activities progress.
+
+
+
+    
+    
+
+
+Item 7. Management&rsquo;s
+Discussion and Analysis of Financial Condition and Results of Operations.
+
+
+
+From November 30
+ 2014 to November 30
+ 2015
+
+
+ we incorporated
+the Company
+ Our loss since inception is $95
+710 related primarily to professional fees
+ officers'
+compensation
+ and the incorporation of the Company
+ bank charges and office supplies. We have not meaningfully commenced our proposed
+business operations and will not do so until after receiving sufficient financing.
+
+
+ we have
+offered and sold (i) 3
+000
+000 shares of common stock to Rashid Naeem
+ our former officer and a director
+ at a purchase price of
+$0.001 per share
+ for aggregate proceeds of $3
+000 and we have offered and sold 1
+000
+000 shares at a purchase price of $0.05 per
+share
+ for aggregate proceeds of $50
+000.
+
+
+
+
+30
+ 2015 and 2014
+ we had no revenues.
+
+
+
+
+113
+comprised of Professional fees of $14
+500 and filling fees of $1
+631 resulting in a net loss of $16
+131 as compared to expenses
+of $25
+907 comprised of officer's compensation of $24
+817
+ and filling fees of $1
+090 resulting in a net loss of $25
+907 for the
+fiscal year ended November 30
+ 2014.
+
+
+
+
+ 2015
+the company had $Nil cash and our liabilities were $46
+773
+ consisting primarily of Accounts payable and accrued expenses of $39
+718
+and Loans payable of $7
+055. As of November 30
+ 2014
+ the company had $Nil cash and our liabilities were $30
+642
+ consisting primarily
+of Accounts payable and accrued expenses of $26
+087 and Loans payable of $4
+555. The available capital reserves of the Company
+are not sufficient for the Company to remain operational.
+
+
+stockholder advanced the Company $2
+500 and $2
+800
+ respectively
+ to pay expenses.&nbsp;
+
+
+a &ldquo;going concern&rdquo; opinion
+ meaning that there is substantial doubt if we can continue as an on-going business for the
+next twelve months unless we obtain additional capital. No substantial revenues are anticipated until after receiving sufficient
+financing and implementing our plan of operations. We must raise cash to implement our strategy and stay in business. The Company
+anticipates over the next 12 months the cost of being a reporting public company will be approximately $25
+000.
+
+
+further advances and debt instruments
+ and anticipated cash flow are expected to be inadequate to fund our operations over the
+next twelve months. We have no lines of credit or other bank financing arrangements. Generally
+ we have financed operations to
+date through the proceeds of the private placement of equity and debt instruments. In connection with our business plan
+ management
+anticipates additional increases in operating expenses and capital expenditures relating to: (i) acquisition of inventory; (ii)
+developmental expenses associated with a start-up business; and (iii) marketing expenses. Although we intend to finance these expenses
+with further issuances of securities
+ and debt issuances
+ no assurance can be provided that we will be able to raise funds on commercially
+acceptable terms or at all.
+
+
+current cash and cash equivalents and cash generated from operations
+ if any
+ will be insufficient to satisfy our liquidity requirements
+for at least the next 12 months. We will require additional funds prior to such time and the Company will seek to obtain those
+funds by selling additional capital through private equity placements
+ debt or other sources of financing. If we are unable to
+obtain sufficient additional financing
+ we may be required to reduce the scope of our planned operations
+ which could harm our
+business
+ financial condition and operating results. Additional funding to meet our requirements may not be available on favorable
+terms
+ if at all.
+
+
+ we
+have been able to raise additional cash by selling of common stock
+ it will likely not be sufficient to support our planned operations.
+If we are unable to raise the cash needed to support our operations
+ we will either suspend product development and marketing activities
+until we do raise the cash
+ or cease operations entirely. Because we have been unable to raise additional cash
+ Management may
+consider other business opportunities in order to maintain and increase shareholder value.
+
+
+upon the success of the private offerings of equity or debt securities
+ as described herein. Therefore
+ the failure thereof would
+result in the need to seek capital from other resources such as taking loans
+ which would likely not even be possible for the Company.
+At such time these funds are required
+ management would evaluate the terms of such debt financing. If the Company cannot raise
+additional proceeds via a private placement of its equity or debt securities
+ or secure a loan
+ the Company would be required to
+cease business operations. As a result
+ investors would lose all of their investment.
+
+
+
+    
+    
+
+
+
+
+
+
+
+of the Company have been prepared in accordance with generally accepted accounting principles in the United States of America and
+are presented in US dollars.
+
+
+
+
+and assumption in preparing these financial statements in accordance with generally accepted accounting principles. Those estimates
+and assumptions affect the reported amounts of assets and liabilities
+ the disclosure of contingent assets and liabilities
+ and
+the reported revenues and expenses.
+
+
+
+
+income taxes under ASC 740 &ldquo;Income Taxes&rdquo; which codified SFAS 109
+ &ldquo;Accounting for Income Taxes&rdquo; and FIN
+48 &ldquo;Accounting for Uncertainty in Income Taxes &ndash; an Interpretation of FASB Statement No. 109.&rdquo; Under the asset
+and liability method of ASC 740
+ deferred tax assets and liabilities are recognized for the future tax consequences attributable
+to differences between the financial statements carrying amounts of existing assets and liabilities and their respective tax bases.
+Deferred tax assets and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which
+those temporary differences are expected to be recovered or settled. Under ASC 740
+ the effect on deferred tax assets and liabilities
+of a change in tax rates is recognized in income in the period the enactment occurs. A valuation allowance is provided for certain
+deferred tax assets if it is more likely than not that the Company will not realize tax assets through future operations.
+
+
+
+
+Topic 820
+ &ldquo;Disclosures About Fair Value of Financial Instruments&rdquo;
+ requires the Company to disclose
+ when reasonably
+attainable
+ the fair market values of its assets and liabilities which are deemed to be financial instruments. The Company&rsquo;s
+financial instruments consist primarily of cash.
+
+
+
+
+loss per share accordance with FASB ASC 205 &ldquo;Earnings per Share&rdquo;. FASB ASC 205 requires presentation of both basic
+and diluted earnings per share (EPS) on the face of the income statement. Basic EPS is computed by dividing net loss available
+to common shareholders (numerator) by the weighted average number of shares outstanding (denominator) during the period. Diluted
+EPS gives effect to all potentially dilutive common shares outstanding during the period. Diluted EPS excludes all potentially
+dilutive shares if their effect is anti-dilutive.
+
+
+
+
+is accounted for at fair value in accordance with ASC Topic 718. &nbsp;To date
+ the Company has not adopted a stock option plan
+and has not granted any stock options.
+
+Item 7A. Quantitative
+and Qualitative Disclosures About Market Risk.
+
+
+company as defined in Rule 12b-2 of the Exchange Act and are not required to provide the information required under this item.
+
+Item 8. Financial
+Statements and Supplementary Data.
+
+
+for by Item 8 is included following the &ldquo;Index to Financial Statements&rdquo; on page F-1 contained in this annual report
+on Form 10-K.
+
+Item 9. Changes
+in and Disagreements with Accountants on Accounting and Financial Disclosure.
+
+
+
+
+
+    
+    
+
+
+Item 9A. Controls
+and Procedures.
+
+
+for establishing and maintaining adequate internal control over financial reporting. Internal control over financial reporting
+is defined in Rule 13a-15(f) or 15d-15(f) promulgated under the Securities Exchange Act of 1934 as a process designed by
+ or under
+the supervision of
+ the Company&rsquo;s principal executive and principal financial officers and effected by the Company&rsquo;s
+board of directors
+ management and other personnel to provide reasonable assurance regarding the reliability of our financial reporting
+and the preparation of financial statements for external purposes in accordance with accounting principles generally accepted in
+the United States of America and includes those policies and procedures that:
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+
+ use or disposition of company assets that could have a material effect on our financial statements.
+
+
+
+with the participation of our management
+ including our President and principal financial officer
+ an evaluation was performed
+on the effectiveness of the design and operation of our disclosure controls and procedures as of the end of the period covered
+by this report. Based on that evaluation
+ our President and principle executive officer
+ who also acts as our principal financial
+officer
+ concluded that our disclosure controls and procedures were not effective as of the end of the period covered by this report
+for the purpose of gathering
+ analyzing and disclosing of information that the Company is required to disclose in the reports it
+files under the Securities Exchange Act of 1934
+ within the time periods specified in the SEC&rsquo;s rules and forms.
+
+Management&rsquo;s Annual Report on Internal
+Control Over Financial Reporting
+
+
+ 2015
+management assessed the effectiveness of the Company&rsquo;s internal control over financial reporting based on the criteria for
+effective internal control over financial reporting established in Internal Control - Integrated Framework issued by the Committee
+of Sponsoring Organizations of the Treadway Commission (&ldquo;COSO&rdquo;) and SEC guidance on conducting such assessments. Based
+on that evaluation
+ they concluded that
+ during the period covered by this report
+ such internal control over financial reporting
+were not effective to detect the inappropriate application of US GAAP rules as more fully described below. This was due to deficiencies
+that existed in the design or operation of our internal control over financial reporting that adversely affected our internal controls
+and that may be considered to be material weaknesses.
+
+
+controls and procedures that the Company&rsquo;s management considered to be material weaknesses under the standards of the Public
+Company Accounting Oversight Board were: (1) lack of a functioning audit committee due to the lack of a majority of independent
+members and a lack of a majority of outside directors on our board of directors
+ resulting in ineffective oversight in the establishment
+and monitoring of required internal controls and procedures; (2) inadequate segregation of duties consistent with control objectives;
+and (3) ineffective controls over period end financial disclosure and reporting processes. The aforementioned material weaknesses
+were identified by our Chief Executive Officer in connection with the review of our financial statements as of November 30
+ 2015.
+
+
+the material weaknesses set forth in items (2) and (3) above did not have an effect on our financial results. However
+ management
+believes that the lack of a functioning audit committee and lack of a majority of outside directors on our board of directors
+results in ineffective oversight in the establishment and monitoring of required internal controls and procedures which could result
+in a material misstatement in our financial statements in future periods.
+
+
+the identified material weaknesses and other deficiencies and enhance our internal controls
+ we have initiated or plan to initiate
+the following series of measures.
+
+
+to segregate duties consistent with control objectives and will increase our personnel resources and technical accounting expertise
+within the accounting function when funds are available to us. And we plan to appoint one or more outside directors to our board
+of directors who shall be appointed to an audit committee who will undertake the oversight in the establishment and monitoring
+of required internal controls and procedures such as reviewing and approving estimates and assumptions made by management when
+funds are available to us.
+
+
+the appointment of one or more outside directors
+ who shall be appointed to a fully functioning audit committee
+ will remedy the
+lack of a functioning audit committee and a lack of a majority of outside directors on our Board.
+
+
+and evaluate the effectiveness of our internal controls and procedures and our internal controls over financial reporting on an
+ongoing basis and are committed to taking further action and implementing additional enhancements or improvements
+ as necessary
+and as funds allow.
+
+
+changes in our internal controls over financial reporting that occurred during the fourth quarter of 2014 which has materially
+affected or are reasonably likely to materially affect
+ our internal controls over financial reporting.
+
+
+
+    
+    
+
+
+
+not include an attestation report of the Company&rsquo;s independent registered public accounting firm regarding internal control
+over financial reporting. Management&rsquo;s report was not subject to attestation by the Company&rsquo;s independent registered
+public accounting firm pursuant to temporary rules of the Securities and Exchange Commission that permit the Company to provide
+management report in the Annual Report.
+
+
+
+
+
+
+
+Item 10. Directors
+Executive Officers and Corporate Governance.
+
+
+10-K&nbsp;the Directors and Officers currently serving our Company are as follows:
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+ Chief Financial Officer
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+will serve until the next annual meeting of the stockholders or until their respective resignation or removal from office. Thereafter
+directors are anticipated to be elected for one-year terms at the annual stockholders&rsquo; meeting. Officers will hold their
+positions at the pleasure of the Board of Directors.
+
+Yochai Ozeri
+ Age 40
+
+
+since January 2012
+ as the Director of Finance and Treasurer of deltathree. In his current roles at deltathree
+ Mr. Ozeri serves
+as its principal financial officer and principal accounting officer. Prior to assuming the positions of at deltathree
+ Mr. Ozeri
+served as Controller from August 2009 until January 2012. Founded in 1996
+ deltathree
+ Inc. is a global provider of Voice over
+Internet Protocol (VoIP) telephony services
+ products
+ and solutions for partners
+ resellers and direct consumers. Prior to joining
+deltathree
+ Mr. Ozeri served as a senior auditor at Kost
+ Forer
+ Gabbay &amp; Kasierer
+ a member firm of Ernst &amp; Young International
+in its technology practice group. Mr. Ozeri is a Certified Public Accountant.&nbsp;
+
+Netanael Salomon
+ Age 28
+
+
+since November 2014
+ as a sales executive in Binary Partners which experts in building traded platform online binary option and
+Forex platforms for dealers. Prior to assuming the positions of at Binary Partners
+ Mr. Salomon served from July 2013 as Vice President;
+sales and marketing in Webresult an internet marketing solutions company. Mr. Salmon has served from March 2012 to July 2013 as
+a consultant and manager of &ldquo;call of the shofar&rdquo; Israeli branch
+ a non-profit focuses on personal and relational transformation.
+From November 2010 to March 2012 as a youth guide in Gush Etzion regional municipality managing employment projects for youth on
+summer vacation
+
+Baruch Yadid
+ Age 59
+
+
+Yadid was involved&nbsp;in several real estates and commercial deals in Israel and abroad
+ he also played a major role in the successes
+of private companies
+
+
+
+
+qualify as an independent director in accordance with the published listing requirements of the NASDAQ Global Market. The NASDAQ
+independence definition includes a series of objective tests
+ such as that the director is not
+ and has not been for at least three
+years
+ one of our employees and that neither the director
+ nor any of his family members has engaged in various types of business
+dealings with us. In addition
+ our board of director has not made a subjective determination as to its sole director that no relationships
+exist which
+ in the opinion of our board of director
+ would interfere with the exercise of independent judgment in carrying out
+the responsibilities of a director
+ though such subjective determination is required by the NASDAQ rules. &nbsp;Had our board of
+director made these determinations
+ our board of director would have reviewed and discussed information provided by the director
+and us with regard to each director business and personal activities and relationships as they may relate to us and our management.
+
+
+
+    
+    
+
+
+
+
+
+audit or compensation committee comprised of independent directors
+ the functions that would have been performed by such committees
+are performed by our current directors. The Board of Director has not established an audit committee and does not have an audit
+committee financial expert
+ nor has the Board established a nominating committee. The Board is of the opinion that such committees
+are not necessary since the Company is an early development stage company
+ and to date
+ such directors have been performing the
+functions of such committees. Thus
+ there is a potential conflict of interest in that our directors have the authority to determine
+issues concerning management compensation
+ nominations
+ and audit issues that may affect management decisions.
+
+
+
+
+that have occurred in the past 10 years concerning our sole officer and director which involved a criminal conviction
+ a criminal
+proceeding
+ an administrative or civil proceeding limiting one&rsquo;s participation in the securities or banking industries
+ or
+a finding of securities or commodities law violations.&nbsp;
+
+
+
+
+among the directors and officers of Sipup Corporation.
+
+
+
+
+audit or compensation committee comprised of independent directors
+ the functions that would have been performed by such committees
+are performed by our directors. The Board of Directors has not established an audit committee and does not have an audit committee
+financial expert
+ nor has the Board of Directors established a nominating committee. The Board is of the opinion that such committees
+are not necessary since the Company is an early exploration stage company and has only two directors
+ and to date
+ such directors
+have been performing the functions of such committees. Thus
+ there is a potential conflict of interest in that our directors and
+officers have the authority to determine issues concerning management compensation
+ nominations
+ and audit issues that may affect
+management decisions.
+
+
+among our directors or officers. Other than as described above
+ we are not aware of any other conflicts of interest with any of
+our executive officers or directors.
+
+
+
+
+a code of ethics that applies to its principal executive officers
+ principal financial officer
+ principal accounting officer or
+controller
+ or persons performing similar functions. The Company has not adopted a code of ethics because it currently has minimal
+operations.
+
+SECTION 16(A) BENEFICIAL OWNERSHIP REPORTING
+COMPLIANCE
+
+
+Exchange Act of 1934 requires our executive officers and directors
+ and persons who own more than ten percent of a registered class
+of our equity securities
+ file reports of ownership and changes in ownership with the SEC. Executive officers
+ directors and greater-than-ten
+percent stockholders are required by SEC regulations to furnish us with all Section 16(a) forms they file. Based on our review
+of filings made on the SEC website
+ and the fact of us not receiving certain forms or written representations from certain reporting
+persons that they have complied with the relevant filing requirements
+ we believe that
+ during the year ended November 30
+ 2015
+none of our executive officers
+ directors and greater-than-ten percent stockholders complied with all Section 16(a) filing requirements.&nbsp;
+
+Item 11. Executive
+Compensation.
+
+
+
+
+all compensation awarded to
+ earned by
+ or paid to our Officer for all services rendered in all capacities to us for the fiscal
+periods indicated.
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+our director serving on our board of director.
+
+
+
+    
+    
+
+
+
+
+
+stock options to the executive officer since our inception. Upon the further development of our business
+ we will likely grant
+options to our sole director and officer consistent with industry standards for businesses similar to ours.
+
+
+
+
+entered into an employment agreement dated February 1
+ 2016 pursuant to which Mr. Ozeri will be paid a monthly base salary of $2
+000
+for the first three months. Thereafter
+ the Company&rsquo;s board of directors or the appropriate committee will consider an increase
+in the base amount. Under the agreement
+ Mr. Ozeri will be entitled to participate in any future employee stock option plan that
+the Company establishes and will be issued non-qualified options for 500
+000 shares of the Company&rsquo;s common stock. Either
+the Company or Mr. Ozeri is entitled to terminate employment upon 60 prior days&rsquo; notice.
+
+
+
+Item 12. Security
+Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters.
+
+
+
+lists
+ as of December 23
+ 2016
+ the number of shares of common stock of our Company that are beneficially owned by (i) each person
+or entity known to our Company to be the beneficial owner of more than 5% of the outstanding common stock; (ii) each officer and
+director of our Company; and (iii) all officers and directors as a group. Information relating to beneficial ownership of common
+stock by our principal shareholders and management is based upon information furnished by each person using &ldquo;beneficial ownership&rdquo;
+concepts under the rules of the Securities and Exchange Commission. Under these rules
+ a person is deemed to be a beneficial owner
+of a security if that person has or shares voting power
+ which includes the power to vote or direct the voting of the security
+or investment power
+ which includes the power to vote or direct the voting of the security. The person is also deemed to be a beneficial
+owner of any security of which that person has a right to acquire beneficial ownership within 60 days. Under the Securities and
+Exchange Commission rules
+ more than one person may be deemed to be a beneficial owner of the same securities
+ and a person may
+be deemed to be a beneficial owner of securities as to which he or she may not have any pecuniary beneficial interest. Except as
+noted below
+ each person has sole voting and investment power.
+
+
+below are calculated based on 4
+000
+000 shares of our common stock issued and outstanding as of May 3
+ 2016. We do not have any
+outstanding warrant
+ options or other securities exercisable for or convertible into shares of our common stock.
+
+
+
+    
+    
+    
+
+    
+2
+475
+000
+    
+
+
+ Interim Chief Executive Officer &amp; Director
+    
+    
+
+
+&nbsp;&nbsp;Vice President &amp; Director
+    
+    
+
+
+&nbsp;&nbsp;Director
+    
+    
+
+    
+    
+    
+
+
+
+
+
+Rule 13d-3 of the Exchange Act
+ a beneficial owner of a security includes any person who
+ directly or indirectly
+ through any contract
+arrangement
+ understanding
+ relationship
+ or otherwise has or shares: (i) voting power
+ which includes the power to vote
+ or to
+direct the voting of shares; and (ii) investment power
+ which includes the power to dispose or direct the disposition of shares.&nbsp;&nbsp;Certain
+shares may be deemed to be beneficially owned by more than one person (if
+ for example
+ persons share the power to vote or the
+power to dispose of the shares).&nbsp;&nbsp;In addition
+ shares are deemed to be beneficially owned by a person if the person has
+the right to acquire the shares (for example
+ upon exercise of an option) within 60 days of the date as of which the information
+is provided. In computing the percentage ownership of any person
+ the amount of shares outstanding is deemed to include the amount
+of shares beneficially owned by such person (and only such person) by reason of these acquisition rights.
+
+
+on 4
+000
+000 shares of Common Stock issued and outstanding as of the closing of the Purchase.
+
+
+holder of 10% or more of our voting stock. &nbsp;The business address of Nissim Barih is 41 Shlomo Hamelech Street
+ Lod Israel.
+
+
+
+    
+    
+
+
+Item 13. Certain
+Relationships and Related Transactions
+ and Director Independence.
+
+
+ there are no
+contemplated transactions that the Company may enter into with our officers
+ directors or affiliates. If any such transactions
+are contemplated we will file such disclosure in a timely manner with the Commission on the proper form making such transaction
+available for the public to view.
+
+
+written employment agreement or other contracts with our current officers and there is no assurance that the services to be provided
+by them will be available for any specific length of time in the future.
+
+Item 14. Principal
+Accounting Fees and Services.
+
+
+
+
+December 21
+ 2015
+&rdquo;) as the independent registered public
+accounting firm
+ for the Company for the fiscal year ended November 30
+ 2014. Aggregate fees for professional services rendered
+for the Company by Weinstein &amp; Co
+ our independent registered public accounting firm
+ for the fiscal years ended November 30
+2015 and respectively for our former independent auditor during the year ended November 30
+ 2014 are set forth below:
+
+
+
+    
+    
+    
+
+    
+7
+500
+4
+500
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+7
+500
+4
+500
+
+
+
+
+    
+    
+
+
+
+
+
+ITEM
+15.&nbsp;&nbsp; EXHIBITS
+ FINANCIAL STATEMENT SCHEDULES
+
+(a)(1)
+Financial Statements.
+
+The
+Consolidated Financial Statements filed as part of this Annual Report are identified in the Index to Consolidated Financial Statements
+on page F-1 hereto.
+
+
+(a)(2)
+Financial Statement Schedules.
+
+
+Financial
+Statement Schedules have been omitted because the information required to be set forth therein is not applicable or is shown on
+the financial statements or notes thereto.
+
+(a)(3)
+Exhibits.
+
+We
+hereby file
+ as exhibits to this Annual Report
+ those exhibits listed on the Exhibit Index immediately following the signature
+page hereto.
+
+
+
+    
+    
+
+
+
+
+
+Pursuant
+to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this Annual Report
+on Form 10-K to be signed on its behalf by the undersigned
+ thereunto duly authorized
+ on 
+2016.
+
+
+
+    
+SIPUP CORPORATION
+ INC.
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+December
+23
+ 2016
+    
+    
+(Principal Executive Officer)
+
+
+
+
+of the Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf of the registrant
+and in the capacities and on the dates indicated:
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+ 2016
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+ 2016
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+ 2016
+
+    
+    
+    
+    
+    
+
+
+
+
+    
+    
+
+
+SIPUP
+CORPORATION
+INDEX
+TO FINANCIAL STATEMENTS
+
+
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+Balance Sheets as of November 30
+ 2015 and 2014
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+Statement of Operations for the year ended November 30
+ 2015 and 2014
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+Statements of Stockholders' Equity for the year ended November 30
+ 2015 and 2014
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+Statements of Cash Flows for the year ended November 30
+ 2015 and 2014
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+    
+    
+
+
+REPORT
+OF&nbsp;THE INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+
+To
+the Board of Directors and Stockholders of
+Sipup
+Corporation Inc.
+
+We
+have audited the accompanying balance sheets of Sipup Corporation (hereinafter
+ &ldquo;the Company&rdquo;) as of November 30
+2015 and 2014
+ and the related statements of income
+ cash flow and stockholders' equity for the years then ended. These financial
+statements are the responsibility of the Company&rsquo;s management. Our responsibility is to express an opinion on these financial
+statements based on our audits.
+
+We
+conducted our audit in accordance with standards of the Public Company Accounting Oversight Board (United States). Those standards
+require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material
+misstatement. An audit includes examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements.
+An audit also includes assessing the accounting principles used and significant estimates made by management
+ as well as evaluating
+the overall financial statement presentation. We believe that our audit provides a reasonable basis for our opinion.
+
+In
+our opinion
+ the financial statements referred to above present fairly
+ in all material respects
+ the financial position of Sipup
+Corporation as of November 30
+ 2015 and 2014 and the results of its operations and cash flows for the period described above in
+conformity with accounting principles generally accepted in the United States of America.
+
+The
+accompanying financial statements have been prepared assuming that the Company will continue as a going concern. As discussed
+in Note 2 to the financial statements
+ the Company has not established sufficient source of revenue to cover its operating costs.
+As of November 30
+ 2015
+ the Company does not have sufficient working capital and cash resources to meet its planned business
+objectives. These and other factors raise substantial doubt about the Company&rsquo;s ability to continue as a going concern.
+Management&rsquo;s plan regarding these matters is also described in Note 2 to the financial statements. The financial statements
+do not include any adjustments that might result from the outcome of this uncertainty.
+
+/s/
+Dov Weinstein &amp; Co. C.P.A. (Isr)
+
+Dov
+Weinstein &amp; Co. C.P.A. (Isr)
+Jerusalem
+Israel
+April
+20
+ 2016
+
+
+
+    
+    
+
+
+PART
+I
+FINANCIAL
+INFORMATION
+
+Item
+1
+
+SIPUP
+CORPORATION INC.
+
+($&nbsp;in
+dollars
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+39
+718
+26
+087
+
+    
+7
+055
+4
+555
+
+    
+    
+    
+
+    
+46
+773
+30
+642
+
+    
+    
+    
+
+    
+    
+    
+
+
+ $0.001 par value; 75
+000
+000 shares authorized; 4
+000
+000 shares issued and outstanding at November 31
+ 2015 and 2014
+4
+000
+4
+000
+
+    
+61
+068
+61
+068
+
+    
+(111
+841
+(95
+710
+
+    
+    
+    
+
+    
+(46
+773
+(30
+642
+
+    
+    
+    
+
+    
+    
+    
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+
+    
+    
+
+
+SIPUP
+CORPORATION INC.
+STATEMENTS
+OF OPERATIONS
+($
+in dollars
+ except share and per share data)
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+14
+500
+24
+817
+
+    
+1
+631
+1
+090
+
+    
+    
+    
+
+    
+    
+    
+
+    
+16
+131
+25
+907
+
+    
+    
+    
+
+    
+(16
+131
+(25
+907
+
+    
+    
+    
+
+    
+    
+    
+
+    
+4
+000
+000
+4
+000
+000
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+
+    
+    
+
+
+SIPUP
+CORPORATION INC.
+STATEMENTS
+OF STOCKHOLDERS&rsquo; DEFICIENCY
+($&nbsp;in
+dollars)
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+
+ 2012
+4
+000
+000
+4
+000
+61
+068
+(69
+803
+(4
+735
+
+    
+    
+    
+    
+(25
+907
+(25
+907
+
+    
+ 2013
+4
+000
+000
+4
+000
+61
+068
+(95
+710
+(30
+642
+
+    
+    
+    
+    
+(16
+131
+(16
+131
+
+    
+ 2014
+4
+000
+000
+4
+000
+61
+068
+(111
+841
+(46
+773
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+
+    
+    
+
+
+SIPUP
+CORPORATION INC.
+STATEMENTS
+OF CASH FLOWS
+
+($
+in dollars)
+
+
+
+    
+November 30
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+(16
+131
+(25
+907
+
+    
+    
+    
+
+    
+    
+    
+
+    
+13
+631
+23
+107
+
+    
+(2
+500
+(2
+800
+
+    
+    
+    
+
+    
+    
+    
+
+    
+2
+500
+2
+800
+
+    
+2
+500
+2
+800
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+
+    
+    
+
+
+SIPUP
+CORPORATION
+NOTES
+TO FINANCIAL STATEMENTS
+
+NOTE
+1 &ndash; NATURE OF BUSINESS AND BASIS OF PRESENTATION
+
+Sipup
+Corporation (the &quot;Company&quot;) is a Nevada Corporation incorporated on October 31
+ 2012. The Company plans to establish
+itself as a properties development business.
+
+Basis
+of Presentation
+
+The
+Company maintains its accounting records on an accrual basis in accordance with generally accepted accounting principles in the
+United States of America (&ldquo;U.S. GAAP&rdquo;). These financial statements are presented in US dollars.
+
+Fiscal
+Year End
+
+The
+Corporation has adopted a fiscal year end of November 30.
+
+Going
+concern
+
+The
+accompanying financial statements have been prepared assuming that the Company will continue as a going concern
+ which contemplates
+the realization of assets and the liquidation of liabilities in the normal course of business. As at November 30
+ 2015
+ the Company
+has an accumulated deficit of $111
+841 from operations and has earned no revenues to cover its operating costs. The Company intends
+to fund future operations through equity financing arrangements
+ which may be insufficient to fund its capital expenditures
+ working
+capital and other cash requirements for the year ending November 30
+ 2015.
+
+The
+ability of the Company to emerge from the development stage is dependent upon
+ among other things
+ obtaining additional financing
+to continue operations
+ and development of its business plan. In response to these problems
+ management intends to raise additional
+funds through public or private placement offerings.
+
+These
+factors
+ among others
+ raise substantial doubt about the Company&rsquo;s ability to continue as a going concern. The accompanying
+financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+NOTE
+2 &ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+The
+principal accounting policies are set out below
+ these policies have been consistently applied to the period presented
+ unless
+otherwise stated:
+
+Use
+of Estimates
+
+The
+preparation of financial statements in conformity with accounting principles generally accepted in the United States requires
+management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent
+assets and liabilities at the date of the financial statements and the reported amounts or revenues and expenses during the reporting
+period. Actual results could differ from those estimates.
+
+Cash
+and cash equivalents
+
+Cash
+and equivalents include investments with initial maturities of three months or less. The Company maintains its cash balances at
+credit-worthy financial institutions that are insured by the Federal Deposit Insurance Corporation (&quot;FDIC&quot;) up to $250
+000.
+
+Accounts
+Payable and Accrued Expenses
+
+Accounts
+payable and accrued expenses are carried at amortized cost and represent liabilities for goods and services provided to the Company
+prior to the end of the financial year that are unpaid and arise when the Company becomes obliged to make future payments in respect
+of the purchase of these goods and services.
+
+Earnings
+per Share
+
+The
+Company computes net loss per share in accordance with ASC 260
+ &quot;Earnings Per Share&quot; ASC 260 requires presentation of
+both basic and diluted earnings per share (&ldquo;EPS&rdquo;) on the face of the income statement. Basic EPS is calculated by
+dividing the profit or loss attributable to common shareholders of the Company by the weighted average number of common shares
+outstanding during the period. Diluted EPS is determined by adjusting the profit or loss attributable to common shareholders and
+the weighted average number of common shares outstanding for the effects of all potential dilutive common shares
+ which comprise
+options granted to employees. As November 30
+ 2015
+ the Company had no potentially dilutive shares.
+
+
+
+    
+    
+
+
+Income
+Taxes
+
+Income
+taxes are accounted for in accordance with ASC Topic 740
+ &ldquo;Income Taxes.&rdquo; Under the asset and liability method
+ deferred
+tax assets and liabilities are recognized for the future consequences of differences between the financial statement carrying
+amounts of existing assets and liabilities and their respective tax bases (temporary differences). Deferred tax assets and liabilities
+are measured using tax rates expected to apply to taxable income in the years in which those temporary differences are recovered
+or settled. Valuation allowances for deferred tax assets are established when it is more likely than not that some portion or
+all of the deferred tax assets will not be realized.
+
+Stock
+based compensation
+
+The
+Company accounts for equity instruments issued to employees in accordance with ASC 718
+ Compensation - Stock Compensation. ASC
+718 requires all share-based compensation payments to be recognized in the financial statements based on the fair value using
+an option pricing model. ASC 718 requires forfeitures to be estimated at the time of grant and revised in subsequent periods if
+actual forfeitures differ from initial estimates.
+
+Equity
+instruments granted to non-employees are accounted for in accordance with ASC 505
+ Equity. The final measurement date for the
+fair value of equity instruments with performance criteria is the date that each performance commitment for such equity instrument
+is satisfied or there is a significant disincentive for non-performance.
+
+Fair
+Value of Financial Instruments
+
+The
+Company measures assets and liabilities at fair value based on an expected exit price as defined by the authoritative guidance
+on fair value measurements
+ which represents the amount that would be received on the sale of an asset or paid to transfer a liability
+as the case may be
+ in an orderly transaction between market participants. As such
+ fair value may be based on assumptions that
+market participants would use in pricing an asset or liability. The authoritative guidance on fair value measurements establishes
+a consistent framework for measuring fair value on either a recurring or nonrecurring basis whereby inputs
+ used in valuation
+techniques
+ are assigned a hierarchical level.
+
+The
+following are the hierarchical levels of inputs to measure fair value:
+
+-
+Level 1: Quoted prices in active markets for identical instruments;
+-
+Level 2: Other significant observable inputs (including quoted prices in active markets for similar instruments);
+-
+Level 3: Significant unobservable inputs (including assumptions in determining the fair value of certain investments).
+
+Recently
+Adopted Accounting Pronouncements
+
+During
+the year ended November 30
+ 2015
+ the Company has elected to early adopt Accounting Standards Update (&ldquo;ASU&rdquo;) No. 2014-10
+Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting Requirements. The adoption of this ASU allows
+the Company to remove the inception to date information and all references to development stage.
+
+We
+do not believe that the adoption of any other recently issued accounting pronouncements in 2015 had a significant impact on our
+financial position
+ results of operations
+ or cash flow.
+
+NOTE
+3 &ndash; LOAN FROM STOCKHOLDER
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+7
+055
+4
+555
+
+
+*The
+above loan is unsecured
+ bears no interest and has no repayment term. This loan is repayable on demand
+
+NOTE
+4 &ndash; STOCKHOLDERS&rsquo; DEFICIT
+
+Common
+stock
+
+In
+October 2012
+ the Company issued 3
+000
+000 shares of common stock at a price of $ 0.001 per share.
+
+In
+April 2013
+ pursuant to the terms of an offering registered with the SEC
+ the Company issued 90
+000 shares of common stock at
+$0.05 per share.
+
+
+
+    
+    
+
+
+In
+May 2013
+ pursuant to the terms of an offering registered with the SEC
+ the Company issued 910
+000 shares of common stock at $0.05
+per share.
+
+NOTE
+5 &ndash; INCOME TAXES
+
+a.&nbsp;&nbsp;
+Provision for income taxes
+
+No
+provision for income taxes was required for the three months ended November 3
+2015 and 2014 due to net losses in these periods.
+
+b.
+In accordance with ASC 740-10
+ the components of deferred income taxes are as follows:
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+16
+776
+14
+357
+
+    
+(16
+776
+(14
+357
+
+    
+    
+    
+
+
+The
+
+
+ 2015 because it is not presently known whether future taxable income will be sufficient to utilize the loss carryforwards
+
+As
+0
+ 2015 the Company had approximately $111
+841 in tax loss carryforwards
+that can be utilized future periods to reduce taxable income
+ and expire by the year 2035.
+
+The
+Company did not identify any material uncertain tax positions. The Company did not recognize any interest or penalties for unrecognized
+tax benefits. The federal income tax returns of the Company are subject to examination by the IRS
+ generally for three years after
+they are filed
+
+NOTE
+6 &ndash; RELATED PARTY TRANSACTION
+
+Parties
+are considered to be related if one party has the ability to control or exercise significant influence over the other party in
+making financial and operating decisions.
+
+A
+related party transaction is considered to be a transfer of resources or obligations between related parties
+ regardless of whether
+or not a price is charged.
+
+The
+stockholders who gave the loan to the company are not considered as a related party because they have less than 10% of the stocks.
+
+NOTE
+7 &ndash; SUBSEQUENT EVENTS
+
+In
+accordance with ASC 855-10
+ Company management reviewed all material events through the date of this report and determined that
+there are no additional material subsequent events to report.
+
+
+
+    
+    
+
+
+EXHIBIT
+INDEX
+
+
+
+
+
+        
+        
+    
+    
+
+    
+    
+Certification of the Chief Executive Officer (Principal Executive Officer
+ Principal Financial Officer
+ and Principal Accounting Officer)&nbsp;
+ as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.*
+
+    
+    
+    
+
+    
+    
+Certification of the Chief Executive Officer (Principal Executive Officer
+ Principal Financial Officer
+ and Principal Accounting Officer)
+ furnished pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. *
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+        
+        
+    
+    
+
+    
+    
+    
+
+
+        
+        
+    
+    
+
+    
+    
+    
+
+
+        
+        
+    
+    
+
+    
+    
+    
+
+
+        
+    
+
+
+Label Linkbase Document.*&nbsp;
+
+
+        
+    
+    
+
+    
+    
+
+
+Presentation Linkbase Document.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+Exhibit
+31
+
+CERTIFICATION
+UNDER SECTION 302
+
+I
+Yochai Ozeri
+ certify that:
+
+1.
+I have reviewed this annual report on Form 10-K of Sipup Corporation for the year ended November 30
+ 2015;
+
+2.
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+to the period covered by this report;
+
+3.
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all
+material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods
+presented in this report;
+
+4.
+I am responsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e)
+and 15d-15(e)) and internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the
+registrant and have:
+
+a)
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under my supervision
+to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to me by
+others within those entities
+ particularly during the period in which this report is being prepared;
+
+b)
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed
+under my supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of
+financial statements for external purposes in accordance with generally accepted accounting principles;
+
+c)
+Evaluated the effectiveness of the registrant's disclosure controls and procedures and presented in this report my conclusions
+about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on
+such evaluation; and
+
+d)
+Disclosed in this report any change in the registrant's internal control over financial reporting that occurred during the registrant's
+most recent fiscal quarter (the registrant's fourth fiscal quarter in the case of an annual report) that has materially affected
+or is reasonably likely to materially affect
+ the registrant's internal control over financial reporting; and
+
+5.
+I have disclosed
+ based on my most recent evaluation of internal control over financial reporting
+ to the registrant's auditors
+and the audit committee of the registrant's board of directors (or persons performing the equivalent functions):
+
+a)
+all significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which
+are reasonably likely to adversely affect the registrant's ability to record
+ process
+ summarize and report financial information;
+and
+
+b)
+any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant's
+internal control over financial reporting.
+
+
+
+Date:
+    December 23
+ 2016
+/s/
+    Yochai Ozeri
+
+    
+Yochai
+        Ozeri
+
+Principal
+        Executive Officer and
+        Principal Financial and Accounting Officer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+Exhibit
+32
+
+CERTIFICATION
+UNDER SECTION 906
+
+Pursuant
+to section 906 of the Sarbanes-Oxley Act of 2002 (subsections (a) and (b) of section 1350
+ chapter 63 of title 18
+ United States
+Code)
+ the undersigned officer of Sipup Corporation
+ Inc.
+ a Nevada corporation (the &quot;Company&quot;)
+ does hereby certify
+to such officer's knowledge
+ that:
+
+
+
+    
+    
+        
+the
+
+ 2015 (the &quot;Form 10-K&quot;) of the
+    Company fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934
+
+    
+    
+    
+
+    
+    
+and
+    the information contained in the Form 10-K fairly presents
+ in all material respects
+ the financial condition and results
+    of operations of the Company
+
+
+
+
+Dated:
+    December 23
+ 2016
+/s/
+    Yochai Ozeri
+
+    
+Yochai
+        Ozeri
+ Chief Executive Officer
+(Principal
+        Executive Officer and
+        Principal Financial and Accounting Officer)
+
+
+A
+signed original of this written statement required by Section 906 has been provided to the Company and will be retained by the
+Company and furnished to the Securities and Exchange Commission or its staff upon request.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ xmlns:link=http://www.xbrl.org/2003/linkbase
+ xmlns:xbrldi=http://xbrl.org/2006/xbrldi
+ xmlns:xlink=http://www.w3.org/1999/xlink
+ xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance
+ xmlns:xbrli=http://www.xbrl.org/2003/instance
+ xmlns:iso4217=http://www.xbrl.org/2003/iso4217
+ xmlns:nonnum=http://www.xbrl.org/dtr/type/non-numeric
+ xmlns:num=http://www.xbrl.org/dtr/type/numeric
+ xmlns:xbrldt=http://xbrl.org/2005/xbrldt
+ xmlns:country=http://xbrl.sec.gov/country/2013-01-31
+ xmlns:currency=http://xbrl.sec.gov/currency/2014-01-31
+ xmlns:dei=http://xbrl.sec.gov/dei/2014-01-31
+ xmlns:exch=http://xbrl.sec.gov/exch/2015-01-31
+ xmlns:invest=http://xbrl.sec.gov/invest/2013-01-31
+ xmlns:naics=http://xbrl.sec.gov/naics/2011-01-31
+ xmlns:sic=http://xbrl.sec.gov/sic/2011-01-31
+ xmlns:stpr=http://xbrl.sec.gov/stpr/2011-01-31
+ xmlns:us-gaap=http://fasb.org/us-gaap/2015-01-31
+ xmlns:us-types=http://fasb.org/us-types/2015-01-31
+ xmlns:xl=http://www.xbrl.org/2003/XLink
+ xmlns:utr=http://www.xbrl.org/2009/utr
+
+
+
+
+
+
+
+
+
+2012-10-31
+
+
+
+
+
+
+
+
+
+2013-04-30
+
+
+
+
+
+
+
+
+
+2013-05-31
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+2013-12-01
+
+
+2014-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2013-12-01
+
+
+2014-11-30
+
+
+
+
+
+
+
+
+
+2014-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2014-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2014-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2014-11-30
+
+
+
+
+
+
+
+
+
+2015-05-31
+
+
+
+
+
+
+
+
+
+2014-12-01
+
+
+2015-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2014-12-01
+
+
+2015-11-30
+
+
+
+
+
+
+
+
+
+2015-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2015-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2015-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2015-11-30
+
+
+
+
+
+
+
+
+
+2016-12-23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2012. The Company plans to establish itself as a properties development business.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Basis of Presentation&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The Company maintains its accounting records on an accrual basis in accordance with generally accepted accounting principles in the United States of America (&amp;#8220;U.S. GAAP&amp;#8221;). These financial statements are presented in US dollars.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Fiscal Year End&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The Corporation has adopted a fiscal year end of November 30.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Going concern&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The accompanying financial statements have been prepared assuming that the Company will continue as a going concern
+ which contemplates the realization of assets and the liquidation of liabilities in the normal course of business. As at November 30
+ 2015
+ the Company has an accumulated deficit of $111
+841 from operations and has earned no revenues to cover its operating costs. The Company intends to fund future operations through equity financing arrangements
+ which may be insufficient to fund its capital expenditures
+ working capital and other cash
+ requirements for
+ the year ending November 30
+ 2015.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The ability of the Company to emerge from the development stage is dependent upon
+ among other things
+ obtaining additional financing to continue operations
+ and development of its business plan. In response to these problems
+ management intends to raise additional funds through public or private placement offerings.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;These factors
+ among others
+
+
+ these policies have been consistently applied to the period presented
+ unless otherwise stated:&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Use of Estimates&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The preparation of financial statements in conformity with accounting principles generally accepted in the United States requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts or revenues and expenses during the reporting period. Actual results could differ from those estimates.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Cash and cash equivalents&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;Cash and equivalents include investments with initial maturities of three months or less. The Company maintains its cash balances at credit-worthy financial institutions that are insured by the Federal Deposit Insurance Corporation (FDIC) up to $250
+000.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Accounts Payable and Accrued Expenses&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;Accounts payable and accrued expenses are carried at amortized cost and represent liabilities for goods and services provided to the Company prior
+ to the end of
+ the financial year that are unpaid and arise when the Company becomes obliged to make future payments in respect of the purchase of these goods and services.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Earnings per Share&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The Company computes net loss per share in accordance with ASC 260
+ Earnings Per Share ASC 260 requires presentation of both basic and diluted earnings per share (&amp;#8220;EPS&amp;#8221;) on the face of the income statement. Basic EPS is calculated by dividing the profit or loss attributable to common shareholders of the Company by the weighted average number of common shares outstanding during the period. Diluted EPS is determined by adjusting the profit or loss attributable to common shareholders and the weighted average number of common shares outstanding for the effects of all potential dilutive common shares
+ which comprise options granted to employees. As November 30
+ 2015
+ the Company had no potentially dilutive shares.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Income Taxes&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;Income taxes are accounted for in accordance with ASC Topic 740
+ &amp;#8220;Income Taxes.&amp;#8221; Under the asset and liability method
+ deferred tax assets and liabilities are recognized for the future consequences of differences between the financial statement carrying amounts of existing assets and liabilities and their respective tax bases (temporary differences). Deferred tax assets and liabilities are measured using tax rates expected to apply to taxable income in the years in which those temporary differences are recovered or settled. Valuation allowances for deferred tax assets are established when it is more likely than not that some portion or all of the deferred tax assets will not be realized.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Stock based compensation&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The Company accounts for equity instruments issued to employees in accordance with ASC 718
+ Compensation - Stock Compensation. ASC 718 requires all share-based compensation payments to be recognized in the financial statements based on the fair value using an option pricing model. ASC 718 requires forfeitures to be estimated at the time of grant and revised in subsequent periods if actual forfeitures differ from initial estimates.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing:
+ 0px; white-space: normal;
+ widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;Equity instruments granted to non-employees are accounted for in accordance with ASC 505
+ Equity. The final measurement date for the fair value of equity instruments with performance criteria is the date that each performance commitment for such equity instrument is satisfied or there is a significant disincentive for non-performance.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Fair Value of Financial Instruments&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The Company measures assets and liabilities at fair value based on an expected exit price as defined by the authoritative guidance on fair value measurements
+ which represents the amount that would be received on the sale of an asset or paid to transfer a liability
+ as the case may be
+ in an orderly transaction between market participants. As such
+ fair value may be based on assumptions that market participants would use in pricing an asset or liability. The authoritative guidance on fair value measurements establishes a consistent framework for measuring fair value on either a recurring or nonrecurring basis whereby inputs
+ used in valuation techniques
+ are assigned a hierarchical level.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The following are the hierarchical levels of inputs to measure fair value:&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;- Level 1: Quoted prices in active markets for identical instruments;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;- Level 2: Other significant observable inputs (including quoted prices in active markets for similar instruments);&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0pt 0pt 0.5in; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;- Level 3: Significant unobservable inputs (including assumptions in determining the fair value of certain investments).&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&lt;b&gt;Recently Adopted Accounting Pronouncements&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1;
+ font-stretch: normal;
+ -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;During the year ended November 30
+ 2015
+ the Company has elected to early adopt Accounting Standards Update (&amp;#8220;ASU&amp;#8221;) No. 2014-10
+ Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting Requirements. The adoption of this ASU allows the Company to remove the inception to date information and all references to development stage.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;We do not believe that the adoption of any other recently issued accounting pronouncements in 2015 had a significant impact on our financial position
+ results of operations
+
+
+&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom;&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2015&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2014&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom; background-color: #cceeff;&gt;&lt;td style=width: 1191px; text-align: left; padding-bottom: 1.5pt; padding-left: 0pt;&gt;Loan from related party* in dollars&lt;/td&gt;&lt;td style=width: 16px; padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 16px; text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;$&lt;/td&gt;&lt;td style=width: 142px; text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;7
+055&lt;/td&gt;&lt;td style=width: 16px; text-align: left; padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px; padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px; text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;$&lt;/td&gt;&lt;td style=width: 141px; text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;4
+555&lt;/td&gt;&lt;td style=width: 15px; text-align: left; padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt; text-align: justify; color: #000000; text-transform: none; text-indent: 0pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;*The above loan is unsecured
+
+
+ the Company issued 3
+000
+000 shares of common stock at a price of $ 0.001 per share.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;In April 2013
+ pursuant to the terms of an offering registered with the SEC
+ the Company issued 90
+000 shares of common stock at $0.05 per share.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;In May 2013
+ pursuant to the terms of an offering registered with the SEC
+ the Company issued 910
+
+
+ 2015 and 2014 due to net losses in these periods.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; background-color: white; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal; background-color: white;&gt;&lt;b&gt;&amp;#160;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; background-color: white; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal; background-color: white;&gt;&lt;b&gt;b. In accordance with ASC 740-10
+ the components of deferred income taxes are as follows:&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 0.5in; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; background-color: white; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal; background-color: white;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;table style=font: 10pt/normal 'times new roman', times, serif; width: 1567px; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; border-collapse: collapse; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px; cellspacing=0 cellpadding=0&gt;&lt;tr style=vertical-align: bottom;&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=6&gt;As of November 30
+&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom;&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2015&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2014&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom; background-color: #cceeff;&gt;&lt;td style=width: 1191px; text-align: left;&gt;Net operating losses carryforwards&lt;/td&gt;&lt;td style=width: 16px;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 16px; text-align: left;&gt;$&lt;/td&gt;&lt;td style=width: 142px; text-align: right;&gt;16
+776&lt;/td&gt;&lt;td style=width: 16px; text-align: left;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px; text-align: left;&gt;$&lt;/td&gt;&lt;td style=width: 141px; text-align: right;&gt;14
+357&lt;/td&gt;&lt;td style=width: 15px; text-align: left;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom; background-color: white;&gt;&lt;td style=text-align: left; padding-bottom: 1.5pt; padding-left: 18pt;&gt;Less valuation allowance&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;(16
+776&lt;/td&gt;&lt;td style=text-align: left; padding-bottom: 1.5pt;&gt;)&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;(14
+357&lt;/td&gt;&lt;td style=text-align: left; padding-bottom: 1.5pt;&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom; background-color: #cceeff;&gt;&lt;td style=text-align: left; padding-left: 18pt;&gt;Net deferred tax assets&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: left;&gt;$&lt;/td&gt;&lt;td style=text-align: right;&gt;-&lt;/td&gt;&lt;td style=text-align: left;&gt;&amp;#160;&lt;/td&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: left;&gt;$&lt;/td&gt;&lt;td style=text-align: right;&gt;-&lt;/td&gt;&lt;td style=text-align: left;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px;
+ color: #000000; text-transform: none; text-indent: 0px;
+ letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; background-color: white; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font-family: 'times new roman', times, serif; font-size: 10pt; background-color: white;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The Company provided a valuation allowance equal to the deferred income tax assets for period ended&amp;#160;&lt;font style=background-color: white;&gt;November 3&lt;/font&gt;0
+ 2015 because it is not presently known whether future taxable income will be sufficient to utilize the loss carryforwards&lt;font style=background-color: white;&gt;.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;As of&amp;#160;&lt;font style=background-color: white;&gt;November 3&lt;/font&gt;0
+ 2015 the Company had approximately $111
+841 in tax loss carryforwards that can be utilized future periods to reduce taxable income
+ and expire by the year 2035.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;The Company did not identify any material uncertain tax positions. The Company did not recognize any interest or penalties for unrecognized tax benefits. The federal income tax returns of the Company are subject to examination by the IRS
+
+
+
+
+
+
+
+
+
+
+ Earnings Per Share ASC 260 requires presentation of both basic and diluted earnings per share (&amp;#8220;EPS&amp;#8221;) on the face of the income statement. Basic EPS is calculated by dividing the profit or loss attributable to common shareholders of the Company by the weighted average number of common shares outstanding during the period. Diluted EPS is determined by adjusting the profit or loss attributable to common shareholders and the weighted average number of common shares outstanding for the effects of all potential dilutive common shares
+ which comprise options granted to employees. As November 30
+ 2015
+
+
+ &amp;#8220;Income Taxes.&amp;#8221; Under the asset and liability method
+
+
+ Compensation - Stock Compensation. ASC 718 requires all share-based compensation payments to be recognized in the financial statements based on the fair value using an option pricing model. ASC 718 requires forfeitures to be estimated at the time of grant and revised in subsequent periods if actual forfeitures differ from initial estimates.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;Equity instruments granted to non-employees are accounted for in accordance with ASC 505
+
+
+ which represents the amount that would be received on the sale of an asset or paid to transfer a liability
+ as the case may be
+ in an orderly transaction between market participants. As such
+ fair value may be based on assumptions that market participants would use in pricing an asset or liability. The authoritative guidance on fair value measurements establishes a consistent framework for measuring fair value on either a recurring or nonrecurring basis whereby inputs
+ used in valuation techniques
+
+
+ 2015
+ the Company has elected to early adopt Accounting Standards Update (&amp;#8220;ASU&amp;#8221;) No. 2014-10
+ Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting Requirements. The adoption of this ASU allows the Company to remove the inception to date information and all references to development stage.&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;&amp;#160;&lt;/font&gt;&lt;/p&gt;&lt;p style=font: 10pt/normal 'times new roman', times, serif; margin: 0pt 0px; text-align: justify; color: #000000; text-transform: none; text-indent: 36pt; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-stretch: normal; -webkit-text-stroke-width: 0px;&gt;&lt;font style=font: 10pt/normal 'times new roman', times, serif; font-stretch: normal;&gt;We do not believe that the adoption of any other recently issued accounting pronouncements in 2015 had a significant impact on our financial position
+ results of operations
+
+
+&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom;&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2015&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2014&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom; background-color: #cceeff;&gt;&lt;td style=width: 1191px; text-align: left; padding-bottom: 1.5pt; padding-left: 0pt;&gt;Loan from related party* in dollars&lt;/td&gt;&lt;td style=width: 16px; padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 16px; text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;$&lt;/td&gt;&lt;td style=width: 142px; text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;7
+055&lt;/td&gt;&lt;td style=width: 16px; text-align: left; padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px; padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px; text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;$&lt;/td&gt;&lt;td style=width: 141px; text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;4
+
+
+&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom;&gt;&lt;td&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2015&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: center; font-weight: bold; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid; colspan=2&gt;2014&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt; font-weight: bold;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom; background-color: #cceeff;&gt;&lt;td style=width: 1191px; text-align: left;&gt;Net operating losses carryforwards&lt;/td&gt;&lt;td style=width: 16px;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 16px; text-align: left;&gt;$&lt;/td&gt;&lt;td style=width: 142px; text-align: right;&gt;16
+776&lt;/td&gt;&lt;td style=width: 16px; text-align: left;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px;&gt;&amp;#160;&lt;/td&gt;&lt;td style=width: 15px; text-align: left;&gt;$&lt;/td&gt;&lt;td style=width: 141px; text-align: right;&gt;14
+357&lt;/td&gt;&lt;td style=width: 15px; text-align: left;&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=vertical-align: bottom; background-color: white;&gt;&lt;td style=text-align: left; padding-bottom: 1.5pt; padding-left: 18pt;&gt;Less valuation allowance&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;(16
+776&lt;/td&gt;&lt;td style=text-align: left; padding-bottom: 1.5pt;&gt;)&lt;/td&gt;&lt;td style=padding-bottom: 1.5pt;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: left; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;&amp;#160;&lt;/td&gt;&lt;td style=text-align: right; border-bottom-color: black; border-bottom-width: 1.5pt; border-bottom-style: solid;&gt;(14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xmlns:spup=http://www.sipupcorp.com/20151130
+ xmlns=http://www.w3.org/2001/XMLSchema
+ xmlns:link=http://www.xbrl.org/2003/linkbase
+ xmlns:xbrldt=http://xbrl.org/2005/xbrldt
+ xmlns:xl=http://www.xbrl.org/2003/XLink
+ xmlns:xbrli=http://www.xbrl.org/2003/instance
+ xmlns:xlink=http://www.w3.org/1999/xlink
+ xmlns:negated=http://www.xbrl.org/2009/role/negated
+ xmlns:us-gaap=http://fasb.org/us-gaap/2015-01-31
+ xmlns:us-gaap-att=http://fasb.org/us-gaap/attributes
+ xmlns:country=http://xbrl.sec.gov/country/2013-01-31
+ xmlns:currency=http://xbrl.sec.gov/currency/2014-01-31
+ xmlns:dei=http://xbrl.sec.gov/dei/2014-01-31
+ xmlns:exch=http://xbrl.sec.gov/exch/2015-01-31
+ xmlns:invest=http://xbrl.sec.gov/invest/2013-01-31
+ xmlns:naics=http://xbrl.sec.gov/naics/2011-01-31
+ xmlns:sic=http://xbrl.sec.gov/sic/2011-01-31
+ xmlns:us-types=http://fasb.org/us-types/2015-01-31
+ xmlns:stpr=http://xbrl.sec.gov/stpr/2011-01-31
+ xmlns:ref=http://www.xbrl.org/2006/ref
+ xmlns:deprecated=http://www.xbrl.org/2009/arcrole/fact-explanatoryFact
+ xmlns:nonnum=http://www.xbrl.org/dtr/type/non-numeric
+ xmlns:num=http://www.xbrl.org/dtr/type/numeric
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Value
+
+
+
+ $0.001 par value; 75
+000
+000 shares authorized; 4
+000
+000 shares issued and outstanding at August 31
+ 2015 and November 30
+
+
+ $0.001 par value; 75
+000
+000 shares authorized; 4
+000
+000 shares issued and outstanding at November 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+Dec. 23
+ 2016
+May 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+500
+
+
+
+Entity Common Stock
+ Shares Outstanding
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+If the value is true
+ then the document is an amendment to previously-filed/accepted document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal period of the document report. For a first quarter 2006 quarterly report
+ which may also provide financial information from prior periods
+ the first fiscal quarter should be given as the fiscal period focus. Values: FY
+ Q1
+ Q2
+ Q3
+ Q4
+ H1
+ H2
+ M9
+ T1
+ T2
+ T3
+ M8
+ CY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal year of the document report in CCYY format. For a 2006 annual report
+ which may also provide financial information from prior periods
+ fiscal 2006 should be given as the fiscal year focus. Example: 2006.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The end date of the period reflected on the cover page if a periodic report. For all other reports and registration statements containing historical data
+ it is the date up through which that historical data is presented.  If there is no historical data in the report
+ use the filing date. The format of the date is CCYY-MM-DD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The type of document being provided (such as 10-K
+ 10-Q
+ 485BPOS
+ etc). The document type is limited to the same value as the supporting SEC submission type
+ or the word Other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests
+ if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member]
+ Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings
+ Instrument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No whether registrants (1) have filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that registrants were required to file such reports)
+ and (2) have been subject to such filing requirements for the past 90 days. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate whether the registrant is one of the following: (1) Large Accelerated Filer
+ (2) Accelerated Filer
+ (3) Non-accelerated Filer
+ (4) Smaller Reporting Company (Non-accelerated) or (5) Smaller Reporting Accelerated Filer. Definitions of these categories are stated in Rule 12b-2 of the Exchange Act. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State aggregate market value of voting and non-voting common equity held by non-affiliates computed by reference to price at which the common equity was last sold
+ or average bid and asked price of such common equity
+ as of the last business day of registrant's most recently completed second fiscal quarter. The public float should be reported on the cover page of the registrants form 10K.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The exact name of the entity filing the report as specified in its charter
+ which is required by forms filed with the SEC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Is used on Form Type: 10-K
+ 10-Q
+ 8-K
+ 20-F
+ 6-K
+ 10-K/A
+ 10-Q/A
+ 20-F/A
+ 6-K/A
+ N-CSR
+ N-Q
+ N-1A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+718
+
+
+087
+
+
+
+
+
+055
+
+
+555
+
+
+
+
+
+773
+
+
+642
+
+
+
+
+
+
+
+
+
+
+Common stock
+ $0.001 par value; 75
+000
+000 shares authorized; 4
+000
+000 shares issued and outstanding at November 31
+ 2015 and 2014
+
+000
+
+
+000
+
+
+
+
+
+068
+
+
+068
+
+
+
+
+
+841)
+
+
+710)
+
+
+
+
+
+773)
+
+
+642)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying values as of the balance sheet date of obligations incurred through that date and due within one year (or the operating cycle
+ if longer)
+ including liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received
+ taxes
+ interest
+ rent and utilities
+ accrued salaries and bonuses
+ payroll taxes and fringe benefits.
+ -Subparagraph (SX 210.5-02.19
+20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock
+ use the element additional paid in capital
+ common stock. For additional paid-in capital associated with only preferred stock
+ use the element additional paid in capital
+ preferred stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of liabilities and equity items
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+
+
+
+
+
+
+
+
+
+Common stock
+ par value
+
+
+
+
+
+
+Common stock
+ shares authorized
+
+000
+000
+
+
+000
+000
+
+
+
+Common stock
+ shares issued
+
+000
+000
+
+
+000
+000
+
+
+
+Common stock
+ shares outstanding
+
+000
+000
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+500
+
+
+817
+
+
+
+
+
+631
+
+
+090
+
+
+
+
+
+
+
+
+
+
+
+
+131
+
+
+907
+
+
+
+
+
+131)
+
+
+907)
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+000
+000
+
+
+
+
+
+
+
+The amount of expense
+ provided in the period for filing fees.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generally recurring costs associated with normal operations except for the portion of these expenses which can be clearly related to production and included in cost of sales or services. Excludes Selling
+ General and Administrative Expense.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A fee charged for services from professionals such as doctors
+ lawyers and accountants. The term is often expanded to include other professions
+ for example
+ pharmacists charging to maintain a medicinal profile of a client or customer.
+ -Subparagraph (SX 210.6-07.2(a)
+(b)
+(c)
+(d))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of revenue recognized from goods sold
+ services rendered
+ insurance premiums
+ or other activities that constitute an earning process. Includes
+ but is not limited to
+ investment and interest income before deduction of interest expense when recognized as a component of revenue
+ and sales and trading gain (loss).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+Balance at Nov. 30
+ 2013
+
+735)
+
+
+000
+
+
+068
+
+
+803)
+
+
+
+Balance
+ shares at Nov. 30
+ 2013
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+907)
+
+
+
+
+
+
+907)
+
+
+
+Balance at Nov. 30
+ 2014
+
+642)
+
+
+000
+
+
+068
+
+
+710)
+
+
+
+Balance
+ shares at Nov. 30
+ 2014
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+131)
+
+
+
+
+
+
+131)
+
+
+
+Balance at Nov. 30
+ 2015
+
+773)
+
+
+000
+
+
+068
+
+
+841)
+
+
+
+Balance
+ shares at Nov. 30
+ 2015
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+131)
+
+
+907)
+
+
+
+
+
+
+
+
+
+
+
+
+631
+
+
+107
+
+
+
+
+
+500)
+
+
+800)
+
+
+
+
+
+
+
+
+
+
+
+
+500
+
+
+800
+
+
+
+
+
+500
+
+
+800
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of increase (decrease) in cash and cash equivalents. Cash and cash equivalents are the amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from financing activities
+ including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from operating activities
+ including discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+Sipup Corporation (the Company) is a Nevada Corporation incorporated on October 31
+The accompanying financial statements have been prepared assuming that the Company will continue as a going concern
+ which contemplates the realization of assets and the liquidation of liabilities in the normal course of business. As at November 30
+ 2015
+ the Company has an accumulated deficit of $111
+841 from operations and has earned no revenues to cover its operating costs. The Company intends to fund future operations through equity financing arrangements
+ which may be insufficient to fund its capital expenditures
+ working capital and other cash
+ requirements for
+ the year ending November 30
+The ability of the Company to emerge from the development stage is dependent upon
+ among other things
+ obtaining additional financing to continue operations
+ and development of its business plan. In response to these problems
+These factors
+ among others
+ raise substantial doubt about the Company&#8217;s ability to continue as a going concern. The accompanying financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+
+
+
+
+
+The entire disclosure for the business description and basis of presentation concepts.  Business description describes the nature and type of organization including but not limited to organizational structure as may be applicable to holding companies
+ parent and subsidiary relationships
+ business divisions
+ business units
+ business segments
+ affiliates and information about significant ownership of the reporting entity.  Basis of presentation describes the underlying basis used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+The principal accounting policies are set out below
+ these policies have been consistently applied to the period presented
+Cash and equivalents include investments with initial maturities of three months or less. The Company maintains its cash balances at credit-worthy financial institutions that are insured by the Federal Deposit Insurance Corporation (FDIC) up to $250
+Accounts payable and accrued expenses are carried at amortized cost and represent liabilities for goods and services provided to the Company prior
+ to the end of
+The Company computes net loss per share in accordance with ASC 260
+ Earnings Per Share ASC 260 requires presentation of both basic and diluted earnings per share (&#8220;EPS&#8221;) on the face of the income statement. Basic EPS is calculated by dividing the profit or loss attributable to common shareholders of the Company by the weighted average number of common shares outstanding during the period. Diluted EPS is determined by adjusting the profit or loss attributable to common shareholders and the weighted average number of common shares outstanding for the effects of all potential dilutive common shares
+ which comprise options granted to employees. As November 30
+ 2015
+Income taxes are accounted for in accordance with ASC Topic 740
+ &#8220;Income Taxes.&#8221; Under the asset and liability method
+The Company accounts for equity instruments issued to employees in accordance with ASC 718
+Equity instruments granted to non-employees are accounted for in accordance with ASC 505
+The Company measures assets and liabilities at fair value based on an expected exit price as defined by the authoritative guidance on fair value measurements
+ which represents the amount that would be received on the sale of an asset or paid to transfer a liability
+ as the case may be
+ in an orderly transaction between market participants. As such
+ fair value may be based on assumptions that market participants would use in pricing an asset or liability. The authoritative guidance on fair value measurements establishes a consistent framework for measuring fair value on either a recurring or nonrecurring basis whereby inputs
+ used in valuation techniques
+During the year ended November 30
+ 2015
+ the Company has elected to early adopt Accounting Standards Update (&#8220;ASU&#8221;) No. 2014-10
+We do not believe that the adoption of any other recently issued accounting pronouncements in 2015 had a significant impact on our financial position
+ results of operations
+ or cash flow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+As of November 30
+7
+4
+*The above loan is unsecured
+ bears no interest and has no repayment term. This loan is repayable on demand
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for information about short-term and long-term debt arrangements
+ which includes amounts of borrowings under each line of credit
+ note payable
+ commercial paper issue
+ bonds indenture
+ debenture issue
+ own-share lending arrangements and any other contractual agreement to repay funds
+ and about the underlying arrangements
+ rationale for a classification as long-term
+ including repayment terms
+ interest rates
+ collateral provided
+ restrictions on use of assets and activities
+ whether or not in compliance with debt covenants
+ and other matters important to users of the financial statements
+ such as the effects of refinancing and noncompliance with debt covenants.
+ -Subparagraph (SX 210.5-02.19
+20
+22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+In October 2012
+ the Company issued 3
+000
+In April 2013
+ pursuant to the terms of an offering registered with the SEC
+ the Company issued 90
+In May 2013
+ pursuant to the terms of an offering registered with the SEC
+ the Company issued 910
+000 shares of common stock at $0.05 per share.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for shareholders' equity comprised of portions attributable to the parent entity and noncontrolling interest
+ including other comprehensive income. Includes
+ but is not limited to
+ balances of common stock
+ preferred stock
+ additional paid-in capital
+ other capital and retained earnings
+ accumulated balance for each classification of other comprehensive income and amount of comprehensive income.
+ -Subparagraph (SX 210.4-08.(d)
+(e))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+
+b. In accordance with ASC 740-10
+As of November 30
+16
+14
+(16
+(14
+0
+0
+ 2015 the Company had approximately $111
+841 in tax loss carryforwards that can be utilized future periods to reduce taxable income
+The Company did not identify any material uncertain tax positions. The Company did not recognize any interest or penalties for unrecognized tax benefits. The federal income tax returns of the Company are subject to examination by the IRS
+ generally for three years after they are filed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for income taxes. Disclosures may include net deferred tax liability or asset recognized in an enterprise's statement of financial position
+ net change during the year in the total valuation allowance
+ approximate tax effect of each type of temporary difference and carryforward that gives rise to a significant portion of deferred tax liabilities and deferred tax assets
+ utilization of a tax carryback
+ and tax uncertainties information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+A related party transaction is considered to be a transfer of resources or obligations between related parties
+ regardless of whether or not a price is charged.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+In accordance with ASC 855-10
+ Company management reviewed all material events through the date of this report and determined that there are no additional material subsequent events to report.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue
+ purchase of a business
+ settlement of litigation
+ catastrophic loss
+ significant foreign exchange rate changes
+ loans to insiders or affiliates
+ and transactions not in the ordinary course of business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+Cash and equivalents include investments with initial maturities of three months or less. The Company maintains its cash balances at credit-worthy financial institutions that are insured by the Federal Deposit Insurance Corporation (FDIC) up to $250
+000.
+
+
+
+
+
+
+
+
+
+The Company computes net loss per share in accordance with ASC 260
+ Earnings Per Share ASC 260 requires presentation of both basic and diluted earnings per share (&#8220;EPS&#8221;) on the face of the income statement. Basic EPS is calculated by dividing the profit or loss attributable to common shareholders of the Company by the weighted average number of common shares outstanding during the period. Diluted EPS is determined by adjusting the profit or loss attributable to common shareholders and the weighted average number of common shares outstanding for the effects of all potential dilutive common shares
+ which comprise options granted to employees. As November 30
+ 2015
+ the Company had no potentially dilutive shares.
+
+
+
+
+Income taxes are accounted for in accordance with ASC Topic 740
+ &#8220;Income Taxes.&#8221; Under the asset and liability method
+ deferred tax assets and liabilities are recognized for the future consequences of differences between the financial statement carrying amounts of existing assets and liabilities and their respective tax bases (temporary differences). Deferred tax assets and liabilities are measured using tax rates expected to apply to taxable income in the years in which those temporary differences are recovered or settled. Valuation allowances for deferred tax assets are established when it is more likely than not that some portion or all of the deferred tax assets will not be realized.
+
+
+
+
+The Company accounts for equity instruments issued to employees in accordance with ASC 718
+Equity instruments granted to non-employees are accounted for in accordance with ASC 505
+ Equity. The final measurement date for the fair value of equity instruments with performance criteria is the date that each performance commitment for such equity instrument is satisfied or there is a significant disincentive for non-performance.
+
+
+
+
+The Company measures assets and liabilities at fair value based on an expected exit price as defined by the authoritative guidance on fair value measurements
+ which represents the amount that would be received on the sale of an asset or paid to transfer a liability
+ as the case may be
+ in an orderly transaction between market participants. As such
+ fair value may be based on assumptions that market participants would use in pricing an asset or liability. The authoritative guidance on fair value measurements establishes a consistent framework for measuring fair value on either a recurring or nonrecurring basis whereby inputs
+ used in valuation techniques
+ are assigned a hierarchical level.
+
+
+
+
+During the year ended November 30
+ 2015
+ the Company has elected to early adopt Accounting Standards Update (&#8220;ASU&#8221;) No. 2014-10
+We do not believe that the adoption of any other recently issued accounting pronouncements in 2015 had a significant impact on our financial position
+ results of operations
+ or cash flow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for cash and cash equivalents
+ including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents
+ (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk
+ (3) the classification of any negative balance accounts (overdrafts)
+ and (4) the carrying basis of cash equivalents (for example
+ at cost) and whether the carrying amount of cash equivalents approximates fair value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for computing basic and diluted earnings or loss per share for each class of common stock and participating security. Addresses all significant policy factors
+ including any antidilutive items that have been excluded from the computation and takes into account stock dividends
+ splits and reverse splits that occur after the balance sheet date of the latest reporting period but before the issuance of the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for income taxes
+ which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances
+ recognizing investment tax credits
+ operating loss carryforwards
+ tax credit carryforwards
+ and other carryforwards
+ methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy pertaining to new accounting pronouncements that may impact the entity's financial reporting. Includes
+ but is not limited to
+ quantification of the expected or actual impact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for stock option and stock incentive plans. This disclosure may include (1) the types of stock option or incentive plans sponsored by the entity (2) the groups that participate in (or are covered by) each plan (3) significant plan provisions and (4) how stock compensation is measured
+ and the methodologies and significant assumptions used to determine that measurement.
+ -Subparagraph (b)
+(f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+As of November 30
+7
+4
+555
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of long-debt instruments or arrangements
+ including identification
+ terms
+ features
+ collateral requirements and other information necessary to a fair presentation. These are debt arrangements that originally required repayment more than twelve months after issuance or greater than the normal operating cycle of the entity
+ if longer.
+ -Subparagraph (SX 210.4-08.(e)
+(f))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+As of November 30
+16
+14
+(16
+(14
+357
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of the components of net deferred tax asset or liability recognized in an entity's statement of financial position
+ including the following: the total of all deferred tax liabilities
+ the total of all deferred tax assets
+ the total valuation allowance recognized for deferred tax assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+841)
+
+
+710)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+055
+
+
+555
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate amount of receivables to be collected from related parties where one party can exercise control or significant influence over another party; including affiliates
+ owners or officers and their immediate families
+ pension trusts
+ and so forth
+ at the financial statement date. which are usually due within one year (or one business cycle).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+May 31
+ 2013
+Apr. 30
+ 2013
+Oct. 31
+ 2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+000
+000
+
+
+000
+
+
+000
+
+
+000
+000
+
+
+
+Common stock
+ par value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Nov. 30
+ 2015
+Nov. 30
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+776
+
+
+357
+
+
+
+
+
+776)
+
+
+357)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (b)
+(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+841
+
+
+
+Operating loss carryforwards
+ expiration date
+
+  2035
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expiration date of each operating loss carryforward included in operating loss carryforward
+ in CCYY-MM-DD format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Nov. 30
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 Financial_Report.xlsx
+M4$L#!!0    ( #5.ETD?(\\#P    !
+
+
+
+
+
+MFS*V!]C1TN]/GTM#D+[B,_1!XQD,=V-KNN3T&'#3D1! 1]0J=2.27ZJ7GP
+
+
+YCU\(-
+
+
+(HTO?!30+
+
+
+GK%K9/I'J-TZ]D!9T#;MAU\FOSL-WOF*PKOBIX7=3-OEJ+^[6H^/OL
+
+
+M !
+
+
+
+
+B0103 9IZ_PP JE3%ZU6FD PSA]R1
+2
+(<7<K_WUE[O)
+
+
+
+9:AAOBTQJP1X!-]M[X(
+
+
+MCVFS(Z=T)LWH
+
+
+
+
+
+
+
+M\J(A[J&&F
+
+
+O
+
+
+1:V[A
+
+
+
+MI):0?A#
+E*)^*69OMD22LN#L'O#^\W9$9Q%Z3M7N'_2@V6SS3FV/4*.W
+BZB
+
+'.-
+
+ )B)@P3!-D:)'P&[*@!F
+M2@5V._+-C-T
+@S 3*89@RR/?\]A-
+
+
+
+
+
+AG TP?FB(
+
+
+MFF61@6*K(I#&=W8X=;*D]@[?6=7
+
+DMTE6
+M!DEN)4DA2
+
+]_ =02P,$%
+M  @ -4Z7227I,]SL 0  @P4  !@   !X;]W;W)K<VAE971S+W-H965T
+RYX
+M;6R-E-N.FS 0AE\%^0%BSME&@-1-5;52*T5;=7OMP!#0VIC:3MB^?7U@*2&H
+
+M6N7(-T! H52F M'#!?9 J2FD
+
+M'I!704W.5#WQX0N
+
+
+
+HK$X4(K(IY80VOU
+MY
+1X1:1J\G
+D&D[)T9BJ
+D( I%%%BCK
+
+
+H01%UN=$O+4D=2''_ZH.$PIC:.[]^C
+M?S')JV3V1- M*W\71WE9A?,P.-(3N9;RF;5?:9]0$@9]]M_IC99*KDG4& =6
+MO
+
+
+
+2FY
+
+
+MJE \AS
+_R]S+
+
+
+M%_4Q
+
+&ULE59=;]L@%/TK
+\_A$G!Q
+MINR9EX0([Z6I6S[W2R&Z&0!\6Y(&\WO:D5:N[EKL)!#=@\8P3O-*FI010$
+
+OV.DKMGT9:58]!!J*IZ(O\B3./(F=)S?V+['RW$4P
+M#XQM7M^$7:B!3C704I,:)5A.TT<H
+
+$%     @ -4Z7
+
+
+
+
+TR (B.
+J8((W
+L26UEBDR59L
+3&*G++?'_!
+M8E
+E
+
+
+
+?=
+_9/
+
+
+
+
+
+
+
+
+
+
+
+M   ( #5.ETG/#FY2M0$  
+
+
+
+
+
+MIFT3DIF0+(3;F(=-B:+R;]SQ
+FL[8BGCGQ5OOO91?
+MTYQ=0IP9<IP@R0JR7Q#,!U\R)%L9CLE_]&2;GFX*3
+]70O
+MOG9)C^+_&S-
+MO_Y4X ;DYE
+*MNJG M/&2;*DPD''*5YYEV&]2^)[?
+
+
+$%     @
+M-4Z725'_/+&W 0  SP
+
+
+MDA2$)LEW(AE7N
+
+
+
+
+
+$96Q'OO'CKO9?RYCHG
+
+
+
+
+2YX;6QU
+
+M*\:3Y#W30O:TS*/O;
+
+'].H' J:$J?'0^R[5QPL#(?1 O?
+
+.?%6^^]EFF2YNP:
+MB):8TQS#MS%K!//L:PJ^E^+$_X'S??AA5^$AP@^O%/Z'(-LER)!]HK@\*;$
+
+
+
+
+BYX;6QM4]MN
+MVS 
+Z8XD+3(HN^LRTRTWLI-)PM<;U2W/X]@31#3C?TS?$LFM8'!RNRCC?P _S/
+M[FS18C-+)11H)XPF%NJ<WF^.IUV(CP&_! QN<2:ADHLQ+\'X6N4T8) 0ND#
+M \?M@\@92!&7\F3CJG#
+
+M!:9Z;BF9BO\&5Y 8'I1@CM)(%U=2]LX;-;&@%
+5?QUWHN _CS78_P=8!Z01(
+
+
+MYC3&I
+
+
+
+N7P ;O^=G
+M8[(1S8MM 1QYU:JS.6V=ZP^
+
+M9EK(CA99])U
+
+
+0B5GQ)=@?*MRF@1!H*!T@4'X
+M[0+WH%0@\C)^SYQT21F Z_
+;^T.LW==R%A;N43W+RK4YO:&D@EH
+RCWB^!7F
+
+
+
+
+
+
+
+
+M_ BU_H
+
+
+!!_
+
+M4MPD14U21& Y
+
+MHGAF@F#HG8.S1DW6B
+
+MFTOT8
+
+$%     @ -4Z7
+
+
+
+MYLPPY!.:%]L!./*JI+8%[9P;CHS9J@
+E[ T.H/U-@T8)YTW3
+
+
+
+$96Q'OO'CKO=?RP.]S=@V!
+
+M
+.]K9)N6*C!M'9+*AQU'.2-=YW7!QZ?Y!]\'O9OPK2]MN2SC]L;'^#Z
+!+
+M26[\!'7^?ZV&A
+:%XT=_-O.4S8;#8?E ;/W%Y5]02P
+
+
+
+
+
+
+
+)E5P0GX/QJ2YH$A(!94+L)O
+
+MGEM*EN(_PQ64AX=
+
+MQ3AL#A0S?Q1.E+G!B9BY]X
+
+
+
+$%     @ -4Z72=@:;6ZX
+M 0  U@
+
+
+
+@$/T5
+MQ 
+
+
+
+M $I%(;3Q?]:D2\E(/-]_J/](O6
+
+ME
+S-/\()%
+
+
+
+M+W-H965T
+
+M:GN7].]K&X
+
+
+2+^'H#R
+
+
+
+
+MB2)9*OC@B?'?[8FY1.$.Z^X7)FF;;
+0!RFZFD(.DX^8:(:)EHCC
+
+M[
+
+
+
+
+
+%W*C\H4UG\'%
+
+
+M:GA^'H'V_YO/QHXZ%TB_L=\(OQ:5\(Y
+JKMH;LR%
+0G*
+&PO=V]R:W-H965T<R]S:&5E=#(Q+GAM;'U476^;,!3]*\COJP%#,D6
+MM#!-F[1)4:=USPY< JK!S'9]^_G#\HH=?L2^UZ?<WR.8YQ-7#S*%D %3ST;
+
+
+M_*I8-\!)!/+:]U3\/0+C4XXB]-RX[RZM
+KA!8P9(6WC
+MSZR)EBT-<3U_5O]BL^LL9RJAY.QW5ZLV1Q]14$-#KTS=\^DKS'E2%,SAO\,-
+MF(8;)WJ/BC-I?X/J*A7O9Q5MI:=/;NP&.TYNA:0SS4^(9T*\$*+D70*961#
+MP
+
+
+
+
+
+QL3NSH
+.EJFP\^-S[8VW92KYW48X=L[+S&)!M(^2[$
+NY<)^?*Q0?
+MYY<%+\];\0]02P,$%     @ -4Z729SQI?
+
+F3-C#]DHU8MN 0QZXTSH'+?&] ==-D
+&T$[C(O.^DBDP.AG43@KI@7.J
+M_AZ!R3''$7YW/'=-:YR#%%E/&_@)YE=_4M8B,TO5<1ZDP(IJ'-\%QV.J<-[
+
+M7[NMY4PUW$OVIZM
+F^
+]1A74=&#F68Y/
+
+M=(AM;TKG]*WP9U:\MMY+$:5)1BZ.:
+
+
+
+
+]A?8LW&!!-K'(:)$ER4X8
+
+
+
+7V=$S7P(-K0_N)_+M=-E3X'&8W[%8?J;J'U!+ P04
+
+
+M=+C@RTWY8HG,#*3:AFD\%'-S_1*\2#2\[397QVWNF\.EL&(CEB62)^SGA?
+
+
+
+
+;Q@J*^7*ZI#+1[G:?36,1@A;*(&VZI%PNP6C&J0P_M=AX$2BN
+MV5V6ZA3,T[87O8^B(
+
+
+
+
+
+MVA%=5!9280'X+KGFRREH@W.4-*F.W;TH$N@:X8:K0$2G(F%AL!)PXQH&9\LL
+
+
+
+^;<H/P4#'2&;00''APQ?'N.;AI_O:\N3:LV]E?EG:
+M_4 O$!
+\@:_
+DB #B?#HI%G(-']&\RF
+
+
+
+
+M3\ :XWB#(WQ%(:S8;*7@WF(5&]^!K'I
+
+
+$[)C
+
+^WTI
+
+4P)Q#P1H
+Y8
+
+
+PF6#
+
+
+N94\6_88TY)4+3MHZO
+
+F
+
+
+
+
+ME:EP$6BG__!']2)M-@#8A
+&.BE-4ZR^I!P:A#.TYJ12QZG!\;]QGYZ\ ?ASE
+
+YV^'\P?W8(7S
+-8C7$
+@=#X2I5^8&
+M;W*:D
+$RQ#: U$
+
+DWLWKAR2D)7$J$?
+OT2:+!:Z&_:MOH(43/BAB\4HTHA
+MOPNAU   1]2'*[09P(1C<%
+
+
+
+
+Z
+
+M2/$4ER$[10-))
+
+J2;0SW)
+
+
+MK*2 Q/:=%R$/D#S'DAIR!;;PMO4DDP?)')X:#AM_;7C\1%F&
+1H.V^8&H2%I
+
+
+
+%
+@R7'LAPIEUE#@
+
+?(F4&
+M)U.)Y2]ZDR*Z^942B#
+Y;UK7($/O\69K'O%_I9)U&-281L%B)5&.:$*P(
+
+
+M
+V7)SO-\U8/3')QV$+KL VUYS
+^Z = \\-!4=7JV^N^7MI1
+
+
+
+
+
+
+MV7U85;[8;A_T4GG:!$M1%J_@.QNS[8FNU$(/
+#T8CZDQIH5U)9T%INA+P!B8
+MK2W
+;E%$;:#_ZOHZ7XI00UM<E0/
+MV#6V0V^&H_[=AP&;]/Z[X6GC
+
+9*F=%D_^A3D
+MU?VBRE J(6_'+=9A6XVF+
+JHR.3JA?G[L':E+ @04Q)A;7+YLD
+QBE HB$4F
+MKD4I3XA%I6BC+0C25[O]$7;9%
+
+M 5QH[2&TO!3 CNW
+
+UEW=;
+
+
+AJ]8\MP&\=P&\=P&\=P&\:5M$-5^*%=$5^_\KF?XKF?XK?L
+
+M'%]SL
+
+6QE<RYX
+V-FXT5L&]Q6 1AUGHDEPI77].@B:K ).F@M9@S1
+
+
+C0+GV -I7!.M08E;
+
+^@M]IVOL
+
+
+
+
+M#*]!@%0&*B%5
+ZB@[DUR
+[%P;
+8/8/Z^=B)4(U&K&\
+JB7-M'\6^]\23DY#[
+
+
+D
+
+M-
+
+
+M*[.5VE82KIQKKZ46
+@B.K)-V2GX,,Z^RZ,K,3Y82!LXMC=J8I[/F;('SBR
+
+M@3H+T(2RZT4/B00_PB0W
+
+
+
+
+
+
+
+&ULS9C+;L(P
+M$$5_)<JV(L9I2Q\-FVW+5+[ ZX](19^R384_KZ.@4I%J40%2+.)8\_XSK$S
+MNHN
+
+/AB'!K
+
+J( ]'!3K#RH').:*4+5RFA
+*K%(NQ4BS.6F-QUAJ+L]98G+6^H+/FL=),FK](/JU=[.N3
+M_#=@^@U02P$% 
+4      U3I=)'R// \     3 @  P
+M@ $     7W)E;'
+O+G)E;'-02P$% ,4      U3I=)9O
+
+M;W)E+GAM;%!+ 0(4 Q0    ( #5.ETF97)PC$ 8  )PG   3
+
+
+
+
+
+
+
+
+
+
+M;6Q02P$% ,4      U3I=)SPYN4K4!  #. P  &               @ %T
+
+M/+&W 0  SP
+
+
+M970Q
+YX;6Q02P$% 
+
+M% 
+Y;A[U 0  T@
+  !D              ( !
+
+
+
+
+
+
+
+M:&5E='
+
+
+
+
+M
+
+
+#$U
+3$S
+
+
+
+50#?0
+MACJH[]34.WA[UY.N.
+1_
+
+$O')$T
+AOL[:J7
+
+
+
+1RYR;.!Y'UX!@RN$C.VG;O *;'=F'
+
+
+
+
+
+M'!(UM]MEDB$WMXL
+
+
+
+
+M;#^CMV!@21Y
+
+
+M@F7'SXPU8A:&O7)3P+U@3
+
+
+M*$&I$]2-F
+-M 4 &'TO(U%KU5K5JPF8 
+
+
+
+
+
+YL=Q1RX9#['XTM:PJ#R?4
+
+M^-8XG65NWR\PG3I-I_6C9K/
+
+M?JS
+
+
+
+
+
+PHSMW(^X%_&R$,:SSN-X&R6I%6-9*9<G $^0
+
+_QFX=J
+
+
+'JFM?KJ#)W^:; ^
+
+M:_L
+F.C9BH$3P/S62:ZJJK9V#.%\NH3!;%^9 4#,!KQ+IWS^?XZX$[72W38
+MMAV*\3-AL5(_,'?BXJ!M;$*K*H3UUNH3@L]MSIW@1/K#SZR[I'\@[/^
+
+
+E+$0(
+R#;V'S6BI&G
+
+
+
+
+
+
+
+
+
+-?#^HU /FT?75]T6%G)^SS
+
+M7^XB-
+
+B8!8[
+
+
+
+M1S0IZ &\QAJC
+.%PP&ZH!*SKWN
+
+
+M_LP_W@H)EW
+
+
+
+M5S%'Y]2SGZJU6KE@V:-]6&-F:]B6WQ/ 8A-00WPH(GGPT3TS:G0!VC&, :
+M]+YQX2$(@ZS/&RQ_4&H13^#OM1&(']; P3#J0?W0P85VD0^G%0 =C9L)-O
+M%*;BM1U:]X OZ#6(^C@#=)#'72
+
+M!(
+W
+
+
+O
+
+
+M.H$%L13G
+
+
+
+
+=/^J%P*C\**
+
+A +IMB.?QHY$KN*-58:;JOZ6'Y&402XJSR1M;TG24DJRP^W=/J^-
+
+
+
+
+MW
+
+8CJ0(2LBZ\I
+
+
+
+
+
+NAYT*Z
+M423M@17$K@'X8WHJA?#/Y[8NA/\6XRS.2HL.
+
+HUI
+MC.V*0NH(!#9F4=2HQRNLZZRMR^/6'VO6F:EA#3/8](LQ6]3E__(B+RBP!^
+
+;PU%._PRC)
+8.F
+
+
+MW  YADH3PXLG_CWGZF[(HQ=#Z%I'
+
+[
+JZ
+
+W!@)R2GST8U'#I]8&=#N$XRK
+M!+6/TS$
+
+!2Q87M#%
+
+
+
+X,T&!5^EREI-  Q/&H3APWBZN.*@,Y=/0IX%@$D\G$J:8:A]7+!Z
+M?5@]GTU.S<#7^/@H.T-?5VDM[,)Z4W6T!+!;?+.X8ZTTS-\+WPE12SK:P
+M(=JJMLI
+
+
+
+M!:*LABZ
+
+
+I=F+##OP.
+MO8\L&0I
+U)TR& W64-.:8<))5'M:%3?T-O \P+RE9FX?I'DCY0E+Z6Q5N$7=
+MJH?JURAS$;:'!PG_NR0VP-/@&6(68TD'5  &5
+JYX'@TI(V; ;8[2ZF-2MT
+
+
+%6X0?J?
+
+M8%L7&DI3Q+)SZ7L^)JTMW)
+
+0AC;+A/BJ=A#K U=9+L7^8DGR
+
+M?3GN7&ROIOS:
+
+
+9BX*)$K_E32_#;B@+
+
+
+CL
+
+
+
+
+MZMG !7T&V
+
+
+MCB$@SS80EHO$V2ACKO\@LE2-0DIM G91H.\5^IB?!
+
+MSX_%VURHL@BU=@R4)G_A19&Q# 45742A
+#NO.23/<K-*U-$I?!58J
+MK*XNFY D[!=3Q24G04F.-QB^T#E'BBVS1,UD2(^OXC/+^+SUP5\?E%?/Z3
+7-WME$$O#P]F3\=<#B4/7V&:H/%<& L'0LSPTL8UP# \P]U-J!./;*;8.&3
+MB#EG)3IY%^MQVZ(D]U23!Y/GZ(3_[CW[[OFW6#*54[8<75YVHL JU2#M<19$
+M_3XFH%%A/E$HL!HI31&MDFF;9&'X?\RY2+'_BY\EX4A\@%NAH=D\_\Y6(Q9
+
+F1J-(QQ2#506_/X]Y=!#\I:8
+%_$
+M&3K['&QJRL:?J$TPATAZ05PP/:DI*U$YZ?T/MTDSX7=6DA=4<XONQ669W4#W
+MT'P*Q5W@C$GJFJ\U0<8\4/55U^XW-F
+!C
+
+
+
+
+
+
+
+M+5?5@!(G*A_K(NO2CVY4^@
+
+
+_Z'=@Y.'Y02)B7MN
+MKUX$IJ;#VO/6=,YXP<RIB9U3)?EC]?MT
+&?26L=RJ0PH H]V&%M.\20K;B0%RRSB[!CZB)5\B <
+M^(&Q3
+]FPEZ$E/ R-@:Y1<N8/<NUJ/PKQKQ)#N9:!58U'-P;L@P:A*,3$K$2H4
+
+
+
+ X2O608R3*I+U&0=J);(N\
+
+X(_0)-5CCB)I#ZP@
+
+
+I)*-492I
+MRI..0,61+A/W);1QJ7+@H(XP!B/SAC,OHAM@1K)UG7T]@%.CR PO*BQ[_18
+M+XH&W3B[A(%4RK 58(\=O4^-DXPRLE_K7S5KLM&?HBW7&!3$D+%F&?[*.A
+
+MD
+
+[OZ
+7FNXE6Z!POT/=J9RNRB;4::OG
+
+
+
+MHV
+
+
+
+
+
+C%5E:)*
+
+
+
+
+
+MI*ZNQQ1846VGYK6]\O[^WBH +*D!KT=K7E'#55-OEANM_54 V-0N-0IMSR?V
+
+M(6=S\FD^6)-$CD)J1JJ4J0D_=9\\PGSGL-O*D@
+\ -F6 C[3&T&_IB^J/LW7
+M
+
+
+NT0^$H8UK7_E1A$FD
+
+.!Q/G^5:L%^J%K]3CL?OC/-_UB=PK4MLSV:TD[;@Y_
+
+=2;:=J@+?$=!OSIMOX
+MD=-M+#7=N+
+
+
+
+
+
+\+4
+
+
+
+
+MEX$ED%XW
+
+
+
+M1
+F
+
+M[QG;*V+DW?AN3H0QF$_=&IF;Y0]K+!=@Q
+
+M)=:37U;=&ZQ2@6Y&U^DDC(B)1P_+KDP/)]*<0L!RW'
+MNG/QASZA4!DE7((2^))ITXFP^LS!Q6C4O66=/4O*0SJ;8;&$A8=.&-RU(PSG
+
+
+
+UZO&33)
+
+
+
+
+MF-== UG[*;QN.($M18)64: $ HB$X68L\SKD QJPV]X9%1TP#1WWR+\W67
+
+
+
+
++\V5
+MUY]'4@DS+?6E3I\
+
+M1WG\:'!Q*O*Z*T:31+]@L&-EFJ4BW]2W#]OYL
+3D&]AX)SM!'?%85ST^2*
+
+@7W
+UDHZRL%P1DI.LY7B&(_!FQO
+=+K0G(
+MAQY0%M]0/()8E'U1N=0/)2X2'OTL1;L5.J
+E^\_!4-G^+8EY!0K:O3_)G\DX
+
+
+
+OYG/_CQ.^/AI%9#6 KC C-Y9G:NV
+MU0+J
+
+
+
+MPQ
+T!1)/^E)HY50
+
+
+%UDWGJ!!TPL7U7BZ<+97Y[H3G23+W
+MZYP150]Q_U^$Y=JP (J,JUZR?18$C,9(_D$D @/<O&FMBW5WJ;?7;!YX$\6C
+MYWEX@^(186]$^RC$4D/:+?Z[/Z$EYWX2^M)A?1
+
+
+T61
+MI_+UCKHF%(0Y^W6A8
+
+
+
+
+C Q-3$Q
+S!?9&5F+GAM;-V876_:
+M
+
+
+_/
+
+M!G)AK:@T9? S-+PXM@C&=4
+M'9!M._:!2'F
+
+
+WO
+M&5%/US F(='[[)/K;%9J71 4
+
+
+M\89:/]U$
+
+
+F7W1?\^=4PNTVK(-/AU'GZ)S\[8VI=U0
+
+MP0B;R)TR%3L$G]^1/N4EI
+
+MY.U
+
+
+
+
+MX_VU@$F
+
+
+
+
+
+M8?-G$Q
+
+
+
+
+M;@;QN'0A@W_X[M:+8/ R=%P42!DP#J&^7:$B!HYLI0
+!&VF$Y1(^AXI-H3Q5
+
+
+
+
+
+
+
+
+M+!UN&?$F@QC&B-'S!GDATK\7VTJA5Y8A5_GSMB'7C(QOJ:*35X9^TNMA17
+
+
+N?\;:O&&); B]779\
+
+
+
+
+
+
+*1%BT-4&@(*U;Y(K]M;EB#*2T]V!C#'*#JM-?EDQ?NS/@
+
+
+
+ME
+8@+U4+FK']&V1$4BYM$3$R9JM$-GL1
+I3<(DCT_=M568H(B]=AC[H7*VER/6[6#S6/+BA;\'\3NE
+
+
+
+
+)N1
+M 9ASD5:F*B@^;&)
+
+
+
+
+-M&NBAR5GSTHY=)YF[T_BQE]#
+
+
+
+
+$3Q295
+
+
+MQDO1_N&\!F\BVU^)NOU!4/-K(0P(*K)VMQL2#4H4N&L.RA26H46LBSCH8U
+M@VX1Z%N&MC3W
+
+
+MQ]N^P_T1'&T[#M: YCV-(=
+
+
+
+
+9^?3V;C ;3.:]^6@Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+=V?6
+M4UZ 
+C
+
+
+?#25O;&Q2'R4BU7
+
+
+M=6Z37]!:
+
+
+M-U*9ZI?E]=CKJ.8;WHSZ.%3!L[5[:Y*!J%3OE1#KK-8KPU)6JW8
+R$@0#P5L
+
+M5EO$KJI*#QYA7][?8D=?JC7B7E]7KH3WPJDA9*J+6+)7O;@G4,*RF,:@U);
+M16B[_GA!C&U##IP9X=0/TE[=BZC;G)-\42
+
+8=
+
+
+
+
+M!_PW_@\YDXN_^']02P
+
+
+M+3(P
+34Q
+3
+
+
+$
+
+M7P_G0;#\TNL]/S\?OTR8=TS9K/?NY.2TMQYX&(_\\L+)SNCGT_78?N^_WVX?
+
+
+
+
+
+HZULG5O+CVT^L##)+&U%=F[$?KS C^C%0F]IFHI??X\]X66N
+
+M%/6YDBU3.:2U
+_.(7X+0(MI7S_ Z6YZMS JFL6(R[]#J
+19_D8]G\HODD?5
+M'EG['R
+K\<-
+'A#-Q9FV'*M[U(WR+$X@+*C
+M=8J^(;X?:8\4ARG*!OB]0Z7D^V&KBF9BI4:EY/IEK)&7H,LG]:W$I0K%++
+
+
+ME%
+$^X@[W\8
+
+%R@C
+W[\
+
+M. \Q4RA%2S
+^:Z5JC$EOH
+
+MQ1G0D2X.\.[QDC)9GY!M!
+
+
+
+
+P=
+S0*
+
+!?H^3 
+9&.J]%7]
+
+90DMI+Q]Z
+
+M2LDVA!I 
+
+
+
+
+MS'5)S/T($??&OT1+$J\S%D!!52!K(IN-5#JVF*?,)M0,%^]EYW/G:O$//%
+#+A09Z5CM2=#5?&J*#<?16V[
+M+F@51295,B@@%4'7R6R5D-4-P-5- . _.3NU?1_DI4U![9O$
+
+MLRAU;1;KJJC;G:(T!%A3; P;-V5*%N=A
+
+
+
+
+M!T$W8OYA
+
+=
+
+
+M)1
+Z1A3MQ(4:
+
+-21Q;\(WXTRA
+V@R&
+5P=J GKUPL [QX
+
+M2M.UI5A
+
+MUO4:LH=6)DC-L76@+G&'@I#AX?0BY
+
+
+[/62Q
+UXE_SA!YF@
+M2#6H-.U*
+
+M(H5Y*32?)SM7LI@%VK-
+
+
+
+
+EG58
+M7NU5QR:/-
+
+
+XFA\RNVO15FB-J=BTP5CF'<I1/EX[2EQ#H7K)US
+MCJ
+?X$B=UB
+9VWJ3Q8S0+E:JZ%P!:[N=SZRE?B!?X?0:=\P.=M8KLI)F:I!V
+
+
+
+
+M@]HPDXCB_VS?5)P
+
+
+
+M=7 M
+C Q-3$Q
+
+M             ( !WS
+  '-P=7 M
+C Q-3$Q
+S!?8V%L+GAM;%!+ 0(4 Q0
+M   ( #5.ETE%RI=)/@
+
+M
+34Q
+3
+
+

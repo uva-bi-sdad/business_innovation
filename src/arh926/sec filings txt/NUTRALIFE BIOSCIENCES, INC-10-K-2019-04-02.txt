@@ -1,0 +1,3796 @@
+
+
+ACCESSION NUMBER:		0001477932-19-001394
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	20181231
+FILED AS OF DATE:		20190402
+DATE AS OF CHANGE:		20190402
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			NUTRALIFE BIOSCIENCES
+ INC
+		CENTRAL INDEX KEY:			0001563463
+		STANDARD INDUSTRIAL CLASSIFICATION:	DAIRY PRODUCTS [2020]
+		IRS NUMBER:				461482900
+		STATE OF INCORPORATION:			FL
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55144
+		FILM NUMBER:		19723968
+	BUSINESS ADDRESS:	
+		STREET 1:		6601 LYONS ROAD
+		CITY:			L 6 COCONUT CREEK
+		STATE:			FL
+		ZIP:			33073
+		BUSINESS PHONE:		888 509 8901
+	MAIL ADDRESS:	
+		STREET 1:		6601 LYONS ROAD
+		CITY:			L 6 COCONUT CREEK
+		STATE:			FL
+		ZIP:			33073
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	NUTRAFUELS INC
+		DATE OF NAME CHANGE:	20121210
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	NUTRAFUELS
+		DATE OF NAME CHANGE:	20121203
+
+
+
+
+
+
+
+Washington
+For the fiscal year ended December 31
+NUTRALIFE BIOSCIENCES
+6601 Lyons Road
+Coconut Creek
+(Address
+ including zip code
+ and telephone number
+ including area code
+Common Stock
+Indicate by check mark if the registrant is a well-known seasoned issuer
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Website
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167;232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such reports)
+Indicate by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (&#167; 229.405 of this chapter) is not contained herein
+ and will not be contained
+ to the best of the registrant&#8217;s knowledge
+Indicate by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ a smaller reporting company
+ or emerging growth company. See the definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer
+&#8221; &#8220;smaller reporting company
+If an emerging growth company
+As of December 31
+ 2018 and March 27
+ 2019
+ we had 97
+315
+941 and 128
+667
+583 shares outstanding
+ respectively
+Market for Registrant&#8217;s Common Equity
+Directors
+Certain Relationships and Related Transactions
+Exhibits
+This Annual Report on Form 10-K (this &#8220;Report&#8221;) contains &#8220;forward-looking statements&#8221; within the meaning of the Section 27A of the Securities Act of 1933
+ as amended (the &#8220;Securities Act&#8221;)
+ and Section 21E of the Securities Exchange Act of 1934
+ as amended (the &#8220;Exchange Act&#8221;). Forward-looking statements discuss matters that are not historical facts. Because they discuss future events or conditions
+ forward-looking statements may include words such as &#8220;anticipate
+&#8221; &#8220;believe
+&#8221; &#8220;estimate
+&#8221; &#8220;intend
+&#8221; &#8220;could
+&#8221; &#8220;should
+&#8221; &#8220;would
+&#8221; &#8220;may
+&#8221; &#8220;seek
+&#8221; &#8220;plan
+&#8221; &#8220;might
+&#8221; &#8220;will
+&#8221; &#8220;expect
+&#8221; &#8220;predict
+&#8221; &#8220;project
+&#8221; &#8220;forecast
+&#8221; &#8220;potential
+&#8221; and &#8220;continue&#8221; negatives thereof or similar expressions. These forward-looking statements are found in various places throughout this Report and include but are not limited to information concerning possible or assumed future results of our operations; business strategies; future cash flows; regulation financing plans; plans and objectives of management; any other statements regarding future operations
+ future cash needs
+ regulation
+ business plans and future financial results
+From time to time
+ forward-looking statements also are included in our other periodic reports filed with the Securities and Exchange Commission (&#8220;SEC&#8221;) on Form 10-K
+ Forms 10-Q and 8-K
+ in our press releases
+ in our presentations
+ on our website and in other materials released to the public. Any or all of the forward-looking statements included in this Report and in any other reports or public statements made by us are not guarantees of future performance and may turn out to be inaccurate. These forward-looking statements represent our intentions
+ plans
+ expectations
+ assumptions and beliefs about future events and are subject to risks
+ uncertainties and other factors. Many of those factors are outside of our control and could cause actual results to differ materially from the results expressed or implied by those forward-looking statements. In light of these risks
+ uncertainties and assumptions
+ the events described in the forward-looking statements might not occur or might occur to a different extent or at a different time than we have described. You are cautioned not to place undue reliance on these forward-looking statements
+Except to the extent required by law
+ we undertake no obligation to update or revise any forward-looking statements
+ whether as a result of new information
+ future events
+ a change in events
+ conditions
+ circumstances or assumptions underlying such statements
+NutraLife BioSciences
+ Inc. (&#8220;us&#8221;
+ &#8220;we&#8221; or the &#8220;Company&#8221;) was founded in 2010 by Edgar Ward
+ the Company&#8217;s Chief Executive Officer
+ President &amp; Director to engage in the development
+ manufacturing and distribution of nutritional and dietary oral spray products. Since then the Company has evolved into a branded and private label developer
+ manufacturer and distributor of a wide range of nutraceutical
+ wellness
+ and CBD products. The Company&#8217;s revenues increased from&nbsp;$225
+293 in 2016 to $3
+711
+The Company&#8217;s manufacturing facility has been registered with the Food and Drug Administration and its manufacturing facility has operated in accordance with the Good Manufacturing Processes Standard (GMP) for more than five years. Our products adhere to high manufacturing standards throughout every step of the manufacturing and extraction process. Our products are formulated
+ developed
+ manufactured and produced under the supervision of Edgar Ward
+ our Chief Executive Officer
+ President and Director. Once produced our products are tested by our in-house laboratory chemists. Our nutraceutical and industrial CBD products are of the highest-quality and laboratory tested for strength
+ purity and contaminants such as heavy metals
+ pesticides
+We offer thirteen (13) different core formulations which we modify to meet the specifications of our private label customers. We provide approximately 50 different variations of our core formulations. Our private label products include CBD-infused oral sprays
+ tinctures
+ pet drops
+ pain balms
+ and face creams
+Our spray products and tinctures are available in various formulations and strengths and are available for purchase online directly from the Company through its website at www.nutralifebiosciences.com
+ as well as through numerous other private label distributors
+NutraLife BioSciences
+ Inc
+ was formed as a limited liability company in the state of Florida on April 1
+ 2010. On December 3
+ 2012
+Precision Analytic Testing
+ LLC
+ a Florida limited liability company (&#8220;PAT&#8221;) formed on May 11
+ 2017
+NutraDerma Technologies
+ Inc.
+ (&#8220;NutraDerma&#8221;) a Florida corporation formed on January 28
+ 2019
+PhytoChem Technologies
+ Inc.
+ a Florida corporation (&#8220;PhytoChem&#8221;) formed on February 4
+ 2019
+TransDermalRX
+ Inc.
+ a Florida corporation (&#8220;TransDermal&#8221;) formed on February 8
+Bankruptcy
+We have not been involved in a bankruptcy receivership or similar proceeding. Additionally
+ we have not been involved in a reclassification
+ merger
+ consolidation
+We are a manufacturer and distributor of nutraceutical
+ dietary
+For the years ending on December 31
+ of 2017 and 2018
+ we generated revenues of $1
+790
+168 and $3
+711
+327
+In March of 2017
+ we began selling CBD products. Since that time
+ revenues from sales of our CBD products increased from approximately&nbsp;$1
+380
+000 for the year ended December 31
+ 2017 to $2
+400
+000 for the year ended December 31
+We manufacture and distribute private label and branded products. In the years ended December 31
+ 2017 and 2018
+ private label sales represented 91% and 99% of our revenue
+Our CBD products are derived from the seeds and mature stalks of the Cannabis Sativa plant which includes all parts and varieties of the cannabis sativa plant also known as hemp
+ which contain a tetrahydrocannabinol concentration (&#8220;THC&#8221;) that does not exceed 0.3 percent on a dry-weight basis. In December of 2018
+ the U.S. Food and Drug Administration completed an evaluation of three generally recognized as safe (GRAS) notices for hemp seed-derived food ingredients. The FDA stated that hulled hemp seed (GRN765)
+ hemp seed protein powder (GRN771)
+ and hemp seed oil (GRN778) are GRAS under their intended conditions of use. Our CBD products are made from seeds and mature stalks of hemp and contain only trace amounts of THC
+Our branded products include NutraHemp CBD products including oral sprays
+ tinctures
+ pet drops
+ pain balms
+In November of 2018
+ our wholly owned subsidiary PAT began providing bulk material analytical
+ identity
+In January of 2019
+ our wholly owned subsidiary
+In March of 2019
+ we licensed our technology for a unique system for pharmaceutical grade delivery of testosterone into the human body to licensed pharmacist
+We purchase raw materials and produce goods only upon receipt of a firm commitment from our private label customers and we require payment in full prior to shipping. Once a product is shipped to a customer
+We provide superior customer service by controlling the entire production process of our products. By controlling the production process
+ we have the ability to tailor products to a customer's specific needs
+ offer customers rapid order turn around time
+We seek to add value to customers' overall merchandising effort. We work closely with our customers to develop distinctive product lines at their particular price points. This process allows our customers to achieve a degree of differentiation from their retail competitors. We believe our ability to develop
+ manufacture and offer high quality
+We will seek to increase sales to our existing customers by expanding sales of additional products. Certain of our customers began their relationship with us by purchasing only one of our products. Since these initial purchases
+We seek to increase sales to customers by offering products in categories outside of our traditional product offerings. In November of 2018
+ through our wholly owned subsidiary PAT
+ we began providing bulk material analytical
+ identity
+ potency and purity testing of raw hemp. In 2019
+ we plan to commercialize a patented all-natural dermal skin patch that prevents mosquito and other insect bites. Through our wholly owned subsidiary PhytoChem
+We plan to leverage our sales
+Our private label sales represent 21 different brands of products manufactured by us. Sales to private label customers represented approximately 91% and 99% of our revenues for the years ended December 31
+ 2017 and 2018
+ respectively. Our industrial hemp CBD products represented 77% and 78% of private label sales in the year ended December 31
+Our private label products are sold primarily to five (5) private-label distributors
+ 3 Point Ops
+ NF Skin
+ Organic by Nature
+ My Daily Choice
+ and Oxzgen
+ which represented 32%
+ 25%
+ 17%
+ 13%
+ and 4% percent of our sales in the year ended December 31
+Our private label products as less expensive than brand name products
+Once developed
+ our products are manufactured at our facility in Coconut Creek
+ Florida. We obtain all raw materials and ingredients for our products from third party suppliers. For all orders we receive
+ we manufacture
+ package
+ label and ship the product to the customer. We lease an aggregate of six thousand four hundred (6
+400) square feet of office and warehouse space at 6601 Lyons Rd
+ Suites L-6&amp;7
+ Coconut Creek
+ Florida 33073. Approximately five thousand eight hundred (5
+800) square feet at this location is used for manufacturing
+On June 6
+ 2017
+ we entered into an agreement to lease nineteen thousand eight hundred and thirty-one (19
+831) square feet in Deerfield Beach
+ FL 33441. We plan to use seventeen thousand eight hundred (17
+800) square feet of the new Deerfield Beach location for manufacturing
+By manufacturing our own products
+ we believe that we maintain better control over product quality and availability while also reducing production costs. Our manufacturing process generally consists of the following operations: (a) sourcing ingredients for products
+ (b) warehousing raw ingredients
+ (c) efficacy testing and measuring ingredients for inclusion in products
+ and (d) blending using automatic equipment. The next step
+ bottling and packaging
+ involves filling
+ capping
+ coding
+The Food and Drug Administration (FDA) requires companies manufacturing homeopathic medicines to have their facilities certified as Good Manufacturing Practices (GMPs). Our manufacturing facility is registered with the FDA and is compliant with its GMP certification. Our quality control program seeks to ensure the superior quality of our products and that they are manufactured in accordance with current GMP. Our processing methods are monitored closely to ensure that only quality ingredients are used and to ensure product purity. Periodically
+The raw materials for our industrial hemp CBD products consist of Cannabidiol rich oil and isolate. We obtain the raw materials for our industrial hemp CBD products from state licensed suppliers. We obtain the raw materials for our other non-CBD based products from several ingredient suppliers located in the U.S. These raw materials consist of naturally derived vitamins and nutrients. The raw materials used by us are available from a variety of suppliers. We maintain a good relationship with our suppliers and do not anticipate that any of our suppliers will terminate their relationship with us in the near term. We have ongoing relationships with secondary and tertiary suppliers. In the event
+Upon completion of the manufacturing process
+ our products are shipped directly to customers. Private label products are packaged by us in the packaging provided by each customer. All shipping
+ bills of lading and invoices are generated by us from our Coconut Creek
+We ship the product ordered within forty-five (45) days to our private label distributors
+We have in place comprehensive quality control procedures to ensure that raw materials and finished goods meet our exacting quality standards. Each product we offer is based upon the research of Edgar Ward
+ our Chief Executive Officer
+ President
+ and sole Director
+ with the assistance of our in-house chemists. Our products are and
+ in the future
+ will continue to be identified by Mr. Ward based upon suggestions from our customers
+ and from industry and market research he conducts on an ongoing basis. We do not employ medical professionals and our management does not have experience in the healthcare industry or in the treatment of disease. Our products have not been confirmed in any respect by the U.S. Food and Drug Administration or any other governmental agency and may not produce the results intended. In developing products
+ingredients that are supported with a certificate of analysis
+our products do not contain adulterated ingredients such as ephedra
+ androstenedione
+ aspartame
+ steroids
+Our Chief Executive Officer
+ President and Director
+We use web based marketing to promote our brands and products including social media and promotion of our website at www.nutralifebiosciences.com. Our websites provide useful information about our industry
+ new developments and our products and allows visitors to order our retail and wholesale wellness
+ nutraceutical and CBD products. We use Search Engine Optimization (SEO) on an ongoing basis to drive traffic to our website and social media pages and enhance our presence on major search engines such as Google
+We emphasize the development of long-term relationships with our customers. We have established strong relationships with individual buyers at each of our private label customers
+ and more importantly
+A key component of our ability to achieve long-term relationships is the high level of services that we provide to our customers. Each sales person is responsible for all aspects of a customer's needs
+ including product samples
+ obtaining orders
+ coordinating product selection
+ monitoring production and delivering finished products. During the production process
+ such salesperson is responsible for informing the customer about the progress of an order
+ including any difficulties that might affect delivery time. In this way
+ we and our customer can make appropriate arrangements regarding any delay or other change in the order. Further
+Our sales force is in constant contact with our customers to develop an understanding of the customers' retail strategies and production requirements. We use this information to provide our customers with products that meet their particular requirements efficiently. We require that our sales force be knowledgeable about all aspects of our products. We believe our knowledgeable sales force enables it to provide our customers immediate feedback as to the various costs and availability of various raw materials
+As of the date hereof
+ we have approximately twenty-six&nbsp;(26) full-time and part-time employees. Four (4) employees are chemists engaged in product development and testing
+ four (4) are engaged in executive or administrative capacities
+ thirteen (13) employees are engaged in manufacturing
+From time to time
+We will exchange any product found to be defective. A written exchange request must be submitted when a customer returns defective or damaged products. Purchasers can apply for a refund in the full amount of purchased products within ten (10) days of purchase. All shipping fees for product exchanges or returns must be paid by the purchaser. Historically
+We received federal trademark registration for the expression &#8220;Spray your way to a healthier day!&#8221; that we use
+ or intend to use
+ to distinguish ourselves from others. All trademark registrations are protected for an initial period of five (5) years and then are renewable after five (5) years
+ if still in use
+Our wholly owned subsidiary
+ NutraDerma holds patent number 7
+754
+237 from the U.S. Patent and Trademark office
+ for an all natural dermal patch designed to prevent mosquito and other insect bites. We plan to test
+On February 4
+ 2019
+ our wholly owned subsidiary known as Phytochem Technologies
+ Inc. (&#8220;Phytochem entered into an agreement (the &#8220;Agreement&#8221;) with Owen Morgan
+ an individual
+ where by Mr. Morgan will provide certain know how and services to Phytochem for the commercialization of certain technologies (the &#8220;Technology&#8221;) to separate and/or process the components of hemp to remove and/or modify
+ purify
+Mr. Morgan is obligated to provide services to Phytochem for a period of one (1) year. In exchange for his services
+ Mr. Morgan received $65
+520 upon execution of the Agreement and will be compensated $15
+000 monthly. Mr. Morgan&#8217;s services include overseeing all aspects of the manufacturing which shall be done in the United Kingdom. Phytochem is obligated to pay up to $10
+000 to manufacture a demo unit (&#8220;Demo Unit&#8221;) using the Technology and $400
+000 plus enhancement costs
+Phytochem is obligated to pay Mr. Morgan 40% of net revenues derived from the commercialization of the Technology. In addition
+ Mr. Morgan shall receive shares of the Common Stock of NTFU upon certain milestones. Upon receipt of the Demo Unit and Commercial Unit
+ Mr. Morgan shall receive 500
+000 and 1
+500
+000 shares
+ respectively. If the commercialization of the Technology results in revenues of $1
+000
+000
+ $5
+000
+000 and $10
+000
+000
+ Mr. Morgan shall receive 2
+000
+000 shares upon each milestone. If the commercialization of the Technology results in revenues of $25
+000
+000
+ $50
+000
+000
+ and $100
+000
+000
+ Mr. Morgan shall receive 4
+000
+000
+ 5
+000
+000 and 5
+000
+000 shares
+ respectively
+On March 10
+ 2019
+ we entered into an agreement (the &#8220;Agreement&#8221;) with Orlando Pharmacy Inc.
+ a Florida corporation (the &#8220;Pharmacy&#8221;) whereby we granted a limited exclusive license to the Pharmacy for a unique process for a delivery system to deliver testosterone into the human body using an oral spray. Under the terms of the Agreement
+Within three (3) months after execution
+ if the Pharmacy fails to have net revenues of at least $10
+Within one year after execution
+ if the Pharmacy fails to have net revenues of at least $500
+Within two years after execution
+ if the Pharmacy fails to have net revenues of at least $2
+000
+Within three years after execution
+ if the Pharmacy fails to have net revenues of at least $3
+000
+Within four years after execution
+ if the Pharmacy fails to have net revenues of at least $4
+000
+Within five years after execution
+ if the Pharmacy fails to have net revenues of at least $5
+000
+On March 10
+ 2019
+ we entered into an agreement with NewLeaf Assets
+ LLC
+ a Delaware Limited Liability Company (&#8220;NewLeaf&#8221;) as amended
+ (the &#8220;Agreement&#8221;) whereby NewLeaf invested an aggregate of $1
+380
+NewLeaf invested the sums of $250
+000
+ $130
+000 and $1
+000
+000 on July 31
+ 2018
+ August 31
+ 2018 and March 15
+ 2019
+On July 31
+ 2018 NewLeaf was granted 2
+000
+0000 shares of our common stock and warrants to purchase 625
+On August 31
+ 2018 NewLeaf received warrants to purchase 325
+On March 15
+ 2019
+ NewLeaf invested the sum of $1
+000
+On March 15
+ 2019
+ we issued 13
+764
+705 common shares
+ warrants to purchase an additional 10 million common shares at the price of $.20 per share at anytime until March 4
+ 2022 and an option to purchase an aggregate of 7
+647
+058 common shares at the aggregate price of $650
+000 at any time prior to April 8
+As a result of the Investment
+ NewLeaf holds an aggregate of 15
+764
+705 of our common shares
+ warrants to purchase an additional 10
+950
+000 common shares for an aggregate price of $2
+190
+000 and an option to purchase an additional 7
+647
+058 common shares for an aggregate price of $650
+000 at any time prior to April 8
+The Company paid a finder&#8217;s fee of 10% in connection with the Investment. Under the terms of the Agreement
+ if NewLeaf sells
+ assigns
+ gifts or otherwise transfers any portion of the Securities to any other person or entity (the &#8220;Transferees&#8221;)
+The nutritional
+ dietary supplement and industrial hemp CBD industries are highly competitive. Numerous manufacturers and distributors compete with us for customers throughout the United States selling products to private label customers and retailers such as mass merchandisers
+ drug store chains
+ independent pharmacies and health food stores. We are also vulnerable to competition from companies that can manufacture similar products to our products and compete for private label customers. The markets for our products are highly competitive. We compete on the basis of customer service
+ product quality
+We compete with major private label and broadline brand manufacturers many of which are larger and have access to greater resources than us. Among other factors
+ competition among private label manufacturers is based upon price. If one or more private label or broadline brand manufacturers significantly reduce their prices in an effort to gain market share
+ our results of operations or market position could be adversely affected. We also compete with manufacturers of nationally advertised brand name products which are larger and have resources substantially greater than us. In the future
+Many of our indirect competitors are substantially larger
+ have more experience than us
+ have longer operating histories
+We are in a business that involves the use of raw materials in a manufacturing process
+ however
+ it is unlikely that such materials are likely to result in the violation of any existing environmental rules and/or regulations. Further
+ we do not own any real property that could lead to liability as a landowner. Therefore
+We maintain commercial liability
+ including product liability coverage
+ and property insurance. Our policy provides for a general liability of five million dollars ($5
+000
+000) per occurrence
+ and five million dollars ($5
+000
+000) annual aggregate coverage which includes our main corporate facility. We carry property coverage on our main office facility to cover our legal liability
+ tenant&#8217;s improvements
+ business property
+The sale of our Hemp Finished Products is potentially subject to a complex web of federal and state regulations that are evolving at a rapid rate. The formulation
+ manufacturing
+ packaging
+ labeling
+ advertising
+ and distribution of our products are subject to regulation by one or more federal agencies
+ principally the Food and Drug Administration (&#8220;FDA&#8221;)
+ the Federal Trade Commission (FTC)
+ and
+ to a lesser extent
+ the Consumer Product Safety Commission (CPSC)
+ the United States Department of Agriculture (&#8220;USDA&#8221;)
+ Drug Enforcement Agency (&#8220;DEA&#8221;) and the Environmental Protection Agency (&#8220;EPA&#8221;). Our activities are also regulated by various governmental agencies for the states and localities in which our products are sold
+ as well as by governmental agencies in certain countries outside the United States in which our products are sold. These agencies can change their rules at any time. Should we become subject to FDA
+The FDA under the Federal Food
+ Drug
+ and Cosmetic Act regulates the formulation
+ manufacturing
+ packaging
+ labeling
+ distribution and sale of drugs
+ food
+ including dietary supplements
+On December 20
+ 2018
+ the Agriculture Improvement Act of 2018 also known as the &#8220;Farm Bill&#8221; was signed into law. The Farm Bill removed hemp from the Controlled Substances Act
+ granted the U.S. Department of Agriculture the ability to regulate hemp defined as cannabis (Cannabis sativa L.)
+The FDA under the Federal Food
+ Drug
+ and Cosmetic Act regulates the formulation
+ manufacturing
+ packaging
+ labeling
+ distribution and sale of drugs
+ food
+ including dietary supplements
+ and over-the-counter drugs and any inclusion of cannabis or cannabis-derived compounds
+ like CBD
+ in such products would be regulated by the FDA regardless of the source of the cannabis substance
+Our CBD products are derived from the seeds and mature stalks of the Cannabis Sativa plant which includes all parts and varieties of the cannabis sativa plant also known as hemp
+ which contain a tetrahydrocannabinol concentration (&#8220;THC&#8221;) that does not exceed 0.3 percent on a dry-weight basis. In December of 2018
+ the U.S. Food and Drug Administration completed an evaluation of three generally recognized as safe (GRAS) notices for hemp seed-derived food ingredients. The FDA stated that hulled hemp seed (GRN765)
+ hemp seed protein powder (GRN771)
+ and hemp seed oil (GRN778) are GRAS under their intended conditions of use. Some of the intended uses for these ingredients include adding them as source of protein
+ carbohydrates
+ oil
+ and other nutrients to beverages (juices
+ smoothies
+ protein drinks
+ plant-based alternatives to dairy products)
+ soups
+ dips
+ spreads
+ sauces
+ dressings
+ plant-based alternatives to meat products
+ desserts
+ baked goods
+ cereals
+ snacks and nutrition bars. Our CBD products are made from seeds and mature stalks of hemp and contain only trace amounts of THC
+We have not obtained and do not plan to obtain FDA approval of our CBD products. As a result
+ we could be subject to enforcement proceedings by the FDA. We do not believe that FDA enforcement proceedings are likely since our products only contain trace elements of THC and do not cause the high associated with the THC in marijuana. Additionally
+ Hemp Finished Products like those sold by us are sold by large retailers online including Whole Foods
+ Publix
+ Wal-Mart and others. Despite the foregoing
+Some states are considering various taxation of marijuana-related products including hemp finished products. These considerations seem to range from routine sales taxes to taxes similar to those imposed on tobacco products. Though
+ for the reasons described above
+ we do not believe the Hemp Finished Products to be subject to any marijuana-related taxation schemes
+IRS section 280(E) prevents cannabis companies from deducting expenses from their income
+ except for those considered cost of goods sold. No deduction or credit is allowed for any amount paid or incurred during the taxable year in carrying on any trade or business if such trade or business (or the activities which comprise such trade or business) consists of trafficking in controlled substances (within the meaning of schedule I and II of the Controlled Substances Act) which is prohibited by federal law or the law of any State in which such trade or business is conducted. Though
+ for the reasons described above
+ we do not believe the Hemp Finished Products to be appropriately treated as a controlled substance
+ IRC 280(E) is enforced against us relating to deductions concerning our Hemp Finished Products
+The formulation
+ manufacturing
+ packaging
+ labeling
+ advertising
+ and distribution of our non-hemp based products are subject to regulation by one or more federal agencies
+ principally the FDA
+ the Federal Trade Commission (FTC)
+ and
+ to a lesser extent
+ the Consumer Product Safety Commission (CPSC)
+ the United States Department of Agriculture (&#8220;USDA&#8221;)
+ and the Environmental Protection Agency (&#8220;EPA&#8221;). Our activities are also regulated by various governmental agencies for the states and localities in which our products are sold
+ as well as by governmental agencies in certain countries outside the United States in which our products are sold. Among other matters
+ regulation by the FDA and FTC are concerned with product safety and claims made with respect to a product's ability to provide health-related benefits. Specifically
+ the FDA
+ under the Federal Food
+ Drug
+ and Cosmetic Act
+ (FDCA)
+ regulates the formulation
+ manufacturing
+ packaging
+ labeling
+ distribution and sale of food
+ including dietary supplements
+ and over-the-counter drugs. The FTC regulates the advertising of these products. The National Advertising Division (NAD) of the Council of Better Business Bureaus oversees an industry sponsored
+ self-regulatory system that permits competitors to resolve disputes over advertising claims. The NAD has no enforcement authority of its own
+ but may refer matters that appear to violate the Federal Trade Commission Act or the FDCA to the FTC or the FDA for further action
+Federal agencies
+ primarily the FDA and the FTC
+ have a variety of procedures and enforcement remedies available to them including initiating investigations
+ issuing warning letters and cease and desist orders
+ requiring corrective labeling or advertising
+ requiring consumer redress (for example
+ requiring that a company offer to repurchase products previously sold to consumers)
+ seeking injunctive relief or product seizures
+ imposing civil penalties
+ or commencing criminal prosecution. In addition
+ certain state agencies have similar authority. These federal and state agencies have in the past used these remedies in regulating participants in the food
+ dietary supplement and over-the-counter drug industries
+The Dietary Supplement Health and Education Act (DSHEA) was enacted in 1994
+The Nutrition Labeling and Education Act of 1990 (NLEA&#8221;) amended the FDCA to establish additional requirements for ingredient and nutrition labeling and labeling claims for foods. If the NLEA labeling requirements change at a future time
+ we may need to revise our product labeling. Our non-CBD products are classified as dietary supplements. The FDA has concluded that THC and CBD products are excluded from the definition of a dietary supplement. The FDA issued a Final Rule on GMPs for dietary supplements on June 22
+ 2007. The GMPs cover manufacturers and holders of finished dietary supplement products
+ including dietary supplement products manufactured outside the United States that are imported for sale into the United States. Among other things
+ the new GMPs: (a) require identity testing on all incoming dietary ingredients
+ call for a scientifically valid system for ensuring finished products meet all specifications
+ (b) include requirements related to process controls
+ including statistical sampling of finished batches for testing and requirements for written procedures
+We have reviewed the GMPs and have taken steps to ensure compliance. While we believe we are in compliance
+ there can be no assurance that our operations or those of our suppliers will be in compliance in all respects at all times. Additionally
+On December 22
+ 2006
+ Congress passed the Dietary Supplement and Nonprescription Drug Consumer Protection Act
+ which went into effect on December 22
+ 2007. The law requires
+ among other things
+ that companies that manufacture or distribute nonprescription drugs or dietary supplements report serious adverse events allegedly associated with their products to the FDA and institute recordkeeping requirements for all adverse events (serious and non-serious). There is a risk that consumers
+ the press and government regulators could misinterpret reported serious adverse events as evidence of causation by the ingredient or product complained of
+ which could lead to additional regulations
+ banned ingredients or products
+ increased insurance costs and a potential increase in product liability litigation
+The Consumer Product Safety Improvement Act of 2008 (CPSIA) primarily addresses children's product safety but also improves the administrative process of the CPSC. Among other things
+The FDA Food Safety Modernization Act (FSMA)
+ enacted January 4
+ 2011
+ amended the FDCA to significantly enhance the FDA's authority over various aspects of food regulation. The FSMA granted the FDA mandatory recall authority when the FDA determines if there is reasonable probability that a food is adulterated or misbranded and that the use of
+ or exposure to
+One of the FSMA&#8217;s more significant changes is the requirement of hazard analysis and risk-based preventive controls (HARBPC) for all food facilities required to register with the FDA
+ except dietary supplement facilities in compliance with both GMPs and the serious adverse event reporting requirements. Although dietary supplement facilities are exempt from the HARBPC requirements
+ dietary ingredient facilities might not qualify for the exemption. The HARBPC requirements
+ which the FDA has yet to propose
+ are expected to be onerous because facilities will have to develop and implement preventive controls to assure that identified hazards are significantly minimized or prevented
+As required by Section 113(b) of the FSMA
+ the FDA published in July 2011
+ a draft guidance document clarifying when the FDA believes a dietary ingredient is an NDI
+ when a manufacturer or distributor must submit an NDI premarket notification to the FDA
+ the evidence necessary to document the safety of an NDI and the methods for establishing the identity of an NDI. The draft guidance
+ if implemented as proposed
+ could have a material impact on our operations. Although our industry has strongly objected to several aspects of the draft guidance
+ it is unclear whether the FDA will make changes to the final guidance. In addition
+ it is possible that the FDA will begin taking enforcement actions consistent with the interpretations in the draft guidance before issuing a final version. The new FSMA requirements
+ as well as the FDA enforcement of the NDI guidance as written
+ could require us to incur additional expenses
+ which could be significant
+ and negatively impact our business in several ways
+ including
+ but not limited to
+ the detention and refusal of admission of imported products
+ the injunction of manufacturing of any dietary ingredients or dietary supplements until the FDA determines that such ingredients or products are in compliance and the potential imposition of fees for re-inspection of noncompliant facilities. Each of these events would increase our liability and could have a material adverse effect on our financial condition
+The FTC and the FDA have pursued a coordinated effort to challenge what they consider to be unsubstantiated and unsafe weight-loss products
+ and have also coordinated enforcement against dietary supplement claims in other areas
+ including children's products. Their efforts to date have focused on manufacturers and marketers as well as media outlets
+ and have resulted in a significant number of investigations and enforcement actions
+During the years ended December 31
+ 2017 and
+ December 31
+ 2018
+ we received $1
+325
+000 and $618
+000
+ from the sale of our securities. For the years ended December 31
+ 2017 and December 31
+ 2018
+ our revenues were $1
+790
+168 and $3
+711
+327
+ respectively from the sale of our products. Our operating expenses are presently approximately $284
+000 per month or $3
+400
+000 annually which consist of rent
+ advertising
+ salaries and other general and administrative expenses. Our cash on hand as of the date of this Annual Report on Form 10-K is $823
+000 which is sufficient to pay our operating expenses for approximately three (3) months. We do not have any arrangements for future financing. We are dependent on the sale of our securities to help fund our operations. There is no assurance we will be able to obtain future funding for our operations from the sale of our securities. The future issuance of our securities will result in substantial dilution in the percentage of our common stock held by our then existing stockholders
+ and would likely have an adverse effect on any trading market for our common stock. Obtaining financing would be subject to a number of factors
+ including investor acceptance. These factors may adversely affect the timing
+ amount
+ terms
+ or conditions of any financing that we may obtain or make any additional financing unavailable to us. If we do not obtain additional financing to fund our future operations
+There is substantial doubt about our ability to continue as a going concern as a result of our limited operating history and financial resources
+For the years ended December 31
+ 2017 and December 31
+ 2018
+ we incurred net losses of $23
+629
+117 and $2
+074
+537. As a result
+We have limited historical performance for you to base an investment decision upon
+For the years ended December 31
+ 2017 and
+ December 31
+ 2018
+ our revenues were $1
+790
+168 and $3
+711
+327 Accordingly
+ we have limited historical performance upon which you may evaluate our prospects for achieving our business objectives and becoming profitable in light of our operating losses and the risks
+ difficulties and uncertainties frequently encountered by companies with limited operations such as us. Accordingly
+ before investing in our common stock
+ you should consider the challenges
+ expenses and difficulties that we will face as an early stage company
+If we are unable to generate sufficient revenues for our operating expenses we will need financing
+ which we may be unable to obtain; should we fail to obtain sufficient financing
+For the years ended December 31
+ 2017 and December 31
+ 2018
+ our revenues were $1
+790
+168&nbsp;and $3
+711
+327
+ respectively from the sale of our products. For the years ended December 31
+ 2017 and December 31
+ 2018
+ we incurred net losses of $23
+629
+117 and $2
+074
+Because we lack historical financial data
+ including revenue data
+Our operating expenses are presently approximately $284
+000 per month or $3
+400
+000 annually
+ which consists of rent
+ advertising
+ salaries and other general and administrative expenses. Our cash on hand as of the date of this Form 10-K is $823
+000 which is sufficient to pay our operating expenses for approximately three (3) months. In the future
+ we may require additional debt or equity funding to continue our operations. We intend to raise additional funds from an offering of our stock in the future; however
+ this offering may never occur
+ or if it occurs
+Our liabilities could adversely affect our ability to raise additional capital to fund our operations
+As of December 31
+ 2018
+ our total liabilities were approximately $1
+015
+075. Our liabilities could have important consequences for our investors
+ including: making it more difficult for us to make payments on indebtedness; increasing our vulnerability to general economic and industry conditions; requiring a substantial portion of cash flow from operations to be dedicated to the payment of principal and interest on indebtedness when our indebtedness become due. This reduces our ability to use our cash flow to fund our operations
+ capital expenditures and future business opportunities; limiting our ability and the ability of our subsidiaries to obtain additional financing for working capital
+ capital expenditures
+ product development
+ debt service requirements
+ acquisitions and general corporate or other purposes; and limiting our ability to adjust to changing market conditions and placing us at a competitive disadvantage compared to our competitors which have fewer liabilities. We may incur substantial additional indebtedness in the future. If new indebtedness is added to our current debt levels
+We have been growing rapidly and expect to continue to invest in our growth for the foreseeable future. If we are unable to manage our growth effectively
+We have experienced rapid growth in a relatively short period of time. Our revenues were approximately $225
+293
+ $1
+790
+168 and $3
+711
+327 for the years ended December 31
+ 2016
+ 2017 and 2018
+We plan to continue to expand our operations
+ and we anticipate that further significant expansion will place additional demands on our resources and operations. We presently operate our manufacturing and distribution from a 6
+400 square foot facility. We plan to begin manufacturing at a second facility consisting of 20
+000 square feet in addition to our existing facility. Our future operating results depend to a large extent on our ability to manage this expansion and growth successfully. Sustaining our growth will place significant demands on our management as well as on our administrative
+ operational
+ and financial resources. To manage our growth
+ we must continue to improve our sales and manage our operational systems. If we are unable to manage our growth successfully
+effectively recruiting
+ integrating
+ training
+ and motivating new employees
+ including our sales force
+ while retaining existing private label distributors and effectively executing our new business plan focusing on the processing
+implementing and enhancing our administrative
+ operational
+ and financial infrastructure
+ systems
+A failure to manage our growth effectively could harm our business
+ operating results
+ financial condition. Further
+ due to our recent rapid growth
+ we have limited experience operating at our current scale and potentially at a larger scale
+ and as a result
+ it may be difficult for us to fully evaluate future prospects and risks. Our recent and historical growth should not be considered indicative of our future performance. We have encountered in the past
+ and will encounter in the future
+ risks and uncertainties frequently experienced by growing companies in rapidly changing industries. If our assumptions regarding these risks and uncertainties
+ which we use to plan and operate our business
+ are incorrect or change
+ or if we do not address these risks successfully
+ our financial condition and operating results could differ materially from our expectations
+Our revenues are highly dependent upon four private label distributors
+ which represented 32%
+ 25%
+ 17%
+ and 13%
+ of our revenues for the year December 31
+Our revenues are concentrated and highly dependent on four (4) private label customers which represented 32%
+ 25%
+ 17%
+ and 13%
+ of our revenues for the year ended December 31
+ 2018. All sales made under a private label relationship are made on a purchase order basis and there are no long-term contracts with respect to any private label relationships. There can be no assurance that existing private label relationships will continue in the future or that we will be able to obtain new private label relationships on an ongoing basis
+ if at all. Our private label customers can reduce the products they order from us or cease ordering products from us at any time without notice. There can be no assurance that these private label customers will continue to place orders with us
+ that orders by such customers will continue at their previous levels or that we can replace any such lost business. Should this occur
+As a result of our evolving business model
+ we have a limited operating history in our lines of business and
+ therefore
+ we may not be able to correctly estimate our future operating expenses
+Since our inception
+ our business model has evolved significantly. In 2017
+ we began selling CBD products and as a result our revenues increased from $1
+790
+168 in 2017 to $3
+711
+327 in 2018. CBD became our main source of income
+ and we focused on generating revenue through private label manufacturers. As a result of the change in our business model
+ our revenues have significantly increased from prior periods. We have a limited operating history for our CBD products from which to evaluate our business. Our failure to successfully execute our business plan would have a material adverse effect on our ability to continue operating. Accordingly
+ our prospects must be considered in light of the risks
+ expenses
+ and difficulties frequently encountered by companies in an early stage of development. We may not be successful in addressing such risks
+ and the failure to do so could have a material adverse effect on our business
+Because we do not have any written contracts with our customers who are free to purchase products from other suppliers. If a significant number of our customers began to use competing companies instead of us
+Our CBD products are made from Hemp Finished Products. Under 21 U.S.C. &#167; 802(16)
+ the seeds (incapable of germination) and the mature stalks of the Cannabis sativa plant
+ together with products made from these parts
+ are known as Hemp Finished Products and are exempted from the definition of cannabis and are legal. Continued development of the cannabis and cannabidiol related industries is dependent upon continued legislative legalization of cannabis and cannabidiol related products at the state level
+ and a number of factors could slow or halt progress in this area
+ even where there is public support for legislative action. Any delay or halt in the passing or implementation of legislation for the re-criminalization or restriction of cannabidiol at the state level could negatively impact our business because of the perception that it is related to cannabidiol. Additionally
+ changes in applicable state and local laws or regulations could restrict the products and services we offer or impose additional compliance costs on us or our customers. Violations of applicable laws
+ or allegations of such violations
+ could disrupt our business and result in a material adverse effect on our operations. We cannot predict the nature of any future laws
+ regulations
+ interpretations or applications
+We recently entered the CBD Market and as a result
+ we are subject to numerous potential regulatory matters
+The Drug Enforcement Administration (&#8220;DEA&#8221;) which enforces the controlled substances laws of the United States has issued various rules and announcements concerning various items considered to be marijuana extracts which may encompass Cannabinoids. The uncertainty involves the extent to which the DEA will try to restrict the marketing or distribution of hemp finished/CBD products which we manufacture and distribute. If the DEA or other government agency were to take any action concerning our CBD products
+The manufacture
+ labeling and distribution of our products is regulated by various federal
+ state and local agencies. These governmental authorities may commence regulatory or legal proceedings
+We are subject to additional regulation as a result of our CBD products. The shifting compliance environment and the need to build and maintain robust systems to comply with different compliance in multiple jurisdictions increase the possibility that we may violate one or more of the requirements. If our operations are found to be in violation of any of such laws or any other governmental regulations that apply to us
+ we may be subject to penalties
+ including
+ without limitation
+ civil and criminal penalties
+ damages
+ fines
+ the curtailment or restructuring of our operations
+Failure to comply with FDA requirements may result in
+ among other things
+ injunctions
+ product withdrawals
+ recalls
+ product seizures
+ fines and criminal prosecutions. Our advertising is subject to regulation by the FTC under the FTCA. In recent years
+ the FTC has initiated numerous investigations of dietary and nutrition supplement products and companies. Additionally
+ some states also permit advertising and labeling laws to be enforced by private attorney generals
+ who may seek relief for consumers
+ seek class action certifications
+ seek class wide damages and product recalls of products sold by us. Any actions against us by governmental authorities or private litigants could have a material adverse effect on our business
+We are highly dependent upon positive consumer perceptions of the safety and quality of our products as well as similar products distributed by other wellness
+ nutraceutical and CBD companies. Consumer perception of nutrition supplements and our products
+ in particular
+ can be substantially influenced by scientific research or findings
+ national media attention and other publicity about product use. Adverse publicity from these sources regarding the safety
+ quality or efficacy of nutritional supplements and our products could harm our reputation and results of operations. The mere publication of news articles or reports asserting that such products may be harmful or questioning their efficacy could have a material adverse effect on our business
+ financial condition and results of operations
+If the products we sell do not have the healthful effects intended
+In general
+ our products contain food
+ nutritional supplements which do not currently require approval from the FDA or other regulatory agencies prior to sale. Many of our products contain innovative ingredients or combinations of ingredients. There is little long term experience with human or other animal consumption of certain of these ingredients or combinations thereof in concentrated form. Our products could have certain side effects if not taken as directed or if taken by a consumer that has certain medical conditions. Furthermore
+ there can be no assurance that any of the products
+ even when used as directed
+ will have the effects intended or will not have harmful side effects. Should our products cause unwanted side effects or not have the results intended
+ it could have a material adverse effect on our business
+As a manufacturer and distributor of products intended for human consumption
+ we are subject to product liability claims if the use of our products for others is alleged to have resulted in injury. Our products consist of vitamins
+ minerals
+ herbs
+ lotions and other ingredients that are not subject to pre-market regulatory approval in the United States or internationally. Previously unknown adverse reactions resulting from human consumption of these ingredients could occur which would likely result in product liability claims against us which would increase our costs and adversely affect our reputation and harm our business. We may be held liable if any illness or injury caused by any product we develop
+ manufacture or distribute
+ if any such product is found to be unsuitable for use. In addition to any reputational damage we would suffer
+ we cannot guarantee that our product liability insurance or that of any of our suppliers would fully cover potential liabilities. In the event of litigation
+ any adverse judgments against us would have a material adverse effect on our financial condition
+ including our cash balances
+We maintain insurance
+ including property
+ general and product liability
+ and workers&#8217; compensation to protect ourselves against potential loss exposures. There is no assurance that our insurance will be sufficient to cover any claims that are asserted against us. In the future
+ insurance coverage may not be available at adequate levels or on adequate terms to cover potential losses
+ including on terms that meet our customer&#8217;s requirements. If insurance coverage is inadequate or unavailable
+ we may face claims that exceed coverage limits or that are not covered
+Our intellectual property rights are valuable
+We manufacture products primarily for third parties who sell the products under their own brand names. We also sell products under our own brand names. Our product formulations are not patented and there are numerous companies selling similar products. As such
+Our competitors may have or develop equivalent or superior manufacturing and design skills
+ and may develop an enhancement to our formulations that will be patentable or otherwise protected from duplication by others. Further
+ we may be unable or unwilling to strictly enforce our intellectual property rights
+ including our trademarks
+ from infringement. Our inability to obtain and/or failure to enforce our intellectual property rights could diminish the value of our product offerings and have a material adverse effect on our business
+ prospects
+ results of operations
+Our business is highly competitive
+ and our failure to compete effectively could adversely affect our market share
+The nutritional supplement
+ wellness and CBD industries are highly competitive with respect to price
+ brand and product recognition and new product introductions. Many of our competitors are larger
+ more established and possess greater financial
+ personnel
+ distribution and other resources. We face competition (a) in the health food channel from a limited number of large nationally known manufacturers
+ private label brands and many smaller manufacturers of dietary and nutrition supplements; and (b) in the mass-market distribution channel from manufacturers
+ major private label manufacturers and others. Private label brands at mass-market chains represent substantial sources of income for these merchants and the mass-market merchants often support their own labels at the expense of other brands. As such
+ the growth of our brands within food
+ drug
+ and general mass-market merchants are highly competitive and uncertain. If we cannot compete effectively
+We may experience greater than expected product returns
+In the year ended December 31
+ 2018
+ product returns represented 1% of our sales. Products may be returned for various reasons
+Our inability to obtain adequate supplies of raw materials in a timely manner or a material increase in the price of the raw materials used in our products could have a material adverse effect on our business
+Our business is affected by general economic conditions since our products are discretionary and we depend
+ to a significant extent
+ upon a number of factors relating to discretionary consumer spending. These factors include economic conditions and perceptions of such conditions by consumers
+ employment rates
+ the level of consumers' disposable income
+ business conditions
+ interest rates
+We may not be able to anticipate consumer preferences and trends within the diet and nutritional industry
+Our products must appeal to a broad range of consumers
+ whose preferences cannot be predicted with certainty and are subject to rapid change. Our products will need to successfully meet constantly changing consumer demands. If our products are not successfully received by our private label distributors and their customers
+ our business
+ financial condition
+Should we lose the services of Edgar Ward
+ our founder
+ Chief Executive Officer
+ President and sole Director
+Our future depends on the continued contributions of Edgar Ward
+ our founder
+ Chief Executive Officer
+ President and sole Director who would be difficult to replace. The services of Mr. Ward are critical to the management of our business and operations. Additionally
+ we do not maintain key man life insurance on Mr. Ward. Should we lose the services of Mr. Ward
+ and be unable to replace his services with equally competent and experienced personnel
+ our operational goals and strategies would likely be adversely affected
+Because we do not have an audit or compensation committee
+We do not have an audit or compensation committee or board of directors as a whole
+ that is composed of independent directors. These functions are performed by our sole director. Because our sole Director is not independent
+ there is a potential conflict between their or our interests and our shareholders&#8217; interests since Edgar Ward
+ our sole Board Member
+ is also our Chief Executive Officer and President who will participate in discussions concerning management compensation and audit issues that may affect management decisions. Until we have an audit committee or independent directors
+ there may less oversight of management decisions and activities and little ability for minority shareholders to challenge or reverse those activities and decisions
+Our Vice-President devotes limited time to our business
+ which may negatively impact our plan of operations
+Neil Catania
+ our Vice-President currently devotes only ten (10) hours to our business each month. Our Chief Executive Officer and President
+ Edgar Ward
+ devotes full time to our business however
+Our Chief Executive Officer
+ President and sole Director has voting control over all matters submitted to a vote of our common stockholders
+As of December 31
+ 2018
+ we had 97
+315
+941 shares
+ respectively
+ of our common stock outstanding
+ each entitled to one vote per common share. Our Chief Executive Officer
+ President and sole Director
+ Edgar Ward
+ held 22
+899
+407 common shares directly
+ 1
+000
+000 shares indirectly and 1
+000 Series A Preferred Shares at December 31
+ 2018 which provide 500
+000 votes per share or an aggregate of 500
+000
+000 votes on all matters submitted to our stockholders. As a result
+ Mr. Ward controls 523
+899
+407 of 597
+315
+941 votes or approximately 88% of all votes and has the ability to determine the outcome of all matters submitted to our stockholders for approval
+ including the election of directors. Mr. Ward&#8217;s control of our voting securities may make it impossible to complete some corporate transactions without his support and may prevent a change in our control. In addition
+ this ownership could discourage the acquisition of our common stock by potential investors and could have an anti&#8208;takeover effect
+We will likely issue additional shares in the future to fund our operations. The issuance of the shares in the future upon conversion of outstanding securities will result in substantial dilution in the percentage of our common stock held by our existing shareholders. Any securities sold more than twelve (12) months prior to the date hereof are currently eligible for resale under Rule 144. In general
+ persons holding restricted securities in a company not reporting with the Securities &amp; Exchange Commission
+ including affiliates
+ must hold their shares for a period of at least twelve (12) months. Additionally
+ affiliates may not sell more than one (1%) percent of the total issued and outstanding shares in any ninety (90) day period
+ and must resell the shares in an unsolicited brokerage transaction at the market price. If substantial amounts of our common stock are resold under Rule 144
+We may
+ in the future
+Our Articles of Incorporation authorize us to issue 499
+990
+000 shares of common stock. As of March 27
+ 2019
+ we had 128
+667
+583 shares of common stock outstanding. Accordingly
+ we may issue up to an additional 371
+322
+417 shares of common stock. The future issuance of common stock may result in substantial dilution in the percentage of our common stock held by our then existing shareholders. We may value any common stock issued in the future on an arbitrary basis including for services or acquisitions or other corporate actions that may have the effect of diluting the value of the shares held by our stockholders
+ and might have an adverse effect on any trading market for our common stock. Additionally
+ we are authorized to issue 1
+000 shares of preferred stock of which 1
+000 shares are outstanding. As such
+ we may issue an additional 9
+000 shares of preferred stock. Our board of directors may designate the rights
+We are an emerging growth company&#8221;
+ as defined in the JOBS Act. For as long as we continue to be an emerging growth company
+ we may take advantage of exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies
+ including not being required to comply with the auditor attestation requirements of Section 404 of the Sarbanes-Oxley Act
+ reduced disclosure obligations regarding executive compensation in our periodic reports and proxy statements and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. We could be an emerging growth company for up to five (5) years
+ although we could lose that status sooner if our revenues exceed $1
+000
+000
+000
+ if we issue more than $1
+000
+000
+000 in non-convertible debt in a three (3) year period
+ or if the market value of our common stock held by non-affiliates exceeds $100
+000
+000 as of any April 30 before that time
+ in which case we would no longer be an emerging growth company as of the following April 30. We cannot predict whether investors will find our common stock less attractive because we may rely on these exemptions. If some investors find our common stock less attractive as a result
+ there may be a less active trading market for our common stock and our stock price may be more volatile. We have elected to use the extended transition period for complying with new or revised accounting standards under Section 102(b)(2) of the JOBS Act
+ that allows us to delay the adoption of new or revised accounting standards that have different effective dates for public and private companies until those standards apply to private companies. As a result of this election
+We lease an aggregate of 6
+400 square feet of office and warehouse space at 6601 Lyons Rd
+ Suites L-6&amp;7
+ Coconut Creek
+ FL 33073
+ with base rent at $6
+700 per month from Lyons Corporate Park for our executive offices. Approximately 5
+800 square feet is used for manufacturing
+ storage and distribution. The lease term expires on January 1
+ 2022. On June 6
+ 2017
+ we entered into an agreement with Hillsboro Technology Center
+ LLC to lease an aggregate of 19
+831 square feet at 448 Hillsboro Technology Drive
+ Deerfield Beach
+ FL 33441
+ with base rent at $13
+220.67 per month plus 7.65% of common area and 13% of building operating expenses. We plan to use this location as a manufacturing
+ storage and distribution facility commencing in June 2019. The lease term commenced on January 1
+We are not involved in any legal proceedings. From time to time
+ we may become involved in various lawsuits and legal proceedings
+ which arise
+ in the ordinary course of business. However
+ litigation is subject to inherent uncertainties
+ and an adverse result in these or other matters may arise from time to time that may harm our business. We are currently not aware of any such legal proceedings or claims that we believe will have a material adverse effect on our business
+Item 5. Market for Registrant&#8217;s Common Equity
+Our common stock
+ par value $0.0001 per share (the Common Stock)
+ is quoted with the symbol &#8220;NLBS&#8221; on the OTC Markets. Our common shares were quoted with the symbol &#8220;NTFU&#8221; on the OTC Markets from May 19
+ 2014 until March 5
+OTC Markets securities are not listed or traded on the floor of an organized national or regional stock exchange. Instead
+Set forth below are the range of high and low prices for our common stock from the OTC Markets OTCQB for the periods indicated. The quotations reflect inter-dealer prices
+ without retail mark-up
+Our transfer agent is VStock Transfer LLC located at 18 Lafayette Place
+ Woodmere
+ VStock Transfer is registered as a transfer agent with the Securities and Exchange Commission under the Securities Exchange Act of 1934
+As of March 27
+ 2019
+Our shares will be penny stocks
+ as that term is generally defined in the Securities Exchange Act of 1934 to mean equity securities with a price of less than $5.00. Thus
+Under the penny stock regulations
+ a broker-dealer selling a penny stock to anyone other than an established customer must make a special suitability determination regarding the purchaser and must receive the purchaser's written consent to the transaction prior to the sale
+In addition
+ under the penny stock regulations
+Deliver
+ prior to any transaction involving a penny stock
+ a disclosure schedule prepared by the Securities and Exchange Commission relating to the penny stock market
+Send monthly statements disclosing recent price information pertaining to the penny stock held in a customer's account
+ the account's value
+Make a special written determination that the penny stock is a suitable investment for the purchaser and receive the purchaser's written agreement to the transaction
+Because of these regulations
+ broker-dealers may encounter difficulties in their attempt to sell shares of our common stock
+ which may affect the ability of the Selling Stockholder or other holders to sell their shares in the secondary market
+ and have the effect of reducing the level of trading activity in the secondary market. These additional sales practice and disclosure requirements could impede the sale of our securities
+ if our securities become publicly traded. In addition
+ the liquidity for our securities may be decreased
+Our shares are subject to such penny stock rules and our shareholders will
+ in all likelihood
+As of March 27
+ 2019
+ we had 128
+667
+583 common shares outstanding. Of these shares 94
+843
+121 common shares are held by non-affiliates and 33
+824
+462 common shares are held by affiliates
+In general
+ non-affiliates holding restricted securities of SEC reporting companies must hold their shares for a period of at least six (6) months and non-affiliates who hold restricted securities of companies which are not SEC reporting companies must hold their shares for a period of at least twelve months. Persons who are affiliates of either reporting or non-reporting companies must file a Form 144 with the SEC prior to sale
+ may not sell more than one percent of the total issued and outstanding shares in any 90-day period
+We have not declared any cash dividends on our common stock since our inception and do not anticipate paying such dividends in the foreseeable future. We plan to retain any future earnings for use in our business. Any decisions as to future payments of dividends will depend on our earnings and financial position and such other facts
+There are no securities proposed to be
+Our common shares are a penny stock
+ as that term is generally defined in the Securities Exchange Act of 1934 to mean equity securities with a price of less than $5.00. Thus
+Under the penny stock regulations
+ a broker-dealer selling a penny stock to anyone other than an established customer must make a special suitability determination regarding the purchaser and must receive the purchaser's written consent to the transaction prior to the sale
+In addition
+ under the penny stock regulations
+Deliver
+ prior to any transaction involving a penny stock
+ a disclosure schedule prepared by the Securities and Exchange Commission relating to the penny stock market
+Send monthly statements disclosing recent price information pertaining to the penny stock held in a customer's account
+ the account's value
+Make a special written determination that the penny stock is a suitable investment for the purchaser and receive the purchaser's written agreement to the transaction
+Because of these regulations
+ broker-dealers may encounter difficulties in their attempt to sell shares of our Common Stock
+ which may affect the ability of selling shareholders or other holders to sell their shares in the secondary market
+ and have the effect of reducing the level of trading activity in the secondary market. These additional sales practice and disclosure requirements could impede the sale of our securities
+ if our securities become publicly traded. In addition
+ the liquidity for our securities may be decreased
+ with a corresponding decrease in the price of our securities. Our shares in all probability will be subject to such penny stock rules and our shareholders will
+ in all likelihood
+From January 1
+ 2017 to present
+ we offered and sold the securities below which were not registered under the Securities Act of 1933
+ as amended. None of the issuances involved underwriters
+ underwriting discounts or commissions. We relied upon Sections 4(2) of the Securities Act
+ and Rule 506(b) of the Securities Act of 1933
+We filed a Form D
+ Notice of Sales
+Sales were made to persons with a pre-existing relationship to our Chief Executive Officer and Sole Director
+On January 2
+ 2017
+ we issued 50
+000 shares to Patagonia Global Trading
+ a Florida corporation
+ for services rendered. We valued these shares at $.25 per share or an aggregate of $12
+On January 3
+ 2017
+ we sold 75
+000 units to James Laurain for the aggregate price of $7
+500 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 3
+On January 3
+ 2017
+ we sold 195
+000 units to Jerry Thompson for the aggregate price of $19
+500 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 3
+On January 4
+ 2017
+ Jerry O&#8217;Leary converted $25
+000 due under a promissory note into 100
+000 of our common shares at the price of $.25 per share. On February 23
+ 2017
+ we issued 25
+000 shares of our common stock to Jerry O&#8217;Leary in exchange for $5
+000 for the exercise of the 25
+On January 4
+ 2017
+ we sold 500
+000 units to Jerry O&#8217;Leary for the aggregate price of $50
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 4
+On January 4
+ 2017
+ William Ferri converted the principal and accrued interest due in the amount of $275
+000 into our common shares at the price of $.25 per share or an aggregate of 1
+100
+000 shares. On May 12
+ 2017
+ Mr. Ferri exercised the 250
+000 options at an exercise price of $.20 per share or an aggregate of $50
+On January 4
+ 2017
+ Craig Heatherington converted principal and accrued interest due in the amount of $882
+235 pursuant to notes issued on June 7
+ 2013
+ August 26
+ 2013
+ March 26
+ 2014 and June 23
+ 2014 into our common shares at the price of $.25 per share or an aggregate of 3
+528
+On January 4
+ 2017
+ Michael Farr converted the amount of $65
+000 under a promissory note into 300
+On January 4
+ 2017
+ Jerry Thompson converted principal and accrued interest outstanding under a $15
+000 promissory note into 61
+On January 4
+ 2017
+ Neil Catania
+ our Vice-President converted principal and accrued interest due in the amount of $841
+750 pursuant to a November 15
+ 2012 and July 26
+ 2016 convertible notes and a December 31
+ 2013 line of credit into our common shares at the price of $.25 per share or an aggregate of 3
+367
+On January 4
+ 2017
+ John Hampton converted principal and accrued interest due in the aggregate amount of $147
+583 pursuant to August 27
+ 2014 and October 3
+ 2014 convertible notes into our common shares at the price of $.25 per share or an aggregate of 590
+On January 4
+ 2017
+ Michael Smyth converted principal and accrued interest due in the amount of $70
+680 pursuant to a November 15
+ 2012 convertible note into our common shares at the price of $.25 per share or an aggregate of 282
+On January 4
+ 2017
+ Donald Brennick converted principal and accrued interest due in the amount of $28
+395 pursuant to an August 26
+ 2015 convertible note into our common shares at the price of $.10 per share or an aggregate of 283
+On January 5
+ 2017
+ Richard Scott Lohan converted the principal due under a promissory note in the amount of $27
+000 into 270
+000 shares of our common stock and accrued interest of $11
+700 into 117
+000 common shares at the price of $.10 per share. On January 5
+ 2017
+ we sold 243
+000 shares to Richard Scott Lohan for the aggregate price of $12
+Richard Scott Lohan was issued 700
+000 common shares instead of 70
+000 shares in conjunction with the exercise of June 22
+ 2016 cashless warrants. Mr. Lohan elected to convert the June 22
+ 2016 promissory note and accrued interest for 387
+000 common shares and pay $12
+000 in cash for the remaining 243
+000 common shares of the 630
+On January 6
+ 2017
+ we sold 1
+300
+000 units to FMG Holdings LLC
+ a Florida limited liability company controlled by Michael Farr
+ for the aggregate price of $130
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 6
+On January 6
+ 2017
+ we sold 500
+000 units to Jeff Luccesi for the aggregate price of $50
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 6
+On January 6
+ 2017
+ we sold 300
+000 units to STF Partners
+ LP
+ a New York limited partnership controlled by Sharyn Frankel
+ for the aggregate price of $30
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $0.50 which expired on January 6
+On January 6
+ 2017
+ we sold 200
+000 units to Breadfruit Tree Inc.
+ a Florida corporation
+ doing business as NF Skin
+ our distributor
+ and controlled by F. Bruce Hutson
+ for the aggregate price of $20
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 6
+On January 7
+ 2017
+ we sold 100
+000 units to Leon English for the aggregate price of $10
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 7
+On January 9
+ 2017
+ we sold 250
+000 units to Gordon Langston for the aggregate price of $25
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 9
+On January 9
+ 2017
+ we sold 405
+000 units to William Rodriguez for the aggregate price of $40
+500 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 9
+On January 9
+ 2017
+ we sold 300
+000 units to Davis Pallen for the aggregate price of $30
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 9
+On January 9
+ 2017
+ we sold 1
+500
+000 units to Forage Complete LLC
+ an Idaho limited liability company controlled by Cody Jensen
+ for the aggregate price of $150
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 9
+On January 11
+ 2017
+ we sold 500
+000 units to Paul &amp; Cheryl Botts for the aggregate price of $50
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 11
+On January 17
+ 2017
+ we sold 200
+000 units to William Rodriguez for the aggregate price of $20
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 17
+On January 17
+ 2017
+ we issued 100
+000 shares to Hamilton &amp; Associates Law Group a Florida law firm controlled by Brenda Hamilton
+ Esq.
+ for services rendered. We valued these shares at an aggregate $.10 per share or an aggregate of $10
+On January 20
+ 2017
+ we sold 150
+000 units to John Berning for the aggregate price of $15
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on January 20
+On January 30
+ 2017
+ we issued 250
+000 shares to Bernadine Cawley for services rendered to us. We valued these shares at $.40 per share or an aggregate of $100
+On January 30
+ 2017
+ we issued 400
+000 shares to Anthony Procelli
+ for services rendered. We valued these shares at $.40 per share or an aggregate of $160
+On January 30
+ 2017
+ we issued 50
+000 shares to Patrick Kilcooley
+ for services rendered. We valued these shares at $.40 per share or an aggregate of $20
+On January 30
+ 2017
+ we issued 300
+000 shares to Daniel Ryan
+ for services rendered. We valued these shares at $.40 per share or an aggregate of $120
+On February 1
+ 2017
+ we issued 50
+000 shares to Sylvan Eudes
+ for services rendered. We valued these shares at $.12 per share or an aggregate of $6
+On February 23
+ 2017
+ we sold 41
+666 units to Patricia Gleason for the aggregate price of $25
+000 or $.60 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on February 23
+On February 23
+ 2017
+ we sold 83
+333 units to David Corcoran for the aggregate price of $50
+000 or $.60 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on February 23
+On March 3
+ 2017
+ we issued 7
+220
+585 shares to Edgar Ward
+ CEO of the Company
+ for services rendered. We valued these shares at $1.45 per share or an aggregate of $10
+453
+315. On November 27
+ 2017
+ we issued 6
+674
+837 shares to Edgar Ward
+ our Chief Executive Officer
+ President
+ Director and Founder of the Company
+ for services rendered. We valued these shares at $1.27 per share or an aggregate of $8
+464
+On March 23
+ 2017
+ we sold 114
+286 units to Barbara Ludwig for the aggregate price of $40
+000 or $.10 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 which expired on March 23
+On April 10
+ 2017
+ we issued 250
+000 shares of our common stock to Michael R. Anderson for services rendered. We valued these shares at $.69 per share or an aggregate of $172
+On April 24
+ 2017
+ we sold 500
+000 units to Gregory Ross for the aggregate price of $100
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until April 24
+On May 10
+ 2017
+ we sold 375
+000 units to Bernadine Cawley for the aggregate price of $75
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $0.50 at any time until May 10
+On May 17
+ 2017
+ we sold 200
+000 units to Forage Complete LLC
+&nbsp;an Idaho&nbsp;limited liability company controlled by Cory Jenkins
+ for the aggregate price of $40
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until May 17
+On May 18
+ 2017
+ we sold 150
+000 units to FMG Holdings LLC
+ a Florida limited liability company controlled by Michael Farr
+ for the aggregate price of $30
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until May 18
+On May 21
+ 2017
+ we sold 50
+000 units to James Rutledge for the aggregate price of $10
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until May 21
+On May 24
+ 2017
+ we sold 575
+000 units to EW Strategies LLC
+ a Georgia limited liability company controlled by Greg Schantz
+ for the aggregate price of $115
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until May 24
+On July 7
+ 2017
+ we sold 250
+000 units to Wolbers Family Trust
+ a trust controlled by Jennifer Wolbers
+ for the aggregate price of $50
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $0.50 at any time until July 7
+On July 17
+ 2017
+ we issued 100
+000 shares to Kenneth Duchin
+ for services rendered. We valued these shares at $.80 per share or an aggregate of $80
+On July 19
+ 2017
+ we sold 150
+000 units to Peter Mazza for the aggregate price of $30
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until July 19
+On July 28
+ 2017
+ we sold 100
+000 units to FMG Holdings LLC
+ a Florida limited liability company controlled by Michael Farr
+ for the aggregate price of $20
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until July 28
+On July 28
+ 2017
+ we sold 100
+000 units to Forage Complete LLC for the aggregate price of $20
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until July 28
+On August 1
+ 2017
+ we sold 50
+000 units to David Dickman for the aggregate price of $10
+000 or $.20 per unit. Each unit consists of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $.50 at any time until August 1
+On December 17
+ 2017
+ we issued 500
+On January 5
+ 2018
+ February 26
+ 2018
+ April 11
+ 2018
+ April 20
+ 2018 and June 2
+ 2018
+ we issued 43
+759
+ 125
+400
+ 51
+700
+ 147
+600 and 700
+000 shares of our common stock to Hamilton &amp; Associates Law Group
+ P.A. for services rendered which we valued these shares at $.30
+ $.29
+ $.18
+ $.245 and $.20 per share
+On January 23
+ 2018
+ we issued 200
+000 common shares to Randy Avon for services rendered to us. We valued these shares at $.21 per share or an aggregate of $41
+On January 23
+ 2018
+ we issued 150
+000 common shares to Daniel Slane for services rendered to us. We valued these shares at $.21 per share or an aggregate of $31
+On January 23
+ 2018
+ we issued 100
+000 common shares to Michel Lohan for services rendered to us. We valued these shares at $.4762 per share or an aggregate of $47
+On January 23
+ 2018
+ we issued 350
+000 shares David Zirulnikoff for services rendered to us. We valued these shares at $.26 per share or an aggregate of $89
+On January 23
+ 2018
+ we issued 200
+000 common shares to Ronald Silver for services rendered to us. We valued these shares at $.21per share or an aggregate of $41
+On February 15
+ 2018
+ we issued 2
+000
+000 shares to Hall Global LLC
+ a limited liability controlled by Michael Anderson for equipment provided to us. We valued these shares at $.2846 per share or an aggregate of $569
+200. Hall Global LLC returned the 2
+000
+000 shares to us for cancellation on November 1
+ 2018 pursuant to a settlement agreement dated September 7
+On February 15
+ 2018
+ we issued 500
+000 common shares to Hongxiang Hui for services rendered to us. We valued these shares at $.28 per share or an aggregate of $140
+On May 11
+ 2018
+ we issued 250
+000 common shares to Tony Hunter for services rendered to us. We valued these shares at $.19 per share or an aggregate of $54
+On June 1
+ 2018
+ we issued 500
+000 common shares to Lyons Capital for services rendered to us. We valued these shares at $.20 per share or an aggregate of $100
+On July 25
+ 2018
+ we issued 62
+500 common shares to Mary Ellen Mahon for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On July 25
+ 2018
+ we issued 62
+500 common shares to Anthony Centorani for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On July 25
+ 2018
+ we issued 250
+000 common shares to Michael P. Dulak for services rendered to us. We valued these shares at $.16 per share or an aggregate of $40
+On July 25
+ 2018
+ we issued 62
+500 common shares to Robert Patrick Scott for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On July 25
+ 2018
+ we entered into an agreement with Breadfruit Tree DBA NFSkin
+ a Florida corporation where by we agreed to pay them 15% of their net sales of our product. The 15% is payable in up to 3
+000
+000 shares of our common stock which the number of shares will be calculated based on a value of $.20 per share. On September 10
+ 2018
+ we issued 514
+On July 31
+ 2018
+ we entered into an agreement as amended March 10
+ 2019
+ with New Leaf Assets
+ LLC
+ a Delaware limited liability company
+ wherein NewLeaf invested the sums of $250
+000
+ $130
+000 and $1
+000
+000 in our securities on July 31
+ 2018
+ August 31
+ 2018 and March 15
+ 2019
+ respectively. On July 31
+ 2018
+ NewLeaf was granted 2
+000
+0000 shares on the Company&#8217;s common stock and warrants to purchase 625
+000 shares of the Company&#8217;s common stock at the price of $.20 per share at any time for a period of three (3) years. On August 31
+ 2018 NewLeaf received warrants to purchase 325
+000 shares of the Company&#8217;s common stock at the price of $.20 per share at any time for a period of three (3) years. On March 15
+ 2019
+ NewLeaf was issued 13
+764
+705 common shares
+ granted warrants to purchase an additional 10 million common shares at the price of $.20 per share at anytime until March 4
+ 2022 and an option to purchase an aggregate of 7
+647
+058 common shares at the aggregate price of $650
+000 at any time prior to April 8
+ 2019. As a result
+ NewLeaf holds an aggregate of 15
+764
+705 of the Company&#8217;s common shares at an average price of $.0726 per share
+ warrants to purchase an additional 10
+950
+000 common shares and an option to purchase an additional 7
+647
+058 common shares for an aggregate price of $650
+000 at any time prior to April 8
+On August 24
+ 2018
+ we issued 200
+000 shares of our common stock to Barrington Jenoure for an aggregate price of $33
+On August 28
+ 2018
+ we issued 60
+000 shares of our common stock to Barrington Jenoure for an aggregate price of $10
+On September 20
+ 2018
+ we issued 62
+000 common shares to John Gross for services rendered to us. We valued these shares at $.20 per share or an aggregate of $12
+On September 20
+ 2018
+ we issued 26
+000 common shares to Ann Mahfood for services rendered to us. We valued these shares at $.20 per share or an aggregate of $5
+On October 11
+ 2018
+ we issued 250
+000 common shares to Nicholas Ward
+ the son of our Chief Executive Officer
+ President and Director for services rendered to us. We valued these shares at $.196 per share or an aggregate of $49
+On October 11
+ 2018
+ we entered into a convertible note agreement in the principal amount of $37
+500 with FMG Holding LLC
+ a Florida limited liability company controlled by Michael Farr. The note bears interest at the rate of 10% and has a maturity date of November 30
+ 2018. The principal and interest due under the note are convertible into our common shares at the rate of $.20 in whole or in part at any time until maturity. Mr. Farr received warrants to purchase 1
+000
+000 of our common shares at the price of $.21 per share at any time until October 31
+On October 11
+ 2018
+ we entered into a convertible note agreement in the principal amount of $37
+500 with Forage Complete
+ LLC
+ an Idaho&nbsp;limited liability company controlled by Cory Jenkins. The note bears interest at the rate of 10% and has a maturity date of November 30
+ 2018. The principal and interest due under the note are convertible into our common shares at the rate of $.20 in whole or in part at any time until maturity. Mr. Farr received warrants to purchase 1
+000
+000 of our common shares at the price of $.21 per share at any time until October 31
+On October 17
+ 2018
+ we issued 100
+000 common shares to Michael P. Dulak for services rendered to us. We valued these shares at $ .19 per share or an aggregate of $19
+On October 17
+ 2018
+ we issued 62
+500 common shares to Mary Ellen Mahon for services rendered to us. We valued these shares at $.19 per share or an aggregate of $11
+On October 17
+ 2018
+ we issued 62
+500 common shares to Robert Patrick Scott for services rendered to us. We valued these shares at $.19 per share or an aggregate of $11
+On October 17
+ 2018
+ we issued 62
+500 common shares to Anthony Centorani for services rendered to us. We valued these shares at $ .19 per share or an aggregate of $11
+On November 7
+ 2018
+ we entered into a convertible note agreement
+ as amended
+ on March 20
+ 2019 with Paul R. Botts
+ in the principal amount of $25
+000. The note bears interest at the rate of 10% and has a maturity date of April 22
+ 2019. The principal and interest due under the note are convertible into our common shares at the rate of $.20 in whole or in part at any time until maturity. On March 19
+ 2019
+ we issued 100
+On December 21
+ 2018
+ we issued 848
+484 common shares to FMG Holdings
+ LLC a Florida limited liability company controlled by Michael Farr
+ for services rendered to us. We valued these shares at $ .19 per share or an aggregate of $161
+On December 21
+ 2018
+ we issued 848
+484 common shares to Forage Complete
+ LLC
+&nbsp;an Idaho&nbsp;limited liability company controlled by Cory Jenkins
+ for services rendered to us. We valued these shares at $.19 per share or an aggregate of $161
+On December 21
+ 2018
+ we issued 5
+294
+117 common shares to Kahn Family Limited PT II for a price of $.085 per share or an aggregate of $449
+On December 21
+ 2018
+ we issued 1
+176
+470 common shares to Dennis Poland for a price of $.085 per share or an aggregate of $99
+On December 21
+ 2018
+ we issued 294
+117 common shares to Barrington Jenoure for a price of $.085 per share or an aggregate of $24
+On December 24
+ 2018
+ we issued 250
+000 common shares to SunX Analytical
+ LLC
+ a Maryland limited liability company controlled by Barry Pritchard
+ for services rendered to us. We valued these shares at $.170 per share or an aggregate of $42
+On January 23
+ 2019
+ we issued 120
+004 common shares to Joshua J. Gooden for a price of $.167 per share or an aggregate of $20
+On January 29
+ 2019
+ we issued 62
+500 common shares to Robert Patrick Scott for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On January 29
+ 2019
+ we issued 62
+500 common shares to Anthony Centorani for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On January 29
+ 2019
+ we issued 62
+500 common shares to Liska Rodriguez for services rendered to us. We valued these shares at $ .16 per share or an aggregate of $10
+On January 29
+ 2019
+ we issued 62
+500 common shares to John Gross for services rendered to us. We valued these shares at $ .16 per share or an aggregate of $10
+On January 29
+ 2019
+ we issued 62
+500 common shares to Esco Bell for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On January 29
+ 2019
+ we issued 62
+500 common shares to Mary Ellen Mahon for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On January 30
+ 2019
+ we issued 62
+500 common shares to Lawrence Muchnick for services rendered to us. We valued these shares at $ .16 per share or an aggregate of $10
+On January 30
+ 2019
+ we issued 62
+500 common shares to Michael John Deblasis for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On January 31
+ 2019
+ we issued 321
+281 common shares to Hamilton &amp; Associates Law Group for services rendered to us. We valued these shares at $.18 per share or an aggregate of $57
+On February 1
+ 2019
+ we issued 7
+647
+059 common shares to Kahn Family Limited PT II for a price of $.085 per share or an aggregate of $650
+000. On February 8
+ 2019
+ we issued 2
+941
+176 common shares to Kahn Family Limited PT II for a price of $.085 per share or an aggregate of $650
+000. On March 12
+ 2019
+ we issued 300
+000 common shares to Kahn Family Limited PT II for a price of $.085 per share or an aggregate of $25
+On February 4
+ 2019
+ we issued 62
+500 common shares to Karina Rodriguez for services rendered to us. We valued these shares at $.16 per share or an aggregate of $10
+On February 8
+ 2019
+ we issued 250
+000 common shares to Sunx Analytical
+ LLC a Maryland Company controlled by Barry Pritchard
+ for services rendered to us. We valued these shares at $.20 per share or an aggregate of $50
+On February 14
+ 2019
+ we issued 117
+647 common shares to Herbert &amp; Rosalind Chasman Family Trust for a price of $.085 per share or an aggregate of $10
+On February 14
+ 2019
+ we issued 235
+294 common shares to Deborah Axelrod for a price of $.085 per share or an aggregate of $20
+On February 21
+ 2019
+ we issued 117
+647 common shares to Stephan Golding for services rendered to us. We valued these shares at $.085 per share or an aggregate of $10
+On March 7
+ 2019
+ we issued 62
+500 common shares to Austin Hunter for services rendered to us. We valued these shares at $.170 per share or an aggregate of $10
+On March 12
+ 2019
+ we issued 1
+200
+000 common shares to Bruce Burley for the purchase of certain assets. We value these shares at a price of $.17 per share or an aggregate of $204
+On March 12
+ 2019
+ we issued 300
+000 common shares to Robert E. Borland Jr for the purchase of certain assets. We value these shares at a price of $.17 per share or an aggregate of $51
+On March 15
+ 2019
+ we issued 2
+499
+765 common shares to Orange Pumpkin Trust for a price of $.085 per share or an aggregate of $212
+On March 19
+ 2019
+ we issued 176
+470 common shares to Antonio Morgado for services rendered to us. We valued these shares at $.085 per share or an aggregate of $149
+On March 22
+ 2019
+ we issued 117
+647 common shares to Scott Mast for a price of $.085 per share or an aggregate of $10
+On March 22
+ 2019
+ we issued 117
+647 common shares to Charles Mast for a price of $.085 per share or an aggregate of $10
+Our Management&#8217;s Discussion and Analysis of Financial Condition and Results of Operations should be read in conjunction with the audited annual Financial Statements and related notes included in this Form 10-K
+ as well as the sections entitled &#8220;Risk Factors&#8221; in of this Form 10-K
+NutraLife BioSciences
+ Inc. (&#8220;us&#8221;
+ &#8220;we&#8221; or the &#8220;Company&#8221;) was formed as a limited liability company in the state of Florida on April 1
+ 2010
+ as NutraFuels
+ Inc. On December 3
+ 2012
+ the Company converted from a limited liability company to a Florida corporation. On March 6
+ 2019
+ the Company&#8217;s name change to NutraLife BioSciences
+Precision Analytic Testing
+ LLC
+ a Florida limited liability company (&#8220;PAT&#8221;) formed on May 11
+ 2017
+NutraDerma Technologies
+ Inc.
+ (&#8220;NutraDerma&#8221;) a Florida corporation formed on January 28
+ 2019
+hytoChem Technologies
+ Inc.
+ a Florida corporation (&#8220;PhytoChem&#8221;) formed on February 4
+ 2019
+TransDermalRX
+ Inc.
+ a Florida corporation (&#8220;TransDermal&#8221;) formed on February 8
+The Company is engaged in the development
+ manufacturing and distribution of nutritional and dietary oral spray products in the United States. The Company offers 13 different core formulations which it modifies to meet the specifications of its private label customers. The Company provides approximately 50 different variations of its core formulations. The Company&#8217;s products include CBD-&shy;infused oral sprays
+ tinctures
+ pet drops
+ pain balms
+ face creams
+ and nutraceutical oral spray products for sleep support and weight loss packaged under the customer&#8217;s brand names. The Company&#8217;s products are primarily sold to private label distributors who sell the products the Company manufacturers under their own brand names. The Company&#8217;s revenues are concentrated in five (5) private label distributors which represented which represented 32%
+ 25%
+ 17%
+ 13%
+ and 4% percent of our sales in the year ended December 31
+For the years ended December 31
+ 2018 and December 31
+ 2017
+ the Company generated sales of $3
+711
+327 and $1
+790
+168
+ respectively from the sale of its products. Sales of the Company&#8217;s products to private label customers represented 91% and 99% percent of the Company&#8217;s sales for the years ended December 31
+ 2018 and 2017
+In March of 2017
+ the Company added CBD products to its product lines. Sales of CBD products increased from approximately $1
+380
+000 for the year ended December 31
+ 2017 to approximately $2
+400
+000 for the year ended December 31
+Comparison of Years Ended December 31
+We had sales of $3
+711
+327 and $1
+790
+168 for the years ended December 31
+ 2018 and 2017
+ respectively
+Cost of sales was $2
+211
+039 compared to $1
+055
+042 for the years ended December 31
+ 2018 and 2017
+ respectively
+Gross margin was $1
+500
+288 and $735
+126 for the years ended December 31
+ 2018 and 2017
+ respectively
+General and administrative expenses were $2
+070
+714 compared to $1
+760
+148 for the years ended December 31
+ 2018 and 2017
+ respectively
+Stock based compensation was $1
+070
+050 and $19
+183
+422 for the years ended December 31
+ 2018 and 2017
+ respectively
+Our interest expense and finance cost was $133
+750 and $3
+342
+161 for the years ended December 31
+ 2018 and 2017
+ respectively
+We recorded a net loss of ($2
+074
+537) and ($23
+629
+117) for the years ended December 31
+ 2018 and 2017
+Our cash flow resulted in an increase of our cash balance to $419
+975 for the year ended December 31
+ 2018. We used $ (234
+673) of cash in operating activities during the year. For the year ended December 31
+ 2017
+ we used $1
+018
+During the year ended December 31
+ 2018 and 2017
+ we funded $618
+332 and $1
+379
+Our net loss decreased from ($23
+629
+117) for the year ended December 31
+ 2017 to ($2
+074
+537) for the year ended December 31
+ 2018. We have an accumulated deficit of $34
+833
+458 at December 31
+ 2018. These conditions raise substantial doubt about our ability to continue as a going concern. Our financial statements have been prepared on a going concern basis
+The independent auditors&#8217; report on our financial statements for the years ended December 31
+Our failure to manage our growth and increase our sales to meet our increased operational costs could harm our profitability and adversely affect our financial condition and results of operations. We face risks including the need for significant additional capital
+ management&#8217;s potential underestimation of initial and ongoing costs
+We are continuing our plan to further grow and expand operations and seek sources of capital to pay our contractual obligations as they come due. Management believes that its current operating strategy will provide the opportunity for us to continue as a going concern as long as we are able to obtain additional financing&#894; however
+We must increase our sales to meet increased operating costs including the cost of our new 20
+If we fail to compete effectively in the intensely competitive nutritional and CBD markets
+We are dependent upon sales to our five (5) private label distributors which represent 99% of our sales for the year ended December 31
+If we fail to comply with extensive legal/regulatory requirements affecting the industrial hemp and CBD industries
+ we will face increased costs
+In preparing the financial statements in accordance with accounting principles generally accepted in the United States of America (U.S. GAAP)
+The preparation of the financial statements in conformity with U.S. GAAP requires us to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Our estimates and assumptions
+ including those related to the ability to continue as going concern
+ legal proceedings
+ the recoverability of inventory
+ long-&shy;lived assets
+ the fair value of stock&shy;-based compensation and the fair value of warrant liabilities are updated as appropriate
+ which in most cases is at least quarterly. We base our estimates on historical experience
+ or various assumptions that are believed to be reasonable under the circumstances and the results form the basis for making judgments about the reported values of assets
+ liabilities
+Estimates are considered to be critical if they meet both of the following criteria: (1) the estimate requires assumptions about material matters that are uncertain at the time the accounting estimates are made
+Our financial instruments consist of cash and cash equivalents
+ prepaid expenses
+ payables and accrued expenses. Fair value estimates are made at a specific point in time
+ based on relevant market information about the financial instrument. These estimates are subjective in nature and involve uncertainties and matters of significant judgment and therefore cannot be determined with precision. We consider the carrying values of our financial instruments in the consolidated financial statements to approximate fair value
+The Company adopted ASU 2014-09
+ &#8220;Revenue from Contracts with Customers&#8221; on January 1
+ 2018
+ using the modified retrospective method
+The new revenue recognition standard prescribes a five-step model that focuses on transfer of control and entitlement to payment when determining the amount of revenue to be recognized. Under the new guidance
+The Company generates revenues from the sale of products. The product is invoiced and the revenue is recognized upon shipment and once transfer of risk has passed to the customer
+Our accounts receivable are stated at estimated net realizable value. Accounts receivable are comprised of balances due from customers net of estimated allowances for uncollectible accounts. In determining collectability
+Property and equipment are recorded at cost
+We record share&shy;-based compensation in accordance with FASB ASC 718
+We periodically evaluate long-lived assets for impairment whenever events or changes in circumstances indicate that the carrying value of an asset may not be recoverable. If the estimated future cash flows (undiscounted and without interest charges) from the use of an asset were less than the carrying value
+The Company evaluates its convertible debt
+ options
+ warrants or other contracts to determine if those contracts or embedded components of those contracts qualify as derivatives to be separately accounted for. The result of this accounting treatment is that under certain circumstances the fair value of the derivative is marked-to-market each balance sheet date and recorded as a liability. In the event that the fair value is recorded as a liability
+ the change in fair value is recorded in the statement of operations as other income or expense. Upon conversion or exercise of a convertible note containing an embedded derivative instrument
+Stockholders of NutraLife BioSciences
+ Inc. F/K/A NutraFuels
+Coconut Creek
+We have audited the accompanying consolidated balance sheets of NutraLife BioSciences
+ Inc. (formerly known as NutraFuels
+ Inc.) (the &#8220;Company&#8221;) at December 31
+ 2018 and 2017
+ and the related consolidated statements of operations
+ changes in stockholders&#8217; equity (deficit)
+ and cash flows for each of the years in the two year period ended December 31
+ 2018
+ and the related notes (collectively referred to as the consolidated financial statements).&nbsp; In our opinion
+ the consolidated financial statements present fairly
+ in all material respects
+ the financial position of the Company at December 31
+ 2018 and 2017
+ and the results of its operations and its cash flows for each of the years in the two year period ended December 31
+ 2018
+The accompanying consolidated financial statements have been prepared assuming that the Company will continue as a going concern. As described in Note 2 to the consolidated financial statements
+ the Company has experienced net losses and has an accumulated deficit
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement
+ whether due to error or fraud. The Company is not required to have
+ nor were we engaged to perform
+ an audit of its internal control over financial reporting. As part of our audits
+ we are required to obtain an understanding of internal control over financial reporting
+ but not for the purpose of expressing an opinion on the effectiveness of the Company&#8217;s internal control over financial reporting. Accordingly
+Our audits included performing procedures to assess the risks of material misstatement of the consolidated financial statements
+ whether due to error or fraud
+ and performing procedures that respond to those risks. Such procedures included examining
+ on a test basis
+ evidence regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management
+Fort Lauderdale
+April 1
+NUTRALIFE BIOSCIENCES
+ INC.
+ F/K/A NUTRAFUELS
+December 31
+419
+172
+Accounts receivable
+ net of allowance for doubtful accounts of $31
+000
+43
+291
+162
+115
+332
+869
+667
+Furniture
+910
+425
+374
+154
+1
+285
+579
+(359
+(293
+Property and equipment
+925
+286
+35
+1
+830
+954
+243
+87
+468
+206
+84
+3
+Convertible notes
+ net of unamortized discount of $280
+199
+1
+000
+293
+Capital lease
+14
+1
+015
+293
+Preferred stock; $0.0001 par value
+10
+Common stock; $0.0001 par value
+ 499
+990
+shares authorized; 97
+315
+941 and 81
+448
+9
+8
+35
+638
+33
+411
+(34
+808
+(32
+758
+815
+660
+1
+830
+954
+NUTRALIFE BIOSCIENCES
+ INC.
+ F/K/A NUTRAFUELS
+Years Ended December 31
+3
+711
+1
+790
+2
+211
+1
+055
+1
+500
+735
+265
+81
+1
+070
+19
+183
+2
+070
+1
+760
+3
+406
+21
+024
+(1
+906
+(20
+289
+(16
+1
+(18
+(130
+(2
+(3
+342
+(168
+(3
+339
+(2
+074
+(23
+629
+(2
+074
+(23
+629
+87
+323
+71
+820
+NUTRALIFE BIOSCIENCES
+ INC.
+ F/K/A NUTRAFUELS
+BALANCE
+ December 31
+1
+45
+890
+4
+7
+024
+(9
+129
+(2
+100
+9
+707
+1
+323
+1
+324
+275
+54
+55
+10
+129
+1
+5
+613
+5
+614
+1
+250
+363
+364
+14
+195
+1
+19
+030
+19
+031
+(23
+629
+(23
+629
+Balance December 31
+1
+81
+448
+8
+33
+411
+(32
+758
+660
+7
+024
+617
+618
+169
+49
+49
+4
+976
+1
+069
+1
+070
+1
+696
+105
+105
+2
+000
+190
+190
+176
+176
+18
+18
+(2
+074
+(2
+074
+Balance
+ December 31
+1
+97
+315
+9
+35
+638
+(34
+833
+815
+NUTRALIFE BIOSCIENCES
+ INC.
+ F/K/A NUTRAFUELS
+Years Ended December 31
+(2
+074
+(23
+629
+1
+070
+19
+019
+66
+78
+327
+105
+531
+84
+18
+3
+116
+(127
+(128
+(67
+217
+90
+187
+68
+262
+(518
+84
+(34
+(234
+(1
+018
+(35
+(581
+(171
+(616
+(171
+618
+1
+324
+55
+480
+(29
+1
+098
+1
+350
+247
+160
+&nbsp;CASH
+172
+12
+&nbsp;CASH
+419
+172
+2
+2
+19
+190
+176
+105
+49
+5
+614
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+NutraLife BioSciences
+ Inc.F/K/A NutraFuels
+ Inc. (We
+The consolidated financial statements include the accounts of the Company and its wholly owned subsidiary
+ Precision Analytic Testing
+In February of 2019 NutraFuels
+ Inc. approved an amendment to its Articles of Incorporation to change its name to Nutralife Biosciences
+Cash equivalents are highly liquid investments with an original maturity of three months or less. The Company had no cash equivalents at December 31
+Inventories are stated at cost utilizing the weighted average method of valuation and consist of raw materials and finished goods. As of December 31
+219
+162
+71
+291
+162
+All property and equipment are recorded at cost and depreciated over their estimated useful lives
+ generally three
+ seven and twelve years
+ using the straight-line method. Upon sale or retirement
+ the cost and related accumulated depreciation are eliminated from their respective accounts
+ and the resulting gain or loss is included in the results of operations. Repairs and maintenance charges
+ which do not increase the useful lives of the assets
+The Company adopted ASU 2014-09
+ &#8220;Revenue from Contracts with Customers&#8221; on January 1
+ 2018
+ using the modified retrospective method
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+The new revenue recognition standard prescribes a five-step model that focuses on transfer of control and entitlement to payment when determining the amount of revenue to be recognized. Under the new guidance
+The Company generates revenues from the sale of products. The product is invoiced and the revenue is recognized upon shipment and once transfer of risk has passed to the customer
+The Company follows the provisions of ASC 740-10
+ Accounting for Uncertain Income Tax Positions. When tax returns are filed
+ it is highly certain that some positions taken would be sustained upon examination by the taxing authorities
+ while others are subject to uncertainty about the merits of the position taken or the amount of the position that would be ultimately sustained. In accordance with the guidance of ASC 740-10
+ the benefit of a tax position is recognized in the financial statements in the period during which
+ based on all available evidence
+ management believes it is more likely than not that the position will be sustained upon examination
+ including the resolution of appeals or litigation processes
+As of December 31
+ 2018
+FASB ASC 820 Fair Value Measurement clarifies that fair value is an exit price
+ representing the amount that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants. It also requires disclosure about how fair value is determined for assets and liabilities and establishes a hierarchy for which these assets and liabilities must be grouped
+Level 3: Unobservable inputs in which there is little or no market data
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+The determination of where assets and liabilities fall within this hierarchy is based upon the lowest level of input that is significant to the fair value measurement. The carrying value of the Company&#8217;s current financial instruments
+ which include cash and cash equivalents
+ accounts payable
+A long-lived asset is tested for impairment whenever events or changes in circumstances indicate that its carrying value amount may not be recoverable. An impairment loss is recognized when the carrying amount of the asset exceeds the sum of the undiscounted cash flows resulting from its use and eventual disposition. The impairment loss is measured as the amount by which the carrying amount of the long-lived assets exceeds its fair value. There were no impairments recognized during the years ended December 31
+In February 2016
+ the FASB issued ASU 2016-02
+ Leases
+ which
+ for operating leases
+ requires a lessee to recognize a right-of-use asset and a lease liability
+ initially measured at the present value of the lease payments
+ in its balance sheet. The standard also requires a lessee to recognize a single lease cost
+ calculated so that the cost of the lease is allocated over the lease term
+ on a generally straight-line basis. The ASU is effective for public companies for fiscal years beginning after December 15
+ 2018
+Our financial statements have been prepared on a going concern basis
+ which contemplates the realization of assets and the settlement of liabilities and commitments in the normal course of business. We sustained a net loss of approximately $2.0 and $23.6 million for the years ended December 31
+ 2018 and 2017
+ respectively
+ and have an accumulated deficit of approximately $34.8 million at December 31
+The independent auditors&#8217; report on our financial statements for the years ended December 31
+Failure to successfully continue to grow operational revenues could harm our profitability and adversely affect our financial condition and results of operations. We face all of the risks inherent in a new business
+ including the need for significant additional capital
+ management&#8217;s potential underestimation of initial and ongoing costs
+We are continuing our plan to further grow and expand operations and seek sources of capital to pay our contractual obligations as they come due. Management believes that its current operating strategy will provide the opportunity for us to continue as a going concern as long as we are able to obtain additional financing; however
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+In January 2017
+ the Company issued 6
+762
+942 shares of common stock to convert $1
+561
+On July 31
+ 2018
+ the Company entered into a convertible promissory note facility with a third party lender for total proceeds of $2
+000
+000. The convertible promissory note calls for six funding installments from July 31
+ 2018 through January 15
+ 2019. The convertible promissory note bears interest at 10% and has a maturity date of July 31
+In July 2018
+ the Company received the first installment of $250
+000 of the convertible promissory note
+ at which time the Company issued 2
+000
+000 shares of common stock valued at $190
+476 and 625
+000 warrants to purchase common stock valued at $59
+523. The convertible promissory note is convertible into shares of the Company at a price of $.40 per share. The terms of the conversion does not give rise to a beneficial conversion feature. The total debt discount from the embedded features totaled $250
+In August 2018
+ the Company received the second installment of $130
+000 of the convertible promissory note
+ at which time the Company issued 325
+000 warrants to purchase common stock valued at $54
+638. The convertible promissory note is convertible into shares of the Company at a value of $.40 per share. The terms of the conversion gives rise to a beneficial conversion feature resulting in a fair value of $18
+888. The total debt discount from the embedded features totaled $73
+In the fourth quarter
+ 2018
+ we entered into two short term 10% notes for $75
+000 cash
+ which included the issuance of 2
+000
+000 warrants to purchase common stock. These notes were repaid in January 2019. The debt discount from the embedded features totaled $62
+In the fourth quarter
+ 2018
+ we entered a short term 10% promissory note for $25
+000 due in December of 2018. The note provided for a stock grant of 50
+In January 2017 we issued 3
+367
+000 shares of common stock to convert $841
+During the first quarter of 2017
+ we paid $5
+At December 31
+ 2018 and December 31
+ 2017
+ the Company has 499
+990
+000 shares of $0.0001 par value common stock authorized and 97
+316
+241 and 81
+448
+561 issued and outstanding
+On January 13
+ 2017 we entered into an employment agreement with our President which includes an anti-dilution provision which requires us to maintain his share ownership in our Company at 30%
+ reduced by any shares he sells. These shares are required to be issued on January 2 of each year. On February 13
+ 2017 we issued 7
+220
+585 shares associated with the anti-dilution rights
+ which were valued at $10
+453
+315. In November 2017
+ we issued 6
+674
+837 shares associated with the anti- dilution rights
+ which were valued at $8
+464
+463. This employment agreement was amended on October 10
+ 2017
+In the first quarter 2017 we issued 6
+762
+942 shares of common stock to convert $1
+561
+593 of convertible debt and accrued interest and 3
+367
+000 shares of common stock to convert $841
+750 of debt and accrued interest to a related party. In February 2017 we issued 25
+000 shares of common stock in exchange for $5
+000 in cash for the exercise of options. During the first quarter 2017 we issued 6
+957
+285 shares of common stock and 6
+957
+285 warrants to purchase our common stock in exchange for $774
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+During the second quarter 2017 we issued 1
+850
+000 shares of common stock and 1
+850
+000 warrants to purchase our common stock in exchange for $370
+000 in cash. During the second quarter 2017 we issued 250
+000 shares of common stock in exchange for $50
+During the third quarter 2017 we issued 900
+000 shares of common stock in exchange for $180
+In August 2018
+ the Company issued 260
+000 shares of common stock in exchange for $43
+In December 2018 the Company issued 5
+294
+117 shares of common stock and 5
+294
+117 warrants to purchase common stock in exchange for $450
+In December 2018 the Company issued 294
+117 shares of common stock in exchange for 25
+In December 2018 the Company issued 1
+176
+470 shares of common stock in exchange for $100
+In January 2018
+ the Company issued 900
+000 shares of common stock valued at $203
+In January 2018
+ the Company issued 100
+000 shares of common stock valued at $47
+In February 2018
+ the Company issued 500
+000 shares of common stock valued at $140
+In April 2018
+ the Company issued 449
+300 shares of common stock valued at $100
+In June 2018
+ the Company issued 1
+200
+000 shares of common stock valued at $240
+In July 2018
+ the Company issued 437
+500 shares of common stock valued at $70
+In September 2018
+ the Company issued 602
+549 shares of common stock valued at $124
+In October 2018 the Company issued 537
+500 shares of common stock valued at $102
+In December 2018 the Company issued 250
+000 shares of common stock valued at $42
+In February 2018
+ the Company issued 169
+159 shares of common stock valued at $49
+494 to settle accounts payable of $31
+490. The Company recorded a loss on settlement of $18
+In July 2018
+ the Company issued 2
+000
+000 shares of common stock and 625
+000 warrants to purchase common stock in exchange for a $250
+In August 2018 the Company issued 325
+000 warrants to purchase common stock in exchange for a $130
+In October 2018 the Company issued 2
+000
+000 warrants to purchase common stock in exchange for $62
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+In February 2018
+ the Company issued 2
+000
+000 shares of common stock valued at $569
+200 for the acquisition of production equipment. The holder returned the 2
+000
+000 shares to the Company for cancellation on November 1
+ 2018 pursuant to a settlement agreement dated September 7
+In December 2018 the Company issued 1
+696
+968 shares of common stock valued at $105
+At December 31
+2
+950
+7
+144
+1
+850
+7
+877
+14
+342
+114
+114
+124
+124
+18
+210
+16
+431
+Balance
+ December 31
+8
+142
+9
+707
+(275
+(1
+143
+Balance
+ December 31
+16
+431
+8
+244
+(6
+465
+Balance
+ December 31
+18
+210
+The components of income tax provision (benefit) related to continuing operations are as follows at December 31
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+The following is a reconciliation of the effective income tax rate with the statutory income tax rate at December 31
+State income tax
+Temporary differences
+The net deferred tax assets and liabilities included in the financial statements consist of the following amounts at December 31
+8
+985
+8
+577
+(8
+985
+(8
+577
+The change in valuation allowance was $407
+612 and $6
+119
+517 for the years ended December 31
+ 2018 and 2017
+In accordance with the provisions of ASC 740: Income Taxes
+ we record a liability for uncertain tax positions when it is probable that a loss has been incurred and the amount can be reasonably estimated. At December 31
+ 2018 and 2017
+ we have no liabilities for uncertain tax positions. We continually evaluate expiring statutes of limitations
+ audits
+ proposed settlements
+We lease our office and warehouse facilities under an operating lease in Coconut Creek
+ Florida. The lease expired in February 2019. The minimum monthly lease payments required for the remaining term of the lease are $7
+360. Currently
+In June 2017 we entered into a new lease for a new additional facility located in Deerfield Beach
+ Florida. This lease commenced on January 1
+ 2018 and expires on March 1
+ 2025. The minimum monthly lease payments required begin at $13
+In August 2018
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+The following is a schedule of future minimum lease payments under all leases as of December 31
+Year ended December 31
+173
+3
+168
+3
+173
+3
+179
+3
+184
+2
+222
+18
+(2
+1
+099
+16
+Rent expense for the years ended December 31
+ 2018 and 2017 was $256
+000 and $77
+In November 2017
+ we entered into a six-month agreement with Lyons Capital
+ LLC to provide introductions to broker/dealers
+ private funds
+ Investment bankers
+ potential Board of Directors members
+ stock research firms
+ market makers and business development opportunities. Lyons is to receive 1
+000
+000 shares of common stock
+ half upon signing the agreement and half three months later. These shares were valued at $191
+600
+ or $0.1916 per share
+ the quoted market price on the agreement date. This amount was recorded in prepaid expenses and is being amortized over the term of the agreement
+ of which approximately $37
+000 was amortized in 2017 and $150
+The Company is subject to asserted claims and liabilities that arise in the ordinary course of business. The Company maintains insurance policies to mitigate potential losses from these actions. In the opinion of management
+As of December 31
+ 2018
+The Company maintains its cash in bank deposit accounts
+ which may
+ at times
+ may exceed federally insured limits. The Company had cash balances in excess of FDIC insured limits of $244
+501 and $0 at December 31
+ 2018 and 2017
+NUTRALIFE BIOSCIENCES
+ INC. F/K A NUTRAFUELS
+In March
+ 2019 the Company reached an agreement with its third party lender in connection with their $2
+000
+000 2018 &#8220;Investment Agreement&#8221; whereby the Company received only two payments from this lender aggregating $380
+000 during 2018. The lender was in default of this agreement and thereby settled by agreeing to fund $1
+000
+000 for 13
+764
+705 restricted shares of common stock. Additionally
+ the lender received a warrant to purchase an additional 10 million common shares at a price of $.20 per share or an aggregate of $2 million under the terms set forth in this agreement. The warrant expires on March 4
+ 2022. Additionally
+ the lender has the ability to purchase an additional 7
+647
+058 common shares at the purchase price of $.085 per share or an aggregate of $650
+000 at any time prior to April 8
+ 2019. In connection with this agreement the $380
+In February 2019 the Company acquired patent rights that includes the patent
+ intellectual property and all of the rights
+ title and interest in
+ to and under all of the assets
+ properties and rights of every kind and nature
+ that were held or for use by the seller that were used for the development
+ use
+ manufacturing
+ distribution or commercialization of the patent rights. The purchase price paid was $120
+000 in connection with the asset purchase agreement and $10
+000 in connection with the patent purchase agreement. Additionally
+ the asset purchase agreement provides the seller to receive 2
+700
+000 shares of the Company&#8217;s common stock. 1
+200
+000 shares were provided at closing and 1
+500
+000 shares will be provided one year thereafter. The patent purchase agreement provides for 300
+In connection with the above referenced agreement
+ the Company also entered into an agreement with the seller
+In 2019 the Company formed the following wholly owned subsidiaries
+NutraDerma Technologies
+PhytoChem Technologies
+TransDermalRX
+Pursuant to Rule 13a-15(b) under the Securities Exchange Act of 1934 (&#8220;Exchange Act&#8221;)
+ we carried out an evaluation
+ with the participation of our management
+ including our President
+ Chief Financial Officer
+ Secretary
+ Treasurer and Director
+ of the effectiveness of our disclosure controls and procedures (as defined under Rule 13a-15(e) under the Exchange Act) as of the end of the period covered by this report. Based upon that evaluation
+ our CEO and CFO concluded that our disclosure controls and procedures were not effective to ensure that information required to be disclosed by us in the reports that we file or submit under the Exchange Act
+ is recorded
+ processed
+ summarized and reported
+ within the time periods specified in the SEC&#8217;s rules and forms
+ and that such information is accumulated and communicated to our management
+ including our CEO and CFO
+ as appropriate
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting for the Company. Our internal control system was designed to
+ in general
+ provide reasonable assurance to our management and board regarding the preparation and fair presentation of published financial statements
+ but because of its inherent limitations
+ internal control over financial reporting may not prevent or detect misstatements. Also
+ projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions
+Our management assessed the effectiveness of our internal control over financial reporting as of December 31
+ 2018. The framework used by management in making that assessment was the criteria set forth in the document entitled &#8220;Internal Control &#8211; Integrated Framework&#8221; issued by the Committee of Sponsoring Organizations of the Treadway Commission. Based on that assessment
+ our President and Chief Financial Officer have determined and concluded that
+ as of December 31
+ 2018
+ our internal controls over financial reporting were not effective. A material weakness is a deficiency
+ or a combination of deficiencies
+ in internal control over financial reporting
+ such that there is a reasonable possibility that a material misstatement of our annual or interim financial statements will not be prevented or detected on a timely basis. In our assessment of the effectiveness of internal control our financial reporting as of December 31
+ 2018
+We do not have an independent audit committee in place
+ which would provide oversight of our officers
+Our accounting department
+ which consists of a limited number of personnel
+Management believes that the appointment of one or more outside directors
+ who shall be appointed to a fully functioning audit committee
+No change in our system of internal control over financial reporting occurred during the period covered by this report
+ fourth quarter of the fiscal year ended December 31
+ 2018
+ that has materially affected
+ or is reasonably likely to materially affect
+Item 10. Directors
+The board of directors elect our executive officers annually. A majority vote of the directors who are in office are required to fill vacancies. Each director shall be elected for the term of one year
+ and until his successor is elected and qualified
+Chief Executive Officer
+ President
+Edgar Ward
+ Chief Executive Officer
+From April 1
+ 2010 to present
+ Edgar Ward has served as our Chief Executive Officer
+ President
+As our chief executive officer
+Neil Catania
+Neil Catania became our Vice-President on November 20
+ 2012. From May 2004 until present
+ Neil Catania has been the chief executive officer of MND LLC
+Mr. Catania&#8217;s services to us include assisting Mr. Ward with our day to day operations. Neil Catania holds Series 7
+ Series 63
+No officer
+ director
+ or persons nominated for such positions
+Being subject to any order
+ judgment
+ or decree
+ not subsequently reversed
+ suspended or vacated
+ of any court of competent jurisdiction
+ permanently or temporarily enjoining
+ barring
+ suspending or otherwise limiting his involvement in any type of business
+Being found by a court of competent jurisdiction (in a civil action)
+ the Commission or the Commodity Futures Trading Commission to have violated a federal or state securities or commodities law
+ and the judgment has not been reversed
+ suspended
+Having any government agency
+ administrative agency
+ or administrative court impose an administrative finding
+ order
+ decree
+ or sanction against them as a result of their involvement in any type of business
+ securities
+Being the subject of a pending administrative proceeding related to their involvement in any type of business
+ securities
+Having any administrative proceeding been threatened against you related to their involvement in any type of business
+ securities
+Our Chief Executive Officer
+ President
+ and sole Director
+ Edgar Ward devotes his full time to our business under the terms of his employment contract. Our only other executive officer
+ Neal Catania is not obligated to commit his full time and attention to our business; accordingly
+ he may encounter a conflict of interest in allocating his time between our operations and those of other businesses. Neal Catania spends on an average ten (10) hours each month to our business and is not contractually required to devote full time services to us. In the future
+ our officers and directors may engage in other business activities
+ investments and business opportunities that may be appropriate for presentation to us as well as other entities to which they owe a fiduciary duty. As a result
+ they may have conflicts of interest in determining to which entity a particular business opportunity should be presented. Our officers and directors may also in the future become affiliated with entities
+ engaged in business activities similar to those we intend to conduct. In general
+We plan to adopt a Code of Ethics in the future
+On July 18
+ 2018
+ we registered an aggregate of 10
+000
+000 of our common shares for issuance to employees and consultants for services rendered to us pursuant to our 2018 Equity Incentive Plan (the 2018 Equity Incentive Plan ). As of April 1
+ 2010
+ we have issued an aggregate of 2
+368
+459 common shares registered for services rendered. As such
+ we may issue an additional 7
+631
+Our Board of Directors has two directors and has not established Audit
+ Compensation
+ and Nominating or Governance Committees as standing committees. The Board does not have an executive committee or any committees performing a similar function. We are not currently listed on a national securities exchange or in an inter-dealer quotation system that has requirements that a majority of the board of directors be independent. The Board has determined that no members of the Board are &#8220;independent&#8221; under the definition set forth in the listing standards of the NASDAQ Stock Market
+ Inc.
+ which is the definition that the Board has chosen to use for the purposes of the determining independence. Therefore
+The table below summarizes all compensation awarded to
+ earned by
+ or paid to our Principal Executive Officer
+ our two (2) most highly compensated executive officers who occupied such position at the end of our latest fiscal year that they were not executive officers at the end of our latest fiscal year
+ by us
+ or by any third party where the purpose of a transaction was to furnish compensation
+ for all services rendered in all capacities to us for the years ended December 31
+Chief Executive Officer
+181
+10
+637
+10
+819
+President
+176
+176
+52
+52
+25
+25
+On November 27
+ 2017
+ and February 13
+ 2017 Edgar Ward received 6
+674
+837 and 7
+220
+585 restricted common shares which we valued at a per share price of $1.27and $1.44 or an aggregate of $8
+464
+463 and $10
+376
+614.63 for services rendered to us. Under the terms of his employment agreement
+ Mr.
+ Ward receives an annual salary of $250
+000 and an annual cash bonus of $100
+000. For the years ended December 31
+ 2017 and 2018
+ Edgar Ward received $81
+500 and $176
+070.93 of the $350
+For the years ended December 31
+ 2017 and 2018 Neil Catania received cash compensation of $52
+500 and $25
+Our board of directors determines the compensation paid to our executive officers based upon the years of service to us
+The following tables set forth the ownership
+ as of March 27
+ 2019
+ of our common stock by each person known by us to be the beneficial owner of more than five percent (5%) of our outstanding common stock
+ our directors
+ and our executive officers and directors as a group. To the best of our knowledge
+ the persons named have sole voting and investment power with respect to such shares
+ except as otherwise noted. There are not any pending or anticipated arrangements that may cause a change in control. The information presented below regarding beneficial ownership of our voting securities has been presented in accordance with the rules of the Securities and Exchange Commission and is not necessarily indicative of ownership for any other purpose. Under these rules
+ a person is deemed to be a beneficial owner of a security if that person has or shares the power to vote or direct the voting of the security or the power to dispose or direct the disposition of the security. A person is deemed to own beneficially any security as to which such person has the right to acquire sole or shared voting or investment power within sixty (60) days through the conversion or exercise of any convertible security
+ warrant
+ option or other right. More than one person may be deemed to be a beneficial owner of the same securities. The percentage of beneficial ownership by any person as of a particular date is calculated by dividing the number of shares beneficially owned by such person
+ which includes the number of shares as to which such person has the right to acquire voting or investment power within sixty (60) days
+ by the sum of the number of shares outstanding as of such date plus the number of shares as to which such person has the right to acquire voting or investment power within sixty (60) days. Consequently
+ the denominator used for calculating such percentage may be different for each beneficial owner. Except as otherwise indicated below and under applicable community property laws
+ we believe that the beneficial owners of our common stock listed below have sole voting and investment power with respect to the shares shown. The business address for these shareholders is 6601 Lyons Road
+ Suite L-6
+Edgar Ward
+ Founder
+ Chief Executive Officer
+22
+899
+1
+000
+23
+899
+Neil Catania
+8
+770
+8
+770
+31
+669
+1
+000
+32
+669
+16
+182
+16
+182
+NewLeaf Assets
+34
+361
+34
+361
+82
+214
+1
+000
+83
+214
+Edgar Ward
+ Founder
+ Chief Executive Officer
+1
+1
+Neil Catania
+1
+1
+1
+1
+Based upon 128
+667
+583 shares of common stock issued and outstanding as of March 27
+ 2019. Beneficial ownership is determined in accordance with the rules of the Securities and Exchange Commission and generally includes voting or investment power with respect to securities. Except as otherwise indicated
+ we believe that the beneficial owners of the common stock listed above
+ based on information furnished by such owners
+ have sole investment and voting power with respect to such shares
+Based upon 128
+667
+583 of common stock and 1
+000 shares of Series A Preferred Stock as of March 27
+ 2019. The amount stated reflects the number of votes held on all matters submitted to a vote of the holders of our common and Series A Preferred Shares. Each share of Series A Preferred Stock is entitled to 500
+000 votes per share or an aggregate of 500
+000
+000 votes. Our Founder
+ Chief Executive Officer
+ President and Director
+ Edgar Ward
+ holds all 1
+000 shares of our Series A Preferred Stock which entitled him to an aggregate of 500
+000
+000 votes. Mr. Ward also holds 23
+391
+539 common shares directly and 1
+000
+000 shares indirectly which provide him with an aggregate of 23
+899
+407 votes. As such
+ Mr. Ward holds an aggregate of 523
+899
+NewLeaf Assets
+ LLC.
+ beneficially owns an aggregate of 34
+361
+763 common shares consisting of 15
+764
+705 common shares
+ warrants to purchase 10
+950
+000 common and an option to acquire 7
+647
+058 common shares at the price of $650
+000 at any time prior to April 8
+Item 13. Certain Relationships and Related Transactions
+Other than as described below
+ during the fiscal years ended December 31
+ 2017 and 2018 respectively
+ we have not entered into any material transactions with any director
+ executive officer
+ and promoter
+ beneficial owner of five percent (5%) or more of our common stock
+On January 4
+ 2017
+ Neil Catania
+ our Vice-President
+ converted an aggregate of $103
+663 of principal and interest outstanding under a promissory note into 414
+On January 4
+ 2017
+ Neil Catania
+ our Vice-President
+ converted principal and accrued interest due in the amount of $841
+750 pursuant to a November 15
+ 2012 and July 26
+ 2016 convertible notes and a December 31
+ 2013 line of credit into our common shares at the price of $.25 per share or an aggregate of 3
+367
+On January 4
+ 2017
+ Neil Catania
+ our Vice-President
+ converted principal and interest of $432
+500 pursuant to a promissory note 1
+750
+On January 13
+ 2017
+ we entered into an employment agreement with Edgar Ward
+ our Chief Executive Officer
+ President and Director. The agreement has a term of five (5) years. Under the agreement
+ each year
+ Mr. Ward shall receive a base salary of two hundred fifty thousand Dollars ($250
+000.00) per year beginning with the year ending December 31
+ 2017
+ and a bonus of one hundred thousand ($100
+000.00) each year for his services as our Chief Executive Officer and President. We are required to reimburse all normal
+ usual and necessary expenses incurred by Mr. Ward in furtherance of the business
+ including reasonable travel and entertainment. Mr. Ward is entitled to a vacation of twenty-four (24) days per annum
+On March 3
+ 2017
+ we issued 7
+220
+585 shares to Edgar Ward
+ our Chief Executive Officer
+ President and Director
+ for services rendered. We valued these shares at $1.45 per share or an aggregate of $10
+453
+315. On November 27
+ 2017
+ we issued 6
+674
+837 shares to Mr
+ Ward
+ our Chief Executive Officer
+ President and Director
+ for services rendered. We valued these shares at $1.27 per share or an aggregate of $8
+464
+On January 6
+ 2017
+ we sold 200
+000 units to Breadfruit Tree Inc.
+ a Florida corporation
+ doing business as NF Skin
+ our distributor
+ and controlled by F. Bruce Hutson
+ for the aggregate price of $20
+000 or $.10 per unit. Each unit consisted of one (1) share of common stock and one (1) warrant to purchase one (1) share of common stock at the price of $0.50 which expired on January 6
+On July 25
+ 2018
+ we entered into an agreement with Breadfruit Tree DBA NFSkin
+ a Florida corporation where by we agreed to pay them 15% of their net sales of our product. The 15% is payable in up to 3
+000
+000 shares of our common stock which the number of shares will be calculated based on a value of $.20 per share. On September 10
+ 2018
+ we issued 514
+On July 31
+ 2018
+ we entered into an agreement as amended March 10
+ 2019
+ with New Leaf Assets
+ LLC
+ a Delaware limited liability company
+ wherein NewLeaf invested the sums of $250
+000
+ $130
+000 and $1
+000
+000 in our securities on July 31
+ 2018
+ August 31
+ 2018 and March 15
+ 2019
+ respectively. On July 31
+ 2018
+ NewLeaf was granted 2
+000
+0000 shares on the Company&#8217;s common stock and warrants to purchase 625
+000 shares of the Company&#8217;s common stock at the price of $.20 per share at any time for a period of three (3) years. On August 31
+ 2018 NewLeaf received warrants to purchase 325
+000 shares of the Company&#8217;s common stock at the price of $.20 per share at any time for a period of three (3) years. On March 15
+ 2019
+ NewLeaf was issued 13
+764
+705 common shares
+ granted warrants to purchase an additional 10 million common shares at the price of $.20 per share at anytime until March 4
+ 2022 and an option to purchase an aggregate of 7
+647
+058 common shares at the aggregate price of $650
+000 at any time prior to April 8
+ 2019. As a result
+ NewLeaf holds an aggregate of 15
+764
+705 of the Company&#8217;s common shares at an average price of $.0726 per share
+ warrants to purchase an additional 10
+950
+000 common shares and an option to purchase an additional 7
+647
+058 common shares for an aggregate price of $650
+000 at any time prior to April 8
+On December 21
+ 2018
+ we issued 5
+294
+117 common shares to Kahn Family Limited PT II for a price of $.085 per share or an aggregate of $449
+479.50 On February 1
+ 2019
+ we issued 7
+647
+059 common shares to Kahn Family Limited PT II for a price of $.085 per share or an aggregate of $650
+000. On February 8
+ 2019
+ we issued 2
+941
+176 common shares to Kahn Family Limited PT II for a price of $.085 per share or an aggregate of $650
+000. On March 12
+ 2019
+ we issued 300
+For our fiscal years ended December 31
+ 2017 and December 31
+ 2018
+ we were billed approximately $45
+000 and $56
+000 respectively
+We did not incur any audit related fees
+ other than the fees discussed in Audit Fees
+ above
+ for services related to our audit for the fiscal years ended December 31
+ 2017 and December 31
+We do not have an audit committee. As a result
+Item 15. Exhibits
+Articles of Organization of Nutrafuels
+ LLC
+Articles of Incorporation of Nutrafuels
+ Inc.
+Bylaws of Nutrafuels
+Employment Agreement with Edgar Ward
+ dated October 10
+Agreement with Neil Catania dated October 9
+Agreement with JZ Marketing &#8211; Josh Zwagil
+ dated August 16
+Agreement with Patagonia Global Trading &#8211; David Zirulnikoff
+ dated December 7
+Agreement with Michael R. Anderson
+ dated April 10
+Agreement with Kenneth Duchin
+ dated February 23
+Agreement with CFN Media
+ dated December 5
+Agreement with Venture Capital Group LLC
+ dated December 14
+Agreement with Peter Ciarci
+ dated August 1
+Agreement with Five Star Labs LLC
+ dated August 1
+Agreement with Osprey Capital Advisors
+ dated October 1
+Agreement with WT Consulting
+ dated July 18
+Agreement with Uptick Capital
+ dated October 14
+Agreement with Benchmark Advisory Partners LLC
+ dated April 14
+Agreement with Sullivan Media
+ dated August 25
+Neil Catania Note Agreement in the amount of $160
+Neil Catania Note Agreement in the amount of $50
+Agreement between Owen Morgan &amp; Phytochem Technologies
+Agreement between Orlando Pharmacy Inc.
+ and NutraLife BioSciences
+Certification of Principal Executive Officer and Principal Financial Officer
+Certification of Principal Executive Officer and Principal Financial Officer
+(i) Filed as an exhibit to the Form 10 Registration Statement filed with the Securities and Exchange Commission on November 1
+(ii) Filed as an exhibit to the Definitive Schedule 14C filed with the SEC on February 15
+(iii) Filed as an exhibit to the Form 8-K filed with the SEC on February 7
+(iv) Filed as an exhibit to the Form 8-K filed with the SEC on March 13
+(v) Filed as an exhibit to the Form 8-K filed with the SEC on March 18
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+NutraLife BioSciences
+Date: April 1
+Chief Financial Officer
+Pursuant to the requirements of the Securities Exchange Act of 1934
+Date: April 1
+Chief Financial Officer
+ 
+
+
+
+
+
+
+
+
+PURSUANT TO 18 U.S.C. SECTION 1350
+I
+ Edgar Ward
+ the Chief Executive Officer
+ President and sole director of NutraLife BioSciences
+ Inc.
+I have reviewed the Company&#8217;s annual report on Form 10-K for the period ending December 31
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+Based on my knowledge
+ the financial statements
+ and other financial information included in this quarterly report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+evaluated the effectiveness of the registrant&#8217;s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+disclosed in this report any change in the registrant&#8217;s internal control over financial reporting that occurred during the registrant&#8217;s most recent fiscal quarter (the registrant&#8217;s fourth fiscal quarter in the case of an quarterly report) that has materially affected
+ or is reasonably likely to materially affect
+I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+all significant deficiencies and material weaknesses in the design or operation of internal controls over financial reporting which are reasonably likely to adversely affect the registrant&#8217;s ability to record
+ process
+any fraud
+ whether or not material
+Date: April 1
+ 2019
+
+
+
+
+
+
+
+
+PURSUANT TO 18 U.S.C. SECTION 1350
+In connection with the Annual Report of NutraLife BioSciences
+ Inc. (the &#8220;Company&#8221;) on Form 10-K for the year ended December 31
+ 2018 as filed with the Securities and Exchange Commission on the date hereof (the &#8220;Report&#8221;)
+ Edgar Ward
+ President and Chief Executive Officer of the Company
+ certifies
+ pursuant to 18 U.S.C. section 1350 of the Sarbanes-Oxley Act of 2002
+The information contained in the Report fairly presents
+ in all material respects
+Date: April 1
+A signed original of this written statement required by Section 906
+ or other document authenticating
+ acknowledging
+ or otherwise adopting the signature that appears in typed form within the electronic version of this written statement has been provided to the Company and will be retained by the Company and furnished to the Securities and Exchange Commission or its staff upon request.
+
+
+
+
+
+
+
+begin 644 nlbs_10kimg1.jpg
+M_]C_X  02D9)1@ ! 0$ 8 !@  #_VP!#  $! 0$! 0$! 0$! 0$! 0$! 0$!
+M 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0'_
+MVP!# 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$!
+
+
+M! 0   %] 0(#  01!1(A
+4$&$U%A!R)Q%#*!D:$((T*QP152T? D
+V)R@@D*
+
+
+7&
+
+
+
+B
+
+
+
+G*TM/4
+
+!  (1 Q$ /P#^_8 8' Z#
+MM[4N!Z#\J!T'T'\J6@!
+
+M\J6B@!
+
+C
+
+]1V!Z?CC!QZ'I7YH_M/_
+
+
+
+
+
+
+
+M
+
+
+
++Q%[&C6J
+
+
+#T'Y48'H/RI:* (@%('8GO@^OY5%)(D:
+
+
+M
+
+
+
+
+#T'Y4M%=Y^FB8'H/R
+
+
+MF!Z#\J
+
+
+
+
+
+
+QX'!&/3-7[RX.3\Q^O\SSW!) _$FN4
+MO;CKSQCD#TXY]
+
+
+=JU/AY\4_$?PA\=Z#X^\*77D:IH
+MET)#:R
+
+LT*
+O(WEQUY []QU[ _@
+
+
+
+
+
+_ VNPZOH]^OERJ&1+[1
+
+YQA&4Y6C&*NWLDD5YY
+
+
+
+
+
+
+
+
+MBB@ HHHH **** BBB@'DKGTS@=P
+
+
+M-RK1MNAFNDM+*55.RY88S^B'P^_X)K?!K0E@N/&4WB#X@:@F?
+&IWDFCZ
+22
+
+M/
+
+
+
+
+%CX;\=7T'PF^(+I'$VD^)KZ./P[J]T5.XZ!XGF6WL9&E92
+MR:;J?]GZ@ADCMX$OFS
+
+K'QIX^^']WH5P
+/QF%B
+
+
+
+
+
+=22V22PZG@9_$FJVI0H 78;R3\V[TQC)' S]W( (!&
+?
+3_ #P77_!=
+
+-P03Y-XI_X+N7M
+
+
+
+
+
+
+
+
+
+
+J
+MM.7+)R:T::C;7;3_ VW$L-%@@915 7/0?PYSVY([ 9[9[9WUM8XAA$^8Y
+
+=OZ=1DG)N]7M;:-Y)9DC15WNSNJHB1@N6=F.%
+
+MIIUI&^
+(A.^2;;YMS.\LTQ9Y
+TGQ$^(WBOXC:[/XA\7ZO/JM_(66%7_=V=A;
+
+
+
+M^&B67B3QE!9^
+?'2_OUN;JW670] D.&\O1;&Y3$UW$PW'6+U&N6D59+..Q7=
+
+EMI-FPVVT'R
+
+JW-V#
+RK%]8QQK$N 
+$' & 
+%\*=.AC\PIW;Y*E
+MI12U]QIW?3?M\SW
+
+
+
+
+M8A*
+[)J***[3]6BBB@ HHHH **** BBB@ HHHH **** BBB@
+MHHHH **** BBB@ HHHH **** BBB@ HHHH **** $'0?0?RI:0=!]!_*EH
+
+
+8( X'Y=!Q7B9SG&%R;
+MSQ6*J0IQ@N9\TK;6=NE_+5^5BHQE.2C%7;V1:DN53^(9Y.1GC/)' !/J 
+'
+MC)K*FU..(-(SA0 S
+
+
+
+M)]E?7]6E#E!%8Z7Y8=@%PRRW]S91E
+G:Q!
+B%2#'G:3X-XM_;CU5E:'PGX/@
+
+GGV[^G&
+
+MVRLUB%QL&=LEUYTFUBS
+
+
+
+
+\]023TX[C\?3C@8[U^O/[!
+
+M99XV_+3X5^#9OB5\3O!?@E2_DZYKEI'J+HS1Z5;_PF:I(%5U_U6GP3X=7^
+M1BK#*KBOZ7/#NFV^F:;:6EI!'!;6L
+5O;V\2+''#;6Z+%#%&OW42*-$5!C:%
+M4* .W];^!O+SK1Q^(C*:C.#3FKM.\7=^O3?ST/6X4P
+
+
+
+
+_#Q1\,O$*K:W&H0F_\,:['LEUX8\76$4SZ)KUL&1
+%P
+ALJ
+
+W.
+
+
+
+MX7_1ZQ67X^AB
+
+MYQ^%5XXQ$JH 3ZXPIQCT.
+G/./3MFK#%2.N3VP#_ K[V,5!*,5912LNRZ'^
+M@V2Y;3RK 4,'1A:-*FHZ+;W4K?UY^A)1113/3BBB@ HHHH **** BBB@ H
+MHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** $'0
+
+
+
+
+
+M-/UV^^$OB2XU*?PU=0VVMZ/K&F76AZ[91W*;[2_;3+U5FETVZ(DBAOH3)!Y\
+
+7<JM
+
+
+A$
+M3[XA\T?&X?
+
+N-(O6ETG4
+
+
+
+
+/B*OB/_@BC_R7?XN?]DEC
+
+M_P -_%C4O$ECJGB;2)M;TI=$\
+W^N026$%Y)82--/:?+!*+B)@(F^8IA^AKN
+
+_M#RXR
+
+
+
+
+
+
+
+
+
+
+
+
+_
+
+3
+MQRQ2H
+.D]CJ%JDJ2PB?9PE\$M5W^72R^_HW8&Y+5I6\NGKN?VWT5\;?L)_M*
+M7'[4/P T+QQK:6T/C;1+VY\(^.H;15B@E\0:3%;R?VK!;*2+:#6]/NK/4U@!
+
+
+M%'&C2222
+%CCC0%G=V8A555!9F) 4 DG K^/;]N7X[:C^U+^TYKM]X=:YU/P
+
+
+
+
+
+
+M[Z*^F^C6GS6GS&W:WFTC]3O^'NG[&?\ T
+/CW_PWVMT?\/=/V
+
+MOM;KVW_AWG^Q;_T;UX'_  _MH?H-6H_X=Y_L6_\ 1O?@?\]:_P#EM57H]JGW
+
+
+
+M)XPB/RX)(SBOG#_A[I^QG_T
+/CW_ 
+
+
+MYE(U$ R7%Q+)
+
+
+M]C/_ *&'Q[_X;[6Z/^'NG[&?_0P^/?\ PWVMU[C_ 
+
+
+
+
+
+
+M3+K7ANX ;RFL+Z+.XXW?:8F=0% C+
+3R&X!QA2/CJ\F(X!Y/7V&[ R/YC)
+
+
+Y_#/4#Z=
+
+MD'OVYSGGI^'&W.
+
+
+
+
+M8^WRKDYQCIC_ *_T1\E..31A*+]WE2NM-HZ7Z_Y'[1X78F5?*JE[VA:WJ^
+
+
+
+M?I;]3\0_V4OVG?B#^QS\7GUJSU&70Y+[_A'OBC\/+QI+)M3LK*Z:Z4VTXQ
+
+M VH6J_:_S2_8!_;;U;]E7QR?#WBNXO=2^?C&_B7Q3I2EYI?FIRF.%/&6BV
+MYY62W4+%KVGQ[1J5A'Y@4WUI;
+
+SN
+M/^O?_)WD_\ V3KPA_Z!=U^R/_!*[_DRKX:?]A;QU_ZF.LU^+G_!6+6-+\0_
+MM2V6OZ'?VNJZ)K?PK\#:KI&J6,J7%CJ6G7MO=36E[9W$;&.:WGB8/'(A((..
+M"!^T?\ P2N_Y,J^&G_86\=?^ICK-$OX,?D$?CE\_P SQW_@LQ_R;-X2_PR
+
+
+MAXV2*Z^
+.N^0Y! D$/AKPJDC(2
+
+ YVDC(W C.0172_X'R7_ *4B%\;]/\C]
+M?****YBS^'O]I#_DX'XY?]E8\=_^I'?5_9_\'_\ DDOPN_[)UX)_]1K3*_C
+
+
+T/Y$?V
+
+#%?P;^#M7\4Z!XC\/:WX(O
+
+
+M$U_
+-_P6$^*?@7Q[\=_!WA?PCJ%CK6I_#?PC=:-XNU+3I(;FWMM7U+59+^+0
+M#=1
+
+B_$7BK]K;]J_7[2_P##?B[X\?%N:U+3
+
+
+
+
+
+
+
+
+M!^%?AAX
+
+
+M!UC9C;W-KI=S(-9UN+.%8ZYK(N)XI=H)T^&P0EEC#M^E?[%/[:?[%7[
+7P#\
+
+
+
+MGQ#9XO-!U6+-GE7L]3AMVDVE3+;-/ Q\N9P?PC_9C^-^J?LY_'+P)\4]/EDF
+
+
+
+;*O_!8'2&=EC4?&
+
+
+1@.IY!0^-_X7^:'
+M.]E97?
+
+
+M_#
++R_E_%'[RKJ%@[*BWUHSLP546YA+
+QXA0Y))/0#))Z9JY7XG_;_ ()'
+
+_P &O%?@KP?XIN?BM\0[:Y\2^%O#^OW-O#IOAAH8+C6=)M-1FBA
+
+VM':ROVN2OC?I_D?L1_PNOX-_P#16OAE
+
+
+
+
+M
+
+
+
+
+JJ-UO?7
+
+M;/\ Y+/\$_\ LF&O?^I77V;_ 
+$9O^39O%O_ &5;7?\ TT:'6)_P4M_8J^.W
+
+
+
+M3M
+
+N:RT^:_P T?=)/F;Z6_P C
+
+
+
+
+3O$D]H\BDVUU/&4D:?XJ?M5?L^_!K0;K7_ !W\
+M5/%E'!'*T&DZ;K-CK7B'4I8U+UTS0M+GNM1NKB5ML2GR4MT=U
+
+
+^
+=!;[0BY*SK;ZU
+
+MA['@4_9T]_::?*_3^MNJ^:O+;EU_#^OF?/\ ^UA^T#J_[4WQU\1?$QM-NK*P
+MU%['P[X)\.D_:+W3_#E@S6^C6$@BW+)JNHSS2WU['!F-M0OI8H0RHW]2/[
+M/P2U+X!?LQ?#KP/K]N;3Q3=VMUXL\5V9Y:RU[Q//_:
+VGR?*I\[2[1K+39@V
+M2DUI(@9D537S)^R#_P $MOA_\ M;TOXC?$[6;;XI?$K2FCNM$A2Q-MX*\*:@
+
+
+M&M
+K^=7XQ_\ !+3]K?QK\6?B?XPT+1/ DFB^*O'GBGQ#I#W7CBSMKE]-U;6;
+MJ]LVGMVLF
+
+MQP2B:%+[2]%LK[2*8 :);B18Y0 )%L 
+XK6K*+5.TE*T=6NGNQW^[\B(
+
+
+
+
+T4@9)(I$9DDC=2KJ2K J2#_.
+
+
+
+M@6&&X)T90!I.I$R[]/*V
+Y5K.W:3X=_;^_8Y_;!_:J^-2Z_X8T7P='\-?!^D
+
+
+
+
+
+
+Z_P#!
+M8W_HM][_ .'7TK_Y1U] ?LN_!;_@I7X4^.'@S7OC[\5+KQ'\*K$ZT?$^CO\
+
+JK
+GE&
+3$D1[6S=-)?'!V71Z]-$^^
+M_P!UROD_P_S/UK\5?\BQXC_[ .L?^F^XK^=7_@BW_P E[^
+__9.8_P#U+K.O
+MZ
+
+
+
+5_
+O\8?^4P6C
+
+M=/\ $C]K:***S*BC-&:5UW7W^G^:^]=P/YV_P#@MZ?&WP) '_
+
+?_3MI
+
+
+
+,#KR<\G_PM7J_B[X2?%7PLSIK_ 
+
+
+
+
+
+M29(_T/PYJCPC!P6-R;5+=5'&6
+
+
+[9SCIC]HOV'?V&KKP
+
+
+MQ&G?7/P!_8S^%/P+\G4M&TN77/%SQ
+
+3C
+MX7JPY)14DMURO9K5OHOT/T+A7@&]GB
+
+ME5!T'10
+:9TSM\O9NP3@7'QU_:*L
+M()+N?]E37+B&!6=XM.^*'@R[O'4
+
+J!8@6!)
+
+
+
+MF
+
+
+
+
+
+
+
+ZR?H@8
+M$$87'(!(^O/4\CC.0..G P*^5I2QF.E6JQK.G&$W:-VMG%Z'DT'B
+7SU?:.$
+
+\3:
+M
+P\M6G^SG='?:=YLBQI?VCL@+QF2.W
+
+
+MWCW*[JEQ(BD8BV?HQ:
+9+=
+
+
+
+
+
+
+36\-])
+
+
+
+
+
+MBIUYRQE6B]HQNEOOR6M_7YG0D[@1T/?OC'Y9_O?VAOC(/@9\.]1\?-H4WB
+
+?A-\7)?B
+
+
+
+
+
+
+
+M-
+
+MM=TY2M&?:245NM5IT[]K'O.C?'./5_C]XJ^!B^'Y89/#'@?2/&C^)#?H\-VF
+
+HRNONBK:=D_
+
+?*.2#SSCCZ\XP3^/OT\%^-'[0'@OX+6NE
+
+
+]
+
+
+
+
+
+
+]Q%#%'-(L:RRB
+
+
+-4\3Z3X3\8:
+
+
+
+
+
+$OY4NFZ:^Z_E
+M=QHT8?!2A'S4(I_?O^(F!Z#\J6BBO6- I#T/T/\ *EHH _
+_]HOQ?H'P]_:\
+
+
+
+
+
+
+
+
+
+G*7/4F[RE^B]!&W$ =
+
+
+
+
++=-FT
+M]U;Q#XC\2V/AFYE:2Y\-:-KNH&XTO1;E69A;W%O;GSI;0$_9I)SRQS++$O
+
+M95(EBFC26*1.3L:.0
+
+.?F8%
+
+MPA*3E*
+
+
+]NN:^&_
+M^@2O_PSOKTBQ33&/Q!X.E*V\$MQ*53Q%I\CE8H4=W 16;J3\OI7W*!C'?&
+
+#AA@$'*D;AGIQQCH*K
+L++&865)-)W]V^WQ+?_
++V9
+M72)%96*Z 5
+
+ML#Q+9+
+
+
+
+
+
+X8 D8][^/OP)T7XT^$(]
+M+N;B71/%&A7:Z[X'\7V 
+
+#R(D=]:K(JW-N!RL\5M+
+
+
+]
+XS
+
+KRWZC3J14F^9K9WNM._HT]OR-
+
+MWM$
+
+M[6R@^+?@SP]'Y_B+1]2TV/R;7QEH6G;E_M+; ^HVZGS&#W8D:&*2XM?T7Q
+
+
+
+
+
+
+
+
+M\?##X4CXS:%\0O$%QH&J77QQ\?:O:V\OA[Q'=K/I]U/:0074
+VGZ3=0
+CM:2
+
+G'A7QCA5 4DG_ (D X;L!DDY!STKZ
+MN?2;!W+M;0DN29
+Q(=Q))).1R23DYZMSUSE5T?3B5/V2#)!/
+
+
+
+
+MGINZ#D].O--B54C14 10
+*J@!5 '&%'   X XJ09[G/X8KZ:$91IQ4FN:T5)
+
+
+TY65VE9-VU:6ME?S/GKXV_%GQ5\*?^$?U;3_A?XD^(
+
+LEVT#Q+;PQ9=R[H*\JD_;3_
+/96SW08=+AHC+D<8
+
+MF?#?[%7A+6(]?^.'Q.B\*ZGX$\!_%#QG9:MX$\+ZK9MI-X=
+L;*6&YUZ30P=
+
+
+
+
+

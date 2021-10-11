@@ -1,0 +1,12265 @@
+
+
+ACCESSION NUMBER:		0001477932-21-004870
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		42
+CONFORMED PERIOD OF REPORT:	20201231
+FILED AS OF DATE:		20210723
+DATE AS OF CHANGE:		20210723
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			GOLDENWELL BIOTECH
+ INC.
+		CENTRAL INDEX KEY:			0001800373
+		STANDARD INDUSTRIAL CLASSIFICATION:	FOOD & KINDRED PRODUCTS [2000]
+		IRS NUMBER:				842896086
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-56275
+		FILM NUMBER:		211111266
+	BUSINESS ADDRESS:	
+		STREET 1:		2071 MIDWAY DR.
+		CITY:			TWINSBURG
+		STATE:			OH
+		ZIP:			44087
+		BUSINESS PHONE:		440-666-7999
+	MAIL ADDRESS:	
+		STREET 1:		2071 MIDWAY DR.
+		CITY:			TWINSBURG
+		STATE:			OH
+		ZIP:			44087
+
+
+
+
+
+
+
+WASHINGTON
+December 31
+GOLDENWELL BIOTECH
+Twinsburg
+(Address of principal executive offices
+(Registrant&#8217;s telephone number
+(Former name
+ former address and former fiscal year
+Common Stock
+Indicate by check mark if the registrant is a well-known seasoned issuer
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+Indicate by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ a smaller reporting company
+ or an emerging growth company. See the definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer
+&#8221; &#8220;smaller reporting company
+If an emerging growth company
+At June 30
+ 2020
+ the last business day of the Registrant&#8217;s most recently completed second fiscal quarter
+ the aggregate market value of the voting common stock held by non-affiliates of the Registrant (without admitting that any person whose shares are not included in such calculation is an affiliate) was approximately $205
+As of&nbsp;July 9
+&nbsp;2021
+ there were 96
+000
+000 shares of the Registrant&#8217;s common stock
+ par value $0.001 per share
+GOLDENWELL BIOTECH
+Market for Registrant&#8217;s Common Equity
+Directors
+Certain Relationships and Related Transactions
+This Annual Report on Form 10-K of Goldenwell Biotech
+ Inc.
+ a Nevada corporation (the &#8220;Company&#8221;)
+ contains &#8220;forward-looking statements
+&#8221; as defined in the United States Private Securities Litigation Reform Act of 1995. In some cases
+ you can identify forward-looking statements by terminology such as &#8220;may&#8221;
+ &#8220;will&#8221;
+ &#8220;should&#8221;
+ &#8220;could&#8221;
+ &#8220;expects&#8221;
+ &#8220;plans&#8221;
+ &#8220;intends&#8221;
+ &#8220;anticipates&#8221;
+ &#8220;believes&#8221;
+ &#8220;estimates&#8221;
+ &#8220;predicts&#8221;
+ &#8220;potential&#8221; or &#8220;continue&#8221; or the negative of such terms and other comparable terminology. These forward-looking statements include
+ without limitation
+ statements about our market opportunity
+ our strategies
+ competition
+ expected activities and expenditures as we pursue our business plan
+ and the adequacy of our available cash resources. Although we believe that the expectations reflected in the forward-looking statements are reasonable
+ we cannot guarantee future results
+ levels of activity
+ performance or achievements. Actual results may differ materially from the predictions discussed in these forward-looking statements. The economic environment within which we operate could materially affect our actual results. Additional factors that could materially affect these forward-looking statements and/or predictions include
+ among other things: (i) commercialization of our technology and products
+ (ii) development and protection of our intellectual property
+ (iii) the Company&#8217;s need for and ability to obtain additional financing
+ (iv) industry competition
+Our management has included projections and estimates in this Form 10-K
+ which are based primarily on management&#8217;s experience in the industry
+ assessments of our results of operations
+ discussions and negotiations with third parties and a review of information filed by our competitors with the SEC or otherwise publicly available. We caution readers not to place undue reliance on any such forward-looking statements
+Goldenwell Biotech
+ Inc. was incorporated on August 20
+ 2019. Our fiscal year end is December 31
+ and we have no subsidiaries. Our business offices are currently located at 2071 Midway Drive
+ Twinsburg
+The tables and information below are derived from our audited financial statements as of December 31
+December 31
+248
+248
+248
+Effective July 20
+ 2020
+ the Company entered into an Exclusive License Agreement with Australian Trefoil Health Technologies Pty Ltd (the &#8220;Australian Trefoil License Agreement&#8221;)
+ pursuant to which the Company has licensed from Australian Trefoil the technology and packaging designs underlying the Sugar Master and DNA Repair products
+ and other products of the Company. The term of the Australian Trefoil License Agreement is for the term of the underlying patent and covers all territories in the world
+ except China
+ and the term expires on November 15
+ 2025. The Company paid consideration of $10.00 for entering into the Australian Trefoil License Agreement. Australian Trefoil Health Technologies Pty Ltd is controlled by Li Yang
+Additionally
+ effective July 20
+ 2020 the Company has entered into an Exclusive License Agreement
+ dated July 20
+ 2020
+ with Ji Lin JZY Biotech Inc. (the &#8220;JZY Biotech License Agreement&#8221;)
+ pursuant to which the Company has licensed from JZY BioTech the technology the Company uses in its products. The term of the JZY BioTech License Agreement is for the term of the underlying patent and covers all territories in the world
+ except China
+ and the term expires on January 11
+ 2025. The Company paid consideration of $10.00 for entering into the JZY Biotech License Agreement. Ji Lin JZY Biotech Inc. is controlled by Shang Liu
+We have concluded our initial marketing analysis
+We have concluded our research and development
+ including making a raw materials selection
+ making products formulations
+ concluding lab testing
+We have concluded the parts of production
+ including the production process
+ producing technology optimization
+Material hurdles remain until we can sell the products commercially. First
+ we must construct manufacturing facilities
+ which includes locating a site
+ installing a workshop and setting up equipment. No special equipment needs to be engineered or produced. All needed equipment is presently available from existing manufacturers. Second
+ our workforce will need to be trained
+ however
+The vascular endothelial cells exist vascular wall of bovine have a complex enzyme system
+ which can synthesize and secrete a variety of bioactive substances
+ as well as tissue fibrinogen and prostacyclin
+ endothelin (which has a strong vasoconstrictive effect
+ also known as endothelium contraction factor)
+Bovine cardiac vascular active peptide is a protein peptide of vascular homology (amino acid type and its sequence) which made from healthy and fresh bovine cardiac vascular tissues as raw materials. It is made in a closed environment at low temperature using medical freeze-dried equipment and is processed through biological enzymolysis
+ enzyme digestion
+ separation
+ purification
+ ultrafiltration and other extraction process to structural polypeptide in a freeze-dried powder form. The molecular weight of the product is optimized via bioengineering for easy absorption by humans. There is no pigment
+ preservatives and other artificial additives in the product
+Biocompatibility (amino acid sequence and structure convergence of peptides) refers to the good matching degree between basic protein peptides and host cells and tissues. Whether it is the skeleton of new tissue before being absorbed
+ or it is absorbed and assimilated into the host to become a part of the host
+ it has good compatibility with the matrix of similar tissue
+There is a substance in human body called cathepsin K
+ which is slowly degrading collagen content of tissue while ageing. It will result that active collagen is gradually reduced and lost. The appearance of the body is the loss of elasticity
+Sea cucumber
+ deer tendon
+ eel
+ fish maw
+ donkey skin all have significant common characteristics &#8211; gelatinous consistencies
+ which contains higher proline
+ hydroxyproline
+ arginine and glycine. In mammals
+80% of the human skin made by collagen; the molecular weight of collagen in glial food is 300000 daltons. The molecular size of the gliadin food is too large
+ it is very difficult for human digestive enzymes to decompose it
+By using healthy and fresh bovine or ox tendon as raw materials
+ our DPAG product is made in a closed environment at low temperature using medical freeze-dried equipment and was processed through biological enzymolysis
+ enzyme digestion
+ separation
+ purification
+ ultrafiltration and other extraction process to structural polypeptide in a freeze-dried powder form. The molecular weight of the product is 1920da and is optimized via the bioengineering technical for easy absorption by humans. There is no pigment
+In recent years
+ there are many collagen (peptide) products on the market
+Type II collagen peptide is prepared from Bovine or Pig Cartilage bones by hot water extraction
+ and then it is enzymolyzed by neutral protease
+ protamex
+ acidic protease and pepsin
+ through purification
+L-Se-Methylselenocysteine (MSC) is a naturally occurring organoselenium compound found in many plants
+ including garlic
+ onions
+ and broccoli
+Individuals exposed to excessive pollution
+ such as atmospheric
+ food
+Our Sugar Master product is made utilizing low temperature extraction techniques to maximize the harvest of bio-actives of plant matter
+Natural herbal polypeptides
+Two major components of bitter melon
+ namely charantin and momordicoside
+We expect that we will compete for members with traditional
+ offline consumer resources
+ and with online providers of consumer ratings
+ reviews and referrals on the basis of a number of factors
+ including breadth of our service provider listings
+ reliability of our content
+ breadth
+We rely on a combination of trademark laws
+ trade secrets
+ confidentiality provisions and other contractual provisions to protect our proprietary rights
+ which are primarily our brand names
+Pursuant to a Cooperation Agreement
+ dated February 1
+ 2016
+ by and between Gagfare Limited
+ a Hong Kong corporation and wholly owned subsidiary of the Company
+ and JJ Explorer Tours Limited
+ a Hong Kong corporation (&#8220;JJ Explorer&#8221;)
+ controlled by Shuang Liu
+As of the date hereof
+ we have 3 non-employee officers
+Our executive offices are located at 2071 Midway Drive
+ Twinsburg
+ Ohio 44087
+ and our telephone number is (440) 666-7999. We are party to a Lease Agreement
+ dated January 8
+ 2021
+ pursuant to which we rent office and warehouse facilities at 2071 Midway Drive Twinsburg
+ Ohio 44087. We pay $1
+949 per month for rent
+We have never been subject to bankruptcy
+As a &#8220;smaller reporting company
+&#8221; as defined in Rule 12b-2 of the Exchange Act
+We currently do not own any physical property or real property. Our executive offices are located at 2071 Midway Drive
+ Twinsburg
+There are no pending legal proceedings to which the Company is a party or in which any director
+ officer or affiliate of the Company
+ any owner of record or beneficially of more than 5% of any class of voting securities of the Company
+ITEM 5. MARKET FOR REGISTRANT&#8217;S COMMON EQUITY
+To qualify for quotation on the OTC Markets
+ an equity security must have one registered broker-dealer
+ known as the market maker
+ willing to list bid or sale quotations and to sponsor the company listing. We do not yet have an agreement with a registered broker-dealer
+ as the market maker
+ willing to list bid or sale quotations and to sponsor the Company listing. If the Company meets the qualifications for trading securities on the OTC Markets our securities will trade on the OTC Markets until a future time
+ if at all
+As of June 19
+ 2021
+ there were 96
+000
+We have not declared any dividends and we do not plan to declare any dividends in the foreseeable future. There are no restrictions in our Articles of Incorporation or Bylaws that prevent us from declaring dividends. The Nevada Revised Statutes
+ however
+ prohibit us from declaring dividends where
+our total assets would be less than the sum of our total liabilities plus the amount that would be needed to satisfy the rights of stockholders who have preferential rights superior to those receiving the distribution
+There are no unreported sales of equity securities at December 31
+The SEC has adopted regulations that generally define &#8220;penny stock&#8221; to be an equity security that has a market price of less than $5.00 per share. Our Common Stock
+ when and if a trading market develops
+ may fall within the definition of penny stock and be subject to rules that impose additional sales practice requirements on broker-dealers who sell such securities to persons other than established customers and accredited investors (generally those with assets in excess of $1.00 million
+ or annual incomes exceeding $200
+000 individually
+ or $300
+000
+For transactions covered by these rules
+ the broker-dealer must make a special suitability determination for the purchase of such securities and have received the purchaser&#8217;s prior written consent to the transaction. Additionally
+ for any transaction
+ other than exempt transactions
+ involving a penny stock
+ the rules require the delivery
+ prior to the transaction
+ of a risk disclosure document mandated by the SEC relating to the penny stock market. The broker-dealer also must disclose the commissions payable to both the broker-dealer and the registered representative
+ current quotations for the securities and
+ if the broker-dealer is the sole market-maker
+ the broker-dealer must disclose this fact and the broker-dealer&#8217;s presumed control over the market. Finally
+ monthly statements must be sent disclosing recent price information for the penny stock held in the account and information on the limited market in penny stocks. Consequently
+We did not purchase any of our shares of common stock or other securities during the year ended December 31
+As a &#8220;smaller reporting company
+&#8221; as defined in Rule 12b-2 of the Exchange Act
+The Company was incorporated in the State of Nevada on July 1
+ 1999
+To date the Company has little operations or revenues and consequently has incurred recurring losses from operations. No revenues are anticipated until we complete the financing we endeavor to obtain
+ as described in this Form 10-K
+ and implement our initial business plan. The ability of the Company to continue as a going concern is dependent on raising capital to fund our business plan and ultimately to attain profitable operations. Accordingly
+Our activities have been financed from the proceeds of share subscriptions. On August 20
+ 2019 the Company sold 41
+000
+000 shares of common stock to its founders for a subscription amount of $41
+000. On August 20
+ 2019
+ the Company sold 39
+000
+000 shares of common stock for a subscription amount of $215
+We are an early stage corporation and have not generated any revenues from our nutraceutical and dietary supplements business during the twelve months ended December 31
+Our plan of operation for the 12 months following the offering the subject of this prospectus is to locate a suitable location in the United States in which to construct production facilities for our products
+The Company believes it can satisfy its cash requirements through the fiscal year end of December 31
+ 2021
+ from its cash of $248
+569. As of December 31
+ 2020
+ we had a working capital balance of $248
+Comparison of the Years ended December 31
+As of December 31
+ 2020
+ we suffered from a working capital balance of $248
+569. As a result
+The following table sets forth certain operational data for the years ended December 31
+Years Ended December 31
+6
+2
+(6
+(2
+(6
+(2
+. We did not generate any revenues for the years ended December 31
+. We did not have any cost of revenue for the years ended December 31
+. We did not have a gross profit for the years ended December 31
+. We incurred general and administrative expenses of $6
+398 and $2
+601 for the years ended December 31
+ 2020 and 2019
+. Our income tax expenses for the years ended December 31
+. During the year ended December 31
+ 2020
+ we incurred a net loss of $6
+324
+ as compared to $2
+311 for the same period ended December 31
+As of December 31
+ 2020
+ we had cash and cash equivalents of $248
+569
+ accounts receivable of $0
+ and deposits
+Years Ended December 31
+(6
+(2
+8
+248
+For the year ended December 31
+ 2020
+ net cash used in operating activities was $6
+324
+For the year ended December 31
+ 2019
+ net cash used in operating activities was $2
+311
+We expect to continue to rely on cash generated through financing from our existing shareholders and private placements of our securities
+ however
+For the year ended December 31
+ 2020
+For the year ended December 31
+ 2019
+For the year ended December 31
+ 2020
+ net cash provided by financing activities was $8
+For the year ended December 31
+ 2019
+ net cash provided by financing activities was $248
+904
+We have not entered into any financial guarantees or other commitments to guarantee the payment obligations of any third parties. In addition
+ we have not entered into any derivative contracts that are indexed to our own shares and classified as shareholders&#8217; equity
+ or that are not reflected in our financial statements. Furthermore
+ we do not have any retained or contingent interest in assets transferred to an unconsolidated entity that serves as credit
+ liquidity or market risk support to such entity. Moreover
+ we do not have any variable interest in an unconsolidated entity that provides financing
+ liquidity
+ market risk or credit support to us or engages in leasing
+We continue to evaluate the impact of the COVID-19 pandemic on the industry and our Company and have concluded that while it is reasonably possible that the virus could have a negative effect on our financial position and results of our operations
+The discussion and analysis of our financial condition and results of operations are based on our condensed consolidated financial statements
+ which have been prepared in accordance with accounting principles generally accepted in the United States (&#8220;US GAAP&#8221;). The preparation of these condensed consolidated financial statements requires us to make estimates and judgments that affect the reported amounts of assets
+ liabilities
+ revenues and expenses
+ and related disclosure of contingent assets and liabilities. On an ongoing basis
+ we evaluate our estimates based on historical experience and on various other assumptions that are believed to be reasonable under the circumstances
+The Company computes net income (loss) per share in accordance with ASC 260
+ ASC 260 specifies the computation
+Due to the limited level of operations
+Income taxes are provided in accordance with ASC 740
+Deferred tax assets are reduced by a valuation allowance when
+ in the opinion of management
+The carrying amount of cash and current liabilities approximates fair value due to the short maturity of these instruments. These fair value estimates are subjective in nature and involve uncertainties and matters of significant judgment and therefore cannot be determined with precision. Unless otherwise noted
+ it is management&#8217;s opinion the Company is not exposed to significant interest
+As a start-up company
+ the costs associated with start-up activities are expensed as incurred. Accordingly
+Property and equipment are stated at cost. Major repairs and betterments are capitalized and normal maintenance and repairs are charged to expense as incurred. Depreciation is computed by the straight-line method over the estimated useful lives of the related assets. Upon retirement or sale of an asset
+As a &#8220;smaller reporting company
+&#8221; as defined in Rule 12b-2 of the Exchange Act
+Goldenwell Biotech
+Report of Independent Registered Public Accounting Firm &#8211; Michael Gillespie &amp; Associates
+Balance Sheet as of December 31
+Statement of Operations for the years ended December 31
+Statement of Cash Flows for the years ended December 31
+Statements of Shareholders&#8217; Equity for the years ended December 31
+MICHAEL GILLESPIE &amp; ASSOCIATES
+SEATTLE
+Goldenwell Biotech
+We have audited the accompanying balance sheets of Goldenwell Biotech
+ Inc. as of December 31
+ 2020 and 2019 and the related statements of operations
+ changes in stockholders&#8217; deficit
+ cash flows
+ and the related notes (collectively referred to as &#8220;financial statements&#8221;) for the year ended December 31
+ 2020 and from the period from August 20
+ 2019 (inception) through December 31
+ 2019. In our opinion
+ the financial statements present fairly
+ in all material respects
+ the financial position of the Company as of December 31
+ 2020 and 2019 and the results of its operations and its cash flows for the year ended December 31
+ 2020 and for the period from August 23
+ 2019 (inception) through December 31
+The critical audit matters communicated below are matters arising from the current period audit of the financial statements that were communicated or required to be communicated to the audit committee and that: (1) relate to accounts or disclosures that are material to the financial statements and (2) involved our especially challenging
+ subjective
+ or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the financial statements
+ taken as a whole
+ and we are not
+ by communicating the critical audit matters below
+As described further in Note #3 to the financial statements
+ the Company has incurred losses each year from inception through December 31
+Our audit procedures related to the Company&#8217;s assertion on its ability to continue as a going concern included the following
+&#8226; We reviewed the Company&#8217;s working capital and liquidity ratios and forecasted revenue
+ operating expenses
+ and uses and sources of cash used in management&#8217;s assessment of whether the Company has sufficient liquidity to fund operations for at least one year from the financial statement issuance date. This testing included inquiries with management
+ comparison of prior period forecasts to actual results
+ consideration of positive and negative evidence impacting management&#8217;s forecasts
+ the Company&#8217;s financing arrangements in place as of the report date
+The accompanying financial statements have been prepared assuming the Company will continue as a going concern. As discussed in Note #3 to the financial statements
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement
+ whether due to error or fraud. The Company is not required to have
+ nor were we engaged to perform
+ an audit of its internal control over financial reporting. As part of our audit
+ we are required to obtain an understanding of internal control over financial reporting
+ but not for the purpose of expressing an opinion on the effectiveness of the Company&#8217;s internal control over financial reporting. Accordingly
+Our audits included performing procedures to assess the risks of material misstatement of the financial statements
+ whether due to error or fraud
+ and performing procedures that respond to those risks. Such procedures included examining
+ on a test basis
+ evidence regarding the amounts and disclosures in the financial statements. Our audit also included evaluating the accounting principles used and significant estimates made by management
+/S/ MICHAEL GILLESPIE &amp; ASSOCIATES
+Seattle
+June 2
+DECEMBER 31
+DECEMBER 31
+248
+246
+Intangible assets
+248
+246
+Common stock
+ $0.0001 par value
+ 300
+000
+000 shares authorized
+80
+000
+000 issued and outstanding at December 31
+9
+8
+91
+500
+000 issued and outstanding at December 31
+326
+248
+(78
+(7
+(8
+(2
+248
+246
+248
+246
+6
+2
+6
+2
+(6
+(2
+(6
+(2
+80
+958
+76
+190
+(6
+(2
+(6
+(2
+8
+248
+8
+248
+1
+246
+246
+248
+246
+Balance at August 20
+41
+000
+4
+36
+(7
+33
+39
+000
+3
+211
+215
+(2
+(2
+Balance -December 31
+80
+000
+8
+248
+(7
+(2
+246
+8
+4
+000
+3
+(4
+7
+500
+74
+(75
+(6
+(6
+Balance -December 31
+91
+500
+9
+326
+(78
+(8
+248
+December 31
+GOLDENWELL BIOTECH INC. (the &#8220;Company&#8221;) was incorporated in the State of Nevada on August 20
+ 2019. The Company is in the development stage whose purpose is R&amp;D
+&#8221; The Company is devoting substantially all of its efforts to the development of its business plans. The Company has elected to adopt early application of Accounting Standards Update No. 2014-10
+In accordance with ASC 720
+ &#8220;
+Cash includes cash in banks
+ money market funds
+ and certificates of term deposits with maturities of less than three months from inception
+ which are readily convertible to known amounts of cash and which
+ in the opinion of management
+The Company accounts for income taxes using the asset and liability method in accordance with ASC 740
+ &#8220;Accounting for Income Taxes&#8221;. The asset and liability method provides that deferred tax assets and liabilities are recognized for the expected future tax consequences of temporary differences between the financial reporting and tax bases of assets and liabilities and for operating loss and tax credit carry forwards. Deferred tax assets and liabilities are measured using the currently enacted tax rates and laws that will be in effect when the differences are expected to reverse. The Company records a valuation allowance to reduce deferred tax assets to the amount that is believed more likely than not to be realized. As of December 31
+ 2020
+December 31
+The Company adopted the provisions of ASC Topic 820
+ &#8220;Fair Value Measurements and Disclosures&#8221;
+ which&nbsp;defines fair value as used in numerous accounting pronouncements
+The estimated fair value of certain financial instruments
+ including cash and cash equivalents are carried at historical cost basis
+ASC 820 defines fair value as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy
+The accompanying financial statements have been prepared on a going concern basis
+ which contemplates the realization of assets and the satisfaction of liabilities in the normal course of business. &nbsp;The Company has not generated any revenues since inception and sustained an accumulated net loss of $6
+324 for the year ended on December 31
+ 2020. These factors
+ among others
+ raise substantial doubt about the ability of the Company to continue as a going concern for a reasonable period of time.&nbsp;&nbsp;The Company&#8217;s continuation as a going concern is dependent upon
+ among other things
+The reconciliation of income tax benefit at the U.S. statutory rate of 21% for the year ended December 31
+(1
+1
+December 31
+The tax effects of temporary differences that give rise to the Company&#8217;s net deferred tax assets as of December 31
+1
+(1
+The Company has approximately $8
+635 of net operating losses (&#8220;NOL&#8221;) carried forward to offset taxable income
+ if any
+ in future years which expire commencing in fiscal 2037. In assessing the realization of deferred tax assets
+ management considers whether it is more likely than not that some portion or all of the deferred tax assets will be realized. The ultimate realization of deferred tax assets is dependent upon the generation of future taxable income during the periods in which those temporary differences become deductible. Management considers the scheduled reversal of deferred tax liabilities
+ projected future taxable income and tax planning strategies in making this assessment. Based on the assessment
+The Company has authorized 300
+000
+000 common shares with a par value of $0.0001 per share.&nbsp; Each common share entitles the holder to one vote
+ in person or proxy
+On August 20
+ 2019 the Company issued 41
+000
+000 shares of common stock to its founders for a subscription amount of $41
+000. As of December 31
+ 2019
+ the subscription amount of $41
+On August 20
+ 2019
+ the Company issued 39
+000
+000 shares of common stock for a subscription amount of $209
+204. As of December 31
+ 2019
+ $207
+904 of the subscription has been paid with the remaining $7
+600 of the subscription has not yet been paid
+On December 1
+ 2020
+ the Company issued 11
+500
+000 shares of common stock for a subscription amount of $79
+000. As of December 31
+ 2020
+ $1
+000 of the subscription has been paid with the remaining $78
+000 of the subscription has not yet been paid
+Management has evaluated subsequent events through the date these financial statements were available to be issued. On January 11th
+ 2021
+ the company issued 2
+400
+000 shares common stock
+ and the subscription amount of $11
+400 has been paid. The company also issued 500
+000 shares common stock as non-cash bonus. On February
+ 22
+ 2021
+ the company issued 1
+600
+000 shares of common stock
+ and the subscription amount of $80
+The Company signed a three-year lease with M&amp;M Highland Road Properties to rent the office space
+ starting from January 15
+On March 25
+ 2021
+ the Company purchased inventory of $103
+125 from Australian Trefoil Heath Technology
+ which is owned by Li
+ Yang
+ the Treasurer of the Company. The treasurer also owns 1
+000
+Based on managements&#8217; evaluation
+Our management
+ with the participation and supervision of our President
+ who acts as our principal executive officer
+ and our Secretary
+ who acts as our principal financial officer
+ is responsible for our disclosure controls and procedures pursuant to Rules 13a-15(e) and 15d-15(e) under the Exchange Act. Disclosure controls and procedures are controls and other procedures that are designed to ensure that information required to be disclosed in our reports filed or submitted under the Exchange Act is recorded
+ processed
+ summarized and reported
+ within the time periods specified under SEC rules and forms. Disclosure controls and procedures include controls and procedures designed to ensure that information required to be disclosed in our reports filed under the Exchange Act is accumulated and communicated to our principal executive officer and our principal financial officer
+ as appropriate
+Our management
+ including our President and our Secretary
+ carried out an evaluation of the effectiveness of our disclosure controls and procedures as of December 31
+ 2020. Based on this evaluation
+ our management concluded that as of December 31
+ 2020 these disclosure controls and procedures were not effective at the reasonable assurance level. As discussed below
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act). Internal control over financial reporting is a process
+ including policies and procedures
+Our President
+ who acts as both our principal executive officer and principal financial officer
+Based on the results of this assessment
+ our management
+ including our President and our Secretary
+ concluded that our internal control over financial reporting was not effective as of December 31
+ 2020
+ based on such criteria. Deficiencies existed in the design or operation of our internal controls over financial reporting that adversely affected our internal controls and that may be considered to be material weaknesses. The matters involving internal controls and procedures that our management considered to be material weaknesses under the standards of the Public Company Accounting Oversight Board were: (i) lack of a majority of independent members and a lack of a majority of outside directors on our Board
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures; and (ii) inadequate segregation of duties consistent with control objectives. Management believes that the lack of a majority of outside directors on our Board results in ineffective oversight in the establishment and monitoring of required internal controls and procedures
+In connection with our continued monitoring and maintenance of our controls procedures as part of the implementation of Section 404 of the Sarbanes-Oxley Act
+ we continue to review
+ test
+ and improve the effectiveness of our internal controls. There have not been any changes in our internal control over financial reporting (as such term is defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) during the fourth quarter and since the year ended December 31
+ 2020 that have materially affected
+ or are reasonably likely to materially affect
+The effectiveness of any system of internal control over financial reporting is subject to inherent limitations
+ including the exercise of judgment in designing
+ implementing
+ operating
+ and evaluating the controls and procedures
+ and the inability to eliminate misconduct completely. Accordingly
+ any system of internal control over financial reporting can only provide reasonable
+ not absolute
+ assurances. In addition
+ projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions
+ITEM 10. DIRECTORS
+The following table sets forth the names and ages of our current directors and executive officers
+ the principal offices and positions held by each person
+President
+ Chief Executive Officer
+Secretary
+Treasurer
+President and Chief Executive Officer
+Shuang Liu has served as our President and Chief Executive Officer
+ and a director
+ since August 20
+ 2019. Mr. Liu is our principal accounting officer and principal financial officer. Since December 2012
+ Mr. Shuang has been the Chairman of the Board of Jilin Jinziyuan Biotech Co.
+ Ltd.
+ a nutraceutical and dietary supplements company
+ located in China. Between 2013 and 2015
+ Mr. Shuang attended Jilin University
+ in China
+ where he majored in economic law. Mr. Liu&#8217;s entrepreneurial desire evidenced by his ideas which led to the establishment of our business
+ and his experience in developing the products we market and sell
+Hua Xie has served as our Secretary and a director since August 20
+ 2019. Ms. Hua is a co-founder and has served as Chief Operating Officer of MegaGrow Electronics Inc
+ a grow light products company located in Hudson
+ Ohio. From 2014 until 2018
+ Ms. Hua owned and operated Zx International LLC
+ located in Ohio
+ which exported aluminum and other scrap to China. From 2006 until 2014
+ Ms. Hua was a Senior Financial Reporting Analyst Dealer Tire LLC
+ in Cleveland
+ Ohio
+ where she performed analysis and generated monthly management reports on margin
+ expenses
+ balance sheets
+ key indicators
+ gross profit trends that were distributed to CFO
+ partners and directors of the company. From 2000 until 2006
+ Ms. Hua was a compliance analyst in the Retirement Plan Services division at Charles Schwab Corp.
+ in Richfield
+ Ohio.
+ where she
+ among other things
+ completed and reviewed Schwab plan compliance testing and reporting for qualified plans
+ which included ADP/ACP discrimination testing
+ coverage testing
+ and top heavy testing. Ms. Hua holds a B.S. in Accounting from the University of Maryland
+ in College Park
+ Maryland
+ and holds a M.S. in Software Engineering from the University of Akron
+ in Akron
+Li Yang has served as our Treasurer and a director since August 20
+ 2019. Since 2017
+ Mr. Yang has served as Chief Executive Officer of Australian Trefoil Health and Technologies Pty. Ltd.
+ a company located in Australia. From 2011 until 2015
+ Mr. Yang was the Research Co-ordinator of the Mental Health and Drug Alcohol Service
+ Northern Sydney Local Health District
+ Australia. From 2007 until 2010
+ Mr. Yang was a Product Development Manager of Henan Sino-American Biotechnology Company
+ located in China
+ where he performed marketing research and analysis for biotechnology products
+ product promotional planning and sales forecasting
+ and participated in establishing marketing strategies and sale networks. From 2004 until 2006
+ Mr. Yang was a Lecturer of Biotechnology Zhengzhou Pasturage Engineering College
+ located in Henan Province
+ China. From 2001 to 2004
+ Mr. Yang was a Research Officer of Northcote Neuroscience Laboratory
+ at ANZAC Research Institute
+ Concord Hospital Sydney
+ Australia. From 1998 until 2000
+ Mr. Yang was a Research and Development Officer at Australian Genetics and Chemical Technological Pty. Ltd.. in Australia. In January 1996
+ Mr. Yang obtained his Master degree of Biotechnology in University of NSW
+ in Sydney
+ Australia. In July 1992
+ Mr Yang obtained his Bachelor of Medicine degree at the Xi&#8217;an Medical University
+ in Xi&#8217;an
+We believe that our directors should have the highest professional and personal ethics and values
+ consistent with our values and standards. They should have broad experience at the policy-making level in business or banking. They should be committed to enhancing stockholder value and should have sufficient time to carry out their duties and to provide insight and practical wisdom based on experience. Their service on other boards of public companies should be limited to a number that permits them
+ given their individual circumstances
+ to perform responsibly all director duties for us. Each director must represent the interests of all stockholders. When considering potential director candidates
+ the Board also considers the candidate&#8217;s character
+ judgment
+ diversity
+ age and skills
+Our board of directors is currently composed of three members
+ none of whom qualifies as an independent director in accordance with the published listing requirements of the NASDAQ Global Market. The NASDAQ independence definition includes a series of objective tests
+ such as that the director is not
+ and has not been for at least three years
+ one of our employees and that neither the director
+ nor any of his family members has engaged in various types of business dealings with us. In addition
+ our board of directors has not made a subjective determination as to each director that no relationships exist which
+ in the opinion of our board of directors
+ would interfere with the exercise of independent judgment in carrying out the responsibilities of a director
+ though such subjective determination is required by the NASDAQ rules. Had our board of directors made these determinations
+To our knowledge
+Being subject to any order
+ judgment
+ or decree
+ not subsequently reversed
+ suspended or vacated
+ of any court of competent jurisdiction
+ permanently or temporarily enjoining him from or otherwise limiting his involvement in any type of business
+Being found by a court of competent jurisdiction in a civil action
+ the SEC or the Commodity Futures Trading Commission to have violated a Federal or state securities or commodities law
+ and the judgment has not been reversed
+ suspended
+Being subject of
+ or a party to
+ any Federal or state judicial or administrative order
+ judgment decree
+ or finding
+ not subsequently reversed
+ suspended or vacated
+ relating to an alleged violation of any Federal or state securities or commodities law or regulation
+ any law or regulation respecting financial institutions or insurance companies
+Being subject of or party to any sanction or order
+ not subsequently reversed
+ suspended
+ or vacated
+ of any self-regulatory organization
+ any registered entity or any equivalent exchange
+ association
+As of December 31
+ 2020
+Since we do not have an audit
+ compensation or governance and nominating committee comprised of independent directors
+ the functions that would have been performed by such committees are performed by our directors. The Board of Directors has not established an audit committee and does not have an audit committee financial expert
+ nor has the Board of Directors established a nominating committee. The Board is of the opinion that such committees are not necessary since the Company is an early stage company and has only one director
+ and to date
+ such director has been performing the functions of such committees. Thus
+ there is a potential conflict of interest in that our sole director and officer has the authority to determine issues concerning management compensation
+ nominations
+There are no family relationships among our directors or officers. Other than as described above
+We have not implemented a formal policy or procedure by which our stockholders can communicate directly with our Board of Directors. Nevertheless
+ every effort has been made to ensure that the views of stockholders are heard by the Board of Directors or individual directors
+ as applicable
+ and that appropriate responses are provided to stockholders in a timely manner. We believe that we are responsive to stockholder communications
+ and therefore have not considered it necessary to adopt a formal process for stockholder communications with our Board. During the upcoming year
+The Company has not adopted a code of ethics that applies to its principal executive officers
+ principal financial officer
+ principal accounting officer or controller
+We have no indemnification agreements with our officers
+The following tables set forth certain information about compensation paid
+ earned or accrued for services by our President and all other executive officers (collectively
+ the &#8220;Named Executive Officers&#8221;) in the fiscal years ended December 31
+The table below summarizes all compensation awarded to
+ earned by
+(1) Appointed President and Chief Executive Officer
+ and served as director since August 20
+(2) Appointed Secretary and director on August 20
+(3) Appointed Treasurer and director on August 20
+Employment Contracts
+ Termination of Employment
+The Company has no employment agreements with its officers or any significant employee and did not enter into any employment contracts
+ termination of employment
+ or change-in-control arrangements during the year ended December 31
+There were no stock options exercised by the named executive officers as of the end of the fiscal period ended December 31
+There were no awards made to a named executive officer
+ under any long-term incentive plan
+ as of the end of the fiscal period ended December 31
+The following table sets forth stock option grants and compensation or the fiscal year ended December 31
+Equity Incentive Plan Awards: Number of Unearned Shares
+Equity Incentive Plan Awards: Market or Payout Value of Unearned Shares
+(1) Appointed President and Chief Executive Officer
+ and served as director since August 20
+(2) Appointed Secretary and director on August 20
+(3) Appointed Treasurer and director on August 20
+The following table sets forth director compensation or the fiscal year ended December 31
+(1) Appointed President and Chief Executive Officer
+ and served as director since August 20
+(2) Appointed Secretary and director on August 20
+(3) Appointed Treasurer and director on August 20
+Leung Tin Leung David receives no compensation solely in his capacity as a director of the Company. All travel and lodging expenses associated with corporate matters are reimbursed by us
+The following table lists
+ as of June 19
+ 2021
+ the number of shares of common stock of our Company that are beneficially owned by (i) each person or entity known to our Company to be the beneficial owner of more than 5% of the outstanding common stock; (ii) each officer and director of our Company; and (iii) all officers and directors as a group. Information relating to beneficial ownership of common stock by our principal shareholders and management is based upon information furnished by each person using &#8220;beneficial ownership&#8221; concepts under the rules of the Securities and Exchange Commission. Under these rules
+ a person is deemed to be a beneficial owner of a security if that person has or shares voting power
+ which includes the power to vote or direct the voting of the security
+ or investment power
+ which includes the power to vote or direct the voting of the security. The person is also deemed to be a beneficial owner of any security of which that person has a right to acquire beneficial ownership within 60 days. Under the Securities and Exchange Commission rules
+ more than one person may be deemed to be a beneficial owner of the same securities
+ and a person may be deemed to be a beneficial owner of securities as to which he or she may not have any pecuniary beneficial interest. Except as noted below
+The percentages below are calculated based on 96
+000
+000 shares of our common stock issued and outstanding as June 19
+ 2021. We do not have any outstanding warrant
+41
+000
+2
+000
+10
+000
+7
+000
+60
+000
+Calculated based on 96
+000
+000 shares of common stock issued and outstanding on March 19
+Unless otherwise specified
+ the address of each of the persons set forth below is in care of the Company
+ at the address of: Room 1303
+ 13/F
+ Technology Plaza
+ Twinsburg
+ Ohio 44087
+ North Point
+Appointed President
+ Secretary
+ Treasurer and a director on May 27
+ITEM 13. CERTAIN RELATIONSHIPS
+Effective July 20
+ 2020
+ the Company entered into an Exclusive License Agreement with Australian Trefoil Health Technologies Pty Ltd (the &#8220;Australian Trefoil License Agreement&#8221;)
+ pursuant to which the Company has licensed from Australian Trefoil the technology and packaging designs underlying the Sugar Master and DNA Repair products
+ and other products of the Company. The term of the Australian Trefoil License Agreement is for the term of the underlying patent and covers all territories in the world
+ except China
+ and the term expires on November 15
+ 2025. The Company paid consideration of $10.00 for entering into the Australian Trefoil License Agreement. Australian Trefoil Health Technologies Pty Ltd is controlled by Li Yang
+Effective July 20
+ 2020 the Company has entered into an Exclusive License Agreement
+ dated July 20
+ 2020
+ with Ji Lin JZY Biotech Inc. (the &#8220;JZY Biotech License Agreement&#8221;)
+ pursuant to which the Company has licensed from JZY BioTech the technology the Company uses in its products. The term of the JZY BioTech License Agreement is for the term of the underlying patent and covers all territories in the world
+ except China
+ and the term expires on January 11
+ 2025. The Company paid consideration of $10.00 for entering into the JZY Biotech License Agreement. Ji Lin JZY Biotech Inc. is controlled by Shang Liu
+On December 1
+ 2020
+ we offered and sold 1
+000
+000 shares of common stock to Hua Xie
+ our Secretary
+ at a purchase price of $0.001 per share
+ for an aggregate purchase price of $1
+000. The offering of the 300
+000 shares was made pursuant to Rule 506 of Regulation D
+ promulgated pursuant to the Securities Act of 1933
+Our board of directors is currently composed of three members
+ none of whom qualifies as an independent director in accordance with the published listing requirements of the NASDAQ Global Market. The NASDAQ independence definition includes a series of objective tests
+ such as that the director is not
+ and has not been for at least three years
+ one of our employees and that neither the director
+ nor any of his family members has engaged in various types of business dealings with us. In addition
+ our board of directors has not made a subjective determination as to each director that no relationships exist which
+ in the opinion of our board of directors
+ would interfere with the exercise of independent judgment in carrying out the responsibilities of a director
+ though such subjective determination is required by the NASDAQ rules. Had our board of directors made these determinations
+Our board of directors has not separately designated and standing committees. Accordingly
+ the duties customarily performed by an audit committee
+ compensation committee
+For the year ended December 31
+ 2020 and 2019
+ the total fees charged to the company for audit services
+ including quarterly reviews were $4
+500 and $0
+ for audit-related services were $0 and $0 and for tax services and other services were $0 and $0
+(a) The following Exhibits
+ as required by Item 601 of Regulation SK
+ are attached or incorporated by reference
+Lease Agreement
+ dated January 8
+ 2021
+ by and between Highland Road Properties
+ an Ohio limited liability company
+ and Goldenwell BioTech
+ Inc.
+Incorporated by reference to Registration Statement on Form S-1 (File No. 333-236561)
+ filed with the Securities and Exchange Commission on February 21
+In accordance with Section 13 or 15(d) of the Securities Exchange Act
+ the registrant caused this report to be signed on its behalf by the undersigned
+GOLDENWELL BIOTECH
+Date: July 23
+Date: July 23
+KNOW ALL PERSONS BY THESE PRESENTS
+ that each person whose signature appears below constitutes and appoints Shuang Liu and Hua Xie
+ and each of them
+ as his true and lawful attorney-in-fact and agents with full power of substitution and resubstitution
+ for him and in his name
+ place and stead
+ in any and all capacities
+ to sign any or all amendments to this Annual Report on Form 10-K of Goldenwell
+ Biotech
+ Inc. for the fiscal year ended December 31
+ 2020
+ and to file the same
+ with all exhibits thereto
+ and other documents in connection therewith
+ with the Securities and Exchange Commission
+ grant unto said attorney-in-fact and agents
+ and each of them
+ full power and authority to do and perform each and every act and thing requisite and necessary to be done in and about the foregoing
+ as fully to all intents and purposes as he might or could do in person
+ hereby ratifying and confirming all that said attorney-in-fact and agents
+ or his substitutes
+Pursuant to the requirements of the Securities Exchange Act of 1934
+Date: July 23
+Chief Executive Officer
+ President
+Date: July 23
+Date: July 23
+ 2021 
+
+
+
+
+
+
+
+
+
+ an Ohio liability company
+ having its principal place of business at 556 East Highland Road
+ Macedonia
+ Ohio 44056 (&#8220;Lessor&#8221;) and 
+2071 Midway Drive Twinsburg
+The Lessor and Lessee
+ in consideration of the mutual covenants and promises contained in this Lease and other valuable consideration
+ the sufficiency and receipt of which are hereby acknowledged
+A. Lessor in consideration for rents and upon the covenants and agreements contained in this Lease
+2071 Midway Drive Twinsburg
+ Ohio 44087 
+
+B. Lessee warrants and represents and agrees that he has had an opportunity to inspect the Premises
+ and that Lessee is satisfied with the Premises for its specific use and agrees that it is accepting the Premises in its present condition
+ AS IS. Lessor makes no representations or warranties concerning the condition of the Premises or its suitability for Lessee&#8217;s use
+C. The lease of the Premises shall include the non&#8209;exclusive right to use the Common Areas
+ and is subject to the right of other Lessees and their respective employees
+ agents
+ customers and invitees. Common Areas mean the exterior and interior walls
+ foundation
+ and electrical systems serving the Premises
+Notwithstanding the foregoing
+ the Premises may not be used for any purpose which is in violation of any provision of this Lease
+ violation of any and all applicable federal
+ state or local laws
+ ordinances
+ regulations
+ rules or orders
+ or for the storage
+ manufacture
+ transportation
+ use
+ sale or generation of Hazardous Materials as defined in paragraph 2(I) of this Lease
+ or for the storage
+ manufacture
+ sale
+ transportation or generation of explosive or flammable materials or goods or any other use which may cause an increase in the premium for Lessor&#8217;s fire or public liability insurance policy(ies) or cause the loss of coverage or cause the Building
+B. Lessee will
+ at the sole cost and expense of the Lessee
+ keep the Premises at all times in good order
+C. Lessee must keep the Premises in a clean
+ sanitary and safe condition in accordance with federal
+ state and local laws
+ ordinances
+ rules
+ regulations
+ orders and governmental guidelines
+ and in accordance with all directions
+ rules
+ and regulations of the health officer
+ fire Marshall
+ building inspector
+D. Lessee shall comply with all requirements of federal
+ state and local laws
+ regulations
+ ordinances
+ orders
+ rules and governmental guidelines affecting the Premises
+ the operation thereof and the Building
+ all rules established by Lessor now existing or established from time to time by Lessor
+ and all easements
+E. Lessee will permit no waste or nuisance upon
+ or damage or injury to
+G. Lessee will not cause or permit either the Premises
+ Lessee or Lessor to be in noncompliance with the zoning ordinances
+H. Lessee shall not dispose of or flush solvents
+ paints
+ chemicals or other Hazardous Materials
+ as defined in paragraph 2(I) of this Lease
+ into any drains or the sewer system of the Building or on
+ under or about the Premises
+I. Lessee may not
+ during the term of this Lease
+ or while in possession of the Premises
+ use
+ generate or dispose of any Hazardous Materials or use the Premises
+ the Building or the Common Areas or any portion of the Building
+ Premises or Common Areas as a landfill or other waste disposal site. The use of the Premises by Lessee shall be in full compliance with all federal
+ state
+ local and environmental laws
+ ordinances
+ rules
+ orders
+ requirements
+ regulations
+ whether now existing or hereafter enacted or promulgated
+ and any judicial or administrative interpretations thereof
+ including any judicial or administrative orders
+ decrees
+ judgments or rules pertaining thereto. For purposes of this Lease
+ Hazardous Materials includes any toxic substances or pollutants or related material including
+ without limitation
+ any substances included in the definition of &#8220;hazardous substances
+&#8221; &#8220;hazardous waste
+&#8221; &#8220;pollutants
+&#8221; &#8220;infectious waste
+&#8221; or &#8220;toxic substances&#8221; under any federal
+ state or local law
+ ordinance
+ regulation
+ rule
+ order or requirement which includes
+ without limitation
+ the Comprehensive Environmental Response
+ Compensation and Liability Act (42 U.S.C. &#167;9601
+ et seq.) and any regulations promulgated pursuant thereto
+ Resource Conservation Recovery Act (42 U.S.C. &#167;6901
+ et seq.) and any regulations promulgated pursuant thereto
+ and the Clean Water Act (33 U.S.C. &#167; 1251
+ et seq.) and any regulations promulgated pursuant thereto; and Hazardous Materials shall also include asbestos
+ petroleum products
+ petroleum product derivatives and urea formaldehyde and any hazardous chemical as defined under the Occupational Safety and Health Administration Hazard Communication Standard (29 C.F.R. &#167;1910.100
+Lessor shall have the right to enter the Premises upon at least 24 hours&#8217; prior notice
+ except in the case of emergencies
+ in which case no prior notice is required. No notice is required to make any alterations or repairs to the Premises or the Building of which the Premises are a part
+ which Lessor deems necessary or appropriate for safety or preservation of the Premises
+(&#8220;Lease Term&#8221;)
+ commencing as of 
+ payable in consecutive monthly installments as set forth (&#8220;Monthly Rent&#8221;) in advance on or before the first day of each calendar month during the term of this Lease
+ without demand
+ notice
+ deduction
+ offset or counterclaim; provided
+ however
+ that if the Commencement Date is a day other than the first day of a calendar month or the Termination Date other than the last day of a calendar month
+B. If the Monthly Rent (as set forth in this Section 5(A) of this Lease) is not paid within five (5) days after such rent is due
+ it shall bear interest at a rate of eighteen percent (18%) per annum from the due date thereof until paid in full
+(&#8220;Security Deposit&#8221;) has been deposited by Lessee with the Lessor. If Lessee performs and observes all of the terms
+ conditions and covenants of this Lease which are required to be performed and observed by it Lessor shall return the Security Deposit or balance thereof held by Lessor without interest to Lessee within thirty (30) days after the Termination Date or after Lessee surrenders possession of the Premises
+ whichever is later. If Lessee defaults in the payment of Monthly Rent or the performance or observance of any of the other terms
+ conditions or covenants of this Lease the Lessor may
+ at its option and without notice
+ apply all or any part of the Security Deposit as payment of such Monthly Rent or to cure any other such default and if Lessor does so
+ Lessee must immediately
+ upon receipt of notice from Lessor
+A. Lessee shall pay all charges for all utilities and start up fees and deposits including
+ but not limited to electric
+ gas
+ telephone
+ water and sewer
+B. Except where caused by Lessor&#8217;s negligence
+ Lessor shall not be liable for any temporary or permanent interruption in or failure of the supply of such utilities to the Premises
+ however
+ any interruption or failure of utilities for more than seven (7) consecutive days shall entitle Lessee to rent abatement for the days on which service is interrupted
+A. Lessor will pay all real estate taxes and assessments levied on the Building
+B. Lessee will pay all personal property taxes and assessments
+Lessee may not assign this Lease or sublet the Premises or any part thereof
+ to another party without the express written approval of Lessor
+ which approval shall not be unreasonably withheld
+ if the proposed assignee or sublessee is of substantially similar credit worthiness and in the same type of business as Lessee is on the date of this Lease
+ and in a business which is satisfactory to Lessor. No subletting or assignment that is approved by Lessor
+A. Lessor reserves the right and Lessee hereby agrees that on request of Lessor or Lessor&#8217;s lender and any future lenders
+ Lessee shall deliver a waiver of priority or subordination in recordable form to any mortgages or deeds of trust which may hereafter be placed upon the Building or Premises from time to time and to any and all advances to be made there under
+ and to the interest there under
+ and to the interest thereof
+ and all renewals
+ replacements
+ extensions
+ refinancing and replacement thereof. Lessee must execute and return Lessor&#8217;s or Lessor&#8217;s lender&#8217;s form of subordination agreement to Lessor within ten (10) days after receipt of such agreement from Lessor or Lessor&#8217;s lender. Failure of Lessee to timely sign and return such agreement to Lessor or Lessor&#8217;s lender is a material breach under this Lease. Lessor agrees to use its reasonable efforts to cause its lender to agree
+ in connection with Lessee&#8217;s subordination
+B. Lessee agrees that in the event of a sale
+ transfer or assignment of Lessor&#8217;s interest in the Premises or Building or any part thereof
+ or in the event of any proceeding brought in foreclosure
+Lessee covenants and agrees that it is permitted to place on the outside or inside of the Building or elsewhere on the Premises signs as Lessor approves
+ provided all governmental approvals and permits have been obtained and that it does not violate any conditions or restrictions of record now or in the future and rules to which the Building is subject. The location of all signs is subject to Lessor&#8217;s prior written approval. Lessee further covenants and agrees that any permitted signs erected or maintained by Lessee shall comply with all restrictions and conditions of record now or in the future and rules to which the Building is subject and all applicable laws and ordinances of the governmental authority having jurisdiction. Lessee
+ at its/his expense
+ must obtain all permits required therefore. Within three (3) days after termination of this Lease for any reason whatsoever
+ Lessee must remove all signage from the Premises
+ at its/his expense
+ and must immediately repair
+ at its/his expense
+11. LESSEE&#8217;S POSSESSION
+Taking possession of the Premises by Lessee is conclusive evidence that the Premises was in good order and in satisfactory condition to Lessee when Lessee took possession. Lessor agrees that if Lessee promptly and faithfully performs all of the covenants and agreements herein to be performed by Lessee
+12. REPAIRS
+A. Lessor shall be responsible for all repairs and replacements to the Common Areas and the exterior of the Premises and Building
+ roof
+ foundation
+ and structural components of the Building
+ including but not limited to
+ fixtures
+ lighting
+B. Lessee shall be responsible for all non&#8209;structural repairs and replacements required to the Premises. All normal maintenance of the Premises shall be carried out by Lessee. Lessee shall make and pay for non&#8209;structural repairs and replacements to the Premises and shall repair and replace all things which are necessary to keep the Premises in good state of repair and operating order such as
+ but not limited to fixtures
+ furniture
+ lighting
+ signs
+ equipment and electrical
+ plumbing
+ heating and air conditioning fixtures and systems. Lessee shall also maintain
+ repair
+ replace and keep in good repair and operating order all inside walls
+ carpeting
+ floor
+ ceiling tiles
+ decoration and window glass located within or about the Premises. Lessee is not responsible for maintenance of the structural components and aspects of the Premises. Notwithstanding the foregoing
+C. Lessee may not make any alterations
+ changes or improvements to the Premises
+ interior or exterior
+ structural or non&#8209;structural
+ without first obtaining Lessor&#8217;s prior written consent. Lessee shall submit to Lessor plans and specifications prepared by a licensed architect or contractor showing all of the alterations
+ changes or improvements Lessee desires to make. Lessee shall revise (and re&#8209;revise if necessary) said plans and specifications in accordance with Lessor&#8217;s comments. In the event that Lessor shall approve Lessee&#8217;s request to make such alterations
+ changes or improvements
+ Lessee shall pay all costs and expenses thereof
+ and shall make such alterations
+ changes and improvements in good and workmanlike manner
+ in accordance with all federal
+ state and local laws
+ ordinances
+ regulations
+ orders
+ rules and guidelines and the requirements of the Board of Fire Underwriters and the Fire Marshall direction
+ rules and regulations of the building inspector
+ health officer and other government officials having jurisdiction thereof. Prior to making any such alterations
+ changes and improvements
+ Lessee shall procure all necessary permits and assure Lessor that payment for same will be made by Lessee. Lessee hereby completely and fully indemnifies Lessor against any and all mechanic&#8217;s or material men&#8217;s liens or other liens or claims in connection with any alterations
+ changes or improvements made by Lessee
+ and Lessee will
+ within ten (10) days after notice from Lessor
+On the last day of the Lease Term
+ or on the sooner termination of this Lease
+ Lessee must deliver and surrender to Lessor possession of the Premises upon the termination of this Lease broom clean and in as good condition and repair as the same shall be on the Commencement Date
+ ordinary wear and tear excepted
+ and deliver the keys at the office of Lessor or Lessor&#8217;s agent. On or before the last day of the term of this Lease or the sooner termination thereof
+ Lessee shall at its expense remove all of its trade fixtures
+ office furnishings
+ equipment
+ supplies and other personality
+ and any other property owned by Lessee and not removed shall be deemed abandoned. All improvements
+ alterations
+ additions
+ and fixtures
+ other than Lessee&#8217;s personal property shall remain as Lessor&#8217;s property and shall be surrendered at the end of the term or the sooner termination thereof. Lessee shall promptly upon surrender deliver all keys for the Premises and Building to Lessor. Lessor
+ at Lessor sole discretion after termination of this Lease by lapse of time or for any other reason whatsoever
+ may cause to have performed environmental assessments and investigations of the Premises and the Building
+ all at Lessee&#8217;s expense. Lessee shall immediately reimburse Lessor for all costs associated with environmental assessments and investigations. If it is determined that Lessee has stored
+ used or manufactured Hazardous Materials
+ as defined in paragraph 2(I) of this Lease
+ and if any such Hazardous Materials are found on or about the Premises or Building
+ then Lessee shall
+ at Lessee&#8217;s expense
+ immediately remove such hazardous Materials
+ remediate
+ cleanup and monitor such contamination in accordance with all applicable federal
+ state and local laws
+ ordinances
+ regulations
+ orders
+If the Premises (excluding Lessee&#8217;s personal property and fixtures and alterations
+ changes or improvements to the Premises whether structural or otherwise
+ constructed by) are damaged by fire or other casualty
+ Lessor shall
+ at Lessor&#8217;s own expense
+ because such damage to be repaired. If the Premises shall be rendered untenable
+ in whole or in part
+ a proportionate abatement of the Base Rent shall be allowed on a per diem basis from the date when damage occurred until any substantial completion of the repairs or rebuilding
+ or in the event Lessor terminates this Lease
+ then until the date of termination. If restoration cannot be completed within six (6) months after the occurrence of such damage or destruction
+ then Lessor may terminate this Lease upon thirty (30) days&#8217; notice after the casualty. Notwithstanding the foregoing
+ if (I) either the Premises or Building (taken in the aggregate) is damaged to the extent of more than fifty percent (50%) of the cost of replacement thereof
+ respectively
+ or (ii) the proceeds of Lessor&#8217;s insurance recovered as a result of the damage shall be insufficient to pay fully for the cost of replacement of the Premises and the Building in which they are located; or (iii) the Premises or the Building shall be damaged as a result of a risk which is not covered by Lessor&#8217;s insurance; or (iv) the Premises shall be damaged in whole or in part during the last year of the Lease Term
+ then in any such event Lessor may terminate this Lease by giving Lessee notice within one hundred twenty (120) days after the occurrence of such damage or destruction and termination of this Lease will be effective upon the date specified in such notice
+ which shall not be less than thirty (30) days and no more than sixty (60) days after the giving of such notice and this Lease shall terminate and come to an end
+ and Lessee shall vacate and surrender the Premises to Lessor. If the Premises is damaged or destroyed during the last six months of the Lease Term and cannot be repaired within thirty (30) days or Lessor elects not to make such repairs
+A. Lessee shall indemnify
+ defend and hold Lessor
+ Lessor&#8217;s heirs
+ successors
+ employees
+ agents and assigns (&#8220;Indemnities&#8221;) harmless from and against any and all claims
+ actions
+ demands
+ damages
+ liability and expense
+ loss
+ or injury
+ fines
+ forfeitures
+ causes of actions
+ suits
+ judgments and costs (including costs of defense
+ settlement
+ reasonable attorneys fees
+ consultant fees and expert fees) which Lessor or any of the Indemnities may hereafter suffer
+ incur or become responsible for or disburse as a result of (I) any injury or damage to persons or property occurring in
+ on or about the Premises
+ Building or Common Areas
+ or (ii) arising out of the Premises or Lessee&#8217;s operation
+ occupancy or use of the Premises
+ Building or Common Areas including
+ without limitation
+ any governmental action
+ order
+ directive
+ administrative proceeding or ruling
+ or (iii) the conduct or operation of Lessee&#8217;s business
+ or (iv) wholly or in part by an act or omission of Lessee
+ Lessee&#8217;s agents
+ contractors
+ invitees
+ guests
+ permitted assigns
+ permitted sublessees
+ or employees
+ or (v) clean&#8209;up
+ remediation
+ investigation or monitoring of any pollution or contamination of or adverse affects on human health or environment
+ directly or indirectly
+ or caused by or allegedly caused by Lessee
+ or (vi) Lessee&#8217;s violation or alleged violation of laws
+ statutes
+ ordinances
+ orders
+ rules
+ or regulations of any governmental entity or agency or the requirements of the Board of Fire Underwriters and/or Fire Marshall
+ or (vii) breach or default of this Lease by Lessee
+ its employees
+ invitees
+ agents
+B. Lessee
+ at all times during the term of this Lease
+ shall
+ at its own expense
+ keep in full force and effect comprehensive general liability insurance with personal injury
+ contractual liability with minimum limits of One Million Dollars ($1
+000
+000.00) on account of bodily injuries to
+ or death of
+ one or more person as a result of any one accident or occurrence and Five Hundred Thousand Dollars ($500
+000.00) on account of damage to property. Lessee agrees to pay to Lessor any increase in each of Lessor&#8217;s insurance policies or in the insurance policies insuring any other lessee in the Building resulting from Lessee&#8217;s participation
+C. Lessee shall obtain fire and special form insurance coverage on all personal property
+ furnishings
+ furniture
+D. All of the above insurance policies shall name the Lessor as an additional insured. The insurance companies issuing such policies shall be licensed to transact business in the State of Ohio. The policy or policies are duly executed certificates for same
+ together with satisfactory evidence of payment of the premium thereof shall be deposited with Lessor on a date Lessee first enters the Premises and such policies shall not be subject to cancellation
+ termination or change
+ and upon renewal
+ except after thirty (30) days prior notice to Lessor. If Lessee fails to comply with such requirements
+ Lessor may
+ but shall not be obligated to
+ obtain such insurance and keep the same in effect
+A. The Lessee agrees that at any time
+ and from time to time
+ upon not less than ten (10) days prior request by the Lessor
+ the Lessee will execute
+ acknowledge and deliver to the Lessor a statement in writing certifying (I) that this Lease is unmodified and in full force and effect as modified
+ and identifying the modifications
+ (ii) the dates to which the rent and other charges have been paid
+ and (iii) that
+ so far as the Lessee knows
+ the Lessor is not in default under any provision of this Lease or
+ if there has been a default
+ the nature of said default. It is intended that any such statement may be relied upon by any person proposing to acquire the Lessor&#8217;s interest in this Lease or any prospective mortgagee of
+ or assignee of any mortgage upon
+B. The Lessor agrees that fifteen (15) days after request by Lessee
+ Lessor will execute
+ acknowledge and deliver to Lessee a statement in writing
+ which writing shall be satisfactory to Lessor
+ which shall generally state the following: (I) that this Lease is unmodified and in full force and affect as modified
+ and identifying the modifications; (ii) the dates to which the rent and other charges have been paid; and (iii) that
+ so far as Lessor knows
+ Lessee is not in default under any provision of the Lease or
+ if there has been a default
+ the nature of said default. Lessee shall reimburse Lessor for any expense incurred for attorneys&#8217; fees
+ or otherwise
+Provided that the following waivers do not invalidate any policy of insurance of the parties
+ now or hereafter issued
+ it being stipulated by the parties that the waiver shall not apply in any case in which the application thereof would result in the invalidation of any such policy of insurance
+ Lessor and Lessee hereby releases each other and the other&#8217;s employees
+ agents
+ customers and invitees from any and all liability for any loss of or damage or injury to person or property occurring
+ on or about the Premises
+ Building or Common Areas by reason of fire or other casualty which is insured against under a standard fire and special coverage insurance policy actually carried by a party to this Lease regardless of cause
+ including the negligence of the other party and its employees
+ agents
+ customers and invitees however
+ the release herein shall apply only to the extent of any recovery or to the extent recoverable from the insurance policies actually carried by a party to this Lease. To the extent possible without additional cost
+ each party further agrees that such insurance carried by either of them shall contain a clause whereby the insurance company waives its right of subrogation against the other party. Because the provisions of this Section 18 are intended to preclude the assignment of any claims mentioned herein by way of subrogation or otherwise to an insurance company or any other person
+ each party to this Lease shall give to each insurance company which has issued to it one or more policies of fire and special coverage insurance notice of the terms of the mutual release contained this Section 18 and have such insurance policies properly endorsed
+ if necessary
+Lessor and Lessor&#8217;s agents and employees are not liable for and Lessee waives
+ discharges and releases all claims for damage to person or property
+ loss of business
+ loss due to business interruption
+ loss of income
+ and any and all other losses or damages sustained by Lessee or any person claiming through Lessee
+ resulting from any accident or occurrence in or upon the Premises
+ any other part of the Building or Common Areas
+ except that solely resulting from Lessor&#8217;s negligence. Said waiver shall include
+ but shall not be limited to claims resulting from the following
+ whether or not Lessor may have any obligation under this Lease to repair
+ replace or maintain any of the following: (I) Any equipment or appurtenances becoming out of repair; (ii) .Injury done or occasioned by material occurrence or&#8209;an act of God; (iii) Any defect in or failure of plumbing
+ heating
+ cooling or air&#8209;conditioning equipment
+ electric wiring
+ sprinkler system
+ if any
+ gas
+ pipes and installations
+ stairs
+ rails or walks; (iv) broken glass; (v) The backing up of any sewer pipe or downspout; (vi) The bursting
+ leaking or running of any pipe
+ line
+ tank
+ water closet
+ waste pipe or drain upon or about the Premises; (vii) The escape of steam or hot water; (viii) Water
+ snow or ice coming through the roof
+ walks
+ foundations
+ exterior walls or any other place upon or near the Premises; (ix) Falling of any fixture
+ plaster or stucco; and (x) Any act
+ omission or negligence of trespassers
+ thieves
+ other lessees of the Building
+ other occupants of the business park of which the Building is a part
+ or persons claiming an interest through them
+ their customers
+ invitees
+ employees
+This Lease shall terminate in the event of a total condemnation or appropriation by an authorized governmental agency. A partial condemnation or appropriation shall only terminate the Lease at the option of Lessor
+ but if Lessor elects to continue the Lease
+ Lessee shall be entitled to a partial abatement of rent proportionate to the loss of use the Premises suffered by Lessee. Lessor shall be entitled to all damages awarded as a result of any eminent domain proceedings. Lessee shall have no right to assert any claims
+If Lessee shall at any time be in default in (I) the payment of Monthly Rent
+ or other sums of money required to be paid by Lessee
+ and doesn&#8217;t pay same within five (5) days after due
+ or (ii) in the performance of any of the non&#8209;monetary agreements
+ conditions
+ covenants or provisions of this Lease on Lessee&#8217;s part to be performed
+ and such default is not cured within five (5) days after notice from Lessor; or (iii) if said default pertains to the non&#8209;payment of rent or sums of money
+ and said default is not cured within ten (10) days after notice from Lessor; or (iv) Lessee fails to maintain insurance as provided for in Section 16 hereof; or (v) Lessee voluntarily files for bankruptcy or bankruptcy is involuntarily filed against Lessee or Lessee becomes subject to any other insolvency law
+ or is adjudicated bankrupt; or (vi) Lessee assigns substantially all of its assets for the benefit of creditors; or (vii) Lessee shall abandon or vacate the Premises or breach the covenants or agreements set forth in this Lease
+ then Lessor may terminate this Lease and re&#8209;enter the Premises by judicial proceedings or otherwise
+ or without terminating this Lease
+ re&#8209;enter the Premises by judicial proceedings or otherwise. In the event of such re&#8209;entry
+ Lessor may relent the Premises and apply the rents there from first to the payment of Lessor&#8217;s expenses incurred by reason of Lessee&#8217;s default (including without limitation
+ reasonable attorneys fees and court costs) and the expense of reletting including
+ without limitation
+ realtor commissions
+ decoration and build&#8209;out of the Premises
+ and then to the payment of rents and other charges due from Lessee hereunder
+ and Lessee remaining liable for any deficiency. However
+ Lessor shall have no obligation or duty to relet the Premises. In addition to all other rights hereunder
+ Lessor shall have the right to enter into the Premises and remove Lessee&#8217;s property without any liability. Any storage shall be at the expense of Lessee. To the extent Lessee does not claim its property within ten (10) days after removal
+ it shall be deemed abandoned. The remedies set forth herein are cumulative and Lessor shall have and may pursue against Lessee all other rights and remedies in law or equity. Lessee shall be liable for any costs or expenses incurred by Lessor enforcing any terms of this Lease
+Lessee shall pay to Lessor a monthly sum equal to the Monthly Rent specified in this Lease or any extension thereof plus 25% thereof for each month that Lessee holds the Premises after expiration or termination of this Lease without authorization by Lessor thereby creating a month&#8209;to&#8209;month tenancy. This sum shall be liquidated damages for the wrongful holding over. Lessee shall acquire no additional rights
+ title
+Any notice or consent required to be given by or on behalf of either party upon the other shall be in writing
+ and shall be delivered by certified mail
+ registered mail
+ overnight mail or personal delivery at the address set forth above unless a party notifies the other
+ in writing
+ as to a change of address
+Each party hereto represents to the other that it has not dealt with any real estate broker or finder in connection with the transaction contemplated in this Lease other than NAI Pleasant Valley. shall be recognized as the procuring broker in this Lease
+ and the fee for the lease of the property shall be six percent ( 6% ) of the total consideration of the lease. When the term of the original lease is for less than five years and does not contain renewal or expansion options
+ if the Lessee either extends his term of occupancy beyond the stated term of the original lease or leases additional space
+ an additional fee computed as above shall be paid up to and including the fifth year of occupancy. All real estate fees for leases shall be paid by the Lessor. Fees for leases are due in full within 10 days of Lessee&#8217;s occupancy and / or the commencement date of the lease
+ whichever occurs first
+25. TRANSFER OF LESSOR&#8217;S INTERESTS
+A. If Lessor should sell or otherwise transfer Lessor&#8217;s interest in the Premises
+ Building or Common Area
+ Lessee agrees that Lessor shall thereafter have no liability to Lessee under this Lease or any modification or amendment thereof or extensions or renewals thereof
+B. If Lessor shall fail to perform any covenant
+ term or condition of this Lease upon Lessor&#8217;s part to be performed or if Lessor shall be liable to Lessee in any way arising out of this Lease
+ or pursuant to statute
+ law
+ ordinance or regulation
+ or under the common law
+ and as a consequence if Lessee shall recover a money judgment against Lessor
+ such judgment shall be satisfied only out of the proceeds received by a judicial sale upon execution and levy against the right
+ title and interest of Lessor in the Building and in the rents or other income from such property received by Lessor. If Lessor is an individual
+ corporation
+ trustee of a trust or a partnership
+ there shall be no personal liability on the part of the individual
+ corporation
+ the trustee of said trust
+ the beneficiaries of said trust
+ the partnership
+ or the partners of the partnership
+Lessor is not
+ and shall not become by this Lease or by any rights granted or reserved herein
+This Lease shall not be recorded
+ but a memorandum of lease describing the Premises
+ giving the term of this Lease and referring to this Lease
+Each party signing this Lease in a representative capacity warrants and represents that it is authorized to execute this Lease on behalf of the entity for which it is signing
+ and that by signing this Lease the Lease is fully binding on the party for which it is signing
+This Lease sets forth all the agreements
+ conditions
+ covenants and provisions between Lessor and Lessee concerning the Premises. No subsequent amendment
+ change
+If either party is delayed or hindered or prevented from the performance of any act required under this Lease by reason of strikes
+ lockouts
+ inability to procure materials
+ material and labor shortages
+ inability or delay to obtain governmental approvals and permits
+ failure of utilities
+ restrictive governmental laws and regulations
+ riots
+ insurrection or any other reason outside the control of the party
+ which such delay
+ hindrance or failure of performance is not the fault of such non&#8209;performing party
+ then performance of such act is excused from the period of the delay and the period of performance of such act shall be extended for a period equivalent to the period of such delay. Notwithstanding anything to the contrary in this Lease
+Payment by Lessee or receipt by Lessor of a lesser rental amount than that which is due and payable under the provisions of this Lease at&#8209;the time of such provision shall be deemed to be other than a payment on account of the earliest rental then due
+ nor shall any endorsement of or statement on any check or in any letter accompanying any check or payment be deemed an accord and satisfaction
+IN WITNESS WHEREOF
+M &amp; M Highland Road Properties
+ LTD.
+Matthew B. McCann
+BEFORE ME
+ a Notary Public in and for said county and state
+ personally appeared Matthew B. McCann
+ a manager of Highland Road Properties.
+IN TESTIMONY WHEREOF
+ I have hereunto subscribed my name and affixed my seal on this ______ day of ________________
+ __________ at ___________________
+1. Provided Lessee is not in default of its obligations under the Lease
+ Lessee shall have an option to renew the term of the Lease for ____ (__) additional term of _______ (___) years
+2. Lessee acknowledges that it is Lessor&#8217;s sole obligation to determine the expiration of the time period within which to send the notice of renewal required hereby and that time is of the essence the delivery of such notice. Lessee acknowledges
+ and hereby expressly waives
+ any right which Lessee may have to assert any claim that the failure to exercise this option a timely fashion was the result of accident
+ surprise
+ honest mistake
+ omission
+ clerical error
+ negligence or any other act or inaction on the part of Lessee. Lessee further acknowledges that if Lessor does not receive a notice of renewal within the time period specified herein
+3. Accordingly
+ Lessee agrees that Lessor shall conclusively be deemed to have relied upon no exercise of the renewal option(s) and
+ the event Lessee attempts to exercise this Renewal option(s) an untimely fashion
+ that Lessor will be detrimentally affected by such late exercise.
+
+
+
+
+
+
+
+
+OF PRINCIPAL EXECUTIVE OFFICER OF GOLDENWELL BIOTECH
+I
+ Shuang Liu
+I have reviewed this report on Form 10-K of Goldenwell Biotech
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+Designed such disclosure controls and procedures or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+Evaluated the effectiveness of the registrant&#8217;s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+Disclosed in this report any change in the registrant&#8217;s internal control over financial reporting that occurred during the registrant&#8217;s most recent fiscal quarter (the registrant&#8217;s fourth fiscal quarter in the case of an annual report) that has materially affected
+ or is reasonably likely to materially affect
+The registrant&#8217;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant&#8217;s ability to record
+ process
+Any fraud
+ whether or not material
+Date: July 23
+ 2021 
+
+
+
+
+
+
+
+
+OF PRINCIPAL FINANCIAL OFFICER OF GOLDENWELL BIOTECH
+I
+ Hua Xie
+I have reviewed this report on Form 10-K of Goldenwell Biotech
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+Designed such disclosure controls and procedures or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+Evaluated the effectiveness of the registrant&#8217;s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+Disclosed in this report any change in the registrant&#8217;s internal control over financial reporting that occurred during the registrant&#8217;s most recent fiscal quarter (the registrant&#8217;s fourth fiscal quarter in the case of an annual report) that has materially affected
+ or is reasonably likely to materially affect
+The registrant&#8217;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant&#8217;s ability to record
+ process
+Any fraud
+ whether or not material
+Date: July 23
+ 2021 
+
+
+
+
+
+
+
+
+&nbsp;OF GOLDENWELL BIOTECH
+In connection with the accompanying Annual Report on Form 10-K of Goldenwell Biotech
+ Inc. for the year ended December 31
+ 2020
+ the undersigned
+ Shuang Liu
+ Chief Executive Officer of Goldenwell Biotech
+ Inc.
+ does hereby certify pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+such Annual Report on Form 10-K for the year ended December 31
+ 2020 fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934
+the information contained in such Annual Report on Form 10-K for the year ended December 31
+ 2020 fairly presents
+ in all material respects
+ the financial condition and results of operations of Goldenwell Biotech
+Date: July 23
+ 2021 
+
+
+
+
+
+
+
+
+&nbsp;OF GOLDENWELL BIOTECH
+In connection with the accompanying Annual Report on Form 10-K of Goldenwell Biotech
+ Inc. for the year ended December 31
+ 2020
+ the undersigned
+ Hua Xie
+ Secrtary of Goldenwell Biotech
+ Inc.
+ does hereby certify pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+such Annual Report on Form 10-K for the year ended December 31
+ 2020 fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934
+the information contained in such Annual Report on Form 10-K for the year ended December 31
+ 2020 fairly presents
+ in all material respects
+ the financial condition and results of operations of Goldenwell Biotech
+Date: July 23
+ 2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+      
+
+
+
+
+      
+
+        
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+
+      
+
+
+
+
+      
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+        
+
+
+
+      
+
+
+
+
+      
+
+
+      
+
+
+
+
+      
+
+
+      
+      
+
+
+
+
+      
+
+
+      
+
+
+
+
+      
+
+
+      
+
+
+
+
+      
+
+
+      
+
+
+
+    
+
+
+    
+
+
+
+
+        
+
+
+        
+
+
+
+
+
+      
+
+
+      
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+ 2019. The Company is in the development stage whose purpose is R&amp;amp;D
+
+
+ Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting Requirements; and does not present or disclose inception-to-date information and other remaining disclosure requirements of Topic 915.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&lt;strong&gt;&lt;em&gt;Basis of Presentation&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;The accounting and reporting policies of the Company conform to accounting principles generally accepted in the United States of America (GAAP).&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&lt;strong&gt;&lt;em&gt;Use of estimates&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amount of revenues and expenses during the reporting period. &amp;nbsp;Actual results could differ from those estimates.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;&lt;strong&gt;&lt;em&gt;Start-Up Costs&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;In accordance with ASC 720
+ &amp;#8220;&lt;em&gt;Start-up Costs&amp;#8221;
+&lt;/em&gt; the Company expenses all costs incurred in connection with the start-up and organization of the Company.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&lt;strong&gt;&lt;em&gt;Cash &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;Cash includes cash in banks
+ money market funds
+ and certificates of term deposits with maturities of less than three months from inception
+ which are readily convertible to known amounts of cash and which
+ in the opinion of management
+ are subject to an insignificant risk of loss in value.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: center; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&lt;strong&gt;&lt;em&gt;Income Taxes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;The Company accounts for income taxes using the asset and liability method in accordance with ASC 740
+ &amp;#8220;Accounting for Income Taxes&amp;#8221;. The asset and liability method provides that deferred tax assets and liabilities are recognized for the expected future tax consequences of temporary differences between the financial reporting and tax bases of assets and liabilities and for operating loss and tax credit carry forwards. Deferred tax assets and liabilities are measured using the currently enacted tax rates and laws that will be in effect when the differences are expected to reverse. The Company records a valuation allowance to reduce deferred tax assets to the amount that is believed more likely than not to be realized. As of December 31
+ 2020
+ the Company did not have any amounts recorded pertaining to uncertain tax positions.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;strong&gt;&lt;em&gt;Fair Value Measurements&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;The Company adopted the provisions of ASC Topic 820
+ &amp;#8220;Fair Value Measurements and Disclosures&amp;#8221;
+ which&amp;nbsp;defines fair value as used in numerous accounting pronouncements
+ establishes a framework for measuring fair value and expands disclosure of fair value measurements.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;The estimated fair value of certain financial instruments
+ including cash and cash equivalents are carried at historical cost basis
+ which approximates their fair values because of the short-term nature of these instruments.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; TEXT-ALIGN: justify; MARGIN: 0px; text-align:justify;&gt;ASC 820 defines fair value as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy
+
+
+ which contemplates the realization of assets and the satisfaction of liabilities in the normal course of business. &amp;nbsp;The Company has not generated any revenues since inception and sustained an accumulated net loss of $6
+324 for the year ended on December 31
+ 2020. These factors
+ among others
+ raise substantial doubt about the ability of the Company to continue as a going concern for a reasonable period of time.&amp;nbsp;&amp;nbsp;The Company&amp;#8217;s continuation as a going concern is dependent upon
+ among other things
+
+
+ 2020 to the Company&amp;#8217;s effective tax rate is as follows:&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;table style=border-spacing:0;text-align:left;font:10pt times new roman;width:100% cellpadding=0&gt; &lt;tr style=height:15px&gt; &lt;td&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=hdcell style=BORDER-BOTTOM: #000000 1px solid;width:9%;vertical-align:bottom;text-align:center; colspan=6&gt; &lt;p style=MARGIN: 0px; text-align:center;&gt;&lt;strong&gt;For the year ended &lt;/strong&gt;&lt;/p&gt; &lt;p style=MARGIN: 0px; text-align:center;&gt;&lt;strong&gt;December 31&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px&gt; &lt;td&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td class=hdcell style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;text-align:center; colspan=2&gt; &lt;p style=MARGIN: 0px; text-align:center;&gt;&lt;strong&gt;2020&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td class=hdcell style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;text-align:center; colspan=2&gt; &lt;p style=MARGIN: 0px; text-align:center;&gt;&lt;strong&gt;2019&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:#cceeff&gt; &lt;td style=vertical-align:top;&gt; &lt;p style=MARGIN: 0px; text-align:justify;&gt;Income tax benefit at statutory rate&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:1%;vertical-align:bottom;white-space: nowrap;&gt;$&lt;/td&gt; &lt;td class=ffcell style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;text-align:right;&gt;(1
+328&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;width:1%;vertical-align:bottom;white-space: nowrap;&gt;)&lt;/td&gt; &lt;td style=width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;text-align:right;&gt;(485&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;width:1%;vertical-align:bottom;white-space: nowrap;&gt;)&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:#ffffff&gt; &lt;td style=vertical-align:top;&gt; &lt;p style=MARGIN: 0px; text-align:justify;&gt;Change in valuation allowance&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;text-align:right;&gt;1
+328&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;text-align:right;&gt;485&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:#cceeff&gt; &lt;td style=vertical-align:top;&gt; &lt;p style=MARGIN: 0px; text-align:justify;&gt;Income tax expense&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;text-align:right;&gt;&amp;#8212;&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: #000000 1px solid;&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;&gt; &lt;p style=MARGIN: 0px; text-align:right;&gt;----&lt;/p&gt;&lt;/td&gt; &lt;td style=PADDING-BOTTOM: 1px;width:1%;white-space: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;The tax effects of temporary differences that give rise to the Company&amp;#8217;s net deferred tax assets as of December 31
+ 2020 is as follows:&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;table style=border-spacing:0;width:1160px;word-spacing:0px;text-transform:none;text-align:left;font:10pt times new roman;orphans:2;widows:2;letter-spacing:normal;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial cellpadding=0&gt; &lt;tr style=height:15px&gt; &lt;td&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=hdcell style=WIDTH: 115px; VERTICAL-ALIGN: bottom; TEXT-ALIGN: center; colspan=2&gt; &lt;p style=text-align:center;margin:0px&gt;&lt;strong&gt;December 31&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td class=hdcell style=WIDTH: 115px; VERTICAL-ALIGN: bottom; TEXT-ALIGN: center; colspan=2&gt; &lt;p style=text-align:center;margin:0px&gt;&lt;strong&gt;December 31&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px&gt; &lt;td&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td class=hdcell style=WIDTH: 115px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; colspan=2&gt; &lt;p style=text-align:center;margin:0px&gt;&lt;strong&gt;2020&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td class=hdcell style=WIDTH: 115px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: rgb(0,0,0) 1px solid; TEXT-ALIGN: center; colspan=2&gt; &lt;p style=text-align:center;margin:0px&gt;&lt;strong&gt;2019&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; &lt;td style=WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:rgb(204,238,255)&gt; &lt;td style=VERTICAL-ALIGN: top;&gt; &lt;p style=text-align:justify;margin:0px&gt;Net operating loss carry forward&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; VERTICAL-ALIGN: bottom; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt;$&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;1
+813&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;485&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:rgb(255,255,255)&gt; &lt;td style=VERTICAL-ALIGN: top;&gt; &lt;p style=text-align:justify;margin:0px&gt;Valuation allowance&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;(1
+813&lt;/td&gt; &lt;td style=WIDTH: 11px; VERTICAL-ALIGN: bottom; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt;)&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;(485&lt;/td&gt; &lt;td style=WIDTH: 11px; VERTICAL-ALIGN: bottom; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt;)&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:rgb(204,238,255)&gt; &lt;td style=VERTICAL-ALIGN: top;&gt; &lt;p style=text-align:justify;margin:0px&gt;Net deferred tax assets&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;&amp;#8212;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;&amp;#8212;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br /&gt; &lt;p style=font-size:10pt;font-family:times new roman;margin:0px&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;The Company has approximately $8
+635 of net operating losses (&amp;#8220;NOL&amp;#8221;) carried forward to offset taxable income
+ if any
+ in future years which expire commencing in fiscal 2037. In assessing the realization of deferred tax assets
+ management considers whether it is more likely than not that some portion or all of the deferred tax assets will be realized. The ultimate realization of deferred tax assets is dependent upon the generation of future taxable income during the periods in which those temporary differences become deductible. Management considers the scheduled reversal of deferred tax liabilities
+ projected future taxable income and tax planning strategies in making this assessment. Based on the assessment
+
+
+000
+000 common shares with a par value of $0.0001 per share.&amp;nbsp; Each common share entitles the holder to one vote
+ in person or proxy
+ on any matter on which action of the stockholders of the corporation is sought.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;On August 20
+ 2019 the Company issued 41
+000
+000 shares of common stock to its founders for a subscription amount of $41
+000. As of December 31
+ 2019
+ the subscription amount of $41
+000 has been paid.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;On August 20
+ 2019
+ the Company issued 39
+000
+000 shares of common stock for a subscription amount of $209
+204. As of December 31
+ 2019
+ $207
+904 of the subscription has been paid with the remaining $7
+600 of the subscription has not yet been paid
+ and is reflected as a stock subscription receivable on the accompanying financial statements.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;On December 1
+ 2020
+ the Company issued 11
+500
+000 shares of common stock for a subscription amount of $79
+000. As of December 31
+ 2020
+ $1
+000 of the subscription has been paid with the remaining $78
+000 of the subscription has not yet been paid
+
+
+ 2021
+ the company issued 2
+400
+000 shares common stock
+ and the subscription amount of $11
+400 has been paid. The company also issued 500
+000 shares common stock as non-cash bonus. On February
+ 22
+ 2021
+ the company issued 1
+600
+000 shares of common stock
+ and the subscription amount of $80
+000 has been paid.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;The Company signed a three-year lease with M&amp;amp;M Highland Road Properties to rent the office space
+ starting from January 15
+ 2021.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;On March 25
+ 2021
+ the Company purchased inventory of $103
+125 from Australian Trefoil Heath Technology
+ which is owned by Li
+ Yang
+ the Treasurer of the Company. The treasurer also owns 1
+000
+000 shares of the Company. This transaction is a related party transaction. &lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;Based on managements&amp;#8217; evaluation
+
+
+
+  
+  
+
+ &amp;#8220;&lt;em&gt;Start-up Costs&amp;#8221;
+
+
+ money market funds
+ and certificates of term deposits with maturities of less than three months from inception
+ which are readily convertible to known amounts of cash and which
+ in the opinion of management
+
+
+ &amp;#8220;Accounting for Income Taxes&amp;#8221;. The asset and liability method provides that deferred tax assets and liabilities are recognized for the expected future tax consequences of temporary differences between the financial reporting and tax bases of assets and liabilities and for operating loss and tax credit carry forwards. Deferred tax assets and liabilities are measured using the currently enacted tax rates and laws that will be in effect when the differences are expected to reverse. The Company records a valuation allowance to reduce deferred tax assets to the amount that is believed more likely than not to be realized. As of December 31
+ 2020
+
+
+ &amp;#8220;Fair Value Measurements and Disclosures&amp;#8221;
+ which&amp;nbsp;defines fair value as used in numerous accounting pronouncements
+ establishes a framework for measuring fair value and expands disclosure of fair value measurements.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;The estimated fair value of certain financial instruments
+ including cash and cash equivalents are carried at historical cost basis
+ which approximates their fair values because of the short-term nature of these instruments.&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=FONT-SIZE: 10pt; FONT-FAMILY: times new roman; MARGIN: 0px; text-align:justify;&gt;ASC 820 defines fair value as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy
+
+
+328&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;vertical-align:bottom;&gt; &lt;p style=margin:0px&gt;)&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:1%;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;&gt; &lt;p style=MARGIN: 0px; text-align:right;&gt;(485&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;vertical-align:bottom;&gt; &lt;p style=margin:0px&gt;)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:#ffffff&gt; &lt;td style=vertical-align:top;&gt; &lt;p style=margin:0px&gt;Change in valuation allowance&lt;/p&gt;&lt;/td&gt; &lt;td style=width:1%;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:1%;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=BORDER-BOTTOM: 1px solid;width:9%;vertical-align:bottom;&gt; &lt;p style=MARGIN: 0px; text-align:right;&gt;1
+
+
+813&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;485&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; PADDING-BOTTOM: 1px;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=height:15px;background-color:rgb(255,255,255)&gt; &lt;td style=VERTICAL-ALIGN: top;&gt; &lt;p style=text-align:justify;margin:0px&gt;Valuation allowance&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td style=WIDTH: 11px; WHITE-SPACE: nowrap; BORDER-BOTTOM: 1px solid;&gt; &lt;p style=margin:0px&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td class=ffcell style=WIDTH: 104px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right;&gt;(1
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+125 from Australian Trefoil Heath Technology
+ which is owned by Li
+ Yang
+ the Treasurer of the Company. The treasurer also owns 1
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+ $0.0001 par value
+ 300
+000
+000 shares authorized
+80
+000
+000 issued and outstanding at December 31
+ 2019
+ 91
+500
+000 issued and outstanding at December 31
+
+
+
+    
+
+    
+
+
+
+ Value
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+
+ Income Taxes
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+    
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 gdwl_10kimg5.jpg
+
+
+
+;GZ.GJ\O/T]?;W^/GZ_]H # ,!  (1 Q$ /P#ZJI5ZTE*H
+MYH =12A2:-IH !4E,VFGT %%%&*  4M HH **=BC% #:44N** BBB@ HHHH
+M ***
+4 )S1BG44 -YI#3L44 
+
+MVTV@!A'/2DQ[5)2=J &8HQ2_A1^% #*2GTW% 4E+1B@!II*=BC:* &T4[:
+<48;_(H 913L?7
+
+
+4_
+M%(1Q0 S%&*=BCF@!M
+
+M $Q0*=BC% 8I:7%+0 =:,4ZB@!,&EP?2E6G4 )@8HQQ2T4 ,P:0JEF8 4^
+MN8U'4KS^TYK4
+JQ1': !ST% '0?:K?\ A!)]Z=]I3'8?C7(M+(VW
+
+
+
+
+
+M4[HU8]U!H 1J;BGD9I-M #*0]*?M]J0CCI0 RD-/Q2$4 -II'-/Q24 
+I#3J
+
+M0 @&*6E6EQ0 F*
+
+M1^=
+
+
+
+
+
+M +2IO_'W8^[X[U__@2VY_\ :=57^*_@5O\ F-#_ +]M_A35^*7@8GZXOXH
+MW^% %D^$]5'
+
+
+
+
+-T+2
+
+M]L_\357Q'XC\;Z/J
+MG]G82)U '2N=3Q9\0[G_5PL
+^HH ]$A_9Z\$QXW7C$
+
+
+
+
+
+
+MCVW1LO\ *N?%MXT4X%X3^=:.GV_CB2\A@-X27( - 'J?A;X3^$]!FMKEKC49
+M[N
+
+
+M9S[K71&Z9NC8J:+YUW
+
+^O\JU]J=
+G\Z3RX_6@
+M#
+
+MBFVJO#'- '*2:;=M]VQ4_B*IS:3?
+
+
+
+M0!4O+RPL9[ZZD\N!#)(V
+
+
+
+
+
+
+
+
+
+
+
+MOEEM)$49QDE2*\*\/^$;'1&2XF NK[O(P^6
+
+
+
+
+
+
+MTEYX7;0XO#^I_P!NRVGV/[.]JRI&Y386
+OW=@ZY!Y%=#CT
+
+MI.FZ/;6TFJWUFMY+).2(;6
+@?
+
+
+M=V
+
+C
+
+
+
+M.
+
+
+MM:S
+
+XQ^%;TMX9%
+;1L8)9^#V^:L<74E*G9]S
+
+
+FN
+T#QG/+X)O]5UM!'?6 +R1
+MJ
+
+WB?4K2;QA'H
+
+
+
+
+3%)3
+
+
+
+;M.JN@.0
+
+
+TR4$$9S3E(JOO54RQP *9#=PR
+
+M1F@!**
+
+T
+
+
+
+HS-
+
+
+
+6BF[J0MQ0 YFIG-)NI
+T !ZTVC=3=QH *0]:
+TTM0 T]*8
+MW6G'I3&/- #:*3-% %L&G U &IZM[T 2YI0:CW4!N: )@:7-1AN*
+
+M^)'H4
+
+
+Y3CWTO^RWNY
+YAZ2U]?:[
+
+
+
+
+ML+6T$4
+
+MB
+
+C\ZYVXN-Q.%Q4*?.KFSC9V8R1OFKZ-^%)_XM]9G_ *:R?^A5\ULS
+M$9[5](_G_DGMI_UUE_]KEQ7\
+Z
+-K
+
+T$\4W=06XH 
+T
+
+
+M GW&E#5#O%*KC% %@-3]PJKO%2;Z )MU+DU 'YI=] $VXTNZH1)2^90!+FC-
+0W3!QA<\&O2PBO%GFXMVDBC#]IM;@/RK X![-[5TVGW6HS6X='BO&W<QCY'
+M4?UJA&L,UKY,S(I).-Y]ZSV:XTJ\X)4CD$=&%=5CC;.N65)4++D$,593P5(Z
+M@^]5YI=B,WH*R]-U-[N^GEE8!I@&;W8<9_$8_*K-^Y,/ECJQ%:HA2T%MSB'?
+MW;FI@_/-0@A4=
+
+DX[4/
+M0:U
+
+*\K$M@Y'H/Y5RVN:)9NK:A;E;6:
+AF'1''N/6NWOIDA18'P
+M)%C7([CC/X=:YNXMC)('O%S_ !)#V]B:2=Q326ART/G^'M#LXK55CEGD?[3*
+3UQ27L&F7^@_P!O:1*O
+MV95+
+
+=:/M
+PYX
+MW?SJS%+K%Q ;*ZT*]<)RC^45,?L21C%<=8WTULP:-R!Z9KK;3Q-=RQB&2X,B
+MC^1C7=[%OX3S^==2LLTUK-O7*LGWEK;M]06[V?/R*Q[R19I?.CCVOW!/!JJ
+M=T
+
+?6JY1\Z[
+
+^]=4TRGO7-?9X-)NH$L9
+
+MR2-)(VYV.2Q]:K:QJC7=XDJ3JL
+
+
+MNS73O[3E
+
+
+
+A0\DC%U';)0C
+
+MXKZS^;G_A5%B?\ IO-_Z%7R.[*KLJON4'AL8R*^L/@K*J_;3\M]Z:8C_ON
+
+
+
+
+
+
+M.V+S.
+^;''Y;'\5Q7 WFJ:M&I
+2
+?05QNH?$7QOHKA?^$=EURSR(FPZ^ZYX
+M/TIJ3CLQ-)[G?R?OP+
+
+
+C]:U;7XXZ%-@?;H@?]_!K98BJMI
+
+6D/C;?1GZ.*T8_B
+
+
+M^(+V3'HJ+_0UJ0?OPA1YMQ?3GWGVY_(N-N?B]I:9_TI#_ ,K)E^
+5JSX
+
+
+
+M0!0-N#UIAM%K3$?M1Y?M0!D&Q5NJU&=+C/\  
+
+3[4 92V0Q]VGBV %:7DG-+Y?^R* ,]8<4_P NKGE^U'E?A0!3\JE\OBK?
+MDCUI?*% %392[3[5:\JEV?YQ0!5FC!JUM%)L% %?FBI_+%% GBHZ<#S0
+M^GKC'-1;J4
+: )?E]*7U#N-.#4 2@+FEP*CW4;Z )0!Z4N/]FHU;-+N% $@
+M'%.[5&#2[J 'XI0/:FYI=U #LC INZC=0 [ HP*;GWHS[T .P*3;29]Z
+^]
+
+
+
+
+begin 644 gdwl_10kimg4.jpg
+M_]C_X  02D9)1@ ! 0$ 8 !@  #_VP!#  4$! 0$ P4$! 0&!04& T( <'
+M! +# D-$Q 4$Q(0$A(4%QT9%!8<%A(2&B
+:'!X?(2$A%!DD)R0@)AT@(2#_
+MVP!# 04&!@@' \( \@%1(5( @( @( @( @( @( @( @( @( @
+M( @( @( @( @( @( @( @(#_P  1 #X 3\# 2(  A$! Q$!_\0
+
+M! 0   %] 0(#  01!1(A
+4$&$U%A!R)Q%#*!D:$((T*QP152T? D
+V)R@@D*
+
+
+7&
+
+
+
+B
+
+
+
+G*TM/4
+
+!  (1 Q$ /P#[+HHHH **
+M*S]5U73]#TB[UC5+J.TL+.-IIYY#A8T R2: 
+SQ!XDT7POIJZCX@U*#3K5I%
+
+MNA7IN4I\K)]]NT8W/T_P!VC_=KXML9_&WAMDC@\5:G9KV$4[-&WX
+2/TKM
+
+0_W1( ?R/-;7:N=Q<=)*QM<9J\7<6BBBD:!111
+M0 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%%
+
+
+MH\ZYR8P
+L/\ &O4PLXQC9GK82#=-R\R:2..56CD0.A'W6'%8%]H3)F2QRZ]3
+
+
+M3_-CFG]JX6#QI=JVVXLXI!_L
+5/]:T[/QA8W#^7+#- V.X##]*].G4C55XLS
+
+J;XY%=?4'(K0P4XO9D]%
+
+
+M[
+
+UU]A^*UW=
+
+
+AU81^)C-)'RS_@*T]NX$
+
+
+
+;I')*H/[QA
+
+
+
+
+//IM?7Y')V'CKQ9I
+M[#R]:FF4=KC$@_49KK;'XMZW&@:\L;:Y0=67=&?ZBN6CT:TMVQ)$9''_ #T_
+
+
+G\ZY
+
+
+
+;#V/%8
+
+
+
+L([&TC^Q*=C2D,S#/KT!KYBIA
+M:\H^T478^Y]I*M3CUI)_(Z/5-!CLY%NK614B1@S1R-C:
+]B?Y5:N/%%C''_
+
+#@(U^
+
+?E
+
+
+
+
+M:AB
+0I
+
+HB
+MN%P5
+
+
+VZ#:
+
+
+C-+
+
+
+I 4L
+
+
+M
+
+
+U
+
+
+MJUL\:V4+C#+&A!D'H6/./:J^@(\$ET)E
+
+
+]S\W-=#I.IW\D0
+
+
+5&7YG!:M:36MI*L@
+
+@D8!PS?XU%;QPS7
+44T:R1
+
+/];(OY&J\?A2W5M\L[38Z*1M'Z5K?VI9
+M
+)'C9Y(HF*O
+D;-&I'7Y@
+
+:*/]GBO
+
+
+
+M-#O[9N^ZV?'\JYRXBDM\QSHT;9_B&*^Y59P
+
+M3-&CJ54@'U]17IPS67VH_B2XN47%'Q.J
+P&#@5(6DM8VEB8AP
+9]
+U]B7?@?
+
+XH_:BU]QY
+
+M'P[\96P_Y CR =/)D1_Y&G*MA:F[B_N/
+JQQ$/AA(Y*X\=WY4);(K* P!E7^
+
+
+LB1VU
+MOY[*P*RM\H'/;N:X^
+
+
+
+
+
+M.:[?XO3&?XX^.)3WUFY'Y2$?TKB*H#ZZ_9;3;\-]7?N^J'](DKWGTKPS]FFQ
+
+]N@E[.-V7 
+MYYI
+
+(]6OIM/N1!<+$L15
+
+
+X(Z%XSQ^E2&\L9H
+
+
+GGG%1W4)N/&T
+
+NERD
+
+MHP
+
+
+M-A'9F9I86E5A(% VD YSTZ^_TIZ:E ;*2ZE5H1%(8G0_
+
+
+
+T4B[6 /0_2IZBIBZLVI2W0W=:
+
+
+
+
+
+*RLZM*H8$)E5STR?\*ETH2^)7'SI
+
+
+M\UE.O^[@_P!:MCEL'BI9X/(
+
+?
+C/-]'_P M
+M(9E]FC-0I)I
+
+M&^]!&WU45$UC9M_R[(/H
+
+*GZQ!O22?S
+
+
+
+LHDC4
+
+
+
+
+
+
+&10C2INY8[LX)!] /
+M8U3
+\S1B
+
+
+:X1GEC6$?9
+]<?)9^7Y^^4*(@K?=SN#=/QJ:$PR!20V0&!'<$9!I_P!H
+M413Q
+
+
+
+LRYY8YSCTH
+
+
+
+D_
+
+
+V'4VBI_WU*@_K02?F4::W
+
+)%[RM;1C\
+M9T_PKVBO!/VM9_*_9]O(_P#GMJ%K'_X_N_\ 9:#
+
+
+
+W%(
+
+86&-03D@* #VI6AB(PT:D8V\J.GI].!3J*!W9'Y
+
+
+
+
+
+444 &#11S2CDT )
+
+MWQ \.1'^+4[8?^15K!KJOAS'YWQ5\)Q^NJ6__H8-
+N/Q(_0N0_.WN34=/;D&
+
+
+
+
+_P#\2*^[*^?/
+MC5^SFOQ4\2IXEM?%#Z9J$5JEJL
+UN)8652Q'((8'+'UH.8_/FNU^$T?F_&+P
+
+MSX6L=:TJ\TRY2\+&*[@:%N$8]& IEP^)'W-S1QZ&D'S#CGZ4X1R-]V-S]%-
+M]NXG%&?:I5L[INEM
+?\ MF?\*D73=08_+93G_MF:D7
+EU*O6BKHTG5&Z6
+_X
+
+8^L@H
+
+
+W_ A_A0+Z
+
+
+
+_\ WP:]+XI-
+MJ^E ?6I=CSE=%U9AQ8R_B
+
+MZCZN*D7PSJG]V
+
+)HHH **** /_9
+end
+
+
+
+
+
+
+
+begin 644 gdwl_10kimg3.jpg
+
+
+
+
+DL-TOI)'@_F*W;7XC
+
+
+M1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%
+
+V5NS1*3]^4_*B_BQ% 'Q[\??&/\
+MPEW[0]CHMO
+6T_0)XK)
+
+
+
+ENW_3:
+@?F
+BO(AU-*O#D![O:ZIIU[C[)?039[)(?RJ]7S]L7
+
+MJU^(D#
+
+
+
+
+_2NHU[
+
+]2%'\
+
+
+
+
+_E2 MT4=J
+T %%%% !1
+M110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %?G
+
+
+2W8=
+
+X
+
+
+
+
+M 
+-T1CM(N[/\JE:10F64A:J27T6UE7*N.F[O2&1276H0K\T
+
+XS@F.0KC\_\
+
+QSM[UGS7
+K*=S$%NOO3 WHM6T^
+
+2JQ# #HPS_.J+OY)5H=T3GO&Q4_I2L(
+
+
+;=EMY/Y
+
+
+I4,#-EPR-ZK4C)HYCQN.%Z8S4ADVGD_
+M+TX-1&)G[N19![<$?A5=B1\O(/N*=@+1?C*NP]C3&N
+
+
+
+
+
+
+
+MNEP@]T<W--;,ZFQ\9ZPTF)7AD'^U'@G\JVH_&$W_ VLHV]T8BN)M(=L@K35
+
+#
+
+
+
+
+
+M%V.[;VI!C\ZW8]%M[CPI?ZYYT@N+2XCC\H8VE6[^N:?J6APZ7X?TG6%N&E%\
+
+
+
+
+
+M3ZQ)_(5/W_&OG).SL?0Q^$#BFD\TE-J1B'[U(U./2FFH CK;\'R;?&=LO]Z&
+
+
+:?
+
+
+
+M]2T'1M1TVSPR7BX#$X
+
+XRCRJ
+MCJ]
+MK_9VBW=O;P
+
+
+SZC&GD
+
+MPJ
+
+?*WS#\C
+
+
+
+JG)(&.E)(5#^8%P
+
+M#3FW:/9-V
+*?RJYV_&J.D_\ (!T__KBG\JNU\G4^-GTU+X4
+I
+5)1691%334
+
+
+MZ*_'*80_ [Q0Q.-UL%_-A7YV'H*J('TI\#HMG@5O[]VY_05ZF*\Y^L83X;
+
+'
+I'3^[6LB$K'1:=ING6NC)J^L
+
+
+
+@ULZ;XET/3
+116EY$B2NP($;
+
+
+!C&.ISQ5FU\36ZWMDKS7
+
+
+$FTCS%
+I3MU
+M,Q9 #3_/XZFNN@T72K;6(M%MY+34;F+[3?%U3SR\.W]U$JAAO<CYL9X[U)J&
+M@Z6+[6A;Z8T<J:?!=PI.'CBAW+F4G!.UAUDD<$5?UF/5$^QEW.#FEW'.:8K
+
+
+
+
+N[ -;DV/;M#^?PYIY_Z8K_ K2K)\--O\
+MVG-G.80*V:^4J_&SZ2G\*&44\U&W6L2[ABF
+
+
+M+('4
+?_'C7=**& OI
+
+MN-_
+5QT9^8X]:Z[XA
+
+
+NV1@S
+
+
+
+U&W6I33#65BAE%+VIK4# ]:AN 3$2.V#^M35%
+
+M44 %%%% 'A?[4DH3X
+^7_P ]+^$?EN-?#AZBOM/]J^;9\
+--A_YZ:@OZ*:^+
+M1C-4@/K;X8Q^7\
+=$'K$6_-C79+7
+?#Q0/AKH/&/]%7^M=7@4 (!3Q1BBF N
+
+M
+J?
+
+
+TUOOZ
+
+MGX9D/SZ#9GZ1XJM)X&\)2 YT. ?3(_K5?VC#L4L%;J?/37D8(/SC'M4
+M]$P
+M'S
+
+
+
+
+@;X@^'4SRNF
+2/3
+I_PKY[TE?-UBS0
+M#[TZ#_QX5: ^W;!=NG6R]
+1J/T%6L5%!\MM$
+8PHJ84@ 4_'%(!BG4P$Q2T4
+MHZ4 +3@
+
+9Z'X+)_X1J/
+
+?ZUQ/PUC
+
+MAKC]H3Q*R\B+R(S[8A6L/X/
+)OBKHZ'KO8_^.FK0'V8%J15YI .
+U*H&!2 4
+U  4=Z
+
+
+W4J.M6JD HHHH **** BBB
+M@ HHHH 3O2T44 %%%% 'F_Q ^#W@GXB0-)K.F'4MN$U&UQ'.OID]''LV:\+
+
+
+
+M@!
+48I:* BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** BB
+$B@#_V0$!
+end
+
+
+
+
+
+
+
+begin 644 gdwl_10kimg2.jpg
+
+
+
+;GZ.GJ\O/T]?;W^/GZ_]H # ,!  (1 Q$ /P#[+HHHH **
+M** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHH
+MH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@
+M HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** 
+MBBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **
+
+
+
+
+M* BBB@ HHHH Q[C_D(M_NK3Z;-M.H2;?X556IU=$?A,)#J-U'\-U0@W4VG
+M;O\ ;IM !3O[M-H_NT% U-/\5.:FG^*F
+:W\5$GW6IK?Q4-]Y_\ =H &_P6
+MG^ZM.9OF;_@--_O?[M#?Q?[M #OXO^!-35_^)H_B_P!4+]W_OF@!M%O_P ?
+
+M**** BBB@ HHHH **** BBB@ HHHH Y)KSR-7O-R_NFD^\U:D
+
+M++KMY%_#)M;;_P !J2*VC7_5[HUKIC\)C+XC:7RV_BIVVLORY_\ EC/\O]UJ
+
+
+K4UD;]Y5==1W_
+NYE_W::VI1K]YE
+
+
+
+
+
+
+
+M_CU-\J#^[0+F)F6-?O
+O_?51M);+_$O_ 'U4?E0+]V-?^^:-L:_PK_WS0'
+#
+
+MSU3;4+:QU*Q:ZF6/S)XXX]WWF;=4\I'-&/Q'HU+2+2UR'2%%%% !1110 444
+
+EMKVES^?
+MM\N[A;:W^\M=
+JE%4W&
+
+
+/$L1+5Q5;=4
+
+
+
+M6DE\URL;;9&6:1FV_-M_B^]_X[6A'X3\$^$]2LVM]&@^U2;FCDFF5=NW_:;_
+
+
+MMK&2T6-6CF;=\W\-=3\2(/
+\9V\BMM9;$;O]I=S5RT$7RU[6&?[L^3S%-5KH
+
+
+S-N_S_=J2\U*
+
+?D
+
+MO5K6
+';9?W;1_NY-ORM_^
+
+MX_O
+LC+\S?
+
+MEP6
+
+MOF^:L^8Z_=!5UV..:^7Q;97-G9R
+
+M0MMCVMYC?
+
+
+9I[F1F96W-(J_-\O^S_
+M +*UL6=C::5&T=G'Y:R;5;YMWW5VK_XZM:G).42Y*VYOE_BJ./YE;^ZM.5F:
+M-I%9=L?\-4_
+
+
+MQJO^[N6LJAK1A\
+CZ]'2G4E+7CGT84444 %%%% !1110 4444 %%%% !1110
+M 4444 %%%% !1110 4444 %%%% !1110!Y#\19$'C6WA9MK-8?+_ -]-7.01
+
+
+
+
+LGA7Q(T_V&2YC56DM/)VJVUF_U:_+N^]_[+6T)
+
+
+
+
+
+
+:[8U_B
+
+M7]W#-YDC?W?E:M'2YXU^)'AK38FW%9V9_P#OVU9FIZQ#:R-#:[6N%_N_PU!X
+
+GWE7
+
+36+KWCB[U+
+MS+:UCEAM9H?+D7S/FKL^K2/
+
+?9;9E;[/(O^L7_::N?\/M!I4T-S8M;6UTN[=-<2
+W_H*UU$
+
+M7^S\M:T]RLEQYZJS
+
+
+M=UY_D6EIN^]ND:1O_':UFC:-?
+
+JM_
+M=JU'.TB[EC95_P!JL=9[:UA\RU6-=R[O
+_V:HWFH7.V.2.QGDAD;:OF-\S-_
+
+
+
+P=3F
+MQ
+
+
+
+
+
+MQ5OE\QO^ UG[*IV-OK?F=)=:UJ$__+SM_P!E:S9)9)&W32
+W^]7/R^)(_P#E
+MG;
+W^\U49/$%RW^KC6+_ 
+
+M\&FQR
+WE_
+
+M;
+
+
+
+
+BU[I^S3ITJ^*]5U:X5E::QVQ[O[OF+7-CIKV3._*H2
+M=9-'U/1117S1]R%%%% !1110 4444 %%%% !1110 4444 %%%% !1110 444
+
+MO\
+
+MI2T//QF$IXF'+)'RY/;36LS074#03+]Z-E^9:CS7T=J^@Z-KT.W4K2.1OX9%
+
+M9MU;6I^&O$&E[OMFESJJ_P#+15W+_P!]+6&S8^7^*NY5(RV/-=I3?O1-BY
+
+
+
+M$DS?W8UW5/-RF?LW)^ZB-FW4VNKT[P#XBO\ YIH%LH_[TWWO^^:[O1? ^B:/
+MMN;A?MMTO_+2;[J_[JUA/%P@=U#+*M7XE8X/PYX+GU#;J6J1M#8K\RQM\K3?
+
+
+
+M%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 44
+
+=1T+6])F9EA:_LU^[-#_ *Q?]Y?_
+
+MU:;;2?[31KNKI+SP#K
+
+
+
+G_ 'YKN)/$.F_\_
+?_ 'U5&7Q'IJ_\O
+?_
+M 'U1]9J=R8Y;0_E.37X96*M^\U2=O]V-:N1?#GP_'_KFN9_^VFVMI=:\]MMK
+M;3S_ /7.%FK0M=
+
+
+/\2JWG2?^
+M._+_ ./5UMC\*/#L&&U-KG5I/^GB3:G_ 'RM8NM*6YTQHTX_#$\RMIKG5;S[
+
+MK&VBMX5^['$FU:O5E*1N58((;:&.WC6.&-=JHB[545:HHJ0BBB@ HHHH *
+M*** BBB@ HI*6@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** B
+
+MX=TUMO\ TZ1__$U)'X=T'YH-%L(B/[MK&O_ ++6Q10 Q$CC7;&H5?0G4M%
+M !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444
+M%%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4
+J444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 ?__9
+end
+
+
+
+
+
+
+
+begin 644 gdwl_10kimg1.jpg
+
+
+
+;GZ.GJ\O/T]?;W^/GZ_]H # ,!  (1 Q$ /P#[+HHHH **
+M** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHH
+MH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@
+M HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** 
+MBBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **
+
+^P+_P ][C_O^U %REJE
+
+
+MY
+
+M/^7R3_OE?_B: +-+57R9_P#GZD_[Y7_XFE\F?_GZ?_OE: +-)5?R9_\ GZ?_
+
+
+/\ Q2^BS_\
+
+M/7^3QE#_ +5HW_HROK ]*PEN
+
+
+
+
+M
+O*S
+
+MA1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %
+M%%% !1110 4444 %%%% !1110 4444 %%%% 'B'[1B[_  '82?W;S;_XZW_Q
+
+
+M JG^-4%^_P *=3O-+D
+
+
+
+MI4[ZC\3])UNW6=HKK58[B-F3]]&K3?=5ONR?[2UZ9^T%X^N]+U72O#FAZHUM
+
+LD
++_[3?[+&@#L
+
+
+
+MKIG
+
+
+MCQ;_ &GJC7
+VE;SKZ^N,_Z0W_/-6_B9O_':]\C\/_];QYI/A_ NH1S
+KQ1
+
+
+
+
+
+
+W\/W=M 'BN@_V]]G^$MMJESI4%N/#]W+9?\
+
+
+0SPFX_9P^*NI:;
+M#H]]JU_=:7LC_=O:[HU:2-?[C,LK?^/5Z]/XT\*W/P^UK6[/5+1='MDDM8[T
+MLJV\[^7_  -]UEW-M_WE:NUCAMX[<6\<4:P*NQ4_*%]
+4U;6Q6V6U6UA6!/
+MNQ;%VK^%!/
+
+
+
+MI/QK@'^
+
+M/I2UY:WQT^'J_P#
+
+M=WPQUW_KWS_X\M?!6O1[II/]ZNBG\!/VCJ/@/XJT?P;\39-6UZY-I8M82P^9
+
+K;59MM
+
+
+
+
+
+
+
+
+
+
+
+
+
+B?KE;:[
+R3X\?%)_
+
+-+[_ (#Y:_\
+MLM%K\2OB!<W&V;QEJK_+]U9]O_H-=/\ 8;%?^72#_OVM2+%#']V)?\ =5:T
+
+
+
+%&+9/1117FGT(4444 %%%
+M% !1110!RWQ7?\ #C7U_PG.0_I7P+JOS75QN_V=M?H%XS3S? NOI_TX3?^
+
+
+
+
+
+
+MB_PW8S0JMW:_9_M*JWWIMR[F;_@*K7B*5227F=CY9MW\C'N?UZDT
+=G=VU
+M^TEW]A;[.S?NYO[K;O\ T*JVIZ/]AM8;RWO([VUFDDA\Q8VCVR+]Y=K?[WWJ
+
+M3S+Z3YEW?PJO_LU;4:E:4E?84XTHQ?+N9-K+-;WT
+
+M7?\ PLYF^TR[H]06-?WC?*NY?E_W:Y:UDMH[J.2ZCDDA5MS+&VUO^^JU[K6+
+
+
+
+W*_
+
+
+VVK%O
+
+9DW-\OS+M;^&NF5*7L_9F/M(\_
+
+
+
+M
+
+MNM6F5K=I/WC
+
+MN2VT;6_AK?ZO'OW_ !
+8U/M'9P:EI-C#:63:A!=M]@N+=YFBD:&.223=\W\3
+
+
+
+W^TVU?O-1)XHN
+
+MY9&55V_-5BSURYL8U6WCC7YF9MS-_P#%?+_[-_%4
+
+
+
+K
+
+
+
+
+
+
+
+MN^;:LC;MVU6VMM_A^;;7/LU-I^P\P]KY%KS8/[-:#YO
+:X\S;M_AV_WJV(M3
+
+
+M_9N(_P#T*O=&KZ;+?@9\SFWQH;1117LGA!1110 4444 %%%%( HHHI@%%%%
+M!1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !110M 'KWP5A
+
+M* BBB@ HHHH **** BBB@ HHHH **** BBG;:5T VA:CDE@3_ %D\
+
+
+
+
+
+RPM;VTDC2;5;=\OR[6^7^+[U6H_ ^EQZ?-MU*6=I-R^
+
+
+
+
+
+MIZ[KR[CA_P!EF^;_ +YKE[[QQ&NY=/M/
+
+MQ^6XNUW?W8_F:O.[[Q!JVH;OM%VRQ_\ /./Y5K+YKSJF8?R(.4[B\\=1K\MC
+
+
+M7_@-32:YX-C63[/X?_?*NV&2.%=J_N_]9MD9MWS;OE:N5;3=0\Y8UL9VD95D
+
+
+
+
+&^8\'-_@1M45AW'B6RB_X]UDG;_OE:RY_$E])_Q[
+
+MUYE3.OY(F+Q)VTFO:7'_ 
+O.[_=7=563Q1:+_J[:=O\ QVN3YI:X:F;UI?#H
+
+
+
+S+;3
+
+
+
+
+M5J=$:
+Y;(CHKI+3P+XTOPOV7PIJ;JW\3P
+
+
+
+U5[.1U0RC%2^R?._S48/M7U79_L]^![?'VAM0O3_T
+
+S2?^A$T_9R.R&15Y?$TCXOW)NV[A6A:
+
+
+M]/@MQ_TRB5?Y5H;%7^$5)1^-!T1IQCL@VTE.HH-!*-M+10 BTM%% !1110 4
+
+MYH^
+
+
+MLP6G'_CS5]'X]J
+
+
+48H-K(****!A2T
+M44 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 E+24M !1110 44
+M44 %%%% !1110 4E+10 E%+10 E+110 4444 %%%% !1110 4444 %%%% !1
+M110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%
+M% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444
+M %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110
+M4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1
+M110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%
+(% !1110!_]D!
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+Jul. 09
+ 2021
+Jun. 30
+ 2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+593
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fiscal period values are FY
+ Q1
+ Q2
+ and Q3.  1st
+ 2nd and 3rd quarter 10-Q or 10-QT statements have value Q1
+ Q2
+ and Q3 respectively
+ with 10-K
+ 10-KT or other fiscal year statements having FY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal year of the document report in YYYY format. For a 2006 annual report
+ which may also provide financial information from prior periods
+ fiscal 2006 should be given as the fiscal year focus. Example: 2006.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The end date of the period reflected on the cover page if a periodic report. For all other reports and registration statements containing historical data
+ it is the date up through which that historical data is presented.  If there is no historical data in the report
+ use the filing date. The format of the date is YYYY-MM-DD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Name Forms 10-K
+ 10-Q
+ 20-F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The type of document being provided (such as 10-K
+ 10-Q
+ 485BPOS
+ etc). The document type is limited to the same value as the supporting SEC submission type
+ or the word 'Other'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests
+ if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member]
+ Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings
+ Instrument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate 'Yes' or 'No' whether registrants (1) have filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that registrants were required to file such reports)
+ and (2) have been subject to such filing requirements for the past 90 days. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate whether the registrant is one of the following: Large Accelerated Filer
+ Accelerated Filer
+ Non-accelerated Filer. Definitions of these categories are stated in Rule 12b-2 of the Exchange Act. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold
+ or the average bid and asked price of such common equity
+ as of the last business day of the registrant's most recently completed second fiscal quarter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The exact name of the entity filing the report as specified in its charter
+ which is required by forms filed with the SEC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate 'Yes' or 'No' if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Is used on Form Type: 10-K
+ 10-Q
+ 8-K
+ 20-F
+ 6-K
+ 10-K/A
+ 10-Q/A
+ 20-F/A
+ 6-K/A
+ N-CSR
+ N-Q
+ N-1A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Dec. 31
+ 2020
+Dec. 31
+ 2019
+
+
+
+
+
+
+
+
+
+
+
+569
+
+
+593
+
+
+
+Intangible assets
+ net
+
+
+
+
+
+
+
+
+569
+
+
+593
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ $0.0001 par value
+ 300
+000
+000 shares authorized
+80
+000
+000 issued and outstanding at December 31
+ 2019
+ 91
+500
+000 issued and outstanding at December 31
+ 2020
+
+150
+
+
+000
+
+
+
+
+
+354
+
+
+504
+
+
+
+
+
+300)
+
+
+600)
+
+
+
+
+
+635)
+
+
+311)
+
+
+
+
+
+569
+
+
+593
+
+
+
+
+
+569
+
+
+593
+
+
+
+
+
+
+
+Amount of expenses incurred but not yet paid nor invoiced
+ and liabilities classified as other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock
+ use the element additional paid in capital
+ common stock. For additional paid-in capital associated with only preferred stock
+ use the element additional paid in capital
+ preferred stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Monetary value of common stock allocated to investors to buy shares of a new issue of common stock before they are offered to the public. When stock is sold on a subscription basis
+ the issuer does not initially receive the total proceeds. In general
+ the issuer does not issue the shares to the investor until it receives the entire proceeds.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets
+ represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying amounts of all intangible assets
+ excluding goodwill
+ as of the balance sheet date
+ net of accumulated amortization and impairment charges.
+ -Subparagraph ((a)(1)
+(b))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of liabilities and equity items
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Dec. 31
+ 2020
+Dec. 31
+ 2019
+
+
+
+
+
+
+
+
+
+Common Stock
+ par value
+
+
+
+
+
+
+Common Stock
+ shares authorized
+
+000
+000
+
+
+000
+000
+
+
+
+Common Stock
+ shares issued
+
+500
+000
+
+
+000
+000
+
+
+
+Common Stock
+ shares outstanding
+
+500
+000
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+Dec. 31
+ 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+368
+
+
+601
+
+
+
+
+
+368
+
+
+601
+
+
+
+
+
+368)
+
+
+601)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+324)
+
+
+311)
+
+
+
+
+
+
+
+
+
+
+
+
+958
+333
+
+
+190
+576
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate net gain (loss) on all derivative instruments recognized in earnings during the period
+ before tax effects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (SX 210.5-03.1
+2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of income (loss) from continuing operations before deduction of income tax expense (benefit) and income (loss) attributable to noncontrolling interest
+ and addition of income (loss) from equity method investments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generally recurring costs associated with normal operations except for the portion of these expenses which can be clearly related to production and included in cost of sales or services. Includes selling
+ general and administrative expense.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of income (expense) related to nonoperating activities
+ classified as other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of revenue recognized from goods sold
+ services rendered
+ insurance premiums
+ or other activities that constitute an earning process. Includes
+ but is not limited to
+ investment and interest income before deduction of interest expense when recognized as a component of revenue
+ and sales and trading gain (loss).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate total costs related to selling a firm's product and services
+ as well as all other general and administrative expenses. Direct selling expenses (for example
+ credit
+ warranty
+ and advertising) are expenses that can be directly linked to the sale of specific products. Indirect selling expenses are expenses that cannot be directly linked to the sale of specific products
+ for example telephone expenses
+ Internet
+ and postal charges. General and administrative expenses include salaries of non-sales personnel
+ rent
+ utilities
+ communication
+ etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+Dec. 31
+ 2019
+
+
+
+
+
+
+
+
+
+
+
+324)
+
+
+311)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+324)
+
+
+311)
+
+
+
+
+
+
+
+
+
+
+
+
+300
+
+
+904
+
+
+
+
+
+300
+
+
+904
+
+
+
+
+
+976
+
+
+593
+
+
+
+
+
+593
+
+
+
+
+
+
+
+569
+
+
+593
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of increase (decrease) in cash and cash equivalents. Cash and cash equivalents are the amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from financing activities
+ including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from operating activities
+ including discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+Balance
+ shares at Aug. 20
+ 2019
+
+
+
+
+
+
+
+
+
+
+
+
+Balance
+ amount at Aug. 20
+ 2019
+
+
+
+
+
+
+
+
+
+
+
+
+Shares issued to founders
+ shares
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+Shares issued to founders
+ amount
+
+600
+
+
+100
+
+
+900
+
+
+400)
+
+
+
+
+
+Shares issued for cash
+ shares
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+Shares issued for cash
+ amount
+
+304
+
+
+900
+
+
+604
+
+
+
+
+
+
+
+
+
+311)
+
+
+
+
+
+
+
+
+311)
+
+
+
+Balance
+ shares at Dec. 31
+ 2019
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+Balance
+ amount at Dec. 31
+ 2019
+
+593
+
+
+000
+
+
+504
+
+
+600)
+
+
+311)
+
+
+
+
+
+324)
+
+
+
+
+
+
+
+
+324)
+
+
+
+
+
+
+
+
+
+
+
+300
+
+
+
+
+
+Shares issued for cash $0.001 stock price
+ shares
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+Shares issued for cash $0.001 stock price
+ amount
+
+
+
+
+
+600
+
+
+000)
+
+
+
+
+
+Shares issued for cash $0.01 stock price
+ shares
+
+
+
+500
+000
+
+
+
+
+
+
+
+
+
+Shares issued for cash $0.01 stock price
+ amount
+
+
+
+
+
+250
+
+
+000)
+
+
+
+
+
+Balance
+ shares at Dec. 31
+ 2020
+
+
+
+500
+000
+
+
+
+
+
+
+
+
+
+Balance
+ amount at Dec. 31
+ 2020
+
+569
+
+
+150
+
+
+354
+
+
+300)
+
+
+635)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The consolidated profit or loss for the period
+ net of income taxes
+ including the portion attributable to the noncontrolling interest.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number of shares of stock issued as of the balance sheet date
+ including shares that had been issued and were previously outstanding but which are now held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+GOLDENWELL BIOTECH INC. (the &#8220;Company&#8221;) was incorporated in the State of Nevada on August 20
+ 2019. The Company is in the development stage whose purpose is R&amp;D
+ production and sales health cares and supplements products.
+
+
+
+
+
+
+
+The entire disclosure for the business description and basis of presentation concepts.  Business description describes the nature and type of organization including but not limited to organizational structure as may be applicable to holding companies
+ parent and subsidiary relationships
+ business divisions
+ business units
+ business segments
+ affiliates and information about significant ownership of the reporting entity.  Basis of presentation describes the underlying basis used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+&#8221; The Company is devoting substantially all of its efforts to the development of its business plans. The Company has elected to adopt early application of Accounting Standards Update No. 2014-10
+In accordance with ASC 720
+ &#8220;
+Cash includes cash in banks
+ money market funds
+ and certificates of term deposits with maturities of less than three months from inception
+ which are readily convertible to known amounts of cash and which
+ in the opinion of management
+The Company accounts for income taxes using the asset and liability method in accordance with ASC 740
+ &#8220;Accounting for Income Taxes&#8221;. The asset and liability method provides that deferred tax assets and liabilities are recognized for the expected future tax consequences of temporary differences between the financial reporting and tax bases of assets and liabilities and for operating loss and tax credit carry forwards. Deferred tax assets and liabilities are measured using the currently enacted tax rates and laws that will be in effect when the differences are expected to reverse. The Company records a valuation allowance to reduce deferred tax assets to the amount that is believed more likely than not to be realized. As of December 31
+ 2020
+The Company adopted the provisions of ASC Topic 820
+ &#8220;Fair Value Measurements and Disclosures&#8221;
+ which&nbsp;defines fair value as used in numerous accounting pronouncements
+The estimated fair value of certain financial instruments
+ including cash and cash equivalents are carried at historical cost basis
+ASC 820 defines fair value as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy
+ which requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. ASC 820 describes three levels of inputs that may be used to measure fair value:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+The accompanying financial statements have been prepared on a going concern basis
+ which contemplates the realization of assets and the satisfaction of liabilities in the normal course of business. &nbsp;The Company has not generated any revenues since inception and sustained an accumulated net loss of $6
+324 for the year ended on December 31
+ 2020. These factors
+ among others
+ raise substantial doubt about the ability of the Company to continue as a going concern for a reasonable period of time.&nbsp;&nbsp;The Company&#8217;s continuation as a going concern is dependent upon
+ among other things
+ its ability to generate revenues and its ability to obtain capital from third parties.&nbsp;&nbsp;No assurance can be given that the Company will be successful in these efforts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure when substantial doubt is raised about the ability to continue as a going concern. Includes
+ but is not limited to
+ principal conditions or events that raised substantial doubt about the ability to continue as a going concern
+ management's evaluation of the significance of those conditions or events in relation to the ability to meet its obligations
+ and management's plans that alleviated or are intended to mitigate the conditions or events that raise substantial doubt about the ability to continue as a going concern.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+The reconciliation of income tax benefit at the U.S. statutory rate of 21% for the year ended December 31
+(1
+1
+The tax effects of temporary differences that give rise to the Company&#8217;s net deferred tax assets as of December 31
+1
+(1
+The Company has approximately $8
+635 of net operating losses (&#8220;NOL&#8221;) carried forward to offset taxable income
+ if any
+ in future years which expire commencing in fiscal 2037. In assessing the realization of deferred tax assets
+ management considers whether it is more likely than not that some portion or all of the deferred tax assets will be realized. The ultimate realization of deferred tax assets is dependent upon the generation of future taxable income during the periods in which those temporary differences become deductible. Management considers the scheduled reversal of deferred tax liabilities
+ projected future taxable income and tax planning strategies in making this assessment. Based on the assessment
+ management has established a full valuation allowance against all of the deferred tax asset relating to NOLs for every period because it is more likely than not that all of the deferred tax asset will not be realized.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for income taxes. Disclosures may include net deferred tax liability or asset recognized in an enterprise's statement of financial position
+ net change during the year in the total valuation allowance
+ approximate tax effect of each type of temporary difference and carryforward that gives rise to a significant portion of deferred tax liabilities and deferred tax assets
+ utilization of a tax carryback
+ and tax uncertainties information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+The Company has authorized 300
+000
+000 common shares with a par value of $0.0001 per share.&nbsp; Each common share entitles the holder to one vote
+ in person or proxy
+On August 20
+ 2019 the Company issued 41
+000
+000 shares of common stock to its founders for a subscription amount of $41
+000. As of December 31
+ 2019
+ the subscription amount of $41
+On August 20
+ 2019
+ the Company issued 39
+000
+000 shares of common stock for a subscription amount of $209
+204. As of December 31
+ 2019
+ $207
+904 of the subscription has been paid with the remaining $7
+600 of the subscription has not yet been paid
+On December 1
+ 2020
+ the Company issued 11
+500
+000 shares of common stock for a subscription amount of $79
+000. As of December 31
+ 2020
+ $1
+000 of the subscription has been paid with the remaining $78
+000 of the subscription has not yet been paid
+ and is reflected as a stock subscription receivable on the accompanying financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for shareholders' equity comprised of portions attributable to the parent entity and noncontrolling interest
+ including other comprehensive income. Includes
+ but is not limited to
+ balances of common stock
+ preferred stock
+ additional paid-in capital
+ other capital and retained earnings
+ accumulated balance for each classification of other comprehensive income and amount of comprehensive income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+Management has evaluated subsequent events through the date these financial statements were available to be issued. On January 11th
+ 2021
+ the company issued 2
+400
+000 shares common stock
+ and the subscription amount of $11
+400 has been paid. The company also issued 500
+000 shares common stock as non-cash bonus. On February
+ 22
+ 2021
+ the company issued 1
+600
+000 shares of common stock
+ and the subscription amount of $80
+The Company signed a three-year lease with M&amp;M Highland Road Properties to rent the office space
+ starting from January 15
+On March 25
+ 2021
+ the Company purchased inventory of $103
+125 from Australian Trefoil Heath Technology
+ which is owned by Li
+ Yang
+ the Treasurer of the Company. The treasurer also owns 1
+000
+Based on managements&#8217; evaluation
+ no events have occurred that require disclosure or adjustments to the financial statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue
+ purchase of a business
+ settlement of litigation
+ catastrophic loss
+ significant foreign exchange rate changes
+ loans to insiders or affiliates
+ and transactions not in the ordinary course of business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+&#8221; The Company is devoting substantially all of its efforts to the development of its business plans. The Company has elected to adopt early application of Accounting Standards Update No. 2014-10
+ Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting Requirements; and does not present or disclose inception-to-date information and other remaining disclosure requirements of Topic 915.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In accordance with ASC 720
+ &#8220;
+
+
+
+
+
+Cash includes cash in banks
+ money market funds
+ and certificates of term deposits with maturities of less than three months from inception
+ which are readily convertible to known amounts of cash and which
+ in the opinion of management
+ are subject to an insignificant risk of loss in value.
+
+
+
+
+The Company accounts for income taxes using the asset and liability method in accordance with ASC 740
+ &#8220;Accounting for Income Taxes&#8221;. The asset and liability method provides that deferred tax assets and liabilities are recognized for the expected future tax consequences of temporary differences between the financial reporting and tax bases of assets and liabilities and for operating loss and tax credit carry forwards. Deferred tax assets and liabilities are measured using the currently enacted tax rates and laws that will be in effect when the differences are expected to reverse. The Company records a valuation allowance to reduce deferred tax assets to the amount that is believed more likely than not to be realized. As of December 31
+ 2020
+ the Company did not have any amounts recorded pertaining to uncertain tax positions.
+
+
+
+
+The Company adopted the provisions of ASC Topic 820
+ &#8220;Fair Value Measurements and Disclosures&#8221;
+ which&nbsp;defines fair value as used in numerous accounting pronouncements
+The estimated fair value of certain financial instruments
+ including cash and cash equivalents are carried at historical cost basis
+ASC 820 defines fair value as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy
+ which requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. ASC 820 describes three levels of inputs that may be used to measure fair value:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for basis of accounting
+ or basis of presentation
+ used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for cash and cash equivalents
+ including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents
+ (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk
+ (3) the classification of any negative balance accounts (overdrafts)
+ and (4) the carrying basis of cash equivalents (for example
+ at cost) and whether the carrying amount of cash equivalents approximates fair value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for fair value measurements of financial and non-financial assets
+ liabilities and instruments classified in shareholders' equity. Disclosures include
+ but are not limited to
+ how an entity that manages a group of financial assets and liabilities on the basis of its net exposure measures the fair value of those assets and liabilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for income taxes
+ which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances
+ recognizing investment tax credits
+ operating loss carryforwards
+ tax credit carryforwards
+ and other carryforwards
+ methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for start-up costs. Start-up activities include those one-time activities related to opening a new facility
+ introducing a new product or service
+ conducting business in a new territory
+ conducting business with a new class of customer or beneficiary
+ initiating a new process in an existing facility
+ or commencing some new operation. Start-up activities include activities related to organizing a new entity (commonly referred to as organization costs).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+
+
+
+
+
+
+
+(1
+1
+328
+
+
+
+
+1
+(1
+813
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of the components of net deferred tax asset or liability recognized in an entity's statement of financial position
+ including the following: the total of all deferred tax liabilities
+ the total of all deferred tax assets
+ the total valuation allowance recognized for deferred tax assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+324)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2020
+Dec. 31
+ 2019
+
+
+
+
+
+
+
+
+
+
+
+328)
+
+
+
+
+
+
+
+328
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Dec. 31
+ 2020
+Dec. 31
+ 2019
+
+
+
+
+
+
+
+
+
+
+
+813
+
+
+
+
+
+
+
+813)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+635)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+Aug. 20
+ 2019
+Dec. 31
+ 2020
+Dec. 01
+ 2020
+Dec. 31
+ 2019
+
+
+Common stock
+ shares authorized
+
+
+
+000
+000
+
+
+
+
+000
+000
+
+
+
+Common stock
+ par value
+
+
+
+
+
+
+
+
+
+
+Common stock
+ shares issued
+
+000
+000
+
+
+500
+000
+
+
+500
+000
+
+
+000
+000
+
+
+
+
+
+
+
+000
+
+
+
+
+904
+
+
+
+
+
+204
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+Shares issued to founders
+ shares
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mar. 25
+ 2021
+Feb. 22
+ 2021
+Jan. 11
+ 2021
+Dec. 31
+ 2020
+Dec. 01
+ 2020
+Dec. 31
+ 2019
+Aug. 20
+ 2019
+
+
+
+
+
+
+
+
+
+
+500
+000
+
+
+500
+000
+
+
+000
+000
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+904
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600
+000
+
+
+400
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+400
+
+
+
+
+
+
+
+
+
+
+
+Subsequent Event [Member] | Li
+ Yang [Member]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Related party transaction
+ description
+
+125 from Australian Trefoil Heath Technology
+ which is owned by Li
+ Yang
+ the Treasurer of the Company. The treasurer also owns 1
+000
+000 shares of the Company. This transaction is a related party transaction. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The increase (decrease) during the reporting period in the aggregate value of all inventory held by the reporting entity
+ associated with underlying transactions that are classified as operating activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A description of the related party transaction
+ including transactions to which no amounts or nominal amounts were ascribed and such other information deemed necessary to an understanding of the effects of the transactions on the financial statements. Examples of common related party transactions are
+ sales
+ purchases and transfers of realty and personal property
+ services received or furnished
+ loans and leases to and from top management and affiliates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 Financial_Report.xlsx
+
+O87!P+GAM
+&ULS9+!
+
+
+#;T^/+\NZE1LR
+
+
+M96UE+W1H96UE
+
+
+7K5::0##.'W)$Q+#W(*+$MX%,O6
+M7.!;&B\CUNJTV]U6A&ELH1A'9&!]7BQH0-!445IO7RTY1\S^!7+5(UEHP$3
+
+YV?/;$[9^
+
+
+
+
+
+
+
+MG\#L_6@^GO'M^MDDA*^:62TC%I!+@;-!)+C\B\KP*L0)Z&1;)0G+5--E-XH2
+
+M]+'
+
+
+
+
+
+
+N2D5SJT^.7]%+(.&3E[2)1(4BK 
+!2$7
+
+
+W)#V%0E\Z[:)@N%V^)4S;L:OB9@
+
+
++$CN'MB[\!4$L#!!0    (
+M #*$]U+\NDJ.4 0  
+
+
+
+
+
+ME/1
+
+MH=@\3*FFXZ$4.R3-U4 S&S:9-AJ&'W
+S[PLMX6P
+
+HB[ZL9BB/S[]
+M.?0T0
+$<[N[7W?V7T01E@@/+YP)_OMBJ;2$(O_'
+
+J$
+M3468@6EI]/B^K4V8.QS[W6N'BK-2Q9D3<P$2(BOC*J'K.AGN^!5-%'/H.]U
+
+
+M]\9MIU2MHN
+
+
+2RDVK;IX:0 TN2BI_
+
+
+
+
+
+VB
+T(\)ZFB#'/$7)0=Q=@ZT*VO&WO1B
+
+VLLR(3%?]-0
+
+
+M(8@439 2:9)YY''/G@^_**Q#7(AS2W%NK;C5\VJT
+&[ 49)[]4!CY$RPZLAY
+
+
+T[!%
+M4Q#@C*I
+
+
+MK@KK5XT&F.T@5*'QU%V0=T=ARU^@B
+
+
+
+
+
+
+!ZXDR]AWALZFW!3PJU[(V12;+B?&LF
+
+&:
+-
+
+
+
+WXQSW/]
+
+
+
+
+
+
+
+
+MT+G1WA -S=2_
+
+
+
+
+
+MWMP/(1/[TR28+&HT[9*F;:1YG$0ZQ((J:L+*%=H&+)-%#2LHL0(CUI?9)(K0
+M=#9Y?IDW(04WD4P6-:1.B=0QKHAB$8R_H/#'-!Q'Y[FJB79+T:XY3I(1CA.$
+KBKMKKNZCE'%)_\-Z
+M?F$KF#86$L54+-DNDXV<K=N<)I,Z9U7V77/=?\:4HSU.=@3JSC\P@\#8)A$P
+MQX33O:Y **%X01,J?S5RW^X*1I,Z=]477'-C*K1R=)$GXI5T#S&W.X41I
+Z
+
+M!D.9O%-#
+
+
+MA/=2SEVV_V
+
+M0.S
+
+
+]GW
+J665[XODXP46%[R)6'ZS9R+ BN]% M?
+
+
+
+UR[BQLCO.&9E;J^IT 7/A2L'I8W63G3!7OQ-
+
+
+
+
+S
+!X3^@SVV+
+
+
+E+@05S:$YHB+4_IDLY)BE%2@/+-=QPGM'*6%-1U7
+
+
+N
+
+
+
+
+
+B4+,]=J]\ABFI;5
+M_7/8YR^H
+
+HDR
+M5,3X&V!;1#$#B(.+W=,9<)UOX@-'NM ;&65).V<EBO'$$C6+8?JK2DP2/4:
+
+
+
+M(]0FF++7&.MT'BB#$Q4^=*H_O9B@$1-\5LPABKH[
+
+
+
+^#!_MHT4J0.'=-V
+M@\ZQ-SL?K91OJ;FL*5O[Q ^#D==)06T7=F1WTJ!E&P;*KM/8#2*EUBQU9OU)
+
+N-%8#OS\4QUD ?F08:(7B_8E2
+M.WH4F!)U;-?P
+_U:I\Z0)[6%*WD*E3P)![IY4GDBW^V:+31F@RH:/;$X#@S0
+M/#&8VXGK:#.C=O 1-*;FV
+:AN8^;^XE6SB54^ZSL .&HFP_53LKN)D2U\MS0
+
+
+MD[)Z9GXD7#R!5X=;C
+3 +0W$]0TA_/5$/H8W;X*F_P%02P
+$%     @ 
+H3W
+
+OV
+
+H=ZXJ
+
+
+!?UV.D[^\0FVZ7:
+
+
+
+M-;T-5B%
+PP4LEM%\$ZQMO+J V5T4A
+
+
+.[!H'\
+ON=['_ -NMD'EF_P7V=_(S7LI(96
+
+
+
+
+
+
+M_.S6GY^Z-AIMU:T7H:UKZ9\OE'&;L\'18/O@JUY5D1Z
+ST\;N5)W*CXTMQYW
+
+
+
+J:SY':'&-]
+
+I#]TO$9Q(V5
+
+:%UG
+P\(LR1)8/R20K)7S9)OO%($GN!7=(QJ/V
+MMLWVU1
+
+M&E'=?'SST  * 1)7E@'@2WBJ4LX)DK]
+)\
+.DTFDS2+\].C#4
+QEJ-(?H
+:T
+M)7PMTAT:NWT
+
+42F
+
+
+U$
+@SE
+
+MB%^VD6A%&JAM@MT* 60DU( XUID
+
+M
+
+
+
+
+
+KD/6RA2!%K
+.?2B=86Z9Z]Y59!;7XD
+
+
+HA$41VZ3MT@ 4]Y?J
+
+
+
+
+
+
+
+MD\VY(-0H R
+
+
+
+
+
+
+
+XGUHD
+
+
+
+M_-
+/WR
+5X
+G@U#A2**L1NZA3IJ%VI*WWO-N/+R^6Q0JH :5J'E X0'8;2T%V
+MP:Y$-UDFU41E
+
+
+
+
+
+UP!7P+'R[2#\(URGC06%/J?/;J109N
+
+
+
+
+
+M#$%ES2=;\3G)7D3\P/F )N
+
+
+H3RRH0-.1ZQGZM(T67;$Y=W2C[\
+M/TVR\
+
+
+
+MUHBY(@Y%75DBMK!0
+\/+LNZ3+@E1^[+891M;WU55H$6E\TJ656
+(IFCYN005
+
+
+
+
+
+
+
+DY/3@;5W!M\X
+
+
+=
+MO
+
+
+:K0M.Q
+Q?.=K:
+
+
+M0??%
+OD-4$L#!!0    ( #*$]U)A_%3_J@
+
+
+
+MUWZ(8YO7U* =ZI842TIM&G2\-55L6T-8!*-&QEF2G
+
+
+
+
+M1UO#6JO.AB@^T]KX
+
+
+
+
+
+M51I_
+2AJ-^/1CXK57]D:V5P9.E=94
+
+
+
+EY;(YQ:7@QFD_=7DS$)\(F_M-KXSF]!H2RL?:2+Z_QB
+
+
+
+6#
+MT72%?(2H=U8IIS
+I7GV9S6Y?]V7F39N9-[TA/7A%BI4/NB(K^Y+2KX&2 H*N
+
+
+
+
+MAZ1\.L@Q7//
+
+M0H6-4N8GMMK1#)
+
+D)TV
+
+
+
+F
+
+
+
+MH&;^Z.B/@Q___$\+2.=0U0DAXG
+[WO/N
+
+
+Z75B
+^8N-[+T
+
+
+
+
+%EB%M@[
+$:=[T#@RQ5_
+
+MQNK?AG@059.3J YTN+ZJ4+
+
+
+
+
+D
+MBCZ%E2A5
+
+
+
+
+
+
+
+MA7E)^P0\BN=Z[]PN18JC@)O+HGG!8 S\PP
+
+GDAM5
+
+MHX '%-V5;[^4=^R$['FL6*D6(+6UD K#&K(#KH3)6
+
+
+
+
+$%
+M  @ 
+
+
+
+
+
+
+
+
+0HER=_N%
+N9OQ?:4
+
+^?L\)/DDW
+
+;&9S*5\L9.'8N@%UA!PR-$2
+
+
+
+
+
+
+MD\YH\M'2PM;T/7W47?*N1
+&!M7
+1C3%_[P96H):N
+
+M_
+
+
+
+
+DB*+E&C$N)4J($.](1ZHF(I5# VLH
+
+
+H8V[TF-/
+M&_]'Z6?HAAW=T-,-/Z!;D(/(*ZYO:L.DMI9EU,8W,D[#36Y/=;)E''M&9Y]=
+M^O5Z'(^2<'=R*@3
+CHK9 8V
+Z+VCUX7[%YEN@*&_)61-C@EXRR?&PLWMN89
+N-D(99F$@J#]WA55
+
+2= 
+S_0M02P
+$%     @ 
+H3W
+
+M
+
+Z9\QBLAVJ)G:
+
+F*(HDD]#QNR#5RIP26!WOV*]5\:*8
+
+
+AK@TQ/@QG'X[.3L
+MA^+WS.B6]A5?/81O@F)8_&'$QO%?[X +(04,0 S'A**_Q[:G=N3$SJ*4!XD
+MFU'7*#X#?5,MY93(/=5VJ=I^@^H44K!48::U.9$;D6#T1'YS0.I_PW;T^F4
+M.IVWNXL9RQJ='3MUO[PF8R?U0
+
+
+M='
+
+
+
+M2FY
+
+
+MA4&
+#P)D&D5
+
+$K;#%:KGY$'0RBRU;(((8QGP
+
+MY
+
+
+V?9$U1$93
+
+MJZW;PQI\V8S?ICM*G56'OZEDI^R]3J;/O:!OQJ.(7E_4X]X+2)\)E!!(F;YO
+
+MBN3=8J^/?]UCM$;Q=T
+
+MITFB+B/384T'=VRG6Q^L;;U^P:Q&\X\8
+H4;JH101UQ9)E@U&+AIBR7K5?
+T/-C'O+=L04'/_!\:GS@AYC4K8]EH5J@R*1
+M3*8A=:O7EUH@_9'E;LLE%SKD&WJ-OT__1454$R=Y8M;9W1.'HAF6VHZQ3S
+
+M+Q1/LCEFS15-1=FE3]
+ZBU ^UO.U6FA#93S_^1?4$L#!!0    ( #*$]U*-
+M; ; 0
+
+!#^*\8=HX-1)_'J
+
+
+
+
+
+
+
+
+
+M
+
+
+
+V\()#PQ
+1BA;O
+
+
+'7%$A5=NC'1]KQAW1G0_15O$198J((59D+/AV
+I^(!*X
+MF&.A^Z]).QL^&8B7%L1+MXA9'N;Q+(8Y0. YG$:Y@FF0%W98&[^DX*
+PF
+
+
+
+
+
+
+'R
+F
+
+
+
+
+H3W4G
+0-NWN    *P(  !$
+
+
+              ( !S $  'AL+W1H96UE+W1H96UE
+2YX;6Q0
+&UL4$L! A0#%     @ ,H3W4E3X;V#?
+M P  , T  !@              (!DPP  'AL+W=O<FMS:&5E='
+
+
+RYX;6Q02P$% ,4      RA/=2
+&UL4$L! A0#%     @ ,H3W4LY=MO]C P  $0L  !@
+M     (!5A<  'AL+W=O<FMS:&5E='
+
+
+&UL4$L! A0#
+M%     @ ,H3W4N/9;4EL!P  YA$  !@              (!3R(  'AL+W=O
+
+
+
+
+
+M60
+
+M
+
+H3W4F'\5/^J P  #P@  !D
+
+
+
+&PO=V]R:W-H965T<R]S:&5E=#$V+GAM
+M;%!+ 0(4 Q0    ( #*$]U(L&!?7, (  (H%   9               @5Q)
+
+
+M970Q.YX;6Q02P$% 
+4      RA/=2Y_+F=S$#   #P  &0
+
+M #*$]U*+ZW8:P0
+   L
+
+M971S+W-H965T
+
+H3W4HUL(!L! P  C0\   T
+
+MEXJ['
+     3 @  P              @ 'E6   7W)E;',O+G)E;'-02P$
+M% 
+
+
+
+
+#(P
+3(S
+2YX
+
+
+G.@V'UZVW^2@HYJ
+MNH9C90F
+?)C2S'6L3
+
+
+
+
+
+CGI7<X@DM*XM=Z
+=4<E9$%] Y321E9R
+_MYH:[
+
+M(+SJ;&^9'#Y8HZ ]0I2#94^!6^'NZ?4A4-*-%%P06+H;61]*OE0^;:T.4[[8
+
+
+
+
+M
+RH**CF8U-ZF=%
+R]99/3
+
+
+
+
+MM3#
+7.
+[H- N'\R
+
+H#E/A;W2S4&F!
+
+O@LW!?&0DC+*(Y&44QEA5
+
+
+
+
+
+M'+U%:%40O6^*
+-#&7!LGW!(/Y
+
+
+XDCJD_;W687-W
+
+55Q\R]RW6.S4GMNQC8
+
+
+
+MDA-XA4A7X(Y*(0T-5
+
+
+
+@
+
+(K8%9NZ5X50%T)R; LN;
+M]^E-:-E;\PIMT2TILP?3KJ:J+=55V-S$(89J\5LP'IH.-BJGW.+:E847I7AQ
+
+
+TO5
+L=2'GU
+
+
+MRQPQAAC#X(\
+4%*
+
+
+
+MYD2H2*Y/77:JZKSZ_5_SUT5
+
+
+P.BB8I
+M7]AV8H$
+
+M!!UI0RI+*](-%G*YISHN0 (RN3H=T'5U' 2
+&QJ^T H]K*&BN&=[$QXP_76@(6$'9.L
+M;..G$J@054Z=%?#U1_Y&^LKQD^[QL:FP9_!YU@_N<
+&KJ'!=RA@*LPD*&_@
+H9IGG_
+
+
+
+M[&T(9SD
+Q#
+
+
+
+
+V8%=UI'?#=8C'IQP
+
+J
+-[@[HL@\]RN+8-Z Z^!
+UT[GJ
+R#1-5
+
+M^#Q1
+
+
+$&.(( B6)[-FW^:6W \MC(GKF54L
+
+U
+
+
+
+
+MM4Y[)PC[GCG8=FYHDBA3:1C*%=D8O&-,4S;CTT@&NW*@=\L1=@\NN.):2B3
+M3$&AE&&E%TLF-E- 727A65@G&0&A;](=-LTR
+
+
+#L'#&M(!1
+
+MW9
+
+Q?PVS
+1QAAAE
+
+
+
+
+MKG
+
+
+
+
+](QM
+
+
+H
+
+
+
+M7S2+69*;%2#PSEC]CA=(UE/&
+
+
+B$C
+
+1
+
+Y99B-0];H#\6
+6R%#'JFK
+]8
+
+SIYG9Z3]AX;KS=[.PWV+DLLV '=9@2
+M9_U2G$
+M6DW5+T=.%03HR)B@
+
+(BZE00
+
+
+ME/_(/H/ZV/+R.*I2J. AV;!2TH=F V^F0[60KT7.SK)3A0YMAWW(2C&Z=WI;
+
+
+
+
+
+
+NBX3X;@
+OKE&;)'#QPC:
+
++D2-_:480PGQ
+
+
+M'21JPL1
+
+U;O^A%(F7F716$EC*U8
+R-NUGN(P
+
+
+
+
+MOD]Z6
+
+
+
+
+TT0WG!%%UQ%[K=Z'S.L
+
+
+
+
+
+
+
+
+
+
+
+YH?
+
+M42-T;WJLL._\$NYI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9C2YE0TJ
+
+
+/K7
+
+
+
+
+]%
+
+M*3
+
+
+M
+
+
+
+
+
+
+
+_W:WV4FWS*[N5LO](
+!Z&
+MX@\XF$8_D 0=M$SFBH&ET!YZA#ER$D*_TF?S5!K^(ND*X8;RMS'PQA_ 71
+MM3 Z3G:L[7G14CV)0OX0B0'E:1[F4HZ%)WYL(OXT=#;J7].W0F-I^AJ1 HYC
+M!Y)@F
+
+8%ET]
+M
+*<WS!H\L-J!\Y
+M54
+-I$JH;\V=6%
+
+!J@
+
+M+MOJ1-NB
+
+
+
+M0%G1[H5W'/T9RLEEW\L/C3A)EG^;*#YM-)\ZJF.A
+
+V
+
+;.J?':*
+M^GLH E5^T8-J9PLBJK%FD-]%A9:LP^<0KMJ*P#8*!-\=B2AM=HQMO?73]O /
+MDW/TO'@%\ X%T?5^; 5VY]M5 72(K'/G6X*&RA#).P'/PA5F7Y-Z72-@R =
+
+M#J4O
+
+R(60RSP5
+M+L
+
+
+
+
+G
+
+G_7$H?-/N^?@SJNP.HWL2<
+
+
+C:]SQ+5]BKS'7YH2\W6Y6TZ(7/[884(S_)Y
+
+
+*_'T0KNEAK;
+
+
+;3#WRZK4P1: W0',V33NABKOVDSL&_6*#G=Y
+
+
+
+
+$(
+JTWA?AK
+N!E=:)1J^^HOL?AXP2\:+2\N/
+KK
+MP);GB*P$7[.J0N/5[$ZXT-FG?'5'%[;'G&\KAK_?;5'?3ML?=/8/_[UIG\
+
+MS-!]X45
+MSP9TCY:TH^R<#G^[!U4?ZM5VO_P/4$L#!!0    ( #*$]U+-$P.AW0D  -IJ
+M   5    9V1W;TR
+#(P
+3(S
+
+U7+
+MQ23I[J0F
+^4 2;N&8!:3WNY]Z1*V -48BY%
+
+^1
+
+
+
+
+
+
+XV4/V/^;Q;ME+9&
+
+
+
++Q=:NPB''5Q_9$)ML!*EXV#R@(N
+
+
+
+
+
+
+
+
+*$\[*X:_$'8X1K.4_%2)Y;-8WI@.H+\R8H6XL/+?9
+P
+M9%PU;+J)F'P
+CMQ!TR.K-;'$2[G\A//$6;Q:F0S&OF9G
+
+M+(60];V7]21V$L3+96ZDLBB)W@0@PEV.
+
+
+MA)0O-!G;O*Q18]Z+=Z2.[_W\2YH=X)[#C_E02%[0QZU&HK)U\GT
+?#_DC\V
+M&Q']#16[NXAB8KB1HMK+M/DHCV[=&
+$CAB/]O!
+
+
+
+
+\_JR4Z$YL@2&@O/EARK/EZ$9/^N8
+
+
+
+'P%I'BS/5XLMN-B'
+
+$ME'PA*SWK#G7\?[X2/YGX'X!_(]
+
+
+
+
+
+^QE
+M$)/1Y\EH0((26'DN
+%%PE 5$N#5&S+'KCOWE)392S[^@%V'?G(J.2$ F25%
+M3D@;5O!Q6@1P,J#;!X\1(5G1;WZG5]FOU= !RD9_?1W&@PZ!TY^K ]+
+M9B+3P@#/\(];!
+
+
+0!DP=$ 6 -0%1:LR'_
+M0*[[B^=_\S8(AKZ'K&48[E$@?.$\BIM2@7HK&T1&O 'QE\ EM#E #5 HD:
+M8'JM
+#DBI3TX4$1E(@&1!+$HJVQ8/&(@GO'N_\4^-^BARHZ*15
+M\J(4<)8@7%%MF%*&3D91 4PG=;)$WM+MVCG!Q'&M8E@M!?/*R)QI;&L4LBY
+
+D(:T*0
+ES H
+
+&).B 2'$J 3F@HJ1+9%(\'6XXR;
+M5_@SWB13(JO66 C!Y@U&05 #CE1A$QJ..&02VP^JTCIA2/Q&CBXIR3;(4@#*
+
+
+
+M
+
+
+.(OF
+
+
+
+
+QF^34:3#BZSNT)IH0
+
+&D LQ
+]8$0
+\[Y(7H!*E.;S&-2IOX
+
+8
+
+
+
+
+MRJ:Q2=\:CS3@MQ3(@L]^4
+
+FTQ-S2HV587G*F[T1FH&SH^60*VP.
+M1X-V?CR&UJ#_UB/$K?5;98@J(1=F
+
+#M2IVMMLN6JTX9T
+
+6A
+
+
+D0Z3I!3(X@[E;+OX3'(&
+I*<!$TJ@%::;
+
+
+
+MZY*3G
+C#G7)GGC6S'AV/7A)(K3$713MO4@J*]S3JM6=S#Z7E8[]H\
+
+M[FD3S(6)CBG3]#*846_%NRB\7%*&@JW21X-.1]7^4*6G48&1ORWI)TI:G9T0
+
+
+
+;@N?4?C9\?P@*1N&P@B;K&PK; /U
+
+
+M/P7BU(($L1:+[\
+
+M
+$0P]E%T8$)BY
+%D]:T#
+M0V:/Y
+
+
+EV(G/8KDHI/KC9
+
+
+
+MFU/.$/@AGO-^U
+
+MV-CD'0
+
+
+
+M1L:TJ\.ZZ11]R#
+
+W'E^M^J$A/+55JY
+
+
+MD;7T#MDP
+
+S._P[':*+#NO4M^L2[
+
+
+
+M%JM''GZ1! ^Y#?)14\L.Q!_2OYN$ANYQS\&'^5[0QE#*32;)\ P1!=(O9G
+
+
+
+
+
+MY9^/QQU#U26H
+
+
+M@!-^T\ES;1#H(7;$+%MV[**
+
+
+
+
+
+
+
+
+*N#9
+
+
+
+==D
+
+M.
+
+@!LEEU55M0]1
+
+M4@=!Q! ;[_?JNLW7[W:-@:KHMMS#KP#Z'6SRK8-[Z
+47XLU]+_1=QZ+_F'G6
+
+V3)Z75.'
+
+
+XP)0*2(U1;%1V&N@SX3)YZF0*KS3483H<ZYG5@)JGXJ<U
+
+MQE!*:[- :K?7[6EA+!OBYAK
+
+
+GWE*JURJ]2\
+
+0\PDAX@B\OI(YI?'AI1F4E6'P)&N.A
+M#J&*
+
+M^1JOPW2X^T
+
+
+
+
+
+G%?9TT]T68U/DVB#1+T5
+
+
+
+
+
+J$V[GD
+G7I.RO;.]M'
+M#W[@_(M??;A$G$6S.FTIRIC529O6A:OX'9[6A4Z*4\,X$&Y[;'YF$=T-JE
+M[ *F&Q30_E6
+
+ A'%%;X%HBQ&ARS#
+M5F7DFKQ?/*Q2[Q:KROXVQ?Y35_JP.O$WT
+E?YEPJJ:J8?RG08_%^KA@[_6&-
+M1Z
+
+UD'6QC^X\1MUT!T+A-6*G
+
+N-5ICUUI
+
+
+MU-4@-Z
+
+
+
+
+M=Q9%K
+
+6M
+
+R[Z@0!*4N4.1'EY\F5^_ E9%\@2D!E
+
+BOOL X0='9V:;U
+
+
+5489#3XE\K[;RYQ?U+H2C;I.2.5C3-%.U-E===H
+
+
+
+
+
+
+
+*-K9D8
+
+M3HU;R1AXOZ0F[JW0.4F@N4:
+M^GXYK%;'^%)#)G8;W-A=XL?DQ^Q]?A^@D&5(MNOQT3BT?\6%P#BAN'IVL4
+
+
+V/O-P(BFX
+M.&IT;JWFLK_GS6L)Y3F;!SGX62V8N3.=^(E,'.]T)B-YSR\SA9\_R7U_L(
+
+
+M!
+
+
+
+?%\OUFF+-3 <57#K& \&9%VPKA+)N\B+:MFD U
+
+8KP#5#-7V_8RU!R!K4$&CDY5=9YR[
+MG 41I
+-KB[(9TE\<AT,K:944%R#3AL.(6G9;,*+ *F1XB2(A)-& P<VG]3SN9&3R
+
+
+T$AW!9$2
+M [?K0R--H KY)_S
+
+
+
+X51X 6K&!N^Z3K-W)A+Y'JV1]D0VVF!KD%7
+
+FVZF#1 MS4'>()])48!58AB4
+
+8N0KGJ77TWTBNA% +HF,6
+M?!.P A507=.4*]F?WXT,ZZ6DQ^^G5%#+X=9
+
+
+ABX7-WS9Q2DM!.#;0LP=U4=6OX
+M3)4V?C;XV24D0I@4,9X-FY'1UK!
+
+
+
+
+MUJR3%DD3)!%R1
+
+%CJ-I(T%R
+M
+
+QAX 
+
+
+
+
+
+
+
+
+M=%.6ITP)EPF
+
+$*Q;.@
+
+
+
+WYY?/L#O S7T LHV7MUS8&KP8$L3!4\%M;72HT.3@1I%6(\
+
+#0461#D.RV+G)@Q;45 4_+
+
+
+
+
+
+H*DX
+
+94
+
+ME(]+\'9P&:96
+K;-E*B&62
+
+MU17E/GDTR]7.M.V)^\ZWP3$'-=%/D
+
+M
+
+
+
+
+
+MX(  GN@.Q^7&!L  QG&
+$G* 62@WUTU.G4(!KJKB?) ]Q&THA_XLO?*)W7B
+MDM1S\.,YC*+LB=:ZA5RGIE)('S=]2.^=\%O4OTIZA3/41Z-^8H-H3YL(Z3K
+MU
+=KAS-'39?Z2
+
+
+%J
+
+
+
+
+
+M*$3 1+)IQ)AH.PIM?.!5??)R4$22$N0
+1:O(@R%N7UGF]1E*%FDGL3
+1B9
+
+SSNZ.412U4G
+ZK?)('
+MNQIVT?K&0'$
+-S8$^&@KR3&<K<UGBQUM WT/\6!XYA1%./5L9HT?;Z&(
+
+5!NB@!_A;F
+
+
+MYC?DAX75YY__!U!+ 0(4 Q0    ( #*$]U(.%VPX
+  
+5G 0 1
+
+C Q
+C
+Q+GAS
+M9%!+ 0(4 Q0    ( #*$]U)\(R1([@@  M1   5                ;XL
+M  !G9'=L+3(P
+C Q
+C
+Q7V-A;YX;6Q02P$% 
+4      RA/=2S1,#H=T)
+M  #::@  %0              @ '?-0  9V1W;TR
+#(P
+3(S
+
+M4$L! A0#%     @ 
+H3W4CMN3UP!'P  \G8! !4              ( ![S\
+M &=D=VPM
+C R
+#$R
+
+
+end
+
+
+

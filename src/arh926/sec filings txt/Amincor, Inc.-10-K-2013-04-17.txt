@@ -1,0 +1,1559 @@
+
+
+ACCESSION NUMBER:		0001165527-13-000393
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		5
+CONFORMED PERIOD OF REPORT:	20121231
+FILED AS OF DATE:		20130417
+DATE AS OF CHANGE:		20130417
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Amincor
+ Inc.
+		CENTRAL INDEX KEY:			0001167905
+		STANDARD INDUSTRIAL CLASSIFICATION:	CANNED
+ FROZEN & PRESERVED FRUIT
+ VEG & FOOD SPECIALTIES [2030]
+		IRS NUMBER:				880376372
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-49669
+		FILM NUMBER:		13766927
+	BUSINESS ADDRESS:	
+		STREET 1:		1350 AVENUE OF THE AMERICAS
+ 24TH FLOOR
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10019
+		BUSINESS PHONE:		347-821-3452
+	MAIL ADDRESS:	
+		STREET 1:		1350 AVENUE OF THE AMERICAS
+ 24TH FLOOR
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10019
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	JONING CORP
+		DATE OF NAME CHANGE:	20020220
+
+
+
+
+
+
+                     U.S. SECURITIES AND EXCHANGE COMMISSION
+                              Washington
+ DC 20549
+                                    FORM 10-K
+(Mark One)
+[X] Annual Report under Section 13 or 15 (d) of the Securities Exchange
+    Act of 1934
+                   For the fiscal year ended December 31
+ 2012
+[ ] Transition report under Section 13 or 15 (d) of the Securities  Exchange Act
+    of 1934 (No fee required)
+        For the transition period from _______________ to _______________
+                        Commission file number 000-28865
+                                  AMINCOR
+ INC.
+             (Exact Name of Registrant as Specified in Its Charter)
+             Nevada                                              30-0658859
+  (State or Other Jurisdiction                                (I.R.S. Employer
+of Incorporation or Organization)                            Identification No.)
+1350 Avenue of the Americas
+ 24th Floor
+ New York
+ New York        10019
+        (Address of Principal Executive Office)                  (Zip Code)
+                                 (347) 821-3452
+              (Registrant's Telephone Number
+ Including Area Code)
+              (Former name
+ former address and former fiscal year
+                          if changed since last report)
+           Securities registered under Section 12(b) of the Act: None
+              Securities registered under Section 12(g) of the Act:
+                 Class A Common Stock par value $.001 per share
+                 Class B Common Stock par value $.001 per share
+Indicate by check mark if the  registrant is a well known  seasoned  issuer
+  as
+defined in Rule 405 of the Securities Act. Yes [ ] No [X]
+Indicate  by  check  mark if the  registrant  is not  required  to file  reports
+pursuant to Section 13 or Section 15(d) of the Act. Yes [ ] No [X]
+Check whether the issuer:  (1) filed all reports required to be filed by Section
+13 or 15(d) of the  Exchange  Act during the past 12 months (or for such shorter
+period that the registrant was required to file such reports)
+  and (2) has been
+subject to such filing  requirements  for the past 90 days.  Yes [X] No [ ]
+Indicate by check mark if the registrant has submitted  electronically or posted
+on its corporate  Website
+  if any
+ every  Interactive  Data File required to be
+submitted and posted pursuant to Rule 405 of Regulations S-T (ss.232.405 of this
+chapter)  during the  preceding 12 months (or for such  shorter  period that the
+registrant was required to submit and post such files). Yes [X] No [ ]
+Indicate by check mark if disclosure of delinquent  filers  pursuant to Item 405
+of Regulation  S-K is not contained  herein
+  and will not be contained
+  to the
+best of registrant's  knowledge
+  in definitive proxy or information  statements
+incorporated by reference in Part III of this Form 10-K or any amendment to this
+Form 10-K. [ ]
+Indicate by check mark whether the registrant is a large  accelerated  filer
+ an
+accelerated filer
+ a non-accelerated  filer
+ or a smaller reporting company. See
+definition  of large  accelerated  filer,  accelerated  filer, and  smaller
+reporting company in Rule 12b-2 of the Exchange Act. Check one:
+Large accelerated filer [ ]                        Accelerated filer [ ]
+Non-accelerated filer [X]                          Smaller reporting company [ ]
+Indicate by check mark whether the  registrant is a shell company (as defined in
+Rule 12b-2 of the Act) Yes [ ] No [X]
+To date
+  there has been no active  trading  market  in  Registrant's  Stock and
+therefore no market value has been computed.
+As of April 15
+ 2013
+ there were 7
+663
+023 shares of Registrant's Class A Common
+Stock and 21
+286
+344 shares of Registrant's Class B Common Stock outstanding.
+
+                                TABLE OF CONTENTS
+PART I
+ITEM 1.  BUSINESS...........................................................   4
+ITEM 1A. RISK FACTORS.......................................................  15
+ITEM 1B. UNRESOLVED STAFF COMMENTS..........................................  25
+ITEM 2.  PROPERTIES.........................................................  25
+ITEM 3.  LEGAL PROCEEDINGS..................................................  26
+ITEM 4.  MINE SAFETY DISCLOSURES............................................  28
+PART II
+ITEM 5.  MARKET FOR REGISTRANTS COMMON EQUITY
+ RELATED STOCKHOLDER
+         MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES..................  28
+ITEM 6.  SELECTED FINANCIAL DATA............................................  29
+ITEM 7.  MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION
+         AND RESULTS OF OPERATIONS..........................................  30
+ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK.........  52
+ITEM 8.  FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA........................  52
+ITEM 9.  CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS AND FINANCIAL
+         DISCLOSURE.........................................................  52
+ITEM 9A. CONTROLS AND PROCEDURES............................................  53
+ITEM 9B. OTHER INFORMATION..................................................  55
+PART III
+ITEM 10. DIRECTORS
+ EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE.............  55
+ITEM 11. EXECUTIVE COMPENSATION.............................................  59
+ITEM 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT
+         AND RELATED STOCKHOLDER MATTERS....................................  62
+ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS AND DIRECTOR
+         INDEPENDENCE.......................................................  63
+ITEM 14. PRINCIPAL ACCOUNTING FEES AND SERVICES.............................  63
+PART IV
+ITEM 15. EXHIBITS
+ FINANCIAL STATEMENT SCHEDULES............................  64
+                                       2
+
+                                EXPLANATORY NOTE
+In this Annual Report on Form 10-K
+ unless the context indicates otherwise
+  the
+terms Amincor, Company, Registrant, we, us and our refer to Amincor
+Inc.
+ and its subsidiaries.
+              CAUTIONARY NOTE REGARDING FORWARD-LOOKING STATEMENTS
+This Annual Report on Form 10-K contains forward-looking statements that involve
+substantial risks and uncertainties.  These  forward-looking  statements are not
+historical  facts
+ but rather are based on current  expectations
+  estimates and
+projections about us
+ our industry
+ our beliefs
+ and our assumptions. Words such
+as  anticipates,   expects,   intends,   plans,   believes,   seeks,
+estimates, would, should, scheduled, projects, and variations of these
+words  and  similar   expressions  are  intended  to  identify   forward-looking
+statements.  These  statements are not guarantees of future  performance and are
+subject to risks
+ uncertainties
+ and other factors
+ some of which are beyond our
+control  and  difficult  to predict  and could  cause  actual  results to differ
+materially from those expressed or forecasted in the forward-looking statements.
+The forward-looking  statements in this Annual Report on Form 10-K speak only as
+of the date  hereof and caution  should be taken not to place undue  reliance on
+any such forward-looking  statements.  Forward-looking statements are subject to
+certain events
+ risks and uncertainties that may be outside of our control. When
+considering  forward-looking  statements
+ you should carefully review the risks
+uncertainties and other cautionary statements in this Annual Report on Form 10-K
+as they identify  certain  important  factors that could cause actual results to
+differ  materially  from those  expressed  in or implied by the  forward-looking
+statements.  These factors include
+ among others
+ the risks described under Item
+1A Risk  Factors and  elsewhere  in this Annual  Report on Form 10-K.  We do not
+undertake any obligation to update or reserve any forward looking statements.
+                       WHERE YOU CAN FIND MORE INFORMATION
+We are required to file quarterly and annual reports and other  information with
+the United States Securities and Exchange Commission
+  (SEC). You may read and
+copy this information
+  for a copying fee
+ at the SEC's Public Reference Room at
+100  F  Street
+   N.E.
+   Washington
+   D.C.  20549.  Please  call  the  SEC  at
+1-800-SEC-0330  for more  information  on its  Public  Reference  Room.  Our SEC
+filings will also be available to the public from commercial  document retrieval
+services
+ and at the Web site maintained by the SEC at http://www.sec.gov.
+Our website is located at http://www.amincorinc.com. The website contains a link
+to the SEC's Web site
+ where electronic copies of the materials we file with the
+SEC are available for viewing (including annual reports on Form 10-K
+  quarterly
+reports on Form 10-Q
+ current reports on Form 8-K and other required filings).
+                                        3
+
+                                     PART I
+ITEM 1. BUSINESS
+                                  AMINCOR
+ INC.
+HISTORY OF THE COMPANY
+Amincor
+  Inc. was incorporated under the laws of the state of Nevada on October
+8
+ 1997 under the name GSE Group
+  Inc. GSE Group
+ Inc. was originally formed to
+provide consulting services for reverse mergers to public shell corporations and
+private companies  seeking to gain access to the public markets.  On October 20
+1997
+  GSE Group
+  Inc.  changed its name to Global Stock  Exchange Corp. and on
+April 28
+ 2000
+  Global  Stock  Exchange  Corp.  changed its name to Joning Corp
+(Joning).  In July 2000
+  Joning ceased its business  activities.  On March 8
+2002
+  Joning filed a Registration  Statement on Form 10-SB under the Securities
+Exchange Act of 1934 (the Exchange Act) as a shell company with the purpose of
+finding a suitable  company  for a reverse  merger  transaction.  Joning  ceased
+filing periodic  reports  subsequent to its filing of its Form 10-QSB on October
+24
+ 2004 as it did not have the  personnel  or resources to continue the filings
+and there  was no  operating  business  or  pending  business  transactions.  On
+February 2
+ 2010
+  Joning  changed its name to Amincor
+  Inc. On August 4
+ 2010
+Amincor
+  Inc.  filed its Form 10  registration  statement  and  became a public
+reporting company on October 4
+ 2010.
+OVERVIEW
+Amincor
+ Inc. is a holding company operating through its operating  subsidiaries
+Baker's  Pride
+  Inc.
+  Environmental  Holding Corp.  and Tyree  Holdings  Corp.
+Additionally
+  Amincor Contract  Administrators
+  Inc. and Amincor Other Assets
+Inc. are subsidiaries with minimal operations.  As of June 30
+ 2011
+  management
+elected to discontinue the operations of Masonry Supply Holding Corp. and Tulare
+Frozen Foods
+ LLC. As of September 30
+ 2011
+  management  elected to discontinue
+the operations of Epic Sports International
+ Inc.
+Amincor's officers and directors are responsible for the strategic  direction of
+the operating  subsidiaries.  The Company  accomplishes  this through  strategic
+planning
+  raising  capital  for  business  expansion  via  internal  growth  or
+acquisition based growth and exploring unique opportunities for each subsidiary.
+The  executive  management  team  of each  subsidiary  company  has  substantial
+experience in their respective fields and have  responsibility for the operation
+of their business unit subject to overall direction of Registrant's management.
+Amincor's  officers and  directors are actively  engaged with the  management of
+each  subsidiary.  Amincor is able to assist the subsidiaries in executing their
+business plans and in making necessary financial and other resources  available.
+This is accomplished through frequent site visits
+ weekly and monthly conference
+calls and various reporting  requirements such as budget to actual  comparisons
+cash flow  monitoring
+  accounts  payable and  accounts  receivable  management
+credit and collections
+  and periodic reporting by the subsidiary  management to
+Amincor.
+PERSONNEL
+Amincor is provided  personnel  from Capstone Trade  Partners
+  Ltd.
+ and office
+supplies
+  office equipment
+  office space and other materials  required for the
+performance  of its business  from  Capstone  Capital  Group I
+ LLC.  Currently
+                                       4
+
+Capstone has 14 full-time employees and no part-time employees including Messrs.
+John R. Rice III and Joseph F. Ingrassia who dedicate approximately 70% of their
+time to Amincor business.
+                      AMINCOR
+ INC.'S SUBSIDIARY COMPANIES
+                      AMINCOR CONTRACT ADMINISTRATORS
+ INC.
+Amincor Contract Administrators
+  Inc.
+ a Delaware corporation
+  incorporated on
+August 25
+ 2010
+ is a wholly owned subsidiary of Registrant formed to administer
+various contracts
+  related to certain assets held by Amincor Other Assets
+ Inc.
+and  the   subsidiary   companies
+   including
+   but  not  limited  to  certain
+international service contracts for Tyree Holdings Corp.
+                           AMINCOR OTHER ASSETS
+ INC.
+Amincor Other Assets
+  Inc.
+ a Delaware  corporation
+  incorporated  on April 5
+2010
+ is a wholly owned  subsidiary  of Registrant  formed to hold the rights to
+certain physical assets
+  including  plant
+  property and equipment
+  which were
+foreclosed on or assigned to Amincor
+ Inc.
+Amincor Other Assets
+  Inc.  holds the title to the 360
+000 square foot facility
+where Allentown Metal Works
+  Inc. formerly  operated.  The site has fallen into
+disrepair as a result of vandalism by local  thieves.  The buildings on site are
+functionally  obsolete and are not suitable as a modern manufacturing  facility.
+Any  purchaser  would have to raze the buildings on the 19 acre site and reclaim
+the  concrete
+  brick
+  wood and steel  infrastructure.  Estimates  have  ranged
+between  $750
+000 and  $1
+000
+000 to perform this work.  The property
+  prior to
+March 12
+ 2012
+  had been listed for sale for $3
+000
+000 and after six months of
+being on the market the price was reduced to $2
+250
+000. The only offer received
+during this  period was for  $200
+000.  The offer was  declined  and  management
+enlisted the services of an auction  company to inspect the site in anticipation
+of holding an absolute  auction.  After conducting a site visit with the auction
+company the auction company  declined to hold an absolute auction because of the
+conditions of the buildings  and the  vandalism  that has occurred.  The site is
+across  the  street  from a police  sub-station  and due to its size there is no
+adequate way to secure the  property.  All of the  buildings on the complex were
+locked
+  bolted and boarded up. There was evidence that the exterior  siding had
+been removed after which unknown  persons  entered the buildings
+  broke windows
+and locks and left the buildings  open.  Management  has expressed  concern that
+someone may inadvertently fall into one of the many machine pits that exist as a
+result of the removal of the heavy machine and milling  equipment  that had been
+sold
+ and injure themselves  creating a liability issue for the owner.  Based on
+these events and the advice of the auction  company
+  Management  has listed the
+property  for  sale for  $500
+000.  The  property  is  under  contract  with the
+Allentown Economic  Development  Corporation for $500
+000 less outstanding taxes
+due and owing on the  property.  The sale is  anticipated  to close on April 30
+2013.
+                               BAKER'S PRIDE
+ INC.
+OVERVIEW
+Baker's Pride
+  Inc.
+ a Delaware  corporation
+  was  incorporated  on August 28
+2008.
+Baker's Pride
+ Inc. (BPI) consists of three operating entities;  The Jefferson
+Street Bakery
+ Inc. (Jefferson Street Bakery)
+ The Mt. Pleasant Street Bakery
+Inc. (Mt.  Pleasant Street Bakery) and The South Street Bakery
+  Inc.  (South
+Street Bakery).
+                                       5
+
+Jefferson   Street   Bakery   produces   several   varieties  of  sliced  bread.
+Historically
+  its entire annual  production  of 19 million  loaves of bread and
+over 1.1 million  packages of donuts were sold to one client
+  Aldi
+  Inc.
+  for
+five  distribution  centers  that  services  332 stores in the  Midwestern  U.S.
+Jefferson Street Bakery
+  through various predecessor entities
+ had continuously
+supplied Aldi
+ Inc. for  approximately 34 years. On October 31
+ 2012
+ Aldi
+ Inc.
+terminated  BPI as a  supplier  to Aldi
+  Inc.  due to BPI's  inability  to meet
+certain pricing
+  cost and product  offering needs.  Jefferson Street Bakery has
+bid on new opportunities with Aldi
+ Inc. If these new opportunities materialize
+it is anticipated revenues from Aldi
+ Inc. would resume in the fourth quarter of
+2013.
+Mt.  Pleasant Street Bakery is under contract with two co-packers as of the time
+of writing
+  but is in negotiations  with many more who are involved in the sale
+of both finished and unfinished  yeast and cake doughnuts which are manufactured
+and flash-frozen bakery goods to be distributed to supermarket in-store bakery
+departments  and food service  channels.  As of December 31
+ 2012
+ Mt.  Pleasant
+Street  Bakery  facility  increased  its  frozen  storage  capacity  along  with
+extensive room for several additional  product lines. In addition
+  Mt. Pleasant
+Street  Bakery  has  completed  the  installation  of a state  of the art  donut
+production  system that can produce  and freeze many  varieties  of donuts at an
+average  production  rate of 26
+700 donuts per hour. This facility also houses a
+cookie  production  system which will produce cookies at a rate of 2
+300 lbs. or
+3
+000 one dozen packages of cookies per hour in a variety of sizes
+  flavors and
+shapes.  The  production  of brownie and cake type bakery  snack  products  will
+complete the first phase of the restart of Mt. Pleasant Street Bakery.
+The remaining  available  space
+  which management has deemed the final phase of
+the build-out of Mt. Pleasant Street Bakery's  260
+000 square foot facility
+  is
+currently being studied for development  which may include the installation of a
+high-speed bun and bread production  system. The bun system is being designed to
+produce an average of 6
+000  packages of buns per hour and the bread system will
+produce  an  average  of 6
+260  loaves  of bread  per  hour  (throughput).  This
+throughput  will  enable BPI to  respond to its  current  client's  request  for
+additional  products and volume.  In addition
+  it will also provide  additional
+capacity to attract  new  clients and  diversify  its  customer  base.  BPI will
+require additional funding in order to complete this project.
+In January 2012
+  BPI received a $2.75  million  dollar bridge loan from Central
+State Bank of State Center
+  Iowa.  This capital was used to acquire  additional
+equipment and to complete the  installation  and startup of its  production  and
+refrigeration  machinery for the new donut
+ cookie
+  brownie and cake production
+systems at Mt. Pleasant  Street Bakery.  Central State Bank of Iowa has verbally
+agreed to extend the term of the loan through January 2014.
+Major  transitions  are taking  place in the baking  industry.  There is growing
+utilization of frozen outsourced products rather than production from scratch at
+each site in the  in-store  bakery and food  service  channels.  However
+  one
+primary factor remains constant in all markets and in all categories:  consumers
+are demanding value.  BPI sees these major  transitions as opportunities to grow
+its business  and  diversify  its product  portfolio  and customer  base through
+direct sales and co-packing agreements.
+On August 12
+ 2011
+ the South Street Bakery began leasing  certain  property and
+equipment  located in Clear Lake
+  Iowa. In August 2012
+  based on  management's
+assessment of lack of  profitability  at the South Street Bakery
+  the lease was
+not renewed and operations  ceased at the South Street Bakery.  Operations  have
+been relocated to Mt.  Pleasant  Street where existing  employees and management
+can operate the cookie and  doughnut  lines  concurrently  depending on customer
+demand.
+                                       6
+
+CUSTOMERS
+Historically
+  BPI had significant  concentration  in one customer
+  Aldi
+ Inc.
+which  operates  over 332 grocery  stores in the  Midwestern  U.S.
+ of which BPI
+services  approximately  200. BPI has  expanded  its  customer  base through the
+introduction of additional  product  categories and SKU's.  Aldi was responsible
+for approximately 89.5%
+ 92.1%
+ and 100.0% of BPI's revenues for the years ended
+December 31
+ 2012
+ 2011 and 2010 respectively.
+On October 31
+ 2012
+ Aldi
+ Inc.
+ BPI's most significant customer
+ terminated BPI
+as a supplier to Aldi
+ Inc. due to BPI's inability to meet certain pricing
+ cost
+and product offering needs.
+BPI's  management  and  sales  team  has been  successful  in  establishing  new
+customers to replace the Aldi
+ Inc. bread business
+  however
+ the combination of
+new  established  customers is still less than the historic size of Aldi
+  Inc's
+business.  Additionally
+  management has diversified BPI's customer base and has
+executed  contracts  in  fulfillment  of this goal with both bread and  doughnut
+co-pack customers.
+BPI's management and sales team continue to seek new private label wholesale and
+co-pack  customers for the donut and bread  facilities and  anticipates  several
+large donut and bread  customers  to be under  contract by the end of the second
+and third  quarters  of 2013.  On March  22
+  2013
+  BPI  executed  a  Co-Packer
+Agreement  with one of the  world's  largest  family-owned  food  companies  and
+leading  supplier to the  foodservice
+  in store bakery
+  retail and  industrial
+marketplaces.  BPI will prepare
+ manufacture
+  process and package certain donut
+products  and  BPI  management  anticipates  annual  sales  to be a  minimum  of
+$1
+600
+000
+  with additional  donut products and additional sales possible if so
+requested.
+MARKETING
+BPI's goal in all markets it serves is to help its customers to be successful by
+providing  marketing  and  merchandizing  assistance  gained  over many years of
+experience  in the private  label bakery  business.  The focus of its  marketing
+activities will be on its private label wholesale and co-pack  customers  rather
+than  consumers  because in most  instances the products it produces are sold as
+private  label  brands or at retail under BPI's Flint Hills and Clear Lake Farms
+brands.
+Fresh bakery  customers:  Due to the freshness  cycle
+  BPI markets  directly to
+fresh bakery customers because of the limited geographic area it serves.
+Frozen bakery  customers:  BPI has expanded its product offering of frozen baked
+goods as a result of the investment at the Mt. Pleasant Street facility.  BPI is
+now shipping both frozen bread and doughnut  products  which have  significantly
+increased  its  geographic  reach.  BPI will continue to use its network of food
+brokers to assist in marketing this segment.
+COMPETITION
+The fresh  packaged  bread
+  bun and donut  market  is very  competitive  and is
+dominated by large  bakeries  whose  primary  focus is branded  bread
+  buns and
+donuts.  Of these
+  Grupo Bimbo SA de C.V. with its recent purchase of the North
+American Sara Lee Fresh Bakery  business and its previous  acquisition of Weston
+Bakeries USA
+ will have the most impact on this trading area.  BPI also competes
+with  Hostess  Brands  (which  has  recently  filed for  Chapter  11  Bankruptcy
+                                       7
+
+protection)
+  Campbell  Soup  Company  (Pepperidge  Farms)  and  Lewis  Brothers
+Bakeries
+  Inc.
+ an independent  regional bakery. BPI believes the efficiency it
+offers as a dedicated  baker of private  label/ store  branded  bakery  products
+gives it a competitive  advantage while  delivering  value to the consumer.  The
+liquidation  of the Hostess  bakery  operation  by the US  Bankruptcy  Court has
+created potential opportunities for BPI with regard to co-packing both bread and
+doughnut  products as a result of having excess capacity  available at its state
+of the art facilities.
+BPI's frozen products such as donuts
+  cookies and brownies will be designed for
+supermarket  in-store  bakery  departments  and food service  channels.  These
+frozen  products  will  face  competition  from  companies  such as Dawn  Foods
+Maplehurst  Inc.
+  Bake `n Joy
+  Inc. and CSM
+ a  multinational  company with an
+increasing  presence in the U.S. due to its acquisition of Best Brands
+ Inc. and
+Bake Mark
+  H.C. Brill.  There are also several one category  bakeries in larger
+cities in the Midwest with which BPI competes.
+INTELLECTUAL PROPERTY
+BPI received  approval from the USPTO for the trademark  BROWNIE CAKES
+ as filed
+with the USPTO  under  registration  number  3995128  which  will be used in the
+development  of its brownie
+  business.  BPI has been  utilizing the brand names
+Clear Lake Farms and Flint  Hills for its  proprietary  cookie
+  donut and bread
+products.
+INGREDIENTS AND RAW MATERIALS
+BPI's  primary  ingredients  are various  flours
+  sugars and other  sweeteners;
+soybean or other vegetable oil products;  salt
+ yeast and other leavening agents
+as well as commercial bakery pre-mixes.  When it begins production of the donut
+cookie and brownie categories it will add eggs
+ chocolate
+  butter
+  raisins and
+nutmeats to its primary ingredient list. BPI also uses a large amount of plastic
+and other  packaging  materials  to wrap its  products to ensure  freshness  and
+wholesomeness.  BPI's  facilities  use natural gas for ovens and donut fryers as
+well as electricity to power other equipment.  Some  fluctuations in the cost of
+these items are normal  because  most are  dependent on growing  conditions  and
+demand by consumers.  In most cases these normal  fluctuations can be managed by
+forward buying or fixed supply contracts.
+REGULATION
+BPI is a producer of bakery  goods
+  therefore
+  its  facilities  are subject to
+federal  agencies  such as the  Food  and  Drug  Administration
+  Department  of
+Agriculture
+   Federal  Trade   Commission
+   Department  of  Commerce  and  the
+Environmental  Protection  Agency with respect to processes used for production
+quality of products
+ packaging
+ and labeling as well as storage and distribution
+of products.  Under various  regulations and statues
+  these agencies  prescribe
+required and  established  standards  for quality
+  wholesomeness  and labeling.
+Failure to comply  with  these  agencies  requirements  may result in letters of
+warning
+ fines
+ or product recall.
+BPI's  operations
+  like others in the baking  industry
+  are subject to various
+federal
+  state and local laws in regard to environmental  matters. BPI believes
+that  compliance  with  existing  environmental  laws  and  regulation  will not
+materially  affect its financial  conditions  or its  competitive  position.  At
+present  BPI  believes  it is  substantially  in  compliance  with all  material
+environmental regulations.
+                                       8
+
+BPI's  products
+  operations  and  facilities  are  subject  to state  and local
+regulations which are monitored through  licensing
+  enforcement by state health
+and agriculture  agencies of various local and state standards and  inspections.
+The cost of compliance with such laws and regulations has not adversely affected
+on the BPI's business
+PERSONNEL
+BPI  currently  has 44  full-time  employees  and  believes  that  its  employee
+relations are good.  Once the bread and donut product lines are at full capacity
+the number of employees is expected to grow significantly. BPI's Chief Executive
+Officer is Robert  Brookhart
+  who formerly  served as the President of BPI. Mr.
+Ron Danko
+ formerly Chief Executive Officer of BPI
+ tendered his resignation due
+to attend to medical issues in 2012 and subsequently passed away.
+                           ENVIRONMENTAL HOLDING CORP.
+Environmental Quality Services
+ Inc.
+OVERVIEW
+On January 3
+ 2011
+  pursuant to a certain assignment and assumption  agreement
+Amincor  assumed all of the right
+  title and  interest  in and to certain  loan
+agreements and collateral of Environmental Testing Laboratories
+ Inc.
+ a company
+in the  business of  providing  environmental  testing and  laboratory  services
+(Borrower).
+Environmental  Holding  Corp.
+  a  Delaware  corporation
+  was  incorporated  on
+December 23
+ 2010
+  and is a wholly owned  subsidiary of Amincor.  Environmental
+Quality  Services
+  Inc.  (EQS)
+  a Delaware  corporation was  incorporated on
+January 5
+ 2011
+ and is a wholly owned subsidiary of Environmental Holding Corp.
+EQS provides environmental testing services in the northeast United States. EQS'
+services include RCRA (resource  conservation  recovery act) and hazardous waste
+characterization;  TCLP  (toxic  characteristic  leaching  procedure)  analyses;
+underground   storage  tank   analytical   assessment;   landfill/ground   water
+monitoring;  NPDES (national  pollution  discharge  elimination system) effluent
+characteristics  analysis;  PCB  (polychlorinated  biphenyls)  and PCB  congener
+analysis; lead paint testing; fingerprint categorization
+ petroleum analyses.
+The client  base of EQS ranges  from the small  engineering  firms to  well-know
+petroleum companies. EQS customers require rapid response
+  accurate results and
+the ability to provide our  services on a 24/7 basis.  EQS has had  longstanding
+relationships  with major utilities
+  large petroleum  companies and engineering
+firms.
+EQS  also  has  the  capability  to  provide  its  clients  with  specific  data
+deliverables in any required format.  Its in-house computer  programmer  creates
+the formats  necessary  for  individual  client  needs.  This service  saves its
+clients hours of data entry or re-formatting time.
+In January 2013
+ Amincor's management conducted an analysis of operations at EQS
+for the prior two years and has  decided  that it was more  prudent  to sell the
+existing  company  rather  than to  continue  to operate  it. As a result of the
+financial  crisis and the reduction in construction
+  the lab services  business
+has become commoditized with business going to the lowest bidder. Management did
+not believe that EQS would be  contributing  in a positive way to net income and
+                                       9
+
+elected to sell the company.  One of the managers of EQS elected to purchase EQS
+in exchange for the  assumption  of the accounts  payable and a $500
+000 note to
+Amincor Other Assets
+ Inc. which is collateralized with a secured lien on all of
+the lab equipment of EQS. As of the date of this filing
+ the Company has entered
+into a letter of intent for the sale of EQS
+ but no formal sale  documents  have
+been executed.
+CUSTOMERS
+EQS customers include petroleum companies
+ contractors
+ environmental consulting
+firms
+ utilities and municipalities.
+COMPETITION
+There are thousands of  facilities in the United States who classify  themselves
+as environmental testing laboratories. The scope of services provided range from
+sample collection
+  analysis and report compilation to simple analysis. A number
+of the companies in this business have multiple  locations
+  all operating under
+the same company name.  Several of those operate as national labs wherein they
+serve the US from one or two facilities  and use overnight  shipments to provide
+the receipt and delivery of laboratory tests.  These  laboratories are typically
+the low cost providers
+ but lack in the proximity
+ response and quality that EQS
+provides to its customers  through the  Northeast.  The unique  service that EQS
+provides is proven by the fact that most  clients  have been  clients  since its
+founding.
+Since EQS is a single  laboratory
+  working  with  clients in the  Northeast  as
+opposed to national accounts
+ our main competitors serve the same target market;
+local regulatory authorities
+ consultants
+ engineers
+ and municipalities.
+These local competitors include such companies as:
+American Analytical Laboratories
+Long Island Analytical Laboratories
+H2M Laboratories
+Analytical Chemists Laboratories
+ Inc
+EcoTest Laboratories
+There are several  factors  clients  consider  when  evaluating  a vendor in the
+environmental   analytical  field.  These  factors  typically  include:   labor
+equipment
+  technical support
+  pricing and the specific services available.  In
+this market
+  it is cost effective to have labor shifts to satisfy  clients that
+run emergency schedules
+  and have a need for services 24/7. Finding and keeping
+the right  personnel is also a challenge in a market that typically does not pay
+the highest salaries. In an effort to fight turnover
+  recruiting at the college
+level has proven to be beneficial - hiring competent technicians early
+ training
+them
+ and offering benefits such as reimbursement for schooling
+  flexible hours
+in an effort to ensure continuity of the employee base.
+Pricing is fairly  competitive.  The  marketable  difference can be found in the
+levels  of  product  deliverables  -  meaning  Quality  Control  packages  - and
+turnaround time - the time lapsed between sample submittal and delivered results
+to a client.  EQS'  quick  turnaround  time is a key  selling  point  with their
+clients.  Not many labs have the capability to turn out results in 24 or even 48
+hours.  Management  of a project from the initial  planning  stages  through the
+final  reporting
+  and  updating  the  client as the  project  progresses  is an
+                                       10
+
+invaluable  service
+  as  critical  decisions  are made based on the  analytical
+results. In determining the client's needs and adapting and modifying techniques
+and technology to meet and exceed the client's expectations
+  a satisfied client
+is EQS best testimonial.
+PERSONNEL
+EQS currently has 13 full time employees and believes that its employee
+relations are good. Ms. Patricia Werner-Els serves as the President of EQS.
+Advanced Waste & Water Technology
+ Inc.
+OVERVIEW
+Advanced Waste & Water Technology
+  Inc. (AWWT)
+ a Delaware  corporation
+  was
+incorporated on November 17
+ 2011. AWWT was inactive through April 30
+ 2012
+ and
+had no significant  assets or  liabilities as of April 30
+ 2012.  AWWT became an
+Amincor  company  as of  May  1
+  2012  and  is a  wholly  owned  subsidiary  of
+Environmental  Holding Corp. AWWT provides certain water remediation services in
+the northeast United States.
+On November 5
+ 2012 AWWT acquired the assets of  Environmental  Water Treatment
+LLC through an  assumption  of certain  liabilities  and  assets
+  a note to the
+seller in the amount of $50
+000 and the  requirement  to post a letter of credit
+to the New York State  Department of Environmental  Conservation  (NYS DEC) by
+June 30
+ 2013. AWWT has paid $25
+000 against the note since its acquisition date
+and believes it will meet its obligations  under the sellers' note when it comes
+due.
+AWWT is the only  licensed  water  treatment  facility  on Long  Island  that is
+capable of treating and discharging  petroleum  impacted water into the sanitary
+sewer system.  Since the acquisition  management has expanded the NYS DEC permit
+and is able to accept other waste water  streams other than  petroleum  impacted
+water.  AWWT's  President
+  Patricia  Werner-Els
+  was  selected as an EPA Panel
+member for water treatment technology and our technology has been highlighted in
+North Eastern Driller Magazine.
+CUSTOMERS
+AWWT's  current  customers  include major oil  companies
+  petroleum  marketers
+jobbers
+  municipal entities
+ school districts
+  industrial facilities and other
+businesses  which  regularly have water  accumulation  within their  underground
+storage tanks.
+COMPETITION
+There are many firms  operating  within  the waste  water  remediation  services
+industry.  They can be broken out into the following categories:  (1) Design and
+build  firms
+  which  consists  of  consulting
+   engineering  and  construction
+companies  who build  waste  water  treatment  facilities  to cater to  specific
+remediation needs
+ (2) Utilities and other treatment  operators
+  which consists
+of  businesses  that  produce  waste  water  and seek to have an off or  on-site
+remediation strategy for their waste water add (3) Wastewater equipment vendors
+which consists of businesses selling pre-made  wastewater  treatment  solutions.
+AWWT  seeks to  compete  in all of these  areas by  continuing  to  operate  its
+wastewater  treatment plant in  Farmingdale
+  NY and by utilizing its license to
+                                       11
+
+treat  wastewater  treatment  streams at their  source  with  electrocoagulation
+(EC) technology.
+AWWT has a geographic  advantage  as carriers of impacted  water that operate on
+Long Island are not  required  to pay tolls or drive  substantial  distances  to
+discharge their water at AWWT's facility. Management recently signed an expanded
+licensing  agreement  with H2O Tech
+  Inc.  to use their EC  technology.  The EC
+technology  provides for a non-chemical
+  green water  treatment  technology for
+agricultural
+  municipal
+  industrial  and frack  water.  The  Company  has been
+marketing its service  throughout the Marcellus and Utica shales and to selected
+water users in agricultural
+ municipal and industrial applications.
+Since AWWT is currently a single  wastewater  treatment  facility
+  working with
+clients in the Northeast as opposed to national  accounts
+  our main competitors
+serve  the  same  target  market;  local  regulatory  authorities
+  consultants
+engineers
+ and municipalities.
+These local competitors include such companies as:
+Advanced Waste Services
+Aquatech
+Clear Flo Technologies
+Paradise Energy
+ Inc.
+Lorco Petroleum Service
+AWWT operates in a highly regulated  industry.  This type of regulation directly
+affects  the type of  customers  and  wastewater  AWWT can deal  with.  The U.S.
+government has shown an increased willingness to enact and enforce environmental
+regulations and has set ambitious  targets in areas such as renewable energy and
+provisions  of clean water.  Because of this
+  AWWT is able to capitalize on new
+opportunities as legislation adapts to the changing environment.
+In addition to municipal
+  industrial and agricultural  markets
+ AWWT intends to
+become a full service environmental  treatment provider for large scale fracking
+projects providing residual waste processing services
+ on-site mobile wastewater
+treatment units and turn key solutions for wastewater disposal or reuse. AWWT is
+currently  working to solidify a  relationship  and is  exploring  a  wastewater
+treatment  opportunity  with a major driller in the Marcellus  Shale.  AWWT will
+utilize key resources within the Joint Land Owners Coalition of New York as well
+as other  environmentalist  organizations to strategically position the Company.
+Management  believes that water  recycling is a standard that will be adopted by
+most industrial  countries throughout the world in order to maintain fresh water
+supplies for their  populations.  EC technology can facilitate the attainment of
+this standard.
+PERSONNEL
+AWWT currently has 3 full time employees and believes that its employee
+relations are good. Ms. Patricia Werner-Els serves as the President of AWWT.
+                              TYREE HOLDINGS CORP.
+OVERVIEW
+Tyree Holdings  Corp.
+ a Delaware  corporation
+  was  incorporated on January 7
+2008.
+                                       12
+
+On January 17
+ 2008
+  Tyree Holdings Corp.  (Tyree)  acquired certain business
+assets and assumed certain liabilities of Tyree's predecessor  companies
+  which
+have  continuously  operated  since 1930.  Tyree is currently one of the largest
+multi-faceted  retail  petroleum  and  environmental  services  providers of the
+Northeast and  Mid-Atlantic  regions of the United States.  Tyree Holdings Corp.
+services  over 3
+000 gas stations from Maine to Maryland.  Headquartered  in Mt.
+Laurel
+  New Jersey
+  Tyree has additional  locations in New York
+  Connecticut
+Pennsylvania and Massachusetts.
+The U.S.  petroleum  refining and  marketing  industry is  experiencing  radical
+changes
+  with most major  petroleum  companies  divesting  their  marketing and
+retail distribution divisions. This strategy is leading to the creation of many
+smaller
+  independent  companies  which  own
+  in many  cases
+  hundreds  of gas
+stations  that  need  to  have  regulatory
+  maintenance
+   rehabilitation
+  and
+environmental  remediation work performed.  This shift is opening a niche market
+for  companies  able to  provide  these  independent  companies  with  strategic
+guidance
+  compliance
+  installation
+  maintenance and  environmental  services.
+Tyree is  positioned  to  provide a variety  of these  services  which  includes
+building  new  gas  stations
+   maintaining  existing  gas  stations
+  providing
+environmental   monitoring  and  remediation   services
+   professional  support
+services
+ and decommissioning gas station and bulk storage facilities for change
+in use.
+Tyree is organized  into three primary  business  units  including  Maintenance
+Environmental/   Compliance/  Engineering  and  Construction.   The  Maintenance
+business  unit  accounts  for  approximately  38%  of  sales  and  performs  the
+associated  maintenance  tasks  needed to keep a  gasoline  service  station  in
+operation. The Maintenance business unit performs about 50
+000 service calls per
+year; the Environmental
+  Compliance and Engineering  business unit accounts for
+36% of sales and performs the remediation  services needed to clean ground water
+and soil at sites where  petroleum  releases have occurred.  The  Environmental
+Compliance  and  Engineering  business  unit  has  about  350  locations  in its
+portfolio;  the Construction business unit accounts for 25% of sales and manages
+10 - 12 construction crews throughout the year. Its primary focus is the removal
+and installation of petroleum storage and delivery systems;  the remaining 1% of
+sales is related to Manufacturing  and  International  sales consisting of parts
+distribution and professional services.
+To better secure its position in the northeast
+ Tyree is aggressively attempting
+to expand its  current  customer  base and  increase  market  share.  A two-fold
+approach is being rolled out involving improved organic growth and acquisitions.
+In 2012
+ Tyree employee training coupled with capital  investment in technology
+is being employed to target improved customer  service.  Tyree will also seek to
+merge with or acquire one or two companies that would strategically  improve its
+service capability and yield top and bottom line improvements.
+CUSTOMERS
+Tyree's customers fall into four main categories:
+     1.   Traditional Oil Companies
+  including Getty  Marketing
+  Getty Realty
+          Gulf/Cumberland  Farms
+ Hess
+ Exxon
+  Shell
+ BP and Sunoco.  Contracts
+          are typically  multi-year and services are being provided by all Tyree
+          business units. This class of customer represents approximately 60% of
+          the  company's  total  sales.  Tyree  has  established  strong  client
+          relationships.  The largest contracts are with Getty Marketing
+  which
+          accounts for  approximately  39% of sales and  Gulf/Cumberland  Farms
+          which accounts for approximately 18% of sales.
+                                       13
+
+     2.   Oil Company Jobber/Distributors
+  including Arfa
+ Atlantic Management
+          Capitol Petroleum
+  Leon Petroleum
+  Green Valley and Wholesale Fuels.
+          Contracts are typically  multi-year and services are being provided by
+          all Tyree business units. This class is growing as the Traditional Oil
+          Companies divest sites and represents approximately 15% of sales.
+     3.   Prime Contractors
+  including GES
+ Kleinfelder
+ LIRO
+ Skanska
+ Whiting
+          Turner
+  and Tanknology.  Contracts are typically job specific and the
+          result of being awarded a competitively  bid project.  Projects may be
+          large  and  carryover  from  year to  year.  This  class  of  customer
+          represents approximately 15% of sales.
+     4.   One off contracts
+  including  various local and state  governmental
+          agencies
+ private and public sector companies and agencies.  Contracts
+          are  typically  job  specific  and  the  result  of  being  awarded  a
+          competitively   bid  project.   This  class  of  customer   represents
+          approximately 10% of sales.
+COMPETITION
+Tyree's  competition  varies  significantly  by business unit and can be divided
+into two segments:  (i)  Environmental  and Compliance  services and (ii) Pump &
+Tank  construction and maintenance  services.  The  Environmental and Compliance
+services segment includes  professional  services companies that tend to compete
+throughout  the  marketplace.  There are only a small number of  competitors  in
+Tyree's  market area and includes  companies such as Delta  Environmental
+  GES
+SAIC and Tanknology.  The Pump & Tank service  providers tend to be comprised of
+smaller
+ privately owned companies that are very competitive in their respective
+geographies.  However
+  they tend not to stray from their immediate market area.
+Many of these companies have been weakened by the recent economic slowdown.  The
+larger  companies in Tyree's  market area include Jones and Frank
+  LLC
+  Island
+Pump & Tank
+ Fenley & Nicol Environmental
+  and Gem Star Construction in the New
+York City/ Long Island  area
+  Salamone  Bros.
+  Inc in New Jersey
+  and Gateway
+Petroleum in the Philadelphia area.
+PERSONNEL
+Tyree currently has 139 full-time  employees and 4 part time employees
+  some of
+whom are represented by six different collective  bargaining  agreements.  Labor
+contracts  expired on December  31
+ 2012 for five of the six  bargaining  units.
+Tyree management has negotiated settlements with Local Union 99
+ Local Union 138
+and Local Union 355. Tyree management continues to negotiate with Local Union 1
+Local Union 25 and Local Union 200 over unpaid  benefits  that are due and owing
+to each of the  respective  unions.  Tyree  management  does  not  dispute  that
+benefits  are due and owing to Local Union 200 and Local Union 1
+  respectively.
+The  Local  200 and 1 Unions  have  filed  suit in  district  court and with the
+National Labor Relations Board to enforce their rights as to the unpaid benefit.
+Tyree  management  is  seeking  to settle the cases by  agreeing  to  multi-year
+payment  plans.  Notwithstanding  the  foregoing
+  management  believes that its
+employee relations are good.
+Tyree's  executive  officers  Steven F. Tyree
+  who serves as the  President and
+Chief  Operating  Officer
+  William M. Tyree
+  who serves as  Vice-President  of
+Business Development and Robert L. Olson
+ who serves as Chief Financial Officer.
+                                       14
+
+DISCONTINUED OPERATIONS
+On June 30
+ 2011
+  management  elected to discontinue  the operations of Masonry
+Supply  Holding  Corp.  and Tulare  Frozen  Foods
+  LLC. On September  30
+ 2011
+management  elected to discontinue the operations of Epic Sports  International
+Inc. (See Item 7 below).
+In accordance with Generally Accepted Accounting Principles of the United States
+of America  (GAAP)
+  the combined  results of Masonry  Supply  Holding  Corp.
+Tulare Frozen Foods
+ LLC and Epic Sports International
+ Inc. have been presented
+on our financial statements as discontinued operations. As of December 31
+ 2012
+the assets of Tulare and Epic have been liquidated.  The only remaining asset of
+Masonry is approximately $424
+000 in escrow as related to the foreclosure of the
+property.
+INTELLECTUAL PROPERTY/BRANDS
+Amincor has submitted  applications for the following trademarks with the United
+States Patent and Trademark Office (USPTO):
+         Trademark                                     Registration Number
+         ---------                                     -------------------
+MOMMY'S LITTLE SECRET TREATS                                 85330721
+GLU SENZA COOKIES                                            85403657
+SENZA GLUTEN FREE COOKIES                                    85403644
+CLEAR LAKE FARMS                                             85330997
+BLACK BOTTOM COOKIES                                         85403632
+MESSAGE COOKIES                                              85331009
+Certain  brands were owned by  Amincor
+  Inc. as a result of defaults by Whaling
+Distributors
+  Inc. and Caffeine Culture
+ Inc. Amincor
+ Inc. through a series of
+assignments
+  acquired the right
+ title and interest in the following trademarks
+as recorded with the USPTO:
+         Trademark                                  Registration/Serial Number
+         ---------                                  --------------------------
+CHARM AND LUCK                                     Registration Number: 3205784
+CHARM AND LUCK WORKING HARD TO MAKE YOU CUTER      Registration Number: 78848003
+CATCH THE DRIFT                                    Serial Number: 77713436
+NEWPORT HARBOR REFLECTING QUALITY SINCE 1969       Registration Number: 3764824
+NEWPORT H A R B O R                                Registration Number: 2285443
+NEWPORT HARBOR                                     Serial Number: 75272295
+NEWPORT HARBOR                                     Registration Number: 1319471
+S-Stimuli                                          Registration Number: 2482282
+In January 2012
+ Amincor assigned all of its worldwide right
+ title and interest
+in and to the Caffeine trademark
+ serial numbers 77 709 244 and 77 979 922
+ to
+a certain individual
+ as settlement in full for certain previous obligations.
+ITEM 1A. RISK FACTORS
+                  RISK FACTORS RELATING TO AMINCOR'S SECURITIES
+OUR STATUS AS A PUBLIC REPORTING COMPANY MAY BE A COMPETITIVE  DISADVANTAGE.
+                                       15
+
+We are  and  will  continue  to be  subject  to  the  disclosure  and  reporting
+requirements  of  applicable  U.S.   securities  laws.  Many  of  our  principal
+competitors are not subject to these disclosure and reporting requirements. As a
+result
+  we may be required to disclose certain  information and expend funds on
+disclosure  and  financial  and other  controls that may put us at a competitive
+disadvantage to our principal competitors.
+SHAREHOLDERS  WILL HAVE LITTLE INPUT  REGARDING OUR MANAGEMENT  DECISIONS DUE TO
+THE LARGE OWNERSHIP  POSITION HELD BY OUR EXISTING  MANAGEMENT AND THUS IT WOULD
+BE DIFFICULT FOR  SHAREHOLDERS  TO MAKE CHANGES IN OUR OPERATIONS OR MANAGEMENT.
+THEREFORE
+  SHAREHOLDERS WILL BE SUBJECT TO DECISIONS MADE BY MANAGEMENT WHO ARE
+THE MAJORITY SHAREHOLDERS
+ INCLUDING THE ELECTION OF DIRECTORS.
+Our  officers  and  directors  directly  own  6
+610
+934  shares  of the total of
+7
+663
+023  issued and outstanding  Class A voting shares of our common stock (or
+approximately  86% of our  outstanding  voting  stock) and are in a position  to
+continue to control us. Such  control  enables our  officers  and  directors  to
+control all important  decisions relating to the direction and operations of the
+Company without the input of our investors. Moreover
+ investors will not be able
+to effect a change in our Board of Directors
+ business or management.
+OUR CLASS A COMMON  AND  CLASS B COMMON  SHARES  ARE NOW  QUOTED ON THE OVER THE
+COUNTER BULLETIN BOARD UNDER THE SYMBOLS AMNC AND AMNCB
+ RESPECTIVELY.
+While the shares are now quoted on the Over the Counter  Bulletin  Board
+  until
+there is an established trading market
+  holders of our common stock may find it
+difficult to sell their stock or to obtain accurate  quotations for the price of
+the common stock. Even if a market for our common stock does develop
+  our stock
+price may be volatile
+ and such market may not be sustained.
+BROKER-DEALERS  MAY BE  DISCOURAGED  FROM EFFECTING  TRANSACTIONS  IN OUR SHARES
+BECAUSE  THEY MAY BE  CONSIDERED  PENNY  STOCKS  AND MAY BE SUBJECT TO THE PENNY
+STOCK RULES.
+Rules 15g-1 through 15g-9 promulgated under the Securities Exchange Act of 1934
+as  amended  (the  Exchange   Act)
+   impose  sales  practice  and  disclosure
+requirements on broker-dealers who make a market in penny stocks. Penny stocks
+generally  are equity  securities  with a price of less than $5.00  (other  than
+securities   registered  on  some  national   securities   exchanges).   On  the
+Over-the-Counter  Bulletin  Board
+  our stock may be considered a penny stock.
+Purchases and sales of our shares are generally  facilitated  by  broker-dealers
+who act as market makers for our shares.
+Under the penny stock regulations
+ a broker-dealer selling penny stock to anyone
+other than an established  customer or accredited  investor (as defined by the
+Securities   Act  of  1933
+  as  amended)   must  make  a  special   suitability
+determination for the purchaser and must receive the purchaser's written consent
+to the transaction prior to sale
+ unless the broker-dealer or the transaction is
+otherwise exempt.
+In addition
+  the penny stock regulations  require the broker-dealer to deliver
+prior to any transaction involving a penny stock
+ a disclosure schedule prepared
+by the SEC relating to the penny stock market
+  unless the  broker-dealer or the
+transaction is otherwise  exempt.  A broker-dealer  is also required to disclose
+commissions  payable to the broker-dealer and the registered  representative and
+current  quotations for the securities.  Finally
+ a broker-dealer is required to
+                                       16
+
+send monthly statements  disclosing recent price information with respect to the
+penny stock held in a  customer's  account and  information  with respect to the
+limited  market in penny stocks.  The  additional  sales practice and disclosure
+requirements imposed upon broker-dealers selling penny stock may discourage such
+broker-dealers from effecting  transactions in our shares
+  which could severely
+limit the  market  liquidity  of the shares and impede the sale of our shares in
+the secondary market.
+INVESTORS THAT NEED TO RELY ON DIVIDEND INCOME OR LIQUIDITY  SHOULD NOT PURCHASE
+SHARES OF OUR COMMON STOCK.
+We do  not  anticipate  paying  any  dividends  on  our  common  stock  for  the
+foreseeable  future.  Investors that need to rely on dividend  income should not
+invest in our common  stock
+  as any income would only come from any rise in the
+market  price  of our  common  stock
+  which  is  uncertain  and  unpredictable.
+Investors  that require  liquidity  should also not invest in our common  stock.
+There is no established  trading market
+ and should one develop
+  it will likely
+be volatile and such market may not be sustained.
+HOLDERS OF OUR COMMON  STOCK MAY INCUR  IMMEDIATE  DILUTION  AND MAY  EXPERIENCE
+FURTHER  DILUTION  BECAUSE OF OUR ABILITY TO ISSUE  ADDITIONAL  SHARES OF COMMON
+STOCK AND AS A RESULT OF THE POSSIBLE EXERCISE OF HOLDERS OF OUR PREFERRED STOCK
+TO CONVERT TO COMMON STOCK AFTER JANUARY 1
+ 2011.
+We are  authorized  to issue up to  22
+000
+000  shares of Class A voting  common
+stock and  40
+000
+000  shares or Class B non-voting  common stock and  3
+000
+000
+shares of Preferred Stock. At present
+ there are 7
+663
+023 Class A common shares
+and  21
+286
+344  Class B common shares and 1
+752
+823  shares of Preferred  Stock
+issued and outstanding.  Our Board of Directors has the authority to cause us to
+issue  additional  shares of Class A common stock  without the consent of any of
+our stockholders. Consequently
+ our stockholders may experience more dilution in
+their percentage of ownership in the future.
+Moreover
+  the  conversion of our Preferred  shares after January 1
+ 2011 on the
+basis of ten Class B Common  Shares for each  Preferred  Share  would  result in
+dilution to our  current  holders of common  stock and once our common  stock is
+trading  could cause a  significant  decline in the market  price for our common
+stock.
+As of the date of this  filing
+  there were 55 Class A  stockholders  of record
+owning all of the 7
+663
+023 issued and outstanding  shares of our Class A common
+stock;  there were 88  institutional  shareholders  of record  owning all of the
+21
+286
+344 issued and outstanding  shares of our Class B non-voting common stock
+and  there  were 36  institutional  shareholders  of  record  owning  all of the
+1
+752
+823 issued and outstanding shares of our Preferred Stock.
+FINANCIAL  INDUSTRY  REGULATORY  AUTHORITY SALES PRACTICE  REQUIREMENTS MAY ALSO
+LIMIT A STOCKHOLDER'S ABILITY TO BUY AND SELL OUR STOCK.
+In addition to the penny stock rules described above
+  the Financial  Industry
+Regulatory  Authority
+  or  FINRA
+  has  adopted  rules  that  require  that  in
+recommending an investment to a customer
+  a broker-dealer  must have reasonable
+grounds for believing that the  investment is suitable for that customer.  Prior
+to  recommending  speculative low priced  securities to their  non-institutional
+customers
+  broker-dealers  must make reasonable  efforts to obtain  information
+about the customer's  financial status
+  tax status
+  investment  objectives and
+                                       17
+
+other  information.  Under  interpretations  of these rules
+ FINRA believes that
+there is a high probability  that speculative low priced  securities will not be
+suitable  for at least  some  customers.  The  FINRA  requirements  make it more
+difficult for  broker-dealers  to recommend that their  customers buy our common
+stock
+  which  may  limit  your  ability  to buy and sell our  stock and have an
+adverse effect on the market for our shares.
+WE ARE SUBJECT TO THE PERIODIC  REPORTING  REQUIREMENTS OF THE EXCHANGE ACT THAT
+WILL  REQUIRE  US TO INCUR  AUDIT  FEES AND LEGAL  FEES IN  CONNECTION  WITH THE
+PREPARATION OF SUCH REPORTS.  THESE  ADDITIONAL  COSTS COULD REDUCE OR ELIMINATE
+OUR ABILITY TO EARN A PROFIT.
+We are required to file  periodic  reports with the SEC pursuant to the Exchange
+Act and the rules and  regulations  promulgated  thereunder.  In order to comply
+with these requirements
+  our independent registered public accounting firm will
+have to review  our  financial  statements  on a  quarterly  basis and audit our
+financial statements on an annual basis.  Moreover
+  our legal counsel will have
+to review and assist in the  preparation  of such reports.  The costs charged by
+these  professionals  for such services  cannot be accurately  predicted at this
+time because factors such as the number and type of transactions  that we engage
+in and the  complexity of our reports cannot be determined at this time and will
+have a major  affect  on the  amount  of time to be  spent by our  auditors  and
+attorneys. However
+ the incurrence of such costs will obviously be an expense to
+our  operations  and thus  have a  negative  effect on our  ability  to meet our
+overhead  requirements  and earn a profit.  We may be exposed to potential risks
+resulting from new requirements  under Section 404 of the  Sarbanes-Oxley Act of
+2002. If we cannot provide  reliable  financial  reports or prevent  fraud
+  our
+business and operating results could be harmed
+  investors could lose confidence
+in our  reported  financial  information
+  and the  trading  price of our common
+stock
+ if a market ever develops
+ could drop significantly.
+POTENTIAL CONFLICTS OF INTEREST
+The directors and officers of the Company have no obligation to devote full time
+to the business of the  Company.  They are required to devote only such time and
+attention to the affairs of the Company
+  as they may deem  appropriate in their
+sole discretion.  It is anticipated that they will each spend  approximately 70%
+of  their  time on their  duties  related  to  Amincor  but  they  are  under no
+obligation to continue to do so
+ nor are they  restricted by an agreement not to
+compete  with the  Company and they may engage in other  activities  or ventures
+which may result in various conflicts of interest with the Company.
+            GENERAL RISK FACTORS RELATING TO AMINCORI'S SUBSIDIARIES
+AMINCOR NEEDS ADDITIONAL CAPITAL IN THE FUTURE TO FUND THE OPERATIONS AND GROWTH
+OF OUR  SUBSIDIARY  COMPANIES AND THIS NEW CAPITAL MAY NOT BE AVAILABLE.  IN THE
+EVENT SUCH  ADDITIONAL  CAPITAL IS NOT  AVAILABLE
+  AMINCOR MAY NEED TO FILE FOR
+BANKRUPTCY PROTECTION.
+Amincor's Management is working to secure additional available capital resources
+and turnaround the subsidiary  companies to generate  operating income.  Amincor
+may raise additional funds through public or private debt or equity  financings.
+However
+  there can be no assurance  that such  resources  will be sufficient to
+fund the  operations  of Amincor  or the  long-term  growth of the  subsidiaries
+businesses.  Amincor cannot assure investors that any additional  financing will
+be  available  on  favorable  terms
+  or  at  all.  Without  additional  capital
+resources
+  Amincor may not be able to continue to operate
+  take  advantage  of
+unanticipated  opportunities
+  develop  new  products  or  otherwise  respond to
+competitive pressures
+  and be forced to curtail its business
+  liquidate assets
+and/or file for bankruptcy protection. In any such case
+ its business
+ operating
+results or financial condition would be materially adversely affected.
+                                       18
+
+Amincor's   independent   registered   public   accounting  firm  has  expressed
+substantial  doubt about Amincor's ability to continue as a going concern in the
+audit report on the Company's audited financial  statements for the three fiscal
+years  ended  December  31
+ 2012  included  herein.  (See Item 7 -  Management's
+
+TYREE
+
+Maintenance  and repair  services for several  retail  petroleum  customers  are
+performed under  multi-year,  unit price contracts  (Tyree  Contracts).  Under
+these  agreements,  the customer pays a set price per contracted retail location
+per month and Tyree provides a defined scope of maintenance  and repair services
+at these  locations on an on-call or as scheduled  basis.  Revenue  earned under
+Tyree  Contracts is recognized  each month at the  prevailing  per location unit
+price. Revenue from other maintenance and repair services is recognized as these
+services are rendered.
+
+Tyree  uses  the  percentage-of-completion   method  on  construction  services,
+measured by the  percentage of total costs  incurred to date to estimated  total
+costs for each contract.  This method is used because management considers costs
+to date to be the best available measure of progress on these contracts.
+
+Provisions for estimated losses on uncompleted  contracts are made in the period
+in which overall  contract losses become  probable.  Changes in job performance,
+job conditions and estimated  profitability,  including those arising from final
+contract  settlements,  may  result  in  revisions  to costs and  income.  These
+revisions are recognized in the period in which it is probable that the customer
+will approve the variation  and the amount of revenue  arising from the revision
+can be reliably  measured.  An amount equal to contract  costs  attributable  to
+claims is included in revenues when  negotiations  have reached an advance stage
+such that it is probable  that the customer will accept the claim and the amount
+can be measured reliably.
+
+The asset  account  Costs  and  estimated  earnings  in excess of  billings  on
+uncompleted  contracts
+  represents  revenues  recognized  in excess of amounts
+billed.
+
+The liability  account,  Billings in excess of cost and  estimated  earnings on
+uncompleted contracts
+
+                         Amincor, Inc. and Subsidiaries
+             Notes to Consolidated or Combined Financial Statements
+                       Three Years Ended December 31, 2012
+
+
+TYREE
+
+Maintenance  and repair  services for several  retail  petroleum  customers  are
+performed under  multi-year,  unit price contracts  (Tyree  Contracts).  Under
+these  agreements,  the customer pays a set price per contracted retail location
+per month and Tyree provides a defined scope of maintenance  and repair services
+at these  locations on an on-call or as scheduled  basis.  Revenue  earned under
+Tyree  Contracts is recognized  each month at the  prevailing  per location unit
+price. Revenue from other maintenance and repair services is recognized as these
+services are rendered.
+
+Tyree  uses  the  percentage-of-completion   method  on  construction  services,
+measured by the  percentage of total costs  incurred to date to estimated  total
+costs for each contract.  This method is used because management considers costs
+to date to be the best available measure of progress on these contracts.
+
+Provisions for estimated losses on uncompleted  contracts are made in the period
+in which overall  contract losses become  probable.  Changes in job performance,
+job conditions and estimated  profitability,  including those arising from final
+contract  settlements,  may  result  in  revisions  to costs and  income.  These
+revisions are recognized in the period in which it is probable that the customer
+will approve the variation  and the amount of revenue  arising from the revision
+can be reliably  measured.  An amount equal to contract  costs  attributable  to
+claims is included in revenues when  negotiations  have reached an advance stage
+such that it is probable  that the customer will accept the claim and the amount
+can be measured reliably.
+
+The asset  account  Costs  and  estimated  earnings  in excess of  billings  on
+uncompleted  contracts
+  represents  revenues  recognized  in excess of amounts
+billed.
+
+The liability  account,  Billings in excess of cost and  estimated  earnings on
+uncompleted contracts
+
+                         Amincor, Inc. and Subsidiaries
+             Notes to Consolidated or Combined Financial Statements
+                       Three Years Ended December 31, 2012
+
+
+Rent expense on leases  containing  scheduled  rent  increases is  recognized by
+amortizing the aggregate lease payments on a straight-line  basis over the lease
+term.  This has resulted in deferred rent  liabilities of $13,429 and $18,313 as
+of  December  31,  2012 and  2011,  respectively  which  are  included  in other
+liabilities on the consolidated balance sheet.
+
+Rent expense  totaled  $2,113,872  $1,802,985,  and $805,035 for the years ended
+December 31, 2012,  2011, and 2010,  respectively,  which includes related party
+rent of  $1,257,368,  $1,073,317,  and $264,520 for the years ended December 31,
+2012, 2011, and 2010, respectively.
+
+At December 31, 2012, the future minimum lease commitments under  non-cancelable
+operating leases, including leases with related parties, are as follows:
+
+                                           Total
+                                        ----------
+     Years ending December 31,
+       2013                             $  469,204
+       2014                                378,834
+       2015                                194,580
+                                        ----------
+
+                                        $1,042,618
+                                        ==========
+
+EMPLOYEE BENEFIT PLANS
+
+BPI
+
+BPI established a 401(k)  retirement plan (the BPI Plan) effective  January 1,
+2009. The Plan covers  employees of the Company who have completed  three months
+(250 hours) of service and have  attained the age of  twenty-one.  All employees
+hired  prior to January  1, 2009,  entered  the Plan  immediately.  The BPI Plan
+permits participants to choose either a traditional pre-tax salary deferral plan
+or a Roth after-tax  deferral plan. BPI does not make matching or  discretionary
+contributions.
+
+TYREE
+
+Tyree has  established  the Tyree Holdings  401(k)  Retirement  Plan (the Tyree
+
+

@@ -1,0 +1,5082 @@
+
+
+ACCESSION NUMBER:		0001493152-14-003847
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		6
+CONFORMED PERIOD OF REPORT:	20131231
+FILED AS OF DATE:		20141118
+DATE AS OF CHANGE:		20141118
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			SMOKY MARKET FOODS INC
+		CENTRAL INDEX KEY:			0001370544
+		STANDARD INDUSTRIAL CLASSIFICATION:	SAUSAGE
+ OTHER PREPARED MEAT PRODUCTS  [2013]
+		IRS NUMBER:				204748589
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-52158
+		FILM NUMBER:		141232708
+	BUSINESS ADDRESS:	
+		STREET 1:		804 ESTATES DR. #100
+		CITY:			APTOS
+		STATE:			CA
+		ZIP:			95003
+		BUSINESS PHONE:		866-851-7787
+	MAIL ADDRESS:	
+		STREET 1:		804 ESTATES DR. #100
+		CITY:			APTOS
+		STATE:			CA
+		ZIP:			95003
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+Washington
+D.C. 20549
+
+FORM
+10-K
+
+
+
+    
+ANNUAL
+    REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+ 2013
+
+    
+    
+
+    
+TRANSITION
+    REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+ FOR THE TRANSITION PERIOD FROM _________ TO
+    _________
+
+
+Commission
+file number: 000-52158
+
+SMOKY
+MARKET FOODS
+ INC.
+(Exact
+name of registrant as specified in its charter)
+
+
+
+    
+    
+    
+
+(State
+                                         or other jurisdiction
+of
+        incorporation or organization)
+    
+(IRS
+                                         Employer
+Identification
+        No.)
+
+
+1511
+E. 2nd St.
+Webster
+City
+ IA 50595
+(Address
+of principal executive offices
+ including zip code)
+
+Registrant&rsquo;s
+telephone number
+ including area code: (515) 724-7976
+
+Securities
+registered pursuant to Section 12(b) of the Act: None
+
+Securities
+registered pursuant to Section 12(g) of the Act: Common Shares
+ par value $.001
+
+Indicate
+by check mark whether the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act.
+YES
+[&nbsp;&nbsp;] NO [X]
+
+Indicate
+by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act.
+YES
+[&nbsp;&nbsp;] NO [X]
+
+Indicate
+by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange
+Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+and (2) has been subject to such filing requirements for the past 90 days.
+YES
+[&nbsp;&nbsp;] NO [X]
+
+Indicate
+by check mark whether the registrant has submitted electronically and posted on its corporate Web site
+ if any
+ every Interactive
+Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T during the preceding 12 months (or for such
+shorter period that the registrant was required to submit and post such files).
+YES
+[&nbsp;&nbsp;] NO [X]
+
+Indicate
+by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K is not contained herein
+ and will not
+be contained
+ to the best of registrant&rsquo;s knowledge
+ in definitive proxy or information statements incorporated by reference
+in Part III of this Form 10-K or any amendment to this Form 10-K. [&nbsp;&nbsp;]
+
+Indicate
+by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller
+reporting company. See the definitions of &ldquo;large accelerated filer
+&rdquo; &ldquo;accelerated filer&rdquo; and &ldquo;smaller
+reporting company&rdquo; in Rule 12b-2 of the Exchange Act (Check one):
+
+
+
+[&nbsp;&nbsp;]
+    Large Accelerated filer
+[&nbsp;&nbsp;]
+    Accelerated filer
+
+    
+    
+
+[
+                                         &nbsp;] Non-accelerated filer
+(Do
+        not check if a smaller reporting company)
+[X] Smaller reporting
+    company
+
+
+Indicate
+by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act): YES [&nbsp; ] NO [X]
+
+The
+aggregate market value of approximately 129
+070
+650 shares held by nonaffiliates of the registrant on June 30
+ 2014
+ based upon
+the average bid and asked price of the common shares on the OTC Bulletin Board of $0.02 per share on June 30
+ 2014
+ was approximately
+$2
+581
+413. Common Shares held by each officer and director and by each other person who may be deemed to be an affiliate of the
+registrant have been excluded.
+
+As
+of November 15
+ 2014
+ the registrant had 191
+233
+345 common shares outstanding.
+
+DOCUMENTS
+INCORPORATED BY REFERENCE
+
+
+
+
+
+
+
+    
+    
+
+
+Table
+of Contents
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+Item 5. Market for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities
+    
+
+Item
+6. Selected Financial Data
+    
+
+Item
+7. Management&rsquo;s Discussion and Analysis of Financial Condition and Results of Operations
+    
+
+    
+    
+
+Item
+7A. Quantitative and Qualitative Disclosures about Market Risk
+    
+
+    
+    
+
+Item
+9. Changes In and Disagreements with Accountants on Accounting and Financial Disclosure
+    
+
+Item
+9A. Controls and Procedures
+    
+
+Item
+9B. Other Information
+    
+
+    
+    
+
+    
+    
+
+Item 10. Directors
+ Executive Officers and Corporate Governance
+    
+
+Item
+11. Executive Compensation
+    
+
+Item
+12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
+    
+
+Item 13. Certain Relationships and Related Transactions
+ and Director Independence
+    
+
+    
+    
+
+Item
+15. Exhibits and Financial Statement Schedules
+    
+
+
+
+
+    
+    
+
+
+FORWARD
+LOOKING STATEMENTS
+
+This
+Annual Report on Form 10-K (this &ldquo;Report&rdquo;) contains forward-looking statements within the meaning of Section 27A of
+the Securities Act of 1933
+ as amended (the &ldquo;Securities Act&rdquo;)
+ and Section 21E of the Securities Exchange Act of 1934
+as amended (the &ldquo;Exchange Act&rdquo;). Such statements can be identified by the use of forward-looking words such as &ldquo;anticipate
+&rdquo;
+&ldquo;estimate
+&rdquo; &ldquo;project
+&rdquo; &ldquo;likely
+&rdquo; &ldquo;believe
+&rdquo; &ldquo;intend
+&rdquo; &ldquo;expect
+&rdquo;
+or similar words. These statements relate to our
+ and
+ in some cases
+ our clients&rsquo; or business partners&rsquo; future plans
+objectives
+ expectations
+ intentions and financial performance and the assumptions that underlie these statements. All forward-looking
+statements included in this Report are made as of the date hereof
+ based on information available to us as of such date
+ and we
+assume no obligation to update any forward-looking statements. It is important to note that such statements may not prove to be
+accurate and that our actual results and future events will differ
+ and could differ materially
+ from those anticipated in such
+statements. Among the factors that could cause actual results to differ materially from our expectations are those described under
+&ldquo;Item 1A. Risk Factors.&rdquo; You are also encouraged to review our other filings with the Securities and Exchange Commission
+(the &ldquo;SEC&rdquo;) describing other factors that may affect our future results. All subsequent written and oral forward-looking
+statements attributable to us or persons acting on our behalf are expressly qualified in their entirety by this section and other
+factors included elsewhere in this Report.
+
+PART
+I
+
+Item
+1. Business.
+
+
+
+Organization
+&amp; Business Model
+
+We
+are a Nevada corporation incorporated in April 2006
+ with our principal office at 1511 E. 2nd Street
+ Webster City
+ Iowa 50595.
+Our telephone number is (515) 724-7976. We own proprietary wood-burning oven technology and process technique
+ which produces
+artisan quality of &ldquo;Smoke-BakedTM&rdquo; fish and meat that we believe to be superior in flavor
+ purity and nutritional
+wholesomeness to all &ldquo;value-added&rdquo; smoked food products currently being produced by commercial smoked food processors.
+
+We
+are a development stage company
+ with the intent to procure capital to execute our branded marketing business plan. Having encountered
+financial and operational difficulties and failures relating to the consumer trends and economics of our specialized industry
+segment
+ we have generated very minimal revenue to date from wholesale and retail distribution of our product. However
+ we have
+enhanced our business model through creation of strategic operating and financial affiliations
+ and we intend to grow our revenue
+in 2015.
+
+We
+plan to sell our line of smoked foods principally under the Smoky Market brand through multiple channels wholesale and retail
+distribution that include sales to food distributors
+ direct to commercial end-users and grocery retailers
+ and certain of our
+products will be sold retail over the Internet. We expect to also produce a certain amount of product for private label distribution.
+
+Additionally
+in the foreseeable future we intend to produce certified kosher smoked foods and to distribute this line of products under our
+&ldquo;Smoky Kosher&rdquo; brand through mostly the same distribution channels. In the future
+ when our earnings grow
+ we intend
+to develop a national chain of fast-casual
+ gourmet smoked food restaurants under the name &ldquo;SmokeChefTM&rdquo; that we believe
+would be an innovative concept of franchise operation within the restaurant industry.
+
+
+    
+    
+
+
+Market
+Opportunity
+
+Within
+the value-added
+ prepared food marketplace
+ we see a significant lack of artisan smoked fish and meat products that are truly
+wholesome
+ naturally wood-smoked by burning wood
+ and free of additives and chemical preservatives. We believe this specialized
+marketplace to be virtually untapped and without any major smoked food brand comparable in quality. We believe our two packaged
+food brand concepts
+ &ldquo;Smoky Market&rdquo; and &ldquo;Smoky Kosher&rdquo;
+ will enable us to penetrate national markets for
+sales to wholesale and retail customers in the value-added packaged food sector. We believe our business model to be a niche market
+opportunity to produce and distribute artisan quality smoked foods
+ at competitive prices
+ within a highly processed
+ commercial
+prepared food marketplace.
+
+Food
+Production &amp; Distribution
+
+Proprietary
+Wood-burning Oven Technology &amp; Process Technique
+
+Our
+custom-engineered
+ wood-burning oven delicately Smoke-Bakes fish and meat with naturally moist smoke-heat
+ which is produced by
+the burning of freshly-cut hickory and without the use of curing or brining process
+ or injection of other forms of additives
+and chemical preservatives. Our products include fish
+ beef
+ pork
+ poultry and lamb that are fully cooked and vacuum-packaged
+for convenience
+ freshness and ease of preparation by foodservice operators and home consumers alike.
+
+By
+contrast
+
+
+ as these ovens use smoke generators that smolder hickory sawdust to create smoke. The fish and meat are smoked while
+being cooked by gas or electric heat with added moisture
+ and high concentrations of water
+ sodium
+ sugar
+ and various forms of
+additives and preservatives (brining &amp; curing solutions) are used in the process.
+
+In
+July 2011
+ we entered into a Purchase and Lease Agreement (the &ldquo;Sale/Lease Agreement&rdquo;) with SMKY Asset Fund LLC (the
+&ldquo;Lessor&rdquo;) related to our smoker-oven system. Pursuant to the Sale/Lease Agreement
+ we sold the smoker-oven system
+to the Lessor for a purchase price equal of $240
+000 (the &ldquo;Sale Price&rdquo;). In addition
+ we are required to issue to
+Lessor a warrant to purchase a share of common stock for each $1.00 of the Lease Price. The warrants have an exercise price of
+$0.50 per share
+ a five-year term and include net exercise provisions. We leased back the smoker-oven system for rent equal to
+$0.20 per pound of product produced using the smoker-oven up to a maximum annual return of 30% on the sum of the Sale Price ($240
+000)
+or $72
+000. The Sale/Lease Agreement has a 10-year term and includes a provision that we must repurchase the smoker-oven system
+at any time after July 25
+ 2014 providing that the market price for our common stock has exceeded $0.50 for thirty trading days.
+The repurchase price is a number of shares of common stock with a fair market value equal to 20 times the Sale Price
+ plus $5
+000.
+
+On
+July 1
+ 2014
+ Smoky Market Foods
+ Inc. (the &ldquo;Company&rdquo;) entered into a Business Development License Agreement (the
+&ldquo;Agreement&rdquo;) with Mary Ann&rsquo;s Specialty Foods
+ Inc. (&ldquo;Mary Ann&rsquo;s&rdquo;). Pursuant to the terms of
+the Agreement
+ the Company granted to Mary Ann&rsquo;s (a) an exclusive right to develop
+ manufacture
+ label
+ package
+ store
+and distribute
+ under the Company&rsquo;s trademarks and trade names (the &ldquo;Marks&rdquo;)
+ the Company&rsquo;s meat and fish
+products
+ and to process orders and collect sales; and (b) a non-exclusive
+ non-transferable license to the Marks. Mary Ann&rsquo;s
+also agreed to (a) generate sales for the Company&rsquo;s products
+ with the billing of such sales to be invoiced and proceeds
+collected solely by Mary Ann&rsquo;s; and (b) provide a minimum of $650
+000 of financing for inventory and receivables for the
+Company to be able to grow sales of its products. Mary Ann&rsquo;s will retain a portion of sales proceeds as compensation for
+its processing (cost of raw product
+ materials
+ labor &amp; profit)
+ financing and brokerage services
+ and remit the remaining
+proceeds to the Company
+ which represent the Company&rsquo;s margin of gross profit. As additional consideration
+ the Company
+agreed to issue to Mary Ann&rsquo;s and its designees 5
+000
+000 shares of the Company&rsquo;s common stock. The Agreement has
+a one-year term
+ which will renew automatically each year for an additional period of one year unless either party provides written
+notice of non-renewal.
+
+
+    
+    
+
+
+USDA-Inspected
+Meat Production and Availability of Raw Materials
+
+We
+presently outsource
+ and for the foreseeable future
+ expect to continue to outsource
+ our commercial smoked food processing to
+Mary Ann&rsquo;s Specialty Foods (&ldquo;Specialty Foods&rdquo;). Specialty Foods is a USDA-approved contract food processing
+company located in Webster City
+ Iowa and operates a 70
+000 square foot processing facility
+ which sits on 15 acres of family-owned
+land
+ and is expected to be responsible for our food production and distribution requirements. In order to establish production
+capability and complete the development of our smoked food products
+ we entered into an Amended and Restated Processing Agreement
+dated July 1
+ 2006 with Specialty Foods
+ which agreement was further modified by a Second Amended and Restated Processing Agreement
+dated October 30
+ 2009.
+
+Pursuant
+to the processing agreement
+ Specialty Foods has agreed to process the smoked meats for our business in return for a processing
+fee based on its actual costs of production
+ labor costs
+ packaging materials costs
+ allocated overhead costs
+ and a set amount
+of profit based on the amount of packaged products produced. We agreed that Specialty Foods would be our exclusive processor for
+meat products
+ subject to certain limitations. The agreement is based upon a single oven capable of producing at least 100
+000
+pounds of smoked meat and/or fish per month or more depending upon the production item mix
+ and we have the option to construct
+an addition building adjacent to Specialty Foods&rsquo; processing facility to install additional smoker-oven systems. The term
+of the agreement is ten years from October 30
+ 2009
+ with an option to extend the agreement for three additional 10-year periods
+(subject to early termination in the event of default).
+
+With
+respect to meat
+ fish and other raw materials used to make our products
+ we require that all of our raw beef
+ pork
+ lamb and poultry
+be raised without growth hormones
+ steroids and antibiotics
+ and our salmon is farmed naturally in &ldquo;open-pen&rdquo; ocean
+waters. Market prices for meat
+ fish and other food items are subject to constant fluctuation and frequent shortages of item availability
+which we expect to mitigate through economies-of-scale from increased production.
+
+Kosher
+Line
+
+We
+have created the Smoky Kosher brand for production and marketing of a line of fully-certified kosher smoked foods
+ which will
+be distributed wholesale to commercial end-users and grocery retailers
+ and retail to consumers over the Internet. To produce
+our kosher line
+ we intend to affiliate with an established USDA processor of kosher foods and install an oven for contract production
+in principally the same manner as we are doing with Specialty Foods.
+
+Co-Pack
+Production 
+
+We
+plan to use co-packing affiliates to produce a selection of specialty gourmet items
+ including one-dish meals of smoked meat/fish
+pasta
+ casseroles
+ quiches
+ and soup. We have not entered into agreements with any co-packing facilities
+ but have entered into
+discussions with several and believe that suitable arrangements can be reached when we are ready to commence such operations.
+Our plan is to cause Specialty Foods to bulk-ship smoked meat and fish ingredients to the co-packers. There
+ the various menu
+items will be packaged
+ and shipped to our planned regional distribution centers.
+
+
+    
+    
+
+
+Process
+&amp; Price Value
+
+Our
+wood-smoking process is expensive. Costs include obtaining freshly cut timber
+ labor associated with the smoking process
+ and
+having to absorb a 25% to 30% cook shrinkage loss in the process. Consequently
+ Smoky Market brand smoked foods cost more to produce
+and have higher price points than many competing smoked food products. However
+ the existence of a market for higher-priced organic
+foods and other prepared foods that are advertised as 100% natural
+ low-sodium and/or free of additives suggests that customers
+will pay more for products they know to be of premium quality
+ especially prepared foods that are nutritionally wholesome
+ tasty
+and convenient. Based upon our review of the nutritional labels of our competitors
+ we believe that the absence of any preservatives
+brining solutions
+ liquid smoke and similar additives in Smoky Market brand smoked meats foods distinguishes our product from
+smoked meat products currently on the market.
+
+Smoked
+Food Products
+
+Below
+is our line of smoked foods that we expect to produce and market under the Smoky Market brand
+ with certain of these items intended
+to also be produced and sold under our Smoky Kosher brand
+ and featured in our SmokeChef restaurant concept.
+
+Our
+line of wood-smoked foods presently includes the following:
+
+Entr&eacute;e
+Items
+
+
+
+    
+    
+Pork
+    Loin Baby Back Ribs
+
+    
+    
+    
+
+    
+    
+Pork Country-Style
+    Ribs &amp; Loin Chops 
+
+    
+    
+    
+
+    
+    
+Beef Spare Ribs
+    
+
+    
+    
+    
+
+    
+    
+Carved Boneless
+    Chicken Breast
+
+    
+    
+    
+
+    
+    
+Cornish Game Hen
+    
+
+    
+    
+    
+
+    
+    
+Turkey Breast
+    Thigh &amp; Leg 
+
+    
+    
+    
+
+    
+    
+Rack Of Lamb &amp;
+    Lamb Chops 
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+Salmon &amp; other
+    fish
+
+
+Sliced
+(Sliced
+ pulled or cut from the bone and packaged in portion servings for sandwiches
+ or to
+add to salads
+ tacos
+ casseroles &amp; soups)
+
+
+
+    
+    
+Beef
+    Sirloin Tri-Tip &amp; Brisket
+
+
+    
+    
+    
+
+    
+    
+Pork Loin &amp;
+    Shoulder Roast
+
+
+    
+    
+    
+
+    
+    
+Carved Chicken
+    Strips
+
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+Side
+Order Foods
+
+
+
+    
+    
+Hickory
+    Smoke-BakedTM Beans
+
+
+    
+    
+    
+
+    
+    
+Creamy-Garlic
+    Coleslaw Dressing &amp; Veggie Dip
+
+
+    
+    
+    
+
+    
+    
+Southern-Style
+    Barbecue Dipping Sauce
+
+
+
+
+    
+    
+
+
+Marketing
+&amp; Operations
+
+We
+have completed a re-branding design of the Smoky Market logo
+ which depicts a more contemporary
+ gourmet quality appeal to the
+brand image. Our website
+ at 
+ while now only featuring general product and company information
+ is
+expected to become live for on-line ordering of certain of our smoked foods for both our wholesale and retail customers in January
+2015.
+
+We
+believe the achievement of approximately 30% usage of our existing smoker-oven&rsquo;s production capacity will enable us to attain
+a positive cash flow and we plan to market our Smoke-Baked salmon as our primary introductory product to demonstrate our brand
+quality given what we perceive to be the uniqueness of this product in the smoked fish marketplace. Entering 2015
+ we plan to
+produce other meat and poultry items to extend our line of distribution. Since we are producing &ldquo;portion-packaged&rdquo;
+product for commercial end-users
+ we can very easily and efficiently integrate precise packaging into the distribution of our
+foods through wholesale channels for grocery retail sales and for direct consumer sales over the Internet.
+
+Strategic
+Development Agreement
+
+On
+July 1
+ 2014 we entered into a Business Development License Agreement (the &ldquo;Agreement&rdquo;) with Specialty Foods. Pursuant
+to the terms of the Agreement
+ we granted Specialty Foods (a) an exclusive right to develop
+ manufacture
+ label
+ package
+ store
+and distribute
+ under the Company&rsquo;s trademarks and trade names (the &ldquo;Marks&rdquo;)
+ the Company&rsquo;s meat and fish
+products
+ and to process orders and collect sales; and (b) a non-exclusive
+ non-transferable license to the Marks. Specialty Foods
+also agreed to (a) generate sales for our products
+ with the billing of such sales to be invoiced and proceeds collected solely
+by Specialty Foods; and (b) provide a minimum of $650
+000 of financing for inventory and receivables for the Company to be able
+to grow sales of our products. Specialty Foods will retain a portion of sales proceeds as compensation for its processing (cost
+of raw product
+ materials
+ labor &amp; profit)
+ financing and brokerage services
+ and remit the remaining proceeds to us
+ which
+represents our margin of gross profit. As additional consideration
+ we agreed to issue to Specialty Foods and its designees 5
+000
+000
+shares of the Company&rsquo;s common stock. The Agreement has a one-year term
+ which will renew automatically each year for an
+additional period of one year unless either party provides written notice of non-renewal.
+
+Specialty
+Foods has begun to produce and sell product under the terms of the Agreement and we expect sales of our smoked foods to grow through
+the efforts of Specialty Foods&rsquo; marketing organization as they introduce our smoked salmon to their existing customers.
+
+Regional
+Sales &amp; Fulfillment Operations
+
+In
+addition to sales of our products to be generated through the efforts of Specialty Foods under our development agreement
+ we intend
+to establish regional sales and fulfillment operations that will enable us to have dedicated sales agents in concentrated market
+areas that only sell Smoky Market brand products. These regional operations will be a combination of company-operated facilities
+and facilities that are operated under contract with an established food sales organization. We have determined that the greatest
+level and speed of national market penetration of our brand lines can be achieved by directly selling to commercial end-users
+and that our most competitive pricing structure can be realized by shipping wholesale product orders for next-day ground delivery
+by UPS from these regional facilities. We expect this sales and distribution model to be considerably cost-efficient and the most
+effective application for our capital and human resource.
+
+In
+connection with our development agreement with Specialty Foods and the capital they are providing for inventory and receivable
+financing
+ and with additional capital we intend to raise
+ we plan to begin our direct selling and fulfillment operations in January
+2015 from our facility in Webster City
+ IA
+ which will enable sales and provide next-day ground delivery to commercial end-users
+and grocery retailers within a surrounding territory of seven Mid-West states. Additionally
+ we are currently negotiating with
+food sales contractors for regional facility operations in the Pacific Northeast
+ central California
+ Florida and the Northeast.
+We foresee the success of our regionalized sales and fulfillment platform becoming a viable revenue- and income-generating model
+that may be duplicated for continued entrepreneurial market launch operations in regional territories across the country.
+
+
+    
+    
+
+
+
+General
+Information
+
+Intellectual
+Property
+
+We
+own the recipes for substantially all of our products
+ certain registered and unregistered trademarks and tradenames
+ including
+Smoky Market&reg;
+ Smoke-Baked&trade;
+ Smoky Kosher&trade;
+ and SmokeChef&trade;
+ along with design features related to the ovens
+used for smoking our products. We have not registered any patents
+ but we expect to be able to secure certain patent rights for
+the diffusing system attached to our smoker-oven from the firebox.
+
+On
+July 1
+ 2014
+ Smoky Market Foods
+ Inc. (the &ldquo;Company&rdquo;) entered into a Business Development License Agreement (the
+&ldquo;Agreement&rdquo;) with Mary Ann&rsquo;s Specialty Foods
+ Inc. (&ldquo;Mary Ann&rsquo;s&rdquo;). Pursuant to the terms of
+the Agreement
+ the Company granted to Mary Ann&rsquo;s (a) an exclusive right to develop
+ manufacture
+ label
+ package
+ store
+and distribute
+ under the Company&rsquo;s trademarks and trade names (the &ldquo;Marks&rdquo;)
+ the Company&rsquo;s meat and fish
+products
+ and to process orders and collect sales; and (b) a non-exclusive
+ non-transferable license to the Marks.
+
+Government
+Regulation 
+
+As
+a distributor of food products and planned restaurant operator
+ we are subject to regulation by the U.S. Food and Drug Administration
+or FDA
+ the U.S. Department of Agriculture
+ or USDA
+ and to licensing and regulation by state and local health
+ sanitation
+ building
+zoning
+ safety
+ fire and other authorities. In addition
+ the operations of our food processor are subject to regulation under
+the Federal Food
+ Drug and Cosmetic Act
+ the Federal Meat Inspection Act
+ the Poultry Products Inspection Act
+ the Perishable
+Agricultural Commodities Act
+ the Nutrition Labeling and Education Act of 1990
+ and the rules issued under these laws. The FDA
+regulates standards of identity for specified foods and prescribes the format and content of information on food product labels.
+The USDA imposes standards for product quality and sanitation including the inspection
+ labeling and compliance of meat and poultry
+products and the grading and commercial acceptance of shipments from our suppliers.
+
+Costs
+of compliance with such laws and regulations are presently insignificant. If we or our food processor were to be found to be out
+of compliance with such laws
+ particularly those related to the production
+ labeling and handling of food
+ we could be subject
+to significant fines and forced to discontinue our operations until all material violations were addressed. Were our relationship
+with our food processor to terminate
+ we would have to find another USDA-approved meat processor or qualify as such ourselves.
+There are a limited number of USDA-approved meat processors and barriers to entry are significant (with an estimated start-up
+cost of not less than $2 million dollars and required time of at least one year for qualification).
+
+
+    
+    
+
+
+Environmental
+Laws
+
+We
+are not required to obtain any environmental permits and do not use any hazardous materials in connection with the operation of
+our business. Accordingly
+ we have not incurred
+ and do not expect to incur
+ any material expenses associated with environmental
+compliance.
+
+
+
+In
+the retail packaged food segment
+ we expect our competitors will include the hundreds of established companies selling their smoked
+foods over the Internet and in supermarkets. Our food will compete on the basis of price
+ flavor
+ healthfulness and brand recognition.
+We believe that our food will compete favorable with competing products in terms of flavor and healthfulness. With respect to
+price
+ we expect our prices to be competitive with those of specialty stores and Internet sellers
+ but slightly above that of
+major retail chains that sell typical smoked meats with high concentrations of sodium
+ sugar and additives. Many of our competitors
+will have stronger brand recognition than we do.
+
+Research
+and Development 
+
+We
+do not have any historical research and development expenses. We plan to add products to our lines as our business develops and
+expect that research
+ developing and testing of new or improved recipes and products will be an ongoing part of our business.
+
+
+
+We
+currently have two paid full-time employees that include Edward Feintech
+ our CEO and a controller
+ and three paid part-time people
+who are officers including Shane Campbell
+ CPA
+ our Chief Financial Officer
+ Dennis Harrison
+ PhD
+ our Chief Information Officer
+and Marli Craig
+ our Secretary
+ who provide services on a part-time basis as consultants for which they are paid in cash and/or
+stock.
+
+We
+believe the execution of our business plan set forth above will require the hiring of approximately 30 to 50 people over the next
+three years to staff our corporate and field management team. The actual number of employees we will hire in the next 12 months
+depends upon our success in obtaining capital and how rapidly we can expand our operations.
+
+Item
+1A. Risk Factors.
+
+Investing
+in our common stock involves a high degree of risk. You should carefully consider the risks described below
+ and all of the other
+information set forth in this prospectus before deciding to invest in shares of our common stock. In addition to historical information
+the information in this prospectus contains forward-looking statements about our future business and performance. Our actual operating
+results and financial performance may be different from what we expect as of the date of this prospectus. The risks described
+in this prospectus represent the risks that management has identified and determined to be material to our company. Additional
+risks and uncertainties not currently known to us
+ or that we currently deem to be immaterial
+ may also materially harm our business
+operations and financial condition. 
+
+We
+have generated only a nominal amount of revenue and may be unable to generate significant revenue in the future. 
+
+We
+were incorporated in April 2006 and remain in the process of commencing sustainable revenue-generating operations. As a result
+we have generated only a nominal amount of revenue
+ and all of our plans are speculative. We may be unable to generate or expand
+revenue at the rate anticipated. If we do not generate significant revenue in the future
+ or if costs of expansion and operation
+exceed revenues
+ we will not be profitable. We may be unable to execute our business plan
+ generate significant revenue or be
+profitable.
+
+
+
+    
+    
+
+
+The inexperience of our key management
+ and
+our limited operating history and evolving business plan
+ make it difficult to evaluate our performance and forecast our future.
+
+Our
+key management individuals have experience in the restaurant industry
+ but have limited or no experience in internet retailing
+establishing a national food service business (directly or through franchise arrangements) or operating a reporting issuer. Our
+limited operating history and limited experience make it difficult to evaluate our ability to generate revenues
+ manage growth
+obtain necessary capital
+ manage costs
+ create profits
+ and generate cash from operations. Specifically
+ our ability to do the
+following may be impaired:
+
+
+
+    
+    
+implement
+    our business plan (which may be based upon faulty assumptions and expectations arising from our limited experience);
+
+    
+    
+    
+
+    
+    
+obtain capital
+    necessary to continue operations and implement our business plan; 
+
+    
+    
+    
+
+    
+    
+comply with SEC
+    rules and regulations and manage market expectations; 
+
+    
+    
+    
+
+    
+    
+differentiate
+    ourselves from our competitors; and
+
+    
+    
+    
+
+    
+    
+establish a significant
+    retail and restaurant customer base. 
+
+
+If
+we fail to successfully manage these risks
+ we may never expand our business or become profitable and our business may fail.
+
+We
+will be unable to implement our business plan if we cannot raise sufficient capital and may be required to pay a high price for
+capital. 
+
+As
+of December 31
+ 2013
+ we had $1
+128 in cash and cash equivalents. We need to obtain a significant amount of additional capital
+to implement our business plan and meet our financial obligations as they become due. We may not be able to raise the additional
+capital needed or may be required to pay a high price for capital. Factors affecting the availability and price of capital may
+include the following:
+
+
+
+    
+    
+the
+    availability and cost of capital generally;
+
+    
+    
+    
+
+    
+    
+our financial
+    results
+ including our liquidity situation;
+
+    
+    
+    
+
+    
+    
+the market price
+    of our common stock;
+
+    
+    
+    
+
+    
+    
+the experience
+    and reputation of our management team;
+
+    
+    
+    
+
+    
+    
+market interest
+    or lack of interest
+ in our industry and business plan;
+
+    
+    
+    
+
+    
+    
+the trading volume
+    of
+ and volatility in
+ the market for our common stock;
+
+    
+    
+    
+
+    
+    
+our ongoing success
+    or failure
+ in executing our business plan; 
+
+    
+    
+    
+
+    
+    
+the amount of
+    our capital needs; and
+
+    
+    
+    
+
+    
+    
+the amount of
+    debt
+ options
+ warrants and convertible securities we have outstanding.
+
+
+We
+may be unable to meet our current or future obligations or to adequately exploit existing or future opportunities if we cannot
+raise sufficient capital. If we are unable to obtain capital for an extended period of time
+ we may be forced to discontinue operations.
+
+Our
+auditors have included an explanatory paragraph in our financial statements regarding our status as a going concern.
+
+Our
+audited financial statements included in this prospectus were prepared on the assumption that we will continue as a going concern.
+Our independent registered public accounting firm has stated that it substantially doubts our ability to continue as a going concern
+in a report dated October 30
+ 2014. This doubt is based on the fact that we have had minimal revenues
+ have had negative working
+capital at December 31
+ 2012 and 2013
+ have incurred recurring losses and recurring negative cash flow from operating activities
+and have an accumulated deficit.
+
+
+    
+    
+
+
+The
+packaged food market is competitive
+ and we may be unable to successfully capture retail customers.
+
+The
+market for packaged meat products
+ and competing packaged products
+ is highly competitive. We propose to sell packaged meat products
+over the Internet and at retail locations. We may be unable to differentiate ourselves in the marketplace and compete successfully
+against existing or future competitors of our business. In order to succeed
+ we will be required to take customers away from established
+smoked meat and fish brands and alternative food products sold over the Internet or at retail stores. Our retail products will
+be sold at higher prices than some of our competitor&rsquo;s products
+ and consumers may not differentiate the quality of our
+products or may not be willing to pay higher prices. If we fail to establish customers for our packaged food business
+ it is unlikely
+that we will generate significant revenue or become profitable
+ and in the long run our business will likely fail.
+
+The
+risk of product contamination and recall may harm our public image and result in decreased revenues and harm to our business.
+
+
+There
+is a risk that our food processor could produce contaminated meat or other products that we would ship or serve at our restaurant-markets
+or kiosks. If such an event occurs
+ we may be required to recall our products from retail stores
+ affiliate warehouses and from
+the restaurant outlets being served. A product recall would increase costs
+ result in lost revenues and harm our public relations
+image
+ in addition to exposing us to liability for any personal injury resulting from such contamination.
+
+The
+availability of raw meat
+ fish and other food products may change without notice
+ and the fluctuating cost of these products may
+unexpectedly increase our operating costs and harm our business.
+
+The
+costs of obtaining the meat
+ fish and other food products required for our products are subject to constant fluctuations and frequent
+shortages of item availability. Adequate supplies of raw meat
+ fish and other food products may not always be available
+ and the
+price of raw meat
+ fish and other food products may rise unexpectedly
+ resulting in increased operating costs
+ potential interruptions
+in our supply chain
+ and harm to our business.
+
+Adverse
+publicity regarding fish
+ poultry or beef could negatively impact our business.
+
+Our
+business can be adversely affected by reports regarding mad cow disease
+ Asian bird flu
+ meat contamination within the U.S. generally
+or food contamination generally. In addition
+ concerns regarding hormones
+ steroids and antibiotics may cause consumers to reduce
+or avoid consumption of fish
+ poultry
+ or beef. Any reduction in consumption of fish
+ poultry
+ or beef by consumers
+ would harm
+our revenues
+ financial condition and results of operations.
+
+Our
+supply chain may be subject to shipping losses
+ various accidents
+ or spoilage
+ which would decrease revenues and potentially
+lead to a loss of customers. 
+
+We
+have contracted with a food processor that will be responsible for shipping our processed products
+ restaurant-stores or consumers
+to distribution centers or marketing affiliates. Shipping losses
+ various accidents and product spoilage during this process may
+lead to decreased sales
+ potentially disgruntled commercial customers and possible shortages at our distribution centers and retail
+locations. Repeated or extensive problems of this nature would harm our reputation and revenues.
+
+
+    
+    
+
+
+We
+may lose our processor affiliation or experience a breakdown in our single processing oven system
+ substantially harming our ability
+to generate revenues until another processor is located.
+
+We
+are completely dependent upon Mary Ann&rsquo;s Specialty Foods
+ Inc.
+ and upon a single oven-system located at their facility
+to produce our smoked foods in order to operate the business and generate revenue. If our oven system breaks down
+ becomes contaminated
+or is removed from Specialty Foods&rsquo; facility
+ we would experience an interruption in our ability to supply products to customers.
+This would harm our relationships with our customers and Internet affiliates
+ and harm our revenues in the short run. Any long-term
+interruptions in our ability to produce smoked foods would significantly limit our ability to continue operations.
+
+We
+have entered into a sale/leaseback transaction with respect to our smoker-oven
+ which creates risk of loss if we default and may
+inhibit our cash flow. 
+
+In
+July 2011
+ we entered into a Purchase and Lease Agreement with SMKY Asset Fund LLC
+ or the Lessor
+ related to our smoker-oven
+system. Pursuant to this Purchase and Lease Agreement we sold the smoker-oven system to the Lessor and are required to pay rent
+equal of $0.20 per pound of product produced using the smoker-oven up to a maximum amount of annual rent equal to a 30% return
+on the sum of the purchase price and $5
+000. This rent will diminish our cash flow as we begin to generate revenue
+ and there
+is some risk that we may default under the lease and forfeit any right to use the smoker-ovens
+ which is the foundation of our
+business.
+
+We
+cannot repurchase the smoker-oven system until the first date after July 25
+ 2014 that the market price of our common stock has
+remained at $0.50 for thirty trading days. The repurchase price is a number of shares of common stock with a fair market value
+equal to 20 times the sum of the purchase price ($240
+000) 
+ plus (b) $5
+000. If our market price does not exceed $0.50 for thirty
+trading days we will be unable to repurchase our smoker-oven system (and will be required to continue to pay rent). Any repurchase
+of the smoker-oven system will be dilutive to our shareholders.
+
+We
+are dependent upon key personnel to manage business and the loss of such personnel could significantly impair our ability to implement
+our business plan.
+
+We
+are highly dependent upon the efforts of management
+ particularly Edward C. Feintech
+ our Chairman
+ President and Chief Executive
+Officer. The number of qualified managers in the smoked-food industry is limited. As our business grows
+ we will need to recruit
+executive and regional managers who are capable of implementing our business plan. The e-commerce and restaurant industries are
+highly competitive
+ and we may be unable to attract qualified management personnel. If we are unsuccessful in retaining or attracting
+such employees
+ our ability to grow and service capacity will be harmed.
+
+Labor
+disputes affecting common carriers and foodservice distributors may hamper our ability to deliver our product to customers and
+harm our business.
+
+We
+will be dependent upon UPS and other package delivery contractors and foodservice distributors to ship internet orders to customers
+and products to our foodservice concept outlets. Labor disputes involving package delivery contractors
+ or other events creating
+delays
+ unpredictability or lost increases in the express delivery market may significantly damage our shipping and delivery capability.
+This would increase our costs
+ likely cause us to fail to comply with delivery commitments to our customers
+ and eventually harm
+our ability to generate revenues.
+
+
+    
+    
+
+
+Our
+business may be affected by increased compensation and benefits costs.
+
+We
+expect labor costs to be a significant expense for our business. We may be negatively affected by increases in workers&rsquo;
+wages and costs associated with providing benefits
+ particularly healthcare costs. Such increases can occur unexpectedly and without
+regard to our efforts to limit them. If such increases occur
+ we may be unable to pass them along to the consumer through product
+price increases
+ resulting in decreased operating results.
+
+Changes
+in general economic and political conditions affect consumer spending and may harm our revenues and operating results. 
+
+Our
+country&rsquo;s economic condition affects our customers&rsquo; levels of discretionary spending. A decrease in discretionary
+spending due to a recession or decreases in consumer confidence in the economy could affect the frequency with which our customers
+choose to purchase smoked-foods or dine out or the amount they spend on smoked-food or meals while dining out. This would likely
+decrease our revenues and operating results.
+
+Compliance
+with existing and new regulations of corporate governance and public disclosure may result in additional expenses.
+
+Compliance
+with changing laws
+ regulations
+ and standards relating to corporate governance and public disclosure
+ including the Sarbanes-Oxley
+Act of 2002 and other SEC regulations
+ requires large amounts of management attention and external resources. This may result
+in increased general and administrative expenses and a diversion of management time and attention from revenue-generating activities
+to compliance activities.
+
+Our
+directors
+ executive officers and principal stockholders have effective control of the company
+ preventing non-affiliate stockholders
+from significantly influencing our direction and future.
+
+Our
+directors
+ officers
+of our outstanding shares
+of common stock and are expected to continue to control a significant percentage of our outstanding common stock following any
+financing transactions projected for the foreseeable future. These directors
+ officers
+ 5% stockholders and affiliates effectively
+control all matters requiring approval by the stockholders
+ including any determination with respect to the acquisition or disposition
+of assets
+ future issuances of securities
+ declarations of dividends and the election of directors. This concentration of ownership
+may also delay
+ defer
+ or prevent a change in control and otherwise prevent stockholders other than our affiliates from influencing
+our direction and future.
+
+There
+is a public market for our stock
+ but it is thin and subject to manipulation. 
+
+&#9;The
+volume of trading in our common stock is limited and can be dominated by a few individuals. The limited volume can make the price
+of our common stock subject to manipulation by one or more stockholders and will significantly limit the number of shares that
+one can purchase or sell in a short period of time. An investor may find it difficult to dispose of shares of our common stock
+or obtain a fair price for our common stock in the market.
+
+The
+market price of our common stock may be harmed by our need to raise capital. 
+
+We
+need to raise additional capital in order to roll out our business plan and expect to raise such capital through the issuance
+of preferred stock
+ common stock and/or convertible debt. Because securities in private placements and other transactions by a
+company are often sold at a discount to market prices
+ this need to raise additional capital may harm the market price of our
+common stock. In addition
+ the re-sale of securities issued in such capital-raising transactions
+ whether under Rule 144 or a
+re-sale registration statement
+ may harm the market price of our common stock.
+
+
+    
+    
+
+
+The
+market price for our common stock is volatile and may change dramatically at any time. 
+
+The
+market price of our common stock
+ like that of the securities of other early-stage companies
+ is highly volatile. Our stock price
+may change dramatically as the result of announcements of our quarterly results
+ the rate of our expansion
+ significant litigation
+or other factors or events that would be expected to affect our business or financial condition
+ results of operations and other
+factors specific to our business and future prospects. In addition
+ the market price for our common stock may be affected by various
+factors not directly related to our business
+ including the following:
+
+
+
+    
+    
+intentional
+    manipulation of our stock price by existing or future stockholders;
+
+    
+    
+    
+
+    
+    
+short
+    selling of our common stock or related derivative securities;
+
+    
+    
+    
+
+    
+    
+a
+    single acquisition or disposition
+ or several related acquisitions or dispositions
+ of a large number of our shares;
+
+    
+    
+    
+
+    
+    
+the
+    interest
+ or lack of interest
+ of the market in our business sector
+ without regard to our financial condition or results
+    of operations; 
+
+    
+    
+    
+
+    
+    
+the
+    adoption of governmental regulations and similar developments in the United States or abroad that may affect our ability to
+    offer our products and services or affect our cost structure; 
+
+    
+    
+    
+
+    
+    
+developments
+    in the businesses of companies that purchase our products; or
+
+    
+    
+    
+
+    
+    
+economic
+    and other external market factors
+ such as a general decline in market prices due to poor economic indicators or investor
+    distrust.
+
+
+Our
+ability to issue preferred stock and common stock may significantly dilute ownership and voting power
+ negatively affect the price
+of our common stock and inhibit hostile takeovers. 
+
+Under
+our Articles of Incorporation
+ as amended
+ we are authorized to issue up to 10 million shares of preferred stock and 200 million
+shares of common stock without seeking stockholder approval. Our board of directors has the authority to create various series
+of preferred stock with such voting and other rights superior to those of our common stock and to issue such stock without stockholder
+approval. Any issuance of such preferred stock or common stock would dilute the ownership and voting power of existing holders
+of our common stock and may have a negative effect on the price of our common stock. The issuance of preferred stock without stockholder
+approval may also be used by management to stop or delay a change of control
+ or might discourage third parties from seeking a
+change of control of our company
+ even though some stockholders or potential investors may view possible takeover attempts as
+potentially beneficial to our stockholders.
+
+We
+are unlikely to pay dividends on our common stock in the foreseeable future.
+
+We
+have never declared or paid dividends on our stock. We currently intend to retain all available funds and any future earnings
+for use in the operation and expansion of our business. We do not anticipate paying any cash dividends in the foreseeable future
+and it is unlikely that investors will derive any current income from ownership of our stock. This means that your potential for
+economic gain from ownership of our stock depends on appreciation of our stock price and will only be realized by a sale of the
+stock at a price higher than your purchase price.
+
+
+    
+    
+
+
+Our
+common stock is a &ldquo;low-priced stock&rdquo; and subject to regulation that limits or restricts the potential market for our
+stock.
+
+Shares
+of our common stock are &ldquo;low-priced&rdquo; or &ldquo;penny stock
+&rdquo; resulting in increased risks to our investors and
+certain requirements being imposed on some brokers who execute transactions in our common stock. In general
+ a low-priced stock
+is an equity security that:
+
+
+
+    
+    
+Is
+    priced under five dollars;
+
+    
+    
+    
+
+    
+    
+Is not traded
+    on a national stock exchange;
+
+    
+    
+    
+
+    
+    
+Is issued by a
+    company that has less than $5 million in net tangible assets (if it has been in business less than three years) or has less
+    than $2 million in net tangible assets (if it has been in business for at least three years); and
+
+    
+    
+    
+
+    
+    
+Is issued by a
+    company that has average revenues of less than $6 million for the past three years.
+
+
+We
+believe that our common stock is presently a &ldquo;penny stock.&rdquo; At any time the common stock qualifies as a penny stock
+the following requirements
+ among others
+ will generally apply:
+
+
+
+    
+    
+Certain
+    broker-dealers who recommend penny stock to persons other than established customers and accredited investors must make a
+    special written suitability determination for the purchaser and receive the purchaser&rsquo;s written agreement to a transaction
+    prior to sale.
+
+    
+    
+    
+
+    
+    
+Prior to executing
+    any transaction involving a penny stock
+ certain broker-dealers must deliver to certain purchasers a disclosure schedule explaining
+    the risks involved in owning penny stock
+ the broker-dealer&rsquo;s duties to the customer
+ a toll-free telephone number for
+    inquiries about the broker-dealer&rsquo;s disciplinary history and the customer&rsquo;s rights and remedies in case of fraud
+    or abuse in the sale.
+
+    
+    
+    
+
+    
+    
+In connection
+    with the execution of any transaction involving a penny stock
+ certain broker-dealers must deliver to certain purchasers the
+    following: 
+
+
+
+
+    
+    
+bid
+    and offer price quotes and volume information;
+
+    
+    
+    
+
+    
+    
+the broker-dealer&rsquo;s
+    compensation for the trade;
+
+    
+    
+    
+
+    
+    
+the compensation
+    received by certain salespersons for the trade;
+
+    
+    
+    
+
+    
+    
+monthly accounts
+    statements; and
+
+    
+    
+    
+
+    
+    
+a written statement
+    of the customer&rsquo;s financial situation and investment goals.
+
+
+Item
+1B. Unresolved Staff Comments.
+
+
+
+Item
+2. Properties.
+
+We
+use office and cold storage warehouse space in the facility of Specialty Foods for free. We have no lease with respect to such
+space
+ and our informal arrangement could be terminated at any time.
+
+Pursuant
+to an Option Agreement dated October 30
+ 2009
+ we have an option to purchase from Specialty Foods an approximately 15-acre parcel
+of real estate on which Specialty Foods is located in Webster City
+ Iowa during an approximately seven-year term at a purchase
+price equal to the greater of $3
+000
+000 (plus the cost of additional improvements) and the appraised value of property at the
+time the option is exercised. If we exercise the option
+ we would be required to lease back to Specialty Foods the buildings in
+which it conducts its operations in exchange for rent of $10
+000 per month
+ subject to certain adjustments.
+
+
+    
+    
+
+
+In
+January 2008
+ we entered into an agreement relating to the 29 East Main Cafe
+ located at 29 East Main Street
+ Los Gatos
+ California
+95030. Under the terms of the purchase agreement
+ we acquired the existing leasehold improvements and equipment and assumed the
+existing lease. We remodeled this location and opened it as a Smoky Market restaurant
+ but in March 2010 we closed the restaurant.
+We have since ceased paying the rent payments on this property. We understand that the property was subsequently leased out by
+the fee owner effective February 2011. A liability for the remaining lease payments due under the lease agreement has been recorded
+in the financial statements as part of the impairment loss described below.
+
+Item
+3. Legal Proceedings.
+
+We
+are not engaged in any legal proceedings
+ nor are we aware of any pending or threatened legal proceedings that
+ singly or in the
+aggregate
+ would reasonably be expected to have a material adverse effect on our business
+ financial condition or results of operations.
+
+Item
+4. Mine Safety Disclosures
+
+This
+item is not applicable.
+
+PART
+II
+
+Item
+5. Market for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+
+Market
+Price
+
+The
+table below sets forth the high and low bid quotations for our common stock as reported on the Pink Sheets for the periods indicated.
+
+
+
+    
+    
+    
+
+Fiscal
+    Year Ended December 31
+ 2013
+    
+    
+
+Quarter
+ended December 31
+ 2013
+    
+    
+
+Quarter ended September
+30
+ 2013
+    
+    
+
+Quarter ended June
+30
+ 2013
+    
+    
+
+Quarter ended March
+31
+ 2013
+    
+    
+
+    
+    
+    
+
+Fiscal Year Ended December 31
+ 2012
+    
+    
+
+Quarter ended December
+31
+ 2012
+    
+    
+
+Quarter ended September
+30
+ 2012
+    
+    
+
+Quarter ended June
+30
+ 2012
+    
+    
+
+Quarter ended March
+31
+ 2012
+    
+    
+
+
+The
+quotations set forth above reflect inter-dealer prices
+ without retail mark-up
+ mark-down or commission
+ and may not represent
+actual transactions.
+
+Outstanding
+Shares and Number of Stockholders
+
+As
+of November 15
+ 2014
+ there were 191
+233
+345 shares of common stock issued and outstanding
+ which were held by approximately 300
+holders of record and no shares of preferred stock outstanding.
+
+
+    
+    
+
+
+
+
+We
+have never declared or paid dividends on any class of equity securities
+ and we currently intend to retain any future earnings
+for use in our business and do not anticipate paying any dividends on our outstanding common stock in the foreseeable future.
+
+Securities
+Authorized for Issuance Under Equity Compensation Plans
+
+The following
+table sets forth information with respect to compensation plans (including individual compensation arrangements) under which equity
+securities of the company are authorized for issuance as of December 31
+ 2013:
+
+
+
+
+Plan
+    Category
+    
+Number
+    of securities to be issued upon exercise of outstanding options
+ warrants and rights
+    
+    
+Weighted-average
+    exercise price of outstanding options
+ warrants and rights
+    
+    
+Number
+    of securities
+ remaining available for future issuance under equity compensation plans (excluding securities reflected in column
+    (a))
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Equity compensation plans
+    approved by security holders
+    
+    
+425
+000
+    
+    
+    
+    
+    
+    
+    
+2
+205
+000
+    
+
+Equity compensation plans not approved
+    by security holders
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+425
+000
+    
+    
+    
+    
+    
+    
+    
+2
+205
+000
+    
+
+
+Recent
+Sales of Unregistered Securities
+
+Other
+than transactions previously reported
+ the Company offered and sold the following securities without being registered under the
+Securities Act.
+
+In
+March 2013
+ in exchange for conversion of existing debt
+ we offered and sold to an entity a total of 35
+660
+568 shares of common
+stock with a fair market value of $35
+660.57 (or $0.001 per share). The offer and sale of such shares of our common stock were
+effected in reliance upon the exemptions for sales of securities not involving a public offering
+ as set forth in Section 4(2)
+of the Securities Act
+ based upon the following: (a) each investor confirmed to us that the investor was an &ldquo;accredited
+investor
+&rdquo; as defined in Rule 501 of Regulation D promulgated under the Securities Act and had such background
+ education
+and experience in financial and business matters as to be able to evaluate the merits and risks of an investment in the securities;
+(b) there was no public offering or general solicitation with respect to each offering; (c) the investors were provided with certain
+disclosure materials and all other information requested with respect to our company; (d) the investors acknowledged that all
+securities being purchased were &ldquo;restricted securities&rdquo; for purposes of the Securities Act
+ and agreed to transfer
+such securities only in a transaction registered under the Securities Act or exempt from registration under the Securities Act;
+and (e) a legend was placed on the certificates representing each such security stating that it was restricted and could only
+be transferred if subsequently registered under the Securities Act or transferred in a transaction exempt from registration under
+the Securities Act.
+
+Item
+6. Selected Financial Data.
+
+Because
+we are a smaller reporting company
+ we are not required to provide the information called for by this item.
+
+
+    
+    
+
+
+Item
+7. Management&rsquo;s Discussion and Analysis of Financial Condition and Results of Operations.
+
+The
+following discussion and analysis of the financial condition and results of operations of the Company should be read in conjunction
+with the consolidated financial statements and notes thereto. This section may include projections and other forward-looking statements
+regarding management&rsquo;s expectations regarding our performance. You should not place undue reliance on such projections and
+forward looking statements
+ and
+ when considering such projections and forward-looking statements
+ you should keep in mind the
+risk factors noted throughout this prospectus. You should also keep in mind that all projections and forward-looking statements
+are based on management&rsquo;s existing beliefs about present and future events outside of management&rsquo;s control and on
+assumptions that may prove to be incorrect. See &ldquo;Item 1A. Risk Factors.&rdquo;
+
+
+
+We
+use proprietary
+ custom-engineered
+ USDA-approved wood-burning oven technology to produce a complete line of fully-cooked Smoke-BakedTM
+fish and meat
+ and special recipe dishes. From a 15-acre food production campus located in central Iowa and owned by our exclusive
+meat processor
+ Mary Ann&rsquo;s Specialty Foods
+ Inc. (&ldquo;Specialty Foods&rdquo;)
+ we plan to sell our line of smoked foods
+through multiple channels of distribution under the Smoky Market brand.
+
+Within
+the value-added
+ prepared food marketplace
+ we see a significant lack of artisan smoked fish and meat products that are truly
+wholesome
+ naturally wood-smoked by burning wood
+ and free of additives and chemical preservatives. We believe this specialized
+marketplace to be virtually untapped and without any major smoked food brand comparable in quality. We believe our two packaged
+food brand concepts
+ &ldquo;Smoky Market&rdquo; and &ldquo;Smoky Kosher&rdquo;
+ will enable us to penetrate national markets for
+sales to wholesale and retail customers in the value-added packaged food sector. We believe our business model to be a niche market
+opportunity to produce and distribute artisan quality smoked foods
+ at competitive prices
+ within a highly processed
+ commercial
+prepared food marketplace.
+
+We
+produce our smoked foods under an agreement with Specialty Foods
+ a commercial meat processor in whose USDA facility we placed
+out first wood-burning oven system
+ which is capable of producing approximately 100
+000 pounds of our smoked salmon per month
+and a slightly lesser amount of smoked meat items.
+
+We
+have generated net losses in each fiscal year since our inception in the development of our business model. In October 2009
+ we
+generated a small amount of revenue from food sales at a prototype Los Gatos
+ CA restaurant where we were testing our foodservice
+system
+ but subsequently closed the restaurant due principally to poor economic conditions in the area. As discussed in &ldquo;Liquidity
+and Capital Resources&rdquo; below
+ in June 2009 we received $1.5 million in capital financing
+ which we used toward debt repayment
+the opening of the Los Gatos restaurant to test our foodservice system
+ and for our website to launch a test with Internet sales.
+We estimate that we will need a minimum of $500
+000 of additional financing in order to accomplish the initial launch of our regional
+sales and fulfillment plan. Because of the $650
+000 of inventory and receivable financing being provided by Specialty Foods in
+connection with our development agreement
+ we believe a minimum of $500
+000 will enable us to grow our sales revenue to a point
+where we generating a positive cash flow. We expect such proceeds to be provided through a private transaction of sales of either
+our available common or preferred stock.
+
+
+    
+    
+
+
+Liquidity
+and Capital Resources 
+
+As
+of December 31
+ 2013
+ we had cash and cash equivalents of $1
+128 and a working capital deficit of $2
+078
+266
+ as compared to cash
+and cash equivalents of $380 and a working capital deficit of $2
+165
+847 as of December 31
+ 2012.
+
+To
+finance the expansion of our wholesale
+ distribution
+ and Internet retail operations
+ we intend to seek additional financing in
+2014. Given that we are not yet in a positive cash flow or earnings position
+ the options available to us are fewer than to a
+positive cash flow company and generally do not include bank financing. To raise additional capital
+ we expect to issue equity
+securities
+ including preferred stock
+ common stock
+ warrants and/or convertible securities. We do not have any commitments from
+any party to provide required capital and may
+ or may not
+ be able to obtain such capital on reasonable terms or at all.
+
+In
+a March 2010 transaction with 70 Limited LLC
+ we received $150
+000 in cash for a promissory note in the amount of $150
+000 together
+with a warrant to purchase up to 450
+000 shares of our common stock. Under the terms of the promissory note
+ we were obligated
+to make payment on the full principal amount
+ plus interest accruing at 10% per year
+ by March 5
+ 2011
+ and we could prepay any
+amount of principal or interest at any time without penalty.
+
+In
+August 2010
+ the Company and 70 Limited LLC agreed to refinance the note. Pursuant to the agreement
+ both loans were combined
+along with accrued interest
+ forming a new loan with a maturity date of August 18
+ 2020. The note will accrue interest at a 10%
+annual rate until repaid. Prior warrants were revised to allow for exercise at $.05 per warrant as opposed to the previous $.15.
+The new warrants were valued based on the Black-Scholes method using a risk-free rate of return of .15% and volatility of 347%.
+
+In
+July 2011
+ we entered into a Purchase and Lease Agreement (the &ldquo;Sale/Lease Agreement&rdquo;) with SMKY Asset Fund LLC (the
+&ldquo;Lessor&rdquo;) related to our smoker-oven system. Pursuant to the Sale/Lease Agreement
+ we sold the smoker-oven system
+to the Lessor for a purchase price equal of $240
+000 (the &ldquo;Sale Price&rdquo;). In addition
+ we are required to issue to
+Lessor a warrant to purchase a share of common stock for each $1.00 of the Lease Price. The warrants have an exercise price of
+$0.50 per share
+ a five-year term and include net exercise provisions. We leased back the smoker-oven system for rent equal to
+$0.20 per pound of product produced using the smoker-oven up to a maximum annual return of 30% on the sum of the Sale Price ($240
+000)
+or $72
+000. The Sale/Lease Agreement has a 10-year term and includes a provision that we must repurchase the smoker-oven system
+at any time after July 25
+ 2014 providing that the market price for our common stock has exceeded $0.50 for thirty trading days.
+The repurchase price is a number of shares of common stock with a fair market value equal to 20 times the Sale Price
+ plus $5
+000.
+
+The
+Company received funding from Asher Enterprises
+ Inc. in return for promissory notes. Aggregate principal outstanding on the notes
+was $57
+800 and $115
+000 as of December 31
+ 2013 and 2012
+ respectively The notes accrue interest at an annual rate of 8% until
+repaid and are due 180 days after inception. The notes are convertible into shares of our common stock at conversion prices equal
+to a discount of 45% to the then current market price. As of December 31
+ 2013
+ two of the notes
+ aggregating $68
+695 in principal
+and accrued interest
+ were in default as they had not been converted nor retired before coming due and therefore began accruing
+interest at 22%. Both of these remaining notes were retired in the third quarter of 2014 and the total amount of accrued interest
+was waived and not paid.
+
+During
+2013
+ principal uses of cash were approximately $15
+000 to finance operations.
+
+There
+are no major expected capital expenditures during the 2014.
+
+
+    
+    
+
+
+Assuming
+the success of our wholesale foodservice distribution and development of our retail channels through display merchandising and
+Internet operations
+ which are expected to utilize a substantial portion of our existing production capacity
+ we anticipate the
+need to invest as much as $1
+500
+000 to create additional production capacity at Specialty Food&rsquo;s production facility to
+support our expanded marketing operations. This will most likely require the construction of an additional building adjacent to
+Specialty Food&rsquo;s existing production space for more ovens and packaging equipment. We have entered into agreements with
+Specialty Foods under which we were granted an option to construct an up to 80 thousand square foot building on its property to
+accommodate additional smoker ovens and equipment and an option to purchase the 15-acre campus on which Specialty Foods operates
+if needed to accommodate growth of the Company&rsquo;s business (subject to an obligation to lease back to Specialty Foods its
+processing facility). We anticipate that the financing to pay for the proposed building addition will be generated from a combination
+of our sales and additional financing transactions involving debt or equity securities. If we are unable to obtain financing to
+construct the building addition as planned
+ we will be forced to significantly curtail our proposed expansion
+ and our ability
+to grow revenue will be halted until increased capacity can be created.
+
+Results
+of Operations
+
+Our
+revenues from operations and our operating expenses decreased in 2013. The revenue decrease was due primarily to a less revenue
+generated from wholesale and internet activities in 2013 than revenue generated from restaurant and internet activities in 2012.
+The operating expense decrease was due primarily to lower costs associated with wholesale and internet activities in 2013 (as
+compared to restaurant costs in 2012) and to decreases in general and administrative expenses
+ as discuss below.
+
+Revenues
+. Our operating results for the years ended December 31
+ 2010 and 2009 are summarized as follows:
+
+
+
+    
+    
+
+    
+
+ 2013
+
+ 2012
+
+    
+3
+222
+18
+019
+
+    
+    
+17
+459
+
+    
+3
+222
+    
+
+    
+    
+    
+
+
+ Wages &amp; Benefits
+184
+000
+250
+487
+
+    
+92
+023
+170
+074
+
+    
+12
+033
+143
+468
+
+    
+2
+585
+17
+314
+
+    
+5
+131
+8
+342
+
+    
+    
+    
+
+    
+    
+66
+508
+
+
+ Wages and benefits-Related Parties
+3
+080
+26
+657
+
+    
+    
+9
+259
+
+    
+17
+551
+79
+692
+
+    
+317
+206
+771
+801
+
+    
+(313
+984
+(771
+241
+
+    
+17
+349
+888
+995
+
+    
+(296
+635
+117
+754
+
+
+Sales
+decreased by $14
+797
+ from $18
+019 in 2012 to $3
+222 in 2013
+ and costs of sales decreased by $17
+459
+ from $17
+459 in 2012 to
+$0. The decrease in costs of sales was due primarily to the write-off of inventory in 2012 as impaired due to slow sales
+ as compared
+to 2013 in which we were able to sell a minor amount of impaired inventory with no associated cost of sales as such inventory
+had already been written off. Our general and administrative expenses decreased by $454
+595
+ from $771
+801 in 2012 to $317
+206
+in 2013. Our operating loss decreased by $457
+257
+ from $771
+241 in 2012 to $317
+206 in 2013.
+
+
+    
+    
+
+
+The
+decrease in general and administrative expenses was due primarily to decreases in salaries
+ wages and benefits
+ depreciation and
+amortization
+ professional fees
+ expenses relating to stock based compensation for financing activities
+ expenses relating to
+stock based compensation for salaries
+ wages and benefits for related parties
+ and other expenses. Fees relating to salaries
+wages and benefits decreased by $66
+487
+ from $250
+487 in 2012 to $184
+000 in 2013
+ due primarily to the curtailing of operations
+during 2013. Depreciation and amortization expenses decreased by $78
+051
+ from $170
+074 in 2012 to $92
+023 in 2013
+ due primarily
+to the full amortization of loan discounts during 2013
+ causing amortization to diminish. Professional fees decreased by $131
+435
+from $143
+468 in 2012 to $12
+033 in 2013
+ primarily due to the absence of public filings
+ which could not be completed due to
+the lack of cash. Expenses related to stock based compensation for financing activities decreased by $65
+705
+ from $66
+508 in
+2012 to $803 in 2013
+ due primarily to less stock-based compensation given due to diminished financing activities. Expenses related
+to stock based compensation for salaries
+ wages and benefits for related parties decreased by 23
+577
+ from $26
+657 in 2012 to
+$3
+080 in 2013
+ due primarily to diminished operations whereby less stock-based compensation was provided to employees. Other
+general and administrative expenses decreased by $62
+141
+ from $79
+692 in 2012 to $17
+551 in 2013
+ due primarily to diminished
+operations. The foregoing decreases were not offset by increases in any other general and administrative expenses.
+
+Our
+other income decreased by $871
+646
+ from $888
+995 in 2012 to $17
+349 in 2013. This decrease in other income was due primarily
+to a decrease of $874
+129 in our gains on derivatives
+ from $1
+157
+832 in 2012 to $283
+703. This decrease in gains on derivatives
+is due primarily to the retirement of convertible debt securities
+ which previously led to the recording of derivative liabilities.
+
+In
+the opinion of our management
+ inflation has not and will not have a material effect on our operations in the immediate future.
+Management will continue to monitor inflation and evaluate the possible future effects of inflation on our business and operations.
+
+Working
+. Our working capital for the years ended December 31
+ 2013 and 2012 is summarized in the table below. For the
+categories of current assets and current liabilities
+ the line items included in the table below represent selected components
+of each category that are material to an understanding of our working capital deficiency. For a complete listing of all components
+of each category please refer to the financial statements accompanying this Report.
+
+
+
+    
+    
+
+    
+
+ 2013
+
+ 2012
+
+    
+    
+    
+
+    
+1
+128
+    
+
+    
+1
+128
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+538
+677
+530
+843
+
+    
+186
+638
+175
+038
+
+    
+975
+309
+791
+309
+
+    
+108
+805
+97
+850
+
+    
+201
+270
+484
+973
+
+
+ including accrued interest
+ less amortized discount
+68
+695
+86
+214
+
+    
+2
+079
+394
+2
+166
+227
+
+    
+    
+    
+
+    
+(2
+078
+266
+(2
+165
+847
+
+
+
+    
+    
+
+
+Our
+working capital deficiency decreased by $87
+581
+ from $2
+165
+847 in 2012 to $2
+078
+266 in 2013. The decrease in our working capital
+deficiency was primarily due to a decrease in derivative liabilities of $283
+703
+ from $484
+973 in 2012 to $201
+270 in 2013. The
+decrease in derivative liabilities is due primarily to the retirement of convertible debt securities
+ which previously led to
+the recording of derivative liabilities. The decrease in derivative liabilities was partially offset by an increase in accrued
+payroll costs of $184
+000
+ from $791
+309 in 2012 to $975
+309 in 2013. The increase in accrued payroll costs is due primarily to
+the recording of payroll liabilities owing to corporate officers
+ which could not be paid during the year due to a lack of cash.
+
+Cash
+. Our cash flows for the years ended December 31
+ 2013 and 2012 are summarized as follows:
+
+
+
+    
+    
+
+    
+
+ 2013
+
+ 2012
+
+    
+(15
+207
+(240
+983
+
+    
+15
+955
+223
+749
+
+    
+    
+(17
+234
+
+    
+    
+    
+
+
+ Beginning of Year
+    
+17
+614
+
+
+ End of Year
+1
+128
+    
+
+
+In
+2013
+ we used $15
+207 in cash in our operating activities
+ primarily relating to the financing of operations; and we generated
+$15
+955 in cash from financing activities
+ primarily due to advances from individuals and additional borrowing under the SMKY
+Asset Fund agreement.
+
+Critical
+Accounting Policies and Estimates
+
+&#9;Our
+discussion and analysis of our financial condition and results of operations are based upon financial statements which have been
+prepared in accordance with generally accepted accounting principles in the United States. The preparation of these financial
+statements requires us to make estimates and judgments that affect the reported amount of assets
+ liabilities
+ revenue and expenses
+and related disclosure of contingent assets and liabilities. On an on-going basis
+ we evaluate our critical accounting policies
+and estimates
+ including those related to long-lived assets
+ share-based compensation
+ revenue recognition
+ overhead allocation
+allowance for doubtful accounts
+ inventory
+ and deferred income tax. We base our estimates on historical experience and on various
+other assumptions that we believe to be reasonable under the circumstances
+ the results of which form the basis for making judgments
+about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results may differ
+from these estimates under different assumptions or conditions.
+
+We
+believe the following critical accounting policies affect the more significant judgments and estimates used in the preparation
+of our consolidated financial statements. These judgments and estimates affect the reported amounts of assets and liabilities
+and the reported amounts of revenues and expenses during the reporting periods. Changes to these judgments and estimates could
+adversely affect the Company&rsquo;s future results of operations and cash flows.
+
+
+    
+    
+
+
+Impairment
+of Long-Lived Assets
+
+The
+Company periodically reviews the carrying amount of property and equipment and its identifiable intangible assets to determine
+whether current events or circumstances warrant adjustments to such carrying amounts. If an impairment adjustment is deemed necessary
+such loss is measured by the amount that the carrying value of such assets exceeds their fair value. Considerable management judgment
+is necessary to estimate the fair value of assets; accordingly
+ actual results could vary significantly from such estimates.
+
+Revenue
+Recognition
+
+Sales
+are recognized upon shipment.
+
+Net
+(Loss) Per Common Share
+
+Basic
+earnings (loss) per common share calculations are determined by dividing net income (loss) by the weighted average number of common
+shares outstanding during the period. Diluted earnings (loss) per common share calculations are determined by dividing net income
+(loss) by the weighted average number of common shares
+ outstanding stock options
+ and the equivalent number of common shares
+that would have been outstanding had the convertible debt holders converted their debt instruments to common stock. All potential
+dilutive securities have been excluded from the computation
+ as their effect is anti-dilutive.
+
+Stock-Based
+Compensation
+
+The
+Company has issued its common shares as compensation to directors
+ officers
+ and non-employees (&ldquo;recipients&rdquo;). The
+Company measures the amount of stock-based compensation based on the fair value of the equity instrument issued or the services
+or goods provided as of the earlier of (1) the date at which an agreement is reached with the recipient as to the number of shares
+to be issued for performance
+ or (2) the date at which the recipient&rsquo;s performance is complete.
+
+Occasionally
+the Company sells shares below market value to raise cash to fund operations. The discounts from market are treated as compensation
+for officers and directors. For non-officers and directors
+ the discounts are netted against proceeds as a &ldquo;cost of issue.&rdquo;
+
+Income
+Taxes
+
+Deferred
+tax assets and liabilities are computed based upon the difference between the financial statement and income tax basis of assets
+and liabilities using the enacted marginal tax rate applicable when the related asset or liability is expected to be realized
+or settled. Deferred income tax expenses or benefits are based on the changes in the asset or liability each period. If available
+evidence suggests that it is more likely than not that some portion or all of the deferred tax assets will not be realized
+ a
+valuation allowance is required to reduce the deferred tax assets to the amount that is more likely than not to be realized. Future
+changes in such valuation allowance are included in the provision for deferred income taxes in the period of change.
+
+Deferred
+income taxes may arise from temporary differences resulting from income and expense items reported for financial accounting and
+tax purposes in different periods. Deferred taxes are classified as current or non-current
+ depending on the classification of
+assets and liabilities to which they relate. Deferred taxes arising from temporary differences that are not related to an asset
+or liability are classified as current or non-current depending on the periods in which the temporary differences are expected
+to reverse.
+
+
+    
+    
+
+
+Uncertainty
+in income taxes is recognized in the Company&rsquo;s financial statements. Specifically
+ the accounting policy determines (a)&nbsp;a
+consistent recognition threshold and (b)&nbsp;a measurement attribute for the financial statement recognition and measurement
+of a tax position taken or expected to be taken in a tax return
+ and provides related guidance on derecognition
+ classification
+interest and penalties
+ accounting interim periods
+ disclosure and transition. To the extent interest and penalties would be assessed
+by taxing authorities on any underpayment of income taxes
+ such amounts would be accrued and classified as a component of income
+tax expenses on the consolidated statement of operations. The Company has evaluated the presence of any such tax uncertainties
+and determined that they do not have a material impact on the financial statements. 
+
+Off-Balance
+Sheet Arrangements
+
+We
+have no significant off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on our
+financial condition
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures
+or capital resources that are material to investors.
+
+Item
+7A. Quantitative and Qualitative Disclosures about Market Risk.
+
+Because
+we are a smaller reporting company
+ we are not required to provide the information called for by this item.
+
+Item
+8. Financial Statements.
+
+Our
+financial statements and associated notes are set forth following the signature page beginning on Page F-1.
+
+Item
+9. Changes In and Disagreements with Accountants on Accounting and Financial Disclosure.
+
+The
+information required by this Item was previously reported.
+
+Item
+9A. Controls and Procedures.
+
+Disclosure
+Controls and Procedures
+
+Under
+the supervision and with the participation of our management
+ including our principal executive officer and principal financial
+officer
+ we conducted an evaluation of our disclosure controls and procedures
+ as such term is defined under Rule 13a-15(e) promulgated
+under the Securities Exchange Act of 1934 as of December 31
+ 2013. Based on this evaluation
+ our principal executive officer and
+principal financial officer concluded that our disclosure controls and procedures are not effective in ensuring that information
+required to be disclosed by the Company in the reports that it files or submits under the Exchange Act is recorded
+ processed
+summarized and reported
+ within the time periods specified in the Commission&rsquo;s rules and forms. This conclusion is based
+in part on the fact that the Company did not complete certain reports within required time periods.
+
+
+    
+    
+
+
+Internal
+Controls
+
+Our
+management is responsible for establishing and maintaining adequate internal control over financial reporting (as defined in Rule
+13a-15(f) under the Exchange Act). In fulfilling this responsibility
+ estimates and judgments by management are required to assess
+the expected benefits and related costs of control procedures. The objectives of internal control include providing management
+with reasonable
+ but not absolute
+ assurance that the records of the Company accurately and fairly reflect the transactions and
+dispositions of the Company&rsquo;s assets; assets are safeguarded against loss from unauthorized use or disposition; and that
+transactions are executed in accordance with management&rsquo;s authorization and recorded properly to permit the preparation
+of consolidated financial statements in conformity with United States generally accepted accounting principles. Our management
+assessed the effectiveness of our internal control over financial reporting as of December 31
+ 2013. Our management has concluded
+that
+ as of December 31
+ 2013
+ our internal control over financial reporting is not effective in providing reasonable assurance
+regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance
+with United States generally accepted accounting principles. Our management&rsquo;s finding of ineffective internal control over
+financial reporting results primarily from the fact that the Company has only two full time employees
+ which is not a sufficient
+number to implement industry-standard internal controls. Subject to the Company&rsquo;s ability to obtain financing and hire additional
+employees
+ the Company expects to be able to design and implement effective internal controls in the near future.
+
+Changes
+in Internal Controls
+
+During
+the last fiscal quarter ended December 31
+ 2013
+ there has been no change in internal control over financial reporting that has
+materially affected
+ or is reasonably likely to materially affect our internal control over financial reporting.
+
+Item
+9B. Other Information.
+
+
+
+
+    
+    
+
+
+PART
+III
+
+Item
+10. Directors
+ Executive Officers and Corporate Governance.
+
+Identification
+of Directors and Executive Officers
+
+Certain
+information regarding our executive officers and directors is set forth below. Our executive officers are appointed by
+ and continue
+to serve at the will of
+ our board of directors. Our directors are elected or appointed for terms that continue
+ absent resignation
+death or removal by our stockholders
+ until the later of the next annual meeting of stockholders or until a replacement is duly
+appointed or elected and qualified. Among our officers
+ Edward C. Feintech devotes substantially all of his time to our business
+Shane A. Campbell devotes approximately 10% of his time to our business
+ and Dennis Harrison currently devotes less than 5% of
+his time to our business.
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+Edward
+    C. Feintech
+    
+    
+    
+Founder
+    Promoter
+ President
+ Chief Executive Officer and Chairman of the Board
+
+Scott
+    L. Bargfrede
+    
+    
+    
+    
+
+Shane
+    A. Campbell
+    
+    
+    
+Director
+    and Chief Financial Officer*
+
+Dennis
+    A. Harrison
+    
+    
+    
+Chief
+    Information Officer*
+
+    
+    
+    
+    
+    
+
+    
+
+
+Edward
+ has been the Chairman of our Board of Directors
+ and our President and Chief Executive Officer since our incorporation
+in April 2006. Mr. Feintech operated full-service barbecue restaurants and tested quick-service barbecue operations in Des Moines
+Iowa (1977-1984) before closing his enterprise and moving on toward development of our custom-engineered
+ USDA-approved wood-burning
+oven system technology. Since organizing Smoky Systems
+ LLC
+ in December 2000
+ Mr. Feintech has been its manager and directed
+the development phase of the intellectual property that we license from Smoky Systems.
+
+Mr.
+Feintech has been appointed as a director in light of his experience in the smoked-meat and restaurant industries
+ his role as
+our Chief Executive Office and his company-specific knowledge.
+
+Scott
+ has served as a director of our company since May 2006. Mr. Bargfrede has been the President and CEO of First
+American Bank in Webster City
+ Iowa since October 18
+ 1999. First American Bank is our primary bank. Mr. Bargfrede graduated from
+the University of Minnesota in 1979 with a Bachelor of Arts degree in Ag-Business Finance. In 1992
+ he graduated from the University
+of Wisconsin Graduate School of Banking.
+
+Mr.
+Bargfrede has been appointed as a director in light of his experience in financial and banking industry.
+
+Shane
+has been our Chief Financial Officer (acting as a consultant) since our
+incorporation in April 2006. Mr. Campbell has served as a business advisor to&nbsp;numerous small and medium sized businesses
+over his twenty-two years of public and private practice. From April 2004 through the present
+ Mr. Campbell has functioned as
+the chief financial officer of Smoky Systems
+ LLC
+ and other small companies as chief financial officer on a consultant contract
+basis consultant contractor. Mr. Campbell worked from January 2001 to April 2004 as chief financial officer for MarketLive
+ Inc.
+(previously Multimedia Live
+ Inc.)
+ an e-commerce software company located in Petaluma
+ California. Prior to that time
+ from January
+1990 through January 2002
+ Mr. Campbell was an employee and then a partner at Jones
+ Schiller &amp; Company
+ LLC
+ an accounting
+firm located in San Francisco. Mr. Campbell earned a Bachelor of Science degree from California State University
+ Chico in December
+1981. 
+
+Mr.
+Campbell has been appointed as a director in light of his experience in financial
+ auditing and related business matters and his
+company-specific knowledge.
+
+
+    
+    
+
+
+Dennis
+A. Harrison
+ PhD
+ 
+2006; however
+ he is expected to become a full-time employee when and as our financial situation permits. Since January 2000
+Dr. Harrison has held senior level management positions as vice president of business development for CSF-Telequest from 2000
+to 2003
+ vice president of business development for CallTech Communications from April 2003 to April 2004
+ and vice president
+Dr. Harrison received a Bachelor of Arts
+degree in Philosophy &amp; Classical Languages from the Seminary of St. Pius X
+ an affiliate of Catholic University
+ a Master
+of Arts degree in Counseling from Loyola College
+ and a Doctor of Philosophy degree in Human Development&nbsp;from the University
+of Maryland.
+
+Audit
+Committee
+
+Our entire board of directors presently serves as our audit committee. None of the members of the audit committee
+satisfy the independence requirements applicable to audit committees of listed companies. In addition
+ the board of directors
+has determined that the audit committee does not have a member qualifying as an audit committee financial expert
+ as defined in
+Item 401(d)(5) of Regulation S-K. To save limited capital over the last several years
+ we have chosen not to expand the size of
+our Board of Directors or to offer cash compensation to our directors. The absence of cash compensation makes recruiting persons
+who are not otherwise interested in our company more difficult. For these reasons
+ we do not have on our board of directors a
+person who would qualify as an audit committee financial expert.
+
+We
+do not presently have a standing nominating committee or compensation committee
+ and we do not have a nominating committee charter
+or a compensation committee charter.
+
+Section
+16(a) Beneficial Ownership Reporting Compliance
+
+Section
+16(a) of the Exchange Act requires the Company&rsquo;s officers and directors to file reports concerning their ownership of Common
+Shares with the SEC and to furnish the Company with copies of such reports. Based solely upon the Company&rsquo;s review of the
+reports required by Section 16 and amendments thereto furnished to the Company
+ the Company believes that all reports required
+to be filed pursuant to Section 16(a) of the Exchange Act during 2010
+ were filed with the SEC on a timely basis.
+
+Code
+of Ethics
+
+We
+have not adopted a code of ethics. Although we expect to adopt a code of ethics during 2011
+ we have not done so to date because
+we believe that
+ in light of our limited capital and operations
+ expending the resources on developing a formal code of ethics
+would not be in the best interest of shareholders. As we obtain the capital to establish more significant operations
+ we expect
+to begin developing more comprehensive policies and procedures appropriate to our size and stage.
+
+
+    
+    
+
+
+Item
+11. Executive Compensation.
+
+Summary
+Compensation Table
+
+The
+following table summarizes the compensation for the fiscal years ended December 31
+ 2013 and December 31
+ 2012 paid or accrued
+by us to or on behalf of our Chief Executive Officer
+ as well as our two most highly compensated executive officers
+ if any
+ whose
+aggregate compensation for fiscal years 2012 or 2013 exceeded $100
+000 (collectively
+ the &ldquo;Named Executive Officers&rdquo;).
+
+
+
+Name
+                                         and
+Principal
+        Position
+    
+    
+    
+    
+        
+    
+    
+        
+    
+Stock
+                                         Awards
+        
+    
+    
+        
+        
+    
+Non-Equity
+    Incentive Plan Compensation ($)
+    
+Nonqualified
+    Deferred Compensation Earnings ($)
+    
+All
+    Other Compensation ($)
+    
+Total
+    ($)
+
+Edward C. Feintech
+    CEO
+ President and Director
+    
+    
+        
+    
+175
+000
+175
+000
+    
+    
+        
+    
+    
+        
+    
+--
+                                         
+        
+    
+    
+        
+    
+    
+        
+    
+    
+        
+    
+175
+000
+175
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Shane
+                                         A. Campbell
+ CFO and Director
+    
+    
+        
+    
+13
+400
+71
+794
+    
+    
+        
+    
+    
+        
+    
+    
+2
+334
+    
+    
+        
+    
+    
+        
+    
+    
+        
+    
+14
+007
+74
+128
+
+
+(1) Mr.
+Campbell is currently serving as a part-time Chief Financial Officer/Consultant; his services are provided on an as-needed basis.
+Compensation is accrued and then paid as cash becomes available.
+
+
+    
+    
+
+
+On
+May 10
+ 2007
+ Mr. Feintech signed an executive employment agreement. The agreement is for a three-year term and calls for him
+to receive a minimum base salary of $175
+000 per year. The employment agreement also grants to him: (i) a one-time stock issuance
+of 1
+500
+000 shares of common stock upon execution of the agreement; (ii) an award of non-statutory stock options of 425
+000 shares
+of common stock at an exercise price of $0.10 per share; and (iii) a bonus equal to an additional 1
+000
+000 shares of common stock
+upon the achievement of each incremental level of $50
+000
+000 in revenue
+ provided that cumulative net after-tax income is being
+maintained at a level not less than 7.5% on total revenue.
+
+In
+addition
+ in May 2006
+ Mr. Feintech was issued 50
+000 shares of common stock in exchange for the assignment of any intellectual
+property rights related to our business and granted an option to purchase 325
+000 shares of common stock pursuant to our stock
+incentive plan at an exercise price of $0.10 at any time prior to May 13
+ 2013. The options vested 25% on May 31
+ 2007 and have
+continued to vest 1/48th each month thereafter until fully vested.
+
+On
+June 21
+ 2010
+ Mr. Feintech was granted 2
+250
+000 shares of common stock as additional compensation. Such shares were valued at
+$0.14
+ for total compensation of $31
+500.
+
+On
+February 11
+ 2011
+ Mr. Feintech was granted 1
+750
+000 shares of common stock as additional compensation. Such shares were valued
+at $0.008
+ for total compensation of $14
+000.
+
+On
+February 13
+ 2011
+ Mr. Feintech was granted 400
+000 warrants to purchase common stock at a strike price of $0.05. The warrant
+term extends five years through February 12
+ 2016. The warrants were valued at $3
+212 using the Black-Scholes method
+ assuming
+a risk-free rate of return of 0.13% and volatility of 347%.
+
+On
+September 30
+ 2011
+ Mr. Feintech was granted 500
+000 warrants to purchase common stock at a strike price of $0.25. The warrant
+term extends five years through September 29
+ 2016. The warrants were valued at $119
+984 using the Black-Scholes method
+ assuming
+a risk-free rate of return of 0.02% and volatility of 317%.
+
+On
+May 17
+ 2010
+ Mr. Campbell was granted 1
+500
+000 warrants to purchase common stock at a strike price of $0.05. The fair value
+per common share was $0.02. The warrant term extends five years through May 16
+ 2015. The warrants were valued at $30
+027 using
+the Black-Scholes method
+ assuming a risk-free rate of return of .12% to .15% and a volatility of 347%.
+
+On
+September 30
+ 2011
+ Mr. Campbell was granted 250
+000 warrants to purchase common stock at a strike price of $0.25. The warrant
+term extends five years through September 29
+ 2016. The warrants were valued at $60
+008 using the Black-Scholes method
+ assuming
+a risk-free rate of return of 0.02% and volatility of 317%.
+
+On
+December 20
+ 2012
+ Mr. Campbell was granted 350
+000 warrants to purchase common stock at a strike price of $.05. The warrant term
+extends three years through December 20
+ 2015. The warrants were valued at $2
+334 using the Black-Scholes method
+ assuming a risk-free
+rate of return of .02% and volatility of 310%.
+
+On
+December 31
+ 2013
+ Mr. Campbell was granted 350
+000 warrants to purchase common stock at a strike price of $.05. The warrant term
+extends three years to December 31
+ 2016. The warrants were valued at $607 using the Black-Scholes method
+ assuming a risk-free
+rate of return of .78% and volatility of 307%.
+
+Outstanding
+Equity Awards at Fiscal Year-End
+
+The
+following table provides information regarding equity awards held by the Named Executive Officers as of December 31
+ 2013:
+
+
+
+    
+    
+Option
+    Awards
+    
+Stock
+    Awards
+
+    
+    
+Number
+        of Securities Underlying Unexercised Options
+(#)
+        Exercisable
+    
+Number
+        of Securities Underlying Unexercised Options
+(#)
+        Unexercisable
+    
+Equity
+        Incentive Plan Awards:
+Number
+        of Securities Underlying Unexercised Unearned Options
+        
+    
+Option
+        Exercise Price
+        
+    
+Option
+    Expiration Date
+    
+Number
+        of Shares or Units of Stock That Have Not Vested
+        
+    
+Market
+        Value of Shares or Units of Stock That Have Not Vested
+        
+    
+Equity
+        Incentive Plan Awards:
+Number
+        of Unearned Shares
+ Units or Other Rights That Have Not Vested
+        
+    
+Equity
+        Incentive Plan Awards:
+Market
+        or Payout Value of Unearned Shares
+ Units or Other Rights That Have Not Vested
+        
+
+Edward
+    C. Feintech
+ CEO
+ President and Director
+    
+425
+000
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+(1)
+Options vested 25% on May 31
+ 2007 and 1/48th each month thereafter until fully vested. 
+
+Compensation
+of Directors
+
+Directors
+who are not officers of the Company do not receive any regular compensation for their service on the board of directors but are
+entitled to reimbursement of any actual expenses associated with the attendance of board meeting and other activities and to receive
+options and other awards under the Company&rsquo;s stock incentive plan. Directors are entitled to receive compensation for services
+unrelated to their service as a director to the extent that they provide such unrelated services to the Company.
+
+Information
+with respect to the compensation of Edward C. Feintech
+ our Chief Executive Officer and President
+ is set forth in the tables
+above.
+
+Executive
+Employment Agreements
+ Termination of Employment and Change of Control Arrangements 
+
+Except
+as described in following paragraph
+ we have not entered into employment agreements with any of our executive officers and
+ other
+than provisions in our stock incentive plan that permit acceleration of vesting of awards in connection with a change of control
+have no arrangements or plans which provide benefits in connection with retirement
+ resignation
+ termination or a change of control.
+
+
+
+    
+    
+
+
+Pursuant
+to his executive employment agreement dated May 10
+ 2007
+ Edward C. Feintech is entitled to receive
+ as severance and following
+execution of a release of liabilities in favor of the Company
+ (i) if the termination was by the Company without cause or by the
+employee with good reason (except in connection with a change of control)
+ base salary and medical benefits (plus any pro-rated
+bonus for which he otherwise qualified) for a period of 12-months following the termination
+ or (ii) if the termination was by
+the Company without cause or by the employee with good reason and occurred 90 days prior to or within one year after a change
+of control
+ base salary and medical benefits for a period of 24 months and acceleration of the vesting of any stock options granted
+under the employment agreement. Mr. Feintech is not entitled to such severance benefits if the termination is either by the Company
+for cause
+ by Mr. Feintech without good reason
+ or after May 10
+ 2010. A change of control includes (a) any capital reorganization
+reclassification of the capital stock of Company
+ consolidation or merger of Company with another corporation in which Company
+is not the survivor (other than a transaction effective solely for the purpose of changing the jurisdiction of incorporation of
+Company)
+ (b) the sale
+ transfer or other disposition of all or substantially all of the Company&rsquo;s assets to another entity
+and (c) the acquisition by a single person (or two or more persons acting as a group
+ as a group is defined for purposes of Section
+13(d)(3) under the Exchange Act of 1934
+ as amended) of more than 40% of the outstanding shares of common stock of the Company.
+
+
+Compensation
+Committee Interlocks and Insider Participation
+
+The
+Company has no compensation committee or other board committee performing equivalent functions. Edward C. Feintech
+ an officer
+of the Company as well as chairman of the board of directors
+ participated in deliberations of the Company&rsquo;s board of directors
+concerning executive officer compensation during 2011.
+
+Item
+12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters.
+
+The
+following table sets forth information with respect to the beneficial ownership of our common stock as of November
+ 15
+ 2014 and
+as adjusted to reflect the sale of the shares of our common stock offered hereby
+ by:
+
+
+all
+                                         persons known by us to beneficially own more than 5% of our common stock;
+
+
+
+each
+                                         of our named executive officers;
+
+
+
+each
+                                         of our directors; and
+
+
+
+all
+                                         directors and executive officers as a group.
+
+Beneficial
+ownership is determined according to the rules of the SEC and generally means that a person has beneficial ownership of a security
+if he
+ she or it possesses sole or shared voting or investment power of that security
+ and includes options and warrants that
+are currently exercisable or exercisable within 60 days. Except as indicated by footnote
+ and subject to community property laws
+where applicable
+ we believe the persons named in the table have sole voting and investment power with respect to all shares of
+common stock shown as beneficially owned by them. 
+
+
+    
+    
+
+
+
+
+    
+    
+    
+
+ Chairman
+ President and CEO
+18
+411
+934
+    
+
+    
+    
+    
+
+
+ Director
+1
+396
+572
+    
+
+    
+    
+    
+
+
+ Director and CFO
+2
+843
+511
+    
+
+    
+    
+    
+
+
+ CIO
+3
+162
+411
+    
+
+    
+    
+    
+
+    
+25
+814
+428
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+ LLC 
+ Las Vegas
+ NV 89121
+17
+190
+426
+    
+
+    
+    
+    
+
+35 Lincoln Dr.
+ Wallingford
+ CT 06492
+10
+151
+181
+    
+
+
+
+* Represents
+less than 1% of the outstanding shares of common stock.
+
+
+The percentages set forth above
+have been computed assuming the number of shares of common stock outstanding equals the sum of (a) 191
+233
+345
+ which is the number
+of shares of common stock actually outstanding on November 15
+ 2014
+ and (b) shares of common stock subject to options
+ warrants
+convertible notes and similar securities exercisable or convertible for common stock within 60 days of such date held by the person
+with respect to percentage is computed (but not by any other person).
+
+
+
+
+Includes
+ in addition to outstanding
+shares held by Mr. Feintech
+ 425
+000 shares issuable upon exercise of non-statutory stock options. Also includes 257
+521 shares
+of common stock held of record by Cheryl Feintech.
+
+
+
+
+Includes 425
+000 shares issuable
+upon the exercise of non-statutory stock options.
+
+
+
+
+Based on the Company&rsquo;s
+internal records reflecting the stock ownership of 70 Limited
+ LLC. Includes 2
+602
+500 shares issuable upon the exercise of warrants.
+Tertia Dvorchak is the manager of 70 Limited
+ LLC and
+ as such
+ has voting and investment control over these securities. Tertia
+Dvorchak disclaims beneficial ownership of the securities held by 70 Limited
+ LLC.
+
+
+
+
+Based on the Company&rsquo;s
+internal records reflecting the stock ownership of Jason Zandri. Includes 800
+000 shares issuable upon conversion of Units owned
+in SMKY Asset Fund LLC and 420
+000 shares issuable upon the exercise of warrants.
+
+
+Securities
+Authorized for Issuance under Equity Compensation Plans
+
+The
+information set forth above in Item 5 under &ldquo;Securities Authorized for Issuance under Equity Compensation Plans&rdquo; is
+incorporated herein by reference.
+
+Item
+13. Certain Relationships and Related Transactions
+ and Director Independence.
+
+Arrangements
+with Officers
+ Directors and Promoters
+
+Set forth
+below is a description of certain transactions entered into since January 1
+ 2013
+ or presently contemplated
+ with any officer
+director
+ affiliate or other related person:
+
+Our directors
+have set the initial salary or consulting fee of certain of our officers as follows (in each case pending availability of capital):
+
+
+
+    
+    
+
+
+ President &amp; CEO
+175
+000
+
+
+ CFO
+as
+needed
+
+
+ CIO
+    
+
+
+*
+Currently serving as a part-time Chief Financial Officer/Consultant; services are provided on an as-needed basis and salary is
+being accrued and then paid as cash becomes available.
+
+
+    
+    
+
+
+Independence
+of Board of Directors and Committees 
+
+Our
+Board of Directors currently consists of Edward C. Feintech
+ our Chairman and Chief Executive Officer
+ Scott L. Bargfrede
+ and
+Shane A. Campbell
+ our Chief Financial Officer. The Board of Directors has determined that Mr. Bargfrede is independent
+ using
+the standards of independence applicable to companies listed on the NASDAQ Stock Market. We do not presently have a standing audit
+committee
+ nominating committee
+ or compensation committee
+ and we do not have a charter for any such committees. Our entire Board
+of Directors performs the functions generally performed by such committees. Mr. Bargfrede is independent using the standards of
+the NASDAQ Stock Market applicable to compensation and nominating committee but may not be independent for purposes of applicable
+audit committee standards because of the financial relationship disclosed below.
+
+Item
+14. Principal Accountant Fees and Services.
+
+Audit
+Fees
+
+The
+Company&rsquo;s independent auditor for the first
+ second and third quarterly periods in 2012 was Silberstein Ungar
+ PLLC
+ and
+the aggregate fee for auditing in those periods was $2
+500. The Company&rsquo;s independent auditor for the fourth quarterly period
+in 2012 and for the year ended December 31
+ 2013 was Huckfeldt &amp; Smith
+ PLC
+ and the aggregate fee for auditing in those periods
+was $22
+000.
+
+Audit
+Related Fees
+
+The
+aggregate fees for professional services for assurance and other audit related services was $5
+000 for the fiscal year ended December
+31
+ 2012 and $0 for the fiscal year ended December 31
+ 2013.
+
+Tax
+Fees
+
+There
+were no fees paid to Silberstein Ungar
+ PLLC or to Huckfeldt &amp; Smith
+ PLC
+ for tax-related professional services for the year
+ended December 31
+ 2012 or the fiscal year ended December 31
+ 2013.
+
+All
+Other Fees
+
+Neither
+Silberstein Ungar
+ PLLC nor Huckfeldt &amp; Smith
+ PLC provided to the Company any other material services during the fiscal year
+ended December 31
+ 2012 or the fiscal year ended December 31
+ 2013.
+
+Audit
+Committee Pre-Approval Policies
+
+Under
+the pre-approval policies and procedures established by the Board of Directors
+ functioning as the Audit Committee
+ it would not
+permit engagement of accountants to render audit or non-audit services without prior approval of the Board of Directors
+ functioning
+as the Audit Committee. As a result
+ all engagements of the independent auditors to render audit or non-audit services were approved
+by the Board of Directors
+ functioning as the Audit Committee.
+
+
+    
+    
+
+
+Item
+15. Exhibits and Financial Statement Schedules.
+
+
+
+Exhibit
+
+No.
+    
+    
+    
+Incorporated
+    by Reference/Filed 
+Herewith
+
+    
+    
+Amended
+        and Restated Articles of Incorporation
+        
+    
+Incorporated
+        by reference to Amendment No. 3 to Registration Statement on Form SB-2 filed on August 24
+ 2007
+ File No. 333-143008
+        
+
+    
+    
+    
+        
+    
+Incorporated
+        by reference to Amendment No. 3 to Registration Statement on Form SB-2 filed on August 24
+ 2007
+ File No. 333-143008
+        
+
+    
+    
+Form
+        of Common Stock Certificate
+        
+    
+Incorporated
+        by reference to Amendment No. 3 to Registration Statement on Form SB-2 filed on August 24
+ 2007
+ File No. 333-143008
+        
+
+    
+    
+Series
+    2008A Warrant dated September 8
+ 2008
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on September 10
+ 2008
+ File No. 000-52158
+        
+
+    
+    
+Series
+    2009B Warrant dated May 29
+ 2009
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on June 4
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Series
+    2009C Warrant dated October 30
+ 2009
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on November 6
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Warrant
+    dated March 5
+ 2010
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on March 19
+ 2010
+ File No. 000-52158
+        
+
+    
+    
+Series
+    2011C Warrant dated August 25
+ 2011
+    
+Incorporated
+        by reference to the Company&rsquo;s Annual Report on Form 10-K filed on September 1
+ 2011
+ File No. 000-52158
+        
+
+    
+    
+2006
+    Stock Incentive Plan
+    
+Incorporated
+        by reference to Registration Statement on Form 10-SB filed on February 16
+ 2007
+ File No. 000-52158
+        
+
+    
+    
+Form
+    of NonStatutory Stock Option Agreement
+    
+Incorporated
+        by reference to Registration Statement on Form 10-SB filed on February 16
+ 2007
+ File No. 000-52158
+        
+
+
+
+    
+    
+
+
+
+
+    
+ No.
+    
+    
+    
+Incorporated
+    by Reference/Filed 
+Herewith
+
+    
+    
+Employment
+        Agreement dated May 10
+ 2007 with Edward C. Feintech
+        
+    
+Incorporated
+by reference to the Quarterly Report on Form 10-Q filed on May 14
+ 2007
+ File No. 000-52158
+
+    
+    
+    
+    
+    
+
+    
+    
+Consulting
+        Agreement dated May 1
+ 2008 with International Monetary
+        
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on May 8
+ 2008
+ File No. 000-52158
+        
+
+    
+    
+Promissory
+    Note dated September 8
+ 2008
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on September 10
+ 2008
+ File No. 000-52158
+        
+
+    
+    
+Note
+    and Share Purchase Agreement dated January 27
+ 2009 with 70 Limited LLC
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on February 2
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Note
+    Share and Warrant Purchase Agreement dated May 28
+ 2009 with 70 Limited LLC and The Jimma Lee Beam Revocable Trust
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on June 4
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Promissory
+    Note dated May 29
+ 2009
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on June 4
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+License
+    Termination and Asset Transfer Agreement dated June 30
+ 2009 with Smoky Systems
+ LLC
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on July 7
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Option
+    Agreement dated October 30
+ 2009 with Mary Ann&rsquo;s Specialty Foods
+ Inc.
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on November 6
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Second
+    Amended and Restated Processing Agreement dated October 30
+ 2009 with Mary Ann&rsquo;s Specialty Foods
+ Inc.
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on November 6
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Consulting
+    Agreement dated October 30
+ 2009 with William Korleski
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on November 6
+ 2009
+ File No. 000-52158
+        
+
+    
+    
+Note
+    and Warrant Purchase Agreement dated March 5
+ 2010 with 70 Limited LLC
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on March 29
+ 2010
+ File No. 000-52158
+        
+
+
+
+    
+    
+
+
+
+
+    
+No.
+    
+    
+    
+Incorporated
+    by Reference/Filed
+ Herewith
+
+    
+    
+Secured
+    Promissory Note dated March 5
+ 2010
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on March 29
+ 2010
+ File No. 000-52158
+        
+
+    
+    
+Security
+    Agreement dated March 5
+ 2010
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on March 29
+ 2010
+ File No. 000-52158
+        
+
+    
+    
+Executive
+        Consulting Agreement dated March 25
+ 2010 with Harvey Hoffenberg
+        
+    
+Incorporated
+        by reference to the Annual Report on Form 10-K filed on April 15
+ 2010
+        
+
+    
+    
+Purchase
+    and Lease Agreement dated July 25
+ 2011 with SMKY Asset Fund
+ LLC
+    
+Incorporated
+        by reference to the Company&rsquo;s Annual Report on Form 10-K filed on September 1
+ 2011
+ File No. 000-52158
+        
+
+    
+    
+Business
+    Development and License Agreement
+    
+Incorporated
+        by reference to the Current Report on 8-K filed on July 18
+ 2014
+ File No. 000-52158
+        
+
+    
+    
+Consent
+        of Independent Registered Public 
+        
+        
+    
+Filed
+        herewith
+        
+
+    
+    
+Power
+    of Attorney
+    
+Included
+        on the signature page hereof
+        
+
+    
+    
+Rule
+        13a-14(a)/15d-14(a) Certification of Chief Executive Officer
+        
+    
+Filed
+    herewith
+
+    
+    
+Rule
+        13a-14(a)/15d-14(a) Certification of Chief Financial Officer
+        
+    
+Filed
+    herewith
+
+    
+    
+Section
+        1350 Certification of Chief Executive Officer
+        
+    
+Filed
+    herewith
+
+    
+    
+Section
+    1350 Certification of Chief Financial Officer
+    
+Filed
+    herewith
+
+
+
+    
+    
+
+
+
+
+Pursuant
+to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this Form 10-K
+to be signed on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+    
+SMOKY
+    MARKET FOODS
+ INC.
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+Eddie
+    Feintech
+
+    
+    
+Chief
+    Executive Officer
+
+    
+    
+    
+
+    
+Date:
+    November 18
+ 2014
+
+
+POWER
+OF ATTORNEY AND ADDITIONAL SIGNATURES
+
+Pursuant
+to the requirements of the Securities Exchange Act of 1934
+ this report has been signed by the following persons on behalf of
+the registrant and in the capacities and on the dates indicated. Each person
+ whose signature to this Form 10-K appears below
+hereby constitutes and appoints Eddie Feintech as his true and lawful attorney-in-fact and agent
+ with full power of substitution
+to sign on his behalf individually and in the capacity stated below and to perform any acts necessary to be done in order to file
+all amendments and post-effective amendments to this Form 10-K
+ and any and all instruments or documents filed as part of or in
+connection with this Form 10-K or the amendments thereto and each of the undersigned does hereby ratify and confirm all that said
+attorney-in-fact and agent
+ or his substitutes
+ shall do or cause to be done by virtue hereof.
+
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+Chief Executive Officer
+ President and Chairman
+    
+November 18
+ 2014
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+Director
+ Chief Financial Officer
+    
+November 18
+ 2014
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+November 18
+ 2014
+
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+Exhibit
+23.1
+
+Consent
+of Independent Registered Public Accounting Firm
+
+We
+consent to the incorporation by reference in Registration Statement No. 333-146034 on Forms S-8 of our report dated October 30
+2014 relating to our audit of the financial statements of Smoky Market Foods
+ Inc. for the periods ending December 31
+ 2013 and
+December 31
+ 2012
+ which appear in this Annual Report on Form 10-K of Smoky Market Foods
+ Inc. for the year ended December 31
+2013.
+
+
+
+/s/
+    Huckfeldt &amp; Smith
+ P.L.C.
+    
+
+Huckfeldt
+    &amp; Smith
+ P.L.C.
+    
+
+
+Bettendorf
+Iowa
+November
+18
+ 2014
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+Exhibit
+31.1
+
+
+
+I
+Edward C. Feintech
+ certify that:
+
+
+
+    
+    
+I
+    have reviewed this annual report on Form 10-K of Smoky Market Foods
+ Inc. for the year ended December 31
+ 2013;
+
+    
+    
+    
+
+    
+    
+Based
+    on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+    to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+    to the period covered by this report;
+
+    
+    
+    
+
+    
+    
+Based
+    on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all
+    material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods
+    presented in this report; 
+
+    
+    
+    
+
+    
+    
+The
+    registrant&rsquo;s other certifying officer(s) and I are responsible for establishing and maintaining disclosure controls
+    and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial reporting (as
+    defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the registrant and have:
+
+
+(a)
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by
+others within those entities
+ particularly during the period in which this report is being prepared;
+
+(b)
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed
+under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of
+financial statements for external purposes in accordance with generally accepted accounting principles;
+
+(c)
+Evaluated the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report our conclusions
+about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on
+such evaluation; and
+
+(d)
+Disclosed in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the
+registrant&rsquo;s most recent fiscal quarter (the registrant&rsquo;s fourth fiscal quarter in the case of an annual report) that
+has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s internal control over financial
+reporting; and
+
+
+
+    
+    
+The
+    registrant&rsquo;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control
+    over financial reporting
+ to the registrant&rsquo;s auditors and the audit committee of the registrant&rsquo;s board of directors
+    (or persons performing the equivalent functions): 
+
+
+(a)
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which
+are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial information;
+and
+
+(b)
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s
+internal control over financial reporting.
+
+
+
+Date:
+    November 18
+ 2014
+/s/
+    Edward C. Feintech
+
+    
+Edward
+    C. Feintech
+ Chief Executive Officer
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+Exhibit
+31.2
+
+
+
+I
+Shane A. Campbell
+ certify that:
+
+
+
+    
+    
+I
+    have reviewed this annual report on Form 10-K of Smoky Market Foods
+ Inc. for the year ended December 31
+ 2013;
+
+    
+    
+    
+
+    
+    
+Based
+    on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+    to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+    to the period covered by this report;
+
+    
+    
+    
+
+    
+    
+Based
+    on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all
+    material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods
+    presented in this report; 
+
+    
+    
+    
+
+    
+    
+The
+    registrant&rsquo;s other certifying officer(s) and I are responsible for establishing and maintaining disclosure controls
+    and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial reporting (as
+    defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the registrant and have: 
+
+
+(a)
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by
+others within those entities
+ particularly during the period in which this report is being prepared;
+
+(b)
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed
+under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of
+financial statements for external purposes in accordance with generally accepted accounting principles;
+
+(c)
+Evaluated the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report our conclusions
+about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on
+such evaluation; and
+
+(d)
+Disclosed in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the
+registrant&rsquo;s most recent fiscal quarter (the registrant&rsquo;s fourth fiscal quarter in the case of an annual report) that
+has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s internal control over financial
+reporting; and
+
+
+
+    
+    
+The
+    registrant&rsquo;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control
+    over financial reporting
+ to the registrant&rsquo;s auditors and the audit committee of the registrant&rsquo;s board of directors
+    (or persons performing the equivalent functions): 
+
+
+(a)
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which
+are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial information;
+and
+
+(b)
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s
+internal control over financial reporting.
+
+
+
+Date:
+    November 18
+ 2014
+/s/
+    Shane A. Campbell
+
+    
+Shane
+    A. Campbell
+
+    
+Chief
+    Financial Officer
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+Exhibit
+32.1
+
+CERTIFICATION
+PURSUANT TO
+18
+U.S.C.
+ SECTION 1350
+
+AS
+ADOPTED PURSUANT TO
+SECTION
+906 OF THE SARBANES-OXLEY ACT OF 2002
+
+In
+connection with the annual report on Form 10-K of Smoky Market Foods
+ Inc. (the &ldquo;Company&rdquo;) for the year ended December
+31
+ 2013
+ as filed with the Securities and Exchange Commission on the date hereof (the &ldquo;Report&rdquo;)
+ I
+ Edward C. Feintech
+Chief Executive Officer of the Company
+ certify
+ pursuant to 18 U.S.C. &sect; 1350
+ as adopted pursuant to &sect; 906 of the Sarbanes-Oxley
+Act of 2002
+ that
+ to the best of my knowledge:
+
+(1)
+The Report fully complies with the requirements of section 13(a) or 15(d) of the Securities Exchange Act of 1934; and
+
+(2)
+The information contained in the Report fairly presents
+ in all material respects
+ the financial condition and results of operations
+of the Company.
+
+
+
+/s/
+    Edward C. Feintech
+    
+
+Edward
+    C. Feintech
+    
+
+Chief
+    Executive Officer
+    
+
+    
+    
+
+November
+    18
+ 2014
+    
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+Exhibit
+32.2
+
+CERTIFICATION
+PURSUANT TO
+18
+U.S.C.
+ SECTION 1350
+
+AS
+ADOPTED PURSUANT TO
+SECTION
+906 OF THE SARBANES-OXLEY ACT OF 2002
+
+In
+connection with the annual report on Form 10-K of Smoky Market Foods
+ Inc. (the &ldquo;Company&rdquo;) for the year ended December
+31
+ 2013 as filed with the Securities and Exchange Commission on the date hereof (the &ldquo;Report&rdquo;)
+ I
+ Shane A. Campbell
+Chief Financial Officer of the Company
+ certify
+ pursuant to 18 U.S.C. &sect; 1350
+ as adopted pursuant to &sect; 906 of the Sarbanes-Oxley
+Act of 2002
+ that
+ to the best of my knowledge:
+
+(1)
+The Report fully complies with the requirements of section 13(a) or 15(d) of the Securities Exchange Act of 1934; and
+
+(2)
+The information contained in the Report fairly presents
+ in all material respects
+ the financial condition and results of operations
+of the Company.
+
+
+
+/s/
+    Shane A. Campbell
+    
+
+Shane
+    A. Campbell
+    
+
+Chief
+    Financial Officer
+    
+
+    
+    
+
+November
+    18
+ 2014
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+

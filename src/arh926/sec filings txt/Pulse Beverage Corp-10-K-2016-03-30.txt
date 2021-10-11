@@ -1,0 +1,8291 @@
+
+
+ACCESSION NUMBER:		0001472375-16-000320
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	20151231
+FILED AS OF DATE:		20160330
+DATE AS OF CHANGE:		20160330
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Pulse Beverage Corp
+		CENTRAL INDEX KEY:			0001420569
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOTTLED & CANNED SOFT DRINKS CARBONATED WATERS [2086]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-53586
+		FILM NUMBER:		161540927
+	BUSINESS ADDRESS:	
+		STREET 1:		11678 N. HURON STREET
+ STE. 200
+		CITY:			NORTHGLENN
+		STATE:			CO
+		ZIP:			80234
+		BUSINESS PHONE:		720-382-5476
+	MAIL ADDRESS:	
+		STREET 1:		11678 N. HURON STREET
+ STE. 200
+		CITY:			NORTHGLENN
+		STATE:			CO
+		ZIP:			80234
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Darlington Mines Ltd.
+		DATE OF NAME CHANGE:	20071207
+
+
+
+
+
+
+ 2015
+
+
+
+
+
+
+
+
+SECURITIES AND
+Washington
+ D.C.
+20549
+
+ANNUAL
+  REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For
+the fiscal year ended December 31
+ 2015
+TRANSITION
+  REPORT PURSUANT TO SECTION&nbsp;13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF
+  1934
+For
+the transition period from __________ to __________
+Commission
+File Number: 000-53586
+THE PULSE
+(Exact name of registrant as specified
+in its charter)
+
+
+
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+11678 N Huron St
+ Northglenn
+&nbsp;(Address of principal executive
+offices
+ including zip code)
+(Telephone number
+ including area code)
+
+Section&nbsp;12(b) of the Act:
+
+
+Section&nbsp;12(g) of the Act:
+Common Stock
+ par value $.00001 per
+share
+
+check mark if the registrant is a well-known seasoned issuer
+ as defined in
+Rule 405 of the Securities Act.
+Yes &nbsp;[&nbsp;&nbsp;]&nbsp;&nbsp;&nbsp;No &nbsp;[X] 
+
+is not required to file reports pursuant to Section 13 or 15(d) of the Exchange
+Act.
+Yes &nbsp;[&nbsp;&nbsp;]&nbsp;&nbsp;&nbsp;No &nbsp;[X] 
+
+registrant (1) has filed all reports required to be filed by Section 13 or
+15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or
+for such shorter period that the registrant was required to file such reports)
+and (2) has been subject to such filing requirements for the past 90 days.
+Yes &nbsp;[X]&nbsp;&nbsp;&nbsp;No &nbsp;[ &nbsp;] 
+
+registrant has submitted electronically and posted on its corporate Web site
+if any
+ every Interactive Data File required to be submitted and posted
+pursuant to Rule 405 of Regulation S-T (&#167;232.405 of this chapter) during the
+preceding 12 months (or for such shorter period that the registrant was
+required to submit and post such files).
+Yes &nbsp;[X]&nbsp;&nbsp;&nbsp;No &nbsp;[ &nbsp;] 
+
+delinquent filers pursuant to Item 405 of Regulation S-K (&#167;229.405 of this
+chapter) is not contained herein
+ and will not be contained
+ to the best of
+registrant&#8217;s knowledge
+ in definitive proxy or information statements
+incorporated by reference in Part III of this Form 10-K or any amendment to
+this Form 10-K. &nbsp;[X]
+
+registrant is a large accelerated filer
+ an accelerated filer
+ a
+non-accelerated filer or a smaller reporting company. See the definitions of
+&#8220;large accelerated filer
+&#8221; &#8220;accelerated filer&#8221; and&nbsp;&#8220;smaller reporting company&#8221;
+in Rule 12b-2 of the Exchange Act.
+
+
+
+    
+
+
+
+    
+
+
+
+check mark whether the registrant is a shell company (as defined in Rule 12b-2
+of the Exchange Act).
+Yes &nbsp;[&nbsp;&nbsp;]&nbsp;&nbsp;&nbsp;No &nbsp;[X] 
+
+second fiscal quarter
+ June 30
+ 2015
+ the aggregate market value of common
+stock held by non-affiliates was approximately $10
+845
+000 using the closing
+price on that day of $0.18.
+
+ 2016
+ there were 68
+924
+980
+shares of the Company&#8217;s common stock issued and outstanding.
+Documents
+Incorporated by Reference: None.
+
+
+
+ANNUAL
+REPORT ON FORM 10-K FOR THE FISCAL YEAR ENDED DECEMBER 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Related Stockholder Matters and  Issuer Purchases of Equity Securities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Executive Officers and Corporate Governance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ and Director Independence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAUTIONARY NOTICE REGARDING FORWARD
+LOOKING STATEMENTS
+
+take advantage of the &#8220;safe harbor&#8221; provisions of the Private Securities
+Litigation Reform Act of 1995. This Annual Report on Form 10-K (&#8220;Report&#8221;)
+contains a number of forward-looking statements that reflect management&#8217;s
+current views and expectations with respect to our business
+ strategies
+products
+ future results and events
+ and financial performance. All statements
+made in this Report other than statements of historical fact
+ including
+statements that address operating performance
+ the economy
+ events or
+developments that management expects or anticipates will or may occur in the
+future
+ including statements related to potential strategic transactions
+distributor channels
+ volume growth
+ revenues
+ profitability
+ new products
+adequacy of funds from operations
+ cash flows and financing
+ our ability to
+continue as a going concern
+ statements regarding future operating results and
+non-historical information
+ are forward-looking statements. In particular
+ the
+words such as &#8220;believe
+&#8221; &#8220;expect
+&#8221; &#8220;intend
+&#8221; &#8220;anticipate
+&#8221; &#8220;estimate
+&#8221; &#8220;may
+&#8221;
+&#8220;will
+&#8221; &#8220;can
+&#8221; &#8220;plan
+&#8221; &#8220;predict
+&#8221; &#8220;could
+&#8221; &#8220;future
+&#8221; variations of such words
+and similar expressions identify forward-looking statements
+ but are not the
+exclusive means of identifying such statements and their absence does not mean
+that the statement is not forward-looking.
+
+not place undue reliance on these forward-looking statements
+ which are based
+on management&#8217;s current expectations and projections about future events
+ are
+not guarantees of future performance
+ are subject to risks
+ uncertainties and
+assumptions and apply only as of March 30
+ 2016. Our actual results
+performance or achievements could differ materially from historical results as
+well the results expressed in
+ anticipated or implied by these forward-looking
+statements. Except as required by law
+ we undertake no obligation to publicly
+update or revise any forward-looking statements
+ whether as a result of new
+information
+ future events or otherwise.
+
+ our business
+including our financial condition and results of operations
+ may be impacted by
+a number of factors
+ including
+ but not limited to
+ the following:
+
+
+
+  
+ and
+    maintain existing distribution arrangements with distributors
+ retailers
+    brokers and regional and national retail accounts
+ most of whom sell and
+    distribute competing products
+ and whom we rely upon to employ sufficient
+    efforts in managing and selling our products
+ including re-stocking retail
+    shelves with our products
+ on which our business plan and future growth are
+
+  
+    our PULSE&#174; Heart &amp; Body Health brand of functional beverages
+ including our
+    sales and marketing strategies relating to the distribution and sales at a
+
+  
+    listings
+ obtain favorable placement within each store and increase case sales
+    through promotions with respect to Natural Cabana&#174; Lemonade
+ Limeade and
+
+  
+
+  
+    working capital resources to efficiently finance the growth of our business
+    including building inventory levels and financing receivables from our
+    customers and then to generate sufficient cash flow from operations to preserve
+
+  
+
+  
+    manufacturers of our products
+ which could make management of our marketing and
+
+  
+    continuous supply of raw materials
+ as well as other factors affecting our
+
+  
+    brand image and product quality and the risk that we may suffer other product
+
+  
+    key personnel
+
+  
+    trademarks and trade secrets
+ which may prevent us from successfully marketing
+
+  
+
+  
+    successfully against much larger established companies currently operating in
+    the beverage industry
+
+  
+
+
+
+of some of the factors that may affect our business
+ results and prospects
+ see
+&#8220;Item 1A. Risk Factors.&#8221; Readers are also urged to carefully review and
+consider the various disclosures made by us in this Report and in our other
+reports filed with the Securities and Exchange Commission
+ including our
+periodic reports on Form 10-Q and current reports on Form 8-K
+ and those
+described from time to time in our press releases and other communications
+which attempt to advise interested parties of the risks and factors that may
+affect our business
+ prospects and results of operations.
+REFERENCES
+
+
+(i) the terms &#8220;we&#8221;
+ &#8220;us&#8221;
+ &#8220;our&#8221;
+ &#8220;Pulse&#8221; and the &#8220;Company&#8221; mean The Pulse
+Beverage Corporation; (ii) &#8220;SEC&#8221; refers to the Securities and Exchange
+
+Act of 1933
+
+Exchange Act of 1934
+ as amended; and (v) all dollar amounts refer to
+United States dollars unless otherwise indicated.
+
+
+
+
+
+
+
+ Colorado based beverage company formed in 2011 by beverage industry veterans for the purpose of exploiting niche markets in the beverage industry. We own two beverage brands: Natural Cabana&#174; Lemonade/Limeade and Coconut Water and PULSE&#174; Heart &amp; Body Health functional beverages. We introduced our Natural Cabana&#174; Lemonade in 2012 and since then have developed a multi-national comprehensive distribution system in 47 states
+ Canada
+ Mexico and China. By establishing a multi-national distribution system
+ Pulse has secured more than 15
+000 listings for its Lemonades/Limeades and more than 5
+000 listings for its Coconut Waters with regional and national grocery and convenience chain stores such as: Albertsons/Safeway/Tom Thumb/City Markets
+ Walmart
+ Kroger/Fred Meyer
+ Kmart
+ Circle K
+ Walgreens
+ 7-Eleven
+ Whole Foods
+ Hy-Vee Supermarket
+ 
+ Food City
+ Raley's Supermarkets
+ Price Chopper Supermarkets
+ WinCo Foods
+ ShopeRite Supermarkets and Racetrac.
+
+with Natural Cabana&#174; Lemonade for four years. We expanded this brand into
+Limeade
+ which started selling in January
+ 2014
+ and into Coconut Water
+ which
+started selling in March
+ 2014. Our PULSE&#174; Heart
+&amp; Body Health brand of functional beverages
+ originally developed by Baxter
+Healthcare
+ will be re-introduced and marketed with new packaging later in 2016.
+We believe the new packaging will have wider distributor
+ buyer and consumer
+appeal. Using our well established and
+comprehensive distribution system
+ we will introduce PULSE&#174; Heart &amp; Body
+Health into our existing distribution system through natural beverage
+distributers such as: United Natural Food
+ Inc. and Nature&#8217;s Best
+ the two
+largest natural food distributors. 
+
+currently produce
+ market
+ sell and distribute our brands through our strategic
+regional and international distribution system
+ which includes over 85% Class
+&#8220;A&#8221; distributors such as Sysco
+ The Sygma Network
+ UNFI and distributors for
+Anheuser Busch
+ Miller Coors
+ Pepsi
+ RC/7-Up
+ Coke and Cadbury Schweppes. 
+
+principal executive offices are located at 11678 N Huron Street
+ Northglenn
+Colorado 80234
+ and our telephone number at this address is (720) 382-5476. Our
+ Information contained on our website
+is not a part of this Annual Report on Form 10-K. We completed our initial
+public offering on February 15
+ 2011. On June 24
+ 2015 our common stock began
+trading on the OTCQX
+Best Marketplace for established global and growth companies operated by OTC
+Markets Group Inc.
+Overview and
+Mission
+
+to be one of the market leaders in the development and marketing of natural and
+functional beverage products that provide real health benefits to a significant
+segment of the population and are convenient and appealing to consumers. We
+have an experienced management team of beverage industry executives that have strong
+relationships in the industry and have successfully launched and/or managed the
+distribution for more than twenty-five major brands over the past twenty five years.
+
+
+beverages divide into a number of categories
+ including energy and sports
+drinks
+ teas
+ juices
+ lemonades
+ bottled water
+ coconut water and functional
+beverages. These beverage categories include a host of products that are
+fortified with vitamins
+ minerals and dietary supplements. PULSE&#174; Heart &amp;
+Body Health is targeted at the functional/nutritional beverage segment. Our
+goal is to evolve the functional/nutritional beverage category into more of a
+focus on providing true and meaningful health and wellness benefits in a
+convenient and good tasting format. 
+
+Natural
+Cabana&#174; Lemonade/Limeade 
+
+is a line-up of refreshing
+ all-natural
+&#8220;good-for-you&#8221;
+ ready-to-drink lemonades/limeades in a 20oz glass bottle in seven
+flavours: Natural Lemonade
+ Cherry Lemonade
+ Strawberry Lemonade
+ Mango
+Lemonade
+ Natural Limeade
+ Cherry Limeade and Raspberry Limeade. Natural
+Cabana&#174; Lemonades/Limeades contain no artificial sweeteners or
+coloring with significant reduction in calories compared to competing products;
+having only 60 calories and 19 grams of sugar per 8 oz. serving. Lemonades and
+limeades are part of a high-growth market with few entrants. There
+is only one other all-natural lemonade in the marketplace that is offered in a
+smaller 16oz glass format. We believe that the lemonade/limeade market is well
+established and that there is an immediate demand in North America and
+internationally. 
+
+Cabana&#174; Lemonades/Limeades are targeted to beverage consumers
+desiring a lower calorie
+ all natural
+ thirst quenching beverage for enjoyment
+and rehydration. Nationally
+ only a handful of companies market ready-to-drink
+lemonades. We believe Natural Cabana&#174; Lemonades/Limeades have competitive
+advantages over existing lemonade brands as follows: offered in a large format
+20oz glass bottle
+ has 60 calories per 8oz. serving compared to over 100 calories of
+most competing beverages and is made of 100% all natural ingredients. The fact that
+Natural Cabana&#174; Lemonades/Limeades contain no
+preservatives or artificial sweeteners means that they can be sold in health
+food stores such as Whole Foods
+ GNC Live Well
+ Vitamin Cottage
+ Sunflower and
+others. The following is a summary of our competition in the lemonade segment:
+
+
+ 20oz glass bottle
+    artificial coloring
+ high in calories
+
+  
+    
+
+  
+
+  
+
+  
+    Lemonade&#174; - one flavor in a
+    12oz can
+
+
+Natural
+Cabana&#174; Coconut Water
+
+introduced Natural Cabana&#174; Coconut Water
+ in natural and pineapple flavours in
+a 16.9oz can
+ in March
+ 2014 as a major line extension to our Natural Cabana&#174; Lemonades/Limeades.
+We recently added a 11.2oz can as a 6 pack in a cardboard carton. 
+
+
+
+
+rapidly emerging coconut water category has nearly doubled in revenue every
+year since 2005 according to the Wall Street Journal
+ and targeting consumer
+trends &#8211; &#8220;healthy&#8221; and &#8220;natural.&#8221; Dubbed &#8220;Mother Nature&#8217;s Sports Drink
+&#8221; it is
+made from the highest quality coconuts from Thailand. High in electrolytes
+naturally fat and cholesterol-free
+ coconut water is an excellent source of
+hydration
+ and contains healthy ingredients including calcium
+ potassium and
+magnesium. Natural Cabana&#174; Coconut Water debuted at a price lower than its
+competitors and
+ according to informal customer surveys
+ is the best-tasting
+coconut water in the market. 
+
+water is one of the fastest growing beverage categories in the United States
+with consumers and health experts recognizing its natural hydrating qualities
+exceptional nutritional benefits and great taste. Coconut water contains high
+levels of electrolytes
+ vitamins and minerals and less sugar than many sports
+drinks.
+
+there are a number of competing brands in this category
+ we believe our pricing
+strategy
+ established existing distribution network
+ and exceptional taste of our
+Natural Cabana&#174; Coconut Water brand will give us a competitive advantage in the
+marketplace. 
+PULSE&#174;
+Heart &amp; Body Health 
+
+Heart &amp; Body Health functional beverage (&#8220;PULSE&#174;&#8221;) is an effective nutritional supplement for those seeking a healthy
+lifestyle. It is a natural beverage product that is high in antioxidants
+selenium
+ Vitamin C and soluble fiber. Drinking one bottle has more fiber than two
+and half servings of oatmeal. It is bottled without preservatives and in three
+naturally sweetened great tasting flavors: Pomegranate/Blackberry
+ Pear/Peach
+and Strawberry/Grapefruit. Pulse&#174; Heart &amp; Body Health formula contains safe
+and effective levels of important ingredients to support the health of our
+heart and cardiovascular and immune systems.
+
+500ml glass bottle packaging is vibrant and convenient and is water-based
+which gives rise to our trademark: 
+The nutrients contained in PULSE&#174; are backed by research and are scientifically
+demonstrated to promote health in each targeted health platform. The
+nutritional ingredients were specifically selected to provide the nutrition
+necessary to achieve targeted health benefits using patented
+liposome nano-dispersion technology that introduces the ingredients into PULSE&#174;
+in a format that allows the body to absorb the nutrients. We own all the
+formulations
+ rights and trademarks relating to the PULSE&#174; brand of functional beverages
+and specifically we own the right to use the following Side Panel Statement for
+PULSE&#174; Heart Healthy: &#8220;Formulation developed under license from Baxter
+Healthcare Corporation&#8221;. This right is in perpetuity without royalties. All PULSE&#174;
+labels contain structure/function claims that are followed by an * disclosing
+the following: This statement has not been evaluated by the Food and Drug
+Administration. This product is not intended to diagnose
+ treat
+ cure
+ or
+prevent any disease. 
+is
+targeted toward adults who want to feel young and healthful. PULSE&#174; brand
+mission and concept is supported by a growing consumer link between nutrition
+and wellness and the ever growing need for convenient solutions to rehydrate
+and to combat obesity. This fact ensures that PULSE&#174; does not just attract the
+baby boomer category but includes all consumers who want health
+conscious beverages. There is a societal shift away from
+carbonated
+ diet and high sugar-content beverages that contain artificial
+sweeteners and preservatives. PULSE&#174; is supported by a growing
+consumer link between nutrition and wellness in convenient solutions. There is
+an emergence of new product categories in the area of energy and sports drinks
+teas
+ juices
+ flavored waters
+ lemonades and functional/nutritional beverages.
+Populations are aging
+ which influences the food and beverage industry
+ affecting
+everything from packaging and taste profiles to calories and contents.
+
+in the recommended serving sizes as part of a daily health regimen. PULSE&#174;
+formulas include functional ingredients that are widely considered to be
+critical to adult health including anti-oxidants
+ vitamins
+ minerals
+ soluble
+fiber and soy isoflavones. The following is a summary of our
+competition in the functional beverage segment:
+
+
+ zero calories
+ mostly
+
+  
+ emphasis on
+    detox/weight loss/energy
+ various antioxidants
+ mostly trace amounts of
+
+  
+ lightly
+    carbonated
+ proprietary blends and vitamins
+ small amounts of vitamins and
+
+  
+    beverage with claims to have heart and other health benefits &#8211; FDA has
+
+
+Business Value
+Drivers 
+Profitable
+Growth 
+We believe &#8220;functional&#8221;
+ &#8220;image-based&#8221; and/or &#8220;better-for-you&#8221; brands properly
+supported by marketing and innovation
+ targeted to a broad consumer base
+ drive
+profitable growth. We are focused on maintaining and improving profit margins
+and believe that tailored branding
+ packaging
+ pricing and distribution channel
+strategies help achieve profitable growth. We are implementing these strategies
+with a view to achieving profitable growth. 
+International
+&#8211; The expansion into international markets with our Natural
+Cabana&#174; Lemonades/Limeades and Coconut Waters
+ together with the re-introduction
+of PULSE&#174; Heart &amp; Body Health functional beverages
+ remains a key value
+driver for our growth. 
+&#8211; The principal
+focus of controlling cost inputs will continue to center around reducing input
+supply and production costs on a per-case basis
+ including raw material costs
+and co-packing fees. The converting raw materials into finished goods and
+finished goods into accounts receivable and the reduction of days to collect
+accounts receivable while aligning our overhead costs with our growth are key
+areas of focus in 2016. 
+Efficient
+Capital Structure 
+Our capital structure is intended to optimize our working capital to finance
+expansion
+ both domestically and internationally. We believe our strong capital
+position currently provides us with a competitive advantage. 
+
+subject to increases in the costs of certain raw materials being contained
+these value drivers
+ when properly implemented
+ will result in:
+(1)&nbsp;maintaining and increasing our gross profit margins;
+(2)&nbsp;providing additional leverage over time through reduced expenses as a
+percentage of net revenues; and (3)&nbsp;optimizing our cost of capital. The
+ultimate measure of success is and will be reflected in our current and future
+results of operations including positive cash flow. 
+
+
+
+
+sales
+ gross profits
+ contribution to fixed expenses
+ operating income
+ net
+income and net income per share represent key measurements of the above value
+drivers. These measurements will continue to be a key management focus in 2016.
+See ITEM 7. MANAGEMENT&#8217;S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND
+RESULTS OF OPERATION for a full discussion of our operations for 2015.
+Growth
+Strategy
+
+Cabana&#174; Lemonade ahead of PULSE&#174; Heart &amp; Body Health in order to establish
+a comprehensive nationwide and international distribution system. Lemonades are
+widely considered to be understood by beverage consumers as compared to a
+highly nutritional functional beverage product such as PULSE&#174; Heart &amp; Body
+Health
+ which requires more education at the distribution and retail level.
+Our growth strategy
+includes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Canada and Mexico;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ convenience and key account store listings for all our brands nationwide and internationally;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ natural and cold sets as opposed to the grocery isles;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expansion into
+Mexico:
+
+with an established Mexico distributor
+ Caf&#233; El Marino
+ to distribute Natural Cabana&#174; Coconut Water and have sold our first
+shipment of 7
+500 24pack cases. Caf&#233; El Marino has been in business for more
+than 60 years and has more than 1
+000 employees with distribution points in
+every major city in Mexico and distribution routes to almost all retail outlets.
+Our Mexico operations are headed by Carlos Villarreal. Mr. Villarreal was
+responsible for the Mexico introduction and distribution of Monster Energy
+Drink&#174; in 2004 and led the expansion across all of Mexico up until June
+ 2010.
+Mr. Villarreal has worked with leading brands such as Dr. Pepper Snapple and
+Miller
+ among others
+ in their entry/distribution strategies. He has also
+served as a Director for Anheuser-Busch and for Grupo Modelo (Corona) in the
+U.S. and Mexico.
+
+produce Natural Cabana&#174; Lemonades/Limeades (known as &#8220;Limonada&#8221;) for the Mexico
+market in a 16.9oz glass &#8220;PULSE bottle&#8221; format. 
+Expansion
+into China:
+
+ 2015 we began shipping Natural Cabana
+Lemonade/Limeade to China through Nantong King Food Co. (&#8220;Nantong King&#8221;)
+ a
+member of the Beijing Rosa International Trading Company
+ based out of Nantong
+City
+ 50 miles north of the Port of Shanghai. Nantong King re-ordered in
+December
+ 2015. 
+Prominent Industry
+Acquisitions:
+
+
+
+&#8211; In 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- In 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ - Coca-Cola&#174; purchased FUZE&#174; for a reported $300 million when FUZE&#174;
+ at the time
+
+
+
+
+
+- turned down an offer from Coca-Cola&#174; for $2.1 billion.  At the time of the offer
+
+
+Industry
+Background
+
+beverages are among the most widely distributed food products in the world and
+are being sold through more than 400
+000 retailers in the United States
+ our
+core market. The United States has more than 2
+600 beverage companies and 500
+bottlers of beverage products. Collectively they account for more than $100
+billion in annual sales. It is estimated that globally more than $300 billion
+worth of non-alcoholic beverages are sold annually. The beverage market is
+controlled by two giants
+ The Coca-Cola Company (&#8220;Coke&#8221;) and PepsiCo
+ combining
+for over 70% of the non-alcoholic beverage market. Carbonated
+beverage sales are slipping
+ while non-carbonated beverage sales are growing.
+Experts predict that beverage companies that only offer carbonated beverages
+will have to work hard to off-set flagging demand. Industry watchers believe
+that growth will be largely confined to non-carbonated beverages and will
+chiefly affect functional drinks. Functional
+ sports and energy drinks are
+expected to be the principal beneficiaries of this trend.
+
+watchers are particularly confident about the prospect for drinks that are
+functional and that offer therapeutic benefits and as such capitalize on the
+public&#8217;s growing interest in products that promise to improve health. Although
+we will face competition in our bid for market share
+ we believe
+ based on
+market research
+ that our products
+ strong packaging
+ unique formulations and
+promotions will induce early trial and in the course of two years build a
+widespread and loyal following. We also believe that our products will have
+strong appeal in Europe and the Pacific Rim
+ in particular
+ China. Key drivers
+of the Chinese beverage market include rising inflows of foreign direct
+investment
+ growing levels of consumer spending power
+ an increasingly health
+conscious consuming public and the Chinese government&#8217;s market-focused economic
+policy. We believe our products will be accepted in China because of China&#8217;s
+growing desire for healthy products
+ its growing middle class and its interest
+in brands that come from North America. 
+
+
+distribution systems are comprised of the following:
+Direct
+Store Delivery (&#8220;DSD&#8221;
+
+primarily distribute beverages
+ chips
+ snacks and milk and provide pre-sales
+delivery and merchandising services to their customers. Service levels are
+daily and weekly and they require 25% to 30% gross profit from sales to their
+customers. As
+of March 30
+ 2016
+ we maintained a network of more than 150 distributors in over
+48&nbsp;states in America
+ nine provinces in Canada
+ Panama
+ Mexico
+ Bermuda
+and Ireland. We grant these independent distributors the exclusive right in
+defined territories to distribute finished cases of one or more of our products
+through written agreements. These agreements typically include compensation to
+those distributors in the event we provide product directly to one of our
+regional retailers located in the distributor&#8217;s region. We are also obligated
+to pay termination fees for cancellations of most of these written distributor
+agreements
+ which have terms generally ranging from one to three years. We have
+chosen
+ and will continue to choose
+ our distributors
+based on their perceived ability to build our brand franchise in convenience
+stores and grocery stores. 
+Direct
+to Retail Channel (&#8220;Warehouse Direct&#8221;)
+
+have secured listings with large retail convenience store and grocery store chains
+where we ship direct to the chain stores warehousing system. Retailers
+must have warehousing and delivery capabilities. Services to retailers are
+provided by an assigned broker
+ approved by us
+ to oversee pre-sale and
+merchandising services. Our
+direct to retail channel of distribution is an important part of our strategy
+to target large national or regional restaurant chains
+ retail accounts
+including mass merchandisers and premier food-service businesses. Through these
+programs
+ we negotiate directly with the retailer to carry our products
+ and
+the account is serviced through the retailer&#8217;s appointed distribution system.
+These arrangements are terminable at any time by these retailers or us
+ and
+contain no minimum purchase commitments.
+
+
+manufacturing and warehousing of our products to independent contract
+manufacturers (&#8220;co-packers&#8221;). We purchase our raw
+materials from North American suppliers which deliver to our third party
+co-packers. We currently use three co-packers located in Oregon
+ Virginia and Nebraska
+to manufacture and package our products. We are also seeking a co-packer for
+our northeast geographic area. Having three strategically located co-packers reduces
+our shipping rates and transport times. We intend to identify
+co-packers in northeast US
+ Texas
+ Canada
+ Europe
+ and Asia to support the
+expansion of our products in those markets and Mexico. Once our products
+are manufactured
+ we store finished product in a warehouse adjacent to each
+co-packer or in third party warehouses. Our co-packers were
+chosen on the basis of their proximity to markets covered by our distributors.
+Most of the ingredients used in the formulation of our products are
+off-the-shelf and thus readily available. No ingredient has a lead time greater
+than two weeks. Other
+than minimum case volume requirements per production run for most co-packers
+we do not have annual minimum production commitments with our co-packers. Our
+co-packers may terminate their arrangements with us at any time
+ in which case
+we could experience disruptions in our ability to deliver products to our
+customers. We continually review our contract packing needs in light of regulatory
+compliance and logistical requirements and may add or change co-packers based
+on those needs.
+
+
+all of the raw materials used in the preparation
+ bottling and packaging of our
+products are purchased by us or by our contract manufacturers in accordance
+with our specifications. The raw materials used in the preparation and
+packaging of our products consist primarily of juice concentrates
+ natural
+flavors
+ stevia
+ pure cane sugar
+ bottles
+ labels
+ trays and enclosures. These
+raw materials are purchased from suppliers selected by us or by our contract
+manufacturers. We believe that we have adequate sources of raw materials
+ which
+are available from multiple suppliers.
+
+
+
+
+ we
+purchase our flavor concentrate from four flavor concentrate suppliers.
+Generally
+ all natural flavor suppliers own the proprietary rights to the
+flavors. In connection with the development of new products and flavors
+independent suppliers bear a large portion of the expense for product
+development
+ thereby enabling us to develop new products and flavors at
+relatively low cost. We anticipate that for future flavors and additional
+products
+ we may purchase flavor concentrate from other flavor houses with the
+intention of developing other sources of flavor concentrate for each of our
+products. If we have to replace a flavor supplier
+ we could experience
+disruptions in our ability to deliver products to our customers
+ which could
+have a material adverse effect on our results of operations.
+
+
+ensure that the flavor profiles and nutritional platforms of our products meet
+the needs of consumers&#8217; taste
+ health and life-style
+ we contract the services
+of Catalyst Development Inc. (&#8220;Catalyst&#8221;)
+ a beverage product development firm
+located in Burnaby
+ BC
+ Canada. Catalyst developed the formulations for PULSE&#174;
+under license
+ for Baxter Healthcare Corporation. Catalyst&#8217;s owner
+ Ron
+Kendrick
+ is our Chief of Product Development and oversees our beverage
+development
+ inventory supply chain
+ and quality assurance through his team of
+three persons. Our product development team has ensured PULSE&#174; is a lower
+calorie
+ great tasting functional beverage that provides the benefits we claim
+on PULSE&#174; labels. We use a hot-fill process of production to allow the PULSE&#174;
+product to have all natural ingredients without the use of preservatives.
+
+are committed to building products that meet or exceed the quality standards
+set by the U.S.
+ Canadian
+ China and Mexico governments. Our products are
+made from high quality all natural ingredients. We ensure that all of our
+products satisfy our quality standards. Contract manufacturers are selected and
+monitored by our own quality control representatives in an effort to assure
+adherence to our production procedures and quality standards. Samples of our
+products from each production run undertaken by each of our contract
+manufacturers are analyzed and categorized in a reference library. The
+manufacturing process steps include source selection
+ receipt and storage
+filtration
+ disinfection
+ bottling
+ packaging
+ in-place sanitation
+ plant
+quality control and corporate policies affecting quality assurance. In
+addition
+ we ensure that each bottle is stamped with a production date
+ time
+and plant code to quickly isolate problems should they arise.
+
+every run of product
+ our contract manufacturers undertake extensive testing of
+product quality and packaging. This includes testing levels of sweetness
+taste
+ product integrity
+ packaging and various regulatory cross checks. For
+each product
+ our contract manufacturers must transmit all quality control test
+results to us for reference following each production run. Testing also
+includes microbiological checks and other tests to ensure the production
+facilities meet the standards and specifications of our quality assurance program.
+Water quality is ensured through activated carbon and particulate filtration as
+well as alkalinity adjustment when required. Flavors are pre-tested before
+shipment to contract manufacturers from the flavor manufacturer. We are
+committed to ongoing product improvement with a view
+toward ensuring the high quality of our product through a stringent contract
+packer selection and training program.
+
+
+and marketing of our proprietary beverages are subject to the rules and
+regulations of various federal
+ provincial
+ state and local health agencies
+including in particular Health Canada
+ Agriculture and Agri-Food Canada (AAFC)
+and the U.S.&nbsp;Food and Drug Administration (FDA). The FDA and AAFC also
+regulate labeling of our products. From time to time
+ we may receive
+notifications of various technical labeling or ingredient reviews with respect
+to our licensed products. We believe that we have a compliance program in place
+to ensure compliance with production
+ marketing and labeling regulations.
+
+presently offer non-refillable
+ recyclable containers in the U.S.&nbsp;and
+various other markets. Legal requirements have been enacted in jurisdictions in
+the U.S.&nbsp;and Canada requiring that deposits or certain eco-taxes or fees
+be charged for the sale
+ marketing and use of certain non-refillable beverage
+containers. The precise requirements imposed by these measures vary. Other
+beverage container related deposit
+ recycling
+ eco-tax and/or product
+stewardship proposals have been introduced in various jurisdictions in the
+U.S.&nbsp;and Canada. We anticipate that similar legislation or regulations may
+be proposed in the future at local
+ state and federal levels
+ both in the
+U.S.&nbsp;and Canada.
+
+
+product philosophy will continue to be based on developing products in those segments
+of the market that offer the greatest chance of success such as health
+wellness and natural refreshment and rehydration
+ and we will continue to seek
+out underserved market niches. We believe we can quickly respond
+ given our
+technical and marketing expertise
+ to changing market conditions with new and
+innovative products. We are committed to developing products that are distinct
+meet a quantifiable need
+ are proprietary
+ lend themselves to at least a 30%
+gross profit
+ project a quality and healthy image
+ and can be distributed
+through existing distribution channels. We are identifying brands
+of other companies with a view to acquiring them or taking on the exclusive
+distribution of their products.
+Intellectual
+Property
+
+acquired all of the property and equipment
+ formulations
+ rights and trademarks
+associated with PULSE&#174; from Health Beverage
+ LLC pursuant to an Asset Purchase
+Agreement that closed on January 31
+ 2011.
+
+intellectual property:
+
+
+
+
+
+
+
+
+
+
+
+
+ specifications
+ manufacturing methods and related Canadian and US unregistered trademark for PULSE&#174; - Heart Healthy&#8482;. This trademark is being used currently and will not expire as long as we continue to use it;
+
+
+
+
+
+
+
+ Canada: TMA 622
+432 and &#8220;PULSE: NUTRITION MADE SIMPLE&#8221; &#8211; USA ONLY. U.S. No. 2819813. In general
+ trademark registrations expire 10 years from the filing date or registration date
+ with the exception in Canada
+ where trademark registrations expire 15 years from the registration date. All trademark registrations may be renewed for a nominal fee; and
+
+
+
+
+
+
+
+
+
+ Limeade and Coconut Water.
+
+
+
+trademarks
+ trade secrets and the license right described above to be of
+considerable value and importance to our business.
+Segment
+Information
+
+operating segment: Non-carbonated beverages; and one reportable geographic
+segment: North America.
+Research and
+Development
+
+ended December 31
+ 2015 we spent $995 (2014 - $55
+674) on research and
+development costs associated with the changing of PULSE&#174; brand of functional
+beverages from gender specific formulations to a new
+ non-gender specific
+formulation. We believe the new formulation will have
+significantly wider consumer appeal. 
+
+
+seasonal and we experience fluctuations in quarterly results as a result of
+many factors. Historically
+ we have generated a greater percentage of our
+revenues during the warm weather months of April through September. Timing of
+customer purchases will vary each year and sales can be expected to shift from
+one quarter to another. As a result
+ we believe that period-to-period
+comparisons of results of operations are not necessarily meaningful and should
+not be relied upon as any indication of future performance or results expected
+for the entire fiscal year. 
+
+
+ 2015
+ we had twenty-six
+employees/consultants
+ including Robert E. Yates
+ who serves as our President
+and Principal Executive
+ Financial and Accounting Officer.
+ITEM
+1A. RISK FACTORS
+An investment in
+our common stock is risky. You should carefully consider the following risks
+as well as the other information contained in this Form 10-K
+ before investing.
+If any of the following risks actually occur
+ our business
+ business prospects
+financial condition
+ cash flow and results of operations could be materially
+and adversely affected. In this case
+ the trading price of our common stock
+could decline
+ and you might lose part or all of your investment.&nbsp;We may
+amend or supplement the risk factors described below from time to time by other
+reports we file with the SEC in the future.
+Risk Factors Relating to Our Company and
+Our Business
+We rely on key
+members of management
+ the loss of whose services could adversely affect our
+success and development.
+
+depends to a certain degree upon key members of our management. These
+individuals are a significant factor in our growth and ability to meet our
+business objectives. We have an experienced management team of beverage
+industry executives who have successfully launched and/or managed the
+distribution for more than twenty-five major brands over the past twenty five
+years. They have strong relationships with distributors and buyers who supply
+thousands of retail outlets
+ supermarkets and convenience stores. The loss of
+our key management personnel could slow the growth of our business
+ or cause us
+to cease operations
+ which may result in the total loss of an investment in our
+securities.
+Because we do
+not have long term contractual commitments with our distributors
+ our business
+may be negatively affected if we are unable to maintain these important
+relationships and distribute our products.
+
+and sales strategy depends in large part on the availability and performance of
+our independent distributors. We will continue our efforts to reinforce and
+expand our distribution network by partnering with new distributors and
+replacing underperforming distributors. We have entered into written agreements
+with many of our distributors in the U.S.&nbsp;and Canada
+ with terms ranging
+from one to three years. We currently do not have
+ nor do we anticipate in the
+future that we will be able to establish
+ long-term contractual commitments
+from some of our distributors. In addition
+ despite the terms of the written
+agreements with many of our top distributors
+ there are no minimum levels of
+purchases required under some of those agreements
+ and most of the agreements
+may be terminated at any time by us
+ generally with a termination fee. We may
+not be able to maintain our current distribution relationships or establish and
+maintain successful relationships with distributors in new geographic
+distribution areas. Moreover
+ there is the additional possibility that we may
+have to incur additional expenditures to attract and maintain key distributors
+in one or more of our geographic distribution areas in order to profitably
+exploit our geographic markets.
+
+maintain our distribution network or attract additional distributors will
+likely adversely affect our revenues and financial results.
+Because we rely
+on our distributors
+ retailers and brokers that distribute our competitors&#8217;
+products along with our own products
+ we have little control in ensuring our
+product will be delivered to our customers by our distributors
+ which could
+cause our sales to suffer.
+
+establish a market for our products in new geographic areas
+ as well as
+maintain and expand our existing markets
+ is dependent on our ability to
+establish and maintain successful relationships with reliable distributors
+retailers and brokers strategically positioned to serve those areas. Most of
+our distributors
+ retailers and brokers sell and distribute competing products
+including non-alcoholic and alcoholic beverages
+ and our products may represent
+a small portion of their business. To the extent that our distributors
+retailers and brokers are distracted from selling our products or do not employ
+sufficient efforts in managing and selling our products
+ including re-stocking
+retail shelves with our products
+ our sales and results of operations could be
+adversely affected. Our ability to maintain our distribution network and
+attract additional distributors
+ retailers and brokers will depend on a number
+of factors
+ some of which are outside our control. Some of these factors
+include: the level of demand for our brands and products in a particular
+distribution area; our ability to price our products at levels competitive with
+those of competing products;&nbsp;and our ability to deliver products in the
+quantity and at the time ordered by distributors
+ retailers and brokers.&nbsp; 
+
+
+
+
+above factors work negatively against us
+ our sales will likely decline and our
+results of operations will be adversely affected. 
+Because our
+distributors are not required to place minimum orders with us
+ we need to
+manage our inventory levels
+ and it is difficult to predict the timing and
+amount of our sales.
+
+distributors are not required to place minimum monthly or annual orders for our
+products. In order to reduce inventory costs
+ independent distributors endeavor
+to order products from us on a &#8220;just in time&#8221; basis in quantities
+ and at such
+times
+ based on the demand for the products in a particular distribution area.
+Accordingly
+ there is no assurance as to the timing or quantity of purchases by
+any of our independent distributors or that any of our distributors will
+continue to purchase products from us in the same frequencies and volumes as
+they may have in the past. In order to be able to deliver our products on a
+timely basis
+ we need to maintain adequate inventory levels of the desired
+products
+ but we cannot predict the number of cases sold by any of our
+distributors. If we fail to meet our shipping schedules
+ we could damage our
+relationships with distributors and/or retailers
+ increase our shipping costs
+or cause sales opportunities to be delayed or lost
+ which would unfavorably
+impact our future sales and adversely affect our operating results. In
+addition
+ if the inventory of our products held by our distributors and/or
+retailers is too high
+ they will not place orders for additional products
+which would also unfavorably impact our future sales and adversely affect our
+operating results.
+Our business
+plan and future growth is dependent in part on our distribution arrangements
+with retailers and regional retail accounts. If we are unable to establish and
+maintain these arrangements
+ our results of operations and financial condition
+could be adversely affected.
+
+have distribution arrangements with a few regional retail accounts to
+distribute our products directly through their venues. However
+ there are
+several risks associated with this distribution strategy. First
+ we do not have
+long-term agreements in place with any of these accounts and thus
+ the
+arrangements are terminable at any time by these retailers or us. Accordingly
+we may not be able to maintain continuing relationships with any of these
+national accounts. A decision by any of these retailers
+ or any large retail
+accounts we may obtain
+ to decrease the amount purchased from us or to cease
+carrying our products could have a material adverse effect on our reputation
+financial condition or results of operations. In addition
+ we may not be able
+to establish additional distribution arrangements with other national retailers.
+
+ our
+dependence on national and regional retail chains may result in pressure on us
+to reduce our pricing to them or allow significant product discounts. Any
+increase in our costs for these retailers to carry our product
+ reduction in
+price
+ or demand for product discounts could have a material adverse effect on
+our profit margin.
+
+ our direct
+to retailer distribution arrangements may have an adverse impact on our
+existing relationships with our independent regional distributors
+ who may view
+our direct to retailer accounts as competitive with their business
+ making it
+more difficult for us to maintain and expand our relationships with independent
+distributors.
+We rely on
+independent contract manufacturers of our products
+ and this dependence could
+make management of our marketing and distribution efforts inefficient or
+unprofitable.
+
+the plants or the equipment required to manufacture and package our beverage
+products
+ and do not directly manufacture our products but instead outsource
+the manufacturing process to independent contract manufacturers (co-packers).
+We do not anticipate bringing the manufacturing process in-house in the future.
+Currently
+ our products are prepared
+ bottled and packaged by two primary
+co-packers. Our ability to attract and maintain effective relationships with
+contract manufacturers and other third parties for the production and delivery
+of our beverage products in a particular geographic distribution area is
+important to the success of our operations within each distribution area.
+Competition for contract manufacturers&#8217; business is intense
+ especially in the
+western U.S.
+ and this could make it more difficult for us to obtain new or
+replacement manufacturers
+ or to locate back-up manufacturers
+ in our various
+distribution areas
+ and could also affect the economic terms of our agreements
+with our manufacturers. Our contract manufacturers may terminate their
+arrangements with us at any time
+ in which case we could experience disruptions
+in our ability to deliver products to our customers. We may not be able to
+maintain our relationships with current contract manufacturers or establish
+satisfactory relationships with new or replacement contract manufacturers
+whether in existing or new geographic distribution areas. The failure to
+establish and maintain effective relationships with contract manufacturers for
+a distribution area could increase our manufacturing costs and thereby
+materially reduce profits realized from the sale of our products in that area.
+In addition
+ poor relations with any of our contract manufacturers could
+adversely affect the amount and timing of product delivered to our distributors
+for resale
+ which would in turn adversely affect our revenues and financial
+condition.
+
+in the contract manufacturing industry for comparably sized companies
+ we are
+expected to arrange for our contract manufacturing needs sufficiently in
+advance of anticipated requirements. We continually evaluate which of our
+contract manufacturers to utilize based on the cost structure and forecasted
+demand for the particular geographic area where our contract manufacturers are
+located. To the extent demand for our products exceeds available inventory or
+the production capacity of our contract manufacturing arrangements
+ or orders
+are not submitted on a timely basis
+ we will be unable to fulfill distributor
+orders on demand. Conversely
+ we may produce more product than warranted by
+actual demand
+ resulting in higher storage costs and the potential risk of
+inventory spoilage. Our failure to accurately predict and manage our contract
+manufacturing requirements may impair relationships with our independent
+distributors and key accounts
+ which
+ in turn
+ would likely have a material
+adverse effect on our ability to maintain effective relationships with those
+distributors and key accounts.
+Our business and
+financial results depend on the continuous supply and availability of raw
+materials.
+
+raw materials we use include glass bottles
+ labels
+ closures
+ flavorings
+stevia
+ pure cane sugar and other natural ingredients. The costs of our
+ingredients are subject to fluctuation. If our supply of these raw materials is
+impaired or if prices increase significantly
+ our business would be adversely
+affected. Certain of our contract manufacturing arrangements allow such
+contract manufacturers to increase their charges based on certain of their own
+cost increases. While certain of our raw materials
+ like glass
+ are based on a
+fixed-price purchase commitment
+ the prices of any of the above or any other
+raw materials or ingredients may continue to rise in the future and we may not
+be able to pass any cost increases on to our customers.
+
+
+
+
+correctly estimate demand for our products. Our ability to estimate demand for
+our products is imprecise
+ particularly with new products
+ and may be less
+precise during periods of rapid growth
+ particularly in new markets. If we
+materially underestimate demand for our products or are unable to secure
+sufficient ingredients or raw materials including
+ but not limited to
+ glass
+labels
+ flavors
+ and natural sweeteners
+ or sufficient packing arrangements
+ we
+might not be able to satisfy demand on a short-term basis. Moreover
+industry-wide shortages of certain concentrates
+ supplements and sweeteners
+have been experienced and could
+ from time to time in the future
+ be
+experienced
+ which could interfere with and/or delay production of certain of
+our products and could have a material adverse effect on our business and
+financial results.
+Rising raw
+material
+ fuel and freight costs as well as freight capacity issues may have an
+adverse impact on our sales and earnings.
+
+volatility in the global oil markets has resulted in unstable fuel and freight
+prices. Due to the price sensitivity of our products
+ we do not anticipate that
+we will be able to pass any increased costs on to our customers.
+
+time
+ the economy appears to be returning to pre-recession levels resulting in
+the rise of freight volumes which is exacerbated by carrier failures to meet
+demands and fleet reductions due to fewer drivers in the market. We may be
+unable to secure available carrier capacity at reasonable rates
+ which could have
+a material adverse effect on our operations.
+We rely upon our
+ongoing relationships with our key flavor suppliers. If we are unable to source
+our flavors on acceptable terms from our key suppliers
+ we could suffer
+disruptions in our business.
+
+ we
+purchase our flavor concentrate from three suppliers
+ and we anticipate that we
+will purchase flavor concentrate from others with the intention of developing
+other sources of flavor concentrate for each of our products. The price of our
+concentrates is determined by our flavor houses
+ and may be subject to change.
+Generally
+ flavor suppliers hold the proprietary rights to their flavors.
+Consequently
+ we do not have the list of ingredients or formulas for our
+flavors and concentrates and we may be unable to obtain these flavors or
+concentrates from alternative suppliers on short notice. If we have to replace
+a flavor supplier
+ we could experience disruptions in our ability to deliver
+products to our customers or experience a change in the taste of our products
+all of which could have a material adverse effect on our results of operations.
+If we are unable
+to maintain brand image and product quality
+ or if we encounter other product
+issues such as product recalls
+ our business may suffer.
+
+on our ability to maintain brand image for our existing products and
+effectively build up brand image for new products and brand extensions. There
+can be no assurance
+ however
+ that additional expenditures on advertising and
+marketing will have the desired impact on our products&#8217; brand image and on
+consumer preferences. Product quality issues
+ real or imagined
+ or allegations
+of product contamination
+ even when false or unfounded
+ could tarnish the image
+of the affected brands and may cause consumers to choose other products.
+
+because of changing government regulations; or their implementation
+ or
+allegations of product contamination
+ we may be required from time to time to
+recall products entirely or from specific markets. Product recalls could affect
+our profitability and could negatively affect brand image.
+The inability to
+attract and retain key personnel would directly affect our efficiency and
+results of operations.
+
+depends on our ability to attract and retain highly qualified employees in such
+areas as distribution
+ sales
+ marketing and finance. We compete to hire new
+employees
+ and
+ in some cases
+ must train them and develop their skills and
+competencies. Our operating results could be adversely affected by increased
+costs due to increased competition for employees
+ higher employee turnover or
+increased employee benefit costs. Any unplanned turnover
+ particularly
+involving our key personnel
+ could negatively impact our operations
+ financial
+condition and employee morale.
+Our
+inability to protect our trademarks and trade secrets may prevent us from
+successfully marketing our products and competing effectively.
+
+protect our intellectual property could harm our brand and our reputation
+ and
+adversely affect our ability to compete effectively. Further
+ enforcing or
+defending our intellectual property rights
+ including our trademarks
+copyrights
+ licenses and trade secrets
+ could result in the expenditure of
+significant financial and managerial resources. We regard our intellectual
+property
+ particularly our trademarks and trade secrets to be of considerable
+value and importance to our business and our success. We rely on a combination
+of trademark and trade secrecy laws
+ confidentiality procedures and contractual
+provisions to protect our intellectual property rights. We are pursuing the
+registration of additional trademarks in the U.S.
+ Canada and internationally.
+There can be no assurance that the steps taken by us to protect these
+proprietary rights will be adequate or that third parties will not infringe or
+misappropriate our trademarks
+ trade secrets or similar proprietary rights. In
+addition
+ there can be no assurance that other parties will not assert
+infringement claims against us
+ and we may have to pursue litigation against
+other parties to assert our rights. Any such claim or litigation could be
+costly. In addition
+ any event that would jeopardize our proprietary rights or
+any claims of infringement by third parties could have a material adverse
+effect on our ability to market or sell our brands or profitably exploit our
+products.
+If we are unable
+to maintain effective disclosure controls and procedures and internal control
+over financial reporting
+ our stock price and investor confidence in us could
+be materially and adversely affected.
+
+to maintain both disclosure controls and procedures and internal control over
+financial reporting that are effective. Because of its inherent limitations
+internal control over financial reporting
+ however well designed and operated
+can only provide reasonable
+ and not absolute
+ assurance that the controls will
+prevent or detect misstatements. Because of these and other inherent
+limitations of control systems
+ there is only the reasonable assurance that our
+controls will succeed in achieving their goals under all potential conditions.
+The failure of controls by design deficiencies or absence of adequate controls
+could result in a material adverse effect on our business and financial
+results.
+Because we have losses
+since inception it is difficult to evaluate your investment in our stock.
+
+operating since February 15
+ 2011 and in production since September 22
+ 2011
+and have not yet achieved positive cash flow from operations or profitability. We
+have generated start-up losses to date while we build our distribution network
+which could adversely affect our stock price. For the period from inception
+through December 31
+ 2015
+ we have accumulated losses in excess of $13 million.
+We face a number of risks encountered by emerging growth companies
+ including
+our need to obtain long-term sources of financing
+ and our need to manage
+expanding operations in 2016. Our business strategy may not be successful
+ and
+we may not successfully address these risks. If we are unable to achieve profitable
+operations
+ investors may lose their entire investment in us.
+
+
+
+We may not be
+able to successfully manage growth of our business.
+
+success will be highly dependent upon our ability to successfully manage the
+anticipated expansion of our operations. Our ability to manage and support
+growth effectively will be substantially dependent on our ability to implement
+adequate financial and management controls
+ reporting systems and other
+procedures
+ and attract and retain qualified technical
+ sales
+ marketing
+financial
+ accounting
+ and administrative and management personnel.
+
+success also depends upon our ability to address potential market opportunities
+while managing expenses. This need to manage our expenses will place a
+significant strain on our management and operational resources. If we are
+unable to manage our expenses effectively
+ our business
+ results of operations
+and financial condition will be materially and adversely affected.
+Risks
+associated with acquisitions
+
+in the future
+ we could acquire beverage brands and related assets
+complementary to our core business operations. Any acquisitions by us would
+involve risks commonly encountered in acquisitions of assets. These risks would
+include
+ among other things
+ the following:
+
+
+
+  
+
+  
+    in our quarterly and annual operating results could occur due to the costs
+
+  
+    and expenses in assimilating the operations and personnel of any acquired
+
+  
+    ongoing business could be disrupted and our management&#8217;s time and attention
+
+  
+    to integrate with any acquired businesses successfully.&nbsp;
+
+
+Risks Related to
+our Common Stock
+Our securities are
+ Best Marketplace
+ which may not provide
+us as much liquidity for our investors as more recognized senior exchanges such
+the
+NYSE MKT and NASDAQ.
+
+ 2015 our common stock began
+trading on the OTCQX
+Best Marketplace for established global and growth companies operated by OTC
+Markets Group Inc.
+The OTC markets are inter-dealer
+ over-the-counter markets that provide
+significantly less liquidity than the NASDAQ Stock Market or other national or
+regional exchanges. Securities traded on these OTC markets are usually thinly
+traded
+ highly volatile
+ have fewer market makers and are not followed by
+analysts. Quotes for stocks included on the OTC markets are not listed in
+newspapers. Therefore
+ prices for securities traded solely on the OTC markets
+may be difficult to obtain and holders of our securities may be unable to
+resell their securities at or near their original acquisition price
+ or at any
+price.
+A sale of a substantial number of shares
+of our common stock may cause the price of our common stock to decline.
+
+amounts of our common stock in the public market
+ the market price of our common
+stock could fall.
+Any future
+equity or debt issuances by us may have dilutive or adverse effects on our
+existing shareholders.
+
+additional shares of common due to warrants or options being exercised that
+could dilute your ownership in our company. Moreover
+ any issuances by us of
+equity securities may be at or below the prevailing market price of our common
+stock and in any event may have a dilutive impact on our shareholders
+ which
+could cause the market price of our common stock to decline.
+We have not paid
+dividends in the past and do not expect to pay dividends in the future. Any
+returns on investment may be limited to the value of our common stock.
+
+common stock and do not anticipate paying cash dividends in the foreseeable
+future. The payment of dividends on our common stock will depend on our
+earnings
+ financial condition and other business and economic factors affecting
+us. If we do not pay dividends
+ our common stock may be less valuable.
+Our stock price
+is volatile and you may not be able to sell your shares for more than what you paid.
+
+significant volatility
+ and you may not be able to sell shares of common stock
+at or above the price you paid for them. The trading price of our common stock
+has been subject to fluctuations in the past. During the year ended December
+31
+ 2015
+ our common stock traded at prices as low as $0.08 per share and as
+high as $0.30 per share.
+
+market price of the common stock could continue to fluctuate in the future in
+response to various factors
+ including
+ but not limited to:
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+continued to experience volatility which may further affect our stock price.
+Risk Factors
+Relating to Our Industry
+We compete in an
+industry that is brand-conscious
+ so brand name recognition and acceptance of
+our products are critical to our success.
+
+substantially dependent upon awareness and market acceptance of our products
+and brands by our target market. In addition
+ our business depends on
+acceptance by our independent distributors and retailers of our brands as
+beverage brands that have the potential to provide incremental sales growth.
+Competition from
+traditional non-alcoholic beverage manufacturers may adversely affect our
+distribution relationships and may hinder development of our existing markets
+as well as prevent us from expanding our markets.
+
+industry is highly competitive. Due to our small size
+ it can be assumed that
+many of our competitors have significantly greater financial
+ technical
+marketing and other competitive resources. We compete against giant names like The
+Coca-Cola Company and PepsiCo
+ which combine for over 70% of the non-alcoholic
+beverage market.
+We compete with other beverage companies not only for consumer acceptance but
+also for shelf space in retail outlets and for marketing focus by our
+distributors
+ all of whom also distribute other beverage brands. Our products
+compete with a wide range of drinks produced by a relatively large number of
+manufacturers
+ most of which have substantially greater financial
+ marketing
+and distribution resources than ours.
+
+competitor consolidations
+ market-place competition
+ particularly among branded
+beverage products
+ and competitive product and pricing pressures could impact
+our earnings
+ market share and volume growth. If
+ due to such pressure or other
+competitive threats
+ we are unable to sufficiently maintain or develop our
+distribution channels
+ we may be unable to achieve our current revenue and
+financial targets. Competition
+ particularly from companies with greater
+financial and marketing resources than ours
+ could have a material adverse
+effect on our existing markets
+ as well as on our ability to expand the market
+for our products.
+We compete in an
+industry characterized by rapid changes in consumer preferences and public
+perception
+ so our ability to continue developing new products to satisfy our
+consumers&#8217; changing preferences will determine our long-term success.
+
+introduce new brands
+ products or product extensions into the marketplace as
+current ones mature and to meet our consumers&#8217; changing preferences could
+prevent us from gaining market share and achieving long-term profitability.
+Product lifecycles can vary and consumers&#8217; preferences change over time.
+Although we try to anticipate these shifts and develop new products to
+introduce to our consumers
+ there is no guarantee that we will succeed.
+Our business is
+subject to many regulations and noncompliance is costly.
+
+marketing and sale of our beverages
+ including contents
+ labels
+ caps and
+containers
+ are subject to the rules and regulations of various federal
+provincial
+ state and local health agencies. If a regulatory authority finds
+that a current or future product or production run is not in compliance with
+any of these regulations
+ we may be fined
+ or production may be stopped
+ thus
+adversely affecting our financial condition and results of operations.
+Similarly
+ any adverse publicity associated with any noncompliance may damage
+our reputation and our ability to successfully market our products.
+Furthermore
+ the rules and regulations are subject to change from time to time
+and while we closely monitor developments in this area
+ we have no way of
+anticipating whether changes in these rules and regulations will impact our
+business adversely. Additional or revised regulatory requirements
+ whether
+labeling
+ environmental
+ tax or otherwise
+ could have a material adverse effect
+on our financial condition and results of operations.
+
+
+ITEM
+2. PROPERTIES
+
+located at 11678 N Huron Street
+ Northglenn
+ Colorado 80234. We lease these
+facilities on a month-to-month basis at a cost of $5
+587 per month. We lease
+warehouse space located in Denver
+ Colorado for $900 per month. We believe
+these facilities are suitable for our current needs.
+
+
+time in various claims and legal actions arising in the ordinary course of
+business
+ including proceedings involving employee claims
+ contract disputes
+product liability and other general liability claims
+ as well as trademark
+copyright
+ and related claims and legal actions. In the opinion of our
+management
+ the ultimate disposition of these matters will not have a material
+adverse effect on our consolidated financial position
+ results of operations or
+liquidity.
+
+ 2016
+ there were no
+known legal proceedings against us. No governmental agency has instituted
+proceedings
+ served
+ or threatened us with any complaints.
+ITEM 4. MINE
+SAFETY DISCLOSURES
+
+
+
+
+
+ITEM 5. MARKET
+FOR REGISTRANT&#8217;S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS AND ISSUER
+PURCHASES OF EQUITY SECURITIES
+Market
+Information
+
+to April 5
+ 2011
+ there was no public trading market for our securities. We completed our
+initial public offering on February 15
+ 2011. On April 11
+ 2011 our common
+stock started trading under the symbol &#8220;PLSB&#8221; on the OTCBB operated by the
+Financial Industry Regulatory Authority
+ Inc. (&#8220;FINRA&#8221;) and the OTCQB operated
+by OTC Markets Group
+ Inc. On June 24
+ 2015 our common stock began trading on
+the OTCQX
+Best Marketplace for established global and growth companies operated by OTC
+Markets Group Inc.
+
+of high and low bid prices for our common stock for each applicable quarterly
+period. The table reflects inter-dealer prices without retail mark-up
+ mark-down
+or commissions and may not represent actual transactions.
+
+2015:
+
+
+
+
+  
+
+
+  
+
+
+
+
+  First
+  Quarter
+
+
+  $0.30
+
+
+  $0.16
+
+
+
+
+  Second
+  Quarter
+
+
+  $0.20
+
+
+  $0.13
+
+
+
+
+  Third
+  Quarter
+
+
+  $0.18
+
+
+  $0.09
+
+
+
+
+  Fourth
+  Quarter
+
+
+  $0.12
+
+
+  $0.08
+
+
+
+
+2014:
+
+
+
+
+  
+
+
+  
+
+
+
+
+  First
+  Quarter
+
+
+  $0.81
+
+
+  $0.44
+
+
+
+
+  Second
+  Quarter
+
+
+  $0.69
+
+
+  $0.40
+
+
+
+
+  Third
+  Quarter
+
+
+  $0.48
+
+
+  $0.32
+
+
+
+
+  Fourth
+  Quarter
+
+
+  $0.37
+
+
+  $0.12
+
+
+
+
+price of our common stock on the OTCQX on March 30
+ 2016 was $0.08 per share.
+Number of
+Shareholders
+
+ 2016 there were 68
+924
+980
+shares of our common stock issued and outstanding and approximately 2
+500
+shareholders. The transfer agent of our common stock is V-Stock Transfer
+ LLC
+ 18
+Lafayette Place
+ Woodmere
+ NY 11958. &nbsp;
+
+
+distributions to our equity owners. We do not expect to pay cash dividends on
+our common stock
+ but instead
+ intend to utilize available cash to support the
+development and expansion of our business. Any future determination relating to
+our dividend policy will be made at the discretion of our Board of Directors
+and will depend on a number of factors
+ including but not limited to
+ future
+operating results
+ capital requirements
+ financial condition and the terms of
+any credit facility or other financing arrangements we may obtain or enter
+into
+ future prospects and in other factors our Board of Directors may deem
+relevant at the time such payment is considered. There is no assurance that we
+will be able or will desire to pay dividends in the near future or
+ if
+dividends are paid
+ in what amount.
+Stock
+Repurchases
+
+shares repurchased during the fourth quarter of 2015.
+Securities
+Issued in Unregistered Transactions
+
+2015
+ we issued the following securities in unregistered transactions:
+
+ 2015 we issued 3
+000
+000
+common shares having a fair value of $150
+000 pursuant to an Advisory Services
+Agreement in connection with a Credit Facility.
+
+ 2015 we issued 88
+277
+common shares having a fair value of $12
+000 pursuant to an employment contract.
+
+
+ 2015 we issued 275
+000
+common shares having a fair value of $22
+000 pursuant to an employment contract
+with an officer and director. 
+
+
+December 31
+ 2015
+ we issued the following securities in unregistered
+transactions:
+
+ 2016 we issued 238
+889
+common shares and on February 29
+ 2016 we issued 238
+889 common shares having an
+aggregate fair value of $40
+611 pursuant to an employment contract with an
+officer/director. 
+
+registration provided by Section 4(a)(2) of the Securities Act of 1933 with
+respect to the issuance of the shares listed above. The persons who acquired
+these securities were sophisticated investors who were provided full
+information regarding our business and operations. There was no general
+solicitation in connection with the offer or sale of these securities. The
+persons acquired these securities for their own accounts. The shares cannot be
+sold unless pursuant to an effective registration statement or an exemption
+from registration. No commissions were paid to any person in connection with
+the issuance of these securities.
+
+
+
+ITEM 6. SELECTED
+FINANCIAL DATA
+
+applicable.
+ITEM 7.
+MANAGEMENT&#8217;S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF
+OPERATIONS
+
+that follows is derived from our consolidated audited balance sheets as of
+December 31
+ 2015 and 2014 and the audited consolidated statements of
+operations and cash flows for the years ended December 31
+ 2015 (&#8216;2015&#8221;) and
+December 31
+ 2014 (&#8220;2014&#8221;).
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+
+
+  Gross Sales
+
+  
+
+730
+
+  
+  
+
+802
+
+  
+  
+
+
+  
+
+
+
+  Less: Promotional allowances and slotting fees
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Net Sales
+
+  
+
+483
+
+  
+  
+
+363
+
+  
+  
+
+
+  
+
+
+
+  Cost of Sales
+
+  
+
+405
+
+  
+  
+
+402
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  Gross Profit
+
+  
+
+077
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  Expenses
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  Advertising
+ samples and displays
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Freight-out
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  General and administration
+
+  
+
+288
+
+  
+  
+
+578
+
+  
+  
+
+
+  
+
+
+
+  Research and development
+
+  
+  
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Salaries and benefits and broker/agent&#8217;s fees
+
+  
+
+208
+
+  
+  
+
+401
+
+  
+  
+
+
+  
+
+
+
+  Stock-based compensation
+
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  Total Operating Expenses
+
+  
+
+543
+
+  
+  
+
+564
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  Net Loss from Operations
+
+  
+
+466
+
+  
+  
+
+603
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  Total Other Expenses
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Net Loss
+
+  
+
+708
+
+  
+  
+
+731
+
+  
+  
+
+
+  
+
+
+Net
+Sales
+
+gross revenues
+ on sale of 265
+227 cases (2014 &#8211; 279
+729 cases) of Natural
+Cabana&#174; Lemonade/Limeade
+ declined by $116
+523 to $3
+070
+600 (2014 -
+$3
+187
+123). During 2015 gross revenues
+ on sale of 58
+474 cases (2014 &#8211; 54
+814
+cases) of Natural Cabana&#174; Coconut Water
+ increased by $16
+957 to $630
+244 (2014
+- $613
+287). During 2015 gross revenues
+ on sale of 1
+526 cases (2014 &#8211; 54
+cases) of PULSE&#174; Heart &amp; Body Health
+ increased by $28
+106 to $29
+832 (2014
+- $1
+726).
+
+2015 our overall net sales
+ after promotional allowances and slotting fees
+increased by $120
+199 (3.6%) to $3
+483
+514 (2014 - $3
+363
+315). During 2015
+promotional allowances and slotting fees
+ decreased by $191
+659 to $247
+162
+(2014 - $438
+821). As a percentage of gross sales
+ promotional allowances and
+slotting fees decreased by 5% to 6.6% (2014 &#8211; 11.6%). During 2015 we
+eliminated some promotional programs that were not as effective as planned and
+reduced slotting fees paid for shelf space.
+
+in switching over to our new coconut water supplier
+ and as a result net sales of coconut water did not increase as much as
+planned. Our new coconut water was widely
+taste-tested and paneled and the consensus of opinion was that it better suits
+the palette of North American coconut water consumers. The majority of our
+existing distributors
+ and recently secured retail chains
+ delayed ordering
+until we received this product in early December
+ 2015. Additionally
+ the
+remainder of new accounts secured did not order coconut water until early in
+2016 so as to kick off new displays in cold sections leading up to the warmer
+months. We recently introduced a smaller 11.2oz six-pack coconut water which
+some big box retailers find easier to sell; this should increase net sales in
+2016. We
+expect overall net sales to increase as we expand our markets internationally
+into Mexico
+ China and Canada and as we introduce a 16.9oz control branded
+lemonade/limeade in April
+ 2016. We also intend on repackaging PULSE Heart
+&amp; Body Health into a more attractive package and re-introducing this brand
+into the Southern California marketplace and China. Our
+China distributor began ordering Lemonade/Limeade in September and our Mexico
+distributor was shipped its first order of 15
+000 cases of Natural Cabana&#174;
+Coconut Water
+ which sale was recorded in 2015. Due to changes in food laws in
+Mexico during the process of shipping product from Asia
+ we must overlay labels
+with a new information label. This has delayed the reorder in Mexico until the
+second quarter of 2016. Our distributor will
+initially distribute Natural Cabana&#174; Coconut Water to more than 3
+000 stores in
+Mexico including: Soriana
+ 7-Eleven
+ Calimax
+ Circlulo K
+ Dax
+ Smart &amp;
+Final
+ and Farmacia Roma. We are planning to introduce a Natural Cabana&#174; Lemonade/Limeade
+(&#8220;Limonada&#8221;) in a 16.9oz glass &#8220;PULSE bottle&#8221; format for the Mexico market in
+2016. 
+Cost
+of Sales
+
+2015 cost of sales increased by $3
+005 to $2
+405
+874 (2014 &#8211; $2
+402
+869). As a
+percentage of net revenue
+ cost of sales for 2015 decreased by 2.38% to 69.06%
+(2014 &#8211; 71.44%). We expect cost of sales for the production of Natural Cabana&#174;
+Lemonade/Limeade to remain stable throughout 2016 due to fairly stable raw
+material costs. We expect cost of sales for Natural Cabana&#174; Coconut Water to
+significantly reduce due to the lower cost of coconut water sourced from our
+new Asian manufacturer and lower ocean-shipping costs. 
+Gross
+Profit
+
+2015 gross profit increased by $117
+194 to $1
+077
+640 (2014 - $960
+446). Gross
+profit for 2015
+ as a percent of net sales
+ increased by 2.38% to 30.94% (2014
+&#8211; 28.56%). We expect gross profit for the sale of Natural Cabana&#174;
+Lemonade/Limeade to remain stable throughout 2016 due to fairly stable sales
+prices
+ promotional programs and raw material costs. We expect gross profit for
+Natural Cabana&#174; Coconut Water to significantly increase due to the lower cost
+of coconut water sourced from our new Asian manufacturer and lower ocean-shipping costs. We also expect an increase in gross profit as we re-introduce
+PULSE&#174;
+ a higher margin brand. We expect all of these factors to have a
+positive effect on our gross profit.&nbsp;&nbsp; 
+
+
+
+
+Advertising
+samples and displays 
+
+samples and displays includes in-store sampling
+ samples shipped to
+distributors
+ display racks
+ ice barrels
+ sell sheets
+ shelf strips and door
+decals. During 2015 advertising
+ samples and displays expense decreased by $56
+702
+to $80
+269 (2014 - $136
+971). As a percentage of net sales
+ this expense
+decreased by 1.8% to 2.3% (2014 &#8211; 4.1%). We reduced this cost due to less
+display racks and barrels being needed in 2015. We expect this expense to
+increase in proportion to increases in sales mainly due to the expansion of
+Natural Cabana&#174; Coconut Water and the re-introduction of PULSE&#174; Heart &amp;
+Body Health functional beverages and due to an overall increase in distribution
+reach both in the United States and internationally. 
+
+
+2015
+ freight-out decreased by $31
+976 to $359
+266 (2014 - $391
+242). On a per
+case basis
+ freight-out decreased by $0.07 per case to $1.10 (2014 - $1.17). We
+expect freight-out
+ on a per case basis
+ to decrease due to lower
+transportation costs in the United States. Additionally
+ there will be limited
+freight-out charges associated with delivering our products to our Mexico
+distributor at the ports of entry in Mexico and our China distributor receiving
+our products at the port of exit in the United States.&nbsp;&nbsp;&nbsp;&nbsp; 
+Contribution
+to fixed expenses
+
+companies are often compared on a contribution to fixed expense basis which
+includes gross profit less variable expenses such as advertising
+ samples and
+displays and freight-out. This line item is not GAAP and therefore it is not
+disclosed separately in our consolidated financial statements. During
+2015
+ as a percentage of net sales
+ contribution to fixed expense increased by 5.47%
+to 18.32% (2014 &#8211; 12.85%). We expect contribution to fixed expenses to increase
+due to the reasons disclosed under each category above.
+General
+and administrative
+
+we have rationalized our overhead to align our expenses to a new strategic way
+of conducting our business utilizing more warehouse direct distribution and
+utilizing strong international distributors that distribute
+ market and promote
+our brands in their territories. This reduces the amount of overhead we require
+to operate our business. 
+
+administration expenses for the years ended December 31
+ 2015 and 2014 consist
+of the following:
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+
+  Increase
+
+  
+
+
+
+  Advisory and consulting fees
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Amortization and depreciation
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Bad debts
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Legal
+ professional and regulatory fees
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Office
+ rent and telephone
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Shareholder
+ broker and investor relations
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Trade shows
+
+  
+  
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Travel and meals
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+288
+
+  
+  
+
+578
+
+  
+  
+
+
+  
+
+
+
+2015 general and administrative expenses decreased by $290
+139 to $1
+288
+224 (2014
+- $1
+578
+363). During 2015 we fully provided for a potential bad debt of
+$128
+196 associated with one of our major distributors. We are working with
+this distributor to reverse the negative trend it is experiencing. In the
+meantime we have started our own distributorship in this geographic location in
+order to service our existing customers and to expand in that important marketplace.
+Shareholder
+ broker and investor relations decreased by $314
+773 to $245
+950 (2014
+- $560
+723). Of this expense
+ a total of $230
+000 (2014 - $333
+833) was
+associated with the issuance of our common shares. Currently we have no plans
+to increase the costs associated with communicating with our shareholders and
+potential investors and stock brokers. Trade shows expense decreased by $39
+848
+to $875 (2014 - $40
+723) due to not attending certain conferences in 2015 such
+as the Natural Products Expo West Conference
+ Roth Capital Conference and
+Marcum Conference. Travel and meals decreased by $64
+827 to $284
+473 (2014 - $349
+300)
+due to an overall effort to decrease overhead. Expense categories such as:
+advisory/consulting fees
+ amortization/depreciation
+legal/professional/regulatory fees
+ and office/rent/telephone all fluctuated
+less than 10% when compared to 2014 and are not expected to change more than
+10% in 2016.
+
+
+2015 salaries and benefits and broker/agent&#8217;s fees decreased by $193
+139 to $1
+208
+603
+(2014 - $1
+401
+742). This decrease was due to the rationalization of the number
+and placement of salespeople in the field. We concentrated on chain store
+listings and international expansion which is where we see the majority of our
+growth coming from. These areas of growth are generally handled by our two
+senior officers.&nbsp; 
+Stock-based
+compensation
+
+2015 we granted stock options under the Amended 2011 Plan to certain officers
+directors
+ employees and consultants to purchase 12
+700
+000 common shares at
+$0.10 per common share. A total of 10
+375
+000 stock options vested on December
+31
+ 2015 and a further 2
+325
+000 stock options vest monthly at a rate of
+138
+889 shares per month for sixteen months and the remaining 102
+776 shares
+vest on May 23
+ 2017. Of the 12
+700
+000 stock options granted a total of
+7
+500
+000 were granted to three directors/officers valued at $440
+274 of which
+$302
+547 was charged to operations at December 31
+ 2015 and $135
+927 will be
+amortized to operations over the next seventeen months ended May 23
+ 2017. 
+
+
+
+
+fair value of stock options granted were estimated at the date of grant using
+the Black-Scholes option-pricing model. During the years ended
+December 31
+ 2015 and 2014
+ we recorded stock-based compensation of $606
+556
+and $166. The weighted average fair values of stock options vested during the
+year ended December 31
+ 2015 was $.06.
+Other
+Income (Expense)
+
+income (expense) for the years ended December 31
+ 2015 and 2014 consist of the
+following:
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+
+  Increase
+
+  
+
+
+
+  Asset impairment
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Contract settlement
+
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  Financing expense
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Interest (expense) income
+ net
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Gain (loss) on disposal of equipment
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+
+
+
+2015 we incurred interest expense of $69
+885
+ net of interest income of $826. We
+accrued interest of $8
+663 on $145
+000 of short-term bridge loans received in
+September
+ 2015 and we paid interest of $11
+195 on our TCA loan received on
+November 6
+ 2015. We also incurred interest of $2
+892 associated with credit
+card indebtedness during the year. Additionally
+ associated with the closing of
+the Credit Facility discussed in Note 7 to our consolidated financial
+statements
+ we incurred $281
+230 of debt issuance costs which is being
+amortized to interest expense over the term of the loan to November 6
+ 2016. A
+total of $47
+961 was charged to interest expense during the year ended December
+31
+ 2015.
+During 2014 we received $8
+156 interest income from interest earned on our cash
+balances and long-term note receivable. This was offset by interest expense of
+$3
+129 associated with credit card indebtedness.
+
+2015 we incurred a contract settlement cost of $7
+009 (2014 - $nil) to allow us
+to enter into multiple other distribution agreements in a key geographic area. 
+
+000
+financing fee expense associated with a potential loan we elected not to take
+due to poor terms offered. During 2014 we incurred a financing expense of
+$26
+000 being the fair market value of 100
+000 common shares issued pursuant to
+a financing arrangement which did not materialize in a financing acceptable to
+us.
+
+
+2015 our asset impairment expense was $159
+597. We elected to write-down an
+inventory deposit due from our previous coconut water supplier in the amount of
+$45
+333. A note receivable was written-down to a negotiated amount resulting in
+a loss of $6
+993. We wrote-off a total of $63
+742 of raw materials that were
+obsolete or expired and $23
+766 of damaged or discontinued finished goods. We
+wrote-down trademarks totalling $19
+763. During 2014 we incurred an asset
+impairment charge of $55
+996 for raw materials obsolete or expired and
+trademarks written-down of $18
+881.
+
+2015 we received $6
+736 from insurance proceeds from a delivery van written-off
+resulting in a gain of $3
+838. In 2014 we sold a piece of manufacturing equipment
+installed at one of our co-packers for $18
+000 resulting in a loss on sale of
+$31
+764.
+Net
+Loss
+
+2015 net loss decreased by $22
+400 to $2
+708
+926 (2014 - $2
+731
+326). This
+decrease was due to our 2015 operating plan which included rationalizing our overhead
+to align expenses with conducting our business differently using warehouse
+direct to distribute our products in the United States and using international
+distributors which handle all of their own promotions. This reduced the amount
+of overhead we incurred during 2015. We expect our monthly net losses to turn
+into monthly net income during the middle of 2016 due to increased net sales
+and gross profit and reduced expenses as discussed above.
+
+losses to date
+ for the most part
+ continue to be the result of a concentrated
+effort to establish and increase brand awareness and to establish and improve
+upon our extensive nationwide and international distribution systems. Our net
+losses are also due to the development of our brands including: PULSE&#174; Heart
+&amp; Body Health
+ Natural Cabana&#174; Lemonade and Limeade and Coconut Water and
+to secure distribution and chain store listings.
+Non-GAAP
+financial information not disclosed in the financial statements
+
+ 2015 net loss
+ after adjustments to bring GAAP to net loss before
+corporation income taxes
+ depreciation and amortization
+ stock-based
+compensation and one-time charges (Adjusted EBITDA)
+ decreased by $871
+442 to $1
+278
+311
+(2014 - $2
+149
+753). These reductions were due to a significant decrease in
+general and administrative expenses and a reduction in promotions
+ slotting
+advertising and freight-out.
+LIQUIDITY
+AND CAPITAL RESOURCES
+
+
+ 2015 our cash position increased
+by $381
+753 to $431
+270 and our working capital position declined by $886
+473
+to $253
+650. At December 31
+ 2015
+ our working capital consisted of: cash of $431
+270;
+accounts receivable of $386
+462; inventories of $988
+910 (including finished
+product of $344
+764 and raw materials of $644
+146); and prepaid expenses of $15
+461.
+Our current liabilities include accounts payable of $387
+252
+ accrued expenses
+of $193
+644
+ other current amounts due of $209
+720
+ credit card indebtedness of
+$22
+066 and loans payable of $755
+771.
+
+
+
+
+sources and uses of cash for the year ended December 31
+ 2015 and 2014:
+
+
+
+
+  &nbsp;&nbsp;&nbsp; 2015
+
+  
+
+  &nbsp;&nbsp;&nbsp; 2014
+
+  
+
+
+
+  Net
+  cash used in operating activities
+
+  
+
+  ($1
+347
+360)
+
+  
+  
+
+  ($1
+797
+974)
+
+  
+
+
+
+  Net
+  cash used in investing activities
+
+  
+
+  (78
+708)
+
+  
+  
+
+  (27
+503)
+
+  
+
+
+
+  Net
+  cash provided by&nbsp;financing activities
+
+  
+
+  1
+807
+821
+
+  
+  
+
+  100
+000
+
+  
+
+
+
+  Net
+  increase (decrease) in cash
+
+  
+
+  $381
+753
+
+  
+  
+
+  ($1
+725
+477)
+
+  
+
+
+Cash
+Used in Operating Activities
+
+2015 we used cash of $1
+347
+360 in operating activities. This was made up of
+the net loss of $2
+708
+926 less adjustments for non-cash items such as: shares
+and options issued for services of $871
+581
+ amortization and depreciation of $106
+423
+asset impairment of $159
+597
+ a bad debt allowance of $156
+091
+ amortization to
+interest expense of debt issuance costs of $47
+961
+ a gain on sale of assets of
+$3
+838 and reduction of note receivable for services of $92
+800; all totaling $1
+430
+615.
+After non-cash items
+ the net cash loss was $1
+278
+311 compared to a cash loss
+during 2014 of $2
+149
+753
+ an improvement of $871
+442. Our net cash used in
+operating activities as a result of changes in operating assets and liabilities
+was $69
+049. We used cash of $127
+970 to pay down our accounts payable. This
+was offset by decreases in current assets: accounts receivable of $2
+196
+inventory of $24
+369
+ prepaid expenses of $22
+806 and other assets of $9
+550. 
+
+used cash of $1
+797
+974 in operating activities. This was made up of the net
+loss of $2
+731
+326 less adjustments for non-cash items such as: an asset
+impairment charge of $55
+996
+ shares and options issued for services of
+$333
+999
+ amortization and depreciation of $117
+314
+ bad debt allowance of
+$16
+500
+ loss on sale of an asset of $31
+764 and a financing fee of $26
+000;
+all totaling $581
+573. After non-cash items
+ the net loss was $2
+149
+753. Our
+net cash used in operating activities was reduced by $333
+779 due to an
+increase in accounts receivable of $134
+216
+ an increase in inventory of
+$10
+767
+ a decrease in prepaid expenses of $19
+777 and an increase in accounts
+payable and accrued expenses of $482
+169.&nbsp; 
+Cash
+Used in Investing Activities
+
+2015 we used cash of $78
+708 in investing activities. A total of $64
+981 was
+spent on moulds
+ dies and label artwork
+ $6
+387 on computer equipment
+associated with Walmart online processing system and $5
+500 on a delivery van
+for Northern California. We spent $4
+573 on trademarks and $4
+003 on
+formulation and testing associated with bringing our PULSE&#174; Heart &amp; Body
+Health brand of functional beverages available for commercial production. We
+received $6
+736 from insurance proceeds from a delivery van written-off.
+
+503 in
+investing activities. A total of $14
+089 was spent on label printing plates and
+office equipment. We spent $36
+706 on formulation
+ testing
+ trademarking and
+label design associated with bringing our brands into commercial production. We
+received $18
+000 from the sale of a piece of manufacturing equipment and we
+received $5
+292 in principal repayments against our long-term loan due from
+Catalyst Development
+ Inc.&nbsp;&nbsp;&nbsp; 
+Cash
+Provided by Financing Activities
+
+ 2015
+we sold 10
+050
+000 Units at $0.10 per Unit for cash proceeds of $1
+005
+000 of
+which $100
+000 was received during the year ended December 31
+ 2014. On May 27
+2015 we sold an additional 750
+000 Units at $0.10 per Unit for cash proceeds of
+$45
+000
+ and debt settlement of $30
+000. Each Unit consisted of one share of
+restricted common stock and one-half of a warrant. Each whole warrant allows
+the holder to purchase one additional share at a price of $0.20 per share at
+any time between March 10
+ 2016 and May 27
+ 2016. 
+
+September
+ 2015 we received short-term loans totaling $145
+000. These loans are
+unsecured and due on demand. Interest of $8
+663 has been accrued at December
+31
+ 2015 and included in accounts payable and accrued expenses. At March 30
+2016 these loans have not been demanded.
+
+ we received $100
+000
+from subscription proceeds pursuant to a $0.10 per Unit offering closed on
+March 27
+ 2015. 
+
+ 2015
+ we entered into a Credit Agreement
+with TCA Global Credit Master Fund
+ LP (the &#8220;Lender&#8221;).&nbsp;Under the terms of
+the Credit Agreement
+ the Lender has committed to lend a total of $3
+500
+000
+(the &#8220;Credit Facility&#8221;) to us pursuant to a senior secured revolving note (the
+&#8220;Note&#8221;). The initial tranche of $650
+000 was funded on November 6
+ 2015 and a
+second tranche of $250
+000 was funded on December 22
+ 2015 for a total of
+$900
+000 advanced against this Credit Facility. This loan matures on November
+6
+ 2016 unless extended by the Lender.&nbsp;We must meet specific monthly
+collateral requirements to further draw upon the Credit Facility (See
+&#8220;Additional Capital&#8221; below). The Credit Facility is secured by&nbsp;a senior
+secured interest in all of our assets.&nbsp;We are charged a 12% per annum rate
+of interest plus a 6% per annum administration fee on the daily loan balance
+outstanding. Repayment terms are 20% of gross receipts until we reach $130
+000
+of repayments after which we pay 10% of gross receipts. During the year we
+repaid $55
+949 leaving a balance owing of $844
+040 at December 31
+ 2015.
+Associated with the closing of the Credit Facility we incurred $281
+230 of debt
+issuance costs which will be amortized to interest expense over the term of the
+loan to November 6
+ 2016. A total of $47
+961 was charged to interest expense
+during the year ended December 31
+ 2015. The Lender has the right
+ in the Event
+of Default
+ to convert any outstanding amounts under the Note into restricted
+shares of the Company&#8217;s common stock based on 85% of the weighted value average
+price of the Company&#8217;s common shares over the prior 5 trading days prior to
+conversion. However
+ the Lender may not convert any portion of the Note to the
+extent that after giving effect to the shares which would be received on
+conversion
+ the Lender would beneficially own more than 4.99% of the Company&#8217;s
+common stock. In connection with the Credit Facility
+ we
+are obligated to pay a $150
+000 facility fee which has been included in
+accounts payable and accrued liabilities. As security for this fee we issued
+3
+000
+000 shares of restricted common stock to the Lender who has the right to
+sell enough shares to recover its fee. The value of these shares
+ being
+$150
+000
+ was charged to additional paid in capital. Any excess shares not
+sold will be returned to us for cancellation. We have the right to buy-back
+these shares by paying $150
+000 to the Lender on or before May 6
+ 2016. 
+
+
+
+
+
+ 2015
+ we had cash of $431
+270 and
+working capital of $253
+650. On
+March 22
+ 2016
+ we entered into Amendment No. 1 to Senior Secured Revolving
+Credit Facility Agreement (the &#8220;Amended Credit Facility&#8221;) whereby we were
+approved for an additional $1
+000
+000 loan under the Amended Credit Facility
+having the same terms as the initial $900
+000 loan. The Amended and Restated
+Senior Secured Revolving Convertible Promissory Note matures November 6
+ 2016
+unless extended by the Lender. We received $455
+860
+ net of $44
+140 of closing
+costs
+ on March 22
+ 2016 and will receive a further $250
+000 once we collect an
+account receivable from our Mexico distributor. A further $250
+000 will be
+received once we have met certain other performance criteria. In connection
+with this additional loan
+ we agreed to issue 10
+558
+069 shares of our
+restricted common stock to the Lender as an Advisory Fee. Notwithstanding the
+above
+ the Lender is restricted from receiving these shares to the extent that
+after giving effect to the receipt of the shares
+ the Lender would beneficially
+own more than 4.99% of our common stock. Any shares not issued as a result of
+this limitation will be issued at a later date
+ and from time to time
+ when the
+issuance of these will not result in the Lender beneficially owning more than
+4.99% of our common stock. We have the right to purchase these shares by paying
+$350
+000 to the Lender on or before September 22
+ 2016.
+
+our working capital needs through to the middle of 2017. Cash used in
+operations during the year ended&nbsp;December 31
+ 2015 totaled $1
+347
+360
+compared to $1
+797
+974 for 2014. The decrease in cash used in operations
+compared to 2014 is primarily driven by increasing our overall gross profit by
+$117
+194 (12%)
+ achieving greater operational efficiencies and reducing
+operating expenses.&nbsp; 
+
+plan as necessary to respond to developments in our business
+ our markets and
+the broader economy. We believe our credit facility and equity financing
+alternatives will be made available to us to support our working capital needs
+in the future. These alternatives may require significant cash payments for
+interest and other costs or could be highly dilutive to our existing
+shareholders. 
+
+ 2016
+ we believe that our cash on hand
+available working capital and financing alternatives will be sufficient to meet
+our anticipated cash needs through the first half of 2017 and is sufficient to
+alleviate the uncertainties relating to our ability to successfully execute on
+our business plan and finance our operations through the middle of 2017. Our
+financial statements for the years presented were prepared assuming we will
+continue in operation for the foreseeable future and will be able to realize
+assets and settle liabilities and commitments in the normal course of business.
+
+OFF
+BALANCE-SHEET ARRANGEMENTS
+
+and at December 31
+ 2015
+ do not have
+ any off-balance sheet arrangements that
+have or are reasonably likely to have a current or future effect on our
+financial condition
+ changes in financial condition
+ revenues or expenses
+results of operations
+ liquidity
+ capital expenditures or capital resources
+that is material to investors.
+CRITICAL
+ACCOUNTING POLICIES AND ESTIMATES
+
+discussion and analysis of our financial condition and results of operations
+are based upon our financial statements that have been prepared in accordance
+with generally accepted accounting principles in the United States of America
+(US GAAP). This preparation requires management to make estimates
+and assumptions that affect the reported amounts of assets
+ liabilities
+revenues and expenses
+ and the disclosure of contingent assets and liabilities.
+US GAAP provides the framework from which to make these estimates
+ assumptions
+and disclosures. We choose accounting policies within US GAAP that management
+believes are appropriate to accurately and fairly report our operating results
+and financial position in a consistent manner. Management regularly assesses
+these policies in light of current and forecasted economic conditions. While
+there are a number of significant accounting policies affecting our financial
+statements
+ we believe the following critical accounting policies involve the
+most complex
+ difficult and subjective estimates and judgments:
+Use of
+Estimates
+
+financial statements in accordance with United States generally accepted
+accounting principles requires us to make estimates and assumptions that affect
+the reported amounts of assets and liabilities at the date of the financial
+statements and the reported amounts of revenue and expenses in the reporting
+period. We regularly evaluate estimates and assumptions related to the useful
+life and recoverability of long-lived assets
+ stock-based compensation
+ and
+deferred income tax asset valuation allowances. We base our estimates and
+assumptions on current facts
+ historical experience and various other factors
+that we believe to be reasonable under the circumstances
+ the results of which
+form the basis for making judgments as to the carrying values of assets and
+liabilities and the accrual of costs and expenses that are not readily apparent
+from other sources. The actual results experienced by us may differ materially
+and adversely from our estimates.
+Intangible
+Assets
+
+assets are comprised primarily of the cost of formulations of our products and
+of trademarks that represent our exclusive ownership of &#8220;Natural Cabana&#174;&#8221;
+&#8220;PULSE&#174;&#8221; and &#8220;PULSE: Nutrition Made Simple&#174;&#8221;; all used in connection with the
+manufacture
+ sale and distribution of our products. We do not amortize
+trademarks as they have an indefinite life; we amortize our website over a
+period of 5 years on a straight-line basis and our formulations and related
+intangible assets based on case sales divided by 2
+000
+000 cases We evaluate
+our trademarks annually for impairment or earlier if there is an indication of
+impairment. If there is an indication of impairment of identified intangible
+assets not subject to amortization
+ we compare the estimated fair value with
+the carrying amount of the asset.&nbsp;An impairment loss is recognized to
+write-down the intangible asset to its fair value if it is less than the
+carrying amount. The fair value is calculated using the income approach. However
+preparation of estimated expected future cash flows is inherently subjective
+and is based on our best estimate of assumptions concerning expected future
+conditions. Based on our impairment analysis performed for the years ended
+December 31
+ 2015 and 2014
+ we identified impairment of trademarks of $19
+763
+and $18
+881
+ respectively.
+RECENTLY ISSUED
+ACCOUNTING PRONOUNCEMENTS
+
+our consolidated financial statements. 
+ITEM 7A.&nbsp; QUANTITATIVE
+AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+
+ITEM 8. FINANCIAL STATEMENTS AND
+SUPPLEMENTARY DATA
+
+
+
+REPORT
+OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+
+
+the Board of Directors and Stockholders of
+Pulse Beverage Corporation
+Colorado
+
+balance sheets of The Pulse Beverage Corporation and subsidiary (the &#8220;Company&#8221;)
+as of December 31
+ 2015 and 2014
+ and the related consolidated statements of
+operations
+ changes in stockholders&#8217; equity and cash flows for each of the years
+in the two year period ended December 31
+ 2015. The Company&#8217;s management is
+responsible for these consolidated financial statements. Our responsibility is
+to express an opinion on these consolidated financial statements based on our
+audits. 
+
+with the standards of the Public Company Accounting Oversight Board (United
+States). Those standards require that we plan and perform the audit to obtain
+reasonable assurance about whether the financial statements are free of
+material misstatement. The company is not required to have
+ nor were we engaged
+to perform
+ an audit of its internal control over financial reporting. Our
+audit included consideration of internal control over financial reporting as a
+basis for designing audit procedures that are appropriate in the circumstances
+but not for the purpose of expressing an opinion on the effectiveness of the
+company&#8217;s internal control over financial reporting. Accordingly
+ we express no
+such opinion. An audit also includes examining
+ on a test basis
+ evidence
+supporting the amounts and disclosures in the financial statements
+ assessing
+the accounting principles used and significant estimates made by management
+ as
+well as evaluating the overall financial statement presentation. We believe that
+our audit provides a reasonable basis for our opinion.
+
+ the consolidated financial
+statements referred to above present fairly
+ in all material respects
+ the
+financial position of The Pulse Beverage Corporation and subsidiary as of
+December 31
+ 2015 and 2014
+ and the results of its operations and its cash
+flows for each of the years in the two year period ended December 31
+ 2015 in
+conformity with accounting principles generally accepted in the United States
+of America.
+
+LLP
+York
+ New York
+30
+ 2016
+
+
+
+As of December 31
+ 2015 and 2014
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+146
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+822
+
+  
+  
+
+044
+
+  
+
+
+
+ net of accumulated depreciation of $266
+099 and  $174
+613
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+
+  
+
+
+
+ net of accumulated amortization of $52
+683 and $39
+
+  
+
+131
+
+  
+  
+
+156
+
+  
+
+
+
+  
+
+131
+
+  
+  
+
+333
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+201
+
+  
+  
+
+644
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+568
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+ 1
+000
+000 shares authorized
+ $0.001 par value
+
+  
+  
+  
+  
+  
+  
+
+
+
+ 100
+000
+000 shares authorized
+ $0.00001 par value&nbsp;68
+447
+202 and 54
+276
+037 issued and outstanding
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+879
+
+  
+  
+
+177
+
+  
+
+
+
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+
+247
+
+  
+  
+
+538
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+632
+
+  
+  
+
+740
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+201
+
+  
+  
+
+644
+
+  
+
+
+
+statements)
+
+
+
+For the Years Ended December 31
+ 2015 and 2014
+
+
+
+  
+
+
+
+  
+  
+
+
+
+  
+
+
+
+  Gross Sales
+
+  
+
+730
+
+  
+  
+
+802
+
+  
+
+
+
+  Less: Promotional Allowances and Slotting Fees
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Net Sales
+
+  
+
+483
+
+  
+  
+
+363
+
+  
+
+
+
+  Cost of Sales
+
+  
+
+405
+
+  
+  
+
+402
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Gross Profit
+
+  
+
+077
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Expenses
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Advertising
+ samples and displays
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Freight-out
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  General and administration
+
+  
+
+288
+
+  
+  
+
+578
+
+  
+
+
+
+  Research and development
+
+  
+  
+  
+  
+
+
+  
+
+
+
+  Salaries and benefits and broker/agent&#8217;s fees
+
+  
+
+208
+
+  
+  
+
+401
+
+  
+
+
+
+  Stock-based compensation (Note 11)
+
+  
+
+
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Total Operating Expenses
+
+  
+
+543
+
+  
+  
+
+564
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Net Operating Loss
+
+  
+
+466
+
+  
+  
+
+603
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Other Income (Expense)
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Asset impairment
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Contract settlement
+
+  
+
+
+  
+  
+  
+  
+
+
+
+  Financing expense
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Interest (expense) income
+ net
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  Gain (loss) on disposal of equipment
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Total Other Income (Expense)
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Net Loss
+
+  
+
+708
+
+  
+  
+
+731
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Net Loss Per Share &#8211; Basic and Diluted
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  Weighted Average Shares Outstanding &#8211; Basic and
+  Diluted
+
+  
+
+861
+
+  
+  
+
+007
+
+  
+
+
+
+statements)
+
+
+
+Consolidated Statements of Changes in Stockholders&#8217;
+Equity
+ 2015 and 2014
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+654
+
+  
+  
+  
+  
+  
+
+668
+
+  
+  
+  
+  
+  
+
+806
+
+  
+  
+
+862
+
+  
+
+
+
+  
+
+621
+
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+731
+
+  
+  
+
+731
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+276
+
+  
+  
+  
+  
+  
+
+177
+
+  
+  
+
+
+  
+  
+
+538
+
+  
+  
+
+740
+
+  
+
+
+
+  
+
+500
+
+  
+  
+  
+  
+  
+
+049
+
+  
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+
+000
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+708
+
+  
+  
+
+708
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+447
+
+  
+  
+  
+  
+  
+
+879
+
+  
+  
+  
+  
+  
+
+247
+
+  
+  
+
+632
+
+  
+
+
+
+statements)
+
+
+
+For the Years Ended December 31
+ 2015 and 2014
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+708
+
+  
+  
+
+731
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+347
+
+  
+  
+
+797
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+807
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+725
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+774
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+statements)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2006. On February 15
+ 2011 Darlington Mines Ltd. closed a voluntary share exchange transaction with a private Colorado company
+ The Pulse Beverage Corporation
+ which was formed on March 17
+ 2010
+ by and among us
+ The Pulse Beverage Corporation and the stockholders of The Pulse Beverage Corporation. The Pulse Beverage Corporation became a wholly-owned subsidiary. On February 16
+
+
+
+
+
+ Limeade and Coconut Water and PULSE&#174; Heart &amp; Body Health functional beverages. Our products are distributed nationwide primarily through a series of distribution agreements with various independent local and regional distributors and on a warehouse direct basis with major retail chain stores. Our products are also distributed internationally in Canada
+
+
+
+
+
+ 2015
+ we had cash of $431
+270 and working capital of $253
+651. On March 22
+ 2016
+ we entered into Amendment No. 1 to Senior Secured Revolving Credit Facility Agreement (the &#8220;Amended Credit Facility&#8221;) whereby we were approved for an additional $1
+000
+000 loan under the Amended Credit Facility having the same terms as the initial $900
+000 loan (See Note 6). The Amended and Restated Senior Secured Revolving Convertible Promissory Note matures November 6
+ 2016 unless extended by the Lender. We received $455
+860
+ net of $44
+140 of closing costs
+ on March 22
+ 2016 and will receive a further $250
+000 once we collect an account receivable from our Mexico distributor. A further $250
+000 will be received once we have met certain other performance criteria. In connection with this additional loan
+ we agreed to issue 10
+558
+069 shares of our restricted common stock to the Lender as an Advisory Fee. Notwithstanding the above
+ the Lender is restricted from receiving these shares to the extent that
+ after giving effect to the receipt of the shares
+ the Lender would beneficially own more than 4.99% of our common stock. Any shares not issued as a result of this limitation will be issued at a later date
+ and from time to time
+ when the issuance of these will not result in the Lender beneficially owning more than 4.99% of our common stock. We have the right to purchase these shares by paying $350
+000 to the Lender on or before September 22
+
+
+
+
+
+ 2015 totaled $1
+347
+360 compared to $1
+797
+974 for 2014. The decrease in cash used in operations compared to 2014 is primarily driven by increasing our overall gross profit by $117
+194 (12%)
+
+
+
+
+
+
+
+
+
+
+ 2016
+ we believe that our cash on hand
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ stock-based compensation
+ and deferred income tax asset valuation allowances. We base our estimates and assumptions on current facts
+ historical experience and various other factors that we believe to be reasonable under the circumstances
+ the results of which form the basis for making judgments as to the carrying values of assets and liabilities and the accrual of costs and expenses that are not readily apparent from other sources. The actual results experienced by us may differ materially and adversely from our estimates. To the extent there are material differences between the estimates and the actual results
+
+
+
+
+
+
+
+
+
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+ distributors and large chain stores. We evaluate the collectability of our trade accounts receivable based on a number of factors. In circumstances where we become aware of a specific customer&#8217;s inability to meet its financial obligations to us
+ a specific reserve for bad debts is estimated and recorded
+ which reduces the recognized receivable to the estimated amount we believe will ultimately be collected. Accounts receivable is reported as the customers&#8217; outstanding balances less any allowance for doubtful accounts. We record an allowance for doubtful accounts based on specifically identified amounts that are believed to be uncollectible. After all attempts to collect a receivable have failed
+ the receivable is written-off against the allowance. The allowance for doubtful accounts was $156
+090 and $16
+500 at December 31
+ 2015 and 2014
+
+
+
+
+
+
+
+
+
+ production availability and/or our ability to sell the product(s) concerned. Demand for our products can fluctuate significantly. Factors that could affect demand for our products include unanticipated changes in consumer preferences
+ general market and economic conditions or other factors that may result in cancellations of advance orders or reductions in the rate of reorders placed by customers and/or continued weakening of economic conditions. Additionally
+ our estimates of future product demand may be inaccurate
+
+
+
+
+
+
+
+
+
+ less accumulated depreciation. Expenditures for repairs and maintenance are expensed as incurred; renewals and betterments are capitalized. Upon disposal of equipment and leasehold improvements
+ the accounts are relieved of the costs and related accumulated depreciation or amortization
+ and resulting gains or losses are reflected in the Statements of Operations. Depreciation is computed on a straight-line basis over the estimated useful lives of the assets. Equipment consists of bottle molds
+ office and warehouse equipment
+ and display coolers
+
+
+
+
+
+
+
+
+
+ &#8220;Accounting for the Impairment or Disposal of Long-Lived Assets.&#8221; ASC Topic 360-10-05 requires that long-lived assets be reviewed for impairment whenever events or changes in circumstances indicate that the historical cost carrying value of an asset may no longer be appropriate. We assess recoverability of the carrying value of an asset by estimating the future net cash flows expected to result from the asset
+ including eventual disposition. If the future net cash flows are less than the carrying value of the asset
+ an impairment loss is recorded equal to the difference between the asset&#8217;s carrying value and fair value or disposable value. There is an impairment charge in 2015 and 2014 related to trademarks written-down of $19
+763 and $18
+881
+
+
+
+
+
+
+
+
+
+ &#8220;PULSE&#174;&#8221; and &#8220;PULSE: Nutrition Made Simple&#174;&#8221;; all used in connection with the manufacture
+ sale and distribution of our products. We do not amortize trademarks as they have an indefinite life; we amortize our website over a period of 5 years on a straight-line basis and our formulations and related intangible assets based on case sales divided by 2
+000
+000 cases We evaluate our trademarks annually for impairment or earlier if there is an indication of impairment. If there is an indication of impairment of identified intangible assets not subject to amortization
+ we compare the estimated fair value with the carrying amount of the asset. An impairment loss is recognized to write-down the intangible asset to its fair value if it is less than the carrying amount. The fair value is calculated using the income approach. However
+ preparation of estimated expected future cash flows is inherently subjective and is based on our best estimate of assumptions concerning expected future conditions. Based on our impairment analysis performed for the years ended December 31
+ 2015 and 2014
+ we identified impairment of trademarks of $19
+763 and $18
+881
+
+
+
+
+
+
+
+
+
+ delivery has occurred
+ the sales price is fixed or determinable and collectability is reasonably assured. Ownership and title of our products pass to customers upon delivery of the products to customers. Certain of our distributors may also perform a separate function as a co-packer on our behalf. In such cases
+ ownership of and title to our products that are co-packed on our behalf by those co-packers who are also distributors
+ passes to such distributors when we are notified by them that they have taken transfer or possession of the relevant portion of our finished goods. Net sales have been determined after deduction of discounts
+ slotting fees and other promotional allowances in accordance with ASC 605-50. All sales to distributors and customers are final; however
+ in limited instances
+ due to product quality issues or distributor terminations
+ we may accept returned product. To date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ we have generated a higher percentage of our revenues during the warm weather months of April through September. Timing of customer purchases will vary each year and sales can be expected to shift from one quarter to another. As a result
+
+
+
+
+
+
+
+
+
+
+
+ 2015 and 2014
+ we incurred advertising costs of $80
+269 and $136
+971
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ quoted prices for identical assets and liabilities in markets that are not active
+
+
+
+
+
+
+
+
+
+
+
+
+
+ accounts and loans receivables
+ accounts payable and accrued expenses. The carrying amounts of our financial instruments approximate their fair values as of December 31
+
+
+
+
+
+
+
+
+
+ deferred tax assets and liabilities are computed based upon the difference between the financial statement and income tax basis of assets and liabilities using the enacted marginal tax rate applicable when the related asset or liability is expected to be realized or settled. Deferred income tax expenses or benefits are based on the changes in the asset or liability each period. If available evidence suggests that it is more likely than not that some portion or all of the deferred tax assets will not be realized
+
+
+
+
+
+ depending on the classification of assets and liabilities to which they relate. Deferred taxes arising from temporary differences that are not related to an asset or liability are classified as current or non-current depending on the periods in which the temporary differences are expected to reverse. The determination of taxes payable includes estimates. We believe that we have appropriate support for the income tax positions taken
+ and to be taken
+ on our tax returns and that our accruals for tax liabilities are adequate for all open years based on an assessment of many factors including past experience and interpretations of tax law applied to the facts of each matter. No reserves for an uncertain income tax position have been recorded for the years ended December 31
+
+
+
+
+
+
+
+
+
+ which potentially subject us to concentrations of credit risk
+ consist primarily of cash and receivables. We place our cash and temporary cash investments with high credit quality institutions. At times
+ such investments may be in excess of the FDIC insurance limit. As of December 31
+ 2015 and 2014
+ we exceeded insurance limits by $139
+381 and $nil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ &#8220;Stock Compensation&#8221; (&#8220;ASC 718&#8221;). Stock-based payments to employees include grants of stock
+
+
+
+
+
+ &#8220;Equity-Based Payments to Non-Employees.&#8221; Stock-based payments to non-employees include grants of stock
+
+
+
+
+
+
+
+
+ and revised
+ if necessary
+ in subsequent periods if actual forfeitures differ from those estimates. The term &#8220;forfeitures&#8221; is distinct from &#8220;cancellations&#8221; or &#8220;expirations&#8221; and represents only the unvested portion of the surrendered stock option or warrant. We estimate forfeiture rates for all unvested awards when calculating the expense for the period. In estimating the forfeiture rate
+
+
+
+
+
+
+
+
+Basic and Diluted Net Income (Loss) Per
+Share
+  
+
+
+
+ 2015 and 2014
+ the denominator in the diluted EPS computation is the same as the denominator for basic EPS due to the anti-dilutive effect of outstanding warrants on our net loss. Total potentially dilutive common share equivalents relating to stock purchase warrants and options granted or issued
+ at December 31
+ 2015 and 2014 were 34
+230
+080 and 23
+309
+247
+ respectively. At March 30
+ 2016 there were 23
+214
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ we adopted Accounting Standards Update (ASU) 2014-08
+ Presentation of Financial Statements (Topic 205) and Property, Plant and Equipment (Topic 360): Reporting Discontinued Operations and Disclosures of Disposals of Components of an Entity, which changes the criteria for determining which disposals can be presented as discontinued operations and modifies related disclosure requirements. This ASU was effective for fiscal years beginning on or after December 15
+ 2014
+ and interim periods within those years. The adoption of this guidance has not had a material impact on our financial position
+
+
+
+
+
+ we adopted FASB&#8217;s guidance on reporting discontinued operations and disclosures of disposals of components of an entity. This standard raises the threshold for a disposal to qualify as a discontinued operation and requires new disclosures of both discontinued operations and certain other disposals that do not meet the definition of a discontinued operation. The guidance is effective for annual reporting periods ending after December 15
+ 2014. Early adoption was permitted but only for disposals that have not been reported in financial statements previously issued. The adoption of this guidance has not had a material impact on our financial position
+
+
+
+
+
+ we adopted ASU 2015-03
+ Interest - Imputation of Interest (Subtopic 835-30): Simplifying the Presentation of Debt Issuance Costs, which requires debt issuance costs to be presented in the balance sheet as a direct deduction from the carrying value of the associated debt liability
+ and amortization of those costs should be reported as interest expense. This ASU is effective for annual and interim periods beginning after December 15
+ 2015
+
+
+
+
+
+
+
+
+
+
+ the Financial Accounting Standards Board (&#8220;FASB&#8221;) issued Accounting Standards Update (ASU) 2016-01
+ which amends the guidance in U.S. GAAP on the classification and measurement of financial instruments. Changes to the current guidance primarily affect the accounting for equity investments
+ financial liabilities under the fair value option
+ and the presentation and disclosure requirements for financial instruments. In addition
+ the ASU clarifies guidance related to the valuation allowance assessment when recognizing deferred tax assets resulting from unrealized losses on available-for-sale debt securities. The new standard is effective for fiscal years and interim periods beginning after December 15
+ 2017
+ and upon adoption
+
+
+
+
+
+ the FASB issued (ASU) 2015-17
+Currently deferred taxes for each tax jurisdiction are presented as a net current asset or liability and net noncurrent asset or liability on the balance sheet. To simplify the presentation
+ the new guidance requires that deferred tax liabilities and assets for all jurisdictions along with any related valuation allowances be classified as noncurrent in a classified statement of financial position. This guidance is effective for interim and annual reporting periods beginning after December 15
+ 2016
+ and early adoption is permitted. We have adopted this guidance in the fourth quarter of the year ended December 31
+ 2015 on a retrospective basis. The adoption of this guidance did not have a material impact on our financial position
+ results of operations or cash flows
+
+
+
+
+
+
+
+
+ the FASB issued ASU 2015-16
+ &#8220;Simplifying the Accounting for Measurement &#8211;Period Adjustments.&#8221; Changes to the accounting for measurement-period adjustments relate to business combinations. Currently
+ an acquiring entity is required to retrospectively adjust the balance sheet amounts of the acquiree recognized at the acquisition date with a corresponding adjustment to goodwill as a result of changes made to the balance sheet amounts of the acquiree. The measurement period is the period after the acquisition date during which the acquirer may adjust the balance sheet amounts recognized for a business combination (generally up to one year from the date of acquisition). The changes eliminate the requirement to make such retrospective adjustments
+ and
+ instead require the acquiring entity to record these adjustments in the reporting period they are determined. The new standard is effective for both public and private companies for periods beginning after December 15
+
+
+
+
+
+ the FASB issued ASU 2015-11
+ Inventory (Topic 330): Simplifying the Measurement of Inventory, which applies to inventory that is measured using first-in
+ first-out (FIFO) or average cost. Under the updated guidance
+ an entity should measure inventory that is within scope at the lower of cost and net realizable value
+ which is the estimated selling prices in the ordinary course of business
+ less reasonably predictable costs of completion
+ disposal and transportation. Subsequent measurement is unchanged for inventory that is measured using last-in
+ first-out (LIFO). This ASU is effective for annual and interim periods beginning after December 15
+ 2016
+
+
+
+
+
+ the FASB issued ASU 2015-07
+ Fair Value Measurement (Topic 820): Disclosures for Investments in Certain Entities That Calculate Net Asset Value per Share (or Its Equivalent), which removes the requirement to categorize within the fair value hierarchy all investments for which fair value is measured using the net asset value per share practical expedient. Further
+ the amendments remove the requirement to make certain disclosures for all investments that are eligible to be measured at fair value using the net asset value per share practical expedient. This ASU is effective for annual periods
+ including interim periods within those annual periods
+ beginning after December 15
+ 2015
+
+
+
+
+
+ the FASB issued ASU 2015-05
+ Intangibles - Goodwill and Other - Internal-Use Software (Subtopic 350-40): Customer's Accounting for Fees Paid in a Cloud Computing Arrangement, which provides guidance about whether a cloud computing arrangement includes a software license. It also provides guidance related to a customer&#8217;s accounting for fees paid in a cloud computing arrangement. This standard provides guidance to customers about whether a cloud computing arrangement includes a software license. If a cloud computing arrangement includes a software license
+ then the customer should account for the software license element of the arrangement consistent with the acquisition of other software licenses. If a cloud computing arrangement does not include a software license
+ the customer should account for the arrangement as a service contract. This guidance is effective for interim and annual reporting periods beginning after December 15
+ 2015
+ and early adoption is permitted. We will adopt this guidance on January 1
+ 2016. The adoption of this guidance is not expected to have a material impact on our financial position
+
+
+
+
+
+ the FASB issued ASU 2015-02
+ Consolidation (Topic 810): Amendments to the Consolidation Analysis, which makes changes to both the variable interest model and voting interest model and eliminates the indefinite deferral of FASB Statement No. 167
+ included in ASU 2010-10
+ for certain investment funds. All reporting entities that hold a variable interest in other legal entities will need to re-evaluate their consolidation conclusions as well as disclosure requirements. This ASU is effective for annual periods beginning after December 15
+ 2015
+ and early adoption is permitted
+
+
+
+
+
+ the FASB issued ASU 2015-01
+ Income Statement &#8211; Extraordinary and Unusual Items (Subtopic 225-20), effective for fiscal years
+ and interim periods within those fiscal years
+ beginning after December 15
+
+
+
+
+
+ the FASB issued ASU 2014-16
+ Derivatives and Hedging (Topic 815). Entities commonly raise capital by issuing different classes of shares
+ including preferred stock
+ that entitle the holders to certain preferences and rights over the other shareholders. The specific terms of those shares may include conversion rights
+ redemption rights
+ voting rights
+ and liquidation and dividend payment preferences
+ among other features. One or more of those features may meet the definition of a derivative under GAAP. Shares that include such embedded derivative features are referred to as hybrid financial instruments. The objective of this update is to eliminate the use of different methods in practice and thereby reduce existing diversity under GAAP in the accounting for hybrid financial instruments issued in the form of a share. The amendments are effective for fiscal years
+ and interim periods within those fiscal years
+ beginning after December 15
+
+
+
+
+
+ the FASB issued ASU 2014-15
+On July 29, 2011, we adopted the 2011 Equity Incentive Plan (the &#8220;2011 Plan) under which were authorized to grant up to 4
+500
+000 shares of common stock. On December 31
+ 2015 we approved the increase in the amount of shares authorized to be issued pursuant to the plan to 20
+000
+
+
+
+
+
+ directors
+ employees and consultants to purchase 3
+200
+000 common shares at $0.50 per common share. On December 31
+ 2015 we cancelled 675
+000 stock options to certain employees and consultants due to the expiry or cancellation of a contract. We also cancelled 1
+950
+
+
+
+
+
+
+
+
+ 2015 we granted stock options under the Amended 2011 Plan to certain officers
+ directors
+ employees and consultants to purchase 12
+700
+000 common shares at $0.10 per common share. A total of 10
+375
+000 stock options vested on December 31
+ 2015 and a further 2
+325
+000 stock options vest monthly at a rate of 138
+889 shares per month for sixteen months and the remaining 102
+776 shares and $6
+009 vest on May 23
+ 2017. Of the 12
+700
+000 stock options granted a total of 7
+500
+000 were granted to three directors/officers valued at $438
+474 of which $302
+547 was charged to operations at December 31
+
+
+
+
+
+ 2015 and 2014
+ we recorded stock-based compensation of $606
+556 and $166. The weighted average fair values of stock options vested during the year ended December 31
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
+
+  Expected
+  dividend yield
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+  Risk-free
+  interest rate
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+  Expected
+  volatility
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+  Expected option
+  life (in years)
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  Number of Options
+
+  
+
+  Weighted Average Exercise
+  Price
+
+  
+
+  Weighted Average Remaining
+  Contractual Term (years)
+
+  
+
+  Aggregate Intrinsic Value
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+ December 31
+
+
+075
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+ December 31
+
+
+075
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+700
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+625
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+ December 31
+
+
+150
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+ December 31
+
+
+825
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+ 2015
+ and changes during the years ended December 31
+
+
+
+
+
+
+  Non-vested
+  stock options
+
+
+  Number of
+  Options
+
+  
+
+  Weighted
+  Average
+  Grant Date
+  Fair Value
+
+  
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  Non-vested
+  at December 31
+ 2013
+
+
+
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  Granted
+
+  
+  
+  
+  
+
+
+
+
+  Vested
+
+
+
+  
+  
+  
+
+
+
+
+  Non-vested
+  at December 31
+ 2014
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  Granted
+
+
+700
+
+  
+  
+  
+
+
+
+
+  Vested
+
+
+375
+
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  Non-vested
+  at December 31
+ 2015
+
+
+325
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Number&nbsp; Outstanding
+
+  
+
+  Weighted Average Remaining
+  Contractual Life (Years)
+
+  
+
+  Weighted Average Exercise Price
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+700
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+150
+
+  
+  
+  
+  
+  
+
+
+
+
+
+  Number&nbsp; Exercisable
+
+  
+
+  Weighted Average Remaining
+  Contractual Life (Years
+
+  
+
+  Weighted Average Exercise
+  Price
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+375
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+825
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+ we apply estimated forfeiture rates that are derived from historical employee termination behavior. If the actual number of forfeitures differs from those estimated by management
+
+
+
+
+
+ 2015
+ we had unrecognized compensation expense related to unvested stock options of $135
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+074
+
+  
+
+331
+
+  
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+986
+
+  
+
+002
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+572
+
+  
+
+563
+
+  
+
+
+
+
+
+572
+
+  
+
+563
+
+  
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+ 2015 was $1
+009
+
+
+
+
+
+995
+265 available to offset future income for income tax reporting purposes
+ which will expire in various years through 2035
+ if not previously utilized. However
+
+
+
+
+
+
+
+
+ 2015 and 2014
+ there was no income tax or related interest and penalty items in the income statement
+ or liabilities on the balance sheet. We file income tax returns in the U.S. federal jurisdiction and various state jurisdictions. We are no longer subject to U.S. federal income tax examinations by tax authorities for years beginning January 1
+ 2011 or state income tax examination by tax authorities for years beginning January 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ including cash and cash equivalents
+ accounts receivable
+ accounts payable
+ and accrued expenses as of December 31
+ 2015 and 2014 approximate fair value because of the short maturity of these instruments. Based on borrowing rates currently available to us for loans with similar terms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ warehouse and storage space
+ under operating leases that expire at various dates through the year ending December 31
+ 2017. Certain leases contain renewal options for varying periods and escalation clauses for adjusting rent to reflect changes in price indices. Certain leases require that we pay for insurance
+
+
+
+
+
+
+
+
+
+
+
+  2016
+
+  
+  $38
+640
+
+
+
+
+
+  2017
+
+  
+  $37
+739
+
+
+
+
+
+
+ including short-term rentals as well as cancelable and non-cancelable operating leases
+ gross
+ was $65
+278 and $90
+825 for the years ended December 31
+ 2015 and 2014
+
+
+
+
+
+
+
+
+
+ including proceedings involving employee claims
+ contract disputes
+ product liability and other general liability claims
+ as well as trademark
+ copyright
+ and related claims and legal actions. In the opinion of our management
+ the ultimate disposition of these matters will not have a material adverse effect on our consolidated financial position
+
+
+
+
+
+
+
+
+
+ 2016 we issued 238
+889 common shares and on February 29
+ 2016 we issued 238
+889 common shares having an aggregate fair value of $40
+
+
+
+
+
+ 2016
+ we entered into Amendment No. 1 to Senior Secured Revolving Credit Facility Agreement (the &#8220;Amended Credit Facility&#8221;) whereby we were approved for an additional $1
+000
+000 loan under the Amended Credit Facility having the same terms as the initial $900
+000 loan (See Note 7). The Amended and Restated Senior Secured Revolving Convertible Promissory Note matures November 6
+ 2016 unless extended by the Lender. We received $455
+860
+ net of $44
+140 of closing costs
+ on March 22
+ 2016 and will receive a further $250
+000 once we collect an account receivable from our Mexico distributor. A further $250
+000 will be received once we have met certain other performance criteria. In connection with this additional loan
+ we agreed to issue 10
+558
+069 shares of our restricted common stock to the Lender as an Advisory Fee. Notwithstanding the above
+ the Lender is restricted from receiving these shares to the extent that
+ after giving effect to the receipt of the shares
+ the Lender would beneficially own more than 4.99% of our common stock. Any shares not issued as a result of this limitation will be issued at a later date
+ and from time to time
+ when the issuance of these will not result in the Lender beneficially owning more than 4.99% of our common stock. We have the right to purchase these shares by paying $350
+000 to the Lender on or before September 22
+
+
+ITEM
+9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL
+DISCLOSURE
+
+two fiscal years
+ we have had no disagreements with our accountants on
+accounting and financial disclosure.
+
+Evaluation of
+Disclosure Controls and Procedures
+
+who is both our chief executive officer and our chief financial officer
+ is
+responsible for establishing and maintaining our disclosure controls and
+procedures.&nbsp;&nbsp;Disclosure controls and procedures are those procedures
+that are designed to ensure that information we are required to disclose in the
+reports that we file or submit under the Securities Exchange Act of 1934 is
+recorded
+ processed
+ summarized and reported within the time periods specified
+in the SEC&#8217;s rules and forms
+ and to ensure that information required to be
+disclosed by us in those reports is accumulated and communicated to our
+management
+ including our principal executive and principal financial officer
+or persons performing similar functions
+ as appropriate to allow timely
+decisions regarding required disclosure.&nbsp;&nbsp;Our chief executive officer
+and chief financial officer evaluated the effectiveness of our disclosure
+controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the
+Securities Exchange Act of 1934) as of December 31
+ 2015. Based on that
+evaluation
+ it was concluded that our disclosure controls and procedures were
+effective as of December 31
+ 2015.
+
+
+
+Management's
+Report on Internal Control over Financial Reporting
+
+is responsible for establishing and maintaining adequate internal control over
+financial reporting and for the assessment of the effectiveness of internal
+control over financial reporting.&nbsp;&nbsp;As defined by the SEC
+ internal
+control over financial reporting is a process designed by
+ or under the supervision
+of our principal executive officer and principal financial officer and
+implemented by our Board of Directors
+ management and other personnel
+ to
+provide reasonable assurance regarding the reliability of financial reporting
+and the preparation of our financial statements in accordance with U.S.
+generally accepted accounting principles.
+
+financial reporting includes those policies and procedures that:
+
+
+    to the maintenance of records that
+ in reasonable detail
+ accurately and
+
+  
+    reasonable assurance that transactions are recorded as necessary to permit
+    preparation of financial statements in accordance with U.S. generally
+    accepted accounting principles
+ and that receipts and expenditures are being
+
+  
+    reasonable assurance regarding prevention or timely detection of unauthorized
+    acquisition
+ use or disposition of assets that could have a material effect
+
+
+
+inherent limitations
+ internal control over financial reporting may not prevent
+or detect misstatements.&nbsp;&nbsp;Also
+ projections of any evaluation of
+effectiveness to future periods are subject to the risk that controls may
+become inadequate because of changes in conditions
+ or that the degree of
+compliance with the policies or procedures may deteriorate.
+
+31
+ 2015 we conducted an evaluation
+ under the supervision and with the
+participation of our chief executive officer (our principle executive officer)
+and our chief financial officer (also our principal financial and accounting
+officer) of the effectiveness of our internal control over financial reporting
+based on criteria established in Internal Control - Integrated Framework issued
+in 2013 by the Committee of Sponsoring Organizations of the Treadway Commission
+or the COSO Framework.&nbsp;&nbsp;Management's assessment included an
+evaluation of the design of our internal control over financial reporting and
+testing of the operational effectiveness of those controls.
+
+assessment
+ management concluded that our internal control over financial
+reporting was effective.
+
+changes in our internal control over financial reporting that occurred during
+the quarter ended December 31
+ 2015 that have materially affected
+ or are
+reasonably likely to materially affect
+ our internal control over financial
+reporting.
+
+report does not include an attestation report of our registered public
+accounting firm regarding internal control over financial reporting.
+Management&#8217;s report was not subject to attestation by our registered public
+accounting firm pursuant to an exemption for non-accelerated filers set forth
+in Section 989G of the Dodd-Frank Wall Street Reform and Consumer Protection
+Act. 
+
+
+this report.
+
+ITEM 10. DIRECTORS
+ EXECUTIVE OFFICERS
+AND CORPORATE GOVERNANCE
+
+
+ ages
+and respective positions of our directors and executive officers are set forth
+below.
+
+
+
+  
+
+
+  
+
+
+
+  Positions
+
+
+
+
+  Robert
+  E. Yates
+
+
+  67
+
+
+  President
+  Chief Executive
+ Financial
+ and Accounting Officer
+ Treasurer and Director
+
+
+
+
+  Parley
+  (Paddy) Sheya
+
+
+  60
+
+
+  Vice
+  President
+ Secretary
+ National Sales Manager and Director
+
+
+
+
+  Brian
+  D. Corday
+
+
+  55
+
+
+  Executive
+  Vice President of Business Development
+
+
+
+
+
+been one of our officers and directors since February 15
+ 2011. Mr. Yates is
+qualified to be a director based on his extensive experience in the beverage
+industry.
+
+seasoned business executive with experience in growing and managing businesses.
+From 2006 to 2009
+ Mr. Yates served as a General Manager of Mobility Works
+ in
+Cincinnati
+ Ohio
+ a company engaged in providing specialty equipment and
+handicapped accessible vehicles in support of disabled populations. From 1993
+to 2005
+ Mr. Yates was in charge of a start-up operation for Vancol with his
+areas of responsibility: product development
+ plant production and the
+distribution of Vancol&#8217;s many products in both the United States and Canada.
+Under his guidance
+ Vancol&#8217;s sales rose from less than $10 million to $50
+million in three years. Over the last twenty years
+ Mr. Yates&#8217; beverage
+portfolio has included such brands as Monster; AriZona Tea; Rock Star
+ Vitamin
+Water
+ Perrier
+ Everfresh Juices
+ Ocean Spray
+ Miller Beer
+ Honest Tea and Fiji
+Water. In addition
+ Mr. Yates successfully launched his own brand
+ Quencher
+which he built into a 2 million case brand in two years. Mr. Yates completed a
+management course at Oglethorpe University in Atlanta
+ Georgia
+ and has an
+associate&#8217;s degree in business administration from Highland Park College
+ in
+Highland Park
+ Michigan and completed a Professional Personnel Management
+Course with the US Air Force.
+
+
+
+
+
+been one of our officers and directors since July 1
+ 2011. Mr. Sheya is qualified
+to be a director based on his extensive experience in the beverage industry.
+
+over thirty years of international executive sales and distribution management
+experience in the beverage industry. He has an extensive track record in the
+development of brands and in building beverage brand sales and distribution
+systems from the ground up to multi-million case sales. He was sales manager
+for a beverage brand called Kwencher&#174;. Mr. Sheya has managed a broad range of
+beverage brands including: Jolt Cola&#174;
+ Hires Root Beer&#174;; Crush&#174; Soda;
+Bubble-Up&#174;; Country Time Lemonade&#174;; Hansen&#8217;s Natural Sodas and Juices; New York
+Seltzer&#174; and Evian Water&#174;. From 2007 to 2008 Mr. Sheya was a self-employed
+beverage consultant and from 2008 to 2009 was the key account manager for New
+Leaf Brands Inc. managing national sales for Inspiration Beverage and from 2010
+to June 2011 was sales manager for Bing Energy Drink. 
+
+
+was appointed to our board of directors and was elected Executive Vice
+President of Business Development on December 2
+ 2015. Mr. Corday was qualified
+to be a director based on his extensive experience in the areas of finance and
+business strategic planning and has held executive positions at several Wall
+Street firms.
+
+thirty years of experience assisting public companies in the areas of finance
+and business strategic planning. Mr. Corday has held executive positions at
+several major Wall Street firms
+ most recently as Chairman and President of
+BullBear Ventures
+ LLC
+ a private equity firm dedicated to maximizing brand
+value and building shareholder value through market awareness and strategic
+acquisitions and joint ventures.
+
+until our next annual stockholders meeting or until their successors are duly
+elected and qualified. Officers hold their positions at the will of the board
+of directors.
+
+
+do not have a nominating
+ compensation or audit committees or committees
+performing similar functions. Our directors believe that it is not necessary to
+have such committees
+ at this time
+ because the functions of such committees
+can be adequately performed by the board of directors.
+
+do not have any defined policy or procedural requirements for shareholders to
+submit recommendations or nominations for directors. The board of directors
+believes that
+ given the stage of our development
+ a specific nominating policy
+would be premature and of little assistance until our business operations
+develop to a more advanced level. We do not have any specific or minimum
+criteria for the election of nominees to the board of directors and we do not
+have any specific process or procedure for evaluating such nominees. The board
+of directors will assess all candidates
+ whether submitted by management or
+shareholders
+ and make recommendations for election or appointment. 
+
+shareholder who wishes to communicate with our board of directors may do so by
+directing a written request addressed to our President and director
+ Robert E.
+Yates
+ at the address appearing on the first page of this annual report.
+Involvement in
+Certain Legal Proceedings
+
+2006 Robert E. Yates filed for personal bankruptcy in Federal Bankruptcy Court
+in Denver
+ Colorado. His personal bankruptcy was finalized in February
+ 2007.
+In May
+ 2005 Vancol Industries filed for bankruptcy under Chapter 7 of the
+Bankruptcy Code. Mr. Yates resigned his position as an executive officer of
+Vancol Industries in 2005. 
+Section 16(a)
+Beneficial Ownership Reporting Compliance
+
+Exchange Act requires our directors and executive officers and persons who
+beneficially own more than ten percent of a registered class of our equity
+securities to file with the SEC initial reports of ownership and reports of
+changes in ownership of common stock and our other equity securities. Officers
+directors and greater than ten percent beneficial shareholders are required by
+SEC regulations to furnish us with copies of all Section 16(a) forms they file.
+To the best of our knowledge based solely on a review of Forms 3
+ 4
+ and 5 (and
+any amendments thereof) received by us during or with respect to the year ended
+December 31
+ 2015
+ no persons have failed to file
+ on a timely basis
+ the
+identified reports required by Section 16(a) of the Exchange Act during fiscal
+year ended December 31
+ 2015.
+
+
+adopted a formal code of ethics that applies to our directors
+ officers or
+employees since we only have fifteen employees including our two officers.
+ITEM
+11. EXECUTIVE COMPENSATION
+Summary
+Compensation Table
+
+the compensation earned by Executive Officers during the last two fiscal years.
+
+
+
+
+  Principal Position
+
+
+  
+
+
+  
+  ($)
+
+
+  
+  ($)
+
+
+  
+  Awards
+  ($)
+
+
+  
+  Awards
+  ($)
+
+
+  
+  ($)
+
+
+
+  Earnings
+  ($)
+
+
+  
+  ($)
+
+
+  
+  ($)
+
+
+
+
+  Robert
+  E. Yates
+  President
+ Chief Executive Officer
+ Treasurer
+ Chief Financial and Accounting
+  Officer
+
+
+  2015
+
+
+  90
+500
+
+
+  -
+
+
+  nil
+
+
+  148
+158
+
+
+  Nil
+
+
+  Nil
+
+
+  Nil
+
+
+  238
+658
+
+
+
+
+  2014
+
+
+  102
+000
+
+
+  5
+000
+
+
+  nil
+
+
+  nil
+
+
+  Nil
+
+
+  Nil
+
+
+  Nil
+
+
+  107
+000
+
+
+
+
+  Parley
+  Sheya
+  Vice President
+ Secretary and National Sales Manager
+  Brian
+  D. Corday
+  Executive Vice President of Business Development
+
+
+  2015
+
+
+  86
+750
+
+
+  -
+
+
+  nil
+
+
+  148
+158
+
+
+  Nil
+
+
+  Nil
+
+
+  Nil
+
+
+  234
+908
+
+
+
+
+  2014
+
+
+  100
+000
+
+
+  2
+500
+
+
+  nil
+
+
+  nil
+
+
+  Nil
+
+
+  Nil
+
+
+  Nil
+
+
+  102
+500
+
+
+
+
+  2015
+
+
+  10
+000
+
+
+  -
+
+
+  22
+000
+
+
+  10
+231
+
+
+  Nil
+
+
+  Nil
+
+
+  Nil
+
+
+  42
+231
+
+
+
+
+
+
+Stock Incentive
+Plan
+
+ 2011
+ we adopted the 2011 Equity Incentive
+
+

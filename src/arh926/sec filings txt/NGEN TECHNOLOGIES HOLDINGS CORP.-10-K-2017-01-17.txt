@@ -1,0 +1,9974 @@
+
+
+ACCESSION NUMBER:		0001002014-17-000006
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	20160930
+FILED AS OF DATE:		20170117
+DATE AS OF CHANGE:		20170117
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			LIBERATED ENERGY
+ INC.
+		CENTRAL INDEX KEY:			0001503161
+		STANDARD INDUSTRIAL CLASSIFICATION:	CANNED
+ FROZEN & PRESERVED FRUIT
+ VEG & FOOD SPECIALTIES [2030]
+		IRS NUMBER:				274715504
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			0930
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55177
+		FILM NUMBER:		17531593
+	BUSINESS ADDRESS:	
+		STREET 1:		15 ELVIS BOULEVARD
+		CITY:			CHESTER
+		STATE:			NY
+		ZIP:			10918
+		BUSINESS PHONE:		845-610-3817
+	MAIL ADDRESS:	
+		STREET 1:		15 ELVIS BOULEVARD
+		CITY:			CHESTER
+		STATE:			NY
+		ZIP:			10918
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	MEGA WORLD FOOD HOLDING CO
+		DATE OF NAME CHANGE:	20101008
+
+
+
+
+
+
+ INC. FORM 10-K (9/30/2016)
+
+
+
+
+
+ P.S.
+    Document created using EDGARfilings PROfile 4.2.0.0
+    Copyright 1995 - 2017 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBERATED ENERGY
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ if any
+
+
+
+
+ and will not be contained
+ to the best of Registrant's knowledge
+
+
+
+
+ an accelerated filer
+ a non-accelerated filer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or the average bid and asked price of such common equity
+ as of the last business day of the registrants most recently completed second quarter. $201
+
+
+
+
+ 2017 the registrant had 2
+682
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MARKET FOR REGISTRANT'S COMMON EQUITY
+MATTERS
+ AND ISSUER PURCHASES OF EQUITY SECURITIES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIRECTORS
+ EXECUTIVE OFFICERS
+ CORPORATE GOVERNANCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ AND DIRECTOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. is a Nevada corporation formed on September 14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ a District Manager/Driving Coach
+ vehicles
+
+
+
+
+
+
+
+
+
+
+
+ 2013
+ pursuant to a Common Stock Purchase Agreement
+ dated January 7
+ 2013
+ Perpetual Wind Power Corporation
+ a privately held corporation formed under the laws of the State of Delaware on July 1
+ 2010
+ acquired 24
+500
+000 non-registered shares of the Company from its shareholders
+ thereby owning 24
+500
+000 out of a total of 25
+000
+000 issued and outstanding shares of the Company. Thereafter
+ the Company acquired from Perpetual Wind Power Corporation its patented wind and solar powered turbine technology for 2
+500
+000 newly issued shares of the Company which were distributed in a dividend to its shareholders and Perpetual Wind Power Corporation returned to treasury its 24
+500
+000 shares it acquired from the Company's shareholders. As a result of this transaction
+ the Company had on January 19
+ 2013
+ 3
+000
+000 shares issued and outstanding. On February 14
+ 2013
+ the Company changed its name from Mega World Food Holding Company to Liberated Energy
+ Inc. and underwent a 24 for 1 stock split
+ whereby the Company's outstanding shares increased from 3
+000
+000 to 72
+000
+
+
+
+
+
+
+
+ 2013
+ the Company disposed of its wholly-owned subsidiary
+ Mega World Food Limited (HK).&#160; Mega World Food Limited (HK) was incorporated on June 24
+ 2010 and was in the business of selling frozen vegetables in all areas of the world except China.&#160; From inception
+ Mega World Food Limited (HK) only incurred setting up
+ formation or organization activities.&#160; Upon disposal
+ the Company ceased these operations and accordingly
+ the Company's financial statements have been prepared with the net assets
+ results of operations
+
+
+
+
+ 2013
+ we acquired from Perpetual Wind Power Corporation the rights to their wind and solar powered turbine technology for which it has a patent pending with the United States Patent and Trademark office
+ U.S. Patent Application Serial No. 61/257
+578 as submitted on November 3
+
+
+
+
+
+
+
+
+ 2016
+ the Company completed an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will required all outstanding ECGLLC membership interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement. The Company's name will be changed to EcoCab
+ USA
+ Inc as soon as practical after closing. Subsequent closing through January 31. 2017 will take place and during the period from first closing to January 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+ but the Company will have the right to oversee ECPLLC's revenue and payments out on a daily and monthly basis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ but at a minimum
+ the Company will provide at least $400
+000 in working capital funds to ECPLLC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ acquire
+ or become acquired by
+ another company of equal or greater fair value (private or public) to ECPLLC. If the Preferred Shares Condition is fulfilled
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the Company will issue the third closing Common Shares to Knori at a Subsequent Closing. The number of third closing Common Shares will be calculated so that Knori's resulting percentage of the Company is equitable based on the fair value of ECPLLC relative to the other assets of the Company
+ but in no event
+ will Knori be required to transfer or cancel shares to reduce Knori's percentage of the outstanding common stock to below 30%. If the parties cannot agree to an equitable number of shares to issue Knori
+
+
+
+
+
+
+
+ quarterly
+ and special reports and other information with the SEC. We are not required to
+ and do not intend to
+ deliver an annual report to security holders. You may read and copy any document we file at the SEC's public reference room at 100 F Street
+ N.E.
+ Washington
+ D.C. 20549. You can request copies of these documents by writing to the SEC and paying a fee for the copying cost. Please call the SEC at 1-800-SEC-0330 for more information about the operation of the public reference room. Our filings are also available
+ at no charge
+ to the public at 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Southampton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ LG Capital
+ LLC filed a lawsuit against the Company in the County of Kings
+ in the Supreme Court of the State of New York (index number 516298/2016). The filing alleges that the Company has defaulted on a number of unpaid loans from LG Capital to the Company with the total owing and due including principal and interest of $279
+730.56. The Company has not counter claimed but believes that LG Capital unlawfully attempted to convert some of the loans to common stock of the Company has filed an injunction against the Company transfer agent to block LG Capital from such a conversion. In addition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2013.&#160; For the periods indicated
+ the following table sets forth the high and low bid prices per share of common stock. These prices represent inter-dealer quotations without retail markup
+ markdown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017
+
+
+
+
+
+
+
+ if any
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ if any
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ our goals
+ plans
+ and expectations regarding our results
+ our intentions and strategies regarding future operations and transactions
+ our beliefs regarding the future success of our business
+ our expectations and beliefs regarding competition
+ competitors
+ the basis of competition and our ability to compete
+ our beliefs and expectations regarding our ability to hire and retain personnel
+ our ability to expand into new geographic markets and music genres
+ our ability to acquire other operators and venues
+ our beliefs regarding period to period results of operations
+ our expectations regarding revenues
+ our expectations regarding future growth and financial performance
+ our beliefs and expectations regarding the adequacy of our facilities
+ and our beliefs and expectations regarding our financial position
+
+
+
+
+ unless the context otherwise requires
+ the terms we, us, the Company, and Liberated refer to Liberated Energy
+
+
+
+
+
+
+
+ 2016 and 2015 of Liberated Energy
+ Inc.
+ a Nevada corporation (Liberated the Company, our, or we). All significant inter-company amounts have been eliminated. In the opinion of management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ assumptions and estimates that affect the amounts reported in our consolidated financial statements and accompanying notes. We base our estimates and judgments on historical experience and on various other assumptions that we believe are reasonable under the circumstances. However
+ future events are subject to change
+ and the best estimates and judgments routinely require adjustment. The amounts of assets and liabilities reported in our balance sheet
+ and the amounts of revenues and expenses reported for each of our fiscal periods
+ are affected by estimates and assumptions which are used for
+ but not limited to
+ the accounting for allowance for doubtful accounts
+ goodwill and intangible asset impairments
+ restructurings
+ inventory
+ and income taxes. Actual results could differ from these estimates. The following critical accounting policies are significantly affected by judgments
+
+
+
+
+
+
+
+
+
+
+
+ we evaluate our estimates
+ including those related to estimated customer life
+ used to determine the appropriate amortization period for deferred revenue and deferred costs associated with licensing fees
+ the useful lives of property and equipment and our estimates of the value of common stock for the purpose of determining stock-based compensation. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable
+
+
+
+
+
+
+
+ Revenue Recognition. SAB 104 clarifies application of U. S. generally accepted accounting principles to revenue transactions. As of the year ended September 30
+ 2016
+ there was no deferred revenue. The Company derives its primary revenue from the sources described below
+
+
+
+
+
+
+
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016 Compared to Year Ended September 30
+
+
+
+
+
+
+
+ 2016 compared to $62
+132 for September 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016 compared to $19
+333 for September 30
+
+
+
+
+
+
+
+ 2016 was $285
+367 compared to $439
+043 for the year ended September 30
+
+
+
+
+
+
+
+068 for the year ended September 30
+ 2016 compared to $138
+515 for the year ended September30
+ 2015.The lower amount in 2016 is directly attributed to debt settlement of $47
+510 offset by impairment of assets totaling $16
+234 plus interest expense of $64
+
+
+
+
+
+
+
+436 for the year ended September 30
+ 2016 compared to a net loss of $534
+515 for the year ended September 30
+
+
+
+
+
+
+Cash
+ Cash Flows
+ and Working Capital
+
+
+
+804 and a working capital deficit of $565
+365 at September 30. 2016 as compared to a net cash balance of $16
+921 and a working capital deficit of $366
+699 at September 30
+
+
+
+
+085 of cash during 2016 as compared to $441
+
+
+
+
+
+
+
+
+968 during 2016 as compared to $296
+462 during 2015.&#160; Cash flows provided by financing activities during the 2016 period related to debt financing of $271
+968. Cash provided in financing activities in 2015 is attributed to borrowings on debt of $246
+
+
+
+
+
+
+
+
+
+
+
+ or both
+ to support our operations going forward.&#160; Except as described below regarding our line of credit
+ we do not presently have any commitments to provide financing
+ if needed
+
+
+
+
+
+
+
+ 2015 the Company issued 540
+282 shares of common stock for debt with a value of $228
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015 the Company issued 8
+572 shares of common stock for accrued liabilities with a value of $127
+
+
+
+
+ 2015 the Company issued 1
+428 shares of common stock to a related party for service with a value of $50
+
+
+
+
+ 2015 the Company issued 2
+977 shares of common stock to a related party for service with a value of $98
+
+
+
+
+ 2016 the Company issued 1
+100
+000 shares of common stock to two parties for service with a value of $80
+
+
+
+
+ 2016 the Company issued 208
+428 shares of common stock for convertible debt with a value of $39
+
+
+
+
+
+
+
+ 2013
+ the Company issued a Convertible Note (the Note) to JMJ Financial (JMJ) providing JMJ with the ability to invest up to $350
+000 which contains a 10% original issue discount (the JMJ Note). The transaction closed on September 4
+ 2013.&#160; JMJ provided $50
+000 to the Company on the Effective Date. The net proceeds the Company received from this offering were $45
+000. On December 10
+ 2013
+ JMJ provided $25
+000 to the Company; the net proceeds the Company received from this offering were $22
+500. On April 18
+ 2014
+ JMJ provided $40
+000 to the Company; the net proceeds the Company received from this offering were $36
+000. On June 23
+ 2014
+ JMJ provided $40
+000 to the Company; the net proceeds the Company received from this offering were $36
+000. On September 9
+ 2016
+ the Company settled the note with a payment of $15
+
+
+
+
+ 2014
+ JSJ provided $60
+000 to the Company; the net proceeds the Company received from this offering were $55
+000. The note is convertible at 50% of the lowest trading price of the Company's stock for the 20 days prior to conversion and provides for 12% interest and matures on April 8
+ 2015. On July 27
+ 2016
+
+
+
+
+ 2015
+ the Company issued a Convertible Note (the Note) to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $31
+500 with an interest rate of 8% per annum. The note matures on April 28
+ 2016.&#160; The note is convertible by the holder at a discount of 52% of the lowest trading price of the Company's stock for the 18 days prior to the conversion. AS of September 30
+ 2016
+ the outstanding balance due was $31
+500 plus interest of $5
+080 for a total of $37
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Service Trading Company
+ LLC for $22
+000. The note bears an interest rate of 8% and matures on April 28
+ 2016. The note is convertible by the holder at a discount of 52% of the lowest trading price during the 18 days before the conversion. On September 9
+ 2016
+ the Company paid the balance of the note of $22
+
+
+
+
+ 2015
+ the Company issued a Convertible settlement note to GEL Properties for $50
+000. The note was issued to settle claims by GEL pertaining to fees and interest they claimed as still due. The note Matures on May 21
+ 2016 bearing interest at 8% and is convertible to common stock of the company at a discount of 65% to the lowest closing bid price for the five days prior to conversion. On September 9
+ 2016
+ the Company settled the debt for $20
+000 in cash and debt forgiveness of $30
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital)
+ to replace the $41
+400 convertible note issued to Eastmore Capital The note matures on July 13
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of the note was $41
+400 plus interest of $6
+827 for a total of $48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ LG Capital's lawsuit claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital)
+ for a principle amount of $41
+400 with an interest rate of 8% per annum. The note matures on July 13
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion. Per the Company the note was not funded but the Company has accrued the note and interest as of September 30
+ 2016
+ totaling $48
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+500 with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&#160; AS of September 30
+ 2016
+ the outstanding balance of the principal was $27
+500 and interest of $4
+343 for a total of $31
+
+
+
+
+ 2015
+ LG Capital's lawsuit claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+500 with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&#160; Per the Company the note was not funded but the Company has accrued the note and interest as of September 30
+ 2016
+ totaling $31
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+000 with an interest rate of 8% per annum. The note matures on September 8
+ 2016
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of principal was $27
+000 and interest of $4
+343 for a total of $31
+
+
+
+
+ 2016
+ the outstanding aggregate balance of all notes due to LG Capital Funding
+ LLC is $218
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $28
+000 with an interest rate of 12% per annum. The note matures on August 5
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of the principal was $28
+000 plus interest of $3
+037 for a total of $31
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $21
+000 with an interest rate of 12% per annum. The note matures on September 16
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion.AS of September 30
+ 2016 the outstanding balance of the note was $21
+000 in principal plus $1
+967 interest for a total of $22
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $18
+000 with net proceeds of $15
+000 and with an interest rate of 12% per annum. The note matures on December 11
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of the note was principal of $18
+000 plus interest of $1
+207 for a total of $19
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $18
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of principal was $18
+000 plus interest of $1
+207 for a total of $19
+
+
+
+
+ 2016
+ the Company issued a Convertible Note Craig Savin for a principle amount of $15
+000 with an interest rate of 12% per annum. The note matures on March 14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of its common stock to settle outstanding obligations including this note
+ a note for $5
+000 and the issuance of shares for a stock subscription payable of $50
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $17
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. Net proceeds to the Company are $15
+000 after deduction of legal fees of $2
+000. As of September 30
+ 2016
+ the outstanding balance of the note was $17
+000 in principal plus interest of $428 for a total of $17
+
+
+
+
+ 2016
+ the Company issued a Convertible Note Craig Savin for a principle amount of $5
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. On September 9
+ 2016
+ the Company issued 1
+000
+000 share of common stock for the payment of this note
+ a note for $15
+000 plus a $50
+000 stock payable due Savin.&#160; The balance of the note as of September 30
+ 2016
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $23
+000 with an interest rate of 12% per annum. The note matures on July 25
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest three trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance included principal of $23
+000 plus interest of $514 for a total of $23
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $197
+363
+70 less legal fees of $8
+000 with an interest rate of 12% per annum. The note matures on September 7
+ 2017.&#160; The note is convertible by the holder at a discount of 50% of the lowest three trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance included principal of $115
+114 plus interest of $908 for a total of $116
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ the Company outstanding liability of convertible debt was $517
+735 plus interest of $49
+431 for a total liability of $567
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ LG Capital
+ LLC filed a lawsuit against the Company. The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total claim against the Company of $279
+730.56. The Company negotiated in good faith with LG Capital to settle the debt but to no avail. After reviewing the claim filed by LG Capital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (the Company)
+ as of September 30
+ 2016
+ and 2015
+ and the related statements of operation
+ shareholders' equity
+ and cash flows for years ended September 30
+ 2016 and September 30
+
+
+
+
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements.&#160; An audit also includes assessing the accounting principles used and significant estimates made by management
+
+
+
+
+ the financial statements referred to in the first paragraph above
+ present fairly
+ in all material respects
+ the financial position of Liberated Energy
+ Inc. as of September 30
+ 2016
+ 2015
+ and the results of its operations and their cash flows for years ended September 30
+ 2016 and 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+000
+000 and none issued and outstanding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+ 1
+888
+832 at September 30
+
+
+900 at September 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+401
+
+
+
+
+
+
+
+
+
+083
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+422
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+890
+988
+
+
+
+
+
+
+
+890
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+662
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+240
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+029
+651
+
+
+
+
+
+
+
+029
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+323
+
+
+
+
+
+
+
+
+
+083
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+504
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+758
+367
+
+
+
+
+
+
+
+
+
+758
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+758
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+888
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+401
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (the Company)
+ formerly known as Mega World Food Holdings Company is a Nevada corporation formed on September 14
+
+
+
+
+ 2013
+ pursuant to a Common Stock Purchase Agreement
+ dated January 7
+ 2013
+ Perpetual Wind Power Corporation
+ a privately held corporation formed under the laws of the State of Delaware on July 1
+ 2010
+ acquired 24
+500
+000 non-registered shares of the Company from its shareholders
+ thereby owning 24
+500
+000 out of a total of 25
+000
+000 issued and outstanding shares of the Company. Thereafter
+ the Company acquired from Perpetual Wind Power Corporation its patented wind and solar powered turbine technology for 2
+500
+000 newly issued shares of the Company which were distributed in a dividend to its shareholders and Perpetual Wind Power Corporation returned to treasury its 24
+500
+000 shares it acquired from the Company's shareholders. As a result of this transaction
+ the Company had on January 19
+ 2013
+ 3
+000
+000 shares issued and outstanding. On February 14
+ 2013
+ the Company changed its name from Mega World Food Holding Company to Liberated Energy
+ Inc. and underwent a 24 for 1 stock split
+ whereby the Company's outstanding shares increased from 3
+000
+000 to 72
+000
+
+
+
+
+ 2013
+ the Company disposed of its wholly-owned subsidiary
+ Mega World Food Limited (HK).&#160; Mega World Food Limited (HK) was incorporated on June 24
+ 2010 and was in the business of selling frozen vegetables in all areas of the world except China.&#160; From inception
+ Mega World Food Limited (HK) only incurred setting up
+ formation or organization activities.&#160; Upon disposal
+ the Company ceased these operations and accordingly
+ the Company's financial statements have been prepared with the net assets
+ results of operations
+
+
+
+
+ 2015
+ the Company increased their number of authorized preferred shares from 10
+000
+000 to 100
+000
+000 and authorized common shares from 250
+000
+000 to 900
+000
+
+
+
+
+ 2015
+ the Company amended the preferred shares voting rights increasing the voting of each preferred share from 100 to 10
+
+
+
+
+ 2016
+ the Company adopted a 1-for-3
+500 reverse split of the Company's common stock that as of June 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ cash and cash equivalents include all cash balances
+ which are not subject to withdrawal restrictions or penalties
+
+
+
+
+
+
+
+ including cash
+ other assets and accounts payable and accrued expenses consist primarily of instruments without extended maturities
+ the fair value of which
+ based on management's estimates
+
+
+
+
+
+
+
+
+
+
+Property
+ Equipment
+ and Intangible Assets
+
+
+
+ less accumulated depreciation. Additions are capitalized and maintenance and repairs are charged to expense as incurred. Intangible assets consist of acquired customer and vendor databases and are carried at cost
+
+
+
+
+
+
+
+
+
+
+ prosecuting and maintaining patents (principally legal fees) are expensed as incurred and recorded within general and administrative expenses on the statement of operations.&#160; Such costs aggregated approximately zero and $zero for the years ended September 30
+
+
+
+
+
+
+
+ share-based compensation is measured at grant date
+ based on the fair value of the award and is recognized as expense over the requisite employee service period. The Company accounts for stock-based compensation to other than employees in accordance with FASB ASC 505-50. Equity instruments issued to other than employees are valued at the earlier of a commitment date or upon completion of the services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ estimated returns and allowances
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the Company has a net loss of $283
+654 for the year ended September 30
+ 2016.&#160; As of September 30
+ 2016
+ the Company reported an accumulated deficit of $1
+366
+886. The Company's ability to generate continued positive cash flows is dependent on the ability to grow its operating entity as well as the ability to raise additional capital.&#160; Management is following strategic plans to accomplish these objectives
+
+
+
+
+
+
+
+
+
+ fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date (exit price). The Company utilized the market data of similar entities in its industry or assumptions that market participants would use in pricing the asset or liability
+ including assumptions about risk and the risks inherent in the inputs to the valuation technique. These inputs can be readily observable
+ market corroborated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ which are either directly or indirectly observable as of the reported date and includes those financial instruments that are valued using models or other valuation methodologies. These models are primarily industry-standard models that consider various assumptions
+ including quoted forward prices for commodities
+ time value
+ volatility factors
+ and current market and contractual prices for the underlying instruments
+ as well as other relevant economic measures. Substantially all of these assumptions are observable in the marketplace throughout the full term of the instrument
+ can be derived from observable data or are supported by observable levels at which transactions are executed in the marketplace. Instruments in this category generally include non-exchange-traded derivatives such as commodity swaps
+ interest rate swaps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2013
+ the Company issued a Convertible Note (the Note) to JMJ Financial (JMJ) providing JMJ with the ability to invest up to $350
+000 which contains a 10% original issue discount (the JMJ Note). The transaction closed on September 4
+ 2013.&#160; JMJ provided $50
+000 to the Company on the Effective Date. The net proceeds the Company received from this offering were $45
+000. On December 10
+ 2013
+ JMJ provided $25
+000 to the Company; the net proceeds the Company received from this offering were $22
+500. On April 18
+ 2014
+ JMJ provided $40
+000 to the Company; the net proceeds the Company received from this offering were $36
+000. On June 23
+ 2014
+ JMJ provided $40
+000 to the Company; the net proceeds the Company received from this offering were $36
+000. On September 9
+ 2016
+ the Company settled the note with a payment of $15
+
+
+
+
+ 2014
+ JSJ provided $60
+000 to the Company; the net proceeds the Company received from this offering were $55
+000. The note is convertible at 50% of the lowest trading price of the Company's stock for the 20 days prior to conversion and provides for 12% interest and matures on April 8
+ 2015. On July 27
+ 2016
+
+
+
+
+ 2015
+ the Company issued a Convertible Note (the Note) to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $31
+500 with an interest rate of 8% per annum. The note matures on April 28
+ 2016.&#160; The note is convertible by the holder at a discount of 52% of the lowest trading price of the Company's stock for the 18 days prior to the conversion. AS of September 30
+ 2016
+ the outstanding balance due was $31
+500 plus interest of $5
+080 for a total of $37
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Service Trading Company
+ LLC for $22
+000. The note bears an interest rate of 8% and matures on April 28
+ 2016. The note is convertible by the holder at a discount of 52% of the lowest trading price during the 18 days before the conversion. On September 9
+ 2016
+ the Company paid the balance of the note of $22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued a Convertible settlement note to GEL Properties for $50
+000. The note was issued to settle claims by GEL pertaining to fees and interest they claimed as still due. The note Matures on May 21
+ 2016 bearing interest at 8% and is convertible to common stock of the company at a discount of 65% to the lowest closing bid price for the five days prior to conversion. On September 9
+ 2016
+ the Company settled the debt for $20
+000 in cash and debt forgiveness of $30
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital)
+ to replace the $41
+400 convertible note issued to Eastmore Capital The note matures on July 13
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of the note was $41
+400 plus interest of $6
+827 for a total of $48
+
+
+
+
+ 2015
+ LG Capital's lawsuit claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital)
+ for a principle amount of $41
+400 with an interest rate of 8% per annum. The note matures on July 13
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion. Per the Company the note was not funded but the Company has accrued the note and interest as of September 30
+ 2016
+ totaling $48
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+500 with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&#160; AS of September 30
+ 2016
+ the outstanding balance of the principal was $27
+500 and interest of $4
+343 for a total of $31
+
+
+
+
+ 2015
+ LG Capital's lawsuit claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+500 with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&#160; Per the Company the note was not funded but the Company has accrued the note and interest as of September 30
+ 2016
+ totaling $31
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+000 with an interest rate of 8% per annum. The note matures on September 8
+ 2016
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of principal was $27
+000 and interest of $4
+343 for a total of $31
+
+
+
+
+ 2016
+ the outstanding aggregate balance of all notes due to LG Capital Funding
+ LLC is $218
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $28
+000 with an interest rate of 12% per annum. The note matures on August 5
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of the principal was $28
+000 after the conversion of $6
+104 to common stock of the Company plus interest of $3
+037 for a total of $31
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $21
+000 with an interest rate of 12% per annum. The note matures on September 16
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion.AS of September 30
+ 2016 the outstanding balance of the note was $21
+000 in principal plus $1
+967 interest for a total of $22
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $18
+000 with net proceeds of $15
+000 and with an interest rate of 12% per annum. The note matures on December 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ the outstanding balance of the note was principal of $18
+000 plus interest of $1
+207for a total of $19
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $18
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance of principal was $18
+000 plus interest of $1
+207 for a total of $19
+
+
+
+
+ 2016
+ the Company issued a Convertible Note Craig Savin for a principle amount of $15
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. The note was paid in a settlement agreement whereby the Company issued 1
+000
+000 shares of its common stock to settle outstanding obligations including this note
+ a note for $5
+000 and the issuance of shares for a stock subscription payable of $50
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $17
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. Net proceeds to the Company are $15
+000 after deduction of legal fees of $2
+000. As of September 30
+ 2016
+ the outstanding balance of the note was $17
+000 in principal plus interest of $428 for a total of $17
+
+
+
+
+ 2016
+ the Company issued a Convertible Note Craig Savin for a principle amount of $5
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. On September 9
+ 2016
+ the Company issued 1
+000
+000 share of common stock for the payment of this note
+ a note for $15
+000 plus a $50
+000 stock payable due Savin.&#160; The balance of the note as of September 30
+ 2016
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $23
+000 with an interest rate of 12% per annum. The note matures on July 25
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest three trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance included principal of $23
+000 plus interest of $514 for a total of $23
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $197
+363
+70 less legal fees of $8
+000 with an interest rate of 12% per annum. The note matures on September 7
+ 2017.&#160; The note is convertible by the holder at a discount of 50% of the lowest three trading price of the Company's stock for the 20 days prior to the conversion. As of September 30
+ 2016
+ the outstanding balance included principal of $115
+114 plus interest of $908 for a total of $116
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ the Company outstanding liability of convertible debt was $517
+735 plus interest of $49
+431 for a total liability of $567
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ LG Capital
+ LLC filed a lawsuit against the Company. The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total claim against the Company of $279
+730.56. The Company negotiated in good faith with LG Capital to settle the debt but to no avail. After reviewing the claim filed by LG Capital
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued to an officer and director of the Company 10
+000
+000 shares with a value of $10
+000 of series A preferred stock for service. Each share has 10
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued 10
+000
+000 shares of Series A Preferred Stock to an officer and director of the Company. Each share of series A preferred has 10
+
+
+
+
+ 2015 the Company issued 540
+282 shares of common stock for debt with a value of $228
+
+
+
+
+ 2015 the Company issued 8
+572 shares of common stock for accrued liabilities with a value of $127
+
+
+
+
+ 2015 the Company issued 1
+428 shares of common stock to a related party for service with a value of $50
+
+
+
+
+ 2015 the Company issued 2
+977 shares of common stock to a related party for service with a value of $98
+
+
+
+
+ 2016 the Company issued 1
+100
+000 shares of common stock to two parties for service with a value of $80
+
+
+
+
+ 2016 the Company issued 208
+428 shares of common stock for convertible debt with a value of $39
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016 or 2015.The Company's deferred tax assets consisted of the following as of September 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+436 for the year ended September 30
+ 2016 and $534
+515 for the same period in 2015.&#160; As of September 30
+ 2016
+ the Company's net operating loss carry forward was $1
+441
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company reserved of $41
+
+
+
+
+
+
+
+
+
+ 2016
+ LG Capital
+ LLC filed a lawsuit against the Company in the County of Kings
+ in the Supreme Court of the State of New York (index number 516298/2016). The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total owing and due including principal and interest of $279
+730.56. The Company has not counter claimed but believes that LG Capital unlawfully attempted to convert some of the loans to common stock of the Company has filed an injunction against the Company transfer agent to block LG Capital from such a conversion. In addition
+ the Company negotiated in good faith with LG Capital to settle the debt but to no avail. After reviewing the claim made by LG Capital
+
+
+
+
+
+
+
+
+
+ 2016
+ the Company issued a convertible note to Carebourn Capital LP in the principal amount of $237
+475 with net proceeds to the Company after original discount of $30
+975 and legal and accounting fees of $6
+500 of $200
+000.&#160; The matures on October 3
+ 2017
+ bears interest of 12% per annum and is convertible into common stock of the Company at 55% of the average lowest trading price for the 20 days prior to conversion. As part of the loan and agreement an Office and director of the Company has pledged his 10
+000
+
+
+
+
+ 2016
+ the Company completed an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will required all outstanding ECGLLC membership interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement. The Company's name will be changed to EcoCab
+ USA
+ Inc as soon as practical after closing. Subsequent closing through January 31. 2017 will take place and during the period from first closing to January 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+ but the Company will have the right to oversee ECPLLC's revenue and payments out on a daily and monthly basis
+
+
+
+
+
+
+
+
+
+
+
+
+
+ but at a minimum
+ the Company will provide at least $400
+000 in working capital funds to ECPLLC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ acquire
+ or become acquired by
+ another company of equal or greater fair value (private or public) to ECPLLC. If the Preferred Shares Condition is fulfilled
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the Company will issue the third closing Common Shares to Knori at a Subsequent Closing. The number of third closing Common Shares will be calculated so that Knori's resulting percentage of the Company is equitable based on the fair value of ECPLLC relative to the other assets of the Company
+ but in no event
+ will Knori be required to transfer or cancel shares to reduce Knori's percentage of the outstanding common stock to below 30%. If the parties cannot agree to an equitable number of shares to issue Knori
+ the matter will be submitted to binding arbitration. On November 1
+ 2016
+ the Company issued 360
+
+
+
+
+ 2016
+ the Company issued 290
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ including our principal executive officer who also serves as our principal financial officer
+ we conducted an evaluation as of December 31
+ 2015
+ of the effectiveness of the design and operation of our disclosure controls and procedures
+ as such term is defined under Rule 13a-15(e) promulgated under the Securities Exchange Act of 1934
+ as amended. Based on this evaluation
+ our principal executive officer and our principal financial officer concluded that our disclosure controls and procedures were not effective as of September 30
+
+
+
+
+
+
+
+ in reasonable detail
+ accurately and fairly reflect our transactions and dispositions of our assets; (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of our financial statements in accordance with GAAP
+ and that our receipts and expenditures are being made only in accordance with authorizations of our management and directors; and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition
+
+
+
+
+ there is a risk that material misstatements may not be prevented or detected on a timely basis by internal control over financial reporting. However
+ these inherent limitations are known features of the financial reporting process. Therefore
+ it is possible to design into the process safeguards to reduce
+ though not eliminate
+ this risk.&#160; In addition
+
+
+
+
+ 2016
+ as required by Section 404 of the Sarbanes-Oxley Act of 2002
+ our management conducted an assessment
+ including testing
+ based on the criteria set forth in Internal Control&#8212;Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (the COSO Framework).&#160; A material weakness is a control deficiency
+ or a combination of control deficiencies
+
+
+
+
+ management concluded that our internal control over financial reporting was not effective as of September 30
+ 2016.&#160; In arriving at that conclusion
+ management identified as materials weaknesses in our internal control over financial reporting: (1) the lack of accounting proficiency of our chief executive officer who is our sole officer and our principal accounting officer which has resulted in a reliance on part-time outside consultants to perform substantially all of our accounting functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ and (3) lack of control procedures that include multiple levels of review
+
+
+
+
+
+
+
+
+
+
+ or is reasonably likely to materially affect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ executive officers and key consultants as well as the principal offices and positions held by each person. We are managed by our Board of Directors. Currently
+ the Board has two members. Our executive officers serve at the discretion of the Board of Directors. There are no family relationships between any of the directors and executive officers. In addition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Financial Officer and Director effective October 1
+ 2014
+ Mr. Conway was paid $12
+000 per month as a consultant and received 5
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Brian P. Conway
+
+ Chief Financial Officer
+ and Chairman of the Board brings 20 years of proven success in marketing and business development for both private and publically traded companies. Starting off in database management and sales for Venture Direct on Madison Avenue
+ he crossed over to Wall Street first as a co-founder of Waypoint Capital Partners. During this time
+ he has overseen national sales
+ marketing
+ business and product development
+ national account customers
+ and new business relations with international and US companies while creating awareness for public companies with many of the nation's top public relations firms. Mr. Conway has been involved with Liberated Energy for the past year and is responsible for its current joint ventures and for bringing its flagship product the Guard Lite to the marketplace.&#160; His relationships with investment bankers
+ non-dilutive financing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ our Director
+ has more than 35 years of experience in the professional services industry.&#160; The positions that he has held included Mid-Continent Operations Manager of a worldwide seismic service company
+ Vice President of Operations for a privately held environmental drilling service company
+ then Vice President of Field Operations for a NYSE listed oil service firm where he founded a new wholly owned subsidiary
+ the first onshore 3D seismic data acquisition company in the world
+ which he eventually took public in a successful IPO as its President
+ CEO
+ and Director.&#160; Mr. Silverman also co-founded iSafe Imaging in 2002
+
+
+
+Kim Thorne O'Brien
+ our Director
+
+ minor in Biology
+ graduated from Temple University with an M.S. Ed in Exercise Physiology in 1981 and completed all Ph.D. work except dissertation in Cardiovascular Physiology
+ a University Fellow.&#160; From 1986 to 1995
+ Ms. O'Brien was Division Manager at Genentech
+ Inc.&#160; From October 1995 to 2001
+ she was Regional Business Director
+ Northeast Region of MedImmune
+ Inc.&#160; From 2001 to 2004
+ she was Vice President
+ Business Development &amp; Marketing of AdvancedTraces
+ a company engaged in the development of supersensitive detection of biowarfare agents.&#160; Since 2004
+ Ms. O'Brien has been President of Independence
+ Inc.
+ a firm engaged in providing consulting services to start-up biotechnology companies (Diasome
+ Get Better Health
+
+
+
+
+
+
+
+
+
+
+
+
+
+ directors or owners own 10% or more of our common stock have filed reports required by section 16(a) of the Securities and Exchange Act of 1934
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2014
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Financial Officer and Director effective October 1
+ 2014
+ Mr. Conway is to be paid $118
+696 in 2016 as a consultant and received 12
+000
+000 shares of common stock and 10
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ committee service
+ service as chairman of the board or a committee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2013
+ the Company entered a Common Warrant Agreement with Mr. Frank Pringle granting him the right to acquire 300
+000 common shares of the Company on or before March 11
+ 2015 at $1.00 per share
+ and with Ms. Elyse Thompson granting her the right to acquire 200
+000 common shares of the Company on or before March 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as of January 13
+ 2017 certain information concerning the beneficial ownership of our common stock
+ by (i) each person known by us to own beneficially five per cent (5%) or more of the outstanding shares of each class
+ (ii) each of our directors and executive officers
+
+
+
+
+ director or executive officer is determined under the rules of the Securities and Exchange Commission
+ or SEC
+ and the information is not necessarily indicative of beneficial ownership for any other purpose. Under those rules
+ beneficial ownership includes any shares as to which the individual or entity has sole or shared voting power or investment power and any shares that the individual or entity has the right to acquire within 60 days after September 30
+ 2016 through the exercise of any stock option
+ warrant or other right
+ or the conversion of any security.&#160; Unless otherwise indicated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of Preferred Stock
+ with a par value of $0.001. On February 2
+ 2015
+ the Company issued 10
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued to an officer and director of the Company 10
+000
+000 shares with a value of $10
+000 of series A preferred stock for service. Each share has 10
+
+
+
+
+ 2015 an officer and director of the Company advanced the Company $4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as amended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Enterprise CPA
+ for audit services related to the most recent two fiscal years
+ and for other professional services billed in the most recent two fiscal years
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Director
+ Secretary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ P.S.
+    Document created using EDGARfilings PROfile 4.2.0.0
+    Copyright 1995 - 2017 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+ Brian Conway
+
+
+
+
+
+
+
+
+
+ 2016 of Liberated Energy
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such internal control over financial reporting to be designed under our supervision
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or is reasonably likely to materially affect
+
+
+
+
+
+
+
+
+
+
+
+
+
+ based on our most recent evaluation of internal control over financial reporting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ whether or not material
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ P.S.
+    Document created using EDGARfilings PROfile 4.2.0.0
+    Copyright 1995 - 2017 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (the Company) on Form 10-K for the year ended September 30
+ 2016 as filed with the Securities and Exchange Commission on the date hereof (the report)
+ I
+ Brian Conway
+ Chief Executive Officer and Chief Financial Officer of the Company
+ certify
+ pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ in all material respects
+
+
+
+
+
+
+
+ day of January
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 image0.jpg
+
+MVP!# 0D)0P+#!@-#1@R(1PA,C(R,C(R,C(R,C(R,C(R,C(R,C(R,C(R,C(R
+M,C(R,C(R,C(R,C(R,C(R,C(R,C(R,C+_P  1 %!!%L# 2(  A$! Q$!_\0
+
+M! 0   %] 0(#  01!1(A
+4$&$U%A!R)Q%#*!D:$((T*QP152T? D
+V)R@@D*
+
+
+7&
+
+
+
+B
+
+
+
+G*TM/4
+
+!  (1 Q$ /P#V2[\6:197
+
+
+
+M +]-7EX!)P!DGH!6U'X3UN2 2K8D*1G#.H;\LU
+L)0C\3M\QQQ5:7PJ_R.V_
+
+
+
+
+
+M3_GO+_WZ:C_A-M$_Y[R_]^FK@+O1YK/2;/4'E1H[K[J '*\9YK.HC@Z
+E=-@
+
+
+M\O\ WZ:C_A-M$_Y[R_\ ?IJ\OHH^HTO
+/KM3R/4/^$VT3_GO+_WZ:C_A-M$_
+
+
+
+
+
+7_OTU'_;
+
+
+
+
+M'8HR=KJ2!]
+U
+
+
+
+
+
+
+
+/KM3R/4/\ A-M$
+
+
+
+
+
+
+
+
+^1(&X7
+M@=OPJ'0/%C:-9M:RVYN(PVZ/#X*9ZCZ5O[&;@Y16K_*R
+/;04TI;+\[LOZ#H
+
+H?$/B<:W:
+MPP1VQ@1'WOE\[CCC^M*
+
+$#.
+M?4#BF:_J5Z?$5V_VF9&AE*QA7(V =
+5F6=W-87D5U;MMEC;*GM]*Z&?Q-I5Y
+M
+
+
+
+
+
+MA(S@U'N;&-QQZ9J2VDABNHGN(O.A5LO&&QN'IFNA*5GS:F#:NN70Z_5+F:[^
+
+W4_
+
+
+
+MZE[Q [7'@S19YB6F)QN/4C:?\!4?@FY0WMSIDW
+-Y$1@^H'^!/Y5F:WKK:OY
+
+
+
+
+
+2*F
+MU8^']'NSI;Z49-L8WW&_YP2.*R9-?SX?L=-CA9);602;=D$@DCC\:O7'BJ
+
+MA-WID&MG_A&K%+E;0:+&UIMP;LS_ #YQUQUKC[C7S+I6F6L41CFL7#B3=D
+1
+
+0IQ[5
+J=6VGG^?JBHU*5]?+\O1ES2-%TY3J4'
+MDPWU_!.4CAFDV H.A_G7.:Y$(=5D1;!K$ #]P3G'')![@U:L-6TNW5S=:.)I
+M/.
+
+MU-
+
+
+
+
+
+
+
+M(CVL%&_6R_
+
+
+
+6HQ_JX5I+_P BN_\ U_#_
+M -%FLVM)?^17?_K^'_HLUM/IZF4.IFT4459 4444 %%%% !1110 4444 %%%
+M% !6CH'_ ,.G_\ 7=:SJT= _P1AT__ *[K45/@9=/XT=G8ZFNE^&]*DE 
+M$LS12Y[*2W-0II?]DZ=XE@4?N&C$D)]5*M_+I7
+
+
+
+
+U*
+J:5[6+4T-C8:1X?O&L8YFD;$
+
+5S=]K8N]'TVQ6$H]F0=Y;(
+1Y^W^'TQ^?-<=<%+K49/LT:QQR2XB0<  G %=G=:K+:^ +<3
+!
+
+
+
+
+MJ1WBH74 JZ XW UI[*7L%'JC/VL?;.71G06T+6'@V*W'R76K3A.1R%)Q_(?K
+
+
+
+
+
+
+
+
+
+
+
+
+
+5C:CXF-YJNGW\
+#1-: #:
+M6SNYY_2EUCQ
+
+
+CD1L\=L
+WXU8OO$OV
+
+
+MN(I5DE?S
+EP!C'^?2H(O$*1^*GUG[
+Q5L_NMPSRN.M2J
+[;-67?J4ZT+[IW?
+
+
+
+M$GV/0O\ H%P?]^EH^QZ%_P! N#_OTM1T4:]V%H]B3['H7_0+@_[]+1]CT+_H
+
+
+
+MCYAGI^=5:FA_U
+
+
+M^QZ%_P! N#_OTM1UA:OXPT31+W[%=W$KW83S&@MK=YG1?[S!0=H^M%WW?WA9
+
+NVNB2W\9U*Y;9'!&Y![;L<+^-%WW?WB
+
+%!()+
+
+
+M7!_WZ6I?LNC_ &0K_9T/D^9G9Y8QNQU_*N2U#QYX=TR]GM;B\E:2V.+AH+:2
+
+
+
+M*L(P#5:I;7_ (^HO]X4.]MV-)7V VFA9.=+ASGG]T*3['H7_0+@_P_2US.
+
+
+
+M?I:CHHU[L+1[$GV/0O\ H%P?]^EH^QZ%_P! N#_OTM1T4:]V%H]B3['H7_0+
+
+
+
+
+
+
+
+
+MA^^?4?&/B/Q5J%M]@O-
+L?LLFE[MTH51OWNV
+'.
+
+MIBSH82F3)Y@ ZYXQ56Y\
+
+
+
+
+
+M\66\UI$R[B-/ FE0=F;=@$C@DBSZ
+:[_MO5_B9K&B6^OW6GZ9!9P3
+(%4R
+
+
+M
+
+*Q .5$K
+M9RP'H
+=!70:KX7N+B_T_5M)U/^S]7LK?[
+
+&C4-#)\%:
+
+*9[V8Z=XCM;2SEQM1[ 22P\<[6W '
+
+MG8:#86ZV[QE !)=$[CM.
+
+M\ .=_P W'TJGJA(/$F)_BCX
+MIN8%2ZG53R#(J\''J*C\7LUO\1_!EU ?])?
+
+7FL6FEW$NJ);Z]ILAEAOH(/DW'@@QD_=(QD9[4:;
+
+CBNKT31[30/#-MI5BI%O;':NXY+'!))]R232L] +5
+M%%%6(**** BBB@ HHHH **** BBB@ J6U_X^HO]X5%4MK_ 
+?47^\*3V \
+MRFU+4]
+
+
+
++=:MO6G7T^H3V\_B/4W:&8Q&4V5KV$: ')P
+M,C@]:T=UV:'QEIEAI^L:SK.FWHD2Y_M*U=6MF5<JX<HO!P1BNJUOPM!JNEV
+
+
+
+=ZBF\
+
+
+
+
+:I)'):
+
+
+
+
+
+
+/6L^ZT^?P;
+MX8UW5%O9;_Q#J1 %RL(!DG;Y(E1!D!03THU0':2+#E9Y5C!ARRR.!^[XY()Z
+
+
+
+DLQ'Y5Z
+
+2$YZD5'LB_YXQ_E6'XL\5P^'KBUM(K.;4=5OW*6EC 0&DQ
+
+
+D$MCUQBK\?BJXL] U/4_$.B7.D
+
+M0%MIMW@B==01Y(D(R&=
+
+MD7_/&/\ *EHH 39%_P \8_RHV1?\\8_RI:* $V1?\\8_RHV1?\\8_P J6B@!
+M-D7_ #QC_*C9%_SQC_*EHH 39%_SQC_*C9%_SQC_ I:* $V1?\ /&/\J-D7
+M_/&/\J6B@!-D7_/&/\J-D7_/&/\ *EHH 39%_P \8_RHV1?\\8_RI:* $V1?
+M\\8_RHV1?\\8_P J6B@!-D7_ #QC_*C9%_SQC_*EHH 39%_SQC_*C9%_SQC_
+M I:* $V1?\ /&/\J-D7_/&/\J6B@!-D7_/&/\J-D7_/&/\ *EHH 39%_P \
+M8_RHV1?\\8_RI:* $V1?\\8_RIZ+'LDQ$@XYXZTVGI]R3Z4@(]D7_/&/\J-D
+M7_/&/\J6BF FR+_GC'^5&R+_ )XQ_E2T4 )LB_YXQ_E1LB_YXQ_E2UQM]XLU
+MYO%VHZ#HGAZVOS80PRRRSW_D?ZP9&!M-*X6.QV1?\\8_RHV1?\\8_P JYZ]\
+
+?Y
+
+
+
+
+E=CINH6^K:+:ZC:
+
+?Y4;(O\ GC'^5+10 FR+_GC'^5&R+_GC'^5+10 FR+_GC'^5
+
+M?%_K5^M(!A2+/^IC_*DV1?\ /&/\JYC6_%\MGKPT#1-)DU?6/*\Z6(2B**W0
+
+M5&R+_GC'^5
+O$VKV@U'0_!;W&F.-T
+
+'@]LGFMC0_&6E
+
+M*EHH 39%_P \8_RHV1?\\8_RI:* $V1?\\8_RHV1?\\8_P J6B@!-D7_ #QC
+M_*C9%_SQC_*EHH 39%_SQC_*C9%_SQC_ I:* $V1?\ /&/\J-D7_/&/\J6B
+M@!-D7_/&/\J-D7_/&/\ *EHH 39%_P \8_RHV1?\\8_RI:* $V1?\\8_RHV1
+M?\\8_P J6B@!-D7_ #QC_*C9%_SQC_*EHH 39%_SQC_*C9%_SQC_ I:* $V
+M1?\ /&/\J-D7_/&/\J6B@!-D7_/&/\J-D7_/&/\ *EHH 54CWKB%!SZ4.L?F
+
+9/91DTKA8Z_9%_S
+
+
+-
+
+
+';N.!QQ30C)^#TL
+
+M?]DMOEM?#;VL\B-P)W)V(?\ :%=+J/P[\.ZEJ4VH/:7-K=S_ .NDLKF2#S?=
+
+
+
+VE(NK-JWAVZNX[);2\4?:+?=
+
+-_%:W4]S;_ZAKRZDG$/^X&) /O73[6]
+M#^5- )12[6_NG\J-K?W3^5 A**7:W]T_E1M;^Z?RH 2BEVM_=/Y4;6_NG\J
+M$HI=K?W3^5&UO[I_*@!**7:W]T_E1M;^Z?RH 2BEVM_=/Y4;6_NG\J $HI=K
+M?W3^5&UO[I_*@!**7:W]T_E1M;^Z?RH 2BEVM_=/Y4;6_NG\J $HI=K?W3^5
+M&UO[I_*@!**7:W]T_E1M;^Z?RH 2BEVM_=/Y4;6_NG\J $HI=K?W3^5&UO[I
+M_*@!**7:W]T_E1M;^Z?RH 2BEVM_=/Y4;6_NG\J $HI=K?W3^5&UO[I_*@!*
+M*7:W]T_E1M;^Z?RH 2BEVM_=/Y4;6_NG\J $HI=K?W3^5&UO[I_*@!**7:W]
+
+CHI=K?W3^5&UO[I_*@0E%+
+MM;^Z?RHVM_=/Y4 )7*W_ ('DO/$5]KFG^(=4TRZO(XXI1:B
+H?+&%R&4_P Q
+
+995..@H8SF-
+AU+XC^
+M-7T?4-0C-_INJ&WU.*+Y9FB(97*CCV.*I^.T\875EHFG:S)H@DN=5MUBBL5
+
+M%:-HM_\ VA;P7
+$M%U*ZUR_\9ZY;-:W
+
+$[1%&..?E[\#'I4
+
+
+
+
+
+
+9M6 (TVRX/_'O'C_O
+
+M
+
+
+S;1$K_*SD_[*
+
+
+
+
+
+
+
+*[33_#.BWNK23/=7]M&ZI;V[2O*^P%L*H]
+M_P!:N:-XGTK7ENOL,LHEM/\ CX@GA:*6+C(RK<\XIZ!J;GG2_P#/5_\ OHT&
+M:8=9'_[Z-<MI7C[P]K=Y;6FG74T\URA9=MNVU.<.V
+
+M/AM::CK=[/(\MY-#'G=++*WF$!5')8^U*Z#4]'\Z7_GJ_P#WT:/.E_YZO_WT
+
+
+MXU(W^IZ(85@\Z[^P
+
+F
+MY
+
+.*- U.
+MR\Z7_GJ__?1H\Z7_ )ZO_P!]&JUK<+=VD-RB2(DJ!U65C@'U4\@^U2T[(1)
+
+
+
+
+
+
+
+
+
+M '!_
+
+39T+'L.E5(-2UGP[
+
+M^8^?
+QG/M7F^DW?BGQEIEQKVFZY'IEL\DBZ?9K:)()%0D RLW/S$=NE=/X-U
+
+
+M);6S9F?D@+&N3G _0TM!ZF]Y\O\ SU?_ +ZH\Z8=9'_[Z-86A^*])UZ^DL[1
+M[B.[A4/);7=NT
+
+M- U.\\Z7_GJ__?1H\Z7_ )ZO_P!]&N8TWQSH6JW\%E#+=137()MOM5J\*S_[
+MC
+
+-2ZCXWT/2]0FL9Y;J2:WQ]H:WM9)4@SR-[*
++Q1H&ITWG2_\ /5_^^C0)
+M9CTDD/XFHE8
+H93E6&0?45YAKM_:MXWUJU\5ZQJ.GV5O;QR:7#:7#PB92
+
+5
+MV\N^[C%#L@1ZIYTW_/5_^^C1YTO_ #U?_OHUS'@3^V!X0L_[=:8WI+$?:
+
+
+
+
+
+
+K_P#?1KD-3UVVNTTYBU+4M*CNM2$0O9E7N3
+M_P \W5N54_WJLZCXYT#2]3N=-N;B8WUN4W6T5NTCON&X; !\V .3VHT#4Z;S
+MI?\ GJ__ 'T:/.E_YZO_ -]&L73O$^C:IHDNL6UZGV&'=YTD@*&(K]X.#R*
+MQ_\ A9&@?:+6$0ZONNS_ *
+
+
+
+
+
+
+
+M1J.BBR FCFE
+
+
+
+
+
+
+
+
+[2OY=*?]
+MCF_V/^^A0K+J#/%-.LIV^$5CKE@I.H:)J
+
+
+
+;FWL
+
+
+
+]<HO@#Q$- 'AT^)[<:
+(?LVU;%!
+M.8L8V[]VW..
+
+M1@N0JC _E5C['-_L?\ ?0J[H5F5Z*L?8YO]C_OH4?8YO]C_ +Z%%T%F5Z*L
+M?8YO]C_OH4?8YO\ 8_[Z%%T%F5Z*L?8YO]C_ +Z%'V.;_8_[Z%%T%F5Z*L?8
+MYO\ 8_[Z%'V.;_8_[Z%%T%F5Z*L?8YO]C_OH4?8YO]C_ +Z%%T%F5Z*L?8YO
+M]C_OH4?8YO\ 8_[Z%%T%F5Z*L?8YO]C_ +Z%'V.;_8_[Z%%T%F5Z*L?8YO\
+M8_[Z%'V.;_8_[Z%%T%F5Z*L?8YO]C_OH4?8YO]C_ +Z%%T%F5Z*L?8YO]C_O
+MH4?8YO\ 8_[Z%%T%F5Z*L?8YO]C_ +Z%'V.;_8_[Z%%T%F5Z*L?8YO\ 8_[Z
+M%'V.;_8_[Z%%T%F5ZFA_U,_^X/YBG?8YO]C_ +Z%21VLHBF!V_,N!\P]:3:!
+M)E.BK'V.;_8_[Z%'V.;_ &/^^A3N@LRO15C['-_L?]]C['-_L?]]BZS*]
+
+
+
+DB1.C##*Q!!'N#5
+
+M9%6WMI+34)W!)A:1?E+^GH3ZUH7]Y9^
+
+Q-#<7%
+
+
+
+
+ML':/S7W07
+
+
+=NL2 [P=H*\-C/7WK$-I=7GPEUD6JNXA\0233*B;
+
+
+
+
+
+
+
+
+
+%68$
+
+\;11-)':6
+
+WV
+
+M%
+Q+$=@,XKU:;2$N&5Y[:UF
+M9?NM(JL1]:D:P=T*
+
+
+
+
+
+
+KT58^QS?['_?0H^QS?['_ 'T*
+M+H+
+KT58^QS?['_?0H^QS?['_?0HN@LRO15C['-_L?\ ?0H^QS?['_?0HN@L
+
+
+
+HQCDCC/.
+
+
+
+
+
+,5B6-C<^'=)\
+M&^(]2MY8((M2N9[P%23;QS\*S#L,#GTS7M,FE++*LLMO;22)]UW569?H3R*D
+M-E*P(81L#P06!!HT[CU/.M3U.Q\6^.?MGHES%?Q:?=-?7D]N=T<*@84%AQD
+
+
+
+MS[]2/RIW [BBBB@04444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1
+M110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%% !1110 4444 %%%
+M% !3T^Y)]*93T^Y)]*!C****!!1110 4444 %'Y?G7+?$B.:7X;Z]';I(\S6
+MV%6
+$L?F7H!S7
+
+
+
+^PQ0V![717-:WKM
+
+
+M1110(**** BBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** B
+MBB@ HHHH **** BBB@ HHHH **** BBB@ HHHH **** %7[Z_6E?\ UC?4
+
+
+
+'6F31X].$E_:^:SQ0
+
+
+'J_P#WS1]I
+
+M$AL);=E1Y'D&90W SM/TIL
+
+'J__ 'S1]I@]
+M7_[YHY6%R2BH_M
+
+'J__ 'S19A=$E%1_:8/5_P#O
+MFC[3!ZO_ -\T6871)14?VF#U?_OFC[3!ZO\ ]\T6871)14?VF#U?_OFC[3!Z
+
+
+
+'J_\ WS19A=$E%1_:
+M8/5_^^:/M
+'J_P#WS19A=$E%1_:8/5_^^:/M
+!()
+YXZCC/%=I966EZ?=
+
+
+M5SM^8+GCIBO1_M
+
+
+
+BG$SW
+
+
+'J__ 'S19A=$E%1_:8/5_P#OFC[3!ZO_ -\T
+M6871)14?VF#U?_OFC[3!ZO\ ]\T6871)14?VF#U?_OFC[3!ZO_WS19A=$E%1
+
+
+
+'J_\ WS19A=$J_?7ZTK_ZQOJ:C2X@
+M+J 7R2/X:)+B 2.7R&.?EHLPNAU%1_:8/5_^^:/M,'J_P#WS19A=$E%1_:8
+M/5_^^:/M,'J__?-%F%T245']I@]7_P^:/M
+'J__ 'S19A=&!JGBC5=*U&6V
+
+
+
+
+'J__?-'VF#U?_OFCE871PNL
+
+E8I
+XOQ-X
+
+
+
+
+!G _P#KUY#)J&KW?P7L]
+_X1:Y-@UI&LFHF
+
++&Q/\2?!
+
+MMKKEL9W.$20-&6/H-X&:Z)B$5F8@!1DD]A6%XIT?3]9\(WMO?P1.BVC2(Y49
+
+
+
+
+&
+5M$TSA!DD*
+
+
+
+
+
+
+
+M&]*T:ZV0W
+
+
+
+
+M;@#H#28(W;.\MM1LXKNRN([BVE7='+&V58?6JEAX@TC5;^ZL=/UYN+3'GI
+
+
+
+MTS0[
+
+MU-LGAG2KW3-._MW[-!&+
+
+78N/B;K%_JUH=%U*2Q5
+M(K0??A4@M*9!\K'CMT ]J+ZA8[;6M?TKP[9K=ZO?1VD#OL5G!.YNN  36K
+
+
+
+CO2O=A8GHHHJQ!1110 4444 %%%
+
+
+M9-51;&:4P1RF*3YG R5QMS^E9GB$#_A:G@K@?ZF^[?\ 3
+4SX@8_M7P7P/\
+
+
+MN$\ W
+.GZSXA\+1S1R0VER;RR
+
+
+RK=?&JU@N
+21Z?HIEMPXSAV?:7'OCO2NQV.GT?7])U^&2
+M72KZ*Z6)ML@7(9#_ +2D C\14UUJUA8W]E8W-RL5S?
+RVR
+#^\*C) .
+9Y[U
+
+
+MI\W0U?KCXM?N[?QUXJMKF4R:?ING0W
+
+
+%CV*BO/\ Q-XCOHM6TI9=4N/#^AW=D)S?QVPE/GGI
+M&[
+$ !].:[/2#*VDVK3:A%J#E,_:XEK
+.S  D=/2FF*P_4K^#2M+N]1NFV
+
+
+MWUH3U S]6UO2]!M!=:K?P6D).%:5L;CZ =2?I5/3?%_A_6(;F33M4AN/LT9E
+NPU&**T
+MO-0BAB6\BM)=DXC&\ *3C/ID X]J5V
+
+
+
+
+
+
+M(+6
+
+MZ.!J&H8'#2_\LHS_ #Q4NXT=7J^M:9H-D;S5;Z&T@S@-(WWCZ =2?I5N*5)X
+
+
+M.
+DY/XUWOE0?\\5_
+
+
+
+
+
+M5^[RK#U%=OY4'_/%?S-'E0?\\5_
+TKH+
+X\Z=K^H:!JMEK%[IS37=N\
+(M(7
+
+
+
+
+MT]^]=EY4'_/%?S-'E0?\\5_
+
+R00KW4HXQV.
+MU/UKLJT?+AQCRAQ[FD\J#_GBOYFA2QP7C70_$7B33KK2;YTJ'3KF-5=KA9
+M#
+
+
+
+
+
+
+M*_F:.8.4SZ*T/*@_YXK^9H\J#_GBOYFCF#E
+
+M4B1Q;)
+1  CGD\\T.0TC+HK0\J#_ )XK^9H\J#_GBOYFCF%RF?16AY4'_/%?
+MS-'E0?\ /%?S-'
+
+._/K7
+M:^5!_P \5_
+
+
+:%XYO;?2I
+
+
+
+
+
+
+S**T/*@_YXK^9H\J#_GBOYFG
+
+
+
+4.?]2OYFD\J#_GBOYFE=!9GFNH^%_%?B:R
+
+M@^F
+5V'E0?\ /%?S-'E0?\\5_
+
+- UI)XUATQ+A9(V!W/YB
+
+
+
+M_P \5_
+
+
+D]
+
+
+M!VL0.
+
+
+T
+MGE0?\\5_
+
+
+
+MC#
+
+
+
+
+M9H\J#_GBOYFCF%RF?16AY4'_ #Q7\S1Y4'_/%?S-'
+'*9_(!( )[9Z5SOA'P
+
+M.&\9:/XAU_3KK2M-N-*AL+J#RY6N5D
+
+^)++6_$E]92OI
+MZN+2UL(F6-6889V+')..@KN_*@_YXK^9H\J#_GBOYFBZS.%O=.\:W\<]@VM
+M:5;6
+
+
+
+
+
+66S6;!])6Q69['[
+8G
+MEA3YC&9MQQD#J *V=3U2#6KKX7:E:P&W@N+LLD).?+'EXV^^
+=:+@:FM^/=;
+MT':]WX(NQ;R7*VT
+=#9QP&X
+RG*F
++N
+
+
+K.ZE2QGL)[615DMIV!8*ZAD?CL0?
+MTKIZ\GM_$FGVGQ;TZ[L;;4+6PUBU&G3B[LI+=1*G^I(+ 9./EKTO5I=3@T]W
+
+M?\)##T'LU.\:DI\0O +R'%O]MG7GIYA3Y:0&AI_C*5]?MM$UO0KK1KV\1GM/
+M-F2:.?:
+^,CBN?\ 'GS^
+M+_ 4,?\ Q\_VJT@'?RU3Y_TKL-2T^#5M+N].NEW074+0R#V88I@227=O%8/?
+M-*OV983.9.VP+NS^59WAG7/^$C\-VFM&SDLH[I2Z12N0F2%8D<<@9_&O
+8]
+
+
+
+
+MJ
+D@*0
+
+MFDEM8U3:4M\XC!]20
+
+MMH;.UAM;= D$$:QQJ.RJ
+
+
+
+
+
+
+
+5BQ^--9T
+
+
+
+
+
+
+
+!?A
+
+M50?XLGGVHN!W/ACQ!!XGTWU6%X/
+
+M8.
+8P#GO3N!K4R61889)6#%8U+D*
+D@#/ [GVKD_[2^(7_0LZ'_X-&_^)KK8
+MC(8T
+
+
+
+
+LLJ6Y
+ME&P
+
+
+
+
+%]1U=P&-M3&A_CD/+^+$5:T7^T&T2Q.K-&=1:%6N/+7:H<C
+
+
+
+
+
+\.
+
+
+
+
+^G(NS[%)J!\DK_=*J!Q[5T-UX7TR
+MZGT63RGA71I/
+LXH3M1?EVX(QR
+5;^U3_P#/5_SH^U3_ //5_P Z?('
+0ZYH
+
+
+
+
+
+
+M@DAA( 
+$9P/:M'[5/_SU?\Z/M4__ #U?\Z.1AS&9H_@W3](U/^TVN=0U'4!'
+
+UT%4OM4__ #U?\Z/M4_\ SU?\Z.5AS&7'X*T:+QI)
+MXK6*7^TI$VD%_P!V5E@N/O8&
+
+
+
+M2&XMKUEE(.
+
+84X&!4_VJ?_ )ZO
+M^='VJ?\ YZO^='(PYB#7O#NE^)M/%EJMMYT2N)(V5BKQN.C*PY!K+TWP'IVG
+MZC;7TNHZUJ
+MJV^W6_OWE2)NF0O )^N:V_M4_P#SU?\ .C[5/_SU?\Z.1AS%
+
+UY+
+
+M+[5/_P ]7_.C[5/_ 
+
+C
+M!*C YQQDY-=-5+[5/_SU?\Z/M4__ #U?\Z.5AS%VBJ7VJ?\ YZO^='VJ?_GJ
+
+MK_G1RL.8NT]/N2?2L_[5/_SU?\ZEBN)C%
+
+
+MIQNQCCI71?:9_P#GJ_YT?:+C&?-?'K1R!S&'8:!=2_$/4_%%^@BVVZV%C&K@
+
+MF
+&Y^&_A:YN9YC830_:&+S16]W+%%(3U+(K!3GZ5TUG96VG:;%9V5O';VT.$
+
+
+MJ_YU+;W$S7
+
+
+9!['GK5?[5/_SU?\Z/M4__
+
+
+
+
+%
+MGJFO6=B6)^PV^HLD*YZ@#&0/8&NC^U3_ //5_P Z/M4__/5_SHY&'
+
+
+:E
+
+
+
+MJG_YZO\ G1RL.8NT52^U3_\ /5_SH^U3_P#/5_SHY6'
+
+
+
+
+
+
+
+M:H)
+
+
+M&EZ)I6CN?[
+
+
+M?C?1-#T6^M[
+
+KS4X_+OI[DO
+NW;\Q3KCMD8
+
+
+
+&CC$B[0Q(X R.O:ION
+M+J_B#P_XHTG3-
+
+JC(4C)!!K5\:7^J:3X4O=2TCRS=6@$S)(FX/&#\X^
+MN
+
+
+&?B!H/]@Z':ZEKL;:G-:Q5GW-^\*]'?&T
+?0
+F:GX
+RO=5C2XB($JJCN(L]-[*%_$UB/+
+
+333UQNZ
+MIJ
+
+3L
+AR$&
+
+
+
+
+
+
+MIIW$PHHHI@%%%% !1110 4444 %%%% !4T/^IG_W!_
+5#4T/^IG_ -P?S%)@
+
+MJX3Q/_PC-QK
+
+MW ))1O
+
+
+M;^721
+
+
+
+MKP?IMQJ*[;V6&-YQC'SE
+GCM7FMYK_\ ;WB
+R^(-#U]=)T^;-G81:;(ZSN/^
+M6LIZ'V7I_7U+3K]-3T..]CAN(5EDR([F(QR#J.5/(IZ7$244458@HHHH ***
+M* BBB@ HHHH **** I;7_CZB_WA452VO\ Q]1?[PI/8#@[S4/$^I_$#4]#
+
+
+C&6=0U3Q1X5O=%DU/4K+5;+4;R.T:)+/R)4+]&4
+
+
+
+
+'DD
+M]!1W 34]9\5^#$BU#6[BPU?1O
+
+
+UM^+];N-(T.)M
+
+
+;:%<:KH?Q0N8=9L[:RC\1P^;$EO<
+M&5//B&#R0
+$C/'TKM=:TR_U)(5L-=NM**$EVMXD?S
+
+XK9UW7=3
+
+
+
+J7 //Z&M:P
+
+
+
+
+M38Q[UD:9'_:WPT@TJ;QCX=L]-:U$4MO+9!98&'4
+3(/G![XY/-%V%CTS6?$V
+
+
+M\/:=JCP^0]W;I
+
+
+
+
+
+8*%N@/4\^U=)=^(M&UUU+
+M3[+4[:ZNA83RM'!()-JA
+DC@=1WH YO5O'H\.^#]$NAJ
+
+
+
+M
+
+
+
+\Z$+TC8NN #U'K]*L
+
+
+MN0 D!N_!KM*I.XF%%%%
+
+
+
+
+
+
+
+
+FPW 5?
+*^F[KCVI+S18M1
+
+M8+:0$/#%&BHP/
+J@]0/:JU
+
+2 <\[FY[5L_8Y_[G_CPJW5:TO[
+M._$QL[J&X$$K0RF)MVR0=5/N/2CF86*%[X:LM2D62_TFRNG3[K3PHY'XFK:6
+M$L:+''J(HPJK@ #V%7<9. *#@C!HYF%D4I-/DEC:.6!'C889'P01[@U3L
+MO#5EILC26&DV5K(W5X(40G\0*V:4JPZJ1]11S
+
+
++(Q[+PY9
+
+
+
+
+
+
+
+9X-'
+
+PY42?9;G
+M^Z?^^A4GV:;[
+5*_-OSU'I5+5/$6AZ&R)JVKV5D[C*+/
+
+M$=S:S1SV\N&CEC8
+KC'4$=:7
+PLBM]CG_N?^/C['/\ W/\ QX5;HI\SR*G
+
+PLBI]
+
+@@C1O
+
+
+M?*R!09&]6(ZGZUI%2O52/J*0#)P!1S
++&=-I*W$L
+L]I#+) V^%W528V]5)Z
+
+
+
+M)J2CF861GKI(2ZDNDM(EN)5R3 *'
+
+
+
+OJ!D\*.*V?L<_\ <_\ 'A5EV6-&=VHH+
+Q.  .I-1VEW;:
+
+
+
++&79:%!ID)AL-/MK2
+M
+G)2WC6
+
+PLBI
+
+M]]?K2O\ ZQOJ:.9W'9%+['/_ '/_ !X4?8Y_[G_CPJW11S
+
+
+
+
+PY40):3B124[CN*VJYG3?%/A[5=1%EIVMV%W= Y\F&
+M=6;CK@#KCVKIJB;N5%6/)/B:^GMX_P#EKK.HR66DRQ71N&%VTD@+MRP([X
+
+
+
+MQE;&
+
+
+
+
+
+
+G2,AC
+M4$$HP&&Z]JT?%(O-6_X1KQ?I&EWT[:5=O)+8RPF*X:%AM;-SD8R!WI 5[NP
+
+UW-/J%N86EEVX1$4\G'4
+MFO0!P: .0N/&T/\ PJP^+8R-[V(=$_Z;GY O_?=9^D:G=^%=*T;PK;6%WKGB
+
+
+
+
+68X
+
+[<:C
+
+
+I(SZ?*.GK5_5-
+
+
+
+
+
+
+
+M0CBC& O[O/\ /FNFUNT\
+
+
+
+M&@?409 _EL
+
+
+%EU#3O#S:1<:;<
+
+TDQ&/
+=B68X[#)
+MXH V****8@HHHH **** BBB@ HHHH **** GQ?ZU?K3*?%_K5^M SR+7?[
+
+M=PWB7X3ZLNDZ+J
+
+K 28A(6^
+
+;
+IR* 2I(X(^G6N4_X5=X&_PA
+
+MS)X@-Y#%$\]ZTGVQF/*E/NXQDX K=U]KCQ%\0[+PG+=7-KIT.G&_OEM93&TS
+
+M65O-+\=:;XSM]+OKS3[G3?L=Y#;P[IX
+
+M[J;1[_3C=P17
+
+
+
+
+
+MF/5]-MM6\
+
+
+
+
+MS=23V K=TZZFO=/AN+BRFLIG7+VTQ!:
+
+
+#
+M-^)%[./#D6B6+$:AKMPNGPXZJK?ZQOH%S^==58V4&FZ?;6%J@2WMHEAC4=E4
+^O[F[F\E&_TA%5HAL'[O  X7WYI+<#FM1DN_&7QOO#2ZA=66C:1;QR
+
+[E+?
+K8
+
+
+M
+
+
+4
+
+M;FSOKD?:[6]4RW
+
+
+M3;:GK^K6%EM:+-W/-$':10
+
+
+
+
+
+
+M6
+
+#NYK6WNMHGMX9L'Y1+&&Q]
+UP/ANWM_$?Q'U3Q!;V\$
+
+#IM@8XPJO
+
+X
+C @\X6F?:(#_P M6_[Y-86O^(]$T._
+
+MY9%G?:6'J*K6/BG0-3CN'L=8L[E+:/S9VCDR(T_O'T%:I(B[.F^T0_\ /5O^
+
+
+M
+
+MBDD3RX9.QIUKXP\-7JSM:Z[83WB
+TQ27[B#JQ]N119=PNSJOM$!ZRM_P!\
+
+
+2< 8 )-6;6YAO;2&[MI!)!.@DC<=&4C(-'*@NS4^T0?\]&_P^:7[1
+
+
+
+
+%51[DUFZ?XHT#5KK[
+
+
+M-4**.5!S
+O\ GP?\]&_[YH\^#_GHW_?-4**.5!S
+O^?!_P ]&_[YJ1)H2DA#
+
+MR6XU6X*LX/E01C=)+CKM']3Q1RH5V=9Y\'_/1O\ OFCSX/\ GHW_ 'S7
+^&/
+M$5KXJT&#6+**:*9F54F W#:2#G!([5+KNNV'AS2VU'47D6$.L:B-[.YZ*
+
+
+B\:6 \)/XCOK2_L+5)/+
+
+M
+6
+
+R_Y\'_ #T;_OFCSX/^
+
+
+
+
+
+
+
+
+
+
+!ZX
+
+
+ML9&CS(FP[AC/'XBCE079TGVB#_GHW_?-'VB#&/
+
+
+
+
+MU0KG(O%T-QX]F\*V]G)));V_GW%T'&V
+
+M?-'GP?\ /1O^^:R;R]M-.MFN;VZAMH%^])
+
+?
+
+
+
+M?]\UG12)-#'+$P:.10Z
+
+
+
+
+
+MV7]R6)P
+G.0
+.;#QJEZUC9WEO]D95D%RJ
+MC);/3!/I2LM@NSM_/@_YZ-_WS1Y\'_/1O^^:Y3Q/XLTKPC8QW6IR29F?9##
+
+
+
+
+
+
+
+
+
+#KZ5D^
+
+
+
+
+
+
+
+
+MIRVPMXX;&2R#
+R%.0SYQGD+^M0UJ[%=#CO&GA71]'^#^BZK864=OJ
+1MG-U&
+M
+2.SJ22Q[\\CTQ7LU@XU'0[1[I0PNK1#*I[[T&[^9KS
+
+
+
+
+
+
+
+
+#@D?@
+_\#KI?B+K_P#P
+MCG@;4;M'VW$J?9[?UWOQD?09/X5)\/\ 0?\ A'/!&FV#)MG:/SY_^NC\G\A@
+
+Z[HNEZM\6]&TWP=9P
+
+=MJ
+
+
+MQX
+
+
+
+3PL6V*P8
+
+
+
+2O@:;9*LC
+
+
+
+MT/\ J9_]P?S%0U-#_J9_]P?S%)@B&N?\9V-K-X6UB\DM89+F'3ITCF9 612I
+ @'?FN)TCP4G@#3;^]T_4]9U)([218
+MM.)RI<]J+_%GO[FL[0?AO<7_P 
+
+MXC\-:KI]O]MC1?*GC+
+
+I2#S\1X!SMP
+M.
+59UCX:V^KZE=W8\1:Y9QW;EYK6Y_=$GJ .P]J5G8=R#P-XKU?QUX.U1E
+MMK?6;:0P)
+
+
+
+MK8[#NN.175:WX#T+7/#UIHLD+VUO98-H]NV'A.
+
+
+
+
+
+
+Y;+9/K5*XC
+
+
+_+M7;@
+
+
+M-N
+
+D@$8/3)[?RJ;
+=T8O
+*_-_917%Y'Y=S;WP.QN 
+
+
+
+
+Z$^GZ?,GAN
+M'18& ECM5?SO<@D<L3W-)[@MCF?AOH6E^
+8O%FK:[91WMW-=M&'G&XQ@J3\
+
+M1[.VO(+95\N/
+
+
+
+
+MP;XP\0?#O^PM3N]*:_BGB
+!B+*@B12/F;'+?A4V870SQ?\0+[2]7TOP_IMWI
+
+
+
+/F02A5P#R#_+TJUH'
+MAKQ1IUIJDTG_  CMCJ
+
+
+
+
+_E7CU
+MPNM7/Q3UZ?X=OLNTBV:FUT5\HR= $SSG(_
+'M6]JOA[5;_QGX6TRWGU$Z?HD
+M(GNM1F8_OVR
++GHSG:
+
+
+);<'*ECRQ(Z  'FJZW%Y&3\1/NMZOJ&AZUH
+
+][I
+
+5V__  @;7/A'
+M1M(N=;U&VN]/3F[LIBK
+
+M#T[?E2:;8[GE/P^_X3-]'\1:CX?O=-MO+N7ENFN8]TTK!2V
+D$ =?3G-+K'B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+M )Y_^/&K-%'
+
+M!;?\\_\ QXT?8+;_ )Y_^/&K-%'
+?_CQJS11S/N%D5OL%M_SS_P#'C1]@MO\ GG_X\:LT4<S[A9%;[!;?\\__
+M !XT?8+;_GG_ ./&K-%',^X616^P6W_//_QXT?8+;_GG_P/&K-%'
+^X616^
+
+

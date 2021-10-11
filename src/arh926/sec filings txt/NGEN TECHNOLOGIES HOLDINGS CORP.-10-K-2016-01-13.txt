@@ -1,0 +1,2283 @@
+
+
+ACCESSION NUMBER:		0001002014-16-000559
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20150930
+FILED AS OF DATE:		20160113
+DATE AS OF CHANGE:		20160113
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			LIBERATED ENERGY
+ INC.
+		CENTRAL INDEX KEY:			0001503161
+		STANDARD INDUSTRIAL CLASSIFICATION:	CANNED
+ FROZEN & PRESERVED FRUIT
+ VEG & FOOD SPECIALTIES [2030]
+		IRS NUMBER:				274715504
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			0930
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55177
+		FILM NUMBER:		161341419
+	BUSINESS ADDRESS:	
+		STREET 1:		2 COLEMAN COURT
+		CITY:			SOUTHAMPTON
+		STATE:			NJ
+		ZIP:			08088
+		BUSINESS PHONE:		845-610-3817
+	MAIL ADDRESS:	
+		STREET 1:		2 COLEMAN COURT
+		CITY:			SOUTHAMPTON
+		STATE:			NJ
+		ZIP:			08088
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	MEGA WORLD FOOD HOLDING CO
+		DATE OF NAME CHANGE:	20101008
+
+
+
+
+
+
+ INC. FORM 10-K (9/30/2015)
+
+
+
+
+
+ P.S.
+    Document created using EDGARfilings PROfile 3.6.1.0
+    Copyright 1995 - 2016 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBERATED ENERGY
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as defined in Rule 405 of the Securities Act.&#160; Yes 
+
+
+
+
+
+
+ and (2) has been subject to such filing requirements for the past 90 days.&#160; Yes 
+
+
+
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167; 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files).&#160; Yes 
+
+
+
+ and will not be contained
+ to the best of Registrant's knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K. 
+
+
+
+ an accelerated filer
+ a non-accelerated filer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the last business day of the fiscal year
+ the aggregate market value of the Registrant's voting stock held by non-affiliates was approximately $201
+
+
+
+
+ 2015 the registrant had 2
+344
+260
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MARKET FOR REGISTRANT'S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS
+ AND ISSUER PURCHASES OF EQUITY SECURITIES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIRECTORS
+ EXECUTIVE OFFICERS
+ CORPORATE GOVERNANCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ unless the context otherwise requires
+ the terms we, us, the Company, and Liberated refer to Liberated Energy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. is a Nevada corporation formed on September 14
+
+
+
+
+ 2013
+ pursuant to a Common Stock Purchase Agreement
+ dated January 7
+ 2013
+ Perpetual Wind Power Corporation
+ a privately held corporation formed under the laws of the State of Delaware on July 1
+ 2010
+ acquired 24
+500
+000 non-registered shares of the Company from its shareholders
+ thereby owning 24
+500
+000 out of a total of 25
+000
+000 issued and outstanding shares of the Company. Thereafter
+ the Company acquired from Perpetual Wind Power Corporation its patented wind and solar powered turbine technology for 2
+500
+000 newly issued shares of the Company which were distributed in a dividend to its shareholders and Perpetual Wind Power Corporation returned to treasury its 24
+500
+000 shares it acquired from the Company's shareholders. As a result of this transaction
+ the Company had on January 19
+ 2013
+ 3
+000
+000 shares issued and outstanding. On February 14
+ 2013
+ the Company changed its name from Mega World Food Holding Company to Liberated Energy
+ Inc. and underwent a 24 for 1 stock split
+ whereby the Company's outstanding shares increased from 3
+000
+000 to 72
+000
+
+
+
+
+ (2) wind and solar energy for outdoor illumination for home
+ commercial and municipal use
+ (3) electromagnetic energy applications
+
+
+
+
+
+
+
+ 2013
+ the Company disposed of its wholly-owned subsidiary
+ Mega World Food Limited (HK).&#160; Mega World Food Limited (HK) was incorporated on June 24
+ 2010 and was in the business of selling frozen vegetables in all areas of the world except China.&#160; From inception
+ Mega World Food Limited (HK) only incurred setting up
+ formation or organization activities.&#160; Upon disposal
+ the Company ceased these operations and accordingly
+ the Company's financial statements have been prepared with the net assets
+ results of operations
+
+
+
+
+ 2013 we acquired from Perpetual Wind Power Corporation the rights to their wind and solar powered turbine technology for which it has a patent pending with the United States Patent and Trademark office
+ U.S. Patent Application Serial No. 61/257
+578 as submitted on November 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ PC
+ Mac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=WHITE-SPACE: normal; TEXT-TRANSFORM: none; WORD-SPACING: 0px; COLOR: rgb(0
+0
+0); FONT: bold italic 11pt/11.4pt 'Times New Roman'; MARGIN-LEFT: 0pt; WIDOWS: 1; DISPLAY: block; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255
+255
+
+
+<div style=WHITE-SPACE: normal; TEXT-TRANSFORM: none; WORD-SPACING: 0px; COLOR: rgb(0
+0
+0); FONT: 14px/11.4pt 'Times New Roman'; WIDOWS: 1; DISPLAY: block; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255
+255
+
+
+<div style=WHITE-SPACE: normal; TEXT-TRANSFORM: none; WORD-SPACING: 0px; COLOR: rgb(0
+0
+0); FONT: bold italic 11pt/11.4pt 'Times New Roman'; MARGIN-LEFT: 0pt; WIDOWS: 1; DISPLAY: block; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255
+255
+
+
+<div style=WHITE-SPACE: normal; TEXT-TRANSFORM: none; WORD-SPACING: 0px; COLOR: rgb(0
+0
+0); FONT: bold italic 11pt/11.4pt 'Times New Roman'; MARGIN-LEFT: 0pt; WIDOWS: 1; DISPLAY: block; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255
+255
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+ our
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: Calibri
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=font-size: 11pt; font-family: Calibri
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+management concluded that our internal control over financial reporting was not effective as of December 31, 2014.<font style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+<font style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+payouts<font style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+($)<font style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 9pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+<td style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+
+<div style=FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'
+

@@ -1,0 +1,19074 @@
+
+
+ACCESSION NUMBER:		0001721716-18-000012
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		37
+CONFORMED PERIOD OF REPORT:	20170930
+FILED AS OF DATE:		20180112
+DATE AS OF CHANGE:		20180112
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Go Eco Group
+		CENTRAL INDEX KEY:			0001503161
+		STANDARD INDUSTRIAL CLASSIFICATION:	CANNED
+ FROZEN & PRESERVED FRUIT
+ VEG & FOOD SPECIALTIES [2030]
+		IRS NUMBER:				274715504
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			0930
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55177
+		FILM NUMBER:		18525602
+	BUSINESS ADDRESS:	
+		STREET 1:		15 ELVIS BOULEVARD
+		CITY:			CHESTER
+		STATE:			NY
+		ZIP:			10918
+		BUSINESS PHONE:		845-610-3817
+	MAIL ADDRESS:	
+		STREET 1:		15 ELVIS BOULEVARD
+		CITY:			CHESTER
+		STATE:			NY
+		ZIP:			10918
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	LIBERATED ENERGY
+ INC.
+		DATE OF NAME CHANGE:	20130207
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	MEGA WORLD FOOD HOLDING CO
+		DATE OF NAME CHANGE:	20101008
+
+
+
+
+
+
+
+
+
+
+
+ P.S.
+    Document created using EDGARfilings PROfile 4.3.3.1
+    Copyright 1995 - 2018 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as defined in Rule 405 of the Securities Act.&#160; Yes 
+
+
+
+
+
+
+ and (2) has been subject to such filing requirements for the past 90 days.&#160; Yes 
+
+
+
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167;232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files).&#160; Yes 
+
+
+
+ and will not be contained
+ to the best of Registrant's knowledge
+
+
+
+
+ an accelerated filer
+ a non-accelerated filer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or the average bid and asked price of such common equity
+ as of the last business day of the registrants most recently completed second quarter. $201
+
+
+
+
+ 2018 the registrant had 21
+070
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MARKET FOR REGISTRANT'S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS
+ AND ISSUER PURCHASES OF EQUITY SECURITIES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIRECTORS
+ EXECUTIVE OFFICERS
+ CORPORATE GOVERNANCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. is a Nevada corporation formed on September 14
+
+
+
+
+
+
+
+ 2013
+ pursuant to a Common Stock Purchase Agreement
+ dated January 7
+ 2013
+ Perpetual Wind Power Corporation
+ a privately held corporation formed under the laws of the State of Delaware on July 1
+ 2010
+ acquired 24
+500
+000 non-registered shares of the Company from its shareholders
+ thereby owning 24
+500
+000 out of a total of 25
+000
+000 issued and outstanding shares of the Company. Thereafter
+ the Company acquired from Perpetual Wind Power Corporation its patented wind and solar powered turbine technology for 2
+500
+000 newly issued shares of the Company which were distributed in a dividend to its shareholders and Perpetual Wind Power Corporation returned to treasury its 24
+500
+000 shares it acquired from the Company's shareholders. As a result of this transaction
+ the Company had on January 19
+ 2013
+ 3
+000
+000 shares issued and outstanding. On February 14
+ 2013
+ the Company changed its name from Mega World Food Holding Company to The Go Eco Group
+ Inc. and underwent a 24 for 1 stock split
+ whereby the Company's outstanding shares increased from 3
+000
+000 to 72
+000
+
+
+
+
+
+
+
+ 2013
+ the Company disposed of its wholly-owned subsidiary
+ Mega World Food Limited (HK).&#160; Mega World Food Limited (HK) was incorporated on June 24
+ 2010 and was in the business of selling frozen vegetables in all areas of the world except China.&#160; From inception
+ Mega World Food Limited (HK) only incurred setting up
+ formation or organization activities.&#160; Upon disposal
+ the Company ceased these operations and accordingly
+ the Company's financial statements have been prepared with the net assets
+ results of operations
+
+
+
+
+ 2013
+ we acquired from Perpetual Wind Power Corporation the rights to their wind and solar powered turbine technology for which it has a patent pending with the United States Patent and Trademark office
+ U.S. Patent Application Serial No. 61/257
+578 as submitted on November 3
+
+
+
+
+
+
+
+
+ 2016
+ the Company adopted a 1-for-3
+
+
+
+
+ 2016
+ the Company entered into an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company was to acquire all outstanding ECGLLC membership interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement. On March 6
+ 2017
+ the Company terminated the agreements with Ron Knori and EcoCab based upon breach of contract
+ fraud
+ fraudulent inducement
+ fraud in the factum
+ negligent misrepresentation
+ misrepresentation
+ contractual interference
+ breach of fiduciary duty
+ negligence
+ and conversion
+ all of which were perpetrated by Ron Knori
+ individually
+
+
+
+
+ 2017
+ the Company reduced the authorized shares of common stock from 10
+000
+000
+000 to 2
+000
+000
+000 and changed the name from The Go Eco Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017
+ we entered into an agreement (the Agreement) with Medsite Services
+ Inc.
+ a Nevada corporation (MDST) wherein we agreed to acquire from MDST
+ all of MDST's right
+ title and interest in and to Integro Health Systems
+ Inc.
+ a Nevada corporation (Integro).&#160; MDST has represented to us that it owns 100% of the outstanding securities of Integro and Integro is a wholly owned subsidiary corporation of MDST.&#160; We closed this transaction on August 28
+ 2017 and accordingly
+ Integro became wholly owned by us.&#160; In consideration of the foregoing
+ we issued 1
+170
+005 restricted shares of our Series B Preferred Stock to certain shareholders of MDST as disclosed in the Agreement.&#160; As part of the consideration for the foregoing transaction
+ we and our president
+ Brian Conway cancelled 9
+000
+000 shares of our Series A Preferred Stock owned by Mr. Conway and amend the Series A Preferred Stock designation to reflect each share of Series A Preferred Stock has 10
+000 votes per share and votes with the common on certain matters.&#160; The amended designation of the Series A Preferred Stock has been filed with the Nevada Secretary of State.&#160; Likewise
+
+
+
+
+ 2017 the company formed a joint venture with Bravatek Solutions
+ Inc a Colorado corporation. Under the terms of the agreement the Company will own 65% of the joint venture and contribute $100 plus a nonexclusive license of the intellectual property necessary to develop the Light Guard System with Bravatek contributing $25
+000 plus the sale of software to the JV for $65
+
+
+
+
+
+
+
+ quarterly
+ and special reports and other information with the SEC. We are not required to
+ and do not intend to
+ deliver an annual report to security holders. You may read and copy any document we file at the SEC's public reference room at 100 F Street
+ N.E.
+ Washington
+ D.C. 20549. You can request copies of these documents by writing to the SEC and paying a fee for the copying cost. Please call the SEC at 1-800-SEC-0330 for more information about the operation of the public reference room. Our filings are also available
+ at no charge
+ to the public at 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Southampton
+
+
+
+
+
+
+
+ 2016
+ LG Capital
+ LLC filed a lawsuit against the Company in the County of Kings
+ in the Supreme Court of the State of New York (index number 516298/2016). The filing alleges that the Company has defaulted on a number of unpaid loans from LG Capital to the Company with the total owing and due including principal and interest of $279
+730.56. The Company has not counter claimed but believes that LG Capital unlawfully attempted to convert some of the loans to common stock of the Company has filed an injunction against the Company transfer agent to block LG Capital from such a conversion. In addition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 5 &#8211; MARKET FOR REGISTRANT'S COMMON EQUITY
+
+
+
+
+
+
+
+ 2013.&#160; For the periods indicated
+ the following table sets forth the high and low bid prices per share of common stock. These prices represent inter-dealer quotations without retail markup
+ markdown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2018
+
+
+
+
+
+
+
+ if any
+ is within the discretion of our Board of Directors and will depend on our earnings
+ if any
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ our goals
+ plans
+ and expectations regarding our results
+ our intentions and strategies regarding future operations and transactions
+ our beliefs regarding the future success of our business
+ our expectations and beliefs regarding competition
+ competitors
+ the basis of competition and our ability to compete
+ our beliefs and expectations regarding our ability to hire and retain personnel
+ our ability to expand into new geographic markets and music genres
+ our ability to acquire other operators and venues
+ our beliefs regarding period to period results of operations
+ our expectations regarding revenues
+ our expectations regarding future growth and financial performance
+ our beliefs and expectations regarding the adequacy of our facilities
+ and our beliefs and expectations regarding our financial position
+
+
+
+
+ unless the context otherwise requires
+ the terms we, us, the Company, and Liberated refer to The Go Eco Group
+
+
+
+
+
+
+
+ 2017 and 2016 of The Go Eco Group
+ Inc.
+ a Nevada corporation (Liberated the Company, our, or we). All significant inter-company amounts have been eliminated. In the opinion of management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ assumptions and estimates that affect the amounts reported in our consolidated financial statements and accompanying notes. We base our estimates and judgments on historical experience and on various other assumptions that we believe are reasonable under the circumstances. However
+ future events are subject to change
+ and the best estimates and judgments routinely require adjustment. The amounts of assets and liabilities reported in our balance sheet
+ and the amounts of revenues and expenses reported for each of our fiscal periods
+ are affected by estimates and assumptions which are used for
+ but not limited to
+ the accounting for allowance for doubtful accounts
+ goodwill and intangible asset impairments
+ restructurings
+ inventory
+ and income taxes. Actual results could differ from these estimates. The following critical accounting policies are significantly affected by judgments
+ assumptions and estimates used in the preparation of our consolidated financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ we evaluate our estimates
+ including those related to estimated customer life
+ used to determine the appropriate amortization period for deferred revenue and deferred costs associated with licensing fees
+ the useful lives of property and equipment and our estimates of the value of common stock for the purpose of determining stock-based compensation. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable
+
+
+
+
+
+
+
+ Revenue Recognition. SAB 104 clarifies application of U. S. generally accepted accounting principles to revenue transactions. As of the year ended September 30
+ 2017
+ there was no deferred revenue. The Company derives its primary revenue from the sources described below
+
+
+
+
+
+
+
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 Compared to Year Ended September 30
+
+
+
+
+
+
+
+990 and $14
+000
+ respectively
+ for the year ended September 30
+ 2017. For the year ended September 30
+
+
+
+
+
+
+
+ 2017 was $1
+377
+609 compared to $285
+367 for the year ended September 30
+ 2016.&#160; The higher cost in 2017 was attributed mostly to stock based compensation of $844
+164 versus $10
+
+
+
+
+
+
+
+503 for the year ended September 30
+ 2017 compared to $33
+068 for the year ended September30
+ 2016. The higher amount in 2017 is directly attributed to debt settlement gain of $29
+503 offset by interest expense of $151
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+464
+122 for the year ended September 30
+ 2017 compared to a net loss of $318
+436 for the year ended September 30
+
+
+
+
+
+
+Cash
+ Cash Flows
+ and Working Capital
+
+
+
+353 and a working capital deficit of $1
+025
+703 at September 30. 2017 as compared to a net cash balance of $1
+804 and a working capital deficit of $565
+365 at September 30
+ 2016. The decrease in working capital is primarily attributable loss in 2017 plus increase in current liabilities through short term debt borrowings of $455
+350 plus an increase in accrued interest of $70
+
+
+
+
+127 of cash during 2017 as compared to $287
+
+
+
+
+ 2017 was $43
+324 which consisted of loans to Eco Cab of $197
+520 offset by repayments of $ 154
+196 verse none in 2016. As of September 30
+ 2017
+ the Company impaired the balance of $43
+
+
+
+
+000 during 2017 as compared to $271
+968 during 2016.&#160; Cash flows provided by financing activities during the 2017 period related to debt financing of $555
+000. Cash provided in financing activities in 2016 is attributed to borrowings on debt of $271
+
+
+
+
+
+
+
+
+
+
+
+ or both
+ to support our operations going forward.&#160; Except as described below regarding our line of credit
+ we do not presently have any commitments to provide financing
+ if needed
+
+
+
+
+
+
+
+ 2016 the Company issued 1
+100
+000 shares of common stock to two parties for service with a value of $80
+
+
+
+
+ 2016 the Company issued 208
+428 shares of common stock for convertible debt with a value of $39
+
+
+
+
+ 2017 the Company issued 5
+880
+000 shares of commons stock with a value of $844
+
+
+
+
+ 2017 the Company issued 6
+699
+471 shares of common stock with a value of $145
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital)
+ to replace the $41
+400 convertible note issued to Eastmore Capital The note matures on July 13
+
+
+
+
+ 2015
+ LG Capital's lawsuit claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+500 with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&#160; Per the Company the note was not funded but the Company has accrued the note and interest
+ totaling $31
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+000 with an interest rate of 8% per annum. The note matures on September 8
+ 2016
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $18
+000 with an interest rate of 12% per annum. The note matures on March 14
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $17
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. Net proceeds to the Company are $15
+000 after deduction of legal fees of $2
+000. As of September 30
+ 2016
+ the outstanding balance of the note was $17
+000 in principal plus interest of $428 for a total of $17
+
+
+
+
+ 2017
+ LG Capital
+ LLC filed a lawsuit against the Company. The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total claim against the Company of $279
+730.56. The Company negotiated in good faith with LG Capital to settle the debt but to no avail. After reviewing the claim filed by LG Capital
+
+
+
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $28
+000 with an interest rate of 12% per annum. The note matures on August 5
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $21
+000 with an interest rate of 12% per annum. The note matures on September 16
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $18
+000 with net proceeds of $15
+000 and with an interest rate of 12% per annum. The note matures on December 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $23
+000 with an interest rate of 12% per annum. The note matures on July 25
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $197
+363
+70 less legal fees of $8
+000 with an interest rate of 12% per annum. The note matures on September 7
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $237
+475 less an original discount of $30
+975 plus transaction fees of $6
+500 for a net advanced of $200
+000.&#160; The note bears an interest rate of 12% per annum. The note matures on October 3
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest three trading price of the Company's stock for the 20 days prior to the conversion. On September 15
+ 2016 $85
+000 was returned to Carebourn reducing the principal balance to $115
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $98
+325 less an original discount of $12
+825 for a net advanced of $80
+000.&#160; The note bears an interest rate of 12% per annum. The note matures on December 13
+
+
+
+
+ 2017
+ the Company owed Carebourn capital $522
+510 in principal and interest of $77
+877 for a total of $600
+
+
+
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Power Up Lending Group Ltd for a principle amount of $77
+000 less legal fees of $2
+000 with an interest rate of 8% per annum with a default interest rate of 22%. The note matures on September 28
+
+
+
+
+ 2017
+ the Company issued a Convertible Note to Power Up Lending Group Ltd for a principle amount of $33
+000 with an interest rate of 8% per annum with a default interest rate of 22%. The note matures on December 5
+
+
+
+
+ 2017
+ the Company owed Power Up lending $152
+460 in principal and $2
+733 in interest for a total of $155
+
+
+
+
+
+
+
+ 2017
+ the Company issued a Convertible Note to Crown Bridge Partners for a principle amount of $33
+000 with an interest rate of 8% per annum with a default interest rate of 22%. The note matures on December 5
+
+
+
+
+ 2017
+ the Company owed Crown Bridge Partners $40
+000 in principal and $316 in interest for a total of $40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From September 14
+ 2010 through May 9
+ 2017
+ Enterprise CPAs
+ Ltd. (Enterprise) was the independent registered public accounting firm of The Go Eco Group (the Company). On or about May 9
+ 2017
+ Enterprise informed Brian Conway
+ the Company's chief executive officer and a member of the Company's Board of Directors (the Board)
+ that Enterprise would discontinue as the Company's independent registered public accounting firm effective on May 9
+
+
+
+
+ in particular the audit reports for the fiscal years ended September 30
+ 2016 and September 30
+ 2015
+ contained any adverse opinion or disclaimer of opinion
+ nor were qualified or modified as to uncertainty
+ audit scope
+ or accounting principles
+ except for a going concern qualification on the Company's financial statements for the fiscal years ended September 30
+ 2016 and September 30
+
+
+
+
+ the subsequent interim periods thereto
+ and through May 9
+ 2017
+ there were no disagreements (as defined in Item 304 of Regulation S-K) with the Enterprise on any matter of accounting principles or practices
+ financial statement disclosure
+ or auditing scope or procedure
+ which disagreements
+ if not resolved to the satisfaction of Enterprise would have caused it to make reference in connection with its opinion to the subject matter of the disagreement. Further
+ during the Company's two most recent fiscal years
+ the subsequent interim periods thereto
+ and through May 9
+ 2017
+
+
+
+
+ 2017 providing Enterprise with the opportunity to furnish the Company with a letter addressed to the Commission stating whether he agrees with the statements made by the Company herein in response to Item 304(a) of Regulation S-K and
+ if not
+
+
+
+
+
+
+
+ 2017
+ we engaged De Leon &amp; Company
+ P.A.
+ Certified Public Accountants and Consultants
+ Lane
+ Pembroke Pines
+ Florida 33028
+ telephone (954) 445-6478
+ an independent registered accounting firm
+
+
+
+
+ 2016 and September 30
+ 2015
+ and the subsequent interim periods through May 9
+ 2017
+ neither the Company nor anyone acting on its behalf consulted the De Leon &amp; Company
+ P.A. with respect to (i) the application of accounting principles to a specified transaction
+ either completed or proposed
+ or the type of audit opinion that might be rendered on the Company's financial statements
+ and neither a written report nor oral advice was provided to the Company that De Leon &amp; Company
+ P.A. concluded was an important factor considered by the Company in reaching a decision as to the accounting
+ auditing or financial reporting issues; or (ii) any matter that was the subject of a disagreement or a reportable event set forth in Item 304(a)(1)(iv) and (v)
+ respectively
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ including our principal executive officer who also serves as our principal financial officer
+ we conducted an evaluation as of September 30
+ 2017
+ of the effectiveness of the design and operation of our disclosure controls and procedures
+ as such term is defined under Rule 13a-15(e) promulgated under the Securities Exchange Act of 1934
+
+ our principal executive officer and our principal financial officer concluded that our disclosure controls and procedures were not effective as of September 30
+ 2017.
+
+
+
+
+
+
+ in reasonable detail
+ accurately and fairly reflect our transactions and dispositions of our assets; (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of our financial statements in accordance with GAAP
+ and that our receipts and expenditures are being made only in accordance with authorizations of our management and directors; and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition
+
+
+
+
+ there is a risk that material misstatements may not be prevented or detected on a timely basis by internal control over financial reporting. However
+ these inherent limitations are known features of the financial reporting process. Therefore
+ it is possible to design into the process safeguards to reduce
+ though not eliminate
+ this risk.&#160; In addition
+
+
+
+
+ 2017
+ as required by Section 404 of the Sarbanes-Oxley Act of 2002
+ our management conducted an assessment
+ including testing
+ based on the criteria set forth in Internal Control&#8212;Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (the COSO Framework).&#160; A material weakness is a control deficiency
+ or a combination of control deficiencies
+
+
+
+Based on the evaluation performed
+
+
+ management identified as materials weaknesses in our internal control over financial reporting: (1) the lack of accounting proficiency of our chief executive officer who is our sole officer and our principal accounting officer which has resulted in a reliance on part-time outside consultants to perform substantially all of our accounting functions
+ (2) a lack of adequate segregation of duties and necessary corporate accounting resources in our financial reporting process and accounting function
+ and (3) lack of control procedures that include multiple levels of review
+ also arising from our chief executive officer's lack of accounting training and service in multiple roles as well as our limited financial resources to support hiring of personnel and implementation of accounting systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or is reasonably likely to materially affect
+
+
+
+
+
+
+
+ E
+
+
+
+ executive officers and key consultants as well as the principal offices and positions held by each person. We are managed by our Board of Directors. Currently
+ the Board has two members. Our executive officers serve at the discretion of the Board of Directors. There are no family relationships between any of the directors and executive officers. In addition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Financial Officer and Director effective October 1
+ 2014
+ Mr. Conway was paid $12
+000 per month as a consultant and received 5
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Brian P. Conway
+
+ Chief Financial Officer
+ and Chairman of the Board brings 20 years of proven success in marketing and business development for both private and publically traded companies. Starting off in database management and sales for Venture Direct on Madison Avenue
+ he crossed over to Wall Street first as a co-founder of Waypoint Capital Partners. During this time
+ he has overseen national sales
+ marketing
+ business and product development
+ national account customers
+ and new business relations with international and US companies while creating awareness for public companies with many of the nation's top public relations firms. Mr. Conway has been involved with The Go Eco Group for the past year and is responsible for its current joint ventures and for bringing its flagship product the Guard Lite to the marketplace.&#160; His relationships with investment bankers
+ non-dilutive financing
+
+
+
+
+ our Director
+ has more than 35 years of experience in the professional services industry.&#160; The positions that he has held included Mid-Continent Operations Manager of a worldwide seismic service company
+ Vice President of Operations for a privately held environmental drilling service company
+ then Vice President of Field Operations for a NYSE listed oil service firm where he founded a new wholly owned subsidiary
+
+
+
+
+
+
+
+
+
+
+
+
+
+ which he eventually took public in a successful IPO as its President
+ CEO
+ and Director.&#160; Mr. Silverman also co-founded iSafe Imaging in 2002
+
+
+
+Kim Thorne O'Brien
+ our Director
+
+ minor in Biology
+ graduated from Temple University with an M.S. Ed in Exercise Physiology in 1981 and completed all Ph.D. work except dissertation in Cardiovascular Physiology
+ a University Fellow.&#160; From 1986 to 1995
+ Ms. O'Brien was Division Manager at Genentech
+ Inc.&#160; From October 1995 to 2001
+ she was Regional Business Director
+ Northeast Region of MedImmune
+ Inc.&#160; From 2001 to 2004
+ she was Vice President
+ Business Development &amp; Marketing of AdvancedTraces
+ a company engaged in the development of supersensitive detection of biowarfare agents.&#160; Since 2004
+ Ms. O'Brien has been President of Independence
+ Inc.
+ a firm engaged in providing consulting services to start-up biotechnology companies (Diasome
+ Get Better Health
+
+
+
+
+
+
+
+
+
+
+
+
+
+ directors or owners own 10% or more of our common stock have filed reports required by section 16(a) of the Securities and Exchange Act of 1934
+
+
+
+
+
+
+
+
+
+
+ 2015
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Financial Officer and Director effective October 1
+ 2014
+ Mr. Conway is to be paid $111
+500 in 2017 as a consultant and received 12
+000
+000 shares of common stock and 10
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ committee service
+ service as chairman of the board or a committee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as of January 13
+ 2018 certain information concerning the beneficial ownership of our common stock
+ by (i) each person known by us to own beneficially five per cent (5%) or more of the outstanding shares of each class
+ (ii) each of our directors and executive officers
+
+
+
+
+ director or executive officer is determined under the rules of the Securities and Exchange Commission
+ or SEC
+ and the information is not necessarily indicative of beneficial ownership for any other purpose. Under those rules
+ beneficial ownership includes any shares as to which the individual or entity has sole or shared voting power or investment power and any shares that the individual or entity has the right to acquire within 60 days after September 30
+ 2017 through the exercise of any stock option
+ warrant or other right
+ or the conversion of any security.&#160; Unless otherwise indicated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of Preferred Stock
+ with a par value of $0.001. On February 2
+ 2016
+ the Company issued 10
+000
+000 shares of Series A Preferred Stock to an officer and director of the Company. Each share of series A preferred has 10
+
+
+
+
+
+
+
+ 2016
+ the Company issued to an officer and director of the Company 10
+000
+000 shares with a value of $10
+000 of series A preferred stock for service. Each share has 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+
+
+
+
+
+
+
+ as amended
+
+
+
+
+
+
+
+ Enterprise CPA
+ for audit services related to the most recent two fiscal years
+ and for other professional services billed in the most recent two fiscal years
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Certification of Chief Executive and Chief Financial Officer pursuant to Rule 13a-14(a) and Rule 15d-14(a) of the Securities Exchange Act
+ as amended.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Director
+ Secretary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (the Company)
+ as of September 30
+ 2016
+ and 2015
+ and the related statements of operation
+ shareholders' equity
+ and cash flows for year ended September 30
+ 2016 and the cumulative period from January 19
+ 2015 (date of inception of development stage) through September 30
+
+
+
+
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements.&#160; An audit also includes assessing the accounting principles used and significant estimates made by management
+
+
+
+
+ the financial statements referred to in the first paragraph above
+ present fairly
+ in all material respects
+ the financial position of The Go Eco Group
+ Inc. as of September 30
+ 2016
+ 2015
+ and the results of its operations and their cash flows for years ended September 30
+ 2016 and 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 and the related statements of operations
+ shareholders' equity and cash flows for the year then ended. The Go Eco Group's management is responsible for these financial statements. Our responsibility is to express an opinion on these financial statements based on our audit. We were not engaged to examine management's assertion about the effectiveness of The Go Eco Group's internal control over financial reporting as of September 30
+
+
+
+
+ nor were we engaged to perform
+ an audit of its internal control over financial reporting. Our audit included consideration of internal control over financial reporting as a basis for designing audit procedures that are appropriate in the circumstances
+ but not for the purpose of expressing an opinion on the effectiveness of the company's internal control over financial reporting. Accordingly
+ we express no such opinion. An audit also includes examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements
+ assessing the accounting principles used and significant estimates made by management
+
+
+
+
+ the financial statements referred to above present fairly
+ in all material respects
+ the financial position of The Go Eco Group as of September 30
+ 2017
+
+
+
+
+ the Company's ability to raise additional capital through debt and/or equity financing is unknown and the Company has incurred accumulated losses and negative cash flows from operations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares authorized par value $0.001 per share; 10
+000
+000 and none issued and outstanding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 14
+468
+303 at September 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+888
+832 at September 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+801
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+865
+
+
+
+
+
+
+
+
+
+401
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+039
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+377
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+342
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+464
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+089
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+029
+651
+
+
+
+
+
+
+
+029
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+323
+
+
+
+
+
+
+
+
+
+083
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+504
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+758
+367
+
+
+
+
+
+
+
+
+
+758
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+758
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+888
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+401
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+699
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+880
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+464
+
+
+
+
+
+
+
+
+
+464
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+468
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+801
+
+
+
+
+
+
+
+
+
+865
+
+
+
+
+
+
+
+
+
+039
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+464
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (formally Liberated Energy
+ Inc) (the Company)
+ formerly known as Mega World Food Holdings Company is a Nevada corporation formed on September 14
+
+
+
+
+ 2013
+ pursuant to a Common Stock Purchase Agreement
+ dated January 7
+ 2013
+ Perpetual Wind Power Corporation
+ a privately held corporation formed under the laws of the State of Delaware on July 1
+ 2010
+ acquired 24
+500
+000 non-registered shares of the Company from its shareholders
+ thereby owning 24
+500
+000 out of a total of 25
+000
+000 issued and outstanding shares of the Company. Thereafter
+ the Company acquired from Perpetual Wind Power Corporation its patented wind and solar powered turbine technology for 2
+500
+000 newly issued shares of the Company which were distributed in a dividend to its shareholders and Perpetual Wind Power Corporation returned to treasury its 24
+500
+000 shares it acquired from the Company's shareholders. As a result of this transaction
+ the Company had on January 19
+ 2013
+ 3
+000
+000 shares issued and outstanding. On February 14
+ 2013
+ the Company changed its name from Mega World Food Holding Company to The Go Eco Group
+ Inc. and underwent a 24 for 1 stock split
+ whereby the Company's outstanding shares increased from 3
+000
+000 to 72
+000
+
+
+
+
+ 2013
+ the Company disposed of its wholly-owned subsidiary
+ Mega World Food Limited (HK).&#160; Mega World Food Limited (HK) was incorporated on June 24
+ 2010 and was in the business of selling frozen vegetables in all areas of the world except China.&#160; From inception
+ Mega World Food Limited (HK) only incurred setting up
+ formation or organization activities.&#160; Upon disposal
+ the Company ceased these operations and accordingly
+ the Company's financial statements have been prepared with the net assets
+ results of operations
+
+
+
+
+ 2015
+ the Company increased their number of authorized preferred shares from 10
+000
+000 to 100
+000
+000 and authorized common shares from 250
+000
+000 to 900
+000
+
+
+
+
+ 2015
+ the Company amended the preferred shares voting rights increasing the voting of each preferred share from 100 to 10
+
+
+
+
+ 2016
+ the Company adopted a 1-for-3
+500 reverse split of the Company's common stock that as of June 30
+ 2016
+
+
+
+
+ 2016
+ the Company entered into an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will acquire all outstanding ECGLLC membership interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement. The foregoing agreement was amended on October 11
+ 2016 and the Company also entered into an Addendum to the amended agreement.&#160;&#160; The foregoing agreement and transaction described therein has not been completed as of the date of this report and there is no assurance that the transaction will ever be completed
+
+
+
+
+ 2017
+ the Company reduced the authorized shares of common stock from 10
+000
+000
+000 to 2
+000
+000
+000 and changed the name from The Go Eco Group
+
+
+
+
+ 2017
+ the Company terminated the agreements with Ron Knori and EcoCab based upon breach of contract
+ fraud
+ fraudulent inducement
+ fraud in the factum
+ negligent misrepresentation
+ misrepresentation
+ contractual interference
+ breach of fiduciary duty
+ negligence
+ and conversion
+ all of which were perpetrated by Ron Knori
+ individually
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ cash and cash equivalents include all cash balances
+ which are not subject to withdrawal restrictions or penalties
+
+
+
+
+
+
+
+ including cash
+ other assets and accounts payable and accrued expenses consist primarily of instruments without extended maturities
+ the fair value of which
+ based on management's estimates
+
+
+
+
+
+
+
+
+
+
+Property
+ Equipment
+ and Intangible Assets
+
+
+
+ less accumulated depreciation. Additions are capitalized and maintenance and repairs are charged to expense as incurred. Intangible assets consist of acquired customer and vendor databases and are carried at cost
+
+
+
+
+
+
+
+
+
+
+ share-based compensation is measured at grant date
+ based on the fair value of the award and is recognized as expense over the requisite employee service period. The Company accounts for stock-based compensation to other than employees in accordance with FASB ASC 505-50. Equity instruments issued to other than employees are valued at the earlier of a commitment date or upon completion of the services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ estimated returns and allowances
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the Company has a net loss of $1
+464
+122 for the year ended September 30
+ 2017.&#160; As of September 30
+ 2017
+ the Company reported an accumulated deficit of $2
+865
+790. The Company's ability to generate continued positive cash flows is dependent on the ability to grow its operating entity as well as the ability to raise additional capital.&#160; Management is following strategic plans to accomplish these objectives
+
+
+
+
+
+
+
+ fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date (exit price). The Company utilized the market data of similar entities in its industry or assumptions that market participants would use in pricing the asset or liability
+ including assumptions about risk and the risks inherent in the inputs to the valuation technique. These inputs can be readily observable
+ market corroborated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ which are either directly or indirectly observable as of the reported date and includes those financial instruments that are valued using models or other valuation methodologies. These models are primarily industry-standard models that consider various assumptions
+ including quoted forward prices for commodities
+ time value
+ volatility factors
+ and current market and contractual prices for the underlying instruments
+ as well as other relevant economic measures. Substantially all of these assumptions are observable in the marketplace throughout the full term of the instrument
+ can be derived from observable data or are supported by observable levels at which transactions are executed in the marketplace. Instruments in this category generally include non-exchange-traded derivatives such as commodity swaps
+ interest rate swaps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued to an officer and director of the Company 10
+000
+000 shares with a value of $10
+
+
+
+
+ 2017
+ the Company paid the CEO $111
+
+
+
+
+
+
+
+ 2016
+ the Company issued 1
+100
+000 shares of common stock to two parties for service with a value of $80
+
+
+
+
+ 2016
+ the Company issued 208
+428 shares of common stock for convertible debt with a value of $39
+
+
+
+
+ 2017
+ the Company issued 5
+880
+000 shares of commons stock with a value of $844
+
+
+
+
+ 2017
+ the Company issued 6
+699
+471 shares of common stock with a value of $145
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital)
+ to replace the $41
+400 convertible note issued to Eastmore Capital The note matures on July 13
+
+
+
+
+ 2015
+ LG Capital's lawsuit claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+500 with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&#160; Per the Company the note was not funded but the Company has accrued the note and interest
+ totaling $31
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (LG Capital) for a principle amount of $27
+000 with an interest rate of 8% per annum. The note matures on September 8
+ 2016
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $18
+000 with an interest rate of 12% per annum. The note matures on March 14
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to LG Capital Funding
+ LP for a principle amount of $17
+000 with an interest rate of 12% per annum. The note matures on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for the 20 days prior to the conversion. Net proceeds to the Company are $15
+000 after deduction of legal fees of $2
+000. As of September 30
+ 2016
+ the outstanding balance of the note was $17
+000 in principal plus interest of $428 for a total of $17
+
+
+
+
+ 2017
+ LG Capital
+ LLC filed a lawsuit against the Company. The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total claim against the Company of $279
+730.56. The Company negotiated in good faith with LG Capital to settle the debt but to no avail. After reviewing the claim filed by LG Capital
+
+
+
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $28
+000 with an interest rate of 12% per annum. The note matures on August 5
+
+
+
+
+ 2015
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $21
+000 with an interest rate of 12% per annum. The note matures on September 16
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $18
+000 with net proceeds of $15
+000 and with an interest rate of 12% per annum. The note matures on December 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $23
+000 with an interest rate of 12% per annum. The note matures on July 25
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $197
+363
+70 less legal fees of $8
+000 with an interest rate of 12% per annum. The note matures on September 7
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $237
+475 less an original discount of $30
+975 plus transaction fees of $6
+500 for a net advanced of $200
+000.&#160; The note bears an interest rate of 12% per annum. The note matures on October 3
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest three trading price of the Company's stock for the 20 days prior to the conversion. On September 15
+ 2016 $85
+000 was returned to Carebourn reducing the principal balance to $115
+
+
+
+
+ 2016
+ the Company issued a Convertible Note to Carebourn Capital
+ LP for a principle amount of $98
+325 less an original discount of $12
+825 for a net advanced of $80
+000.&#160; The note bears an interest rate of 12% per annum. The note matures on December 13
+
+
+
+
+ 2017
+ the Company owed Carebourn capital $522
+510 in principal and interest of $77
+877 for a total of $600
+
+
+
+
+
+
+On December 13
+ 2016
+ the Company issued a Convertible Note to Power Up Lending Group Ltd for a principle amount of $77
+000 less legal fees of $2
+000 with an interest rate of 8% per annum with a default interest rate of 22%. The note matures on September 28
+
+
+
+
+ 2017
+ the Company issued a Convertible Note to Power Up Lending Group Ltd for a principle amount of $33
+000 with an interest rate of 8% per annum with a default interest rate of 22%. The note matures on December 5
+
+
+
+
+ 2017
+ the Company owed Power Up lending $152
+460 in principal and $2
+733 in interest for a total of $155
+
+
+
+
+
+
+
+ 2017
+ the Company issued a Convertible Note to Crown Bridge Partners for a principle amount of $33
+000 with an interest rate of 8% per annum with a default interest rate of 22%. The note matures on December 5
+
+
+
+
+ 2017
+ the Company owed Crown Bridge Partners $40
+000 in principal and $316 in interest for a total of $40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 or 2016.The Company's deferred tax assets consisted of the following as of September 30
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+112
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+112
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+464
+122 for the year ended September 30
+ 2017 and $318
+436 for the same period in 2016.&#160; As of September 30
+ 2016
+ the Company's net operating loss carry forward was $1
+112
+
+
+
+
+
+
+
+ 2016
+ LG Capital
+ LLC filed a lawsuit against the Company in the County of Kings
+ in the Supreme Court of the State of New York (index number 516298/2016). The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total owing and due including principal and interest of $279
+730.56. The Company has not counter claimed but believes that LG Capital unlawfully attempted to convert some of the loans to common stock of the Company has filed an injunction against the Company transfer agent to block LG Capital from such a conversion. In addition
+ the Company negotiated in good faith with LG Capital to settle the debt but to no avail. After reviewing the claim made by LG Capital
+
+
+
+
+
+
+
+ 2016
+ the Company completed an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will required all outstanding ECGLLC membership interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement. The Company's name will be changed to EcoCab
+ USA
+ Inc as soon as practical after closing. Subsequent closing through January 31. 2017 will take place and during the period from first closing to January 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+ but the Company will have the right to oversee ECPLLC's revenue and payments out on a daily and monthly basis
+
+
+
+
+
+
+
+
+
+
+
+
+
+ but at a minimum
+ the Company will provide at least $400
+000 in working capital funds to ECPLLC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ acquire
+ or become acquired by
+ another company of equal or greater fair value (private or public) to ECPLLC. If the Preferred Shares Condition is fulfilled
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+made audited financials available to the Company within 71 days of the First Closing Date
+
+has positive earnings before interest
+
+
+
+
+
+ the Company will issue the third closing Common Shares to Knori at a Subsequent Closing. The number of third closing Common Shares will be calculated so that Knori's resulting percentage of the Company is equitable based on the fair value of ECPLLC relative to the other assets of the Company
+ but in no event
+ will Knori be required to transfer or cancel shares to reduce Knori's percentage of the outstanding common stock to below 30%. If the parties cannot agree to an equitable number of shares to issue Knori
+ the matter will be submitted to binding arbitration. On November 1
+ 2016 the Company issued 360
+
+
+
+
+ 2017
+ the Company terminated the agreements with Ron Knori and EcoCab based upon breach of contract
+ fraud
+ fraudulent inducement
+ fraud in the factum
+ negligent misrepresentation
+ misrepresentation
+ contractual interference
+ breach of fiduciary duty
+ negligence
+ and conversion
+ all of which were perpetrated by Ron Knori
+ individually
+
+
+
+
+
+
+
+520 as part of the acquisition agreement dated October 11
+ 2016. As the closing has not occurred
+ due to the failure of EcoCab meeting the agreement requirements
+
+
+
+
+ 2017 the Company received payments of $ 154
+196 leaving a balance due the Company as of June 30
+ 2017 of $43
+324. As of September 30
+ 2017
+
+
+
+
+
+
+
+ 2017 the Company issued 661
+642 shares of common stock for the conversion of $6
+
+
+
+
+ 20917 the Company issued 719
+512 shares of common stock for the conversion of $2
+
+
+
+
+ 2017 the Company issued 720
+313 shares of common stock for the conversion of $2
+
+
+
+
+2017 the Company issued 721
+429 shares of common stock for the conversion of $1
+
+
+
+
+ 2017 the Company issued 720
+690 shares of common stock for the conversion of $2
+
+
+
+
+ 2017 the Company issued 700
+000 shares of common stock with a value of $4
+
+
+
+
+ 2018 the Company issued 1
+546
+588 shares of common stock for the conversion of $2
+
+
+
+
+ 2018 the Company issued 811
+917 shares of common stock for the conversion of $1
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 the company formed a joint venture with Bravatek Solutions
+ Inc a Colorado corporation. Under the terms of the agreement the Company will own 65% of the joint venture and contribute $100 plus a nonexclusive license of the intellectual property necessary to develop the Light Guard System with Bravatek contributing $25
+000 plus the sale of software to the JV for $65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ P.S.
+    Document created using EDGARfilings PROfile 4.3.3.1
+    Copyright 1995 - 2018 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Brian Conway
+
+
+
+
+
+
+
+
+
+ Inc. for the year ended September 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such internal control over financial reporting to be designed under our supervision
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or is reasonably likely to materially affect
+
+
+
+
+
+
+
+
+
+
+
+
+
+ based on our most recent evaluation of internal control over financial reporting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ process
+
+
+
+
+
+
+
+
+
+
+
+
+ whether or not material
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ P.S.
+    Document created using EDGARfilings PROfile 4.3.3.1
+    Copyright 1995 - 2018 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (the Company) on Form 10-K for the year ended September 30
+ 2017 as filed with the Securities and Exchange Commission on the date hereof (the Report)
+ I
+ Brian Conway
+ Chief Executive Officer and Chief Financial Officer of the Company
+ certify
+ pursuant to 18 U.S.C. ss. 1350
+ as added by ss. 906 of the Sarbanes-Oxley Act of 2002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ in all material respects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or other document authenticating
+ acknowledging
+ or otherwise adopting the signature that appears in typed form within the electronic version of this written statement required by Section 906
+ has been provided to The Go Eco Group
+ Inc.
+ and will be retained by The Go Eco Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+      
+
+
+
+
+          
+
+
+          
+
+
+
+
+      
+
+
+      
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+ Inc. (formally Liberated&#13;Energy
+ Inc) (the &amp;#34;Company&amp;#34;)
+ formerly known as Mega World Food Holdings Company is a Nevada corporation formed on September&#13;14
+
+ 2013
+ pursuant to a Common&#13;Stock Purchase Agreement
+ dated January 7
+ 2013
+ Perpetual Wind Power Corporation
+ a privately held corporation formed under the&#13;laws of the State of Delaware on July 1
+ 2010
+ acquired 24
+500
+000 non-registered shares of the Company from its shareholders
+&#13;thereby owning 24
+500
+000 out of a total of 25
+000
+000 issued and outstanding shares of the Company. Thereafter
+ the Company acquired&#13;from Perpetual Wind Power Corporation its patented wind and solar powered turbine technology for 2
+500
+000 newly issued shares&#13;of the Company which were distributed in a dividend to its shareholders and Perpetual Wind Power Corporation returned to treasury&#13;its 24
+500
+000 shares it acquired from the Company's shareholders. As a result of this transaction
+ the Company had on January&#13;19
+ 2013
+ 3
+000
+000 shares issued and outstanding. On February 14
+ 2013
+ the Company changed its name from Mega World Food Holding&#13;Company to The Go Eco Group
+ Inc. and underwent a 24 for 1 stock split
+ whereby the Company's outstanding shares increased from&#13;3
+000
+000 to 72
+000
+
+ 2013
+ the Company disposed&#13;of its wholly-owned subsidiary
+ Mega World Food Limited (HK).&amp;#160; Mega World Food Limited (HK) was incorporated on June 24
+ 2010&#13;and was in the business of selling frozen vegetables in all areas of the world except China.&amp;#160; From inception
+ Mega World Food&#13;Limited (HK) only incurred setting up
+ formation or organization activities.&amp;#160; Upon disposal
+ the Company ceased these operations&#13;and accordingly
+ the Company's financial statements have been prepared with the net assets
+ results of operations
+
+ 2015
+ the Company increased&#13;their number of authorized preferred shares from 10
+000
+000 to 100
+000
+000 and authorized common shares from 250
+000
+000 to 900
+000
+
+ 2015
+ the Company amended&#13;the preferred shares voting rights increasing the voting of each preferred share from 100 to 10
+
+ 2016
+ the Company adopted a 1-for-3
+500&#13;reverse split of the Company's common stock that as of June 30
+ 2016
+
+ 2016
+ the Company entered&#13;into an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will acquire all outstanding ECGLLC&#13;membership interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement.&#13;The foregoing agreement was amended on October 11
+ 2016 and the Company also entered into an Addendum to the amended agreement.&amp;#160;&amp;#160;&#13;The foregoing agreement and transaction described therein has not been completed as of the date of this report and there is no&#13;assurance that the transaction will ever be completed
+
+ 2017
+ the Company reduced&#13;the authorized shares of common stock from 10
+000
+000
+000 to 2
+000
+000
+000 and changed the name from The Go Eco Group
+
+ 2017
+ the Company terminated&#13;the agreements with Ron Knori and EcoCab based upon breach of contract
+ fraud
+ fraudulent inducement
+ fraud in the factum
+ negligent&#13;misrepresentation
+ misrepresentation
+ contractual interference
+ breach of fiduciary duty
+ negligence
+ and conversion
+ all of which&#13;were perpetrated by Ron Knori
+ individually
+
+
+
+ cash and cash equivalents include all cash balances
+ which are not subject to withdrawal restrictions or penalties
+
+ including&#13;cash
+ other assets and accounts payable and accrued expenses consist primarily of instruments without extended maturities
+ the&#13;fair value of which
+ based on management's estimates
+
+
+ Equipment
+
+&#13;less accumulated depreciation. Additions are capitalized and maintenance and repairs are charged to expense as incurred. Intangible&#13;assets consist of acquired customer and vendor databases and are carried at cost
+
+ share-based compensation is measured at grant date
+ based on the fair value of the award and is recognized&#13;as expense over the requisite employee service period. The Company accounts for stock-based compensation to other than employees&#13;in accordance with FASB ASC 505-50. Equity instruments issued to other than employees are valued at the earlier of a commitment&#13;date or upon completion of the services
+
+
+ estimated returns and allowances
+
+
+
+ fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction&#13;between market participants at the measurement date (exit price). The Company utilized the market data of similar entities in its&#13;industry or assumptions that market participants would use in pricing the asset or liability
+ including assumptions about risk&#13;and the risks inherent in the inputs to the valuation technique. These inputs can be readily observable
+ market corroborated
+
+
+ which are either directly or indirectly observable as of the reported date and includes those financial instruments that are valued using models or other valuation methodologies. These models are primarily industry-standard models that consider various assumptions
+ including quoted forward prices for commodities
+ time value
+ volatility factors
+ and current market and contractual prices for the underlying instruments
+ as well as other relevant economic measures. Substantially all of these assumptions are observable in the marketplace throughout the full term of the instrument
+ can be derived from observable data or are supported by observable levels at which transactions are executed in the marketplace. Instruments in this category generally include non-exchange-traded derivatives such as commodity swaps
+ interest rate swaps
+
+
+ 2015
+ the Company issued&#13;to an officer and director of the Company 10
+000
+000 shares with a value of $10
+
+ 2017
+&#13;the Company paid the CEO $111
+
+
+ 2016
+&#13;the Company issued 1
+100
+000 shares of common stock to two parties for service with a value of $80
+
+ 2016
+&#13;the Company issued 208
+428 shares of common stock for convertible debt with a value of $39
+
+ 2017
+&#13;the Company issued 5
+880
+000 shares of commons stock with a value of $844
+
+ 2017
+&#13;the Company issued 6
+699
+471 shares of common stock with a value of $145
+
+
+ 2015
+ the Company issued a Convertible&#13;Note to LG CAPITAL FUNDING
+ LLC (&amp;#34;LG Capital&amp;#34;)
+ to replace the $41
+400 convertible note issued to Eastmore Capital The&#13;note matures on July 13
+
+ 2015
+ LG Capital's lawsuit&#13;claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (&amp;#34;LG Capital&amp;#34;) for a principle amount of $27
+500&#13;with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&amp;#160; The note is convertible by the holder at a discount&#13;of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&amp;#160; Per the Company the note&#13;was not funded but the Company has accrued the note and interest
+ totaling $31
+
+ 2015
+ the Company issued&#13;a Convertible Note to LG CAPITAL FUNDING
+ LLC (&amp;#34;LG Capital&amp;#34;) for a principle amount of $27
+000 with an interest rate of&#13;8% per annum. The note matures on September 8
+ 2016
+
+ 2016
+ the Company issued a&#13;Convertible Note to LG Capital Funding
+ LP for a principle amount of $18
+000 with an interest rate of 12% per annum. The note matures&#13;on March 14
+
+ 2016
+ the Company issued a Convertible&#13;Note to LG Capital Funding
+ LP for a principle amount of $17
+000 with an interest rate of 12% per annum. The note matures on March&#13;14
+ 2017.&amp;#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for&#13;the 20 days prior to the conversion. Net proceeds to the Company are $15
+000 after deduction of legal fees of $2
+000. As of September&#13;30
+ 2016
+ the outstanding balance of the note was $17
+000 in principal plus interest of $428 for a total of $17
+
+ 2017
+ LG Capital
+ LLC filed&#13;a lawsuit against the Company. The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the&#13;Company with the total claim against the Company of $279
+730.56. The Company negotiated in good faith with LG Capital to settle&#13;the debt but to no avail. After reviewing the claim filed by LG Capital
+
+ 2015
+ the Company issued&#13;a Convertible Note to Carebourn Capital
+ LP for a principle amount of $28
+000 with an interest rate of 12% per annum. The note&#13;matures on August 5
+
+ 2015
+ the Company issued&#13;a Convertible Note to Carebourn Capital
+ LP for a principle amount of $21
+000 with an interest rate of 12% per annum. The note&#13;matures on September 16
+
+ 2016
+ the Company issued a&#13;Convertible Note to Carebourn Capital
+ LP for a principle amount of $18
+000 with net proceeds of $15
+000 and with an interest rate&#13;of 12% per annum. The note matures on December 11
+
+ 2016
+ the Company issued a Convertible&#13;Note to Carebourn Capital
+ LP for a principle amount of $23
+000 with an interest rate of 12% per annum. The note matures on July&#13;25
+
+ 2016
+ the Company issued&#13;a Convertible Note to Carebourn Capital
+ LP for a principle amount of $197
+363
+70 less legal fees of $8
+000 with an interest rate&#13;of 12% per annum. The note matures on September 7
+
+ 2016
+ the Company issued&#13;a Convertible Note to Carebourn Capital
+ LP for a principle amount of $237
+475 less an original discount of $30
+975 plus transaction&#13;fees of $6
+500 for a net advanced of $200
+000.&amp;#160; The note bears an interest rate of 12% per annum. The note matures on October&#13;3
+ 2017.&amp;#160; The note is convertible by the holder at a discount of 45% of the lowest three trading price of the Company's stock&#13;for the 20 days prior to the conversion. On September 15
+ 2016 $85
+000 was returned to Carebourn reducing the principal balance&#13;to $115
+
+ 2016
+ the Company issued&#13;a Convertible Note to Carebourn Capital
+ LP for a principle amount of $98
+325 less an original discount of $12
+825 for a net advanced&#13;of $80
+000.&amp;#160; The note bears an interest rate of 12% per annum. The note matures on December 13
+
+ 2017
+ the Company&#13;owed Carebourn capital $522
+510 in principal and interest of $77
+877 for a total of $600
+
+ 2016
+ the Company issued&#13;a Convertible Note to Power Up Lending Group Ltd for a principle amount of $77
+000 less legal fees of $2
+000 with an interest rate&#13;of 8% per annum with a default interest rate of 22%. The note matures on September 28
+
+ 2017
+ the Company issued&#13;a Convertible Note to Power Up Lending Group Ltd for a principle amount of $33
+000 with an interest rate of 8% per annum with a&#13;default interest rate of 22%. The note matures on December 5
+
+ 2017
+ the Company owed&#13;Power Up lending $152
+460 in principal and $2
+733 in interest for a total of $155
+
+ 2017
+ the Company issued a&#13;Convertible Note to Crown Bridge Partners for a principle amount of $33
+000 with an interest rate of 8% per annum with a default&#13;interest rate of 22%. The note matures on December 5
+
+ 2017
+ the Company owed&#13;Crown Bridge Partners $40
+000 in principal and $316 in interest for a total of $40
+
+
+
+
+ 2017 or 2016.The Company's deferred tax assets consisted of the following as of September 30
+&#13;2017
+
+112
+570&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td nowrap=nowrap style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 8pt&gt;495
+658&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td nowrap=nowrap style=width: 1%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=padding-bottom: 0.75pt&gt;&lt;font style=font-size: 8pt&gt;Valuation allowance&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=padding-bottom: 0.75pt&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 8pt&gt;(1
+112
+570&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td nowrap=nowrap style=border-bottom: black 1pt solid&gt;&lt;font style=font-size: 8pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=padding-bottom: 0.75pt&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 8pt&gt;(495
+
+464
+122&#13;for the year ended September 30
+ 2017 and $318
+436 for the same period in 2016.&amp;#160; As of September 30
+ 2016
+ the Company's net&#13;operating loss carry forward was $1
+112
+
+
+ 2016
+ LG Capital
+ LLC filed&#13;a lawsuit against the Company in the County of Kings
+ in the Supreme Court of the State of New York (index number 516298/2016).&#13;The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total owing and&#13;due including principal and interest of $279
+730.56. The Company has not counter claimed but believes that LG Capital unlawfully&#13;attempted to convert some of the loans to common stock of the Company has filed an injunction against the Company transfer agent&#13;to block LG Capital from such a conversion. In addition
+ the Company negotiated in good faith with LG Capital to settle the debt&#13;but to no avail. After reviewing the claim made by LG Capital
+
+
+ 2016
+ the Company completed&#13;an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will required all outstanding ECGLLC membership&#13;interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement. The&#13;Company's name will be changed to EcoCab
+ USA
+ Inc as soon as practical after closing. Subsequent closing through January 31. 2017&#13;will take place and during the period from first closing to January 31
+ 2017
+
+ but the Company will have the right to oversee ECPLLC's revenue and payments out on a daily and monthly basis
+
+ but at a minimum
+ the Company will provide at least $400
+000 in working capital funds to ECPLLC
+
+
+ acquire
+ or become acquired by
+ another company of equal or greater fair value (private or public) to ECPLLC. If the Preferred Shares Condition is fulfilled
+
+
+ and&lt;/p&gt;&#13;&#13;&lt;p style=font: 8pt Times New Roman, Times, Serif; margin: 3pt 0; text-align: justify&gt;&amp;#183;&amp;#160;&amp;#160;&amp;#160; &amp;#160;has positive&#13;earnings before interest
+
+&#13;the Company will issue the third closing Common Shares to Knori at a Subsequent Closing. The number of third closing Common Shares&#13;will be calculated so that Knori's resulting percentage of the Company is equitable based on the fair value of ECPLLC relative&#13;to the other assets of the Company
+ but in no event
+ will Knori be required to transfer or cancel shares to reduce Knori's percentage&#13;of the outstanding common stock to below 30%. If the parties cannot agree to an equitable number of shares to issue Knori
+ the&#13;matter will be submitted to binding arbitration. On November 1
+ 2016 the Company issued 360
+
+ 2017
+ the Company terminated&#13;the agreements with Ron Knori and EcoCab based upon breach of contract
+ fraud
+ fraudulent inducement
+ fraud in the factum
+ negligent&#13;misrepresentation
+ misrepresentation
+ contractual interference
+ breach of fiduciary duty
+ negligence
+ and conversion
+ all of which&#13;were perpetrated by Ron Knori
+ individually
+
+
+520&#13;as part of the acquisition agreement dated October 11
+ 2016. As the closing has not occurred
+ due to the failure of EcoCab meeting&#13;the agreement requirements
+
+ 2017 the&#13;Company received payments of $ 154
+196 leaving a balance due the Company as of June 30
+ 2017 of $43
+324. As of September 30
+ 2017
+
+
+ 2017 the Company issued&#13;661
+642 shares of common stock for the conversion of $6
+
+ 20917 the Company issued&#13;719
+512 shares of common stock for the conversion of $2
+
+ 2017 the Company issued&#13;720
+313 shares of common stock for the conversion of $2
+
+2017 the Company issued 721
+429&#13;shares of common stock for the conversion of $1
+
+ 2017 the Company issued&#13;720
+690 shares of common stock for the conversion of $2
+
+ 2017 the Company issued&#13;700
+000 shares of common stock with a value of $4
+
+ 2018 the Company issued 1
+546
+588&#13;shares of common stock for the conversion of $2
+
+ 2018 the Company issued 811
+917&#13;shares of common stock for the conversion of $1
+
+ 2017 the company formed&#13;a joint venture with Bravatek Solutions
+ Inc a Colorado corporation. Under the terms of the agreement the Company will own 65%&#13;of the joint venture and contribute $100 plus a nonexclusive license of the intellectual property necessary to develop the Light&#13;Guard System with Bravatek contributing $25
+000 plus the sale of software to the JV for $65
+
+
+
+    
+
+ cash and cash equivalents include all cash balances
+ which are not subject to withdrawal restrictions or penalties
+
+
+ including&#13;cash
+ other assets and accounts payable and accrued expenses consist primarily of instruments without extended maturities
+ the&#13;fair value of which
+ based on management's estimates
+
+
+
+
+&#13;less accumulated depreciation. Additions are capitalized and maintenance and repairs are charged to expense as incurred. Intangible&#13;assets consist of acquired customer and vendor databases and are carried at cost
+
+
+ share-based compensation is measured at grant date
+ based on the fair value of the award and is recognized&#13;as expense over the requisite employee service period. The Company accounts for stock-based compensation to other than employees&#13;in accordance with FASB ASC 505-50. Equity instruments issued to other than employees are valued at the earlier of a commitment&#13;date or upon completion of the services
+
+
+
+
+ estimated returns and allowances
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+112
+570&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td nowrap=nowrap style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 8pt&gt;495
+658&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td nowrap=nowrap style=width: 1%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=padding-bottom: 0.75pt&gt;&lt;font style=font-size: 8pt&gt;Valuation allowance&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=padding-bottom: 0.75pt&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 8pt&gt;(1
+112
+570&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td nowrap=nowrap style=border-bottom: black 1pt solid&gt;&lt;font style=font-size: 8pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=padding-bottom: 0.75pt&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 8pt&gt;(495
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+000
+000 shares authorized par value $0.001 per share; 10
+000
+000 and none issued and outstanding
+
+
+
+
+000
+000
+000 shares authorized par value $0.001 per share; issued and outstanding
+ 14
+468
+303 at September 30
+ 2017 and 1
+888
+832 at September 30
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+ EQUIPMENT
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+      
+
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+Jan. 12
+ 2018
+Mar. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entity Common Stock
+ Shares Outstanding
+
+
+
+070
+394
+
+
+
+
+
+
+
+
+
+
+
+265
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If the value is true
+ then the document is an amendment to previously-filed/accepted document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal period of the document report. For a first quarter 2006 quarterly report
+ which may also provide financial information from prior periods
+ the first fiscal quarter should be given as the fiscal period focus. Values: FY
+ Q1
+ Q2
+ Q3
+ Q4
+ H1
+ H2
+ M9
+ T1
+ T2
+ T3
+ M8
+ CY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal year of the document report in CCYY format. For a 2006 annual report
+ which may also provide financial information from prior periods
+ fiscal 2006 should be given as the fiscal year focus. Example: 2006.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The end date of the period reflected on the cover page if a periodic report. For all other reports and registration statements containing historical data
+ it is the date up through which that historical data is presented.  If there is no historical data in the report
+ use the filing date. The format of the date is CCYY-MM-DD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The type of document being provided (such as 10-K
+ 10-Q
+ 485BPOS
+ etc). The document type is limited to the same value as the supporting SEC submission type
+ or the word Other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests
+ if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member]
+ Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings
+ Instrument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No whether registrants (1) have filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that registrants were required to file such reports)
+ and (2) have been subject to such filing requirements for the past 90 days. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate whether the registrant is one of the following: (1) Large Accelerated Filer
+ (2) Accelerated Filer
+ (3) Non-accelerated Filer
+ (4) Smaller Reporting Company (Non-accelerated) or (5) Smaller Reporting Accelerated Filer. Definitions of these categories are stated in Rule 12b-2 of the Exchange Act. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State aggregate market value of voting and non-voting common equity held by non-affiliates computed by reference to price at which the common equity was last sold
+ or average bid and asked price of such common equity
+ as of the last business day of registrant's most recently completed second fiscal quarter. The public float should be reported on the cover page of the registrants form 10K.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The exact name of the entity filing the report as specified in its charter
+ which is required by forms filed with the SEC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Is used on Form Type: 10-K
+ 10-Q
+ 8-K
+ 20-F
+ 6-K
+ 10-K/A
+ 10-Q/A
+ 20-F/A
+ 6-K/A
+ N-CSR
+ N-Q
+ N-1A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Sep. 30
+ 2017
+Sep. 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+353
+
+
+804
+
+
+
+
+
+353
+
+
+804
+
+
+
+
+
+353
+
+
+804
+
+
+
+
+
+
+
+
+
+
+
+
+970
+
+
+433
+
+
+
+
+
+086
+
+
+736
+
+
+
+
+
+107
+056
+
+
+169
+
+
+
+
+
+107
+056
+
+
+169
+
+
+
+
+
+
+
+
+
+
+Preferred Stock: 10
+000
+000 shares authorized par value $0.001 per share; 10
+000
+000 and none issued and outstanding
+ respectively
+
+000
+
+
+000
+
+
+
+Common Stock: 10
+000
+000
+000 shares authorized par value $0.001 per share; issued and outstanding
+ 14
+468
+303 at September 30
+ 2017 and 1
+888
+832 at September 30
+ 2016
+
+468
+
+
+888
+
+
+
+
+
+801
+619
+
+
+414
+
+
+
+
+
+865
+790)
+
+
+401
+668)
+
+
+
+
+
+039
+702)
+
+
+365)
+
+
+
+
+
+353
+
+
+804
+
+
+
+
+
+
+
+Sum of the carrying values as of the balance sheet date of obligations incurred through that date and due within one year (or the operating cycle
+ if longer)
+ including liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received
+ taxes
+ interest
+ rent and utilities
+ accrued salaries and bonuses
+ payroll taxes and fringe benefits.
+ -Subparagraph (SX 210.5-02.19
+20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock
+ use the element additional paid in capital
+ common stock. For additional paid-in capital associated with only preferred stock
+ use the element additional paid in capital
+ preferred stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash
+ sold
+ or consumed within one year (or the normal operating cycle
+ if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of the carrying value of long-term convertible debt as of the balance sheet date that is scheduled to be repaid within one year or in the normal operating cycle if longer. Convertible debt is a financial instrument which can be exchanged for a specified amount of another security
+ typically the entity's common stock
+ at the option of the issuer or the holder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of liabilities and equity items
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable preferred stock (or preferred stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable preferred shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Sep. 30
+ 2017
+Sep. 30
+ 2016
+
+
+
+
+
+
+
+
+
+Preferred shares
+ par value
+
+
+
+
+
+
+Preferred shares
+ shares authorized
+
+000
+000
+
+
+000
+000
+
+
+
+Preferred shares
+ shares issued
+
+
+
+
+
+
+Preferred shares
+ shares outstanding
+
+
+
+
+
+
+Common stock
+ par value
+
+
+
+
+
+
+Common stock
+ authorized
+
+000
+000
+000
+
+
+000
+000
+000
+
+
+
+Common stock
+ issued
+
+468
+303
+
+
+888
+832
+
+
+
+Common stock
+ outstanding
+
+468
+303
+
+
+888
+832
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) issued to shareholders (includes related preferred shares that were issued
+ repurchased
+ and remain in the treasury). May be all or portion of the number of preferred shares authorized. Excludes preferred shares that are classified as debt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+Sep. 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+900
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+990
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+377
+609
+
+
+367
+
+
+
+
+
+342
+619)
+
+
+367)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+010)
+
+
+345)
+
+
+
+
+
+503
+
+
+510
+
+
+
+
+
+
+
+234)
+
+
+
+
+
+503)
+
+
+068)
+
+
+
+
+
+464
+122)
+
+
+436)
+
+
+
+Loss per Share
+ Basic &amp; Dilutive
+
+
+
+
+
+
+
+
+089
+611
+
+
+545
+
+
+
+
+
+
+
+Amount of write-down of assets recognized in the income statement. Includes
+ but is not limited to
+ losses from tangible assets
+ intangible assets and goodwill.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (SX 210.5-03.2(a)
+(d))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate total of expenses of managing and administering the affairs of an entity
+ including affiliates of the reporting entity
+ which are not directly or indirectly associated with the manufacture
+ sale or creation of a product or product line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (SX 210.5-03.1
+2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating interest income
+ including
+ but not limited to
+ amortization and accretion of premiums and discounts on securities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of income (expense) related to nonoperating activities
+ classified as other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of revenue recognized from goods sold
+ services rendered
+ insurance premiums
+ or other activities that constitute an earning process. Includes
+ but is not limited to
+ investment and interest income before deduction of interest expense when recognized as a component of revenue
+ and sales and trading gain (loss).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+Beginning balance
+ Amount at Sep. 30
+ 2015
+
+029
+652
+
+
+000
+
+
+323
+118)
+
+
+083
+232)
+
+
+698)
+
+
+
+Beginning balance
+ Shares at Sep. 30
+ 2015
+
+029
+651
+437
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+Common stock issued for debt
+ Amount
+
+504
+
+
+
+
+735)
+
+
+
+
+769
+
+
+
+Common stock issued for debt
+ Shares
+
+504
+288
+
+
+
+
+
+
+
+
+
+
+
+Common stock issued for service
+ Amount
+
+100
+
+
+
+
+900
+
+
+
+
+000
+
+
+
+Common stock issued for service
+ Shares
+
+100
+000
+
+
+
+
+
+
+
+
+
+
+
+Reverse of common stock
+ Amount
+
+758
+367)
+
+
+
+
+758
+367
+
+
+
+
+
+
+
+Reverse of common stock
+ Shares
+
+758
+367
+395)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+436)
+
+
+
+Ending balance
+ Amount at Sep. 30
+ 2016
+
+889
+
+
+000
+
+
+414
+
+
+401
+668)
+
+
+365)
+
+
+
+Ending balance
+ Shares at Sep. 30
+ 2016
+
+888
+832
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+Common stock issued for debt
+ Amount
+
+699
+
+
+
+
+920
+
+
+
+
+619
+
+
+
+Common stock issued for debt
+ Shares
+
+699
+471
+
+
+
+
+
+
+
+
+
+
+
+Common stock issued for service
+ Amount
+
+880
+
+
+
+
+285
+
+
+
+
+165
+
+
+
+Common stock issued for service
+ Shares
+
+880
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+464
+122)
+
+
+464
+122)
+
+
+
+Ending balance
+ Amount at Sep. 30
+ 2017
+
+468
+
+
+000
+
+
+801
+619
+
+
+865
+790)
+
+
+039
+702)
+
+
+
+Ending balance
+ Shares at Sep. 30
+ 2017
+
+468
+303
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number of shares of stock issued as of the balance sheet date
+ including shares that had been issued and were previously outstanding but which are now held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number of shares issued in lieu of cash for services contributed to the entity. Number of shares includes
+ but is not limited to
+ shares issued for services contributed by vendors and founders.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Value of stock issued in lieu of cash for services contributed to the entity. Value of the stock issued includes
+ but is not limited to
+ services contributed by vendors and founders.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+Sep. 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+464
+122)
+
+
+436)
+
+
+
+
+
+
+
+
+
+
+
+
+164
+
+
+000
+
+
+
+
+
+
+
+000)
+
+
+
+
+
+324
+
+
+
+
+
+
+
+970
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+880
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+537
+
+
+471)
+
+
+
+
+
+127)
+
+
+085)
+
+
+
+
+
+
+
+
+
+
+
+
+520)
+
+
+
+
+
+
+
+196
+
+
+
+
+
+
+
+324)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+968
+
+
+
+
+
+000
+
+
+968
+
+
+
+
+
+549
+
+
+117)
+
+
+
+
+
+804
+
+
+921
+
+
+
+
+
+353
+
+
+804
+
+
+
+
+
+
+
+
+
+
+
+
+620
+
+
+769
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of increase (decrease) in cash and cash equivalents. Cash and cash equivalents are the amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The increase (decrease) during the reporting period
+ excluding the portion taken into income
+ in the liability reflecting revenue yet to be earned for which cash or other forms of consideration was received or recorded as a receivable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The increase (decrease) during the reporting period in the aggregate value of all inventory held by the reporting entity
+ associated with underlying transactions that are classified as operating activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from financing activities
+ including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from investing activities
+ including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property
+ plant
+ and equipment and other productive assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from operating activities
+ including discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash inflow from the issuance of a long-term debt instrument which can be exchanged for a specified amount of another security
+ typically the entity's common stock
+ at the option of the issuer or the holder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate amount of noncash
+ equity-based employee remuneration. This may include the value of stock or unit options
+ amortization of restricted stock or units
+ and adjustment for officers' compensation. As noncash
+ this element is an add back when calculating net cash generated by operating activities using the indirect method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+
+
+
+ Inc. (formally Liberated
+Energy
+ Inc) (the &#34;Company&#34;)
+ formerly known as Mega World Food Holdings Company is a Nevada corporation formed on September
+14
+ 2010.
+
+
+ 2013
+ pursuant to a Common
+Stock Purchase Agreement
+ dated January 7
+ 2013
+ Perpetual Wind Power Corporation
+ a privately held corporation formed under the
+laws of the State of Delaware on July 1
+ 2010
+ acquired 24
+500
+000 non-registered shares of the Company from its shareholders
+thereby owning 24
+500
+000 out of a total of 25
+000
+000 issued and outstanding shares of the Company. Thereafter
+ the Company acquired
+from Perpetual Wind Power Corporation its patented wind and solar powered turbine technology for 2
+500
+000 newly issued shares
+of the Company which were distributed in a dividend to its shareholders and Perpetual Wind Power Corporation returned to treasury
+its 24
+500
+000 shares it acquired from the Company's shareholders. As a result of this transaction
+ the Company had on January
+19
+ 2013
+ 3
+000
+000 shares issued and outstanding. On February 14
+ 2013
+ the Company changed its name from Mega World Food Holding
+Company to The Go Eco Group
+ Inc. and underwent a 24 for 1 stock split
+ whereby the Company's outstanding shares increased from
+3
+000
+000 to 72
+000
+000.
+
+
+ 2013
+ the Company disposed
+of its wholly-owned subsidiary
+ Mega World Food Limited (HK).&#160; Mega World Food Limited (HK) was incorporated on June 24
+ 2010
+and was in the business of selling frozen vegetables in all areas of the world except China.&#160; From inception
+ Mega World Food
+Limited (HK) only incurred setting up
+ formation or organization activities.&#160; Upon disposal
+ the Company ceased these operations
+and accordingly
+ the Company's financial statements have been prepared with the net assets
+ results of operations
+ and cash flows
+of this business displayed separately as &#34;discontinued operations.&#34;
+
+
+ 2015
+ the Company increased
+their number of authorized preferred shares from 10
+000
+000 to 100
+000
+000 and authorized common shares from 250
+000
+000 to 900
+000
+000.
+
+
+ 2015
+ the Company amended
+the preferred shares voting rights increasing the voting of each preferred share from 100 to 10
+000 votes on any action voted on
+by the common stock holders
+
+
+ 2016
+ the Company adopted a 1-for-3
+500
+reverse split of the Company's common stock that as of June 30
+ 2016
+ was not yet effective.
+
+
+ 2016
+ the Company entered
+into an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will acquire all outstanding ECGLLC
+membership interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement.
+The foregoing agreement was amended on October 11
+ 2016 and the Company also entered into an Addendum to the amended agreement.&#160;&#160;
+The foregoing agreement and transaction described therein has not been completed as of the date of this report and there is no
+assurance that the transaction will ever be completed
+ and the Company is contemplating rescinding the agreement and initiating
+suit against Knori.
+
+
+ 2017
+ the Company reduced
+the authorized shares of common stock from 10
+000
+000
+000 to 2
+000
+000
+000 and changed the name from The Go Eco Group
+ Inc to The
+Go Eco Group.
+
+
+ 2017
+ the Company terminated
+the agreements with Ron Knori and EcoCab based upon breach of contract
+ fraud
+ fraudulent inducement
+ fraud in the factum
+ negligent
+misrepresentation
+ misrepresentation
+ contractual interference
+ breach of fiduciary duty
+ negligence
+ and conversion
+ all of which
+were perpetrated by Ron Knori
+ individually
+ and in his capacity as manager of EcoCab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for organization
+ consolidation and basis of presentation of financial statements disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+Basis
+of Accounting
+
+
+on the accrual basis of accounting.&#160; The accompanying financial statements have been prepared on that basis
+ in which revenues
+and gains are recognized when earned and expenses and losses are recognized when incurred.
+
+
+
+
+in conformity with generally accepted accounting principles in the United States of America requires management to make estimates
+and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.&#160; Actual
+results could differ from those estimates.
+
+Cash
+and Cash Equivalents
+
+
+flows
+ cash and cash equivalents include all cash balances
+ which are not subject to withdrawal restrictions or penalties
+ and
+highly liquid investments and debt instruments with a maturity of three months or less from the date of purchase.
+
+Fair
+Value of Financial Instruments
+
+
+ including
+cash
+ other assets and accounts payable and accrued expenses consist primarily of instruments without extended maturities
+ the
+fair value of which
+ based on management's estimates
+ reasonably approximate their book value. The fair value of our notes and
+advances payable is based on management estimates and reasonably approximates their book value based on their current maturity.
+
+Net
+Loss per Common Share
+
+
+accordance with Statement of Financial Accounting Standards (SFAS) ASC 260
+ Earnings per Share (EPS). ASC 260 requires presentation
+of basic and diluted EPS. Basic EPS is computed by dividing the income (loss) available to common shareholders by the weighted-average
+number of common shares outstanding for the period. Diluted EPS is based on the weighted-average number of shares of common stock
+and common stock equivalents outstanding during the periods.
+
+Property
+ Equipment
+and Intangible Assets
+
+
+less accumulated depreciation. Additions are capitalized and maintenance and repairs are charged to expense as incurred. Intangible
+assets consist of acquired customer and vendor databases and are carried at cost
+ less accumulated amortization.
+
+
+principally on the straight-line basis method over the estimated useful lives of the assets.
+
+Stock-Based
+Compensation
+
+
+to employees and non-employees in accordance with ASC 718 requiring employee equity awards to be accounted for under the fair value
+method. Accordingly
+ share-based compensation is measured at grant date
+ based on the fair value of the award and is recognized
+as expense over the requisite employee service period. The Company accounts for stock-based compensation to other than employees
+in accordance with FASB ASC 505-50. Equity instruments issued to other than employees are valued at the earlier of a commitment
+date or upon completion of the services
+ based on the fair value of the equity instruments and is recognized as expense over the
+service period. The Company estimates the fair value of share-based payments using the Black-Scholes option-pricing model for common
+stock options and the closing price of the company's common stock for common share issuances.
+
+
+
+
+There was zero inventory in stock in September 30
+ 2017 and 2016 respectively.
+
+Revenue
+and Cost Recognition
+
+
+from product sales or services will be recognized in accordance with ASC 605 &#34;Revenue Recognition&#34;. Four basic criteria
+must be met before revenue can be recognized: (1) persuasive evidence of an arrangement exists; (2) delivery has occurred; (3)
+the selling price is fixed and determinable; and (4) collectability is reasonably assured. Determination of criteria (3) and (4)
+are based on management's judgments regarding the fixed nature of the selling prices of the products delivered and the collectability
+of those amounts. Provisions for discounts and rebates to customers
+ estimated returns and allowances
+ and other adjustments are
+provided for in the same period the related sales are recorded. The Company will defer any revenue for which the product was not
+delivered or is subject to refund until such time that the Company and the customer jointly determine that the product has been
+delivered or no refund will be required.
+
+Income
+Taxes
+
+
+Taxes&#34; which requires the recognition of deferred tax assets and liabilities for the expected future tax consequences of events
+that have been included in the financial statements or tax returns. Under this method
+ deferred income taxes are recognized for
+the tax consequences in future years of differences between the tax bases of assets and liabilities and their financial reporting
+amounts at each year-end based on enacted tax laws and statutory tax rates applicable to the periods in which the differences are
+expected to affect taxable income. Temporary differences between taxable income reported for financial reporting purposes and income
+tax purposes primarily relate to the recognition of debt costs and stock based compensation expense. The adoption of ASC 740-10
+did not have a material impact on the Company's results of operations or financial condition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+As defined in (Financial Accounting Standards
+Board ASC 820)
+ fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction
+between market participants at the measurement date (exit price). The Company utilized the market data of similar entities in its
+industry or assumptions that market participants would use in pricing the asset or liability
+ including assumptions about risk
+and the risks inherent in the inputs to the valuation technique. These inputs can be readily observable
+ market corroborated
+ or
+generally unobservable. The Company classifies fair value balances based on the observability of those inputs. FASB ASC 820 establishes
+a fair value hierarchy that prioritizes the inputs used to measure fair value. The hierarchy gives the highest priority to unadjusted
+quoted prices in active markets for identical assets or liabilities (level 1 measurement) and the lowest priority to unobservable
+inputs (level 3 measurement).
+
+
+
+
+
+    
+Quoted prices are available in active markets for identical assets or liabilities as of the reporting date. Active markets are those in which transactions for the asset or liability occur in sufficient frequency and volume to provide pricing information on an ongoing basis. Level 1 primarily consists of financial instruments such as exchange-traded derivatives
+ marketable securities and listed equities.
+
+
+
+
+    
+Pricing inputs are other than quoted prices in active markets included in level 1
+ which are either directly or indirectly observable as of the reported date and includes those financial instruments that are valued using models or other valuation methodologies. These models are primarily industry-standard models that consider various assumptions
+ including quoted forward prices for commodities
+ time value
+ volatility factors
+ and current market and contractual prices for the underlying instruments
+ as well as other relevant economic measures. Substantially all of these assumptions are observable in the marketplace throughout the full term of the instrument
+ can be derived from observable data or are supported by observable levels at which transactions are executed in the marketplace. Instruments in this category generally include non-exchange-traded derivatives such as commodity swaps
+ interest rate swaps
+ options and collars.
+
+
+
+
+    
+    
+
+
+
+the conversion value is equal or less than par value of the shares used for conversion thus determining&#160;&#160; that the fair
+value of the notes is equal to their face value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for the fair value of financial instruments (as defined)
+ including financial assets and financial liabilities (collectively
+ as defined)
+ and the measurements of those instruments as well as disclosures related to the fair value of non-financial assets and liabilities. Such disclosures about the financial instruments
+ assets
+ and liabilities would include: (1) the fair value of the required items together with their carrying amounts (as appropriate); (2) for items for which it is not practicable to estimate fair value
+ disclosure would include: (a) information pertinent to estimating fair value (including
+ carrying amount
+ effective interest rate
+ and maturity
+ and (b) the reasons why it is not practicable to estimate fair value; (3) significant concentrations of credit risk including: (a) information about the activity
+ region
+ or economic characteristics identifying a concentration
+ (b) the maximum amount of loss the entity is exposed to based on the gross fair value of the related item
+ (c) policy for requiring collateral or other security and information as to accessing such collateral or security
+ and (d) the nature and brief description of such collateral or security; (4) quantitative information about market risks and how such risks are managed; (5) for items measured on both a recurring and nonrecurring basis information regarding the inputs used to develop the fair value measurement; and (6) for items presented in the financial statement for which fair value measurement is elected: (a) information necessary to understand the reasons for the election
+ (b) discussion of the effect of fair value changes on earnings
+ (c) a description of [similar groups] items for which the election is made and the relation thereof to the balance sheet
+ the aggregate carrying value of items included in the balance sheet that are not eligible for the election; (7) all other required (as defined) and desired information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+On February 4
+ 2015
+ the Company issued
+to an officer and director of the Company 10
+000
+000 shares with a value of $10
+000 of series A preferred stock for service. Each
+share has 10 votes on all matters of the Company in which the shareholders can vote.
+
+
+ 2017
+the Company paid the CEO $111
+500 in consulting fees along with expenses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+During the year ended September 30
+ 2016
+the Company issued 1
+100
+000 shares of common stock to two parties for service with a value of $80
+000.
+
+
+ 2016
+the Company issued 208
+428 shares of common stock for convertible debt with a value of $39
+769.
+
+
+ 2017
+the Company issued 5
+880
+000 shares of commons stock with a value of $844
+165 for services.
+
+
+ 2017
+the Company issued 6
+699
+471 shares of common stock with a value of $145
+619 for convertible debt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for shareholders' equity comprised of portions attributable to the parent entity and noncontrolling interest
+ including other comprehensive income. Includes
+ but is not limited to
+ balances of common stock
+ preferred stock
+ additional paid-in capital
+ other capital and retained earnings
+ accumulated balance for each classification of other comprehensive income and amount of comprehensive income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company issued a Convertible
+Note to LG CAPITAL FUNDING
+ LLC (&#34;LG Capital&#34;)
+ to replace the $41
+400 convertible note issued to Eastmore Capital The
+note matures on July 13
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of the lowest trading price of
+the Company's stock for the 15 days prior to the conversion
+
+
+ 2015
+ LG Capital's lawsuit
+claims the Company issued a Convertible Note to LG CAPITAL FUNDING
+ LLC (&#34;LG Capital&#34;) for a principle amount of $27
+500
+with an interest rate of 8% per annum. The note matures on August 11
+ 2016.&#160; The note is convertible by the holder at a discount
+of 55% of the lowest trading price of the Company's stock for the 15 days prior to the conversion.&#160; Per the Company the note
+was not funded but the Company has accrued the note and interest
+ totaling $31
+843.
+
+
+ 2015
+ the Company issued
+a Convertible Note to LG CAPITAL FUNDING
+ LLC (&#34;LG Capital&#34;) for a principle amount of $27
+000 with an interest rate of
+8% per annum. The note matures on September 8
+ 2016
+ 2016.&#160; The note is convertible by the holder at a discount of 55% of
+the lowest trading price of the Company's stock for the 15 days prior to the conversion.
+
+
+ 2016
+ the Company issued a
+Convertible Note to LG Capital Funding
+ LP for a principle amount of $18
+000 with an interest rate of 12% per annum. The note matures
+on March 14
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest trading price of the Company's
+stock for the 20 days prior to the conversion.
+
+
+ 2016
+ the Company issued a Convertible
+Note to LG Capital Funding
+ LP for a principle amount of $17
+000 with an interest rate of 12% per annum. The note matures on March
+14
+ 2017.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the Company's stock for
+the 20 days prior to the conversion. Net proceeds to the Company are $15
+000 after deduction of legal fees of $2
+000. As of September
+30
+ 2016
+ the outstanding balance of the note was $17
+000 in principal plus interest of $428 for a total of $17
+428.
+
+
+ 2017
+ LG Capital
+ LLC filed
+a lawsuit against the Company. The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the
+Company with the total claim against the Company of $279
+730.56. The Company negotiated in good faith with LG Capital to settle
+the debt but to no avail. After reviewing the claim filed by LG Capital
+ it is the opinion of Company Management that the Company's
+outstanding liability to LG Capital has been fully recognized and accounted for in the financial statements of the Company. (See
+Note 9- Legal).
+
+
+
+
+ 2015
+ the Company issued
+a Convertible Note to Carebourn Capital
+ LP for a principle amount of $28
+000 with an interest rate of 12% per annum. The note
+matures on August 5
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of the
+Company's stock for the 20 days prior to the conversion.
+
+
+ 2015
+ the Company issued
+a Convertible Note to Carebourn Capital
+ LP for a principle amount of $21
+000 with an interest rate of 12% per annum. The note
+matures on September 16
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the lowest trading price of
+the Company's stock for the 20 days prior to the conversion.
+
+
+ 2016
+ the Company issued a
+Convertible Note to Carebourn Capital
+ LP for a principle amount of $18
+000 with net proceeds of $15
+000 and with an interest rate
+of 12% per annum. The note matures on December 11
+ 2016.&#160; The note is convertible by the holder at a discount of 50% of the
+lowest trading price of the Company's stock for the 20 days prior to the conversion.
+
+
+ 2016
+ the Company issued a Convertible
+Note to Carebourn Capital
+ LP for a principle amount of $23
+000 with an interest rate of 12% per annum. The note matures on July
+25
+ 20172017.&#160; The note is convertible by the holder at a discount of 45% of the lowest three trading price of the Company's
+stock for the 20 days prior to the conversion.
+
+
+ 2016
+ the Company issued
+a Convertible Note to Carebourn Capital
+ LP for a principle amount of $197
+363
+70 less legal fees of $8
+000 with an interest rate
+of 12% per annum. The note matures on September 7
+ 20172017.&#160; The note is convertible by the holder at a discount of 50% of
+the lowest three trading price of the Company's stock for the 20 days prior to the conversion.
+
+
+ 2016
+ the Company issued
+a Convertible Note to Carebourn Capital
+ LP for a principle amount of $237
+475 less an original discount of $30
+975 plus transaction
+fees of $6
+500 for a net advanced of $200
+000.&#160; The note bears an interest rate of 12% per annum. The note matures on October
+3
+ 2017.&#160; The note is convertible by the holder at a discount of 45% of the lowest three trading price of the Company's stock
+for the 20 days prior to the conversion. On September 15
+ 2016 $85
+000 was returned to Carebourn reducing the principal balance
+to $115
+114.
+
+
+ 2016
+ the Company issued
+a Convertible Note to Carebourn Capital
+ LP for a principle amount of $98
+325 less an original discount of $12
+825 for a net advanced
+of $80
+000.&#160; The note bears an interest rate of 12% per annum. The note matures on December 13
+ 2018.&#160; The note is convertible
+by the holder at a discount of 45% of the lowest three trading price of the Company's stock for the 20 days prior to the conversion.
+
+
+ 2017
+ the Company
+owed Carebourn capital $522
+510 in principal and interest of $77
+877 for a total of $600
+387.
+
+
+
+
+ 2016
+ the Company issued
+a Convertible Note to Power Up Lending Group Ltd for a principle amount of $77
+000 less legal fees of $2
+000 with an interest rate
+of 8% per annum with a default interest rate of 22%. The note matures on September 28
+ 2017.&#160; The note is convertible by the
+holder at a discount of 48% of the lowest three trading price of the Company's stock for the 10 days prior to the conversion.
+
+
+ 2017
+ the Company issued
+a Convertible Note to Power Up Lending Group Ltd for a principle amount of $33
+000 with an interest rate of 8% per annum with a
+default interest rate of 22%. The note matures on December 5
+ 2017.&#160; The note is convertible by the holder at a discount of
+48% of the lowest three trading price of the Company's stock for the 10 days prior to the conversion.
+
+
+ 2017
+ the Company owed
+Power Up lending $152
+460 in principal and $2
+733 in interest for a total of $155
+193.
+
+
+
+
+ 2017
+ the Company issued a
+Convertible Note to Crown Bridge Partners for a principle amount of $33
+000 with an interest rate of 8% per annum with a default
+interest rate of 22%. The note matures on December 5
+ 2017.&#160; The note is convertible by the holder at a discount of 48% of
+the lowest three trading price of the Company's stock for the 10 days prior to the conversion
+
+
+ 2017
+ the Company owed
+Crown Bridge Partners $40
+000 in principal and $316 in interest for a total of $40
+316.
+
+
+convertible instruments to determine their fair value. After reviewing the characteristic and the value of the conversion
+ Management
+has determined based on note conversion history that the conversion value is equal or less than par value of the shares used for
+conversion thus determining that the fair value of the notes is equal to their face value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of borrowings which can be exchanged for a specified number of another security at the option of the issuer or the holder. Disclosures include
+ but are not limited to
+ principal amount
+ amortized premium or discount
+ and amount of liability and equity components.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+The Company follows Accounting Standards
+Codification 740
+ Accounting for Income Taxes.
+
+
+for the years ended September 30
+ 2017 or 2016.The Company's deferred tax assets consisted of the following as of September 30
+2017
+ and 2016:
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+1
+112
+570
+    
+    
+    
+495
+658
+    
+
+    
+    
+    
+(1
+112
+570
+    
+    
+    
+(495
+658
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+464
+122
+for the year ended September 30
+ 2017 and $318
+436 for the same period in 2016.&#160; As of September 30
+ 2016
+ the Company's net
+operating loss carry forward was $1
+112
+570 that will begin to expire in the year 2034.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for income taxes. Disclosures may include net deferred tax liability or asset recognized in an enterprise's statement of financial position
+ net change during the year in the total valuation allowance
+ approximate tax effect of each type of temporary difference and carryforward that gives rise to a significant portion of deferred tax liabilities and deferred tax assets
+ utilization of a tax carryback
+ and tax uncertainties information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+On September 15
+ 2016
+ LG Capital
+ LLC filed
+a lawsuit against the Company in the County of Kings
+ in the Supreme Court of the State of New York (index number 516298/2016).
+The filing alleges that the Company has defaulted on several unpaid loans from LG Capital to the Company with the total owing and
+due including principal and interest of $279
+730.56. The Company has not counter claimed but believes that LG Capital unlawfully
+attempted to convert some of the loans to common stock of the Company has filed an injunction against the Company transfer agent
+to block LG Capital from such a conversion. In addition
+ the Company negotiated in good faith with LG Capital to settle the debt
+but to no avail. After reviewing the claim made by LG Capital
+ is the opinion of management that the outstanding liability to LG
+Capital has been fully recognized and accounted for in the financial statements of the Company. (See Note 6-Convertible Notes).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for legal proceedings
+ legal contingencies
+ litigation
+ regulatory and environmental matters and other contingencies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+On October 11
+ 2016
+ the Company completed
+an agreement with Ron Knori (Kroni) Owner of EcoCab Portland
+ LLC by which the Company will required all outstanding ECGLLC membership
+interest for a 20% non-dilutive interest of the outstanding shares of the Company with the first closing of the agreement. The
+Company's name will be changed to EcoCab
+ USA
+ Inc as soon as practical after closing. Subsequent closing through January 31. 2017
+will take place and during the period from first closing to January 31
+ 2017
+
+
+
+
+    
+The Company will not attempt to change the current management or operations of ECPLLC without the consent of Knori
+ but the Company will have the right to oversee ECPLLC's revenue and payments out on a daily and monthly basis
+
+
+    
+The Company will use commercially reasonable efforts to finance the growth of EPCLLC's revenues
+ but at a minimum
+ the Company will provide at least $400
+000 in working capital funds to ECPLLC
+
+
+
+
+
+    
+all LIBE convertible notes held by Carebourn Capital L.P. are retired (or Carebourn Capital L.P. consents to the issuance to Knori of the Preferred Shares they hold as collateral)
+ and
+
+    
+and that the Company has not closed or entered into a binding agreement to merge with
+ acquire
+ or become acquired by
+ another company of equal or greater fair value (private or public) to ECPLLC. If the Preferred Shares Condition is fulfilled
+ Knori will be issued the Preferred Shares at a Subsequent Closing. &#34;
+
+    
+    
+    
+
+
+
+that ECPLLC has audited financial statements available to the Company. If the Second Tranche Condition is met
+ The Company will
+issue the additional Common Shares to SELLER at a Subsequent Closing.
+
+
+
+
+financials available to the Company within 71 days of the First Closing Date
+ and
+
+earnings before interest
+ tax and depreciation and amortization (&#34;
+
+
+the Company will issue the third closing Common Shares to Knori at a Subsequent Closing. The number of third closing Common Shares
+will be calculated so that Knori's resulting percentage of the Company is equitable based on the fair value of ECPLLC relative
+to the other assets of the Company
+ but in no event
+ will Knori be required to transfer or cancel shares to reduce Knori's percentage
+of the outstanding common stock to below 30%. If the parties cannot agree to an equitable number of shares to issue Knori
+ the
+matter will be submitted to binding arbitration. On November 1
+ 2016 the Company issued 360
+000 shares of common stock for the
+acquisition.
+
+
+ 2017
+ the Company terminated
+the agreements with Ron Knori and EcoCab based upon breach of contract
+ fraud
+ fraudulent inducement
+ fraud in the factum
+ negligent
+misrepresentation
+ misrepresentation
+ contractual interference
+ breach of fiduciary duty
+ negligence
+ and conversion
+ all of which
+were perpetrated by Ron Knori
+ individually
+ and in his capacity as manager of EcoCab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+The Company had advanced Eco Cab $197
+520
+as part of the acquisition agreement dated October 11
+ 2016. As the closing has not occurred
+ due to the failure of EcoCab meeting
+the agreement requirements
+ the Company has treated the advances as receivables due the Company.
+
+
+ 2017 the
+Company received payments of $ 154
+196 leaving a balance due the Company as of June 30
+ 2017 of $43
+324. As of September 30
+ 2017
+the Company determined the receivable was uncollectible and impaired the asset.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for the details of the charge against earnings resulting from the aggregate write down of all assets from their carrying value to their fair value. Disclosure may also include a description of the impaired asset and facts and circumstances leading to the impairment
+ amount of the impairment loss and where the loss is located in the income statement
+ method(s) for determining fair value
+ and the segment in which the impaired asset is reported.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+On November 11
+ 2017 the Company issued
+661
+642 shares of common stock for the conversion of $6
+616 of convertible debt.
+
+
+ 20917 the Company issued
+719
+512 shares of common stock for the conversion of $2
+950 of convertible debt.
+
+
+ 2017 the Company issued
+720
+313 shares of common stock for the conversion of $2
+305 of convertible debt.
+
+
+2017 the Company issued 721
+429
+shares of common stock for the conversion of $1
+515 of convertible debt.
+
+
+ 2017 the Company issued
+720
+690 shares of common stock for the conversion of $2
+090 of convertible debt.
+
+
+ 2017 the Company issued
+700
+000 shares of common stock with a value of $4
+620 to one individual for service.
+
+
+ 2018 the Company issued 1
+546
+588
+shares of common stock for the conversion of $2
+941 of convertible debt and $500 interest payment.
+
+
+ 2018 the Company issued 811
+917
+shares of common stock for the conversion of $1
+624 of convertible debt.
+
+
+ 2017 the company formed
+a joint venture with Bravatek Solutions
+ Inc a Colorado corporation. Under the terms of the agreement the Company will own 65%
+of the joint venture and contribute $100 plus a nonexclusive license of the intellectual property necessary to develop the Light
+Guard System with Bravatek contributing $25
+000 plus the sale of software to the JV for $65
+000.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue
+ purchase of a business
+ settlement of litigation
+ catastrophic loss
+ significant foreign exchange rate changes
+ loans to insiders or affiliates
+ and transactions not in the ordinary course of business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+The Company maintains its books and records
+on the accrual basis of accounting.&#160; The accompanying financial statements have been prepared on that basis
+ in which revenues
+and gains are recognized when earned and expenses and losses are recognized when incurred.
+
+
+
+
+
+The presentation of financial statements
+in conformity with generally accepted accounting principles in the United States of America requires management to make estimates
+and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period.&#160; Actual
+results could differ from those estimates.
+
+
+
+
+For the purpose of the statement of cash
+flows
+ cash and cash equivalents include all cash balances
+ which are not subject to withdrawal restrictions or penalties
+ and
+highly liquid investments and debt instruments with a maturity of three months or less from the date of purchase.
+
+
+
+
+
+Our short-term financial instruments
+ including
+cash
+ other assets and accounts payable and accrued expenses consist primarily of instruments without extended maturities
+ the
+fair value of which
+ based on management's estimates
+ reasonably approximate their book value. The fair value of our notes and
+advances payable is based on management estimates and reasonably approximates their book value based on their current maturity.
+
+
+
+
+
+The Company computes per share amounts in
+accordance with Statement of Financial Accounting Standards (SFAS) ASC 260
+ Earnings per Share (EPS). ASC 260 requires presentation
+of basic and diluted EPS. Basic EPS is computed by dividing the income (loss) available to common shareholders by the weighted-average
+number of common shares outstanding for the period. Diluted EPS is based on the weighted-average number of shares of common stock
+and common stock equivalents outstanding during the periods.
+
+
+
+
+PROPERTY
+ EQUIPMENT
+ AND INTANGIBLE ASSETS
+Property and equipment are carried at cost
+less accumulated depreciation. Additions are capitalized and maintenance and repairs are charged to expense as incurred. Intangible
+assets consist of acquired customer and vendor databases and are carried at cost
+ less accumulated amortization.
+
+
+principally on the straight-line basis method over the estimated useful lives of the assets.
+
+
+
+
+
+The Company accounts for stock-based compensation
+to employees and non-employees in accordance with ASC 718 requiring employee equity awards to be accounted for under the fair value
+method. Accordingly
+ share-based compensation is measured at grant date
+ based on the fair value of the award and is recognized
+as expense over the requisite employee service period. The Company accounts for stock-based compensation to other than employees
+in accordance with FASB ASC 505-50. Equity instruments issued to other than employees are valued at the earlier of a commitment
+date or upon completion of the services
+ based on the fair value of the equity instruments and is recognized as expense over the
+service period. The Company estimates the fair value of share-based payments using the Black-Scholes option-pricing model for common
+stock options and the closing price of the company's common stock for common share issuances.
+
+
+
+
+
+Inventories are stated at the cost of goods.
+There was zero inventory in stock in September 30
+ 2017 and 2016 respectively.
+
+
+
+
+It is the Company's policy that revenue
+from product sales or services will be recognized in accordance with ASC 605 &#34;Revenue Recognition&#34;. Four basic criteria
+must be met before revenue can be recognized: (1) persuasive evidence of an arrangement exists; (2) delivery has occurred; (3)
+the selling price is fixed and determinable; and (4) collectability is reasonably assured. Determination of criteria (3) and (4)
+are based on management's judgments regarding the fixed nature of the selling prices of the products delivered and the collectability
+of those amounts. Provisions for discounts and rebates to customers
+ estimated returns and allowances
+ and other adjustments are
+provided for in the same period the related sales are recorded. The Company will defer any revenue for which the product was not
+delivered or is subject to refund until such time that the Company and the customer jointly determine that the product has been
+delivered or no refund will be required.
+
+
+
+
+
+The Company utilizes ASC 740 &#34;Income
+Taxes&#34; which requires the recognition of deferred tax assets and liabilities for the expected future tax consequences of events
+that have been included in the financial statements or tax returns. Under this method
+ deferred income taxes are recognized for
+the tax consequences in future years of differences between the tax bases of assets and liabilities and their financial reporting
+amounts at each year-end based on enacted tax laws and statutory tax rates applicable to the periods in which the differences are
+expected to affect taxable income. Temporary differences between taxable income reported for financial reporting purposes and income
+tax purposes primarily relate to the recognition of debt costs and stock based compensation expense. The adoption of ASC 740-10
+did not have a material impact on the Company's results of operations or financial condition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for basis of accounting
+ or basis of presentation
+ used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for cash and cash equivalents
+ including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents
+ (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk
+ (3) the classification of any negative balance accounts (overdrafts)
+ and (4) the carrying basis of cash equivalents (for example
+ at cost) and whether the carrying amount of cash equivalents approximates fair value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for computing basic and diluted earnings or loss per share for each class of common stock and participating security. Addresses all significant policy factors
+ including any antidilutive items that have been excluded from the computation and takes into account stock dividends
+ splits and reverse splits that occur after the balance sheet date of the latest reporting period but before the issuance of the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for fair value measurements of financial and non-financial assets
+ liabilities and instruments classified in shareholders' equity. Disclosures include
+ but are not limited to
+ how an entity that manages a group of financial assets and liabilities on the basis of its net exposure measures the fair value of those assets and liabilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for income taxes
+ which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances
+ recognizing investment tax credits
+ operating loss carryforwards
+ tax credit carryforwards
+ and other carryforwards
+ methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of inventory accounting policy for inventory classes
+ including
+ but not limited to
+ basis for determining inventory amounts
+ methods by which amounts are added and removed from inventory classes
+ loss recognition on impairment of inventories
+ and situations in which inventories are stated above cost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for intangible assets and long-lived
+ physical assets used in the normal conduct of business and not intended for resale. Includes
+ but is not limited to
+ accounting policies and methodology
+ roll forwards
+ depreciation
+ depletion and amortization expense
+ including composite depreciation
+ accumulated depreciation
+ depletion and amortization expense
+ useful lives and method used
+ income statement disclosures
+ assets held for sale and public utility disclosures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for revenue recognition. If the entity has different policies for different types of revenue transactions
+ the policy for each material type of transaction is generally disclosed. If a sales transaction has multiple element arrangements (for example
+ delivery of multiple products
+ services or the rights to use assets) the disclosure may indicate the accounting policy for each unit of accounting as well as how units of accounting are determined and valued. The disclosure may encompass important judgment as to appropriateness of principles related to recognition of revenue. The disclosure also may indicate the entity's treatment of any unearned or deferred revenue that arises from the transaction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for stock option and stock incentive plans. This disclosure may include (1) the types of stock option or incentive plans sponsored by the entity (2) the groups that participate in (or are covered by) each plan (3) significant plan provisions and (4) how stock compensation is measured
+ and the methodologies and significant assumptions used to determine that measurement.
+ -Subparagraph (b)
+(f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+1
+112
+570
+    
+    
+    
+495
+658
+    
+
+    
+    
+    
+(1
+112
+570
+    
+    
+    
+(495
+658
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of the components of net deferred tax asset or liability recognized in an entity's statement of financial position
+ including the following: the total of all deferred tax liabilities
+ the total of all deferred tax assets
+ the total valuation allowance recognized for deferred tax assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+Sep. 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+464
+122)
+
+
+436)
+
+
+
+
+
+865
+790)
+
+
+401
+668)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets
+ represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Sep. 30
+ 2017
+Sep. 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+112
+570
+
+
+658
+
+
+
+
+
+112
+570)
+
+
+658)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (b)
+(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Sep. 30
+ 2017
+Sep. 30
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+464
+122)
+
+
+436)
+
+
+
+
+
+
+
+112
+570
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 Financial_Report.xlsx
+M4$L#!!0    ( #UQ+$P?(\\#P    !
+
+
+
+2G8A4.X    K @  $0   &1O8U!R;W!S+V-O
+
+
+
+
+M$P   'AL+W1H96UE+W1H96UE
+2YX;6SM6EMSVC@4?N^OT'AG]FT+QC:!MK03
+X%<R)!%!,!FGK_# J5
+7K5::0##.'W)$Q+#
+MW(*+$MX%,O67.!;&B\CUNJTV]U6A&ELH1A'9&!]7BQH0-!445IO7RTY1\S
+
+YV?/;$[9^
+RMIT-&T:
+
+
+
+
+
+
+
+
+
+M2^JVE+ZU)CA*]+'
+
+
+
+
+
+
+
+N2D5SJT^.7]%+(.&3E[2
+M)1(4BK 
+
+
+W)#V%0E\Z[:)@N%
+
+
++$CN'MB[\!
+
+
+
+H[XV_B0JD
+
+
+
+MNR]%'Y,O%3GB]03T;+LR)G^I/)7M^-J% U6CE5#6U&Q-N#TM A7Z'F+DTP
+
+]8IH30]2FRJN=$-K6MM2:WCCS4:#IJ:..Y_
+M6/]BG%?.[(F@&U;_KH[RL@AG87D)W*MY0N[?Z76H2P
+
+
+
+
+@].G)/&8!
+''
+!2A0^WSGG-0!)8(D9
+M*#'S^:DCT4
+
+8);Z*&V$09B+$$)SKR$]E[ :9
+MQ8RC#
+=H(N
+
+O0#R3I;#D5#3;;\
+
+CUJ?[I.DVQYE+;H[
+
+
+
+I:-EVIFJB5^V7\
+M$=]O
+
+
+X^BDQM5_2EW^KB
+\SC:R;TX5_J'NGZ10T
+TCH;NO\F+
+
+
+
+
+-^
+M'O1SV KS6N$0
+
+9A\'K
+
+
+
+
+TY7XZ3IHWOI^!F2!
+
+
+M!'7'-95QVOZ(_D4G+Y
+Y((YWE/RN3J+
+W=1U3OB
+KD2\T.XK'A**7&?(_CN^
+
+
+(5([?[ Z@^T/YSZUT82O231DD9+X I
+MSTCDD6K&$EI9P@5+! V67A)-5O%@_Q@X3PAG1)&5*%H2&7EOH\5)LH]Q8PA
+MMC+$2P;C$&WCAPSW%#.&Q
+
+MT\ZXUE:N]9(K
+
+M=JB28S5Q3]02P,$%     @ /7$L3(8WS@T+ P  E0L  !@   !X;]W;W)K
+
+
+/[6HASZHJ
+M&_'0!MVYKHOVWUI4\KH
+
+
+
+
+(C_XR=XA]G,C/V ;BHQ/4/
+M0+#
+
+\IG/GQF]U@+V.NUX'V
+9N( ;/
+
+
+
+W3&;'WO(^-LV0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R+65AK4R1M+FQ[A;@@E+*&$$D)2MTIHAXZ.9*)Y7Q#Q AY1;S%6
+M\(C$KR
+QX69BGP#JQF)Q!AJ5!*NDF7#%:S10D;98I(%17XM1:P[%:/0(NVEV
+MH12@;OW*X)Y 16 
+R02#U$9+
+
+G^XU7;'A LH%J=L=[NHMXT09&M?$G$5 U]N^;
+
+M)$3^RV9*\@6_LPBZLR3XA1DQ&B=#1JC?UQR2EY_PZNS2G6__2.NWK&QFKU7K
+
+M!!0    ( #UQ+$Q?$V01P0
+  
+
+
+
+
+
+CFLW7K/5
+M=G;T?9V+9?0^Y)DE+Y
+
+
+
+ML@4H -^^\3A$BD
+
+4]#9&@(+@V10BY)A1*N(2J[
+
+B $#PB1!R$R( 07A$CY!E(EA(.
+#O
+
+
+ZBY)$9*E&
+
+
+M%ID9O.PTGUQ@U+_CF!-&-.4WIS/'5-ZX.#%5DO&O@._D=_MFBQA:7J%&C7
+
+
+N-GF.MY1\E
+
+
+
+1:O&#+8:$
+
+18O4T;4!  #2 P
+
+
+
+
+
+
+/7
+
+2A
+
+O&_M?(SKP4G97?H1:_\$60T'MPO&3
+
+
+M=
+
+
+
+
+SS 5
+
+
+
+
+
+MN:H#+=R-&:#'F\98+3R:MF5NL#J-**\21YQ[20/2WSZ#O;
+
+
+
+
+\_CF_P+GZ?]F[M[!VY&(\O&_O?&.
+
+M
+
+
+M:OO
+VF
+
+M)+
+
+P/7YC?TQ
+MUNYKN3 +#UK\XHWK2WR'40
+M&X5[UM
+3I'IN
+
+M2'UOZN,K8AW7KSUWFNUS[*7 -1BCG-
+70=LT00S[ZDH%LI3O0_.-V&9YL*
+MLPC/WBG
+
+
+
+F;;*YINUG
+
+
+
+MKL+ ZI?LG)M3H^45%+0;E''#_#7
+\[2N;BO\(-E \/2GR.$I6-*RD'ZU#/
+M+%Z*%L_3+KNXC]
+
+
+
+
+
+M971S+W-H965T
+3
+
+M. DJQ!F02_?O!R1-TS;[ MCX/3\;DXUHGFP+X
+
+EBUH8:^P
+
+[W;73 O9T2*+OI
+I
+
+
+5_APLH'QZ4^!PE*AM74@[6H9Y9
+MO!0MGJ===G$?IQO.9]@V@
+\ O@!N8AXV)8K*OP@GBLS@2
+
+M#
+[8BGCGQ5OOO11)FF3L$HCFF.
+
+M-PK_0Y!N$J21('U#L']7XE9
+^BX)6_54@VGB-%E2XM#%25YYEX&]C8_(7L.G
+
+
+
+S\/8'08X&W
+M^
+
+=G%&
+
+
+
+
+96
+
+
+
+O97/C1ZCS'VPV!#0N'._\V4QC-AE.]^D'D?D;E_\
+
+
+
+0B4G
+
+
+FL[8BGCG
+MQ5OO/9=I]C4GYT TQQRF&+J.62*(9U]2T*T4!_H)3K?ANTV%NPC?K;-?)]L$
+
+JFJEJIE5:IVCY[80 KOE#;+.G?
+
+
+M8'RI[H+@D!Y0
+#Q^T*3R!E($(9OV=.NJ0
+P/7YQOXIUHZU7+B#)R-_B=IW
+
+
+
+
+MYW;^ MQQ[]V[XT@'-
+^V 7#D5:O69K1QKCLP9HL&M+!7V$'K;RHT6CAOFIK9
+
+
+
+
+3@N
+
+
+
+
+
+
+9MCNHG-W936
+
+AB&&?)&)
+
+
+M9P@6*
+
+
+MF9=*$0H_^RAH)OT4?:X[&B
+4_@^ @;*9/X#B[YHFGRD6?GHP4.97'W)7[!J0
+M%U?F55*:^MZS)UU:B6[V!7+__A#_U@\E*W*C@*;4JN*XQG(3286*('\WXK
+
+
+
+.?
+
+
+JYP
+<B4
+M*J_9XZ5N=$C
+
+KXIT7;[WW4B9[FI-+()ICCE
+
+
+
+
+$%     @ /7$L3(*TUZT  @
+PXZ<C%LVP
+
+
+
+
+M0Z1E_)DYW:6E*5S/7]D_6^_:RY5(.'/ZNRU5D[F)ZY10D8&J)SY^@=E/Y#JS
+
+M
+
+M2QN))DLPD3)+:0SD(^X# .L;\ULP
+
+
+
+6VNBG: DH5
+I
+#WHNI@LY!8KW\UN#
+
+
+
+
+
+
+
+
+
+
+MKKDYFXT J9NJ:J56BK9J^^S 24!K8VH[8?OW]85%E%AYP3['
+^
+9
+
+
+/T#_' [25'A6
+
+:C&/;)*C$*^V^-J4*+:&@$&MK0(UPQ7V
+MP)@5
+
+M: K_#:[ #-PZ
+7O4@BGWC.J+TH)/*L8*IV]^['HWCGXE3R=:F)!.A'0F)/E=
+
+4;2?ZR!VC.1[#+S
+FO;=._.K9FTRG2O5?*4%OAJ
+MA2;
+
+
+
+
+
+
+
+
+H2
+M5:W42JM4:9^]
+
+=C)U
+
+
+M=TYIB
+
+
+
+
+
+M[D9CHRC;R=S%'U*QB%Y.GS[[.=W]?9IFXN
+
+MWL@(OMS%R=K+X
+
+\ROZQ
+MUST[V_OA^S3XX?OLA_-XF:]EE(E1Y(M)E 79DYA&/&801^)0O)^=B_U7!]^_
+MSG[X_C5VXH[=GKB
+
+
+
+]'%VJF-F8+ V\1A$$6U.EU
+MM%RB $S%QGOR%J$DN+SE
+LF!5.1'$*=U;AK'T8
+$\L/F49Q)TWD[_!?M4/ B
+
+
+M+4
+
+^
+*7
+OQ77-Y/;T7QZ?37;(H!!
+
+)-H.R% C?QU$9#(A
+
+
+
+
+JXH=\;L
+RCEHX84@J0#HS7J:R7)C0DRV*&G0N-S
+M/6V6U7H'G D0\(M,3_^R/K-&0=S6)Y7)0UL]
+
+J40B7Y9D4O
+L
+
+
+;^6D''M7&
+
+$XJF_\
+
+MR2;F1?%0/JI XV
+ZX)^B)CCJB.M(_.1%.8;$NF?T8Q]\D#Q!MLI0#'@JFN/P
+
+
+
+
+KP/
+
+$F_
+
+
+
+
+
+P
+
+
+
++7QF%)%\22L9JL!/
+
+
+
+
+
+MW5D'*1 %8 S^4!Y(PT]Z
+C1
+
+
+MK6SYU&GTB'O@Y
+
+
+
+
+
+
+
+M;[1!
+=&
+E5RV:\G:HS'; *1#AEP$TC
+(:575
+
+
+O=DD
+
+
+
+
+
+M3/[=Y2$H@H?7^7U=KATX_ -Q6B0G0%)10ZE'LK86N20(=
+ADNKAX-8!C\L
+
+M$CHD3$QLC5BA 6)!6
+
+M2M&D8NV_!*L&Z
+
+
+
+ #[@D965^?3V[*9[)BJCK'+&:$H
+MJ Q
+
+
+MV2
+
+H$*/=F8OQ6E!0--L4_4
+M''
+^%H=@]4UOQ8?1Q?N)N)R
+L
+R
+
+
+
+
+M/U) C]6V!(E&%(?JB10T
+
+
+MN=S52P'UFL0++AQQ 5BGB)'G4=&^C-=E- '=Z0ME+1$=6ROZ''X)TW9@@#
+MVD\)J \M]@LB]Q^BU/?0]^#^8=5,F+6 YQLCA'TK+J=52Y2V&X9EK $8
+
+
+MMO1;YT+!];?_/.UUN]^)?Y862ZU-].W3EEXDJ@N]@3Q+60)[
+)Q
+
+
+!2?XR9YL/824^A=JH]!-)3[
+?H3:52Q4'5T8'4AY[
+
+M15J$'Z9*P^EF-5MH$]# \_EJ2V);0&M$ D$0@$HA5 3+/!UY@(]!5JBX3F
+
+ X
+
+
+M%'K?X'1HYNVW
+4..LO2?<
+M%%*.%,,AX
+
+
+MN\\+8-@^4]8D N^4AN&
+H)F3;2UT^Y ;U#(;78$!F/:WDXO1?'(N;D:W]8-&
+
+MIEZIJDHJ(::@Z
+@NPC2!515?[(@)N
+
+
+M@7MZVHR;5 %3Q\#QL=L=#FPTI9\)Q= =GIVYQR?=-HS4^?!XX Z[9XVH:J'3
+
+
+
+
+
+YXQ?%;
+
+
+M^P([
+
+
+
+
+
+
+MO' 3/H'&S0'I_I^_![T^6'@G U7:C\4BP2K P[ME;\F_
+
+
+
+G\;*9VP
+
+\
+4E(#?*?
+MODO]9XRAAKUP7KX7AOH&GR?9G;]F)W9B8H%
+[!BLAPKK8+OWW.-A P\#V9_T
+
+5$S$?_IR4K3(WXE =/*E?
+MN=LZ0'-1@QW75-6IS87JX]BG*BF*3)\ 3=G-D.1LL
+KQTM+1@/)9!V
+T\T&1
+9!??CO6_J;_NGPC??U*;4
+M PS9 ;BHQV<#=S@XI<L@U!%G?2!+[!?-#L2^:BD.'$P&- SZBAZL.SA#6^#
+
+ QRDN
+
+
+USBX^O=9OL'R
+
+
+
+
+
+MN^9.P5@MW17O9R.^0Q!(
+
+MMT.JU*$Y
+
+
+
+EGR
+M20ESSE_BE:M PB3#]6
+
+
+?GPB-Y=/3H18Z@YZ_X!O
+
+
++^F3%3 /*=D5
+MQ?CH7$Z!BMK-
+#
+T::I/D;$?ECQ@YF2R+%&WH-EE3?J&
+
+
+
+MO1B*(['WR=)+&Q;Z9BA78/Q B1&0-:&Z:$D1WUI*NM2E1*U:9*C#N%6[)2/K
+
+
+
+
+
+
+\R['?
+KL*06-4%F\ 8$J!_@%
+
+
+
+
+
+
+
+MB;-@'H;+@!
+
+MD(G^'*$D
+
+
+
+
+
+
+
+M94&\Z@'14XCI.@Q1\M DFRPBHE*
+(G
+
+2TJ0-V[(X64Y=G$JY483FY
+
+
+
+
+MQ==+;H
+
+M0#/_ GVXQMV.K1F\$UK?7+MN\'GH@G!ODCIBP9[[5?&XC#>J8SK=1@O72VM
+M+BZZ1JG2-)-N/D.
+
+!!%?R7*MB+&:4L? C9MMRU2^P.N/2$6
+M?LDV%/Z^CH%*1:E$!4BSB6//^
+ZQ
+
+
+^;C*]-)F*P5^950
+
+XC
+
+SKD_PW8/H-4$L! A0#%     @ /7$L3!\C
+MSP/     $P(   L              ( !     %]R96QS+RYR96QS4$L! A0#
+
+2G8A4.X    K @  $0
+
+
+
+
+
+
+
+
+
+R0_HMK
+#  #$#P  &
+
+M%     @ /7$L3%\39!'! P  S1   !@              ( !;!@  'AL+W=O
+
+
+
+
+18O4T;4!  #2 P  &               @ %/'@
+
+M 0  T@
+
+
+M+GAM;%!+ 0(4 Q0    ( #UQ+$P
+
+
+M3%:Q7'.U 0  T@
+
+O
+
+
+
+
+
+
+3
+
+
+
+
+
+
+
+
+M%     @ /7$L3(*TUZT  @  _ 0  !D              ( !X34  'AL+W=O
+
+
+YX;6Q02P$% 
+TY
+
+
+
+
+
+
+
+
+!DM[X7
+!   5$   $P              @ ';;   6T-O
+F;G1E;G1?5'EP97-=+GAM;%!+!08     (  @ )((  !_;@     !
+end
+
+
+
+
+
+
+
+
+/**
+ * Rivet Software Inc.
+ *
+ * @copyright Copyright (c) 2006-2011 Rivet Software
+ Inc. All rights reserved.
+ * Version 2.4.0.3
+ *
+ */
+var Show = {};
+Show.LastAR = null
+Show.hideAR = function(){
+	Show.LastAR.style.display = 'none';
+};
+Show.showAR = function ( link
+ id
+ win ){
+	if( Show.LastAR ){
+		Show.hideAR();
+	}
+	var ref = link;
+	do {
+		ref = ref.nextSibling;
+	} while (ref && ref.nodeName != 'TABLE');
+	if (!ref || ref.nodeName != 'TABLE') {
+		var tmp = win ?
+			win.document.getElementById(id) :
+			document.getElementById(id);
+		if( tmp ){
+			ref = tmp.cloneNode(true);
+			ref.id = '';
+			link.parentNode.appendChild(ref);
+		}
+	}
+	if( ref ){
+		ref.style.display = 'block';
+		Show.LastAR = ref;
+	}
+};
+Show.toggleNext = function( link ){
+	var ref = link;
+	do{
+		ref = ref.nextSibling;
+	}while( ref.nodeName != 'DIV' );
+	if( ref.style &&
+		ref.style.display &&
+		ref.style.display == 'none' ){
+		ref.style.display = 'block';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '+'
+ '-' );
+		}else{
+			link.innerText = link.innerText.replace( '+'
+ '-' );
+		}
+	}else{
+		ref.style.display = 'none';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '-'
+ '+' );
+		}else{
+			link.innerText = link.innerText.replace( '-'
+ '+' );
+		}
+	}
+};
+
+
+
+
+
+
+
+
+/* Updated 2009-11-04 */
+/* v2.2.0.24 */
+/* DefRef Styles */
+..report table.authRefData{
+	background-color: #def;
+	border: 2px solid #2F4497;
+	font-size: 1em;
+	position: absolute;
+}
+..report table.authRefData a {
+	display: block;
+	font-weight: bold;
+}
+..report table.authRefData p {
+	margin-top: 0px;
+}
+..report table.authRefData .hide {
+	background-color: #2F4497;
+	padding: 1px 3px 0px 0px;
+	text-align: right;
+}
+..report table.authRefData .hide a:hover {
+	background-color: #2F4497;
+}
+..report table.authRefData .body {
+	height: 150px;
+	overflow: auto;
+	width: 400px;
+}
+..report table.authRefData table{
+	font-size: 1em;
+}
+/* Report Styles */
+..pl a
+ .pl a:visited {
+	color: black;
+	text-decoration: none;
+}
+/* table */
+..report {
+	background-color: white;
+	border: 2px solid #acf;
+	clear: both;
+	color: black;
+	font: normal 8pt Helvetica
+ Arial
+ san-serif;
+	margin-bottom: 2em;
+}
+..report hr {
+	border: 1px solid #acf;
+}
+/* Top labels */
+..report th {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+..report th.void	{
+	background-color: transparent;
+	color: #000000;
+	font: bold 10pt Helvetica
+ Arial
+ san-serif;
+	text-align: left;
+}
+..report .pl {
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+	width: 200px;
+	white-space: normal; /* word-wrap: break-word; */
+}
+..report td.pl a.a {
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	overflow: hidden;
+}
+..report td.pl div.a {
+	width: 200px;
+}
+..report td.pl a:hover {
+	background-color: #ffc;
+}
+/* Header rows... */
+..report tr.rh {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+}
+/* Calendars... */
+..report .rc {
+	background-color: #f0f0f0;
+}
+/* Even rows... */
+..report .re
+ .report .reu {
+	background-color: #def;
+}
+..report .reu td {
+	border-bottom: 1px solid black;
+}
+/* Odd rows... */
+..report .ro
+ .report .rou {
+	background-color: white;
+}
+..report .rou td {
+	border-bottom: 1px solid black;
+}
+..report .rou table td
+ .report .reu table td {
+	border-bottom: 0px solid black;
+}
+/* styles for footnote marker */
+..report .fn {
+	white-space: nowrap;
+}
+/* styles for numeric types */
+..report .num
+ .report .nump {
+	text-align: right;
+	white-space: nowrap;
+}
+..report .nump {
+	padding-left: 2em;
+}
+..report .nump {
+	padding: 0px 0.4em 0px 2em;
+}
+/* styles for text types */
+..report .text {
+	text-align: left;
+	white-space: normal;
+}
+..report .text .big {
+	margin-bottom: 1em;
+	width: 17em;
+}
+..report .text .more {
+	display: none;
+}
+..report .text .note {
+	font-style: italic;
+	font-weight: bold;
+}
+..report .text .small {
+	width: 10em;
+}
+..report sup {
+	font-style: italic;
+}
+..report .outerFootnotes {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+begin 644 0001721716-18-000012-xbrl.zip
+M4$L#!!0    ( #UQ+$QP4?;B&CT   ZJ 0 1    ;&EB92TR
+#$W
+#DS
+
+M$.#@T-&__N5152B X$T=EC4?IF4J,K*RLS*NW[ZK^MI(YEG/A1^/
+SY[#Q
+M3
+
+X
+
+M?O7JZNKJ\*IU&
+635\U&PWGUO[]]/!]=R*E;]\
+
+
+
+
+
+
+
+53BU'F
+
+
+[3).C:S]Y]HM^
+M;6[=/[VJG
+(&[U4U?(]2DBG2Z5BDTWTBG0=(.@]/.*-D?B*7AT
+N=Z5DJGU_
+
+
+MF:2^&S_$$QD]
+
+M'XHHJA?_I
+
+
+MP-$6CW]V?N'&
+IF;QO
+O 5?SZ\9O/V%^-=8JS(N
+
+
+
+
+
+22GY^]N'3*<#C-'J-UJ!=X)LE
+MDVG03
+
+
+
+MT.\FLQ]'X:6$HW(8R'=RF.Z
+
+
+
+
+M; 7
+
+
+M@F_=Q!_!R?S.#[*T;&*MN5^+[-)ZX]!&VXJI=X)TS9U= FF[M36D_Y#^Y )^
+
+
+
+M!BQ0V8J-F
+MOYQ)M*\5T;;RSZ=1K/W
+^S@[^NVV
+
+M#V95^SMK'.?[V*L=
+
+
+
+
+
+41MKORWMY\ [1_
+
+MPMX90) ]
+
+MG$[;&5BY#Y43;0'-'C)7UP $
+#F2TDMPKOVB9=#KV&&)RHFV@&9GM*P%R (Z
+
+M9-4M^=B[4#Z%]H'$;J?3MF+ FTR_/]WU+F=CN/T=H.=7&6
+
+
+'@&2:!I)3BS]%J4QN'U
+
+
+
+
+_
+
+51
+
+M$T!.NR: _!J'MX2Y^]Z?SZ'XFQMF;GPCG $MM543LRQ.
+TG\DT<P/Q#S_TQ%ET)6
+
+M\+[!!-0/F(8I=FNP7%;@^-A%%8C^D. HE/^.H%/:8FE3$((H$Q+7JLNJK4
+
+
+
+#
+
+?-?6W]N
+
+
+
+
+
+
+
+MGK1&K
+MCL%N
+@NK+D+8@FLR^XD
+
+
+
+
+^7S
+MU.8PXZO@%;S S0]@RT8^;V!A0^A+/P0=B]XC&)(
+#:\)]L%(F3P?
+1=K);_)
+
+MCV
+W\]1_
+@QV 5O@YK.'C'[6-M48/LBF-;  )@ \/&?YZB? V)8/O28J?M(3
+
+M
+,;10*<G^E,(2J!C/#*N+F LZ9('%%^2GC(JPFHY53E
+
+
+..  _UV2B[#1)F29G2%*P6(R!32NXF_N5;'8E!K1S_+=G3A!]
+MD /DI-)6?L
+@I5M7%:SOM:GJT#2O%YD88\*EZR/(V4+F-+GB
+Z^975S3Y#
+M0'J JP%$Q#K
+$D&_Y.W!V1
+MT/%B]PKX##T+(#I8 !@P$%N@Q*^BB!<.%/+D T!3[,BAHJYB[GG.EA%@U:
+MIW%F*?TN(
+
+
+
+
+
+
+
+
+/8 TX%[=I%EE2Z2\7JQ-S*7*N_P6
+]
+
+
+
+
+
+
+
+=G[HI\=BE-T:+)W913#L0\[SOH)
+
+M1EGR1APT7X*!B.I^?$
+9B=&([3EXU'IIDJ5T%0B?.CY6/EPKD]&3*KD*#+\W
+M]
+M!^R7(A  _N5(Z@T?O;FG-2$5ZE\T]_J8UZO'2?78S%9QW*!/_GWS)OP
+
+
+
+
+GGAR'GBL&8'E;#-
+
+F*S8!H09XF;'*V&[D
+
++G4'Q3%K+Q#M5RB)7C/L4EEY/- &1S2LR!
+M0H%=R W4=@<\X*/Q[*] H!UM^R_V]Y!@^'W_(EF<09/B94Y 3P08FQ.&T=
+MRX_-V2%#ES+\U%=.=5% UXRTD\))QP=G
+
+M [
+
+
+'UJ^\!%J*&.\
+
+M8H)1RJ1+ZH
+9'N
+4!
+M3H'QHG@^L[ *-,9+EB [NVQ
+7YQRA/2+ R,PICNT/,H(C])(\;$N?!#P@;
+M&LM4.Z#I+
+
+M0RX KPDEL/-DSBS
+
+
+
+
+ML]]TG H3(?56@SS8!.0-[9WB.OZGP
+
+&A4&P\FT
+MU-
+J8GX&YNK]_
+'!;A?RCF;C
+6HJL
+9QS(HTF\F749!-26E3QK\YB_S0ZH;!
+M)W#(Y:@4[3T4:FLM#5!%Y9-B!8 =
+&CG6(D7'18AY5XE$U S9M0INKSA5;
+
+
+
+M3
+
+
+AB*
+K35
+
+
+MWP5K[&.6W_(2#(S@F /Y9O%@@ZK40&V&&G+.#6.)FMY\:3!6HFMMY4%5ND
+M 
+*J?AN<C85LX-@]
+
+
+
+
+
+KVA
+/
+
+
+MM]-2@Q8F4E6_3-SH '--0B5R9*?S0NO&
+M*I*#BN[(*+,_']-K
+
+
+MVNZ&838]S*G
+
+MQ7Q;-#EUQ#]G8I5,!YK?(T)POV\Y=3Z[=9CU28*W9C[*]P&=TCAJ/XMHFZ
+
+EIR^DMI23C-
+
+
+
+
+
+
+MC+(X-%KJ#^!A^11=LI3H;*7TS^%LU2G:W$X/(Q#FS=;._G3YM4Y16T[-Z?(_
+
+@W.^BM9W4N4K@W$
+M6'E5^R(X%F5S?M0UB.YA+0'0'#FIK_6W=!;L]6KM7L=U844JYQ]@!1(SM[7
+
+R86+?4$
+M5H!E9)JG%4JN[2OM<SA93=VBPKPTYD[5Y18Z*BO,1:&:7&Q?29[7!TM[2G7
+M 7$CVZ_N]8
+
+
+
+EK?
+M^/ ]-?9;O[_5%FUBAE&:1M-EG6(41'5^\[5H'/8ZL\JK*Y;V;-EUF%&$N I_
+
+MC*YB=_;S
+
+
+
+
+
++:^=A=
+M!L*N-
+
+
+JC 7KN6?4?R'./!=*]%F'%LR^DV
+M!_U7-A+<Z'KK9;#6K<1%DIAE0LQ9$QXF;1:DR])ZEI4(WNAVJ-PH6C
+Y:RJ
+M3\I0!KZ\U NS(
+
+M+'2U
+CE4G=U\BG(O'
+
+WZ04?MQ6V:5:3UO45@I'L=^#-_IV^#56V;=AZ8A
+
+
+
+
+] /T@OXFVYJJNW'8;/BHHG[
+M)YH=*'F_!(27.J*2)N
+
+
+
+M*V1!AZ2
+
+
+.&9CVF+U$6FQ&XOSD
+
+MV\742F(;U
+
+
+
+
+
+TZM6Z[N4+!L.M&N<-;%_05
+M/B;O]]*XN]
+
+M=/D%R'
+7FK9KW6:#
+
+7@ZU_B/
+(LP^C
+
+
+X=4&R8+6%\--$#*/HCX1$
+M%)8.Z
+
+IBJMN#H2P[8L'QB/GMYT20$('&(QL#!W0T
+M362(^7&8%SP:2:HORHDL[WJ8Z%C*MY#25ZB4BTCR: KPCMP\<\*NIHG@7W](
+M(37.#$&YH(E-9QS()1)TQV,X:I6/$M0! H0Z+3+A<R3*$M5X_B*TCP35= !
+
+
+I
+
+M/&
+D%\5_37(Y4LOK#4#JS\TN:8'JN$C:B2Z1^;7N923/#$F=Z:$4R 4\7
+M5)4*/+YE;93!4(R!T
+
+
+
+
+= *C
+CI1F$&1X:
+
+
+M_C(IY$-I-Y-2$
+
+
+C7J9(]*+C5CR8SQ=O4N
+
+
+
+
+D2I]]& + /GR-.DG!
+I3A=3X71M::=.JOG
+
+(T\B1'
+MF%G_84X*8[R/&GWCDZO+%QW,3(M+.8B@[99VI3'YR^M(7TFV_8CS[X*'Z8
+M-KN&SE=
+
+M %KV#+
+E+V5P4^F.6X2P
+F*_L//P[,.[LC#Q'JVR7E#5UF?$Z2UU;Y0-D5
+
+
+M?+ /XQKTVN2-.&B^!!T;-::8
+
+
+5I
+M+=N; Q@ACDFX?R
+
+
+
+
+5=I6R(UCHNAZK
+
+@R2K4]DZLO.MR*L0RK
+
+
+UG
+MW53[(U#Y
+
+MC5@VZ&HL150YZ
++B;T)/H_G!-)1Z'W
+
+MN&^
+/MT@^'2#X)+U/]T@^'2#X-
+&OR?]UR=AZJ<W9]18_#2(W**+!MUU: G6&ZUZ
+MRUGJ<X#7FMW.3Z\J!X49?WIU/8P#_S7^/_SS_P-02P,$%     @ /7$L3'I,
+M7LB!   _$(  !$   !L:6)E+3(P
+
+P+GAS9.U;WW/B.!)^OJVZ_T%+
+
+
+M[==__H3@Y_)G14$]2MQI&W5]1S&\F?\+&N(%::
+;XI$ 
+S_X!=UC-X*63Y\-
+MCT&;P^@C@=9XF#8Z/:G7
+%*4/8Q:?A0X9&6QUFK4ZC7U'*FUCR?/
+QBJBQFT
+
+Q:(T%8U98[Q<B4[P^%$R8=5;XVE)JJ--2
+
+
+
+Q+W2
+MO*GN
+
+H(/Q#
+M8@N!
+
+
+
+M3_DEO2D@)_UT@W3+UFQ]H ]M9/:0.=+'FFV80ZM4=*_X
+&?6 ZRZ!]^=0A('
+
+
+
+5G/R+X*\KEJ%<X53X#$A*-DQM% LVUX#91N6DY[FC&^U_IW$*HU\*#B-CK
+M6=C2+R5=K162SA
+
+M(;
+
+
+
+QMT(?86/GH
+
+
+A#@+
+R/6$[?N'Q*BH^=6R]4T(?$/EH-
+M4+YI:BICXO*K]!$.V
+OV^=DA)Y^8X@-L[C[@[PG9C$0)'UOB5-HK)[_XC)L/
+M5(FUOQG?L@/D8O(YV.\@_/^]_ODO7E8U)C
+DRK':O
+CGJA+2Q=+EQ5.B[2$@
+
+
+
+
+M44([[6$:B'_9&A#
+
+M\/@?4$L#!!0    ( #UQ+$P0E.U_$PH  
+!B   5    ;&EB92TR
+#$W
+#DS
+M
+
+
+
+EG8#W)O@U);
+
+KA^I0X\P
+P 
+
+
+61#FT[D27\Z'\H3[??P:Q[ @FK*8^X-
+
+
+
+SQ 4LA$(RPRR:\BRB9A3Q#2\ ]*N
+
+
+M]QZ!2=Z$+-.R_'7(R@RF7
+
+
+
+
+A(_ZJJ
+
+
+
+6
+M5R
+
+M
+
+
+
+
+MDQM'T9Q71#QLJV;@P9J*0HZU=M=AO2GVK/*8+1%9
+
+
+MAHSZR+V933
+-/-+.ZD\^-ZEP_Q=(Y':X6E6[1!]
+MBFCX1\65SK2M)!' 9S' NB$;X8-K-!V@Z4R=AUL4]!K+GL/ IW06^
+NL^!UI
+
+
+&ZQT\!GL1\T
+#!!.E#
+/$]/VIJ+G=Y
+
+
+C
+
+;\('
+N
+MR!&K.V
+O3:B06YJ7Q!_#AOX'2Q!;H
+Z1)RG&Z?E'XC39.1^!UOYN#]CNZ581
+
+M$-.E &DIS1M:]Q G+=
+
+
+
+$3TV
+6)
+\(QY-UG^B%9EG*T:P)T^8QUUI
+MI^3/!)SC=;%9--WINR4._\7_=P&X\C]02P
+
+[1
+
+
+
+(2C+$%@RC*E-(!+@IZ#LA32;01X+4$MK2Q2JP&ZE.4;!][(=
+
+M)EW1RD.S^KF
+
+T0+1%(BK1/@'CF%9C6[O39L:<%'V.
+
+
+MB(#
+
+D5VU6OTC3&]
+T@S
+M(7V%\JEL5\
+UJAZEEF L%POH?R.CO?/D.620AV26:5EX&:DR(4
+
+
+M
+[ATPX
+
+MEHN#I8_HF\0%(#Y [ 1DO!R;N7 _*L/;(HCK'0_R]YT\E
+
+MKE2&KIU'!]YE//Q:;RAY.U49WO=;O(9)%J1T70RT = FBA[M@!C')RVY:96!
+
+
+!H]14UX&
+
+
+
+
+MJLBV'04/NA/HD(5!#SX[(72+Y
+
+
+GHZ7YZAC5 _CQP/L&\C_ZEB'
+M-LH=-V]5U9S2\
+
+
+C
+
+
+
+MBSK@][WKD2G6#;-8]+Q
+%!*0Q 2
+9--4])I*4' %9!-8$IG ]
+ 
+=0(B+R#K
+MI@YD]B61#.G.$:Z(E)Z626Q!8EP'W_85D@Q9BTE&^X_4J@XD[H62#%N;R48[
+MB0WSZ&$=RG(OFV08WS
+9:0^ACGO:2 &F_+DNO.V;*!FP#A.
+
+
+(%1VVHTIXYIZT**K*AENSF!%F[HZFI .*#WW
+
+
+
+F
+
+E*8G5/\DQK?DB0?TA][3'SK]EO[07\J/
+M!_X-CEXA*GD]Z4O[];[65JET8AOL&*=A$O3BW5 WM1W!)^].FC^C U5]ZUV8
+
+
+
+BD5P+#*!&637EL=1)7( AZ5:C8-L&Y'\8X
+MZ/EI',:WF9)B,F&;W%(#KI)*+ F&34IX'(WF\]7]*J(KW2.%^$\S)_+GRB\
+
+
+
+
+
+MB;AEKBA!-R@CE(7$'!5 &8'*666C5(8VN./1IR1:Q;F?/EV$$4[E!.+D[#)'
+
+800Z[2HB0 BA0B7
+MA!)
+
+
+\T-&P*60V\$P*L1=K5)
+
+
+MJ!W[HZ(.@YU-\KDK7-HM[3VRBIA\DHNI7[8).Q@9F; ]! Q(QE%US004Y
+M!R ^?-E3'\V\ 8+DS@Q_R:
+
+V+HV$;!71(%.
+V*U#N-AV.N;I
+Q;3M5
+
+
+
+
+
+M=3KL_R@KHDO\57Z7I.&_B
+S23]$#;0W]9^=UIW.*EC@MQ+ZO*E(7.TYBC$(:
+M?QNP_TZV
+2I'B#2[Q*PH9[378.^]%'Y2'MQP8H[*/LF/8QHR8#@I ::J^51E
+MXPZ
+
+
+
+$ZW-SE4!
+6X0S1:O='V'DFW&7MV$]'*8N$#9B+
+
+
+
+M*[91X/)+GM5HK.6::9*\1D
+
+M-3!L-
+
+M1&#08+2D-]H3G[M79*KI*A8IY&U21 N[2ABI
+
+M6$2S*(/[
+
+BW
+
+%!3E): 9+B9*S6QLYNF?I RHTJ?;[=G(6(7GH[3US8
+M!$ZSBNC4)
+
+MX0
+
+
+DJZ7+08=^Q=L8;
+
+
+
+
+
+
+
+
+MW:BY9CHE
+
+)^AP7
+
+
+
+
+8FDK]1WSO81#Z%L 5#3IJ0&E%*V!<C9VA
+
+
+
+
+MSM7N36VA#XO&.R 7$3DL1=%702G\-?5E&;_I;CS[ V]_P%%6C+BW'GF3T_2)
+
+
+
+
+M84P
+
+9
+
+
+MR64^K\[2Z;2LVCJS+M2LG5K%.9O:X11:O+?$XE%EQ+1151V&S=OT;+N^TOIT
+
+P)OUSM'8FSP_U%AN;XM+C30V2Q.
+MS*JUDHLV:F&C',J:( );=.WQ#85TC
+$G_Q!85I;I):Z%N_#:I-M]17EDB4
+
+*P@ 6=-5(H6+5+6N UR65=LX48XAJ_4=
+
+
+
+_]1;XK$LE:MD INS0)!)V3P@2=T.R\(V:G4$%,!X;%
+MV73W$M2JU@N^J4%WRCM)95W3JP6(/DZ
+
+$P(@[(^2XP#
+
+
+
+MO'
+VM0 IMH
+
+
+MQRBV445
+
+;
+
+M99O6M%V'JJ;53-
+
+
+M\DL
+L
+WY*TK2J33.S_%9B35:MFDIF$7
+MJH34J(AH1E.;NG1FZ'!:#I%X]X$T:.'T1!-?_(F/1B4&Z?TUJW\:1S1]54<
+
+
+
+#+J54X'86W5Q
+Z6(Y/JV2:IH:SE!HQ=&EB
+
+*51CV9SJ_P\$JPJ/%.5[@-
+4!P5@L@(B;6+F&W2CO;^?6
+
+
+
+
+
+JT!TL0-/_
+
+%G*
+
+
+C
+M%'7*M I8);6('%PCM@4GNCEX_P;
+
+
+I&S:WD72?K%3P.9/Z52L'H?E19X[68IJ;1SIAE#%!FG
+M9*V$(J*%YE0-E7J.;KDN;*IB=5L3L+QH4CT 
+
+
+MF
+
+
+
+
+
+
+.B
+1W
+
+
+
+
+G
+
+M4_KPE SG
+_
+OVIY4=N]$91N8QDX3QN):G ,T^GWCN WU9XQ.U/JJOT)H
+Y:V ^QYTZ)Q4UO'(]J<_2$43B3$17C*O-&@=.0#3P
+MA)WXG@BMH2$Y6G+)BW
+
+
+
+7Y.!O=W]V9PZ_]SLB^[=D=
+
+
+HL7?W:C76G@^=R/:
+M0X1D-$*:Y8B
+
+
+
+/A\L T3_2*@Q2AY%4
+M8FS6DO*\XMK#DRU&/3J-QX%(8UW[QOK&X]9\
+:K%E5Y#D/R(NK_T9I8:2G
+
+
+MSV55F:H-P39UYAX8 0K
+
+J 2=DB[X7A?
+
+
+?GB@[!4%HO%1/S0RI%8'0\Q'B_11CSC@
+MME
+
+2@86LW
+
+\5EZ/['TSVYNN1!Z:%P8:+35AB\
+M:=2
+
+
+.Q#&N/CK.@MO/I%'E1N'H2
+
+MVTTR)F_C2J*1AI,@(*R5UQ98)VO818,&:+J@0;-FJ/Y%N3#^N_2?78\1#,P
+MHI83!&^D?XL3A+/1 9(K\&#@
+67Q\KR(
+M\077 QP9_RK@1A5$SO.B G*78Q_8@$!4&64O ;WO!;8\(] 2QIP5Q(&+#SJ/
+M99@Y6!E:S+ @GL(L#$6IL@F@]%B2([
+
+
+
+
+3WOUQB8XXY0&@#$U1$_5ZF02J\QO*1$O'
+M_DYRWT66:'EZN@KC-N5A!NOF5&3^9YW8N34[/]^9G8_&YC@^']#H=XS^P!K&
+M)T&.%
+
+M-'@IDYP
+
+
+
+
+
+
+
+
+
+
+M=%-
+
+
+
+
+*36P]D
+
+
+
+ULIL]2A%H
+^M1G0%:
+[OU@/IBI3G
+
+
+M?AK
+
+Q*JAG1K)J6.?K)Z'3[OZH\66$C66
+E
+
+
+
+E544&*!;
+
+_4RRCN/)5^ (P[.[(
+
+
+
+M^CZVQ!_13R]9N'CA1493?V1:-Y6*1Y%4YWFIX;?LS',P=UH61C(Q!: 50
+M,SG$Q9C0B82D=BI*#MS8P]C!@7A0(D$-% PJIO526H6@T4[(!3O28G]60]'
+
+
+M;EO]7LL:9OCL)=-GFW3_Z/W=G3G\&A_);M_V[([=
+
+:G7&/2[
+;:3N;=R9
+
+
+*1V
+
+
+
+M)?0DGI2J9/?X*+QV:@7*7DFMC@^C'$HYA$05JMTA R/A
+6
+
+?Z4M'8T@(E\8+ 72*[:YMG([%B[
+
+
+
+
+
+
+MPB'K0&1H-E_NE5'),6H[@Z!BJE.\9K68VQOZJ-(L?UPIX3T.W'SXCM?NPM
+M%ID;^XP?TFJ-=;VENR1KL]BN
+
+
+
+M!GR7^[Q+=EQ[5']
+
+
+
+P7V-A;YX;6Q02P$% 
+
+
+P7W!R
+
+

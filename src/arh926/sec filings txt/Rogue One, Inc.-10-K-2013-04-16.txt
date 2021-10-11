@@ -1,0 +1,7180 @@
+
+
+ACCESSION NUMBER:		0001493152-13-000685
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		5
+CONFORMED PERIOD OF REPORT:	20121231
+FILED AS OF DATE:		20130416
+DATE AS OF CHANGE:		20130416
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			STAKOOL
+ INC.
+		CENTRAL INDEX KEY:			0001058330
+		STANDARD INDUSTRIAL CLASSIFICATION:	GRAIN MILL PRODUCTS [2040]
+		IRS NUMBER:				880393257
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-24723
+		FILM NUMBER:		13764739
+	BUSINESS ADDRESS:	
+		STREET 1:		18565 SOLEDAD CANYON ROAD #153
+		CITY:			CANYON COUNTRY
+		STATE:			CA
+		ZIP:			91351
+		BUSINESS PHONE:		(310) 309-9080
+	MAIL ADDRESS:	
+		STREET 1:		18565 SOLEDAD CANYON ROAD #153
+		CITY:			CANYON COUNTRY
+		STATE:			CA
+		ZIP:			91351
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Mod Hospitality
+ Inc.
+		DATE OF NAME CHANGE:	20080926
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	PSPP HOLDINGS INC
+		DATE OF NAME CHANGE:	20070122
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	PITTS & SPITTS INC
+		DATE OF NAME CHANGE:	20020815
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+WASHINGTON
+D.C. 20549
+
+FORM
+10-K
+
+[X]
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(D) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For
+the Fiscal Year Ended December 31
+ 2012
+
+
+
+[&nbsp;&nbsp;]
+TRANSITION REPORT UNDER SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+
+
+STAKOOL
+    INC.
+
+(Exact
+    name of registrant as specified in its charter)
+
+
+Commission
+file number: 00-24723
+
+STAKOOL
+INC.
+(Name
+of small business issuer in its charter)
+
+
+
+    
+    
+    
+    
+    
+
+(State
+    or other jurisdiction of
+    
+(Commission
+    File Number)
+    
+(I.R.S.
+    Employer
+
+incorporation
+    or organization)
+    
+    
+    
+Identification
+    Number)
+
+
+1111
+Alderman Drive
+ Suite 210
+Alpharetta
+Georgia 30005
+(Address
+of Principal Executive Offices)
+
+(770)
+521-9826
+(Registrant&rsquo;s
+telephone number
+ including area code)
+
+Securities
+registered pursuant to Section 12(b) of the Act: 
+
+Securities
+registered pursuant to Section 12(g) of the Act:
+Common
+Stock
+ $0.00001 par value
+
+&nbsp;Indicate
+by check mark whether the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Yes [&nbsp;&nbsp;]
+No
+
+Indicate
+by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. Yes [&nbsp;&nbsp;]
+No [X]
+
+Indicate
+by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange
+Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+and (2) has been subject to such filing requirements for the past 90 days. Yes [&nbsp;&nbsp;] No [X]
+
+Indicate
+by check mark whether the registrant has submitted electronically and posted on its corporate Web site
+ if any
+ every Interactive
+Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&sect;232.405 of this chapter) during the
+preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). Yes [X] No [&nbsp;&nbsp;]
+
+Indicate
+by check mark if disclosure of delinquent filers in response to Item 405 of Regulation S-K is not contained herein
+ and will not
+be contained
+ to the best of registrant&rsquo;s knowledge
+ in definitive proxy or information statements incorporated by reference
+in Part III of this Form 10-K or any amendment to this Form 10-K. [&nbsp;&nbsp;]
+
+Indicate
+by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ or a non-accelerated filer
+ or a smaller
+reporting company. See the definitions of &ldquo;large accelerated filer
+&rdquo; &ldquo;accelerated filer&rdquo; and &ldquo;smaller
+reporting company&rdquo; in Rule 12b-2 of the Exchange Act. (Check one):
+
+
+
+Large
+    accelerated filer
+    
+    
+Accelerated
+    filer
+    
+    
+
+Non-accelerated
+    filer
+    
+    
+Smaller
+    reporting company
+    
+    
+
+
+Indicate
+by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). Yes [&nbsp;&nbsp;] No [X]
+
+The
+aggregate market value of the registrant&rsquo;s common stock held by non-affiliates of the registrant as of June 29
+ 2012
+ was
+97
+264
+167. As of April 8
+ 2013 the registrant had 2
+047
+666
+666 shares of its common stock
+ par value $0.00001; 0 shares of its
+Preferred A Series stock
+ par value $0.00001; 1 share of its Preferred B Series stock
+ par value $0.00001; and 308
+180 shares
+of its Preferred C Series stock
+ par value $0.00001 outstanding.
+
+DOCUMENTS
+INCORPORATED BY REFERENCE
+
+
+
+
+
+
+
+    
+    
+
+
+
+TABLE
+OF CONTENTS
+
+
+
+    
+    
+Page
+    No.
+
+PART
+    I
+    
+
+    
+    
+    
+    
+
+Item
+    1.
+    
+    
+    
+
+Item
+    1A.
+    
+Risk
+    Factors.
+    
+
+Item
+    1B.
+    
+Unresolved
+    Staff Comments.
+    
+
+Item
+    2.
+    
+    
+    
+
+Item
+    3.
+    
+Legal
+    Proceedings.
+    
+
+Item
+    4.
+    
+Mine
+    Safety Disclosures.
+    
+
+    
+    
+    
+
+PART
+    II
+    
+
+    
+    
+    
+    
+
+Item
+    5.
+    
+Market
+    For Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+    
+
+Item
+    6.
+    
+Selected
+    Financial Data.
+    
+
+Item
+    7.
+    
+Management&rsquo;s
+    Discussion and Analysis of Financial Condition and Results of Operation.
+    
+
+Item
+    7A
+    
+Quantitative
+    and Qualitative Disclosures About Market Risk.
+    
+
+Item
+    8.
+    
+Financial
+    Statements and Supplementary Data.
+    
+
+Item
+    9.
+    
+Changes
+    In And Disagreements With Accountants on Accounting and Financial Disclosure.
+    
+
+Item
+    9A.
+    
+Controls
+    And Procedures.
+    
+
+Item
+    9B.
+    
+Other
+    Information.
+    
+
+    
+    
+    
+    
+
+PART
+    III
+    
+
+    
+    
+    
+    
+
+Item
+    10.
+    
+Directors
+    Executive Officers and Corporate Governance.
+    
+
+Item
+    11.
+    
+Executive
+    Compensation.
+    
+
+Item
+    12.
+    
+Security
+    Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters.
+    
+
+Item
+    13.
+    
+Certain
+    Relationships and Related Transactions
+ and Director Independence.
+    
+
+Item
+    14.
+    
+Principal
+    Accounting Fees and Services.
+    
+
+    
+    
+    
+    
+
+PART
+    IV
+    
+
+    
+    
+    
+    
+
+Item
+    15.
+    
+Exhibits
+    Financial Statements Schedules.
+    
+
+    
+    
+    
+    
+
+    
+    
+
+
+
+    
+    
+
+
+SPECIAL
+NOTE REGARDING FORWARD LOOKING STATEMENTS
+
+The
+following cautionary statements identify important factors that could cause our actual results to differ materially from those
+projected in forward-looking statements made in this amended. Annual Report on Form 10-K (this &ldquo;Report&rdquo;) and in other
+reports and documents published by us from time to time. Any statements about our beliefs
+ plans
+ objectives
+ expectations
+ assumptions
+future events or performance are not historical facts and may be forward-looking. These statements are often
+ but not always
+made through the use of words or phrases such as &ldquo;believes
+&rdquo; &ldquo;will likely result
+&rdquo; &ldquo;are expected
+to
+&rdquo; &ldquo;will continue
+&rdquo; &ldquo;is anticipated
+&rdquo; &ldquo;estimated
+&rdquo; &ldquo;intend
+&rdquo; &ldquo;plan
+&rdquo;
+&ldquo;projection
+&rdquo; &ldquo;outlook&rdquo; and the like
+ constitute &ldquo;forward-looking statements&rdquo; within the meaning
+of Section 27A of the Securities Act of 1933
+ as amended
+ and Section 21E of the Securities Exchange Act of 1934
+ as amended (the
+&ldquo;Exchange Act&rdquo;). However
+ as we issue &ldquo;penny stock
+&rdquo; as such term is defined in Rule 3a51-1 promulgated
+under the Exchange Act
+ we are ineligible to rely on these safe harbor provisions. Such forward-looking statements involve known
+and unknown risks
+ uncertainties and other factors which may cause the actual results
+ performance or achievements of our Company
+to be materially different from any future results
+ performance or achievements expressed or implied by such forward-looking statements.
+Given these uncertainties
+ readers are cautioned to carefully read all &ldquo;Risk Factors&rdquo; set forth under Item 1A and
+not to place undue reliance on any forward-looking statements. We disclaim any obligation to update any such factors or to announce
+publicly the results of any revisions of the forward-looking statements contained or incorporated by reference herein to reflect
+future events or developments
+ except as required by the Exchange Act. New factors emerge from time to time
+ and it is not possible
+for us to predict which will arise or to assess with any precision the impact of each factor on our business or the extent to
+which any factor
+ or combination of factors
+ may cause actual results to differ materially from those contained in any forward-looking
+statements.
+
+Unless
+otherwise provided in this Report
+ references to &ldquo;Stakool
+ &ldquo;the &ldquo;Company
+&rdquo; the &ldquo;Registrant
+&rdquo;
+the &ldquo;Issuer
+&rdquo; &ldquo;we
+&rdquo; &ldquo;us
+&rdquo; and &ldquo;our&rdquo; refer to Stakool
+ Inc.
+
+
+    
+    
+
+
+PART
+I
+
+Item
+1. Business
+
+
+
+History
+of Stakool
+ Inc.
+
+Stakool
+Inc. was incorporated in the State of Delaware under the name
+ PLR
+ Inc. in 1993
+ and went through a series of name changes and
+reorganizations. In November 1997
+ PLR
+ Inc. changed its name to Integrated Carbonics Corp. and moved its domicile to the State
+of Nevada. On July 23
+ 1999
+ Integrated Carbonics Corp. changed its name to Urbana.ca
+ Inc. (&ldquo;URBA&rdquo;). On April 11
+2003
+ URBA changed its name to PSPP Holdings
+ Inc. On August 11
+ 2008
+ PSPP Holdings
+ Inc. changed its name to Cynosure Holdings
+Inc. by filing a Certificate of Amendment to Articles of Incorporation with the State of Nevada. On August 21
+ 2008
+ the Company
+changed its name to Hybid Hospitality
+ Inc. by filing a Certificate of Amendment to the Articles of Incorporation.
+
+On
+June 16
+ 2011
+ Stakool entered into a Letter of Intent of Sale and Purchase with Anthus Life Corp.
+ a privately held Nevada corporation
+(&ldquo;Anthus Life&rdquo;).
+
+On
+July 20
+ 2011
+ Stakool and Anthus Life executed an Agreement of Sale and Purchase where by Anthus Life received 77
+588
+470 shares
+of 79
+388
+470 issued and outstanding shares of Stakool common stock
+ as well as 10
+000
+000 Preferred Shares of Stakool in exchange
+for scheduled payments
+ totaling $350
+000 and 1
+300
+000 shares of Stakool common stock the &ldquo;Agreement of Sale and Purchase&rdquo;).
+The parties amended the Agreement of Purchase and Sale as of January 19
+ 2012
+ providing
+ among other things
+ for the issuance
+of an additional 2
+650
+000 shares of Stakool common stock to certain parties. All stock has been issued under the Agreement of
+Sale and Purchase and
+ as of December 31
+ 2012
+ $355
+000 has been paid.
+
+Anthus
+Life was incorporated in the State of Nevada on June 4
+ 2009
+ with its principal place of business in Jacksonville Florida. Anthus
+Life was founded on the belief that everyone has the power to make healthy lifestyle choices. The motivating mission of Anthus
+Life was to:
+
+
+
+
+    
+    
+Source
+    or manufacture and distribute innovative products made with all certified natural and/or organic ingredients;
+
+    
+    
+Conduct
+    continual research and development of high performance &ldquo;green&rdquo; products;
+
+    
+    
+Grow
+    by engaging strategic partners who have proven distribution;
+
+    
+    
+Sustain
+    above-average annual top-line growth with a gross profit of 35% plus;
+
+    
+    
+Instill
+    a corporate culture that empowers our fellow workers with dedication and enthusiastic team spirit;
+
+    
+    
+Apply
+    sensitive and respectful practices to promote sustainable social relationships and responsible corporate governance; and
+
+    
+    
+Maintain
+    strong business growth through profitable and complementary acquisitions.
+
+
+Stakool
+strives to become a leading supplier of natural and organic products by fulfilling the highest standards for quality
+ consistency
+sustainability
+ product assortments
+ value-added support services and integrity in our business and personal relationships. Through
+trust and our commitment to quality we will build a loyal consumer following throughout North America.
+
+Current
+Products
+ Potential Product Categories and Extension
+
+Anthus
+Life has formally launched eight natural healthy snack bars in 2010; the Company will be looking to introduce additional USDA
+Organic Certified health bars among other complementary products during 2013.
+
+Nutritional
+and dietary criteria that we adheres to are based on review and approval by accredited scientific food agencies and standards
+as set by government organizations. The Company will take acute consideration to effectively produce and package the best tasting
+product that is &ldquo;good and better&rdquo; for the consumer.
+
+Intellectual
+Property
+
+The
+company has no registered patents; however
+ all of its products are formulated utilizing its own proprietary formulations.
+
+
+    
+    
+
+
+Production
+Sources of Raw Materials and the Names of Principal Suppliers
+
+An
+experienced core management team has reviewed
+ studied and analyzed the natural and/or organic product market. We will establish
+a procurement program and will work with outside professionals to build our business
+ create brands through eco friendly packaging
+and distinctive labeling
+ and develop key distribution relationships.
+
+Marketing
+Strategy
+
+The
+strategy is to have our brand name strongly associated on all of our distributed products and to focus on finding and developing
+the best USDA certified natural and/or organic food product options for North America. In fact
+ during 2013
+ the Company plans
+to introduce additional USDA Certified Organic health bars among other complementary products. For 2013
+ our R&amp;D team is diligently
+working to develop additional product line extensions to include several products for the natural and organic food market as well
+as for the health and wellness market.
+
+We
+have secured a manufacturer with the requisite governmental approval
+ having completed the package design and is distributing
+the initial product offering. We are excited about the opportunity to bring healthy
+ great tasting
+ and natural and/or organic
+food products at affordable prices to the mass North American market.
+
+Our
+initial product launch included 8 Health Bars that have no refined sugar
+ no artificial flavors
+ low sodium
+ no genetically modified
+products
+ no preservatives
+ no trans fat
+ no gluten
+ no cholesterol
+ no dairy products
+ and no wheat.
+
+We
+are continuing to target the following consumers: (i) those who are already knowledgeable on the benefits of natural and/or organic
+foods; presenting a viable opportunity for them to taste
+ switch
+ and become loyal
+ to our product; (ii) parents of young children
+wanting a healthy snack alternative and linking the need of healthy benefits and well-being
+ value in the price
+ and volume and
+quality; (iii) organizations in need of fundraising programs; and (iv) companies in search for new product line under their brand
+to add to their revenue stream.
+
+We
+believe that once the consumer tastes our product line
+ he or she will become a loyal consumer and will seek out our product because
+of the health benefits
+ value in price
+ quality of the product and the good taste of the product
+ thus becoming a returning and
+loyal consumer.
+
+Market
+indicators over the past 5 years show that the natural and/or organic product market is expanding fast
+ and it is only a matter
+of time before it enters into mainstream retailing. Even though most supermarkets sell natural and/or organic products it is our
+belief that consumers cannot identify with just one brand when shopping for natural and/or organic. The offerings are confusing
+and because they are mixed in with regular products they often become line extensions of existing products. We believe that the
+consumer market is ready to identify with a brand dedicated to quality
+ reasonably priced
+ great tasting organic packaged products
+for both children and adults.
+
+According
+to the Organic Trade Association
+ organic product sales have grown at about a 20% annual rate since 1990. Organic Trade Association
+(OTA) is a membership-based business association that concentrates on the organic business community in North America and is located
+in Greenfield
+ MA. A March 9
+ 2006 article published by &ldquo;Reuters Food Summit&rdquo; (an internet service of the Reuters
+Foundation)
+ indicates major signs showing that the natural and/or organic foods are gathering speed and that mainstream acceptance
+is forcing big box stores
+ such as Wal-Mart Inc.
+ to double its offering of organic products in its stores.
+
+Further
+research shows consumers of various states
+ such as Washington and Oregon
+ for example
+ conscious of buying green and organic.
+Recent market research by Mambo Sprouts Marketing released in 2008
+ explained that consumers in Washington and Oregon see buying
+&lsquo;green&rsquo; as a priority. More than nine in ten consumers (92%) reported buying the same (54%) or more (38%) environmentally
+friendly products compared to six months ago.
+
+
+
+At
+the present time
+ the company has no employees other than its officer and director
+ who devotes his full time to the Company.
+We intend to add staff as needed
+ as we expand operations or change our business plan.
+
+
+    
+    
+
+
+Item
+1A. Risk Factors
+
+Our
+business is subject to numerous risks. We caution you that the following important factors
+ among others
+ could cause our actual
+results to differ materially from those expressed in forward-looking statements made by us or on our behalf in filings with the
+SEC
+ press releases
+ communications with investors and oral statements. Any or all of our forward-looking statements in this and
+in any other public statements we make may turn out to be wrong. They can be affected by inaccurate assumptions we might make
+or by known or unknown risks and uncertainties. Many factors mentioned in the discussion below will be important in determining
+future results. Consequently
+ no forward-looking statement can be guaranteed. Actual future results may vary materially from those
+anticipated in forward-looking statements. We undertake no obligation to update any forward-looking statements
+ whether as a result
+of new information
+ future events or otherwise. You are advised
+ however
+ to consult any further disclosure we make in our reports
+filed with the SEC.
+
+An
+investment in our Company involves a substantial risk of loss. You should carefully consider the risks described below
+ before
+you make any investment decision regarding our Company. Additional risks and uncertainties
+ including those generally affecting
+the market in which we operate or that we currently deem immaterial
+ may also impair our business. If any such risks actually
+materialize
+ our business
+ financial condition and operating results could be adversely affected. In such case
+ the trading price
+of our common stock could decline.
+
+The
+following risk factors are not exhaustive and the risks discussed herein do not purport to be inclusive of all possible risks
+but are intended only as examples of possible investment risks. To facilitate understanding of the various business risks applicable
+to our Company and the strategic alliance companies through which we intend to operate our business during the foreseeable future
+the risk factors discussed herein address our Company together with the risks applicable to our operations that we intend to conduct
+with our strategic alliance partners.
+
+RISK
+FACTORS RELATING TO STAKOOL
+ INC. AND ITS BUSINESS
+
+THE
+COMPANY IS SUBJECT TO THE RISKS INHERENT IN A NEWLY-CREATED BUSINESS
+
+The
+Company is subject to substantially all the risks inherent in a newly-created business. As a result of its small size and capitalization
+and limited operating history
+ the Company is particularly susceptible to adverse effects of changing economic conditions and
+consumer tastes
+ competition
+ and other contingencies or events beyond the control of the Company. It may be more difficult for
+the Company to prepare for and respond to these types of risks and the risks described elsewhere in this Form 10-K than for a
+company with an established business and operating cash flow. If the Company is not able to manage these risks successfully
+ the
+Company&rsquo;s operations could be negatively impacted. Due to changing circumstances
+ the Company may be forced to change dramatically
+or even terminate
+ its planned operations.
+
+
+    
+    
+
+
+INVESTORS
+MAY LOSE THEIR ENTIRE INVESTMENT IF STAKOOL FAILS TO IMPLEMENT ITS BUSINESS PLAN.
+
+The
+Company expects to face substantial risks
+ uncertainties
+ expenses
+ and difficulties because it is a development-stage company.
+Anthus Life was formed in Nevada on June 4
+ 2009. The Company has no demonstrable operations record of substance upon which you
+can evaluate the company&rsquo;s business and prospects. The Company&rsquo;s prospects must be considered in light of the risks
+uncertainties
+ expenses and difficulties frequently encountered by companies in their early stages of development. The company
+cannot guarantee that it will be successful in accomplishing its objectives.
+
+As
+of the date of this prospectus the Company has had only limited start-up operations and has generated minimal revenues. Considering
+these facts
+ independent auditors have reservation about the company&rsquo;s ability to continue as a going concern in the independent
+auditors&rsquo; report to the financial statements filed with our Form 10-K. In addition
+ the company&rsquo;s lack of operating
+capital could negatively affect the value of its common shares and could result in the loss of your entire investment.
+
+WE
+RELY ON KEY PERSONNEL AND IF THEY LEAVE US
+ OUR BUSINESS PLAN AND RESULTS OF OPERATIONS COULD BE ADVERSELY AFFECTED.
+
+We
+rely heavily on our President and Chief Executive Officer
+ Joseph C. Canouse for our success. His experience and input create
+the foundation for our business and he is responsible for the directorship and control over our activities. Moving forward
+ should
+we lose the services of Mr. Canouse
+ for any reason
+ we will incur costs associated with recruiting a replacement and delay in
+our operations. If we are unable to replace Mr. Canouse with another suitably trained individual
+ we may be forced to scale back
+or curtail our business plan. As a result of this
+ your investment in us could be devalued.
+
+WE
+HAVE NOT AND DO NOT ANTICIPATE PAYING ANY CASH DIVIDEND ON OUR COMMON STOCK AND BECAUSE OF THIS OUR SECURITIES COULD FACE DEVALUATION
+IN THE MARKET.
+
+We
+have paid no cash dividends on our Common Stock to date and it is not anticipated that any cash dividends will be paid to holders
+of our Common Stock in the foreseeable future. While our dividend policy will be based on the operating results and capital needs
+of our business operations
+ it is anticipated that any earnings will be retained to finance our business operations and future
+expansion.
+
+CHANGES
+IN CONSUMER PREFERENCES AND DISCRETIONARY SPENDING MAY HAVE A MATERIAL ADVERSE EFFECT ON OUR REVENUE
+ RESULTS OF OPERATIONS AND
+FINANCIAL CONDITION.
+
+
+ our inability to
+develop new products that appeal to consumers
+ or changes in our product mix that eliminate items popular with some consumers
+could harm our business. Also
+ our success depends to a significant extent on discretionary consumer spending
+ which is influenced
+by general economic conditions and the availability of discretionary income. Accordingly
+ we may experience declines in revenue
+during economic downturns or during periods of uncertainty. Any material decline in the amount of discretionary spending could
+have a material adverse effect on our sales
+ results of operations
+ business and financial condition.
+
+FLUCTUATIONS
+IN VARIOUS COMMODITY
+ PACKAGING AND SUPPLY COSTS
+ COULD ADVERSELY AFFECT OUR OPERATING RESULTS.
+
+The
+prices of the main ingredients in our offerings can be highly volatile. Supplies and prices of the various products that we use
+to prepare our products can be affected by a variety of factors
+ such as weather
+ seasonal fluctuations
+ demand
+ politics and
+economics in the producing countries. An increase in pricing of any major ingredients that we use in our products could have a
+significant adverse effect on our profitability In addition; higher diesel prices have
+ in some cases
+ resulted in the imposition
+of surcharges on the delivery of commodities to distributors. Additionally
+ higher diesel and gasoline prices may affect our supply
+costs and may affect our sales going forward. To help mitigate the risks of volatile commodity prices and to allow greater predictability
+in pricing
+ we hope to enter into fixed price or to-be-fixed priced purchase commitments. We cannot assure you that these activities
+will be successful or that they will not result in our paying substantially more than would have been required absent such activities.
+We do not presently have any multi-year pricing agreements (with fixed processing costs)
+ and none with guaranteed volume commitments.
+
+
+    
+    
+
+
+We
+may not be able to prevent others from using our intellectual property
+ and may be subject to claims by third parties that we
+infringe on their intellectual property.
+
+Our
+products are created using proprietary formulations; however
+ we have no registered patents. Preventing and policing the unauthorized
+use of our intellectual property is often difficult and any steps we take may not
+ in every case
+ prevent the infringement by
+unauthorized third parties. Further
+ there can be no assurance that our efforts to enforce our rights and protect our intellectual
+property will be successful. We may need to resort to litigation to enforce our intellectual property rights
+ which may result
+in substantial costs and diversion of resources and management attention.
+
+Further
+although management does not believe that our products infringe on the intellectual rights of others
+ there is no assurance that
+we will not be the target of infringement or other claims. Such claims
+ even if not true
+ could result in significant legal and
+other costs and may be a distraction to our management or interrupt our business.
+
+LITIGATION
+AND PUBLICITY CONCERNING PRODUCT QUALITY
+ HEALTH AND OTHER ISSUES
+ WHICH CAN RESULT IN LIABILITIES AND ALSO CAUSE CONSUMERS TO
+AVOID OUR PRODUCTS
+ WHICH COULD ADVERSELY AFFECT OUR RESULTS OF OPERATIONS
+ BUSINESS AND FINANCIAL CONDITION.
+
+Beverage
+and food service businesses can be adversely affected by litigation and complaints from consumers or government authorities resulting
+from food and beverage quality
+ illness
+ injury or other health concerns or operating issues stemming from one retail location
+or a limited number of retail locations. Adverse publicity about these allegations may negatively affect us
+ regardless of whether
+the allegations are true
+ by discouraging consumers from buying our products. We could also incur significant liabilities
+ if
+a lawsuit or claim results in a decision against us
+ or litigation costs
+ regardless of the result.
+
+BEVERAGE
+AND FOOD SAFETY CONCERNS AND INSTANCES OF FOOD-BORNE ILLNESSES COULD HARM OUR CONSUMERS
+ RESULT IN NEGATIVE PUBLICITY AND CAUSE
+THE TEMPORARY CLOSURE OF SOME CONSUMERS&rsquo; STORES AND
+ IN SOME CASES
+ COULD ADVERSELY AFFECT THE PRICE AND AVAILABILITY OF
+FRUITS
+ ANY OF WHICH COULD HARM OUR BRAND REPUTATION
+ RESULT IN A DECLINE IN SALES OR AN INCREASE IN COSTS.
+
+We
+consider food and beverage safety a top priority and will dedicate substantial resources towards ensuring that consumers enjoy
+high-quality
+ safe and wholesome products. However
+ we cannot guarantee that controls and training will be fully effective in
+preventing all food-borne illnesses. Furthermore
+ reliance on third-party suppliers and distributors increases the risk that food-borne
+illness incidents (such as E. coli
+ Hepatitis A
+ Salmonella or Listeria) could occur outside of our control and at multiple locations.
+
+Instances
+of food-borne illnesses
+ whether real or perceived
+ and whether at our consumers&rsquo; stores or those of our competitors
+ could
+harm consumers and otherwise result in negative publicity about us or the products we serve
+ which could adversely affect sales.
+If there is an incident involving consumers&rsquo; C-stores and other approved channels serving contaminated products
+ consumers
+may be harmed
+ our sales may decrease and our brand name may be impaired. If consumers become ill from food-borne illnesses
+ we
+could be forced to temporarily suspend some operations. If we react to negative publicity by changing our products or other key
+aspects of the ALC experience
+ we may lose consumers who do not accept those changes
+ and may not be able to attract enough new
+consumers to produce the revenue needed to make our operations profitable. In addition
+ we may have different or additional competitors
+for our intended consumers as a result of making any such changes and may not be able to compete successfully against those competitors.
+Food safety concerns and instances of food-borne illnesses and injuries caused by food contamination have in the past
+ and could
+in the future
+ adversely affect the price and availability of affected ingredients and cause consumers to shift their preferences
+particularly if we choose to pass any higher ingredient costs along to consumers. As a result
+ our costs may increase and our
+sales may decline. A decrease in consumer traffic as a result of these health concerns or negative publicity
+ or as a result of
+a change in our products or smoothie experience or a temporary suspension of any of our consumer operations
+ could materially
+harm our business.
+
+THE
+FOOD SERVICE INDUSTRY HAS INHERENT OPERATIONAL RISKS THAT MAY NOT BE ADEQUATELY COVERED BY INSURANCE.
+
+We
+can give no assurance that we will be adequately insured against all risks or that our insurers will pay a particular claim. Furthermore
+in the future
+ we may not be able to obtain adequate insurance coverage at reasonable rates for our operations. We may also be
+subject to calls
+ or premiums
+ in amounts based not only on our own claim records but also the claim records of all other members
+of the protection and indemnity associations through which we may receive indemnity insurance coverage for tort liability. Our
+insurance policies may also contain deductibles
+ limitations and exclusions which
+ although we may believe are standard in the
+food service industry
+ may nevertheless increase our costs.
+
+
+    
+    
+
+
+THE
+PLANNED INCREASE IN THE NUMBER OF STORES WHERE ARE OUR PRODUCTS WILL BE AVAILABLE MAY MAKE FUTURE RESULTS UNPREDICTABLE.
+
+Our
+future results depend on various factors
+ including successful selection of new markets
+ market acceptance of Anthus Life&rsquo;s
+&ldquo;ALC Experience&rdquo;
+ consumer recognition of the quality of our products and willingness to pay our prices (which reflect
+our often higher ingredient costs
+) the quality and performance of our equipment and general economic conditions. In addition
+as with the experience of other retail food and beverage concepts who have tried to expand nationally
+ we may find that the Anthus
+Life concept has limited or no appeal to consumers in new markets or we may experience a decline in the popularity of the ALC
+Experience. Newly opened stores may not succeed
+ future markets may not be successful and average store revenue may not meet expectations.
+
+OUR
+FAILURE TO MANAGE OUR GROWTH EFFECTIVELY COULD HARM OUR BUSINESS AND OPERATING RESULTS.
+
+Our
+plans call for a significant increase in the number of consumers. Product supply
+ financial and management controls and information
+systems may be inadequate to support our expansion. Managing our growth effectively will require us to continue to enhance these
+systems
+ procedures
+ and controls and to hire
+ train and retain management and staff. We may not respond quickly enough to the
+changing demands that our expansion will impose on our management
+ employees and existing infrastructure. We also place a lot
+of importance on our culture
+ which we believe will be an important contributor to our success. As we grow
+ however
+ we may have
+difficulty maintaining our culture or adapting it sufficiently to meet the needs of our operations. Our failure to manage our
+growth effectively could harm our business and operating results.
+
+OUR
+QUARTERLY OPERATING RESULTS MAY FLUCTUATE SIGNIFICANTLY AND COULD FALL BELOW THE EXPECTATIONS OF INVESTORS DUE TO VARIOUS FACTORS.
+
+Our
+quarterly operating results may fluctuate significantly because of various factors
+ including:
+
+
+
+1.
+    
+    
+The
+    impact of inclement weather
+ natural disasters and other calamities
+ such as earthquakes and/or hurricanes
+ which could cause
+    a delay in getting our products to our consumers;
+
+    
+    
+    
+
+2.
+    
+    
+unseasonably
+    cold or wet weather conditions could cause a delay in getting our products to our consumers;
+
+    
+    
+    
+
+3.
+    
+    
+profitability
+    of our operations where our products are sold
+ especially in new markets;
+
+    
+    
+    
+
+4.
+    
+    
+changes
+    in comparable store sales and consumer visits
+ including the introduction of new product items;
+
+    
+    
+    
+
+5.
+    
+    
+variations
+    in general economic conditions
+ including those relating to changes in diesel and gasoline prices;
+
+    
+    
+    
+
+6.
+    
+    
+negative
+    publicity about the ingredients we use or the occurrence of food-borne illnesses or other problems at stores where our products
+    are available;
+
+    
+    
+    
+
+7.
+    
+    
+changes
+    in consumer preferences and discretionary spending;
+
+    
+    
+    
+
+8.
+    
+    
+increases
+    in infrastructure costs; and
+
+    
+    
+    
+
+9.
+    
+    
+fluctuation
+    in supply prices.
+
+
+Because
+of these factors
+ results for any one quarter are not necessarily indicative of results to be expected for any other quarter or
+for any year. Average consumers&rsquo; store revenue or comparable store revenue in any particular future period may decrease.
+In the future
+ our operating results may fall below the expectations of investors. In that event
+ the value of our Common Stock
+or other securities would likely decrease.
+
+OUR
+CONSUMERS AND SUPPLIERS COULD TAKE ACTIONS THAT HARM OUR REPUTATION AND REDUCE OUR PROFITS.
+
+Consumers
+and suppliers are separate entities and are not our employees. Further
+ we do not exercise control over the day-to-day operations
+of our consumers and suppliers. Any operational shortcomings of our consumers and suppliers are likely to be attributed to our
+system-wide operations and could adversely affect our reputation and have a direct negative impact on our profits.
+
+
+    
+    
+
+
+OUR
+REVENUE IS SUBJECT TO VOLATILITY BASED ON WEATHER AND VARIES BY SEASON.
+
+Seasonal
+factors could also cause our revenue to fluctuate from quarter to quarter. Our revenue may be lower during the winter months and
+the holiday season and during periods of inclement weather and higher during the spring
+ summer and fall months. Our revenue will
+likely also vary from quarter to quarter as a result of the number of trading days
+ that is
+ the number of days in a quarter when
+stores are open.
+
+WE
+COULD FACE LIABILITY FROM OUR CONSUMERS
+ SUPPLIERS OR GOVERNMENT.
+
+A
+consumer
+ supplier or government agency may bring legal action against us based on the consumer/ supplier relationships. Various
+state and federal laws govern our relationship with consumers and suppliers. If we fail to comply with these laws
+ we could be
+liable for damages to consumers or suppliers and fines or other penalties. Expensive litigation with our consumers/suppliers or
+government agencies may adversely affect both our profits and our important relations with our consumer/suppliers.
+
+
+WE
+MAY NOT BE ABLE TO RAISE ADDITIONAL CAPITAL ON ACCEPTABLE TERMS.
+
+Developing
+our business may require significant capital in the future. To meet our capital needs
+ we expect to rely on our cash flow from
+operations and potentially
+ third-party financing. Third-party financing may not
+ however
+ be available on terms favorable to
+us
+ or at all. Our ability to obtain additional funding will be subject to various factors
+ including market conditions
+ our operating
+performance
+ lender sentiment and our ability to incur additional debt in compliance with other contractual restrictions
+ such
+as financial covenants under our credit facility. These factors may make the timing
+ amount
+ terms and conditions of additional
+financings unattractive. Our inability to raise capital could impede our growth.
+
+LITIGATION
+COULD ADVERSELY AFFECT US BY DISTRACTING MANAGEMENT
+ INCREASING OUR EXPENSES OR SUBJECTING US TO MATERIAL MONEY DAMAGES AND OTHER
+REMEDIES.
+
+Our
+consumers could file complaints or lawsuits against us alleging that we are responsible for some illness or injury their consumers
+suffered at or after a visit to their stores
+ or that we have problems with food quality or operations. We are also subject to
+a variety of other claims arising in the ordinary course of our business
+ including personal injury claims
+ contract claims and
+claims alleging violations of federal and state law regarding workplace and employment matters
+ discrimination and similar matters
+and we could become subject to class action or other lawsuits related to these or different matters in the future. Regardless
+of whether any claims against us are valid
+ or whether we are ultimately held liable
+ claims may be expensive to defend and may
+divert time and money away from our operations and hurt our performance. A judgment significantly in excess of our insurance coverage
+for any claims could materially and adversely affect our financial condition or results of operations. Any adverse publicity resulting
+from these allegations may also materially and adversely affect our reputation or prospects
+ which in turn could adversely affect
+our results. The food and beverage services industry has been subject to a growing number of claims based on the nutritional content
+of food products they sell and disclosure and advertising practices.
+
+WE
+MAY ALSO INCUR COSTS RESULTING FROM OTHER SECURITY RISKS WE MAY FACE IN CONNECTION WITH OUR ELECTRONIC PROCESSING AND TRANSMISSION
+OF CONFIDENTIAL CONSUMER INFORMATION.
+
+We
+rely on commercially available software and other technologies to provide security for processing and transmission of consumer
+credit card data. Our systems could be compromised in the future
+ which could result in the misappropriation of consumer information
+or the disruption of systems. Either of those consequences could have a material adverse effect on our reputation and business
+or subject it to additional liabilities.
+
+
+    
+    
+
+
+WE
+ARE EXPOSED TO INCREASED COSTS AND RISKS ASSOCIATED WITH COMPLIANCE WITH CHANGING LAWS
+ REGULATIONS AND STANDARDS IN GENERAL
+AND SPECIFICALLY WITH INCREASED AND NEW REGULATION OF CORPORATE GOVERNANCE AND DISCLOSURE STANDARDS.
+
+We
+expect to spend an increased amount of management time and external resources to comply with existing and changing laws
+ regulations
+and standards in general
+ and specifically relating to corporate governance. In particular
+ Section 404 of the Sarbanes-Oxley
+Act of 2002 requires management to annually review and evaluate all of our internal control systems
+ and file attestations of
+the effectiveness of these systems by our management and by our independent auditors. This process may require us to hire additional
+personnel and use outside advisory services and result in additional accounting and legal expenses. If in the future our chief
+executive officer
+ chief financial officer or independent auditors determine that our controls over financial reporting are not
+effective as defined under Section 404
+ investor perceptions may be adversely affected and could cause a decline in the value
+of our stock. If our independent auditors are unable to provide an unqualified attestation of management&rsquo;s assessment of
+our internal control over financial reporting
+ or disclaim an ability to issue an attestation
+ it could result in a loss of investor
+confidence in our financial reports
+ adversely affect our stock value and our ability to access the capital markets or borrow
+money. Failure to comply with other existing and changing laws
+ regulations and standards could also adversely affect the Company.
+
+THE
+REPORT OF OUR INDEPENDENT AUDITORS INDICATES UNCERTAINTY CONCERNING OUR ABILITY TO CONTINUE AS A GOING CONCERN AND THIS MAY IMPAIR
+OUR ABILITY TO RAISE CAPITAL TO FUND OUR BUSINESS PLAN.
+
+Our
+independent auditors have raised substantial doubt about our ability to continue as a going concern. We cannot assure you that
+this will not impair our ability to raise capital on attractive terms. Additionally
+ we cannot assure you that we will ever achieve
+significant revenues and therefore remain a going concern.
+
+COMPETITORS
+WITH MORE RESOURCES MAY FORCE US OUT OF BUSINESS.
+
+We
+will compete with many well-established companies
+ food and beverage service
+ C-stores and other approved channels and otherwise
+on the basis of taste
+ quality and price of product offered
+ consumer service
+ atmosphere
+ location and overall guest experience.
+Aggressive pricing by our competitors or the entrance of new competitors into our markets could reduce our revenue and profit
+margins.
+
+STAKOOL
+MAY NOT BE ABLE TO ATTAIN PROFITABILITY WITHOUT ADDITIONAL FUNDING
+ WHICH MAY BE UNAVAILABLE.
+
+The
+Company has limited capital resources. To date
+ the Company has funded its operations from limited funding and has not generated
+sufficient cash from operations to be profitable or to maintain sufficient inventory. Unless the Company begins to generate sufficient
+revenues to finance operations as a going concern
+ the Company may experience liquidity and solvency problems. Such liquidity
+and solvency problems may force the Company to cease operations if additional financing is not available.
+
+THE
+COST TO MEET OUR REPORTING AND OTHER REQUIREMENTS AS A PUBLIC COMPANY SUBJECT TO THE EXCHANGE ACT OF 1934 WILL BE SUBSTANTIAL
+AND MAY RESULT IN US HAVING INSUFFICIENT FUNDS TO EXPAND OUR BUSINESS OR EVEN MEET ROUTINE BUSINESS OBLIGATIONS.
+
+Subject
+to the reporting requirements of the Exchange Act of 1934
+ we will incur ongoing expenses associated with professional fees for
+accounting
+ legal
+ and a host of other expenses for annual reports and proxy statements. We estimate that these costs could range
+up to $50
+000 per year in the next few years and will be higher if our business volume and activity increases.
+
+WE
+MAY HAVE DIFFICULTY IN ATTRACTING AND RETAINING MANAGEMENT AND OUTSIDE INDEPENDENT MEMBERS TO OUR BOARD OF DIRECTORS AS A RESULT
+OF THEIR CONCERNS RELATING TO THEIR INCREASED PERSONAL EXPOSURE TO LAWSUITS AND STOCKHOLDER CLAIMS BY VIRTUE OF HOLDING THESE
+POSITIONS IN A PUBLICLY-HELD COMPANY.
+
+The
+directors and management of publicly-traded corporations are increasingly concerned with the extent of their personal exposure
+to lawsuits and stockholder claims
+ as well as governmental and creditor claims which may be made against them
+ particularly in
+view of recent changes in securities laws imposing additional duties
+ obligations and liabilities on management and directors.
+Due to these perceived risks
+ directors and management are also becoming increasingly concerned with the availability of directors&rsquo;
+and officers&rsquo; liability insurance to pay on a timely basis the costs incurred in defending such claims. We currently do
+not carry directors&rsquo; and officers&rsquo; liability insurance. Directors&rsquo; and officers&rsquo; liability insurance has
+recently become much more expensive and difficult to obtain. If we are unable to provide directors&rsquo; and officers&rsquo;
+liability insurance at affordable rates or at all
+ it may become increasingly more difficult to attract and retain qualified outside
+directors to serve on our board of directors.
+
+
+    
+    
+
+
+We
+may lose potential independent board members and management candidates to other companies that have greater directors&rsquo; and
+officers&rsquo; liability insurance to insure them from liability or to companies that have revenues or have received greater
+funding to date which can offer more lucrative compensation packages. The fees of directors are also rising in response to their
+increased duties
+ obligations and liabilities as well as increased exposure to such risks. As a company with a limited operating
+history and limited resources
+ we will have a more difficult time attracting and retaining management and outside independent
+directors than a more established company due to these enhanced duties
+ obligations and liabilities.
+
+WE
+MAY NOT ACHIEVE RESULTS SIMILAR TO THE FINANCIAL PROJECTIONS.
+
+Projections
+and estimated financial results are based on estimates and assumptions that are inherently uncertain and
+ though considered reasonable
+by us
+ are subject to significant business
+ economic
+ and competitive uncertainties and contingencies
+ all of which are difficult
+to predict and many of which are beyond our control. Accordingly
+ there can be no assurance that the projected results will be
+realized or that actual results will not be significantly lower than projected. Neither we nor any other person or entity assumes
+any responsibility for the accuracy or validity of the projections.
+
+OUR
+DIRECTORS HAVE THE RIGHT TO AUTHORIZE THE ISSUANCE OF ADDITIONAL SHARES OF OUR PREFERRED STOCK.
+
+Our
+directors
+ within the limitations and restrictions contained in our articles of incorporation and without further action by our
+stockholders
+ have the authority to issue shares of preferred stock from time to time in one or more series and to fix the number
+of shares and the relative rights
+ conversion rights
+ voting rights
+ and terms of redemption
+ liquidation preferences and any
+other preferences
+ special rights and qualifications of any such series. Any issuance of shares of preferred stock could adversely
+affect the rights of holders of our common stock.
+
+IF
+THERE IS A MARKET FOR OUR SECURITIES IN THE FUTURE
+ OUR STOCK PRICE MAY BE VOLATILE AND ILLIQUID.
+
+We
+can make no assurance that there will be a public market for our common Stock in the future. If there is a market for our Common
+Stock in the future
+ we anticipate that such market may be illiquid and might be subject to wide fluctuations in response to several
+factors
+ including
+ but not limited to the following factors:
+
+
+
+(1)
+    
+    
+actual
+    or anticipated variations in our results of operations;
+
+(2)
+    
+    
+our
+    ability or inability to generate new revenue;
+
+(3)
+    
+    
+our
+    ability to anticipate and effectively adapt to a developing market;
+
+(4)
+    
+    
+our
+    ability to attract
+ retain and motivate qualified personnel;
+
+(5)
+    
+    
+consumer
+    satisfaction and loyalty;
+
+(6)
+    
+    
+increased
+    competition; and
+
+(7)
+    
+    
+conditions
+    and trends in the market for organic and natural products.
+
+
+SALES
+OF A SUBSTANTIAL NUMBER OF SHARES OF OUR COMMON STOCK INTO THE PUBLIC MARKET BY SELLING SHAREHOLDERS MAY CAUSE A REDUCTION IN
+THE PRICE OF OUR STOCK AND PURCHASERS WHO ACQUIRE SHARES FROM THE SELLING SHAREHOLDERS MAY LOSE SOME OR ALL OF THEIR INVESTMENTS.
+
+If
+a market for our shares develops
+ sales of a substantial number of shares of our Common Stock in the public market could cause
+a reduction in the price of our Common Stock. If selling Shareholders resell a substantial portion of the issued and outstanding
+shares of our Common Stock it could have an adverse effect on the price of our Common Stock. As a result of any such decreases
+in the price of our Common Stock
+ purchasers who acquire shares from Selling Shareholders may lose some or all of their investment.
+
+OUR
+EXISTING SHAREHOLDERS WILL EXPERIENCE DILUTION.
+
+We
+will need to raise additional funds
+ and these funds may not be available on favorable terms
+ or at all. Furthermore
+ if we issue
+equity or debt securities to raise additional funds
+ our existing shareholders will experience dilution
+ and the new equity or
+debt securities may have rights
+ preference
+ and privileges senior to those of our existing shareholders. If we cannot raise funds
+on acceptable terms
+ we may not be able to develop or enhance our products
+ execute our business plan
+ take advantage of future
+opportunities
+ or respond to competitive pressures or unanticipated consumer requirements.
+
+
+    
+    
+
+
+There
+is no assurance that we will be profitable
+ and we may not be able to successfully develop
+ manage or market our products and
+services. We may not be able to attract or retain qualified executives and technological personnel and our products and services
+may become obsolete. Government regulation may hinder our business. Additional dilution in outstanding stock ownership will be
+incurred due to the issuance of more shares
+ stock options
+ or the exercise of stock options
+ and other risks inherent in our
+business.
+
+Currently
+there is a limited public market for our securities
+ and there can be no assurances that any public market will ever develop and
+even if developed
+ it is likely to be subject to significant price fluctuations.
+
+We
+have a trading symbol for our common stock
+ namely &rsquo;STKO&rsquo;. However
+ our stock has been thinly traded
+ if at all. Consequently
+there can be no assurances as to whether:
+
+
+
+    
+    
+any
+    market for our shares will develop;
+
+    
+    
+    
+
+    
+    
+the
+    prices at which our common stock will trade; or
+
+    
+    
+    
+
+    
+    
+the
+    extent to which investor interest in us will lead to the development of an active
+ liquid trading market. Active trading markets
+    generally result in lower price volatility and more efficient execution of buy and sell orders for investors.
+
+
+Until
+our common stock is fully distributed and an orderly market develops in our common stock
+ if ever
+ the price at which it trades
+is likely to fluctuate significantly. Prices for our common stock will be determined in the marketplace and may be influenced
+by many factors
+ including the depth and liquidity of the market for shares of our common stock
+ developments affecting our business
+including the impact of the factors referred to elsewhere in these risk factors
+ investor perception of our Company and general
+economic and market conditions. No assurances can be given that an orderly or liquid market will ever develop for the shares of
+our common stock.
+
+We
+are subject to the penny stock rules which will make our securities more difficult to sell.
+
+We
+are subject to the SEC&rsquo;s &ldquo;penny stock&rdquo; rules because our securities sell below $5.00 per share. The penny stock
+rules require broker-dealers to deliver a standardized risk disclosure document prepared by the SEC which provides information
+about penny stocks and the nature and level of risks in the penny stock market. The broker-dealer must also provide the customer
+with current bid and offer quotations for the penny stock
+ the compensation of the broker-dealer and its salesperson
+ and monthly
+account statements showing the market value of each penny stock held in the customer&rsquo;s account. In addition
+ the bid and
+offer quotations
+ and the broker-dealer and salesperson compensation information must be given to the customer orally or in writing
+prior to completing the transaction and must be given to the customer in writing before or with the customer&rsquo;s confirmation.
+
+Furthermore
+the penny stock rules require that prior to a transaction
+ the broker dealer must make a special written determination that the
+penny stock is a suitable investment for the purchaser and receive the purchaser&rsquo;s written agreement to the transaction.
+The penny stock rules are burdensome and may reduce purchases of any offerings and reduce the trading activity for our securities.
+As long as our securities are subject to the penny stock rules
+ the holders of such securities will find it more difficult to
+sell their securities.
+
+We
+are not likely to pay cash dividends in the foreseeable future.
+
+We
+currently intend to retain any future earnings for use in the operation and expansion of our business. Accordingly
+ we do not
+expect to pay any cash dividends in the foreseeable future
+ but will review this policy as circumstances dictate.
+
+
+    
+    
+
+
+SHARES
+ELIGIBLE FOR FUTURE SALE BY OUR CURRENT STOCKHOLDERS MAY ADVERSELY AFFECT OUR STOCK PRICE.
+
+The
+sale of a significant number of shares of common stock at any particular time could be difficult to achieve at the market prices
+prevailing immediately before such shares are offered. In addition
+ sales of substantial amounts of common stock
+ including shares
+issued upon the exercise of outstanding options and warrants
+ under Securities and Exchange Commission Rule 144 or otherwise could
+adversely affect the prevailing market price of our common stock and could impair our ability to raise capital at that time through
+the sale of our securities.
+
+NEED
+FOR ANY GOVERNMENTAL APPROVAL OF PRINCIPAL PRODUCTS.
+
+Companies
+have been the target of class action lawsuits and other proceedings alleging
+ among other things
+ violations of federal and state
+workplace and employment laws. Proceedings of this nature
+ if successful
+ could result in our payment of substantial damages.
+
+Our
+results of operations may be adversely affected by legal or governmental proceedings brought by or on behalf of employees or consumers.
+In recent years
+ a number of companies
+ including juice companies
+ have been subject to lawsuits
+ including class action lawsuits
+alleging violations of federal and state law. A number of these lawsuits have resulted in the payment of substantial awards by
+the defendants. Although we are not currently a party to any material class action lawsuits
+ we could incur substantial damages
+and expenses resulting from lawsuits
+ which would increase the cost of operating the business and decrease the cash available
+for other uses.
+
+GOVERNMENT
+AND INDUSTRY REGULATION.
+
+We
+are subject to various federal
+ state and local regulations. Our products are subject to state and local regulation by health
+sanitation
+ food and workplace safety and other agencies. We may experience material difficulties or failures in obtaining the
+necessary licenses or approvals for new products which could delay planned execution of our business plan. We are subject to the
+U.S. Americans with Disabilities Act and similar state laws that give civil rights protections to individuals with disabilities
+in the context of employment
+ public accommodations and other areas. We may in the future have to modify office and warehouse
+space
+ for example by adding access ramps or redesigning certain architectural fixtures
+ to provide service to or make reasonable
+accommodations for disabled persons. The expenses associated with these modifications could be material. Our operations are also
+subject to the U.S. Fair Labor Standards Act
+ which governs such matters as minimum wages
+ overtime and other working conditions
+along with the U.S. Americans with Disabilities Act
+ family leave mandates and a variety of similar laws enacted by the states
+that govern these and other employment law matters. In addition
+ federal proposals to introduce a system of mandated health insurance
+and flexible work time and other similar initiatives could
+ if implemented
+ adversely affect our operations. In recent years
+there has been an increased legislative
+ regulatory and consumer focus on nutrition and advertising practices in the food industry.
+As a result
+ we may in the future become subject to initiatives in the area of nutrition disclosure or advertising
+ such as requirements
+to provide information about the nutritional content of our products
+ which could increase our expenses.
+
+Item
+1B. Unresolved Staff Comments
+
+Not
+applicable
+
+Item
+2. Properties
+
+On
+September 29
+ 2010
+ the Company signed a lease for office space in Jacksonville
+ Florida. The lease commenced on November 1
+ 2010
+and is for a term of three years and one month. The monthly rent is $1
+073.33 with annual increases. The lease required a security
+deposit of $1
+700.
+
+
+
+    
+
+    31
+ 2012
+
+    31
+ 2011
+
+    
+1
+192
+1
+192
+
+    
+    
+    
+
+    
+1
+841
+1
+841
+
+    
+(1
+013
+    
+
+
+ net
+    
+1
+311
+
+
+
+    
+    
+
+
+Item
+3. Legal Proceedings
+
+We
+are not currently involved in any litigation that we believe could have a materially adverse effect on our financial condition
+or results of operations. There is no action
+ suit
+ proceeding
+ inquiry or investigation before or by any court
+ public board
+government agency
+ self-regulatory organization or body pending or
+ to the knowledge of the executive officers of our Company
+or any of our subsidiaries
+ threatened against or affecting our Company
+ our common stock
+ any of our subsidiaries or of our Company&rsquo;s
+or our Company&rsquo;s subsidiaries&rsquo; officers or directors in their capacities as such
+ in which an adverse decision could
+have a material adverse effect.
+
+Item
+4. MINE SAFETY DISCLOSURES.
+
+Not
+applicable.
+
+PART
+II
+
+Item
+5. Market for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities
+
+(a)
+Market Information
+Our
+common stock was initially quoted on OTCBB under the symbol STKO. The following table sets forth for the indicated periods the
+high and low sales prices per share for our common stock on the OTCQB.
+
+
+
+
+    Year 2012 Quarters Ended:
+    
+    
+
+
+ 2012
+    
+    
+
+
+ 2012
+    
+    
+
+
+ 2012
+    
+    
+
+
+ 2012
+    
+    
+
+    
+    
+    
+
+
+    Year 2011 Quarters Ended:
+    
+    
+
+
+ 2011
+    
+    
+
+
+ 2011
+    
+    
+
+
+ 2011
+    
+    
+
+
+ 2011
+    
+    
+
+
+(b)
+Holders 
+
+As
+of April 8
+ 2013
+ of record of our common
+stock
+ and the closing price of our common stock was $0.0002 per share as reported by OTCQB.
+
+(c)
+Dividends
+
+Since
+our inception
+ we have not declared nor paid any cash dividends on our capital stock and we do not anticipate paying any cash
+dividends in the foreseeable future. Our current policy is to retain any earnings in order to finance our operations. Our Board
+of Directors will determine future declarations and payments of dividends
+ if any
+ in light of the then-current conditions it
+deems relevant and in accordance with applicable corporate law.
+
+(d)
+Securities Authorized for Issuance Under Equity Compensation Plans
+
+As
+of the date hereof
+ we have not adopted an equity compensation plan and have not granted any stock options.
+
+Item
+6. Selected Financial Data
+
+Not
+applicable.
+
+
+    
+    
+
+
+Item
+7. Management&rsquo;s Discussion and Analysis of Financial Condition and Result of Operations
+
+Forward-Looking
+Statements 
+
+We
+make forward-looking statements in Management&rsquo;s Discussion and Analysis of Financial Condition and Results of Operations
+and elsewhere in this report based on the beliefs and assumptions of our management and on information currently available to
+us. Forward-looking statements include information about our possible or assumed future results of operations which follow under
+the headings &ldquo;Business and Overview
+&rdquo; &ldquo;Liquidity and Capital Resources
+&rdquo; and other statements throughout
+this report preceded by
+ followed by or that include the words &ldquo;believes
+&rdquo; &ldquo;expects
+&rdquo; &ldquo;anticipates
+&rdquo;
+&ldquo;intends
+&rdquo; &ldquo;plans
+&rdquo; &ldquo;estimates&rdquo; or similar expressions.
+
+Forward-looking
+statements are subject to a number of risks and uncertainties that could cause actual results to differ materially from those
+expressed in these forward-looking statements
+ including the risks and uncertainties described below and other factors we describe
+from time to time in our periodic filings with the U.S. Securities and Exchange Commission (the &ldquo;SEC&rdquo;). We therefore
+caution you not to rely unduly on any forward-looking statements. The forward-looking statements in this report speak only as
+of the date of this report
+ and we undertake no obligation to update or revise any forward-looking statement
+ whether as a result
+of new information
+ future developments or otherwise.
+
+Plan
+Of Operations
+
+The
+Company strives to become a leading supplier of natural and organic products by maintaining the highest standards for quality
+consistency
+ sustainability
+ product assortments
+ value-added support services and integrity in our business and personal relationships.
+Through trust and our commitment to quality we will build a loyal consumer following throughout North America.
+
+An
+experienced core management team is in place and has reviewed
+ studied and analyzed the natural and/or organic product market.
+The Company plans to establish a procurement program and will work with outside professionals to build its business
+ create brands
+through eco-friendly packaging and distinctive labeling
+ and develop key distribution relationships.
+
+The
+strategy is to have Anthus Life&rsquo;s brand name strongly associated on all their distributed products and to focus on finding
+and developing the best USDA certified natural and/or organic food product options for North America. During 2013
+ the Company
+plans to continue to introduce additional USDA Certified Organic health product
+ positively impacting sales going forward. Also
+for 2013
+ the Company&rsquo;s R&amp;D team will be diligently working to develop additional product line extensions to include
+but not limited to energy drinks
+ additional health food items
+ snacks
+ cookies
+ as well as the potential integration of advanced
+technologies such as nutraceuticals
+ etc.
+
+In
+June 2009
+ Anthus Life secured a contract manufacturer with the requisite governmental approval
+ having completed the package
+design and is distributing the initial product offering. During the first half of 2012
+ the Company engaged efforts to entirely
+redesign the packaging (wrapper and display boxes) of its Natural plus Energy product line. The Company is excited about the opportunity
+to bring healthy
+ great tasting
+ and natural and/or organic food products at affordable prices to North American consumer market.
+
+Management&rsquo;s
+Discussion and Analysis of Financial Condition and Results of Operations
+
+This
+Annual report on Form 10-K and other reports filed by Stakool
+ Inc. (&ldquo;we
+&rdquo; &ldquo;us
+&rdquo; &ldquo;our
+&rdquo; or
+the &ldquo;Company&rdquo;) from time to time with the U.S. Securities and Exchange Commission (the &ldquo;SEC&rdquo;) contain
+or may contain forward-looking statements (collectively the &ldquo;Filings&rdquo;) and information that are based upon beliefs
+of
+ and information currently available to
+ the Company&rsquo;s management as well as estimates and assumptions made by Company&rsquo;s
+management. Readers are cautioned not to place undue reliance on these forward-looking statements
+ which are only predictions
+and speak only as of the date hereof. When used in the Filings
+ the words &ldquo;anticipate&rdquo;
+ &ldquo;believe&rdquo;
+ &ldquo;estimate&rdquo;
+&ldquo;expect&rdquo;
+ &ldquo;future&rdquo;
+ &ldquo;intend&rdquo;
+ &ldquo;plan&rdquo;
+ or the negative of these terms and similar
+expressions as they relate to the Company or the Company&rsquo;s management identify forward-looking statements. Such statements
+reflect the current view of the Company with respect to future events and are subject to risks
+ uncertainties
+ assumptions
+ and
+other factors. Should one or more of these risks or uncertainties materialize
+ or should the underlying assumptions prove incorrect
+actual results may differ significantly from those anticipated
+ believed
+ estimated
+ expected
+ intended
+ or planned.
+
+
+    
+    
+
+
+Although
+the Company believes that the expectations reflected in the forward-looking statements are reasonable
+ the Company cannot guarantee
+future results
+ levels of activity
+ performance
+ or achievements. Except as required by applicable law
+ including the securities
+laws of the United States
+ the Company does not intend to update any of the forward-looking statements to conform these statements
+to actual results.
+
+Our
+financial statements are prepared in accordance with accounting principles generally accepted in the United States (&ldquo;GAAP&rdquo;).
+These accounting principles require us to make certain estimates
+ judgments and assumptions. We believe that the estimates
+ judgments
+and assumptions upon which we rely are reasonable based upon information available to us at the time that these estimates
+ judgments
+and assumptions are made. These estimates
+ judgments and assumptions can affect the reported amounts of assets and liabilities
+as of the date of the financial statements as well as the reported amounts of revenues and expenses during the periods presented.
+Our financial statements would be affected to the extent there are material differences between these estimates and actual results.
+In many cases
+ the accounting treatment of a particular transaction is specifically dictated by GAAP and does not require management&rsquo;s
+judgment in its application. There are also areas in which management&rsquo;s judgment in selecting any available alternative
+would not produce a materially different result. The following discussion should be read in conjunction with our financial statements
+and notes thereto appearing elsewhere in this report.
+
+Results
+of Operations for the years ended December 31
+ 2012 and 2011
+
+
+
+Total
+Revenue.
+ 2012 and 2011 were $17
+435 and $16
+710
+ respectively. Total revenues
+were the result of our product sales. Total cost of goods sold was $36
+491 and $24
+120 for the years ended December 31
+ 2012 and
+2011
+ respectively. Gross Loss was $19
+056 and $7
+410 for the years ended December 31
+ 2012 and 2011
+ respectively.
+
+
+
+Operating
+expenses: 
+ 2012 and 2011 were $3
+934
+440 and $1
+310
+231. Operating
+expenses consisted of professional fees of $454
+201
+ stock-based compensation for common and preferred stock of $3
+062
+015
+ rent
+of $16
+445 and selling
+ general and administrative expenses of $401
+779. The changes in operating expenses were primarily the
+results of stock-based compensation and consulting fees.
+
+Other
+ Other income (expenses) for the years ended December 31
+ 2012 and 2011
+were $1
+431
+487 and $7
+100
+ respectively. Other income (expenses) consisted of forgiveness of debt of $3
+750
+ interest expense
+of $8
+344
+ amortization of debt discount of $30
+013
+ loss on debt settlement of $320
+688
+ loss on note settlement of $106
+242
+loss on stock issuance of $262
+500 and loyalty expense of $707
+450. The change in other income (expense) was primarily due to
+stock issued for less than market value
+ loss due to the settlement of debt and preferred stock issued to investors as a loyalty
+gift.
+
+Liquidity
+&amp; Capital Resources
+
+The
+accompanying financial statements have been prepared assuming that the Company will continue as a going concern which contemplates
+among other things
+ the realization of assets and satisfaction of liabilities in the ordinary course of business.
+
+The
+Company sustained a loss of $5
+384
+983 for the year ended December 31
+ 2012 and $1
+324
+741 for the year ended December 31
+ 2011.
+Because of the absence of positive cash flows from operations
+ the Company requires additional funding for continuing the development
+and marketing of products. These factors raise substantial doubt about the Company&rsquo;s ability to continue as a going concern.
+The accompanying financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+    
+    
+
+
+We
+are presently unable to meet our obligations as they come due. At December 31
+ 2012 we had minimal assets and a working capital
+deficit of $664
+983. Our working capital deficit is due to the results of operations.
+
+Net
+cash used in operating activities for the year ended December 31
+ 2012 and 2011 was ($179
+022) and ($291
+064)
+ respectively. Net
+cash used in operating activities includes our net loss
+ accounts payable
+ depreciation
+ prepaid expenses
+ accrued interest
+ inventories
+and stock-based compensation.
+
+Net
+cash provided by investing activities for the year ended December 31
+ 2012 and 2011 was $-0- and $34
+493
+ respectively. Net cash
+provided by investing activities for the year ended December 31
+ 2011 included the purchase of property and equipment and the
+repayment to us of a note receivable.
+
+Net
+cash provided by financing activities for the year ended December 31
+ 2012 and 2011 was $163
+800 and $184
+700
+ respectively. Net
+cash provided by financing activities for the year ended December 31
+ 2012 includes the proceeds from stock sales of $13
+000 and
+the issuance of convertible notes payable of $150
+800.
+
+We
+anticipate that our future liquidity requirements will arise from the need to fund our growth from operations
+ pay current obligations
+and future capital expenditures. The primary sources of funding for such requirements are expected to be cash generated from operations
+and raising additional funds from the private sources and/or debt financing. However
+ we can provide no assurances that we will
+be able to generate sufficient cash flow from operations and/or obtain additional financing on terms satisfactory to us
+ if at
+all
+ to remain a going concern. Our continuation as a going concern is dependent upon our ability to generate sufficient cash
+flow to meet our obligations on a timely basis and ultimately to attain profitability. In addition
+ our Plan of Operation for
+the next twelve months is to raise capital to continue to expand our operations. We are presently engaged in capital raising activities
+through one or more private offering of our company&rsquo;s securities. See &ldquo;Note 8&ndash; Going Concern&rdquo; in our financial
+statements for additional information as to the possibility that we may not be able to continue as a &ldquo;going concern.&rdquo;
+
+Off-Balance
+Sheet Arrangements
+
+We
+do not have any off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on our financial
+condition
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures or capital
+resources that is material to investors.
+
+Item
+7A. Quantitative and Qualitative Disclosures About Market Risk
+
+We
+do not hold any derivative instruments and do not engage in any hedging activities.
+
+
+    
+    
+
+
+Item
+8. Financial Statements and Supplementary Data
+
+The
+financial statements and supplementary data required by this item are set forth at the end of this Annual Report on Form 10-K
+beginning on page F-1.
+
+STAKOOL
+INC.
+TABLE
+OF CONTENTS
+DECEMBER
+31
+ 2012
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+Report
+    of Independent Registered Public Accounting Firm
+    
+    
+
+    
+    
+    
+
+Consolidated
+    Balance Sheets as of December 31
+ 2012 and 2011
+    
+    
+
+    
+    
+    
+
+Consolidated
+    Statements of Operations for the years ended December 31
+ 2012 and 2011
+    
+    
+
+    
+    
+    
+
+Consolidated
+    Statement of Stockholders&rsquo; Equity (Deficit) as of December 31
+ 2012
+    
+    
+
+    
+    
+    
+
+Consolidated
+    Statements of Cash Flows for the years ended December 31
+ 2012 and 2011
+    
+    
+
+    
+    
+    
+
+Notes
+    to Consolidated Financial Statements
+    
+F-6
+    &ndash; F-13
+
+
+
+    
+    
+
+
+Silberstein Ungar
+ PLLC CPAs and Business Advisors
+
+
+
+
+ Suite 2175
+
+ MI 48025-4586
+
+
+REPORT OF INDEPENDENT
+REGISTERED PUBLIC ACCOUNTING FIRM
+
+
+
+ Inc.
+
+ Georgia
+
+
+balance sheets of Stakool
+ Inc.
+ as of December 31
+ 2012 and 2011
+ and the related consolidated statements of operations
+ stockholders&rsquo;
+equity (deficit)
+ and cash flows for the years then ended. These financial statements are the responsibility of the Company&rsquo;s
+management. Our responsibility is to express an opinion on these financial statements based on our audits.
+
+
+the standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan and perform
+the audits to obtain reasonable assurance about whether the financial statements are free of material misstatement. The Company
+has determined that it is not required to have
+ nor were we engaged to perform
+ an audit of its internal control over financial
+reporting. Our audits included consideration of internal control over financial reporting as a basis for designing audit procedures
+that are appropriate in the circumstances
+ but not for the purpose of expressing an opinion on the effectiveness of the Company&rsquo;s
+internal control over financial reporting. Accordingly
+ we express no such opinion. An audit includes examining on a test basis
+evidence supporting the amounts and disclosures in the financial statements. An audit also includes assessing the accounting principles
+used and significant estimates made by management
+ as well as evaluating the overall financial statement presentation. We believe
+that our audits provide a reasonable basis for our opinion.
+
+
+ the consolidated financial
+statements referred to above present fairly
+ in all material respects
+ the financial position of Stakool
+ Inc.
+ as of December
+31
+ 2012 and 2011 and the results of its operations and cash flows for the years then ended
+ in conformity with accounting principles
+generally accepted in the United States of America.
+
+
+have been prepared assuming that the Stakool
+ Inc. will continue as a going concern. As discussed in Note 8 to the financial statements
+the Company has negative working capital
+ has received limited revenue from sales of products or services
+ and has incurred losses
+from operations. These factors raise substantial doubt about the Company&rsquo;s ability to continue as a going concern. Management&rsquo;s
+plans with regard to these matters are described in Note 8. The accompanying consolidated financial statements do not include
+any adjustments that might result from the outcome of this uncertainty.
+
+
+
+/s/
+    Silberstein Ungar
+ PLLC
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+    
+
+
+STAKOOL
+INC.
+CONSOLIDATED
+BALANCE SHEETS
+
+
+
+    
+December
+    31
+ 2012
+December
+    31
+ 2011
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+15
+560
+
+Accounts
+    receivable
+    
+3
+211
+
+Prepaid
+    expenses
+    
+334
+263
+
+    
+    
+21
+925
+
+Total
+    current assets
+    
+374
+959
+
+    
+    
+    
+
+Property and
+    equipment
+ net
+    
+1
+311
+
+    
+    
+    
+
+    
+    
+    
+
+    
+1
+700
+1
+700
+
+Total
+    assets
+2
+866
+377
+970
+
+    
+    
+    
+
+Liabilities
+    and Stockholders&rsquo; Equity (Deficit)
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+Accounts
+    payable
+259
+395
+14
+710
+
+Due
+    for acquisition
+    
+220
+000
+
+Customer
+    deposit
+    
+    
+
+Stock
+    payable
+295
+318
+    
+
+Notes
+    payable
+    
+35
+000
+
+Loan
+    payable
+6
+000
+6
+000
+
+Convertible
+    notes payable
+ net of debt discount
+102
+013
+10
+000
+
+Accrued
+    interest
+2
+451
+10
+299
+
+Total
+    current liabilities
+665
+321
+296
+009
+
+Total
+    liabilities
+665
+321
+296
+009
+
+    
+    
+    
+
+Stockholders&rsquo;
+    equity (deficit)
+    
+    
+
+Common
+    stock
+ 4
+000
+000
+000 shares authorized
+ 3
+375
+231
+494
+ par value $0.00001 and 43
+311
+767
+ par value $0.001 shares issued and
+    outstanding as of December 31
+ 2012 and 2011
+ respectively
+33
+008
+43
+312
+
+Preferred
+    stock A
+ 100
+000
+000 shares authorized
+ 0
+ par value $0.00001 and 10
+000
+000
+par value $0.001 shares issued and outstanding
+    as of December 31
+ 2012 and 2011
+ respectively
+    
+10
+000
+
+Preferred
+    stock B
+ 10 shares authorized
+ $0.00001 par value
+ 1 and 0 shares issued and outstanding as of December 31
+ 2012 and 2011
+    respectively
+    
+    
+
+Preferred
+    stock C
+ 30
+000
+000 shares authorized
+ $0.00001 par value
+ 341
+180 and 0 shares issued and outstanding as of December 31
+    2012 and 2011
+ respectively
+    
+    
+
+Additional
+    paid-in capital
+6
+296
+248
+1
+556
+450
+
+Treasury
+    stock
+    
+56
+638
+
+Deferred
+    compensation
+(22
+500
+    
+
+Accumulated
+    deficit
+(6
+969
+422
+(1
+584
+439
+
+Total
+    stockholders&rsquo; equity (deficit)
+(662
+455
+81
+961
+
+Total
+    liabilities and stockholders&rsquo; equity (deficit)
+2
+866
+377
+970
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+CONSOLIDATED
+STATEMENTS OF OPERATIONS
+
+
+
+    
+    
+    
+
+    
+December
+    31
+ 2012
+December
+    31
+ 2011
+
+    
+    
+    
+
+    
+17
+435
+16
+710
+
+    
+36
+491
+24
+120
+
+Gross
+    loss
+(19
+056
+(7
+410
+
+    
+    
+    
+
+    
+    
+    
+
+    
+454
+201
+160
+952
+
+    
+3
+062
+015
+1
+013
+937
+
+    
+16
+445
+16
+475
+
+Selling
+    general &amp; administrative
+401
+779
+118
+867
+
+    
+3
+934
+440
+1
+310
+231
+
+Loss
+    from operations
+(3
+953
+496
+(1
+317
+641
+
+    
+    
+    
+
+    
+    
+    
+
+    
+3
+750
+    
+
+    
+(8
+344
+(7
+100
+
+Amortization of debt
+    discount
+(30
+013
+    
+
+    
+(320
+688
+    
+
+    
+(106
+242
+    
+
+    
+(262
+500
+    
+
+Loyalty
+    expense
+(707
+450
+    
+
+Total
+    other income (expenses)
+(1
+431
+487
+(7
+100
+
+Loss before provision
+    for income taxes
+(5
+384
+983
+(1
+324
+741
+
+Provision for income
+    taxes
+    
+    
+
+Net
+    (loss)
+(5
+384
+983
+(1
+324
+741
+
+    
+    
+    
+
+Loss per common
+    shares basic and diluted
+    
+    
+
+    
+    
+    
+
+Basic and diluted
+    weighted average number of common shares outstanding
+864
+334
+607
+17
+172
+526
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+STAKOOL
+INC. 
+CONSOLIDATED
+STATEMENT OF STOCKHOLDERS&rsquo; EQUITY (DEFICIT)
+
+
+
+    
+Common
+    Stock
+Preferred
+    Stock A
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+Par
+    Value
+    
+Par
+    Value
+    
+Par
+    Value
+    
+Par
+    Value
+paid-in
+    Capital
+Treasury
+    Stock
+Deferred
+    Compensation
+Accumulated
+    Deficit
+Stockholders&rsquo;
+    Equity
+
+Balance at January
+    1
+ 2011
+3
+784
+500
+3
+785
+    
+    
+    
+    
+    
+    
+368
+815
+    
+    
+(259
+698
+112
+902
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Shares issued for cash at $0.10
+    per share
+3
+290
+000
+3
+289
+    
+    
+    
+    
+    
+    
+325
+711
+    
+    
+    
+329
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Equity issuance
+    cost
+    
+    
+    
+    
+    
+    
+    
+    
+(30
+200
+    
+    
+    
+(30
+200
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Effects of
+    reverse merge
+79
+425
+737
+79
+426
+10
+000
+000
+10
+000
+    
+    
+    
+    
+(439
+426
+    
+    
+    
+(350
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock returned
+    to treasury
+(56
+638
+470
+(56
+638
+    
+    
+    
+    
+    
+    
+    
+56
+638
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock issued
+    for services
+4
+450
+000
+4
+450
+    
+    
+    
+    
+    
+    
+440
+550
+    
+    
+    
+445
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock issued
+    for services to a related party
+9
+000
+000
+9
+000
+    
+    
+    
+    
+    
+    
+891
+000
+    
+    
+    
+900
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Net
+    loss
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(1
+324
+741
+(1
+324
+741
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Balance at December 31
+ 2011
+43
+311
+767
+43
+312
+10
+000
+000
+10
+000
+    
+    
+    
+    
+1
+556
+450
+56
+638
+    
+(1
+584
+439
+81
+961
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Common stock
+    issued for services
+1
+650
+000
+1
+650
+    
+    
+    
+    
+    
+    
+106
+650
+    
+    
+    
+108
+300
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Common stock
+    issued for services
+2
+650
+000
+2
+650
+    
+    
+    
+    
+    
+    
+47
+965
+    
+    
+    
+50
+615
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+1
+950
+000
+1
+950
+    
+    
+    
+    
+    
+    
+(1
+950
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock issued
+    for debt conversion
+17
+422
+000
+17
+422
+    
+    
+    
+    
+    
+    
+29
+688
+    
+    
+    
+47
+110
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock issued
+    for note payable sweetener
+100
+000
+    
+    
+    
+    
+    
+    
+    
+1
+900
+    
+    
+    
+2
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Cancellation
+    of previously issued stock
+    
+    
+    
+    
+    
+    
+    
+    
+35
+879
+(35
+879
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock issued
+    against stock payable
+9
+715
+000
+9
+715
+    
+    
+    
+    
+    
+    
+34
+003
+    
+    
+    
+43
+718
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Adjustment for new par value
+    of $0.00001
+    
+(76
+775
+    
+(9
+900
+    
+    
+    
+    
+107
+226
+(20
+551
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Common stock
+    issued for services
+2
+000
+000
+    
+    
+    
+    
+    
+    
+    
+5
+580
+    
+    
+    
+5
+600
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Preferred C
+    stock issued for services
+    
+    
+    
+    
+    
+    
+18
+000
+    
+45
+000
+    
+(22
+500
+    
+22
+500
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Common stock
+    issued to director for control
+2
+000
+000
+000
+20
+000
+    
+    
+    
+    
+    
+    
+2
+580
+000
+    
+    
+    
+2
+600
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Preferred C
+    stock issued for services
+    
+    
+    
+    
+    
+    
+35
+000
+    
+87
+500
+    
+    
+    
+87
+500
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Preferred C
+    stock issued for cash at $2.50 per share
+    
+    
+    
+    
+    
+    
+5
+200
+    
+13
+000
+    
+    
+    
+13
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Preferred B
+    Stock issued to an officer and director for control
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock issued
+    for debt conversion
+393
+932
+727
+3
+939
+    
+    
+    
+    
+    
+    
+42
+393
+    
+    
+    
+46
+332
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Common stock
+    issued for services
+375
+000
+000
+3
+750
+    
+    
+    
+    
+    
+    
+446
+250
+    
+    
+    
+450
+000
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+1
+500
+000
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Stock issued
+    against stock payable
+526
+000
+000
+5
+260
+    
+    
+    
+    
+    
+    
+46
+640
+    
+    
+    
+51
+900
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Loss on issuance
+    of stock against stock payable
+    
+    
+    
+    
+    
+    
+    
+    
+262
+500
+    
+    
+    
+262
+500
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Loss on stock
+    issued for convertible note
+    
+    
+    
+    
+    
+    
+    
+    
+106
+242
+    
+    
+    
+106
+242
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Retired Preferred
+    Series A stock
+    
+    
+(10
+000
+000
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Intrinsic value
+    of beneficial conversion feature of convertible note
+    
+    
+    
+    
+    
+    
+    
+    
+35
+800
+    
+    
+    
+35
+800
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Preferred C
+    stock issued to prior stockholders as a loyalty gift
+    
+    
+    
+    
+    
+    
+282
+980
+    
+707
+447
+    
+    
+    
+707
+450
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Net
+    loss for the year ended December 31
+ 2012
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(5
+384
+983
+(5
+384
+983
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Balance at December 31
+    2012
+3
+375
+231
+494
+33
+008
+    
+    
+    
+    
+341
+180
+    
+6
+296
+248
+    
+(22
+500
+(6
+969
+422
+(662
+455
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+CONSOLIDATED
+STATEMENTS OF CASH FLOWS
+
+
+
+    
+Year
+    ended
+Year
+    ended
+
+    
+December
+    31
+ 2012
+December
+    31
+ 2011
+
+Cash flows
+    from operating activities:
+    
+    
+
+Net
+    loss for the year
+(5
+384
+983
+(1
+324
+741
+
+Adjustments
+    to reconcile net loss to net cash used in operating activities
+    
+    
+
+    
+(3
+750
+    
+
+Depreciation
+    expense
+    
+    
+
+Amortization
+    of debt discount
+30
+013
+    
+
+Issuance
+    of Preferred C stock for loyalty
+707
+450
+    
+
+Issuance
+    of Common and Preferred C stock for services
+3
+062
+015
+1
+013
+937
+
+Loss
+    on stock issuance
+262
+500
+    
+
+Loss
+    on debt settlement
+320
+688
+    
+
+Loss
+    on note conversion
+106
+242
+    
+
+Change
+    in assets and liabilities:
+    
+    
+
+Accounts
+    and other receivables
+3
+211
+(3
+211
+
+Prepaid
+    expense
+334
+263
+2
+766
+
+    
+21
+925
+2
+781
+
+Accounts
+    payable
+309
+601
+9
+846
+
+Customer
+    deposits
+    
+    
+
+Stock
+    payable
+47
+831
+    
+
+Accrued
+    interest
+3
+345
+7
+100
+
+Net
+    cash used in operating activities
+(179
+022
+(291
+064
+
+    
+    
+    
+
+Cash
+    flows from investing activities:
+    
+    
+
+Purchase
+    of property and equipment
+    
+    
+
+Payments
+    received on note receivable &ndash; related party
+    
+35
+000
+
+Net
+    cash provided by investing activities
+    
+34
+493
+
+    
+    
+    
+
+Cash flows
+    from financing activities:
+    
+    
+
+Proceeds
+    from loans payable
+    
+6
+000
+
+Proceeds
+    from convertible notes payable
+150
+800
+10
+000
+
+Payments
+    made on due to director loan
+    
+    
+
+Payments
+    on due for acquisition
+    
+(130
+000
+
+Equity
+    issuance cost
+    
+(30
+200
+
+Proceeds
+    from sale of Common stock
+    
+329
+000
+
+Proceeds
+    from sale of Preferred C stock
+13
+000
+    
+
+Net
+    cash provided by financing activities
+163
+800
+184
+700
+
+    
+    
+    
+
+Decrease
+    in cash and cash equivalents
+(15
+222
+(71
+871
+
+Cash
+    and cash equivalent
+ beginning of period
+15
+560
+87
+431
+
+Cash
+    and cash equivalents
+ end of period
+    
+15
+560
+
+    
+    
+    
+
+Supplemental
+    cash flow information:
+    
+    
+
+Cash
+    paid for Income taxes
+    
+    
+
+Cash
+    paid for Interest
+    
+    
+
+Supplemental
+    non-cash investing and financing activities:
+    
+    
+
+Issuance
+    of stock payable for debt settlement
+284
+917
+    
+
+Stock
+    issued against stock payable
+37
+430
+    
+
+Stock
+    issued for accrued interest
+11
+193
+    
+
+Stock
+    issued to settle note payable
+31
+250
+    
+
+Stock
+    issued against convertible debt
+53
+000
+    
+
+Initial
+    valuation of debt discount
+35
+800
+    
+
+Note
+    payable recorded in connection with acquisition
+    
+350
+000
+
+Issuance
+    of stock for deferred compensation
+22
+500
+    
+
+Prepaid
+    expense recorded from stock issued for services
+    
+331
+063
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+1 &ndash; NATURE OF BUSINESS
+
+
+
+Stakool
+Inc. f/k/a Mod Hospitality
+) was incorporated in the State of
+Delaware in 1993. In 1997
+On
+July 22
+ 2011
+ Stakool entered into an agreement of Purchase and Sale with Anthus Life Corp. (&ldquo;Anthus&rdquo;) where Anthus
+acquired 74
+834
+313 of the issued and outstanding shares of Stakool. Anthus operates as a wholly owned subsidiary of Stakool.
+
+Anthus
+Life Corp. was incorporated in Nevada on June 4
+ 2009. Anthus is a developer and manufacturer of natural and organic food products
+packaged for consumer consumption. The company has one product line in the natural food category currently
+ and will deploy several
+additional product lines fostering rapid growth in retail accounts
+ consumer exposure and revenue.
+
+The
+company is headquartered in Jacksonville
+ FL.
+
+NOTE
+2 &ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+ACCOUNTING
+BASIS
+
+The
+Company uses the accrual basis of accounting and accounting principles generally accepted in the United States of America (&ldquo;GAAP
+accounting&rdquo;). The Company has adopted a December 31 fiscal year end.
+
+PRINCIPLES
+OF CONSOLIDATION
+
+The
+consolidated financial statements include the financial statements of the Stakool
+ Inc. and its wholly-owned subsidiary Anthus
+Life Corp. All significant inter-company balances and transactions within the Company and subsidiary have been eliminated upon
+consolidation.
+
+CASH
+AND CASH EQUIVALENTS
+
+Stakool
+considers all highly liquid investments with maturities of three months or less to be cash equivalents. At December 31
+ 2012 and
+2011
+ the Company had $338 and $15
+560 of cash
+ respectively.
+
+CASH
+FLOWS REPORTING
+
+The
+Company follows ASC 230
+ Statement of Cash Flows
+ for cash flows reporting
+ classifies cash receipts and payments according to
+whether they stem from operating
+ investing
+ or financing activities and provides definitions of each category
+ and uses the indirect
+or reconciliation method (&ldquo;Indirect method&rdquo;) as defined by ASC 230
+ Statement of Cash Flows
+ to report net cash flow
+from operating activities by adjusting net income to reconcile it to net cash flow from operating activities by removing the effects
+of (a) all deferrals of past operating cash receipts and payments and all accruals of expected future operating cash receipts
+and payments and (b) all items that are included in net income that do not affect operating cash receipts and payments. The Company
+reports the reporting currency equivalent of foreign currency cash flows
+ using the current exchange rate at the time of the cash
+flows and the effect of exchange rate changes on cash held in foreign currencies is reported as a separate item in the reconciliation
+of beginning and ending balances of cash and cash equivalents and separately provides information about investing and financing
+activities not resulting in cash receipts or payments in the period.
+
+FAIR
+VALUE OF FINANCIAL INSTRUMENTS
+
+The
+Company&rsquo;s financial instruments are carried at the approximate fair value due either to length of maturity or interest rates
+that approximate prevailing market rates unless otherwise disclosed in these financial statements.
+
+USE
+OF ESTIMATES
+
+The
+preparation of financial statements in conformity with generally accepted accounting principles requires management to make estimates
+and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date the financial statements and the reported amount of revenues and expenses during the reporting period. Actual results
+could differ from those estimates.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+2 &ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (CONTINUED)
+
+FAIR
+VALUE MEASUREMENTS
+
+The
+Company&rsquo;s balance sheet includes certain financial instruments. The carrying amounts of current assets and current liabilities
+approximate their fair value because of the relatively short period of time between the origination of these instruments and their
+expected realization.
+
+ASC
+820
+ 
+ defines fair value as the exchange price that would be received for an asset
+or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an
+orderly transaction between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy that
+distinguishes between (1) market participant assumptions developed based on market data obtained from independent sources (observable
+inputs) and (2) an entity&rsquo;s own assumptions about market participant assumptions developed based on the best information
+available in the circumstances (unobservable inputs). The fair value hierarchy consists of three broad levels
+ which gives the
+highest priority to unadjusted quoted prices in active markets for identical assets or liabilities (Level 1) and the lowest priority
+to unobservable inputs (Level 3). The three levels of the fair value hierarchy are described below:
+
+
+
+    
+    
+Level
+    1 - Unadjusted quoted prices in active markets that are accessible at the measurement date for identical
+ unrestricted assets
+    or liabilities
+
+    
+    
+Level
+    2 - Inputs other than quoted prices included within Level 1 that are observable for the asset or liability
+ either directly
+    or indirectly
+ including quoted prices for similar assets or liabilities in active markets; quoted prices for identical or
+    similar assets or liabilities in markets that are not active; inputs other than quoted prices that are observable for the
+    asset or liability (e.g.
+ interest rates); and inputs that are derived principally from or corroborated by observable market
+    data by correlation or other means.
+
+    
+    
+Level
+    3 - Inputs that are both significant to the fair value measurement and unobservable.
+
+
+Fair
+value estimates discussed herein are based upon certain market assumptions and pertinent information available to management as
+of December 31
+ 2012. The respective carrying value of certain on-balance-sheet financial instruments approximated their fair
+values due to the short-term nature of these instruments.
+
+DEFERRED
+INCOME TAXES AND VALUATION ALLOWANCE
+
+The
+Company accounts for income taxes under FASB ASC 740 &ldquo;Income Taxes.&rdquo; Under the asset and liability method of FASB
+ASC 740
+ deferred tax assets and liabilities are recognized for the future tax consequences attributable to differences between
+the financial statements carrying amounts of existing assets and liabilities and their respective tax bases. Deferred tax assets
+and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which those temporary
+differences are expected to be recovered or settled. Under FASB ASC 740
+ the effect on deferred tax assets and liabilities of
+a change in tax rates is recognized in income in the period the enactment occurs. A valuation allowance is provided for certain
+deferred tax assets if it is more likely than not that the Company will not realize tax assets through future operations.
+
+
+
+Inventories
+consist of natural and organic food products
+ wrappers and boxes
+ and are stated at the lower of cost or market. Cost is determined
+on the average cost method. Inventories are reviewed and reconciled quarterly. As of December 31
+ 2012
+ all inventories were written
+off due to spoilage.
+
+ACCOUNTS
+RECEIVABLE
+
+The
+Company&rsquo;s receivables consist of billings to customers for products invoiced and shipped. The Company charges off receivables
+if they determine that the amount is no longer collectible. The allowance for bad debts is determined based on management&rsquo;s
+estimate of uncollectible receivables. The allowance for doubtful accounts on receivables was $0 as of December 31
+ 2012. Bad
+debt expense related to customer receivables for the year ended December 31
+ 2012 was $462.
+
+PROPERTY
+AND EQUIPMENT
+
+The
+capital assets are being depreciated over their estimated useful lives
+ three to seven years using the straight-line method of
+depreciation for book purposes.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+2 &ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (CONTINUED)
+
+NET
+INCOME (LOSS) PER COMMON SHARE
+
+Net
+income (loss) per share is calculated in accordance with FASB ASC 260
+ &ldquo;Earnings Per Share.&rdquo; The weighted-average
+number of common shares outstanding during each period is used to compute basic earning or loss per share. Diluted earnings or
+loss per share is computed using the weighted average number of shares and diluted potential common shares outstanding. Dilutive
+potential common shares are additional common shares assumed to be exercised.
+
+Basic
+net income (loss) per common share is based on the weighted average number of shares of common stock outstanding at December 31
+2012 and 2011. As of December 31
+ 2012 and 2011
+ the Company had no dilutive potential common shares.
+
+REVENUE
+RECOGNITION
+
+The
+Company derives revenue from the sale of its products. The Company follows paragraph 605-10-S99-1 of the FASB Accounting Standards
+Codification for revenue recognition. The Company recognizes revenue when it is realized or realizable and earned. The Company
+considers revenue realized or realizable and earned when all of the following criteria are met: (i) persuasive evidence of an
+arrangement exists
+ (ii) the product has been shipped or the services have been rendered to the customer
+ (iii) the sales price
+is fixed or determinable
+ and (iv) collectability is reasonably assured.
+
+SHARE-BASED
+EXPENSE
+
+ASC
+718
+ 
+ prescribes accounting and reporting standards for all share-based payment
+transactions in which employee services are acquired. Transactions include incurring liabilities
+ or issuing or offering to issue
+shares
+ options
+ and other equity instruments such as employee stock ownership plans and stock appreciation rights. Share-based
+payments to employees
+ including grants of employee stock options
+ are recognized as compensation expense in the financial statements
+based on their fair values. That expense is recognized over the period during which an employee is required to provide services
+in exchange for the award
+ known as the requisite service period (usually the vesting period).
+
+The
+Company accounts for stock-based compensation issued to non-employees and consultants in accordance with the provisions of ASC
+505-50
+ Measurement of share-based payment transactions with non-employees
+is based on the fair value of whichever is more reliably measurable: (a) the goods or services received; or (b) the equity instruments
+issued. The fair value of the share-based payment transaction is determined at the earlier of performance commitment date or performance
+completion date.
+
+Share-based
+expense for the years ended December 31
+ 2012 and 2011 totaled $3
+062
+015 and $1
+013
+937
+ respectively.
+
+RECENT
+ACCOUNTING PRONOUNCEMENTS
+
+Except
+for rules and interpretive releases of the SEC under authority of federal securities laws and a limited number of grandfathered
+standards
+(&ldquo;ASC&rdquo;) is the sole source of authoritative GAAP
+literature recognized by the FASB and applicable to the Company. Management has reviewed the aforementioned rules and releases
+and believes any effect will not have a material impact on the Company&rsquo;s present or future financial statements.
+
+NOTE
+3 &ndash; PROPERTY AND EQUIPMENT
+
+Property
+and equipment is recorded at cost. The Company depreciates the equipment using the straight-line method over the useful lives
+of the equipment. The useful lives are estimated to be between 3 and 7 years. Depreciation expense was $483 and $458 for the years
+ended December 31
+ 2012 and 2011
+ respectively. Property and equipment consisted of the following at December 31
+ 2012 and December
+31
+ 2011:
+
+
+
+    
+    
+    
+
+    
+1
+192
+1
+192
+
+    
+    
+    
+
+    
+(1
+013
+    
+
+
+ net
+    
+1
+311
+
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+4 &ndash; DUE FOR ACQUISITION
+
+On
+July 22
+ 2011
+ Stakool entered into an agreement of Purchase and Sale with Anthus where Anthus acquired all the shares of Stakool.
+
+The
+Company recorded a liability in association with the agreement of purchase and sale in the amount of $350
+000. The terms of the
+agreement required a $100
+
+
+000 of the remaining $250
+000 during the year ended December 31
+ 2011. The payment terms were amended
+to require monthly payments between $15
+000 and $30
+000 from February 2012 through October 2012. As part of the amended terms
+an additional $5
+000 was added to the balance as interest. The balance for the amount due for acquisition was $220
+
+31
+
+
+
+The entire balance was settled in 2012. See Note 5.
+
+NOTE
+5 &ndash; STOCK PAYABLE
+
+On
+April 26
+ 2012
+ The Company entered into an agreement with Ironridge Global to settle $284
+917.22 in accounts payable (which includes
+the balance of the Note Payable for the acquisition of Stakool by Anthus Life Corp.
+ outstanding legal fees
+ filing fees
+ packaging
+costs and certain manufacturing costs)
+ in exchange for unregistered shares of common stock. Pursuant to an order approving stipulation
+for settlement of claims between Ironridge and the Company
+ Ironridge is entitled to receive 1 million common shares plus that
+number of shares with an aggregate value equal to $332
+748
+ divided by 70% of the following: the volume weighted average price
+of the issuer&rsquo;s common stock over that number of consecutive trading days following the date of receipt required for the
+aggregate trading volume to exceed $1.75 million
+ not to exceed the arithmetic average of the individual daily volume weighted
+average prices of any five trading days during such period.
+
+Ironridge
+is prohibited from receiving any shares of common stock that would cause it to be deemed to beneficially own more than 9.99% of
+the Company&rsquo;s total outstanding shares at any one time. Ironridge received an initial issuance of 9
+715
+000 shares
+ and
+may be required to return or be entitled to receive shares
+ based on the calculation summarized in the prior paragraph. For purposes
+of calculating the percent of class
+ the initial issuance to Ironridge was based upon a total of 87
+549
+167 shares of common stock
+outstanding immediately prior to the issuance of shares to Ironridge
+ such that 9
+715
+000 shares issued would represent approximately
+9.99% of the outstanding common stock after such issuance. Ironridge received an additional 526
+000
+000 shares during the year
+ended December 31
+ 2012 and the remaining balance of the stock payable was $295
+318 as of December 31
+ 2012.
+
+In
+connection with the transaction
+ Ironridge agreed not to hold any short position in the issuer&rsquo;s common stock
+ and not to
+engage in or affect
+ directly or indirectly
+ any short sale until at least 180 days after the end of the calculation period.
+
+NOTE
+6 &ndash; NOTES AND CONVERTIBLE NOTES PAYABLE
+
+The
+Company issued a promissory note for $35
+000 during the period ended December 31
+ 2009. The note bears 6% interest
+ is unsecured
+and due on demand. Interest expense was $2
+100 and $2
+100 for the years ended December 31
+ 2011 and 2010
+ respectively. Total
+accrued interest on this loan was $5
+299 as of December 31
+ 2011. The note and all accrued interest were converted to shares of
+common stock during the first quarter of 2012.
+
+The
+Company issued two notes payable in the amount of $5
+000 each in February 2011. The notes are unsecured
+ non-interest bearing
+and due on demand. The notes can be converted to common stock at the note holders&rsquo; discretion at $0.001 per share. The notes
+totaled $10
+000 as of December 31
+ 2011. The notes were converted in full to 10
+000
+000 shares of common stock during the first
+quarter of 2012.
+
+
+ 2012
+ a portion of a
+note payable and related accrued interest were assigned to an unrelated party. The entire principal and accrued interest amount
+of $33
+333 were converted to shares of common stock per the terms of the amended convertible note payable. A loss on the conversion
+of the note to stock of $106
+242 was recorded in other expenses.
+
+The
+ borrowed $6
+000 in December 2011. The loan is unsecured
+non-interest bearing and due on demand. The balance of this loan was $6
+
+31
+
+ respectively.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+6 &ndash; NOTES AND CONVERTIBLE NOTES PAYABLE (CONTINUED)
+
+Convertible
+notes payable consist of the following at December 31
+ 2012 and 2011:
+
+
+
+    
+    
+    
+
+On
+    March 1
+ 2012
+ the Company executed a note payable for proceeds of $35
+800. The note bears 0% interest
+ is unsecured and due
+    on demand.
+22
+800
+    
+
+    
+    
+    
+
+On October
+    5
+ 2012
+ the Company executed a convertible promissory note for proceeds of $32
+500. The note bears 8% interest and is secured
+    by common stock of the Company. The loan matures on July 10
+ 2013. Any principal balance remaining after the due date is subject
+    to an increased interest rate of 22% APR. The principal and interest can be convertible into shares of the Company&rsquo;s
+    common stock at a 45% discount to the market price.
+32
+500
+    
+
+    
+    
+    
+
+On August
+    15
+ 2012
+ the Company executed a convertible promissory note to Asher Enterprises
+ Inc. for proceeds of $32
+500. The note
+    bears a 8% interest and is secured by common stock of the Company. The loan matures on May 17
+ 2013. Any principal balance
+    remaining after the due date is subject to a increased interest rate of 22% APR. The principal and interest can be convertible
+    into shares of the Company&rsquo;s common stock at a 45% discount to the market price.
+32
+500
+    
+
+    
+    
+    
+
+On January
+    16
+ 2012
+ the Company issued a convertible promissory note to a shareholder for proceeds of $50
+000. The note bears 10% interest
+    and is secured by common stock of the Company. The loan matures on January 16
+ 2013. Beginning 30 days before the maturity
+    date of January 16
+ 2013
+ the note and any accrued interest is convertible into shares of the Company&rsquo;s common stock
+    at $0.05 per share. Additionally
+ the Company issued 100
+000 shares of common stock in connection with the note. The value
+    of the shares of common stock will be recorded as additional interest amortized over the life of the loan. On October 4
+ 2012
+    $30
+000 of principal and $3
+333 of accrued interest were assigned to an unrelated party.
+20
+000
+    
+
+    
+    
+    
+
+Debt
+    Discount
+(5
+787
+    
+
+Total
+    notes payable
+102
+013
+    
+
+Less
+    current maturities
+102
+013
+    
+
+
+NOTE
+7 &ndash; RELATED PARTY TRANSACTIONS
+
+During
+the year ended December 31
+ 2012
+ the Company issued 2
+000
+000
+000 shares of common stock and 1 share of convertible preferred
+B stock to an officer and director that has been classified as stock based compensation during the year ended December 31
+ 2012.
+The Company also recorded consulting expense paid to this director of $50
+000 and $65
+600 for consulting services during the years
+ended December 31
+ 2012 and 2011
+ respectively.
+
+During
+the year ended December 31
+ 2012
+ the Company issued 35
+000 shares of convertible preferred C stock for services rendered to related
+parties.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+8 &ndash; STOCKHOLDERS&rsquo; EQUITY (DEFICIT)
+
+The
+Company filed an amendment to its Articles of Incorporation with the state of Nevada on July 23
+ 2012 to change the designation
+of its capital and preferred stock
+ as follows. The authorized common stock of the Company consist of 4
+000
+000
+000 shares with
+a par value $0.00001. The Company also has 100
+000
+000 shares of par value $0.00001 Preferred A stock authorized
+ 10 shares of
+par value $0.00001 Preferred B stock authorized
+ and 30
+000
+000 par value $0.00001 par value Preferred C stock authorized. The
+Company adjusted the par value and additional paid in capital accounts on its balance sheet at September 30
+ 2012 for common and
+Preferred A stocks.
+
+During
+the year ended December 31
+ 2012
+ the Company issued 1
+950
+000 shares of restricted common stock to initial private placement
+investors in Anthus Life per terms of their subscription agreements.
+
+During
+the year ended December 31
+ 2012
+ the Company issued 3
+650
+000 shares of common stock and 9
+000 shares of Convertible Preferred
+C stock to consultants for services. The Company also issued 9
+000 shares of Convertible Preferred C stock to a consultant for
+deferred services.
+
+During
+the year ended December 31
+ 2012
+ he Company issued 2
+650
+000 shares of common stock to the former management per the acquisition
+agreement.
+
+During
+the year ended December 31
+ 2012 the Company issued 2
+000
+000
+000 shares of common stock
+ 35
+000 shares of Convertible Preferred
+C stock and 1 share of Convertible Preferred B stock to related parties that has been classified as stock based compensation during
+the year ended December 31
+ 2012.
+
+On
+January 10
+ 2012
+ the Company retired 35
+878
+570 shares of common stock held in treasury at December 31
+ 2011.
+
+During
+the year ended December 31
+ 2012
+ the Company converted five convertible notes payable from non-related parties along with the
+accrued interest for a total of $93
+443 into 411
+354
+727 shares of its common stock. The Company also issued 100
+000 shares of
+common stock for $2
+000 to a non-related party.
+
+During
+the year ended December 31
+ 2012
+ the Company issued 5
+200 shares of preferred C stock for $13
+000 in cash.
+
+On
+April 26
+ 2012
+ the Company entered into an agreement with Ironridge Global to settle $284
+917 in accounts payable (which includes
+the balance of the Note Payable for the acquisition of Stakool by Anthus Life Corp.
+ outstanding legal fees
+ filing fees
+ packaging
+costs and certain manufacturing costs)
+ in exchange for unregistered shares of common stock. Ironridge received an initial issuance
+of 9
+715
+000 shares of the Company&rsquo;s common stock. During the year ended December 31
+ 2012 the Company issued an additional
+526
+000
+000 shares of unrestricted common stock to Ironridge.
+
+On
+September 14
+ 2012
+ the Company filed a Form S-8 with the Securities and Exchange Commission. The Form S-8 registered 400
+000
+000
+shares of its common stock in connection with the Company&rsquo;s 2012 Incentive Stock Plan.
+
+During
+the month of October 2012
+ the Company issued 282
+980 shares of the Company&rsquo;s Convertible Preferred C stock. The stock was
+issued as an addendum to the subscription agreements associated with the open private placement investments made by various investors
+between fiscal year 2009 and 2011.
+
+On
+October 5
+ 2012 the Company issued 375
+000
+000 shares of its common stock without restriction to various consultants for services.
+The Company registered the common stock with the Securities and Exchange Commission on Form S-8 on September 14
+ 2012.
+
+
+During
+the year ended December 31
+ 2012
+ the Company issued 1
+5000
+000 shares of restricted common stock to initial private placement
+investors in Anthus Life per terms of their subscription agreements.
+
+During
+the year ended December 31
+ 2012 the Company retired 10
+000
+000 shares of its Preferred A stock
+ which accounted for all of the
+issued and outstanding Preferred A Stock.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+9 &ndash; INCOME TAXES
+
+As
+of December 31
+ 2012
+ the Company had net operating loss carry forwards of $6
+969
+423 that may be available to reduce future years&rsquo;
+taxable income through 2032. Future tax benefits which may arise as a result of these losses have not been recognized in these
+financial statements
+ as their realization is determined not likely to occur and accordingly
+ the Company has recorded a valuation
+allowance for the deferred tax asset relating to these tax loss carry-forwards.
+
+The
+provision for Federal income tax consists of the following for the years ended December 31
+ 2012 and 2011:
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+1
+830
+894
+405
+412
+
+    
+(1
+830
+894
+(405
+412
+
+    
+    
+    
+
+
+The
+cumulative tax effect at the expected rate of 34% of significant items comprising our net deferred tax amount is as follows as
+of December 31
+ 2012 and 2011:
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+2
+369
+603
+538
+709
+
+    
+(2
+369
+603
+(538
+709
+
+    
+    
+    
+
+
+NOTE
+10 &ndash; GOING CONCERN 
+
+The
+Company&rsquo;s financial statements are prepared using accounting principles generally accepted in the United States of America
+applicable to a going concern which contemplates the realization of assets and liquidation of liabilities in the normal course
+of business. The Company has not yet established an ongoing source of revenues sufficient to cover its operating cost and allow
+it to continue as a going concern. The ability of the Company to continue as a going concern is dependent on the Company obtaining
+adequate capital to fund operating losses until it becomes profitable. If the Company is unable to obtain adequate capital
+ it
+could be forced to cease operations.
+
+In
+order to continue as a going concern
+ the Company will need
+ among other things
+ additional capital resources. Management&rsquo;s
+plan to obtain such resources for the Company include
+ obtaining capital from management and significant stockholders sufficient
+to meet its minimal operating expenses. However
+ management cannot provide any assurance that the Company will be successful in
+accomplishing any of its plans.
+
+There
+is no assurance that the Company will be able to obtain sufficient additional funds when needed or that such funds
+ if available
+will be obtainable on terms satisfactory to the Company. In addition
+ profitability will ultimately depend upon the level of revenues
+received from business operations. However
+ there is no assurance that the Company will attain profitability. The accompanying
+financial statements do not include any adjustments that might be necessary if the Company is unable to continue as a going concern.
+
+NOTE
+11 &ndash; SUBSEQUENT EVENTS
+
+
+
+ 2013 the Company issued 2
+000
+Preferred C Series shares in consideration for a $5
+000 investment received from a third party.
+
+
+ 2013 and March 15
+ 2013
+ the Company issued 155
+698
+106 and 70
+000
+000
+shares of its common stock
+ respectively
+ without restriction
+ for outsourced professional services.&nbsp; The Company registered
+the common stock with the Securities and Exchange Commission on Form S-8 on September 14
+ 2012
+ with additional shares
+ registered
+under Form S-8 filed on January 23
+ 2013.
+
+On
+February 6
+ 2013
+ the Company signed a convertible note with Asher Enterprises for $10
+500 in proceeds. This note carries an annual
+percentage rate of 8% with a maturity date of November 11
+ 2013.
+
+On
+February 8
+ 2013
+ through majority vote of the Board of Directors
+ the Board removed Elsa Desousa. The Board unanimously agreed
+that the services of Ms. Desousa were no longer required. The removal of Ms. Desousa also canceled the 25
+000 Preferred C Series
+share that were initially issued to her on September 24
+ 2012.
+
+On
+February 8
+ 2013
+ the Company terminated three consulting agreements with Richard Desousa
+ Kenneth Radcliffe and Ana Pastorfide.
+The services performed by these individuals did not satisfactorily benefit the Company&rsquo;s strategic direction
+ and as a result
+management deemed it no longer necessary to maintain these agreements.
+
+
+ 2013
+ the Company delivered
+three Senior Secured Convertible Promissory Notes
+ in the respective principal amounts of $34
+500
+ $35
+000 and $40
+000
+ for outsourced
+professional services.&nbsp; All of such notes provide for interest at the rate of 12% per annum
+ are payable on demand
+ and provide
+for conversion at the 5-day average closing bid price multiplied by 3.
+
+
+    
+    
+
+
+STAKOOL
+INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2012
+
+NOTE
+11 &ndash; SUBSEQUENT EVENTS (CONTINUED)
+
+On
+February 8
+ 2013 the Company terminated a consulting agreement it had with 701877 Canada
+ Inc. for lack of performance
+ the consultant
+was originally issued 10
+000 Preferred C Series shares on August 20
+ 2012
+ and these shares have been cancelled with this termination.
+
+On
+February 20
+ 2013
+ the Company signed a convertible note with Asher Enterprises for $27
+500 in proceeds. However
+ as of the date
+of this filing
+ this note has not yet been funded. The terms
+ once funded
+ state that the note carries and annual percentage rate
+of 8% with a maturity date of November 22
+ 2013.
+
+On
+February 21
+ 2013 and March 9
+ 2013
+ Peter Hellwig returned 500
+000
+000 shares and 400
+000
+000 shares respectively of his 2 billion
+restricted common shares to treasury.
+
+On
+March 9
+ 2013 the Company issued 300
+000
+000 shares of common its common stock to Ironridge Global in continued satisfaction of
+the 3(a)(10) Order for Approval of Stipulation for Settlement of Claims entered into between the Company and Ironridge Global
+on April 27
+ 2012.
+
+On
+March 14
+ 2013 Asher Enterprises exercised its conversion rights on its note dated August 15
+ 2012 converting $8
+200 of the $32
+500
+principle balance into 136
+666
+666 shares at $0.00006
+ leaving a remaining balance on the note of $24
+300.
+
+On
+March 15
+ 2013
+ the Board of Directors voted on the approval of a Change of Control in the management of the Company going forward.
+As a result
+ the
+ then current
+ Board of directors consisting of Peter Hellwig
+ Christian Breda and Kenji Katayama resigned their
+respective positions
+ and approved the appointment of Joseph C. Canouse as the sole Director and President and CEO of Stakool
+Inc. and all of it operations.
+
+In
+accordance with ASC 855-10
+
+2012 to the date these consolidated financial statements were issued
+ and has determined that it does not have any material subsequent
+events to disclose in these consolidated financial statements.
+
+
+    
+    
+
+
+Item
+9. Changes in and Disagreements with Accountants and Financial Disclosure
+
+There
+were no significant changes in our internal controls over financial reporting that occurred subsequent to our evaluation of our
+internal control over financial reporting for the period ended December 31
+ 2012 that has materially affected
+ or is reasonably
+likely to materially affect
+ our internal control over financial reporting.
+
+Item
+9A. Controls and Procedures
+
+(a)
+EVALUATION OF DISCLOSURE CONTROLS AND PROCEDURES
+
+Our
+management
+ with the participation of our Chief Executive Officer has evaluated the effectiveness of our disclosure controls and
+procedures (as such term is defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934
+ as amended (the
+&ldquo;Exchange Act&rdquo;))
+ in connection with the preparation of this Annual Report on Form 10-K
+ as of December 31
+ 2012.
+
+Based
+on the review described above
+ our Chief Executive Officer determined that our disclosure controls and procedures were not effective
+as of the end of the period covered by this report.
+
+(b)
+MANAGEMENT&rsquo;S REPORT ON INTERNAL CONTROL OVER FINANCIAL REPORTING
+
+Our
+Management is responsible for establishing and maintaining adequate internal control over financial reporting under the supervision
+of the President and Chief Executive Officer and the Chief Financial Officer. Internal control over financial reporting is a process
+designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements
+for external purposes in accordance with generally accepted accounting principles.
+
+Management
+evaluated the design and operation of our internal control over financial reporting as of December 31
+ 2012
+ based on the framework
+issued by the Committee of Sponsoring Organizations
+of the Treadway Commission (COSO)
+ and has concluded that such internal control over financial reporting were not effective.
+
+An
+evaluation was performed
+ under the supervision of
+ and with the participation of
+ our management
+ including our Chief Executive
+Officer and Chief Financial Officer
+ of the effectiveness of the design and operation of the Company&rsquo;s disclosure controls
+and procedures (as defined in Rules 13a-15(e) and 15d-(e) to the Securities and Exchange Act of 1934). Based on that evaluation
+our management
+ including our Chief Executive Officer and Chief Financial Officer
+ concluded that our disclosure controls and
+procedures were not adequate and effective
+ as of December 31
+ 2012
+ to ensure that information required to be disclosed by us
+in the reports that it files or submits under the Securities Exchange Act of 1934
+ is recorded
+ processed
+ summarized
+ and reported
+within the time periods specified in the Commission&rsquo;s rules and forms
+ and that such information is accumulated and communicated
+to management
+ including our Chief Executive Officer and Chief Financial Officer
+ as appropriate
+ to allow timely decisions regarding
+required disclosure.
+
+We
+do not expect that our disclosure controls and procedures or internal control over financial reporting will prevent all errors
+and all fraud. A control system
+ no matter how well conceived and operated
+ can provide only reasonable assurance that the objectives
+of the system are met and cannot detect all deviations. Because of the inherent limitations in all control systems
+ no evaluation
+of control can provide absolute assurance that all control issues and instances of fraud or deviations
+ if any
+ within the Company
+have been detected.
+
+This
+report does not include an attestation report of our registered public accounting firm regarding internal control over financial
+reporting. Management&rsquo;s report was not subject to attestation by our registered public accounting firm pursuant to temporary
+rules of the Securities and Exchange Commission that permit the company to provide only management&rsquo;s report in this report.
+
+Item
+9B. Other Information
+
+Not
+applicable.
+
+
+    
+    
+
+
+PART
+III
+
+Item
+10. Directors
+ Executive Officers and Corporate Governance
+
+Information
+Regarding the Officers and Directors of Stakool
+ Inc.
+
+Our
+bylaws provide that our board of directors shall consist of at least one member and will be determined by resolution of our board
+of directors. The number of members of our board of directors is currently one.
+
+The
+following table lists our directors and provides their respective ages and titles as of December 31
+ 2012.
+
+
+
+    
+    
+    
+    
+    
+
+Peter
+    Hellwig(1)
+    
+    
+    
+Director
+    President/CEO
+
+Kenji
+    Katayama(1)
+    
+    
+    
+    
+
+Christian
+    Breda(1)
+    
+    
+    
+    
+
+Elsa
+    Desousa (2)
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+Joseph
+    C. Canouse(1)
+    
+    
+    
+Director
+    President/CEO
+
+
+
+
+    
+    
+Effective
+    March 15
+ 2013
+ Peter Hellwig
+ Kenji Katayama
+ and Christian Breda resigned as directors and from all officer positions then
+    currently held; as of such date Joseph C. Canouse was appointed as Director
+ President and Chief Executive Officer.
+
+    
+    
+    
+
+    
+    
+Effective
+    February 8
+ 2013
+ Elsa Desousa
+ was removed from the Board of Directors.
+
+
+Joseph
+C. Canouse
+ age 49
+ Chief Executive Officer
+ Director 
+ age 49
+ combines over twenty plus years of experience
+in finance
+ consulting and public company restructuring. Previously
+ he had been involved in financing public and private companies
+where his firms raised over one billion dollars
+ primarily in the firm he founded in 1995
+ J.P. Carey. From 2011 through present
+Mr. Canouse has been the Chief Executive Officer for Quasar Aerospace Industries
+ Inc.
+ an aviation-related company. From 2011
+to present he has held the same position for Expert Group
+ Inc.
+ a company that transitioned from financial services to becoming
+involved in bottling natural spring water. He has an undergraduate degree from Stetson University where he graduated in 1986.
+
+Family
+Relationships
+
+There
+are no family relationships among our directors
+ executive officers
+ or persons nominated or chosen by the Company to become directors
+or executive officers.
+
+Committees
+of the Board of Directors
+
+The
+Company does not currently have any committees.
+
+
+    
+    
+
+
+Compliance
+with Section 16(a) of the Exchange Act
+
+Section
+16(a) of the Exchange Act requires the Company&rsquo;s directors
+ executive officers and persons who beneficially own 10% or more
+of a class of securities registered under Section 12 of the Exchange Act to file reports of beneficial ownership and changes in
+beneficial ownership with the SEC. Directors
+ executive officers and greater than 10% stockholders are required by the rules and
+regulations of the SEC to furnish the Company with copies of all reports filed by them in compliance with Section 16(a).
+
+Based
+solely on our review of certain reports filed with the Securities and Exchange Commission pursuant to Section 16(a) of the Securities
+Exchange Act of 1934
+ as amended
+ the reports required to be filed with respect to transactions in our common stock during the
+fiscal year ended December 31
+ 2012
+ were timely
+ except for Form 10-K for the year ended December 31
+ 2011
+ which was filed on
+April 24
+ 2012
+ and Form 10-Q for the period ended March 31
+ 2012
+ which was filed on May 29
+ 2012.
+
+Code
+of Ethics
+
+We
+have not yet adopted a code of ethics because we wanted to complete our constitution of the Board prior to adopting such code
+of ethics to allow the entire Board to review and approve a code of ethics.
+
+Legal
+Proceedings
+
+There
+are no material proceedings to which any director or officer
+ or any associate of any such director or officer
+ is a party that
+is adverse to our Company or any of our subsidiaries or has a material interest adverse to our Company or any of our subsidiaries.
+No director or executive officer has been a director or executive officer of any business which has filed a bankruptcy petition
+or had a bankruptcy petition filed against it during the past ten years. No director or executive officer has been convicted of
+a criminal offense or is the subject of a pending criminal proceeding during the past ten years. No director or executive officer
+has been the subject of any order
+ judgment or decree of any court permanently or temporarily enjoining
+ barring
+ suspending or
+otherwise limiting his involvement in any type of business
+ securities or banking activities during the past ten years. No director
+or officer has been found by a court to have violated a federal or state securities or commodities law during the past ten years.
+
+
+
+11. Executive Compensation.
+
+The
+following table sets forth compensation for each of the past three fiscal years with respect to each person who served as Chief
+Executive Officer of the Company and each of the four most highly-compensated executive officers of the Company who earned a total
+annual salary and bonuses that exceeded $100
+000 in any of the two preceding fiscal years.
+
+
+
+
+SUMMARY
+    COMPENSATION TABLE
+
+Name
+    and 
+    
+    
+    
+Year
+    
+    
+    
+    
+Salary
+    
+    
+    
+    
+Bonus
+    
+    
+    
+    
+Stock
+    
+    
+    
+    
+    
+Option
+    
+    
+    
+    
+    
+Non-Equity
+    
+    
+    
+    
+    
+Nonqualified
+    Deferred Earnings Compensation 
+    
+    
+    
+All
+    Other 
+    
+    
+    
+    
+Total
+    
+    
+    
+
+Peter Hellwig
+
+    
+    
+    
+    
+    
+    
+50
+000
+    
+    
+    
+    
+    
+    
+    
+2
+600
+000
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+2
+650
+000
+    
+
+    
+    
+    
+    
+    
+    
+    
+65
+600
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+65
+600
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+    
+    
+Effective
+    March 15
+ 2013
+ Peter Hellwig resigned as President and Chief Executive Officer and Joseph C. Canouse was appointed President
+    and Chief Executive Officer.
+
+
+
+    
+    
+
+
+Compensation
+of Directors
+
+Any
+Director who also becomes our employee will receive no extra compensation for their service on our Board of Directors. Directors
+may be compensated for out-of-pocket expenses associated with attending Board of Directors&rsquo; meetings.
+
+Item
+12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
+
+The
+following table sets forth information concerning the beneficial ownership of shares of our common stock with respect to stockholders
+who were known by us to be beneficial owners of more than 5% of our common stock as of December 31
+ 2012
+ and our officers and
+directors
+ individually and as a group. Unless otherwise indicated
+ the beneficial owner has sole voting and investment power
+with respect to such shares of common stock.
+
+Beneficial
+ownership is determined in accordance with the rules of the Securities and Exchange Commission (&ldquo;SEC&rdquo;) and generally
+includes voting or investment power with respect to securities. In accordance with the SEC rules
+ shares of our common stock which
+may be acquired upon exercise of stock options or warrants which are currently exercisable or which become exercisable within
+60 days of the date of the table are deemed beneficially owned by the optionees
+ if applicable. Subject to community property
+laws
+ where applicable
+ the persons or entities named below have sole voting and investment power with respect to all shares of
+our common stock indicated as beneficially owned by them.
+
+
+
+
+    
+    
+    
+Name
+    of Beneficial Owner
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Common
+    &nbsp;
+    
+Joseph C. Canouse
+ Chief Executive Officer
+    President
+ and Director (1)
+    
+    
+1
+100
+000
+000
+    
+    
+    
+    
+    
+
+
+
+
+    
+    
+Effective
+    March 15
+ 2013
+ Peter Hellwig resigned as President
+ Chief Executive Officer and Director and Joseph C. Canouse was appointed
+    as President
+ Chief Executive Officer and Director.&nbsp; In connection with such resignation and appointment
+ Mr. Hellwig
+    assigned 1
+100
+000
+000 shares of common stock to Mr. Canouse.
+
+
+Item
+13. Certain Relationships and Related Transactions and Director Independence
+
+Certain
+consultants used by the Company may be paid in stock in lieu of cash
+ or in combination of stock and cash. The following consultants
+have been compensated with stock for services rendered: Sharon D. Mitchell (250
+000 shares - legal services)
+ Edward Avilies (700
+000
+shares &ndash; business and corporate development services)
+ Shannon Miller Lifestyle (700
+000 shares &ndash; advertising and
+promotion)
+ Ludlow Capital
+ Inc. (investor/media relations &ndash; 2
+000
+000 shares)
+ Brian Kistler (documentation support &ndash;
+75
+000
+000 shares)
+ Robin Hunt (documentation and financial reporting support &ndash; 75
+000
+000 shares)
+ Ana Pastorfide (business
+development support &ndash; 75
+000
+000 shares)
+ Richard Desousa (business development - 75
+000
+000 shares)
+ Kenneth Radcliffe
+(business development &ndash; 75
+000
+000 shares)
+
+
+    
+    
+
+
+We
+did not utilize promoters with regard to raising money through our private placement memorandum. Each investor was contacted directly
+by Peter Hellwig. Each investor was either a friend
+ family or a close business associate of the aforementioned.
+
+Item
+14. Principal Accountant Fees and Services
+
+The
+following table presents the aggregate fees billed by for services provided during our 2011 and 2012 fiscal years.
+
+
+
+    
+    
+    
+
+Audit
+    Fees
+19
+000
+8
+000
+
+Audit
+    Related Fees
+    
+    
+
+Tax
+    Fees
+1
+200
+1
+200
+
+    
+    
+    
+
+    
+20
+200
+9
+200
+
+
+Audit
+The fees identified under this caption were for professional services rendered by Silberstein Ungar
+ PLLC for
+fiscal years 2011 and 2012 in connection with the audit of our annual financial statements and review of the financial statements
+included in our quarterly reports on Form 10-Q. The amounts also include fees for services that are normally provided by the independent
+public registered accounting firm in connection with statutory and regulatory filings and engagements for the years identified.
+
+Audit-Related
+The fees identified under this caption were for assurance and related services that were related to the performance
+of the audit or review of our financial statements and were not reported under the caption &ldquo;Audit Fees.&rdquo; Audit-related
+fees consisted primarily of fees paid for Securities and Exchange Commission reporting matters and consents related to our uniform
+franchise offering circulars.
+
+Tax
+Fees
+
+Approval
+Our audit committee approves in advance all services provided by our independent registered public accounting
+firm. All engagements of our independent registered public accounting firm in fiscal years 2011and 2012 were pre-approved by Board
+of Directors.
+
+
+    
+    
+
+
+PART
+IV
+
+Item
+15. Exhibits
+ Financial Statements
+ Schedules
+
+
+
+    
+    
+Articles
+    of Incorporation
+ as amended
+ incorporated by reference to the Company&rsquo;s Registration Statement on Form SB-2 filed with
+    the Securities and Exchange Commission on August 18
+ 2000.
+
+    
+    
+    
+
+    
+    
+Bylaws
+    incorporated by reference to the Company&rsquo; Registration Statement on Form 10/A filed with the Securities and Exchange
+    Commission on December 17
+ 1998
+
+    
+    
+    
+
+    
+    
+Certificate
+    of Designation
+ incorporated by reference to the Company&rsquo;s Form 8-K filed with the Securities and Exchange Commission
+    on August 31
+ 2012.
+
+    
+    
+    
+
+    
+    
+Certificate
+    of Correction
+ incorporated by reference to the Company&rsquo;s Form 8-K filed with the Securities and Exchange Commission
+    on August 31
+ 2012.
+
+    
+    
+    
+
+    
+    
+Amendment
+    to Amended Payment Schedule
+ incorporated by reference to the Company&rsquo;s Form 8-K/A filed with the Securities and Exchange
+    Commission on May 15
+ 2012.
+
+    
+    
+    
+
+    
+    
+Certification
+    by the Principal Executive Officer of Registrant pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 (Rule 13a-14(a)
+    or Rule 15d-14(a)) *
+
+    
+    
+    
+
+    
+    
+Certification
+    by the Principal Financial Officer of Registrant pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 (Rule 13a-14(a)
+    or Rule 15d-14(a))*
+
+    
+    
+    
+
+    
+    
+Certification
+    by the Principal Executive Officer pursuant to 18 U.S.C. 1350 as adopted pursuant to Section 906 of the Sarbanes-Oxley Act
+    of 2002*
+
+    
+    
+    
+
+    
+    
+Certification
+    by the Principal Executive Officer pursuant to 18 U.S.C. 1350 as adopted pursuant to Section 906 of the Sarbanes-Oxley Act
+    of 2002 *
+
+
+
+
+    
+    
+
+
+
+
+Pursuant
+to the requirements of Section 13 or 15(d) of the Exchange Act of 1934
+ the registrant has duly caused this report to be signed
+on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+    
+STAKOOL
+    INC.
+
+    
+    
+    
+
+Date:
+    April 16
+ 2013
+    
+/s/
+    Joseph C. Canouse 
+
+    
+    
+Joseph
+    C. Canouse 
+
+    
+    
+Chief
+    Executive Officer 
+
+    
+    
+(Principal
+    Executive Officer) 
+
+    
+    
+(Principal
+    Financial Officer) 
+
+    
+    
+(Principal
+    Accounting Officer) 
+
+
+Pursuant
+to the requirements of the Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf
+of the registrant and in the capacities and on the dates indicated.
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+/s/
+    Joseph C. Canouse
+    
+Chief
+    Executive Officer
+ Principal Executive
+    
+April
+    16
+ 2013
+
+Joseph
+    C. Canouse
+    
+Officer
+    Principal Financial Officer
+ Principal
+    
+    
+
+    
+    
+Accounting
+    Officer
+ Sole Director
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+CERTIFICATION
+OF PRINCIPAL EXECUTIVE OFFICER
+
+
+
+
+
+
+
+
+ Joseph C. Canouse
+ certify that:
+
+I
+have reviewed this annual report on Form 10-K of Stakool
+ Inc.;
+
+
+on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+to the period covered by this report;
+
+
+on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material
+respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented
+in this report;
+
+
+am responsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e)
+and 15d-15(e)) and internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the
+registrant and have:
+
+&nbsp;&nbsp;&nbsp;Designed
+such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by
+others within those entities
+ particularly during the period in which this report is being prepared;
+
+&nbsp;&nbsp;&nbsp;Designed
+such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under
+our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial
+statements for external purposes in accordance with generally accepted accounting principles;
+
+&nbsp;&nbsp;&nbsp;Evaluated
+the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report our conclusions about
+the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report&nbsp;based on
+such evaluation; and
+
+&nbsp;&nbsp;&nbsp;Disclosed
+in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the registrant&rsquo;s
+most recent fiscal quarter (the registrant&rsquo;s fourth fiscal quarter in the case of an annual report) that has materially
+affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s internal control over financial reporting; and
+
+
+have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+ to the
+registrant&rsquo;s auditors and the audit committee of the registrant&rsquo;s board of directors (or persons performing the
+equivalent functions):
+
+All significant deficiencies and material weaknesses in the design or operation
+
+to record
+ process
+ summarize and report financial information; and
+
+Any
+fraud
+ whether or not material
+ that involved management or other employees who have a significant role in the registrant&rsquo;s
+internal control over financial reporting.
+
+
+
+Date: April 16
+ 2013
+    
+/s/&nbsp;Joseph
+    C. Canouse
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+ Inc.
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+CERTIFICATION
+OF PRINCIPAL FINANCIAL OFFICER
+
+
+
+
+
+
+
+
+ Joseph C. Canouse
+ certify that:
+
+
+annual report on Form 10-K of Stakool
+ Inc.;
+
+
+on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+to the period covered by this report;
+
+
+on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material
+respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented
+in this report;
+
+
+am responsible for establishing and maintaining disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e)
+and 15d-15(e)) and internal control over financial reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the
+registrant and have:
+
+
+such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by
+others within those entities
+ particularly during the period in which this report is being prepared;
+
+
+such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under
+our supervision
+
+
+principles;
+
+
+procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+ as
+of the end of the period covered by this report based on such evaluation; and
+
+
+
+
+ or is reasonably likely to materially
+affect
+ the registrant&rsquo;s internal control over financial reporting; and
+
+I
+have disclosed
+
+ to the registrant&rsquo;s
+auditors and the audit committee of the registrant&rsquo;s board of directors (or persons performing the equivalent functions):
+
+
+significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting
+which are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial
+information; and
+
+
+ whether or not material
+ that involved management or other employees who have a significant role in the registrant&rsquo;s
+internal control over financial reporting.
+
+
+
+Date: April 16
+ 2013
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+ Inc.
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+CERTIFICATION
+OF PRINCIPAL EXECUTIVE OFFICER
+
+
+
+
+
+
+connection with the Annual Report of Stakool
+ Inc. (the &ldquo;Company&rdquo;) on Form 10-K for the year ended December 31
+ 2012
+as filed with the U.S. Securities and Exchange Commission on the date hereof
+ I
+ Joseph C. Canouse
+ Principal Executive Officer
+of the Company
+ certify to the best of my knowledge
+ pursuant to 18 U.S.C. Sec. 1350
+ as adopted pursuant to Sec. 906 of the Sarbanes-Oxley
+Act of 2002
+ that:
+
+
+Such Annual Report on Form 10-K for the year ended December 31
+ 2012
+ fully complies
+with the requirements of Section 13(a) or 15(d)
+ as applicable
+ of the Securities Exchange Act of 1934
+
+
+
+
+the information contained in such Annual Report on Form 10-K for the year ended December
+31
+ 2012 fairly presents
+ in all material respects
+
+
+
+
+
+Date:&nbsp;April 16
+ 2013
+    
+/s/&nbsp;Joseph
+    C. Canouse
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+ Inc.
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+CERTIFICATION
+OF PRINCIPAL FINANCIAL OFFICER
+
+
+
+
+
+
+connection with the Annual Report of Stakool
+ Inc. (the &ldquo;Company&rdquo;) on Form 10-K for the period ended December 31
+ 2012
+as filed with the U.S. Securities and Exchange Commission on the date hereof
+ I
+ Joseph C. Canouse
+ Principal Financial Officer
+of the Company
+ certify to the best of my knowledge
+ pursuant to 18 U.S.C. Sec. 1350
+ as adopted pursuant to Sec. 906 of the Sarbanes-Oxley
+Act of 2002
+ that:
+
+
+Such Annual Report on Form 10-K for the year ended December 31
+ 2012
+ fully complies
+with the requirements of Section 13(a) or 15(d)
+ as applicable
+ of the Securities Exchange Act of 1934
+
+
+
+
+the information contained in such Annual Report on Form 10-K for the year ended December
+31
+ 2012 fairly presents
+ in all material respects
+
+
+
+
+
+Date: April 16
+ 2013
+    
+/s/
+    Joseph C. Canouse
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+ Inc.
+
+
+
+    
+    
+
+
+
+
+
+
+

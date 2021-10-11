@@ -1,0 +1,5895 @@
+
+
+ACCESSION NUMBER:		0001010549-14-000188
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	20131231
+FILED AS OF DATE:		20140416
+DATE AS OF CHANGE:		20140416
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Frontier Beverage Company
+ Inc
+		CENTRAL INDEX KEY:			0001311735
+		STANDARD INDUSTRIAL CLASSIFICATION:	BEVERAGES [2080]
+		IRS NUMBER:				061678089
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-52297
+		FILM NUMBER:		14767860
+	BUSINESS ADDRESS:	
+		STREET 1:		1837 HARBOR AVENUE
+		STREET 2:		P.O. BOX 13311
+		CITY:			MEMPHIS
+		STATE:			TN
+		ZIP:			38113
+		BUSINESS PHONE:		901-947-4111
+	MAIL ADDRESS:	
+		STREET 1:		1837 HARBOR AVENUE
+		STREET 2:		P.O. BOX 13311
+		CITY:			MEMPHIS
+		STATE:			TN
+		ZIP:			38113
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ASSURE DATA INC
+		DATE OF NAME CHANGE:	20041216
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Washington
+ D.C.&#160;20549
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FRONTIER BEVERAGE COMPANY
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2360 Corporate Circle
+ Suite 400
+ Henderson
+ NV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Registrant&#8217;s telephone number
+ including area code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common Stock
+ par value $0.001 per share
+
+
+
+
+
+
+
+
+
+Indicate by check mark if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act.
+
+
+
+
+
+Indicate by check mark whether the registrant has (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2) has been subject to such filing requirements for the past 90 days.&#160;&#160;&#160;Yes&#160;&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Website
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167;232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files).&#160;&#160;&#160;Yes&#160;&#160;
+
+
+Indicate by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (&#167;229.405 of this chapter) is not contained herein
+ and will not be contained
+ to the best of the registrant's knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K. 
+
+
+Indicate by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company.&#160;&#160;See the definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer&#8221; and &#8220;smaller reporting company&#8221; in Rule 12b-2 of the Exchange Act.
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate market value of the voting and non-voting common equity held by non-affiliates as of June 30
+ 2013 was $107
+380 (computed by reference to the price at which the common equity was last sold ($0.0255)
+ or the average bid and asked price of such common equity as of the last business day of the registrant's most recently completed second fiscal quarter).&#160;&#160;For purposes of the foregoing calculation only
+ directors
+ executive officers
+ and holders of 10% or more of the issuer&#8217;s common capital stock have been deemed affiliates.
+
+
+The number of shares outstanding of the registrant&#8217;s common stock as of April 14
+ 2014 was 217
+081
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MARKET FOR REGISTRANT&#8217;S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIRECTORS
+ EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#160;On May 22, 2008, shareholders representing more than a majority of the Company outstanding shares voted to approve the Company&#8217;s 2008 Equity Incentive Plan (the Plan). The total number of shares of Common Stock that may be subject to awards under the Plan will not exceed five million shares, subject to customary adjustments as provided in the Plan.&#160;&#160;&#160;The Plan is generally designed to meet the requirements of Section 162(m) of the Internal Revenue Code of 1986, as amended (the Code), in order to preserve the Company's ability to take compensation expense deductions in connection with the exercise of options granted and the vesting of performance-based restricted stock under the Plan.&#160;&#160;The Plan is to be administered by a committee comprised of not less than two individuals appointed by the Board of Directors, each of whom is (i) to the extent required by Rule 16b-3 and the Exchange Act, a non-employee director
+ (the Plan). The total number of shares of Common Stock that may be subject to awards under the Plan will not exceed twenty-one million shares.&#160;&#160;&#160;The Plan is generally designed to meet the requirements of Section 162(m) of the Internal Revenue Code of 1986, as amended (the Code), in order to preserve the Company's ability to take compensation expense deductions.&#160;&#160;The Plan is to be administered by a committee comprised of not less than two individuals appointed by the Board of Directors, each of whom is (i) to the extent required by Rule 16b-3 and the Exchange Act, a non-employee director
+This Report contains a number of forward-looking statements that reflect management's current views and expectations with respect to our business, strategies, products, future results and events and financial performance.&#160;&#160;All statements made in this Report other than statements of historical fact, including statements that address operating performance, events or developments that management expects or anticipates will or may occur in the future, statements related to distributor channels, volume growth, revenues, profitability, new products, adequacy of funds from operations, statements expressing general optimism about future operating results and non-historical information, are forward looking statements.&#160;&#160;In particular, the words believe
+ expect
+ intend
+ &#8220;anticipate, estimate, may, will, variations of such words
+ and similar expressions identify forward-looking statements
+ but are not the exclusive means of identifying such statements and their absence does not mean that the statement is not forward-looking.&#160;&#160;These forward-looking statements are subject to certain risks and uncertainties
+ including those discussed herein.&#160;&#160;Our actual results
+ performance or achievements could differ materially from historical results as well as those expressed in
+ anticipated or implied by these forward-looking statements.&#160;&#160;We do not undertake any obligation to revise any forward-looking statements whether because of new information
+ future events or otherwise.
+
+
+Readers should not place undue reliance on these forward-looking statements
+ which are based on management's current expectations and projections about future events
+ are not guarantees of future performance
+ are subject to risks
+ uncertainties and assumptions (including those described below) and apply only as of the date of this Report.&#160;&#160;Our actual results
+ performance or achievements could differ materially from the results expressed in
+ or implied by
+ these forward-looking statements.&#160;&#160;Factors that could cause or contribute to such differences include those discussed in press releases and other communications to shareholders issued by us from time to time which attempt to advise interested parties of the risks and factors that may affect our business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company purchased from Innovative Beverage Group
+ Holdings
+ Inc. its Trademarks and intellectual property rights of a beverage called &#8220;Unwind.&#8221;
+
+
+Our mission is to supply the highest quality New Age/Alternative Beverages products at the most economical cost to distributors servicing the retail industry and directly to consumers through our website.&#160;&#160;Our service-oriented approach integrates the elements of research
+ development
+ product quality assurance
+ packaging/distribution efficiency
+ and advanced management systems to generate higher profit margins for our retailers.&#160;&#160;Collaboration with our distributors and retailers carrying our product is expected to build long-term relationships and help us manage our growth.
+
+
+On October 9
+ 2013
+ the Company entered into share exchange agreement to acquire 100% of the issued and outstanding share capital with Gallant Acquisition Corp. (GAC) the 100% owner of all of the issued and outstanding share capital of 22 Social Club Productions (22 SCP) and its subsidiaries
+ Blue 22 Entertainment and Appquest
+ Inc. for 140
+000
+000 common shares of the Company and 5
+000
+000 shares of common stock of the Company to Appquest
+ Inc. Effectively
+ 22 SCP held 89% of the issued and outstanding common shares of the Company and the transaction has been accounted for as a reverse merger
+ where 22 SCP is deemed to be the acquirer and or the surviving entity for accounting purposes.
+
+
+Blue 22 Entertainment possesses certain contracts for the production of live music concerts. The business plan calls for immediate expansion production and development of entertainment content including production of live events
+ production and development of independent films
+ reality TV and management and talent booking services.
+
+
+We need additional capital to pursue our business plan and conduct our operations; however
+ the ability to obtain the necessary and appropriate funding is uncertain.&#160;&#160;We intend to expand our product line
+ either through development or acquisition
+ and intend to hire sufficient sales personnel necessary for us to gain a greater distribution network for our products. We believe that we will require significant additional capital resources from outside sources including equity and/or debt financings in order to meet our goals and continue operations.&#160;&#160;We believe we need to raise between $500
+000 and $600
+000 in order to meet these goals.
+
+
+
+
+
+The accompanying consolidated financial statements have been prepared in conformity with generally accepted accounting principles in the United States of America (&#8220;GAAP&#8221;)
+ which contemplate continuation of the Company as a going concern
+ which is dependent upon the Company's ability to establish itself as a profitable business.&#160;&#160;At December 31
+ 2013
+ the Company has an accumulated deficit of $2
+466
+131 and for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013
+ incurred net losses of $ 1
+541
+936.&#160;&#160;Management plans to increase operations to include the marketing of the Company's beverage products and concert promotions by obtaining additional funds through the issuance of securities or borrowings.&#160;&#160;Accordingly
+ management is of the opinion that marketing combined with additional funding will result in improved operations and cash flow in 2014 and beyond. However
+ there can be no assurance that management will be successful in obtaining additional funding or in attaining profitable operations.
+
+
+
+
+
+These consolidated financial statements have been modified the to reflect accounting for our acquisition as a reverse acquisition and reflect the operations of the acquired company for 2013 and no activity in 2012. All references to comparative data of Frontier Beverage have been removed for period prior to October 9
+ 2013.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As of December 31
+ 2013
+ our working capital deficit was $1
+158
+850
+ our accumulated deficit was $2
+466
+131 and our deficit was approximately $1
+158
+850.&#160;&#160;Operating loss was approximately $1
+186
+461 for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013.&#160;&#160;Net cash outlay from operations was $0 for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013.
+
+
+We began the operation of our current business plan in October 2013 and have not yet attained a level of revenue to allow us to meet our current overhead. We have historically reported net losses from operations and negative cash flows.&#160;&#160;Additionally
+ we have not yet attained a level of revenues to allow us to meet our current overhead and we had zero cash at December 31
+ 2013.&#160;&#160;In view of these facts
+ the continued successful operation of the Company is dependent upon us obtaining additional financing and achieving a positive cash flow while maintaining adequate liquidity.&#160;&#160;Based on our current marketing plan and expected sales demand
+ we do not contemplate attaining profitable operations until 2014
+ and there is no assurance that such an operating level can ever be achieved.&#160;&#160;We are dependent upon obtaining additional financing in order to adequately fund working capital
+ infrastructure
+ manufacturing expenses and sales and marketing expenses to gain market recognition
+ so that we can achieve a level of revenue adequate to support our cost structure
+ none of which can be assured.
+
+
+Management believes it will be able to raise the capital required to execute the Company's business plan and become profitable; however
+ due to conditions and influences out of our control
+ including the current state of the national economy
+ we cannot guarantee that profitability will be achieved or that it will be achieved in the stated time frame
+ nor is there any assurance that such an operating level can ever be achieved.
+
+
+We expect to spend substantial amounts on the development or acquisition of new businesses. Further
+ we may not have sufficient resources to fully develop any new products unless we are able to raise additional financing on acceptable terms or secure funds from new or existing partners.&#160;&#160;We can make no assurances that additional financing will be available on favorable terms or at all.&#160;&#160;Additionally
+ these conditions may increase the cost to raise capital. If additional capital is raised through the sale of equity or convertible debt securities
+ the issuance of such securities would result in dilution to our existing stockholders.&#160;&#160;Additionally
+ these conditions may increase costs to raise capital and/or result in further dilution. Our failure to raise capital when needed would adversely affect our business
+ financial condition and results of operations
+ and could force us to reduce or cease our operations.
+
+
+We believe that over the next twelve (12) months
+ we will be able to meet the costs of growth and public reporting with funds generated from operations and additional amounts generated through debt and equity financing.&#160;&#160;Although management believes that the required financing to fund product development and increasing inventory levels can be secured at terms satisfactory to the Company
+ there is no guarantee these funds will be made available
+ and if funds are available
+ that the terms will be satisfactory to the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As of December 31
+ 2013
+ working capital deficit was $1
+158
+850 as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+158
+850
+
+
+
+
+
+
+
+(1
+158
+850
+
+
+
+
+
+
+
+
+
+
+
+December 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+186
+461
+
+
+
+
+
+
+
+(1
+186
+461
+
+
+
+Other expense
+ net
+
+
+
+(355
+475
+
+
+
+
+
+
+
+(1
+541
+936
+
+
+
+
+
+
+
+
+Revenue for period from February 20
+ 2013 (date of inception) through December 31
+ 2013 was $0.&#160;&#160;&#160;Cost of Goods Sold was $0 for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Human resource costs
+ (accrued officers&#8217; compensation)
+
+
+
+
+
+
+
+Professional fees for legal
+ accounting and consulting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+155
+000
+
+
+
+
+
+
+
+29
+056
+
+
+
+
+
+
+
+995
+000
+
+
+
+
+
+
+
+7
+405
+
+
+
+
+
+1
+186
+461
+
+
+
+
+
+
+
+
+
+
+
+Consulting fees incurred with the payment of consultants who provided
+ accounting
+ business advisory
+ promotional and subsidiary management services
+ post reverse acquisition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Other Expense
+ net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In December 2001
+ the SEC requested that all registrants list their most &#8220;critical accounting polices&#8221; in the Management Discussion and Analysis. The SEC indicated that a &#8220;critical accounting policy&#8221; is one which is both important to the portrayal of a company&#8217;s financial condition and results
+ and requires management&#8217;s most difficult
+ subjective or complex judgments
+ often as a result of the need to make estimates about the effect of matters that are inherently uncertain. We do not believe that any accounting policies currently fit this definition.
+
+
+
+
+We do not expect the adoption of recently issued accounting pronouncements to have a significant impact on our results of operations
+ financial position or cash flow.&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our Company is a &#8220;smaller reporting company&#8221; as defined by Rule 12b-2 of the Exchange Act
+ and as such
+ is not required to provide the information required under this Item.
+
+
+
+
+
+All financial statements required by this Item are listed in Part IV
+ Item 15 of this Form 10-K
+ are presented beginning on Page F-1
+ and are incorporated herein by this reference.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pertain to the maintenance of records that
+ in reasonable detail
+ accurately and fairly reflect thetransactions and dispositions of the assets of the Company;&#160;
+
+
+provide reasonable assurance that transactions are recorded as necessary to permit preparationof financial statements in accordance with GAAP
+ and that receipts and expenditures of theCompany are being made only in accordance with authorizations of management and directors of the Company; and&#160;
+
+
+provide reasonable assurance regarding prevention or timely detection of unauthorizedacquisition
+ use or disposition of the Company&#8217;s assets that could have a material effect on thefinancial statements.
+
+
+
+
+Because of its inherent limitations
+ internal control over financial reporting may not prevent or detect misstatements. Also
+ projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions
+ or that the degree of compliance with the policies or procedures may deteriorate.
+
+
+In connection with the preparation of our annual financial statements
+ we have assessed the effectiveness of internal control over financial reporting as of December 31
+ 2013
+ based on criteria established in Internal Control-Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission
+ or the COSO Framework.&#160;&#160;Management&#8217;s assessment included an evaluation of the design of our internal control over financial reporting and testing of the operational effectiveness of those controls.&#160;&#160;Based on this evaluation
+ management has determined that as of December 31
+ 2013
+ our internal controls over financial reporting were not effective and there were weaknesses in our internal control over financial reporting as outlined below.
+
+
+
+
+
+Disclosure controls and procedures are designed to ensure that information required to be disclosed in the reports filed or submitted under the Securities Exchange Act of 1934 (the Exchange Act) is recorded
+ processed
+ summarized and reported
+ within the time period specified in the SEC's rules and forms and is accumulated and communicated to the Company's management
+ as appropriate
+ in order to allow timely decisions in connection with required disclosure.
+
+
+
+
+
+Pursuant to Rule 13a-15(b) under the Securities Exchange Act of 1934 (Exchange Act)
+ the Mr. Harris
+ the Company's Chief Executive Officer (CEO) and Chief Financial Officer (CFO) (the Company&#8217;s principal financial and accounting officer)
+ of the effectiveness of the Company&#8217;s disclosure controls and procedures (as defined under Rule 13a-15(e) under the Exchange Act) as of the end of the period covered by this report.
+
+
+Based upon that evaluation
+ the Company&#8217;s CEO and CFO concluded that the Company&#8217;s disclosure controls and procedures were not effective as of September 30
+ 2013 to ensure that information required to be disclosed by the Company in the reports that the Company files or submits under the Exchange Act
+ is recorded
+ processed
+ summarized and reported
+ within the time periods specified in the SEC&#8217;s rules and forms
+ and that such information is accumulated and communicated to the Company&#8217;s management
+ including the Company&#8217;s CEO and CFO
+ as appropriate
+ to allow timely decisions regarding required disclosure
+ due to the material weaknesses described below.
+
+
+A material weakness is a deficiency
+ or a combination of deficiencies
+ in internal control over financial reporting
+ such that there is a reasonable possibility that a material misstatement of the Company's annual or interim financial statements will not be prevented or detected on a timely basis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company believes its weaknesses in internal controls and procedures is due to the Company's lack of sufficient personnel with expertise in the area of SEC
+ generally accepted accounting principles (GAAP) and tax accounting procedures.&#160;&#160;In addition
+ the Company lacks the personnel structure
+ size and complexity to segregate duties sufficiently for proper controls.
+
+
+The Company is currently without sufficient funds to hire additional personnel with expertise in these areas and to segregate duties for proper controls and until such time as additional personnel are hired
+ the Company believes that it will continue to recognize a weakness in its internal controls and procedures.
+
+
+The Company&#8217;s plan is to hire additional personnel to properly implement a control structure when the appropriate funds become available.&#160;&#160;In the meantime
+ the Chief Executive Officer and Chief Financial Officer will continue to perform or supervise the performance of additional accounting and financial analyses and other post-closing procedures including detailed validation work with regard to balance sheet account balances
+ additional analysis on income statement amounts and managerial review of all significant account balances and disclosures
+ to ensure that the Company's Annual Report and the financial statements forming part thereof are in accordance with accounting principles generally accepted in the United States of America.
+
+
+
+
+There were no changes in our internal controls over financial reporting during the fourth quarter of the year ended December 31
+ 2013 that have materially affected or are reasonably likely to materially affect our internal controls over financial reporting.
+
+
+
+
+
+This annual report does not include an attestation report of our registered public accounting firm regarding internal control over financial reporting. Management's report was not subject to attestation by the Company&#8217;s registered public accounting firm pursuant to the Dodd-Frank Wall Street Reform and Consumer Protection Act
+ wherein non-accelerated filers are exempt from Sarbanes-Oxley internal control audit requirements.
+
+
+
+
+
+
+
+
+
+
+
+ITEM 10.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DIRECTORS
+ EXECUTIVE OFFICERS
+ AND CORPORATE GOVERNANCE
+
+
+
+
+
+The following individuals serve or have served during the year ended December 31
+ 2013 as directors and executive officers of our Company.&#160;&#160;All directors of our Company hold office until the next annual meeting of shareholders or until their successors have been elected and qualified.&#160;&#160;The executive officers of our Company are appointed by our Board of Directors and hold office until their death
+ resignation or removal from office.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+October 9
+ 2013
+
+
+
+President
+ Secretary and Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+October 9
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+October 9
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+July 1
+ 2013
+
+
+President
+ Treasurer and Director
+
+
+
+
+
+
+
+
+
+November 12
+ 2009
+
+
+President
+ Treasurer and Director
+
+
+
+
+
+
+
+
+
+November 15
+ 2011
+
+
+Vice President
+ Secretary and Director
+
+
+
+
+
+* Mr. David Harris resigned from all positions with the Company on March 21
+ 2013.
+&#160;&#160;&#160;Mr. Terry Harris resigned from all positions with the Company on July 1
+ 2013
+&#160;&#160;&#160;Mr. Ruben Yakubov resigned from all positions effective October 9
+ 2013
+&#160;&#160;&#160;Mr. Christopher Bailey resigned effective at the close of business December 31
+ 2013
+
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Messrs. Terry Harris and David Harris were appointed to the Board of Directors pursuant to the terms of separate Subscription Agreements between each of them and the Company dated October 30
+ 2009
+ pursuant to which each of them acquired 6
+680
+000 shares of Company Common Stock.&#160;&#160;Mr. David Harris resigned from all positions with the Company on March 21
+ 2013 resulting in Mr. Terry Harris being the Company's sole officer and director
+ who resigned on July 1
+ 2013.
+
+
+Mr. Ruben Yakubov was appointed July 1
+ 2013 as President
+ Treasurer and Director with his purchase of controlling interest. He resigned effective October 9
+ 2013.
+
+
+Mr. Christopher Bailey was appointed President
+ Secretary and Director on October 9
+ 2013 He resigned effective at the&#160;&#160;close of business on December 31
+ 2013.
+
+
+Mr. William Coogan was appointed Director on October 9
+ 2013.
+
+
+Mr. Michael Jamison was appointed Director on October 9
+ 2013
+
+
+There are no other arrangements or understandings between our officers and directors and any other person pursuant to which he&#160;&#160;was or is to be selected as a director or officer
+ and there are no arrangements
+ plans or understandings as to whether non-management shareholders will exercise their voting rights to continue to elect the current Board of Directors.&#160;&#160;There are also no arrangements
+ agreements or understandings to our knowledge between non-management shareholders that may directly or indirectly participate in or influence the management of our affairs.
+
+
+
+
+
+Terry Harris - President
+ Treasurer and Director
+
+
+On November 12
+ 2009
+ Terry Harris was appointed as President
+ Treasurer and a Director of the Company and he served as the Company's sole officer and director since March 21
+ 2013. Mr. Harris brings over 20 years of experience to the Company
+ as he has been a principal working in all facets of two businesses controlled by his family
+ Empire Foods
+ Inc (Empire) and its subsidiary
+ Ledbetter Packing.&#160;Mr. Harris currently serves as Vice President of Empire. Empire is a full service
+ super-regional
+ independently-owned sales and marketing company providing services to the consumer packaged goods industry. Empire is headquartered in Cincinnati
+ Ohio and is one of the largest privately held food brokers in the U.S.&#160;&#160;Founded in 1959
+ Ledbetter specializes in custom co-packing of either ingredients or finished goods for consumer meat products. Ledbetter also manufactures meat products found in retail grocery outlets throughout the U.S. including
+ but not limited to Wal-Mart
+ Kroger
+ and Food Lion.&#160;&#160;In 2008
+ Mr. Harris and Timothy Barham founded HBB
+ LLC
+. HBB has since diversified and is involved in the development and distribution of other products in addition to beverages. Mr. Harris beneficially owns half of HBB and serves as a principal of the company. HBB now oversees
+ on a global scale as well as other non-beverage products. HBB now sells product to large beverage companies and distributors including Anheuser Busch
+ Miller and Pepsico as well as a number of large and midsize independent distributors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On July 1
+ 2013
+ Ruben Yakubov was appointed as President
+ Treasurer and Director of the Company he served until October 9
+ 2013. For the prior 19 years Mr. Yakubov has served as an economist and financial advisor for various business and financial sectors for 15 of those years he as director of Kazstroyservice a company that in project delivery services in the oil and gas industry.
+
+
+On October 9
+ 2013
+ Christopher Bailey was seated as President
+ Secretary and Director. He spent the last decade operation entrepreneurial companies focused in digital marketing 
+ internet sales portals
+ social networking and computer programming for tech companies.
+
+
+On October 9
+ 2013
+ William Coogan was seated as a Director of the Company. He has been a musician working with various producers and artists for the several years.
+On October 9
+ 2013 was seated as a Director of the Company. He launched Lexium Entertainment a musical talent and booking agency and has been a successful broadcaster and entertainment professional.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To the best of our knowledge
+ during the past ten years
+ our sole officer and director was not involved in any legal proceedings that are material to an evaluation of his ability or integrity as an officer and director.
+
+
+
+
+
+&#160;Section 16(a) of the Exchange Act requires each of our officers and directors and each person who owns more than 10% of a registered class of our equity securities to file with the SEC an initial report of ownership and subsequent reports of changes in such ownership. Such persons are further required by SEC regulations to furnish us with copies of all Section 16(a) forms (including Forms 3
+ 4 and 5) that they file. Based solely on our review of the copies of such forms received by us with respect to fiscal year 2012
+ or written representations from certain reporting persons
+ we believe all of our officers and directors and persons who own more than 10% of our Common Stock have met all applicable filing requirements
+ except as described in this paragraph.&#160;&#160;Mr. David Harris
+ who was appointed to serve as a Director on November 15
+ 2011 and resigned March 21
+ 2013
+ filed one late Form 3 in April 2012.
+
+
+From October 9
+ 2013 through February 14
+ 2014 Gallant Acquisition Corp did not file Form 3 or Form 4 as required. As of February 14
+ 2014 they are no longer a holder of 10% of a registered class of our equity securities.
+
+
+
+
+
+On December 31
+ 2009
+ the Company's Board of Directors approved a Code of Ethics for Financial Executives for 2010 to be signed by the Company's principal executive officer
+ principal financial officer
+ and any other senior officers with financial oversight responsibilities.&#160;&#160;A form of the Code of Ethics for Financial Executives is attached as Exhibit 14.1 to the Company&#8217;s Annual Report on Form 10-K filed with the Commission on April 13
+ 2010.&#160;&#160;The Company will provide a copy of this policy free of charge upon written request to Michael Jamison
+ President
+ Frontier Beverage Company
+ Inc.
+ 2360 Corporate Circle
+ Suite 400
+ Henderson
+ NV 89704.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company does not currently maintain separate audit
+ nominating or compensation committees.&#160;&#160;When necessary
+ the entire Board of Directors performs the tasks that would be required of those committees. Furthermore
+ we do not have a qualified financial expert serving on the Board of Directors at this time
+ because we have not been able to hire a qualified candidate and we have inadequate financial resources at this time to hire such an expert.
+
+
+
+
+
+
+
+
+The table below shows compensation information for services rendered in all capacities for the fiscal year ended December 31
+ 2013.&#160;&#160;&#160;The following information includes the dollar value of base salaries
+ bonus awards
+ the number of stock options granted and certain other compensation
+ if any
+ whether paid or deferred.
+
+
+The below table lists the compensation of the Company's principal executive officers who served the Company in such capacities during the fiscal year ended December 31
+ 2013. The following information includes the dollar value of base salaries
+ bonus awards
+ the number of stock options granted and certain other compensation
+ if any
+ whether paid or deferred.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78
+000
+
+
+
+78
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78
+000
+
+
+
+78
+000
+
+
+
+
+President
+ Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+156
+000
+
+
+
+156
+000
+
+
+
+
+President
+ Treasurer
+ Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+President
+ Treasurer and Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vice Pres.
+ Secretary and Director
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terry Harris was elected President
+ Treasurer and Director on November 12
+ 2009.&#160;&#160;In November 2012
+ Mr. Harris forgave approximately $305
+000 of accrued officer compensation. He resigned on March 21
+ 2013
+
+
+
+
+
+
+
+
+
+
+David Harris was elected Vice President
+ Secretary and Director on November 15
+ 2011 and resigned on March 21
+ 2013.
+
+
+
+
+
+
+
+
+
+
+Ruben Yakubov was elected President
+ Treasurer and Director on July 1
+ 2013
+ he resigned effective October 9
+ 2013.
+
+
+
+
+
+
+
+
+
+
+Christopher Bailey was elected President and Director on October 8
+ 2013 and seated on October 9
+ 2013. He resigned effective January 1
+ 2013.&#160;&#160;He was issued 6
+000
+000 restricted common shares in November 2013 as part of his compensation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terry Harris
+ who served as a Director and our President and Treasurer
+ entered into an Employment Agreement with the Company (the &#8220;Harris Employment Agreement&#8221;)
+ setting forth the terms of his service as President and Treasurer
+ as well as such other services equal with his position which may be assigned to him by the Board of Directors of the Company.&#160;&#160;Under the Harris Employment Agreement
+ which was made retroactively effective as of January 1
+ 2010
+ Mr. Harris&#8217; compensation is set at $120
+000 annually
+ and he is entitled to a nondiscretionary annual bonus equal to $1.00 for each case of beverage product sold or distributed by the Company
+ less $120
+000.&#160;&#160;The annual bonus shall be paid 30 days after the end of the year or Mr. Harris&#8217; termination of employment with the Company
+ unless otherwise agreed to by Mr. Harris and the Company.&#160;&#160;If the Harris Employment Agreement is terminated
+ for any reason
+ Mr. Harris shall receive a pro-rated amount of the bonus based on the reduced bonus period.&#160;&#160;Both the base salary and the annual bonus may be increased or decreased at the sole discretion of the Board of Directors of the Company.&#160;&#160;Mr. Harris is also entitled to participate in and receive benefits under any plan or arrangement made available by the Company to its employees
+ including any medical
+ dental
+ disability
+ and life insurance and 401(k) programs.&#160;&#160;Furthermore
+ Mr. Harris&#8217; employment with the Company is at-will
+ which means that either the Company or Mr. Harris may terminate the Harris Employment Agreement at any time
+ with or without reason or notice.&#160;&#160;&#160;The Harris Employment Agreement was approved by the Board of Directors of the Company on June 30
+ 2010.
+
+
+
+
+
+Christopher Bailey who served as a Director and President entered into an employment agreement for a six month term on October 9
+ 2013. The contract is for $5
+000 per month with no bonuses.
+
+
+
+
+
+There are no stock options or other equity awards outstanding under the Company's 2009 Equity Incentive Plan. For a description of the Company's 2008 Equity Incentive Plan
+
+ RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES - 
+
+
+
+
+
+The Company does not have a compensation policy for its directors for their service at this time.&#160;&#160;We have no present formal plan for further compensating our directors for their service in their capacity as such. Messrs. Bailey
+ Coogan and Jamison received 6
+000
+000
+ 3
+000
+000 and 3
+000
+000 restricted common shares
+ respectively
+ for their participation on the Board of Directors
+
+
+
+
+
+The following table sets forth the ownership
+ as of April 14
+ 2014
+ of our Common Stock by each person known by us to be the beneficial owner of more than 5% of our outstanding Common Stock
+ each of our directors and executive officers; and all of our directors and executive officers as a group.&#160;&#160;&#160;The information presented below regarding beneficial ownership of our Common Stock has been presented in accordance with the rules of the SEC and is not necessarily indicative of ownership for any other purpose.&#160;&#160;This table is based upon information derived from our stock records.&#160;&#160;Unless otherwise indicated in the footnotes to this table and subject to community property laws where applicable
+ we believe that each of the shareholders named in this table has sole voting and investment power with respect to the shares indicated as beneficially owned.&#160;&#160;Except as otherwise listed below
+ the address of each person is c/o Frontier Beverage Company
+ Inc.
+ 2360 Corporate Circle
+ Suite 400
+ Henderson
+ NV 89704. Except as set forth below
+ applicable percentages are based upon 227
+942
+800 shares of Common Stock outstanding as of April 14
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+President
+ Secretary and Director
+
+
+
+6
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+3
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+3
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+12
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+15
+978
+000
+
+
+
+
+
+
+
+
+
+
+
+ITEM 13.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+
+
+
+
+
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Our securities are not currently listed on a national securities exchange or interdealer quotation system which would require that the Board of Directors include a majority of directors that are &#8220;independent.&#8221; Furthermore
+ no members of our Board of Directors would qualify as &#8220;independent&#8221; directors as such term is defined in the NASDAQ Global Market listing standards.
+
+
+
+
+
+
+
+
+We incurred aggregate fees and expenses of $12
+500 for fiscal 2013 for services rendered by RBSM LLP for the audit or review of our 2013 financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+We incurred no fees or expenses for the 2013 and 2012 fiscal years for professional services rendered by RBSM LLP or Sherb &amp; Co. LLP for tax compliance
+ tax advice
+ or tax planning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company does not currently maintain a separate audit committee.&#160;&#160;When necessary
+ the entire Board of Directors performs the tasks that would be required of such committees. As such
+ at its regularly scheduled and special meetings
+ the Board of Directors considers and pre-approves any audit and non-audit services to be performed by our independent accountants.
+
+
+
+
+
+ITEM 15.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EXHIBITS
+ FINANCIAL STATEMENT SCHEDULES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Balance Sheets as of December 31
+ 2013
+
+
+
+
+
+
+
+Consolidated Statement of Operations for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013
+
+
+
+
+
+
+
+Statements of Cash Flows for the years ended December 31
+ 2013 and 2012
+
+
+
+
+
+
+
+Statements of Deficit period from February 20
+ 2013 (date of inception) through December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amended and Restated Articles of Incorporation filed June 3
+ 2008 (incorporated by reference to Exhibit 3.1 of the Company&#8217;s Annual Report on Form 10-K filed with the Commission on April 3
+ 2009).
+
+
+
+
+
+
+Certificate of Amendment to the Articles of Incorporation effective February 4
+ 2010 (to change name to Frontier Beverage Company
+ Inc.) (incorporated by reference to Exhibit 3.2 of the Company&#8217;s Annual Report on Form 10-K filed with the Commission on April 13
+ 2010).
+
+
+
+
+
+
+Bylaws (incorporated by reference to Exhibit 3.2 of the Company&#8217;s Registration Statement on Form SB-2 filed with the Commission on December 16
+ 2004).
+
+
+
+
+
+
+Amendment to Bylaws of Frontier Beverage Company
+ Inc. (f/k/a Assure Data
+ Inc.) (incorporated by reference to Exhibit 3.2 of the Current Report on Form 8-K filed with the Commission on August 20
+ 2010).
+
+
+
+
+
+
+Purchase Agreement between Frontier Beverage Company
+ Inc. and Innovative Beverage Group Holdings
+ Inc. dated March 1
+ 2010 (incorporated by reference to Exhibit 10.0 of the Company&#8217;s Report on Form 8-K filed with the Commission on March 5
+ 2010).
+
+
+
+
+
+
+Demand Promissory Note payable to HBB
+ LLC dated November 12
+ 2009 (incorporated by reference to Exhibit 10.6 of the Company&#8217;s Annual Report on Form 10-K filed with the Commission on April 13
+ 2010). 
+
+
+
+
+
+
+Contract by and Between Beckerman and Frontier Beverages
+ dated effective as of March 15
+ 2010 (incorporated by reference to Exhibit 10.3 of the Company&#8217;s Quarterly Report on Form 10-Q filed with the Commission on May 13
+ 2010).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Employment Agreement with Terry Harris (incorporated by reference to Exhibit 10.1 of the Company&#8217;s Report on Form 8-K filed with the Commission on July 7
+ 2010). 
+
+
+
+
+
+
+Employment Agreement with Timothy Barham (incorporated by reference to Exhibit 10.2 of the Company&#8217;s Report on Form 8-K filed with the Commission on July 7
+ 2010). 
+
+
+
+
+
+
+Universal Note and Security Agreement by and among Frontier Beverage Company
+ Inc. and Empire Food Brokers
+ Inc. (Borrowers) and Trust One Bank (Lender) dated June 23
+ 2010. (incorporated by reference to Exhibit 10.5 of the Company&#8217;s Quarterly Report on Form 10-Q filed with the Commission on August 16
+ 2010). 
+
+
+
+
+
+
+Demand Promissory Note payable to Terry Harris dated April 15
+ 2010 (incorporated by reference to Exhibit 10.6 of the Company&#8217;s Quarterly Report on Form 10-Q filed with the Commission on August 16
+ 2010).
+
+
+
+
+
+
+Demand Promissory Note payable to Timothy Barham dated May 12
+ 2010 (incorporated by reference to Exhibit 10.7 of the Company&#8217;s Quarterly Report on Form 10-Q filed with the Commission on August 16
+ 2010). 
+
+
+
+Independent Consulting Agreement with Halter Capital Corporation effective as of November 12
+ 2009 (incorporated by reference to Exhibit 10.2 of the Company&#8217;s Report on Form 8-K filed with the Commission on November 13
+ 2009).
+
+
+
+
+Purchase Agreement between Frontier Beverage Company
+ Inc. and Gallant Acquisitions Corp. dated October 8
+ 2013 (incorporated by reference to Exhibit 10.10 of the Company&#8217;s Report on Form 8-K filed with the Commission on October 14
+ 2013.
+
+
+
+Employment Agreement with Christopher Bailey (incorporated by reference to Exhibit 10.11 of the Company&#8217;s Report on Form 8-K filed with the Commission on October 14
+ 2013).
+
+
+
+
+Code of Ethics (incorporated by reference to Exhibit 14.1 of the Company&#8217;s Annual Report on Form 10-K filed with the Commission on April 13
+ 2010).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+
+
+
+
+
+
+DATE: April 15
+ 2014
+
+
+FRONTIER BEVERAGE COMPANY
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pursuant to the requirements of the Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf of the registrant and in the capacities and on the dates indicated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+President
+ Treasurer and Director 
+(Principal Executive Officer
+ 
+
+
+
+
+
+April 16
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pursuant to the requirements of the Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf of the registrant and in the capacities and on the dates indicated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+President
+ Treasurer and Director (Principal 
+Executive Officer
+ Principal Financial 
+
+
+
+
+April 15
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New York
+ New York 10022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frontier Beverage Company
+ Inc.
+
+We have audited the accompanying consolidated balance sheet of Frontier Beverage Company
+ Inc. (the &#8220;Company&#8221;) as of December&#160;31
+ 2013 and the related consolidated statements of operations
+ stockholders&#8217; deficit and cash flows for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013. These consolidated financial statements are the responsibility of the Company&#8217;s management. Our responsibility is to express an opinion on these consolidated financial statements based on our audits.
+
+We conducted our audits in accordance with the standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement. We were not engaged to perform an audit of the Company&#8217;s internal control over financial reporting. Our audits included consideration of internal control over financial reporting as a basis for designing audit procedures that are appropriate in the circumstances
+ but not for the purpose of expressing an opinion on the effectiveness of the Company&#8217;s internal control over financial reporting. Accordingly
+ we express no such opinion. An audit also includes examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements
+ assessing the accounting principles used and significant estimates made by management
+ and evaluating the overall financial statement presentation. We believe that our audits provide a reasonable basis for our opinion.
+
+In our opinion
+ the consolidated financial statements referred to above present fairly
+ in all material respects
+ the financial position of Frontier Beverage Company
+ Inc. at December&#160;31
+ 2013and the results of its operations for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013 in conformity with accounting principles generally accepted in the&#160;United States of America.
+
+The accompanying consolidated financial statements have been prepared assuming that the Company will continue as a going concern.&#160;As discussed in Note 1 to the consolidated financial statements
+ the Company has sustained net losses from operations and stockholder&#8217;s deficit. These conditions raise substantial doubt about the Company&#8217;s ability to continue as a going concern.&#160;Management&#8217;s plans in regards to these matters are also described in Note 1.&#160;The consolidated financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+
+
+
+April 15
+ 2014
+
+New York
+ NY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FRONTIER BEVERAGE COMPANY
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+240
+339
+
+
+
+
+
+
+
+22
+675
+
+
+
+
+
+
+
+152
+500
+
+
+
+
+
+
+
+67
+005
+
+
+
+
+
+
+
+676
+331
+
+
+
+
+
+
+
+1
+158
+850
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frontier Beverage Company
+ Inc. Stockholders' Deficit
+
+
+
+
+
+
+
+&#160;&#160;&#160;Preferred stock - par value $0.001; 100
+000
+000 shares authorized;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock - par value $0.001; 500
+000
+000 shares authorized;
+
+
+
+
+
+
+
+&#160;&#160;&#160;&#160;131
+781
+000 shares issued and outstanding
+
+
+
+131
+781
+
+
+
+
+
+
+
+1
+175
+500
+
+
+
+
+
+
+
+(2
+466
+131
+
+
+
+
+
+
+
+
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Total Frontier Beverage Company
+ Inc. Stockholders' deficit
+
+
+
+(1
+158
+850
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FRONTIER BEVERAGE COMPANY
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+February 20
+ 2013 
+
+
+December 31
+ 2013
+
+
+
+
+
+
+
+
+
+Revenues
+ net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Selling
+ general and administrative
+
+
+
+1
+186
+461
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+186
+461
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1
+186
+461
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(435
+962
+
+
+
+
+
+
+
+80
+487
+
+
+
+
+
+
+
+
+
+
+
+
+
+(355
+475
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1
+541
+936
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1
+541
+936
+
+
+
+
+
+
+
+
+
+Loss per share
+ basic and diluted
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weighted average number of shares outstanding
+
+
+
+
+
+
+
+
+
+
+
+
+63
+874
+151
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FRONTIER BEVERAGE COMPANY
+ INC.
+
+
+
+
+
+
+
+
+
+For the Period From February 20
+ 2013 (date of inception) through December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Balance
+ at inception (recpaitalization effect)
+
+
+
+163
+781
+000
+
+
+
+163
+781
+
+
+
+
+
+
+
+(924
+195
+
+
+
+
+
+
+
+(760
+414
+
+
+
+
+
+
+
+38
+000
+000
+
+
+
+38
+000
+
+
+
+955
+500
+
+
+
+
+
+
+
+
+
+
+
+993
+500
+
+
+
+
+
+
+
+30
+000
+000
+
+
+
+30
+000
+
+
+
+120
+000
+
+
+
+
+
+
+
+
+
+
+
+150
+000
+
+
+
+
+Production
+ Inc. in exchange for shares 
+
+
+
+
+(100
+000
+000
+
+
+
+(100
+000
+
+
+
+100
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1
+541
+936
+
+
+
+
+
+
+
+(1
+541
+936
+
+
+
+Balance
+ December 31
+ 2013
+
+
+
+131
+781
+000
+
+
+
+131
+781
+
+
+
+1
+175
+500
+
+
+
+(2
+466
+131
+
+
+
+
+
+
+
+(1
+158
+850
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FRONTIER BEVERAGE COMPANY
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+February 20
+ 2013 
+
+
+December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1
+541
+936
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+435
+962
+
+
+
+
+
+
+
+993
+500
+
+
+
+
+
+
+
+(80
+487
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40
+461
+
+
+
+
+
+
+
+152
+500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cash
+ beginning of year
+
+
+
+
+
+
+
+Cash
+ end of year
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+150
+000
+
+
+
+Sale of 30% shares of 22 Social Club Production
+ Inc. in exchange for shares of common stock
+
+
+
+100
+000
+
+
+
+
+
+
+
+924
+195
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FRONTIER BEVERAGE COMPANY
+ INC.
+
+
+
+
+
+
+Frontier Beverage Company
+ Inc.
+ f/k/a Assure Data
+ Inc. (the Company
+ &#8220;we&#8221;
+ &#8220;us&#8221; or &#8220;our&#8221;) is a Nevada corporation that was formed in November 2002 and commenced operations in April 2003. The Company provided fully automated remote data backup services for small to medium sized businesses.
+
+
+The Company purchased from Innovative Beverage Group
+ Holdings
+ Inc. its Trademarks and intellectual property rights of a beverage called &#8220;Unwind.&#8221; See further information disclosed at 
+
+
+On July 1
+ 2013
+ controlling interest in the Company was sold to Ruben Yakubov who became the sole director and officer after the resignation of Terry Harris from all positions he had held since 2009. Following
+ on July 10
+ 2013
+ the Company increased its authorized common shares to 500
+000
+000
+ par value $0.001 and 100
+000
+000 preferred shares
+ par value $0.001.
+
+
+On October 9
+ 2013
+ the Company entered into share exchange agreement to acquire 100% of the issued and outstanding share capital with Gallant Acquisition Corp. (GAC) the 100% owner of all of the issued and outstanding share capital of 22 Social Club Productions (22 SCP) and its subsidiaries
+ Blue 22 Entertainment and Appquest
+ Inc. for 140
+000
+000 common shares of the Company and 5
+000
+000 shares of common stock of the Company to Appquest
+ Inc. Effectively
+ 22 SCP held 89% of the issued and outstanding common shares of the Company and the transaction has been accounted for as a reverse merger
+ where 22 SCP is deemed to be the acquirer and or the surviving entity for accounting purposes.
+
+
+The transaction is accounted for using the purchase method of accounting. As a result of the recapitalization and change in control
+ 22 SCP is the acquiring entity in accordance with ASC 805
+ Business Combinations. Accordingly
+ the historical financial statements are those of 22 SCP
+ the accounting acquirer
+ immediately following the consummation of the reverse merger.
+
+
+22 Social Club Productions
+ Inc. and Blue 22 Entertainment possess certain contracts for the production of live music concerts. The business plan calls for immediate expansion production and development of entertainment content including production of live events
+ production and development of independent films
+ reality television and management and talent booking services.
+
+
+On December 31
+ 2013
+ the Company sold 30% shares of 22 Social Club Productions
+ Inc. to GAC
+ a related party in return of 100
+000
+000 restricted common shares from the share exchange agreement entered into on October 9
+ 2013.
+
+
+
+
+
+The accompanying consolidated financial statements have been prepared in conformity with generally accepted accounting principles in the United States of America (&#8220;GAAP&#8221;)
+ which contemplates continuation of the Company as a 
+ which is dependent upon the Company's ability to establish itself as a profitable business.&#160;&#160;At December 31
+ 2013
+ the Company has an accumulated deficit of $2
+466
+131
+ and for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013 incurred net loss of $1
+541
+936.&#160;&#160;Management plans to increase operations to include the marketing of the Company's beverage products and concert promotions by obtaining additional funds through the issuance of securities or borrowings. Accordingly
+
+ there can be no assurance that management will be successful in obtaining additional funding or in attaining profitable operations
+ and therefore
+ these matters raise substantial doubt about the Company's ability to continue as a going concern.&#160;&#160;These consolidated financial statements do not include any adjustments that might result from the outcome of these uncertainties
+ nor do they include adjustments relating to the recoverability and realization of assets and classification of liabilities that might be necessary should the Company be unable to continue in operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For purposes of the Statements of Cash Flows
+ the Company considers amounts held by financial institutions and short-term investments with an original maturity of 90 days or less to be cash and cash equivalents.&#160;&#160;In the future
+ the Company may periodically make deposits with financial institutions in excess of the maximum federal insurance limits (FDIC) of $250
+000 per bank.
+
+
+
+
+
+The Company adopted the SFAS guidance which requires companies to expense the value of employee stock options and similar awards and applies to all outstanding and vested stock-based awards.&#160;&#160;In computing the impact
+ the fair value of each option is estimated on the date of grant based on the Black-Scholes options-pricing model utilizing certain assumptions for a risk free interest rate; volatility; and expected remaining lives of the awards. The assumptions used in calculating the fair value of share-based payment awards represent management&#8217;s best estimates
+ but these estimates involve inherent uncertainties and the application of management judgment. As a result
+ if factors change and the Company uses different assumptions
+ the Company&#8217;s stock-based compensation expense could be materially different in the future. In addition
+ the Company is required to estimate the expected forfeiture rate and only recognize expense for those shares expected to vest. In estimating the Company&#8217;s forfeiture rate
+ the Company analyzed its historical forfeiture rate
+
+the remaining lives of unvested options
+ and the amount of vested options as a percentage of total options outstanding. If the Company&#8217;s actual forfeiture rate is materially different from its estimate
+ or if the Company reevaluates the forfeiture rate in the future
+ the stock-based compensation expense could be significantly different from what we have recorded in the current period. Applying this guidance had no impact on the consolidated financial statements for the period from February 20
+ 2013 (date of inception) through December 31
+ 2013.
+
+
+
+
+
+The Company calculates earnings per share (&#8220;EPS&#8221;) in accordance with the SFAS guidance for Earnings per Share
+ which requires the computation and disclosure of two EPS amounts
+ basic and diluted.&#160;&#160;Basic EPS is computed based on the weighted average number of shares of Common Stock outstanding during the period.&#160;&#160;Diluted EPS is computed based on the weighted average number of shares of Common Stock outstanding plus all potentially dilutive shares of Common Stock outstanding during the period.&#160;&#160;Such potential dilutive shares of Common Stock consist of stock options
+ non-vested shares (restricted stock) and warrants.&#160;&#160;At December 31
+ 2013
+ there were no potential shares of Common Stock that would have an anti-dilutive effect.
+
+
+
+
+
+Potential benefits of income tax losses are not recognized in the accounts until realization is more likely than not. The Company has adopted ASC 740 &#8220;Accounting for Income Taxes&#8221; as of its inception. Pursuant to ASC 740
+ the Company is required to compute tax asset benefits for net operating losses carried forward. The potential benefits of net operating losses have not been recognized in this financial statement because the Company cannot be assured it is more likely than not it will utilize the net operating losses carried forward in future years.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The preparation of financial statements in conformity with US GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. The Company regularly evaluates estimates and assumptions related to the deferred income tax asset valuation allowances. The Company bases its estimates and assumptions on current facts
+ historical experience and various other factors that it believes to be reasonable under the circumstances
+ the results of which form the basis for making judgments about the carrying values of assets and liabilities and the accrual of costs and expenses that are not readily apparent from other sources. The actual results experienced by the Company may differ materially and adversely from the Company&#8217;s estimates. To the extent there are material differences between the estimates and the actual results
+ future results of operations will be affected.
+
+
+
+
+The Company assessed the classification of its derivative financial instruments as of December 31
+ 2013
+ which consist of convertible instruments and rights to shares of the Company&#8217;s common stock
+ and determined that such derivatives meet the criteria for liability classification under ASC 815.
+
+ASC 815 generally provides three criteria that
+ if met
+ require companies to bifurcate conversion options from their host instruments and account for them as free standing derivative financial instruments. These three criteria include circumstances in which (a) the economic characteristics and risks of the embedded derivative instrument are not clearly and closely related to the economic characteristics and risks of the host contract
+ (b) the hybrid instrument that embodies both the embedded derivative instrument and the host contract is not re-measured at fair value under otherwise applicable generally accepted accounting principles with changes in fair value reported in earnings as they occur and (c) a separate instrument with the same terms as the embedded derivative instrument would be considered a derivative instrument subject to the requirements of ASC 815. ASC 815 also provides an exception to this rule when the host instrument is deemed to be conventional
+ as described.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ASC 820 Fair Value Measurements and Disclosures defines fair value as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy that distinguishes between (1) market participant assumptions developed based on market data obtained from independent sources (observable inputs) and (2) an entity&#8217;s own assumptions about market participant assumptions developed based on the best information available in the circumstances (unobservable inputs). The fair value hierarchy consists of three broad levels
+ which gives the highest priority to unadjusted quoted prices in active markets for identical assets or liabilities (Level 1) and the lowest priority to unobservable inputs (Level 3). The three levels of the fair value hierarchy are described below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 1 - Unadjusted quoted prices in active markets that are accessible at the measurement date for identical
+ unrestricted assets or liabilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 2 - Inputs other than quoted prices included within Level 1 that are observable for the asset or liability
+ either directly or indirectly
+ including quoted prices for similar assets or liabilities in active markets; quoted prices for identical or similar assets or liabilities in markets that are not active; inputs other than quoted prices that are observable for the asset or liability (e.g.
+ interest rates); and inputs that are derived principally from or corroborated by observable market data by correlation or other means.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fair value estimates discussed herein are based upon certain market assumptions and pertinent information available to management as of December 31
+ 2013. The respective carrying value of certain on-balance-sheet financial instruments approximated their fair values due to the short-term nature of these instruments. These financial instruments include accounts payable
+ accrued compensation and accrued expenses. As of December 31
+ 2013
+ the Company has determined that the only asset or liability measured at fair value is the derivative instrument related to an anti-dilution provision contained in Convertible Notes and valued using level 3 inputs..
+
+
+
+
+
+
+
+
+
+
+ to report accounting for contingencies. Liabilities for loss contingencies arising from claims
+ assessments
+ litigation
+ fines and penalties and other sources are recorded when it is probable that a liability has been incurred and the amount of the assessment can be reasonably estimated. There were no commitments or contingencies as of December 31
+ 2013.
+
+
+
+
+
+
+
+
+
+Professional standards generally provides three criteria that
+ if met
+ require companies to bifurcate conversion options from their host instruments and account for them as free standing derivative financial instruments. These three criteria include circumstances in which (a)&#160;the economic characteristics and risks of the embedded derivative instrument are not clearly and closely related to the economic characteristics and risks of the host contract
+ (b)&#160;the hybrid instrument that embodies both the embedded derivative instrument and the host contract is not re-measured at fair value under otherwise applicable generally accepted accounting principles with changes in fair value reported in earnings as they occur and (c)&#160;a separate instrument with the same terms as the embedded derivative instrument would be considered a derivative instrument.&#160;&#160;Professional standards also provide an exception to this rule when the host instrument is deemed to be conventional as defined under professional standards as &#8220;The Meaning of &#8220;Conventional Convertible Debt Instrument&#8221;.
+
+
+The Company accounts for convertible instruments (when it has determined that the embedded conversion options should not be bifurcated from their host instruments) in accordance with professional standards when &#8220;Accounting for Convertible Securities with Beneficial Conversion Features
+&#8221; as those professional standards pertain to &#8220;Certain Convertible Instruments.&#8221; Accordingly
+ the Company records
+ when necessary
+ discounts to convertible notes for the intrinsic value of conversion options embedded in debt instruments based upon the differences between the fair value of the underlying common stock at the commitment date of the note transaction and the effective conversion price embedded in the note. Debt discounts under these arrangements are amortized over the term of the related debt to their earliest date of redemption. The Company also records when necessary deemed dividends for the intrinsic value of conversion options embedded in preferred shares based upon the differences between the fair value of the underlying common stock at the commitment date of the note transaction and the effective conversion price embedded in the note.
+
+ASC 815-40 provides that
+ among other things
+ generally
+ if an event is not within the entity&#8217;s control could or require net cash settlement
+ then the contract shall be classified as an asset or a liability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company has implemented all new accounting pronouncements that are in effect. These pronouncements did not have any material impact on the financial statements unless otherwise disclosed
+ and the Company does not believe that there are any other new accounting pronouncements that have been issued that might have a material impact on its financial position or results of operations.
+
+
+
+
+
+At December 31
+ 2013
+&#160;&#160;the Company had accrued wages to related parties of $152
+500. These related parties were the current board of directors and officers.
+
+
+
+
+
+
+
+
+At December 31
+ 2013
+ the Company had 500
+000
+000 authorized shares of Common Stock and 100
+000
+000 authorized shares of Preferred Stock
+ both with a par value of $0.001 per share.
+
+
+
+
+
+At December 31
+ 2013
+ the Company had 131
+781
+000 shares of its Common Stock issued and outstanding.&#160;&#160;&#160;Holders of Common Stock are entitled to one vote per share and are to receive dividends or other distributions when and if declared by the Company's Board of Directors.
+
+
+On October 9
+ 2013
+ the Company entered into share exchange agreement to acquire 100% of the issued and outstanding share capital with Gallant Acquisition Corp. (GAC)
+ the 100% owner of all of the issued and outstanding share capital of 22 Social Club Productions (22 SCP) and its subsidiaries
+ Blue 22 Entertainment and Appquest
+ Inc. for 140
+000
+000 common shares of the Company and 5
+000
+000 shares of common stock of the Company to Appquest
+ Inc.. Effectively
+ 22 SCP held 89% of the issued and outstanding common shares of the Company and the transaction has been accounted for as a reverse merger
+ where 22 SCP is deemed to be the acquirer and or the surviving entity for accounting purposes.
+
+
+On October 9
+ 2013
+ the Company issued 30
+000
+000 shares of common stock for conversion of notes payable of $150
+000 valued at $0.005 per share
+
+
+In November 2013
+ the Company issued 38
+000
+000 shares of common stock for services rendered of $993
+500
+
+
+On December 31
+ 2013
+ the Company sold 30% shares of 22 Social Cub Productions
+ Inc. to GAC
+ a related party in return of 100
+000
+000 restricted common shares from the share exchange agreement entered into on October 9
+ 2013.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At December 31
+ 2013
+ the Company had no shares of its Preferred Stock issued and outstanding.&#160;&#160;We are authorized to issue up to 100
+000
+000 shares of Preferred Stock with designations
+ rights and preferences determined from time to time by our Board of Directors. Accordingly
+ our Board of Directors is empowered
+ without stockholder approval
+ to issue Preferred Stock with dividend
+ liquidation
+ conversion
+ voting
+ or other rights which could adversely affect the voting power or other rights of the holders of the Common Stock. In the event of issuance
+ the Preferred Stock could be utilized
+ under certain circumstances
+ as a method of discouraging
+ delaying or preventing a change in control of the Company.&#160;&#160;If the Company issues shares of Preferred Stock and we are subsequently liquidated or dissolved
+ the preferred shareholders would have preferential rights to receive a liquidating distribution for their shares prior to any distribution to common shareholders.
+
+
+
+
+On November 6
+ 2013
+ the Company adopted the 2013 Professional/Consultant Stock Compensation Plan authorizing 21
+000
+000 common shares to be utilized for the payment of service contracts. An S-8 Registration Statement was filed on the same day.
+
+
+As of December 31
+ 2013
+ no stock options were issued and outstanding.
+
+
+
+
+
+Income taxes are accounted for in accordance with the SFAS guidance for Accounting for Income Taxes
+ which requires the recognition of deferred tax assets and liabilities to reflect the future tax consequences of events that have been recognized in the Company's financial statements or tax returns. Measurement of the deferred items is based on enacted tax laws. In the event the future consequences of differences between financial reporting bases and tax bases of the Company's assets and liabilities result in a deferred tax asset
+ the guidance requires an evaluation of the probability of being able to realize the future benefits indicated by such assets. A valuation allowance related to a deferred tax asset is recorded when it is more likely than not that some or the entire deferred tax asset will not be realized.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company has net operating losses at December 31
+ 2013 of $1
+186
+461 expiring through 2033.&#160;&#160;Utilization of these losses may be limited by the change of ownership rules as set forth in section 382 of the Internal Revenue Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+February 20
+ 2013 
+
+
+December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+415
+261
+
+
+
+
+
+
+
+(415
+261
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deferred tax assets and liabilities are provided for significant income and expense items recognized in different years for tax and financial reporting purposes.&#160;&#160;Temporary differences
+ which give rise to a net deferred tax asset
+ are as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+415
+261
+
+
+
+
+
+
+
+(415
+261
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The provisions of ASC 740 require companies to recognize in their financial statements the impact of a tax position if that position is more likely than not to be sustained upon audit
+ based upon the technical merits of the position. ASC 740 prescribes a recognition threshold and measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken on a tax return. ASC 740 also provides guidance on derecognition
+ classification
+ interest and penalties
+ accounting in interim periods and disclosure.
+
+
+Management does not believe that the Company has any material uncertain tax positions requiring recognition or measurement in accordance with the provisions of ASC 740. Accordingly
+ the adoption of these provisions of ASC 740 did not have a material effect on the Company&#8217;s financial statements. The Company&#8217;s policy is to record interest and penalties on uncertain tax positions
+ if any
+ as income tax expense.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At December 31
+ 2013 convertible notes payable consisted of the following:
+
+
+
+
+
+
+
+December 31
+ 
+
+
+
+
+
+
+
+
+
+
+
+240
+339
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+240
+339
+
+
+
+
+
+As of the date of reverse merger
+ the Company had balance of $240
+339 in the convertible notes payable
+ conversion price being fixed at $0.005 per share.
+
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; On October 9
+ 2013
+ the convertible notes agreement was amended to allow conversion into shares of common stock at 50% discount to the lowest bid of stock&#8217;s market price during the last 20 days prior to conversion date.
+
+
+The Company identified embedded derivatives related to the amended Convertible Promissory Note entered into on October 9
+ 2013.&#160;These embedded derivatives included certain conversion features.&#160;The accounting treatment of derivative financial instruments requires that the Company record the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of each subsequent balance sheet date.&#160;At the inception of the Convertible Promissory Note
+ the Company determined a fair value of $240
+369 of the embedded derivative.&#160;&#160;The fair value of the embedded derivative was determined using the Black Scholes Model based on the following assumptions:&#160;&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The initial fair value of the embedded debt derivative of $240
+369 was allocated with accumulated deficit as part of recapitalization effect.
+
+
+The fair&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; value of the described embedded derivative of $676
+331 at December 31
+ 2013 was determined using the Black Scholes Model with the following assumptions:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At December 31
+ 2013
+ the Company adjusted the recorded fair value of the derivative liability to market resulting in non-cash
+ non-operating loss of $435
+962 for the period from February 20
+ 2013 (date of inception) through ended December 31
+ 2013.
+
+
+
+
+ASC 825-10 defines fair value as the price that would be received from selling an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. When determining the fair value measurements for assets and liabilities required or permitted to be recorded at fair value
+ the Company considers the principal or most advantageous market in which it would transact and considers assumptions that market participants would use when pricing the asset or liability
+ such as inherent risk
+ transfer restrictions
+ and risk of nonperformance. ASC 825-10 establishes a fair value hierarchy that requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. ASC 825-10 establishes three levels of inputs that may be used to measure fair value:&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To the extent that valuation is based on models or inputs that are less observable or unobservable in the market
+ the determination of fair value requires more judgment. In certain cases
+ the inputs used to measure fair value may fall into different levels of the fair value hierarchy. In such cases
+ for disclosure purposes
+ the level in the fair value hierarchy within which the fair value measurement is disclosed is determined based on the lowest level input that is significant to the fair value measurement.
+
+
+Items recorded or measured at fair value on a recurring basis in the accompanying&#160;consolidated financial statements consisted of the following items as of December 31
+ 2013:
+
+
+
+
+
+
+
+
+
+
+
+Fair&#160;Value&#160;Measurements&#160;at&#160;December 31
+&#160;2013&#160;using:
+
+
+
+
+
+
+December&#160;31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+676
+331
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+676
+331
+
+
+
+
+
+
+
+
+The following table provides a summary of changes in fair value of the Company&#8217;s Level 3 financial liabilities as of December 31
+ 2013:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Balance
+ at inception
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+240
+369
+
+
+
+
+Mark-to-market at December 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+435
+962
+
+
+
+
+Balance
+ December 31
+ 2013
+
+
+
+
+
+
+676
+331
+
+
+
+
+
+
+
+
+
+
+Net loss for the period included in earnings relating to the liabilities held at December 31
+ 2013
+
+
+
+
+
+
+435
+962
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company is subject to certain legal proceedings and claims
+ which arise in the ordinary course of its business. Although occasional adverse decisions or settlements may occur
+ the Company believes that the final disposition of such matters should not have a material adverse effect on its financial position
+ results of operations or liquidity.
+
+
+
+
+
+We have evaluated subsequent events through the date the consolidated financial statements were available to be issued
+ and did not have any material recognizable subsequent events
+ other than the following:
+
+
+Michael Jamison became President of the Company on January 2
+ 2014. His term on the Board of Directors of was extended through December 31
+ 2014. The Company has chosen to cease the use of its subsidiary Appquest immediately. The beverage division will change its marketing strategy to outsourcing its product distribution. In addition to the salary of $8
+000 per month
+ the Executive shall be granted Eight (8) Million Shares of the common stock as of January 2
+ 2014 or sooner should the Company be sold or there is a change of ownership.
+
+
+In January
+ the Company contracted Alain Lewand to provide Investor Relation services with the payment of 3 million restricted common shares with a value of $11
+400. William Ballou was contracted to provide data base services receiving 2 million restricted common shares with a value of $7
+600.
+
+
+On January 24
+ 2014
+ the Company filed amendment to the Articles of Incorporations with a designation of the preferences for the Series A Preferred Stock which provides for the voting rights of 66.67% of all votes regardless of the number of outstanding common shares.
+
+
+On February 1
+ 2014
+ the Company purchased 90% of Vinyl Groove Productions
+ Inc. with issuance of 10
+000 Series A Preferred shares creating a change of control. William Coogan is the beneficial owner and control party. This acquisition will be accounted for as a reverse acquisition.
+
+
+ the Company contracted Britishmania to provide concert services for 2
+000
+000 restricted common shares valued at $7
+600.&#160; 5
+000
+
+
+
+In February 2014 the Company entered into a $50
+000 debenture agreement and received an initial $10
+000 with original issue discount of 10%
+ interest rate of 8% and matures January 5
+ 2015. The note is convertible at 50% of three lowest intraday trading prices during 15 days prior to conversion.
+
+
+On March 5
+ 2014
+ the Company entered into employment agreement with William Coogan with a term of thirty days that may be extended. In addition to the salary of $5
+000 per month
+ the Executive shall be granted Three (3) Million Shares of the common stock as of April 5
+ 2014 or sooner should the Company be sold or there is a change of ownership.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the Company issued 15
+000
+000 restricted common shares as a contribution to an escrow account to secure a $50
+
+
+
+ the Company issued 30
+300
+000 restricted common shares for the payment of $40
+
+
+
+ 2014
+ the Company issued 28
+000
+000 restricted common shares for 4 debt settlements totaling $94
+000.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+I
+ Michael Jamison
+ certify that:
+
+
+
+
+
+
+
+
+
+I have reviewed this annual report on Form 10-K of Frontier Beverage Company
+ Inc.;
+
+
+
+
+
+
+
+
+
+
+
+
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+
+
+
+
+
+
+
+
+
+
+
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+
+
+
+
+
+
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+
+
+
+
+
+
+Evaluated the effectiveness of the registrant&#8217;s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on such evaluation; and
+
+
+
+
+
+
+
+Disclosed in this report any change in the registrant&#8217;s internal control over financial reporting that occurred during the registrant&#8217;s most recent fiscal quarter (the registrant&#8217;s fourth fiscal quarter in the case of an annual report) that has materially affected
+ or is reasonably likely to materially affect
+ the registrant&#8217;s internal control over financial reporting; and
+
+
+
+
+
+
+
+
+
+
+
+
+The registrant&#8217;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+ to the registrant&#8217;s auditors and the audit committee of registrant&#8217;s board of directors (or persons performing the equivalent functions):
+
+
+
+
+
+
+
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant&#8217;s ability to record
+ process
+ summarize and report financial information; and
+
+
+
+
+
+
+
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&#8217;s internal control over financial reporting.
+
+
+
+
+
+
+
+
+
+April 16
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+18 U.S.C. SECTION 1350
+
+
+
+
+
+In connection with the annual report of Frontier Beverage Company
+ Inc. (the &#8220;Company&#8221;) on Form 10-K for the period ending December 31
+ 2013 as filed with the Securities and Exchange Commission on April 15
+ 2014 (the &#8220;Report&#8221;)
+ I
+ Michael Jamison
+ Principal Executive Officer of the Company
+ certify
+ pursuant to 18 U.S.C. &#167; 1350
+ as adopted pursuant to &#167; 906 of the Sarbanes-Oxley Act of 2002
+ that:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The information contained in the Report fairly presents
+ in all material respects
+ the financial condition and result of operations of the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+April 16
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 rbsm.jpg
+M_]C_X``02D9)1@`!`0$`8`!@``#_X0!F17AI9@``34T`*@````@`!`$:``4`
+M```!````/@$;``4````!````1@$H``
+````!``(```$Q``(````0````3@``
+M``````!@`````0```&`````!4&%I;G0N3D54('8U+C`P`/_;`$
+`$PT.$`X
+
+
+
+
+
+M&@
+!(@`$0$#$0'_Q``?```!!0$!`0$!`0```````````0(#!`4&!P@)@O_
+MQ`U$```0
+#`@0#!04$!````7T!`@
+`!!$%$B$Q008346$'(G$4
+H&1H0@C
++CY.7FY^CIZO'R\_3U]O?X
+M^?K_Q``?`0`#`0$!`0$!`0$!`````````0(#!`4&!P@)@O_Q`U$0``0($
+M!`
+
+
+
+
+
+
+N9RFGT.OHHHKD.H****`
+MBBB@`HHHH`****`BBB@`HHHH`****`BBB@`K*\32^7I#K_`,]&_U_I6K7
+
+
+O9)PTW&Z
+
+
+U)[2X^5';:P/\
+
+TZ_\.6L
+
+K:1N\A'!88`I?O.:Z'
+M^[Y;
+
+
+
+MY6QNB2I.U2W53Z5H/XFL%CW+YK-V7;BL?2X)M4UG[7LVQB3S&(Z#OBKCS.+4
+MR7923@=!KMY]CTV1E.'D^1?Q_P#K5G^$[39#)=L.7.U?H.OZ_P`JI^([AKS4
+MX[2+GR\*!ZL?\BNGM+=;6UC@3HB@?6H?N4[=RU[T[]CG/%4)BO(+I.-PQGW%
+
+
+M/*64&1LHQP#\IK`V+]%5[&&2)EDP,N65`Q8(/0$_G^-6*`BBB@`HHHH`**
+
+
+
+
+6]S(9
+M&T.XE<_Q-%R:;-<FX<._AZ61@,`OGI^5,_L_Q`W6[Q_VUQ_*F_V1KK=;\_\`
+M?]JKW5U_%D^]V_!!B0_=\.*/K_\`JJ2)[Z$[H-A0CO@9J(Z%K#=;Y?QE?\`
+
+
+
+
+.?6--I_2I]DNC*]H^J.FHKGTU*XC^_I-XO^[(Y'Y8Q4Z:]&G^
+
+
+
+M%
+Z39-]^$O\`[[LW\S3ETRP3I9P?B@-6J*?
+
+`
+M`?2BBIN
+****`L_3=56_N)XO+*!#F,D_PL3)&X?B#^E2:N[IITOEMM9\(&
+M]
+
+
+_GZTXWTMYIP
+
+2@D@
+
+
+M7W]GP)($5B[A
+
+
+_G21`/YK9RWR\`\GIB@VFJJVKM8^6=@&T2YX+@9*_
+MD:=?:K!:2))(WG:1$
+
+
+MAGZ^_'7GUJ5U2#PLI
+
+M
+MVED
+
+
+`
+end
+
+
+

@@ -1,0 +1,1398 @@
+
+
+ACCESSION NUMBER:		0001021432-17-000133
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20161231
+FILED AS OF DATE:		20170411
+DATE AS OF CHANGE:		20170411
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			FAH MAI HOLDINGS
+ INC.
+		CENTRAL INDEX KEY:			0001681306
+		STANDARD INDUSTRIAL CLASSIFICATION:	BLANK CHECKS [6770]
+		IRS NUMBER:				813361351
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55678
+		FILM NUMBER:		17755703
+	BUSINESS ADDRESS:	
+		STREET 1:		1414/390 SUKHUMVIT ROAD
+		STREET 2:		PRAKANONG KLONGTOEY
+		CITY:			BANGKOK
+		STATE:			W1
+		ZIP:			10110
+		BUSINESS PHONE:		66 9080 7617
+	MAIL ADDRESS:	
+		STREET 1:		1414/390 SUKHUMVIT ROAD
+		STREET 2:		PRAKANONG KLONGTOEY
+		CITY:			BANGKOK
+		STATE:			W1
+		ZIP:			10110
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Finch Street Acquisition Corp
+		DATE OF NAME CHANGE:	20160802
+
+
+
+
+
+
+                   SECURITIES AND EXCHANGE COMMISSION
+                       Washington
+ D.C.  20549
+                              FORM 10-K
+(Mark One)
+[X]         ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d)
+              OF THE SECURITIES EXCHANGE ACT OF 1934
+             For the fiscal year ended December 31
+ 2016
+[  ]        TRANSITION REPORT PURSUANT TO SECTION 13 OR
+            15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+            For the transition period from          to
+                   Commission file number 000-55678
+                     FAH MAI HOLDINGS
+ INC.
+           (Exact name of registrant as specified in its charter)
+                   FINCH STREET ACQUISITION CORPORATION
+           (Former name of registrant as specified in its charter)
+            Delaware                           81-3361351
+    (State or other jurisdiction of           (I.R.S. Employer
+     incorporation or organization)          Identification No.)
+                      1414/390 Sukhumvit Road
+                       Prakanong Klongtoey
+                       Bangkok W1 10110
+        (Address of principal executive offices)  (zip code)
+   Registrant's telephone number
+ including area code:   +66 9080 7617
+   Securities registered pursuant to Section 12(b) of the Act:  None
+   Securities registered pursuant to Section 12(g) of the Exchange Act:
+             Common Stock
+ $.0001 par value per share
+                    (Title of class)
+Indicate by check mark if the registrant is a well-known seasoned issuer
+as defined in Rule 405 of the Securities Act
+						[  ] Yes   [ X ] No
+Indicate by check mark if the registrant is not required to file
+reports pursuant to Section 13 or Section 15(d) of the Act.
+						[  ] Yes   [ X ] No
+Indicate by check mark whether the registrant (1) has filed all reports
+required to be filed by Section 13 or 15(d) of the Securities Exchange
+Act of 1934 during the preceding 12 months (or for such shorter
+period that the registrant was required to file such reports)
+ and (2)
+has been subject to such filing requirements for the past 90 days.
+						[ X ] Yes   [   ] No
+Indicate by check mark whether the registrant has submitted electronically
+and posted on its corporate Website
+ if any
+ every Interactive Data File
+required to be submitted and posted pursuant to Rule 405 of Regulation
+S-T (Section 232.405 of this chapter) during the preceding 12 months
+(or for such shorter period that the registrant was required to submit
+and post such files).
+						[ X ] Yes   [   ] No
+Indicate by check mark if disclosure of delinquent filers pursuant to
+Item 405 of Regulation S-K (Section 229.405 of this chapter) is not
+contained herein
+ and will not be contained
+ to the best of registrant's
+knowledge
+ in definitive proxy or information statements incorporated by
+reference in Part III of this Form 10-K or any amendment to this Form
+10-K.
+						[ X ] Yes   [  ] No
+Indicate by check mark whether the registrant is a large accelerated
+filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller
+reporting company.  See the definitions of large accelerated
+filer
+ accelerated filer
+ non-accelerated filer
+ and smaller
+reporting company in Rule 12b-2 of the Exchange Act.
+Large Accelerated filer  [  ]       Accelerated filer         [   ]
+Non-accelerated filer    [  ]       Smaller reporting company [ X ]
+  (do not check if smaller reporting company)
+Indicate by check mark whether the registrant is a shell company
+   (as defined in Rule 12b-2 of the Exchange Act).
+						[ X ] Yes   [  ] No
+State the aggregate market value of the voting and non-voting common
+equity held by non-affiliates computed by reference to the price at
+which the common equity was last sold
+ or the average bid and asked
+price of such common equity
+ as of the last business day of the
+registrant's most recently completed second fiscal quarter.
+							    $ 0
+Indicate the number of shares outstanding of each of the registrant's
+classes of common stock as of the latest practicable date.
+       Class                                  Outstanding at
+                                               April 11
+ 2017
+Common Stock
+ par value $0.0001                 19
+263
+367
+Preferred Stock
+ par value $0.0001                   1
+000
+Documents incorporated by reference:            Form 10-12G/A filed
+					        August 9
+ 2016
+                               PART I
+Item 1.  Business
+      Fah Mai Holdings
+ Inc. (formerly Finch Street Acquisition
+Corporation) (Finch or the Company) was incorporated on July 22
+2016 under the laws of the State of Delaware to engage in any lawful
+corporate undertaking
+ including
+ but not limited to
+ selected mergers
+and acquisitions.
+	The Company has been formed to provide a method for a foreign
+or  domestic private company to become a reporting company with a
+class of securities registered under the Securities Exchange Act
+of 1934.
+     The Company registered its common stock on a Form 10
+registration statement filed pursuant to the Securities Exchange
+Act of 1934 (the Exchange Act) and Rule 12(g) thereof.  The
+Company files with the Securities and Exchange Commission periodic
+and current reports under Rule 13(a) of the Exchange Act
+ including
+quarterly reports on Form 10-Q and annual reports Form 10-K.
+     As of December 31
+ 2016
+ the Company had not generated revenues and
+had no income or cash flows from operations since inception.  At December
+31
+ 2016
+ the Company had sustained net loss of $7
+562 and an accumulated
+deficit of $7
+562.
+     The Company's independent auditors have issued a report raising
+substantial doubt about the Company's ability to continue as a going
+concern.  At present
+ the Company has no operations and the continuation
+of the Company as a going concern is dependent upon financial support
+from its stockholders
+ its ability to obtain necessary equity financing
+to continue operations and/or to successfully locate and negotiate with
+a business entity for the combination of that target company with
+the Company.
+      There is no assurance that the Company will ever be profitable.
+Subsequent Event
+      On February 6
+ 2017
+ the Company changed its name to Fah Mai
+Holdings
+ Inc. in expectation of the subsequent change in control.
+      On February 26
+ 2017
+ subsequent to the date covered by this
+Report
+ the following events occurred which resulted in
+a change of control of the Company:
+  1.  The Company cancelled an aggregate of 19
+500
+000 of the then
+      20
+000
+000 shares of outstanding stock valued at par.
+  2.   James M. Cassidy resigned as the Company's president
+ secretary
+       and director and James McKillop resigned as the Company's vice
+       president and director.
+  3.   Louis Joseph Haseman was named sole director of the Company and was
+       named President
+ Secretary and Chief Financial Officer of the Company.
+     On February 27
+ 2017
+ the Company issued 40
+000
+000 shares of its
+common stock to its then sole officer and director
+ Louis Joseph Haseman.
+     Subsequent to the change in control
+ the Company has one officer and
+director.
+	The Company intends to serve as a company to raise funds
+for the development of companies to be acquired that have excellent growth
+strategies and returns for the investor.  New management of the Company has
+experience in marketing
+ fund raising and business development.  The
+Company hopes to show high returns by undertaking a high risk diverse
+portfolio ranging from construction to antiques to collectible whiskey
+to sunscreen.
+   The Company has an agreement with Tiber Creek Corporation
+which assists companies in becoming public companies and assists companies
+with introductions to the financial community.  The former president of the
+Company is the sole officer and director of Tiber Creek Corporation.
+The services provided by Tiber Creek included using the Company as a
+vehicle for becoming public.
+     There is no agreement nor contractual relationship between the
+Company and Tiber Creek to perform or provide services to the other.
+However
+ as a non-operating blank check company
+ the Company was available
+for use by a client of Tiber Creek which wished to use a reporting company
+incident to the process of registering securities and becoming a
+reporting company.
+Item 2.  Properties
+     The Company has no properties and at this time has no
+agreements to acquire any properties.  The Company currently uses
+the offices of Management at no cost to the Company.  The Company
+expects this arrangement to continue until the Company completes
+a change in control.
+Item 3.  Legal Proceedings
+     There is no litigation pending or threatened by or against the
+Company.
+Item 4.  Mine Safety Disclosures.
+      Not applicable.
+                              PART II
+Item 5.  Market for Registrant's Common Equity
+ Related Stockholder
+	 Matters and Issuer Purchases of Equity Securities
+      There is currently no public market for the Company's securities.
+     At such time as it qualifies
+ the Company may choose to apply for
+quotation of its securities on the OTC Bulletin Board.
+     The OTC Bulletin Board is a dealer-driven quotation service.
+Unlike the Nasdaq Stock Market
+ companies cannot directly apply to be
+quoted on the OTC Bulletin Board
+ only market makers can initiate
+quotes
+ and quoted companies do not have to meet any quantitative
+financial requirements.  Any equity security of a reporting company not
+listed on the Nasdaq Stock Market or on a national securities exchange is
+eligible.
+     As such time as it qualifies
+ the Company may choose to apply for
+quotation of its securities on the Nasdaq Capital Market.
+     In general there is greatest liquidity for traded securities on
+the Nasdaq Capital Market and less on the OTC Bulletin Board.  It is
+not possible to predict where
+ if at all
+ the securities of the Company
+will be traded following a business combination.
+     Since inception
+ the Company has sold securities which
+were not registered as follows:
+                                              NUMBER OF
+DATE                     NAME                 SHARES       CONSIDERATION
+July 22
+ 2016	    	James Cassidy (1)      10
+000
+000     Services
+  February 26
+ 2017                            9
+750
+000      redeemed
+July 22
+ 2016	    	James McKillop         10
+000
+000     Services
+  February 26
+ 2017                            9
+750
+000       redeemed
+February 27
+ 2017       Louis Joseph Haseman   40
+000
+000     Services
+(1)  James M. Cassidy
+ former president and a director of the Company
+is the sole shareholder and director of Tiber Creek Corporation
+a Delaware corporation
+ which company has agreed to assist the
+Company in registering its stock and introductions to the brokerage
+community.
+Item 6.  Selected Financial Data.
+	There is no selected financial data required to be filed for
+a smaller reporting company.
+Item 7.  Management's Discussion and Analysis of Financial Condition
+	 and Results of Operations
+   The Company has no operations nor does it currently engage in any
+business activities generating revenues.  The Company's principal
+business objective is to achieve a business combination with a target
+company.
+     A combination will normally take the form of a merger
+ stock-for-stock
+exchange or stock-for-assets exchange.  In most instances the target
+company will wish to structure the business combination to be within the
+definition of  a tax-free reorganization under Section 351 or Section 368
+of the Internal Revenue Code of 1986
+ as amended.
+     No assurances can be given that the Company will be successful in
+locating or negotiating with any target company.
+   In implementing a structure for a particular business acquisition
+ the
+Company may become a party to a merger
+ consolidation
+ reorganization
+joint venture
+ licensing agreement or other arrangement with another
+corporation or entity.
+     As of December 31
+ 2016
+ the Company had not generated revenues
+and had no income or cash flows from operations since inception.  At
+December 31
+ 2016
+ the Company had sustained net loss of $7
+562.
+    The Company's independent auditors have issued a report raising
+substantial doubt about the Company's ability to continue as a going
+concern.  At present
+ the Company has no operations and the continuation
+of the Company as a going concern is dependent upon financial support
+from its stockholders
+ its ability to obtain necessary equity financing
+to continue operations and/or to successfully locate and negotiate with
+a business entity for the combination of that target company with
+the Company.
+     Management will pay all expenses incurred by the Company until a
+change in control is effected.  There is no expectation of repayment
+for such expenses.
+     The president of the Company is also its director.
+2016 Year-End Analysis
+      The Company has received no income
+ has had no operations
+nor expenses
+ other than Delaware state fees and accounting fees
+as required for incorporation and for the preparation of the
+Company's financial statements.
+Item 8.  Financial Statements and Supplementary Data
+     The financial statements for the year ended December 31
+ 2016
+are attached hereto.
+Item 9.   Changes in and Disagreements with Accountants on
+          Accounting and Financial Disclosure
+     There were no changes in or disagreements with accountants on
+accounting and financial disclosure for the period covered by this
+report.
+Item 9A.   Controls and Procedures
+    Pursuant to Rules adopted by the Securities and Exchange Commission.
+the Company carried out an evaluation of the effectiveness of the design
+and operation of its disclosure controls and procedures pursuant to
+Exchange Act Rules.  This evaluation  was done as of the end of the fiscal
+year under the supervision and with the participation of the Company's
+principal executive officer (who is also the principal financial officer).
+There has been a change in control in the Company subsequent to the
+date of the internal evaluation.  However
+ given that the Company
+has only one officer and director there does not
+appear to be any significant changes in internal controls or in other
+factors that could significantly affect internal controls subsequent to
+the date of the evaluation.  Based upon that evaluation
+ the principal
+executive officer believes that the Company's disclosure controls and
+procedures are effective in gathering
+ analyzing and disclosing information
+needed to ensure that the information required to be disclosed by the
+Company in its periodic reports is recorded
+ summarized and processed
+timely.  The principal executive officer is directly involved in the
+day-to-day operations of the Company.
+Management's Report of Internal Control over Financial Reporting
+     The Company is responsible for establishing and maintaining
+adequate internal control over financial reporting in accordance with
+the Rule 13a-15 of the Securities Exchange Act of 1934. The Company's
+officer
+ its president
+ conducted an evaluation of the effectiveness
+of the Company's internal control over financial reporting as of
+December 31
+ 2016
+ based on the criteria establish in Internal
+Control Integrated Framework issued by the Committee of Sponsoring
+Organizations of the Treadway Commission.  Based on this evaluation
+management concluded that the Company's internal control over financial
+reporting was not effective as of December 31
+ 2016
+ based on those
+criteria. A control system can provide only reasonably
+ not absolute
+assurance that the objectives of the control system are met and no
+evaluation of controls can provide absolute assurance that all control
+issues have been detected.
+    KCCW Accountancy Corp.
+ the independent registered public accounting
+firm of the Company
+ has not issued an attestation report on the
+effectiveness of the Company's internal control over financial reporting.
+Changes in Internal Control Over Financial Reporting
+      There were no changes in the Company's internal controls over
+financial reporting  during its fourth fiscal quarter that materially
+affected
+ or are reasonably likely to materially affect
+ its internal
+control over financial reporting.  Subsequent to the period covered
+by this Report and the fourth fiscal quarter
+ the Company effected a
+change in control.  New management consists of one officer and
+director who is also a shareholder.  Such person maintains
+complete financial reporting control as the primary officer.  Such
+control by the primary officer is the same as was in effect prior
+to the change in control.
+Item 9B.  Other information
+      Not applicable.
+                             PART III
+Item 10.  Directors
+ Executive Officers
+ and Corporate Governance;
+     The Directors and Officers of the Company on December 31
+ 2016
+the date of this Report were as follows:
+      Name                Age       Positions and Offices Held
+     -----------------    ------    --------------------------
+     James Cassidy         81       President
+ Secretary
+ Director
+     James McKillop	   57       Vice President
+ Director
+Subsequent Officers and Directors
+     The Directors and Officers of the Company subsequent to the
+period covered by this Report are as follows:
+      Name                	Positions and Offices Held
+     -----------------          ----------------------
+    Louis Joseph Haseman	President
+ Secretary
+ Director
+                                    Chief Financial Officer
+Management of The Company
+     The Company has no employees.  Mr. Haseman is the only officer
+and director of the Company.
+     There are no agreements or understandings for the officer or
+director to resign at the request of another person and the above-
+named officer and director is not acting on behalf of nor will act
+at the direction of any other person.
+     Set forth below are the names of the directors and officers of
+the Company
+ all positions and offices with the Company held
+ the
+period during which they have served as such
+ and the business
+experience during at least the last five years:
+Louis Joseph Haseman
+    Louis Joseph Haseman serves as President
+ Secretary
+ Chief Financial
+Officer and sole director of the Company.  From 2010 to the present
+Mr. Haseman has been the director and owner of HGT Co.
+ Ltd. with two
+operating brands: Exotic Golf Holidays which specializes in golf holidays
+located around the Indian Ocean and Quality Health Travel which specializes
+in medical tourism including plastic surgery
+ hip replacements and stem cell
+treatment.  From 2011 to the present
+ Mr. Haseman has served as the owner of
+Sunscreen Island Co.
+ Ltd. which is the exclusive importer and distributor
+of the Island Tribe sunscreen brand in Thailand and the Philippines.  Since
+2012 to the present
+ Mr. Haseman has also been part owner of Epikurean
+Resorts
+ a luxury hotel and resorts management and development
+company.  From 2015-2016
+ Mr. Haseman was the owner of Euro Facade Tech
+Thailand Co.
+ Ltd.
+ a global containment wall and design company.
+Recent Blank Check Companies
+     James Cassidy
+ the former president and a director of the Company
+and James McKillop
+ former vice president and a director of the Company
+are involved with other existing blank check companies
+ and in creating
+additional similar companies.  The initial business purpose of each
+of these companies was or is to engage in a business combination with
+an unidentified company or companies and each were or will be classified
+as a blank check company until completion of a business combination.
+Conflicts of Interest
+     There are no binding guidelines or procedures for resolving
+potential conflicts of interest. Failure by management to resolve
+conflicts of interest in favor of the Company could result in
+liability of management to the Company.  However
+ any attempt by
+shareholders to enforce a liability of management to the Company
+would most likely be prohibitively expensive and time consuming.
+     Code of Ethics.  The Company has not at this time adopted a
+Code of Ethics pursuant to rules described in Regulation S-K.  The
+Company has no operations or business and does not receive any revenues.
+The adoption of an Ethical Code at this time would not serve the
+primary purpose of such a code to provide a manner of conduct as
+the development
+ execution and enforcement of such a code would be
+by the same persons and only persons to whom such code applied.
+Furthermore
+ because the Company does not have any activities
+ there
+are activities or transactions which would be subject to this code.
+If the Company enters into a business combination management will
+propose adoption of a Code of Ethics.
+     Corporate Governance.  For reasons similar to those described
+above
+ the Company does not have a nominating nor audit committee of the
+board of directors.  At this time
+ the Company has only one officer
+and one director.  The Company receives no revenues.  At such time
+that the Company enters into a business combination and/or has
+additional shareholders and a larger board of directors and commences
+activities
+ the Company will propose creating committees of its board
+of directors
+ including both a nominating and an audit committee.
+Management of the Company intends to review and implement
+ as necessary
+procedures for shareholder nomination of members to the Company's board
+of directors.
+Item 11.  Executive Compensation
+     The Company's officers and directors do not receive any
+compensation for services rendered to the Company
+ nor have they
+received such compensation in the past.  The officers and directors
+are not accruing any compensation pursuant to any agreement with the
+Company.
+     No retirement
+ pension
+ profit sharing
+ stock option or
+insurance programs or other similar programs have been adopted by
+the Company for the benefit of its employees.
+     The Company does not have a compensation committee for
+the same reasons as described above.
+Item 12.  Security Ownership of Certain Beneficial Owners and
+          Management and Related Stockholder Matters
+     The following table sets forth
+ as of December 31
+ 2016
+ each
+person known by the Company to be the beneficial owner of five
+percent or more of the Company's common stock and the director and
+officer of the Company.  The Company does not have any compensation
+plans and has not authorized any securities for future issuance.
+Except as noted
+ the holder thereof has sole voting and investment
+power with respect to the shares shown.
+Name and Address              Amount of Beneficial     Percent of
+of Beneficial Owner               Ownership          Outstanding Stock
+James M. Cassidy                    10
+000
+000               50%
+215 Apolena Avenue
+Newport Beach
+ CA 92662
+ (redeemed 9
+750
+000 February
+ 2017)
+James K. McKillop                    10
+000
+000               50%
+9454 Wilshire Boulevard
+Beverly Hills
+ California 90212
+ (Redeemed 9
+750
+000 February
+ 2017)
+All Executive Officers and           20
+000
+000              100%
+Directors as a Group (2 Persons)
+Subsequent to the period covered by this Report:
+The following table sets forth
+ as of April 11
+ 2017
+ each person
+currently known by the Company to be the beneficial owner of five
+percent or more of the Company's common stock and the director and
+officer of the Company.
+Name and Address              Amount of Beneficial     Percent of  (1)
+of Beneficial Owner               Ownership          Outstanding Stock
+Louis Joseph Haseman		40
+000
+000			98.7%
+Directors as a Group 	        40
+000
+000			98.7%
+(1 Person)
+(1)  Based on 40
+500
+000 shares outstanding
+Item 13.  Certain Relationships and Related Transactions and
+	  Director Independence
+   The Company has issued a total of 19
+263
+367 shares of common
+stock pursuant to Section 4(2) of the Securities Act .
+    As the organizers and developers of the Company
+ James M. Cassidy
+and James McKillop may be considered promoters.  Mr. Cassidy provided
+services to the Company without charge consisting of preparing and filing
+the charter corporate documents and preparing this registration statement.
+   The Company is not currently required to maintain an independent
+director as defined by Rule 4200 of the Nasdaq Capital Market nor does
+it anticipate that it will be applying for listing of its securities on
+an exchange in which an independent directorship is required. It is unlikely
+that the current director would be considered an independent director if
+it were to do so.
+Item 14.  Principal Accounting Fees and Services.
+	The Company has no activities
+ no income and no expenses
+except for independent audit and Delaware state fees.  The Company's
+president has donated his time in preparation and filing of all
+state and federal required taxes and reports.
+Audit Fees
+        The aggregate fees incurred in 2016 for professional services
+rendered by the independent registered public accounting firm for the
+audits of the Company's annual financial statements and review of
+financial statements included in the Company's Form 10-K and Form
+10-Q reports and services normally provided in connection with
+statutory and regulatory filings or engagements were as follows:
+                         December 31
+ 2016
+	                 -----------------
+     Audit-Related Fees          $ 5
+250
+	The Company does not currently have an audit committee serving
+and as a result its board of directors performs the duties of an audit
+committee.  The board of directors will evaluate and approve in advance
+the scope and cost of the engagement of an auditor before the auditor
+renders audit and non-audit services.  The Company does not rely on pre-
+approval policies and procedures.
+                        PART IV
+Item 15.  Exhibits
+ Financial Statement Schedules
+	There are no financial statement schedules nor exhibits filed
+herewith.
+Exhibits:
+ 31   Certification of the Chief Executive Officer and Chief
+                    Financial Officer pursuant to Section 302 of
+                    the Sarbanes-Oxley Act of 2002
+ 32   Certification of the Chief Executive Officer and Chief
+                    Financial Officer pursuant to Section 906 of
+                    the Sarbanes-Oxley Act of 2002
+
+______________________________________________________________________
+                              FINANCIAL STATEMENTS
+Report of Independent Registered Public Accounting Firm          1
+Financial Statements                                            2-5
+Notes to Financial Statements  				        6-8
+
+______________________________________________________________________
+KCCW Accountancy Corp.                        CERTIFIED PUBLIC ACCOUNTANTS
+       REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Board of Directors
+Fah Mai Holdings
+ Inc.
+(formerly Finch Street Acquisition Corporation)
+We have audited the accompanying balance sheet of Fah Mai Holdings
+Inc. (the Company) as of December 31
+ 2016
+ and the related statements
+of operations
+ changes in stockholders' deficit and cash flows for the Period
+from July 22
+ 2016 (Inception) to December 31
+ 2016.  These financial
+statements are the responsibility of the Company's management. Our
+responsibility is to express an opinion on these financial statements based
+on our audit.
+We conducted our audit in accordance with standards of the Public Company
+Accounting Oversight Board (United States). Those standards require that we
+plan and perform the audit to obtain reasonable assurance about whether the
+financial statements are free of material misstatement. The Company was not
+required to have
+ nor were we engaged to perform
+ an audit of its internal
+control over financial reporting. Our audit included consideration of internal
+control over financial reporting as a basis for designing audit procedures that
+are appropriate in the circumstances
+ but not for the purpose of expressing an
+opinion on the effectiveness of the Company's internal control over financial
+reporting. Accordingly
+ we express no such opinion. Our audit includes
+examining
+ on a test basis
+ evidence supporting the amounts and disclosures
+in the financial statements. Our audit also includes assessing the accounting
+principles used and significant estimates made by management
+ as well as
+evaluating the overall financial statement presentation. We believe that our
+audit provides a reasonable basis for our opinion.
+In our opinion
+ the financial statements referred to above present fairly
+in all material respects
+ the financial position of the Company as of
+December 31
+ 2016 and the results of its operations and its cash flows
+from July 22
+ 2016 (Inception) to December 31
+ 2016 in conformity
+with accounting principles generally accepted in the United States of
+America.
+The accompanying financial statements have been prepared assuming that the
+Company will continue as a going concern. As discussed in Note 2 to the
+financial statements
+ the Company has had no revenues and income since
+inception. These conditions
+ among others
+ raise substantial doubt about
+the Company's ability to continue as a going concern. Management's plans
+concerning these matters are also described in Note 2
+ which includes the
+raising of additional equity financing or merger with another entity. The
+financial statements do not include any adjustments that might result from
+the outcome of this uncertainty.
+/s/ KCCW Accountancy Corp.
+Alhambra
+ California
+April 11
+ 2017
+                                       1
+
+ ______________________________________________________________________
+                     FAH MAI HOLDINGS
+ INC.
+                              BALANCE SHEET
+                      ASSETS
+                                                  December 31
+ 2016
+                                                  ------------------
+  Current assets
+    Cash                                         $             -
+                                                  ---------------
+        Total assets                             $             -
+                                                  ===============
+          LIABILITIES AND SHAREHOLDERS' DEFICIT
+  Current liabilities
+     Accrued liabilities                         $         5
+250
+                                                  ---------------
+         Total liabilities                                 5
+250
+                                                  ---------------
+  Stockholders' deficit
+    Preferred stock
+ $0.0001 par value
+    20
+000
+000 shares authorized; none
+    outstanding as of December 31
+ 2016                       -
+    Common stock
+ $0.0001 par value
+ 100
+000
+000
+    shares authorized; 20
+000
+000 shares issued
+    and outstanding as of December 31
+ 2016                2
+000
+    Additional paid-in capital                               312
+    Accumulatd deficit                                    (7
+562)
+                                                  ---------------
+         Total stockholders' deficit                      (5
+250)
+                                                  ---------------
+         Total liabilities and stockholders'
+                 deficit                          $            -
+                                                  ================
+The accompanying notes are an integral part of these financial statements.
+                                   2
+
+______________________________________________________________________
+                           FAH MAI HOLDINGS
+ INC.
+                            STATEMENT OF OPERATIONS
+                                                  For the period from
+                                                   July 22
+ 2016
+                                                    (Inception) to
+                                                   Deember 31
+ 2016
+                                                  -----------------
+    Revenue                                      $            -
+    Cost of revenue                                           -
+                                                  -----------------
+    Gross profit                                              -
+    Operating expenses                           $         7
+562
+                                                  -----------------
+    Operating loss                                        (7
+562)
+    Loss before income taxes                              (7
+562)
+                                                 ==================
+    Income tax expense                                        -
+Net loss                                         $        (7
+562)
+                                                 ==================
+    Loss per share - basic and diluted           $        (0.00)
+                                                 ==================
+    Weighted average shares-basic and diluted          20
+000
+000
+                                                 ------------------
+The accompanying notes are an integral part of these financial statements.
+                                   3
+
+______________________________________________________________________
+
+
+                           FAH MAI HOLDINGS
+ INC.
+                      STATEMENT OF STOCKHOLDERS' DEFICIT
+                        Common Stock     Additional   Accumu-   Total
+                    -------------------  Paid-in      lated     Stockholders'
+                    Shares      Amount   Capital      Deficit   Deficit
+                    ----------  -------  ---------    -------   -------
+
+Balance
+  July 22
+ 2016
+       (Inception)         -    $    -     $    -     $    -    $     -
+Issuance of
+   common stock
+   for service     20
+000
+000     2
+000         -          -        2
+000
+Additional paid-in
+   capital                 -          -         312        -          312
+Net loss                   -          -          -      (7
+562)    (7
+562)
+Balance
+   December 31
+    2016            20
+000
+000   $ 2
+000      $  312    $(7
+562)    $(5
+250)
+                    ==========   ========     =======   ========    ========
+   The accompanying notes are an integral part of these financial statements.
+                                   4
+
+
+______________________________________________________________________
+
+
+                           FAH MAI HOLDINGS
+ INC.
+                            STATEMENT OF CASH FLOWS
+                                                            For the period from
+                                                              July 22
+ 2016
+                                                               (Inception) to
+                                                              December 31
+ 2016
+                                                               --------------
+ 
+ OPERATING ACTIVITIES
+   Net loss                                                    $    (7
+562)
+   Non-cash adjustments to reconcile net loss to net cash:
+     Expenses paid for by stockholder and contributed
+     as capital                                                        312
+     Common Stock issued for services                                2
+000
+      Changes in Operating Assets and Liabilities:
+          Accrued liability                                          (5
+250)
+                                                                -------------
+            Net cash (used in) operating activities                      -
+                                                                -------------
+ FINANCING ACTIVITIES
+   Proceeds from issuance of common stock                                -
+   Proceeds from stockholders contribution                               -
+                                                                -------------
+       Net cash provided by financing activities                         -
+                                                                -------------
+   Net increase in cash                                                  -
+   Cash
+ beginning of period                                             -
+                                                                 -------------
+   Cash
+ end of period                                           $       -
+                                                                 =============
+ SUPPLEMENTAL DISCLOSURES:
+    Cash paid during the period for:
+       Income Tax                                          	 $       -
+                                                                 =============
+       Interest                                                  $       -
+                                                                 =============
+  NON-CASH TRANSACTION:
+       Common stock issued to founders for no consideration      $     2
+000
+                                                                 =============
+The accompanying notes are an integral part of these financial statements.
+                                   5
+
+
+______________________________________________________________________
+                     FAH MAI HOLDINGS
+ INC.
+                    Notes to Financial Statements
+NOTE 1   NATURE OF OPERATIONS AND SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+NATURE OF OPERATIONS
+Fah Mai Holdings
+ Inc. (formerly Finch Street Acquisition Corporation)
+(Fah Mai or the Company) was incorporated on July 22
+ 2016 under the
+laws of the state of Delaware to engage in any lawful corporate undertaking
+including
+ but not limited to
+ selected mergers and acquisitions. The
+Company has been in the developmental stage since inception and its
+operations to date have been limited to issuing shares to its original
+shareholders. The Company will attempt to locate and negotiate with a
+business entity for the combination of that target company with the Company.
+The combination will normally take the form of a merger
+ stock-for-stock
+exchange or stock-for-assets exchange. In most instances the target company
+will wish to structure the business combination to be within the definition
+of a tax-free reorganization under Section 351 or Section 368 of the
+Internal Revenue Code of 1986
+ as amended. No assurances can be given that
+the Company will be successful in locating or negotiating with any target
+company. The Company has been formed to provide a method for a foreign or
+domestic private company to become a reporting company with a class of
+securities registered under the Securities Exchange Act of 1934.
+In February
+ 2017
+ in anticipation of the subsequent change in control
+ the
+Company filed a Form 8-K announcing the change in its name to Fah Mai
+Holdings
+ Inc.
+BASIS OF PRESENTATION
+The summary of significant accounting policies presented below is designed
+to assist in understanding the Company's financial statements. Such financial
+statements and accompanying notes are the representations of the Company's
+management
+ who are responsible for their integrity and objectivity. These
+accounting policies conform to accounting principles generally accepted in
+the United States of America (GAAP) in all material respects
+ and have
+been consistently applied in preparing the accompanying financial statements.
+The Company has not earned any revenue from operations since inception.
+Accordingly
+ the Company's activities have been accounted for as those of
+a Development Stage Enterprise as set forth in ASC 915
+ Development
+Stage Entities. Among the disclosures required by ASC 915
+ are that the
+Company's financial statements be identified as those of a development stage
+company
+ and that the statements of operations
+ stockholders' equity and cash
+flows disclose activity since the date of the Company's inception.  The Company
+chose December 31 as its fiscal year end.
+USE OF ESTIMATES
+The preparation of financial statements in conformity with GAAP requires
+management to make estimates and assumptions that affect the reported
+amounts of assets and liabilities and disclosure of contingent assets and
+liabilities at the date of the financial statements
+ and the reported amounts
+of revenues and expenses during the reporting periods.  Actual results could
+differ from those estimates.
+CASH AND CASH EQUIVALENTS
+Cash and cash equivalents include cash on hand and on deposit at banking
+institutions as well as all highly liquid short-term investments with original
+maturities of 90 days or less. The Company did not have cash equivalents as
+of December 31
+ 2016.
+CONCENTRATION OF RISK
+Financial instruments that potentially subject the Company to concentrations
+of credit risk consist principally of cash. The Company places its cash with
+high quality banking institutions. The Company did not have cash balances
+in excess of the Federal Deposit Insurance Corporation limit as of December 31
+2016.
+                                   6
+
+______________________________________________________________________
+                     FAH MAI HOLDINGS
+ INC.
+                    Notes to Financial Statements
+INCOME TAXES
+Under ASC 740
+ Income Taxes, deferred tax assets and liabilities are
+recognized for the future tax consequences attributable to temporary
+differences between the financial statement carrying amounts of existing
+assets and liabilities and their respective tax bases. Deferred tax assets
+and liabilities are measured using enacted tax rates expected to apply to
+taxable income in the years in which those temporary differences are expected
+to be recovered or settled. Valuation allowances are established when it is
+more likely than not that some or all of the deferred tax assets will not be
+realized.  As of December 31
+ 2016 there were no deferred taxes due to the
+uncertainty of the realization of net operating loss or carry forward prior
+to expiration.
+LOSS PER COMMON SHARE
+Basic loss per common share excludes dilution and is computed by dividing
+net loss by the weighted average number of common shares outstanding
+during the period. Diluted loss per common share reflect the potential
+dilution that could occur if securities or other contracts to issue common
+stock were exercised or converted into common stock or resulted in the
+issuance of common stock that then shared in the loss of the entity.  As
+of December 31
+ 2016
+ there are no outstanding dilutive securities.
+FAIR VALUE OF FINANCIAL INSTRUMENTS
+The Company follows guidance for accounting for fair value measurements of
+financial assets and financial liabilities and for fair value measurements
+of nonfinancial items that are recognized or disclosed at fair value in the
+financial statements on a recurring basis. Additionally
+ the Company adopted
+guidance for fair value measurement related to nonfinancial items that are
+recognized and disclosed at fair value in the financial statements on a
+nonrecurring basis. The guidance establishes a fair value hierarchy that
+prioritizes the inputs to valuation techniques used to measure fair value.
+The hierarchy gives the highest priority to unadjusted quoted prices in active
+markets for identical assets or liabilities (Level 1 measurements) and the
+lowest priority to measurements involving significant unobservable inputs
+(Level 3 measurements). The three levels of the fair value hierarchy are as
+follows:
+  Level 1 inputs are quoted prices (unadjusted) in active markets for identical
+assets or liabilities that the Company has the ability to access at the
+measurement date.
+  Level 2 inputs are inputs other than quoted prices included within Level 1
+that are observable for the asset or liability
+ either directly or indirectly.
+  Level 3 inputs are unobservable inputs for the asset or liability.
+The carrying amounts of financial assets such as cash approximate their fair
+values because of the short maturity of these instruments.
+NOTE 2 - GOING CONCERN
+The Company has not yet generated any revenue since inception to date and
+has sustained operating losses of $7
+562 during the period ended December 31
+2016. The Company had a working capital deficit of $5
+250 and an accumulated
+deficit of $7
+562 as of December 31
+ 2016.  The Company's continuation as a
+going concern is dependent on its ability to generate sufficient cash flows
+from operations to meet its obligations and/or obtaining additional financing
+from its members or other sources
+ as may be required.
+                                   7
+
+______________________________________________________________________
+                      FAH MAI HOLDINGS
+ INC.
+                    Notes to Financial Statements
+The accompanying financial statements have been prepared assuming that the
+Company will continue as a going concern; however
+ the above condition
+raises substantial doubt about the Company's ability to do so. The financial
+statements do not include any adjustments to reflect the possible future
+effects on the recoverability and classification of assets or the amounts and
+classifications of liabilities that may result should the Company be unable to
+continue as a going concern.
+In order to maintain its current level of operations
+ the Company will require
+additional working capital from either cash flow from operations or from the
+sale of its equity.  However
+ the Company currently has no commitments
+from any third parties for the purchase of its equity. If the Company is unable
+to acquire additional working capital
+ it will be required to significantly
+reduce its current level of operations.
+NOTE 3 - RECENT ACCOUNTING PRONOUNCEMENTS
+In November 2016
+ the FASB issued Accounting Standards Update No. 2016-18
+Statement of Cash Flows (Topic 230): Restricted Cash (ASU 2016-18).
+The new guidance is intended to reduce diversity in practice by adding or
+clarifying guidance on classification and presentation of changes in
+restricted cash on the statement of cash flows. ASU 2016-18 is effective
+for annual and interim periods beginning after December 15
+ 2017. Early
+adoption is permitted. The amendments in this update should be applied
+retrospectively to all periods presented. The Company is currently
+evaluating the impact of adopting ASU 2016-18
+ which will only impact
+the Company if it has restricted cash in the future.
+In August 2016
+ the FASB issued ASU 2016-15
+ Statement of Cash Flows (Topic
+230): Classification of Certain Cash Receipts and Cash Payments (ASU 2016-
+15). ASU 2016-15 will make eight targeted changes to how cash receipts and
+cash payments are presented and classified in the statement of cash flows.
+ASU 2016-15 is effective for fiscal years beginning after December 15
+ 2017.
+The new standard will require adoption on a retrospective basis unless it
+is impracticable to apply
+ in which case it would be required to apply the
+amendments prospectively as of the earliest date practicable. The Company
+is currently in the process of evaluating the impact of ASU 2016-15 on its
+condensed financial statements.
+In August 2014
+ the FASB issued ASU No. 2014-15
+ Presentation of Financial
+Statements Going Concern (Subtopic 205-40): Disclosure of Uncertainties
+about an Entity's Ability to Continue as a Going Concern. This standard is
+intended to define management's responsibility to evaluate whether there is
+substantial doubt about an organization's ability to continue as a going
+concern and to provide related footnote disclosures. Under U.S. GAAP
+financial statements are prepared under the presumption that the reporting
+organization will continue to operate as a going concern
+ except in limited
+circumstances. Financial reporting under this presumption is commonly
+referred to as the going concern basis of accounting. The going concern
+basis of accounting is critical to financial reporting because it
+establishes the fundamental basis for measuring and classifying assets and
+liabilities. Currently
+ U.S. GAAP lacks guidance about management's
+responsibility to evaluate whether there is substantial doubt about the
+organization's ability to continue as a going concern or to provide related
+footnote disclosures. This ASU provides guidance to an organization's
+management
+ with principles and definitions that are intended to reduce
+diversity in the timing and content of disclosures that are commonly
+provided by organizations today in the financial statement footnotes.
+The amendments are effective for annual periods ending after December 15
+2016
+ and interim periods within annual periods beginning after December 15
+2016. Early application is permitted for annual or interim reporting periods
+for which the financial statements have not previously been issued. The
+Company is currently evaluating the impact of this accounting standard.
+Other recent accounting pronouncements issued by the FASB (including its
+Emerging Issues Task Force) and the United States Securities and Exchange
+Commission did not or are not believed by management to have a material
+impact on the Company's present or future financial statements.
+NOTE 4     ACCRUED LIABILITIES
+As of December 31
+ 2016
+ the Company had accrued professional fees
+of $5
+250.
+NOTE 5   STOCKHOLDERS' DEFICIT
+On July 22
+ 2016
+ the Company issued 20
+000
+000 founders common stock
+to two directors and officers pro rata as founder shares for services
+rendered to the Company
+ valued at $0.0001 par value per share
+ for a
+total of $2
+000.  The Company is authorized to issue 100
+000
+000
+shares of common stock and 20
+000
+000 shares of preferred stock.
+As of December 31
+ 2016
+ 20
+000
+000 shares of common stock and no
+preferred stock were issued and outstanding.
+NOTE 5    SUBSEQUENT EVENT
+      On February 26
+ 2017
+ subsequent to the date covered by this
+Report
+ the Company effected a change of its control.  The Company
+cancelled an aggregate of 19
+500
+000 shares of the then 20
+000
+000
+shares of outstanding stock valued at par.  James M. Cassidy resigned as
+the Company's president
+ secretary and director and James McKillop resigned
+as the Company's vice president and director.  Louis Joseph Haseman was
+then named sole director of the Company and was named President
+ Secretary
+and Chief Financial Officer of the Company.
+     On February 27
+ 2017
+ the Company issued 40
+000
+000 shares of its
+common stock to its then sole officer and director
+ Louis Joseph Haseman.
+                                    8
+______________________________________________________________________
+                        SIGNATURES
+     Pursuant to the requirements of Section 13 or 15(d) of the
+Securities Exchange Act of 1934
+ the registrant has duly caused
+this report to be signed on its behalf by the undersigned thereunto
+duly authorized.
+				FAH MAI HOLDINGS
+ INC.
+                                (formerly )
+				FINCH STREET ACQUISITION CORPORATION
+                              By:   /s/ Louis Joseph Haseman
+                                        Louis Joseph Haseman
+ President
+					Principal executive officer
+Dated:       April 11
+ 2017
+                              By:   /s/ Louis Joseph Haseman
+					Principal financial officer
+Dated:        April 11
+ 2017
+     Pursuant to the Securities Exchange Act of 1934
+ this report
+has been signed below by the following persons on behalf of the
+registrant and in the capacities and on the dates indicated.
+NAME                          OFFICE              DATE
+/s/ Louis Joseph Haseman     Director            April 11
+ 2017
+
+
+
+
+
+
+
+
+                                                       EXHIBIT 31
+CERTIFICATION PURSUANT TO SECTION 302
+I
+ James Cassidy
+ certify that:
+1.   I have reviewed this Form 10-K of Fah Mai Holdings
+ Inc.
+     for the year ended December 31
+ 2016.
+2.   Based on my knowledge
+ this report does not contain any
+     untrue statement of a material fact or omit to state a material
+     fact necessary to make the statements made
+ in light of the
+     circumstances under which such statements were made
+ not
+     misleading with respect to the period covered by this report;
+3.   Based on my knowledge
+ the financial statements
+ and other
+     financial information included in this report
+ fairly present
+     in all material respects the financial condition
+ results of
+     operations and cash flows of the registrant as of
+ and for
+     the periods presented in this report;
+4.   The registrant's other certifying officer(s) and I are
+     responsible for establishing and maintaining disclosure
+     controls and procedures (as defined in Exchange Act Rules 13a-15(e)
+     and 15d-15(e)) and internal control over financial reporting (as
+     defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the
+     registrant and have:
+a)   Designed such disclosure controls and procedures
+or caused such
+     disclosure controls and procedures to be designed under our
+     supervision
+ to ensure that material information relating to the
+     registrant
+ including its consolidated subsidiaries
+ is made known
+     to us by others within those entities
+ particularly during the period
+     in which this report is being prepared;
+b)   Designed such internal control over financial reporting
+ or caused
+     such internal control over financial reporting to be designed under
+     our supervision
+ to provide reasonable assurance regarding the
+     reliability of financial reporting and the preparation of financial
+     statements for external purposes in accordance with generally
+     accepted accounting principles;
+c)   Evaluated the effectiveness of the registrant's disclosure
+     controls and procedures and presented in this report our
+     conclusions about the effectiveness of the disclosure
+     controls and procedures
+ as of the end of the period covered
+     by this report based on such evaluations; and
+d)   Disclosed in this report any change in the registrant's
+     internal control over financial reporting that occurred
+     during the registrant's most recent fiscal quarter (the
+     registrant's fourth fiscal quarter in the case of an
+     annual report) that has materially affected
+ or is reasonably
+     likely to materially affect
+ the registrant's internal control
+     over financial reporting; and
+5.   The registrant's other certifying officer(s) and I have disclosed
+     based on our most recent evaluation
+ to the registrant's auditors
+     and the audit committee of registrant's board of directors (or
+     persons performing the equivalent functions):
+a)   All significant deficiencies and material weaknesses in the design
+     or operation of internal control over financial reporting  which
+     are reasonably likely to adversely affect the registrant's ability
+     to record
+ process
+ summarize and report financial information; and
+b)   Any fraud
+ whether or not material
+ that involves management or
+     other employees who have a significant role in the registrant's
+     internal control over financial reporting.
+      Date: April 11
+ 2017             /s/ Louis Haseman
+                                          Chief Executive Officer and
+                                          Chief Financial Officer
+
+
+
+
+
+
+
+                            EXHIBIT 32
+CERTIFICATION PURSUANT TO SECTION 906
+Pursuant to 18 U.S.C. Section 1350 as adopted pursuant to
+Section 906 of the Sarbanes-Oxley Act of 2002
+ I
+ the
+undersigned officer Fah Mai Holdings
+ Inc.
+(the Company)
+ hereby certify to my knowledge that:
+The Report on Form 10-K for the year ended December 31
+ 2016
+of the Company fully complies
+ in all material respects
+with the requirements of Section 13(a) or 15(d) of the Securities
+Exchange Act of 1934
+ and the information contained in the
+Report fairly represents
+ in all material respects
+ the
+financial condition and results of operations of the Company.
+A signed original of this written statement required by Section
+906 has been provided to the Company and will be retained by
+the Company and furnished to the Securities and Exchange
+Commission or its staff upon request.
+                             /s/ Louis Haseman
+                                 Chief Executive Officer
+                                 Chief Financial Officer
+Date: April 11
+ 2016
+
+
+

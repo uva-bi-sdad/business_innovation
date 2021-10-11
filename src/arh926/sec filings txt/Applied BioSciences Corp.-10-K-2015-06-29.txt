@@ -1,0 +1,14340 @@
+
+
+ACCESSION NUMBER:		0001477932-15-004116
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		11
+CONFORMED PERIOD OF REPORT:	20150331
+FILED AS OF DATE:		20150629
+DATE AS OF CHANGE:		20150629
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			First Fixtures
+ Inc.
+		CENTRAL INDEX KEY:			0001607549
+		STANDARD INDUSTRIAL CLASSIFICATION:	HEATING EQUIP
+ EXCEPT ELEC & WARM AIR & PLUMBING FIXTURES [3430]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			0331
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-197443
+		FILM NUMBER:		15957511
+	BUSINESS ADDRESS:	
+		STREET 1:		112 NORTH CURRY STREET
+		CITY:			CARSON CITY
+		STATE:			NV
+		ZIP:			89703
+		BUSINESS PHONE:		775-321-8231
+	MAIL ADDRESS:	
+		STREET 1:		112 NORTH CURRY STREET
+		CITY:			CARSON CITY
+		STATE:			NV
+		ZIP:			89703
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Washington
+ D.C. 20549
+
+
+
+
+
+March 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+McKenzie Street 31
+ Eastend
+ Bloemfontein
+ South Africa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ including area code
+
+
+
+
+
+
+
+ as defined in Rule 405 of the Securities Act. 
+
+
+
+
+ and (2) has been subject to such filing requirements for the past 90 days. 
+
+
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167; 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). 
+
+
+ and will not be contained
+ to the best of registrant&#8217;s knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K. 
+
+
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See the definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer&#8221; and &#8220;smaller reporting company&#8221; in Rule 12b-2 of the Exchange Act.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or the average bid and asked price of such common equity
+ as of the last business day of the registrant&#8217;s most recently completed second fiscal quarter. N/A
+
+
+
+
+ 13 or 15(d) of the Securities Exchange Act of 1934 subsequent to the distribution of securities under a plan confirmed by a court. 
+
+
+
+
+ 2015
+ 100
+043
+412 shares were issued and outstanding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Executive Officers and Corporate Governance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ and Director Independence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Financial Statement Schedules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2014
+ Mr. Colin Povall
+ president and sole director
+ incorporated the Company in the State of Nevada and established a fiscal year end of March 31. FIRST FIXTURES
+ INC. is a development-stage company that intends to market and sell kitchen and bathroom fixtures online through its&#8217; intended website. Other than its President
+ the Company has no employees. We intend to contract with specialists to develop our logo and website
+ and contract with an Internet advertising and search engine specialist to assist us in development of our planned business. The Company has currently no arrangements or understandings in place with any specialists to develop our logo
+ to develop our website and to develop our planned business through Internet advertising and search engines.
+
+
+ INC. is a shell company as defined in Rule 405
+ because it is a company with nominal operations and it has assets consisting solely of cash and cash equivalents. Accordingly
+ there will be illiquidity of any future trading market until the company is no longer considered a shell company.
+
+
+
+
+ Ltd.
+specializes in manufacturing spigot
+ sanitary material
+ and copper hardware components. Although our potential supplier has an &#8220;Add to Basket&#8221; on their website
+ there is no customer accessible &#8220;Check Out&#8221; function nor customer accessible &#8220;Payment&#8221; function&#8221; on our potential supplier&#8217;s website. Therefore
+ we are of the opinion that potential First Fixtures customers cannot buy directly from our potential supplier. FIRST FIXTURES
+ INC. intends to market our planned products on the Internet. Over the twelve months following the date of this offering
+ the Company&#8217;s business activities and related expenses will be affected by the proceeds from sales of shares in this offering received by the Company as discussed below.
+
+
+
+
+ Ltd. have a broad range of style and finish. Faucet finish will include oil rubbed bronze
+ brushed nickel and chrome plating. Tub/shower faucets will include deck mounted
+ wall mounted and freestanding with hand showers. Bathroom basin taps will include free standing and deck mount basin taps while kitchen faucets will include wall mount and deck mount faucets with hand sprayers.
+
+
+
+
+ Armitage Shanks
+ Asahi Eito Co.
+ Ltd.
+ Black &amp; Decker Corporation
+ Price Pfister
+ Inc.
+ Elkay Manufacturing Company
+ Friedrich Grohe AG &amp; Co. KG
+ Ideal Standard
+ Jacuzzi Whirlpool Bath
+ Kohler Co.
+ MAAX Corp.
+ Masco Corp.
+ Moen
+ Inc.
+ Roca UK
+ Sanitec Corp.
+ Toto Ltd.
+ and Villeroy &amp; Boch. In addition
+ there are many large retailers of plumbing fixtures like Home Depot
+ HQ and HQ
+ Home Depot
+ and Builder's Square (Builders Square closed its stores and became an online distributor). There are many online resellers of plumbing fixtures including www.kingstonbrass.com
+ www.eodfaucet.com
+ www.signaturehardware.com
+ www.vintagebath.com
+ www.signofthecrab.com and www.vandykes.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#8221; as defined in Rule 12b-2 of the Exchange Act
+ we are not required to provide the information called for by this Item.
+
+
+
+
+
+
+
+
+
+
+
+
+ officer or affiliate of the Company
+ any owner of record or beneficially of more than 5% of any class of voting securities of the Company
+ or stockholder is a party adverse to the Company or has a material interest adverse to the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 5. Market for Registrant&#8217;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+
+
+ we intend to apply for quotation on the Over-the-Counter Bulletin Board (OTCBB). In order to be quoted on the OTCBB
+ a market maker must file an application on our behalf in order to make a market for our common stock. There can be no assurance that a market maker will agree to file the necessary documents with FINRA
+ who
+ generally speaking
+ must approve the first quotation of a security by a market maker on the OTCBB
+ nor can there be any assurance that such an application for quotation will be approved.
+
+
+
+
+&#8221; as defined in Rule 12b-2 of the Exchange Act
+ we are not required to provide the information called for by this Item.
+
+
+
+
+
+
+ 2014 (date of inception) through March 31
+ 2015
+ the Company has not implemented its plan of operation therefore we had no revenue. Expenses for the year ended March 31
+ 2015 totaled $16
+669 consisting primarily of Office and general expense
+ resulting in a net loss of $16
+669. Expenses for the period from February 21
+ 2014 (date of inception) to March 31
+ 2014 totaled $1
+822 consisting primarily of Office and general expense
+ resulting in a net loss of $1
+822.
+
+
+
+
+ meaning that there is substantial doubt if we can continue as an on-going business for the next twelve months unless we obtain additional capital. No substantial revenues are anticipated until we have completed the financing from this offering and implemented our plan of operations. With the exception of cash advances from our sole Officer and Director
+ our only source for cash at this time is investments by others in this offering. We must raise cash to implement our strategy and stay in business. The amount of the offering will likely allow us to operate for at least one year.
+
+
+ 2015
+ we had $Nil in cash. As of the date of this Form 10-K statement
+ the current funds available to the Company will not be sufficient to fund the expenses related to this offering
+ continue maintaining a reporting status. The Company&#8217;s sole officer and director
+ Mr. Povall has indicated that he may be willing to provide a maximum of $25
+000
+ required to fund the offering expenses and maintain the reporting status
+ in the form of a non-secured loan for the next twelve months as the expenses are incurred if no other proceeds are obtained by the Company. However
+ there is no contract or written agreement in place.
+
+
+
+
+ INC. is a development-stage company that intends to market and sell its planned products through its&#8217; intended website. The Company has not yet implemented its business model and to date and has generated no revenues. It is the Company&#8217;s intention to provide its customers with the quality kitchen and bathroom fixtures. The Company&#8217;s target market will be home builders or home owners that have an interest in home renovations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ we do not have any arrangements for financing and we may be unable to obtain financing when required. Obtaining additional financing would be subject to a number of factors
+ including the Company&#8217;s ability to attract customers. The Company may be unable to access to capital markets in the future or that financing
+ adequate to satisfy the cash requirements of implementing our business strategies
+ will be available on acceptable terms. The inability of the Company to gain access to capital markets or obtain acceptable financing could have a material adverse effect upon the results of its operations and upon its financial conditions.
+
+
+ our Company must raise capital to introduce its planned products and start sales. We intend to market our products on the Internet. We have two planned phases to our operations over the next twelve months. The business activities and related expenses in each phase will be affected by the proceeds from sales of shares in this offering received by the Company as discussed below. The Company requires a minimum of $25
+000 to implement its business plan.
+
+
+ eCommerce Fulfillment or Shipwire. The company has not contracted with any fulfillment service providers.
+
+
+000. Estimated cost for website development is $8
+000. In addition
+ the Company plans to purchase two lap top computers
+ a printer/fax
+ a photocopier and the requisite office supply and stationary at an estimated cost of $7
+300. The company anticipates the first phase of our planed operations to be completed within 120 days of this offering. Initial inventory will consist of product numbers M11020-528C Faucet
+ P25005 Hand Shower
+ M11300-119 Popular Faucet
+ Model 126 American Basin Mixer
+ M11205 Hot Basin Mixer
+ M12308-124 Unique Gold Faucet
+ and M92300-119 Rain Shower Mixer. Once the net proceeds from this offering have been determined
+ the mix of product and related quantities will be decided upon.
+
+
+ we intend to engage the services of an Internet advertising and search engine specialist software at an estimated cost of $6
+000 for search engine optimization and an estimated cost of $12
+000 for online advertising. The Company intends to enter into a supply agreement with Zhejiang Momali Sanitary Utensils Co.
+ Ltd. and purchase its initial inventory at an estimated cost of $34
+450. The company anticipates the second phase of our planned operations to be completed within 240 days of this offering. We anticipate generating revenues within 360 days of this offering.
+
+
+000 of financing is raised
+ the Company intends to scale back its planned Inventory purchase and travel expenses to $4
+000 and $1
+000 respectively
+ eliminating the logo development expense and reducing the website development expense to $6
+000 and minimize online advertising and search engine optimization expenses to $3
+000 and $2
+200 respectively and reducing our administrative expense to $1
+550 (see Use of Proceeds
+ (Page 15).
+
+
+000 of financing is raised
+ the Company intends to scale back its planned Inventory purchase and travel expenses to $11
+350 and $5
+000 respectively
+ reducing the logo development expense to $5
+000 and reducing the website development expense to $6
+000
+ Furthermore
+ the Company will minimize online advertising and search engine optimization expenses to $7
+000 and $3
+600 respectively and reducing our administrative expense to $4
+800 (see Use of Proceeds
+ Page 15).
+
+
+000 of financing is raised
+ the Company intends to scale back its planned Inventory purchase and travel expenses to $20
+900 and $7
+500 respectively
+ increasing the logo development expense to $10
+000 and increasing the website development expense to $8
+000
+ Furthermore
+ the Company will reduce online advertising and search engine optimization expenses to $10
+000 and $4
+800 respectively and reducing our administrative expense to $4
+800.
+
+
+
+
+&#8221; as defined in Rule 12b-2 of the Exchange Act
+ we are not required to provide the information called for by this Item.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc.
+
+
+ Inc. (&#8220;the Company&#8221;) as of March 31
+ 2015 and 2014 and the related statements of operations
+ stockholders&#8217; (deficit) equity and cash flows for the year ended March 31
+ 2015 and the period from February 21
+ 2014 (inception) to March 31
+ 2014. These financial statements are the responsibility of the Company&#8217;s management. Our responsibility is to express an opinion on these financial statements based on our audits.
+
+
+ nor were we engaged to perform
+ an audit of its internal control over financial reporting. Our audits included consideration of internal control over financial reporting as a basis for designing audit procedures that are appropriate in the circumstances
+ but not for the purpose of expressing an opinion on the effectiveness of the Company&#8217;s internal control over financial reporting. Accordingly
+ we express no such opinion. An audit also includes examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements
+ assessing the accounting principles used and significant estimates made by management
+ as well as evaluating the overall financial statement presentation. We believe that our audits provide a reasonable basis for our opinion.
+
+
+ in all material respects
+ the financial position of First Fixtures
+ Inc. as of March 31
+ 2015 and 2014
+ and the results of its operations and cash flows for the year ended March 31
+ 2015 and the period from February 21
+ 2014 (inception) to March 31
+ 2014
+ in conformity with U.S. generally accepted accounting principles.
+
+
+ has incurred operating losses since inception and will need additional working capital to service its debt and for its planned activity
+ which raises substantial doubt about its ability to continue as a going concern. Management&#8217;s plans in regard to these matters are described in Note 1 to the financial statements. These financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+/s/ Sadler
+ Gibb &amp; Associates
+ LLC
+
+
+ UT&#160;
+
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+March 31
+ 2015 and 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+
+
+March 31
+
+
+
+March 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+069
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+422
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+491
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of common stock
+ $0.001 par value
+ Issued and outstanding 2
+590
+000
+000 shares of common stock (Refer Note 3)
+
+
+
+
+
+590
+000
+
+
+
+
+
+
+590
+000
+
+
+
+
+
+
+
+
+
+
+
+585
+000
+
+
+
+
+
+
+
+
+585
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+978
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+978
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+491
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+491
+
+
+
+
+
+
+
+
+178
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+
+
+March 31
+
+
+
+February 21
+to March 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+590
+000
+000
+
+
+
+
+
+
+125
+128
+205
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+FOR THE PERIOD FROM FEBRUARY 21
+ 2014 (INCEPTION) TO MARCH 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ February 21
+ 2014 (inception)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ February 28
+ 2014
+
+
+
+
+
+590
+000
+000&#160;
+
+
+
+
+
+
+
+
+590
+000
+
+
+
+
+
+
+
+
+585
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 31
+ 2014
+
+
+
+
+
+590
+000
+000
+
+
+
+
+
+
+590
+000
+
+
+
+
+
+
+585
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+178
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+978
+
+
+
+
+
+
+978
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 31
+ 2015
+
+
+
+
+
+590
+000
+000
+
+
+
+
+
+
+
+
+590
+000
+
+
+
+
+
+
+
+
+585
+000
+
+
+
+
+
+
+
+
+
+
+978
+
+
+
+
+
+
+
+
+978
+
+
+
+
+
+
+
+
+
+
+491
+
+
+
+
+
+
+
+
+
+
+491
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+
+
+March 31
+
+
+
+February 21
+to March 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+069
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+600
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CASH
+ BEGINNING OF PERIOD
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CASH
+ END OF PERIOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+MARCH 31
+ 2015
+
+
+
+
+
+
+
+ Inc. was incorporated in the State of Nevada as a for-profit Company on February 21
+ 2014 and established a fiscal year end of March 31. The Company is organized to sell plumbing fixtures over the internet.
+
+
+
+
+ statements of operations
+ stockholders&#8217; equity and cash flows of the Company. These financial statements are presented in the United States dollars and have been prepared in accordance with accounting principles generally accepted in the United States.
+
+
+
+
+491. As at March 31
+ 2015
+ the Company has a working capital deficit of $13
+491. The Company will require additional funding to meet its ongoing obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is dependent on raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these factors raise substantial doubt as to the Company&#8217;s ability to continue as a going concern. The Company intends to continue to fund its business by way of private placements and advances from related parties as may be required. These financial statements do not include any adjustments relating to the recoverability and classification of recorded asset amounts
+ or amounts and classification of liabilities that might result from this uncertainty.
+
+
+
+
+
+
+ actual results could differ from those estimates.
+
+
+
+
+ the Company considers highly liquid financial instruments purchased with a maturity of three months or less to be cash equivalents.
+
+
+
+
+
+
+
+
+ 2015 and 2014
+ there were no common stock equivalents outstanding.
+
+
+
+
+ deferred tax assets and liabilities are recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of existing assets and liabilities and their respective tax balances and tax loss carry-forwards. Deferred tax assets and liabilities are measured using enacted or substantially enacted tax rates expected to apply to the taxable income in the years in which those differences are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates is recognized in income in the period that includes the date of enactment or substantive enactment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+MARCH 31
+ 2015
+
+
+
+
+
+
+
+
+
+ Stock Compensation
+ which addresses the accounting for transactions in which an entity exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ Accounting for Stock-Based Compensation, and supersedes Accounting Principles Board (APB) Opinion No. 25
+ Accounting for Stock Issued to Employees, and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation costs arising from subsequent modifications of awards after the grant date must be recognized. As of March 31
+ 2015 the Company had not adopted a stock option plan nor had it granted any stock options. Accordingly no stock-based compensation has been recorded to date.
+
+
+
+
+ the FASB issued ASU 2014-10
+ &#8220;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&#8221;. The guidance eliminates the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early adoption is permitted. Accordingly
+ the Company has adopted this standard as of June 30
+ 2014.
+
+
+
+
+
+
+ 2015 the directors of the Company increased its Share Capital from 75
+000
+000 authorized common shares to 200
+000
+000 authorized common shares with the same par value of $0.001 per share. No preferred shares have been authorized or issued.
+
+
+ 2014
+ the Company issued 2
+590
+000
+000 (5
+000
+000 pre-split) common shares at $0.00000193 per share to the sole director and President of the Company for cash proceeds of $5
+000.
+
+
+ the Company entered into stock subscription agreements to issue 40
+017
+572 shares of its common stock for $3
+090 in cash. As of March 31
+ 2015
+ agreements to issue 38
+567
+172 shares were executed; however
+ cash had not been received
+ nor shares issued
+ at March 31
+ 2015 (total related value of $2
+978).
+
+
+ 2015
+ the founding shareholder of the Company returned 2
+529
+974
+160 (4
+884
+120 pre-split) restricted shares of common stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000004 per share for a total consideration of $10 to the shareholder.
+
+
+ 2015
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 518 new common shares for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average number of shares outstanding prior to the 518:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+MARCH 31
+ 2015
+
+
+
+
+
+
+
+ 2015
+ the Company owed $11
+422 (March 31
+ 2014 $1
+822) to its Chief Executive Officer. During the year ended March 31
+ 2015
+ the Company received additional cash advances from the CEO of $9
+600. All amounts due to the related party are unsecured
+ non-interest bearing and are due on demand.
+
+
+
+
+
+
+
+
+
+March 31
+
+
+
+March 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+667
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+667
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015 and 2014 are as follows:
+
+
+
+
+
+March 31
+
+
+
+March 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+287
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+287
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the impact of the change on the valuation allowance is generally reflected in current income.
+
+
+ 2015 and 2014
+ the Company has no unrecognized income tax benefits. The Company&#8217;s policy for classifying interest and penalties associated with unrecognized income tax benefits is to include such items as tax expense. No interest or penalties have been recorded during the year ended March 31
+ 2015 and 2014 no interest or penalties have been accrued as of March 31
+ 2015 and 2014. As of March 31
+ 2015 and 2014
+ the Company did not have any amounts recorded pertaining to uncertain tax positions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIRST FIXTURES
+ INC.
+
+
+
+
+MARCH 31
+ 2015
+
+
+
+
+
+
+
+ 2015
+ the Company issued 40
+017
+572 shares of common stock for $3
+090 in cash.
+
+
+ 2015
+ the directors of the Company increased its Share Capital from 75
+000
+000 common shares to 200
+000
+000 common shares.
+
+
+ 2015
+ the founding shareholder of the Company returned 2
+529
+974
+160 (4
+884
+120 pre-split) restricted shares of common stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000004 per share for a total consideration of $10 to the shareholder.
+
+
+ 2015
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 518 new common shares for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average number of shares outstanding prior to the 518:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ financial disclosures or any other matter.
+
+
+
+
+ as required by Sarbanes-Oxley (SOX) Section 404 A. The Company&#8217;s internal control over financial reporting is a process designed under the supervision of the Company&#8217;s Chief Executive Officer and Chief Financial Officer to provide reasonable assurance regarding the reliability of financial reporting and the preparation of the Company&#8217;s financial statements for external purposes in accordance with U.S. generally accepted accounting principles.
+
+
+ management concluded that our internal control over financial reporting was not effective as of March 31
+ 2015.
+
+
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures; (2) inadequate segregation of duties consistent with control objectives; (3) insufficient written policies and procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and SEC disclosure requirements; and (4) ineffective controls over period end financial disclosure and reporting processes. The aforementioned material weaknesses were identified by the Company's Chief Financial Officer in connection with the audit of our financial statements as of March 31
+ 2015 and communicated the matters to our management.
+
+
+ (3) and (4) above did not have an affect on the Company's financial results. However
+ management believes that the lack of a functioning audit committee and lack of a majority of outside directors on the Company's board of directors
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures can result in the Company's determination to its financial statements for the future years.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ we will create a position to segregate duties consistent with control objectives and will increase our personnel resources and technical accounting expertise within the accounting function when funds are available to the Company: i) Appointing one or more outside directors to our board of directors who shall be appointed to the audit committee of the Company resulting in a fully functioning audit committee who will undertake the oversight in the establishment and monitoring of required internal controls and procedures; and ii) Preparing and implementing sufficient written policies and checklists which will set forth procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and SEC disclosure requirements.
+
+
+ who shall be appointed to a fully functioning audit committee
+ will remedy the lack of a functioning audit committee and a lack of a majority of outside directors on the Company's Board. In addition
+ management believes that preparing and implementing sufficient written policies and checklists will remedy the following material weaknesses (i) insufficient written policies and procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and SEC disclosure requirements; and (ii) ineffective controls over period end financial close and reporting processes. Further
+ management believes that the hiring of additional personnel who have the technical expertise and knowledge will result proper segregation of duties and provide more checks and balances within the department. Additional personnel will also provide the cross training needed to support the Company if personnel turn over issues within the department occur. This coupled with the appointment of additional outside directors will greatly decrease any control and procedure issues the company may encounter in the future.
+
+
+ as necessary and as funds allow.
+
+
+
+
+ or is reasonably likely to materially affect
+ our internal control over financial reporting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 10. Directors
+ Executive Officers and Corporate Governance.
+
+
+
+
+ address
+ age and position of our present sole officer and director is set forth below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Secretary/Treasurer
+ Chief Financial Officer and Chairman of the Board of Directors.
+
+
+
+
+
+
+
+
+
+ H20 Technologies CC Trading as Plumbing Unlimited
+ successfully and has extensive knowledge of bathroom fixtures.
+
+
+ services and marketing make him the best choice for the president of the Company.
+
+
+
+
+ Colin Povall
+ who does not qualify as an independent director in accordance with the published listing requirements of the NASDAQ Global Market. The NASDAQ independence definition includes a series of objective tests
+ such as that the director is not
+ and has not been for at least three years
+ one of our employees and that neither the director
+ nor any of his family members has engaged in various types of business dealings with us. In addition
+ our board of directors has not made a subjective determination as to each director that no relationships exist which
+ in the opinion of our board of directors
+ would interfere with the exercise of independent judgment in carrying out the responsibilities&#160;of a director
+ though such subjective determination is required by the NASDAQ rules. Had our board of directors made these determinations
+ our board of directors would have reviewed and discussed information provided by the directors and us with regard to each director&#8217;s business and personal activities and relationships as they may relate to us and our management.
+
+
+
+
+ the company does not foresee any direct conflict between Mr. Povall&#8217;s&#8217; other business interests and his involvement in FIRST FIXTURES
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ INC. has made no provisions for paying cash or non-cash compensation to its sole officer and director. No salaries are being paid at the present time
+ and none will be paid unless and until our operations generate sufficient cash flows.
+
+
+ earned by
+ or paid to our named executive officer for all services rendered in all capacities to us for the period from inception through March 31
+ 2015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ retirement
+ pension
+ or profit sharing plans for the benefit of our officer and director other than as described herein.
+
+
+
+
+ stock that has not vested
+ and equity incentive plan awards for each named executive officer as of March 31
+ 2015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Equity Incentive Plan Awards: Number of Unearned Shares
+ Units or Other Rights That Have Not Vested
+
+
+Equity Incentive Plan Awards: Market or Payout Value of Unearned Shares
+ Units or Other Rights That Have Not Vested
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this may be administered by the board or a committee appointed by the board (the &#8220;Committee&#8221;). The committee would have the power to modify
+ extend or renew outstanding options and to authorize the grant of new options in substitution therefore
+ provided that any such action may not impair any rights under any option previously granted. FIRST FIXTURES
+ INC. may develop an incentive based stock option plan for its officers and directors and may reserve up to 10% of its outstanding shares of common stock for that purpose.
+
+
+
+
+ but may do so in the future. The terms of any such plan have not been determined.
+
+
+
+
+ earned by
+ or paid to our directors for all services rendered in all capacities to us for the period from inception (February 21
+ 2014) through March 31
+ 2015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ FIRST FIXTURES
+ INC. has not entered into any employment agreements with its sole officer and director. If there is sufficient cash flow available from our future operations
+ the company may enter into employment agreements with our sole officer and director or future key staff members.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as of the date of this Form 10-K
+ the total number of shares owned beneficially by our sole officer and director
+ and key employees
+ individually and as a group
+ and the present owners of 5% or more of our total outstanding shares. The table also reflects what this ownership will be assuming completion of the sale of all shares in this offering. The stockholder listed below has direct ownership of his shares and possesses sole voting and dispositive power with respect to the shares.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Bloemfontein
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ within the meaning of such terms under the Securities Act of 1933
+ as amended
+ by virtue of his direct and indirect stock holdings. Mr. Povall is the only &#8220;promoter&#8221; of our company.
+
+
+
+
+
+
+
+
+ as amended and generally includes voting or investment power with respect to securities. Pursuant to the rules and regulations of the Securities and Exchange Commission
+ shares of common stock that an individual or group has a right to acquire within 60 days pursuant to the exercise of options or warrants are deemed to be outstanding for the purposes of computing the percentage ownership of such individual or group and includes shares that could be obtained by the named individual within the next 60 days
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 13. Certain Relationships and Related Transactions
+ and Director Independence.
+
+February 28
+ 2014
+ we issued a total of 5
+000
+000 shares of common stock to Mr. Colin Povall
+ our sole officer and director
+ for total cash consideration of $5
+000. The Company considered these securities as &#8220;Founders&#8221; shares. Mr. Colin Povall purchased his shares at par value being $0.001 per share
+ considerably lower than the $0.04 cents per share in this offering. This offer and sale was made pursuant to the exemption from registration afforded by Rule 903(b)(3) of the Regulation S
+ promulgated under the Securities Act of 1933
+ as amended (the &#8220;Securities Act&#8221;)
+ on the basis that the securities were sold outside of US
+ to a non-US person
+ with no directed selling efforts in the US
+ and where offering restrictions were implemented.
+
+
+
+
+
+
+
+
+ 2015 we incurred approximately $10
+950 in fees to our principal independent accountants for professional services rendered in connection with the audit and review of financial statements for the fiscal year ended March 31
+ 2015.
+
+
+ 2014 we incurred approximately $5
+000 in fees to our principal independent accountants for professional services rendered in connection with the audit of financial statements for the fiscal year ended March 31
+ 2014.
+
+
+ 2015
+ we did not incur any other fees for professional services rendered by our principal independent accountants for all other non-audit services which may include
+ but not limited to
+ tax related services
+ actuarial services or valuation services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 15. Exhibits
+ Financial Statement Schedules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2014.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2014.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+
+First Fixtures
+ Inc.
+
+
+
+
+
+
+
+
+
+Dated: June 26
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Colin Povall
+ certify that:
+
+
+
+
+
+
+
+
+ Inc. for the fiscal year ended March 31
+ 2015;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such internal control over financial report to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as of the end of the period cover by this report based on such evaluation; and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or is reasonably likely to materially affect
+ the registrant&#8217;s internal control over financial reporting; and
+
+
+
+
+
+
+
+
+
+
+
+ based on our most recent evaluation of internal control over financial reporting
+ to the registrant&#8217;s auditors and the audit committee of small business issuer&#8217;s board of directors (or persons performing the equivalent functions):
+
+
+
+
+
+
+
+
+
+
+
+
+ process
+ summarize and report financial information; and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&#8217;s internal control over financial reporting;
+
+
+
+
+
+
+
+
+
+
+
+
+Date: June 26
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18 U.S.C. SECTION 1350
+
+
+
+
+
+ 2015 of First Fixtures
+ Inc.
+ a Nevada corporation (the &#8220;Company&#8221;)
+ as filed with the Securities and Exchange Commission on the date hereof (the &#8220;Annual Report&#8221;)
+ I
+ Colin Povall
+ President and Chief Financial Officer of the Company certify
+ pursuant to 18 U.S.C. Section 1350 as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+ that:
+
+
+
+
+
+
+
+
+
+ as amended; and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ in all material respects
+ the financial condition and results of operation of the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+Date: June 26
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+      
+
+
+      
+
+
+
+
+          
+
+
+          
+
+
+
+
+      
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+
+
+
+ Inc. was incorporated in the State of Nevada as a for-profit Company on February 21
+
+ statements of operations
+
+491.&#13;As at March 31
+ 2015
+ the Company has a working capital deficit of $13
+491. The Company will require additional funding to meet&#13;its ongoing obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is&#13;dependent on raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these&#13;factors raise substantial doubt as to the Company&amp;#146;s ability to continue as a going concern. The Company intends to continue&#13;to fund its business by way of private placements and advances from related parties as may be required. These financial statements&#13;do not include any adjustments relating to the recoverability and classification of recorded asset amounts
+
+
+
+
+ 2015 and 2014
+
+
+ &amp;#34;Stock Compensation&amp;#34;
+ which addresses the accounting for transactions in which an entity&#13;exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee&#13;services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &amp;#34;Accounting for Stock-Based Compensation
+&amp;#34;&#13;and supersedes Accounting Principles Board (&amp;#34;APB&amp;#34;) Opinion No. 25
+ &amp;#34;Accounting for Stock Issued to Employees
+&amp;#34;&#13;and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange&#13;for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation&#13;costs arising from subsequent modifications of awards after the grant date must be recognized. As of March 31
+
+ the FASB issued ASU 2014-10
+ &amp;#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting&#13;Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&amp;#148;. The guidance eliminates&#13;the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP&#13;for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments&#13;are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early&#13;adoption is permitted. Accordingly
+ the Company has adopted this standard as of June 30
+
+
+ 2015 the directors of the Company increased its Share Capital from 75
+000
+000 authorized common shares to 200
+000
+
+ 2014
+ the Company issued 2
+590
+000
+000 (5
+000
+000 pre-split) common shares at $0.00000193 per share to the sole director&#13;and President of the Company for cash proceeds of $5
+
+ the Company entered into stock subscription agreements to issue 40
+017
+572 shares of its common&#13;stock for $3
+090 in cash. As of March 31
+ 2015
+ agreements to issue 38
+567
+172 shares were executed; however
+ cash had not been&#13;received
+ nor shares issued
+ at March 31
+ 2015 (total related value of $2
+
+ 2015
+ the founding shareholder of the Company returned 2
+529
+974
+160 (4
+884
+
+ 2015
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of&#13;the Company on a basis of 518 new common shares for 1 old common share. All references in these financial statements to number&#13;of common shares
+ price per share and weighted average number of shares outstanding prior to the 518:1 forward split have been&#13;adjusted to reflect the stock split on a retroactive basis
+
+
+ 2015
+ the Company owed $11
+422 (March 31
+ 2014 $1
+822) to its Chief Executive Officer. During the year ended March 31
+&#13;2015
+ the Company received additional cash advances from the CEO of $9
+600. All amounts due to the related party are unsecured
+
+
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2015&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=border-bottom: black 1pt solid; vertical-align: bottom; text-align: center&gt;&lt;font style=font-size: 10pt&gt;&lt;b&gt;March 31
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2014&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr&gt;&#13;    &lt;td style=vertical-align: top&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Net loss before income taxes&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(16
+669&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(1
+822&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: white&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Income tax rate&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;34&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;34&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Income tax recovery&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(5
+667&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(619&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: white&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Non-deductible&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;-&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;-&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance change&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;5
+
+
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2015&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=border-bottom: black 1pt solid; vertical-align: bottom; text-align: center&gt;&lt;font style=font-size: 10pt&gt;&lt;b&gt;March 31
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2014&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Net operating loss carry-forward&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;6
+287&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;619&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: white&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(6
+
+
+ 2015 and 2014
+ the Company&#13;has no unrecognized income tax benefits. The Company&amp;#146;s policy for classifying interest and penalties associated with unrecognized&#13;income tax benefits is to include such items as tax expense. No interest or penalties have been recorded during the year ended&#13;March 31
+ 2015 and 2014 no interest or penalties have been accrued as of March 31
+ 2015 and 2014. As of March 31
+ 2015 and 2014
+
+
+ 2015
+ the Company issued 40
+017
+572 shares of common stock for $3
+
+ 2015
+ the directors of the Company increased its Share Capital from 75
+000
+000 common shares to 200
+000
+
+ 2015
+ the founding shareholder of the Company returned 2
+529
+974
+160 (4
+884
+
+ 2015
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of&#13;the Company on a basis of 518 new common shares for 1 old common share. All references in these financial statements to number&#13;of common shares
+ price per share and weighted average number of shares outstanding prior to the 518:1 forward split have been&#13;adjusted to reflect the stock split on a retroactive basis
+
+
+ statements of operations
+
+
+491.&#13;As at March 31
+ 2015
+ the Company has a working capital deficit of $13
+491. The Company will require additional funding to meet&#13;its ongoing obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is&#13;dependent on raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these&#13;factors raise substantial doubt as to the Company&amp;#146;s ability to continue as a going concern. The Company intends to continue&#13;to fund its business by way of private placements and advances from related parties as may be required. These financial statements&#13;do not include any adjustments relating to the recoverability and classification of recorded asset amounts
+
+
+
+
+
+    
+
+ 2015 and 2014
+
+
+
+
+ &amp;#34;Stock Compensation&amp;#34;
+ which addresses the accounting for transactions in which an entity&#13;exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee&#13;services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &amp;#34;Accounting for Stock-Based Compensation
+&amp;#34;&#13;and supersedes Accounting Principles Board (&amp;#34;APB&amp;#34;) Opinion No. 25
+ &amp;#34;Accounting for Stock Issued to Employees
+&amp;#34;&#13;and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange&#13;for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation&#13;costs arising from subsequent modifications of awards after the grant date must be recognized. As of March 31
+
+
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2015&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=border-bottom: black 1pt solid; vertical-align: bottom; text-align: center&gt;&lt;font style=font-size: 10pt&gt;&lt;b&gt;March 31
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2014&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr&gt;&#13;    &lt;td style=vertical-align: top&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Net loss before income taxes&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(16
+669&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(1
+822&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: white&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Income tax rate&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;34&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;34&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Income tax recovery&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(5
+667&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(619&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: white&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Non-deductible&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;-&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;-&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance change&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;5
+
+
+
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2015&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=2 style=border-bottom: black 1pt solid; vertical-align: bottom; text-align: center&gt;&lt;font style=font-size: 10pt&gt;&lt;b&gt;March 31
+&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;&lt;b&gt;2014&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: #CCEEFF&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Net operating loss carry-forward&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;6
+287&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 9%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;619&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; width: 1%; text-align: justify&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=background-color: white&gt;&#13;    &lt;td style=vertical-align: top; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=vertical-align: bottom; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(6
+
+    
+
+ the FASB issued ASU 2014-10
+ &amp;#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting&#13;Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&amp;#148;. The guidance eliminates&#13;the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP&#13;for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments&#13;are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early&#13;adoption is permitted. Accordingly
+ the Company has adopted this standard as of June 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+000
+000 shares of common stock
+ $0.001 par value
+ Issued and outstanding 2
+590
+000
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+ February 28
+ 2014
+
+
+
+
+ February 28
+ 2014
+
+
+
+      
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 img001.jpg
+
+#`P
+!PD.#PT
+#@L
+#`S_
+
+#`P
+#`P
+#`P
+#`P
+#`P
+#`P
+#`P
+#`P
+M#`P
+#`P
+#`P
+#`P
+#`P
+#`P
+#`P
+
+
+
+H
+
+
+[7+K??$GQ
+ML\$
+Q`)@2YO?)A`XP?+B:
+#CG8*_I#^!_P`%?#G[.OPGT+P5X3TZ'2]`\/6B
+
+S
+222:^4ITIYE6E*I*T%T_K\6?U?F&:8+PURC
+
+
+
+
+
+
+
+
+MBOJ#^7`IEQ_Q[O\`[II]
+
+H^&O_`&!(?ZU[)7C?
+
+
+^!--\5?\(3
+M(EOKFKZK??9K1;AADVT0RNYUP03NX*L-N`&;Z;KX_P#A?XK;]C']NWQCX2\3
+
+MX7F\&Z_(\T-YI
+EQ]H^SM'
+\899`H#*ZJ'4@='')ZGRO]G+]M]OCK^U-\1OA
+
+&D
+M64U[(
+
+
+
+
+MKX?\96^F^:IVO);W*MYD1/\`=98V!]G/J:8'J7AS]HZ[US]LKQ#\+FTJWCLM
+
+
+
+
+
+N5))MZ
+
+
+
+O44W#GLN:*OILUKT/I,ER/`3P=#%/JI-T
+
+
+
+M3J
+
+
+
+;1C.27NN6B;2]Y:/U6CW
+
+7$1*K(!C#;6&%
+
+PV.MVN;WP_JYCW/I5\%(1_4Q-G9(@^\C
+
+X!
+M`P16.3XYU8^QJ?%'\5_FNIZWC!P%2RC%1S;+4OJM=]-HR:O9?W9+WHV\ULE?
+
+
+
+
+
+
+
+
+
+
+M
+
+
+M8LR*`XR=V`&;HB98D$U[?^U%\&S^T%^SUXO\&QR007.O:;+;VDL^?*AN0-T#
+
+
+MCV%?FQIG[/6I^+/V'/'/CK3/$7BZ9/#_`(HNWU#PP-3D70[ZSBE1I9'MTP2X
+
+M=TC
+
+MC6
+
+
+
+++7P]=W<ES!X7NX[B6-EM[
+
+@9D''R@
+MGR[_`()(?L%??\`:X_8V\8W/C?P=IE]KG_=ZS;6^NVZ_9=7LE4QF
+
+M%V
+Q9025!['FOJ_]BS_@GK=_L^_%'Q'\4?B)XZO_`(J?&#Q;;K9WFNW%HMC:
+
+
+
+M8_9D\/3?#K5(;'XDWG@?4;_0SXGU%Y7NM92WO)HHYG8
+=Q**HW$EFQEF8DDE
+
+M30CHG&;_`
+
+M/?\`Y
+
+
+
+
+
+
+
+
+MX+OKS3[/5I%N]3FNO[9DN-LDL\8#2.B%LRH
+
+
+=C*)
+
+3%
+
+
+
+
+
+MGPTNX+[Q8=$U9M%74)=1FNO)OM5:RU1[KR#
+
+
+_3%
+
+
+7[2+J<L#
+M2M;37*X`DDA
+SE&P
+
+
+
+
+
+0T4
+
+M[
+
+
+M?!+6/BEXELWL]9^)*0KI%M*I66VTB/+QR
+
+MX=3MH[?1X&!RKBS7=YCC_`*;22+G!*:^
+M\JZ,#E];VWUG%/WNB_K0\+CKQ!R=9,N&.%H..'^U)W7-9WLK^\[NSE*5GI9*
+MP4RX_P/=_\`=-/IEQ_Q[O\`[IKW#\+/'O\`@GO_`
+F4?#7_`+`D/]:]DKQO
+
+
+.]GUFT?0/_``0]_P477PO^FJ?^G:]
+
+XB#.TCDLQ+
+S.[
+68DDL
+
+#
+M`P8$!`
+
+#`P8#`P8
+
+#`2(``A$!`Q$!_\0`
+
+M!`0```%]`0(#``01!1(A
+4$&$U%A!R)Q%#*!D:$((T*QP152T?`D
+V)R@@D*
+
+
+7&
+
+
+
+B
+
+
+
+G*TM/4
+
+!``(1`Q$`/P#]N/C'^U!X
+
+M
+
+
+MMO/SE55JOC/X?ZY]I^(
+
+
+
+
+QC
+M0/(\HVK@XP
+
+M\&S6$EM)_:-S+=6:7'VQ)_
+V*$
+
+?VR)-2DTW
+
+
+
+
+
+MJ11VV]'*;7
+
+
+
+MCXA\
+
+
+6%!D\WSON1^65QD$[_ACXF^
+
+
+
+
+Q'
+
+MN73;2*U#'OL0+_2DP-&BBBD`4444`%%%%`!1110`4444`%%%%`!1110`4444
+M`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`
+
+
+
+
+
+
+
+\F
+133(051N1N4'!90=3X2?M.:'
+
+
+
+K6B6
+R
+
+3PIH<ER#]GNM5
+MEGM;V]
+C*I81K]DL8
+?M#V\M\EOX%U;4/B7I4#I;S)J
+MZV<D?A74'&XE4C:0_NL<,JD(?F(PP'T=X]_:\\)_##3=!N-<BU^QDURR?4W
+MM3I
+
+M`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`
+MBBB@`HHHH`****`BBB@`HHHH`Y;QC\%O_Q`UBZOM:T6QU2XOM&G\/W/VD&
+
+MMWMHYY))9&:6189'0
+Y8\@]0/0J*`,?P)X#TGX9^%[?1=#LHM-TJT:1H+:(
+ML8X=\C2,%R3A=SMA1PHP````-BBB@`K@D_9I\(1?%4^,ET^Z&L?:CJ`C_MX
+
+
+
+CS6UR8
+MY`UU#+)%&\B3EQ(Z!GW-DGU%1M7%+10`4444`%%%%`!1110`4444`%%%%`!1
+M110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%
+
+D3GT+'T
+
+%@EW*1)=
+
+
+M7
+45U-
+
+!B*Y4(^[KW]N
+
+
+C&6&PDN_+M2D3)-(0(SRRIL8D
+2
+'
+
+M
+
+
+
+
+
+MX_NEYMTJAL%E8.
+J0:]N_9;^/?P[^%_QIF\:+K&FZ/X)\
+_7PSHGB\A1FB
+
+
+M/1C?K.?*BNY.4B?C
+
+&8!2I#9P0:^//B#JNG?\
+
+
+
+
+MF;]K?5HC(J@
+
+
+
+
+
+G!KT'P
+M%\3/B'XV^
+.N:;_9?@V'POX5OH-
+
+]
+
+
+
+
+&\J
+R1J)=Q1E=]Z#:0
+
+T+5;!976331=:E#92
+_R\
+IE
+
+0J*JDR.XAE(1`S;8V;&`37R
+MS^S=\+G^
+!A[H*$!]/:-^U]\-_$&FZW=V7BS39[?PXT2ZB<2*UL)9?*C
+MD*E0S1
+
+
++=)\2^
+
+
+
+M.`5_&_QY^)'PP^'7AGQ?KWA+PS#I#6NFGQ-91ZG,=1L;BZGCAD2V0Q;)!9
+M4.&96?#`8.-TVF?M4:M?_&6WM&T&QC\!ZAXGN?!=GJQO&^V/J5O;RR/(T.S:
+
+
+
+SXCLQXXO[6*ZC\5V^F2I%;^42Z1-)+'(QE=2=YM9C'M!W*@/
+
+
+
+
+
+
+
+
+
+
+
+
+
+RE4:)7#W14R
+
+
+'!(JJW@?17\/2Z0VCZ6=)G+&2R-I']GDW
+M-N;
+
+
+GRMI)!L2]LC?8R``/*R/DX`'RXZBB@#F?B
+
+8HH
+MH`ZZV\`:#96
+
+M5Q@/DD[@
+MJ2XM4^6Z;.;@<?ZT[FR_WCN//-)XY\
+
+
+5ND5LL(7
+:J$
+
+
+MV
+C[M_V%;.
+
+
+
+
+71K-;Z&Z%K;BYMXC!
+
+
+$4`O(55
+
+
+^*M8CU#5/#NAZEJ$054N;
+
+
+
+
+
+
+
+
+MLFEGQAIKZ3J6H:?'%'?2V[HR%?
+
+
+
+GA72YI=/D?3;!I-)S]A8VZ%K+*
+M[#Y1Q\GR_+\N..*6R\+:7IFLWFI6VFV-OJ&H!1=745NJ37(7A=[@;FQVR3BB
+
+begin 644 Financial_Report.xlsx
+M4$L#!!0````(`QOW4:4SP1@@0$``(0.```3````6T-O;G1E;G1?5'EP97-=
+M+GAM;
+U7RV[,!#\%91K18QI2Q\+J77%JG]`3?9$`N_9)L`?U\[0-5&*8*6
+
+0Z6\F0DOI`#5<!3WIS9OT+DZ$$V0A2`[LG32-.+D/HC`66NQ+`2Y$ZOQ7@
+MVOAWR(%Y!@5;7\6\7[O4@NBCG$E-WNJYTVHXL*W21)0=Q)#
+_&8
+BYCTXQ:
+M_
+
+
+
+
+
+M'4+\@#OC/)3
+
+
+M+0O]C^AY%.!)T:'B1?4C9@
+
+
+
+
+
+
+
+-(RT
+
+MK:9VYVS
+/K9O\VO7N6D0QCI&VATS]U6V(]ZUAW!=
+!7E*RKU?Y*BX700PKFQ
+
+
+
+
+
+
+
+MQKHP
+M7=
+B?S].=N%O
+*RZ(?ZMX[/!N%V46
+/(W4:-B
+N-GQ$DP'
+G+4JC1^$BYILX
+MPOS^XQ
+XC@=UPGC9=M`VQ@E?Q?LU1
+
+:X]I7Y$%Z^J^@)02P
+$%```
+
+
+N6
+
+B0103`9
+MIZ_PP`JE3%ZU6FD`PSA]R1
+
+
+
+MY)Z
+
+M`J0)
+
+
+QK!1J\;=8=HTCQZ_@7YG#4*
+
+
+
+
+
+
+M[WR#+DI%
+9FV
+
+-C*H/FP
+
+
+
+4KCX?O]=/G([@=7'A=B6AX6=(P
+
+
+
+
+
+
+
+$%`````@`+&_=1@_(X!OW`@``
+
+
+M#IU7[B!.E
+
+MZ
+
+
+03!0FR`MM
+M
+Z
+
+
+
+
+
+
+
+
+
+
+M7906[9T21RW[Z
+
+$$
+A#(2#YMX1T(*0C`=-O70@4(^0]$MQ
+
+
+
+:
+
+M1O#_.8294P$=_HA)$($$203`S*01#)L8IV$$XJL`F'1&!?8Z#JU
+
+
+
+M970R+GAM;)66S8Z;
+
+
+
+
+3*QD4/VIQ4;-V8.&W
+M4K[:BV_[=8@L@VC$3MLAN#F]B8UH&CN22?XU#?J1:8WS]G7T+\-T#?Z6*[&1
+
+
+M*#
+
+
+M^N.9GXY^%W&4=(
+D&20
+H05(Z@VA
+1V0NA_A#!O(
+
+
+
+YE:9R:OKTBBNN)L#+@]C`'I
+M
+?N;H
+MI_'JFRD-Y#
+
+M7#/)RDSAI.PSXT
+
+
+
+
+
+
+
+
+
+M!2$TF]#]7[%)-
+
+
+JK=K^WX\
+R:I
+ND_JT9G
+MZL
+];`IZEGJ)U9IWW[)N(UE]^S(//P_2/U!+`P04``````L;]U&W4A!HW,
+
+
+L\WB]&2_2:PTVH*I?K05THE9-0W[0B2]\SO$J#=SW/(-E/)<A(HN2S
+MY&!+X*@(5/P1`KD@]LBRAV`6P98@=X30F68XL8=]FFNW/W+ZHXD_,OYD1KCO
+M)8V18-Y@BN$9GFX5!@OP<1.F-A*)EDH-W;ZL95
+&
+\P\00S[LL-EB`39Y#$
+MKMBL%OODORKF4D48`#?
+
+
+
+M
+
+
+VR
+
+
+
+\@!`AD$_\
+M
+
+
+'I$)K6V9V&
+MFSWUC:B
+
+
+
+
+MQ![;J
+
+G)F!8D3S83L`1SZ5U/9(.^?Z`V.VZD!Q
+
+
+
+M`HGCD6[HU?$JVLX%!RL+-O-JH4!;@9H8:([T87
+X[0(B`MX$C'9Q)D'[&?$C
+M&#_K(\V!)!0N1!^^TCR!E.03_YYB?J4
+Q.7Y&OTI5NO5G[F%1Y3OHG:=
+
+
+
+
+
+M
+
+
+
+
+R?
+M$R@<CW1'KXY7V78^.EA9L(572PW&233$0G.D3[O#:1\1?!3PNA69Q*UGQ'?
+
+MV(S2FIHQ*#\*X[?8[A/@:L4+FTDFIP'O650HD6[]
+N3=K'Z29_F&G;!#X3
+
+MS@PYK2$\06X(%H(O&?A6AA/_A\ZWZ?FFP'Q%SQ/]\3_\_29_O^+OIP+YAP(W
+
+$%`````@`+&_=
+M1K%]3P2C`0``K0
+
+
+
+
+
+
+
+
+H%0.%Q&]3S(^4D;@\7Z
+_I6J#^K-P\(CJ
+K`K<+^C;1]__A[U;YNP5_-Q:X
+
+
+M;'55VVZC
+
+
+MDP0G-(K61+Z?/
+S[VI/)
+
+`X?$^_UM3)N@N09
+
+
+
+
+
+
+RYX;6QU5-UN
+
+
+M7(QHWFP'X
+
+
+
+
+F^X3`[L8DA=G?F-#5P2DP;;R?EE0X
+
+R58]@$``(4%```9
+
+!#]*XA[UV`(9.
+
+
+?
+
+
+
+M=5/+;N
+
+
+M\X)KJE'I=]
+#6/0IN#1[W%L[[`@Q30^FCLU@'0[G=*6C?5)V(&#;0-)
+%)
+
+MSOACUORV]
+
+
+]I9#*
+X[131#-MFY#
+
+
+5/
+
+
+M-5Q?Q/(LZR]02P
+
+MT=J/C+UKX\=I[_I:`A`HI8Z`U7&&`@C1@53BCSGF-:4FKN^7Z-]
+M4K]$0LH
+
+M.M/L!#03T$)8\M@)X4P(KX3$5#HI
+
+W
+M2M4DU)M&Y-DY#\+'S#OK0#/FL
+
+-6JN+0:2^IJJ.Y\VS61(UE_VYK*\\[]02P
+
+
+Z_WYL0P@EM]W$#\XY_BZ$
+
+
+
+\BBUS1.
+
+
+
+
+(O5'292R[WHRU+6*
+
+
+
+M&'-!=N.W
+
+
+\$G6F0J.3-/;2
+
+DB
+
+
+
+
+
+
+M?I[=W0ZG'3$:#WHM.PUP=B@]G.FH+^)']=A*X.QQ6SNH?]C]L77!C0K=@)AR
+MQ(6
+:VM3@5J_^E63U&SLX?`^EYY
+
+M$91Y#:NS=[^.H-EM$
+:NOQ+36
+9))`Q3M46?5-2B4CY$#
+#T*@AK^IQNI$?/
+M\X
+RJC=?6SV61F7XDGUIFG5R/[?'0UFHV&M5?LQ8)P
+
+VK/19+S#
+
+'
+
+
+FT]KGY_9T-&!17HRN[F803?JF@%#$8')]/1D#
+
+1I_@)1KY]9]
+
+
+
+MCF[``%9J#V:CCXV!@[CTP*5`\BKBM1);#NLU
+
+
+
+
+S6DV;&ZEXZ$W2*]A[UWMV&P!!295)ILX%+-PX1R
+M_B.#FS=DD-\FD4M`ZMU!GL(S)82U'2LR077JSAPSTQPWGI?B[
+*EQ)GW
+K
+MR=:2*V7K*9D_
+
+
+
+
+M\+I(78OTX=R36S1''J)C@^5SE:K?83I:?-5R`IAZ3-;I)0[EXO`DY_=)%.OS
+
+0$5%($4JD`&
+\1'\7YBA3ZZ:70LI7.2T0DO
+
+
+
+M.CD92'-T_K*E@A7A)0G9:+
+
+
+M%K3O&2)VL)+VZ_*&GK63GQ=M13SJ7)7TFVM+=$Q4\`B18YSQ:E!L=I[U&?
+
+
+3/OTD#`[7'U`(WI%A[)
+Q3DM7FEU^%!9%/!7
+
+
+M(H:L'7%)HPW
+
+
+
+
+
+
+
+
+
+
+
+#/3XKL&/K9+E!7Y`):+6R
+BW?I/X*H^W`L9^
+
+M45-Q1N0.(
+/`PR
+
+J6I+6
+
+
+M
+
+0%BM
+M[S%\9Q5$-@O!C5DS'Y$6#SV$/#)QDVB9#?+N=^$
+
+
+
+
+
+M^.M1R6@H%H4NUQ/5V1TC4[*7D+.KQPP;B^+)LQ.`_(*BD^?ICD:I5)Y5EF54
+
+
+
+
+
+
+
+:
+7#AAHMD0]&3D-DX'$==;@$N
+
+&&[0F%1?&
+EK%I.\DK;2P
+QF*/LATL5J8
+
+
+
+
+
+
+B:V
+
+((A!AKU16;]-90):6CF
+M=C//\)EBF85@TA2_#O@\9@*S=\WE47ZQ4YG.
+U;K/5K$
+:?P51I(--R:\[F]
+MQV
+
+?K
+
+
+ASNQ7_O$-??]U/*8G]
+
+
+M+U%U1
+.WH?0O*%9W7[K+^'?Z/W+C+IDO@QNC]I7I-$W964V]]!#EH'31#T
+M?T7VM-'?=Y-=7?
+FBN+O_P=02P$%`,4``````L;]U&E
+
+@$``.8
+
+
+0!@``
+
+M%`
+
+
+
+MW4::T=X2
+
+M+W-H965T
+
+&UL4$L!`A0#%```
+
+M:&5E='
+
+M%`
+
+
+MK0
+
+
+M;%!+`0(4`Q0````(`QOW4:;WE6IHP$``*T#```8````````````````5LF
+
+
+
+
+R58]@$``(4%```9````````````````0\P``!X;]W
+
+
+MH@
+
+
+M;6Q02P$%`,4``````L;]U&[\'49_H!``#(!0``&0``````````````@`$0
+
+
+
+J@?@``!EV`0`1`!P`9FEF=TR
+#$U
+#
+S
+2YX
+
+
+
+
+M_:_PIQW_G#4KQYR5RTL
+
+
+M
+
+\*I=-7P
+
+MC:
+
+
+)@IW*ZVXQ[
+M$+U&D.\/C.P//.IPW@HNT\<Y0?B.6#2?7]PK57?8H;(!0H'*U<;Y11^TDWX
+
+&7$WYL9_XKLG;\N5;^O_(=`.=]^
+M$_VVT]&RI3S1+<O
+C1(7KF`S//`DXX
++*[
+E=#2^CK1A
+[18A?8_]/_AH`W
+MS&^@?/C3M)ZE.?@0-YN8][O#J2RZ!U.Q^^'W%^SS;,]Z^P:Z^RFQ;F7-#O
+M+M_+]
+D;T?MUWZ%UWZI?L(25T7)=&0`1N7?'I7OC7_*!#+CWM^*'N31X:17R
+
+M
+
+M
+
+
+
+
+
+
+
+
+
+
+
+6ID1MR'-ZO
+
+I5IA
+#FBMT3RKI5`G!UX-]#+SK9UB9FEYRW'42DS!T?87)US8G7
+MJ\=G&6I/'7MU#&;
+
+5DJ
+M6/+RV!8)[6QEF3]Q[8.&-*=R,'YR(UT6F#C2^$SLNJH1QNL:N40?'F]AI
+
+
+MY[48TF9P6X9
+Y;QL+8X:$;2G/%=H8XL_5B=3WD&=''DUV
+N0H5$[.=T:Y#DW
+M[A3BX$VAM?@BH!=!J]@-$'
+
+
+8%M5
+
+
+M=B=R@FX^C/4Q6G'J]@
+='NR1EMN7/M428
+C@T_-`^&9IMWUN1.3X.)O36`!Q
+M
+
+
+
+M%T5RE(H?W6NEL:]]5%3[SXMG+J&%ED%I.?1;?91XFR/K
+
+XRS8HB@5R?NLB=+L:P`W
+
+
+
+
+
+
+
+)@
+
+MV-9
+BK);CMLV
+
+FG$&^[`\
+
+
+M@1E`YS;^H`U(F
+
+
+M0`F
+
+
+M%T*[N6*/BK!ST1#)B`/8OX;9/8B;S5=
+
+;9
+
+IYD7E@GM
+
+MRN\B#S
+%]E4W
+
+
+Y583M`_&'HS.Q2K6.2
+
+1
+210L'
+
+!%;E
+
++&Z6/%
+M(8QI8/7MM(
+
+`VG;R)+#;(
+YJ6'_S`KF&B&+]&.PO6
+M[I.Q^].N+SCN8=^F
+
+
+
+
+
+
+
+8)399%0EV?KS^8=
+
+M$PPD&*0FSB+%:2_6
+
+HK*6S(Q-!!L<P-
+M<(DK[M05]L0N.U1PD01%4MADYDFJ!913
+E175LB@V-38O$PACJC.XK`%!
+
+*/B(BG]U)
+
+
+MDXN
+
+
+
+
+
+M$XH^/RF_NHS*))+
+
+M0$+@'_2Z0H4+I;3$X1]5QI53R/TPOKM
+
+D2=S&F2Q/.-JD5IKUMV
+
+
+0#RS3X:?*S1B9W
+
+LZRHTRKL
+
+
+
+MB$7CT`%*PCBW0S&7$D4
+HB'LSBI-'D%B;P(5D'%I8T&I$*Z7SDY.W^[Y?:?X
+M?:IFM[S=4=&)KTSMQ;A@TR((M6]%;/T
+%KA9`FJP-\W2Z2G\K.=$+#I[6E(J
+
+
+
+
+M2P_`^^NW'_.4)3_`!LO
+
+
+
+
+
+
+
+R&]:2A4*JG+NAG)$LE;POLO$
+
+;)]&2.;Y;YA-H+-[&(C:VY+JS
+
+?
+
+
+
+
+1B$PN4K0
+
+
+`(-MS`+
+V$*P%%A
+
+6B
+#5:T0PL\!O&I#+IKUNZT
+W
+M)C+2
+
+
+
+ML1`
+TO#`.T_OU*L)=*UMK_A*L7`QCONMLIP=\;34^P'`BZ5.+=`_N)HK)G
+
+$L2
+MW&7AB_3.&&YB4+*8=LFP;:7.
+
+
+W2L`+U&_[
+
+
+
+M@
+
+
+K:R6C6)^
+
+
+M^Q)%%)PP%74L)_/GX\?
+
+
+
+
+
+
+MXZ0B`MO6CN!A76
+_ZF&JEKZ(!R[0)1%FXP8M%59B=W)6_Y:+4L6%B$.@CM6M
+
+BK3R;\=@Q)A=&03M(Y
+K'G?9TK=J*3DGQE?N'-L[=0
+
+
+
+
+
+MYP[5UEZT*2K+1(0/!#4M$VK
+
+_0BJ@A(]9[_3RX887X`W
+
+
+
+
+
+N7#(_U=O6K+KZHOU][
+MY^
+%Y?\
+
+
+MS7$V;?CJX3B;7I[T.[`D.\ZF!]N4XVQZ;@TXSB:'[-G-9VR*E#JP0CG.I@XR
+
+
+
+3PYAB?'\-1Q!73V[-$Q/+D(Y\9*Z4D6
+
+
+
+MFZHZS!
+
+
+M1X\M;XP%FC782)Q
+)
+
+10Y&)D'_B*`G'JE;280Q
+
+M/WC+37HFR)_'#^#NP]77
+
+M2P
+
+
+M4:[^NW^5KM:V;[^9S%UP!RY#%-R4Y-/&S6`B$5M3!YO:D-#4HRVIM4`\RQ
+MH4
+
+
+
+M7\TK4W[7.K]J75SEG
+B#GL\V$S46[QL-N=%H-)?BUPXF/UKBUP@R!#@7A+46
+
+
+MP^S:VOF!!UWJH`$:`_&7!\EF5D$L#XII77Q1Y^3X4T0\A=@J\;#W+)ARIP%0
+
+
+
+
+
+
+MN@=;0W6H%8+GB:0NF$^5^B3F\
+V2AH]WPF/4(XXVV??%Y'CL?65P3SYU)#
+
+
+
+6-+;-
+T.F4D@!4
+
+M6W82R
+U8?D=4CD/%MK'P!'3Z$-L:6;6'*94U22`?6V?ELY5A\@$IVFW.@EMI
+
+
+IGG:MCR*.ZF`E+4Q)^S-`2T]_RZ2*'KQO%GF*F;<\)U^!
+M2S8C4[#LY)=(220-Y/1`Y0J7CKSE7Z7LI1PBPPKFY58U!%&DIG;Y4`JN[.=
+
+YH3)R$2DCF^(A:H=A]MJ?/_6Z'75@_/7F
+
+MS.F[=(ZY2VZ?A]Q8C6P6MV+Q+!MLVE*35VX=_Z?BXOF@($&19!&?4*I6)SE$
+M%T&&.FCY5R.16R;)A.40K4!2WX_$W.ZI'+$)IM]APGNE_1)
+
+
+
+
+
+(&\`KK:D(E?XBUY
+
+
+
+
+M.K7)(WPBSC?W5?EU*G$=W2TUC7#,V_=SY
+NAW^HG-VQI\N9Q1V'WKT)7OV
+
+
+MQIH[G`T7+'%1MLJ[
+
+
+
+M3A+*7M9L1L$90L*$\TP35$W0I#M)H?'MV`XDL:)@^5FCBH=*:0L.!BPX(U
+
+*+\/%DC9NZ
+M#LGTXYHE$TZ1&?0]1NGM6TW`'JPPR@!.VRW?EG^`A.!#[
+KR4GL552[^G$
+
+
+
+
+
+=(0?V6(FU_G%@I.TY-HD#DJ:D#EW'#ECZ;IO
+M^
+&F3CJ'/F2S&&6`2GHFYPTF]?D697%\?ER.U3ET
+
+B9LTXM
+
+
+
+
+
+L&7
+
+?K'_LH
+^
+M^1]02P
+G1XA'+J1YX=W
+
+
+
+
+MJ\$XO`KQ$S\VWZ_$!HFOB;AX8L_N8[SF@PGB^(3JGX3XCGQPC[[H#7W1
+
+
+
+M0[2I'PRHD]&IV=%[_A5\?CC.-ILHG91NZG]WASBZN7
+`M_/I+(G;114PTK
+4V25PJ`-\1B
+MG#`'8-'K*/OJ[TV28@DM21PN'H9GGT]UP.
+
+
+
+DL*M
+
+
+42SPG4^1ARG=HVM9+1;30:D^D)1!(AGCA.D!UEFPRBFQ
+ME65;IN9H
+
+
+
+
+0P004WBX
+
+Z@B8U(=.NY7S+^+Y3FF8IXU=#5`
+MC3
+U23.
+
+
+
+2897T0*S0WO7
+M3EQK#@*;90HZ2=0/O$XDL308,O5[PW9ABE$8IS%4*K.#WHWNDA1SGE3MCT
+MJ*8VFL'RXX7XY,X\N(%LL`\/Q6L?YJ=_`9[Y8%_\2_]:]O'+$&E:%6D(V8H
+
+FKSCT]0*O<8QF48K1ZV]@
+MT%20IDCD@HJD`22
+
+
+4\1;1\
+CW,,2:AGRY/E,$#IU(#<S(JHY5YMH=
+M;Q=#P)$P=U:W2SRJ[FU=P^@$H@M=.GO8BD,DF0CG%Q.)0Z47?GZGZKUI;11
+
+
+MVP=UEXQ%
+6A;#IJOT;8D&#W?`C_B
+
+.BY=SMSWH7T9J@FDME^6_&V2(`U;
+
+
+
+
+J*7@L:4.3
+
+
+
+
+@&^C1+
+
+
+
+
+8Y2/AC`Z$
+O[ORQ)
+
+
+
+=7%
+
+
+M3JW91W147R.3R4N^T'ASTVEEI['.5S8Z0R
+
+
+ME&0Q[J6LNK[96R)ZS)(']PN4X7!W(&(N?5\3^HZMZVEUX00
+AM87_U:Q$R8T
+MAHP
+
+MI.MEQ$F`0=P\^G+E/*DS5:ZB.2JK%WPK($LH#X9\BY;/L._?=7/YR?G?V(
+
+
+
+MUV3M
+
+/H`SCKEONUY
+MOR)UMLU#&%]O9_N4!Z;-'
+
+
+
+;V1:.L%]J`JX8-G+[
+M1J1[;!)A;=MHO8KG3*AI''J*
+
+HHH3\9T::PS.*R7-HS6BUSB.
+ML4=JRV*)OHA#=+5-\S6P!0TLS4SCV<ED?KL95!3`)K,+_G9K*<NH-8DB9]Q+
+M'5`C[2DFX(O<3%%(47.VM8X=?P@F3EQ?O6Q]/C:WF7J.]QV(/.W1]_V+-`X
+MKP]I12=*C15+`W^V!2-2
+LHW_
+
+M=@]/'GVTB4^?/M-1
+
+
+A&$3@FV^;CQ2
+YZK:)!G$D
+D5.-H066;&&IG:!_*MQ?TWQ:T
+6)+T2%XH0BV`I[JKG$H$OIXT&
+I@57A
+<3Q\XLEQ`P][&6D\7<OE.():$QSR0%6RVA9^]4X-820
+
+
+
+
+MZI:`:]=Y3110Q=/
+5$K19'TZ
+#^*'*KD$[%T#;FXH8]4N9#%W%7NI=@#Z#
+
+
+M$0``+_(``!4`'`!F:69T+3(P
+34P
+S
+Q7W!R92YX;6Q55`D``[^&D56_AI%5
+
+MKD0G[5
+
+
+MYS\
+
+
+M9$C_C!]W9;PZ?0.
+
+;
+
+
+MM-IOKUY=7KV^%'Q0`(*0[!YT_O#N_+Q]?GY^$9._=Y'WYQ7[
+0
+$&A0+CUP]
+
+
+L843,_PKI4.VMV80K'CO9[9]K;-<[
+
+XLMS*
+M]E/K-X\1&(('U`TP4U;GIVV#^KQ
+@=T@_V2.!#0-,Z&P[8KQ5B+HQXS^
+M//[7-EK&EBKY*PVIC;@+(]G'ANLMWRZV]UAU66B%_2(M13$MCU=S1@*?CK9M
+M1RZ803?J_BNC%2
+
+'(AKTM5^Q7Y@@KUKG[4VH]P/]
+MZ&O
+
+M%04Q+?L.N;OA
+_?Q4E:5&[7A`D&2VJ4L/#L$'2J(#]P!G2T/'^$C#X-44T$0
+
+
+N:+
+
+&A!-R#;3P['V.;CKXEJBC[RJ$(3@%
+4$&^?$
+N1EUYTI07
+MSR2$HE
+
+YC-@+
+
+
+M+HM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+M(FK.%K2T25I#?X8)5+^N-+HUW/P=-T6K2='^[U$Y8E\O%&[*5W'%&..UK.$]
+O'6XK=P-L5;IEV@-;Q`<-(<OTI<\IKEPTTRM?
+.M(:DXF#+[
+MT994#GVX*A(CQ4CA^_-Q1FU1)G<OI3?BUL?U@(ZTP-SRK@-H4/Z5!<L6\FN
+M[Z'2/V7]\R$6(%5WKJ(Z/%A66%UA3=S4_-B%
+\ZDY5
+IOPZY$3#SM*
+'CN(B
+MUV&*Q3%NS*^O#6-YS1V[9Q:)&VTN'
+
+
+
+M9701L5U
+3WK0WLJ*OZKR;:(0#2R\
+
+
+4#CU#1<J_*;)\?3J%);VA:
+
+
+M0P1F5`IVZD)^$$AVJ#0;57X`E%*;8NLJ6D3=A0%`+AD!/W[W7[81?EVMJ-IX
+ML7F
+
+
+
+
+
+
+
+
+
+
+I89:Z+[]GMUVR/
+M;4)5Z:\AD;UVMEQO2@^W2$^K*AK3`_,<R!@1@\)E)Y=*6\0L^76+J9H9P<5
+MJ3O4
+H
+
+
+M^D+I];!1J7+9M-GEI*I$B#5S](N`DU(I@@FJIU'D)=H++4S`V71BY;$5++
+
+
+(&P[)V21?4H,TXE+&BR-;/SO
+
+=/?TTSW=T]+T^6\+ST7W)`@I\R]JZE&CAHAO
+X?Z
+
+
+\G\[[O3;^SM
+
+_(HK
+
+M`7-)N)8GGEG#Y#/?C[SUUG%XH/#'.5&`J`Y4)*#VDN]YIE4&T$$
+
+
+
+
+1
+`QA(&5.2#4PV=NW(W8[G296U+.E`9NFM
+
+
+
+
+
+S^BWF#XQ^&%
+MB`$O+P')IQTHA2YQ2
+'
+
+ME=I8;11M/-8'D/V[:*2-K:_(&FN&J74.LT+J^_!(++S(TD=^0&Y6M6C6OM$9
+
+
+F@-XF
+P[-NU3J\
+
+6FS^
+
+ML/J
+
+
+
+
+M3HNT42DN8^)FP/@-2GR@LP
+ZC\OV
+
+
+
+M)*Y(+/PA8-$\(Z5`(H/681Y(
+V\PG-K]
+(R(TV.!N#1-AC)TSY
+]])@O1Z
+M
+
+
+4
+M``````(;]U&`N3*H'PH```9=@$`$0`8```````!````I($`````9FEF=TR
+M
+#$U
+#
+S
+
+Y``!F:69T+3(P
+M
+34P
+S
+
+&
+``&9I9G0M
+M
+C`Q-3`S
+
+-``8`&@(``#-K````````
+`
+end
+
+
+
+
+
+
+
+
+/* Updated 2009-11-04 */
+/* v2.2.0.24 */
+/* DefRef Styles */
+..report table.authRefData{
+	background-color: #def;
+	border: 2px solid #2F4497;
+	font-size: 1em;
+	position: absolute;
+}
+..report table.authRefData a {
+	display: block;
+	font-weight: bold;
+}
+..report table.authRefData p {
+	margin-top: 0px;
+}
+..report table.authRefData .hide {
+	background-color: #2F4497;
+	padding: 1px 3px 0px 0px;
+	text-align: right;
+}
+..report table.authRefData .hide a:hover {
+	background-color: #2F4497;
+}
+..report table.authRefData .body {
+	height: 150px;
+	overflow: auto;
+	width: 400px;
+}
+..report table.authRefData table{
+	font-size: 1em;
+}
+/* Report Styles */
+..pl a
+ .pl a:visited {
+	color: black;
+	text-decoration: none;
+}
+/* table */
+..report {
+	background-color: white;
+	border: 2px solid #acf;
+	clear: both;
+	color: black;
+	font: normal 8pt Helvetica
+ Arial
+ san-serif;
+	margin-bottom: 2em;
+}
+..report hr {
+	border: 1px solid #acf;
+}
+/* Top labels */
+..report th {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+..report th.void	{
+	background-color: transparent;
+	color: #000000;
+	font: bold 10pt Helvetica
+ Arial
+ san-serif;
+	text-align: left;
+}
+..report .pl {
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+	width: 200px;
+	white-space: normal; /* word-wrap: break-word; */
+}
+..report td.pl a.a {
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	overflow: hidden;
+}
+..report td.pl div.a {
+	width: 200px;
+}
+..report td.pl a:hover {
+	background-color: #ffc;
+}
+/* Header rows... */
+..report tr.rh {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+}
+/* Calendars... */
+..report .rc {
+	background-color: #f0f0f0;
+}
+/* Even rows... */
+..report .re
+ .report .reu {
+	background-color: #def;
+}
+..report .reu td {
+	border-bottom: 1px solid black;
+}
+/* Odd rows... */
+..report .ro
+ .report .rou {
+	background-color: white;
+}
+..report .rou td {
+	border-bottom: 1px solid black;
+}
+..report .rou table td
+ .report .reu table td {
+	border-bottom: 0px solid black;
+}
+/* styles for footnote marker */
+..report .fn {
+	white-space: nowrap;
+}
+/* styles for numeric types */
+..report .num
+ .report .nump {
+	text-align: right;
+	white-space: nowrap;
+}
+..report .nump {
+	padding-left: 2em;
+}
+..report .nump {
+	padding: 0px 0.4em 0px 2em;
+}
+/* styles for text types */
+..report .text {
+	text-align: left;
+	white-space: normal;
+}
+..report .text .big {
+	margin-bottom: 1em;
+	width: 17em;
+}
+..report .text .more {
+	display: none;
+}
+..report .text .note {
+	font-style: italic;
+	font-weight: bold;
+}
+..report .text .small {
+	width: 10em;
+}
+..report sup {
+	font-style: italic;
+}
+..report .outerFootnotes {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+At
+March 31
+ 2015
+ the Company owed $11
+422 (March 31
+ 2014 $1
+822) to its Chief Executive Officer. During the year ended March 31
+2015
+ the Company received additional cash advances from the CEO of $9
+600. All amounts due to the related party are unsecured
+non-interest bearing and are due on demand.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+On
+April 25
+ 2015 the directors of the Company increased its Share Capital from 75
+000
+000 authorized common shares to 200
+000
+000
+authorized common shares with the same par value of $0.001 per share. No preferred shares have been authorized or issued.
+
+On
+February 28
+ 2014
+ the Company issued 2
+590
+000
+000 (5
+000
+000 pre-split) common shares at $0.00000193 per share to the sole director
+and President of the Company for cash proceeds of $5
+000.
+
+From
+February 2015 through April 2015
+ the Company entered into stock subscription agreements to issue 40
+017
+572 shares of its common
+stock for $3
+090 in cash. As of March 31
+ 2015
+ agreements to issue 38
+567
+172 shares were executed; however
+ cash had not been
+received
+ nor shares issued
+ at March 31
+ 2015 (total related value of $2
+978).
+
+On
+April 25
+ 2015
+ the founding shareholder of the Company returned 2
+529
+974
+160 (4
+884
+120 pre-split) restricted shares of common
+stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000004
+per share for a total consideration of $10 to the shareholder.
+
+On
+April 25
+ 2015
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of
+the Company on a basis of 518 new common shares for 1 old common share. All references in these financial statements to number
+of common shares
+ price per share and weighted average number of shares outstanding prior to the 518:1 forward split have been
+adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for shareholders' equity comprised of portions attributable to the parent entity and noncontrolling interest
+ including other comprehensive income. Includes
+ but is not limited to
+ balances of common stock
+ preferred stock
+ additional paid-in capital
+ other capital and retained earnings
+ accumulated balance for each classification of other comprehensive income and amount of comprehensive income.
+ -Subparagraph (SX 210.4-08.(d)
+ -Paragraph 29
+ 30
+ 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Mar. 31
+ 2015
+Mar. 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+069
+
+
+
+
+
+
+
+422
+
+
+822
+
+
+
+
+
+491
+
+
+822
+
+
+
+
+
+
+
+
+
+
+Common stock Authorized 200
+000
+000 shares of common stock
+ $0.001 par value
+ Issued and outstanding 2
+590
+000
+000 shares of common stock (Refer Note 3)
+
+590
+000
+
+
+590
+000
+
+
+
+
+
+585
+000)
+
+
+585
+000)
+
+
+
+
+
+978)
+
+
+
+
+
+
+
+978
+
+
+
+
+
+
+
+491)
+
+
+822)
+
+
+
+
+
+491)
+
+
+178
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock
+ use the element additional paid in capital
+ common stock. For additional paid-in capital associated with only preferred stock
+ use the element additional paid in capital
+ preferred stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash
+ sold
+ or consumed within one year (or the normal operating cycle
+ if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Monetary value of common stock allocated to investors to buy shares of a new issue of common stock before they are offered to the public. When stock is sold on a subscription basis
+ the issuer does not initially receive the total proceeds. In general
+ the issuer does not issue the shares to the investor until it receives the entire proceeds.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets
+ represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of liabilities and equity items
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+ -Paragraph 29
+ 30
+ 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+First
+Fixtures
+ Inc. was incorporated in the State of Nevada as a for-profit Company on February 21
+ 2014 and established a fiscal year
+end of March 31. The Company is organized to sell plumbing fixtures over the internet.
+
+Basis
+of presentation 
+
+The
+financial statements present the balance sheet
+ statements of operations
+ stockholders&#146; equity and cash flows of the Company.
+These financial statements are presented in the United States dollars and have been prepared in accordance with accounting principles
+generally accepted in the United States.
+
+Going
+concern
+
+To
+date the Company has generated no revenues from its business operations and has incurred operating losses since inception of $18
+491.
+As at March 31
+ 2015
+ the Company has a working capital deficit of $13
+491. The Company will require additional funding to meet
+its ongoing obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is
+dependent on raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these
+factors raise substantial doubt as to the Company&#146;s ability to continue as a going concern. The Company intends to continue
+to fund its business by way of private placements and advances from related parties as may be required. These financial statements
+do not include any adjustments relating to the recoverability and classification of recorded asset amounts
+ or amounts and classification
+of liabilities that might result from this uncertainty.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for the general note to the financial statements for the reporting entity which may include
+ descriptions of the basis of presentation
+ business description
+ significant accounting policies
+ consolidations
+ reclassifications
+ new pronouncements not yet adopted and changes in accounting principles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Rivet Software Inc.
+ *
+ * @copyright Copyright (c) 2006-2011 Rivet Software
+ Inc. All rights reserved.
+ * Version 2.4.0.3
+ *
+ */
+var Show = {};
+Show.LastAR = null
+Show.hideAR = function(){
+	Show.LastAR.style.display = 'none';
+};
+Show.showAR = function ( link
+ id
+ win ){
+	if( Show.LastAR ){
+		Show.hideAR();
+	}
+	var ref = link;
+	do {
+		ref = ref.nextSibling;
+	} while (ref && ref.nodeName != 'TABLE');
+	if (!ref || ref.nodeName != 'TABLE') {
+		var tmp = win ?
+			win.document.getElementById(id) :
+			document.getElementById(id);
+		if( tmp ){
+			ref = tmp.cloneNode(true);
+			ref.id = '';
+			link.parentNode.appendChild(ref);
+		}
+	}
+	if( ref ){
+		ref.style.display = 'block';
+		Show.LastAR = ref;
+	}
+};
+Show.toggleNext = function( link ){
+	var ref = link;
+	do{
+		ref = ref.nextSibling;
+	}while( ref.nodeName != 'DIV' );
+	if( ref.style &&
+		ref.style.display &&
+		ref.style.display == 'none' ){
+		ref.style.display = 'block';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '+'
+ '-' );
+		}else{
+			link.innerText = link.innerText.replace( '+'
+ '-' );
+		}
+	}else{
+		ref.style.display = 'none';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '-'
+ '+' );
+		}else{
+			link.innerText = link.innerText.replace( '-'
+ '+' );
+		}
+	}
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+Use
+of Estimates and Assumptions
+
+Preparation
+of the financial statements in conformity with generally accepted accounting principles requires management to make estimates
+and assumptions that affect certain reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the period. Accordingly
+ actual
+results could differ from those estimates.
+
+Cash
+and Cash Equivalents
+
+For
+purposes of the statement of cash flows
+ the Company considers highly liquid financial instruments purchased with a maturity of
+three months or less to be cash equivalents.
+
+Financial
+Instruments
+
+The
+carrying amount of the Company&#146;s financial assets and liabilities approximates their fair values due to their short term
+maturities.
+
+Basic
+and Diluted Loss per Common Share
+
+The
+basic earnings (loss) per share are calculated by dividing the Company&#146;s net income available to common shareholders by
+the weighted average number of common shares during the year. The diluted earnings (loss) per share is calculated by dividing
+the Company&#146;s net income (loss) available to common shareholders by the diluted weighted average number of shares outstanding
+during the year. The diluted weighted average number of shares outstanding is the basic weighted number of shares adjusted for
+any potentially dilutive debt or equity. Diluted earnings (loss) per share are the same as basic earnings (loss) per share due
+to the lack of dilutive items in the Company. As of March 31
+ 2015 and 2014
+ there were no common stock equivalents outstanding.
+
+Income
+Taxes
+
+The
+Company follows the liability method of accounting for income taxes. Under this method
+ deferred tax assets and liabilities are
+recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of existing
+assets and liabilities and their respective tax balances and tax loss carry-forwards. Deferred tax assets and liabilities are
+measured using enacted or substantially enacted tax rates expected to apply to the taxable income in the years in which those
+differences are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates
+is recognized in income in the period that includes the date of enactment or substantive enactment.
+
+Stock-based
+Compensation
+
+The
+Company follows ASC 718-10
+ &#34;Stock Compensation&#34;
+ which addresses the accounting for transactions in which an entity
+exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee
+services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &#34;Accounting for Stock-Based Compensation
+&#34;
+and supersedes Accounting Principles Board (&#34;APB&#34;) Opinion No. 25
+ &#34;Accounting for Stock Issued to Employees
+&#34;
+and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange
+for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation
+costs arising from subsequent modifications of awards after the grant date must be recognized. As of March 31
+ 2015 the Company
+had not adopted a stock option plan nor had it granted any stock options. Accordingly no stock-based compensation has been recorded
+to date.
+
+Recent
+Accounting Pronouncements
+
+In
+June 2014
+ the FASB issued ASU 2014-10
+ &#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting
+Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&#148;. The guidance eliminates
+the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP
+for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments
+are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early
+adoption is permitted. Accordingly
+ the Company has adopted this standard as of June 30
+ 2014.
+
+The
+Company does not expect the adoption of any other recent accounting pronouncements to have a material impact on its financial
+statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+Mar. 31
+ 2014
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+822
+
+
+669
+
+
+
+
+
+822)
+
+
+669)
+
+
+
+
+
+822)
+
+
+669)
+
+
+
+
+
+
+
+
+
+
+
+
+125
+128
+205
+
+
+590
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate total of expenses of managing and administering the affairs of an entity
+ including affiliates of the reporting entity
+ which are not directly or indirectly associated with the manufacture
+ sale or creation of a product or product line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generally recurring costs associated with normal operations except for the portion of these expenses which can be clearly related to production and included in cost of sales or services. Includes selling
+ general and administrative expense.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of revenue recognized from goods sold
+ services rendered
+ insurance premiums
+ or other activities that constitute an earning process. Includes
+ but is not limited to
+ investment and interest income before deduction of interest expense when recognized as a component of revenue
+ and sales and trading gain (loss).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+Mar. 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+669)
+
+
+822)
+
+
+
+
+
+
+
+
+
+
+
+
+667)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+667
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (a)
+(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total increases or decreases in allowances and reserves
+ the valuation and qualifying accounts that are either netted against the cost of an asset (in order to value it at its carrying value) or that reflect a liability established to represent expected future costs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+Jun. 26
+ 2015
+Sep. 30
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entity Common Stock
+ Shares Outstanding
+
+
+
+043
+412
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If the value is true
+ then the document is an amendment to previously-filed/accepted document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal period of the document report. For a first quarter 2006 quarterly report
+ which may also provide financial information from prior periods
+ the first fiscal quarter should be given as the fiscal period focus. Values: FY
+ Q1
+ Q2
+ Q3
+ Q4
+ H1
+ H2
+ M9
+ T1
+ T2
+ T3
+ M8
+ CY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal year of the document report in CCYY format. For a 2006 annual report
+ which may also provide financial information from prior periods
+ fiscal 2006 should be given as the fiscal year focus. Example: 2006.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The end date of the period reflected on the cover page if a periodic report. For all other reports and registration statements containing historical data
+ it is the date up through which that historical data is presented.  If there is no historical data in the report
+ use the filing date. The format of the date is CCYY-MM-DD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The type of document being provided (such as 10-K
+ 10-Q
+ 485BPOS
+ etc). The document type is limited to the same value as the supporting SEC submission type
+ or the word Other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests
+ if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member]
+ Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings
+ Instrument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No whether registrants (1) have filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that registrants were required to file such reports)
+ and (2) have been subject to such filing requirements for the past 90 days. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate whether the registrant is one of the following: (1) Large Accelerated Filer
+ (2) Accelerated Filer
+ (3) Non-accelerated Filer
+ (4) Smaller Reporting Company (Non-accelerated) or (5) Smaller Reporting Accelerated Filer. Definitions of these categories are stated in Rule 12b-2 of the Exchange Act. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State aggregate market value of voting and non-voting common equity held by non-affiliates computed by reference to price at which the common equity was last sold
+ or average bid and asked price of such common equity
+ as of the last business day of registrant's most recently completed second fiscal quarter. The public float should be reported on the cover page of the registrants form 10K.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The exact name of the entity filing the report as specified in its charter
+ which is required by forms filed with the SEC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Is used on Form Type: 10-K
+ 10-Q
+ 8-K
+ 20-F
+ 6-K
+ 10-K/A
+ 10-Q/A
+ 20-F/A
+ 6-K/A
+ N-CSR
+ N-Q
+ N-1A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Mar. 31
+ 2015
+Mar. 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+287
+
+
+
+
+
+
+
+287)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount after allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences and carryforwards
+ net of deferred tax liability attributable to taxable temporary differences.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+STATEMENT OF STOCKHOLDERS&#8217; (DEFICIT) EQUITY - 12 months ended Mar. 31
+ 2015 - USD ($)
+
+
+
+
+
+
+
+
+Beginning Balance
+ Shares at Mar. 31
+ 2014
+
+590
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+Beginning Balance
+ Amount at Mar. 31
+ 2014
+
+590
+000
+
+
+585
+000)
+
+
+
+
+
+
+822)
+
+
+178
+
+
+
+
+
+
+
+
+
+978
+
+
+978)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669)
+
+
+669)
+
+
+
+Ending Balance
+ Shares at Mar. 31
+ 2015
+
+590
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ending Balance
+ Amount at Mar. 31
+ 2015
+
+590
+000
+
+
+585
+000)
+
+
+978
+
+
+978)
+
+
+491)
+
+
+491)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number of shares of stock issued as of the balance sheet date
+ including shares that had been issued and were previously outstanding but which are now held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+ -Paragraph 29
+ 30
+ 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+The
+financial statements present the balance sheet
+ statements of operations
+ stockholders&#146; equity and cash flows of the Company.
+These financial statements are presented in the United States dollars and have been prepared in accordance with accounting principles
+generally accepted in the United States.
+
+
+
+
+To
+date the Company has generated no revenues from its business operations and has incurred operating losses since inception of $18
+491.
+As at March 31
+ 2015
+ the Company has a working capital deficit of $13
+491. The Company will require additional funding to meet
+its ongoing obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is
+dependent on raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these
+factors raise substantial doubt as to the Company&#146;s ability to continue as a going concern. The Company intends to continue
+to fund its business by way of private placements and advances from related parties as may be required. These financial statements
+do not include any adjustments relating to the recoverability and classification of recorded asset amounts
+ or amounts and classification
+of liabilities that might result from this uncertainty.
+
+
+
+
+Preparation
+of the financial statements in conformity with generally accepted accounting principles requires management to make estimates
+and assumptions that affect certain reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the period. Accordingly
+ actual
+results could differ from those estimates.
+
+
+
+
+For
+purposes of the statement of cash flows
+ the Company considers highly liquid financial instruments purchased with a maturity of
+three months or less to be cash equivalents.
+
+
+
+
+The
+carrying amount of the Company&#146;s financial assets and liabilities approximates their fair values due to their short term
+maturities.
+
+
+
+
+The
+basic earnings (loss) per share are calculated by dividing the Company&#146;s net income available to common shareholders by
+the weighted average number of common shares during the year. The diluted earnings (loss) per share is calculated by dividing
+the Company&#146;s net income (loss) available to common shareholders by the diluted weighted average number of shares outstanding
+during the year. The diluted weighted average number of shares outstanding is the basic weighted number of shares adjusted for
+any potentially dilutive debt or equity. Diluted earnings (loss) per share are the same as basic earnings (loss) per share due
+to the lack of dilutive items in the Company. As of March 31
+ 2015 and 2014
+ there were no common stock equivalents outstanding.
+
+
+
+
+
+The
+Company follows the liability method of accounting for income taxes. Under this method
+ deferred tax assets and liabilities are
+recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of existing
+assets and liabilities and their respective tax balances and tax loss carry-forwards. Deferred tax assets and liabilities are
+measured using enacted or substantially enacted tax rates expected to apply to the taxable income in the years in which those
+differences are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates
+is recognized in income in the period that includes the date of enactment or substantive enactment.
+
+
+
+
+The
+Company follows ASC 718-10
+ &#34;Stock Compensation&#34;
+ which addresses the accounting for transactions in which an entity
+exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee
+services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &#34;Accounting for Stock-Based Compensation
+&#34;
+and supersedes Accounting Principles Board (&#34;APB&#34;) Opinion No. 25
+ &#34;Accounting for Stock Issued to Employees
+&#34;
+and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange
+for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation
+costs arising from subsequent modifications of awards after the grant date must be recognized. As of March 31
+ 2015 the Company
+had not adopted a stock option plan nor had it granted any stock options. Accordingly no stock-based compensation has been recorded
+to date.
+
+
+
+
+In
+June 2014
+ the FASB issued ASU 2014-10
+ &#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting
+Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&#148;. The guidance eliminates
+the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP
+for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments
+are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early
+adoption is permitted. Accordingly
+ the Company has adopted this standard as of June 30
+ 2014.
+
+The
+Company does not expect the adoption of any other recent accounting pronouncements to have a material impact on its financial
+statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for the basis of presentation and significant accounting policies concepts. Basis of presentation describes the underlying basis used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).  Accounting policies describe all significant accounting policies of the reporting entity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for cash and cash equivalents
+ including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents
+ (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk
+ (3) the classification of any negative balance accounts (overdrafts)
+ and (4) the carrying basis of cash equivalents (for example
+ at cost) and whether the carrying amount of cash equivalents approximates fair value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for computing basic and diluted earnings or loss per share for each class of common stock and participating security. Addresses all significant policy factors
+ including any antidilutive items that have been excluded from the computation and takes into account stock dividends
+ splits and reverse splits that occur after the balance sheet date of the latest reporting period but before the issuance of the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for fair value measurements of financial and non-financial assets
+ liabilities and instruments classified in shareholders' equity. Disclosures include
+ but are not limited to
+ how an entity that manages a group of financial assets and liabilities on the basis of its net exposure measures the fair value of those assets and liabilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for income taxes
+ which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances
+ recognizing investment tax credits
+ operating loss carryforwards
+ tax credit carryforwards
+ and other carryforwards
+ methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy pertaining to new accounting pronouncements that may impact the entity's financial reporting. Includes
+ but is not limited to
+ quantification of the expected or actual impact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for the organization
+ consolidation and basis of presentation of financial statements disclosure
+ and significant accounting policies of the reporting entity. May be provided in more than one note to the financial statements
+ as long as users are provided with an understanding of (1) the significant judgments and assumptions made by an enterprise in determining whether it must consolidate a VIE and/or disclose information about its involvement with a VIE
+ (2) the nature of restrictions on a consolidated VIE's assets reported by an enterprise in its statement of financial position
+ including the carrying amounts of such assets
+ (3) the nature of
+ and changes in
+ the risks associated with an enterprise's involvement with the VIE
+ and (4) how an enterprise's involvement with the VIE affects the enterprise's financial position
+ financial performance
+ and cash flows.  Describes procedure if disclosures are provided in more than one note to the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for stock option and stock incentive plans. This disclosure may include (1) the types of stock option or incentive plans sponsored by the entity (2) the groups that participate in (or are covered by) each plan (3) significant plan provisions and (4) how stock compensation is measured
+ and the methodologies and significant assumptions used to determine that measurement.
+ -Subparagraph (b)
+(f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+On
+April 5
+ 2015
+ the Company issued 40
+017
+572 shares of common stock for $3
+090 in cash.
+
+On
+April 25
+ 2015
+ the directors of the Company increased its Share Capital from 75
+000
+000 common shares to 200
+000
+000 common shares.
+
+On
+April 25
+ 2015
+ the founding shareholder of the Company returned 2
+529
+974
+160 (4
+884
+120 pre-split) restricted shares of common
+stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000004
+per share for a total consideration of $10 to the shareholder.
+
+On
+April 25
+ 2015
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of
+the Company on a basis of 518 new common shares for 1 old common share. All references in these financial statements to number
+of common shares
+ price per share and weighted average number of shares outstanding prior to the 518:1 forward split have been
+adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue
+ purchase of a business
+ settlement of litigation
+ catastrophic loss
+ significant foreign exchange rate changes
+ loans to insiders or affiliates
+ and transactions not in the ordinary course of business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+CAPITAL STOCK (Details Narrative) - Mar. 31
+ 2015 - USD ($)
+
+
+
+
+
+
+
+
+
+
+567
+172
+
+
+
+
+
+978
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+A reconciliation of the provision for income
+taxes at the United States federal statutory rate compared to the Company&#146;s income tax expense as reported is as follows:
+
+
+
+    
+    
+March 31
+
+
+    
+    
+March 31
+
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+(16
+669
+    
+    
+    
+(1
+822
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+(5
+667
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+5
+667
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+The significant components of deferred income
+tax assets at March 31
+ 2015 and 2014 are as follows:
+
+
+
+    
+    
+March 31
+
+
+    
+    
+March 31
+
+
+    
+
+    
+    
+    
+6
+287
+    
+    
+    
+    
+    
+
+    
+    
+    
+(6
+287
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of the components of net deferred tax asset or liability recognized in an entity's statement of financial position
+ including the following: the total of all deferred tax liabilities
+ the total of all deferred tax assets
+ the total valuation allowance recognized for deferred tax assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+Mar. 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2014
+
+
+
+
+
+
+
+491)
+
+
+822)
+
+
+
+
+
+491)
+
+
+178
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+ -Paragraph 29
+ 30
+ 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+Mar. 31
+ 2014
+Mar. 31
+ 2015
+
+
+
+
+822
+
+
+422
+
+
+
+
+
+822
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+
+822
+
+
+422
+
+
+
+
+
+
+
+600
+
+
+
+
+
+
+
+Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets
+ represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash inflow from a long-term borrowing made from related parties where one party can exercise control or significant influence over another party; including affiliates
+ owners or officers and their immediate families
+ pension trusts
+ and so forth. Alternate caption: Proceeds from Advances from Affiliates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+Mar. 31
+ 2014
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+822)
+
+
+669)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+069
+
+
+
+
+
+822)
+
+
+600)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+822
+
+
+600
+
+
+
+
+
+822
+
+
+600
+
+
+
+
+
+000
+
+
+000)
+
+
+
+CASH
+ BEGINNING OF PERIOD
+
+
+
+000
+
+
+
+CASH
+ END OF PERIOD
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from financing activities
+ including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from investing activities
+ including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property
+ plant
+ and equipment and other productive assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from operating activities
+ including discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash inflow from a long-term borrowing made from related parties where one party can exercise control or significant influence over another party; including affiliates
+ owners or officers and their immediate families
+ pension trusts
+ and so forth. Alternate caption: Proceeds from Advances from Affiliates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Mar. 31
+ 2015
+
+
+
+
+
+
+
+A reconciliation of the provision for income
+taxes at the United States federal statutory rate compared to the Company&#146;s income tax expense as reported is as follows:
+
+
+
+    
+    
+March 31
+
+
+    
+    
+March 31
+
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+(16
+669
+    
+    
+    
+(1
+822
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+(5
+667
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+5
+667
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+tax assets at March 31
+ 2015 and 2014 are as follows:
+
+
+
+    
+    
+March 31
+
+
+    
+    
+March 31
+
+
+    
+
+    
+    
+    
+6
+287
+    
+    
+    
+    
+    
+
+    
+    
+    
+(6
+287
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+tax assets must reflect that portion of the income tax loss carry forwards that is more likely-than-not to be realized from future
+operations. The Company has chosen to provide a full valuation allowance against all available income tax loss carry forwards.
+The Company has recognized a valuation allowance for the deferred income tax asset since the Company cannot be assured that it
+is more likely than not that such benefit will be utilized in future years. The valuation allowance is reviewed annually. When
+circumstances change and which cause a change in management's judgment about the realizability of deferred income tax assets
+ the
+impact of the change on the valuation allowance is generally reflected in current income.
+
+
+ 2015 and 2014
+ the Company
+has no unrecognized income tax benefits. The Company&#146;s policy for classifying interest and penalties associated with unrecognized
+income tax benefits is to include such items as tax expense. No interest or penalties have been recorded during the year ended
+March 31
+ 2015 and 2014 no interest or penalties have been accrued as of March 31
+ 2015 and 2014. As of March 31
+ 2015 and 2014
+the Company did not have any amounts recorded pertaining to uncertain tax positions.
+
+
+open to examination by federal and state authorities due to net operating loss and credit carryforwards. The Company is currently
+not under examination by the Internal Revenue Service or any other taxing authorities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for income taxes. Disclosures may include net deferred tax liability or asset recognized in an enterprise's statement of financial position
+ net change during the year in the total valuation allowance
+ approximate tax effect of each type of temporary difference and carryforward that gives rise to a significant portion of deferred tax liabilities and deferred tax assets
+ utilization of a tax carryback
+ and tax uncertainties information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+
+
+
+
+ column(s) 3 are contained in other reports
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+Common shares issued for cash - at $0.001 per share
+ February 28
+ 2014
+ Amount
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+822)
+
+
+
+Common shares issued for cash - at $0.001 per share
+ February 28
+ 2014
+ Amount
+
+
+
+
+
+
+
+
+
+
+
+Common shares issued for cash - at $0.001 per share
+ February 28
+ 2014
+ Amount
+
+
+585
+000)
+
+
+
+
+
+
+
+
+
+Common shares issued for cash - at $0.001 per share
+ February 28
+ 2014
+ Shares
+
+
+590
+000
+000
+
+
+
+Common shares issued for cash - at $0.001 per share
+ February 28
+ 2014
+ Amount
+
+
+590
+000
+
+
+
+
+
+
+
+
+
+Common shares issued for cash - at $0.001 per share
+ February 28
+ 2014
+ Amount
+
+
+
+
+
+
+
+
+
+
+
+Common shares issued for cash - at $0.001 per share
+ February 28
+ 2014
+ Amount
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

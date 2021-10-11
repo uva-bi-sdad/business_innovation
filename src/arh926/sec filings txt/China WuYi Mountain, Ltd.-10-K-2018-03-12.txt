@@ -1,0 +1,19220 @@
+
+
+ACCESSION NUMBER:		0001477932-18-001217
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		36
+CONFORMED PERIOD OF REPORT:	20170831
+FILED AS OF DATE:		20180312
+DATE AS OF CHANGE:		20180312
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Kokos Group Inc.
+		CENTRAL INDEX KEY:			0001687065
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOTTLED & CANNED SOFT DRINKS CARBONATED WATERS [2086]
+		IRS NUMBER:				813433108
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-214276
+		FILM NUMBER:		18683095
+	BUSINESS ADDRESS:	
+		STREET 1:		1900 AVENUE OF THE STARS
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90067
+		BUSINESS PHONE:		310.843.9300
+	MAIL ADDRESS:	
+		STREET 1:		1900 AVENUE OF THE STARS
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90067
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WASHINGTON
+ D.C. 20549
+
+
+
+
+
+ANNUAL REPORT PURSUANT TO SECTION 13 or 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 for the fiscal year ended August 31
+ 2017 or
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1900 Avenue of the Stars
+ Los Angeles
+ CA 90067
+
+ Zip Code)
+
+
+
+ including area code)
+
+
+
+ former address and former fiscal year
+ if changed since last report)
+
+
+
+Common stock
+ 
+
+
+
+ as defined in Rule 405 of the Securities Act. 
+
+
+
+
+ and (2) has been subject to such filing requirements for the past 90 days. 
+
+
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167; 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). 
+
+
+ and will not be contained
+ to the best of registrant&#8217;s knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K. 
+
+
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See the definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer&#8221; and &#8220;smaller reporting company&#8221; in Rule 12b-2 of the Exchange Act.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. 
+
+
+
+
+ or the average bid and asked price of such common equity
+ as of the last business day of the registrant&#8217;s most recently completed second fiscal quarter. N/A
+
+
+
+ 2018 the Company has 65
+600
+000 shares of common stock issued and outstanding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MARKET FOR REGISTRANT&#8217;S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIRECTORS
+ EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CERTAIN RELATIONSHIP AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ references in this report to &#8220;Kokos Group Inc..&#8221;
+ &#8220;we
+&#8221; &#8220;us
+&#8221; &#8220;our
+&#8221; &#8220;our Company
+&#8221; 
+
+
+
+
+ Section 27A of the Securities Act of 1933
+ as amended
+ or the Securities Act
+ and Section 21E of the Securities Exchange Act of 1934
+ as amended (the &#8220;Exchange Act&#8221;). Forward-looking statements discuss matters that are not historical facts. Because they discuss future events or conditions
+ forward-looking statements may include words such as &#8220;anticipate
+&#8221; &#8220;believe
+&#8221; &#8220;estimate
+&#8221; &#8220;intend
+&#8221; &#8220;could
+&#8221; &#8220;should
+&#8221; &#8220;would
+&#8221; &#8220;may
+&#8221; &#8220;seek
+&#8221; &#8220;plan
+&#8221; &#8220;might
+&#8221; &#8220;will
+&#8221; &#8220;expect
+&#8221; &#8220;anticipate
+&#8221; &#8220;predict
+&#8221; &#8220;project
+&#8221; &#8220;forecast
+&#8221; &#8220;potential
+&#8221; &#8220;continue&#8221; negatives thereof or similar expressions. Forward-looking statements speak only as of the date they are made
+ are based on various underlying assumptions and current expectations about the future and are not guarantees. Such statements involve known and unknown risks
+ uncertainties and other factors that may cause our actual results
+ level of activity
+ performance or achievement to be materially different from the results of operations or plans expressed or implied by such forward-looking statements.
+
+
+ such information should not be regarded as representations that the results or conditions described in such statements or that our objectives and plans will be achieved and we do not assume any responsibility for the accuracy or completeness of any of these forward-looking statements. These forward-looking statements are found at various places throughout this Annual Report on Form 10-K and include information concerning possible or assumed future results of our operations
+ including statements about potential acquisition or merger targets; business strategies; future cash flows; financing plans; plans and objectives of management; any other statements regarding future acquisitions
+ future cash needs
+ future operations
+ business plans and future financial results
+ and any other statements that are not historical facts.
+
+
+ plans
+ expectations
+ assumptions and beliefs about future events and are subject to risks
+ uncertainties and other factors. Many of those factors are outside of our control and could cause actual results to differ materially from the results expressed or implied by those forward-looking statements. In light of these risks
+ uncertainties and assumptions
+ the events described in the forward-looking statements might not occur or might occur to a different extent or at a different time than we have described. You are cautioned not to place undue reliance on these forward-looking statements
+ which speak only as of the date of the Annual Report on Form 10-K. All subsequent written and oral forward-looking statements concerning other matters addressed in this Annual Report on Form 10-K and attributable to us or any person acting on our behalf are expressly qualified in their entirety by the cautionary statements contained or referred to in this Annual Report on Form 10-K.
+
+
+ we undertake no obligation to update or revise any forward-looking statements
+ whether as a result of new information
+ future events
+ a change in events
+ conditions
+ circumstances or assumptions underlying such statements
+ or otherwise. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ distribution and marketing of bottled organic coconut water from bulk coconut water sourced from the Philippine and bottled in the United States. We currently have no product
+ but plan on developing our first bottled coconut water product under the brand name &#8220;Koos Coconut Water&#8221;.
+
+
+ vitamin C.
+ micronutrients
+ and phyto-hormones that are exceptionally beneficial to your health. A scientific review of pure organic coconut water with no additives shows that it can help to prevent heart attacks; lower high blood pressure
+ has anti-aging effects
+ and fights free radicals to help prevent cancer. Our primary business objective is to produce
+ distribute and market and sell our core planned product organic coconut water under the brand name Koos Coconut Water
+ which is pure organic coconut water
+ with no additives.
+
+
+ bottle
+ and label or pack its Kokos Group Inc. proposed coconut water product. The Company plans to manufacture
+ bottle
+ label and pack its proposed Koos Coconut Water product under its as yet to be negotiate with a co-packing companies
+ which has all such equipment. The Kokos Group Inc. plans to sell its proposed coconut water product in the following bottle sizes: 8oz and 16oz.
+
+
+ Kokos Group Inc. intends on developing the Kokos Group Inc. proposed product and
+ once such product is developed and exists
+ we will begin attempting to distribute
+ market and sell the Kokos Group Inc. proposed product under the brand name of Koos Coconut Water throughout Oregon
+ Washington State and neighboring States to large box store retailers
+ convenience stores
+ specialty health food stores
+ grocery chains
+ hotels and some non-traditional corporate business within this market. We have identified a bulk coconut organic water supplier from the Philippines that has a storage facility in Eugene
+ Oregon. Therefore the pacific northwest of the United States is the ideal location to market the initial business and proposed product.
+
+
+
+
+
+
+
+
+ market
+ distribute and sell our own brand of coconut water
+ presently called &#8220;Koos Coconut Water&#8221;.
+
+
+
+
+ vitamin C
+ potassium
+ magnesium
+ micro-nutrients
+ and phyto-hormones (plant hormones) that are exceptionally beneficial to your health. A scientific review of coconut water
+ published in the journal Molecules highlights some of the ways that coconut water replenishes your body: helps to prevent heart attacks
+ lower high blood pressure
+ can have anti-aging effects
+ fights free radicals to help prevent cancer
+ contains trans-zeatin (plant hormone which regulates cell division and development) which can be used to treat Alzheimer&#8217;s disease or dementia.
+
+
+ coconut water is also used to rehydrate the body in case of dehydration and fluid loss due to diarrhea
+ vomiting or excessive sweating. A good source of carbohydrates
+ it also helps lift your energy level. Research suggests coconut water can be used to rehydrate the body after exercise. The International Society of Sports Nutrition found that coconut water has similar positive effects as sports drinks. In addition to boosting rehydration
+ coconut water is also easy on the stomach and thus is used to soothe stomach troubles like indigestion
+ acid reflux and gastroenteritis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016 under the laws of the State of Nevada. Jeoffrey Baterina has served as President and Chief Executive Officer
+ and Secretary of our company from July 26
+ 2016 to the October 19
+ 2017. On October 19
+ 2017 Mr. Lei Wang became its Chief Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaprt was appointed Secretary. In addition Mr. Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations from all executive officer positions with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+ and each submitted their resignation as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation as Secretary of Kokos Group Inc. (the Company)
+ effective immediately. On the same day
+ Ying Zhang was appointed Secretary
+ effective immediately.
+
+
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group Inc.
+ amended the Company&#8217;s current Certificate of Incorporation in conformity with the applicable laws of the State of Nevada to change the name of the Company from Kokos Group Inc. to China Wu Yi Mountain Ltd. The Company is waiting for approval of the name change from FINRA.
+
+
+
+
+
+
+000
+000 common shares with a par value of $0.001 per share and 2
+000
+000 preferred shares with a par value of $0.001 per share. Total shares issued as of August 31
+ 2017 are 65
+600
+000 common shares and no preferred shares have been issued.
+
+
+ 2016 the Company issued 800
+000
+000 (pre-split-10
+000
+000) common shares at $0.0000125 ( pre-split $0.001) per share to the sole director and President of the Company for cash proceeds of $10
+000.
+
+
+600 in private placements for the purchase of 25
+600
+000 ( pre-split -320
+000 common shares of the Company&#8217;s stock at $0.000375 (pre-split $0.03) per share.
+
+
+ 2017 the directors of the Company amended the Company&#8217;s Articles of Incorporation to increase the authorized capital structure of the Corporation to include two million (2
+000
+000) shares of preferred stock
+ par value $0.001
+ and to retain the previously authorized two hundred million (200
+000
+000) shares of common stock
+ par value ($0.001).
+
+
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013 per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+000 shares of common stock of the Company.
+
+
+ 2017
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 80 new common shares for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average number of shares outstanding prior to the 80:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+
+ 2017 the Company has not granted any stock options and has not recorded any stock-based compensation.
+
+
+ 2017
+ the Company issued 0 shares of preferred stock and 65
+600
+000 common shares are issued and outstanding.
+
+
+ 2017
+ Jeoffrey C. Baterina
+ our previous President
+ Chief Executive Officer
+ director and and majority shareholder
+ entered into stock purchase agreements (the Purchase Agreements) for the sale of an aggregate of 40
+000
+000 shares of Common Stock of the Company
+ representing approximately 61% of the issued and outstanding shares of Common Stock of the Company as of such date
+ to nine (9) non-U.S. accredited investors
+ including Mr. Lei Wang who acquired 20
+038
+000 shares
+ or approximately 30.54% of the issued and outstanding shares of common stock
+ and two U.S. accredited investors
+ including WP Acquisition Company
+ LLC who acquired 16
+480
+000 shares
+ or approximately 25.12% of the issued and outstanding shares of common stock. The Purchase Agreements were fully executed and delivered on October 19
+ 2017. The new shareholders other than Lei Wang and WP Acquisition Company
+ LLC each acquired less than 5% of the outstanding shares. Consequently
+ Lei Wang and WP Acquisition Company
+ LLC are now collectively able to unilaterally control the election of our board of directors
+ all matters upon which shareholder approval is required and
+ ultimately
+ the direction of our Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ cartons or powdered
+ frozen
+ flavored
+ carbonated and sweetened. With all these choices it can be confusing and difficult to know if you are choosing the best one. The Company&#8217;s product competes broadly with all beverages available to consumers. The coconut water industry is highly competitive with estimated sales in the United States of 1 billion dollars and growing. We estimate that there are approximately 50 bottled coconut water brands in the United States with sales concentrated among the larger companies
+ especially those controlled by PepsiCo and Coca-Cola. Nearly all of our competitors are more experienced
+ have vastly greater financial and management resources and have more established proprietary trademarks and distribution networks than we do. On a national basis
+ we would compete with large beverage companies
+ such as PepsiCo (which produces O.N.E Coconut Water)
+ Coca-Cola (which produces Zico coconut water). Other brands include Vito CoCo (partially owned by Red Bull) Harmless Harvest
+ Invo Coconut Water
+ Taste Nirvana Coconut water and CocoZona to name a few competitions for market share in the coconut water industry. These and other competitors are likely to have distribution channels for their products that we do not have
+ which places us at a significant disadvantage. While the Company believes that it can compete favorably on differentiation providing our proposed organic non-additive coconut water
+ we are yet to see if we can compete in quality
+ merchandising and are weak with regards to
+ brand name recognition and loyalty
+ there can be no assurance that the Company and its product lines will not experience increasing competitive pressures from both traditional and new age beverage companies
+ many of whom have substantially greater marketing
+ cash
+ distribution
+ technical and other resources than the Company.
+
+
+
+
+
+
+
+
+ 2017
+ other than its current president
+ Mr. Jeoffrey Baterina there are no other employees at this time. There were two members of the audit Committee Messrs. Flemming J.H. Hansen and Arthur T. Claravall. On October 19
+ 2017 all parties resigned their positions and Mr. Lei Wang became Chief Executive Officer
+ Chief Financial Officer and sole Director; and Mr. Richard Rappaport was appointed Secretary of the Company.
+
+
+ 2018
+ Richard Rappaport submitted his resignation as Secretary of Kokos Group Inc. (the Company)
+ effective immediately. On the same day
+ Ying Zhang was appointed Secretary
+ effective immediately.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#8221; as defined in Rule 12b-2 of the Exchange Act
+ we are not required to provide the information called for by this Item.
+
+
+
+
+
+
+
+
+
+
+
+
+ officer or affiliate of the Company
+ any owner of record or beneficially of more than 5% of any class of voting securities of the Company
+ or stockholder is a party adverse to the Company or has a material interest adverse to the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 5. MARKET FOR REGISTRANT&#8217;S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES 
+
+
+
+
+ 2017 and 2016. 
+
+
+
+
+
+
+
+This Management&#8217;s Discussion and Analysis of Financial Condition and Results of Operations is intended to provide a reader of our financial statements with a narrative from the perspective of our management on our financial condition
+ results of operations
+ liquidity
+ and certain other factors that may affect our future results. The following discussion and analysis should be read in conjunction with our audited consolidated financial statements and the accompanying notes thereto included in &#8220;Item 8. Financial Statements and Supplementary Data.&#8221; In addition to historical financial information
+ the following discussion and analysis contains forward-looking statements that involve risks
+ uncertainties and assumptions. See &#8220;Forward-Looking Statements.&#8221; Our results and the timing of selected events may differ materially from those anticipated in these forward-looking statements as a result of many factors.
+
+
+
+
+ distribution and marketing of bottled organic coconut water from bulk coconut water sourced from the Philippine and bottled in the United States. We currently have no product
+ but plan on developing our first bottled coconut water product under the brand name &#8220;Koos Coconut Water&#8221;.
+
+
+ vitamin C.
+ micronutrients
+ and phyto-hormones that are exceptionally beneficial to your health. A scientific review of pure organic coconut water with no additives shows that it can help to prevent heart attacks; lower high blood pressure
+ has anti-aging effects
+ and fights free radicals to help prevent cancer. Our primary business objective is to produce
+ distribute and market and sell our core planned product organic coconut water under the brand name Koos Coconut Water
+ which is pure organic coconut water
+ with no additives.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ bottle
+ and label or pack its Kokos Group Inc. proposed coconut water product. The Company plans to manufacture
+ bottle
+ label and pack its proposed Koos Coconut Water product under its as yet to be negotiate with a co-packing companies
+ which has all such equipment. The Kokos Group Inc. plans to sell its proposed coconut water product in the following bottle sizes: 8oz and 16oz.
+
+
+ Kokos Group Inc. intends on developing the Kokos Group Inc. proposed product and
+ once such product is developed and exists
+ we will begin attempting to distribute
+ market and sell the Kokos Group Inc. proposed product under the brand name of Koos Coconut Water throughout Oregon
+ Washington State and neighboring States to large box store retailers
+ convenience stores
+ specialty health food stores
+ grocery chains
+ hotels and some non-traditional corporate business within this market. We have identified a bulk coconut organic water supplier from the Philippines that has a storage facility in Eugene
+ Oregon. Therefore the pacific northwest of the United States is the ideal location to market the initial business and proposed product.
+
+
+
+
+
+
+211 as of August 31
+ 2017. We believe our cash balance is not sufficient to fund our limited levels of operations for any period of time. We have been utilizing and may utilize funds from its President and Chief Executive Officer
+ Chairman of the Board of Directors
+ and majority holder of our common stock
+ who has informally agreed to advance funds to allow us to pay for offering costs
+ filing fees
+ and professional fees. Mr. Baterina
+ however
+ has no formal commitment
+ arrangement or legal obligation to advance or loan funds to the company. In order to develop and begin to implement our business plan
+ we will need the funding from this offering. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as follows: (I) develop a business relationship with the Philippine coconut water producer we have identified and contacted; and conclude an contract with one of the several bottler
+ labeler and packer we have sourced; and run an initial production for marketing purposes while we conduct marketing studies
+ initial promotional events
+ and generate interest for Kokos Group Inc.
+ under the brand name &#8220;Koos Coconut Water&#8221;; (II) negotiate and enter into supply agreements with retail businesses
+ merchandisers
+ and distributors
+ (III) expand proposed operations through-out Oregon
+ Washington State and nationally
+ (IV) establish a national and possibly international distributor network and team
+ with possibly production facilities or multiple co-packer agreements . While we have identified both a supplier and bottler for our proposed product we do not have any signed agreements or formal commitments to obligate any identified company to supply
+ bottle
+ label and package Kokos Group&#8217;s proposed coconut water product. We have not yet commenced any production or activities.
+
+
+ Washington State and neighboring States to large box store retailers
+ convenience stores
+ specialty health food stores
+ grocery chains
+ hotels and some non-traditional corporate business within this market.
+
+
+ which is to develop our a business relationship with the Philippine coconut water producer we have identified and conclude an contract with one of the several bottler
+ labeler and packer we have sourced
+ and run an initial production for marketing purposes while we conduct marketing studies
+ initial promotional events
+ and generate interest for Kokos Group Inc. proposed coconut water under the brand name &#8220;Koos Coconut Water&#8221;
+ and (ii) begin Phase II of our program
+ which is negotiate and enter into supply agreements with retail businesses
+ merchandisers
+ and distributors. In order to execute Phases I and II of our development program as outlined below
+ we anticipate spending $550
+000 on program development
+ professional and administrative fees
+ including fees payable in connection with the filing of this registration statement
+ complying with reporting obligations and arranging financing for Phases I and II of our development program. Total expenditures over the next 12 - 14 months are therefore expected to be approximately $550
+000. If we experience a shortage of funds prior to funding during the next 12 -14 months
+ we may utilize funds from Mr. Baterina
+ our Chairman of the Board of Directors
+ who has informally agreed to advance funds to allow us to pay for professional fees
+ including fees payable in connection with the filing of this registration statement and operation expenses
+ however he has no formal commitment
+ arrangement or legal obligation to advance or loan funds to the company. We will require the funds from this offering to proceed. If we receive only nominal funds from this offering
+ we plan to operate on a limited basis for the limited purpose of meeting our reporting obligations to the Securities and Exchange Commission. No such plan exists at this time in case of such contingency
+ and we cannot guarantee we would be able to raise additional funding if only nominal funding is obtained from this offering. New management will not as of the date of this filing change its business.
+
+
+ we plan to commence activities to raise the $400
+000 in funds required for Phase II of the development program in December of 2017. We expect this phase to take 120 - 180 days to complete and an additional 9 to 12 months for distribution networks and market acceptance. We cannot provide investors with any assurance that we will be able to raise sufficient funds to proceed with any work or activities on Phase I and or II of the development program since we currently have no plan in place to raise these funds. We plan to raise the additional funding for Phase I and Phase II by way of a private debt or equity financing
+ but have not commenced any activities to raise such funds. 
+
+
+ we have not commenced with any activities or operations of any phase of our development program.
+
+
+
+
+ 2017 and August 31
+ 2016
+ that conditions exist that raise substantial doubt about our ability to continue as a going concern due to our recurring losses from operations
+ deficit in equity
+ and the need to raise additional capital to fund operations. A &#8220;going concern&#8221; opinion could impair our ability to finance our operations through the sale of debt or equity securities.
+
+
+
+Fiscal Year Ended August 31
+ 2017 compared to the Fiscal Year Ended August 31
+ 2016
+
+
+ 2016 (inception) to August 31
+ 2017.
+
+
+ 2017 totaled $25
+190 consisting primarily of office and general expenses of $9
+240 consisting primarily of $2
+942; Office expenses of $2
+007; transfer agent expenses of $2
+329; website expenses of $1
+816 and bank services charges of $146; and professional fees of $15
+950 resulting in a net loss of $25
+190. Expenses for the period from July 26
+ 2016 (date of inception) to August 31
+ 2016 totaled $1
+339 consisting primarily of office and general expenses of $1
+339
+ resulting in a net loss of $1
+339. The increase in office and general expenses from fiscal 2016 to fiscal 2017 was primarily due to the increase expenses relating to filing fees
+ transfer agent expenses and website expenes. The increase in professional fees from fiscal 2017 to fiscal 2016 was due to the increase in accounting and legal fees activities during the period. In additional marketing expenses occurred in the fiscal 2017 period.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 financial statements expresses an opinion that substantial doubt exists as to whether we can continue as an ongoing business. Since our sole director maybe unwilling or unable to loan or advance us additional capital
+ we believe that if we do not raise additional capital over the next 12 months
+ we may be required to suspend or cease the implementation of our business plans. See &#8220;August 31
+ 2017 Audited Financial Statements &#8211; Auditors Report.&#8221;
+
+
+ 2017
+ we had $4
+211 of cash compared to $10
+336 of cash as of August 31
+ 2016. We anticipate that our current cash and cash equivalents and cash generated from financing activities will be insufficient to satisfy our liquidity requirements for the next 12 months. To date the Company has incurred operating losses since inception of $26
+529. As at August 31
+ 2017
+ the Company has a working capital deficit of $6
+939. 
+
+
+ or amounts and classification of liabilities that might result from this uncertainty.
+
+
+ we may be required to reduce the scope of our business development activities
+ which could harm our business plans
+ financial condition and operating results. Additional funding may not be available on favorable terms
+ if at all. The Company intends to continue to fund its business by way of equity or debt financing and advances from related parties. Any inability to raise capital as needed would have a material adverse effect on our business
+ financial condition and results of operations.
+
+
+ we will have to cease business operations. As a result
+ investors in the Company&#8217;s common stock would lose all of their investment.
+
+
+
+
+ financial condition
+ changes in financial condition
+ revenue or expenses
+ result of operations
+ liquidity
+ capital expenditures and/or capital resources.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 and August 31
+ 2016
+ begins on page F-1 of this Annual Report on Form 10-K.
+
+
+
+
+
+
+August 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PLS CPA
+ A PROFESSIONAL CORPORATION
+
+
+
+
+
+
+
+
+
+ 2017 and 2016 and the related financial statements of operations
+ changes in shareholder&#8217;s equity and cash flows for year ended August 31
+ 2017 and the period from July 26
+ 2016 (inception) to August 31
+ 2016. These financial statements are the responsibility of the Company&#8217;s management. 
+
+
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements. An audit also includes assessing the accounting principles used and significant estimates made by management
+ as well as evaluating the overall financial statement presentation. We believe that our audit provides a reasonable basis for our opinion. 
+
+
+ the financial statements referred to above present fairly
+ in all material respects
+ the financial position of Kokos Group Inc. as of August 31
+ 2017 and 2016
+ and the results of its operation and its cash flows for the year ended August 31
+ 2017 and the period from July 26
+ 2016 (inception) to August 31
+ 2016 in conformity with U.S. generally accepted accounting principles. 
+
+
+ the Company&#8217;s losses from operations raise substantial doubt about its ability to continue as a going concern. The financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+
+ A Professional Corp.
+
+
+ 2018
+
+ CA. 92111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of preferred stock
+ $0.001 par value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of common stock
+ $0.001 par value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600
+000 shares of common stock (800
+000
+000 - August 31
+ 2016)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+ 2017
+
+
+
+
+
+Results of operations from inception (July 26
+ 2016) to
+August 31
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+502
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FOR THE PERIOD FROM July 26
+ 2016 (INCEPTION) TO August 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ July 26
+ 2016 
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ August 31
+ 2016
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 31
+ 2017
+
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ August 31
+ 2017
+
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+From July 26
+
+
+August 31
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CASH
+ BEGINNING 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CASH
+ ENDING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+ 2017 
+
+
+
+
+
+
+
+
+ 2016 and established a fiscal year end of August 31. The Company is organized to bottle
+ market
+ distribute and sell our own brand of coconut water
+ presently called &#8220;Koos Coconut Water&#8221;. On November 10
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group Inc.
+ amended the Company&#8217;s current Certificate of Incorporation in conformity with the applicable laws of the State of Nevada to change the name of the Company from Kokos Group Inc. to China Wu Yi Mountain Ltd. The Company is waiting for approval of the name change from FINRA.
+
+
+ 2017 Mr. Lei Wang became its Chief Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaprt was appointed Secretary. In addition Mr. Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations from all executive officer positions with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+ and each submitted their resignation as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation as Secretary of Kokos Group Inc. (the Company)
+ effective immediately. On the same day
+ Ying Zhang was appointed Secretary
+ effective immediately.
+
+
+
+
+529. As at August 31
+ 2017
+ the Company has a working deficit of $6
+939. The Company requires additional funding to meet its ongoing obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is dependent on raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these factors raise substantial doubt as to the Company&#8217;s ability to continue as a going concern. The Company intends to continue to fund its business by way of private placements and advances from related parties as may be required. As of August 31
+ 2017 the Company has issued 800
+000
+000 founders shares at $0.0000125 per share for net proceeds of $10
+000 to the Company and private placements of 25
+600
+000 common shares at $0.000375 per share for net proceeds of $9
+600. These financial statements do not include any adjustments relating to the recoverability and classification of recorded asset amounts
+ or amounts and classification of liabilities that might result from this uncertainty. 
+
+
+
+
+
+
+
+
+
+
+ statements of operations
+ stockholders&#8217; equity (deficit) and cash flows of the Company. These financial statements are presented in the United States dollars and have been prepared in accordance with accounting principles generally accepted in the United States.
+
+
+
+
+ &#8220;Disclosure about Segments of an Enterprise and Related Information&#8221;
+ changed the way public companies report information about segments of their business in their quarterly reports issued to shareholders. It also requires entity-wide disclosures about the products and services the entity provides
+ the material countries in which it holds assets and reports revenues and its major customers. 
+
+
+
+
+&#8221; establishes standards for the reporting and display of comprehensive loss and its components in the financial statements. As at August 31
+ 2017 the Company has no items that represent a comprehensive loss and
+ therefore
+ has not included a schedule of comprehensive loss in the financial statements.
+
+
+
+
+ actual results could differ from those estimates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+ 2017 
+
+
+
+
+
+
+
+
+
+ the Company considers highly liquid financial instruments purchased with a maturity of three months or less to be cash equivalents.
+
+
+
+
+ and other applicable revenue recognition guidance under US GAAP. Sales revenue is recognized for our retail and wholesale customers when: (i) persuasive evidence of a sales arrangement exists
+ (ii) the sales terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv) collectability is reasonably assured &#8212; generally when products are shipped to the customer and services are rendered
+ except in situations in which title passes upon receipt of the products by the customer. Revenue consists of revenue earned for the sale of organic coconut water and services provided by the Company. Revenue is recognized at the time the product is shipped to the customer and or services provided by the Company are fulfilled. 
+
+
+
+
+ financial liabilities and equity instruments of the Company are either recognized or disclosed in the financial statements together with other information relevant for making a reasonable assessment of future cash flows
+ interest rate risk and credit risk. Where practical the fair values of financial assets and financial liabilities have been determined and disclosed; otherwise only available information pertinent to fair value has been disclosed.
+
+
+
+
+
+
+
+
+ deferred tax assets and liabilities are recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of existing assets and liabilities and their respective tax balances and tax loss carry-forwards. Deferred tax assets and liabilities are measured using enacted or substantially enacted tax rates expected to apply to the taxable income in the years in which those differences are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates is recognized in income in the period that includes the date of enactment or substantive enactment. 
+
+
+
+
+ Stock Compensation
+ which addresses the accounting for transactions in which an entity exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ Accounting for Stock-Based Compensation, and supersedes Accounting Principles Board (APB) Opinion No. 25
+ Accounting for Stock Issued to Employees, and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation costs arising from subsequent modifications of awards after the grant date must be recognized. The Company has not adopted a stock option plan and has not granted any stock options. As at May 31
+ 2017 the Company had not adopted a stock option plan nor had it granted any stock options. Accordingly no stock-based compensation has been recorded to date.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+ 2017 
+
+
+
+
+
+
+
+
+
+ Generally Accepted Accounting Principles (Prior authoritative literature: FASB SFAS No. 165
+ Subsequent Events (&#8220;SFAS 165&#8221;)
+ issued May 28
+ 2009)
+ which establishes general standards of accounting for
+ and disclosure of
+ events that occur after the balance sheet date but before financial statements are issued or are available to be issued. FASB ASC 105-10 (SFAS 165) is effective for interim or annual financial periods ending after June 15
+ 2009. The adoption of FASB ASC 105-10 (SFAS 165) did not have a material effect on the company&#8217;s financial position or results of operations. 
+
+
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted Accounting Principles (Prior authoritative literature: FASB SFAS No. 168
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted Accounting Principles (&#8220;SFAS 168&#8221;
+ issued June 2009)
+ establishes the FASB Accounting Standards Codification (the &#8220;Codification&#8221;) as the single source of authoritative nongovernmental U.S. GAAP. The Codification is effective for interim and annual periods ending after September 15
+ 2009. The adoption of FASB ASC 105-10-65 (SFAS 168) did not have a material impact on the Company&#8217;s financial statements
+
+
+ the FASB issued guidance now codified as ASC 105
+ Generally Accepted Accounting Principles as the single source of authoritative accounting principles recognized by the FASB to be applied by nongovernmental entities in the preparation of financial statements in conformity with U.S. GAAP
+ aside from those issued by the SEC. ASC 105 does not change current U.S. GAAP
+ but is intended to simplify user access to all authoritative U.S. GAAP by providing all authoritative literature related to a particular topic in one place. The adoption of ASC 105 did not have a material impact on the Company&#8217;s financial statements
+ but did eliminate all references to pre-codification standards. 
+
+
+ 2010
+ the FASB issued guidance in the Subsequent Events topic of the FASC to provide updates including: (1) requiring the company to evaluate subsequent events through the date in which the financial statements are issued; (2) amending the glossary of the Subsequent Events topic to include the definition of SEC filer and exclude the definition of Public entity; and (3) eliminating the requirement to disclose the date through which subsequent events have been evaluated. This guidance was prospectively effective upon issuance. The adoption of this guidance did not impact the Company's results of operations of financial condition.
+
+
+ the FASB issued ASU 2014-10
+ &#8220;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&#8221;. The guidance eliminates the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early adoption is permitted. Accordingly
+ the Company has adopted this standard as of August 31
+ 2016.
+
+
+
+
+
+
+
+
+
+000
+000 common shares with a par value of $0.001 per share and 2
+000
+000 preferred shares with a par value of $0.001 per share. Total shares issued as of May 31
+ 2017 are 65
+600
+000 common shares and no preferred shares have been issued.
+
+
+ 2016 the Company issued 800
+000
+000 (pre-split-10
+000
+000) common shares at $0.0000125 ( pre-split $0.001) per share to the sole director and President of the Company for cash proceeds of $10
+000.
+
+
+600 in private placements for the purchase of 25
+600
+000 ( pre-split -320
+000 common shares of the Company&#8217;s stock at $0.000375 (pre-split $0.03) per share.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+ 2017 
+
+
+
+
+
+
+
+ 2017 the directors of the Company amended the Company&#8217;s Articles of Incorporation to increase the authorized capital structure of the Corporation to include two million (2
+000
+000) shares of preferred stock
+ par value $0.001
+ and to retain the previously authorized two hundred million (200
+000
+000) shares of common stock
+ par value ($0.001).
+
+
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013 per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+000 shares of common stock of the Company.
+
+
+ 2017
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 80 new common shares for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average number of shares outstanding prior to the 80:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+
+ 2017 the Company has not granted any stock options and has not recorded any stock-based compensation.
+
+
+ 2017
+ the Company issued 0 shares of preferred stock and 65
+600
+000 common shares are issued and outstanding.
+
+
+
+
+
+
+
+ the former CEO
+ Jeoffrey C. Baterina
+ the Company&#8217;s President and Director
+ paid $3
+826 for operating expenses payment in behalf of the Company
+
+
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013 per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+000 shares of common stock of the Company.
+
+
+ 2017
+ the balance of due to related party is $5
+501 (August 31
+ 2016 - $1
+675). The amounts due to the related party are unsecured and non- interest-bearing with no set terms of repayment.
+
+
+
+
+
+
+
+ 2017 the Company entered into a Purchase Agreement to supply 69
+300 private label Tetra Prisma 330ml packs of organic coconut water. The total purchase price is $55
+410. The purchaser has made the initial non-refundable payment of $2
+500. Other items on payment schedule include; an additional $2
+500 non-refundable payment upon approval of private label artwork; $35
+000 upon final order by purchaser; and $15
+410 due on delivery and acceptance of product by purchaser. Product will be delivered to purchaser within 90 days of the Company receiving payments as per above schedule. Subsequent to the year end on November 30
+ 2018 the client who entered into the Purchase Agreement has decided not to proceed with the purchase order.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+ 2017 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 and August31
+ 2016
+ is as follows:
+
+
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the impact of the change on the valuation allowance is generally reflected in current income.
+
+
+ 2017 and August 31
+ 2016 the Company has no unrecognized income tax benefits. The Company&#8217;s policy for classifying interest and penalties associated with unrecognized income tax benefits is to include such items as tax expense. No interest or penalties have been recorded during the year ended August 31
+ 2017 and August 31
+ 2016 and no interest or penalties have been accrued as of August 31
+ 2017 and August 31
+ 2016. As of August 31
+ 2017 and August 31
+ 2016
+ the Company did not have any amounts recorded pertaining to uncertain tax positions.
+
+
+
+
+ certain losses may not be available for carryforward under Section 382 of the Internal Revenue Code.
+
+
+
+
+
+
+
+ the former CEO
+ Jeoffrey C
+ Baterina paid $3
+848
+ for operating expenses payment in behalf of the Company. On November 2017
+ the former CEO
+ withdrew $353 from the Company.&nbsp;The former CEO of the Company forgave all related party loans to the Company in a total of $8
+996. This will be reflected an increase in Additional-Paid-In-Capital in the financial statements.
+
+
+ 2018
+ the new CEO
+ Lei Wang&nbsp;of the Company advanced the Company $9
+000. The amounts due to the related party are unsecured and non- interest-bearing with no set terms of repayment.
+
+
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group Inc.
+ amended the Company&#8217;s current Certificate of Incorporation in conformity with the applicable laws of the State of Nevada to change the name of the Company from Kokos Group Inc. to China Wu Yi Mountain Ltd. The Company is waiting for approval of the name change from FINRA.
+
+
+ 2018 the client who entered into the Purchase Agreement has decided not to proceed with the purchase order. (refer Note 5 Agreements).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ financial disclosures or any other matter.
+
+
+
+
+
+
+ processed
+ summarized and reported
+ within the time period specified in the SEC&#8217;s rules and forms. Disclosure controls and procedures include
+ without limitation
+ controls and procedures designed to ensure that information required to be disclosed in our reports filed or submitted under the Securities Exchange Act of 1934 is accumulated and communicated to management including our principal executive officer and principal financial officer as appropriate
+ to allow timely decisions regarding required disclosure.
+
+
+ as required by Rule 13a -15d and 15d-15e under the Securities Exchange Act of 1934
+ we have carried out an evaluation of the effectiveness of the design and operation of our company&#8217;s disclosure controls and procedures. This evaluation was carried out under the supervision and with the participation of our company&#8217;s management
+ including our company&#8217;s principal executive officer and principal financial officer. Based upon that evaluation
+ our company&#8217;s principal executive officer and principal financial officer concluded that as of August 31
+ 2017 our disclosure controls and procedures were not effective due to the existence of material weaknesses in our internal controls over financial reporting.
+
+
+
+
+ or under the supervision of
+ the Company&#8217;s Principal Executive and Principal Financial officer and effected by the Company&#8217;s board of directors
+ management and other personnel to provide reasonable assurance regarding the reliability of our financial reporting and the preparation of financial statements for external purposes in accordance with accounting principles generally accepted in the United States of America and includes those policies and procedures that:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ use or disposition of company assets that could have a material effect on our financial statements.
+
+
+ 2017
+ management determined material weaknesses occurred over our internal control over financial reporting as discussed below.
+
+
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures; (2) inadequate segregation of duties consistent with control objectives; (3) insufficient written policies and procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and SEC disclosure requirements; and (4) ineffective controls over period end financial disclosure and reporting processes. Due to these material weaknesses management concluded that our internal control over financial reporting was not effective as of August 31
+ 2017.
+
+
+
+
+ (3) and (4) above did not have an affect on the Company's previous reported financial results. However
+ management believes that the lack of a functioning audit committee and lack of a majority of outside directors on the Company's board of directors
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures can result in the Company's determination to its financial statements for the future periods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ we will create a position to segregate duties consistent with control objectives and will increase our personnel resources and technical accounting expertise within the accounting function when funds are available to the Company: i) Appointing one or more outside directors to our board of directors who shall be appointed to the audit committee of the Company resulting in a fully functioning audit committee who will undertake the oversight in the establishment and monitoring of required internal controls and procedures; and ii) Preparing and implementing sufficient written policies and checklists which will set forth procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and SEC disclosure requirements.
+
+
+ who shall be appointed to a fully functioning audit committee
+ will remedy the lack of a functioning audit committee and a lack of a majority of outside directors on the Company's Board. In addition
+ management believes that preparing and implementing sufficient written policies and checklists will remedy the following material weaknesses (i) insufficient written policies and procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and SEC disclosure requirements; and (ii) ineffective controls over period end financial close and reporting processes. Further
+ management believes that the hiring of additional personnel who have the technical expertise and knowledge will result proper segregation of duties and provide more checks and balances within the department. Additional personnel will also provide the cross training needed to support the Company if personnel turn over issues within the department occur. This coupled with the appointment of additional outside directors will greatly decrease any control and procedure issues the company may encounter in the future.
+
+
+ as necessary and as funds allow.
+
+
+
+
+
+
+ or is reasonably likely to materially affect
+ our internal control over financial reporting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 10. DIRECTORS
+ EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Executive Officer
+ Secretary
+ Treasurer
+ Chief Financial Officer and Chairman of the Board of Director 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Executive Officer
+ Treasurer
+ Chief Financial Officer and Chairman of the Board of Directors
+
+
+ 2017
+ each of Mr. Baterina and Messrs. Flemming J.H. Hansen and Arthur T. Claravall submitted his resignation from all executive officer positions with the Company
+ including Chief Executive Officer and President
+ effective immediately
+ and each submitted his resignation as a member of the Board
+ which resignation is effective immediately. On October 19
+ 2017
+ Lei Wang was appointed as Chief Executive Officer
+ Chief Financial Officer
+ sole Director
+ and Richard Rappaport was appointed Secretary
+ each effective October 19
+ 2017.
+
+
+ 2018
+ Richard Rappaport submitted his resignation as Secretary of Kokos Group Inc. (the Company)
+ effective immediately. On the same day
+ Ying Zhang was appointed Secretary
+ effective immediately.
+
+
+
+
+
+
+
+ President and Chief Executive Officer
+ Secretary and Treasurer since July 26
+ 2016. Since June 2011 Mr. Baterina has been employed by Convergys Corporation an international call center facility in Baguio City
+ Philippines as Supervisor for support staff. Prior to June 2011 and starting in August of 2008 Mr. Baterina worked for other call centers as a customer service representation. 
+
+
+ Philippines in 2008.
+
+
+ and
+ significant business contacts within the Philippines and the United States gained by his work with international companies
+ the company believes that Mr. Baterina&#8217;s background and experience make him well suited to serve as our sole officer and director.
+
+
+
+
+
+
+ brings years of experience in legal and venture capital. Mr. Hansen graduated from University of British Columbia law school in 1977 and own his own firm
+ Hansen &amp; Associates and stopped practicing law in 1990. Since that period Mr. Hansen moved to the Philippines and currently works as a Senior Financial Investment and Venture Capital Business Consultant.
+
+
+
+
+
+
+ brings years of experience in banking and financial analysis. Since 2008 Mr. Claravall has worked as a Freelance Data Outsourcing Analyst. Mr. Claravall received a Bachelor of Science in Business Administration from the Philippine School of Business Administration in 1981. From 1982 to 1991 he worked in various capacities
+ ending with Bank Controller for the Bank of the Philippines. From 1991 through 1998 Mr. Claravall worked for the Banco de Oro Universal Bank and Orient Commerical Banking Corp. as Manager. In 2005 became Chief Finance Officer for Mohalimars Petroleum and Mineral Inc. until 2008.
+
+
+
+
+
+ California. Prior to founding WestPark
+ Mr. Rappaport had over 22 years of extensive experience in the small cap investment banking and securities markets. Throughout his career he has completed the financings of hundreds of companies
+ both in the United States and around the world. Before founding WestPark Capital he was the Managing Director of Investment Banking at internationally based Global Capital Securities
+ and was Managing Director of Investment Banking at Joseph Charles &amp; Associates from 1995 to 1999. At both firms he was in charge of the Investment Banking departments and responsible for all aspects of the firms' corporate finance activities.
+
+
+ Mr. Rappaport was Managing Director at a Beverly Hills based boutique Investment Bank. He was responsible for all aspects of the firm's public offerings
+ including new business development. During this period he completed over 25 public offerings and numerous private transactions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Ltd. since February 2010.
+
+
+ he worked in the tourism industry in Wuyi Mountain
+ Fujian Province
+ China. Mr. Wang was one of the pioneers in the tourism industry of Wuyi Mountain. He has unique insight into the tourism development and prospect of Wuyi Mountain
+ including the planting
+ production and marketing of Wuyi Mountain tea.
+
+
+
+
+
+ since 2017. Previously
+ she was the COO of Shenzhen E.C Fashion Company between 2011 and 2015
+ and the Manager of China Minsheng Bank
+ between 2015-2017 Manager. 
+
+
+
+
+ Mr. Lei Wang who does not qualify as an independent director in accordance with the published listing requirements of the NASDAQ Global Market. The NASDAQ independence definition includes a series of objective tests
+ such as that the director is not
+ and has not been for at least three years
+ one of our employees and that neither the director
+ nor any of his family members has engaged in various types of business dealings with us. In addition
+ our board of directors has not made a subjective determination as to each director that no relationships exists which
+ in the opinion of our board of directors
+ would interfere with the exercise of independent judgment in carrying out the responsibilities of a director
+ though such subjective determination is required by the NASDAQ rules. Our board of directors has not made these determinations
+ our board of directors have reviewed and discussed information provided by the directors and us with regard to each director&#8217;s business and personal activities and relationships as they may relate to us and our management.
+
+
+
+
+ there have been no material legal proceedings during the last ten years that would require disclosure under the federal securities laws that are material to an evaluation of the ability or integrity of any of our directors or executive officers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ has made no provisions for paying cash or non-cash compensation to its sole officer and director. No salaries are being paid at the present time
+ and none will be paid unless and until our operations generate sufficient cash flows.
+
+
+ earned by
+ or paid to our named executive officer for all services rendered in all capacities to us for the period from inception through August 31
+ 2017.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Executive Officer
+ Secretary
+ Treasurer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Executive Officer
+ Secretary Treasurer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note: Mr. Baterina resigned all Executive positions in the Company on October 19
+ 2017
+
+
+
+
+ including
+ options
+ restricted stock
+ performance awards or other equity incentives during the fiscal year ended August 31
+ 2017 and August 31
+ 2016 for Kokos Group Inc.
+
+
+
+
+ Kokos Group Inc. has not entered into any employment agreements with its sole officer and director. If there is sufficient cash flow available from our future operations
+ the company may enter into employment agreements with our sole officer and director or future key staff members.
+
+
+
+
+ but may do so in the future. The terms of any such plan have not been determined.
+
+
+
+
+ this may be administered by the board or a committee appointed by the board (the &#8220;Committee&#8221;). The committee would have the power to modify
+ extend or renew outstanding options and to authorize the grant of new options in substitution therefore
+ provided that any such action may not impair any rights under any option previously granted. Kokos may develop an incentive based stock option plan for its officers and directors and may reserve up to 10% of its outstanding shares of common stock for that purpose.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ earned by
+ or paid to our directors for all services rendered in all capacities to us for the period from inception (July 26
+ 2016) through August 31
+ 2017.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+as of August 31
+ 2017. However as of October 19
+ 2017 both Audit Committee members resigned as directors as well as Mr. Baterina from the Board of Directors. We have not a Compensation Committee or Nominating and Corporate Governance Committee as of the filing of this Annual Report. Our Board of Directors performs the principal functions of an Audit Committee. We currently do not have an audit committee financial expert on our Board of Directors. We believe that an audit committee financial expert is not required because the cost of hiring an audit committee financial expert to act as one of our directors and to be a member of an Audit Committee outweighs the benefits of having an audit committee financial expert at this time.
+
+
+
+
+ (ii) all executive officers and directors as a group; and (iii) each shareholder known to be the beneficial owner of 5% or more of the outstanding common stock of the Company as of August 31
+ 2017.
+
+
+ a person is considered to beneficially own securities: (i) over which such person
+ directly or indirectly
+ exercises sole or shared voting or investment power
+ and (ii) of which such person has the right to acquire beneficial ownership at any time within 60 days (such as through exercise of stock options or warrants). For purposes of computing the percentage of outstanding shares held by each person or group of persons
+ any shares that such person or persons has the right to acquire within 60 days of August 31
+ 2017 are deemed to be outstanding
+ but are not deemed to be outstanding for the purpose of computing the percentage ownership of any other person. The inclusion herein of any shares listed as beneficially owned does not constitute an admission of beneficial ownership. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Executive Officer
+ Treasurer
+ Chief Financial Officer
+ Secretary and Chairman of the Board of Directors; Quinavite
+ Bauang La Union
+ Philippines
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600
+000 shares of common stock issued and outstanding as of August 31
+ 2017.
+
+
+
+
+
+
+
+
+ 2017
+ Jeoffrey C. Baterina
+ our previous President
+ Chief Executive Officer
+ director and majority shareholder
+ entered into stock purchase agreements (the Purchase Agreements) for the sale of an aggregate of 40
+000
+000 shares of Common Stock of the Company
+ representing approximately 61% of the issued and outstanding shares of Common Stock of the Company as of such date
+ to nine (9) non-U.S. accredited investors
+ including Mr. Lei Wang who acquired 20
+038
+00 shares
+ or approximately 30.54% of the issued and outstanding shares of common stock
+ and two U.S. accredited investors
+ including WP Acquisition Company
+ LLC who acquired 16
+480
+000 shares
+ or approximately 25.12% of the issued and outstanding shares of common stock. The Purchase Agreements were fully executed and delivered on October 19
+ 2017. The new shareholders other than Lei Wang and WP Acquisition Company
+ LLC each acquired less than 5% of the outstanding shares. Consequently
+ Lei Wang and WP Acquisition Company
+ LLC are now collectively able to unilaterally control the election of our board of directors
+ all matters upon which shareholder approval is required and
+ ultimately
+ the direction of our Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 13. CERTAIN RELATIONSHIP AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE. 
+
+
+
+
+ 2016 the Company issued 800
+000
+000 (pre-split-10
+000
+000) common shares at $0.0000125 ( pre-split $0.001) per share to the sole director and President of the Company for cash proceeds of $10
+000.
+
+
+ the former CEO
+ Jeoffrey C. Baterina
+ the Company&#8217;s President and Director
+ paid $3
+826 for operating expenses payment in behalf of the Company
+
+
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013 per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+000 shares of common stock of the Company.
+
+
+ 2017
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 80 new common shares for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average number of shares outstanding prior to the 80:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+
+ 2017
+ the balance of due to related party is $5
+501 (August 31
+ 2016 - $1
+675). The amounts due to the related party are unsecured and non- interest-bearing with no set terms of repayment.
+
+
+ 2017
+ Jeoffrey C. Baterina
+ our previous President
+ Chief Executive Officer
+ director and and majority shareholder
+ entered into stock purchase agreements (the Purchase Agreements) for the sale of an aggregate of 40
+000
+000 shares of Common Stock of the Company
+ representing approximately 61% of the issued and outstanding shares of Common Stock of the Company as of such date
+ to nine (9) non-U.S. accredited investors
+ including Mr. Lei Wang who acquired 20
+038
+000 shares
+ or approximately 30.54% of the issued and outstanding shares of common stock
+ and two U.S. accredited investors
+ including WP Acquisition Company
+ LLC who acquired 16
+480
+000 shares
+ or approximately 25.12% of the issued and outstanding shares of common stock. The Purchase Agreements were fully executed and delivered on October 19
+ 2017. The new shareholders other than Lei Wang and WP Acquisition Company
+ LLC each acquired less than 5% of the outstanding shares. Consequently
+ Lei Wang and WP Acquisition Company
+ LLC are now collectively able to unilaterally control the election of our board of directors
+ all matters upon which shareholder approval is required and
+ ultimately
+ the direction of our Company.
+
+
+
+
+
+
+
+
+ our independent auditor
+ for the audit of our annual financial statements and review of the financial statements that are normally provided by the accountant in connection with statutory and regulatory filings or engagements for those fiscal periods were as follows:
+
+
+
+
+
+
+
+
+
+August 31
+
+
+
+
+
+
+
+Year Ended August 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 is the year end fees charged for August 31
+ 2016. No audit fees have been accrued for the fiscal year ended August 31
+ 2017. 
+
+
+ the engagement be either: (i) approved by our Audit Committee or (ii) entered into pursuant to pre-approval policies and procedures established by the Audit Committee
+ provided that the policies and procedures are detailed as to the particular service
+ the Audit Committee is informed of each service
+ and such policies and procedures do not include delegation of the Audit Committee&#8217;s responsibilities to management.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 15. EXHIBITS
+ FINANCIAL STATEMENT SCHEDULES 
+
+
+&#8221; which is incorporated herein by reference
+ following the signature page for a list of our exhibits. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2018 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this report has been signed below by the following persons on behalf of the registrant and in the capacities and on the dates indicated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2018 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015.
+
+
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PURSUANT TO 18 U.S.C. SECTION 1350
+
+
+
+
+ Lei Wang
+ certify that:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+
+
+
+
+
+
+
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+
+
+
+
+
+
+
+
+
+
+
+ or caused such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+
+
+
+
+
+
+
+
+
+
+
+ as of the end of the period covered by this report based on such evaluation; and
+
+
+
+
+
+
+
+
+
+
+
+
+ or is reasonably likely to materially affect
+ the registrant's internal control over financial reporting; and
+
+
+
+
+
+
+ based on our most recent evaluation of internal control over financial reporting
+ to the registrant's auditors and the audit committee of the registrant's board of directors (or persons performing the equivalent functions):
+
+
+
+
+
+
+
+
+ process
+ summarize and report financial information; and
+
+
+
+
+
+
+
+
+
+
+
+
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant's internal control over financial reporting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2018 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PURSUANT TO 18 U.S.C. SECTION 1350
+ AS ADOPTED PURSUANT TO SECTION 906 OF THE SARBANES-OXLEY ACT OF 2002
+
+
+ Lei Wang
+ President and Chief Executive Officer of Kokos Group Inc.
+ hereby certify
+ pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+ that:
+
+
+
+
+
+
+
+
+ 2017 (the &#8220;Report&#8221;) fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934; and
+
+
+
+
+
+
+
+
+
+
+
+
+ in all material respects
+ the financial condition and results of operations of Kokos Group Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2018 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+      
+
+
+      
+
+
+
+
+          
+
+
+          
+
+
+
+
+      
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+ 2016 and established a fiscal year end&#13;of August 31. The Company is organized to bottle
+ market
+ distribute and sell our own brand of coconut water
+ presently called&#13;&amp;#147;Koos Coconut Water&amp;#148;. On November 10
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group&#13;Inc.
+
+ 2017 Mr. Lei Wang became its Chief Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaprt&#13;was appointed Secretary. In addition Mr. Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations&#13;from all executive officer positions with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+&#13;and each submitted their resignation as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation&#13;as Secretary of Kokos Group Inc. (the &amp;#34;Company&amp;#34;)
+ effective immediately. On the same day
+ Ying Zhang was appointed Secretary
+
+529.&#13;As at August 31
+ 2017
+ the Company has a working deficit of $6
+939. The Company requires additional funding to meet its ongoing&#13;obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is dependent on&#13;raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these factors raise&#13;substantial doubt as to the Company&amp;#146;s ability to continue as a going concern. The Company intends to continue to fund its&#13;business by way of private placements and advances from related parties as may be required. As of August 31
+ 2017 the Company&#13;has issued 800
+000
+000 founders shares at $0.0000125 per share for net proceeds of $10
+000 to the Company and private placements&#13;of 25
+600
+000 common shares at $0.000375 per share for net proceeds of $9
+600. These financial statements do not include any adjustments&#13;relating to the recoverability and classification of recorded asset amounts
+
+
+000
+000 common shares with a par value of $0.001 per share and 2
+000
+000 preferred shares&#13;with a par value of $0.001 per share. Total shares issued as of May 31
+ 2017 are 65
+600
+
+ 2016 the Company issued 800
+000
+000 (pre-split-10
+000
+000) common shares at $0.0000125 ( pre-split $0.001) per share&#13;to the sole director and President of the Company for cash proceeds of $10
+
+600 in private placements for the purchase of 25
+600
+000 ( pre-split -320
+
+ 2017 the directors of the Company amended the Company&amp;#146;s Articles of Incorporation to increase the authorized capital&#13;structure of the Corporation to include two million (2
+000
+000) shares of preferred stock
+ par value $0.001
+ and to retain the&#13;previously authorized two hundred million (200
+000
+000) shares of common stock
+
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common&#13;stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013&#13;per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+
+ 2017
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of&#13;the Company on a basis of 80 new common shares for 1 old common share. All references in these financial statements to number&#13;of common shares
+ price per share and weighted average number of shares outstanding prior to the 80:1 forward split have been&#13;adjusted to reflect the stock split on a retroactive basis
+
+
+ 2017
+ the Company issued 0 shares of preferred stock and 65
+600
+
+
+ the former CEO
+ Jeoffrey C. Baterina
+ the Company&amp;#146;s President and Director
+ paid $3
+
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common&#13;stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013&#13;per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+
+ 2017
+ the balance of due to related party is $5
+501 (August 31
+ 2016 - $1
+
+
+ 2017 the Company entered into a Purchase Agreement to supply 69
+300 private label Tetra Prisma 330ml packs of organic&#13;coconut water. The total purchase price is $55
+410. The purchaser has made the initial non-refundable payment of $2
+500. Other&#13;items on payment schedule include; an additional $2
+500 non-refundable payment upon approval of private label artwork; $35
+000&#13;upon final order by purchaser; and $15
+410 due on delivery and acceptance of product by purchaser. Product will be delivered to&#13;purchaser within 90 days of the Company receiving payments as per above schedule. Subsequent to the year end on November 30
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+ statements of operations
+
+ &amp;#147;Disclosure about Segments of an Enterprise and Related Information&amp;#148;
+ changed the way public companies report&#13;information about segments of their business in their quarterly reports issued to shareholders. It also requires entity-wide disclosures&#13;about the products and services the entity provides
+
+&amp;#148; establishes standards for the reporting and display of comprehensive loss and&#13;its components in the financial statements. As at August 31
+ 2017 the Company has no items that represent a comprehensive loss&#13;and
+ therefore
+
+
+
+ and other applicable revenue recognition&#13;guidance under US GAAP. Sales revenue is recognized for our retail and wholesale customers when: (i) persuasive evidence of a&#13;sales arrangement exists
+ (ii) the sales terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv)&#13;collectability is reasonably assured &amp;#151; generally when products are shipped to the customer and services are rendered
+
+ financial liabilities and equity instruments of the Company are either recognized or disclosed in&#13;the financial statements together with other information relevant for making a reasonable assessment of future cash flows
+
+
+ &amp;#34;Stock Compensation&amp;#34;
+ which addresses the accounting for transactions in which an entity&#13;exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee&#13;services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &amp;#34;Accounting for Stock-Based Compensation
+&amp;#34;&#13;and supersedes Accounting Principles Board (&amp;#34;APB&amp;#34;) Opinion No. 25
+ &amp;#34;Accounting for Stock Issued to Employees
+&amp;#34;&#13;and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange&#13;for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation&#13;costs arising from subsequent modifications of awards after the grant date must be recognized. The Company has not adopted a stock&#13;option plan and has not granted any stock options. As at May 31
+
+ Generally Accepted Accounting Principles (Prior authoritative literature: FASB SFAS No. 165
+ Subsequent Events (&amp;#147;SFAS&#13;165&amp;#148;)
+ issued May 28
+ 2009)
+ which establishes general standards of accounting for
+ and disclosure of
+ events that occur&#13;after the balance sheet date but before financial statements are issued or are available to be issued. FASB ASC 105-10 (SFAS 165)&#13;is effective for interim or annual financial periods ending after June 15
+
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted Accounting Principles (Prior&#13;authoritative literature: FASB SFAS No. 168
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted&#13;Accounting Principles (&amp;#147;SFAS 168&amp;#148;
+ issued June 2009)
+ establishes the FASB Accounting Standards Codification (the&#13;&amp;#147;Codification&amp;#148;) as the single source of authoritative nongovernmental U.S. GAAP. The Codification is effective for&#13;interim and annual periods ending after September 15
+
+ the FASB issued guidance now codified as ASC 105
+ Generally Accepted Accounting Principles as the single source&#13;of authoritative accounting principles recognized by the FASB to be applied by nongovernmental entities in the preparation of&#13;financial statements in conformity with U.S. GAAP
+ aside from those issued by the SEC. ASC 105 does not change current U.S. GAAP
+&#13;but is intended to simplify user access to all authoritative U.S. GAAP by providing all authoritative literature related to a&#13;particular topic in one place. The adoption of ASC 105 did not have a material impact on the Company&amp;#146;s financial statements
+
+ 2010
+
+ the FASB issued ASU 2014-10
+ &amp;#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting&#13;Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&amp;#148;. The guidance eliminates&#13;the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP&#13;for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments&#13;are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early&#13;adoption is permitted. Accordingly
+ the Company has adopted this standard as of August 31
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+
+
+    
+
+
+
+
+
+
+
+ 2017 and August 31
+ 2016
+
+
+
+
+
+
+ 2017 and August 31
+ 2016 the Company has no unrecognized income tax benefits. The Company&amp;#8217;s policy for classifying&#13;interest and penalties associated with unrecognized income tax benefits is to include such items as tax expense. No interest or&#13;penalties have been recorded during the year ended August 31
+ 2017 and August 31
+ 2016 and no interest or penalties have been&#13;accrued as of August 31
+ 2017 and August 31
+ 2016. As of August 31
+ 2017 and August 31
+ 2016
+
+
+
+ the former CEO
+ Jeoffrey C
+ Baterina paid $3
+848
+ for operating expenses payment in behalf of the Company. On&#13;November 2017
+ the former CEO
+ withdrew $353 from the Company.&amp;#160;The former CEO of the Company forgave all related party loans&#13;to the Company in a total of $8
+
+ 2018
+ the new CEO
+ Lei Wang&amp;#160;of the Company advanced the Company $9
+
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group Inc.
+
+
+
+ statements of operations
+
+
+ &amp;#147;Disclosure about Segments of an Enterprise and Related Information&amp;#148;
+ changed the way public companies report&#13;information about segments of their business in their quarterly reports issued to shareholders. It also requires entity-wide disclosures&#13;about the products and services the entity provides
+
+
+&amp;#148; establishes standards for the reporting and display of comprehensive loss and&#13;its components in the financial statements. As at August 31
+ 2017 the Company has no items that represent a comprehensive loss&#13;and
+ therefore
+
+
+
+
+
+
+ and other applicable revenue recognition&#13;guidance under US GAAP. Sales revenue is recognized for our retail and wholesale customers when: (i) persuasive evidence of a&#13;sales arrangement exists
+ (ii) the sales terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv)&#13;collectability is reasonably assured &amp;#151; generally when products are shipped to the customer and services are rendered
+
+
+ financial liabilities and equity instruments of the Company are either recognized or disclosed in&#13;the financial statements together with other information relevant for making a reasonable assessment of future cash flows
+
+    
+
+
+
+ &amp;#34;Stock Compensation&amp;#34;
+ which addresses the accounting for transactions in which an entity&#13;exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee&#13;services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &amp;#34;Accounting for Stock-Based Compensation
+&amp;#34;&#13;and supersedes Accounting Principles Board (&amp;#34;APB&amp;#34;) Opinion No. 25
+ &amp;#34;Accounting for Stock Issued to Employees
+&amp;#34;&#13;and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange&#13;for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation&#13;costs arising from subsequent modifications of awards after the grant date must be recognized. The Company has not adopted a stock&#13;option plan and has not granted any stock options. As at May 31
+
+
+ Generally Accepted Accounting Principles (Prior authoritative literature: FASB SFAS No. 165
+ Subsequent Events (&amp;#147;SFAS&#13;165&amp;#148;)
+ issued May 28
+ 2009)
+ which establishes general standards of accounting for
+ and disclosure of
+ events that occur&#13;after the balance sheet date but before financial statements are issued or are available to be issued. FASB ASC 105-10 (SFAS 165)&#13;is effective for interim or annual financial periods ending after June 15
+
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted Accounting Principles (Prior&#13;authoritative literature: FASB SFAS No. 168
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted&#13;Accounting Principles (&amp;#147;SFAS 168&amp;#148;
+ issued June 2009)
+ establishes the FASB Accounting Standards Codification (the&#13;&amp;#147;Codification&amp;#148;) as the single source of authoritative nongovernmental U.S. GAAP. The Codification is effective for&#13;interim and annual periods ending after September 15
+
+ the FASB issued guidance now codified as ASC 105
+ Generally Accepted Accounting Principles as the single source&#13;of authoritative accounting principles recognized by the FASB to be applied by nongovernmental entities in the preparation of&#13;financial statements in conformity with U.S. GAAP
+ aside from those issued by the SEC. ASC 105 does not change current U.S. GAAP
+&#13;but is intended to simplify user access to all authoritative U.S. GAAP by providing all authoritative literature related to a&#13;particular topic in one place. The adoption of ASC 105 did not have a material impact on the Company&amp;#146;s financial statements
+
+ 2010
+
+ the FASB issued ASU 2014-10
+ &amp;#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting&#13;Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&amp;#148;. The guidance eliminates&#13;the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP&#13;for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments&#13;are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early&#13;adoption is permitted. Accordingly
+ the Company has adopted this standard as of August 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+ 2017 the Company entered into a Purchase Agreement to supply 69
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+000
+000 shares of preferred stock
+ $0.001 par value
+
+
+
+
+000
+000 shares of common stock
+ $0.001 par value
+ Issued and outstanding 65
+600
+000 shares of common stock(800
+000
+000 - August 31
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+      
+
+      
+
+      
+
+
+
+
+      
+
+      
+
+
+
+
+
+ Shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+Mar. 12
+ 2018
+Feb. 28
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entity Common Stock
+ Shares Outstanding
+
+
+
+600
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If the value is true
+ then the document is an amendment to previously-filed/accepted document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal period of the document report. For a first quarter 2006 quarterly report
+ which may also provide financial information from prior periods
+ the first fiscal quarter should be given as the fiscal period focus. Values: FY
+ Q1
+ Q2
+ Q3
+ Q4
+ H1
+ H2
+ M9
+ T1
+ T2
+ T3
+ M8
+ CY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal year of the document report in CCYY format. For a 2006 annual report
+ which may also provide financial information from prior periods
+ fiscal 2006 should be given as the fiscal year focus. Example: 2006.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The end date of the period reflected on the cover page if a periodic report. For all other reports and registration statements containing historical data
+ it is the date up through which that historical data is presented.  If there is no historical data in the report
+ use the filing date. The format of the date is CCYY-MM-DD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The type of document being provided (such as 10-K
+ 10-Q
+ 485BPOS
+ etc). The document type is limited to the same value as the supporting SEC submission type
+ or the word Other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests
+ if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member]
+ Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings
+ Instrument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No whether registrants (1) have filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that registrants were required to file such reports)
+ and (2) have been subject to such filing requirements for the past 90 days. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate whether the registrant is one of the following: (1) Large Accelerated Filer
+ (2) Accelerated Filer
+ (3) Non-accelerated Filer
+ (4) Smaller Reporting Company (Non-accelerated) or (5) Smaller Reporting Accelerated Filer. Definitions of these categories are stated in Rule 12b-2 of the Exchange Act. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State aggregate market value of voting and non-voting common equity held by non-affiliates computed by reference to price at which the common equity was last sold
+ or average bid and asked price of such common equity
+ as of the last business day of registrant's most recently completed second fiscal quarter. The public float should be reported on the cover page of the registrants form 10K.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The exact name of the entity filing the report as specified in its charter
+ which is required by forms filed with the SEC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate Yes or No if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Is used on Form Type: 10-K
+ 10-Q
+ 8-K
+ 20-F
+ 6-K
+ 10-K/A
+ 10-Q/A
+ 20-F/A
+ 6-K/A
+ N-CSR
+ N-Q
+ N-1A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Aug. 31
+ 2017
+Aug. 31
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+211
+
+
+336
+
+
+
+
+
+211
+
+
+336
+
+
+
+
+
+
+
+
+
+
+
+
+149
+
+
+
+
+
+
+
+500
+
+
+
+
+
+
+
+501
+
+
+675
+
+
+
+
+
+150
+
+
+675
+
+
+
+
+
+
+
+
+
+
+Capital stock (Note 3)Authorized 2
+000
+000 shares of preferred stock
+ $0.001 par value
+ Issued and outstanding - nil
+
+
+
+
+
+
+Capital stock (Note 3)Authorized 200
+000
+000 shares of common stock
+ $0.001 par value
+ Issued and outstanding 65
+600
+000 shares of common stock(800
+000
+000 - August 31
+ 2016)
+
+600
+
+
+000
+
+
+
+
+
+010)
+
+
+000)
+
+
+
+
+
+529)
+
+
+339)
+
+
+
+
+
+939)
+
+
+661
+
+
+
+
+
+211
+
+
+336
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock
+ use the element additional paid in capital
+ common stock. For additional paid-in capital associated with only preferred stock
+ use the element additional paid in capital
+ preferred stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash
+ sold
+ or consumed within one year (or the normal operating cycle
+ if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets
+ represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of liabilities and equity items
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of expenses incurred but not yet paid classified as other
+ due within one year or the normal operating cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable preferred stock (or preferred stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable preferred shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Aug. 31
+ 2017
+Apr. 06
+ 2017
+Aug. 31
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ par value
+
+
+
+
+
+
+
+
+Common stock
+ authorized
+
+000
+000
+
+
+000
+000
+
+
+000
+000
+
+
+
+Common stock
+ issued
+
+600
+000
+
+
+
+
+000
+000
+
+
+
+Common stock
+ outstanding
+
+600
+000
+
+
+
+
+000
+000
+
+
+
+Preferred stock
+ par value
+
+
+
+
+
+
+
+
+Preferred stock
+ authorized
+
+000
+000
+
+
+000
+000
+
+
+000
+000
+
+
+
+Preferred stock
+ issued
+
+
+
+
+
+
+
+
+Preferred stock
+ outstanding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) issued to shareholders (includes related preferred shares that were issued
+ repurchased
+ and remain in the treasury). May be all or portion of the number of preferred shares authorized. Excludes preferred shares that are classified as debt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2016
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+339
+
+
+240
+
+
+
+
+
+
+
+950
+
+
+
+
+
+339)
+
+
+190)
+
+
+
+
+
+339)
+
+
+190)
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+502
+466
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate total of expenses of managing and administering the affairs of an entity
+ including affiliates of the reporting entity
+ which are not directly or indirectly associated with the manufacture
+ sale or creation of a product or product line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A fee charged for services from professionals such as doctors
+ lawyers and accountants. The term is often expanded to include other professions
+ for example
+ pharmacists charging to maintain a medicinal profile of a client or customer.
+ -Subparagraph (SX 210.6-07.2(a)
+(b)
+(c)
+(d))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of revenue recognized from goods sold
+ services rendered
+ insurance premiums
+ or other activities that constitute an earning process. Includes
+ but is not limited to
+ investment and interest income before deduction of interest expense when recognized as a component of revenue
+ and sales and trading gain (loss).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number of [basic] shares or units
+ after adjustment for contingently issuable shares or units and other shares or units not deemed outstanding
+ determined by relating the portion of time within a reporting period that common shares or units have been outstanding to the total time in that period.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+Beginning balance
+ Shares at Jul. 25
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+Beginning balance
+ Amount at Jul. 25
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+Common shares issued for cash at $0.0000125 per share
+ Shares
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+Common shares issued for cash at $0.0000125 per share
+ Amount
+
+000
+
+
+000)
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+339)
+
+
+339)
+
+
+
+Ending balance
+ Shares at Aug. 31
+ 2016
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+Ending balance
+ Amount at Aug. 31
+ 2016
+
+000
+
+
+000)
+
+
+
+
+339)
+
+
+661
+
+
+
+Common shares issued for cash at $0.000375 per share
+ Shares
+
+600
+000
+
+
+
+
+
+
+
+
+
+
+
+Common shares issued for cash at $0.000375 per share
+ Amount
+
+600
+
+
+000)
+
+
+
+
+
+
+600
+
+
+
+Shares return to treasury at $0.000000013 per share
+ Shares
+
+000
+000)
+
+
+
+
+
+
+
+
+
+
+
+Shares return to treasury at $0.000000013 per share
+ Amount
+
+000)
+
+
+990
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+190)
+
+
+190)
+
+
+
+Ending balance
+ Shares at Aug. 31
+ 2017
+
+600
+000
+
+
+
+
+
+
+
+
+
+
+
+Ending balance
+ Amount at Aug. 31
+ 2017
+
+600
+
+
+010)
+
+
+
+
+529)
+
+
+939)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number of shares of stock issued as of the balance sheet date
+ including shares that had been issued and were previously outstanding but which are now held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2016
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+339)
+
+
+190)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+149
+
+
+
+
+
+
+
+500
+
+
+
+
+
+339)
+
+
+541)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+600
+
+
+
+
+
+675
+
+
+816
+
+
+
+
+
+675
+
+
+416
+
+
+
+
+
+336
+
+
+125)
+
+
+
+CASH
+ BEGINNING
+
+
+
+336
+
+
+
+CASH
+ ENDING
+
+336
+
+
+211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of increase (decrease) in cash and cash equivalents. Cash and cash equivalents are the amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The amount of cash paid during the current period to foreign
+ federal
+ state
+ and local authorities as taxes on income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of increase (decrease) in obligations incurred but not paid
+ and operating obligations classified as other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from financing activities
+ including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from investing activities
+ including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property
+ plant
+ and equipment and other productive assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from operating activities
+ including discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash inflow from a long-term borrowing made from related parties where one party can exercise control or significant influence over another party; including affiliates
+ owners or officers and their immediate families
+ pension trusts
+ and so forth. Alternate caption: Proceeds from Advances from Affiliates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+KOKOS
+GROUP INC. was incorporated in the State of Nevada as a for-profit Company on July 26
+ 2016 and established a fiscal year end
+of August 31. The Company is organized to bottle
+ market
+ distribute and sell our own brand of coconut water
+ presently called
+&#147;Koos Coconut Water&#148;. On November 10
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group
+Inc.
+ amended the Company&#146;s current Certificate of Incorporation in conformity with the applicable laws of the State of
+Nevada to change the name of the Company from Kokos Group Inc. to China Wu Yi Mountain Ltd. The Company is waiting for approval
+of the name change from FINRA.
+
+On
+October 19
+ 2017 Mr. Lei Wang became its Chief Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaprt
+was appointed Secretary. In addition Mr. Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations
+from all executive officer positions with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+and each submitted their resignation as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation
+as Secretary of Kokos Group Inc. (the &#34;Company&#34;)
+ effective immediately. On the same day
+ Ying Zhang was appointed Secretary
+effective immediately.
+
+Going
+concern
+To
+date the Company has generated no revenues from its business operations and has incurred operating losses since inception of $26
+529.
+As at August 31
+ 2017
+ the Company has a working deficit of $6
+939. The Company requires additional funding to meet its ongoing
+obligations and to fund anticipated operating losses. The ability of the Company to continue as a going concern is dependent on
+raising capital to fund its initial business plan and ultimately to attain profitable operations. Accordingly
+ these factors raise
+substantial doubt as to the Company&#146;s ability to continue as a going concern. The Company intends to continue to fund its
+business by way of private placements and advances from related parties as may be required. As of August 31
+ 2017 the Company
+has issued 800
+000
+000 founders shares at $0.0000125 per share for net proceeds of $10
+000 to the Company and private placements
+of 25
+600
+000 common shares at $0.000375 per share for net proceeds of $9
+600. These financial statements do not include any adjustments
+relating to the recoverability and classification of recorded asset amounts
+ or amounts and classification of liabilities that
+might result from this uncertainty.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for the business description and basis of presentation concepts.  Business description describes the nature and type of organization including but not limited to organizational structure as may be applicable to holding companies
+ parent and subsidiary relationships
+ business divisions
+ business units
+ business segments
+ affiliates and information about significant ownership of the reporting entity.  Basis of presentation describes the underlying basis used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+Basis
+of Presentation
+
+The
+financial statements present the balance sheet
+ statements of operations
+ stockholders&#146; equity (deficit) and cash flows
+of the Company. These financial statements are presented in the United States dollars and have been prepared in accordance with
+accounting principles generally accepted in the United States.
+
+Segmented
+Reporting
+
+FSAB
+ASC 280
+ &#147;Disclosure about Segments of an Enterprise and Related Information&#148;
+ changed the way public companies report
+information about segments of their business in their quarterly reports issued to shareholders. It also requires entity-wide disclosures
+about the products and services the entity provides
+ the material countries in which it holds assets and reports revenues and
+its major customers.
+
+Comprehensive
+Loss
+
+ADVANCE
+\d 5&#147;Reporting Comprehensive Income
+&#148; establishes standards for the reporting and display of comprehensive loss and
+its components in the financial statements. As at August 31
+ 2017 the Company has no items that represent a comprehensive loss
+and
+ therefore
+ has not included a schedule of comprehensive loss in the financial statements.
+
+Use
+of Estimates and Assumptions
+
+Preparation
+of the financial statements in conformity with generally accepted accounting principles requires management to make estimates
+and assumptions that affect certain reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the period. Accordingly
+ actual
+results could differ from those estimates.
+
+Cash
+and Cash Equivalents
+
+For
+purposes of the statement of cash flows
+ the Company considers highly liquid financial instruments purchased with a maturity of
+three months or less to be cash equivalents.
+
+Revenue
+Recognition
+
+The
+Company recognizes revenue in accordance with ASC topic 605 &#147;Revenue Recognition
+ and other applicable revenue recognition
+guidance under US GAAP. Sales revenue is recognized for our retail and wholesale customers when: (i) persuasive evidence of a
+sales arrangement exists
+ (ii) the sales terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv)
+collectability is reasonably assured &#151; generally when products are shipped to the customer and services are rendered
+ except
+in situations in which title passes upon receipt of the products by the customer. Revenue consists of revenue earned for the sale
+of organic coconut water and services provided by the Company. Revenue is recognized at the time the product is shipped to the
+customer and or services provided by the Company are fulfilled.
+
+Financial
+Instruments
+
+All
+significant financial assets
+ financial liabilities and equity instruments of the Company are either recognized or disclosed in
+the financial statements together with other information relevant for making a reasonable assessment of future cash flows
+ interest
+rate risk and credit risk. Where practical the fair values of financial assets and financial liabilities have been determined
+and disclosed; otherwise only available information pertinent to fair value has been disclosed.
+
+Loss
+per Common Share
+
+The
+basic earnings (loss) per share is calculated by dividing the Company&#146;s net income available to common shareholders by the
+weighted average number of common shares during the year. The diluted earnings (loss) per share is calculated by dividing the
+Company&#146;s net income (loss) available to common shareholders by the diluted weighted average number of shares outstanding
+during the year. The diluted weighted average number of shares outstanding is the basic weighted number of shares adjusted for
+any potentially dilutive debt or equity. Diluted earnings (loss) per share are the same as basic earnings (loss) per share due
+to the lack of dilutive items in the Company.
+
+Income
+Taxes
+
+The
+Company follows the liability method of accounting for income taxes. Under this method
+ deferred tax assets and liabilities are
+recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of existing
+assets and liabilities and their respective tax balances and tax loss carry-forwards. Deferred tax assets and liabilities are
+measured using enacted or substantially enacted tax rates expected to apply to the taxable income in the years in which those
+differences are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates
+is recognized in income in the period that includes the date of enactment or substantive enactment.
+
+Stock-based
+Compensation
+
+The
+Company follows ASC 718-10
+ &#34;Stock Compensation&#34;
+ which addresses the accounting for transactions in which an entity
+exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee
+services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &#34;Accounting for Stock-Based Compensation
+&#34;
+and supersedes Accounting Principles Board (&#34;APB&#34;) Opinion No. 25
+ &#34;Accounting for Stock Issued to Employees
+&#34;
+and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange
+for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation
+costs arising from subsequent modifications of awards after the grant date must be recognized. The Company has not adopted a stock
+option plan and has not granted any stock options. As at May 31
+ 2017 the Company had not adopted a stock option plan nor had
+it granted any stock options. Accordingly no stock-based compensation has been recorded to date.
+
+Recent
+Accounting Pronouncements
+
+FASB
+ASC 105-10
+ Generally Accepted Accounting Principles (Prior authoritative literature: FASB SFAS No. 165
+ Subsequent Events (&#147;SFAS
+165&#148;)
+ issued May 28
+ 2009)
+ which establishes general standards of accounting for
+ and disclosure of
+ events that occur
+after the balance sheet date but before financial statements are issued or are available to be issued. FASB ASC 105-10 (SFAS 165)
+is effective for interim or annual financial periods ending after June 15
+ 2009. The adoption of FASB ASC 105-10 (SFAS 165) did
+not have a material effect on the company&#146;s financial position or results of operations.
+
+FASB
+ASC 105-10-65
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted Accounting Principles (Prior
+authoritative literature: FASB SFAS No. 168
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted
+Accounting Principles (&#147;SFAS 168&#148;
+ issued June 2009)
+ establishes the FASB Accounting Standards Codification (the
+&#147;Codification&#148;) as the single source of authoritative nongovernmental U.S. GAAP. The Codification is effective for
+interim and annual periods ending after September 15
+ 2009. The adoption of FASB ASC 105-10-65 (SFAS 168) did not have a material
+impact on the Company&#146;s financial statements
+
+In
+September 2009
+ the FASB issued guidance now codified as ASC 105
+ Generally Accepted Accounting Principles as the single source
+of authoritative accounting principles recognized by the FASB to be applied by nongovernmental entities in the preparation of
+financial statements in conformity with U.S. GAAP
+ aside from those issued by the SEC. ASC 105 does not change current U.S. GAAP
+but is intended to simplify user access to all authoritative U.S. GAAP by providing all authoritative literature related to a
+particular topic in one place. The adoption of ASC 105 did not have a material impact on the Company&#146;s financial statements
+but did eliminate all references to pre-codification standards.
+
+On
+February 24
+ 2010
+ the FASB issued guidance in the &#34;Subsequent Events&#34; topic of the FASC to provide updates including:
+(1) requiring the company to evaluate subsequent events through the date in which the financial statements are issued; (2) amending
+the glossary of the &#34;Subsequent Events&#34; topic to include the definition of &#34;SEC filer&#34; and exclude the definition
+of &#34;Public entity&#34;; and (3) eliminating the requirement to disclose the date through which subsequent events have been
+evaluated. This guidance was prospectively effective upon issuance. The adoption of this guidance did not impact the Company's
+results of operations of financial condition.
+
+In
+June 2014
+ the FASB issued ASU 2014-10
+ &#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting
+Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&#148;. The guidance eliminates
+the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP
+for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments
+are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early
+adoption is permitted. Accordingly
+ the Company has adopted this standard as of August 31
+ 2016.
+
+The
+Company has implemented all new accounting pronouncements that are in effect and that may impact its financial statements and
+does not believe that there are any other new accounting pronouncements that have been issued that might have a material impact
+on its financial position or results of operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+The
+Company&#146;s capitalization is 200
+000
+000 common shares with a par value of $0.001 per share and 2
+000
+000 preferred shares
+with a par value of $0.001 per share. Total shares issued as of May 31
+ 2017 are 65
+600
+000 common shares and no preferred shares
+have been issued.
+
+On
+July 26
+ 2016 the Company issued 800
+000
+000 (pre-split-10
+000
+000) common shares at $0.0000125 ( pre-split $0.001) per share
+to the sole director and President of the Company for cash proceeds of $10
+000.
+
+During
+March 2017 the Company received $9
+600 in private placements for the purchase of 25
+600
+000 ( pre-split -320
+000 common shares
+of the Company&#146;s stock at $0.000375 (pre-split $0.03) per share.
+
+On
+April 6
+ 2017 the directors of the Company amended the Company&#146;s Articles of Incorporation to increase the authorized capital
+structure of the Corporation to include two million (2
+000
+000) shares of preferred stock
+ par value $0.001
+ and to retain the
+previously authorized two hundred million (200
+000
+000) shares of common stock
+ par value ($0.001).
+
+On
+April 10
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common
+stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013
+per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+000 shares
+of common stock of the Company.
+
+On
+April 20
+ 2017
+ the directors of the Company approved a special resolution to undertake a forward split of the common stock of
+the Company on a basis of 80 new common shares for 1 old common share. All references in these financial statements to number
+of common shares
+ price per share and weighted average number of shares outstanding prior to the 80:1 forward split have been
+adjusted to reflect the stock split on a retroactive basis
+ unless otherwise noted.
+
+As
+of August 31
+ 2017 the Company has not granted any stock options and has not recorded any stock-based compensation.
+
+As
+of August 31
+ 2017
+ the Company issued 0 shares of preferred stock and 65
+600
+000 common shares are issued and outstanding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for shareholders' equity comprised of portions attributable to the parent entity and noncontrolling interest
+ including other comprehensive income. Includes
+ but is not limited to
+ balances of common stock
+ preferred stock
+ additional paid-in capital
+ other capital and retained earnings
+ accumulated balance for each classification of other comprehensive income and amount of comprehensive income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+During
+this period
+ the former CEO
+ Jeoffrey C. Baterina
+ the Company&#146;s President and Director
+ paid $3
+826 for operating expenses
+payment in behalf of the Company
+
+On
+April 10
+ 2017
+ the founding shareholder of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common
+stock to treasury and the shares were subsequently cancelled by the Company. The shares were returned to treasury for $0.000000013
+per share for a total consideration of $10 to the shareholder. Post-split our founding shareholder will have 40
+000
+000 shares
+of common stock of the Company.
+
+As
+of August 31
+ 2017
+ the balance of due to related party is $5
+501 (August 31
+ 2016 - $1
+675). The amounts due to the related party
+are unsecured and non- interest-bearing with no set terms of repayment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+On
+February 25
+ 2017 the Company entered into a Purchase Agreement to supply 69
+300 private label Tetra Prisma 330ml packs of organic
+coconut water. The total purchase price is $55
+410. The purchaser has made the initial non-refundable payment of $2
+500. Other
+items on payment schedule include; an additional $2
+500 non-refundable payment upon approval of private label artwork; $35
+000
+upon final order by purchaser; and $15
+410 due on delivery and acceptance of product by purchaser. Product will be delivered to
+purchaser within 90 days of the Company receiving payments as per above schedule. Subsequent to the year end on November 30
+ 2018
+the client who entered into the Purchase Agreement has decided not to proceed with the purchase order.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+A
+reconciliation of the provision for income taxes at the United States federal statutory rate compared to the Company&#8217;s income
+tax expense as reported is as follows:
+
+
+
+    
+    
+August
+                                         31
+
+        
+    
+    
+August
+                                         31
+
+2016
+        
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+Net
+    loss before income taxes per financial statements
+    
+    
+(25
+189
+    
+    
+    
+(1
+339
+    
+
+Income
+    tax rate
+    
+    
+    
+    
+    
+    
+    
+    
+
+Income
+    tax recovery
+    
+    
+(8
+564
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Valuation
+    allowance change
+    
+    
+8
+564
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Provision
+    for income taxes 
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+The
+significant component of deferred income tax assets at August 31
+ 2017 and August 31
+ 2016
+ is as follows:
+
+
+
+    
+    
+August
+                                         31
+
+        
+    
+    
+August
+                                         31
+
+        
+    
+
+Net
+    operating loss carry-forward
+    
+    
+9
+019
+    
+    
+    
+    
+    
+
+Valuation
+    allowance
+    
+    
+(9
+019
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Net
+    deferred income tax asset
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+The
+amount taken into income as deferred income tax assets must reflect that portion of the income tax loss carry forwards that is
+more likely-than-not to be realized from future operations. The Company has chosen to provide a full valuation allowance against
+all available income tax loss carry forwards. The Company has recognized a valuation allowance for the deferred income tax asset
+since the Company cannot be assured that it is more likely than not that such benefit will be utilized in future years. The valuation
+allowance is reviewed annually. When circumstances change and which cause a change in management's judgment about the realizability
+of deferred income tax assets
+ the impact of the change on the valuation allowance is generally reflected in current income.
+
+As
+of August 31
+ 2017 and August 31
+ 2016 the Company has no unrecognized income tax benefits. The Company&#8217;s policy for classifying
+interest and penalties associated with unrecognized income tax benefits is to include such items as tax expense. No interest or
+penalties have been recorded during the year ended August 31
+ 2017 and August 31
+ 2016 and no interest or penalties have been
+accrued as of August 31
+ 2017 and August 31
+ 2016. As of August 31
+ 2017 and August 31
+ 2016
+ the Company did not have any amounts
+recorded pertaining to uncertain tax positions.
+
+The
+tax years from 2016 and forward remain open to examination by federal and state authorities due to net operating loss and credit
+carryforwards. The Company is currently not under examination by the Internal Revenue Service or any other taxing authorities.
+
+Due
+to a subsequent change in control
+ certain losses may not be available for carryforward under Section 382 of the Internal Revenue
+Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for income taxes. Disclosures may include net deferred tax liability or asset recognized in an enterprise's statement of financial position
+ net change during the year in the total valuation allowance
+ approximate tax effect of each type of temporary difference and carryforward that gives rise to a significant portion of deferred tax liabilities and deferred tax assets
+ utilization of a tax carryback
+ and tax uncertainties information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+On&#160;September
+and October 2017
+ the former CEO
+ Jeoffrey C
+ Baterina paid $3
+848
+ for operating expenses payment in behalf of the Company. On
+November 2017
+ the former CEO
+ withdrew $353 from the Company.&#160;The former CEO of the Company forgave all related party loans
+to the Company in a total of $8
+996. This will be reflected an increase in Additional-Paid-In-Capital in the financial statements.
+
+On
+January 25
+ 2018
+ the new CEO
+ Lei Wang&#160;of the Company advanced the Company $9
+000. The amounts due to the related party
+are unsecured and non- interest-bearing with no set terms of repayment.
+
+On
+November 10
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group Inc.
+ amended the Company&#8217;s
+current Certificate of Incorporation in conformity with the applicable laws of the State of Nevada to change the name of the Company
+from Kokos Group Inc. to China Wu Yi Mountain Ltd. The Company is waiting for approval of the name change from FINRA.
+
+Subsequent
+to the year end on November 30
+ 2018 the client who entered into the Purchase Agreement has decided not to proceed with the purchase
+order. (refer Note 5 Agreements).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue
+ purchase of a business
+ settlement of litigation
+ losses resulting from fire or flood
+ losses on receivables
+ significant realized and unrealized gains and losses that result from changes in quoted market prices of securities
+ declines in market prices of inventory
+ changes in authorized or issued debt (SEC)
+ significant foreign exchange rate changes
+ substantial loans to insiders or affiliates
+ significant long-term investments
+ and substantial dividends not in the ordinary course of business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+The
+financial statements present the balance sheet
+ statements of operations
+ stockholders&#146; equity (deficit) and cash flows
+of the Company. These financial statements are presented in the United States dollars and have been prepared in accordance with
+accounting principles generally accepted in the United States.
+
+
+
+
+FSAB
+ASC 280
+ &#147;Disclosure about Segments of an Enterprise and Related Information&#148;
+ changed the way public companies report
+information about segments of their business in their quarterly reports issued to shareholders. It also requires entity-wide disclosures
+about the products and services the entity provides
+ the material countries in which it holds assets and reports revenues and
+its major customers.
+
+
+
+
+ADVANCE
+\d 5&#147;Reporting Comprehensive Income
+&#148; establishes standards for the reporting and display of comprehensive loss and
+its components in the financial statements. As at August 31
+ 2017 the Company has no items that represent a comprehensive loss
+and
+ therefore
+ has not included a schedule of comprehensive loss in the financial statements.
+
+
+
+
+Preparation
+of the financial statements in conformity with generally accepted accounting principles requires management to make estimates
+and assumptions that affect certain reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the period. Accordingly
+ actual
+results could differ from those estimates.
+
+
+
+
+For
+purposes of the statement of cash flows
+ the Company considers highly liquid financial instruments purchased with a maturity of
+three months or less to be cash equivalents.
+
+
+
+
+The
+Company recognizes revenue in accordance with ASC topic 605 &#147;Revenue Recognition
+ and other applicable revenue recognition
+guidance under US GAAP. Sales revenue is recognized for our retail and wholesale customers when: (i) persuasive evidence of a
+sales arrangement exists
+ (ii) the sales terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv)
+collectability is reasonably assured &#151; generally when products are shipped to the customer and services are rendered
+ except
+in situations in which title passes upon receipt of the products by the customer. Revenue consists of revenue earned for the sale
+of organic coconut water and services provided by the Company. Revenue is recognized at the time the product is shipped to the
+customer and or services provided by the Company are fulfilled.
+
+
+
+
+All
+significant financial assets
+ financial liabilities and equity instruments of the Company are either recognized or disclosed in
+the financial statements together with other information relevant for making a reasonable assessment of future cash flows
+ interest
+rate risk and credit risk. Where practical the fair values of financial assets and financial liabilities have been determined
+and disclosed; otherwise only available information pertinent to fair value has been disclosed.
+
+
+
+
+The
+basic earnings (loss) per share is calculated by dividing the Company&#146;s net income available to common shareholders by the
+weighted average number of common shares during the year. The diluted earnings (loss) per share is calculated by dividing the
+Company&#146;s net income (loss) available to common shareholders by the diluted weighted average number of shares outstanding
+during the year. The diluted weighted average number of shares outstanding is the basic weighted number of shares adjusted for
+any potentially dilutive debt or equity. Diluted earnings (loss) per share are the same as basic earnings (loss) per share due
+to the lack of dilutive items in the Company.
+
+
+
+
+The
+Company follows the liability method of accounting for income taxes. Under this method
+ deferred tax assets and liabilities are
+recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of existing
+assets and liabilities and their respective tax balances and tax loss carry-forwards. Deferred tax assets and liabilities are
+measured using enacted or substantially enacted tax rates expected to apply to the taxable income in the years in which those
+differences are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates
+is recognized in income in the period that includes the date of enactment or substantive enactment.
+
+
+
+
+The
+Company follows ASC 718-10
+ &#34;Stock Compensation&#34;
+ which addresses the accounting for transactions in which an entity
+exchanges its equity instruments for goods or services
+ with a primary focus on transactions in which an entity obtains employee
+services in share-based payment transactions. ASC 718-10 is a revision to SFAS No. 123
+ &#34;Accounting for Stock-Based Compensation
+&#34;
+and supersedes Accounting Principles Board (&#34;APB&#34;) Opinion No. 25
+ &#34;Accounting for Stock Issued to Employees
+&#34;
+and its related implementation guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange
+for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). Incremental compensation
+costs arising from subsequent modifications of awards after the grant date must be recognized. The Company has not adopted a stock
+option plan and has not granted any stock options. As at May 31
+ 2017 the Company had not adopted a stock option plan nor had
+it granted any stock options. Accordingly no stock-based compensation has been recorded to date.
+
+
+
+
+FASB
+ASC 105-10
+ Generally Accepted Accounting Principles (Prior authoritative literature: FASB SFAS No. 165
+ Subsequent Events (&#147;SFAS
+165&#148;)
+ issued May 28
+ 2009)
+ which establishes general standards of accounting for
+ and disclosure of
+ events that occur
+after the balance sheet date but before financial statements are issued or are available to be issued. FASB ASC 105-10 (SFAS 165)
+is effective for interim or annual financial periods ending after June 15
+ 2009. The adoption of FASB ASC 105-10 (SFAS 165) did
+not have a material effect on the company&#146;s financial position or results of operations.
+
+FASB
+ASC 105-10-65
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted Accounting Principles (Prior
+authoritative literature: FASB SFAS No. 168
+ The FASB Accounting Standards Codification and the Hierarchy of Generally Accepted
+Accounting Principles (&#147;SFAS 168&#148;
+ issued June 2009)
+ establishes the FASB Accounting Standards Codification (the
+&#147;Codification&#148;) as the single source of authoritative nongovernmental U.S. GAAP. The Codification is effective for
+interim and annual periods ending after September 15
+ 2009. The adoption of FASB ASC 105-10-65 (SFAS 168) did not have a material
+impact on the Company&#146;s financial statements
+
+In
+September 2009
+ the FASB issued guidance now codified as ASC 105
+ Generally Accepted Accounting Principles as the single source
+of authoritative accounting principles recognized by the FASB to be applied by nongovernmental entities in the preparation of
+financial statements in conformity with U.S. GAAP
+ aside from those issued by the SEC. ASC 105 does not change current U.S. GAAP
+but is intended to simplify user access to all authoritative U.S. GAAP by providing all authoritative literature related to a
+particular topic in one place. The adoption of ASC 105 did not have a material impact on the Company&#146;s financial statements
+but did eliminate all references to pre-codification standards.
+
+On
+February 24
+ 2010
+ the FASB issued guidance in the &#34;Subsequent Events&#34; topic of the FASC to provide updates including:
+(1) requiring the company to evaluate subsequent events through the date in which the financial statements are issued; (2) amending
+the glossary of the &#34;Subsequent Events&#34; topic to include the definition of &#34;SEC filer&#34; and exclude the definition
+of &#34;Public entity&#34;; and (3) eliminating the requirement to disclose the date through which subsequent events have been
+evaluated. This guidance was prospectively effective upon issuance. The adoption of this guidance did not impact the Company's
+results of operations of financial condition.
+
+In
+June 2014
+ the FASB issued ASU 2014-10
+ &#147;Development Stage Entities (Topic 915): Elimination of Certain Financial Reporting
+Requirements
+ Including an Amendment to Variable Interest Entities Guidance in Topic 810
+ Consolidation&#148;. The guidance eliminates
+the definition of a development stage entity thereby removing the incremental financial reporting requirements from U.S. GAAP
+for development stage entities
+ primarily presentation of inception to date financial information. The provisions of the amendments
+are effective for annual reporting periods beginning after December 15
+ 2014
+ and the interim periods therein. However
+ early
+adoption is permitted. Accordingly
+ the Company has adopted this standard as of August 31
+ 2016.
+
+The
+Company has implemented all new accounting pronouncements that are in effect and that may impact its financial statements and
+does not believe that there are any other new accounting pronouncements that have been issued that might have a material impact
+on its financial position or results of operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for basis of accounting
+ or basis of presentation
+ used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for cash and cash equivalents
+ including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents
+ (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk
+ (3) the classification of any negative balance accounts (overdrafts)
+ and (4) the carrying basis of cash equivalents (for example
+ at cost) and whether the carrying amount of cash equivalents approximates fair value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for computing basic and diluted earnings or loss per share for each class of common stock and participating security. Addresses all significant policy factors
+ including any antidilutive items that have been excluded from the computation and takes into account stock dividends
+ splits and reverse splits that occur after the balance sheet date of the latest reporting period but before the issuance of the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for income taxes
+ which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances
+ recognizing investment tax credits
+ operating loss carryforwards
+ tax credit carryforwards
+ and other carryforwards
+ methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for revenue recognition for long-duration contracts
+ including the timing of revenue recognition and the basis for determining the amount of revenue recognized
+ excluding fees earned on separate accounts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy pertaining to new accounting pronouncements that may impact the entity's financial reporting. Includes
+ but is not limited to
+ quantification of the expected or actual impact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for stock option and stock incentive plans. This disclosure may include (1) the types of stock option or incentive plans sponsored by the entity (2) the groups that participate in (or are covered by) each plan (3) significant plan provisions and (4) how stock compensation is measured
+ and the methodologies and significant assumptions used to determine that measurement.
+ -Subparagraph (b)
+(f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+    
+    
+August
+                                         31
+
+        
+    
+    
+August
+                                         31
+
+2016
+        
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+Net
+    loss before income taxes per financial statements
+    
+    
+(25
+189
+    
+    
+    
+(1
+339
+    
+
+Income
+    tax rate
+    
+    
+    
+    
+    
+    
+    
+    
+
+Income
+    tax recovery
+    
+    
+(8
+564
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Valuation
+    allowance change
+    
+    
+8
+564
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Provision
+    for income taxes 
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    
+    
+August
+                                         31
+
+        
+    
+    
+August
+                                         31
+
+        
+    
+
+Net
+    operating loss carry-forward
+    
+    
+9
+019
+    
+    
+    
+    
+    
+
+Valuation
+    allowance
+    
+    
+(9
+019
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Net
+    deferred income tax asset
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of the components of net deferred tax asset or liability recognized in an entity's statement of financial position
+ including the following: the total of all deferred tax liabilities
+ the total of all deferred tax assets
+ the total valuation allowance recognized for deferred tax assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2016
+
+
+
+
+
+
+
+
+
+
+939)
+
+
+
+
+
+529)
+
+
+
+Common stock
+ issued | shares
+
+000
+000
+
+
+
+Issuance of common shares
+ per share | $ / shares
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+Common stock
+ issued | shares
+
+600
+000
+
+
+
+Issuance of common shares
+ per share | $ / shares
+
+
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+Apr. 10
+ 2017
+Apr. 20
+ 2017
+Mar. 31
+ 2017
+Aug. 31
+ 2016
+Aug. 31
+ 2017
+Apr. 06
+ 2017
+
+
+Common stock
+ par value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ authorized
+
+
+
+
+
+
+
+000
+000
+
+
+000
+000
+
+
+000
+000
+
+
+
+Common stock
+ issued
+
+
+
+
+
+
+
+000
+000
+
+
+600
+000
+
+
+
+
+
+Common stock
+ outstanding
+
+
+
+
+
+
+
+000
+000
+
+
+600
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+600
+
+
+
+
+
+Preferred stock
+ par value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preferred stock
+ authorized
+
+
+
+
+
+
+
+000
+000
+
+
+000
+000
+
+
+000
+000
+
+
+
+Preferred stock
+ issued
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preferred stock
+ outstanding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+500
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ par value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ issued
+
+
+
+
+
+600
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+Common stock
+ per share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) issued to shareholders (includes related preferred shares that were issued
+ repurchased
+ and remain in the treasury). May be all or portion of the number of preferred shares authorized. Excludes preferred shares that are classified as debt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Apr. 10
+ 2017
+Aug. 31
+ 2016
+Aug. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+675
+
+
+816
+
+
+
+
+
+
+
+675
+
+
+501
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+500
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets
+ represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash inflow from a long-term borrowing made from related parties where one party can exercise control or significant influence over another party; including affiliates
+ owners or officers and their immediate families
+ pension trusts
+ and so forth. Alternate caption: Proceeds from Advances from Affiliates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Feb. 25
+ 2017
+Aug. 31
+ 2017
+Aug. 31
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2017 the Company entered into a Purchase Agreement to supply 69
+300 private label Tetra Prisma 330ml packs of organic coconut water.
+
+
+
+
+
+
+
+
+
+410
+
+
+
+
+
+
+
+
+
+500
+
+
+500
+
+
+
+
+
+
+
+500
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+410
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of expenses incurred but not yet paid classified as other
+ due within one year or the normal operating cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+Aug. 31
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+189)
+
+
+339)
+
+
+
+
+
+
+
+
+
+
+
+
+564)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+564
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of income (loss) from continuing operations
+ nonoperating income (expense) and income (loss) from equity method investments
+ before deduction of income tax expense (benefit) and income (loss) attributable to noncontrolling interest
+ and addition of interest income (expense).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (a)
+(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Aug. 31
+ 2017
+Aug. 31
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+019
+
+
+
+
+
+
+
+019)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount
+ after allocation of valuation allowances and deferred tax liability
+ of deferred tax asset attributable to deductible differences and carryforwards
+ with jurisdictional netting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2017
+Jan. 25
+ 2018
+Nov. 30
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+848
+
+
+
+
+
+
+
+
+
+996
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of asset related to consideration paid in advance for costs that provide economic benefits within a future period of one year or the normal operating cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash outflow for the payment of a long-term borrowing made from a related party where one party can exercise control or significant influence over another party; including affiliates
+ owners or officers and their immediate families
+ pension trusts
+ and so forth. Alternate caption: Payments for Advances from Affiliates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 Financial_Report.xlsx
+M4$L#!!0    ( (UV;$P?(\\#P    !
+
+
+Q')N<2SMP
+
+
+
+!3+UES@6QHO(];JM-O=5H1I;*$81V1@?5XL:$#05%%:;U\@M.4?
+M
+_@5RU2-9:
+!$U=!)KF(M/+Y;
+
+M5
++$P&IG/U9KQ]'22(R7V4!;I)]J/3%0@R#3LZG5C.=GSVQ.V?C
+K:=#1M
+
+
+
+
+
+
+_Y/%_GM
+T+
+T.W
+
+
+M4E5@
+5O& RN0HGQ
+
+
+MOT4SMA*7&+SCYL=Q3E.X$G:V#P(RN;LYJ7IE
+
+
+G'G%$0%T10(C
+
+
+
+U_HL@6V$5#)DU1?*0XG!/3-R0]A4)?.NVB8+
+MA=OB5
+
+)%K/]8UA[Y
+M
+
+
+
+0QY@%CS#*%F.-^'19H:
+M
+
+M 5!+ P04     -=FQ
+
+
+MXH]EB
+VB(<BIKULB2-X%@YV6XQHL=S@W!
+
+M8M
+
+#T!Z8FE
+
+
+
+MXIQ&/28;N7')1CV._8-3YP=ML6^Y;,TB\QO0@LV/?8]3=SC\)
+'& 8-C[V
+
+ZS'C#
+B$79UT.CBJIFXV*) !D=^:VQ%
+
+M965T
+
+F;5+5J=NUDS@)*F!FG*1[
+M^]F&(F(?HN4B8//_Q]\QYMC+JY!OW8ES%;S75=.MPI-2[5
+
+
+
+
+
+
+8UQ
+
+
+
++970Q<0;)II?$4\FM
+MHO 51HED1Y_A(A!B-CZDZD?P_X$]?63Z9^!W'32ZB5-%98HR=/'P11DE
+
+*]2@33)SU4P!Q9O+(
+M0([
+
+
+%6*'UJL'O[00C%=4CTJ%
+[
+
+
+
+MBO$'%-^UC359:Y8MV9+F+#O[3%M:S4%Q0.O9OQ^@QRAX6ONAO-WWP_50J0M
+MH6^L0(A;[Q6NV=8N.&\V +!3@2K(5J1!M1BY$%I!+IKTEA#$3PK4X6!YS@1
+MJ&!9VUFJ^@XT2\F-X[)&!VJQ6U5!^F^'
+
+OMG9B6V=T
+M@3?
+
+
+4DI:BW8_;P/E+G(W@5C]
+
+
+(A#1R/N
+
+
+
+Y*!K$HV%H8'3ALAJ+.NUNSJ[!2=._L#P-
+G^ U!+
+M P04     -=FQ
+
+M?#;V5)0#I2]J\NVX\4-%! V40FU!Y.
+
+
+AZ\P!L*^-Z;_#E=HI%R1R#-*VG#]ZY47
+
+
+
+6Y2AY$:2E9-D99/$
+MQ);8EWGRH;%&;X!LG:K&V09 &RMD[YY+@3APKA*+L!DSEA
+AL&+V RZPMR
+
+M(4IFX0Q6
+:J
+Y%45:_XU9SB]+DY@?
+
+
+
+
+
+1V
+
+
+5R[D
+
+M     -=FQ
+
+H
+M);ZCW9=@F_?LYVSSYN8753\W!RFU]U(65;/P#UH?[X*@V1QDF36WZB@K\V:G
+
+
+
+
+
+
++A2- BU.%2JC0*)[Z%
+ME(1)
+
+
+
+
+?[A5
+
+%3=RW]02P
+$%     @ C79L3*X[
+MT2:V 0  T@
+
+
+M1ZC%#S8;$FH?CO=XMN.8C88WW?2#V/R-BW]02P
+
+M 0  T@
+
+
+X!RD#
+
+
+
+
+5DZY@E
+
+
+$%     @ C79L3.RU?^^T 0
+MT@
+
+
+VKS:'LA
+M=RF4+7'OW' @Q-8]2&9O] #*W[3:2.:\:3IB!P.LB20I$V26R(95[@JHN]D
+MJD*/3G %)X/L*4SOX\@]%3B%%\=+[SK770JAA8!]_!_1A.QEMD56FX!&6Y
+M5LA 6^+[]'#
+
+)HZ7XKW !
+
+
+MNA?B2/^CTWUZMIMA%NG9-GIRNR^0[PKD42#_I\3L0XE[F/Q#$++IJ033Q6FR
+
+
+V&T\/R@\CZC:L_4$L#!!0    ( (UV;$S @[FSMP$  -(#   9
+
+
+
+6OH'[WI^-M]BB4@L%V@K4Q$!3
+
+TIJ:/@@W0N.GVNYY:2N?@O< 7IX2$3
+
+
+
+
+LRDRWTXF:
+
+Y
+
+2.&*AS
+
+
+M
+
+?./PHDB
+S@2
+M
+_6^%^&)TR/WO2F#
+
+
+*^^A.!;(4[\
+M/SK?IN\V
+
+0'AXR\3$J
+
+M=QW81Q[?Y]\GO:OPK2]MN2SK]L['^#Z
+
+MFPV'P_*#V/J-RS]02P
+$%     @ C79L3)KMAKFT 0  T@
+
+Y;9WK#XS9
+
+A#7YZOZ
+
+4I4-JZD
+
+
+
+
+K /
+
+M:&5E='
+
+
+
+MF'Z0+33VSUDJP8Q=J@O1K0)V\DZDSB*%D2PN@F+W-L.JLCEU?Z@8
+*]%4(
+99=E]A2@+@R'[[W #;N$N$JM1
+
+
+.*7
+DN
+
+_JM\/]L\-I:;P6-ESFY.:(!L^\Q\3UF1!#+/DK$F
+0^
+
+
+MR (A28B&;%19:HR!(AR8B&&:!BZQ0D15
+#UV&&:F\&M49(T03 N/8-*9
+MPM
+
+
+
+
+U W7. !./=$SL;OA1.ODCYQ.W]C?PRU
+MNUK.U
+
+M(75G4_M@.(JPY\P;%[U429X4Y.*)%LQQQJ1;S(H@CGV52&
+
+M9B$]^^#P/P3[*
+
+
+
+
+9?-#N58  *!P
+
+
+
+
+
+X=$+SD
+
+
+
+M;_S4P6OEB.K4C+^K^U/9=29'H4)26+_S:_25[_7IL[?J##\ J ^@M@(2#
+M 9X.\#XIH
+
+M1;/B3G&UL
+
+
+MUS5F_#0*M;F'ZBCV4
+
+
+
+
+)KGR*U'WDFE:Y]TDVBU\.$%SY%
+
+
+
+
+
+LPN&S<
+
+J.5+ZHB9?SAO74X& P$DH!2PO=]@!(4I(QO@U:+JC
+MI2).QV_JGW3MLI8CYKCY&=]%M7&S5SG#!=\(^*)]I]AJ=VG:'XKW '(N$J
+;H=5B^1OXYD]T]J43=;WY/MX7+U7OI95J[
+M$AHP6X
+
+
+
+
+
+M -=FQ
+
+5PA2T0HB))'W^&H.ZHJ8C3^6?T+SIYF<P!<]A2\KL^
+MBFKMIJYSA!.^$/%*^Z\P)!2[SI#]=[@D7#E1&J4E'#]ZY07+F@S1)%6&OQA
+MQKK58V].HF@V0G!0 A&0NH])(0#(1P)?O20$ V$:$9 )A5=FQT6N
+@9[1UF
+
+
+M19\/PMN-;9+S RQ6R)S^XBM&8::GYXXR*T!XBL 2(=(+H)$
+
+
+
+
+
+
+
+
+)I
+:SJM^12E
+
+
+
+
+
+
+MIR*
+
+
+
+
+X;_!!:B&&R=ZCYI3:9]!?9:*
+MLUE%6V'DU8W]8
+
+
+
+
+M -=FQ
+
+AF E^\BDAG CA.R'ZE!!-A&A%0&
+
+
+
+^#\FF=4DLYC$JW\G
+
+
+
+
+4 )&[\0- %M2
+-M_^
+MF
+9ZFZV/*T1U<WT]&$U%;S*!
+M22IOW619?C8=3WN?Q/CU-M/P][9\--P.AQ4/NG-YR@;$[%V']Q94*9@E)9O
+MDK4[ES_O@#A
+9'PG=]Z)\BSC= F''?CNS _PK%JC*)7BJ(*#\TR*-!*Q#(!N
+
+
+
+
+
+
+V?
+?!Z.;044!_?%J,)I4
+MY<YX 10MB=UN90B35NC_*HX6,DF85Q:R2DI,R4T+C 8@]\:3RO.SWF38%_JM
+M /R(_OCR<CP:NY=5^#_
+
+
+
+
+M1!W.5[?OMC@;O!^.1C6ZCE\/ZO7@S=75)R)A]% 
+_H:CB_'U)=DJ9)&.QB-^
+M60/\VSHGC^UI+]=.3
+-$TL
+
+
+
+
+
+M16Y
+
+S#F]]D&2D+991X
+F8O
+
+
+*/R(R][[Z9*F
+
+$W
+
+
+JG8YK@[_+&([
+
+!L0QC=$Z0B
+
+M2
+63:Q2C0
+
+M24T#P
+
+
+ML'(3^@9D#NH3_ Q))@=KV4\J)29EAH)# =CW%)NM!V4*D[RB]&.@)BAS77
+
+
+$=#$_:RMY'LP]H@$XH]CD@
+
+
+M9TRU./_CB2
+^LF):V'RN?-4VGX?EA264@5@=.7AG=C,@0 5D0/JA A#4E
+MA80TM/@JNF@%
+
+MGL(8/0SL1;%RTPTI;R)C1#?@/*&88.$C0$^M1[0UVK-!LT5,2H;I4HPU$J
+
+XRG/M!$9VCVN \=F!7!PP(Y#^[82@RD976!M
+
+P 
+@]M%T%U$L;/.P*5.I'&4
+M#?$*
+
+#79Z_A=I!$V-
+
+PPS
+
+
+MN8-A#.8&
+
+MS.3)YWZJ#ADSL3KW$CTY9 3T'F^E#,=9MZMY;:Q# [1PT\/\AP\*^$WVF&
+
+
+M0H)/&BW*6#HE34]2@04
+
+
+
+
+MY+HH#RXIN!2$%59-%L+0]M
+O.EP%M3=#TYKH'3P(MV(3:P9 J_=U]V0/
+WH[
+
+
+MCH43E)!H&]SY6&R'1#*YZ$W$*
+
+YK;1F-[A[1UDJ&U+O%0
+MK8%7N:?+J=363N_J;&=7C-=^B
+
+
+
+M(XQ
+0S(V!??2
+
+9B8M]BWF('3@Q?4B#F5P:-6)
+M.%E\BKZ.YJ:JJH?5+TV?VG1)?N0U.
+R*M;2=@KA8!_^
+[Q-R^4AQ PZI3D
+
+
+M](!BC.$U1](5R(B3N&0LS_3;#F
+E1[AH$89@Z[NH??+4+=LU&*]=T91AF&$B
+MTRS.N@B#Q&0K
+
+P7;
+MVH)&)?815!WE*J0R.F5*VT-Z0  9J/S$)N8D^Y8 
+$&Y#SY
+
+
+F.IF2* C
+IUQ+P!/'$-4Q/
+
+M0C5XSQG=8?@5 ZA*0)O;%;ENQ*0+'@HLIORD=(]IC* G&@RF0+
+
+K[U$R!
+
+M)-J/N!O+VC
+
+
+
+M
+4IV!G0G
+R;@:
+MFMOM75<AV)/;/QJ6LT+J')+_R_&8K5O7Q?S%#K0Y5J1#WT/.P^7A_8E<NOJ
+M.
+
+M-1(PO]*]KGFZVU2R2(62+6'&J.U:*0.=+J#R=L\N;\_+O
+
+DM#*#9:Q
+
+%XHF1&&3B'2:-PEU-I,BV 4%SG%B#=@+1
+
+AH?N TG=:QT-(15U&2*DK&
+
+#@IGU
+P.='.'HZ]@_+)1!&(FTW1+-3\I
+
+
+
+MHZ[3$Y#?BR
+XD:YHE1PD[+?3;1^_/MI5\0=5#J&FX2B)-16YBQD0U9Q*%-C0
+M#?=
+
+
+B6S=+ !;=-3$&JNA@K3E:N
+=&G71%M4)A*
+MDE*,S@7NFHAUN:8]1P?SIO24F&@F]03$UDZ.1:0\$'2G^WA=LV*6L =RI=W
+
+
+
+
+
+
+
+
+MO)/_!6]3S/UXGJV2E
+LX%4?RU1+
+_
+
+
+
+
+
+
+YOTPU+K]+4#2MW79VGN*[B-W9='79=18MBN()[E.=S);M_
+
+
+
+
+M)=/IQ.I@0CQ2'E?MB_(8=DV+H=K*MSPA4$/M=21Z7M\6JY%.B^V.--]L/)]B
+
+
+
+
+N
+
+
+MFALQ#%:(1O &4;*4Q%1EB!&ZL6'?!!)!A01*]['6YIE(]633GO5
+
+M&V[+8'^7[?91HO.
+0$)I+]'-A')5(*2WZKG69S$WR6 JV]V)1:82[1QO/G
+
+
+
+
+ML
+J9C
+
+M=LLV=%9OGDM:R1
+
+MM9^/':CN)9'JFP
+3;%U0!_ A4R^XG\
+
+
+M%
+
+
+&U
+V-
+Q
+
+
+
+[
+
+
+
+M@.&K(!\@9IR$)%7(JIMLVU[ @N&A +9L5TUN7\JF1$H\7:#I!H1 
+B<&^2.F+!GOM5\;B
+
+
+!2&_\JR6\-*I^)'@!OU5DGT#]3VC#7T*VU!^/=V!4PD
+\$
+MR;E9UY[3]SSM3MYDXX^-@ULM3)A4K8QND= F]!LU!9!R9%&NLUBVGJY\0Q
+
+
+
+MBZ-2+)9*L7@JQ6*J%(NK4BRV2K'X*L5BK!2+L]98G+7&XJSU!9TUCY5FTOQ%
+M\FGM8E^?Y)_PZ3=02P$% ,4     -=FQ,'R// \     3 @  P
+M        @ $     7W)E;'
+
+O87!P+GAM;%!+ 0(4
+M Q0    ( (UV;$QM
+
+
+M='
+
+
+
+
+
+
+
+M 0(4 Q0    ( (UV;$P6#!!*)P
+
+
+
+  !@              ( !
+
+
+
+M965T.YX;6Q02P$% 
+4     -=FQ
+[+5_[[0!  #2 P  &
+
+MC79L3
+
+M='
+
+YX;6Q02P$% 
+4     -=FQ
+.NO9.K8!  #2 P  &0
+
+
+
+
+MT@
+
+
+RYX
+M;6Q02P$% ,4     -=FQ,-D\W)C\  #4!P  &0              @ '!
+
+
+M965T
+
+M     ( !
+
+
+4     -=FQ
+1E^XET
+
+
+4     -=FQ
+K82(RZHB   6F   %
+
+
+M  !X;]W;W)K8F]O:RYX;6Q02P$% 
+4     -=FQ
+/
+
+4     -=FQ
+3A4V#6\!  ,#P  $P              @ 'C9P
+I6T-O;G1E;G1?5'EP97-=+GAM;%!+!08     'P ? $L(  #:0     !
+end
+
+
+
+
+
+
+
+
+/**
+ * Rivet Software Inc.
+ *
+ * @copyright Copyright (c) 2006-2011 Rivet Software
+ Inc. All rights reserved.
+ * Version 2.4.0.3
+ *
+ */
+var Show = {};
+Show.LastAR = null
+Show.hideAR = function(){
+	Show.LastAR.style.display = 'none';
+};
+Show.showAR = function ( link
+ id
+ win ){
+	if( Show.LastAR ){
+		Show.hideAR();
+	}
+	var ref = link;
+	do {
+		ref = ref.nextSibling;
+	} while (ref && ref.nodeName != 'TABLE');
+	if (!ref || ref.nodeName != 'TABLE') {
+		var tmp = win ?
+			win.document.getElementById(id) :
+			document.getElementById(id);
+		if( tmp ){
+			ref = tmp.cloneNode(true);
+			ref.id = '';
+			link.parentNode.appendChild(ref);
+		}
+	}
+	if( ref ){
+		ref.style.display = 'block';
+		Show.LastAR = ref;
+	}
+};
+Show.toggleNext = function( link ){
+	var ref = link;
+	do{
+		ref = ref.nextSibling;
+	}while( ref.nodeName != 'DIV' );
+	if( ref.style &&
+		ref.style.display &&
+		ref.style.display == 'none' ){
+		ref.style.display = 'block';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '+'
+ '-' );
+		}else{
+			link.innerText = link.innerText.replace( '+'
+ '-' );
+		}
+	}else{
+		ref.style.display = 'none';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '-'
+ '+' );
+		}else{
+			link.innerText = link.innerText.replace( '-'
+ '+' );
+		}
+	}
+};
+
+
+
+
+
+
+
+
+/* Updated 2009-11-04 */
+/* v2.2.0.24 */
+/* DefRef Styles */
+..report table.authRefData{
+	background-color: #def;
+	border: 2px solid #2F4497;
+	font-size: 1em;
+	position: absolute;
+}
+..report table.authRefData a {
+	display: block;
+	font-weight: bold;
+}
+..report table.authRefData p {
+	margin-top: 0px;
+}
+..report table.authRefData .hide {
+	background-color: #2F4497;
+	padding: 1px 3px 0px 0px;
+	text-align: right;
+}
+..report table.authRefData .hide a:hover {
+	background-color: #2F4497;
+}
+..report table.authRefData .body {
+	height: 150px;
+	overflow: auto;
+	width: 400px;
+}
+..report table.authRefData table{
+	font-size: 1em;
+}
+/* Report Styles */
+..pl a
+ .pl a:visited {
+	color: black;
+	text-decoration: none;
+}
+/* table */
+..report {
+	background-color: white;
+	border: 2px solid #acf;
+	clear: both;
+	color: black;
+	font: normal 8pt Helvetica
+ Arial
+ san-serif;
+	margin-bottom: 2em;
+}
+..report hr {
+	border: 1px solid #acf;
+}
+/* Top labels */
+..report th {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+..report th.void	{
+	background-color: transparent;
+	color: #000000;
+	font: bold 10pt Helvetica
+ Arial
+ san-serif;
+	text-align: left;
+}
+..report .pl {
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+	width: 200px;
+	white-space: normal; /* word-wrap: break-word; */
+}
+..report td.pl a.a {
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	overflow: hidden;
+}
+..report td.pl div.a {
+	width: 200px;
+}
+..report td.pl a:hover {
+	background-color: #ffc;
+}
+/* Header rows... */
+..report tr.rh {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+}
+/* Calendars... */
+..report .rc {
+	background-color: #f0f0f0;
+}
+/* Even rows... */
+..report .re
+ .report .reu {
+	background-color: #def;
+}
+..report .reu td {
+	border-bottom: 1px solid black;
+}
+/* Odd rows... */
+..report .ro
+ .report .rou {
+	background-color: white;
+}
+..report .rou td {
+	border-bottom: 1px solid black;
+}
+..report .rou table td
+ .report .reu table td {
+	border-bottom: 0px solid black;
+}
+/* styles for footnote marker */
+..report .fn {
+	white-space: nowrap;
+}
+/* styles for numeric types */
+..report .num
+ .report .nump {
+	text-align: right;
+	white-space: nowrap;
+}
+..report .nump {
+	padding-left: 2em;
+}
+..report .nump {
+	padding: 0px 0.4em 0px 2em;
+}
+/* styles for text types */
+..report .text {
+	text-align: left;
+	white-space: normal;
+}
+..report .text .big {
+	margin-bottom: 1em;
+	width: 17em;
+}
+..report .text .more {
+	display: none;
+}
+..report .text .note {
+	font-style: italic;
+	font-weight: bold;
+}
+..report .text .small {
+	width: 10em;
+}
+..report sup {
+	font-style: italic;
+}
+..report .outerFootnotes {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+begin 644 0001477932-18-001217-xbrl.zip
+
+  -E= @ 2    :V]K;W
+M
+C Q-S X
+S$N
+
+M1:Q!@
+
+MX4VKT7PC9# 
+72^X_N'-YZMZ_^KH[.R-^
+\?_^__$?#/]_]6KXM33_KNH3@.
+MA_6S8!2^%Q^=B3P4/\E 1DX21N_%[XZ?XB_A?WVX_!7^RN
+?BKU&:\\1]?H2
+
+
+]:7\$L8
+
+
+!_;+W;?\
+
+,MQ:Q*@6\#3$J)#4VTHM)#4
+
+
+
+
+
+(YX5#LQ4%;!@%/'LPMJ*
+
+MR[80MWEBM)'T/
+38WC:$K8D8V\] C
+
+
+
+MZ?WSU?$
+
+
+
+T_!\Q];;5_.?_E_$K\
+
+
+
+M8%R$FQR
+K;PF?S$@YZ84GQ+X
+X 
+IDNPH=
+#-WP1H9T%PW B/SE?9?R$LWQ(
+
+
+M4.
+
+4@PD#\(_7O
+
+# _?0:5B8ZK8;X!!/J
+M ;U8A-&U$Y5GH1B$:)+VN(G2\RJ0D7C4EOD )T.%4
+ZEZ$:21 XXM!A#_!
+MV
+
+0-C=-8'5 WC4QY?T'
+
+8P/W_R!WZBG^V_
+M;XCS0'P
+
+.6F:21U#HT(#TWH
+
+
+
+
+
+
+M!D'2AT&2S!Q3$F0&-D?@G:
+
+
+
+
+
+M
+
+
+MA[[' ^
+N)F.'C:R)=SU.4
+
+
+N$55V
+MH*M$3
+
+
+
+
+
+M'@?
+
+H'&0@APZ]&BM+4F0)()\TH L
+MWO4L&^@ULV
+
+
+
+
+F$
+0 /7?\
+
+
+
+
+
+MI[;?[I&ZS#)=\BL*!F6O39T[U(:H*@=R[/BC@KZO)
+
+
+
+MO8-:A\0N)P1\9R!]\0F\._@N\N*)(SJ=YL0'BAE^H3WG*N:A*EZRZI&9Z%CZ
+
+
+
++QE7;7
+
+
+M=$\3C@= M2XTW0/5%5C05
+
+MOG2-214 N+^6M30CJ
+YTYD(!\5CB$5'K+?3#3 %^C:
+
+
+E# [V\7]5NNWGHOU
+
+N(/%2H0&C82
+
+
+
+
+MYGCP#6%2UJ93 @;+O(+ \!ER-9
+S4_*KA.)7@ZX%Z^F/N@KIA@DYC R*[/
+
+
+
+M)%5'5/B 
+4KUU
+
+MVRLQN9&[=QI&.F\^#6-I\N1&$)!@
+
+
+
+M(P-44U
+
+
+UMF8T
+
+M^1-KX_E\*!V%L7L4ZL$CBT00CFN0'C0/'5P2GZ_$3_W^14/@)?
+62'$&J
+L%
+
+
+
+
+8;P+=H5B:-U!]Y6&9=Z:N-DGM&
+M7YFFE 3M66:M5!IK
+
+M]B+V:)!R!&:9;*WJ5%;3BD5(][UU]#4
+
+
+
+M-I_.?&(:'(Q4  A5WS1
+
+
+
+
+
+
+
+
+MX%UK']OW9O=_\(5IN6W5CVI*%CFNW(V5CQ=T#N)=6(^$U].H.I-1#YE05+
+
+
+
+
+
+MG+P*@QOI:C2-1N\B:[LM
+TK6:7K(&?3+:ZKVLKRQ71S@4U[50=I%$A8#$U
+
+
+
+
+
+
+
+
+6-08
+MCDKO2!K
+
+
+
+6R')60$FXZ=$
+M87H]SK(J5J9HH3OR7NRT=_F2HZS%MA37F!U3MT2OMF;[RB($2(Z\P-/
+F0US
+
+M&6VS*
+9W!_0GQBO.5#EK-OU/EH1D2/81].@R='1WF_A(G?T+K1
+MIK&1/GFAX<#?LY7'M'*5S:$S_@,\C
+
+
+
+MU@**[UP FY.$7O'F[/S-YIE0 )-&S_J MEZ^]*
+
+MB_^SSFCWDR-5(D6=:1_:]'FOW;*ZWRXUU=K@F]
+
+
+
+
+MX*[/&
+
+
+MR2*V.L(#$86$]UE= TK;7=;!]9*BU,\$(1'[/XB#[*A ]6_THG3!^/@7H!
+M!;D)'C+[2HLOZ)2U3[X^/^
+
+
+C[4:%\X+QA;=R7O.N?;@
+
+
+
+$/\-&)
+
+M
+
+MRPJ.'W
+
+
+
+-M/;FZXME;;D@_E+X?3QV
+
+
+
+
+
+
+
+
+
+
+
+MT&=GYOUVJ[7MW/P:H:RH^ENGZA(=]99.
+^9^VOX3FANX GT[:NR9.SSI$&X8
+
+M55$\3T7W.I7/LY[U^;:.'%0$_O)'%C:$O-?O$&T6\6PWHVX?E%6)1@7EYD%9
+
+
+($
+
+M\.2N(?X8 Y:'7C1
+
+
+
+
+EI&'NL*+:5$[:?E[6A@?M!ZH9UN2$[I52!
+
+
+
+
+@%\2'3WJ_3$'R 3L_46*,IQ;]+<G
+_?G=0:S:;K$^5D:9U
+M
+KMU%N4Q!X+OF0+##
+
+$S!VP.L1!
+
+
+
+
+
+
+
+ H]5M
+
+
+
+
+
+F /XXQD2
+
+JV;[UV
+M@_1NFI2W
+
+
+M$.RJA(87[
+0ACGQG2H@4XKNM]Y:^P65:5G*$GJLWG;()3D$+A9&\!8TO1ABA
+
+
+
+M6/5]7Y7794W2
+C6C:\FR7XKFC@K%V/JHF!6!+9
+
+MGB2\EC0 24H6?+8O'4E?WA#D
+
+
+
+C(8:':TA5PYH(I!%I
+
+
+
+CP8S3\*!5%
+
+
+
+
+(VGNR55V)8SQ
+
+
+6$T'E::1-W'HH \X;72&Y/XY13C \G,-)GZX9U4O9BU@^<I
+M*Z ^H,B5K@VT!VU8N*)&RW38!N],0#:[.NU?B8]A0[3:'0N3_3QB+%UHKP<
+
+2RB37(1196YM*=G6RJBP_FS[OB?.H%'E4U-*B [%Z(Q)G)
+MX)TH],0E('F4-6,#S(/W2$*SM:^#.CDD98%OEI#:X:%801C3G_5V9+XV!1EN
+M6(9H(N$\/A5M^=6E2R5T SOGCI1= V;E]1)OEC^AYJ?1]DA:O*]26Z.22
+
+&J:&'#?D' -7(7#(9
+
+
+
+
+&8RG; +%#& 
+
+
+
+
+
+B^X$ *[_$HQ/S&?$EBV
+
++@&MW 0!DUGQM7#95Z
+
+
+
+
+
+
+MID'M-W(X
+V
+
+ 8IBX'NI5%
+M 6+65RXJQ(/$1(8+'%:B7QC0 68ZDV=;%34+^M#6V(:X[.R:C9*UJC33Z=R
+
+
+
+
+
+UH(9%I#U<[:_I30J$'
+M
+
+4F SE/R Z*JV
+
+MUMHW&8!PD)B?'W.]IJH[R3KT+ %/5KRFCZ
+1.%@S
+
+#YX+!EEI-8
+M-:$POT7
+
+
+MICK)6?+/*SR65IWD?'+VJ5CF=;%
+
+
+
+
+
+MY-+0?)0WCNO
+
+
+
+;^
+
+W6#W/FHB*RG0/:]HF@YL$HI_U*Z$IZZY]&1X_ME
+
+
+
+
+Y^9V
+
+
+]
+
+L
+
+\PL-7^V\HBZAYT%
+
+MQ T83L/($@!/0I@KS+4&$M6H
+#
+
+
+;$TU9!A7W1UQR@8M5X2ZN^UR?
+
+
+M
+M
+C Q-S X
+
+
+
+
+N
+
+M!B$3V:9O[R:S
+
+M
+
+
+
+
+
+
+
+
+
+MRWH
+VV=7C]
+
+
+X?'0-.SXNJR9#%N$Q]:'@PYUH89CSR]B.W5
+MG3Y'4&3T/<_'UC5EHODC<43L#/Z(8<7*ON1U@=]UUM=B+EV\*
+JX='X&+.
+
+
+2%=&$3
+
+
+
+
+W
+
+
+&UL[5Q;4]M&%'[O3/_#UIEVZ(.P90@!!]H1
+MLDPT-;9CR6G2%V:1UEB#K5:&<R_[UGY$NLN@83<F?+@B[QG]SOW/4=:SO]<
+
+
+
+
+M%/_)N92'O07;+M5:MM9_*_)SVW+N._SE%C.0!T.ZRR9=='88?#IZ)Z=\UV
+
+M\*N5
+-'Q
+
+
+T(\E@DJ=G39*$;8!;YGQ+
+
+
+
+B0V&94*H\)YU%SL
+&_F\.8NP!&S2G4M6-I^))CJTA/55V([-B8Z7.8PG
+
+
+
+S#4;^F4(/+
+
+LL
+MGP#V3F_KBHR-\#.O?+(35,+X?'HZJE]/Z0SOG7Z2.Y51W<2-K1'ZF&]Q'6(J
+MV'4@33*0_&*^\(-:ETRAZD\QLSRT=8?SE8R+<S
+GIJ?9)H6EP2V1]@R56==
+
+
+
+
+M(A%&G_()(#])S8.RI'UO?[P[SKS(%@59P*[J
+
+B(\;^Q:3 :)+
+-=LGI7G57+UEA.4CK3JBO
+
+
+MCGHK.8
+
+
+!
+MED[#+&F3ZVMI_
+
+
+
+
+[3 F=2 /KQ6D2U^KL[C$$TL!:$=15[G4
+ME
+
+
+
+
+
+
+
+F?3LTI*GP-@8.: '1AK]G]2H5:E!+2!5:%JAOU0(D?
+I
+
+M@_'*=*@Q^Q
+
+
+
+
+
+MSEI9QJTMAU8786I@/CCIN(U+9(#F!A%MZXB
+
+
+MQOU4:HPRPCGV8ZGQILTHTWXN-5JQ:+8M9E%*FB:S)I(+'GT+0'J._71J'F4S
+M2
+)J8FL)EY4XBHSZELN/NER[S3 -2%98&O^ ,HV)-7,R9NBX*B]ECE EV_
+
+MQ^4BWT@+;2FSTSH)1N;
+
+
+
+
+
+14H$4^KKAPS ?@!&4/%XE9:2L*0 ^63A*P%^G6(;]5%P
+OP2^Z
+
+
+
+%Q]7Y
+MCK@*:DTFA7DM)^LB11*VATH<'[<!GX8*G.+O 3'?RR9N@1QT<KX3SY7UA0A
+
+
+
+
+
+
+%)\'!!OKZT-GH.?$E?J
+
+
+
+
+MYL9H%R
++ -N[)HK3:D4OK^R
+(LHD32\$HLIS)J=!UCNAHN/+P:C)GR9$C_A&
+
+
+
+M
+G:1YP=SB T?+*]Z\R74M;4
+
+
+
+^WLL:ZT=
+
+8
+
+
+
+R$=O-E1BHSJ
+\Q
+M%H2W
+
+
+MKYL8OT)W+ A?2YN3\HQNI9#$7)T7)K%X3O\\F!X@3_X'4$L#!!0    ( (UV
+M;$QE:]X.    *D 0 6    :V]K;W
+M
+C Q-S X
+S%?;&%B+GAM;-5=;7/;
+M.)+^?E7W'W#9N]J9JCBVD\Q+LC.[14MR1C6.I)'DS
+QM7:5H$K)YH4@M2
+KV
+M_?H#0$I\ T!0MH#.5$VB2-W@ _)AH]%H-'[ZQ\
+Z1%M
+
+
+MN
+
+
+
+
+S?PQ]' W01T'%;:I X=DSS3@E_E
+MF5(!#
+
+MV
+
+M@N@V49HKF;!).Z4&7#508DGKE-*UV32$*\+TB1XWG9.@O9W 
+-
+T+U4'J'
+
+
+)5/!4%YZJPG^%\9FWQLNZR21-8TCZ1PFQQJ8+BCPQ=BSM[6<2% 1JD
+
+
+WIS [YZR-:3
+SM6$$.N3M)H(&*:(
+
+
+
+PS?EC6E&+ :HL9]7@D(&MN
+M3D/&.H
+Z@#5)
+
+M]5+AZZG:,[J].E(:7ITM*RSIS?4UD!6J*JBW)E5-%^3NN38._5;;P]]7'
+M#
+
+
+A59]AJ(JUAD2&$
+\^!=$-WF&T?ETR^)N.$YK!)T8RHKE 7$
+M'B5 *8G^FJ]1K';%Q4M66039_. CJ.W,9%'0!I29KDCA%BG3$T$$%-$N21
+
+
+
+MK1MB5LXB';B$/%(_FA=PD_1=4]=HHF.?[M2R'W44P;N#]H6ZD2#.[5WAV=
+
+4GR
+
+
+9HL5R.OCUE^G5
+
+:O0#@:G
+M'
+^+
+
+
+
+
+
+RJ(W2$TTQ
+!228VM'.'G96Y3P&F[Y2/;F6R=+[V(2_!\=
+
+
+MRLI:T+DD#.ZU751M7];VY$!O4@!KCBG%)YYC?@WS@:Y%KP/7RF M4QZR/ F+
+
+
+SJWG!:IU=\GVF
+MS[4(U=,?TU6VMU35QRO3TP3#Q5YPVZ=?-9:K@+EG]
+
+
+
+M4+*C/^(6J^0PG?\=1#Q4RS8Z8%%9R1=[M0R22;-+E0YU:$AEIZ.%N;A/C)
+
+
+UY@#5H3G(XC+U[CJSB1
+ML:0A8Y(B0GA5?M0$8.5%B: U*3$9+='5= &$#+ODTUVL_
+)- D_2.XFL27(H
+MX59)(A0$
+
+
+ZG
+MT=SY
+$*3ZX\7E
+
+
+F0O!8\E
+M36@*IC!1Q&6AT*5[
+
+
+7+8
+E)/NP@/YC_UN1%L; .5D7=)@
+M7U
+
+'6+Z6
+
+
+
+
+
+
+MCT-\([.D:A5;S).!EY&N*0^2;Q*04JJQVU
+[:SB $DS0M^Y/'AZ@CMM/&Z^_
+
+B$AN6;\F
+
+M[
+
+
+M[QB5*
+/A;D_$0OJ^H?0=.+
+QFQTOEM/!KS 86EUD6Q(W2MB6ACA*]#G:JP6S
+MIP/U[EK] %M=3!,[8]9Y/2BMY2K\]&5P^H3SYSY\D^TG#N3!0O44?A:'
+I
+
+0DOW'66/\V$^XK% ( /Q/J*@;]?4
+
+
+M7B$D6Z]=\DBQJJ90N[_5I4
+.;
+I@39$G=;92;.2@=JP3]!G MY;E\L98;9)*
+
+
+
+8(:PF+:@0&SOW8KS2AY
+DV7H#Z#!Y
+
+$/:A[5:+V:@ 
+
+
+M
+(98WANT
+
+
+
+M1P]77 L]@]F_&;-%!P[K9+WT0+\VP##Y0.#M:0UC?&T5L-;6T5:S*UM[^
+'E
+
+
+MO1Y#O
+
+M_4Y92[[2YG.^  GV7MW&VU
+
+MI*_F=%7[JG&W^BB:('+_CC#.ZFM9IV=OJ$TF
+
+MS8&44
+OYCU#
+.BFZL36)4
+
+@74JL
+E
+
+
+
+M!Q8EP*OEO#D'7Y9GL@.AEN)4^@
+M7E
+7@
+
+M^.R.=$2 V3*T&H.4/F35)4?M;DIVCK:W*L2S+J*.3
+S;L4
+
+M9ET#(^AO=
+
++'G\4?E&_-SKQGS
+
+
+M5@'*GU)'(0Q%)EEEQG6TC0^D^EUJC:/=JF!HV@^OTO$CM)5\[R@C:NX&'F]$
+
+
+
+/ 'TT4KN]C
+
+S
+MXB[(E0FQ3!0(5[KPM:;#A3QR=PK
+
+3H?% *OS
+MX;H$D
+
+
+
+
+A8A!EB--=0E@#Q_
+
+
+
+M+G$5]($*FTE9K78LCDM=U43!D4^-3$8CRD7G[QUL*B
+
+M$@87 430*BL U9^M/VDYIO8AZ=%)*03
+
+MVA[*_,ACZF=%'HP':XBP;.!SO0R0+C1;W+21CA6Y8]JDQ-?4YO18/]^8[
+M[Y@\!*]2L,$Z.7 1V=K28 Q=)T21H?-W-=I+3PNY3 \&NV8$;]S +Z(HC2RU
+M1O\ELF9+6RC@UBM9 3!
+$F%KI4WMQ\I
+
+M3$A\CWTGY=
+):OM4]2?Z-V/6SJLDW7?J%\;8-AZ(' U@UU_R[QSY0AXO64
+
+M5A?.7LGG=I[* 8G?L)Z!!%YG KBEE^ Y4JUA/8 NG'U2KDT_E)V/D@=Q%*&$
+MFH#A[7@JYTJ
+
+
+
+
+M5:![/M]]4_:?+T-)+3K[BXV
+
+MD
+
+Q7(4J5C5KZ[H)_KU[BOZ
+
+
+M
+#$W
+#@S
+
+9$_1NF14
+
+
+
+F<[Y2<:Q,@'8SSZ+]DF.R?FD!+QL7R@OYR0=)
+MER([
+#K!A&
+
+
+MJB$HB-7%)ZN3K^%L$B'WVP+Y'IGPNG_'9
+
+=%8P</QEM0N[*&M? PQCX9&!Y9*J(-E/L!*'C
+MREFSB+ &WNPY!NF8%W)3;%K#\_MD.[8$4^=18O4M*UE9-^'X.^8R-5=2^F!
+
+9\XU$#(F
+M0USS/*7
+HPQQ@_.8
+
+
+
+4-%)JT(?/9^3'1(5XTX
+
+
+
+UET3'3
+
+
+
+
+MB](!
+
+
+
+
+
+
+
+
+
+
+ (R'1'^ZH ):6)
+MQMZP2;;UM$2 B^&*LC$&+H!K.ADSL4A]S&A[AB?$AJR0IED1/GW'436PVJO
+M.P98Q6SXLIN!C]Q]A4HW%)J?P@I;_ORFC'\702V MTI2XY%GXTA_&.^97LMI
+,2U.G;\]-E#K1?T-1J-*
+MJGENH))14@M:W)[TY42I!3
+
+
+
+
+
+M*AS%&3TW]&#@D(UN+2$#;E_:#O?JCAE(:
+P
+
+MS5U!/Q*24L%U9T49.%&
+8]@<?K='PMM_N=VN^.OC=6B
+7% D+E*4_3:M3TXYN2RLMK7E@
+
+
+B*9
+
+
+4^&
+
+
+MW4H:
+^
+
+
+M8EY)@69@WW
+@3BYD#F=[MZ\?$&GCY=.X96
+
+
+MJV#/Z)AXW+O\8S]V$L95SK-J=*KUBR$%?FZ4YU!9HQV3Y)TMF^:49$L
+
+0
+M)+6_
+
+
+
+
+
+
+
+
+T?J68OC05+$
+
+
+
+
+:REW\/+Q8U5GMTBOKRIK/2XO2R-F
+MH)@
+
+
+
+
+]HJ!%$6$0$SM\2F]_ V8(@WX0 8)LU'VDQ9OV_TW)
+M
+[)U'XE
+9
+
+
+
+
+
+
+%W$N6MGDZ4W(
+
+
+
+MGE=5-
+[XJ)B8M_BEA(5)F=I?2EA\[R4LV@L(9MU'X
+
+
+YXMK_0
+
+
+4     -=FQ
+
+

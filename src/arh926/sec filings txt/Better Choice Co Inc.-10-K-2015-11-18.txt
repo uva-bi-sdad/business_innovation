@@ -1,0 +1,10033 @@
+
+
+ACCESSION NUMBER:		0001185185-15-003074
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		10
+CONFORMED PERIOD OF REPORT:	20150831
+FILED AS OF DATE:		20151118
+DATE AS OF CHANGE:		20151118
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Sport Endurance
+ Inc.
+		CENTRAL INDEX KEY:			0001471727
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOTTLED & CANNED SOFT DRINKS CARBONATED WATERS [2086]
+		IRS NUMBER:				262754069
+		STATE OF INCORPORATION:			NV
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-161943
+		FILM NUMBER:		151240477
+	BUSINESS ADDRESS:	
+		STREET 1:		1890 SOUTH 3850 WEST
+		CITY:			SALT LAKE CITY
+		STATE:			UT
+		ZIP:			84104
+		BUSINESS PHONE:		801-673-5531
+	MAIL ADDRESS:	
+		STREET 1:		1890 SOUTH 3850 WEST
+		CITY:			SALT LAKE CITY
+		STATE:			UT
+		ZIP:			84104
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+Washington
+ D.C. 20549
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SPORT ENDURANCE
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1890 South 3850 West
+ Salt Lake City
+ Utah 84104
+
+
+
+
+(Registrant&#8217;s telephone number
+ including area code)
+
+
+
+
+
+
+
+Common Stock
+ Par Value $0.001
+
+
+Indicate by check mark if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act.
+
+
+
+
+
+
+
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2) has been subject to such filing requirements for the past 90 days.
+
+
+
+Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Web site
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files)
+
+
+Indicate by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer&#8221; and &#8220;smaller reporting company&#8221; in Rule 12b-2 of the Exchange Act.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State the aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold
+ or the average bid and asked price of such common equity
+ as of the last business day of the registrant&#8217;s most recently completed second fiscal quarter: $5
+948
+618
+
+
+Indicate the number of shares outstanding of each of the issuer&#8217;s classes of common stock as of the latest practicable date: 77
+575
+303 shares of $0.001 par value common stock outstanding as of November 13
+ 2015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ORT ENDURANCE
+ INC.
+
+Year&#160;Ended August 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Market for Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Directors
+ Executive Officers and Corporate Governance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Certain Relationships and Related Transactions
+ and Director Independence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unless otherwise noted
+ references in this registration statement to Sport Endurance, Inc. the Company, we, our or us means Sport Endurance
+ Inc.
+
+
+
+
+
+This Annual Report on Form 10-K contains &#8220;forward-looking statements&#8221;.&#160;&#160;All statements other than statements of historical fact are &#8220;forward-looking statements&#8221; for purposes of federal and state securities laws
+ including
+ but not limited to
+ any projections of earnings
+ revenue or other financial items; any statements of the plans
+ strategies and objections of management for future operations; any statements concerning proposed new services or developments; any statements regarding future economic conditions or performance; any statements or belief; and any statements of assumptions underlying any of the foregoing.
+
+Forward-looking statements may include the words &#8220;may
+&#8221; &#8220;could
+&#8221; &#8220;estimate
+&#8221; &#8220;intend
+&#8221; &#8220;continue
+&#8221; &#8220;believe
+&#8221; &#8220;expect&#8221; or &#8220;anticipate&#8221; or other similar words. These forward-looking statements present our estimates and assumptions only as of the date of this report. Accordingly
+ readers are cautioned not to place undue reliance on forward-looking statements
+ which speak only as of the dates on which they are made. Except for our ongoing securities laws
+ we do not intend
+ and undertake no obligation
+ to update any forward-looking statement.&#160;&#160;Additionally
+ the safe harbor provisions of the Private Securities Litigation Reform Act of 1995 most likely do not apply to our forward-looking statements as a result of being a penny stock issuer.&#160;&#160;You should
+ however
+ consult further disclosures we make in future filings of our Annual Report on Form 10-K
+ Quarterly Reports on Form 10-Q and Current Reports on Form 8-K.
+
+Although we believe the expectations reflected in any of our forward-looking statements are reasonable
+ actual results could differ materially from those projected or assumed in any of our forward-looking statements.&#160;&#160;Our future financial condition and results of operations
+ as well as any forward-looking statements
+ are subject to change and inherent risks and uncertainties.&#160;The factors impacting these risks and uncertainties include
+ but are not limited to:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adverse state or federal legislation or regulation that increases the costs of compliance
+ or adverse findings by a regulator with respect to existing operations;
+
+
+
+
+
+
+
+Changes in U.S. GAAP or in the legal
+ regulatory and legislative environments in the markets in which we operate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For a detailed description of these and other factors that could cause actual results to differ materially from those expressed in any forward-looking statement
+ please see &#8220;Item 1A. Risk Factors&#8221; in this document.
+
+
+
+
+
+We file annual
+ quarterly and special reports and other information with the SEC that can be inspected and copied at the public reference facility maintained by the SEC at 100 F Street
+ N.E.
+ Room 1580
+ Washington
+ D.C. 20549-0405. Information regarding the public reference facilities may be obtained from the SEC by telephoning 1-800-SEC-0330. The Company&#8217;s filings are also available through the SEC&#8217;s Electronic Data Gathering Analysis and Retrieval System which is publicly available through the SEC&#8217;s website (www.sec.gov). Copies of such materials may also be obtained by mail from the public reference section of the SEC at 100 F Street
+ N.E.
+ Room 1580
+ Washington
+ D.C. 20549-0405 at prescribed rates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We were incorporated in the State of Nevada on January 3
+ 2001 under the name of Cayenne Construction
+ Inc.&#160;&#160;The Company ceased all operations in 2002.&#160;&#160;The Company was dormant from 2002 until July of 2009.&#160;&#160;The Company has had no revenues or expenses for this time period.
+
+The Company was revived on July 28
+ 2009 in order to enter into the liquid Soft-Gel capsules market. The Company changed its name to Sport Endurance
+ Inc. in August 2009.&#160;&#160;On August 20
+ 2009 Robert Timothy acquired controlling interest in Sport Endurance
+ Inc. Robert Timothy resigned and turned over all Shares and controlling interest to Gerald Rick&#8217;s on December 15
+ 2010
+
+Sport Endurance
+ Inc. is presently marketing for sale liquid Soft-Gel capsules (&#8220;Gel Caps&#8221;).
+
+Sport Endurance has not commenced its major operations of having its one product a liquid soft-gel capsule manufactured by an unaffiliated outside provider (Soft Gel Technologies
+ Inc. (SGTI) and the Company has not distributed the product to anyone.&#160;&#160;The company is presently marketing a Sport Endurance liquid Soft-Gel capsule in the Salt Lake City
+ Utah area.&#160;&#160;The company will not have any liquid Soft-Gels manufactured until the company has sold the product to an end user.&#160;&#160;Sport Endurance has not commenced its major operations. In addition the company has not achieved any revenue in connection with its business to date. As a result we are a startup company
+ that is
+ we have no operating history or revenue
+ and are at a competitive disadvantage.
+
+The competition for and difficulty in selling liquid Gel Caps may affect our ability to develop profitable operations in the future.&#160;&#160;Companies that are engaged in liquid Gel Caps
+ retail products
+ include large
+ established companies with substantial capabilities and long earnings records.
+
+We have no operating history and expect to incur losses for the foreseeable future. Should we continue to incur losses for a significant amount of time
+ the value of your investment in the common shares could be affected downward
+ and you could even lose your entire investment.
+
+
+We have not yet received any revenues from our operations
+November 17
+
+
+
+
+
+
+We established the minimum amount of $75
+000 that the company will need to raise through debt instruments such as bank loans
+ or private financing so that operations could start
+&#160;in order to generate some type of revenue. Presently no other sources have been identified and it is unknown if any other sources will be identified. There is no assurance that the company will be able to obtain any bank loans or private financing.
+
+
+
+
+
+In addition to the other information in this Annual Report
+ the following risk factors
+ among others
+ should be considered carefully in evaluating the Company and its business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WE HAVE NO OPERATING HISTORY AND EXPECT TO INCUR LOSSES FOR THE FORESEEABLE FUTURE. SHOULD WE CONTINUE TO INCUR LOSSES FOR A SIGNIFICANT AMOUNT OF TIME
+ THE VALUE OF YOUR INVESTMENT IN THE COMMON SHARES WILL BE AFFECTED
+ AND YOU COULD EVEN LOSE YOUR ENTIRE INVESTMENT.
+
+
+We were incorporated in the State of Nevada on January 3
+ 2001 under the name of Cayenne Construction
+ Inc.&#160;&#160;The Company ceased all operations in 2002.&#160;&#160;The Company was dormant from 2002 until July of 2009.&#160;&#160;The Company has had no revenues or expenses for this time period.
+
+
+The Company was revived on July 28
+ 2009 in order to enter into the liquid Gel Cap market. The Company changed its name to Sport Endurance
+ Inc. in August 2009.&#160;&#160;On August 20
+ 2009 Robert Timothy acquired controlling interest in Sport Endurance
+ Inc. Robert Timothy resigned and turned over all Shares and controlling interest to Gerald Rick&#8217;s on December 15
+ 2010. The company has no operating history from inception to Prospectus date.
+
+
+
+Presently we have no revenues and have an accumulated deficit at August 31
+ 2015 of $431
+453.&#160;&#160;We expect to incur further losses for the foreseeable future due to additional costs and expenses related to:
+
+
+
+
+
+
+
+
+
+
+The implementation of our direct sales model through&#160;Mr. Rick&#8217;s and Mr. Kelly through the commencement of sales will cost at least $75
+000. We need to establish and print all of the marketing material. We have allocated $15
+000 toward marketing materials which include filers
+ broachers
+ website design.&#160;&#160;The company intends to allocate these funds as soon as they are available.
+
+
+
+
+
+
+
+
+
+
+
+The development of strategic relationships with convenience stores in the Salt Lake City
+ Utah
+ area will cost the company at least $10
+000. We need to educate convenience stores buyers about our products and work to obtain shelf space. We shall do this through direct sales and direct mail.&#160;&#160;The company intends to allocate $5
+000 as soon as funds are available to the company and $5
+000 six months later when the funds become available.
+
+
+
+
+
+
+
+
+
+
+
+Software and hardware updates to maintain service and maintain the company office will cost the company at least $3
+000.&#160;&#160;As a direct sales company continued improvements and upgrade to our systems is required. User features and website content updates are vital to continued visitations by online users. This cost signifies the system modifications. The company intends to allocate these funds with four month of the funds becoming available.
+
+
+
+
+
+
+
+
+
+
+
+Program administration and working capital expenses until such time as there are sufficient sales to cash-flow operations will cost the company at least $30
+000. This is the necessary working capital to fund operations until such time as revenues exceed expenses. This will cover office rent
+ at $1
+995 per month
+ audit fees
+ legal and all other management expenses such as those from industry consultants and advisors.&#160;&#160;The company intends to pay its lease payments on a timely basis on the first of every month and pay audit fees and legal and all other management fees as they become due.
+
+
+
+
+
+
+
+
+
+
+
+Manufacturing and packaging of liquid Gel Caps - production of 26
+584 6-pack cards will cost the company at least $17
+000.&#160;&#160;We would need $6
+300- manufacturing of 159
+504 capsules
+ $6
+100- packaging into 6 pack blister cards
+ $500- packaging 12
+ 6 pack blister cards into a box
+ and $150- packaging 12 boxes into a master case. Delivery costs to Salt Lake City
+ Utah office $3
+000 and $950 delivery to customer. The company intends to allocate funds to manufacturing
+ packaging and shipping only after a purchase order has been delivered to the company. (The company does not have a minimum amount that it must contract for in manufacturing or packaging its product.&#160;&#160;The above costs are for the amounts stated.)
+
+
+
+
+ONCE TRANSACTING BUSINESS
+ THE COMPETITION FOR AND DIFFICULTY IN SELLING LIQUID SOFT GEL CAPSULES COULD AFFECT OUR ABILITY TO DEVELOP PROFITABLE OPERATIONS.
+
+Many companies that are engaged in the liquid gel capsule business include large
+ established companies with substantial capabilities and long earnings records. We may be at a competitive disadvantage in promoting our Sport Endurance liquid Gel capsules
+ as we must compete with these companies
+ many of which have greater financial resources and larger technical staffs than we do.
+
+
+
+We were incorporated in the State of Nevada on January 3
+ 2001 under the name of Cayenne Construction
+ Inc.&#160;&#160;The Company ceased all operations in 2002.&#160;&#160;The Company was dormant from 2002 until July of 2009.&#160;&#160;The Company has had no revenues or expenses for this time period.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company was revived on July 28
+ 2009 and changed its name to Sport Endurance
+ Inc. in August 2009.&#160;&#160;In August 2009 Robert Timothy acquired controlling interest in Sport Endurance
+ Inc. Robert Timothy resigned and turned over all Shares and controlling interest to Gerald Rick&#8217;s on December 15
+ 2010
+
+
+We revived the company on July 28
+ 2009 and began operations in August 2009.&#160;&#160;We have a no operating history for investors to evaluate the potential of our business development. We will begin to&#160;market our one product in the Salt Lake City
+ Utah
+ area&#160;and development our brand name. In addition
+ we also face many of the risks and difficulties inherent in introducing a new product. These risks include the ability to:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Attract
+ retain and motivate qualified personnel.
+
+
+
+
+Our future will depend on our ability to raise additional capital and bring our service and products to the&#160;marketplace
+ which requires careful planning to provide a service and products that meets customer standards without incurring unnecessary cost and expense.
+
+
+
+
+
+The development of our services and product will require the commitment of resources to increase the advertising
+ marketing and future expansion of our business. In addition
+ expenditures will be required to enable us to conduct existing and planned business research
+ development of products and associate offices
+ and marketing of our existing and future services and products. Currently
+ we have no established bank-financing arrangements and as of&#160;August 31
+ 2015&#160;the company has $59
+865 in working capital deficit.&#160;&#160;We would need to seek additional financing through subsequent future private offering of our equity securities
+ or through strategic partnerships and other arrangements with corporate partners.
+
+We cannot give you any assurance that any additional financing will be available to us
+ or if available
+ will be on terms favorable to us. The sale of additional equity securities could result in dilution to our stockholders. The occurrence of indebtedness would result in increased debt service obligations and could require us to agree to operating and financing covenants that would restrict our future operations. If adequate additional financing is not available on acceptable terms
+ we may not be able to implement our business development plan or continue our business operations. Presently no other sources have been identified and it is unknown if any other sources will be identified.
+
+
+
+
+Development and awareness of our brand Sport Endurance will depend largely upon our success in creating a&#160;customer base and potential referral sources. In order to attract and retain customers and to promote and maintain our brand in response to competitive pressures
+ management plans to gradually increase over the next 12 months our marketing and advertising budgets as funding allows. If we are unable to economically promote or maintain our brand
+ then our business
+ results of operations and financial condition could be severely harmed. We have not yet received any revenues from our operations
+ nor have we otherwise engaged in any business operations and we do not have any customers.
+
+
+FUTURE&#160;BUSINESS OPERATIONS VIA THE INTERNET MAY SUBJECT US TO A NUMBER OF LAWS AND REGULATIONS TO BE ADOPTED WITH RESPECT TO THE INTERNET MARKETPLACE
+ AND THE UNCERTAINTY RELATED TO THE APPLICATION OF MANY EXISTING LAWS TO THE INTERNET MARKETPLACE CREATES UNCERTAINTY TO OUR BUSINESS DEVELOPMENT.
+
+
+At present
+ selling liquid Gel Caps is not a government-regulated industry
+ so we do not need to obtain governmental approval to market and sell our products over the Internet
+ except that we are subject to the laws and regulations generally applicable to businesses and directly applicable to offline and online commerce. However
+ because the Internet is interstate in nature
+ we are able to offer our products across the country.&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In addition
+ our management is not certain how our business may be affected by the application of existing laws governing issues such as property ownership
+ copyrights
+ encryption
+ and other intellectual property issues
+ taxation
+ libel and export or import matters
+ because the vast majority of these laws were&#160;adopted prior to the advent of the Internet
+ and therefore
+ do not contemplate or address the unique issues of the Internet and related technologies. Changes in laws that are intended to address these issues could create uncertainty in the Internet marketplace
+ which could in the future reduce demand for our products or increase our cost of operations as a result of litigation or arbitration.&#160; &#160;Presently we have not yet received any revenues from our operations
+ nor have we otherwise engaged in any business operations.
+
+OUR FUTURE SUCCESS RELIES UPON A COMBINATION OF PATENTS AND PATENTS PENDING
+ PROPRIETARY TECHNOLOGY AND KNOW-HOW
+ TRADEMARKS
+ CONFIDENTIALITY AGREEMENTS AND OTHER CONTRACTUAL COVENANTS TO ESTABLISH AND PROTECT OUR INTELLECTUAL PROPERTY RIGHTS
+
+Presently we do not have any applications submitted for trademark protection for Sport Endurance&#8221; and our slogan Shocking Great Taste
+
+
+G5^
+
+M-%
+
+M42D6I%(L3*58H$JQ4)5BP2K%PE6*!:P4UD9%K(R+&1E6,C*L)582$KPT)6
+MAH6L#`M9&1:R
+
+\
+ME
+
+(
+M9Y;AFWE89.D\^(GT%V-NFM[2ENW)4]`'_K
+
+
+
+
+
+M6L:#EI@53QH!0E:QX/6D*!-/&@#=K&@[:0($H5&5-
+
+M=MC&Z
+V*WHS1FQ6]&:
+W*WHS1F]6]&:
+WJSHS1B]6=&;
+7JSHC=C]
+X4O3.
+
+
+MLSDLJ#Y#B
+
+
+!H#!W
+
+
+
+
+
+?95MI^[
+$W(3@Q[/)E29_R1%7M-&
+
+
+$!4:RY[F
+(SR(
+
+MT^8O\7\_W&-
+ICB(*.!$XFL4W[M?R71=+-;D^&8U+@Y4D]1#.L6SN7\\/Q2I
+
+
+
+O8V]R92YX;6S-DTU/PS`
+AO\*ZKW+
+
+
+
+MXL4OT?G]/9Y
+H$Y$9`5`7%L'&PR
+Z=7Z=W]ZN'K)R
+Z2RG-*?S%;UF
+\HF
+
+
+M/SY!X'!0*TR7;0=-;;T
+9;I??71\.7%E&^N;4^I'=/&JRB]02P
+$%`````@`
+
+
+
+
+B0103`9IZ_P
+MP`JE3%ZU6FD`PSA]R1
+
+
+
+
+M
+
+
+QK!1J\;=8=HTCQZ_@7YG#4*')$;
+
+
+
+
+
+
+9FV-J/D
+
+
+
+
+Y`;@&J
+
+
+M%MW85-TJD
+S\ZNQE
+60%+4G+X0=;*W+1[M;U9^-!^\E@-%@D?[.RU8*ZZ=
+
+
+
+
+
+YQ%[;7D?B2#%T-II__7%5'MY#PO,9FKDJ3*`86L
+M5+=X,#4^!WAX5;8O-E,!%V95)MU48=#9_'*^7J0DNTC3/$-Q%,71W\61HRMF
+M()T];P=MWR/0$(&&KT%9/L_3+^D:()LEV5REU_-\M5GC5$:(,'J#X`%9OEE\
+MOMA<GJ?7V3N2_OMUA4!C!!K_+I7%/+L@R\O--YS*!!$FKPEK[3A)R-]DS5QC
+M.-$[<M98H;BUA*D2@8X1Z#@`H@#ZI,%.LMJX`8OZPF*/PG$#R'^VN]^7A)8
+M'U`D-TQ9V`\(=(I`IP'0$#ICT;47CGL5HSEB@/18XC.GYN]UJ6L'7?M2SW
+
+
+
+
+
+
+
+
+
+M*1*T(3K53:2CEWK2_A(VM75UK=
+
+
+
+
+44G$8[%%9;GL$
+
+H?Y
+M6F7)W?'5
+
+BYX;6R-
+MEE]OFS`4Q;\*XKT%8_
+
+3M:?*^E[WLN^%X@3M9:&SSAL@8
+MHJL!$:L!&P.^
+
+MXJV
+\B)XT_-
+)-$@V1C)LJ(!0ZODDM?X6(EB$P0$3@1_-^O.PGX
+?@OT/L
+
+
+
+
+
+F`_:7^H.^&]<*GV4<-V9\^Y
+M9&J6\%%5=U3[V^N@87NI3U-=-NSX8#Y:=S`7G?1Y3]02P
+
+
+RYX;6R-ELN.
+
+
+6LAXDYP\VA
+$#U+4
+
+
+
+T?AR6+A`64(/V3%2`
+
+
+M/XYL-7*WZ_&YN$U(
+
+;&ZBT@=9W:#16/!DK5K$2
+
+MD]M4OPF-OY#Y9
+ZY&C`SY%1(F
+9S/P
+JI1(25*\:NEI^GJ/I#PKXR]R8?OFV482P;:T3674S3B
+M\DYKVG5R)I'YCY[TDE
+7AC=5.;)3
+
+)F'!JYY^@I$2NW#D0QDQA4KT:U4E7Y7N6HC-[E
+
+M!PE(4(:+W(%B5'F:S;
+$D60$(<)#!
+M:9XY=K'6*H*)954*+TL!+(YCL`+)@P_&R.PTT@\]1Q_%P%-89G8DX(@<40
+MQQ:NM.8!9S%RG,WZK$N*W++;R&%:A@CK+YN+'^2/N)_:'P*#(K
+L9(M`\
+
+
+
+
+0B:W8F76?
+@SKQ2=PZB+C.I3NMCT)QK
+
+
+4N)G%(BD&)QO`*$)!3C:2WK+U%;H!(:1A.*J5
+
+M)8J=B6)(QRF`4$$6:M`1HI29Q*DFX$9ED*:T`PCB-BD6*B1EI2IY84M!B+
+M$K)L`)E1A(EQ76DQ1FRDACG5
+
+MU6@&(V(K&Q
+
+
+
+
+
+
+
+AU3$F_OQ^K?E5TA_ZT::
+F:/_6.'X7:T/=V=%^=
+
+
+
+
+
+';G&X9\
+M0[9\`Y#KW_
+$
+
+M4]MNVS`
+_17!'U#92M(6@6.@Z3!L#P.*/FS/BDW;0B71D^2X^_OI8KMID;Q(
+
+
+
+
+M
+
+%BS_Q%U
+
+
+M=?KF-GV3*MS
+
+
+
+
+3&R^)4YOG/
+
+
+MY)=:3)C#@OE:)3N[4PVFC4_'D@K'/C[4L^CZ.N]XG
+
+
+
+
+
+MB:05XUGVR+20AE9ERKW8JL31*VG@Q1(W:BWLGQ
+HG(XTIVOB57:]CPE6E6SC
+
+M5!0*A7\OFA\E(_%ZO:I_3=T&]V?AX!G5+]GX/IC-*&F@%:/RKSA]@Z6%?12L
+M4;DTDGIT'O5*H42+]WF6)LW3O+//%]IM`E\(?-\SI+QN5R^45X4946)V+G
+MHQU$O
+'\P
+
+
+
+
+/-I@MH$3V$\MG#GI(^_)\M4-#Z
+
+
+``!D`
+
+
+M^P.S\*C%&V_=X
+
+MZ^I8K^AM18Y!Z!\
+
+ME$F@S`+WEUI
+
+M965T
+
+
+GNG1U#^I--&
+M
+N==TQ
+
+
+M`AH7%)C?SO``0@0AG_COHOF1
+A`O[57]9^S65W]B%AZT^
+-;-_AB
+XQ:Z-@D
+
+M)9@^/AV+&CVI^%`OHMOKO*=Q)A_PNAI9#\_
+
+
+
+
+
+
+
+T@9A'SACUGSJV0@
+
+
+
+)K0O+![\VZ4FEP.&P
+
+M:&5E='
+
+RYX;6QU4]MNG#`0_17+'Q#(6F[8I&RB:+DH5*4A_;9
+MP-8\8789DG_OKX`V5:[+[9G?
+Z9
+[Y4LS;O=@!PZ%
+
+
+
+MLQE&+71L$NY-S\^PM'`;!!LM;!Q1
+UFGY4K!2++/-'
+
+4WOS;I2:7`Z7'](-LOK?\4$L#!!0````(`'!V
+&PO=V]R:W-H965T<R]S:&5E=#$T+GAM;'53
+MRV[;
+
+
+
+M4)9KA0QT!_R8[X]E0$3`+PZSO5BCX/VD]7L(?K0'G`4+(*!Q08'YZ0Q/($00
+
+
+
+
+
+
+MJO
+
+
+MRVF!I1-8^B5NQI;H
+
+
+
+&PO=V]R:W-H965T<R]S:&5E=#$V+GAM;(U4
+
+
+
+
+
+
+
+MO]O
+
+
+
+]L$FH_(KX'Y[G99WDH`234
+M+BAPOYW@$:0
+0C[QGUGS*V4@GMN+^L_8K:_^RT\HOPM&M?[8O.,--#R4;I7
+MG)Y@;N$V-8H;5Q)/5J':J%D1/&/M`L=]RF=%-]GVF4FPEL)=SGL?4*);Y
+
+
+
+
+
+_15!
+M'U`YSFT('`--AV)[&%#T87M6;-H6*HFN)
+?=WT\7V\V*Y$4BJ7
+.25$J1C1O
+
+
+NS;
+
+
+
+^TBR4`!(J%Q2XWR[P!%(&(9_X?=+\3!F(
+MU_:L_AR[]=6?N84GE']$[3I?;$9)#0T?I'O%\0=
++6R#8(72QI54@W6H9@HE
+
+
+
+
+MVRP6GA+%
+K]SQZO2X$1
+NMJ!APFN=KF_B)KXVJP/QB
+
+M
+
+
+
+
+
+
+MAR
+
+
+
+MT.+(4RH9Y:*,1`K142^'GD:$D5Z9JV8Q!#F&1#ZPT@7_5ZO*G7SH;ZSD:J
+
+
+M.DS!86YPF%HY3&T=VH+KU
+
+
+
+U65?M0:;4/[;
+#
+
+
+
+
+MWNSB:WV
+
+
+
+
+
+M6*$_
+
+M^
+'\K
+Z\
+
+
+@
+
+M@
+
+
+JTHE
+
+
+
+
+
+LX^RF2WUZM\4'RD:9S_-]5)=KP:\B%^
+
+U_
+
+
+
+
+
+
+
+MC-EZF*!8CI)UC+
+
+M`$DJV_G1I35
+
+A(]LA($F0D!:&G``J9
+
+
+
+
+NV_J)ZT
+MD?Q
+<PB89$5@J[ZZ(-LN
+O7V&3BD=SB%__&?]F;,;YP/B;J`F1WD=+.['S:RG[+0#B6),6BR?6DTZM
+M5(RW6*HA/P/1<X)/QJBE((`P`2UN.K_(S=P++W)VD;3IR`OWQ*5M,?^S)Y0-
+M.Q_YMXG7YEQ+/0&*'(QVIZ8EG6A8YW%2[?QGMV1D1C%KX8
+XJ[O:?@#8V]Z
+
+
+
+M&@35;R$;4ZH'F&P5)K
+
+M971S+W-H965T
+
+M'#
+_[PV4<
+M=YN]JHON0A]4
+_RRTVU=]
+
+
+
+-%3^
+
+
+K2'%`+2T(`
+`K+0@!P\O\8C._:?JW15^LEJT^1JVY
+
+
+
+
+
+
+
+.5R5TSP
+7(0(R)
+
+
+
+H
+MGM7WHGTNFRYZTGVOZ^E=S4[K7@UIR
+
+
+
+
+
+M:)$1Y%ZR!+%O'F#:/3:
+
+M3+7(M)M^DB@0[^:8&N`9_83DW/34.6#&3SQY
+
+
+=]WBG]02P
+
+
+
+M;S@H;Q.4D:!
+
+3HI/*OCB
+
+M^1A=LZX+#KWUTZTW&-]O7%@UG;MQ_24T_P!02P
+
+
+
+
+
+MIWE-J8FW^T']NZE6N=]C`24C?YJ#K)79P$
+'..(SD:^L_P&NA%0+5HP(\XNJ
+MLY,#A0/4?QNUZ8U:V]OUH&C31,B1XA&0I@M$F)'B*^$Q%1JG9FZOF&)BYRS
+M'G'[+3JL/WFXB57G*J2*$2IHKKCI5)%?BF@=Y_Y%]UA(H/964PX(GRE/J:(
+MYE
+
+
+
+$F6^N_^2=%=D27?7'R'AJ:5YNZHKTM^EV9]\)431
+
+
+^DYC
+MMU@G8I.OTTTG$\N+[B]Z/N=^A=3$VUKL\KWWG2KY]S3]4UU
+%Q==4N4@8O%1
+
+
+
+
+MT.(!&(
+
+
+
+
+H9Q=O=3/]*=2
+
+
+42A
+6KO'D
+%&=H'
+]4CA&+V]C]44+DNC9(
+4;5
+B)**(&!21IU_QE8)HZ+5*(*DIN&*!P=<-RM<M4
+Q$W4%$
+
+RSS!97:*VJ9;TU0;H@X;_-UN!T0
+
+
+
+M?8I9E'VN-WGG/2V*-*G_C[I
+TT*4GLA9Z7$EHD5S$8ME4;T-JE#RMR-Y4:1;
+
+
+
+
+
+9_D[6OU`C?)Q%0KI\^`0HCF=::
+M728M':FY.`$\WR=I#;[;A1_A[Q8PP._2C]L6\H.,HKU/<?((.R#]+(EE(ZR
+
+
+'^:X
+
+
+M3P'Z3.L%:E7^KDY5+/%:03MXTPG;^
+
+M/PSVPA@H?AG-C?0DD.RM#?-Y*%V#O;Z283Q+N.BLKW-/1V(MB?
+
+
+'=^=?3B[!#JZ.A=7UV<WQW<75Y<=&N=&/LBXJ,G9*UBM3QI;?@8S.)/9
+ME]4F7\M8HG6=.\'BS`FNR\/'VJ#7:?)3&89
+^U
+
+
+
+
+
+
+
+MQ!28_FB=&I
+S3X#+8U+Y:&5:`&82__@D#4&10:+&J15[IK]M`:Z&[M4VE7
+H*_Z#XYW
+
+0I-I(@E^?X;
+
+
+
+/[\9;;T
+MI_(O7RQQZO1!?J$Q]
+
+
+Y6DQ9?S1$
+!I.$*&^
+
+M!T.:#+K()?;&J?KBSLY-\V*\6:M76D,'D@PM`.,X2!VPJG4PB+%R3`H_[2W
+M#\CX0'OY[P1[#/)0B2A1^#.4BA.QP:QO33%(6R6!;I=`YB(BL-(0,S
+JA
+M#$.8%`U2DI2%1TY0-
+
+:`R$!BQ0
+
+
+M]H`*;6!'AW[$0Z*L(R.3\5?K$0
+
+
+]A.$9/2LD,0='#MA?QO!%GB:D^V7T)'RR_)3-
+MC[S).C6KH=E!4[_W#KD3M\85[;T[HDIPI)CI`_3E`VUP@+3/K+2WXS1-DJ9
+
+
+
+
+
+
+:60D@
+
+
+
+M
+
+
+MC-^Y'[2[3PCRJP']A/^TIG
+P_M#OF82B_4N0K$?YB:3+1!_!\E)F$PS)I(;:
+
+
+
+
+
+
+/;
+M$_%F--@;#O8&!RQ#;1\G7G.+7I2?@@OS+H%_+*$C_8`0!5<3;)A/1,O,[MC+
+M87/8J(U<#:`_'V,UC*%[R?H@#F#*L%JT)R@WTTP2\DR=D,!(2RGUQ8M#.
+MY`
+
+MF@2MGC#FF:=^FCY11-E:S
+;0`;REZ.
+
+**@
+E#K6&1#G@A
+&F
+M)9#59_K511/LR
+
+Z%,)BX%YFI&!)&QVFLVTRP&`PL;/W$GA!/18`8H(:&L4I54S`?H#E
+57.
+
+
+
+
+
+
+
+
+]U
+
+
+G22&GBAO.WV-2AWUC95M6%^%'
+M6:+IOZ0P`KGG`.*):00V)
+
+
+%041LTY)2L
+
+
+O;I1A2S`UC8YA
+
+
+
+M'@
+-@F(1EE&B)R8Q&TA7W*+BUR;M-/DC1-'LD^SE5YF*I0
+
+
+
+
+X_'P?^
+
+A[Z`':GU*PH<J+2J=,=0F\.46##].BXML[BL?=@@\8-&`0I3L@;
+
+
+
+&`R7N5
+M&I^%L2D'0!UKQ\UH7
+GG]@TS?_`S1/W7&+%$-:Z4&0;!M
+
+
+
+''@SJN;_6I4JWE%BY-'J]++A[8;72X%5-T,*\.^HH^$:L4`EC-@
+M2JAKJ*A(;D0T6#]-R*PA
+
+MO
+
+
+Z-J++U#%^@@&6BUD;
+MN+6UH5
+
+GJPU#BCHOL(X#P-(F
+
+
+
+
+
+
+
+
+MH8&#T&IV0H?
+L%B
+
+M)S+4D5VNF
+
+
+
+
+MF_9=R&B4;F
+
+_1.
+M2I?E8)\
+/7K$5^_4GA+4!SME[5J^LE@Q18AX!
+
+
+
+HHG\
+MQ(3BKL3[[C'_NV;$`JWM[Q\V(I8&.?1&H[%;W5=##UGDD^1!36UO0
+FX&M9.
+M9IPMMQ67O)?A
+S(35%_IG)R3FZN
+
+;U1XL<Z_Q;OF<0KGD[59H`[
+MJ5+\3$U$8QA@Q@.-%%X'I)1N4*/0(Y7A\9'5/M9OF@+B\C4
+X_9E@W59Q&RU
+ME
+
+
+
+
+\088W^QJR^@P6MD54W:'6D1#+T`JQ@Q@VAM
+.03B
+
+MT
+
+50-NYO_6Q@.
+
+M#R1W]ULOEJS!P[!QTUU=JOK:Y+[Y*BQ@LR][EK%ZR%B5S_M-EV6]Z@WIGC3[
+
+M8?&VZ+!QKPZ`E
+
+
+
+
+
+M4&Z:)G
+
+
+
+
+
+V=+5V#[Z:DF\G@4715=-4=U=P-`QQK;5R
+M':FJ0E('#@2?NU%'WU&#P'0+Y]H<SL9%4`V/Y_E7LKZP5$%0.2]BCG0.U'B
+
+
+'XMT_N-7:X.UW@[?_
+O`X-^#^
+
+MQ4GVYM12S7RL7W;
+U^CK6D)NC;8YNX?W=YM*:'65DKZPA6@:/SN7#G!^I6G3
+
+M`7A\O3^9?R_K.T6DADBE0TTHD4;[WO[H/]W_[P@.1?]1IQ/H)?6U)O1W??
+MA3]5_UV:MZFU%HYKT!L9J*O`I_VT=C+PXJOQ`;BH@R/A/_A@SZCZ\V0V0RG3
+M?*^X.LZ\8BJZ=P)-GB(/(WY[71UYN`]C]5Y$2.^8P&+0N7_G7NUHH4GH-E^D
+M((ERD-X2*U_3YAK2(-EH=]6=5`B7Y_H)$[S0Q_-X!LQZ`9)=7ZK#`$V%BF
+
+
+
+
+
+NH)GX:G@BEJ\+I
+
+_X
+
+M9
+
+
+M6=L^L[9]9FW[S-KVF;7M
+VO;9]:VSZQMGUG;/K.V?69M^\S:]IFU[3-KVV?6
+MML^L;9]9VSZSMGUF;?O
+
+
+
+2@[TJ8*93891RJYAE$[(?DVR=Z7EBN-ZS795
+
+T-
+
+MXK6JY6ILK:
+
+
+
+
+Z*
+
+
+7^J&99SBN=JJ2
+MOXI+J(WF
+
+*
+M_QM:%
+
+M6BVM?4;/Z#-N[=
+
+
+@J3.NU!E&ZHP:/8N.NH3S!G;#BRRO6N<*
+MO%W1=R=X9<Y;DNJVH+\L]K&IY[DV\,\)0_SZ;O!Z$+_.LORO_Q]02P$%`
+4
+
+
+
+
+
+
+
+
+
+4`````!P=G)'+OQJ3J0!``Q`P``
+&UL4$L!
+
+``!@``````````````(`!
+
+4`````!P=G)'%VE9?Z8!``Q`P``&0``````````````@`'D
+
+
+M965T
+
+``!D`````````
+
+
+
+S8``'AL
+
+
+
+
+
+O
+
+
+
+
+P+```9````````````````1Y```!X;]W;W)K
+
+
+
+
+2YX;6Q0
+
+
+
+M
+C
+
+
+
+
+
+``#05```9````
+
+
+
+
+
+
+
+
+&N(L`````
+`
+end
+
+
+
+
+
+
+
+
+/* Updated 2009-11-04 */
+/* v2.2.0.24 */
+/* DefRef Styles */
+..report table.authRefData{
+	background-color: #def;
+	border: 2px solid #2F4497;
+	font-size: 1em;
+	position: absolute;
+}
+..report table.authRefData a {
+	display: block;
+	font-weight: bold;
+}
+..report table.authRefData p {
+	margin-top: 0px;
+}
+..report table.authRefData .hide {
+	background-color: #2F4497;
+	padding: 1px 3px 0px 0px;
+	text-align: right;
+}
+..report table.authRefData .hide a:hover {
+	background-color: #2F4497;
+}
+..report table.authRefData .body {
+	height: 150px;
+	overflow: auto;
+	width: 400px;
+}
+..report table.authRefData table{
+	font-size: 1em;
+}
+/* Report Styles */
+..pl a
+ .pl a:visited {
+	color: black;
+	text-decoration: none;
+}
+/* table */
+..report {
+	background-color: white;
+	border: 2px solid #acf;
+	clear: both;
+	color: black;
+	font: normal 8pt Helvetica
+ Arial
+ san-serif;
+	margin-bottom: 2em;
+}
+..report hr {
+	border: 1px solid #acf;
+}
+/* Top labels */
+..report th {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+..report th.void	{
+	background-color: transparent;
+	color: #000000;
+	font: bold 10pt Helvetica
+ Arial
+ san-serif;
+	text-align: left;
+}
+..report .pl {
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+	width: 200px;
+	white-space: normal; /* word-wrap: break-word; */
+}
+..report td.pl a.a {
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	overflow: hidden;
+}
+..report td.pl div.a {
+	width: 200px;
+}
+..report td.pl a:hover {
+	background-color: #ffc;
+}
+/* Header rows... */
+..report tr.rh {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+}
+/* Calendars... */
+..report .rc {
+	background-color: #f0f0f0;
+}
+/* Even rows... */
+..report .re
+ .report .reu {
+	background-color: #def;
+}
+..report .reu td {
+	border-bottom: 1px solid black;
+}
+/* Odd rows... */
+..report .ro
+ .report .rou {
+	background-color: white;
+}
+..report .rou td {
+	border-bottom: 1px solid black;
+}
+..report .rou table td
+ .report .reu table td {
+	border-bottom: 0px solid black;
+}
+/* styles for footnote marker */
+..report .fn {
+	white-space: nowrap;
+}
+/* styles for numeric types */
+..report .num
+ .report .nump {
+	text-align: right;
+	white-space: nowrap;
+}
+..report .nump {
+	padding-left: 2em;
+}
+..report .nump {
+	padding: 0px 0.4em 0px 2em;
+}
+/* styles for text types */
+..report .text {
+	text-align: left;
+	white-space: normal;
+}
+..report .text .big {
+	margin-bottom: 1em;
+	width: 17em;
+}
+..report .text .more {
+	display: none;
+}
+..report .text .note {
+	font-style: italic;
+	font-weight: bold;
+}
+..report .text .small {
+	width: 10em;
+}
+..report sup {
+	font-style: italic;
+}
+..report .outerFootnotes {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+Note 4 - Equipment (Details) - Schedule of Property
+ Plant and Equipment - USD ($)
+Aug. 31
+ 2015
+Aug. 31
+ 2014
+
+
+Property
+ Plant and Equipment [Line Items]
+
+
+
+
+
+
+Property and equipment
+ gross
+
+340
+
+
+340
+
+
+
+
+
+150)
+
+
+960)
+
+
+
+Property and equipment
+ net
+
+190
+
+
+380
+
+
+
+
+
+
+
+
+
+
+Property
+ Plant and Equipment [Line Items]
+
+
+
+
+
+
+Property and equipment
+ gross
+
+000
+
+
+000
+
+
+
+
+
+
+
+
+
+
+Property
+ Plant and Equipment [Line Items]
+
+
+
+
+
+
+Property and equipment
+ gross
+
+340
+
+
+340
+
+
+
+
+
+
+
+Amount of accumulated depreciation
+ depletion and amortization for physical assets used in the normal conduct of business to produce goods and services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount before accumulated depreciation
+ depletion and amortization of physical assets used in the normal conduct of business and not intended for resale. Examples include
+ but are not limited to
+ land
+ buildings
+ machinery and equipment
+ office equipment
+ and furniture and fixtures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount after accumulated depreciation
+ depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include
+ but are not limited to
+ land
+ buildings
+ machinery and equipment
+ office equipment
+ and furniture and fixtures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2015
+
+
+
+
+
+
+
+
+   
+  
+   
+  
+
+ 2014
+ the Company converted $25
+543 of convertible debt due to the Company&#x2019;s CEO
+ Gerald Ricks
+ into 12
+771
+
+  
+
+ 2014
+ the Company converted $7
+021 of convertible debt due to the Company&#x2019;s former CEO
+ Robert Timothy
+ into 3
+510
+
+  
+
+ 2014
+ the Company converted $30
+033 of convertible debt due to the Company&#x2019;s major shareholder
+ BK Consulting
+ into 15
+016
+
+  
+
+ 2014
+ the Company&#x2019;s major shareholder
+ BK Consulting sold convertible notes to five unrelated third parties who subsequently converted the note into common stock.&nbsp;&nbsp;The Company converted $12
+446 of convertible debt into 6
+223
+
+  
+   
+  
+    
+   
+
+ 2014 the Company issued convertible promissory notes for aggregate proceeds in the amount of $22
+643.&nbsp;&nbsp;The loans are non-interest bearing and convertible at the holder&#x2019;s discretion into Common Stock at a price of $0.002 per share.
+   
+
+ 2014 the Company issued an unsecured convertible loan of $2
+670.25
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+   
+
+ 2014 the Company issued an unsecured convertible loan of $1
+500
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+   
+
+ 2014 the Company issued an unsecured convertible loan of $2
+000
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+   
+
+ 2015 the Company issued an unsecured convertible loan of $2
+073
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+   
+
+ 2015 the Company issued an unsecured convertible loan of $1
+250
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+   
+
+ 2015 the Company issued an unsecured convertible loan of $1
+950
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+  
+
+ 2015 the Company issued an unsecured convertible loan of $2
+275
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+  
+
+
+ 2015 the Company issued an unsecured convertible loan of $1
+250
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+  
+
+
+ 2015 the Company issued an unsecured convertible loan of $1
+950
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from BK Consulting
+
+  
+
+ 2015 the Company issued an unsecured convertible loan of $2
+635
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from a major shareholder
+ BK Consulting
+
+  
+
+ 2015 the Company issued an unsecured convertible loan of $1
+250
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from a major shareholder
+ BK Consulting
+
+  
+
+ 2015 the Company issued an unsecured convertible loan of $2
+073
+ non-interest bearing
+ due on demand and convertible into Common Stock at a rate $0.002 per share
+ from a major shareholder
+ BK Consulting
+
+  
+As of August 31
+ 2015 and August 31
+ 2014 the balance of the convertible debt was $38
+543 and $15
+668.&nbsp;&nbsp;The Company records imputed interest on all outstanding convertible notes at a rate of 8%.&nbsp;&nbsp;The Company recorded imputed interest in the amount of $2
+139 and $1
+319 during the year ended August 31
+ 2015 and 2014.
+    
+    
+   
+
+ to the extent the aggregate value of the conversion feature did not exceed the face value of the notes.&nbsp;&nbsp;These discounts are amortized to interest expense through earlier of the term or conversion of the notes.&nbsp;&nbsp;During the year ended August 31
+ 2015 and 2014 the Company recorded debt discounts in the amount of $22
+876 and $22
+643.&nbsp;&nbsp;During the year ended August 31
+ 2015 and 2014 the Company amortized debt discounts to interest expense in the aggregate amount of $22
+876 and $22
+
+   
+    
+   
+
+ 2010
+ the former CEO
+ Robert Timothy
+ resigned as from the Board of Directors and his position as CEO
+
+   
+
+ 2010
+
+   
+
+ 2010
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2015
+Aug. 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+427
+
+
+565
+
+
+
+
+
+427)
+
+
+565)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (b)
+(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+507
+
+
+
+
+
+
+
+
+
+
+
+
+Expiration date of each operating loss carryforward included in operating loss carryforward
+ in CCYY format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov. 11
+ 2015
+Nov. 10
+ 2015
+Nov. 03
+ 2015
+Nov. 02
+ 2015
+Oct. 28
+ 2015
+Apr. 30
+ 2015
+Apr. 15
+ 2015
+Mar. 04
+ 2015
+Feb. 02
+ 2015
+Jan. 14
+ 2015
+Jan. 02
+ 2015
+Dec. 04
+ 2014
+Nov. 18
+ 2014
+Nov. 03
+ 2014
+Aug. 15
+ 2009
+Aug. 31
+ 2014
+Aug. 31
+ 2013
+Aug. 31
+ 2015
+Jul. 29
+ 2015
+Jul. 17
+ 2015
+Jul. 15
+ 2015
+Apr. 14
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stock Issued During Period
+ Shares
+ New Issues
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common Stock
+ Par or Stated Value Per Share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stock Issued During Period
+ Value
+ New Issues
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stock Issued During Period
+ Shares
+ New Issues
+
+
+
+
+
+500
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common Stock
+ Par or Stated Value Per Share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Interest Rate Terms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Convertible
+ Conversion Price
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Convertible
+ Conversion Price
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stock Issued During Period
+ Shares
+ New Issues
+
+371
+500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common Stock
+ Par or Stated Value Per Share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stock Issued During Period
+ Value
+ New Issues
+
+372
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Face Amount
+
+
+
+
+
+
+
+
+
+
+
+950
+
+
+
+
+275
+
+
+950
+
+
+250
+
+
+073
+
+
+000
+
+
+500
+
+
+670.25
+
+
+
+
+
+
+
+
+
+
+073
+
+
+250
+
+
+635
+
+
+250
+
+
+
+Debt Instrument
+ Interest Rate Terms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Convertible
+ Conversion Price
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Conversion
+ Original Debt
+ Amount
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+033
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Conversion
+ Converted Instrument
+ Shares Issued
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+016
+500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Face Amount
+
+
+
+
+
+
+
+
+
+700
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Interest Rate Terms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Instrument
+ Convertible
+ Conversion Price
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Conversion
+ Original Debt
+ Amount
+
+
+
+742
+
+
+
+
+501
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debt Conversion
+ Converted Instrument
+ Shares Issued
+
+
+
+371
+500
+
+
+
+
+750
+400
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Description of the interest rate as being fixed or variable
+ and
+ if variable
+ identification of the index or rate on which the interest rate is based and the number of points or percentage added to that index or rate to set the rate
+ and other pertinent information
+ such as frequency of rate resets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Paragraph 29
+ 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Paragraph 29
+ 30
+ 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2015
+
+Organization
+ Consolidation and Presentation of Financial Statements [Abstract]
+
+
+
+
+
+
+   
+  
+
+ the Company has incurred recurring net losses from operations resulting in an accumulated deficit of $431
+453
+&nbsp;&nbsp;and a working capital deficit of $59
+865 as of August 31
+ 2015. These factors raise substantial doubt about the Company&#x2019;s ability to continue as a going concern. Management is actively pursuing new ventures to increase revenues. In addition
+ the Company is currently seeking additional sources of capital to fund short term operations. The Company
+ however
+ is dependent upon its ability to secure equity and/or debt financing and there are no assurances that the Company will be successful
+ therefore
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure when substantial doubt is raised about the ability to continue as a going concern. Includes
+ but is not limited to
+ principal conditions or events that raised substantial doubt about the ability to continue as a going concern
+ management's evaluation of the significance of those conditions or events in relation to the ability to meet its obligations
+ and management's plans that alleviated or are intended to mitigate the conditions or events that raise substantial doubt about the ability to continue as a going concern.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Aug. 31
+ 2015
+Aug. 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Equipment
+ net of accumulated depreciation
+
+190
+
+
+380
+
+
+
+
+
+190
+
+
+380
+
+
+
+
+
+
+
+
+
+
+
+
+322
+
+
+733
+
+
+
+
+
+543
+
+
+668
+
+
+
+
+
+865
+
+
+401
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preferred stock
+ $0.001 par value
+ 20
+000
+000 shares authorized
+ 1
+000 shares issued and outstanding as of August 31
+ 2015 and August 31
+ 2014
+
+
+
+
+
+
+Common stock
+ $0.001 par value
+ 580
+000
+000 shares authorized
+ 37
+581
+903 and 37
+581
+903 shares issued and outstanding as of August 31
+ 2015 and August 31
+ 2014
+
+582
+
+
+582
+
+
+
+
+
+195
+
+
+180
+
+
+
+
+
+453)
+
+
+784)
+
+
+
+
+
+675)
+
+
+021)
+
+
+
+
+
+190
+
+
+380
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock
+ use the element additional paid in capital
+ common stock. For additional paid-in capital associated with only preferred stock
+ use the element additional paid in capital
+ preferred stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash
+ sold
+ or consumed within one year (or the normal operating cycle
+ if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Represents the caption on the face of the balance sheet to indicate that the entity has entered into (1) purchase or supply arrangements that will require expending a portion of its resources to meet the terms thereof
+ and (2) is exposed to potential losses or
+ less frequently
+ gains
+ arising from (a) possible claims against a company's resources due to future performance under contract terms
+ and (b) possible losses or likely gains from uncertainties that will ultimately be resolved when one or more future events that are deemed likely to occur do occur or fail to occur.
+ -Subparagraph (SX 210.7-03.(a)
+19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carrying value as of the balance sheet date of the portion of long-term debt due within one year or the operating cycle if longer identified as Convertible Notes Payable. Convertible Notes Payable is a written promise to pay a note which can be exchanged for a specified amount of another
+ related security
+ at the option of the issuer and the holder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of liabilities and equity items
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable preferred stock (or preferred stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable preferred shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount after accumulated depreciation
+ depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include
+ but are not limited to
+ land
+ buildings
+ machinery and equipment
+ office equipment
+ and furniture and fixtures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2015
+Aug. 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+669)
+
+
+237)
+
+
+
+
+
+
+
+
+
+
+
+
+190
+
+
+192
+
+
+
+
+
+876
+
+
+643
+
+
+
+
+
+139
+
+
+319
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+875)
+
+
+621)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+875
+
+
+643
+
+
+
+
+
+875
+
+
+621
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+876
+
+
+643
+
+
+
+
+
+
+
+043
+
+
+
+
+
+
+
+The amount of imputed interest on convertible debt
+ recognized during the period on non-interest bearing debt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of increase (decrease) in cash and cash equivalents. Cash and cash equivalents are the amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The aggregate expense recognized in the current period that allocates the cost of tangible assets
+ intangible assets
+ or depleting assets to periods that benefit from use of the assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The amount of cash paid during the current period to foreign
+ federal
+ state
+ and local authorities as taxes on income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from financing activities
+ including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from operating activities
+ including discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash inflow from the issuance of a long-term debt instrument which can be exchanged for a specified amount of another security
+ typically the entity's common stock
+ at the option of the issuer or the holder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The net cash inflow or outflow from the excess drawing from an existing cash balance
+ which will be honored by the bank but reflected as a loan to the drawer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Aug. 31
+ 2015
+Aug. 31
+ 2014
+
+
+Organization
+ Consolidation and Presentation of Financial Statements [Abstract]
+
+
+
+
+
+
+
+
+453)
+
+
+784)
+
+
+
+
+
+865)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Aug. 31
+ 2015
+Aug. 31
+ 2014
+
+
+Property
+ Plant and Equipment [Abstract]
+
+
+
+
+
+
+
+
+190
+
+
+192
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Rivet Software Inc.
+ *
+ * @copyright Copyright (c) 2006-2011 Rivet Software
+ Inc. All rights reserved.
+ * Version 2.4.0.3
+ *
+ */
+var Show = {};
+Show.LastAR = null
+Show.hideAR = function(){
+	Show.LastAR.style.display = 'none';
+};
+Show.showAR = function ( link
+ id
+ win ){
+	if( Show.LastAR ){
+		Show.hideAR();
+	}
+	var ref = link;
+	do {
+		ref = ref.nextSibling;
+	} while (ref && ref.nodeName != 'TABLE');
+	if (!ref || ref.nodeName != 'TABLE') {
+		var tmp = win ?
+			win.document.getElementById(id) :
+			document.getElementById(id);
+		if( tmp ){
+			ref = tmp.cloneNode(true);
+			ref.id = '';
+			link.parentNode.appendChild(ref);
+		}
+	}
+	if( ref ){
+		ref.style.display = 'block';
+		Show.LastAR = ref;
+	}
+};
+Show.toggleNext = function( link ){
+	var ref = link;
+	do{
+		ref = ref.nextSibling;
+	}while( ref.nodeName != 'DIV' );
+	if( ref.style &&
+		ref.style.display &&
+		ref.style.display == 'none' ){
+		ref.style.display = 'block';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '+'
+ '-' );
+		}else{
+			link.innerText = link.innerText.replace( '+'
+ '-' );
+		}
+	}else{
+		ref.style.display = 'none';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '-'
+ '+' );
+		}else{
+			link.innerText = link.innerText.replace( '-'
+ '+' );
+		}
+	}
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2015
+
+
+
+
+
+
+Organization
+ Consolidation and Presentation of Financial Statements Disclosure and Significant Accounting Policies [Text Block]
+
+   
+  
+   
+  
+
+ Inc. (&#x201c;the Company&#x201d;) was incorporated as Cayenne Construction
+ Inc. in the state of Nevada on January 3
+ 2001 (&#x201c;Inception&#x201d;). The Company was formed to be an independent service provider of ready-mix concrete
+ whereby management was to arrange purchases of ready-mixed concrete by small contractors and customers on a fee basis. The Company ceased operations in 2002 and was revived in 2009 with a name change to
+ &#x201c;Sport Endurance
+ Inc.&#x201d; on August 6
+
+  
+
+ 2012 the shareholders of the Company voted to increase the authorized common shares of the Company&#x2019;s common stock from 480
+000
+000 authorized shares of common stock to 580
+000
+000 authorized shares of common stock.&nbsp;&nbsp;As a result of this vote
+
+  
+
+ 2012
+ we effected a 1
+000 for 1 reverse stock split
+ decreasing the issued and outstanding shares common shares from 60
+200
+000 to 60
+200 shares and decreasing the issued and outstanding preferred shares from 1
+000
+000 to 1
+
+  
+   
+  
+
+ in the opinion of management
+
+  
+   
+  
+   
+  
+
+ and the disclosure of contingent assets and liabilities at the date of the financial statements
+
+  
+   
+  
+
+000.&nbsp;&nbsp;Deposits with these banks may exceed the amount of insurance provided on such deposits; however
+ these deposits typically may be redeemed upon demand and
+ therefore
+ bear minimal risk. The Company had cash and cash equivalents of $0 and $0 as of August 31
+
+  
+   
+  
+
+
+  
+
+
+
+
+         
+
+       
+
+
+
+         
+
+       
+
+     
+
+
+
+         
+
+       
+
+
+
+         
+
+       
+
+   
+
+
+  
+
+ if any
+
+  
+   
+  
+
+ which requires the establishment of deferred tax assets and liabilities for the temporary differences between the financial reporting basis and the tax basis of the Company&#x2019;s assets and liabilities at enacted tax rates expected to be in effect when such amounts are realized or settled. The effect on deferred tax assets and liabilities of a change in tax rates is recognized in income in the period that includes the enactment date.&nbsp;&nbsp;A valuation allowance is provided to the extent deferred tax assets may not be recoverable after consideration of the future reversal of deferred tax liabilities
+ tax planning strategies
+
+  
+   
+  
+
+
+  
+   
+  
+
+ we will recognize revenue upon shipment or delivery to our customers based on written sales terms that do not allow for a right of return. As such
+ revenue is recognized at the time of sale if collectability is reasonably assured. Provisions for discounts and rebates to customers
+ estimated returns and allowances
+
+  
+   
+  
+
+ by the weighted average number of common shares outstanding plus potential dilutive securities. For the periods presented
+
+  
+   
+  
+
+ 2010. Under FASB ASC 718-10-30-2
+ all share-based payments to employees
+ including grants of employee stock options
+ to be recognized in the income statement based on their fair values. Pro forma disclosure is no longer an alternative.&nbsp;&nbsp;The Company has not had any stock options issued for services and compensation from inception through the period ended as presented
+ and the only issuance of stock for services from inception through the periods presented occurred on February 10
+ 2002 with the issuance of 25
+000 shares valued at $125
+
+  
+
+ as such
+ we record the related expense based on the more reliable measurement of the services provided
+
+  
+
+ re-price
+ or grant stock-based awards retroactively. As of the date of this report
+
+  
+   
+  
+
+ 2009
+ the Company adopted new standards for accounting for uncertainty in income taxes. These standards prescribe a recognition threshold and measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken in a tax return. These standards also provide guidance on de-recognition
+ classification
+ interest and penalties
+ accounting in interim periods
+ disclosure
+
+  
+
+ including the timing and amount of deductions and the allocation of income to various tax jurisdictions. In evaluating the exposures connected with these various tax filing positions
+ including state and local taxes
+ the Company records allowances for probable exposures. A number of years may elapse before a particular matter
+ for which an allowance has been established
+
+  
+   
+  
+   
+  
+
+ the FASB issued ASU 2015-03
+ &#x201c;Simplifying the Presentation of Debt Issuance Costs&#x201d; (&#x201c;this Update&#x201d;) as part of its initiative to reduce complexity in accounting standards (the Simplification Initiative). The Board received feedback that having different balance sheet presentation requirements for debt issuance costs and debt discount and premium creates unnecessary complexity. Recognizing debt issuance costs as a deferred charge (that is
+ an asset) also is different from the guidance in International Financial Reporting Standards (IFRS)
+ which requires that transaction costs be deducted from the carrying value of the financial liability and not recorded as separate assets. Additionally
+ the requirement to recognize debt issuance costs as deferred charges conflicts with the guidance in FASB Concepts Statement No. 6
+ Elements of Financial Statements
+ which states that debt issuance costs are similar to debt discounts and in effect reduce the proceeds of borrowing
+ thereby increasing the effective interest rate. Concepts Statement 6 further states that debt issuance costs cannot be an asset because they provide no future economic benefit. To simplify presentation of debt issuance costs
+ the amendments in this Update require that debt issuance costs related to a recognized debt liability be presented in the balance sheet as a direct deduction from the carrying amount of that debt liability
+ consistent with debt discounts. The recognition and measurement guidance for debt issuance costs are not affected by the amendments in this Update. For public business entities
+ the amendments in this Update are effective for financial statements issued for fiscal years beginning after December 15
+ 2015
+ and interim periods within those fiscal years. For all other entities
+ the amendments in this Update are effective for financial statements issued for fiscal years beginning after December 15
+ 2015
+ and interim periods within fiscal years beginning after December 15
+ 2016. The Company is currently evaluating the effects of adopting this ASU
+
+  
+
+ the Financial Accounting Standards Board (&#x201c;FASB&#x201d;) issued Accounting Standards Update (&#x201c;ASU&#x201d;) 2014-10
+ &#x201c;Development Stage Entities&#x201d;. The amendments in this update remove the definition of a development stage entity from the Master Glossary of the ASC thereby removing the financial reporting distinction between development stage entities and other reporting entities from U.S. GAAP.&nbsp;In addition
+ the amendments eliminate the requirements for development stage entities to (1) present inception-to-date information in the statements of income
+ cash flows
+ and stockholder equity
+ (2) label the financial statements as those of a development stage entity
+ (3) disclose a description of the development stage activities in which the entity is engaged
+
+  
+
+ FASB issued Accounting Standards Update (ASU) No. 2014-12
+ Compensation &#x2013; Stock Compensation (Topic 718): Accounting for Share-Based Payments When the Terms of an Award Provide That a Performance Target Could Be Achieved after the Requisite Service Period. The new guidance requires that share-based compensation that require a specific performance target to be achieved in order for employees to become eligible to vest in the awards and that could be achieved after an employee completes the requisite service period be treated as a performance condition. As such
+ the performance target should not be reflected in estimating the grant-date fair value of the award. Compensation costs should be recognized in the period in which it becomes probable that the performance target will be achieved and should represent the compensation cost attributable to the period(s) for which the requisite service has already been rendered. If the performance target becomes probable of being achieved before the end of the requisite service period
+ the remaining unrecognized compensation cost should be recognized prospectively over the remaining requisite service period. The total amount of compensation cost recognized during and after the requisite service period should reflect the number of awards that are expected to vest and should be adjusted to reflect those awards that ultimately vest. The requisite service period ends when the employee can cease rendering service and still be eligible to vest in the award if the performance target is achieved. This new guidance is effective for fiscal years and interim periods within those years beginning after December 15
+
+  
+There are various other updates recently issued
+ most of which represented technical corrections to the accounting literature or application to specific industries and are not expected to a have a material impact on the Company's consolidated financial position
+ results of operations or cash flows.&nbsp;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for the organization
+ consolidation and basis of presentation of financial statements disclosure
+ and significant accounting policies of the reporting entity. May be provided in more than one note to the financial statements
+ as long as users are provided with an understanding of (1) the significant judgments and assumptions made by an enterprise in determining whether it must consolidate a VIE and/or disclose information about its involvement with a VIE
+ (2) the nature of restrictions on a consolidated VIE's assets reported by an enterprise in its statement of financial position
+ including the carrying amounts of such assets
+ (3) the nature of
+ and changes in
+ the risks associated with an enterprise's involvement with the VIE
+ and (4) how an enterprise's involvement with the VIE affects the enterprise's financial position
+ financial performance
+ and cash flows.  Describes procedure if disclosures are provided in more than one note to the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Aug. 31
+ 2015
+Aug. 31
+ 2014
+Nov. 23
+ 2012
+Nov. 22
+ 2012
+Oct. 31
+ 2012
+Oct. 30
+ 2012
+
+
+Preferred stock
+ par value (in Dollars per share)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preferred stock
+ shares authorized
+
+000
+000
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+Preferred stock
+ shares issued
+
+000
+
+
+000
+
+
+000
+
+
+000
+000
+
+
+
+
+
+
+
+Preferred stock
+ shares outstanding
+
+000
+
+
+000
+
+
+000
+
+
+000
+000
+
+
+
+
+
+
+
+Common stock
+ par value (in Dollars per share)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ shares authorized
+
+000
+000
+
+
+000
+000
+
+
+
+
+
+
+000
+000
+
+
+000
+000
+
+
+
+Common stock
+ shares issued
+
+581
+903
+
+
+581
+903
+
+
+200
+
+
+200
+000
+
+
+
+
+
+
+
+Common stock
+ shares outstanding
+
+581
+903
+
+
+581
+903
+
+
+200
+
+
+200
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) issued to shareholders (includes related preferred shares that were issued
+ repurchased
+ and remain in the treasury). May be all or portion of the number of preferred shares authorized. Excludes preferred shares that are classified as debt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Aug. 31
+ 2015
+
+Property
+ Plant and Equipment [Abstract]
+
+
+
+
+Property
+ Plant and Equipment [Table Text Block]
+
+
+  
+      
+       
+       
+
+
+
+
+
+
+         
+        
+       
+       
+
+
+
+
+
+
+         
+        
+       
+
+      
+       
+       
+       
+       
+       
+       
+       
+
+
+
+
+
+          
+
+        
+       
+
+
+
+          
+
+        
+
+
+
+
+
+
+        
+       
+       
+
+
+
+          
+
+        
+
+
+
+
+
+
+        
+       
+
+      
+
+
+
+          
+
+        
+       
+       
+
+
+
+
+
+
+        
+       
+       
+       
+
+
+
+
+
+
+        
+       
+
+
+
+
+
+          
+
+        
+       
+       
+
+
+
+
+
+
+        
+       
+       
+       
+
+
+
+
+
+
+        
+       
+
+      
+
+
+
+          
+
+        
+       
+       
+
+
+
+
+
+
+        
+
+
+
+          
+
+        
+       
+       
+
+
+
+
+
+
+        
+
+
+
+          
+
+        
+
+
+
+
+
+
+
+
+        
+       
+
+
+
+          
+
+        
+
+
+
+
+
+
+        
+       
+       
+
+
+
+          
+
+        
+
+
+
+
+
+
+        
+       
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of physical assets used in the normal conduct of business and not intended for resale. Includes
+ but is not limited to
+ balances by class of assets
+ depreciation and depletion expense and method used
+ including composite depreciation
+ and accumulated deprecation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 0001185185-15-003074-xbrl.zip
+
+
+MPT&*$+O\UJ
+/AT:[;1X2UP^0:^$#T?+HR5G1^(_/Q/TK;DE\KV/H_55]BQ;Q
+
+
+MTD\PGV&_4$'\3H&&'+#(BG8[7ODI\R;;__=Y*WUX7!XR.\NFOI%[:!7_?/
+
+
+
+
+
+T)V7+71'D=#&MPOJ3?5;/&.=
+
+
+
+U(@)RTT[TJZZV4=X7SO41;]G.VO
+$!(BZVSQ%UB?O@OU('
+B
+
+HMU
+0;K[+#;/
+
+W#Z#9FA]CG17F37UG#6;(7)_/%'
+
++O#]7HC=-EK&H+[8T31#^\H*H%OC
+MA8MMM/1VRVS7%SNNQ_=);`6^+4I9(_)MX\Y;_-Q9&KM)\F\P)S=
+
+M\F^(U7?#2!3TPB$8AOU(2)JGC0N7K[8L)_M'C=YN&_#9ZQ^/F2/0
+&@38+
+
+
+#]Q;9;I
+_^[71
+
+
+H)'K!S3
+
+8P]&$
+:%#8H7(G
+MW,QNA$.IO=J6_=LCFB[SZ`^5!N8OEJ8YH.E7G_G42=:4A@LHJ4*##8@?+T@
+M7(Z5#(:RL9*UK1LKQ6:YSAFVFE&]0:ILN(1RME
+
+
+Y\?8N_
+:%#8HK!`O
+
+
+
+MJ
+@MNV*=I_
+
+M:O&365VH-C!]M3#-!LN.BEJ\&[WPT8V`![5XMSX&&Q^7A#F8R7`LL;*T7;
+
+
+
+6E?PJ3&#VE28U]-FO\&
+
+%7E5CZ:`M8=(F\.Z52?.36$W@?:[`J\RDT4R6
+
+4!]&9LXT+-2ZTGRZ4
+
+
+
+
+
+
+MA@LD3:CD^UKH.I%MC6X66LGINH2%U9W-H$UF^
+GVQFXOZVRYNSC/0/[DQ+79
+
+MT(80`H2K4#I6S%UN%X=:[DY\'P?^:4@IM%6BHTR/QWE;2=.3EGHUO=)3`2YQ
+
+MS4B`G!JBFSU]F(H!)014
+
+M9E=H=2O
+\A;^
+M21A
+
+AFVQE*4,U;[&ZG,IJL*,/C7J<7LW8*C-$K`A[
+M2L!E='K=U)3)$HVZ%B)#UGU&'TC/5M2B8^1:WE3_-GSE6BD5::2A$Q]9F35
+
+
+
+
+
+G'Y%/+*F)&REU&&(*)^&FD-ZQ*IZD=*2$IS/BA$%Z]F'KFHHH%N0C
+
+
+
+MC?1
+BJZ7VE(NUU@SPU(K;]7S7X)6D]_7V0E;E2.IY+ZFEO)?)I)*:W(UZ-KM
+,,:J\L!RBC4X:#:9
+$Z#E*K_Q0C'T8F\?^1FSL:0
+U*OYZ*H&M)+F_*
+
+
+1I1IO)6^(YR
+
+
+
+
+
+
+
+
+
+
+7'X-=`J
+
+MA;69F
+
+
+
+
+
+-@1+UPH<)4!PH;S$
+MTB;H$2(TQBY<*C'OO?SB)VYAOBN
+B#.]
+
+*PW9
+M#E%1*14&J()(%@6D;
+
+![N$.0NTYDHX8()@KC'
+
+
+
+
+
+@'-0!A7.'!
+MHX!#T;3+X
+
+
+
+M^<<WH'E.9[_RO@;.**BW_\Q-5PT%HW0
+
+
+'R1_$
+M-9B\^(Y)\D/C7/KK*(RNA;:OHPA@M/N$=))SP[HY*NBFK$7(;/CY.#3@3=I
+M4YHX\?A
+]%X8U\
+
+
+=DB
+
+
+
+M`@
+
+KC*LT8:O+XB/4@RHB'6?,*SMVDXT3;!2T(';2A2
+
+
+
+
+
+MQ8;:H
+
+
+$_(1&B2FTA7\6
+
+
+:9&5Y
+
+KI8LBPB-BGSWBO@O+P7D%2G
+
+
+
+QUSP%7AVM3P']5'DA]
+
+$CU6Y1
+
+
+B]51S%4D_I9@HW8I;T
+
+
+
+
+
+
+
+
+
+
+
+
+
+MOAW`BJ69
+
+MNG:!%D6F+0P;ITM.7#P3
+
+
+
+
+
+
+
+
+
+
+
+
+
+M'X02FK%@WE72Q^ZI8+UD
+8A2BQH.(VHU18&K;JE)L$5]:+E@
+
+M4XJOL6EWRE7(
+3)CE#.6&E[+;2O-20L]3
+N2=-75W(+AK(WBNU0$31(0N=)
+M*?+DY*.JXX2::$7DWT162@ZN60G%B?;3
+6V9#X_!\RE=B33#X78?Z2T00
+
+
+
+M&F]-WWE
+
+:2!\@V03
+M*2%Y^6#H]4!]IVQ&LFY9K@+C=5]DO9K
+B!2@F*2R)EIZS;(9%\0D%%(?`-TP
+
+2XH@6VEO=1R&@XH2%]=Q?2C
+/W*K'_S$0;UO9)
+M7?Z?UF:\^&UY[<_GGUM'-3XOFEMGT;G=)/&'XW%'ZYECQTY`/:)R4SIB!HN
+M-E77VN:M%__Y[$SKU9-
+J
+
+
+
+
+MPQS
+
+
+
+MI](GK(/2155[Z\5_3D!0T$V7#&Q.Z7D40?M
+
+MR%+%UR0+'XG\V+[(^
+
+
+
+
+M\ZDE+4!DB`'#Y]CT@N[;A2D*T$5;H:H$T=Z&56**1E2:88PCH2YGH1CD`U6
+M)M`&HE12,+:PKA6T;*J=$:)D3O!N(]
+IWK4^$4@`P]1HF$
+\OX5Z1V!PT4O
+MF
+
+(TRM)28?C0P3N=C
+
+
+
+
+D&N-TE[
+
+#V^_1=4YTBQ\&
+
+
+@/'72I(X+8'
+
+
+
+
+
+M%]
+E`
+T[@
+MFV+YJNX!*?&9O`JT_F3:$DOT)XO8B?=Y2:,(0%3=XY[(:3^8@?&\=4+U3CC&
+M<[!)1T<G)1.O`=[^'TOT#6;LLESI5C,LN?R'
+Z^3OY=.\$Z_+R6C5&JU3
+MM99:JW$:P=I
+
+-@SB
+
+MT#VFE7E.E7CDSSP0.NBU3TH$/)=5HW$&B9J'1+U'I)`0G[TGEEQI^L
+)GR
+M\C(Y_T0CI?R&6!-F0+MS
+
+S@TE/-5\'[
+MN/F76*0S
+
+
+M2Q5C4[S
+(1ZH
+
+
+MC=Z&NO1-LTPK+NQXD]SNN?+M.]O%&VW=\)PL9&/:C;E62[^HUDHNJK4_7PQL
+
+
+
+M;64XR3GX&]V0SIEG%CUG
+4%=\[H:S7;[J$)RN\[EDQ@?-9NM^D)2G*+&SZ;M
+
+
+
+
+CE&
+
+M\754W/:N@%T;M[T=Z=(VWXGN
+D7PM+0(SB^!'7GVB*8.^F_11519_ZV`49O6
+
+
+
+X4T36+:B2IN*?&B
+
+
+
+
+
+
+
+
+
+
+%TKH'YC3IV::J
+
+
+
+
+
+WZ@*Q'JU&[M\-+99/!)H--QG::C':M
+
+
+
+98GZX1]
+
+60_1S`
+\1#OQ;`K_`R^
+M;:
+._U=BSO3^LZ5-MIF:;+O:DVUE*!O?M8)AWJF;5OGS[;3:3YCO$H6AG:%O
+
+YP']M&DM:4[I+96%AEYD3N=)M8.*0U_.P+_@.?/AYX?VM_I\\*Q
+
+
+-!A)O867=!=8_.*WWS=N+J^OSV\LK(-_8!2;A@U
+CQ:(O?%_T
+
+
+AV[P5\YP?P%XPT\NU[
+//&R#$MH7P(4$_&
+M]=@!&U
+
+9YG!H&;@1\W#3MT`
+MGT!.C85I
+
+
+2-]O)=SLK
+LN'=6:S6EFR3!#*::RF9RT?`%V1X,?]D0W
+M-'IC09[4P/9[*,KH!M6D//?H:3P[?;15/M6<<6WCX(!3G:]<53K+$
+RXL'U
+MX$M@#
+
+
+Y_81)2QS
+
+
+MJT`WY?_C@ZX%P-;]-]^@_%^Q[
+
+
+J?@
+MT(!#18`3#64!E]
+V-+^
+
+
+?;L[#@6.)PRS
+
+2`3&%@VBV`2:N
+M?=%7E3L#X0O;E5.P3-]_I-3V$&DE8X=4H:6H%Q@C\Q%OY1#AX$
+?0\)`0.$&
+
+
+M(@=1U=H]V`ZVE;`5/M.Y2KLIS)3:X+_E3QYIBX
+
+
+
+
+
+
+
+
+MG
+
+-W34_M
+
+MXGC^$@K7EHF^T-9+_UA%KGK'_)8@D%1G[Y07D
+
+
+
+
+
+M2(959P0LWA:5]AP8`:N2OD:C4SLZ.JF`G.RUTMR;A;)U8.O`UH&M`RM-7BA;
+
+
+MQIUGW'G6F-NE
+9D$;#0VNJ\9=YXW
+V_FG=K
+C#O/FYDW\XYL9L:=9]QYQIUG
+
+M?NK+O5DH&P8V#&P8ML8P:-HA:R/82*P2@WXGP-2SRXQ2?/E9.X92WV\LDQDD
+
+
+
+
+
+
+
+
+
+
+:]J118HI5TK#3
+
+HG^+P[Z[_
+OIS
+MN\E62*/;@3`NO.'(=!\-T[*\
+7;(Z'L^_)`(%2*A8%OTA&^\.[]Y;9S?7!C'
+M[?I!HUXS'@:V-3!&OG=O]X1\S'0-$W4X_-$S'7C,/0(?F7C[U^]!HXN4V\
+
+M+\PP].WNF#[TC%`
+
+
+QH*
+MTK+$C5Y0B8/S((8LV(B\@T=
+`]YT:
+-WEB0J`W0*EG#TW;A9T$2\*/
+M?&$Z]G<3!R;1@L4DFX/9KS0;DD3`!K7D!D3Y6_=<&&QIU]#X2U@YCN2DS^
+MOPF;ZL?`$$+(6V[L@K)Q-WM.-Y#\H349S%E)WH*:C%/E,Q4#\;&8UHPL!
+
+
+OD?5U:
+
+
+
+
+
+M
+
+
+TS7$G0A)^=6!Y_*V*-APU8-P_9#T2&C$GMRCV1@8XK[167\
+
+
+
+
+NV^X7FB
+0]M!3
+L:;`S'
+
+
+L`@1`GM^1A5DI)(`JD-(%0
+
+
+
+3)UH.M1U75`EL/
+
+
+M@#)F(
+Y*R
+`N*N
+D8A5`@XUFN]W4@`:?\-*SK!@N:<*-U(3;
+MV0DWCCI'G15-.,X7G\?IXM51=O)E,R7@:?-;D)!SS`\C.W,3K#YE+C#PHB^?
+M3HTGOOQFW`W$7V/AAF_OX7^I\-5YKD7ZP'%E69I#N
+Y@8K[%!%#QYHWA,C
+MP;MM_6@D5#0D&=.^
+
+MT3-
+;QJ@Q(U@
+M8/JB9O1A\&W0_.+ISX;@*@)OV:\_A5&<8.Q$])+8=#^&%ZE;E_`-]
+PJ^-=
+
+#$EOI3D]
+
+
+
+
+
+\[[EH=1.S/INV1FTZ%[%2^H@Z
+
+R@769WL]23HPH/15
+M
+$LFCDDF6K%
+1'^5YBW8U;K.VW+3RBIQ&3&@9S^:_I5/`($]#%
+
+
+Z_X/4$L#!!0````(`%-V<D==+=R)M@<``'E'
+
+#$U
+#@S
+
+
+
+
+
+
+8/
+
+F/H
+MI42.$'_E9L-RXE*NL)/;+7P8
+
+
+
+PO)FYB&B.82+S#4^#0$X21
+
+SB.D.MUR6ZR%D_YS
+IN+RR0FW\EM]
+MJI(7JKJ(=;QX-;U/%6RH0!PVN^+QD\L7IF'KSW``GZ^MK:KPA)+I.8183P-$
+
+]
+M)IFZT7[_'J]L\46<
+)Z_=H6#TNX`YZ.;#`92.ET+(
+
+
+6+CO@*!X]HNJ(Q.2-M=L$M1K%I
+;
+MAGTPB:O?!B+`ZC``TP5)+=M%B
+
+2LW+\R]
+
+AU1PS<C#0GO/D
+_U`JC?KT%$FR(.'T@7ZU3M(F\2Z9P7B
+
+
+
+
+
+
+1
+
+C`Q-3`X
+M
+
+
+MY]2;SFY
+
+
+
+MB?XB\_G'H^C3!Z]?O]Z+_KKZJ&\7?9`
+?Q43
+M^R?]S=_X;P*N[SFV16$Z
+1PZZ9L)0L&S'3KTW?4@
+
+
+
+
+U-%7BRB'Z27[4E0RF6J[1:OS7NG::.D(06G
+:K
+9F-
+
+
+LQ
+M7#0`^'J(1+
+[1=-[A7EF_GJ6O=L&DXCAQS]`MKELABM5V;;K`+0CS#%GJB
+[\F&74<90LF!H!R<
+M0O5:E9F/18E970)EYY/*HBDIY<_T9
+LGU!EEGR8$&@`J36&8&:L'9/*E+
+
+M+I#T?]25
+
+
+FVWN3@*9(2W[ZHN(VF4SN(8M[H'<N+(CF0&T?(0^PA-KEM
+M4772)U.I#.'L[F9MP7+KKXVPU3(!JX(VPDF\6$0=S/]31$:OCU0&F4(A@?GH
+MR.[U7%@X-FAHW#+RNBTK'4!'@F5%@C<D6%;`_?4F-F!X4``PB*EV4R0PX8I
+
+8A+/B*1
+&^3@$:#:'LTF(L($O2/5BJXH
+
+
+L4#2J]W-%^%4X5_L7.*=D[1SBG:.44[IVCG%.V<HFF<
+
+
+
+M_89L8-)M(Z:N/-?+[C%`1#@46P
+
+
+
+
+
+
+
+
+
+
+MG:X.!ZAJ!%U$QB9J%2
+[[+7N^SU
+
+
+
+M@^7U0CNR&3*&.5/&EJ??2_-L
+M8!E9`]4M6;Y'1G@<=JWP/V+<;P*#[;-C@Y)L4`=I(RUT;==@Q@)FIU895QL
+M
+[9UA`L3[DA8
+!&RHG5VC6;&(C(&A^
+
+
+
+M;!^
+U40GX$#0DT1`^3ZXBA:9-SX)?:*R?-]PK1O[P8VFYP;)&Q'-5/
+
+![U[+PS20@?5`Q+4]79)4;EZLLX&
+M<?&+7G'U[-2C:^30+,1@8/%+?F
+3Z9
+
+F/Z+D4./?M=:C0BY
+M=?A$Z[A$F:
+
+
+&-F&$24Y!
+SN:H8;/CM
+M)$:X12^F@I+DAM.K=4PV@*0P;;WF@AR:X@(5R1NM=\EI`$
+FK?9H3+:XH.I$
+
+MH&AMD2RTSDI%+5Z$OI**9)/
+
+M:6&[4(;
+
+
+ME6PXL6)LMCKT
+*OQQ%F_NZKJ-7RRN5?A^JV*D(6$&?Q]JN2&T+HAI$6K0:W%/DR
+M7
+
+
+8+U41
+
+
+
+TNX.V-T!U1]\[['G-VO
+Q!1_J)M?(D2@=C`]TPRG853_
+M]0S-
+#+M*-V*_.R@)..J-R4WOJ2`
+
+
+
+
+
+
+
+!H#.IA-QV
+MI`G(Z+I0(L$V8.3I$];!:_PQ\6OT
+
+M
+O4*DHQ`''Y
+
+
+M
+
+!68TV
+
+M8H0
+
+^7%MQG4X#
+
+
+
+
+
+AZFB[^I\=!3#DV9@(1#8O0H
+
+
+&1M^5HJ-7[]4#
+M2$C+57
+
+2/2'%1Y
+M[TL'SS!:N3#$A0-V:SV=V&A\_H3
+D.9K#
+IU.!L-<I:
+M3)R:-$-L/]@N?:6Z#^*XJ@.HVVDY49V9=I4?021DJMJR*R:=KIDK6V?=$Q.
+M`]AR.=#PW`L!
+UB(%-9X<BT3`#7^O
+
+(79#*)`*)KX=P\2R\*EJ2\MO?8&XLN3'R%?M2JPB9#E
+
+I!*!\HJT&5$F2TWM
+K0
+
+M+)93N6#62GFP!]U0&]R
+%9&QJIFVY:/+Y=7PQ@$T;=E)-1(P9-)IN$)1D$C3
+
+B`I!GRB+3W(!*2I..B9
+M0QDPAY5#L9V7=)X818*B5?5Y^LFZWM6'CM__3GEX=8IHDXX5$;)MW8``A6*
+
+M7`-U$1@
+
+
+
+
+
+
+
+
+
+Z/3GA:C=P
+
+
+
+
+
+GS/
+
+
+C.E(E!-J28$
+
+M_#]02P
+$%`````@`4W9R1YAH2DLE
+
+V^S
+
+
+
+
+5FQ+']P\Q_*$+[_'F8RRO
+9;C[S&6_XY_?6$LH?
+]LP[GV`AMS;+H
+0BS
+S+TC
+MI*R
+
+
+
+
+P3#/:1`Z).5APZT-D
+
+Z9#C%
+
+DL%@
+
+MXW`R
+
+W*B
+^NO
+
+I
+
+1Z:^AO\#[.[RH<C&K#[S(D4KTZDPY^._.*)/
+MY79?KU'6C/E\413NT@AF;JHOCQU[!-PL0%92*:`'@^H%/$X7PT2SU#+V
+MJ^5LIR!/$0V9,YBFRGUX?5/!J-C%$U,CJUXJIZ+N6T(YMO+EC;D1ZJ\%ZXF2
+M4AP4$$R9[/EJ^'/4Z8ZG.ON<F'*J5$
+
+L]
+
+
+M]?*5
+
+^,G,
+M))?GYU?\#1YWO.Z-4:B(1XK0J;_NY5`BI?-%44C-(B83X:I;?N_I@@VTNFSH
+ML?CU^..?W^.'+5/_*G
+
+
+
+
+
+
+MM`-!DGIJ4.I
+ANMAA:.I
+10Y-@R
+
+
+M+R_L%;9UE=+9JU]X07#RD8.3?\YK]+D5'!$0]D1X)T-
+`#]5HR`C8Q9:.T
+
+
+
+
+
+
+
+M1;*5WY/VMM4':-^OT333!^0OW
+/+:+.$_M6J\BYC
+!W6C`#%F1.-B.-(9S('
+M
+
+
+'?`B#8.O8X3X17(I1[RG:2E3R$MQ\-UL'ESBHXF]&
+MR6O`IB2H-8P;4M=)ME
+
+
+Q.4DZ1
+
+
+M!
+Q=TX=&`$\A_7?N3DWRL0;7QLY8.@
+
+
+U3
+
+
+
+
+ZU^V`P'-^+*!3G9I70
+
+M)6U(K
+N-]EQQ3K3V?@CMI:/8'Z'EUC75;N3^X`::CA$$-IHXOIR[]$*8A'=O
+
+
+
+
+
+MGH5Y
+
+
+#`NJ.-S5A;J8`I
+MWHS6@G9NV#ZI08P3
+!POP.[7D&(FQ*?Z5!41P_.\$0BM:`UR0&.1+1EN%ISO
+MN@WH?'JF&*9!`)$?XEH7MK&T'9)C_!X:&*5UY=[@@JU^W!2I[4U
+-UPJ`CY]
+
+
+XC0M$(P0LWZ*E
+
+
+
+
+
+##(#+YN$0]EXL_MO]#T^KF=
+
+M_Q5PFSFFJ'W;#]!!ER(W`N$/_638KXQG5[F4T/M)_X0\HGMX]VG]SIM]=
+
+MB^3KK6LPKD54C
+
+
+J<Q_PO:M-%.Z2I)E$M1=:V%
+
+MP%
+`
+
+@MB4&EM@EYU-8@&M#4ONYA_
+MP
+
+M!K%3?_*]0&V3!(IQ+-8IH::A87J/873G5\AQ5$K@LCV@:N/'_SHX`!\_O/_U
+
+
+
+?
+
+.']\T\P6]P<'/29#(\K&RHZ/^21ZTV5YU#5K@AFO<VCR5!O*@GU!3+%QT9O
+MU3('E5$Q0J5&C94AM4R.9(WEI*90F&KWX<N=DG'JH0D3#FLUNR50
+7ACSYI
+
+L5_`)827H%U\P:[O];J`
+
+
+
+
+M(3Z%/LA2ZWGU0#$OQ$!A:((;3KX*3C`8+KCSV*4/YSZ&M#VWI'E8\P?9J%
+
+*R)S-@:IK1)B)Y%:=PZT.3
+
+
+N@[5
+
+M.4X'`B
+W%7JY5M0G^X1C8B=&H%3D`)
+MM\@)@@`I(AA6$ULM
+
+
+-99V6E(
+
+
+
+
+MY0Y&C*O!B24]V1!-T(3GEBQE'(%)P0&!C_W]O$U$1$JWUFG%T?0T:[1'[0.C
+
+
+
+]E
+
+J
+
+
+
+
+
+
+
+#A+@JL6I]NZPCAR.!$PL$<!]VGEI1PL?6N_U&L0
+
+
+LAUR=\`JIDQ3`WQ22?0$%F
+
+Z-TPX
+
+
+
+
+
+
+
+-
+
+@Q):#@8_SOF)IC-.-^7BX;;%-[X;P+D*R?!:&]
+
+
+M!\/!/5L4JXYQ(HSIV1H$E3R(`W0R`\Y\%$KKT;L+U?ZD-NJMK?9W(8HH13
+
+
+4*!^&].@VAYH2BW\?AC+O0-BA.-VE!H*R5Y
+MX6ZUB1W,%+K&']'GHMPG'H;PQ[DS0P;D5*3@44!SU`@8T$Z&'RDP_464A<R
+
+
+
+UN*C$\PQ09V?5DE=]2-Y.ES6G_^,E<0RO
+
+
+MOVZL
+
+M$(E40VKSR(UJNE064]2POC&K#-TVI^YO08/JJ-C#/=2HO#0V`\:GN+@T5E;.
+
+MQ?[
+\ZS
+
+[+5
+
+W
+M/QYEYE*;RRA!42_2Q3X/1R9AXG-0=JNZ/+N*E@'\'$$W/'L8/(F*CTQUH@J/
+M$)X3F8X'!(?(J7'C:QC8L&1%*Z]_6WJJ]+$[3Q(\2S*TTV%Y(C4UNLIDI2
+M(W(6=:DF*:X5E%+]EO0O0\W/O?J95/:VD&HDS2-Z+3YJ&45+$.NGZY9GDF
+
+(UW
+
+MLVY!=@+Y3*O6[*];T%'OP75I?F`M_I:Z*CP^9!V;7'RJQ8[-*/8^1SUWSRLK
+MU*+%&I5[9G$A5_?:PBH-L0
+
+
+T`B2);1O;C;)?.EFFU3.-*:_
+
+M'Y
+49:QO*DD)PF8X?D`0^V?`0
+#(ZD+6ZC^`A\PX'^!J=60(.J/`X]I&CAZ-
+
+
+
+
+
+
+
+
+M(VT;TD^8:H02=%``#R:QZB*W-K[QB%3NO8%'`]-'&@_-9)A5'_FK%9WCEK?#
+
+
+
+
+)29F
+
+
+M/M:I++TM:H
+
+
+8U<$NJB!Q0@2(0
+
+
+
+0*E!V:38H4SOM][7CC&]WEZYH2$*(0X_+2VUC@$/P#!
+M?*#;U`'Q-AO/):$B[IU09S=$A$.53I$CI\8I(9T^.4$4&#VG9XVWT2G24/
+MI6XWE'ZH9?]Z[L;-C)/:#X++A7(8`E=2:!!#*XY-%&[/$[87F9/6OHXL9^4
+
+
+ODTDR
+
+
+$%`````@`4W9R1]#S/2[3'P``ZQ
+0.)*D`[/P]E
+
+
+
+4?AW
+PBFZ.^`\V
+78[C_
+M)EKCG_AO_H9_(YEYKFU-
+
+MQ\2RW
+
+
+MWLTBB$DY+-ZX/CBX
+C8.R!
+
+;;K.D)B6NHLGL#'Y!:1
+
+XM
+`
+
+%:)NNV:*H(UC
+
+
+;
+
+
+
+@7*'K
+
+M[7;D$E
+
+Z;LLFP=YWA'GKIS/+3]
+
+
+[B`XB_@*8=(9
+
+
+
+[5
+MK#WW
+
+
+15P-`A^W-9M8SD-=8DR2;*DL
+M4ZA)B2J)QNGK/$MIR+;#V%(!R!]^$DY$V7!7Q_%91JX5X:92O&(I'NM]3E-]
+
+
+
+
+
+
+1G;
+
+
+
+3%$Y
+
+
+^M;!^12Y_6:&6RX'@U*)$BKDX.
+
+'6R(5!JVU8A`99X
+
+M
+
+
+
+II;J!-W0E//P=C_;/FSK2)?`L
+
+
+
+
+[S:FJO\;/=
+?MVOOH=R2\3:A2//-TTW5
+
+
+
+
+
+
+M*KTX4L
+N#
+
+^
+
+
+%S?EZ(-'HL7E+EKJVD
+
+
+M63$)M7T^2BD*9'46KUS3#J
+
+
+B[339+
+
+!NX(D$G9%9HV1?XIX705_FG%NS-:_RB'
+MAVQZ@VEFY1@5I3N%DK+V
+0&@1-I-4F`TT&3$HZJ6<:E`8QXM=3)7QJE+K3+5E%C*&?!^82-;D0!
+
+
+
+
+
+
+M7]9S]Y:U[;!8R+CP!T_3#32%Q50TX(5!4-N1+?5+JDKK2!(@S&AA5?IU*'QR
+
+
+M7Z[!-7B\6OUQ\L?'KZ_ZKQ;CI7G^]/6J]['GVF^N9LY@=M&_O[B'HR/KTQ^G
+
+AJ
+/#\?'G^Y^G/_R_L/BX;?_[IR-;G=W-06;
+
+
+MJS+`MUOLYTX$'YDS
+`EL_:T)M'S/.![2NN+&-LV6%_MVM@8)J3@7
+
+
+
+
+
+
+
+MHXR
+
+
+
+
+MD5RK^O:7XL;O)F7ZYO%53N2&RN+V\VC=B-L%
+A-*BB8HR.I^96'L[4T#I
+2[
+
+M`LZ-#
+$.UR1KV:4EU%HT4Z$
+
+
+
+
+MPNVZU=!AR3_22-K])CH/S@/\
+
+'+=K;K-CJ
+
+`'PXFK
+
+M4AQSC8C89(6NI'
+
+MR
+
+M(BV]
+
+
+@;*LOY=#!SH7\'X!PSI;)?:S$A;56HW&:
+`%CV1)$E#G6VC$1*NTM7
+MJI*EHI`T]WJ;2K79LEAEO*&QPEJALLUJ&4'-'2]II5*!6F$\H.F;GS'.ETC+
+
+
+
+:9%_)06/W+H
+25
+
+L(YV=[4$AP%9R
+
+
+
+
+
+DW&EQ444CL]-3F!28S
+3ZS=U
+
+
+
+
+
+
+
+
+
+
+
+
+$E%JS\M$!0D-0NKD!W=R`GW!N
+M@--0ZFI(I#2^EK$;K!(@,DI!I87J'9(A+3?;I7J&6%0(BV2X9(U)FL8D):
+
+4C/
+
+#71]FUNB`E
+
+
+
+M)7&)X77S8F.$5H:XE=8$/'T$*VDV.[.LKCB1@)7.`I/H;\)_AXE/Y%N`+W?8
+
+.Y*J$N232[?'AR^!)]E%(78K0\*[_;P
+MFF/#`^%__C]02P
+$%`````@`4W9R1V03P)?$@``8UX``!$`'`!S96YZ+3(P
+M,34P.#,Q+GAS9%540`#C=9
+
+
+
+M*K7@J6J1(88V.L0
+
+R3^?OO/
+M%S%(B6$QQ`EZ@'%NC2'*'J'L\4GN\1S@-JM$LIEL@6W$_08\Q.N]O%`05C'
+M`TRMX
+-RKBKV+IUNO=J*SKI$JSMH?%`I_R$VH/3O3F!QAVF?S98+ZU9+&U-
+
+
+MQ`.F@;O(
+?N)
+
+
+XCID2A
+98:.PS%-
+
+4$(%Z\%M;8'
+ME(:[[ZX8C$DHD:BU+:5417]WI6!
+U=:E8/G5$M0M4`2)'^U&-8;K.P/`3L(-
+
+9+&&P/S5AKCE;!_P^+]:*
+MMZ4*:EY6*JWFE_1BCR5N-L=:G9XYOQ=G[K3[E&19DOF^_LFQV!.%=UX`8:'W
+
+
+*L18/AS7
+MXR`WC`_I`TW3+BJ&QQXPS]B)1B'7<T9'21-QZ`='<B.AM2.2-F<R(V#
+B
+M]]4`RX&'JIC1);3]3R/WQT
+
+
+
+
+
+
+D
+-%'H4DX
+C!.6K:'8Y?;=_,I3ZV3)%
+M!$QY*4PB$GGCA%Q659QL5I.P
+LB.#Z]SS^W6A.N'0_5G1K^RCNUA@U^U'F_P#1[5)I?'
+ME]?/!]4#LS-4R^/G6O&Z:.A'M3ZM]RO5=J7-FGER?WG^^+%[_I`YYR\]?7!8
+MJ-9'_9_%AEWJOZH?F_WOD_.<TAQ_[^K]BV]OEQ];.N5?9ZQKMO:U<\13^=J
+MKP=7^/FJG;[XV
+
+
+
+
+M.7FA
+
+TB94IWN0;HA
+M[AX[5#`*
+
+
+MZF/F)AF5L8DIQ[NC9XAL@7!Z-R[Y!3
+&50K+A#BJ+(KOWNP8BK$E39\%^WEU
+
+
+
+MTF%[Q8/!7L2;/XI)+$6':!%\:1L;I5M.L;:^3\KE#9UC46_%[*2'QA-Z([UW
+;,:*0,YT6]?STW%ZE(9(R*ZX'<E=M(IH\0-G9BA_7?
+%^
+(&A*$3B=[
+
+!!U?[J1_A@L;F1`$==\QYXP6
+V35E67?Q3%Y?]4`2HW`
+MZ!R:%Z`
+
+M``!S96YZ+3(P
+34P.#
+
+
+MZ8$``'-E;GHM
+C`Q-3`X
+S%?;&%B+GAM;%54!0`#C=9
+5G5XP`!!4.```$
+
+
+ 'defref_senz_DocumentAndEntityInformationAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityRegistrantName'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentType'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_CurrentFiscalYearEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityPublicFloat'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_AmendmentFlag'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCentralIndexKey'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCurrentReportingStatus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityVoluntaryFilers'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityFilerCategory'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityWellKnownSeasonedIssuer'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentPeriodEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalYearFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalPeriodFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueDisclosuresAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfFairValueAssetsAndLiabilitiesMeasuredOnRecurringBasisTableTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SalesRevenueNet'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OperatingExpensesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_GeneralAndAdministrativeExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProfessionalFees'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DepreciationDepletionAndAmortization'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OperatingExpenses'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OperatingIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_OtherIncomeExpenseAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_InterestExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OtherNonoperatingIncomeExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxExpenseBenefit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerShareBasic'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerShareDiluted'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_WeightedAverageNumberOfSharesOutstandingBasic'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueDisclosuresAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueDisclosuresTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityNoteAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityNoteDisclosureTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromConvertibleDebt'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ConvertibleDebtCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_ImputedInterestRateStatedPercentage'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_ImputedInterestDebt'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentUnamortizedDiscount'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AmortizationOfDebtDiscountPremium'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ShortTermDebtTypeAxis=us-gaap_ConvertibleNotesPayableMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_GainsLossesOnRestructuringOfDebt'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromConvertibleDebt'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentInterestRateTerms'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentAxis=senz_UnrelatedThirdPartyConvertibleDebtMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionOriginalDebtAmount1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionConvertedInstrumentSharesIssued1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_NumberOfNoteHolders'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_ChiefExecutiveOfficerMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_ChiefExecutiveOfficerMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionOriginalDebtAmount1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionConvertedInstrumentSharesIssued1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=senz_FormerChiefExecutiveOfficerMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=senz_FormerChiefExecutiveOfficerMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionOriginalDebtAmount1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionConvertedInstrumentSharesIssued1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_MajorityShareholderMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_MajorityShareholderMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note3RelatedPartyTransactionsDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionOriginalDebtAmount1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionConvertedInstrumentSharesIssued1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentInterestRateTerms'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentFaceAmount'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AccountingPoliciesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_BasisOfAccountingPolicyPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_UseOfEstimates'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueOfFinancialInstrumentsPolicy'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RevenueRecognitionPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerSharePolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ShareBasedCompensationOptionAndIncentivePlansPolicy'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SubsequentEventsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SubsequentEventsTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note1NatureofBusinessandSignificantAccountingPoliciesTablesLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_PropertyAndEquipmentAxis=senz_EstimatedUsefulLivesMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note1NatureofBusinessandSignificantAccountingPoliciesTablesLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_ComputerEquipmentMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentUsefulLife'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_FurnitureAndFixturesMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentUsefulLife'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note5StockholdersEquityDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_NumberOfIndividualInvestors'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SaleOfStockPricePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ConversionOfStockSharesConverted1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ConversionOfStockSharesIssued1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtConversionByUniqueDescriptionAxis=senz_UnrelatedThirdPartyConvertibleDebtMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note5StockholdersEquityDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_MajorityShareholderMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note5StockholdersEquityDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=senz_FormerChiefExecutiveOfficerMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note5StockholdersEquityDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_ChiefExecutiveOfficerMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note5StockholdersEquityDetailsLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentConvertibleConversionPrice1'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AdjustmentsToAdditionalPaidInCapitalOther'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AdjustmentsToAdditionalPaidInCapitalOther'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PropertyPlantAndEquipmentDisclosureTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note6FairValueofFinancialInstrumentsDetailsScheduleofFairValueAssetsandLiabilitiesMeasuredonRecurringBasisLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AssetsFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FinancialLiabilitiesFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel1Member'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note6FairValueofFinancialInstrumentsDetailsScheduleofFairValueAssetsandLiabilitiesMeasuredonRecurringBasisLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AssetsFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FinancialLiabilitiesFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel2Member'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note6FairValueofFinancialInstrumentsDetailsScheduleofFairValueAssetsandLiabilitiesMeasuredonRecurringBasisLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AssetsFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FinancialLiabilitiesFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_senz_Note6FairValueofFinancialInstrumentsDetailsScheduleofFairValueAssetsandLiabilitiesMeasuredonRecurringBasisLineItems'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AssetsFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FinancialLiabilitiesFairValueDisclosure'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AccountingPoliciesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityReverseStockSplit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashFDICInsuredAmount'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsAtCarryingValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesIssuedForServices'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueIssuedForServices'
+

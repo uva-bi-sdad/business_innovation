@@ -1,0 +1,8926 @@
+
+
+ACCESSION NUMBER:		0001493152-13-000690
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		6
+CONFORMED PERIOD OF REPORT:	20121231
+FILED AS OF DATE:		20130416
+DATE AS OF CHANGE:		20130416
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Cono Italiano
+ Inc.
+		CENTRAL INDEX KEY:			0001307701
+		STANDARD INDUSTRIAL CLASSIFICATION:	MISCELLANEOUS FOOD PREPARATIONS & KINDRED PRODUCTS [2090]
+		IRS NUMBER:				841665042
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-51388
+		FILM NUMBER:		13764921
+	BUSINESS ADDRESS:	
+		STREET 1:		10 MAIN STREET
+		CITY:			KEYPORT
+		STATE:			NJ
+		ZIP:			07735
+		BUSINESS PHONE:		877-330-2666
+	MAIL ADDRESS:	
+		STREET 1:		10 MAIN STREET
+		CITY:			KEYPORT
+		STATE:			NJ
+		ZIP:			07735
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Tiger Renewable Energy Ltd.
+		DATE OF NAME CHANGE:	20080212
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Tiger Ethanol International Inc.
+		DATE OF NAME CHANGE:	20061128
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Arch Management Services Inc.
+		DATE OF NAME CHANGE:	20041102
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+Washington
+D.C. 20549
+
+FORM
+10-K
+
+[X]&nbsp;ANNUAL
+REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For
+
+ 2012
+
+
+
+For
+the transition period from _________ to _________
+
+Commission
+File Number: 
+
+CONO
+ITALIANO
+ INC.
+(Exact
+name of registrant as specified in its charter)
+
+
+
+    
+    
+    
+
+(State of other
+    jurisdiction of
+    incorporation or organization)
+    
+    
+    Identification Number)
+
+
+10
+Main Street
+Keyport
+NJ 07735
+(Address
+of principal executive offices)
+
+(877)
+330-2666
+(Registrant&rsquo;s
+telephone number)
+
+Securities
+registered under Section 12(b) of the Exchange Act: 
+
+Securities
+
+ par value $0.001 per share
+
+Indicate
+by check mark if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Yes [&nbsp;&nbsp;]
+No [X]
+
+Indicate
+by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. Yes [&nbsp;&nbsp;]
+No [X]
+
+Indicate
+by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange
+Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+and (2) has been subject to such filing requirements for the past 90 days. Yes [X] No [&nbsp;&nbsp;]
+
+Indicate
+by checkmark whether the registrant has submitted electronically and posted on its corporate Website
+ if any
+ every Interactive
+Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&sect;232.405 of this chapter) during the
+preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). Yes [X] No [&nbsp;&nbsp;]
+
+Indicate
+by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K is not contained herein
+ and will not
+be contained
+ to the best of registrant&rsquo;s knowledge
+ in definitive proxy or information statements incorporated by reference
+in Part III of this Form 10-K or any amendment to this Form 10-K. [&nbsp;&nbsp;]
+
+Indicate
+by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller
+reporting company. See the definition of &ldquo;large accelerated filer
+&rdquo; &ldquo;accelerated filer&rdquo; and &ldquo;smaller
+reporting company&rdquo; in Rule 12b-2 of the Exchange Act:
+
+
+
+Large accelerated
+    filer
+    
+    
+Non-accelerated
+    filer
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+Smaller reporting
+    company
+    
+
+
+Indicate
+by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes [&nbsp;&nbsp;] No
+[X]
+
+The
+aggregate market value of registrant&rsquo;s voting and non-voting common equity held by non-affiliates (as defined by Rule 12b-2
+of the Exchange Act) computed by reference to the average bid and asked price of such common equity on June 29
+ 2012
+ was $0
+04.
+As of April 12
+ 2013
+ the registrant has one class of common equity
+ and the number of shares outstanding of such common equity
+was 107
+233
+087.
+
+
+
+
+    
+    
+
+
+TABLE
+OF CONTENTS
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+Market For Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+Directors
+ Executive Officers and Corporate Governance.
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+Certain Relationships and Related Transactions
+ and Director Independence.
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+Exhibits
+ Financial Statements Schedules.
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+    
+    
+
+
+SPECIAL
+NOTE REGARDING FORWARD-LOOKING STATEMENTS
+
+The
+following cautionary statements identify important factors that could cause our actual results to differ materially from those
+projected in forward-looking statements made in this amended. Annual Report on Form 10-K (this &ldquo;Report&rdquo;) and in other
+reports and documents published by us from time to time. Any statements about our beliefs
+ plans
+ objectives
+ expectations
+ assumptions
+future events or performance are not historical facts and may be forward-looking. These statements are often
+ but not always
+made through the use of words or phrases such as &ldquo;believes
+&rdquo; &ldquo;will likely result
+&rdquo; &ldquo;are expected
+to
+&rdquo; &ldquo;will continue
+&rdquo; &ldquo;is anticipated
+&rdquo; &ldquo;estimated
+&rdquo; &ldquo;intend
+&rdquo; &ldquo;plan
+&rdquo;
+&ldquo;projection
+&rdquo; &ldquo;outlook&rdquo; and the like
+ constitute &ldquo;forward-looking statements&rdquo; within the meaning
+of Section 27A of the Securities Act of 1933
+ as amended
+ and Section 21E of the Securities Exchange Act of 1934
+ as amended (the
+&ldquo;Exchange Act&rdquo;). However
+ as we issue &ldquo;penny stock
+&rdquo; as such term is defined in Rule 3a51-1 promulgated
+under the Exchange Act
+ we are ineligible to rely on these safe harbor provisions. Such forward-looking statements involve known
+and unknown risks
+ uncertainties and other factors which may cause the actual results
+ performance or achievements of our Company
+to be materially different from any future results
+ performance or achievements expressed or implied by such forward-looking statements.
+Given these uncertainties
+ readers are cautioned to carefully read all &ldquo;Risk Factors&rdquo; set forth under Item 1A and
+not to place undue reliance on any forward-looking statements. We disclaim any obligation to update any such factors or to announce
+publicly the results of any revisions of the forward-looking statements contained or incorporated by reference herein to reflect
+future events or developments
+ except as required by the Exchange Act. New factors emerge from time to time
+ and it is not possible
+for us to predict which will arise or to assess with any precision the impact of each factor on our business or the extent to
+which any factor
+ or combination of factors
+ may cause actual results to differ materially from those contained in any forward-looking
+statements.
+
+Unless
+otherwise provided in this Report
+ references to the &ldquo;Company
+&rdquo; the &ldquo;Registrant
+&rdquo; the &ldquo;Issuer
+&rdquo;
+&ldquo;we
+&rdquo; &ldquo;us
+&rdquo; and &ldquo;our&rdquo; refer to Cono Italiano
+ Inc.
+
+PART
+I
+
+Item
+1. Business.
+
+
+
+The
+Company was incorporated in the State of Nevada on September 9
+ 2004
+ as Arch Management Services Inc. A change of control of
+the Company occurred on June 5
+ 2006
+ and the Company changed its name from &ldquo;Arch Management Services Inc.&rdquo;
+to &ldquo;Tiger Ethanol International Inc.&rdquo; on November 24
+ 2006. On February 11
+ 2008
+ the Company changed its name
+to &ldquo;Tiger Renewable Energy Ltd.&rdquo; Another change of control of the Company occurred on June 4
+ 2009. On August
+10
+ 2009
+ the Company changed its name to &ldquo;Cono Italiano
+ Inc.&rdquo; and its trading symbol changed to
+&ldquo;CNOZ.&rdquo; On August 10
+ 2009
+ the Company conducted a one-for-sixty reverse stock split.
+
+The
+Company identified Cono Italiano
+ Inc.
+ a Delaware corporation (&ldquo;Cono Italiano (Delaware)&rdquo;)
+ as a business
+venture that would be suitable for the Company&rsquo;s future operations. On November 12
+ 2009
+ the Company entered into
+agreements with the shareholders of Cono Italiano (Delaware) pursuant to which the Company acquired all of the issued and
+outstanding shares of the Cono Italiano (Delaware) and now operate Cono Italiano (Delaware) as a wholly-owned subsidiary of
+our Company.
+
+Our
+principal business address is 10 Main Street
+ Keyport
+ NJ 07735 and our telephone number is (877) 330-2666.
+
+Our
+Business
+
+The
+Company was previously party to a joint venture named Xinjiang Yajia Distillate Company Limited (the &ldquo;Venture&rdquo;) to
+produce ethanol in the People&rsquo;s Republic of China. The Company&rsquo;s board of directors (the &ldquo;Board&rdquo;) determined
+that it was in our best interest to initiate a withdrawal from the ethanol business as of January 31
+ 2009
+ and assess alternative
+businesses.
+
+
+    
+    
+
+
+On
+June 4
+ 2009
+ an Affiliate Stock Purchase Agreement (the &ldquo;Stock Purchase Agreement&rdquo;) was entered into by and between
+Gallant Energy International Inc. (&ldquo;Gallant&rdquo;)
+ the owner of 5
+000
+000 shares of the Company&rsquo;s common stock (prior
+to the Company&rsquo;s one-for-sixty reverse stock split) and Lara Mac Inc. (&ldquo;Lara Mac&rdquo;)
+ an entity controlled by
+Mitchell Brown (who is now the Chief Executive Officer of the Company and a member of the Board of Directors). Pursuant to the
+Stock Purchase Agreement
+ Gallant sold all of its 5
+000
+000 shares of the Company&rsquo;s common stock to Lara Mac. The Gallant
+transaction with Lara Mac resulted in a change in control effective as of June 4
+ 2009.
+
+Pursuant
+to the Stock Purchase Agreement
+ the Board appointed five individuals to fill vacancies on the Board. These new directors commenced
+their service on June 19
+ 2009. The Board also appointed four new officers of the Company.
+
+On
+June 22
+ 2009
+ Lara Mac entered into a Management Services Agreement with the Company (the &ldquo;Management Services Agreement&rdquo;).
+Pursuant to the Management Services Agreement
+ Lara Mac would render to the Company consulting and other advisory services in
+relation to developing strategic plans for inception of operations
+ corporate management
+ the operations of the Company
+ strategic
+planning
+ domestic and international marketing and sales
+ financial advice
+ including
+ without limitation
+ advisory and consulting
+services in relation to the selection and retention of candidates for senior management of the Company and its subsidiaries
+ prospective
+strategic alliance partners
+ preparing acquisition growth plans
+ identifying prospective merger and acquisition candidates
+ developing
+value propositions for the Company and acquisition candidates
+ analyzing financial implications of potential transactions
+ advising
+on negotiations regarding terms and conditions of transactions
+ outlining and managing due diligence issues and due diligence
+processes
+ introductions to prospective customers
+ selection of investment bankers or other financial advisors or consultants
+and advice with respect to the capital structure of the Company
+ equity participation plans
+ employee benefit plans and other
+incentive arrangements for certain key executives of the Company (collectively
+ the &ldquo;Services&rdquo;).
+
+In
+exchange for the Services
+ Lara Mac received 9
+553
+377 shares of the Company&rsquo;s common stock (these 9
+553
+377 shares were
+issued prior to the Company&rsquo;s one-for-sixty reverse stock split
+ and accordingly
+ Lara Mac&rsquo;s ownership of 14
+553
+377
+shares was reduced to 242
+557 shares pursuant to such reverse stock split). The parties to the Management Services Agreement also
+agreed that Lara Mac may render other services beyond the scope of activities which the parties contemplate as part of the Services
+as to which Lara Mac shall be entitled to separate compensation that shall be negotiated in good faith by the parties on a case-by-case
+basis.
+
+The
+Company identified Cono Italiano (Delaware)
+ as a business venture that would be suitable for the Company&rsquo;s future
+operations. On November 12
+ 2009
+ the Company entered into agreement with the shareholders of Cono Italiano (Delaware)
+pursuant to which the Company acquired all of the issued and outstanding shares of the Cono Italiano (Delaware) and we will
+now operate Cono Italiano (Delaware) as a wholly-owned subsidiary of our Company. As an inducement to the shareholders of
+Cono Italiano (Delaware) to enter into the exchange described above
+ Lara Mac agreed to the cancellation of these 242
+557
+shares of the Company&rsquo;s common stock and termination of the Management Services Agreement.
+
+Cono
+Italiano (Delaware)
+
+In
+March 2006
+ Cono Italiano LLC
+ a New Jersey limited liability company
+ entered into an agreement with Kono Italia S.R.L.
+ an
+Italian company doing business as &ldquo;Pizza Hands.&rdquo; Kono Italia S.R.L. owns the designs
+ recipes and technology for
+the &ldquo;Pizza Cono
+&rdquo; a food product for quick service restaurants consisting of a cone shaped pizza dough.
+Cono Italiano (Delaware)
+ as the successor to Cono Italiano
+ LLC
+ holds a distribution agreement for North America from Kono
+Italia S.R.L. in Italy. This distribution agreement grants the licensee an exclusive license to exploit this product in the
+United States
+ Canada and Mexico for a twenty-five (25) year term. The product is patented in the United States and Europe as
+is the cone production machine which is proprietary. In 2007
+ Cono Italiano
+ LLC introduced the product into the North
+American market by building an alliance with Center Plate
+ a food service provider to stadiums and arenas throughout North
+America. At the present time
+ the Company has no contractual agreements with Center Plate.
+
+Cono Italiano
+(Delaware) was formed through the merger of Cono Italiano LLC
+ a New Jersey limited liability company
+ and Janex International
+Inc.
+ a Delaware corporation
+ on January 14
+ 2008. The combined entity changed its name to &ldquo;Cono Italiano
+ Inc.&rdquo; on
+that date.
+
+
+    
+    
+
+
+Cono Italiano
+is licensed to distribute a food product called the &ldquo;Pizza Cono.&rdquo; This Pizza Cone is designed to be a drip free
+spill free cone-shaped pizza made of a proprietary dough and filled with freshly selected ingredients. The Company intends
+that the Pizza Cone will be distributed through the fast food market (the fast food market is generally defined as
+restaurants selling food and drinks for immediate consumption either on the premises in designated eating areas
+ or for
+consumption elsewhere). The Pizza Cone will be distributed to quick-service restaurants
+ take aways
+ mobile and street
+vendors
+ and leisure locations. These establishments include typical fast food chains
+ supermarkets
+ convenience stores
+entertainment facilities and sports arenas. In addition
+ the Pizza Cone will be sold at stores that sell frozen packaged
+products for use at home.
+
+On
+July 9
+ 2008
+ Cono Italiano (Delaware) entered into a distribution and licensing agreement (the &ldquo;Distribution Agreement&rdquo;)
+with Pino Gelato
+ Inc.
+ a South Carolina corporation presently involved in retail sales of Italian gelato and sales of franchises
+for the sale of gelato (&ldquo;Pino Gelato&rdquo;). Under the terms of the Distribution Agreement
+ we granted to Pino Gelato
+Inc. the rights in the United States
+ Canada and Mexico to sell and distribute our products through immediate consumption retail
+channels
+ such as a restaurant
+ snack bar
+ kiosk
+ or other similar setting. The Distribution Agreement included the right to market
+Pizza Cones and establish Pizza Cone and Pino Gelato Cafes. Cono Italiano (Delaware) received $100
+000 in cash in consideration
+for such Distribution Agreement. As an inducement to buy the distribution and franchise rights by Pino Gelato
+ the Company issued
+375
+000 shares of the Company&rsquo;s common stock to Pino Gelato. The Distribution Agreement was terminated on December 22
+ 2010.
+Cono Italiano (Delaware) now directly retains the distribution rights regarding the sale of products
+ both for sale to retail channels
+and on a wholesale basis to stores that sell frozen packaged products.
+
+As
+part of Cono Italiano (Delaware)&rsquo;s marketing strategy
+ Cono Italiano (Delaware) paid $8
+500 in September 2008 to develop retail
+packaging and conducted a photo shoot for the product in October 2008 at a cost of $1
+500.
+
+Since
+March 2009
+ Cono Italiano (Delaware)&rsquo;s marketing and distribution efforts have also included giving free samples of its product
+away at the Indianapolis Speedway
+ presenting the product to potential distributors at a trade show
+ and selling the product at
+an Italian festival in Indianapolis.
+
+In
+July 2008
+ the Company&rsquo;s Chief Executive Officer
+ Mitchell Brown and Ramona Fantini of Pino Gelato
+ formed a manufacturing
+entity
+ Edesia Emprise
+ LLC
+ to produce and manufacturer the &ldquo;Cones.&rdquo; Mitchell Brown transferred his ownership interests
+in Edesia Emprise
+ LLC to his father
+ Gene Brown
+ later that month. The Company contracted with a third party manufacturer for
+this project in January of 2009
+ and cancelled such agreement in October of 2009.
+
+On
+November 11
+ 2009
+ Cono Italiano (Delaware) and Edesia Emprise
+ LLC entered into a Master Manufacturing Agreement (the &ldquo;Master
+Manufacturing Agreement&rdquo;). Pursuant to this Master Manufacturing Agreement
+ Edesia Emprise
+ LLC will produce the Company&rsquo;s
+Pizza Cono product. Cono Italiano (Delaware) has agreed to pay Edesia Emprise
+ LLC the costs of production plus fifteen percent
+(15%) of revenue.. This Master Manufacturing Agreement has a five (5) year term and will automatically renew unless cancelled
+by one of the parties pursuant to its terms. This Master Manufacturing Agreement is exclusive within the United States. Edesia
+Emprise
+ LLC may either produce this product directly or through a subcontractor. On December 8
+ 2009
+ the Company was advised
+that Edesia Emprise had entered into its first subcontract agreement with Sunrise Baking Acquisition Company
+ based in Brooklyn
+New York.
+
+On
+November 9
+ 2009
+ Cono Italiano (Delaware) entered into a Commitment Letter
+ pursuant to which
+ one of our shareholders
+ Lara Mac
+has agreed to provide financing to Cono Italiano
+ Inc.
+ with such funds as the Board shall deem to be sufficient to maintain the
+Company&rsquo;s ordinary course of business operations (the &ldquo;Commitment Amount&rdquo;). We may draw on the Commitment Amount
+in monthly tranches in accordance with our operating requirements as set forth in our business plan. The available Commitment
+Amount will be reduced by the aggregate cash proceeds received by the Company which are derived from the issuance of any equity
+securities and Company gross revenues. Draws on the Commitment Amount will be made on terms of unsecured notes
+ with interest
+set on each note as of the date of the draw at prime rate plus two percent per annum. It was agreed that the notes would mature
+and become repayable thirty calendar days after demand at any time following the earlier of (a) December 31
+ 2010 or (b) the date
+upon which we are in receipt of revenues or proceeds from the sales of equity securities. We will give Lara Mac customary representations
+and warranties regarding the good standing of our Company and status of progress in respect of our Company business plan prior
+to each draw on the Commitment Amount
+ and we will provide certifications and covenants regarding use of proceeds of each draw
+which will be in customary forms reasonably requested by Lara Mac as determined by reference to similar lenders making similar
+loans to similar companies. Lara Mac will not be required to make any loans under the Commitment Amount to us if we are unable
+to make the representations
+ warranties
+ certifications or covenants
+ or if we are in breach of any previously given representations
+warranties
+ certifications or covenants. If we breach any of the notes
+ the default rate will be 15% per annum and Lara Mac may
+seek recourse against our company for repayment of all of the notes. As of December 31
+ 2012
+ the agreement was still in effect
+and no funds have been borrowed.
+
+
+    
+    
+
+
+
+
+The
+Company intends to contact food distributors who sell to the restaurant community to distribute the product. The Company
+will seek to develop relationships with independent commissioned sales representatives throughout the country to sell and
+market the product to the retail community and specialty customers. The Pizza Cones and empanadas will be targeted at a
+substantial number of potential customers
+ including quick service restaurants
+ take aways
+ mobile and street vendors
+ and
+leisure locations such as typical fast food chains
+ supermarkets
+ convenience stores
+ entertainment facilities
+ and sports
+arenas. The Company therefore does not anticipate depending on a single or a few major customers.
+
+Cono Italiano&rsquo;s
+marketing and distribution efforts have also included giving free samples of its product away at the Indianapolis Speedway
+ presenting
+the product to potential distributors at a trade show
+ and selling the product at an Italian festival in Indianapolis.
+
+The
+company entered into a manufacturing and partnership agreement with Interstate Caterers (&ldquo;Interstate&rdquo;) located in
+South Plain field
+ New Jersey. Interstate will manufacture all products related to Cono Italiano in their state of the
+art
+ newly constructed facility
+ which complies with United States Department of Agriculture regulations. Cono will provide
+certain manufacturing equipment to Interstate to include ovens
+proprietary machines to package and manufacture Pizza Cono
+and Empanadas. The revenue will be shared based on net profit after all expenses. Interstate will receive 3.5 million
+shares restricted for up to a 5-year period. This agreement can be modified at any given time to be ensure all revenue and
+profits are being shared accordingly and equally.
+
+Competitive
+Position
+
+Cono Italiano
+is a relatively new company introducing a new product into the market place for quick service pizza. The market in the United
+States for quick service pizza is large
+ highly fragmented and intensely competitive. There are no assurances that the product
+will be generally accepted.
+
+We
+intend to do business under our new business model in highly competitive markets. There are many competitors
+ some of which are
+significantly larger
+ that have access to much more important resources or capital than us
+ or have established reputations among
+potential customers. We may not be able to compete effectively against other industry participants.
+
+Raw
+Materials
+
+The
+raw materials used in production of the Pizza Cones include readily available food products which are purchased in bulk by third
+party contract bakers. All raw materials are supplied by the third party contract bakers pursuant to proprietary recipes and standards
+of Cono Italiano and baked into the product. Cono Italiano pays Edesia Emprise
+ LLC for the product following shipping.
+
+Compliance
+with Government Regulations
+
+At
+the present time
+ Cono Italiano does not need and has not requested government approval on any products and services. Edesia Emprise
+LLC and the third party contract bakers of Edesia Emprise
+ LLC are responsible for operation of production facilities which make
+our Pizza Cones and fillings
+ and they are subject to various federal state
+ and local laws
+ including various health sanitation
+fire
+ and safety standards and may be subject to licensing and regulations by a number of governmental authorities.
+
+
+    
+    
+
+
+Research
+and Development
+
+The
+recipe for the cone is proprietary
+ developed by Cono Italiano
+ Inc. using various ingredients and a patented machine to create
+and form the cone-shaped shell. The filling content for the cones are proprietary recipes designed specifically for the cone to
+be drip-free and spill-free and to be baked in a microwave high efficiency oven or traditional oven. Our recipes are developed
+by an Italian food designer to add a European taste to the pizza.
+
+Compliance
+with Environmental Laws
+
+The
+costs and effects of compliance with federal
+ state and local environmental laws have not been material to our business from inception
+through the date of this Report.
+
+Intellectual
+Property
+
+Our
+success and ability to compete are dependent
+ in part
+ upon our ability to establish and adequately protect our intellectual property
+rights. We intend to rely on a combination of patent
+ copyright
+ trademark and trade secret laws
+ as well as confidentiality agreements
+to establish and protect our proprietary rights. We expect to license certain proprietary rights from third parties. We also intend
+to protect our proprietary rights
+ in part
+ through the terms of license agreements and by confidentiality agreements with our
+employees
+ consultants
+ customers and others.
+
+
+
+As
+of the date hereof
+ the Company has three (3) officers
+ Mitchell Brown (our Chief Executive Officer)
+ Alex J. Kaminski (our Chief
+Financial Officer and Treasurer) and Steve Savage (our Secretary). We have no other employees at this time.
+
+Where
+You Can Find More Information
+
+We
+currently maintain an internet website at http://www.conoitaliano.com.
+
+The
+Company is and expects to remain a &ldquo;reporting company.&rdquo; We will therefore be required to continue to file annual
+quarterly and other filings with the U.S. Securities and Exchange Commission (the &ldquo;SEC&rdquo;). Members of the public may
+read and copy any materials which we file with the SEC at the SEC&rsquo;s Public Reference Room at 100 F Street
+ N.E.
+ Room 1580
+Washington
+ D.C. 20549. Members of the public may obtain additional information on the operation of the Public Reference Room
+by calling the SEC at 1-800-SEC-0330. The SEC also maintains an internet site that contains reports
+ proxy and information statements
+as well as other information regarding issuers that file electronically with the SEC. This site is located at http://www.sec.gov.
+
+You
+may also request a copy of our filings at no cost
+ by writing or telephoning us at:
+
+Cono Italiano
+Inc.
+10
+Main Street
+Keyport
+NJ 07735
+Telephone:
+877-330-2666
+Attn:
+Mitchell Brown
+Chief
+Executive Officer
+
+Item
+1A. Risk Factors.
+
+Our
+business is subject to numerous risks. We caution you that the following important factors
+ among others
+ could cause our actual
+results to differ materially from those expressed in forward-looking statements made by us or on our behalf in filings with the
+SEC
+ press releases
+ communications with investors and oral statements. Any or all of our forward-looking statements in this and
+in any other public statements we make may turn out to be wrong. They can be affected by inaccurate assumptions we might make
+or by known or unknown risks and uncertainties. Many factors mentioned in the discussion below will be important in determining
+future results. Consequently
+ no forward-looking statement can be guaranteed. Actual future results may vary materially from those
+anticipated in forward-looking statements. We undertake no obligation to update any forward-looking statements
+ whether as a result
+of new information
+ future events or otherwise. You are advised
+ however
+ to consult any further disclosure we make in our reports
+filed with the SEC.
+
+
+    
+    
+
+
+An
+investment in our Company involves a substantial risk of loss. You should carefully consider the risks described below
+ before
+you make any investment decision regarding our Company. Additional risks and uncertainties
+ including those generally affecting
+the market in which we operate or that we currently deem immaterial
+ may also impair our business. If any such risks actually
+materialize
+ our business
+ financial condition and operating results could be adversely affected. In such case
+ the trading price
+of our common stock could decline.
+
+The
+following risk factors are not exhaustive and the risks discussed herein do not purport to be inclusive of all possible risks
+but are intended only as examples of possible investment risks. To facilitate understanding of the various business risks applicable
+to our Company and the strategic alliance companies through which we intend to operate our business during the foreseeable future
+the risk factors discussed herein address our Company together with the risks applicable to our operations that we intend to conduct
+with our strategic alliance partners.
+
+Risks
+Related to Our Business
+
+We
+are a small company with a limited operating history and limited capital resources. We may not be able to raise additional capital
+to grow and expand our business
+ which could materially and adversely affect the future of our business.
+
+We
+are a small company with a limited history
+ limited capital and limited operating resources. As of December 31
+ 2012
+ we had cash
+and cash equivalents of $30
+562. While we believe we will be able to meet the majority of our immediate needs for cash from revenues
+(as the Company is spending minimal cash
+ and is not required to pay its suppliers until after orders are placed and delivered)
+we will need additional capital to conduct business
+ grow and expand. The Company will need financing in the amount of approximately
+$500
+000 to conduct its operations as planned for next twelve months
+ including the securing of certain equipment required to
+manufacture and distribute our products to retail vendors and other suppliers in our market.
+
+The
+terms and conditions of any financing which we may receive could have a material adverse effect on our business
+ results of operations
+liquidity and financial condition. Any investment in our shares is subject to the significant risk that we will not be able to
+adequately capitalize our Company to enable us to continue to develop and implement our business model. Even if we are able to
+raise adequate capital
+ the cost of such capital may be burdensome and may materially impair our ability to fully implement our
+business plan.
+
+Indebtedness
+may burden us with high interest payments and highly restrictive terms which could adversely affect our business.
+
+Should
+we borrow money to implement our business plans
+ we would be burdened with interest payments. A significant amount of indebtedness
+could increase the possibility that we may be unable to generate sufficient revenues to service the payments on indebtedness
+when due
+ including principal
+ interest and other amounts. Agreements made in connection with any borrowings may contain significant
+restrictions and covenants that
+ among other things
+ could limit our ability to make investments
+ pay dividends or make distributions
+to our shareholders
+ repurchase or redeem indebtedness
+ grant liens on our assets
+ enter into transactions with our affiliates
+merge or consolidate with other entities or transfer all or substantially all of our assets
+ and restrict the ability of our subsidiaries
+to pay dividends or to make other payments to us.
+
+
+    
+    
+
+
+Our
+ability to comply with any restrictions and covenants related to indebtedness in the future is uncertain and would be affected
+by the levels of cash flow from our operations and events or circumstances beyond our control. Our failure to comply with any
+of restrictions and covenants under indebtedness financing could result in a default under those facilities
+ and could cause all
+of our existing indebtedness to be immediately due and payable. If any of our indebtedness were to be accelerated
+ we may not
+be able to repay our indebtedness or borrow sufficient funds to refinance it. Even if we were able to obtain new financing
+ it
+may not be on commercially reasonable terms or on terms that are acceptable to us. If any of our indebtedness is in default for
+any reason
+ our business
+ financial condition and results of operations could be materially and adversely affected. In addition
+complying with any restrictions and covenants may also cause us to take actions that are not favorable to our shareholders and
+may make it more difficult for us to successfully execute our business plan and compete against companies that are not subject
+to such restrictions and covenants.
+
+We
+may have to price our products and services at low margins which could adversely affect our business and any investment in our
+company.
+
+Even
+if we are able to compete with our competitors
+ we may have to price our products and services at low gross margins in order to
+gain market share. Competitive pricing pressures together with new or improved competing product introductions by our competitors
+may adversely affect the average selling price of our products and services and force us to make downward adjustments. If we are
+unable to offset price decreases by increasing our sales volumes or by adjusting our product offerings
+ our revenues and gross
+margins would decline. To grow our business we generate revenues as soon as possible and thereafter continue to develop and introduce
+new products
+ services and improvements. If we cannot maintain reasonable gross margins
+ our financial position may be harmed
+our stock price may decline and we may fail.
+
+We
+could have substantial difficulty addressing the challenges of rapid growth.
+
+If
+demand for our products increases rapidly
+ we will need to either increase our internal production capacity or implement additional
+outsourcing. Success in developing and producing a limited volume of products does not guarantee that we will experience comparable
+success in operations conducted on a larger scale. Modifying our procedures and facilities to adjust to increased demand may delay
+delivery of our products. Production efficiencies
+ yields and product quality may decline as our Company expands over time. If
+we are unable to meet the demand of our customers and deliver products quickly and cost effectively
+ customers may turn to our
+competitors. The costs and risks associated with implementing new technologies
+ methods and processes
+ including the purchase
+of new equipment
+ and any resulting delays
+ inefficiencies and loss of sales
+ could harm our results of operations.
+
+We
+expect that our anticipated future growth may strain our management
+ administrative
+ operational and financial infrastructure.
+Failure of our ability to reasonably manage anticipated growth could materially and adversely affect our business.
+
+We
+anticipate that significant expansion of our present operations will be required to capitalize on market opportunities. This expansion
+is expected to place a significant strain on our management
+ operational and financial resources. We expect to add a substantial
+number of additional key personnel in the future
+ including key managerial employees who will have to be fully integrated into
+our operations. In order to manage our growth
+ we will be required to continue to implement and improve our operational and financial
+systems
+ to expand existing operations
+ to attract and retain superior management
+ and to train
+ manage and expand our employee
+base. We cannot assure you that we will be able to effectively manage the expansion of our operations
+ that our systems
+ procedures
+or controls will be adequate to support our operations or that our management will be able to successfully implement our business
+plan. If we are unable to manage growth effectively
+ our business
+ financial condition and results of operations could be materially
+and adversely affected.
+
+
+    
+    
+
+
+Our
+success will depend heavily on our management. If we fail to hire and retain qualified management and other key personnel
+ the
+implementation of our business plan will be materially and adversely affected.
+
+Our
+performance is substantially dependent on the continued services and performance of our executive officers and other key personnel
+and our ability to retain and motivate our officers and key employees. Our future success also depends on our ability to identify
+attract
+ hire
+ train
+ retain and motivate other highly skilled technical
+ managerial and marketing personnel. Competition for
+qualified personnel is intense
+ and we cannot assure you that we will be successful in attracting and retaining such personnel.
+The failure to attract and retain our officers or the necessary technical
+ managerial and marketing personnel could have a material
+adverse effect on our business
+ prospects
+ financial condition and results of operations.
+
+Our
+dependence on management creates risks. The loss of our experienced officers and key employees could materially and adversely
+affect our ability to professionally manage our business.
+
+Our
+plan for success is dependent
+ in large part
+ on the active participation of our executive officers. The loss of their services
+would materially and adversely affect our business and future success. We do not have key-man life insurance in effect at the
+present time. Should any of our key employees die or become incapacitated
+ we may not be able to replace them in a timely or cost
+effective manner which could materially and adversely harm our business
+ financial condition and results of operations.
+
+We
+may be sued for infringing on the intellectual property rights of others.
+
+Third
+parties may claim that we are infringing on their intellectual property rights. We may violate the rights of others without our
+knowledge. If a litigant establishes that we are infringing its intellectual property rights
+ or that our intellectual property
+rights are invalid
+ we may be forced to change our products
+ services
+ or manufacturing processes
+ and such changes may be expensive
+or impractical. We may then be forced to seek royalty or license agreements from such litigant. If we are unable to agree on acceptable
+terms
+ we may be required to discontinue the sale of key products or halt other aspects of our operations. In addition
+ we may
+also be liable for significant financial damages for a violation of intellectual property rights. Any adverse result related to
+violation of third party intellectual property rights could materially and adversely harm our business
+ financial condition and
+results of operations. Even if intellectual property claims brought against us are without merit
+ they may result in litigation
+which could be costly and time consuming
+ and may divert our management and key personnel from operating our business.
+
+We
+may be exposed to tax audits
+ which could be expensive for the Company and time consuming for management.
+
+At
+the present time
+ the Company is not in compliance with its obligation to file income tax returns
+ however
+ the Company
+intends to remediate this non-compliance in the immediate future. Our U.S. federal and state tax returns may be audited by
+the U.S. Internal Revenue Service (the &ldquo;IRS&rdquo;). An audit may result in the challenge and disallowance of
+deductions claimed by us. Further
+ an audit could lead to an audit of one or more of our investors and ultimately result in
+attempts to adjust investors&rsquo; tax returns with respect to items unrelated to us. We are unable to guarantee the
+deductibility of any item that we acquire. We will claim all deductions for federal and state income tax purposes which we
+reasonably believe that we are entitled to claim. In particular
+ we will elect to treat as an expense for tax purposes all
+interest
+ management fees
+ taxes and insurance. The IRS may disallow any of the various elements used in calculating our
+expenses
+ thereby reducing federal income tax benefits of an investment. To the extent that any challenge or disallowance is
+raised in connection with a tax return filed by an individual shareholder
+ the cost of any audit and/or litigation resulting
+there from would be born solely by the affected shareholder. In the event the IRS should disallow any of our deductions
+ the
+directors
+ in their sole discretion
+ will decide whether to contest such disallowance. No assurance can be given that in the
+event of such a contest the deductions would be sustained by the courts. If the disallowance of any deductions results in an
+underpayment of tax
+ investors could also be responsible for interest on the under payments.
+
+
+    
+    
+
+
+Securities
+compliance may be expensive and time consuming for our management.
+
+Compliance
+with the Securities Exchange Act of 1934
+ as amended (the &ldquo;Exchange Act&rdquo;)
+ and the rules and regulations promulgated
+thereunder
+ including
+ the Sarbanes-Oxley Act of 2002 and related requirements will be costly and will place a significant burden
+on our management. At the present time
+ the Company has only a limited history of operating with the internal controls and procedures
+required of a public company. Previously
+ the Company&rsquo;s accounting predecessor
+ Janex International
+ Inc. (the Delaware
+entity which later changed its name to Cono Italiano
+ Inc. and was acquired by the Company) was registered with the SEC. However
+on March 23
+ 2009
+ the SEC took action under Section 12(j) of the Exchange Act and revoked that entity&rsquo;s registration because
+it was seriously delinquent in its mandatory reporting obligations. Should the Company fail to make its filings with the SEC in
+a timely manner
+ its registration could be revoked as well.
+
+Management
+is required to conduct an annual evaluation of our internal control over financial reporting and include a management report on
+our internal control over financial reporting. We cannot assure you that measures we have taken
+ or future measures we may take
+will enable us to provide accurate and timely financial reports
+ particularly if we are unable to hire additional personnel in
+our accounting and financial department
+ or if we lose personnel in this area. Any failure to maintain an effective system of
+internal controls
+ or any other problems with our financial systems or internal controls
+ could result in delays or inaccuracies
+in reporting financial information or failure to comply with SEC reporting and other regulatory requirements. Any of these situations
+could adversely affect our business and stock price.
+
+Estimates
+must be made in connection with the preparation of our financial reports. If changes must be made to financial reports
+ we could
+be adversely affected.
+
+We
+follow accounting principles generally accepted in the United States in preparing our financial statements. As part of this work
+we must make many estimates and judgments which affect the value of the assets and liabilities
+ contingent assets and liabilities
+and revenue and expenses reported in our financial statements. We believe that our estimates and judgments are reasonable and
+we make them in accordance with our accounting policies based on information available at the time. However
+ actual results could
+differ from our estimates and this could require us to record adjustments to expenses or revenues that could be adversely material
+to our financial position and results of operations.
+
+A
+significant percentage of our Common Stock is owned by a single investor
+ Mitchell Brown
+ our Chief Executive Officer and a member
+of our Board of Directors
+ which may lead to the Company taking actions which conflict with other shareholders.
+
+Our
+Chief Executive Officer
+ Mr. Mitchell Brown
+ owns directly 30
+100
+000 shares of the Company&rsquo;s common stock directly
+and has sole voting power and sole power of disposition over all 6
+000
+000 shares of the Company&rsquo;s common stock owned by
+Lara Mac Inc. Thus Mr. Brown controls the voting of approximately 32.82 % of our issued and outstanding shares. This concentration
+of ownership and control could discourage a potential acquirer from making a tender offer or otherwise attempting to obtain control
+of us
+ or could otherwise delay or prevent a change in control transaction or other business combination
+ which could in turn
+have an adverse effect on the market price of our common shares. As long as this concentration of ownership persists
+ it is unlikely
+that any other holder or group of holders of our common shares will be able to affect the way we are managed or the direction
+of our business. The interests of the control group of shareholders could conflict with the interests of other shareholders. In
+addition
+ we may adopt amendments to our organizational documents and applicable state law which have anti-takeover provisions
+that could delay or prevent a change in control of our company.
+
+We
+will indemnify our officers and directors which could cause our capital resources to be used to defend and settle claims or legal
+actions against them.
+
+Our
+bylaws provide that we shall indemnify any and all of our present or former directors and officers for expenses incurred in connection
+with the defense of any action relating to their services. Costs
+ charges and expenses (including attorneys&rsquo; fees) incurred by
+such person in defending a civil or criminal proceeding shall be paid by the Company in advance upon receipt of an undertaking
+to repay all amounts advanced if it is ultimately determined that the person is not entitled to be indemnified by the Company
+as authorized by the bylaws
+ and upon satisfaction of other conditions required by current or future legislation. To the extent
+that a director has been successful in defense of any proceeding
+ the Nevada Revised Statutes provide that he shall be indemnified
+against reasonable expenses incurred in connection therewith. These provisions may limit the ability of our stockholders to recover
+damages against our directors through legal proceeding or otherwise.
+
+
+    
+    
+
+
+In
+addition to the indemnification provided for in the Company&rsquo;s bylaws
+ we may enter into agreements to indemnify our directors
+and officers. Under these agreements
+ we will be obligated to indemnify our directors and officers for expenses
+ attorneys&rsquo;
+fees
+ judgments
+ fines and settlement amounts incurred by any director or officer in any action or proceeding arising out of the
+director&rsquo;s or officer&rsquo;s services as a director or officer of us
+ any of our subsidiaries or any other company or enterprise
+to which the person provides services at our request. We believe that these provisions and agreements are necessary to attract
+and retain qualified individuals to serve as directors and officers.
+
+If
+our food products become contaminated
+ we may be subject to product liability claims
+ product recalls and increased scrutiny by
+regulators
+ any of which could adversely affect our business.
+
+Food
+products like Pizza Cones are vulnerable to contamination leading to food-related illness. There is a risk that our products could
+become contaminated and then ultimately consumed by purchasers. Purchasers who suffer
+ or claim to suffer
+ as a result of consuming
+our products may sue us
+ and such suits could be expensive and time consuming for the Company and its management. While Cono Italiano
+believes that it has adequate insurance to mitigate the potential risk of losses for product liability claims
+ such insurance
+may prove to be insufficient.
+
+A
+decline in the economy may lead to a decline in demand for our products.
+
+Should
+the U.S. economy experience a further decline
+ demand for our product may not grow and may even decrease
+ and accordingly
+ our
+ability to generate revenues may be impaired.
+
+Increased
+costs for the raw materials used to produce the Pizza Cone may reduce our profits.
+
+The
+Company is unable to predict the extent to which the raw materials used to produce the Pizza Cone may increase in the future.
+Significant cost increase may substantially reduce our profits.
+
+A
+material disruption at our processing plant could seriously harm our financial condition and operating results.
+
+In
+the event that the processing plant at which our products are made was to be damaged due to natural disaster or disrupted by labor
+disputes
+ the Company could experience difficulties in finding an alternative production location. Such difficult and delay could
+impact the profitability of the Company.
+
+The
+Company&rsquo;s sole focus is on the sale of cones. Should there be a lack of demand for the cones we sell
+ we will not be able
+to rely on alternative products for revenue.
+
+The
+Company&rsquo;s product is a cone can be marketed as an empty vessel and filled with fresh ingredients. There are currently over
+100 recipes that can be used in the cones. However
+ should there be a lack of demand for cones in general
+ the Company will not
+receive revenues from other product lines.
+
+Risks
+Related To Investing In Our Common Shares
+
+You
+may have difficulty selling our common shares and may therefore lose all or a significant portion of your investment.
+
+Our
+common shares trades on the OTC Bulletin Board. The stock price may be volatile. The market price of our common shares may be
+subject to wide fluctuations in response to several factors including the following:
+
+
+
+    
+    
+Our
+    ability to execute our business plan and significantly grow our business;
+
+
+
+
+    
+    
+Increased
+    competition from competitors who offer competing products; and
+
+
+
+
+    
+    
+Our
+    financial condition and results of operations.
+
+
+
+    
+    
+
+
+As
+a result
+ our shareholders may find it more difficult to obtain accurate quotations concerning the market value of the stock.
+Shareholders also may experience greater difficulties in attempting to sell our common shares than if they were listed on a self-regulated
+national stock exchange.
+
+We
+may need to raise additional capital. If we are unable to raise additional capital
+ our business may fail.
+
+We
+may need to raise additional capital to provide cash for our operations. The fact that we have generated only $122
+985 in
+sales during the twelve months ended December 31
+ 2012 and $0 in sales during the twelve months ended December 2011 may deter
+potential investors from providing financing. Uncertainty regarding our ability to generate revenues may make it difficult
+for us to find financing on acceptable terms. If we are unable to obtain adequate funding
+ we may not be able to successfully
+develop and market our products and our business may fail. To secure additional financing
+ we may need to borrow money or
+sell more securities. Under the current circumstances
+ we may be unable to secure additional financing on favorable terms
+ if
+available at all.
+
+We
+do not currently intend to pay dividends on our common stock and
+ consequently
+ the ability to achieve a return on your investment
+in our common stock will depend on appreciation in the price of our common stock. If our common stock does not appreciate in value
+investors could suffer losses in their investment in our common stock.
+
+We
+do not expect to pay cash dividends on our common stock. Any future dividend payments are within the absolute discretion of our
+Board and will depend on
+ among other things
+ our results of operations
+ working capital requirements
+ capital expenditure requirements
+financial condition
+ contractual restrictions
+ business opportunities
+ anticipated cash needs
+ provisions of applicable law and
+other factors that our Board may deem relevant. We may not generate sufficient cash from operations in the future to pay dividends
+on our common stock. As a result
+ the success of your investment in our common stock will depend on future appreciation in its
+value. The price of our common stock may not appreciate in value or even maintain the price at which you purchased our shares.
+If our common stock does not appreciate in value
+ investors could suffer losses in their investment in our common stock.
+
+Because
+the market for our common shares is limited
+ investors may not be able to resell their common shares. Investors should therefore
+assume that any investment in our company will be illiquid for the foreseeable future.
+
+Our
+common shares trade on the Over-the-Counter-Bulletin-Board quotation system. Trading in our shares has historically been subject
+to very low volumes and wide disparity in pricing. Investors may not be able to sell or trade their common shares because of thin
+volume and volatile pricing with the consequence that they may have to hold your shares for an indefinite period of time.
+
+There
+are legal restrictions on the resale of the common shares offered
+ including penny stock regulations under the U.S. Federal Securities
+Laws. These restrictions may adversely affect your ability to resell your stock.
+
+We
+anticipate that our common stock will continue to be subject to the penny stock rules under the Exchange Act. These rules regulate
+broker/dealer practices for transactions in &ldquo;penny stocks.&rdquo; Penny stocks are generally equity securities with a price
+of less than $5.00. The penny stock rules require broker/dealers to deliver a standardized risk disclosure document that provides
+information about penny stocks and the nature and level of risks in the penny stock market. The broker/dealer must also provide
+the customer with current bid and offer quotations for the penny stock
+ the compensation of the broker/dealer and its salesperson
+and monthly account statements showing the market value of each penny stock held in the customer&rsquo;s account. The bid and offer
+quotations and the broker/dealer and salesperson compensation information must be given to the customer orally or in writing prior
+to completing the transaction and must be given to the customer in writing before or with the customer&rsquo;s confirmation. In addition
+the penny stock rules require that prior to a transaction
+ the broker and/or dealer must make a special written determination
+that the penny stock is a suitable investment for the purchaser and receive the purchaser&rsquo;s written agreement to the transaction.
+The transaction costs associated with penny stocks are high
+ reducing the number of broker-dealers who may be willing to engage
+in the trading of our shares. These additional penny stock disclosure requirements are burdensome and may reduce all of the trading
+activity in the market for our common stock. As long as the common stock is subject to the penny stock rules
+ our shareholders
+may find it more difficult to sell their shares.
+
+
+    
+    
+
+
+Our
+future sales of our common shares could cause our stock price to decline.
+
+There
+is no contractual restriction on our ability to issue additional shares. We cannot predict the effect
+ if any
+ that market sales
+of our common shares or the availability of shares for sale will have on the market price prevailing from time to time. Sales
+by us of our common shares in the public market
+ or the perception that our sales may occur
+ could cause the trading price of
+our stock to decrease or to be lower than it might be in the absence of those sales or perceptions.
+
+You
+may experience dilution of your ownership interests due to the future issuance of additional shares of our common stock which
+could be materially adverse to the value of our common stock.
+
+As
+of April 12
+ 2013
+ we had 107
+233
+087 shares of our common stock issued and outstanding. We are authorized to issue up to 150
+000
+000
+shares of common stock. Our Board may authorize the issuance of additional common or preferred shares under applicable state law
+without shareholder approval. We may also issue additional shares of our common stock or other securities that are convertible
+into or exercisable for common stock in connection with the hiring of personnel
+ future acquisitions
+ future private placements
+of our securities for capital raising purposes or for other business purposes. Future sales of substantial amounts of our common
+stock
+ or the perception that sales could occur
+ could have a material adverse effect on the price of our common stock. If we
+need to raise additional capital to expand or continue operations
+ it may be necessary for us to issue additional equity or convertible
+debt securities. If we issue equity or convertible debt securities
+ the net tangible book value per share may decrease
+ the percentage
+ownership of our current stockholders may be diluted and such equity securities may have rights
+ preferences or privileges senior
+or more advantageous to our common stockholders.
+
+The
+market price of our common stock may be volatile which could adversely affect the value of your investment in our common stock.
+
+The
+trading price of our common stock may be highly volatile and could be subject to wide fluctuations in response to various factors.
+Some of the factors that may cause the market price of our common stock to fluctuate include:
+
+
+
+    
+    
+Fluctuations
+    in our quarterly financial results or the quarterly financial results of companies perceived to be similar to us;
+
+
+
+    
+    
+Changes
+    in estimates of our financial results or recommendations by securities analysts;
+
+
+
+    
+    
+Failure
+    of any of our products to achieve or maintain market acceptance;
+
+
+
+    
+    
+Changes
+    in market valuations of similar companies;
+
+
+
+    
+    
+Significant
+    products
+ contracts
+ acquisitions or strategic alliances of our competitors;
+
+
+
+    
+    
+Success
+    of competing products or services;
+
+
+
+    
+    
+Changes
+    in our capital structure
+ such as future issuances of securities or the incurrence of additional debt;
+
+
+
+    
+    
+Regulatory
+    developments;
+
+
+
+    
+    
+Litigation
+    involving our company
+ our general industry or both;
+
+
+
+    
+    
+Additions
+    or departures of key personnel;
+
+
+
+    
+    
+Investors&rsquo;
+    general perception of us; and
+
+
+
+    
+    
+Changes
+    in general economic
+ industry and market conditions.
+
+
+Absence
+of equity research reports or unfavorable reports could adversely affect the price of our stock.
+
+The
+trading market for our common shares will rely in part on the research and reports that equity research analysts publish about
+us and the industry segments in which we operate. The public price of our publicly traded common shares could decline if one or
+more securities analysts downgrades investment in our common shares or if those analysts issue other unfavorable commentary about
+our industry or other major participants in our industry
+ or if they decline to publish reports about us. At the current time
+there are no analysts providing coverage of the Company&rsquo;s securities.
+
+
+    
+    
+
+
+Item
+1B. Unresolved Staff Comments.
+
+Not
+applicable.
+
+Item
+2. Properties.
+
+Our
+principal executive offices are located at 10 Main Street
+ Keyport
+ NJ 07735. We are not paying rent for this location
+ which
+is being provided by our Chief Executive Officer at no expense. We believe that this property is adequate for our current and
+immediately foreseeable operating needs. At the present time
+ we do not own any real estate. We do not have any policies regarding
+investments in real estate
+ securities or other forms of property.
+
+Item
+3. Legal Proceedings.
+
+We
+are currently not involved in any litigation that we believe could have a material adverse effect on our financial condition or
+results of operations. There is no action
+ suit
+ proceeding
+ inquiry or investigation before or by any court
+ public board
+ government
+agency
+ self-regulatory organization or body pending or
+ to the knowledge of the executive officers of our company or any of our
+subsidiaries
+ threatened against or affecting our company
+ our common stock
+ any of our subsidiaries or of our companies or our
+subsidiaries&rsquo; officers or directors in their capacities as such
+ in which an adverse decision could have a material adverse
+effect.
+
+Item
+4. Mine Safety Disclosures.
+
+Not
+applicable.
+
+
+    
+    
+
+
+PART
+II
+
+Item
+5. Market for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity
+Securities.
+
+(a)
+Market Information
+
+Our
+common stock is quoted on the over-the-counter bulletin board (OTCBB) under the symbol &ldquo;CNOZ&rdquo;. The following table
+shows the range of high and low bids per share of our common stock as reported by the OTCBB for the fiscal year periods indicated.
+Such over-the-counter market quotations reflect inter-dealer prices
+ without retail mark-up
+ markdown or commission
+ and may not
+necessarily represent actual transactions.
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+As
+of April 12
+ 2013
+ there were 107
+233
+087 shares of our common stock issued and outstanding held by approximately
+[&#9679;] holders of record.
+
+
+
+We
+have not paid any dividends to the holders of our common stock and we do not expect to pay any such dividends in the foreseeable
+future as we expect to retain our future earnings for use in the operation and expansion of our business.
+
+(d) Securities
+Authorized for Issuance Under Equity Compensation Plans
+
+At the present
+time
+ we have no securities authorized for issuance under equity compensation plans.
+
+Item
+6. Selected Financial Data.
+
+Pursuant
+to permissive authority under Regulation S-K
+ Rule 301
+ we have omitted Selected Financial Data.
+
+Item
+7. Management&rsquo;s Discussion and Analysis of Financial Condition and Results of Operations.
+
+Forward-Looking
+Statements
+
+The
+following discussion of the financial condition and results of operations of the Company should be read in conjunction with the
+financial statements and the related notes thereto included elsewhere in this Report. This Report contains certain forward-looking
+statements and the Company&rsquo;s future operating results could differ materially from those discussed herein. Certain statements
+contained in this Report
+ including
+ without limitation
+ statements containing the words &ldquo;believes&rdquo;
+ &ldquo;anticipates
+&rdquo;
+&ldquo;expects&rdquo; and the like
+ constitute &ldquo;forward-looking statements&rdquo; within the meaning of Section 27A of the
+Securities Act of 1933
+ as amended
+ and Section 21E of the Securities Exchange Act of 1934
+ as amended (the &ldquo;Exchange Act&rdquo;).
+However
+ as the Company intends to issue &ldquo;penny stock
+&rdquo; as such term is defined in Rule 3a51-1 promulgated under the
+Exchange Act
+ the Company is ineligible to rely on these safe harbor provisions. Such forward-looking statements involve known
+and unknown risks
+ uncertainties and other factors which may cause the actual results
+ performance or achievements of the Company
+to be materially different from any future results
+ performance or achievements expressed or implied by such forward-looking statements.
+Given these uncertainties
+ readers are cautioned not to place undue reliance on such forward-looking statements. The Company disclaims
+any obligation to update any such factors or to announce publicly the results of any revisions of the forward-looking statements
+contained or incorporated by reference herein to reflect future events or developments.
+
+
+    
+    
+
+
+Plan
+of Operation
+
+On
+September 7
+ 2011
+ we entered into a strategic manufacturing agreement (the &ldquo;Agreement&rdquo;) with Interstate Caterers
+(&ldquo;Interstate&rdquo;) and continue moving forward with the production and distribution of our frozen foods and Pizza Cono.
+We have fulfilled our obligations pertaining to the Agreement and delivered our first shipment of products in March 2012. Additionally
+we recently added empanadas to our product line which we believe will increase our market for sales. We plan to fund the manufacturing
+process of these products through the use of private funding investors and resources from Interstate Caterers.
+
+In
+November 2011
+ we
+ together with our manufacturing partner
+ completed construction on our USDA and FDA approved facility for
+our Pizza Cono and new line of frozen foods. Additionally
+ we purchased the balance of equipment required to produce our
+filled cones and frozen foods. This equipment will enable Cono Italiano
+ Inc.
+ to produce a frozen cone filled with a variety
+of toppings by using an automated filling line. We expect to be the sole producer of frozen filled cones made in the United
+States with USDA and FDA approval. We believe this will provide us with an advantage over our competitors in the market
+place.
+
+For
+the next 12 months
+ the Company plans to continue manufacturing and delivering its products to customers. We also plan
+to expand our USDA facility by adding machines to fill and manufacture our pizza cones and empanadas. We plan to secure
+through financing certain equipment required to manufacture and distribute our products to retail vendors and other suppliers
+in our market. These machines include a carton machine
+ which packages box the pizza cones and empanadas in boxes for retail
+and a Flo Pack machine
+ which wraps pizza cones and empanadas in microwavable bags prior to being packaged. We expect to
+introduce additional flavors and new products to our product line in 2013.
+
+Results
+of Operations
+
+For
+the year ended December 31
+ 2012 compared to the year ended December 31
+ 2011
+
+Revenues
+and Profit
+
+During
+the year ended December 31
+ 2012
+ Cono Italiano (Delaware) had revenues of $122
+985 compared to total revenue of $-0- for
+the same period in 2011. The increase in total revenue is attributable to the Company beginning to sell its
+products.
+
+The
+Company&rsquo;s cost of goods sold for the year ended December 31
+ 2012
+ was $117
+913 which was an increase from $-0- for
+the same period in 2011. The increase in cost of goods sold is attributable to the costs of product manufacturing to market
+to the trade
+ and packaging to sell to retail
+ which was completed in October. This has afforded the Company the opportunity
+to sell and expand its line of product to Shop Rite
+ Core Mark. The Company&rsquo;s gross profit for the year ended December
+31
+ 2012 was $5
+072 which was an increase from $-0- for the same period in 2011. The change in gross profit is attributable
+to the start-up of the Company selling its product and its related cost of goods sold.
+
+
+    
+    
+
+
+Selling
+Expenses
+ Interest Expenses and General and Administrative Expenses
+
+During
+the year ended December 31
+ 2012
+ the Company&rsquo;s selling expenses were $160
+727
+ compensation expense was $225
+000
+ general
+and administrative expenses were $199
+327 and interest expenses were $50
+005. This was a decrease compared to the same period
+in 2011
+ in which selling expenses were $166
+610
+ general and administrative expenses were $323
+110 and an increase compared to
+the same period in 2011 in which compensation expense was $-0- and interest expenses were $14
+745. This decrease is primarily
+attributable to a decrease in the paying of vendors with stock as cash became available through the sale of product and the acquisition
+of debt. The increase in compensation expense was attributable to the commencement of the officers employment contracts in 2012
+while the increase to interest expense was attributable to the acquisition of debt. Repreciation expense for the years ended
+December 31
+ 2012 and 2011 was $63
+795 and $8
+665
+ respectively. 
+
+Net
+Loss
+
+The
+net loss for the year ended December 31
+ 2012 was $696
+518
+ which was an increase from $504
+465 for the same period in 2011.
+This increase is attributable to $225
+000 in compensation expense to officers compared to $-0- for the same period in 2011
+as well as growing the company with capital expenditures for equipment
+ packaging
+ marketing
+ and product placement into the
+retail environment.
+
+Liquidity
+and Capital Resources
+
+As
+of December 31
+ 2012
+ the Company did not have and continues to not have sufficient cash on hand to pay present obligations as
+they become due. In addition
+ due to current economic conditions and the Company&rsquo;s related risks and uncertainties
+ there
+is no assurance that we will be able to raise additional capital on acceptable terms
+ if at all
+ to meet our current obligation
+over the next 12 months. Because of the foregoing
+ the Company&rsquo;s auditors have expressed substantial doubt about our ability
+to continue as a going concern.
+
+Net
+cash used for operating activities for the year ended December 31
+ 2012 and 2011
+ was $203
+326 and $156
+446
+ respectively.
+The net loss for the year ended December 31
+ 2012 and 2011 was $(696
+518) and $(504
+465) respectively. This increase is
+primarily attributable to the accrual of compensation expense for officers in the amount of $225
+000 and depreciation expense
+on new equipment.
+
+As
+of December 31
+ 2012
+ Cono Italiano (Delaware) had$30
+562 in cash and cash equivalents
+ as compared to $0 for the same
+period in 2011. The main source of the Company&rsquo;s cash has been loans from an officer
+ acquisition of debt and the sales
+of product. Our Chief Executive Officer
+ Mitchell Brown
+ was owed $767
+317 as of December 31
+ 2012
+ which total loan
+amount increased from $724
+975 at December 31
+ 2011. The Company also received cash proceeds from acquision of a convertible
+note payable during the year ended December 31
+ 2012. As of December 31
+ 2012 the total convertible note payable was
+$247
+807 compared to $-0- at December 31
+ 2011.
+
+On
+November 9
+ 2009
+ Cono Italiano (Delaware) entered into a Commitment Letter
+ pursuant to which
+ one of our shareholders
+ Lara
+Mac
+ has agreed to provide financing to Cono Italiano
+ Inc.
+ with such funds as the Board shall deem to be sufficient to
+maintain the Company&rsquo;s ordinary course of business operations (the &ldquo;Commitment Amount&rdquo;). We may draw on the
+Commitment Amount in monthly tranches in accordance with our operating requirements as set forth in our business plan. The
+available Commitment Amount will be reduced by the aggregate cash proceeds received by the Company which are derived from the
+issuance of any equity securities and Company gross revenues. Draws on the Commitment Amount will be made on terms of
+unsecured notes
+ with interest set on each note as of the date of the draw at prime rate plus two percent per annum. It was
+agreed that the notes would mature and become repayable thirty calendar days after demand. We will give Lara Mac customary
+representations and warranties regarding the good standing of our Company and status of progress in respect of our Company
+business plan prior to each draw on the Commitment Amount
+ and we will provide certifications and covenants regarding use of
+proceeds of each draw
+ which will be in customary forms reasonably requested by Lara Mac as determined by reference to
+similar lenders making similar loans to similar companies. Lara Mac will not be required to make any loans under the
+Commitment Amount to us if we are unable to make the representations
+ warranties
+ certifications or covenants
+ or if we are
+in breach of any previously given representations
+ warranties
+ certifications or covenants. If we breach any of the notes
+the default rate will be 15% per annum and Lara Mac may seek recourse against our company for repayment of all of the notes.
+As of the end of the period covered by this Report
+ there had been no borrowings under the Commitment Letter. Lara Mac has
+.
+As of December 31
+ 2012
+ the agreement was still in effect and no funds had been borrowed.
+
+
+    
+    
+
+
+The
+following table summarizes total current assets
+ liabilities and working capital at December 31
+ 2012
+ compared to December 31
+2011.
+
+
+
+    
+
+&nbsp;2012
+
+&nbsp;2011
+    
+
+    
+207
+076
+32
+937
+174
+139
+
+    
+1
+828
+169
+1
+219
+720
+608
+449
+
+    
+(1
+621
+093
+(1
+186
+783
+(434
+310
+
+
+
+As
+of December 31
+ 2012
+ we had a working capital deficit of $(1
+621
+093)
+ as compared to a working capital deficit of $(1
+186
+783)
+as of December 31
+ 2011
+ an increase of $(434
+310). Factors contributing to the increase in this deficit include the purchase
+of additional manufacturing equipment 
+ issuance of debt and increase in occured compensation. 
+
+Current
+Liabilities consists of the following:
+
+
+
+    
+
+&nbsp;2012
+
+&nbsp;2011
+
+    
+    
+3
+348
+
+    
+135
+508
+135
+508
+
+    
+126
+206
+54
+713
+
+    
+59
+834
+52
+746
+
+    
+67
+228
+60
+905
+
+
+ Net
+247
+807
+    
+
+    
+225
+000
+    
+
+    
+767
+317
+724
+975
+
+    
+199
+269
+187
+525
+
+    
+1
+828
+169
+1
+219
+720
+
+
+Critical
+Accounting Policies and Estimates
+
+Our
+consolidated financial statements are prepared in accordance with U.S. Generally Accepted Accounting Principles (&ldquo;GAAP&rdquo;).
+The preparation of the financial statements requires us to make estimates and assumptions that affect the reported amounts of
+assets
+ liabilities
+ revenues
+ expenses
+ and related disclosures. Though we evaluate our estimates and assumptions on an ongoing
+basis
+
+added. 
+
+Recently
+Issued Accounting Standards
+
+Accounts
+Receivable
+
+Accounts
+receivable are uncollateralized customer obligations due under normal trade terms requiring payment within 30 days from the invoice
+date. Customer accounts over 90 days old are considered delinquent. The carrying amount of accounts receivable are reduced by
+an allowance for doubtful accounts that reflects our Company&rsquo;s best estimate of the amounts that will not be collected.
+The Company reviews outstanding accounts and based on an assessment of current creditworthiness
+ estimates the portion
+ if any
+of the balance that will not be collected. The Company provides for probable uncollectible amounts through a charge to earnings
+and a credit to a valuation allowance based on its assessment of the current status of the individual accounts. Balances that
+are still outstanding after reasonable collection efforts are written off through a charge to the valuation allowance and a credit
+to accounts receivable. The Company has assessed accounts receivable and determined that a reserve is necessary and at December
+31
+ 2012 and 2011
+ the allowance for doubtful accounts was $2
+440 and $-0-
+ respectively.
+
+Revenue
+Recognition
+
+The
+Company recognizes revenue when title
+ ownership and risk of loss pass to the customer. Transfer of title occurs and risk of ownership
+generally passes to a customer at the time of shipment or delivery
+ depending on the terms of the agreement with a particular
+customer. The sale price of the Company&rsquo;s products is substantially fixed or determinable at the date of sale based on purchase
+orders generated by a customer and accepted by the Company. A customer is obligated to pay for products sold to it within a specified
+number of days from the date that title to the products is transferred to the customer. The Company&rsquo;s standard terms are
+typically net 30 days from the transfer of title to the products to the customer. The Company typically expects payment from a
+customer within 30 to 45 days from the transfer of title to the products to a customer. Shipping and handling costs are charged
+to the customer and are included in revenue.
+
+
+    
+    
+
+
+Customer
+Concentrations
+
+One
+customer accounted for approximately $68
+655 or 55%
+ while another customer accounted for $16
+507 or 13% of net sales for the
+year ended December 31
+ 2012. Various other customers accounted for the remaining sales of $37
+823 or 32%. All transactions were
+in United States dollars. There were no transaction gains or losses associated with sales transactions.
+
+The
+Company does not expect the adoption of recently issued accounting pronouncements to have a significant impact on the company&rsquo;s
+results of operations
+ financial position or cash flow.
+
+Stock-Based
+Compensation
+
+Stock-based
+compensation related to non-employees is recognized based on service provided in the accompanying statements of operations and
+is based on the fair value of the services received or the fair value of the equity instruments issued
+ whichever is more readily
+determinable. The Company&rsquo;s accounting policy for equity instruments issued to consultants and vendors in exchange for goods
+and services follows the provisions of FASB ASC 505
+ &ldquo;Equity Based Payments to Non-Employees&rdquo;. The measurement date
+for the fair value of the equity instruments issued is determined at the earlier of (i) the date at which a commitment for performance
+by the consultant or vendor is reached or (ii) the date at which the consultant or vendor&rsquo;s performance is complete. In
+the case of equity instruments issued to consultants
+ the fair value of the equity instrument is recognized over the term of the
+consulting agreement.
+
+Stock-based
+compensation related to employees and directors is recognized pursuant to the provisions of FASB ASC 718. FASB ASC 718 requires
+recognition in the financial statements of the cost of employee services received in exchange for an award of equity instruments
+over the period the employee is required to perform the services in exchange for the award (presumptively the vesting period).
+FASB ASC 718 also requires measurement of the cost of employee services received in exchange for an equity award based upon the
+grant-date fair value of the award.
+
+Off
+Balance Sheet Arrangements
+
+The
+Company does not have any off balance sheet arrangements that have or are reasonably likely to have a current or future effect
+on the Company&rsquo;s financial condition
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+capital expenditures or capital resources.
+
+Item
+7A. Quantitative and Qualitative Disclosures About Market Risk.
+
+We
+did not have any operations which implicated market risk as of the end of the latest fiscal year. We intend to implement an analysis
+and assessment program which will on a regular basis determine exposures of the Company to future risks. We expect to report the
+results of all such quantitative and qualitative risk assessments prior to entering into any material agreements
+ and on a regular
+monthly and annual basis to our audit committee so that responsive risk management measures can be discussed and actions taken
+to the extent reasonably feasible. Inflationary factors in the future
+ such as increases in overhead costs
+ may adversely affect
+our operating results. A high rate of inflation in the future may have an adverse effect on our ability to manage selling
+ general
+and administrative expenses as a percentage of net revenues if our revenues do not increase with these increased costs.
+
+Item
+8. Financial Statements and Supplementary Data.
+
+Our consolidated
+financial statements are contained in pages [&#9679;] through [&#9679;] which appear at the end of this Report.
+
+Item
+9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure.
+
+
+
+
+    
+    
+
+
+Item
+9A. Controls and Procedures.
+
+(a)
+Evaluation of Disclosure Controls and Procedures
+
+We
+maintain disclosure controls and procedures that are designed to ensure that information required to be disclosed in our reports
+pursuant to the Exchange Act is recorded
+ processed
+ summarized and reported within the time periods specified in the SEC&rsquo;s
+rules and forms
+ and that such information is accumulated and communicated to our management
+ including our Chief Executive Officer
+and Chief Financial Officer
+ as appropriate to allow timely decisions regarding required disclosure. Under the supervision of
+and with the participation of
+ our management
+ including our principal executive officer and principal financial officer
+ we conducted
+an evaluation of our disclosure controls and procedures
+ as such term is defined under Rule 13a-15(e) promulgated under the Exchange
+Act
+ as they existed on December 31
+ 2012. Based on their evaluation of our disclosure controls and procedures as of December
+31
+ 2012
+ the Company&rsquo;s Chief Executive Officer and Chief Financial Officer have concluded that
+ as of that date
+ the Company&rsquo;s
+disclosure controls and procedures were not effective for the purposes described above.
+
+(b)
+Management&rsquo;s Assessment of Internal Control over Financial
+Reporting
+
+Our
+management is responsible for establishing and maintaining adequate internal control over financial reporting
+ as such term is
+defined in Rule 13a-15(f) of the Exchange Act. Internal control over financial reporting refers to the process designed by
+ or
+under the supervision of
+ our Chief Executive Officer and Chief Financial Officer
+ and effected by our board of directors
+ management
+and other personnel
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial
+statements for external purposes in accordance with generally accepted accounting principles
+ and includes those policies and
+procedures that:
+
+
+
+    
+    
+Pertain
+    to the maintenance of records that
+ in reasonable detail
+ accurately and fairly reflect the transactions and dispositions
+    of the assets of the Company;
+
+
+
+    
+    
+Provide
+    reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance
+    with generally accepted accounting principles
+ and that receipts and expenditures of the Company are being made only in accordance
+    with authorizations of management and directors of the Company; and
+
+
+
+    
+    
+Provide
+    reasonable assurance regarding prevention or timely detection of unauthorized acquisition
+ use or disposition of the Company&rsquo;s
+    assets that could have a material effect on the financial statements.
+
+
+Because
+of its inherent limitations
+ internal control over financial reporting may not prevent or detect misstatements. Also
+ projections
+of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes
+in conditions
+ or that the degree of compliance with the policies or procedures may deteriorate.
+
+A
+material weakness is a deficiency
+ or a combination of deficiencies
+ in internal control over financial reporting
+ such that there
+is a reasonable possibility that a material misstatement of our annual or interim financial statements will not be prevented or
+detected on a timely basis.
+
+Management
+has evaluated the effectiveness of the Company&rsquo;s internal control over financial reporting as of December 31
+ 2012. Management
+based its assessment on the framework set forth in COSO&rsquo;s Internal Control &ndash; Integrated Framework (1992) in conjunction
+with SEC Release No. 33-8820 entitled &ldquo;Commission Guidance Regarding Management&rsquo;s Report on Internal Control Over
+Financial Reporting Under Section 13(a) or 15(d) of the Securities and Exchange Commission.&rdquo; Based on its assessment
+ management
+concluded that the Company did not maintain effective internal control over financial reporting as of December 31
+ 2012
+ because
+of certain material weaknesses addressed below.
+
+
+
+    
+    
+There
+    is a lack of accounting personnel with the requisite knowledge of Generally Accepted Accounting Principles in the US (&ldquo;GAAP&rdquo;)
+    and the financial reporting requirements of the SEC.
+
+
+
+    
+    
+There
+    are insufficient written policies and procedures to insure the correct application of accounting and financial reporting with
+    respect to the current requirements of GAAP and SEC disclosure requirements.
+
+
+
+    
+    
+There
+    is a lack of segregation of duties
+ in that we only had one person performing all accounting-related duties.
+
+
+
+    
+    
+Lack
+    of proper authorization and documentation of stock transactions
+ including issuance
+ cancellations or redemptions.
+
+
+
+    
+    
+
+
+(c)
+Changes in Internal Control over Financial Reporting
+
+There
+have been no changes in our internal controls over financial reporting (as such term is defined in Rule 13a-15(f) and 15d-15(f)
+under the Securities Exchange Act) during the year ended December 31
+ 2012
+ that have materially affected
+ or are reasonably likely
+to materially affect
+ our internal control over financial reporting.
+
+Item
+9B. Other Information.
+
+Not
+applicable.
+
+PART
+III
+
+Item
+10. Directors
+ Executive Officers and Corporate Governance.
+
+The
+following table and text sets forth the names and ages of all our directors and executive officers and our key management personnel
+as of April 1
+ 2013. All of our directors serve until the next annual meeting of stockholders and until their successors are elected
+and qualified
+ or until their earlier death
+ retirement
+ resignation or removal. Executive officers serve at the discretion of
+the Board
+ and are elected or appointed to serve until the next Board meeting following the annual meeting of stockholders. Also
+provided is a brief description of the business experience of each director and executive officer and the key management personnel
+during the past five years and an indication of directorships held by each director in other companies subject to the reporting
+requirements under the Federal securities laws.
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+Chief Executive
+    Officer and Director
+
+    
+    
+    
+    
+Chief Financial
+    Officer
+ Treasurer and Director
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+Secretary and
+    Director
+
+    
+    
+    
+    
+    
+
+
+Mitchell
+Brown
+ Chief Executive Officer and Director
+
+Mr.
+Brown was appointed Chief Executive Officer on June 4
+ 2009 and commenced serving as a director on June 19
+ 2009. From 2004
+through 2007
+ Mr. Brown served as the President of Discount Direct
+ a marketing company which served various cell phone
+providers. From 2007 through the date hereof
+ Mr. Brown has served as the Chairman and Chief Executive Officer of Cono
+Italiano
+ Inc.
+ a company which has acquired the North American rights to sell certain food products.
+
+Alex
+J. Kaminski
+ Chief Financial Officer
+ Treasurer and Director
+
+Mr.
+Kaminski was appointed Treasurer of the Company on June 4
+ 2009. He commenced serving as Chief Financial Officer on June 22
+ 2009
+and Director on June 19
+ 2009. Mr. Kaminski
+ 47
+ is a Certified Public Accountant. Since 1989
+ he has had his own practice. From
+2002 to 2008 he served as the Chief Financial Officer and President of Basik Funding Inc. Since 2005
+ he has also served as the
+President of Homestead Funding Group Inc.
+
+Steve
+Savage
+ Secretary and Director
+
+Mr.
+Savage commenced serving as Secretary and Director on June 19
+ 2009. For the past 5 years Mr. Savage has served as President and
+owner of Ocean Consultants Inc. a Real Estate Investment company. The purpose of the business was to locate
+ purchase
+ remodel
+and market various residential properties.
+
+
+    
+    
+
+
+Scott
+Smith
+ Director
+
+Mr.
+Smith commenced serving as a director on June 19
+ 2009. Since 1997
+ Mr. Smith
+ 46
+ has served as the owner and manufacturer&rsquo;s
+representative for S.J. Smith Distributors Inc. Since 2002
+ Mr. Smith has served as the Corporate Sales Manager for Ray Catena
+Motor Car in Edison
+ NJ.
+
+Family
+Relationships
+
+None
+of the Company&rsquo;s officers or directors have any family relationships with the Company&rsquo;s other officers or directors
+or persons nominated or chosen by the Company to become officers or directors.
+
+Involvement
+in Certain Legal Proceedings
+
+During
+the past five years no director
+ person nominated to become a director
+ executive officer
+ promoter or control person of the Company
+has: (i) had any bankruptcy petition filed by or against any business of which such person was a general partner or executive
+officer either at the time of the bankruptcy or within two years prior to that time; (ii) been convicted in a criminal proceeding
+or been subject to a pending criminal proceeding (excluding traffic violations and other minor offenses); (iii) been subject to
+any order
+ judgment
+ or decree
+ not subsequently reversed
+ suspended or vacated
+ of any court of competent jurisdiction
+ permanently
+or temporarily enjoining
+ barring
+ suspending or otherwise limiting his involvement in any type of business
+ securities or banking
+activities; or (iv) been found by a court of competent jurisdiction (in a civil action)
+ the Commission or the Commodity Futures
+Trading Commission to have violated a federal or state securities or commodities law
+ and the judgment has not been reversed
+suspended
+ or vacated.
+
+Item
+11. Executive Compensation.
+
+The
+following table sets forth compensation for each of the past three fiscal years with respect to each person who served as Chief
+Executive Officer of the Company and each of the four most highly-compensated executive officers of the Company who earned a total
+annual salary and bonuses that exceeded $100
+000 in any of the two preceding fiscal years.
+
+Summary
+Compensation Table
+
+
+    
+Position
+    
+    
+    
+Awards&nbsp;($)
+    
+
+    
+    
+    
+    
+    
+
+
+ Chief Executive Officer and
+    
+    
+    
+125
+000
+
+    
+    
+    
+5
+000
+5
+000
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+ former President
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+50
+000
+    
+
+    
+    
+    
+    
+    
+
+
+ Chief Financial Officer
+ 
+    
+50
+000
+    
+50
+000
+
+    
+    
+    
+5
+000
+5
+000
+
+    
+    
+50
+000
+    
+    
+
+    
+    
+    
+    
+    
+
+
+ Secretary and Director (3)
+    
+50
+000
+    
+50
+000
+
+    
+    
+    
+5
+000
+5
+000
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+    
+    
+    
+    
+
+
+ former Director
+    
+    
+    
+    
+
+
+
+No officers earned over $100
+000
+in any of the three preceding fiscal years
+ other than as set forth above.
+
+
+The Company&rsquo;s fiscal
+year previously ended on January 31. The Company changed its fiscal year-end from November 30
+ 2006 to January 31
+ 2007
+ and on
+November 12
+ 2009 the Company changed its fiscal year end to December 31st. The 2010 and 2009 fiscal years for Mitchell Brown
+Joseph Masselli
+ Alex J. Kaminski and Steve Savage refer to the fiscal years ended December 31
+ 2010 and December 31
+ 2009. The
+2009 fiscal year for Mr. Leung
+ Mr. Clarke and Mr. St-Pierre refer to the fiscal years ended January 31
+ 2009. These individuals
+were not compensated thereafter.
+
+
+
+    
+    
+
+
+
+To date
+ each of Mitchell Brown
+Joseph Masselli
+ Alex J. Kaminski and Steve Savage have not been paid cash compensation by either the Company or Cono Italiano
+(Delaware).
+
+
+On January 28
+ 2011
+ Mr. Masselli
+was relieved of his position as the Company&rsquo;s President and Chief Operating Officer. On March 15
+ 2011 Mr. Masselli&rsquo;s
+service as a member of the Company&rsquo;s Board of Directors terminated.
+
+
+None
+of the officers earned any bonus
+ restricted stock awards
+ LTIP Payouts or any other annual or long term compensation other than
+the stock awards paid to each of Mr. Brown
+ Mr. Masselli and Mr. Savage by Cono Italiano (Delaware).
+
+Outstanding
+Equity Awards at Fiscal Year-End (1)
+
+As of the
+end of our most recent fiscal year
+ December 31
+ 2012
+ Mitchell Brown
+ our Chief Executive Officer and Director
+ Joseph Masselli
+our former President
+ Chief Operating Officer and Director
+ Alex J. Kaminski
+ our Chief Financial Officer
+ Treasurer and Director
+and Steve Savage
+ our Secretary and Director have not been issued any options in the Company.
+
+Options
+were issued in connection with our August 10
+ 2009 1-for-60 stock split; however
+ none of such options were exercised during the
+year ended December 31
+ 2012 and as of December 31
+ 2012 all of such options have expired.
+
+Director
+Compensation
+
+The
+persons who served as members of our board of directors
+ including executive officers
+ did not receive any compensation for services
+as a director in either the fiscal year ended December 31
+ 2012 or the fiscal year ended December 31
+ 2011.
+
+The
+Company has employment agreements with each of Mitchell Brown
+ Alex Kaminski and Steve Savage
+ and formerly had an agreement with
+Mr. Masselli. These directors will not be separately compensated for their service as directors
+ as they are also serving as officers
+of the Company. The Company does not have an employment or other compensation agreement with Scott Smith
+ who was compensated
+according to the schedule above. Mr. Smith
+ who will be serving only as a director and not as an officer will be paid a fee of
+$18
+000 per annum
+ which is presently being deferred.
+
+Employment
+Contracts
+
+On
+December 30
+ 2009
+ the Company entered into employment agreements with each of the officers serving the Company. The employment
+agreements contained the following material provisions: (i) two-year terms with automatic renewal provisions unless notice is
+given by either party 30 days prior to renewal; (ii) commitment of a substantial portion of their professional time to the Company
+consisting of 75% of their time for Mitchell Brown and 60% of their time for each of Alex Kaminski and Steve Savage; and (iii)
+and additional customary employment agreement terms and conditions. The officers have agreed that they will not receive any compensation
+for their services to the Company prior to January 1
+ 2012. The compensation of the officers has been set as follows:
+
+
+
+    
+    
+
+
+ Chief Executive Officer
+125
+000
+
+
+ Chief Financial Officer and Treasurer
+50
+000
+
+
+ Secretary
+50
+000
+
+
+It
+has been agreed by the Company
+ Mr. Smith and Mr. Kaminski that pursuant to separate stock option agreements
+ Mr. Smith will be
+granted options to purchase 2
+000
+000 shares of the Company&rsquo;s common stock at $.01 per share and Mr. Kaminski will be granted
+options to purchase 1
+500
+000 shares of the Company&rsquo;s common stock at $.01 per share. At this time
+ these options have not
+been granted
+ will vest in one year and will expire in three years.
+
+
+    
+    
+
+
+Equity
+Incentive Plan
+
+On
+October 5
+ 2006
+ the Company&rsquo;s Board of Directors adopted the Company&rsquo;s 2006 Equity Incentive Plan
+ which authorizes
+the Company to issue options for the purchase of up to 2
+000
+000 shares of the Company&rsquo;s common stock
+ pursuant to the terms
+and conditions set forth therein. The Equity Incentive Plan authorizes the issuance of incentive stock options (ISO) and non-qualified
+stock options (NQOs) to our employees
+ directors or consultants.
+
+As
+of December 31
+ 2012
+ we had [&#9679;] officers and directors eligible to receive options under the Equity Incentive Plan. Options
+to buy [&#9679;] shares of common stock were outstanding under the Equity Incentive Plan and [&#9679;] options remained eligible
+for grant. As of December 31
+ 2012
+ there were -0- unexpired outstanding options under the Equity Incentive Plan.
+
+2006
+Equity Plan Administration
+
+The
+compensation committee is empowered to select those eligible persons to whom options shall be granted under the 2006 Equity Incentive
+Plan; to determine the time or times at which each option shall be granted
+ whether options will be ISOs or NQOs and the number
+of shares to be subject to each option; and to fix the time and manner in which each option may be exercised
+ including the exercise
+price and option period
+ and other terms and conditions of options
+ all subject to the terms and conditions of the 2006 Equity
+Incentive Plan. The compensation committee has sole discretion to interpret and administer the Plan
+ and its decisions regarding
+the Plan are final.
+
+2006
+Equity Plan Option Pricing
+
+Each
+grant shall specify an option price per share
+ which shall be equal to or greater than the fair market value per share on the
+grant date; provided that in the case of any incentive stock option granted to a person who on any given date owns
+ either directly
+or indirectly (taking into account the attribution rules contained in Section 424(d) of the Code)
+ stock possessing more than
+10 percent of the total combined voting power of all classes of stock of the Company or any subsidiary
+ the option price shall
+not be less than 110% of the fair market value of a share on the date of grant.
+
+2006
+Equity Plan Amendment and Termination
+
+The
+Plan may be amended from time to time by the Board
+ but no such amendment shall increase any of the limitations concerning the
+shares or options available under the Plan
+ other than to reflect an adjustment made in accordance with Section 14 of the Plan
+(i.e. dilution
+ enlargement of the rights of participants in the Plan)
+ change the class of persons eligible to receive grants
+of awards or the types of awards available under the Plan and increase the benefits to participants under the Plan
+ in any such
+case without the further approval of the stockholders of the Company. The Board will also condition any amendment on the approval
+of the stockholders of the Company if such approval is necessary with respect to the applicable listing or other requirements
+of a national securities exchange or other applicable laws
+ policies or regulations
+ and the Board may condition any amendment
+on the approval of the stockholders of the Company if such approval is deemed advisable to comply with such requirements.
+
+The
+Plan shall terminate on the tenth anniversary of the date upon which it is approved by the stockholders of the Company
+ and no
+award shall be granted after that date.
+
+Indemnification
+Agreements
+
+Through
+its Indemnification Agreements
+ the Company agrees to indemnify directors and officers
+ to the extend provided for in the Agreement
+and to hold them harmless from and against
+ any losses or expenses at any time incurred by or assessed against them arising out
+of or in connection with their work as a director
+ advisory director
+ Board Committee member
+ officer
+ employee or agent of the
+Company or of an affiliate
+ whether the basis of such proceeding is alleged action in an official capacity or in any other capacity
+while serving as an officer or director of the Company or of an Affiliate
+ to the fullest extent permitted by law in as in effect
+or as such laws may from time to time hereafter be amended to increase the scope of such permitted indemnification.
+
+
+    
+    
+
+
+Whistleblower
+Procedures Policy
+
+In
+accordance with the requirements of Section 301 of the Sarbanes-Oxley Act of 2002
+ the Board of Directors the Company has adopted
+this Whistleblower Procedures Policy
+ stating that all employees of the Company and its subsidiaries are strongly encouraged to
+report any evidence of financial irregularities which they may become aware of
+ including those with respect to internal controls
+accounting or auditing matters. Under this Whistleblower Procedures Policy
+ the management of the Company shall promptly and periodically
+communicate to all employees with access to accounting
+ payroll and financial information the means by which they may report any
+such irregularities. In the event an employee is uncomfortable for any reason reporting irregularities to his or her supervisor
+or other management of the Company
+ employees may report directly to any member of the Board of Directors of the Company. The
+identity of any employee reporting under these procedures will be maintained as confidential at the request of the employee
+ or
+may be made on an anonymous basis. Notice must be provided to all of the Company&rsquo;s employees with access to accounting
+payroll and financial information in respect of these procedures.
+
+Changes
+in Control
+
+As
+of the date of filing of this Report
+ the Company is unaware of any arrangement which may result in a change in control.
+
+Item
+12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters.
+
+The
+following table sets forth
+ as of April 1
+ 2013
+ the total number of shares owned beneficially by the Company&rsquo;s directors
+officers and key employees
+ and any person (including any group) who is known to the Company to be the beneficial owner of more
+than five percent of any class of the Company&rsquo;s voting securities. Except as otherwise indicated below
+ each person named
+has sole voting and investment power with respect to the shares indicated. The percentage of ownership set forth below reflects
+each holder&rsquo;s ownership interest in the 110
+002
+165 shares of the Company&rsquo;s common stock outstanding as of
+April 1
+ 2013.
+
+
+
+    
+Name
+        and Address of Beneficial
+        
+    
+    
+    
+    
+    
+    
+    
+    
+Total
+    (1)
+    
+    
+Percentage
+    of
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Five Percent
+    Stockholders
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Lara
+    Mac Inc.(2)
+    
+    
+6
+000
+000
+    
+    
+    
+    
+    
+    
+    
+
+000
+000
+    
+    
+    
+    
+    
+
+Executive Officers
+    and Directors
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+Mitchell Brown
+    Chief Executive Officer and Director (2)
+    
+    
+30
+100
+000
+    
+    
+    
+    
+    
+    
+    
+
+100
+
+    
+    
+    
+    
+    
+
+Alex J. Kaminski
+    Chief Financial Officer
+ Treasurer and Director
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+
+Steve Savage
+    Secretary and Director
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+100
+000
+    
+    
+    
+    
+    
+
+Scott Smith
+ Director
+    
+    
+100
+000
+    
+    
+    
+    
+    
+    
+    
+100
+000
+    
+    
+    
+    
+    
+
+All officers and
+    directors as group (4 persons)
+    
+    
+
+400
+
+    
+    
+    
+    
+    
+    
+    
+
+400
+
+    
+    
+    
+    
+    
+
+* Less than
+1%.
+
+The mailing
+address for each of the officers and directors is Cono Italiano
+ Inc.
+ 10 Main Street
+ Keyport
+ NJ 07735.
+
+(1) Includes
+options and warrants exercisable as of the date hereof or within 60 days hereafter. The Company is unaware of any pledges of any
+shares
+ options or warrants by any of the individuals or entities listed above. The Company intends to make option grants to certain
+officers and directors within the foreseeable future
+ however
+ no options or agreements pertaining to options have been granted
+or entered into by the Company or such officers and directors as of the date hereof.
+
+(2) Our
+Chief Executive Officer Mr. Mitchell Brown has sole voting power and sole power of disposition over all 6
+000
+000 shares
+of Company common owned by Lara Mac Inc. (in addition to 30
+100
+000 shares owned by Mr. Brown directly)
+ and as such
+all such shares are therefore deemed to be beneficially owned by Mr. Brown.
+
+
+    
+    
+
+
+Potential
+Changes in Control
+
+To
+the knowledge of management
+ there are no present arrangements or pledges of securities of the Company which may result in a change
+in control of the Company.
+
+Changes
+in Control
+
+On
+June 4
+ 2009
+ an Affiliate Stock Purchase Agreement (the &ldquo;Stock Purchase Agreement&rdquo;) was entered into by and between
+Gallant Energy International Inc. (&ldquo;Gallant&rdquo;)
+ the owner of 5
+000
+000 shares of the Company&rsquo;s common stock and
+Lara Mac Inc. (&ldquo;Lara Mac&rdquo;)
+ an entity controlled by Mitchell Brown (who is now the Chief Executive Officer of the
+Company and a member of the Company&rsquo;s Board of Directors). Pursuant to the Stock Purchase Agreement
+ Gallant sold all of
+its 5
+000
+000 shares of the Company&rsquo;s common stock to Lara Mac. The Gallant transaction with Lara Mac resulted in a change
+in control of the largest voting block of the Company effective as of June 4
+ 2009. The compensation which Gallant received from
+Lara Mac consisted of Lara Mac&rsquo;s agreement to assure the payment of certain obligations of the Company in the amount of
+$162
+139 which shall be paid by the Company in due course. The Company is not a party to the Stock Purchase Agreement. The address
+of Lara Mac is 10 Main Street
+ Keyport
+ NJ 07735.
+
+In
+addition
+ on June 22
+ 2009
+ the Company and Lara Mac entered into a Management Services Agreement. In exchange for the
+provision of services as set forth therein
+ Lara Mac received 9
+553
+377 shares of the Company&rsquo;s common stock. On
+November 6
+ 2009
+ as additional inducement to the shareholders of Cono Italiano (Delaware) to enter into the Share Exchange
+Agreements
+ Lara Mac Inc. agreed to the termination of the Management Services Agreement with Cono Italiano (Nevada) and
+cancellation of all Cono Italiano (Nevada) shares previously issued to Lara Mac under the Management Services Agreement
+(242
+557 shares of the Company&rsquo;s common stock as adjusted for the one-for-sixty reverse stock split).
+
+After
+giving effect to the Share Exchange
+ Mitchell Brown
+ both as an individual and through his control of Lara Mac
+ controls 36
+100
+000
+shares of the Company&rsquo;s common stock. These shares constitute 35.10% of the Company&rsquo;s issued and outstanding shares
+as of April 1
+ 2013.
+
+Adverse
+Interests
+
+The
+Company is not aware of any material proceeding to which any director
+ officer
+ or affiliate of the Company
+ or any owner of record
+or beneficially of more than five percent of any class of the Company&rsquo;s voting securities
+ or security holder is a party
+adverse to the Company or has a material interest adverse to the Company.
+
+Item
+13. Certain Relationships and Related Transactions
+ and Director Independence.
+
+Lara
+Mac Inc. Management Services Agreement
+
+On
+June 22
+ 2009
+ Lara Mac Inc.
+ an entity controlled by Mitchell Brown
+ our Chief Executive Officer and a member of our
+Board of Directors
+ entered into a Management Services Agreement with the Company (the &ldquo;Management
+Services Agreement&rdquo;). Pursuant to the Management Services Agreement
+ Lara Mac would render to the Company consulting
+and other advisory services in relation to developing strategic plans for inception of operations
+ corporate management
+ the
+operations of the Company
+ strategic planning
+ domestic and international marketing and sales
+ financial advice
+ including
+without limitation
+ advisory and consulting services in relation to the selection and retention of candidates for senior
+management of the Company and its subsidiaries
+ prospective strategic alliance partners
+ preparing acquisition growth plans
+identifying prospective merger and acquisition candidates
+ developing value propositions for the Company and acquisition
+candidates
+ analyzing financial implications of potential transactions
+ advising on negotiations regarding terms and
+conditions of transactions
+ outlining and managing due diligence issues and due diligence processes
+ introductions to
+prospective customers
+ selection of investment bankers or other financial advisors or consultants
+ and advice with respect to
+the capital structure of the Company
+ equity participation plans
+ employee benefit plans and other incentive arrangements for
+certain key executives of the Company (collectively
+ the &ldquo;Services&rdquo;). In exchange for the Services
+ Lara Mac
+shall receive 9
+553
+377 shares of the Company&rsquo;s common stock (the &ldquo;Fee&rdquo;). The value of the restricted
+shares of common stock constituting the Fee is deemed to be $0.044 per share
+ which is equivalent to fifty percent of the
+average closing trading price of the Company&rsquo;s common stock during the ninety day period of February 27
+ 2009
+ through
+May 27
+ 2009. Such time period is deemed to constitute an objective public capital market valuation of the Company&rsquo;s
+stock price
+ having an aggregate value of $410
+666 (the &ldquo;Issue Value&rdquo;). The parties to the Management Services
+Agreement also agreed that Lara Mac may render other services beyond the scope of activities which the parties contemplate as
+part of the Services
+ as to which Lara Mac shall be entitled to separate compensation that shall be negotiated in good faith
+by the parties on a case-by-case basis. In the event that the Company is not generating organic revenues (excluding interest
+and investment income) as of the first anniversary of the date of the Management Services Agreement
+ then all of the
+Shares constituting the Fee shall be subject to repurchase in the entirety by the Company at a repurchase price equal to the
+Issue Value. On November 6
+ 2009
+ as additional inducement to the shareholders of Cono Italiano (Delaware) to enter into the
+Share Exchange Agreements
+ Lara Mac Inc. agreed to the termination of the Management Services Agreement with Cono Italiano
+(Nevada) and cancellation of all Cono Italiano (Nevada) shares previously issued to Lara Mac under the Management Services
+Agreement (242
+557 shares of the Company&rsquo;s common stock as adjusted for the one-for-sixty reverse stock
+split).
+
+
+    
+    
+
+
+There
+have been no transactions
+ since the beginning of the Company&rsquo;s last fiscal year
+ and there are no currently proposed transactions
+in which the Company was or is to be a participant and the amount involved exceeds the lesser of $120
+000 or one percent of the
+average of the Company&rsquo;s total assets at fiscal year-end for the last three completed fiscal years
+ and in which any related
+person had or will have a direct or indirect material interest
+ except as set forth above.
+
+Mr.
+Scott Smith
+ who is the only current member of the Board of Directors who is independent under the standards for independence
+contained in the Nasdaq Marketplaces Rules
+ Rule 5605(a)(2)
+ has independently reviewed and assessed the fairness of the Management
+Services Agreement. Mr. Smith has determined that the terms and conditions of the Management Services Agreement are fair and reasonable
+to the Company and its shareholders and he has recommended that the Management Services Agreement be adopted and approved by the
+entire Board of Directors. Mr. Mitchell Brown
+ having an economic interest in the Management Services Agreement through his beneficial
+ownership of Lara Mac
+ recused himself from all deliberations and voting in regard to the Management Services Agreement.
+
+Edesia
+Emprise
+ LLC
+
+In
+July of 2008
+ the Company&rsquo;s Chief Executive Officer
+ Mitchell Brown and Ramona Fantini of Pino Gelato formed a manufacturing
+entity
+ Edesia Emprise
+ LLC
+ to produce and manufacturer the &ldquo;Cones&rdquo; used in the Company&rsquo;s products at a location
+in Indianapolis Indiana. Mitchell Brown transferred his ownership interests in Edesia Emprise
+ LLC to his father
+ Gene Brown
+later that month.
+
+On
+November 11
+ 2009
+ Cono Italiano (Delaware) and Edesia Emprise
+ LLC entered into a Master Manufacturing Agreement. Pursuant to
+this Master Manufacturing Agreement
+ Edesia Emprise
+ LLC will produce the Company&rsquo;s Pizza Cono product. Cono Italiano (Delaware)
+has agreed to pay Edesia Emprise
+ LLC the costs of production plus fifteen percent (15%). This Master Manufacturing Agreement
+has a five (5) year term and will automatically renew unless cancelled by one of the parties pursuant to its terms. This Master
+Manufacturing Agreement is exclusive within the United States. Under the Master Manufacturing Agreement
+ Edesia Emprise
+ LLC may
+engage qualified subcontractors throughout its territory for purposes of performing its obligations to the Company. On December
+8
+ 2009
+ the Company was advised that Edesia Emprise had entered into its first subcontract agreement with Sunrise Baking Acquisition
+Company
+ based in Brooklyn
+ New York. As of December 31
+ 2012 Edesia&rsquo;s contract with Sunrise was terminated as well as Edesia&rsquo;s
+Master Manufacturing Agreement with Cono Italiano.
+
+On
+November 12
+ 2009
+ the Company&rsquo;s Board of Directors ratified the Master Manufacturing Agreement entered into by and between
+Cono Italiano (Delaware) and Edesia Emprise
+ LLC. The Board has determined that the terms and conditions of this agreement are
+fair and reasonable to the Company and its shareholders. Mr. Mitchell Brown
+ whose father owns Edesia Emprise
+ LLC
+ recused himself
+from all deliberations and voting in regard to this agreement.
+
+
+    
+    
+
+
+DIRECTOR
+INDEPENDENCE
+
+Mr.
+Scott Smith is the only current member of the Board who may be deemed to be independent. The Company has adopted the standards
+for independence contained in the NASDAQ Marketplaces Rules
+ Rule 5605(a)(2).
+
+Item
+14. Principal Accountant Fees and Services.
+
+(a)
+Audit Fees
+
+The
+aggregate fees of EFP Rotenberg LLP for professional services rendered for the audit of the Company&rsquo;s annual financial
+statements for the years ended December 31
+ 2012 and 2011
+ totaled $26
+900 and $26
+560
+ respectively.
+
+(b)
+Audit-Related Fees
+
+The
+aggregate fees billed by EFP Rotenberg LLP for audit related services for the each of the years ended December 31
+ 2012 and 2011
+and which are not disclosed in &ldquo;Audit Fees&rdquo; above
+ were $-0-.
+
+(c)
+Tax Fees
+
+The
+aggregate fees billed by EFP Rotenberg LLP for tax compliance for each of the years ended December 31
+ 2012 and 2011
+ were $-0-.
+
+(d)
+All Other Fees
+
+The
+aggregate fees billed by EFP Rotenberg LLP for services other than those described above
+ for the years ended December 31
+ 2012
+and 2011
+ were $-0-.
+
+Audit
+Committee Pre-Approval Policies
+
+Our
+Board of Directors reviewed the audit and non-audit services rendered by EFP Rotenberg LLP during the periods set forth above
+and concluded that such services were compatible with maintaining the auditors&rsquo; independence. All audit and non-audit services
+performed by our independent accountants are pre-approved by our Board of Directors to assure that such services do not impair
+the auditors&rsquo; independence from us.
+
+PART
+IV
+
+Item
+15. Exhibits and Financial Statement Schedules.
+
+
+
+Exhibit
+    No.
+    
+Description
+    of Exhibits
+
+    
+    
+    
+
+    
+    
+Articles of Incorporation
+    incorporated by reference to Exhibit 3.1 to the Company&rsquo;s Registration Statement on Form SB-2
+ filed with the Securities
+    and Exchange Commission on December 17
+ 2004.
+
+    
+    
+    
+
+    
+    
+Bylaws
+ incorporated
+    by reference to Exhibit 3.2 to the Company&rsquo;s Registration Statement on Form SB-2
+ filed with the Securities and Exchange
+    Commission on December 17
+ 2004.
+
+    
+    
+    
+
+    
+    
+Certificate of
+    Amendment to the Articles of Incorporation
+ dated as of November 11
+ 2006
+ incorporated by reference to Exhibit 3.3 to the
+    Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 30
+ 2006.
+
+    
+    
+    
+
+    
+    
+Amendment to the
+    Company&rsquo;s Bylaws
+ incorporated by reference to Exhibit 3.4 to the Company&rsquo;s Report on Form 8-K
+ filed with the
+    Securities and Exchange Commission on July 17
+ 2007.
+
+    
+    
+    
+
+    
+    
+Certificate of
+    Amendment to the Articles of Incorporation
+ dated as of February 11
+ 2008
+ incorporated by reference to Exhibit 3.5 to the
+    Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Certificate of
+    Amendment to the Articles of Incorporation
+ dated as of July 31
+ 2009
+ incorporated by reference to Exhibit 3.6 to the Company&rsquo;s
+    Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Amendment to the
+    Company&rsquo;s Bylaws
+ incorporated by reference to Exhibit 3.7 to the Company&rsquo;s Report on Form 8-K
+ filed with the
+    Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Certificate of
+    Incorporation of Cono Italiano (Delaware) (formerly known as Janex International
+ Inc.)
+ incorporated by reference to Exhibit
+    3.8 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+
+
+    
+    
+
+
+
+
+    
+    
+Certificate of
+    Amendment of Certificate of Incorporation (Cono Italiano (Delaware))
+ incorporated by reference to Exhibit 3.9 to the Company&rsquo;s
+    Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Certificate of
+    Merger of Foreign Corporation into a Domestic Corporation (Cono Italiano (Delaware))
+ incorporated by reference to Exhibit
+    3.10 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Certificate of
+    Merger of Domestic Corporation and Foreign Limited Liability Company (Cono Italiano (Delaware))
+ incorporated by reference
+    to Exhibit 3.11 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+    2009.
+
+    
+    
+    
+
+    
+    
+Certificate of
+    Amendment of Certificate of Incorporation (Cono Italiano (Delaware))
+ incorporated by reference to Exhibit 3.12 to the Company&rsquo;s
+    Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+
+
+
+Exhibit
+    3.13
+    
+    
+Certificate
+    of Amendment of Certificate of Incorporation (Cono Italiano (Delaware))
+ incorporated by reference to Exhibit 3.13 to the
+    Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Certificate of
+    Correction (Cono Italiano (Delaware))
+ incorporated by reference to Exhibit 3.14 to the Company&rsquo;s Report on Form 8-K
+    filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Bylaws
+ as amended
+    incorporated by reference to Exhibit 3.15 to the Company&rsquo;s Registration Statement on Form S-1
+ filed with the Securities
+    and Exchange Commission on January 14
+ 2010.
+
+    
+    
+    
+    
+
+    
+    
+    
+Certificate of
+    Amendment of Certificate of Incorporation (Cono Italiano (Delaware))
+ incorporated by reference to Exhibit 3.1 to the Company&rsquo;s
+    Report on Form 8-K
+ filed with the Securities Exchange Commission on February 28
+ 2012.
+
+    
+    
+    
+    
+
+    
+    
+    
+Working Interest
+    Purchase and Sale Agreement
+ by and between the Company and Wellington Capital Management Inc.
+ dated as of January 29
+ 2009
+    incorporated by reference to Exhibit 10.29 to the Company&rsquo;s Report on Form 10-K
+ filed with the Securities and Exchange
+    Commission on May 18
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Assignment and
+    Assumption Agreement
+ by and between the Company and DT Crystal Holdings Limited
+ dated as of January 31
+ 2009
+ incorporated
+    by reference to Exhibit 10.30 to the Company&rsquo;s Report on Form 10-K
+ filed with the Securities and Exchange Commission
+    on May 18
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Convertible Note
+    Agreement
+ by and between the Company and Wellington Capital Management Inc.
+ dated as of February 2
+ 2009
+ incorporated by
+    reference to Exhibit 10.31 to the Company&rsquo;s Report on Form 10-K
+ filed with the Securities and Exchange Commission on
+    May 18
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Termination of
+    Working Interest Purchase and Sale Agreement
+ by and between the Company and Wellington Capital Management Inc.
+ dated as
+    of April 28
+ 2009
+ incorporated by reference to Exhibit 10.1 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities
+    and Exchange Commission on May 5
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Termination and
+    Discharge of Convertible Note Agreement
+ by and between the Company and Wellington Capital Management Inc.
+ dated as of April
+    28
+ 2009
+ incorporated by reference to Exhibit 10.2 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and
+    Exchange Commission on May 5
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Mutual Release
+    by and between the Company and Wellington Capital Management Inc.
+ incorporated by reference to Exhibit 10.3 to the Company&rsquo;s
+    Report on Form 8-K
+ filed with the Securities and Exchange Commission on May 5
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Letter of Intent
+    by and between the Company and Financial Media Net
+ Inc.
+ dated as of March 25
+ 2009
+ incorporated by reference to Exhibit
+    99.1 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on March 26
+ 2009.
+
+    
+    
+    
+    
+
+    
+    
+    
+Affiliate Stock
+    Purchase Agreement
+ dated June 4
+ 2009
+ between Gallant Energy International Inc. and Lara Mac Inc.
+ incorporated by reference
+    to Exhibit 99.1 to Lara Mac Inc.&rsquo;s Schedule 13D
+ filed with the Securities and Exchange Commission on June 15
+ 2009.
+
+
+
+    
+    
+
+
+
+
+Exhibit
+    10.37
+    
+Management
+    Services Agreement
+ by and between the Company and Lara Mac Inc.
+ dated as of June 22
+ 2009
+ incorporated by reference to
+    Exhibit 10.37 to the Company&rsquo;s Report on Form 10-Q
+ filed with the Securities and Exchange Commission on September 14
+    2009.
+
+    
+    
+    
+
+    
+    
+Agreement
+    by and between Kono Italia S.r.l &amp; Spuntibreak S.r.l. DBA Pizza Hands and Cono Italiano LLC
+ dated as of March 2
+ 2006
+    incorporated by reference to Exhibit 10.38 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange
+    Commission on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Distribution
+    Agreement
+ by and between Cono Italiano
+ Inc. and Pino Gelato
+ Inc.
+ dated as of July 9
+ 2008
+ incorporated by reference to
+    Exhibit 10.39 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+    2009.
+
+    
+    
+    
+
+    
+    
+Amendment
+    to Distribution Agreement
+ by and between Cono Italiano
+ Inc. and Pino Gelato
+ Inc.
+ dated as of July 9
+ 2008
+ incorporated
+    by reference to Exhibit 10.40 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission
+    on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Employment
+    Agreement
+ by and between Cono Italiano (Delaware) and Mitchell Brown
+ dated as of August 1
+ 2008
+ incorporated by reference
+    to Exhibit 10.41 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November
+    13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Employment
+    Agreement
+ by and between Cono Italiano (Delaware) and Steve Savage
+ dated as of August 1
+ 2008
+ incorporated by reference
+    to Exhibit 10.42 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November
+    13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Employment
+    Agreement
+ by and between Cono Italiano (Delaware) and Joseph Masselli
+ dated as of August 1
+ 2008
+ incorporated by reference
+    to Exhibit 10.43 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November
+    13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Annulment
+    Agreement
+ by and between Cono Italiano (Delaware) and Mitchell Brown
+ dated as of August 11
+ 2009
+ incorporated by reference
+    to Exhibit 10.44 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November
+    13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Annulment
+    Agreement
+ by and between Cono Italiano (Delaware) and Steve Savage
+ dated as of August 11
+ 2009
+ incorporated by reference
+    to Exhibit 10.43 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November
+    13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Annulment
+    Agreement
+ by and between Cono Italiano (Delaware) and Joseph Masselli
+ dated as of August 11
+ 2009
+ incorporated by reference
+    to Exhibit 10.44 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November
+    13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Settlement
+    Agreement and Mutual Release
+ by and between Dough Bros.
+ Inc.
+ John Allen
+ Drew Allen
+ Matt Allen
+ Edesia Emprise
+ LLC
+ Cono
+    Italiano
+ Inc.
+ Mitchell Brown
+ John Jacobs and Ramona Fantini
+ dated as of October 22
+ 2009
+ incorporated by reference to
+    Exhibit 10.47 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+    2009.
+
+    
+    
+    
+
+    
+    
+Commitment
+    Agreement
+ by and between Cono Italiano (Delaware) and Lara Mac Inc.
+ dated as of November 9
+ 2009
+ incorporated by reference
+    to Exhibit 10.48 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on November
+    13
+ 2009.
+
+
+
+
+Exhibit
+    10.49
+    
+Master
+    Manufacturing Agreement
+ by and between Cono Italiano (Delaware) and Edesia Emprise
+ LLC
+ dated as of November 11
+ 2009
+ incorporated
+    by reference to Exhibit 10.49 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission
+    on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Form
+    of Share Exchange Agreement
+ by and between the Company and the shareholders of Cono Italiano (Delaware)
+ incorporated by
+    reference to Exhibit 10.50 to the Company&rsquo;s Report on Form 8-K
+ filed with the Securities and Exchange Commission on
+    November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Amendment
+    to the Management Services Agreement
+ by and between Lara Mac Inc.
+ Cono Italiano
+ Inc. (a Nevada corporation) and Cono Italiano
+    Inc. (a Delaware corporation)
+ dated as of November 6
+ 2009
+ incorporated by reference to Exhibit 10.51 to the Company&rsquo;s
+    Report on Form 8-K
+ filed with the Securities and Exchange Commission on November 13
+ 2009.
+
+    
+    
+    
+
+    
+    
+Employment
+    Agreement
+ by and between the Company and Mitchell Brown
+ dated as of December 30
+ 2009
+ incorporated by reference to Exhibit
+    10.52 to the Company&rsquo;s Registration Statement on Form S-1
+ filed with the Securities and Exchange Commission on January
+    14
+ 2010.
+
+    
+    
+    
+
+    
+    
+Employment
+    Agreement
+ by and between the Company and Joseph Masselli
+ dated as of December 30
+ 2009
+ incorporated by reference to Exhibit
+    10.53 to the Company&rsquo;s Registration Statement on Form S-1
+ filed with the Securities and Exchange Commission on January
+    14
+ 2010.
+
+
+
+    
+    
+
+
+
+
+    
+    
+Employment
+    Agreement
+ by and between the Company and Alex Kaminski
+ dated as of December 30
+ 2009
+ incorporated by reference to Exhibit
+    10.54 to the Company&rsquo;s Registration Statement on Form S-1
+ filed with the Securities and Exchange Commission on January
+    14
+ 2010.
+
+    
+    
+    
+
+    
+    
+Employment
+    Agreement
+ by and between the Company and Steve Savage
+ dated as of December 30
+ 2009
+ incorporated by reference to Exhibit
+    10.55 to the Company&rsquo;s Registration Statement on Form S-1
+ filed with the Securities and Exchange Commission on January
+    14
+ 2010.
+
+    
+    
+    
+
+    
+    
+Convertible
+    Promissory Note issued by Cono Italiano (Delaware) on December 28
+ 2007
+ incorporated by reference to Exhibit 10.56 to the
+    Company&rsquo;s Registration Statement on Form S-1
+ filed with the Securities and Exchange Commission on January 14
+ 2010.
+
+    
+    
+    
+
+    
+    
+Convertible
+    Promissory Note re-issued by Cono Italiano (Delaware) on January 31
+ 2008
+ incorporated by reference to Exhibit 10.57 to the
+    Company&rsquo;s Registration Statement on Form S-1
+ filed with the Securities and Exchange Commission on January 14
+ 2010.
+
+    
+    
+    
+
+    
+    
+Amendment
+    to Convertible Promissory Note
+ dated as of October 22
+ 2009
+ incorporated by reference to Exhibit 10.58 to the Company&rsquo;s
+    Registration Statement on Form S-1
+ filed with the Securities and Exchange Commission on January 14
+ 2010.
+
+    
+    
+    
+
+    
+    
+Manufacturing
+    Agreement
+ by and between Interstate Caterers and the Company
+ dated as of August 2010
+ incorporated by reference to Exhibit
+    10.59 to the Company&rsquo;s Report on Form 10-Q
+ filed with the Securities and Exchange Commission on November 15
+ 2010.
+
+    
+    
+    
+
+    
+    
+Consulting
+    Agreement
+ by and between the Dettman Group
+ LLC and the Company
+ dated as of September 15
+ 2010
+ incorporated by reference
+    to Exhibit 10.59 to the Company&rsquo;s Report on Form 10-Q
+ filed with the Securities and Exchange Commission on November
+    15
+ 2010.
+
+    
+    
+    
+
+    
+    
+Manufacturing
+    Agreement by and between the Company and Interstate Caterers
+ dated as of September 7
+ 2011.
+
+
+
+
+Exhibit
+    10.62
+    
+Security
+    Agreement by and between the Company and TCA Global Credit Master Fund
+ LP dated as of February 27
+ 2012.
+
+    
+    
+    
+
+    
+    
+Convertible
+    Promissory Note by and between the Company and TCA Global Credit Master Fund
+ LP dated as of February 27
+ 2012.
+
+    
+    
+    
+
+    
+    
+Committed
+    Equity Facility Agreement by and between the Company and TCA Global Master Credit Fund
+ LP dated as of February 27
+ 2012.
+
+    
+    
+    
+
+    
+    
+Registration
+    Rights Agreement by and between the Company and TCA Global Master Credit Fund
+ LP dated as of February 27
+ 2012.
+
+    
+    
+    
+
+    
+    
+Audit
+    Committee Charter
+ incorporated by reference to Exhibit 14.3 to the Company&rsquo;s Report on Form 10-QSB
+ filed with the
+    Securities and Exchange Commission on October 23
+ 2006.
+
+    
+    
+    
+
+    
+    
+Whistleblower
+    Procedures Policy
+ incorporated by reference to Exhibit 14.4 to the Company&rsquo;s Report on Form 10-QSB
+ filed with the
+    Securities and Exchange Commission on October 23
+ 2006.
+
+    
+    
+    
+
+    
+    
+Governance
+    Charter
+ incorporated by reference to Exhibit 14.5 to the Company&rsquo;s Report on Form 10-QSB
+ filed with the Securities
+    and Exchange Commission on October 23
+ 2006.
+
+    
+    
+    
+
+    
+    
+Compensation
+    Charter
+ incorporated by reference to Exhibit 14.6 to the Company&rsquo;s Report on Form 10-QSB
+ filed with the Securities
+    and Exchange Commission on October 23
+ 2006.
+
+    
+    
+    
+
+    
+    
+List
+    of Subsidiaries.
+
+
+
+
+
+    
+    
+Certificate
+    of the Chief Executive Officer&nbsp;pursuant Section 302 of the Sarbanes-Oxley Act of 2002*
+
+    
+    
+    
+
+    
+    
+Certificate
+    of Chief Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002*
+
+    
+    
+    
+
+32
+    .1
+    
+Certificate
+of the Chief Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002*
+
+    
+    
+    
+
+32
+    .2
+    
+Certificate
+of the Chief Financial Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+
+
+
+
+    
+    
+
+
+
+
+Pursuant
+to the requirements of Section 13 or 15(d) of the Securities Exchange Act
+ the registrant has duly caused this report to be signed
+on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+    
+CONO ITALIANO
+ INC.
+
+
+    
+    
+    
+
+
+Date: April 16
+    2013
+    
+/s/
+    Mitchell Brown
+
+
+    
+    
+Name: /s/ Mitchell
+    Brown
+
+
+    
+    
+Title: Chief Executive
+    Officer
+
+
+    
+    
+(Principal Executive
+    Officer)
+
+
+
+
+
+Date:
+    April 16
+ 2013
+    
+/s/
+    Alex J. Kaminski
+
+
+    
+    
+Name: /s/ Alex
+    J. Kaminski
+
+
+    
+    
+Title: Chief Financial
+    Officer
+
+
+    
+    
+(Principal Financial
+    Officer)
+
+
+    
+    
+    
+    
+(Principal Accounting
+    Officer)
+
+
+
+PURSUANT
+TO THE REQUIREMENTS OF THE SECURITIES EXCHANGE ACT OF 1934
+ AS AMENDED
+ THIS REPORT HAS BEEN SIGNED BY OR ON BEHALF OF THE FOLLOWING
+PERSONS IN THE CAPACITIES AND ON THE DATES INDICATED:
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+/s/
+    Mitchell Brown
+    
+Chief Executive
+    Officer (Principal Executive Officer)
+
+    
+April 16
+    2013
+
+    
+    
+    
+    
+    
+
+Alex
+    J. Kaminski
+    
+Chief Financial
+    Officer (Principal Financial Officer)
+    
+April 16
+    2013
+
+    
+    
+(Principal Accounting
+    Officer)
+ Treasurer
+ Director
+    
+    
+
+/s/
+    Steve Savage
+    
+Secretary
+ Director
+    
+April 16
+    2013
+
+    
+    
+    
+    
+    
+
+/s/
+    Scott Smith
+    
+    
+    
+April 16
+    2013
+
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+FINANCIAL
+    REPORTS
+
+    
+
+December
+    31
+ 2012 
+
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOMENT STAGE COMPANY)
+(A
+NEVADA Corporation)
+Keyport
+New Jersey
+
+
+
+TABLE
+    OF CONTENTS
+    
+    
+
+    
+    
+    
+
+Consolidated Balance Sheets at December 31
+ 2012 and 2011
+    
+    
+
+    
+    
+    
+
+Consolidated Statements of Changes in Stockholders&rsquo; Deficit for the Period from Date of Inception (March 2
+ 2006) Through December 31
+ 2012
+    
+    
+
+    
+    
+    
+
+Consolidated Statements of Operations for the Years Ended December 31
+ 2012 and 2011 and the Period from Inception (March 2
+ 2006) Through December 31
+ 2012
+    
+    
+
+    
+    
+    
+
+Consolidated Statements of Cash Flows for the Years Ended December 31
+ 2012 and 2011 and the Period from Inception (March 2
+ 2006) Through December 31
+ 2012
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+    
+    
+
+
+
+
+REPORT
+OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+
+To
+the Board of Directors and
+Stockholders
+of Cono Italiano
+ Inc.
+
+We
+have audited the accompanying consolidated balance sheets of Cono Italiano
+ Inc. as of December 31
+ 2012 and 2011
+ and the
+related consolidated statements of operations
+ changes in stockholders&rsquo; deficit
+ and cash flows for each of the years
+in the two-year period ended December 31
+ 2012 and for the period since inception (March 2
+ 2006) through December 31
+ 2012.
+Cono Italiano
+ Inc.&rsquo;s management is responsible for these consolidated financial statements. Our responsibility is to
+express an opinion on these consolidated financial statements based on our audits.
+
+We
+conducted our audits in accordance with the standards of the Public Company Accounting Oversight Board (United States). Those
+standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are
+free of material misstatement. The company is not required to have
+ nor were we engaged to perform
+ an audit of its internal control
+over financial reporting. Our audit included consideration of internal control over financial reporting as a basis for designing
+audit procedures that are appropriate in the circumstances
+ but not for the purpose of expressing an opinion on the effectiveness
+of the company&rsquo;s internal control over financial reporting. Accordingly
+ we express no such opinion. An audit also includes
+examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements
+ assessing the accounting
+principles used and significant estimates made by management
+ as well as evaluating the overall financial statement presentation.
+We believe that our audits provide a reasonable basis for our opinion.
+
+In
+our opinion
+ the consolidated financial statements referred to above present fairly
+ in all material respects
+ the financial position
+of Cono Italiano
+ Inc. as of December 31
+ 2012 and 2011
+ and the results of its operations and its cash flows for each of the
+years in the two-year period ended December 31
+ 2012 and for the period since inception (March 2
+ 2006) through December 31
+ 2012
+in conformity with accounting principles generally accepted in the United States of America.
+
+The
+accompanying consolidated financial statements have been prepared assuming that the Company will continue as a going concern.
+As discussed in Note H to the consolidated financial statements. These conditions raise substantial doubt about its ability to
+continue as a going concern. Management&rsquo;s plans in regard to these matters are also described in Note H. The consolidated financial
+statements do not include any adjustments relating to the recoverability and classification of asset carrying amounts or the amount
+and classification of liabilities that might result should the Company be unable to continue as a going concern.
+
+
+
+/s/
+    EFP Rotenberg
+ LLP
+    
+
+
+EFP Rotenberg
+LLP
+Rochester
+New York
+April
+16
+ 2013
+
+
+    
+    
+
+
+
+
+CONO ITALIANO
+ INC.
+
+    
+
+    
+
+Keyport
+ New Jersey
+
+
+
+
+    
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+30
+562
+    
+
+
+ Net of Allowance for Doubtful Accounts
+2
+465
+    
+
+    
+16
+937
+11
+937
+
+    
+66
+000
+21
+000
+
+    
+84
+591
+    
+
+    
+6
+521
+    
+
+    
+    
+    
+
+    
+207
+076
+32
+937
+
+    
+    
+    
+
+    
+167
+537
+148
+087
+
+    
+    
+    
+
+    
+374
+613
+181
+024
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+3
+348
+
+    
+135
+508
+135
+508
+
+    
+126
+206
+54
+713
+
+    
+199
+269
+187
+525
+
+    
+59
+834
+52
+746
+
+    
+225
+000
+    
+
+    
+67
+228
+60
+905
+
+
+ Net
+247
+807
+    
+
+    
+767
+317
+724
+975
+
+    
+    
+    
+
+    
+1
+828
+169
+1
+219
+720
+
+    
+    
+    
+
+    
+    
+    
+
+
+000
+000 Shares Authorized
+ 107
+233
+087
+    and 99
+234
+988 Shares Issued and Outstanding
+107
+233
+99
+235
+
+    
+    
+    
+
+    
+1
+406
+125
+1
+131
+939
+
+    
+(2
+966
+914
+(2
+270
+396
+
+    
+    
+    
+
+    
+(1
+453
+556
+(1
+038
+696
+
+    
+    
+    
+
+    
+374
+613
+181
+024
+
+
+
+statements.
+
+
+    
+    
+
+
+
+
+CONO ITALIANO
+ INC.
+
+    
+
+    
+
+Keyport
+ New Jersey
+
+
+
+
+CONSOLIDATED STATEMENTS OF CHANGES IN DEFICIT FOR THE PERIOD FROM DATE OF INCEPTION (MARCH 2
+ 2006) THROUGH DECEMBER 31
+ 2012
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2006
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    Rights and Equipment
+6
+000
+000
+6
+000
+    
+159
+000
+    
+165
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2006
+6
+000
+000
+6
+000
+    
+159
+000
+    
+165
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+(50
+290
+(50
+290
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2007
+6
+000
+000
+6
+000
+    
+159
+000
+(50
+290
+114
+710
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+(312
+000
+    
+(312
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+3
+000
+000
+3
+000
+    
+54
+000
+    
+57
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+44
+250
+000
+44
+250
+    
+434
+494
+    
+478
+744
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+(929
+795
+(929
+795
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2008
+53
+250
+000
+53
+250
+    
+335
+494
+(980
+085
+(591
+341
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+7
+616
+428
+7
+616
+    
+178
+777
+    
+186
+393
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+262
+000
+    
+    
+64
+608
+    
+64
+870
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+500
+000
+    
+    
+69
+500
+    
+70
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+242
+560
+    
+    
+(272
+946
+    
+(272
+703
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+10
+000
+    
+    
+3
+490
+    
+3
+500
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+18
+000
+000
+18
+000
+    
+    
+    
+18
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+(437
+325
+(437
+325
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2009
+79
+880
+988
+79
+881
+    
+378
+923
+(1
+417
+410
+(958
+606
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+2
+000
+000
+2
+000
+    
+182
+547
+    
+184
+547
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+10
+000
+000
+10
+000
+    
+83
+880
+    
+93
+880
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+125
+000
+    
+    
+75
+691
+    
+75
+816
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+(348
+521
+(348
+521
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2010
+92
+005
+988
+92
+006
+    
+721
+041
+(1
+765
+931
+(952
+884
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+3
+184
+000
+3
+184
+    
+90
+336
+    
+93
+520
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+3
+325
+000
+3
+325
+    
+152
+924
+    
+156
+249
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+(3
+280
+000
+(3
+280
+    
+(27
+836
+    
+(31
+116
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ Net of Cash Proceeds Received
+4
+000
+000
+4
+000
+    
+195
+474
+    
+200
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+(504
+465
+(504
+465
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2011
+99
+234
+988
+99
+235
+    
+1
+131
+939
+(2
+270
+396
+(1
+038
+696
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+2
+000
+000
+2
+000
+    
+73
+000
+    
+75
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+4
+100
+000
+4
+100
+    
+136
+900
+    
+141
+000
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+998
+099
+    
+    
+51
+502
+    
+52
+500
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+900
+000
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+13
+158
+    
+13
+158
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+(696
+518
+(696
+518
+
+    
+    
+    
+    
+    
+    
+    
+
+
+ 2012
+107
+233
+087
+107
+233
+    
+1
+406
+125
+(2
+966
+914
+(1
+453
+556
+
+
+
+statements.
+
+
+    
+    
+
+
+
+
+CONO ITALIANO
+ INC.
+
+    
+
+    
+
+Keyport
+ New Jersey
+
+
+
+
+    
+
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+ 2006)
+
+    
+    
+    
+    
+
+
+
+    
+    
+
+&nbsp;2012
+
+    
+    
+    
+    
+
+    
+122
+985
+    
+156
+979
+
+    
+    
+    
+    
+
+    
+117
+913
+    
+127
+036
+
+    
+    
+    
+    
+
+    
+5
+072
+    
+29
+943
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+160
+727
+166
+610
+512
+207
+
+    
+225
+000
+    
+645
+005
+
+    
+199
+327
+314
+445
+1
+417
+371
+
+    
+63
+795
+8
+665
+174
+019
+
+    
+50
+005
+14
+745
+118
+214
+
+    
+    
+    
+130
+505
+
+    
+2
+736
+    
+    
+
+    
+    
+    
+    
+
+    
+701
+590
+504
+465
+2
+996
+857
+
+    
+    
+    
+    
+
+    
+(696
+518
+(504
+465
+(2
+966
+914
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+102
+602
+287
+94
+626
+385
+56
+934
+407
+
+
+
+statements.
+
+
+    
+    
+
+
+
+
+CONO ITALIANO
+ INC.
+
+    
+
+    
+
+Keyport
+ New Jersey
+
+
+
+
+    
+
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+&nbsp;2006)
+
+    
+    
+    
+    
+
+
+
+    
+    
+
+&nbsp;2012
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+(696
+518
+(504
+465
+(2
+966
+914
+
+    
+    
+    
+    
+
+
+    Flows from Operating Activities:
+    
+    
+    
+
+    
+32
+604
+    
+52
+098
+
+    
+10
+963
+    
+10
+963
+
+    
+2
+440
+    
+2
+440
+
+    
+63
+795
+8
+665
+110
+224
+
+    
+141
+000
+147
+850
+941
+823
+
+    
+    
+93
+520
+350
+520
+
+    
+    
+    
+(3
+200
+
+    
+    
+    
+130
+505
+
+    
+2
+736
+    
+2
+736
+
+    
+    
+36
+000
+36
+000
+
+    
+    
+    
+    
+
+    
+(4
+905
+    
+(4
+905
+
+    
+(45
+000
+40
+510
+(18
+672
+
+    
+    
+    
+(24
+458
+
+    
+14
+402
+1
+247
+69
+115
+
+    
+225
+000
+    
+225
+000
+
+    
+11
+744
+5
+482
+137
+105
+
+    
+38
+413
+14
+745
+106
+623
+
+    
+    
+    
+75
+818
+
+    
+    
+    
+    
+
+    
+(203
+326
+(156
+446
+(767
+179
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+5
+000
+
+    
+    
+    
+    
+
+    
+(85
+981
+(144
+517
+(267
+300
+
+    
+    
+    
+    
+
+    
+(85
+981
+(144
+517
+(261
+384
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+(3
+348
+3
+348
+    
+
+    
+27
+698
+    
+27
+698
+
+    
+(27
+698
+    
+(27
+698
+
+    
+250
+000
+    
+250
+000
+
+    
+(34
+125
+    
+(34
+125
+
+    
+75
+000
+200
+000
+339
+870
+
+    
+(10
+000
+67
+000
+48
+063
+
+    
+42
+342
+29
+950
+455
+317
+
+    
+    
+    
+    
+
+    
+319
+869
+300
+298
+1
+059
+125
+
+    
+    
+    
+    
+
+    
+30
+562
+    
+30
+562
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+30
+562
+    
+30
+562
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+210
+132
+
+    
+    
+    
+47
+988
+
+    
+    
+    
+312
+000
+
+    
+5
+000
+    
+5
+000
+
+    
+    
+    
+105
+828
+
+    
+    
+    
+3
+500
+
+    
+    
+    
+202
+547
+
+    
+    
+    
+70
+000
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+
+
+statements.
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+    
+
+
+
+The
+Company
+
+
+Merger
+and Recapitalization
+
+The
+Company was incorporated in the State of Nevada on September 9
+ 2004
+ as Arch Management Services Inc. A change of control of
+the Company occurred on June 5
+ 2006 and the Company changed its name from &ldquo;Arch Management Services Inc.&rdquo; to &ldquo;Tiger
+Ethanol International Inc.&rdquo; on November 24
+ 2006. On February 11
+ 2008 the Company changed its name to &ldquo;Tiger Renewable
+Energy Ltd.&rdquo; Another change of control of the Company occurred on June 4
+ 2009. On August 10
+ 2009 the Company changed its
+name to &ldquo;Cono Italiano
+ Inc.&rdquo; and its symbol changed to CNOZ.
+
+The
+Company was previously party to a joint venture named Xinjiang Yajia Distillate Company Limited (the &ldquo;Venture&rdquo;) to
+produce ethanol in the People&rsquo;s Republic of China. The Company&rsquo;s board of directors determined that it was in the
+Company&rsquo;s best interest to initiate a withdrawal from the ethanol business as of January 31
+ 2009 and assess alternative
+businesses.
+
+On
+June 4
+ 2009 an Affiliate Stock Purchase Agreement (the &ldquo;Stock Purchase Agreement&rdquo;) was entered into by and between
+Gallant Energy International Inc. (&ldquo;Gallant&rdquo;)
+ the owner of 5
+000
+000 shares of the Company&rsquo;s common stock (prior
+to the Company&rsquo;s one for sixty reverse stock split) and Lara Mac Inc. (&ldquo;Lara Mac&rdquo;)
+ an entity controlled by
+Mitchell Brown (now the Chief Executive Officer of the Company and a member of the Company&rsquo;s Board of Directors). Pursuant
+to the Stock Purchase Agreement
+ Gallant sold all of its 5
+000
+000 shares of the Company&rsquo;s common stock to Lara Mac. The
+Gallant transaction with Lara Mac resulted in a change in control of the largest voting block of the Company effective as of June
+4
+ 2009.
+
+Under
+the terms of the Stock Purchase Agreement
+ the Board appointed five individuals to fill vacancies on the Board. These new directors
+commenced their service on June 19
+ 2009. The Board also appointed four new officers of the Company.
+
+On
+August 10
+ 2009
+ the Company conducted a one for sixty reverse stock split. As of that date
+ all of the existing outstanding common
+stock of the Company have been consolidated such that existing stockholders will hold one share of post-split common stock for
+every sixty shares owned prior to the reverse split. All fractional shares resulting from the reverse stock split have been rounded
+up to the next whole share.
+
+Janex
+International Inc. was formed on July&nbsp;6
+&nbsp;2007
+ in the State of Delaware. On January 8
+ 2008 Janex International Inc.
+changed its name to Cono Italiano
+ Inc (Delaware).
+
+Cono
+Italiano
+ LLC (Cono
+ LLC) was formed on June 27
+ 2007 as a limited liability company in the State of New Jersey. Cono
+ LLC had
+no operations and its primary assets were the license rights to manufacture
+ market
+ and distribute &ldquo;pizza cono&rdquo;
+a unique pizza style food product.
+
+-
+continued -
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+The
+Company &ndash; continued
+
+
+Merger
+and Recapitalization
+
+In
+March 2007
+ the license rights held by the individual founders of Cono
+ LLC were sold to The Total Luxury Group (TLG)
+ an unrelated
+entity. On January 8
+ 2008 the license rights were transferred to Mitchell Brown for the total consideration of $312
+000. The
+transfer of Cono
+ LLC (which includes the license rights) was effected in settlement of an obligation due to Mitchell Brown by
+TLG.
+
+On
+January 14
+ 2008
+ Cono
+ LLC was sold to Cono
+ Inc. (Delaware) for the total consideration of $426
+000. In exchange for the 100%
+interest in Cono
+ LLC
+ the sole member of the LLC received 6
+000
+000 shares of Cono
+ Inc. (Delaware) valued at $114
+000 and was
+issued a promissory note for $312
+000. Mitchell Brown is also a principal stockholder in Cono
+ Inc. (Delaware).
+
+The
+transaction was accounted for as a recapitalization of Cono
+ Inc. and Cono
+ LLC; as both companies were under common control.
+As such
+ the assets and liabilities of Cono
+ LLC were carried over to Cono
+ Inc. (Delaware) at the historical carrying values.
+
+At
+the time of the sale of Cono
+ LLC to Cono
+ Inc. (Delaware)
+ Cono LLC had a tangible net book value of $114
+700. Since the assets
+and liabilities of Cono
+ LLC were recorded at their historical carrying amounts after the merger and recapitalization
+ the excess
+of the consideration paid of $426
+000 over the carrying value of $114
+700 had been recorded as a distribution to the stockholder.
+
+On
+November 12
+ 2009 Cono Inc. (Delaware) entered into a share exchange agreement whereby Cono Inc. (Delaware) would exchange all
+of its common stock for the stock of Tiger Renewable Energy
+ Inc. (TRE) (a shell company) on a share for share basis. Prior to
+entering into the share exchange agreement
+ the principal stockholder of Cono Inc. (Delaware) became a stockholder of TRE
+ either
+through direct ownership or through an entity in which he controlled
+ effectively gaining control of TRE
+ and on August 10
+ 2009
+TRE changed its name to Cono Italiano
+ Inc.
+ a Nevada corporation. As an inducement for Cono (Delaware) to enter the share exchange
+agreement
+ TRE&rsquo;s largest shareholder has agreed to the cancellation of 242
+557 shares of Cono (Nevada) stock.
+
+The
+exchange of shares between Cono Italiano
+ Inc.
+ (Delaware) and Cono Italiano
+ Inc.
+ (Nevada) was accounted for as a recapitalization
+of the Companies
+ as the majority stockholder of Cono Italiano
+ Inc. will be the majority stockholder of the surviving company.
+Pursuant to the accounting for a recapitalization
+ the historical carrying value of the assets and liabilities of Cono
+ Inc. (Nevada)
+will carry over to the surviving company.
+
+Effective
+at the closing of the share exchange transactions
+ November 12
+ 2009
+ Cono (Delaware) became a wholly owned subsidiary of Cono
+(Nevada).
+
+On
+December 13
+ 2011 the Board of Directors approved increasing the authorized shares of common stock from 100
+000
+000 to 150
+000
+000.
+
+
+
+
+
+
+    
+    
+
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+The
+Company &ndash; continued
+
+
+Scope
+of Business
+
+The
+Company is licensed to distribute an innovative food product - a cone-shaped pizza called &ldquo;Pizza Cono.&rdquo; The product
+will be distributed into fast food market establishments which include typical fast food chains
+ supermarkets
+ convenience stores
+entertainment facilities
+ and sports arenas. The Company&rsquo;s focus will be the sale and management of licensing and distribution
+agreements with customers.
+
+
+Summary of Significant Accounting
+Policies
+
+
+Principles
+of Consolidation
+
+The
+consolidated financial statements include the accounts of Cono Italiano
+ Inc. (Nevada) and its wholly owned subsidiary
+ Cono Italiano
+Inc. (Delaware) (the &ldquo;Company&rdquo;). All significant intercompany balances have been eliminated in consolidation.
+
+Method
+of Accounting
+
+The
+Company maintains its books and prepares its financial statements on the accrual basis of accounting.
+
+Development
+Stage
+
+The
+Company has operated as a development stage enterprise since its inception by devoting substantially all of its efforts to financial
+planning
+ raising capital
+ research and development
+ and developing markets for its services. The Company prepares its financial
+statements in accordance with the requirements of FASB ASC 915
+ &ldquo;Development Stage Entities.&rdquo;
+
+Cash
+and Cash Equivalents
+
+Cash
+and cash equivalents include time deposits
+ certificates of deposit
+ and all highly liquid debt instruments with original maturities
+of three months or less. The Company maintains cash and cash equivalents at financial institutions
+ which periodically may exceed
+federally insured amounts.
+
+Property
+Equipment and Depreciation
+
+Property
+and equipment are reflected at cost of acquisition and are depreciated on various methods utilizing the following estimated lives:
+
+
+
+Machinery
+    and Equipment
+    
+5
+    Years
+
+Office
+    Equipment
+    
+5
+    Years
+
+
+Maintenance
+and repairs are expensed as incurred. The cost of property and equipment retired or otherwise disposed of and the related accumulated
+depreciation are removed from the accounts and reflected as other income or expense.
+
+Accounts
+Receivable
+
+Accounts
+receivable are uncollateralized customer obligations due under normal trade terms requiring payment within 30 days from the invoice
+date. Customer accounts over 90 days old are considered delinquent. The carrying amount of accounts receivable are reduced by
+an allowance for doubtful accounts that reflects our Company&rsquo;s best estimate of the amounts that will not be collected.
+
+
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+&nbsp;Summary
+of Significant Accounting Policies &ndash; continued
+
+
+Accounts
+Receivable - continued
+
+The
+Company reviews outstanding accounts and based on an assessment of current creditworthiness
+ estimates the portion
+ if any
+ of
+the balance that will not be collected. The Company provides for probable uncollectible amounts through a charge to earnings and
+a credit to a valuation allowance based on its assessment of the current status of the individual accounts. Balances that are
+still outstanding after reasonable collection efforts are written off through a charge to the valuation allowance and a credit
+to accounts receivable. The Company has assessed accounts receivable and determined that a reserve is necessary and at December
+31
+ 2012 and 2011
+ the allowance for doubtful accounts was $2
+440 and $-0-
+ respectively.
+
+Revenue
+Recognition
+
+The
+Company recognizes revenue when title
+ ownership and risk of loss pass to the customer. Transfer of title occurs and risk of ownership
+generally passes to a customer at the time of shipment or delivery
+ depending on the terms of the agreement with a particular
+customer. The sale price of the Company&rsquo;s products is substantially fixed or determinable at the date of sale based on purchase
+orders generated by a customer and accepted by the Company. A customer is obligated to pay for products sold to it within a specified
+number of days from the date that title to the products is transferred to the customer. The Company&rsquo;s standard terms are
+typically net 30 days from the transfer of title to the products to the customer. The Company typically expects payment from a
+customer within 30 to 45 days from the transfer of title to the products to a customer. Shipping and handling costs are charged
+to the customer and are included in revenue.
+
+Customer
+Concentrations
+
+
+655 or 55%
+ while another customer accounted for $16
+507 or 13% of net sales
+for the year ended December 31
+ 2012. Various other customers accounted for the remaining sales of $37
+823 or 32%. All transactions
+were in United States dollars. There were no transaction gains or losses associated with sales transactions.
+
+Income
+Taxes
+
+The
+Company accounts for income taxes in accordance with FASB ASC 740
+ &ldquo;Income Taxes&rdquo; using the asset and liability approach
+which requires recognition of deferred tax liabilities and assets for the expected future tax consequences of temporary differences
+between the carrying amounts and the tax basis of such assets and liabilities. This method utilizes enacted statutory tax rates
+in effect for the year in which the temporary differences are expected to reverse and gives immediate effect to changes in income
+tax rates upon enactment. Deferred tax assets are recognized
+ net of any valuation allowance
+ for temporary differences and net
+operating loss and tax credit carry forwards. Deferred income tax expense represents the change in net deferred assets and liability
+balances.
+
+Earnings
+per Share
+
+Earnings
+per share of common stock are computed in accordance with FASB ASC 260
+ &ldquo;Earnings per Share&rdquo;. Basic earnings per share
+are computed by dividing income or loss available to common shareholders by the weighted-average number of common shares outstanding
+for each period.
+
+-
+continued -
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+    
+
+
+
+Summary
+of Significant Accounting Policies &ndash; continued
+
+
+Earnings
+per Share
+
+Diluted
+earnings per share are calculated by adjusting the weighted average number of shares outstanding assuming conversion of all potentially
+dilutive stock options
+ warrants and convertible securities
+ if dilutive. Common stock equivalents that are anti-dilutive are
+excluded from both diluted weighted average number of common shares outstanding and diluted earnings per share.
+
+In
+a loss year
+ the calculation for basic and diluted earnings per share is considered to be the same
+ as the impact of potential
+common shares is anti-dilutive. At December 31
+ 2012
+ there were 4
+651
+395 shares that could dilute future earnings.
+
+Use
+of Estimates
+
+The
+preparation of financial statements in conformity with generally accepted accounting principles requires management to make estimates
+and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities
+at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual
+results could differ from those estimates.
+
+Fair
+value of Financial Instruments
+
+Prepaid
+expenses
+ accrued expenses
+ notes payable
+ and amounts due to and from related parties are carried in the financial statements
+at amounts which approximate fair value.
+
+Stock-Based
+Compensation
+
+Stock-based
+compensation related to non-employees is recognized based on service provided in the accompanying statements of operations and
+is based on the fair value of the services received or the fair value of the equity instruments issued
+ whichever is more readily
+determinable. The Company&rsquo;s accounting policy for equity instruments issued to consultants and vendors in exchange for goods
+and services follows the provisions of FASB ASC 505
+ &ldquo;Equity Based Payments to Non-Employees&rdquo;. The measurement date
+for the fair value of the equity instruments issued is determined at the earlier of (i) the date at which a commitment for performance
+by the consultant or vendor is reached or (ii) the date at which the consultant or vendor&rsquo;s performance is complete. In
+the case of equity instruments issued to consultants
+ the fair value of the equity instrument is recognized over the term of the
+consulting agreement.
+
+The
+Company follows the provisions of FASB ASC 718. FASB ASC 718 requires recognition in the financial statements of the cost of employee
+services received in exchange for an award of equity instruments over the period the employee is required to perform the services
+in exchange for the award (presumptively the vesting period). FASB ASC 718 also requires measurement of the cost of employee services
+received in exchange for an equity award based upon the grant-date fair value of the award
+
+
+Recently
+Issued Accounting Standards
+
+
+The
+Company does not expect the adoption of recently issued accounting pronouncements to have a significant impact on the Company&rsquo;s
+results of operations
+ financial position or cash flow.
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+Property
+and Equipment
+
+
+Property
+and equipment consisted of the following:
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+261
+150
+190
+168
+
+    
+2
+398
+2
+398
+
+    
+263
+548
+192
+566
+
+    
+96
+011
+44
+479
+
+    
+    
+    
+
+    
+167
+537
+148
+087
+
+
+Depreciation
+expense for the years ended December 31
+ 2012 and 2011 was $63
+795 and $8
+665
+ respectively.
+
+
+Deferred
+Note Payable Issuance Costs
+
+
+Deferred
+note payable issuance costs associated with the convertible promissory note consisted of the following:
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+39
+125
+    
+
+    
+32
+604
+    
+
+    
+    
+    
+
+    
+6
+521
+    
+
+
+Amortization
+expense for the years ended December 31
+ 2012 and 2011 was $32
+604 and $-0-
+ respectively.
+
+
+Related
+Party Transactions
+
+
+Due
+from Related Party
+
+On
+July 14
+ 2008
+ (the date of Edesia&rsquo;s inception)
+ the Company entered into an operating agreement with Edesia Emprise
+ LLC
+to manufacture product for the Company. The CEO of the Company owned 50% of Edesia until July 21
+ 2008 when he transferred his
+interest to a relative. At the date of the transfer
+ Edesia had no assets or business operations.
+
+Due
+from Related Party consists of monies advanced on behalf of Edesia Emprise
+ LLC.
+
+The
+Company purchased manufacturing equipment on behalf of Edesia to be used by an unrelated entity for the production of the pizza
+cone products. The manufactured pizza cone products will be resold by Cono and its licensees. Production of the pizza cones under
+the agreement began in March&nbsp;2009.
+
+-
+continued -
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+Related
+Party Transactions &ndash; continued
+
+
+The
+advances are non-interest bearing and is due upon demand. Due from related party consists of the following:
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+ LLC
+16
+937
+11
+937
+
+
+On
+November 11
+ 2009
+ Cono Italiano (Delaware) and Edesia Emprise
+ LLC entered into a Master Manufacturing Agreement. Pursuant to
+this Master Manufacturing Agreement
+ Edesia Emprise
+ LLC will produce the Company&rsquo;s Pizza Cono product. Cono Italiano (Delaware)
+has agreed to pay Edesia Emprise
+ LLC the costs of production plus fifteen percent (15%). This Master Manufacturing Agreement
+has a five (5) year term and will automatically renew unless cancelled by one of the parties pursuant to its terms. Edesia Emprise
+LLC may either produce this product directly or through a subcontractor. As of December 31
+ 2012 this contract was terminated.
+
+In
+November 2009
+ Edesia Emprise
+ LLC has entered into a subcontract agreement with Sunrise Bakery
+ located in Brooklyn
+ New York
+to produce the cones for the Pizza Cono product on behalf of Edesia Emprise
+ LLC. As of December 31
+ 2012 this contract was terminated.
+
+For
+the year ended December 31
+ 2012
+ Edesia Emprise was reimbursed expenses paid on behalf of the Company in the amount of $25
+000
+and Edesia transferred $20
+000 to the Company for the future purchase of a piece of equipment.
+
+Due
+to Officer
+
+Certain
+disbursements of the Company have been paid by an officer of the Company. The balance at December 31
+ 2012 and 2011 was $767
+317
+and $724
+975
+ respectively. There are no established repayment terms. For the years ended December 31
+ 2012 and December 31
+ 2011
+the Company has imputed interest at the applicable federal rate of 0.95% and 1.27%
+ respectively. Accrued interest was $59
+834
+and $52
+746
+ at December 31
+ 2012 and December 31
+ 2011
+ respectively.
+
+
+Accrued
+Legal Expense
+
+
+Accrued
+legal expense consists of legal services rendered to the Company in the ordinary course of business including SEC filings and
+the reverse merger. Accrued legal expense at December 31
+ 2012 and December 31
+ 2011 was $199
+269 and $187
+525
+ respectively.
+
+
+Note
+Payable
+
+
+The
+Company has a note payable to DT Crystal Limited accruing interest at 10% annually which is due upon demand. The note is convertible
+at option of the holder into restricted stock of Cono (Nevada). At December 31
+ 2012 and December 31
+ 2011 note payable to DT
+Crystal was $67
+228 and $60
+905
+ respectively. Interest expense for the years ended December 31
+ 2012 and 2011 was $6
+323 and
+$5
+728
+ respectively.
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+    
+
+
+
+Going
+Concern
+
+
+The
+Company&rsquo;s financial statements have been presented on the basis that it is a going concern
+ which contemplates the realization
+of assets and the satisfaction of liabilities in the normal course of business. The Company has reported recurring losses from
+operations. As a result
+ there is an accumulated deficit of $2
+966
+914 at December 31
+ 2012.
+
+
+The Company&rsquo;s continued existence is dependent upon its ability to raise capital. The financial statements do not include
+any adjustments that might be necessary should the Company be unable to continue as a going concern.
+
+
+Employment
+Contracts
+
+
+On
+December 30
+ 2009 the Company entered into employment agreements with each of the officers serving the Company. The employment
+agreements contained the following provisions: (i) two-year terms with automatic renewal provisions unless notice is given by
+either party 30 days prior to renewal; (ii) commitment of a substantial portion of their professional time to the Company
+ consisting
+of 75% of their time for Mitchell Brown and 60% of their time for each of Alex Kaminski and Steve Savage; and (iii) and additional
+customary employment agreement terms and conditions. The officers have agreed that they will not receive any compensation for
+their services to the Company prior to January 1
+ 2012. At December 31
+ 2012 accrued compensation was $225
+000. The compensation
+of the officers has been set as follows:
+
+
+
+    
+    
+
+    
+    
+
+
+ Chief Executive Officer
+125
+000
+
+
+ Chief Financial Officer and Treasurer
+50
+000
+
+
+ Secretary
+50
+000
+
+
+It
+has been agreed by the Company
+ Mr. Smith
+ a director and Mr. Kaminski that pursuant to separate stock option agreements
+ Mr.
+Smith will be granted options to purchase 2
+000
+000 shares of the Company&rsquo;s common stock at $.01 per share and Mr. Kaminski
+will be granted options to purchase 1
+500
+000 shares of the Company&rsquo;s common stock at $.01 per share. These options will
+vest in one year and will expire in three years. As of December 31
+ 2012
+ the stock agreements have not been executed
+ therefore
+the options have not been granted.
+
+
+Income
+Taxes
+
+
+The
+Company is not in compliance with filing its required income tax returns. Since the Company has had continuous losses and has
+available net operating losses
+ the Company believes that any tax liability would not be material. Deferred taxes are provided
+for the temporary differences between the financial reporting basis and the tax reporting basis of the Company&rsquo;s assets
+and liabilities. The temporary differences between financial reporting and income tax purposes are primarily net operating loss
+carry forwards for income tax purposes. A valuation allowance is recorded for deferred tax assets when management determines it
+is more likely than not
+ that such assets
+ will not be realized.
+
+-
+continued -
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+    
+
+
+
+
+Income
+                                                                                                                                                                                                                           Taxes
+&ndash;
+                                                                                                                                                                                                                           continued
+
+
+The
+Company uses the liability method
+ where deferred tax assets and liabilities are determined based on the expected future tax consequences
+of temporary differences between the carrying amounts of assets and liabilities for financial and income tax reporting purposes.
+The Company incurred net losses in the year ending December 31
+ 2012 and 2011 and therefore
+ has no tax liability. The deferred
+tax asset generated by the carry-forward is approximately $1
+184
+985 at December 31
+ 2012. The deferred tax asset will expire
+in the years 2026 through 2032.
+
+Components
+of deferred tax assets at December 31
+ 2012 are as follows:
+
+
+
+    
+    
+
+    
+    
+
+    
+1
+184
+985
+
+    
+    
+
+    
+1
+184
+985
+
+    
+    
+
+    
+    
+
+
+A
+full valuation allowance has been established against the deferred tax assets for the years ended December 31
+ 2012 and 2011 as
+utilization of the loss carry forwards and realization of other deferred tax assets cannot be reasonably assured.
+
+The
+Company has adopted ASC 740-10 &ldquo;Income Taxes&rdquo;. As a result of the assessment the Company has recognized no material
+tax adjustments to the unrecognized tax benefits. At the adoption date of January 1
+ 2008 and as of December 31
+ 2012
+ the Company
+has no unrecognized tax benefits. The reconciliation of the effective income tax rate of the Company to the statutory income tax
+rate for the fiscal year ended on December 31
+ 2012 and 2011 is as follows:
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+Security
+Agreement
+
+
+On
+February 27
+ 2012
+ the Company entered into a security agreement with TCA Global Credit Master Fund
+ LP
+ a Cayman Islands limited
+partnership related to a $250
+000 convertible promissory note issued by the Company in favor of TCA to acquire equipment and for
+operational expenses. The Security Agreement grants to TCA a continuing
+ first priority security interest in all of the Company&rsquo;s
+assets
+ wheresoever located and whether now existing or hereafter arising or acquired.
+
+-
+continued -
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+
+Security
+Agreement &ndash; continued
+
+
+On
+February 27
+ 2012
+ the Company issued the Convertible Note in favor of TCA. The maturity date of the Convertible Note is February
+27
+ 2013
+ and the Convertible Note bears interest at a rate of twelve percent (12%) per annum. Interest will accrue monthly but
+is due and payable upon maturity date of note. The Convertible Note is convertible into shares of the Company&rsquo;s common stock
+at a price equal to ninety-five percent (95%) of the lowest daily volume weighted average price of the Company&rsquo;s common
+stock during the five (5) trading days immediately prior to the date of conversion. The Convertible Note may be prepaid in whole
+or in part at the Company&rsquo;s option without penalty. As of the date of this report
+ the convertible note has not been repaid
+but the Company is negotiating a resolution.
+
+The
+above Convertible Note contains a beneficial conversion feature recorded as a debt discount in the amount of $13
+157 which will
+be expensed to interest expense over the term of the note. For the year ended December 31
+ 2012
+ $10
+963 was expensed to interest
+expense resulting in a remaining debt discount of $2
+193 and note value
+ net of debt discount
+ of $247
+807 at December 31
+ 2012.
+Accrued interest for the year ended December 31
+ 2012 was $25
+000.
+
+On
+February 27
+ 2012
+ the Company entered into the Equity Agreement with TCA. Pursuant to the terms of the Equity Agreement
+ for
+a period of twenty-four (24) months commencing on the date of effectiveness of a Registration Statement
+ TCA shall commit to purchase
+up to $1
+500
+000 of the Company&rsquo;s common stock
+ par value $0.001 per share. The purchase price of the Shares under the Equity
+Agreement is equal to ninety-five percent (95%) of the lowest daily volume weighted average price of the Company&rsquo;s common
+stock during the five (5) consecutive trading days after the Company delivers to TCA an Advance notice in writing requiring TCA
+to advance funds to the Company
+ subject to the terms of the Equity Agreement. At December 31
+ 2012
+ no shares had been purchased.
+
+As
+further consideration for TCA entering into and structuring the Equity Facility
+ the Company paid to TCA a fee by issuing to TCA
+that number of shares of the Company&rsquo;s common stock that equal a dollar amount of fifty-two thousand and five hundred dollars
+($52
+500) (the &ldquo;Facility Fee Shares&rdquo;). It is the intention of the Company and TCA that the value of the Facility Fee
+Shares shall equal $52
+500. In the event the value of the Facility Fee Shares issued to TCA does not equal $52
+500 after a nine
+month evaluation date
+ the Equity Agreement provides for an adjustment provision allowing for necessary action (either the issuance
+of additional shares to TCA or the return of shares previously issued to TCA to the Company&rsquo;s treasury) to adjust the number
+of Facility Fee Shares issued. As of December 31
+ 2012
+ 998
+099 shares of common stock have been issued as consideration for the
+Equity Facility fee. The nine month analysis concluded that the Company owes TCA 1
+317
+508 common shares in the amount equal to
+$32
+091. A total of $84
+591 is included in Deferred Equity Financing Costs at December 31
+ 2012 which will be netted against proceeds
+when shares are purchased pursuant to the Equity Agreement.
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+Other
+Matters
+
+
+On
+November 6
+ 2009
+ Cono Italiano (Delaware) entered into a Commitment Letter
+ pursuant to which
+ one of the Company&rsquo;s shareholders
+Lara Mac has agreed to provide financing to Cono Italiano
+ Inc.
+ with such funds as the Company&rsquo;s Board of Directors shall
+deem to be sufficient to maintain the Company&rsquo;s ordinary course of business operations (the &ldquo;Commitment Amount&rdquo;).
+We may draw on the Commitment Amount in monthly tranches in accordance with our operating requirements as set forth in our business
+plan.&nbsp;The available Commitment Amount will be reduced by the aggregate cash proceeds received by the Company which are derived
+from the issuance of any equity securities and Company gross revenues. Draws on the Commitment Amount will be made on terms of
+unsecured notes
+ with interest set on each note as of the date of the draw at prime rate plus two percent per annum. The notes
+will mature and become repayable thirty calendar days after demand.
+
+The
+Company will give Lara Mac customary representations and warranties regarding the good standing of our Company and status of progress
+in respect of our Company business plan prior to each draw on the Commitment Amount
+ and we will provide certifications and covenants
+regarding use of proceeds of each draw
+ which will be in customary forms reasonably requested by Lara Mac as determined by reference
+to similar lenders making similar loans to similar companies. Lara Mac will not be required to make any loans under the Commitment
+Amount to us if we are unable to make the representations
+ warranties
+ certifications or covenants
+ or if we are in breach of
+any previously given representations
+ warranties
+ certifications or covenants. If we breach any of the notes
+ the default rate
+will be 15% per annum and Lara Mac may seek recourse against our company for repayment of all of the notes. As of December 31
+2012
+ the agreement was still in effect and no funds have been borrowed.
+
+On
+August 1
+ 2010
+ Cono Italiano (Delaware) entered into a manufacturing agreement with Interstate Caterers for the purposes of
+manufacturing
+ producing and distributing &ldquo;pizza cono&rdquo;. The term of the agreement shall continue in force and
+effect unless terminated by either party. Cono will lease to Interstate equipment required for the manufacture of the product
+for $1 per year. All equipment will remain the property of Cono and upon termination of the agreement be returned to Cono by
+Interstate. In addition to this agreement Cono issued 100
+000 shares of common stock to the 2 sole stockholders of Interstate
+in exchange for the use of Interstate&rsquo;s facility for 1 (one) year at an approximate value of $36
+000 for the calendar
+year 2011
+ included in prepaid expenses. For the year ended December 31
+ 2012 and 2011
+ $-0- and $36
+000 has been expensed to
+rent
+ respectively. This agreement was superseded in September 2011 by another agreement with Interstate Caterers (See
+below).
+
+On
+July 11
+ 2011 the Company signed a subscription agreement with an individual to purchase 4
+525
+640 shares of the Company&rsquo;s
+common stock in four (4) installments of $50
+000 each
+ totaling $200
+000. As of December 31
+ 2011 all of the four installments
+had been received totaling $200
+000. The Company has issued 4
+000
+000 shares of the 4
+525
+640 that were to be issued. 525
+640
+shares of common stock are due to the individual for his investment
+ therefore
+ common stock subscribed is $526 at December 31
+2011. During the year ended December 31
+ 2012 the Company issued the individual the 525
+640 shares due him under the subscription
+agreement and in accordance with this agreement since the individual was entitled to 4.9% of the outstanding shares of the Company
+at the date of the final issuance the individual received an additional 374
+360 shares of common stock.
+
+-
+continued -
+
+
+    
+    
+
+
+CONO
+ITALIANO
+ INC.
+(A
+DEVELOPMENT STAGE COMPANY)
+(A
+NEVADA CORPORATION)
+Keyport
+New Jersey
+
+
+
+
+    
+
+
+
+
+Other
+Matters &ndash; continued
+
+
+On
+September 7
+ 2011 the Company entered into a manufacturing agreement with Interstate Caterers for the purposes of
+manufacturing
+ producing and distributing &ldquo;pizza cono&rdquo;. As consideration for Interstate entering into the
+agreement
+ the Company agreed to issue 3
+500
+000 shares of its restricted common stock upon the execution of the agreement.
+As of December 31
+ 2012 the stock had been issued. As consideration for Interstate&rsquo;s services under the agreement
+Interstate will receive seventy percent (70%) of the difference between the sales price for the product less direct
+manufacturing costs for such product
+ regardless of whether the Company or Interstate initiated the sales of such product. In
+addition
+ the Company will lease to Interstate certain equipment to be used in the manufacture of the Cono products for $1.00
+per year. For the year ended December 31
+ 2012 the Company and Interstate have modified the consideration portion of what
+Interstate will receive. Interstate has agreed to forgo the 70% difference since sales of the product are in the initial
+phase in order to help the Company promote the product.
+
+The
+term of the agreement is for a period of ten years commencing on September 7
+ 2011
+ the execution date of the agreement
+ and
+automatically renews for one additional ten-year period unless either the Company or Interstate provides the other notice of
+its intention to not renew at least thirty days prior to the end of the Initial Term. The agreement may be earlier terminated
+at any time by the mutual consent of the Company and Interstate. The Company may unilaterally terminate the agreement based
+on
+ among other things
+ Interstate&rsquo;s non-performance in accordance with the Company&rsquo;s specifications. In
+addition
+ Interstate indemnifies the Company against third party claims based on alleged product defects.
+
+
+&nbsp;Subsequent
+Events
+
+
+As
+of the date of this report
+ the Company has not paid TCA the principal and accrued interest that was due on their convertible
+note on February 27
+ 2013. Due to circumstances surrounding the financing
+ the Company is in negotiations to fulfill their obligation.
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+CERTIFICATION OF PRINCIPAL EXECUTIVE
+OFFICER
+
+18 U.S.C. SECTION 1350
+
+AS ADOPTED PURSUANT TO SECTION&nbsp;302
+OF
+
+
+
+ Mitchel Brown
+ certify that:
+
+
+
+
+    
+I have reviewed this Form 10-K of ConoItaliano
+ Inc.;
+
+    
+    
+    
+
+    
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+    
+    
+    
+
+    
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+    
+    
+    
+
+    
+    
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+    
+    
+    
+
+    
+    
+Evaluated the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on such evaluation; and
+
+    
+    
+    
+
+    
+    
+Disclosed in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the registrant&rsquo;s most recent fiscal quarter (the registrant&rsquo;s fourth fiscal quarter in the case of an annual report) that has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s internal control over financial reporting; and
+
+    
+    
+    
+
+    
+The registrant&rsquo;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+ to the registrant&rsquo;s auditors and the audit committee of the registrant&rsquo;s board of directors (or persons performing the equivalent functions):
+
+    
+    
+    
+
+    
+    
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial information; and
+
+    
+    
+    
+
+    
+    
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s internal control over financial reporting.
+
+
+
+
+
+
+
+
+ 2013
+    
+    
+
+
+    
+    
+    
+
+
+    
+    
+
+        
+
+ Inc.
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+CERTIFICATION OF PRINCIPAL FINANCIAL
+OFFICER
+
+18 U.S.C. SECTION 1350
+
+AS ADOPTED PURSUANT TO SECTION&nbsp;302
+OF
+
+
+
+ Alex J. Kaminski
+ certify that:
+
+
+
+
+    
+I have reviewed this Form 10-K of ConoItaliano
+ Inc.;
+
+    
+    
+    
+
+    
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+    
+    
+    
+
+    
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+    
+    
+    
+
+    
+    
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+    
+    
+    
+
+    
+    
+Evaluated the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on such evaluation; and
+
+    
+    
+    
+
+    
+    
+Disclosed in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the registrant&rsquo;s most recent fiscal quarter (the registrant&rsquo;s fourth fiscal quarter in the case of an annual report) that has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s internal control over financial reporting; and
+
+    
+    
+    
+
+    
+The registrant&rsquo;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+ to the registrant&rsquo;s auditors and the audit committee of the registrant&rsquo;s board of directors (or persons performing the equivalent functions):
+
+    
+    
+    
+
+    
+    
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial information; and
+
+    
+    
+    
+
+    
+    
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s internal control over financial reporting.
+
+
+
+
+
+
+
+
+ 2013
+    
+    
+
+
+    
+    
+    
+
+
+    
+    
+
+        
+
+ Inc.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+18 U.S.C. SECTION 1350
+
+AS ADOPTED PURSUANT TO SECTION 906
+OF
+
+
+
+of ConoItaliano
+ Inc. (the &ldquo;Company&rdquo;)
+ on Form 10-K for the fiscal year ended&nbsp;December 31
+ 2012
+ as filed with
+the U.S. Securities and Exchange Commission on the date hereof
+ I
+ Mitchell Brown
+ Principal Executive Officer of the Company
+certify to the best of my knowledge
+ pursuant to 18 U.S.C. Sec. 1350
+ as adopted pursuant to Sec. 906 of the Sarbanes-Oxley Act
+of 2002
+ that:
+
+
+Such Annual Report on Form 10-K for the year
+ended December 31
+ 2012
+ fully complies with the requirements of section 13(a) or 15(d) of the Securities Exchange Act of 1934;
+and
+
+
+The information contained in such Annual Report
+on Form 10-K for the year ended December 31
+ 2012
+ fairly presents
+ in all material respects
+ the financial condition and results
+of operations of the Company.
+
+
+
+Date: April 16
+ 2013 
+    
+    
+
+
+    
+    
+    
+
+
+    
+    
+
+        
+
+ Inc.
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+18 U.S.C. SECTION 1350
+
+AS ADOPTED PURSUANT TO SECTION 906
+OF
+
+
+
+Report of ConoItaliano
+ Inc. (the &ldquo;Company&rdquo;)
+ on Form 10-K for the fiscal year ended&nbsp;December 31
+ 2012
+ as
+filed with the U.S. Securities and Exchange Commission on the date hereof
+ I
+ Alex J. Kaminski
+ Principal Financial Officer
+of the Company
+ certify to the best of my knowledge
+ pursuant to 18 U.S.C. Sec. 1350
+ as adopted pursuant to Sec. 906 of the
+Sarbanes-Oxley Act of 2002
+ that:
+
+
+Such Annual Report on Form 10-K for the year
+ended December 31
+ 2012
+ fully complies with the requirements of section 13(a) or 15(d) of the Securities Exchange Act of 1934;
+and
+
+
+The information contained in such Annual Report
+on Form 10-K for the year ended December 31
+ 2012
+ fairly presents
+ in all material respects
+ the financial condition and results
+of operations of the Company.
+
+
+
+    
+    
+    
+
+
+Date: April 16
+ 2013
+    
+    
+
+
+    
+    
+    
+
+
+    
+    
+
+        
+
+ Inc.
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 logo.jpg
+
+
+;GZ.GJ\O/T]?;W^/GZ_]H`#`,!``(1`Q$`/P#W^BBB@`HH
+MHH`****`BBB@`HHHH`****`BBB@`HHHH`****`N;U;5-7.L/IFBVUG++;
+MVRW4QNG8!MS
+
+@
+T1.=I
+MW*V
+
+
+
+1R?;$\W@BQN-8EU.2ZO1+)()1&K)L1M\+G'RYY-NG4
+MGJW3C$N]O
+
+LJ1$1JRJ7*]SG8I.
+
+9AH.
+MM:BEHMH;&YC@1;X&
+`
+(SN?!X`\P]#T%
+A^&6BP2RE9;LQ2JXDB/E_
+S(4)W
+M;-WW3P
+
+LTQ0
+638%'RH!C$:]L]:I^0
+
+@'!/(/-5)_B'Y5NH^R&.=K
+
+M
+
+N]RK2&
+
+
+MRL(+Q[04.\%U_O`-&1^HH;XBZ.@EW6^HB6++-!]F.\(%+[R
+
+
+
+
+
+
+
+YL+=(3#;2WR^
+M8Q9//F
+*B
+
+DG
+
+
+
+M)+-TDBLA*OE(ZLC[ONY8DQC[Q(&6QC-/H-IX^T1KJ&W=KB-W;:XDBQY#EV
+
+
+M_IJZR-3BGNHY3*99%`C^=O
+
+
+
+DCG(XH?0$:.E^
+
+
+
+
+M^H77LT+1B=XX@$).=P14\8'&
+
+
+
+
+
+
+9N%D;
+
+:1L&
+M8(IV$B522WCK78WVC6NHW4$UTID6*.2/RV`*.K@!@PQSP*P3\.M&B2=;#S]
+M/$[27[
+
+
+M8GC46QDD$C[?DRP9EY#EA@D``&@-2Y\4?9?!@UD&[N6C8110AD$D@S\N&^
+
+
+`+W!+(1^&%IQ^'7
+
+L4
+MTVX2R!9-A4;$R
+\?Q*-.\BTV?:$B:#
+
+QN2!(N1RORFKTOA:RFNF
+
+M5@^U/)-*L:((&W
+9+FVBGB.Z.1`ZGU!&113;2W6TLX+9Q2&-8U+'D@#'-%9
+W6VI-11
+M10
+****`BBB@`HHHH`****`BBB@`HI
+
+$KD$P7-
+M[+MZF.QE;'Y@#O:*XAOBIX9526.I#'4G3IO_B:=HWQ.\.Z_KD6DZ;+<R7+A
+
+MVLV[7&CZ'K5_K%?,B@`7CK@EN3[4`=U2&N0@^(NA&^6RU`W6E73?=CU`Q`
+
+MAK%YOW9P93L^FW.*];^
+
+
+M8^XK*I&
+
+
+M`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`
+MHHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`B
+MBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`\6_:!B0:9HDA4;O/D7=
+GW5P%$\UO'(X7H
+M&*@G'MDT
+
+
+
+M4`=3XE\
+V'BC1Y=/OX@R
+
+
+M**RN=%NH#I1110
+****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HH
+MHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB
+M@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`
+-)
+
+
+__`*`:\K^!
+
+
+
+
+
+
+
+&FN!_HL#F9^_4@$_@!77:CXT\/Z;9XGU.W=2
+J
+
+
+
+M*`BBB@`HHHH`****`BBB@#@=7^%6CZ_=BZU?4M7O)1D+YEPN%7.=J@+T_7
+MWJS;?#/1;.(1VU_K
+
+TS[C@9P![<UT4]U;V4#2W,R
+M11(.7D(`%9]EXIT+4+D6UIJMI+.W*QK*-S?0=_PH`J^)O5MXJA%M?7M\EF5
+
+M5+2WN$4
+
+
+
+CKS6CXR\(SZS+:ZQI$RVFO6)W6\
+
+
+
+
+?B!^E=+96$
+
+
+[Q))'9?%+PS*8)Y52RN0$AB+G/R@''MGO70Z9J5IJNNW`2PNH)
+M[6!5WW$31DJ[$D`''&4'/2LK6K+5W^(.E:M::5)/9V5K-#*ZR1JS&3:?E#
+
+MXV]ZU%N]:N=9MP-(:ULE#//++)&S/Q\J*`?7G.1B@#D(M%U/PY=WOB/P\)+E
+M)+NX_M#3-V!
+BR
+
+
+
+Q`V8ZD?WO6HOA\(UU+Q&Q
+M_P!%EN;P3?V:ZE7MU*X!(X^]UXXJ_K
+&JOXZTK4+;2Y9[.SMYHY)%DC#
+9-N
+
+;P/J=MIMG
+
+QS^))
+
+
+
+
+[@V2!GTS4;:
+
+CZ5)45NL2`C
+M!@$5+0`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444
+M`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`
+
+&;S1M0N
+MIYYK:2*2W@MXTC1@46-
+
+
+
+
+
+T:8C*1[1D$E
+MDC/4DDBFV7@74[?3D5[ZW-W#83P02+&1MFE8EY3SU(P/;F@_)X]TXZE:10L
+MTEG+:_:I+H(Q*2`G\/5B2
+
+?6EHHH`****`BBB@`HHHH`****`BBB@`HHHH`**
+M**`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHH
+MH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@
+
+

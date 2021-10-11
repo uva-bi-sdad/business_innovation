@@ -1,0 +1,14061 @@
+
+
+ACCESSION NUMBER:		0001127855-13-000645
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		10
+CONFORMED PERIOD OF REPORT:	20130531
+FILED AS OF DATE:		20130829
+DATE AS OF CHANGE:		20130829
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Teamupsport Inc.
+		CENTRAL INDEX KEY:			0001527355
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-COMPUTER PROCESSING & DATA PREPARATION [7374]
+		IRS NUMBER:				990366971
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			0531
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-176429
+		FILM NUMBER:		131070143
+	BUSINESS ADDRESS:	
+		STREET 1:		88 COLLEGE HILL
+		CITY:			PONSONBY
+ AUCKLAND
+		STATE:			Q2
+		ZIP:			00000
+		BUSINESS PHONE:		011.64.214.664 45
+	MAIL ADDRESS:	
+		STREET 1:		88 COLLEGE HILL
+		CITY:			PONSONBY
+ AUCKLAND
+		STATE:			Q2
+		ZIP:			00000
+
+
+
+
+
+
+ 05.31.13
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+Washington
+ D.C.&#160;&#160;20549
+
+
+
+
+
+
+
+
+May 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+88 College Hill
+ Ponsonby
+ Auckland
+ New Zealand
+
+
+
+(Registrant&#8217;s telephone number
+ including area code)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common Shares
+ par value $0.001
+
+
+Indicate by check mark if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act.
+
+
+
+
+
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2) has been subject to such filing requirements for the past 90 days.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Web site
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167;232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files).
+
+
+Indicate by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (&#167;229.405 of this chapter) is not contained herein
+ and will not be contained
+ to the best of registrant&#8217;s knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form&#160;10-K.
+
+
+Indicate by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See the definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer&#8221; and &#8220;smaller reporting company&#8221; in Rule 12b-2 of the Exchange Act.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State the aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold
+ or the average bid and asked price of such common equity
+
+333.96&#160;based on a price of $0.02 per share
+ being the issue price per share of the last private placement of our company in June
+ 2011. The aggregate market value as determined by the average of bid and ask closing prices is inapplicable due to the fact that the common shares of our company have not traded to date.
+
+
+
+
+
+
+Indicate by check mark whether the registrant has filed all documents and reports required to be filed by Section 12
+ 13 or 15(d) of the Securities Exchange Act of 1934 subsequent to the distribution of securities under a plan confirmed by a court.
+
+
+
+
+Indicate the number of shares outstanding of each of the registrant&#8217;s classes of common stock
+
+766
+698 shares of common stock as of August 16
+ 2013.
+
+
+
+List hereunder the following documents if incorporated by reference and the Part of the Form 10-K (e.g.
+ Part I
+ Part&#160;II
+ etc.) into which the document is incorporated: (1) any annual report to security holders; (2) any proxy or information statement; and (3) any prospectus filed pursuant to Rule 424(b) or (c) of the Securities Act of 1933. The listed documents should be clearly described for identification purposes (e.g.
+&#160;annual report to security holders for fiscal year ended December 24
+ 1980).&#160;&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 5.&#160;&#160;MARKET FOR REGISTRANT&#8217;S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS&#160;AND ISSUER PURCHASES OF EQUITY SECURITIES.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 10. DIRECTORS
+ EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 15. EXHIBITS
+ FINANCIAL STATEMENT SCHEDULES.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Securities Act of 1933
+&#8221;)
+
+&#8221;). These statements relate to future events or our future financial performance. In some cases
+ you can identify forward-looking statements by terminology such as &#8220;may&#8221;
+ &#8220;should&#8221;
+ &#8220;expects&#8221;
+ &#8220;plans&#8221;
+ &#8220;anticipates&#8221;
+ &#8220;believes&#8221;
+ &#8220;estimates&#8221;
+ &#8220;predicts&#8221;
+ &#8220;potential&#8221; or &#8220;continue&#8221; or the negative of these terms or other comparable terminology. These statements are only predictions and involve known and unknown risks
+ uncertainties and other factors
+ including the risks in the section entitled &#8220;Risk Factors&#8221; and the risks set out below
+ any of which may cause our or our industry&#8217;s actual results
+ levels of activity
+ performance or achievements to be materially different from any future results
+ levels of activity
+ performance or achievements expressed or implied by these forward-looking statements. These risks include
+ by way of example and not in limitation:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forward looking statements are made based on management&#8217;s beliefs
+ estimates and opinions on the date the statements are made and we undertake no obligation to update forward-looking statements if these beliefs
+ estimates and opinions or other circumstances should change. Although we believe that the expectations reflected in the forward-looking statements are reasonable
+ we cannot guarantee future results
+ levels of activity
+ performance or achievements. Except as required by applicable law
+ including the securities laws of the United States
+ we do not intend to update any of the forward-looking statements to conform these statements to actual results.
+
+
+
+In this annual report
+ unless otherwise specified
+ all dollar amounts are expressed in United States dollars and all references to &#8220;common stock&#8221; refer to the common shares in our capital stock.
+
+As used in this annual report
+ the terms &#8220;we&#8221;
+ &#8220;us&#8221;
+ &#8220;our&#8221;
+ and &#8220;TeamUpSport&#8221; means TeamUpSport Inc.
+ unless the context clearly requires otherwise.
+
+
+
+
+
+We were incorporated in the State of Nevada on October 4
+ 2010.&#160;&#160;Following incorporation
+ we commenced the business of internet social networking.
+
+Our principal executive offices are located 88 College Hill
+ Ponsonby
+ Auckland
+ New Zealand. Our telephone number is 011-64-214-664-45.&#160;&#160;On July 31
+ 2013
+ we incorporated KonaRed Corporation under laws of the State of Nevada as a wholly-owned subsidiary of our company incorporated solely for the purpose of effecting a name change in connection with the Transaction (as defined below). Other than KonaRed Corporation
+ we do not have any subsidiaries.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TeamUpSport Inc. intended to develop and commercialize on its website www.teamupsport.com
+ which was to be a website designed to integrate into a single online offering
+ people&#8217;s interest in sport with the new capabilities of online social networking.&#160;&#160;Since inception we have worked toward the introduction and development of our website that we will use to generate revenues.&#160;&#160;However
+ we have stopped pursuing the use of our website and are currently seeking new business opportunities with established business entities for the merger with or acquisition of a target business. In certain instances
+ a target business may wish to become our subsidiary or may wish to contribute assets to us rather than merge.
+
+As of the date hereof
+&#8221;)
+ as disclosed in a Form 8-K filed on June 11
+ 2013 and in this report under &#8220;LOI with KonaRed&#8221;
+&#8221;)
+ a company incorporated in the State of Hawaii
+ and we are currently negotiating a definitive formal asset purchase agreement. If such agreement is reached
+ we intend to disclose such an agreement by filing another current report on Form 8-K with the Securities and Exchange Commission (&#8220;
+
+Any new acquisition or business opportunities that we may acquire will require additional financing. There can be no assurance
+ however
+ that we will be able to acquire the financing necessary to enable us to pursue our plan of operation. If our company requires additional financing and we are unable to acquire such funds
+ our business may fail.
+
+Management of our company believes that there are benefits to being a reporting company with a class of securities quoted on the OTC Bulletin Board
+ such as: (i) the ability to use registered securities to acquire assets or businesses; (ii)&#160;increased visibility in the financial community; (iii) the facilitation of borrowing from financial institutions; (iv)&#160;potentially improved trading efficiency; (v) potential stockholder liquidity; (vi) potentially greater ease in raising capital subsequent to an acquisition; (vii) potential compensation of key employees through stock options; (viii)&#160;potentially enhanced corporate image; and (ix) a presence in the United States capital market.
+
+We may seek a business opportunity with entities who have recently commenced operations
+ or entities who wish to utilize the public marketplace in order to raise additional capital in order to expand business development activities
+ to develop a new product or service
+ or for other corporate purposes. We may acquire assets and establish wholly-owned subsidiaries in various businesses or acquire existing businesses as subsidiaries.
+
+In implementing a structure for a particular business acquisition or opportunity
+ we may become a party to a merger
+ consolidation
+ reorganization
+ joint venture
+ or licensing agreement with another corporation or entity. We may also acquire stock or assets of an existing business. Upon the consummation of a transaction
+ it is likely that our present management will no longer be in control of our company. In addition
+ it is likely that our officers and directors will
+ as part of the terms of the acquisition transaction
+ resign and be replaced by one or more new officers and directors.
+
+Currently
+ we do not have a source of revenue.&#160;&#160;We are not able to fund our cash requirements through our current operations. Historically
+ we have been able to raise a limited amount of capital through private placements of our equity stock
+ but we are uncertain about our continued ability to raise funds privately. Further
+ we believe that our company may have difficulties raising capital until we enter into a formal agreement or close a transaction where we can pursue our plan of operation. If we are unable to secure adequate capital to continue our acquisition efforts
+ our shareholders may lose some or all of their investment and our business may fail.
+
+
+
+Our company is currently operated by Richenda Rowe as our President
+ Chief Executive Officer
+ Chief Financial Officer and sole Director.&#160;&#160;We do not anticipate hiring employees in the near future.
+
+
+
+We do not own
+ either legally or beneficially
+ any patent or trademark.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As disclosed in a Form 8-K filed on June 11
+ 2013
+ we entered into the LOI with Sandwich Isles
+ whereby
+ following entry into a formal agreement and the closing
+ we propose to purchase all of the assets and business of Sandwich Isles in consideration for the issuance to Sandwich Isles of 42
+750
+000 (after a 13.5 to one forward stock split) of common stock of our company (the &#8220;
+
+Within seven days of the execution of the LOI
+ we arranged a bridge loan from a third party to Sandwich Isles for $500
+&#8221;).&#160;&#160;In the event the Transaction closes
+ the proceeds of the Bridge Loan will be converted to shares of common stock of our company at a conversion price of $0.45 per share.&#160;&#160;In the event that the Transaction does not occur by September 1
+ 2013
+ unless extended by the Bridge Loan lenders
+ the Bridge Loan will be due and payable by December 1
+ 2013 with interest at 12% per annum calculated monthly from the date of advance.
+
+Pursuant to the LOI
+ we agreed to arrange an equity financing for gross proceeds of $500
+000 to be closed at the closing of the Transaction
+&#8221;). Within six months of the closing of the Transaction
+ we also agreed to arrange an additional equity financing for $600
+000
+ consisting of 1
+333
+333 units
+ each unit comprising one share of common stock and one warrant
+ issued at a price of $0.45 per unit.&#160;&#160;It is intended that each warrant will be exercisable for 5 years after closing of the Transaction at an exercise price of $0.65.&#160;&#160;We expect to pay a finder for services in finding the Bridge Loan lender and the Financing purchasers a total of 2
+222
+222 warrants
+ each exercisable for one common share for 5 years after closing of the Transaction at a price of $0.65 per share.
+
+Closing of the Transaction is subject to a number of conditions including
+ but not limited to
+ the entry into a formal agreement and the closing of the Financing. There is no assurance that the Transaction will close as contemplated or at all.
+
+A copy of the letter agreement is attached as Exhibit 10.1 to our current report on Form 8-K filed on June 11
+ 2013
+ and is incorporated herein by reference.
+
+About Sandwich Isles Trading Company
+ Inc. dba KonaRed&#174;
+
+Sandwich Isles Trading Company
+&#8221;) is an emerging leader in the branded coffee fruit health food industry. Based in Hawaii and bolstered by supply relationships with Kona-based coffee producers
+ KonaRed Antioxidant Juice is being distributed through several major retailers. KonaRed also operates a branded ingredients division for coffee berry powder and extract supply. The sale of fruit powders and extracts allows KonaRed to sell product in health-oriented consumer product venues.
+
+
+
+Our business is subject to numerous risk factors
+ including the following:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Business opportunities that we believe are in the best interests of our company may be scarce or we may be unable to obtain the ones that we want.&#160;&#160;If we are unable to close the Transaction or obtain a business opportunity that we believe is in the best interests of our company
+ we may never recommence operations and may go out of business.&#160;&#160;If we go out of business
+ investors will lose their entire investment in our company.
+
+We are
+ and will continue to be
+ an insignificant participant in the number of companies seeking a suitable business opportunity or business combination. A large number of established and well-financed entities
+ including venture capital firms
+ are actively seeking suitable business opportunities or business combinations which may also be desirable target candidates for us. Virtually all such entities have significantly greater financial resources
+ technical expertise and managerial capabilities than we do. We are
+ consequently
+ at a competitive disadvantage in identifying possible business opportunities and successfully completing a business combination. We will also compete with numerous other small public companies seeking suitable business opportunities or business combinations.&#160;&#160;If we are unable to close the Transaction or obtain a business opportunity that we believe is in the best interests of our company
+ we may never recommence operations and may go out of business.&#160;&#160;If we go out of business
+ investors will lose their entire investment in our company.
+
+We have had negative cash flows from operations and if we are not able to obtain further financing
+ our business operations may fail.
+
+We had no cash and had accumulated deficit of $56
+301 as of May 31
+ 2013. We anticipate that we will require additional financing while we are closing or seeking a suitable business opportunity or business combination
+ including the Transaction. Further
+ we anticipate that we will not have sufficient capital to fund our ongoing operations for the next twelve months.
+
+There can be no assurance that
+ if required
+ any such financing
+ including the Financing contemplated in the Transaction
+ will be available upon terms and conditions acceptable to us
+ if at all. Our inability to obtain additional financing in a sufficient amount when needed and upon terms and conditions acceptable to us could have a material adverse effect upon our company. We will require further funds to finance the development of any business opportunity that we acquire. There can be no assurance that such funds will be available or available on terms satisfactory to us. If additional funds are raised by issuing equity securities
+ further dilution to existing or future shareholders is likely to result. If adequate funds are not available on acceptable terms when needed
+ we may be required to delay
+ scale back or eliminate the development of any business opportunity that we acquire. Inadequate funding could also impair our ability to compete in the marketplace
+ which may result in the dissolution of our company.
+
+We have a limited operating history and if we are not successful in continuing to grow our business
+ then we may have to scale back or even cease our ongoing business operations.
+
+We have a limited operating history on which to base an evaluation of our business and prospects. Our prospects must be considered in light of the risks
+ uncertainties
+ expenses and difficulties frequently encountered by companies seeking to acquire or establish a new business opportunity. Some of these risks and uncertainties relate to our ability to identify
+ secure and complete an acquisition of a suitable business opportunity.
+
+We cannot be sure that we will be successful in addressing these risks and uncertainties and our failure to do so could have a materially adverse effect on our financial condition. In addition
+ our operating results are dependent to a large degree upon factors outside of our control. There are no assurances that we will be successful in addressing these risks
+ and failure to do so may adversely affect our business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+It is unlikely that we will generate any or significant revenues while we seek a suitable business opportunity. Our short and long-term prospects depend upon our ability to select and secure a suitable business opportunity. In order for us to make a profit
+ we will need to successfully acquire a new business opportunity in order to generate revenues in an amount sufficient to cover any and all future costs and expenses in connection with any such business opportunity. Even if we become profitable
+ we may not sustain or increase our profits on a quarterly or annual basis in the future.
+
+We will
+ in all likelihood
+ sustain operating expenses without corresponding revenues
+ at least until we complete a business combination or acquire a business opportunity. This may result in our company incurring a net operating loss which will increase continuously until we complete a business combination or acquire a business opportunity that can generate revenues that result in a net profit to us. There is no assurance that we will identify a suitable business opportunity or complete a business combination.
+
+Our independent auditor has indicated that he has substantial doubt about our ability to continue as a going concern
+ if true
+ you could lose your investment.
+
+Our independent auditor has expressed substantial doubt about our ability to continue as a going concern given our lack of operating history and the fact to date have had no revenues. Potential investors should be aware that there are difficulties associated with being a new venture
+ and the high rate of failure associated with this fact.&#160;&#160;We have incurred a net loss of $27
+754 for the year ended May 31
+ 2013 and have had no revenues to date. Our future is dependent upon our ability to obtain financing and upon future profitable operations from our website. These factors raise substantial doubt that we will be able to continue as a going concern.
+
+Because our executive officer does not have experience in accounting and finance
+ there is a higher risk our business will fail.
+
+
+
+Our sole executive officer has only agreed to provide her services on a part-time basis.&#160;&#160;She may not be able or willing to devote a sufficient amount of time to our business operations
+ causing our business to fail.
+
+Because we are in the development stage of our business
+
+
+
+
+
+Because the sole executive officer is a New Zealand resident
+ difficulty may arise in attempting to effect service or process on her in New Zealand or in enforcing a judgment against the registrant&#8217;s assets located outside of the United States.
+
+
+
+If we revert back to our initial business
+ it is intended that our website will be hosted and maintained by a third party hosting service.&#160;&#160;Any mismanagement
+ service interruptions
+ or damage to the data of our company or our customers
+ could result in the loss of customers
+ or other harm to the business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If we revert back to our initial business
+ our success will
+ in part
+ depend on our ability to operate without infringing on the proprietary rights of others. Although we have conducted searches and are not aware of any trademarks which our company might infringe
+ we cannot be certain that infringement has not or will not occur. We could incur substantial costs
+ in addition to the great amount of time lost
+ in defending any trademark infringement suits or in asserting any trademark rights
+ in suit with another party.
+
+
+
+Because we can issue additional shares of common stock
+ our stockholders may experience dilution in the future.
+
+We are authorized to issue up to 65
+000
+000 shares of common stock
+ of which 4
+766
+698 shares are issued and outstanding. Our board of directors has the authority to cause us to issue additional shares of common stock
+ and to determine the rights
+ preferences and privileges of such shares
+ without consent of any of our stockholders. Consequently
+ the stockholders may experience more dilution in their ownership of our stock in the future.
+
+Trading on the OTC Bulletin Board may be volatile and sporadic
+ which could depress the market price of our common stock and make it difficult for our stockholders to resell their shares.
+
+Our common stock is quoted on the OTC Bulletin Board. Trading in stock quoted on the OTC Bulletin Board is often thin and characterized by wide fluctuations in trading prices
+ due to many factors that may have little to do with our operations or business prospects. This volatility could depress the market price of our common stock for reasons unrelated to operating performance. Moreover
+ the OTC Bulletin Board is not a stock exchange
+ and trading of securities on the OTC Bulletin Board is often more sporadic than the trading of securities listed on a quotation system like NASDAQ a stock exchange like the NYSE. Accordingly
+ stockholders may have difficulty reselling any of the shares.
+
+A decline in the price of our common stock could affect our ability to raise further working capital
+ it may adversely impact our ability to continue operations and we may go out of business.
+
+A prolonged decline in the price of our common stock could result in a reduction in the liquidity of our common stock and a reduction in our ability to raise capital. Because we may attempt to acquire a significant portion of the funds we need in order to conduct our planned operations through the sale of equity securities
+ a decline in the price of our common stock could be detrimental to our liquidity and our operations because the decline may cause investors not to choose to invest in our stock. If we are unable to raise the funds we require for all our planned operations
+ we may be forced to reallocate funds from other planned uses and may suffer a significant negative effect on our business plan and operations
+ including our ability to develop new products and continue our current operations. As a result
+ our business may suffer
+ and not be successful and we may go out of business. We also might not be able to meet our financial obligations if we cannot raise enough funds through the sale of our common stock and we may be forced to go out of business.
+
+Because we do not intend to pay any cash dividends on our shares of common stock in the near future
+ our stockholders will not be able to receive a return on their shares unless they sell them.
+
+We intend to retain any future earnings to finance the development and expansion of our business. We do not anticipate paying any cash dividends on our common stock in the near future. The declaration
+ payment and amount of any future dividends will be made at the discretion of the board of directors
+ and will depend upon
+ among other things
+ the results of operations
+ cash flows and financial condition
+ operating and capital requirements
+ and other factors as the board of directors considers relevant. There is no assurance that future dividends will be paid
+ and if dividends are paid
+ there is no assurance with respect to the amount of any such dividend. Unless we pay dividends
+ our stockholders will not be able to receive a return on their shares unless they sell them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our stock is a penny stock. The SEC has adopted Rule 15g-9 which generally defines &#8220;penny stock&#8221; to be any equity security that has a market price (as defined) less than $5.00 per share or an exercise price of less than $5.00 per share
+ subject to certain exceptions. Our securities are covered by the penny stock rules
+ which impose additional sales practice requirements on broker-dealers who sell to persons other than established customers and &#8220;accredited investors&#8221;. The term &#8220;accredited investor&#8221; refers generally to institutions with assets in excess of $5
+000
+000 or individuals with a net worth in excess of $1
+000
+000 or annual income exceeding $200
+000 or $300
+000 jointly with their spouse. The penny stock rules require a broker-dealer
+ prior to a transaction in a penny stock not otherwise exempt from the rules
+ to deliver a standardized risk disclosure document in a form prepared by the SEC which provides information about penny stocks and the nature and level of risks in the penny stock market. The broker-dealer also must provide the customer with current bid and offer quotations for the penny stock
+ the compensation of the broker-dealer and its salesperson in the transaction and monthly account statements showing the market value of each penny stock held in the customer&#8217;s account. The bid and offer quotations
+ and the broker-dealer and salesperson compensation information
+ must be given to the customer orally or in writing prior to effecting the transaction and must be given to the customer in writing before or with the customer&#8217;s confirmation. In addition
+ the penny stock rules require that prior to a transaction in a penny stock not otherwise exempt from these rules; the broker-dealer must make a special written determination that the penny stock is a suitable investment for the purchaser and receive the purchaser&#8217;s written agreement to the transaction. These disclosure requirements may have the effect of reducing the level of trading activity in the secondary market for the stock that is subject to these penny stock rules. Consequently
+ these penny stock rules may affect the ability of broker-dealers to trade our securities. We believe that the penny stock rules discourage investor interest in and limit the marketability of our common stock.
+
+
+
+In addition to the &#8220;penny stock&#8221; rules promulgated by the SEC
+&#8221;) has adopted rules that require that in recommending an investment to a customer
+ a broker-dealer must have reasonable grounds for believing that the investment is suitable for that customer. Prior to recommending speculative low priced securities to their non-institutional customers
+ broker-dealers must make reasonable efforts to obtain information about the customer&#8217;s financial status
+ tax status
+ investment objectives and other information. Under interpretations of these rules
+ the FINRA believes that there is a high probability that speculative low priced securities will not be suitable for at least some customers. The FINRA requirements make it more difficult for broker-dealers to recommend that their customers buy our common stock
+ which may limit your ability to buy and sell our stock.
+
+
+
+
+
+
+
+
+
+Our executive offices are located at 88 College Hill
+ Ponsonby
+ Auckland
+ New Zealand. Ms. Richenda Rowe
+ our Chief Executive Officer
+ Chief Financial Officer and sole Director
+ currently provides this space to us free of charge.
+
+Our registered agent is the Nevada Agency and Transfer Company
+ located at 50 West Liberty Street
+ Suite&#160;880
+ Reno
+ NV 89501.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We know of no material
+ active or pending legal proceedings against our company
+ nor are we involved as a plaintiff in any material proceeding or pending litigation. There are no proceedings in which any of our directors
+ officers or affiliates
+ or any registered or beneficial shareholder
+ is an adverse party or has a material interest adverse to our interest.
+
+
+
+
+
+
+
+&#8217;S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS&#160;AND ISSUER PURCHASES OF EQUITY SECURITIES.
+
+
+
+Our common shares are quoted on the Over-The-Counter Bulletin Board under the trading symbol &#8220;TUPS.OB&#8221;. Our shares have been quoted on the Over-The-Counter Bulletin Board since May 9
+ 2012. There have been no trades in our shares of common stock since May 9
+ 2012.
+
+Our transfer agent is Island Stock Transfer
+ of 15500 Roosevelt Boulevard
+ Suite 301Clearwater
+ FL 33760; telephone number 727.289.0010; facsimile: 727.289.0069.
+
+
+
+As of August 16
+ 2013
+ there were 23 registered stockholders holding 4
+766
+698 shares of our issued and outstanding common stock.
+
+
+
+There are no restrictions in our articles of incorporation or bylaws that prevent us from declaring dividends. The Nevada Revised Statutes
+ however
+ do prohibit us from declaring dividends where
+ after giving effect to the distribution of the dividend:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We completed an offering of 2
+866
+689 shares of common stock on October 22
+ 2010 to our former president and director
+ Dennis Kjeldsen
+ at a price of $0.005 per share.&#160;&#160;The total proceeds received from this offering were $14
+333.49.&#160;&#160;These shares were issued pursuant to Section 4(2) of the 1933 Act and are restricted shares as defined in the 1933&#160;Act.&#160;&#160;We did not engage in any general solicitation or advertising.
+
+We completed an offering of 1
+900
+000 shares of our common stock at a price of $0.02 per share to a total of 31&#160;purchasers on June 1
+ 2011.&#160;&#160;The total amount we received from this offering was $38
+000.&#160;&#160;We completed this offering pursuant Rule 903(a) and conditions set forth in Category 3 (Rule 903(b)(3)) of Regulation S of the 1933&#160;Act.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We did not purchase any of our shares of common stock or other securities during our fiscal year ended May 31
+ 2013.
+
+
+
+
+
+
+
+
+
+
+
+The following discussion should be read in conjunction with our audited financial statements and the related notes that appear elsewhere in this annual report. The following discussion contains forward-looking statements that reflect our plans
+ estimates and beliefs. Our actual results could differ materially from those discussed in the forward looking statements. Factors that could cause or contribute to such differences include those discussed below and elsewhere in this annual report.
+
+
+
+
+
+We have no revenues
+ have achieved losses since inception
+ have been issued a going concern opinion by our auditors and rely upon the sale of our securities to fund operations. Accordingly
+ we will be dependent on future additional financing in order to maintain our operations and continue seeking new business opportunities.
+
+To date
+ our company has not been as successful as hoped in implementing our business plan. We have decided to cease development on our website and take our business in another direction.
+
+
+On June 10
+ 2013
+ we entered into the LOI with Sandwich Isles
+ whereby
+ following entry into a formal agreement and the closing
+ we propose to purchase all of the assets and business of Sandwich Isles in consideration for the issuance to Sandwich Isles of 42
+750
+000 post-split shares of common stock of our company. See&#160;&#160;&#8220;Item 1.&#160;&#160;Business &#8211; LOI with KonaRed.&#8221;
+
+
+
+If we are unable to close the Transaction or a different business acquisition
+ we anticipate that we will incur the following expenses over the next 12 months:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10
+000-$15
+000
+
+
+
+
+
+
+
+10
+000-$15
+000
+
+
+
+
+
+
+
+25
+000-$30
+000
+
+
+
+
+
+
+
+45
+000-$60
+000
+
+
+
+
+Financing or funding expenses will include the costs of finder&#8217;s fees
+ bank fees
+ and all other fees related to our anticipated fundraising efforts
+ whether it is borrowing money or selling shares of our common stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Legal and accounting expenses will include those required to maintain our status as an OTC Bulletin Board company as well as for the legal and accounting work required for the acquisition of the new business opportunity
+ including due diligence work by our attorneys.
+
+If we are unable to close the Transaction or a different business acquisition
+ we require a minimum of approximately $45
+000 to carry out our plan of operation over the next 12 months. As of May 31
+ 2013
+ we had no cash and a working capital deficit of $3
+968. If we are unable to close the Transaction or a different business acquisition
+ we plan to complete private placement sales of our common stock in order to raise the funds necessary to pursue our plan of operation and to fund our working capital deficit in order to enable us to pay our accounts payable and accrued liabilities. With the exception of the Financing in connection with the Transaction
+ we currently do not have any arrangements in place for the completion of any private placement financings and there is no assurance that we will be successful in completing any private placement financings.
+
+
+
+The following summary of our results of operations should be read in conjunction with our audited financial statements for the year ended May 31
+ 2013 which are included herein.
+
+Our operating results for the year ended May 31
+ 2013 and the year ended May 31
+ 2012 are summarized as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27
+754
+
+
+
+24
+049
+
+
+
+
+
+
+
+27
+754
+
+
+
+24
+049
+
+
+
+
+
+
+We have not earned any revenues to date
+ and do not anticipate earning revenues until we complete a business acquisition.
+
+
+
+Our expenses for the year ended May 31
+ 2013 and the year ended May 31
+ 2012 are outlined in the table below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
+435
+
+
+
+8
+385
+
+
+
+
+
+
+
+19
+319
+
+
+
+15
+664
+
+
+
+
+
+
+
+27
+754
+
+
+
+24
+049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The increase in our Other Administrative Expenses between May 31
+ 2012 and May 31
+ 2013 is associated with our reporting obligations under applicable securities laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+May 31
+ 2013
+
+
+
+
+May 31
+ 2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25
+088
+
+
+
+
+
+
+
+
+
+
+
+3
+968
+
+
+
+1
+302
+
+
+
+
+
+
+
+
+
+
+
+(3
+968
+
+
+
+23
+786
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+May 31
+ 2013
+
+
+
+
+May 31
+ 2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+(25
+088
+
+
+
+24
+049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(25
+088
+
+
+
+(24
+049
+
+
+
+
+
+
+
+
+Excluding costs in connection with proceeding to closing the Transaction with Sandwich Isles
+ we anticipate that we will incur approximately $10
+000 for operating expenses
+ including professional
+ legal and accounting expenses associated with our reporting requirements under the Exchange Act during the next 12&#160;months.
+
+
+
+We used cash in operating activities in the amount of $25
+088 during the year ended May 31
+ 2013 and $24
+049 during the year ended May 31
+ 2012. Cash used in operating activities was funded by cash from financing activities in a prior year.
+
+
+
+We received no cash from investing activities during the year ended May 31
+ 2013 and no cash from investing activities in the year ended May 31
+ 2012.
+
+
+
+We did not receive cash in financing activities during the year ended May 31
+ 2013 nor did we generate or use any cash from financing activities for the year ended May 31
+ 2012.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The financial statements accompanying this report have been prepared on a going concern basis
+ which implies that our company will continue to realize its assets and discharge its liabilities and commitments in the normal course of business. Our company has not generated revenues since inception and has never paid any dividends and is unlikely to pay dividends or generate earnings in the immediate or foreseeable future. The continuation of our company as a going concern is dependent upon the continued financial support from our shareholders
+ the ability of our company to obtain necessary equity financing to achieve our operating objectives
+ and the attainment of profitable operations. As at May 31
+ 2013
+ our company has accumulated losses of $56
+301 since inception. We do not have sufficient working capital to enable us to carry out our stated plan of operation for the next twelve months. These financial statements do not include any adjustments to the recoverability and classification of recorded asset amounts and classification of liabilities that might be necessary should our company be unable to continue as a going concern.
+
+Due to the uncertainty of our ability to meet our current operating expenses and the capital expenses noted above in their report on the financial statements for the year ended May 31
+ 2013
+ our independent auditors included an explanatory paragraph regarding concerns about our ability to continue as a going concern. Our financial statements contain additional note disclosures describing the circumstances that lead to this disclosure by our independent auditors.
+
+The continuation of our business is dependent upon us raising additional financial support. The issuance of additional equity securities by us could result in a significant dilution in the equity interests of our current stockholders. Obtaining commercial loans
+ assuming those loans would be available
+ will increase our liabilities and future cash commitments.
+
+
+
+
+
+
+
+We have no significant off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on our financial condition
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures or capital resources that are material to stockholders.
+
+
+
+ - Management has made a number of estimates and assumptions relating to the reporting of assets and liabilities and the disclosure of contingent assets and liabilities to prepare our condensed consolidated financial statements in conformity with accounting principles generally accepted in the United States.&#160;&#160;These estimates have a significant impact on our valuation and reserve accounts relating to the allowance for sales returns
+ doubtful accounts
+ inventory reserves and deferred income taxes.&#160;&#160;Actual results could differ from these estimates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TeamUpSport
+ Inc. (A development stage company)
+
+We have audited the accompanying balance sheet of TeamUpSport
+ Inc (the Company) as of May 31
+ 2013
+ and the related statements of operations
+ stockholders&#8217; equity/deficit and cash flows for the year then ended and for the period from October 4
+ 2010 (Inception) through May 31
+ 2013. These financial statements are the responsibility of the Company&#8217;s management. Our responsibility is to express an opinion on these financial statements based on our audits. The financial statements of the Company as of May 31
+ 2012 was audited by other auditors
+ whose report dated August 29
+ 2012
+ expressed an unqualified opinion on those financial statements and also included an explanatory paragraph that raise substantial doubt about the Company&#8217;s ability to continue as a going concern.
+
+
+We conducted our audits in accordance with standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the financial statements are free of material misstatement. The Company was not required to have
+ nor were we engaged to perform
+ an audit of its internal control over financial reporting. Our audits included consideration of internal control over financial reporting as a basis for designing audit procedures that are appropriate in the circumstances
+ but not for the purpose of expressing an opinion on the effectiveness of the Company's internal control over financial reporting. Accordingly
+ we express no such opinion. An audit includes examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements. An audit also includes assessing the accounting principles used and significant estimates made by management
+ as well as evaluating the overall financial statement presentation. We believe that our audits provide a reasonable basis for our opinion.
+
+
+In our opinion
+ the financial statements referred to above present fairly
+ in all material respects
+ the financial position of the Company as of May 31
+ 2013
+ and the results of its operations and its cash flows for the year then ended and for the period from October 4
+ 2010 (Inception) through May 31
+ 2013
+ in conformity with accounting principles generally accepted in the United States of America.
+
+
+The accompanying financial statements have been prepared assuming that the Company will continue as a going concern. As discussed in Note 2 to the financial statements
+ the Company has had no revenues and income since inception. These conditions
+ among others
+ raise substantial doubt about the Company&#8217;s ability to continue as a going concern. Management's plans concerning these matters are also described in Note 2
+ which includes the raising of additional equity financing or merger with another entity. The financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+
+
+
+Newport Beach
+ CA
+
+
+August 27
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25
+088
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25
+088
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+787
+
+
+
+
+
+
+
+
+
+
+
+1
+181
+
+
+
+1
+302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+968
+
+
+
+1
+302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preferred Stock
+ $0.001 par value; 10
+000
+000 shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ $0.001 par value; 65
+000
+000 shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#160;4
+766
+698 shares as at May 31
+ 2012 &amp; May 31
+ 2013
+
+
+
+4
+767
+
+
+
+4
+767
+
+
+
+
+
+
+
+47
+566
+
+
+
+47
+566
+
+
+
+
+
+
+
+(56
+301
+
+
+
+(28
+547
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(3
+968
+
+
+
+23
+786
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25
+088
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from Inception
+
+
+
+
+
+
+
+
+
+
+
+
+October 4
+ 2010
+
+
+
+
+
+
+
+May 31
+
+
+
+
+
+through May 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
+435
+
+
+
+8
+385
+
+
+
+19
+820
+
+
+
+
+
+
+
+19
+319
+
+
+
+15
+664
+
+
+
+36
+481
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27
+754
+
+
+
+24
+049
+
+
+
+56
+301
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(27
+754
+
+
+
+(24
+049
+
+
+
+(56
+301
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+766
+698
+
+
+
+4
+766
+698
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For the period from Inception October 4
+ 2010 to May 31
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inception
+ Oct. 2010
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscription for 2
+866
+698
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+per share
+ October 25
+ 2010
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14
+333
+
+
+
+
+
+
+
+14
+333
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(4
+498
+
+
+
+(4
+498
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Balances at May 31
+ 2011
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14
+333
+
+
+
+(4
+498
+
+
+
+9
+835
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Issued 2
+866
+698 common shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in cash
+ June 1
+ 2011
+
+
+
+2
+866
+698
+
+
+
+2
+867
+
+
+
+11
+466
+
+
+
+(14
+333
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Issued 1
+900
+000 common shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for each at $0.02 per share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+June 1
+ 2011
+
+
+
+1
+900
+000
+
+
+
+1
+900
+
+
+
+36
+100
+
+
+
+
+
+
+
+
+
+
+
+38
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(24
+049
+
+
+
+(24
+049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Balances at May 31
+ 2012
+
+
+
+4
+766
+698
+
+
+
+4
+767
+
+
+
+47
+566
+
+
+
+
+
+
+
+(28
+547
+
+
+
+23
+786
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(27
+754
+
+
+
+(27
+754
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Balances at May 31
+ 2013
+
+
+
+4
+766
+698
+
+
+
+4
+767
+
+
+
+47
+566
+
+
+
+
+
+
+
+(56
+301
+
+
+
+(3
+968
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from Inception
+
+
+
+
+
+
+
+
+
+
+
+
+October 4
+ 2010
+
+
+
+
+
+
+May 31
+
+
+
+
+
+through May 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(27
+754
+
+
+
+(24
+049
+
+
+
+(56
+301
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+666
+
+
+
+
+
+
+
+2
+666
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(25
+088
+
+
+
+(24
+049
+
+
+
+(53
+635
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14
+333
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53
+635
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(25
+088
+
+
+
+(24
+049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cash
+ beginning of the period
+
+
+
+25
+088
+
+
+
+49
+137
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cash
+ end of the period
+
+
+
+
+
+
+
+25
+088
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+May 31
+ 2013 and 2012
+
+
+
+
+
+
+
+
+TeamUpSport Inc. was incorporated under the laws of the State of Nevada October 4
+ 2010. The Company was organized for the purpose of engaging in an internet social networking business but has recently decided to seek other opportunities.&#160;&#160;It remains a development stage company and is actively seeking business opportunities with other businesses.&#160;&#160;The Company adopted May 31 as its fiscal year-end.
+
+
+
+
+
+
+
+
+
+
+
+These financial statements presented as of and for the years ended May 31
+ 2013 and 2012 reflect all adjustments which
+ in the opinion of management
+ are necessary to present fairly the financial position
+ results of operations and cash flows for the period presented in accordance with the accounting principles generally accepted in the United States of America. All adjustments are of a normal recurring nature.
+
+
+
+
+
+
+
+
+The Company considers all liquid investments with an original maturity of three months or less from the date of purchase that are readily convertible into cash to be cash equivalents.&#160;&#160;The Company does not have any cash equivalents at May 31
+ 2013 and 2012.
+
+
+
+
+
+The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make certain estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements
+ and reported amounts of revenue and expenses during the reporting period.&#160;&#160;Actual results could differ materially from those estimates. Significant estimates made by management are
+ among others
+ deferred taxes.
+
+
+
+
+
+
+
+
+
+
+The Financial Accounting Standards Board issued ASC (Accounting Standards Codification) 820-10 (SFAS No. 157)
+ &#8220;Fair Value Measurements and Disclosures&#8221; for financial assets and liabilities.&#160;ASC&#160;820-10 provides a framework for measuring fair value and requires expanded disclosures regarding fair value measurements.&#160;&#160;FASB ASC 820-10 defines fair value as the price&#160;&#160;that would be received for an asset or the exit price that would be paid to transfer a liability in the principal or most advantageous market in an orderly transaction between market participants on the measurement date.&#160;&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FASB ASC 820-10 also establishes a fair value hierarchy which requires an entity to maximize the use of observable inputs
+ where available. The following summarizes the three levels of inputs required by the standard that the Company uses to measure fair value:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level 2:&#160;&#160;Observable inputs other than Level 1 prices
+ such as quoted prices for similar assets or liabilities;&#160;&#160;quoted prices in markets that are not active
+ or other inputs that are observable or can be corroborated by observable market data for substantially the full term of the related assets or liabilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Company utilizes FASB ACS 740
+ &#8220;Income Taxes
+&#8221; which requires the recognition of deferred tax assets and liabilities for the expected future tax consequences of events that have been included in the financial statements or tax returns.&#160;&#160;Under this method
+ deferred tax assets and liabilities are determined based on the difference between the tax basis of assets and liabilities and their financial reporting amounts based on enacted tax laws and statutory tax rates applicable to the periods in which the differences are expected to affect taxable income.&#160;&#160;A valuation allowance is recorded when it is &#8220;more likely-than-not&#8221; that a deferred tax asset will not be realized
+
+The Company generated a deferred tax credit through its net operating loss carryforwards.&#160;&#160;However
+ a valuation allowance of 100% has been established because of the uncertainty in their realization within the carryforward period.
+
+
+
+
+
+
+
+
+
+
+Effective January 2012
+ the Company adopted ASU No. 2011-04
+ Amendments to Achieve Common Fair Value Measurement and Disclosure Requirements in U.S. GAAP and IFRSs (ASU 2011-04). ASU 2011-04 represents the converged guidance of the Financial Accounting Standards Board (FASB) and the International Accounting Standards Board (IASB) on fair value measurement. A variety of measures are included in the update intended to either clarify existing fair value measurement requirements
+ change particular principles requirements for measuring fair value or for disclosing information about fair value measurements. For many of the requirements
+ the FASB does not intend to change the application of existing requirements under Accounting Standards Codification (ASC) Topic 820
+ Fair Value Measurements. ASU 2011-04 was effective for interim and annual periods beginning after December 15
+ 2011. The adoption of this update did not have a material impact on the financial statements.
+
+
+
+
+In February 2013
+ the FASB issued ASU No. 2013-02
+ Reporting of Amounts Reclassified Out of Accumulated Other Comprehensive (ASU 2013-02). This guidance is the culmination of the FASB&#8217;s deliberation on reporting reclassification adjustments from accumulated other comprehensive income (AOCI). The amendments in ASU 2013-02 do not change the current requirements for reporting net income or other comprehensive income. However
+ the amendments require disclosure of amounts 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reclassified out of AOCI in its entirety
+ by component
+ on the face of the statement of operations or in the notes thereto. Amounts that are not required to be reclassified in their entirety to net income must be cross-referenced to other disclosures that provide additional detail. This standard is effective prospectively for annual and interim reporting periods beginning after December 15
+ 2012. The Company is evaluating the effect
+ if any
+ the adoption of ASU 2013-02 will have on its financial statements.
+
+
+In April 2013
+ the FASB issued ASU No. 2013-07
+
+ as well as any required disclosures. The amendments in this standard is effective prospectively for entities that determine liquidation is imminent during annual reporting periods beginning after December 15
+ 2013
+ and interim reporting periods therein. We are evaluating the effect
+ if any
+ adoption of ASU No. 2013-07 will have on our financial statements.&#160;&#160;
+
+Other recent accounting pronouncements issued by the FASB (including its Emerging Issues Task Force)
+ the American Institute of Certified Public Accountants
+ and the United States Securities and Exchange Commission did not or are not believed by management to have a material impact on the Company&#8217;s present or future financial statements.
+
+In July 2013
+ the FASB issued ASU No. 2013-11
+ Income Taxes (Top 740): Presentation of an Unrecognized Tax Benefit When a Net Operating Loss Carryforward
+ a Similar Tax Loss
+
+ similar tax loss
+ or tax credit carryforward exists. The amendments in this standard is effective for all entities that have unrecognized tax benefits when a net operating loss carryforward
+ a similar tax loss
+ or a tax credit carryforward exists for fiscal years
+ and interim periods beginning after December 15
+ 2013. We are evaluating the effect
+ if any
+ adoption of ASU No. 2013-11 will have on our financial statements. &#160;
+
+
+
+
+
+
+
+The Company has experienced losses since its inception October 4
+ 2010 of ($56
+301).&#160;&#160;The Company has no business operations
+ which raises substantial doubt about the Company&#8217;s ability to continue as a going concern.&#160;&#160;The ability of the Company to meet its commitments as they become payable is dependent on the ability of the Company to obtain necessary financing or achieving a profitable level of operations.&#160;&#160;There are no assurances the Company will be successful in achieving these goals.
+
+The Company may not have sufficient cash to fund its operations and bring it into functionality.&#160;&#160;The Company has raised capital however this financing may be insufficient to fund expenditures or other cash requirements required to continue operations. There can be no assurance the Company will be successful in developing profitable operations.&#160;&#160;The Company plans to seek additional financing if necessary in a private or public equity offering to secure future funding for operations. There can be no assurance the Company will be successful in raising additional funding. If the Company is not able to secure additional funding
+ the implementation of the Company&#8217;s business plan will be impaired. There can be no assurance that such additional financing will be available to the Company on acceptable terms or at all.
+
+
+
+
+
+
+
+The Company is considered a development stage company
+ with limited operating revenues during the periods presented
+ as defined by FASB Accounting Standards Codification ASC 915.&#160;&#160;ASC 915 requires companies to report their operations
+ shareholders deficit and cash flows since inception through the date that revenues are generated from management&#8217;s intended operations
+ among other things.&#160;&#160;Management has 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+defined inception as October 4
+ 2010.&#160;&#160;Since inception
+ the Company has incurred an operating loss of $56
+301. The Company&#8217;s working capital has been generated through the sales of common stock and officer loans.&#160;&#160;Management has provided financial data since October 4
+ 2010 in the financial statements
+ as a means to provide readers of the Company&#8217;s financial information to make informed investment decisions.
+
+
+
+
+
+Net loss per share is calculated in accordance with FASB ASC 260
+ Earnings Per Share
+ for the period presented.&#160;&#160;Basic net loss per share is based upon the weighted average number of common shares outstanding.&#160;&#160;Diluted net loss per share is based on the assumption that all dilative convertible shares and stock options were converted or exercised.&#160;&#160;Dilution is computed by applying the treasury stock method.&#160;&#160;Under this method
+ options and warrants are assumed exercised at the beginning of the period (or at the time of issuance
+ if later)
+ and as if funds obtained thereby were used to purchase common stock at the average market price during the period.
+
+The Company has no potentially dilutive securities outstanding as of May 31
+ 2013.
+
+
+
+
+
+There were no legal proceedings against the Company with respect to matters arising in the ordinary course of business. Neither the Company nor any of its officers or directors is involved in any other litigation
+ or is involved either as plaintiffs or defendants
+ and have no knowledge of any threatened or pending litigation against them or any of the officers or directors
+
+
+
+
+
+
+
+
+
+May 31
+ 2013
+
+
+
+
+May 31
+ 2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+181
+
+
+
+1
+302
+
+
+
+
+
+The President of the Company
+ Dennis Kjeldson
+ advanced funds to the Company for filing fees. The loan is unsecured
+ carries no interest
+ has no terms of repayment or maturity date and is payable upon demand.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+May 31
+ 2013
+
+
+
+
+May 31
+ 2012
+
+
+
+
+
+
+
+
+(27
+754
+
+
+
+(24
+049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(9
+714
+
+
+
+(8
+543
+
+
+
+
+
+
+
+9
+714
+
+
+
+8
+543
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+May 31
+ 2013
+
+
+
+
+May 31
+ 2012
+
+
+
+
+
+
+
+
+19
+705
+
+
+
+9
+975
+
+
+
+
+
+
+
+(19
+705
+
+
+
+(9
+975
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As of May 31
+ 2013
+ we had approximately $56
+000 in net operating loss carryforwards which will expire in 2031 through 2033 if not first utilized.&#160;&#160;In assessing the realizability of the deferred tax assets
+ management considers whether it is more likely than not that some portion or all of the deferred tax assets will not be realized.&#160;&#160;We consider the scheduled reversal of deferred tax assets
+ the level of historical taxable income and tax planning strategies in making the assessment of the realizability of deferred tax assets.&#160;&#160;We have identified the U.S. federal and Nevada as our major tax jurisdiction and generally
+ we remain subject to Internal Revenue Service examination of our 2010 through 2012 U.S. federal income tax returns
+ and remain subject to Nevada Department of Taxation for examination of our 2010 through 2012 California Franchise Tax Returns.
+
+
+
+
+The Company issued a total of 4
+766
+698 shares of common stock on June 1
+ 2011
+ in response to offerings as follows:
+
+
+
+
+
+
+
+
+
+
+June 1
+ 2011: 2
+866
+698 shares were issued at $0.005 per share
+ paid for by the $14
+333 subscription completed in the prior fiscal year
+ on October 22
+ 2010.
+
+
+
+
+
+
+
+
+
+
+
+June 1
+ 2011:&#160;&#160;1
+900
+000 shares were issued at $0.02 per share for an offering completed on June 1
+ 2011
+ paid for by cancellation of debt of $38
+000 from cash advances made to the Company in the prior fiscal year.
+
+
+
+
+
+The Company has authorized 65
+000
+000 shares of $0.001 par value common stock
+ of which 4
+766
+698 shares are issued and outstanding as at May 31
+ 2013 and 2012
+ and 10
+000
+000 shares of par value $0.001 shares of preferred stock of which none was outstanding as at May 31
+ 2013.
+
+
+
+
+
+On June 10
+ 2013 the Company entered into a binding letter agreement (the &#8220;LOI&#8221;) with Sandwich Isles Trading Co. Inc.
+ a Hawaii corporation
+ whereby the Company proposed to buy all of the assets and business of the Sandwich Isles Trading Co. for 42
+750
+000 post split shares of the Company&#8217;s common stock
+ (the &#8220;Transaction&#8221;).&#160;&#160;&#160;&#160;The LOI also proposes to arrange a $500
+000 bridge loan for Sandwich Isles within seven days of the closing of the Transaction
+ which is to be converted to the Company&#8217;s common stock at $0.45 per share. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Effective January 10
+ 2013
+ John Kinross-Kennedy (the &#8220;
+
+The reports of the Former Accountant regarding our company&#8217;s financial statements for the fiscal years ended May&#160;31
+ 2011 and May 31
+ 2012 did not contain any adverse opinion or disclaimer of opinion and were not qualified or modified as to uncertainty
+ audit scope or accounting principles
+ except that the audit report of the Former Accountant on our company&#8217;s financial statements for the fiscal years ended May 31
+ 2011 and May 31
+ 2012 contained an explanatory paragraph which noted that there was substantial doubt about our company&#8217;s ability to continue as a going concern.
+
+During the fiscal years ended May 31
+ 2011 and May 31
+ 2012
+ and during the period from May 31
+ 2012 to January&#160;10
+ 2013
+ the date of resignation
+ (i) there were no disagreements with the Former Accountant on any matter of accounting principles or practices
+ financial statement disclosure or auditing scope or procedures
+ which disagreements
+ if not resolved to the satisfaction of the Former Accountant would have caused it to make reference to such disagreement in its reports; and (ii) there were no reportable events as defined in Item 304(a)(l)(v) of Regulation S-K.
+
+
+
+
+
+Effective January 10
+ 2013
+ our board engaged Anton &amp; Chia
+ LLP (&#8220;
+
+During our company&#8217;s most recent fiscal year and through the interim periods preceding the engagement of A&amp;C
+ our company (a) has not engaged A&amp;C as either the principal accountant to audit our company&#8217;s financial statements
+ or as an independent accountant to audit a significant subsidiary of our company and on whom the principal accountant is expected to express reliance in its report; and (b) has not consulted with A&amp;C regarding (i) the application of accounting principles to a specific transaction
+ either completed or proposed
+ or the type of audit opinion that might be rendered on our company&#8217;s financial statements
+ and no written report or oral advice was provided to our company by A&amp;C concluding there was an important factor to be considered by our company in reaching a decision as to an accounting
+ auditing or financial reporting issue; or (ii) any matter that was either the subject of a disagreement
+ as that term is defined in Item 304(a)(l)(iv) of Regulation S-K or a reportable event
+ as that term is described in Item 304(a)(l)(v) of Regulation S-K.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We maintain disclosure controls and procedures that are designed to ensure that information required to be disclosed in our Exchange Act reports is recorded
+ processed
+ summarized and reported within the time periods specified in the SEC&#8217;s rules and forms and that such information is accumulated and communicated to our management
+ including our principal executive and principal financial officer
+ as appropriate
+ to allow for timely decisions regarding required disclosure. In designing and evaluating the disclosure controls and procedures
+ management recognizes that any controls and procedures
+ no matter how well designed and operated
+ can provide only reasonable assurance of achieving the desired control objectives
+ and management is required to apply its judgment in evaluating the cost-benefit relationship of possible controls and procedures. Our disclosure controls and procedures were designed to provide reasonable assurance that the controls and procedures would meet their objectives. As required by SEC Rule 13a-15(b)
+ our management carried out an evaluation
+ with the participation of our principal executive and principal financial officer
+ of the effectiveness of the design and operation of our disclosure controls and procedures as of the end of the period covered by this report. Based on the foregoing
+ our principal executive and principal financial officer concluded that our disclosure controls and procedures were effective at the reasonable assurance level.
+
+
+
+Management is responsible for establishing and maintaining adequate internal control over our financial reporting. In order to evaluate the effectiveness of internal control over financial reporting
+ as required by Section 404 of the Sarbanes-Oxley Act
+ management has conducted an assessment
+ including testing
+ using the criteria in Internal Control &#8212; Integrated Framework
+&#8221;). Our system of internal control over financial reporting is designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. Because of its inherent limitations
+ internal control over financial reporting may not prevent or detect misstatements. Management has used the framework set forth in the report entitled Internal Control-Integrated Framework published by the Committee of Sponsoring Organizations of the Treadway Commission
+ known as COSO
+ to evaluate the effectiveness of our internal control over financial reporting. Based on this assessment
+ management has concluded that our internal control over financial reporting was effective as of May 31
+ 2013. This annual report does not include an attestation report of our independent registered public accounting firm regarding internal control over financial reporting. Our internal control over financial reporting was not subject to attestation by our independent registered public accounting firm pursuant to temporary rules of the SEC that permit us to provide only management&#8217;s report in this annual report.
+
+
+
+There has been no change in our internal controls over financial reporting during our most recent fiscal quarter that has materially affected
+ or is reasonably likely to materially affect
+ our internal controls over financial reporting.
+
+
+
+On June 4
+ 2013 we appointed Richenda Rowe as our Chief Executive Officer
+ Chief Financial Officer and Director.
+
+Also on June 4
+ 2013 Dennis Kjeldsen resigned as our Chief Executive Officer
+ Chief Financial Officer and Director.&#160;&#160;The resignation was not as a result of any disagreement with our company operations
+ policies or practices. Ms. Rowe is now our sole director and officer.
+
+Richenda Rowe graduated in 2002 with a Double Diploma in Sports and Therapeutic Massage from Wellpark College of Natural Therapies in New Zealand. Ms. Rowe founded Real Balance Sport &amp; Remedial Massage in 2003
+ a sports clinic located in Auckland
+ NZ
+ where she currently operates and works as a therapist.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 10. &#160;DIRECTORS
+ EXECUTIVE OFFICERS AND 
+
+
+
+As at the date of this report
+ our directors and executive officers
+ their ages
+ positions held
+ and duration of such
+ are as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+President
+ Chief Executive Officer
+ Chief Financial Officer
+ Secretary and Director
+
+
+
+
+
+June 4
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+Replaced Dennis Kjeldsen who resigned as a director and officer on June 4
+ 2013. Mr. Kjeldsen was first appointed a director and executive officer on October 4
+ 2010.
+
+
+
+
+
+
+
+
+Richenda Rowe graduated in 2002 with a Double Diploma in Sports and Therapeutic Massage from Wellpark College of Natural Therapies in New Zealand. Ms. Rowe founded Real Balance Sport &amp; Remedial Massage in 2003
+ a sports clinic located in Auckland
+ NZ
+ where she currently operates and works as a therapist.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our board&#8217;s primary responsibilities is be to supervise the management of our company
+ to establish an appropriate corporate governance system
+ and to set a tone of high professional and ethical standards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+choosing
+ assessing and compensating the president
+ secretary and treasurer of our company
+ approving the compensation of all executive officers and ensuring that an orderly management succession plan exists;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reviewing and approving our company&#8217;s strategic plan
+ operating plan
+ capital budget and financial goals
+ and reviewing its performance against those plans;
+
+
+
+
+
+
+
+
+
+adopting a code of conduct and a disclosure policy for our company
+ and monitoring performance against those policies;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+approving any major changes to our company&#8217;s capital structure
+ including significant investments or financing arrangements; and
+
+
+
+
+
+
+
+
+
+reviewing and approving any other issues which
+ in the view of the board or management
+ may require board scrutiny.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+being subject to any order
+ judgment
+ or decree
+ not subsequently reversed
+ suspended or vacated
+ of any court of competent jurisdiction
+ permanently or temporarily enjoining
+ barring
+ suspending or otherwise limiting his involvement in any type of business
+ securities or banking activities; or
+
+
+
+
+
+
+
+
+
+
+
+being found by a court of competent jurisdiction (in a civil action)
+ the Securities and Exchange Commission or the Commodity Futures Trading Commission to have violated a federal or state securities or commodities law
+ and the judgment has not been reversed
+ suspended
+ or vacated.
+
+
+
+
+
+
+Securities Exchange Act
+
+ and persons who own more than 10% of our common stock
+ to file reports regarding ownership of
+ and transactions in
+ our securities with the Securities and Exchange Commission and to provide us with copies of those filings.&#160;&#160;We believe that during the fiscal year ended May 31
+ 2013
+ all filing requirements applicable to its officers
+ directors and greater than 10% beneficial holders were complied with.
+
+
+
+We have not yet adopted a code of ethics that applies to our principal executive officer
+ principal financial officer
+ principal accounting officer or controller or persons performing similar functions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As of the date of this annual report
+ we did not effect any material changes to the procedures by which our shareholders may recommend nominees to our board of directors. Our board of directors does not have a policy with regards to the consideration of any director candidates recommended by our shareholders. Our board of directors has determined that it is in the best position to evaluate our company&#8217;s requirements as well as the qualifications of each candidate when the board considers a nominee for a position on our board of directors. If shareholders wish to recommend candidates directly to our board
+ they may do so by sending communications to the president of our company at the address on the cover of this annual report.
+
+
+
+In addition to having no nominating committee for this purpose
+ we currently have no specific audit committee and no audit committee financial expert.&#160;&#160;Based on the fact that our current business affairs are simple
+ any such committees are excessive and beyond the scope of our business and needs.
+
+Our board of directors has determined that it does not have an audit committee member that qualifies as an &#8220;audit committee financial expert&#8221; as defined in Item 407(d)(5)(ii) of Regulation S-K. We believe that the audit committee is capable of analyzing and evaluating our financial statements and understanding internal controls and procedures for financial reporting. In addition
+ we believe that retaining an independent director who would qualify as an &#8220;audit committee financial expert&#8221; would be overly costly and burdensome and is not warranted in our circumstances given the early stages of our development and the fact that we have not generated revenues to date.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+our most highly compensated executive officers who were serving as executive officers at the end of the year ended May 31
+ 2013; and
+
+
+
+
+
+
+
+up to two additional individuals for whom disclosure would have been provided under (b) but for the fact that the individual was not serving as our executive officer at the end of the most recently completed financial year
+ who we will collectively refer to as the named executive officers
+ for our years ended May&#160;31
+ 2013
+ 2012 and 2011
+ are set out in the following summary compensation table:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+former President
+ Chief Executive Officer
+ Chief Financial Officer and Secretary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+President
+ Chief Executive Officer
+ Chief Financial Officer and Secretary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+resident
+fficer
+nception to June 4
+ 2013.
+
+
+
+
+
+
+
+
+
+
+since June 4
+ 2013.
+
+
+
+
+
+
+There are no arrangements or plans in which we provide pension
+ retirement or similar benefits for directors or executive officers. Our directors and executive officers may receive stock options at the discretion of our board of directors in the future. We do not have any material bonus or profit sharing plans pursuant to which cash or non-cash compensation is or may be paid to our directors or executive officers
+ except that stock options may be granted at the discretion of our board of directors from time to time. We have no plans or arrangements in respect of remuneration received or that may be received by our executive officers to compensate such officers in the event of termination of employment (as a result of resignation
+ retirement
+ change of control) or a change of responsibilities following a change of control.
+
+
+
+As at May 31
+ 2013
+ we had not adopted any equity compensation plan and no stock
+ options
+ or other equity securities were awarded to our sole executive officer.
+
+Aggregated Options Exercised in the Year Ended May 31
+ 2013 and Year End Option Values
+
+There were no stock options exercised during the year ended May 31
+ 2013.
+
+
+
+We did not reprice any options previously granted during the year ended May 31
+ 2013.
+
+
+
+
+
+
+
+We presently do not have any employment agreements or other compensation arrangements with Richenda Rowe. Generally
+ Ms. Rowe provides her services on a part-time basis without compensation. Ms. Rowe has agreed not to charge any management fees during the current period in which we are developing our business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As of August 16
+ 2013
+ there were 4
+766
+698 shares of our common stock outstanding. The following table sets forth certain information known to us with respect to the beneficial ownership of our common stock as of that date by (i)&#160;each of our directors
+ (ii) each of our executive officers
+ and (iii) all of our directors and executive officers as a group. Except as set forth in the table below
+ there is no person known to us who beneficially owns more than 5% of our common stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ponsonby
+ Auckland
+Queensland
+ NZ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wallaceburg
+ ON N8A 4Z5
+
+
+2
+866
+698
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+866
+698
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Under Rule 13d-3
+ a beneficial owner of a security includes any person who
+ directly or indirectly
+ through any contract
+ arrangement
+ understanding
+ relationship
+ or otherwise has or shares: (i) voting power
+ which includes the power to vote
+ or to direct the voting of shares; and (ii) investment power
+ which includes the power to dispose or direct the disposition of shares. Certain shares may be deemed to be beneficially owned by more than one person (if
+ for example
+ persons share the power to vote or the power to dispose of the shares). In addition
+ shares are deemed to be beneficially owned by a person if the person has the right to acquire the shares (for example
+ upon exercise of an option) within 60 days of the date as of which the information is provided. In computing the percentage ownership of any person
+ the amount of shares outstanding is deemed to include the amount of shares beneficially owned by such person (and only such person) by reason of these acquisition rights.
+
+
+
+
+
+
+The percentage of class is based on 4
+766
+698 shares of common stock issued and outstanding as of August 16
+ 2013.
+
+
+
+
+
+
+
+
+SACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+
+None of the following parties has
+ since commencement of our fiscal year ended May 31
+ 2013
+ had any material interest
+ direct or indirect
+ in any transaction with us or in any presently proposed transaction that has or will materially affect us
+ in which our company is a participant and the amount involved exceeds the lesser of $120
+000 or 1% of the average of our company&#8217;s total assets for the last three completed financial years:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Any person who beneficially owns
+ directly or indirectly
+ shares carrying more than 5% of the voting rights attached to our outstanding shares of common stock;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Any member of the immediate family (including spouse
+ parents
+ children
+ siblings and in- laws) of any of the foregoing persons.
+
+
+
+
+
+
+We currently have one director
+ consisting of Richenda Rowe.&#160;&#160;We have determined that we do not have an independent director
+ as that term is used in the Nasdaq Marketplace Rules
+ as Ms. Rowe is our president
+ secretary and treasurer.
+
+
+
+
+
+The aggregate fees billed for the two most recently completed fiscal periods ended May 31
+ 2013 and May&#160;31
+ 2012 for professional services rendered by Anton &amp; Chia and John Kinross-Kennedy
+ CPA
+ for the audit of our annual consolidated financial statements
+ quarterly reviews of our interim consolidated financial statements and services normally provided by the independent accountant in connection with statutory and regulatory filings or engagements for these fiscal periods were as follows:
+
+
+
+
+
+
+
+May 31
+
+
+
+
+
+
+May 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+800
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+800
+
+
+
+
+In the above table
+ &#8220;audit fees&#8221; are fees billed by our company&#8217;s external auditor for services provided in auditing our company&#8217;s annual financial statements for the subject year. &#8220;Audit-related fees&#8221; are fees not included in audit fees that are billed by the auditor for assurance and related services that are reasonably related to the performance of the audit review of our company&#8217;s financial statements. &#8220;Tax fees&#8221; are fees billed by the auditor for professional services rendered for tax compliance
+ tax advice and tax planning. &#8220;All other fees&#8221; are fees billed by the auditor for products and services not included in the foregoing categories.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITEM 15. &#160;EXHIBITS
+ FINANCIAL STATEMENT SCH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Articles of Incorporation (filed as an exhibit to our Form S-1 Registration Statement
+ filed on August 22
+ 2011)
+
+
+
+
+
+
+Bylaws (filed as an exhibit to our Form S-1 Registration Statement
+ filed on August 22
+ 2011)
+
+
+
+
+
+
+Binding Letter agreement dated June 5
+ 2013 with Sandwich Isles Trading Company
+(filed as an exhibit to our Form 8-K Current Report
+ filed on June 11
+ 2013)
+
+
+
+
+
+
+Letter of John Kinross-Kennedy (filed as an exhibit to our Form 8-K Current report
+ filed on January 14
+ 2013)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chief Executive Officer
+ Chief Financial Officer and
+
+
+
+
+
+
+
+
+
+
+
+(Principal Executive Officer
+ Principal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+August 29
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ CERTIFICATION 302
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I
+&#160;Richenda Rowe
+ certify that:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+
+
+
+
+
+
+
+
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under my supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+
+
+
+
+
+
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+
+
+
+
+
+
+Evaluated the effectiveness of the registrant's disclosure controls and procedures and presented in this report my conclusions about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on such evaluation; and
+
+
+
+
+
+
+
+Disclosed in this report any change in the registrant's internal control over financial reporting that occurred during the registrant's most recent fiscal quarter (the registrant's fourth fiscal quarter in the case of an annual report) that has materially affected
+ or is reasonably likely to materially affect
+ the registrant's internal control over financial reporting;
+
+
+
+
+
+
+
+
+
+I have disclosed
+ based on my most recent evaluation of internal control over financial reporting
+ to the registrant's auditors and the audit committee of the registrant's board of directors (or persons performing the equivalent functions):
+
+
+
+
+
+
+
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant's ability to record
+ process
+ summarize and report financial information; and
+
+
+
+
+
+
+
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant's internal control over financial reporting.
+
+
+
+
+Date:&#160;August 29
+ 2013
+
+
+
+
+Chief Executive Officer
+ Chief Financial Officer and director
+(Principal Executive Officer
+ Principal Accounting Officer and Principal Financial Officer)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ CERTIFICATION 906
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+18 U.S.C. SECTION 1350
+ AS ADOPTED PURSUANT TO
+
+
+The undersigned hereby certifies
+ pursuant to Section 906 of the 
+ that:
+
+
+
+
+
+
+
+
+
+the annual report on Form 10-K of TeamUpSport Inc. for the period ended May 31
+ 2013 fully complies with the requirements of section 13(a) or 15(d) of the 
+
+
+
+
+
+
+
+
+
+
+
+information contained in the Form 10-K fairly presents
+ in all material respects
+ the financial condition and results of operations of TeamUpSport Inc.
+
+
+
+
+
+
+
+
+
+
+
+Dated: August 29
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chief Executive Officer
+ Chief Financial Officer and director
+
+
+
+
+
+(Principal Executive Officer
+ Principal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ GRAPHIC 1
+
+begin 644 antonchia_logo.jpg
+M_]C_X``02D9)1@`!`0$`8`!@``#_X0!F17AI9@``24DJ``@````$`!H!!0`!
+M````/@```!L!!0`!````1@```@!`P`!`````@```#$!`@`0````3@``````
+M``!@`````0```&`````!````4&%I;G0N3D54('8U+C`P`/_;`$,``@$!`0$!
+M`@$!`0(`@(!`,`@(!00$`P0&!08&!@4&!@8'0@&!PD'!@8(P@)@H*
+M@H&`L
+
+
+
+
+
+
+`P$`
+
+;332*B(I+
+QP`!U)-$TT5O$T\\JHB*6=W;`4#DDD]!
+M7Y!?\%5O^L.N_&?7-0_9[_9S\0RV7@RSE:#6-;M)DFN.#AE5AR+8'H!_K.
+MI^4@5X^=9WA
+DPOM:NK?PQ6[?Z)=7T];(^ZX`X`SGQ!SGZE@O=A&SJ5&O=A'
+M]9/[
+
+
+M2%($JZC$L%XJY&2L\0&3C/WU?/M7Z7_L??\`!0K]G7]M#2MGPX\0M8Z_#%OO
+
+
+
+
+
+
+
+
+M%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4
+M444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!11
+M10`4444`%%%%`!1110`4444`%%%%`'PM_P`%POVS;[X'?!FU^`'@/5C;^(/&
+
+
+
+
+M@'Q5U+]G/]AW]B;P%^Q=^T-\+O$WB/7/'
+2^-?&]EX7\1QZ;+;3
+X^SPSNR
+M750`HCXY@SWK')*
+?K$L3-I1I+FN[VYMH)V3?Q:[;)G?X@8ZM_9M+*
+
+]A<,\TRM@U452K3?M(<O
+W9_$M8K?=6O=L_-
+
+99-*UBRNY
+
+OB5\+]5;0_B9\
+<6OS1^WY?Q#D&;S<
+#B
+
+
+
+
+MINL=4B\G5]'GD!N=%U!`//LIP.CH2
+'HZ
+CCAA7EOP
+BCF_X+6?M$PS1JZ/\
+
+MN^'&F1Y3PU=R2$+?6R=(TW
+
+
+
+
+`)`3P
+#P;_@CI_R
+
+13P6R6\\1QT*2Q2(1ZJ:^@&
+
+MKO7O%7[+=S\=]?\`AY\0_`:ZA=7A\+VUM=)]EN(O/D?;CS?W3@@95H&(\Q#7
+
+M.U?5G_!.KX6_#WXW?!_]J+X0_%CPC9:]X:\1_M
+
+
+M[1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%
+
+
+
+/V8_B'X'6TT.75;:[\3Z4B0W4
+
+
+
+
+
+
+
+^&7
+@&21T/I
+
+
+
+
+Y(!^A:VPV
+PV
+
+
+
+MY&`1CO6-'-
+
+M.
+
+
+
+
+L@&TA
+
+6^:4
+
+
+MO`?Q0NO@G\
+OA7XM^)'BK2XDEUW3?!FGK
+
+
+7E-$I8L[.
+*%SNW+CK6$
+
+MA:
+
+M7UI%`$O(7B.)+=XW8!)5/!!..^2=SXA_'_`
+(?#;]GVZ_:.UG3[^71;30H
+
+X)9!G4:\:
+J
+
+M#PDOF:@L&3(\*F7
+
+
+
+
+
+!LYR0!65\`?\`@H[X'_:$UB*#P]\_B+I6C
+MV;GQ
+
+
+
+'
+
+
+
+M%^&M44-#I=Q.I
+
+
+
+MY?\`@@5X)N?$/[8&J^)51Q!H_@Z[
+LB'&UI9(HEP1T.&;'T/I71PXI2SW#*.
+
+
+M\:+#XW:!_P`'&OPV_82T+]L#XTVGPG\5?#2X\1:MX6A^)NH8DNXH;X[5F+F5
+
+C&ZU&VNY+%[9N5.8W+2I\LA4,<,Q`_3?QMJ_B/0?=_K/A'PB^O:
+
+^I?
+
+
+
+99V8J1G:N%!)(`S7._MW?M-6_[(/[*/C#X[16/V[5
+M=.L%M?VDCE]2UFZD6VL+11W
+
+6?\&WG[:'QX^,/P9^)7[%_PVCXGO;[XU?`GQ
+
+
+'B+]EOX\Z3YNEZW;[K#4X8U-SI
+
+MBO-3\;VK^%/$]MK!N_[3TFUL(K2W8AOWD.U(E41ORH``R`#7Z#44`?-W_!3#
+
+
+=?U&!A/=E0B
+
+
+
+
+:C'DT3?)9-_\$\/AM)\//V5;75I_%&FZK/XOO[S
+MQ-//HI;[)$UXWF&'<`=J*%4Y`^8-Q7$_P#!.<D_\$RAD_\`+MXD_P#2N[KM
+
+
+
+LMT5A61
+
+
+=V
+
+
+
+
+
+MM(X8=)O-8AO6EB%S;D2AX@``22
+
+
+
+
+
+
+;:W2#B%79%RSGIZX*M]@6-
+MC::98PZ;I]NL
+SR[A^AEE2KI65:M5:A.-10A.-.*7/!RCS2<')Q4G9*-[-V/
+
+
+-Y'&7Y]=N?Q
+
+MV=.E-XOEGSZ5:M6'*FYRER14N11C;EBF]6[W5+7?^4NVA?\`9#+C_P!.9KY7
+
+2
+
+
+
+M+\+Z'\?_`-CG1?!&O#5-&M+;5H=*U
+'/VNW728%CE_X$H#?C75_\%1/^25_#
+
+
+
+
+
+M6
+
+
+MH
+
+M()'5()Y(\#;+%@D=`2H/0U
+
+M`
+
+M9!G`R3G.%[*V+I5
+
+
+
+
+
+M[\.IVE@L
+
+MGV
+
+
+!/#/A&UTOP=#?W
+
+MSUTW/G
+
+
+
+
+
+M
+
+
+
+
+
+
+MV?[WX
+
+
+
+M_P`&C^S/!'C7#\6\%T:$Y?[1A4J=1=;15H3])123?\RD5:ZCX(?$V?X*_&GP
+
+
+
+MO&]N96[:_C;\2X'Q&.\
+
+
+
+MV=DG+XFHKZ(U+_@FW\0O#&;SQ]^TQ\#]TY#F34;CXCPW&%'4K%C2.?]D#)
+
+
+
+
+M:Q(%U$R*UNLL18LF0#O&TG//2OMC_A1?_!:G_H_[X-_^&1N/_EE7R3\7O!W[
+M8/B;_@X
+
+M[U^M'\4'X_\`_!*/1/C)X=_X.8_VI='^/_C_`$7Q1XMA^%FFC5M;\/Z$VFVE
+MP2NEE-ENTDA3:A53\YR5)[UZ3_P=\?\`*+30/^RTZ#_Z)O*YW]DCP)^UY\
+O
+
+MOG`!:.#!X-?8GA#]HWQ-;?LXI\2[K]EKXG1:IID$-H_@B71[4:M/
+(DR8U^T
+
+
+
+MNP6SV(@+BVTW3K6X@GD\R.WLHX5D+@F0]^0#\^OB1^WE\?V9?^#A3X?_MW
+
+3]ZO
+
+M6NF^*)-=%L]OJTT2F
+
+M4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1
+M110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`4444`%%%
+M%`!1110`4444`%%%%`!1110`4444`%%%%`!1110`5\
+
+
+1&\
+
+
+
+
+
+
+
+MEN=8:9E'LL
+
+
+KF)@QTVRB-E9D@YPQ#
+
+
+MH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@
+M`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`BBB@`HHHH`****`
+
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_GeneralAndAdministrativeExpenseAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProfessionalFees'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OtherGeneralAndAdministrativeExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_GeneralAndAdministrativeExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxExpenseBenefit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerShareBasicAndDiluted'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_WeightedAverageNumberOfSharesOutstandingBasic'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DisclosureTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LegalCostsPolicyTextBlock'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueMeasurementPolicyPolicyTextBlock'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TableTextBlockSupplementAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TableTextBlockSupplementAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfComponentsOfIncomeTaxExpenseBenefitTableTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockParOrStatedValuePerShare'
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxExpenseBenefit'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TableTextBlockSupplementAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfAccountsNotesLoansAndFinancingReceivableTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncreaseDecreaseInAccruedLiabilities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInOperatingActivities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlans'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromIssuanceOfCommonStock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromPaymentsForLongTermLoansForRelatedParties'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInFinancingActivities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsAtCarryingValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsAtCarryingValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DisclosureTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureAndSignificantAccountingPoliciesTextBlock'
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DisclosureTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityNoteDisclosureTextBlock'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DisclosureTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LoansNotesTradeAndOtherReceivablesDisclosureTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TaxCreditCarryforwardValuationAllowance'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DeferredTaxAssetsValuationAllowance'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DeferredTaxAssetsValuationAllowanceCurrent'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+
+M;VL-D-O;G1E;G0M5'EP93H@;75L=&EP87)T+W)E;&%T960[(&)O=6YD87)Y
+M/2(M+2TM/5].97AT4&%R=%]A,#8Q9#@P8U\Y-F,X7S0X8F9?83$P8U]B-SAE
+M-V%E8CDP9#0B#0H-E1H:7
+@9&]C=6UE;G0@:7
+@82!3:6YG;&4@1FEL92!7
+
+
+
+#8Q9#@P8U\Y-F
+X7S0X8F9?83$P8U]B
+
+
+
+
+
+
+
+T0B5V]R:W-H965T
+&-E;%=O<FMS:&5E=#X-B`@
+
+
+
+#
+N:'1M
+M;(O/@T*(`@/]X.D5X8V5L5V]R:W-H965T/@T*(`@/'@Z17AC96Q7;W)K
+
+
+
+
+
+M971S+U-H965T
+
+
+
+
+
+
+
+
+
+#I.86UE/@T*(`@(#QX
+
+O4VAE970Q
+2YH
+
+
+\+W@Z
+
+
+M=&EO;E]A;F1?3F%T=7)E7V]F7T\Q/]X.DYA;64^#0H@(`@/'@Z5V]R:W-H
+
+
+
+
+M
+#I.86UE/C)?0F%S
+
+
+
+M
+
+
+
+
+
+O4VAE970R
+YH=&UL(B\^#0H@(`\
+&-E;%=O<FMS:&5E=#X-B`@
+
+M971S+U-H965T
+
+
+
+C
+
+
+
+
+
+
+
+
+
+
+
+
+M96YT871I;VY?86YD7U-U
+3
+
+
+T0B5V]R:W-H
+
+
+
+O4VAE970S
+2YH=&UL(B\^
+&-E;%=O<FMS:&5E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+M
+
+
+
+^+RH@1&\@3F]T(%)E;6]V92!4:&ES($-O;6UE;G0@*B\\
+
+
+
+
+
+
+M/3-$
+3XQ
+B!-;VYT:'
+
+
+
+]
+
+
+
+]
+
+
+]
+T1P;!V86QI
+M9VX],T1T;W`^1&]C=6UE;G0@5'EP93PO=&0^#0H@(`@(`@(#QT9!C;&%S
+
+
+]
+T1P
+M;!V86QI9VX],T1T;W`^1&]C=6UE;G0@4&5R:6]D($5N9!$871E/]T9#X-
+MB`@(`@(`@/'1D(&-L87-S/3-$=&5X=#Y-87D@
+
+]
+M
+
+
+]
+
+
+
+
+
+
+
+
+T1T;W`^
+
+
+3PO=&0^#0H@
+
+
+M
+
+
+
+
+
+
+
+
+]
+
+M8W5S/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#XR
+#$S/'-P86X^
+
+
+MB`@(`\+W1A8FQE/@T*(`\+V)O9'D^#0H\+VAT;6P^#0H-BTM+2TM+3U?
+
+60X
+&-?.39C.%\T.&)F7V$Q
+
+&0T
+M#0I#;VYT96YT+4QO8V%T:6]N.B!F:6QE.B\O+T
+Z+V$P-C%D.#!C7SDV8SA?
+M-#AB9E]A
+
+
+
+
+M=!I9#TS1$E$,$501T%%/@T*(`@(`@/'1R/@T*(`@(`@(`\=&@@8VQA
+
+]
+
+M/'1H(&-L87-S/3-$=&@^36%Y(#
+
+2P@
+C`Q
+
+
+
+]
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+]
+T1N=6UP/C$L
+
+
+
+
+]
+
+
+]
+T1N=6T^*#(X+#4T
+
+
+
+]
+
+
+
+]
+T1N=6UP/B0@
+C4L
+#@X
+
+
+#8Q
+M9#@P8U\Y-F
+
+
+M(&-O;G1E;G0]
+
+M04
+
+]
+T1T:#Y-87D@
+S$L(#(P
+M
+3
+\8G(^/]T:#X-B`@(`@(`@/'1H(&-L87-S/3-$=&@^36%Y(#
+
+
+]
+
+
+
+
+]
+T1N=6UP
+M/B0@
+
+
+#`L
+M
+
+M;7`^
+3`L
+#`P+#`P
+
+]
+T1P
+
+@27-S=65D
+
+
+
+]
+
+
+
+]
+T1N=6UP/B0@
+
+]
+M
+
+
+]
+T1N=6UP/C8U+#`P
+
+
+
+
+]
+M
+
+
+]
+T1N=6UP
+
+
+60X
+&-?.39C.%\T.&)F7V$Q
+
+M96(Y
+&0T#0I#;VYT96YT+4QO8V%T:6]N.B!F:6QE.B\O+T
+Z+V$P-C%D.#!C
+M7SDV8SA?-#AB9E]A
+
+
+
+
+
+
+]
+
+
+M;'-P86X]
+T0Q/C
+
+
+M
+
+
+T1T;W`^/'-T
+
+]
+
+
+]
+
+
+]
+
+]
+T1N=6UP/B0@
+
+
+
+
+3D\
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+]
+T1R;SX-B`@(`@
+
+]
+
+
+
+
+M:&%R97
+
+
+]
+
+60X
+&-?.39C.%\T
+M.&)F7V$Q
+
+&0T#0I#;VYT96YT+4QO8V%T:6]N.B!F:6QE
+M.B\O+T
+Z+V$P-C%D.#!C7SDV8SA?-#AB9E]A
+
+
+
+
+
+
+]
+
+G($5Q
+
+
+
+]
+
+
+
+M86X]
+
+
+
+]
+
+
+]
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+M9FX^/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$;G5M/B0@*#0L-#DX*3QS
+
+
+#$Q/]T9#X-B`@(`@(`@/'1D(&-L
+
+
+
+
+
+
+
+
+
+
+
+S
+
+
+
+
+]
+T1N=6UP/C$T
+M+#
+S
+
+
+]
+T1F
+
+
+
+
+
+
+
+
+
+
+
+
+
+@:7-S
+
+
+2PY
+M
+
+
+
+]
+M
+
+]
+M
+
+
+
+
+
+@:7-S=65D
+
+]
+T1N=6UP/C$L.3`P
+M+#`P
+
+
+]
+
+
+
+
+
+
+I/]T9#X-B`@(`@(`@/'1D
+
+
+M(&-L87-S/3-$9FX^/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#X\
+
+
+]
+
+]
+T1P
+
+
+
+M
+
+
+]
+
+]
+
+]
+
+
+]
+
+
+]
+
+]
+M
+
+]
+
+
+
+
+
+
+]
+
+]
+
+]
+T1T97AT/CQS
+
+
+
+]
+
+
+
+]
+
+
+]
+
+
+
+@870@36%Y+B`S
+2P@
+M
+C`Q
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+T1I
+
+3`@=F%L:6=N/3-$=&]P/D-O
+M;6UO;B!S:&%R97
+
+M(#(P
+
+
+
+#$Q+CPO=&0^#0H@(`@(`\+W1R/@T*
+
+60X
+&-?.39C.%\T
+M.&)F7V$Q
+
+
+O4VAE970P-BYH=&UL
+
+
+M87-C:6DB
+M#0H-CQH=&UL/@T*(`\:&5A9#X-B`@(`\345402!H='1P+65Q=6EV/3-$
+
+
+
+
+
+
+T0Q(')O=W-P86X]
+
+
+
+
+]
+T1T:#Y-87D@
+S$L(#(P
+3(\8G(^
+M/]T:#X-B`@(`@(`@/'1H(&-L87-S/3-$=&@^36%Y(#
+
+
+
+
+
+
+
+
+#$I/'-P86X^
+
+M=65D($QI86)I;&ET:65S(AI;F-R96%S92]D96-R96%S92D\+W1D/@T*(`@
+
+]
+
+
+
+]
+
+
+M1FEN86YC:6YG($%C=&EV:71I97
+
+
+]
+
+
+
+
+S
+
+
+
+
+
+]
+
+
+]
+T1N=6UP/C$L
+
+]
+
+L-C
+
+
+
+]
+T1N=6T^
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+
+
+$5
+
+T0Q/C$R
+
+
+
+]
+
+]
+
+
+]
+
+T1M87)G:6XM=&]P.C!I;CMM87)G:6XM
+
+
+3`N
+
+M;CML:6YE+6AE:6=H=#HQ
+
+
+M;W1T;VTZ+C`P
+
+M;&4]
+
+
+M;W1T;VTZ
+3`N
+
+34E
+
+
+#%P=#ML:6YE
+
+
+
+C`Q
+X@5&AE($-O;7!A;GD@=V%S(&]R9V%N:7IE9!F;W(@
+
+
+
+
+
+M;&4Z+R\O0SHO83`V
+60X
+&-?.39C.%\T.&)F7V$Q
+
+&0T
+
+
+M
+
+
+2!R;W=S
+
+
+
+M86X]
+
+]
+T1R93X-
+
+]
+T1T97AT
+
+]
+
+
+
+M;W`Z
+
+
+
+
+
+
+M='1O;3HQ
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O
+M='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I9VAT.FYO
+
+M
+
+
+M;VTZ
+3`N
+
+34E.VUA
+
+
+#%P=#MT97AT+6%L
+
+
+
+
+M=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM
+M87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+S$L(#(P
+3
+@86YD
+M(#(P
+
+
+@
+
+
+M=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T
+M=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+T1M
+
+
+M
+3`N
+
+
+M;BUB;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+M
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN
+M+6)O='1O;3HN
+#`P
+
+
+
+
+
+M='1O;3HQ
+
+
+
+
+@86YD(&QI86)I;&ET:65S(&%T
+
+
+
+@9'5R:6YG
+
+
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+M;6%R9VEN+6)O='1O;3HQ
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[
+M;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+M)B
+
+
+
+
+
+&EN.VQI;F4M
+M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+M
+#`P
+
+
+
+M9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[
+M;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T
+M=&]M.BXP
+
+
+
+
+M;&4]
+
+
+M;W1T;VTZ
+3`N
+
+34E
+
+
+#%P=#MT97AT
+
+
+&EN
+
+
+
+
+
+
+M+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM
+M8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M='1O;3HQ
+
+
+#LF(S$V
+#LF
+M(S$V
+#LF(S$V
+#LF(S$V
+#LF(S$V
+#L@3&5V96P@
+
+
+
+M;W`Z
+
+
+
+C5I;CML:6YE+6AE:6=H=#IN
+
+
+
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#ML
+
+M8G-P.R9N8G-P.U5N;V)S97)V86)L92!I;G!U='
+
+M9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP
+M:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#MT97AT+6%L:6=N.FIU
+
+M06QL(&]F('1H92!#;VUP86YY)B
+
+M='
+
+
+&EN.VUA
+
+
+
+
+M9VEN+6)O='1O;3HQ
+
+L)B
+Q-#@[('=H:6-H(')E
+
+
+
+
+
+
+M:6YG(&%M;W5N='
+
+
+
+
+
+M+71H86XM;F]T)B
+
+M
+
+
+
+M;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH
+M96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+M
+
+
+@;F5T(&]P97)A=&EN9R!L
+
+
+M871I;VX@86QL;W=A;F-E(&]F(#$P
+
+M+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[
+M;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+
+TQ,TU
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[
+M;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M
+
+T1M
+
+
+M
+3`N
+
+
+M;BUB;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H
+
+
+M;BUT;W`Z
+
+
+3$M
+#0L($%M96YD;65N='
+@=&\@06-H:65V92!#
+
+3$M
+M
+#0I+B!!4U4@
+C`Q
+
+
+
+@87)E(&EN8VQU9&5D(&EN('1H
+
+
+
+
+
+M*2!4;W!I8R`X
+
+C`Q
+M
+
+
+34L(#(P
+3$N(%1H92!A
+
+
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#MT
+
+
+M
+
+3ML
+M:6YE+6AE:6=H=#IN;W)M86P[=&5X=UA=71O<W!A8V4Z;F]N93X\=3Y.;W0@
+
+M9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F
+M=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G
+M:6XM8F]T=&]M.BXP
+
+
+M
+
+3ML
+M:6YE+6AE:6=H=#IN;W)M86P[=&5X=UA=71O<W!A8V4Z;F]N93Y);B!&96)R
+
+
+
+M=6QA=&5D($]T:&5R($-O;7!R96AE;G-I=F4@*$%352`R
+#$S+3`R*2X@5&AI
+
+
+
+
+@
+
+
+
+@
+
+
+
+C`Q
+RTP
+B!W
+
+
+M;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH
+M96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+M
+
+
+M8F%S:7
+
+
+N(%1H92!A;65N
+M9&UE;G1S(&EN('1H:7
+
+@969F96-T:79E('!R;W-P96-T
+
+
+@
+M8F5G:6YN:6YG(&%F=&5R($1E8V5M8F5R(#$U+`R,#$S+!A;F0@:6YT97)I
+
+M9R!T:&4@969F96-T+!I9B!A;GDL(&%D;W!T:6]N(&]F($%352!.;RX@,C`Q
+M,RTP-R!W:6QL(&AA=F4@;VX@;W5R(&9I;F%N8VEA;!S=&%T96UE;G1S+B9N
+
+M:6X[;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G
+M:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I
+M;CMM87)G:6XM8F]T=&]M.BXP
+
+
+M)B
+
+
+M.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN
+M92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M
+M.BXP
+
+3
+L('1H
+
+3
+M
+
+
+
+
+
+
+M:65S('1H870@:&%V92!U;G)E8V]G;FEZ960@=&%X(&)E;F5F:71S('=H96X@
+
+
+
+
+
+M9R!T:&4@969F96-T+!I9B!A;GDL(&%D;W!T:6]N(&]F($%352!.;RX@,C`Q
+M,RTQ,2!W:6QL(&AA=F4@;VX@;W5R(&9I;F%N8VEA;!S=&%T96UE;G1S+B`F
+
+T1M87)G:6XM=&]P.C!I;CMM
+
+
+3`N
+
+M969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN.VUA
+
+
+&EN.VQI
+M;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O
+M;3HN
+#`P
+
+
+
+
+
+&EN.VUA
+
+
+
+M:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+M
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+M97
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN
+M+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+M(&9U;F0@:71S(&]P97)A=&EO;G
+@86YD(&)R:6YG(&ET(&EN=&\@9G5N8W1I
+
+
+
+
+
+N(%1H97)E
+
+M:6
+
+
+
+
+M9&1I=&EO;F%L(&9I;F%N8VEN9R!W:6QL(&)E(&%V86EL86)L92!T;R!T:&4@
+
+
+T1M87)G:6XM=&]P
+
+
+3`N
+'!T.VUA
+
+
+M
+
+
+
+M9FEN86YC:6%L('-T871E;65N='
+@9&\@;F]T(&=I=F4@969F96-T('1O(&%D
+
+
+
+
+M87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M
+M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M
+
+M+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[
+M;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+T1M87)G:6XM
+
+
+3`N
+'!T
+
+
+M;VTZ
+
+
+
+M($-O;7!A;GD@:7
+
+@9'5R:6YG
+
+
+
+
+Q-#8[
+
+N)FYB
+
+@
+
+#$N(%1H92!#;VUP86YY)B
+
+
+
+
+
+&EN
+
+
+
+M;W`Z
+
+
+
+@;F5T
+
+
+M97)A9V4@;G5M8F5R(&]F(&-O;6UO;B!S:&%R97
+
+
+
+
+
+
+
+T1M87)G:6XM=&]P.C!I;CMM87)G:6XM
+
+
+3`N
+
+M;CML:6YE+6AE:6=H=#HQ
+
+
+M;W1T;VTZ+C`P
+
+
+M('!O=&5N=&EA;&QY(&1I;'5T:79E('-E8W5R:71I97
+
+M87
+@;V8@36%Y(#
+
+
+M+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM
+M8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+M9W
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+
+@;W(@9&ER96-T
+
+
+M4&%R=%]A
+#8Q9#@P8U\Y-F
+
+
+
+
+
+
+N($]F9FEC97(@
+
+3XQ
+B!-;VYT:'
+
+Q
+
+
+]
+
+
+M9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP
+M:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+M969T.C
+
+M;VYE/B`\='(@86QI9VX]
+T1L969T/B`\=&0@=VED=&@]
+T0T
+34@=F%L:6=N
+
+Q
+
+
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+M
+
+
+M
+
+
+M
+
+3`N
+
+M+6AE:6=H=#HQ
+
+
+M+C`P
+
+T0R
+
+M
+
+
+T1B;W1T;VT@
+
+
+
+M97AT(#$N
+
+&EN(#$N
+
+M9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[
+M;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T
+M=&]M.BXP
+
+
+
+
+
+T1M87)G:6XM
+
+
+3`N
+'!T
+
+
+M;VTZ
+
+#%P=#MT97AT+6%L:6=N.F-E;G1E
+
+
+T1L969T
+M/B`\=&0@=VED=&@]
+T0T
+
+M9'1H.C
+Q
+
+M;W`Z
+
+
+M9'1H/3-$-B!V86QI9VX]
+
+
+
+
+M=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T
+M=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M9VEN+6)O='1O;3HQ
+
+
+M;&4]
+
+'!T.V)O
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+
+
+
+
+
+
+
+&EN
+
+3`N
+
+M:6=H=#HQ
+
+
+M
+
+T0R('9A
+
+M:6YD;W=T97AT(#$N
+
+M;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM
+M;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM
+M87)G:6XM8F]T=&]M.BXP
+
+
+M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O;&ED
+
+
+
+
+T1M87)G:6XM=&]P.C!I
+
+
+3`N
+
+M;BUL969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[=&5X
+
+T1B;W1T;VT@
+
+T0G=VED=&@Z
+S$Q+C
+
+
+
+
+&EN
+M.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O
+M='1O;3HN
+#`P
+
+
+
+
+
+T1M87)G:6XM=&]P.C!I;CMM87)G:6XM
+
+
+3`N
+
+M;CML:6YE+6AE:6=H=#HQ
+
+
+M;W1T;VTZ+C`P
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#HC
+
+
+
+
+
+&EN.VQI
+M;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O
+M;3HN
+#`P
+
+
+M
+T0W
+2!V86QI9VX]
+
+T0G=VED=&@Z-3
+N
+S5P=#MB
+M;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M
+
+
+
+
+
+M93XQ+#$X
+
+
+'!T.V)A8VMG
+
+M;6%R9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O
+M;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+T1M87)G:6XM=&]P.C!I
+
+
+3`N
+
+M;BUL969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C
+
+
+
+
+M9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R
+M9VEN+6)O='1O;3HN
+#`P
+
+
+M=&0@=VED=&@]
+T0W
+2!V86QI9VX]
+
+T0G=VED=&@Z
+M-3
+N
+S5P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D
+
+
+
+
+
+
+
+P
+
+
+M
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I
+
+
+
+T1B;W)D97(Z;F]N93X\+W1D/B`\=&0@=VED=&@]
+T0V('-T
+
+T1B;W)D
+M97(Z;F]N93X\+W1D/B`\=&0@=VED=&@]
+T0W
+
+
+&EN
+
+
+N
+
+
+
+M
+
+
+
+
+
+
+]
+
+T1)1#!%3$4^#0H@(`@(`\='(^#0H@
+
+
+
+]
+T1T:#Y-87D@
+S$L(#(P
+3
+
+
+
+
+
+
+
+
+M:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+M
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+M;64@=&%X97
+
+@:6X@
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+T1M87)G:6XM;&5F=#HS
+
+M/'1R(&%L:6=N/3-$;&5F=#X@/'1D('=I9'1H/3-$-#$U('9A;&EG;CTS1&)O
+
+
+&EN)SX@/'`@
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#ML
+
+T0V('9A;&EG;CTS1&)O='1O;2!S='EL
+
+
+
+M9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F
+M=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G
+M:6XM8F]T=&]M.BXP
+
+
+M
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I
+
+3(@=&\@
+M
+#4O
+S$O
+C`Q
+
+
+
+M
+
+
+T1M87)G:6XM=&]P.C!I;CMM87)G:6XM
+
+
+3`N
+
+M;CML:6YE+6AE:6=H=#HQ
+
+
+M;W1T;VTZ+C`P
+
+
+
+
+M;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH
+M96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+M
+
+M
+#8O
+#$O
+C`Q
+2!T;R`P-2\S
+2\R
+#$R/]P/B`\+W1D/B`\=&0@=VED=&@]
+M,T0V('9A;&EG;CTS1&)O='1O;2!S='EL93TS1=W:61T:#HT+C1P=#MB;W)D
+
+M;6%R9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O
+M;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+M/'1R(&%L:6=N/3-$;&5F=#X@/'1D('=I9'1H/3-$-#$U('9A;&EG;CTS1&)O
+
+
+
+M:61T:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB
+
+
+
+
+
+
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+
+
+T1R
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+
+
+
+
+
+
+M9#X@/'1D('=I9'1H/3-$-B!V86QI9VX]
+
+T0G=VED
+
+
+
+
+M87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M
+M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+T0V('9A
+
+M:6YD;W=T97AT(#$N
+
+
+
+M='1O;3HQ
+
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+
+
+T0G
+
+
+
+
+M;BUR:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+M;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O;&ED('=I;F1O
+
+
+2XP
+
+
+
+
+
+RXS
+
+
+M
+
+
+
+
+
+M:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'!T.V)O
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+
+
+
+M97AT(#$N
+
+
+
+
+
+
+M9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP
+M:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+
+M;3HQ
+
+M9'1H/3-$-B!V86QI9VX]
+
+
+
+
+M;6%R9VEN+6)O='1O;3HQ
+
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+T1B;W1T;VT@
+
+
+
+T0W
+2!V86QI9VX]
+
+M;&4]
+T0G=VED=&@Z-3
+N
+S5P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE
+
+
+
+
+
+
+
+M86QI9VX]
+T1L969T/B`\=&0@=VED=&@]
+T0T
+34@=F%L:6=N/3-$8F]T=&]M
+
+Q
+
+M9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[
+M;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T
+M=&]M.BXP
+
+
+
+
+M
+
+
+M;VTZ
+3`N
+
+34E.VUA
+
+
+#%P=#MT97AT+6%L
+
+
+
+
+M:6YD;W=T97AT(#$N
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+M=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#IW:&ET93MT97AT+6%U
+
+
+
+
+
+
+
+T0G
+
+
+
+M('=I9'1H/3-$-B!V86QI9VX]
+
+
+
+
+&EN.VUA
+
+
+
+M;W`Z
+
+
+M)W=I9'1H.C4S+C
+
+
+
+
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O
+M='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+I/]P/B`\+W1D/B`\=&0@=VED=&@],T0V
+M('9A;&EG;CTS1&)O='1O;2!S='EL93TS1=W:61T:#HT+C1P=#MB;W)D97(M
+M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O;&ED
+
+
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[
+M;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M
+
+
+'!T.V)O
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+
+
+
+
+
+
+
+M
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I
+
+
+
+M;6%R9VEN+6)O='1O;3HQ
+
+M+W1D/B`\=&0@=VED=&@]
+
+M+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP
+M:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM
+M8F]T=&]M.BXP
+
+
+
+
+
+
+
+
+M
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I
+
+
+
+M;6%R9VEN+6)O='1O;3HQ
+
+M+W1D/B`\=&0@=VED=&@]
+
+M+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP
+M:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM
+M8F]T=&]M.BXP
+
+
+
+
+M+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[
+M;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+
+
+M;6%R9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O
+M;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+M.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O;&ED('=I
+
+
+M
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I
+
+
+
+M:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+M
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+M/'1D('=I9'1H/3-$-B!V86QI9VX]
+
+T0G=VED=&@Z
+
+
+
+M/3-$-B!V86QI9VX]
+
+
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+&EN
+
+
+M+W1D/B`\=&0@=VED=&@]
+T0W
+2!V86QI9VX]
+
+T0G
+M=VED=&@Z-3
+N
+S5P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N
+
+
+
+
+
+M=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#IW:&ET93MT97AT+6%U
+
+
+M(#$N
+
+M
+
+
+M;VTZ
+3`N
+
+34E.VUA
+
+
+#%P=#ML:6YE+6AE
+
+
+
+
+
+M9#X@/'1D('=I9'1H/3-$-B!V86QI9VX]
+
+T0G=VED
+
+
+
+
+M87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M
+M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+T0V('9A
+
+M:6YD;W=T97AT(#$N
+
+
+
+M='1O;3HQ
+
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+
+M=&0@=VED=&@]
+
+M.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN
+M92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M
+M.BXP
+
+
+
+
+M:6YD;W=T97AT(#$N
+
+
+
+
+
+'!T.V)A
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O
+M='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I9VAT.FYO
+
+T0W
+2!V86QI9VX]
+
+M;&4]
+T0G=VED=&@Z-3
+N
+S5P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE
+
+
+
+
+
+
+M97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O
+
+
+
+
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+M
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN
+M+6)O='1O;3HN
+#`P
+
+
+@;V8@9&5F97)R960@
+
+M8F]R9&5R/3-$
+
+T0P('-T
+
+SDN
+
+
+M86QI9VX]
+
+
+
+
+M;3HQ
+
+
+M
+B!V86QI9VX]
+
+
+
+S$L
+M(#(P
+3
+
+M(#$N
+
+&EN(#$N-7!T
+
+M.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN
+M92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M
+M.BXP
+
+
+
+
+T0R('9A;&EG;CTS
+
+
+M;BUR:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+T0G
+
+
+
+
+M
+
+
+
+M
+
+
+
+
+M+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM
+M8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+M
+
+
+
+M9VEN+6)O='1O;3HQ
+
+
+
+
+M
+
+3`N
+
+M+6AE:6=H=#HQ
+
+
+M+C`P
+
+
+
+
+
+T1M87)G:6XM=&]P.C!I;CMM
+
+
+3`N
+
+M969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN.VUA
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R
+
+M:61T:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB
+
+
+
+
+
+
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+
+
+T1R
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+M:61T:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB
+
+
+
+
+
+
+
+3$N
+
+
+&EN
+
+
+T1B;W1T
+
+
+M
+
+
+
+M='1O;3HQ
+
+
+M;6%R9VEN+6)O='1O;3HQ
+
+
+
+
+M(#$N
+
+M
+
+&EN.VQI;F4M
+M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+M
+#`P
+
+
+M/B`\+W1D/B`\=&0@=VED=&@]
+T0V('9A;&EG;CTS1&)O='1O;2!S='EL93TS
+
+
+M;BUR:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+M9'1H/3-$-B!V86QI9VX]
+
+
+
+
+M;BUR:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+M
+
+
+
+M9'1H.C4S+C
+
+
+
+
+
+M;6%R9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O
+M;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+
+
+
+
+
+M
+
+
+M;VTZ
+3`N
+
+34E.VUA
+
+
+#%P=#ML:6YE+6AE
+
+
+
+'!T
+
+
+
+
+
+
+M
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN
+M+6)O='1O;3HN
+#`P
+
+
+
+M;W`Z
+
+
+M86QI9VX]
+
+
+M:6YD;W=T97AT(#$N
+
+
+
+M='1O;3HQ
+
+
+
+M;6%R9VEN+6)O='1O;3HQ
+
+
+T0G
+
+
+M/B`\=&0@=VED=&@]
+T0W
+2!V86QI9VX]
+
+T0G=VED
+M=&@Z-3
+N
+S5P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB
+
+
+
+
+
+
+
+
+T1L
+M969T/B`\=&0@=VED=&@]
+T0T
+
+M)W=I9'1H.C
+Q
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+\
+
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#MT97AT+6%L:6=N.G)I
+
+
+M9'1H/3-$-B!V86QI9VX]
+
+
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+T1B;W1T;VT@
+
+
+'!T
+
+
+
+
+
+M
+
+
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+
+
+
+
+
+
+
+&EN
+
+3`N
+
+M:6=H=#HQ
+
+
+M
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#IW:&ET93MT97AT
+
+
+M9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[
+M;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T
+M=&]M.BXP
+
+
+
+
+
+
+M:')O=6=H(#(P
+
+
+
+C`Q
+
+
+
+
+
+^+RH@1&\@3F]T(%)E
+
+
+$5
+
+]
+
+
+#$S/&)R
+
+
+
+
+
+T1M87)G:6XM=&]P.C!I;CMM
+
+
+3`N
+
+M969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN.VUA
+
+
+T1M87)G:6XM=&]P
+
+
+3`N
+'!T.VUA
+
+
+M
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[
+
+
+
+M97
+@;V8@8V]M;6]N('-T;V-K(&]N($IU;F4@
+2P@
+C`Q
+
+
+
+
+
+M
+
+
+M;&5F=#X@/'1D('=I9'1H/3-$
+
+M=&@Z
+
+M:6X[;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G
+M:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I
+M;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+T1W:61T:#HR
+
+
+M:6X[;6%R9VEN+6)O='1O;3HQ
+
+T0V-38@=F%L:6=N/3-$=&]P('-T
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN
+M+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+M870@)#`N
+
+M87(L(&]N($]C=&]B97(@
+C(L(#(P
+3`N/]P/B`\+W1D/B`\+W1R/B`\='(@
+M86QI9VX],T1L969T/B`\=&0@=VED=&@],T0Q-!V86QI9VX]
+
+M;&4]
+T1W:61T:#HQ
+
+
+
+M+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP
+M:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM
+M8F]T=&]M.BXP
+
+
+
+#X@
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+T1L969T/B`\=&0@=VED
+M=&@]
+
+
+
+
+M:'0Z
+
+3`N
+
+M:6YE+6AE:6=H=#HQ
+
+
+M;VTZ+C`P
+
+
+
+T1W:61T:#HT
+
+M;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM
+M;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM
+M87)G:6XM8F]T=&]M.BXP
+
+M=`D,XP
+
+
+M:6X[;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G
+M:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I
+M;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+
+S$L(#(P
+3
+N
+
+
+M83`V
+60X
+&-?.39C.%\T.&)F7V$Q
+
+&0T#0I#;VYT96YT
+M+4QO8V%T:6]N.B!F:6QE.B\O+T
+Z+V$P-C%D.#!C7SDV8SA?-#AB9E]A
+3!C
+
+
+
+
+
+3XQ
+B!-;VYT:'
+
+Q
+
+
+]
+
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+BPW
+M-3`L
+
+Q-#8[
+
+#`@8G)I9&=E(&QO86X@9F]R(%-A;F1W
+M:6-H($ES;&5S('=I=&AI;B!S979E;B!D87ES(&]F('1H92!C;&]S:6YG(&]F
+
+@=&\@8F4@8V]N=F5R=&5D('1O
+M('1H92!#;VUP86YY)B
+
+
+M97AT4&%R=%]A
+#8Q9#@P8U\Y-F
+X7S0X8F9?83$P8U]B-SAE-V%E8CDP9#0-
+
+
+
+
+
+
+M:7IA=&EO;B!A;F0@3F%T=7)E(&]F($]P97)A=&EO;G
+Z($]R9V%N:7IA=&EO
+M;B`H4&]L:6-I97
+
+]
+T1T
+M:#Y-87D@
+S$L(#(P
+3
+
+
+
+
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H=#IN
+
+&EN.VQI;F4M
+M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+M
+#`P
+
+
+T1M87)G:6XM=&]P.C!I;CMM87)G:6XM
+
+
+3`N
+
+M;CML:6YE+6AE:6=H=#HQ
+
+
+M;W1T;VTZ+C`P
+
+
+M87
+@:6YC;W)P;W)A=&5D('5N9&5R('1H92!L87=S(&]F('1H92!3=&%T92!O
+
+
+M.R9N8G-P.TET(')E;6%I;G
+
+M97
+
+
+
+
+
+
+^+RH@1&\@
+
+
+$5
+
+
+
+
+M;CTS1#$^
+3(@36]N=&AS($5N9&5D/]T:#X-B`@(`@(#PO='(^#0H@(`@
+
+2P@
+C`Q
+SQB
+
+]
+
+
+
+
+]
+
+M9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP
+M:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+M.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN
+M92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M
+M.BXP
+
+
+
+M;BUR:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+3ML:6YE+6AE:6=H
+M=#IN;W)M86P[=&5X=UA=71O<W!A8V4Z;F]N93Y4:&4@86-C;VUP86YY:6YG
+
+
+
+&EN.VQI
+M;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O
+M;3HN
+#`P
+
+
+T1M87)G:6XM=&]P.C!I;CMM87)G
+
+
+3`N
+
+M.C!I;CML:6YE+6AE:6=H=#HQ
+
+
+M;BUB;W1T;VTZ+C`P
+
+
+M('-T871E;65N='
+
+
+2!T:&4@9FEN86YC:6%L
+
+
+
+
+
+^+RH@1&\@3F]T
+
+
+$5
+13X-
+
+
+
+I/&)R
+
+
+]
+T1T:#Y-87D@
+S$L(#(P
+3
+\
+
+M4&]L:6-I97
+
+
+M
+
+
+M9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP
+M:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+3X-CPO:'1M;#X-@T*+2TM+2TM/5].97AT4&%R=%]A,#8Q9#@P8U\Y
+M-F,X7S0X8F9?83$P8U]B-SAE-V%E8CDP9#0-D-O;G1E;G0M3&]C871I;VXZ
+M(&9I;&4Z+R\O0SHO83`V
+60X
+&-?.39C.%\T.&)F7V$Q
+
+M
+
+O4VAE970Q-BYH=&UL#0I#;VYT96YT+51R86YS9F5R
+
+
+M87-C:6DB#0H-CQH=&UL/@T*(`\:&5A
+
+M
+
+M;W9E(%1H:7
+
+
+
+]
+
+
+3(@36]N
+M=&AS($5N9&5D/]T:#X-B`@(`@(#PO='(^#0H@(`@(`\='(^#0H@(`@
+
+2P@
+C`Q
+
+
+]
+
+M17-T:6UA=&5S/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#X\(2TM
+
+
+M
+
+3`N
+
+M+6AE:6=H=#HQ
+
+
+M+C`P
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H=#IN
+
+
+
+
+
+M(&%M;W5N='
+
+M92!O9B!T:&4@9FEN86YC:6%L('-T871E;65N='
+
+
+
+
+
+
+
+
+M(&-H87)S970](G5S+6%S8VEI(@T*#0H\:'1M;#X-B`@/&AE860^#0H@(`@
+
+
+^+RH@1&\@3F]T(%)E;6]V92!4:&ES
+
+$5
+
+
+
+
+
+
+]
+T1T:#Y-87D@
+S$L(#(P
+3
+
+
+\
+
+
+T1T;W`^1F]R
+
+
+M;&4]
+
+
+M;W1T;VTZ
+3`N
+
+34E
+
+
+#%P=#MT97AT
+
+
+M8WD@:7
+
+
+;V-A=&EO;CH@9FEL93HO+R]#.B]A
+#8Q9#@P8U\Y
+M-F
+
+
+
+
+M:78]
+
+]
+M
+
+
+T0Q(')O=W-P86X]
+
+BX@
+M0F%S:7
+
+
+
+
+
+
+
+M+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[
+M;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+T1M87)G:6XM
+
+
+3`N
+'!T
+
+
+M;VTZ
+
+
+
+
+TQ
+M,`H4T9!4R!.;RX@
+34W*2P@)B
+
+M='
+
+
+
+
+
+
+
+&EN
+M.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O
+M='1O;3HN
+#`P
+
+
+
+M93IN;VYE/D9!4T(@05-#(#@R
+TQ,!A;'-O(&5S=&%B;&ES:&5S(&$@9F%I
+
+@86X@96YT:71Y('1O
+
+L('=H97)E
+
+M92!L979E;'
+
+
+M9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[
+M;&EN92UH96EG:'0Z
+
+M
+
+
+M+6)O='1O;3HN
+#`P
+
+
+M;F4^+28C
+38P.R8C
+38P.R8C
+38P.R8C
+38P.R8C
+38P.R8C
+38P.R!
+979E
+
+
+M='
+
+&EN.VQI;F4M
+
+
+M;VTZ+C`P
+
+M97
+
+
+
+M
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN
+M+6)O='1O;3HN
+#`P
+
+
+T1M87)G:6XM=&]P.C!I
+
+
+3`N
+
+M;BUL969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN.VUA
+
+M+C5I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+Q-C`[)B
+Q-C`[)B
+Q-C`[)B
+Q-C`[)B
+Q-C`[
+M)B
+Q-C`[($QE=F5L(#
+
+
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+M;6%R9VEN+6)O='1O;3HQ
+3ML:6YE+6AE:6=H=#IN;W)M86P[=&5X
+M=UA=71O<W!A8V4Z;F]N93Y!;&P@;V8@=&AE($-O;7!A;GDF(S$T-CMS(&9I
+
+
+M+R\O0SHO83`V
+60X
+&-?.39C.%\T.&)F7V$Q
+
+&0T+U=O
+
+O4VAE970Q.2YH=&UL#0I#;VYT96YT+51R86YS9F5R+45N8V]D
+
+
+
+T1T97AT
+
+M:7
+
+]
+
+M;64@5&%X97
+
+
+3XQ
+B!-;VYT:'
+@16YD960\
+
+M87-S/3-$=&@^36%Y(#
+
+
+
+
+]
+6QE
+
+M=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM
+M87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM
+M;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM
+M87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+
+
+
+M(&QA=W
+
+@87!P;&EC86)L92!T;R!T
+
+M;'5A=&EO;B!A;&QO=V%N8V4@:7
+
+30X.R!T:&%T(&$@9&5F97)R960@
+
+M
+
+
+M;VTZ
+3`N
+
+34E.VUA
+
+
+#%P=#MT97AT+6%L
+
+
+&EN.VUA
+
+2!G
+
+M=V5V97(L(&$@=F%L=6%T:6]N(&%L;&]W86YC92!O9B`Q
+
+
+
+
+
+T1M
+
+
+M
+3`N
+
+
+M;BUB;W1T;VTZ
+
+#%P=#MT97AT+6%L:6=N
+
+
+M(')E8V]G;FEZ960@:6X@86-C;W)D86YC92!W:71H($%#4R!A8V-O=6YT:6YG
+
+
+
+
+^+RH@1&\@3F]T
+
+
+$5
+13X-
+
+
+
+@*%!O;&EC
+
+3XQ
+B!-;VYT:'
+
+Q
+
+
+
+]
+
+M/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#X\(2TM96=X+2T^/'`@
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#ML
+
+
+&EN.VQI;F4M:&5I9VAT
+M.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T
+
+T1M
+
+
+M
+3`N
+
+
+M;BUB;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H
+
+
+3(L('1H92!#;VUP86YY
+M(&%D;W!T960@05-5($YO+B`R
+
+@*$%352`R
+M
+#$Q+3`T*2X@05-5(#(P
+3$M
+
+M(&=U:61A;F-E(&]F('1H92!&:6YA;F-I86P@06-C;W5N=&EN9R!3=&%N9&%R
+M9'
+
+
+
+
+
+
+M(#(P
+3$M
+#0@=V%S(&5F9F5C=&EV92!F;W(@:6YT97)I;2!A;F0@86YN=6%L
+
+
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+M+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[
+M;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+T1M87)G:6XM
+
+
+3`N
+'!T
+
+
+M;VTZ
+
+
+
+
+C`Q
+RP@=&AE($9!4T(@:7-S=65D($%352!.;RX@
+C`Q
+RTP
+M
+BP@4F5P;W)T:6YG(&]F($%M;W5N='
+
+M)B
+
+M871I;VX@861J=7-T;65N='
+
+
+
+
+M92!D:7-C;&]S=7)E(&]F(&%M;W5N='
+
+
+@;W(@:6X@=&AE(&YO
+M=&5S('1H97)E=&\N($%M;W5N='
+
+
+
+
+
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+
+
+M=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+
+#4I.B!
+
+M=&4^5&AE(&]B:F5C=&EV92!O9B!!4U4@3F\N(#(P
+3
+M
+
+@=&\@8VQA
+2!S:&]U;&0@87!P;'D@=&AE(&QI<75I9&%T
+
+
+M:71I97
+
+
+
+
+
+
+
+M;W`Z
+
+3ML:6YE+6AE:6=H=#IN;W)M86P[=&5X=UA=71O<W!A8V4Z;F]N93XF;F)S
+
+M.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN
+M92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M
+M.BXP
+
+
+
+M;65N='
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+6QE
+
+M=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM
+M87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+#$S
+
+M97
+
+
+M=VAI=&4^5&AE(&]B:F5C=&EV92!O9B!!4U4@3F\N(#(P
+3
+M
+3$@:7
+@=&\@
+!B96YE9FET('=H
+
+L
+
+
+
+
+60X
+M
+&-?.39C.%\T.&)F7V$Q
+
+
+O4VAE
+M970R
+2YH=&UL#0I#;VYT96YT+51R86YS9F5R+45N8V]D:6YG.B!Q=6]T960M
+
+M=7
+M87-C:6DB#0H-CQH=&UL/@T*(`\:&5A9#X-B`@(`\345402!H='1P
+
+
+
+
+
+
+]
+
+
+
+
+2P@
+C`Q
+
+]
+
+
+
+T1M87)G:6XM
+
+
+3`N
+'!T
+
+
+M;VTZ
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M
+
+
+
+&EN
+
+3`N
+
+M:6=H=#HQ
+
+
+M
+
+
+M8F%S:7
+
+
+
+
+
+M;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM
+M;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM
+M87)G:6XM8F]T=&]M.BXP
+
+C`Q
+
+
+30V.W
+
+
+
+
+
+&EN.VQI
+M;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O
+M;3HN
+#`P
+
+
+
+
+
+
+
+M:7)E;65N='
+
+
+
+N
+
+
+
+
+
+
+M(&%D9&ET:6]N86P@9FEN86YC:6YG('=I;&P@8F4@879A:6QA8FQE('1O('1H
+M92!#;VUP86YY(&]N(&%C8V5P=&%B;&4@=&5R;7
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+
+M;W`Z
+
+3ML:6YE+6AE:6=H=#IN;W)M86P[=&5X=UA=71O<W!A8V4Z;F]N93Y4:&5S
+
+M861J=7-T;65N='
+@=&\@=&AE(&%M;W5N='
+@86YD(&-L87-S:69I8V%T:6]N
+
+@86YD(&QI86)I;&ET:65S('1H870@=V]U;&0@8F4@;F5C
+
+
+;V-A=&EO;CH@9FEL93HO+R]#.B]A
+M
+#8Q9#@P8U\Y-F
+X7S0X8F9?83$P8U]B-SAE-V%E8CDP9#0O5V]R:W-H965T
+
+
+M(&AT='`M97%U:78]
+
+]
+
+
+T0Q(')O=W-P86X]
+T0R/CQS
+
+BX@0F%S:7
+
+]
+
+#$S/&)R/CPO=&@^#0H@(`@(`\
+
+
+
+
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+&EN.VQI;F4M:&5I9VAT
+M.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T
+
+
+
+M
+
+3`N
+
+M+6AE:6=H=#HQ
+
+
+M+C`P
+
+
+
+M9!A(&1E=F5L;W!M96YT('-T86=E(&-O;7!A;GDL('=I=&@@;&EM:71E9!O
+
+@9'5R:6YG('1H92!P97)I;V1S('!R97-E;G1E
+
+M960@9G)O;2!M86YA9V5M96YT)B
+
+
+
+#$N(%1H92!#;VUP86YY
+M)B
+
+
+
+
+
+60X
+M
+&-?.39C.%\T.&)F7V$Q
+
+&0T#0I#;VYT96YT+4QO8V%T
+M:6]N.B!F:6QE.B\O+T
+Z+V$P-C%D.#!C7SDV8SA?-#AB9E]A
+3!C7V(W.&4W
+
+
+
+
+
+
+
+
+
+T1T
+
+
+
+]
+T1T97AT/CPA+2UE
+
+&EN.VQI;F4M
+M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+M
+#`P
+
+
+
+
+M;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH
+M96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+M
+
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+M:7
+
+
+@8F%S
+
+
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+
+
+^+RH@1&\@
+
+
+$5
+
+
+
+
+
+M
+3XQ
+B!-;VYT:'
+
+
+
+
+
+]
+
+
+
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+
+
+
+
+
+
+
+
+^+RH@1&\@3F]T(%)E;6]V
+
+
+$5-13X-B`@(`@
+
+
+]
+
+#$S/&)R/CPO=&@^#0H@(`@(`\+W1R/@T*(`@(`@
+
+]
+
+
+]
+
+M8G-P.R9N8G-P.R9N8G-P.R9N8G-P.T]F9FEC97(@3&]A;CPO8CX\+W`^(#QT
+M86)L92!B;W)D97(]
+
+
+M
+3$N
+
+
+M9&EN9SHP:6X@
+
+
+M87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M
+M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+'!T.V)O
+
+T1C96YT97(@
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#MT
+
+
+
+M=&@]
+
+
+
+M;BUT;W`Z
+
+
+
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+#$R/]P/B`\+W1D/B`\=&0@=VED
+M=&@],T0V('9A;&EG;CTS1&)O='1O;2!S='EL93TS1=W:61T:#HT+C1P=#MB
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O
+M='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I9VAT.FYO
+
+
+
+
+
+&EN.VUA
+
+3`N
+
+M=#HQ
+
+
+#%P
+
+
+
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+
+
+&EN
+
+
+M-B!V86QI9VX]
+
+
+
+M:6X[;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G
+M:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I
+M;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+M='1O;3HQ
+
+
+T0G
+
+
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H=#IN
+
+
+;V%N/]P/B`\+W1D/B`\=&0@=VED=&@],T0V('9A;&EG;CTS
+M1&)O='1O;2!S='EL93TS1=W:61T:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[
+M8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O;&ED('=I;F1O=W1E
+
+
+
+
+
+T1B;W1T
+
+
+
+M/3-$)W=I9'1H.C4S+C
+
+
+
+
+M;CIR:6=H=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#HC0T-%149&
+
+
+
+T0V
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+
+M
+
+
+M;VTZ
+3`N
+
+34E.VUA
+
+
+#%P=#ML:6YE+6AE
+
+
+M(#$N
+
+
+M:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+M
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+
+M:'0Z
+
+3`N
+
+M:6YE+6AE:6=H=#HQ
+
+
+M;VTZ+C`P
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#HC0T-%
+
+T1B;W)D97(Z;F]N93X\+W1D/B`\=&0@=VED
+M=&@]
+
+
+M8SA?-#AB9E]A
+
+
+
+
+
+
+
+]
+
+
+M:6%T:6]N(&]F($EN8V]M92!487@@17AP96YS92!4;R!4:&4@06UO=6YT($-O
+
+@27
+@07
+
+
+3XQ
+B!-;VYT:'
+@16YD960\+W1H/@T*(`@(`@
+
+M(#
+
+
+
+
+T1T;W`^02!296-O;F-I;&EA=&EO;B!O9B!)
+
+
+M(&9O;&QO=W
+
+T1B;W1T;VT@
+
+T0G=VED=&@Z
+S$Q+C
+
+
+
+
+
+M=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM
+M87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M9&5R+6QE9G0Z;F]N93MP861D:6YG.C!I;B`P:6X@
+
+&EN)SX@/'`@
+M86QI9VX]
+
+&EN
+M.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O
+M='1O;3HN
+#`P
+
+
+'!T
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H=#IN
+
+
+T0V('9A;&EG;CTS1&)O
+
+&EN(#!I;B`Q
+
+
+M87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M
+M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+&EN.VQI;F4M:&5I9VAT
+M.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T
+
+M+S(P
+3$@=&\@
+#4O
+S$O
+C`Q
+
+
+
+M.C!I;B`P:6X@
+
+
+T1M87)G:6XM=&]P.C!I
+
+
+3`N
+
+M;BUL969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[=&5X
+
+T1B;W1T;VT@
+
+T0G=VED=&@Z
+S$Q+C
+
+
+
+
+&EN
+M.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O
+M='1O;3HN
+#`P
+
+
+M/'1D('=I9'1H/3-$-B!V86QI9VX]
+
+T0G=VED=&@Z
+
+
+
+M:6X[;6%R9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G
+M:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I
+M;CMM87)G:6XM8F]T=&]M.BXP
+
+T0V('9A;&EG
+
+M;W=T97AT(#$N
+
+
+
+M;3HQ
+
+
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#MT
+
+
+M9#X@/'1D('=I9'1H/3-$-B!V86QI9VX]
+
+T0G=VED
+
+
+
+
+M:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+
+&EN
+
+
+M
+
+
+
+
+
+'!T.V)A8VMG
+
+
+
+
+M/B`\='(@86QI9VX]
+T1L969T/B`\=&0@=VED=&@]
+T0T
+34@=F%L:6=N/3-$
+
+Q
+
+M9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F
+M=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G
+M:6XM8F]T=&]M.BXP
+
+
+T1B
+
+
+M(#$N
+
+
+
+M+6)O='1O;3HQ
+
+
+
+M:6X[;6%R9VEN+6)O='1O;3HQ
+
+M
+T0W
+2!V86QI9VX]
+
+T0G=VED=&@Z-3
+N
+S5P=#MB
+M;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M
+
+
+
+
+
+
+U
+M/]P/B`\+W1D/B`\=&0@=VED=&@],T0V('9A;&EG;CTS1&)O='1O;2!S='EL
+M93TS1=W:61T:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z
+
+
+
+
+
+M9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R
+M9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+M)SX@/'`@86QI9VX]
+
+M9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R
+M9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+M
+
+
+
+M;6%R9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O
+M;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G
+M:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+T0V
+
+
+
+M='1O;3HQ
+
+M
+3$N
+
+
+M8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U
+M)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+M
+
+
+M+W1D/B`\=&0@=VED=&@]
+T0W
+2!V86QI9VX]
+
+T0G
+M=VED=&@Z-3
+N
+S5P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N
+
+
+
+
+
+
+
+T0V('9A
+
+
+
+M
+
+3`N
+
+M+6AE:6=H=#HQ
+
+
+M+C`P
+
+
+M/3-$)W=I9'1H.C0N-#5P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z
+
+
+
+
+
+
+M)W=I9'1H.C4S+C
+
+
+
+
+M:6=H=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#HC0T-%149&.W1E
+
+M97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O
+
+
+
+
+
+3$N
+
+
+M:6X[;6%R9VEN+6)O='1O;3HQ
+!B96YE9FET
+M/]P/B`\+W1D/B`\=&0@=VED=&@],T0V('9A;&EG;CTS1&)O='1O;2!S='EL
+M93TS1=W:61T:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z
+
+
+
+
+
+M:6=H=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#IW:&ET93MT97AT
+
+
+
+
+
+
+M:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+M
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+M.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN
+M92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M
+M.BXP
+
+
+
+
+
+
+T0V('9A;&EG;CTS1&)O='1O;2!S
+
+'!T
+
+
+T1M87)G:6XM=&]P
+
+
+3`N
+'!T.VUA
+
+
+M
+
+#%P=#MT97AT+6%L:6=N.G)I9VAT.VQI
+
+
+
+M
+
+T1M
+
+
+M
+3`N
+
+
+M;BUB;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H
+
+
+
+
+
+
+
+
+M)SX@/'`@86QI9VX]
+
+M9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R
+M9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H=#IN
+
+
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#MT
+
+
+M/'1D('=I9'1H/3-$-B!V86QI9VX]
+
+T0G=VED=&@Z
+
+
+
+
+M=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+&EN.VUA
+
+
+T1B
+
+
+T0W
+2!V86QI9VX]
+T1B;W1T
+
+T0G=VED=&@Z-3
+N
+S5P=#MB;W)D97(M=&]P.FYO;F4[8F]R
+
+M
+
+
+
+
+
+
+
+
+&EN.VQI
+M;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O
+M;3HN
+#`P
+
+
+T1B
+
+T0G=VED=&@Z
+S$Q+C
+
+
+
+
+T1M87)G:6XM=&]P.C!I;CMM87)G
+
+
+3`N
+
+M.C!I;CML:6YE+6AE:6=H=#HQ
+
+
+M;BUB;W1T;VTZ+C`P
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N
+
+
+
+T1M87)G:6XM=&]P.C!I
+
+
+3`N
+
+M;BUL969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN
+
+#%P=#MT97AT+6%L:6=N.G)I9VAT.VQI;F4M
+
+
+
+'!T
+
+T1M87)G
+
+
+3`N
+M
+
+
+M;W1T;VTZ
+
+#%P=#ML:6YE+6AE:6=H=#IN
+
+
+M
+
+
+
+M='1O;3HQ
+
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+
+
+
+
+M/B`\+W1D/B`\=&0@=VED=&@]
+T0V('9A;&EG;CTS1&)O='1O;2!S='EL93TS
+
+
+
+
+M.C4S+C
+
+
+
+M9&EN9SHP)SX@/'`@86QI9VX]
+
+M9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP
+M:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+
+
+
+
+
+
+M='1O;3HQ
+
+
+
+
+&EN
+
+
+M
+
+
+
+
+
+'!T.V)A8VMG
+
+
+
+
+
+M:6YD;W=T97AT(#$N
+
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+
+
+
+M86QI9VX]
+
+&EN
+M.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O
+M='1O;3HN
+#`P
+
+
+
+
+
+T1M87)G:6XM=&]P
+
+
+3`N
+'!T.VUA
+
+
+M
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[
+
+
+
+
+
+M+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM
+M8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+M86QI9VX]
+
+
+M:6YD;W=T97AT(#$N
+
+
+
+M='1O;3HQ
+
+
+
+
+#8Q9#@P8U\Y
+M-F
+
+M;G0]
+
+2!R
+
+
+
+
+]
+
+#$S/&)R/CPO=&@^#0H@(`@(`\+W1R
+
+]
+
+
+]
+
+
+
+
+M;BUR:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+@87)E(&%S(&9O;&QO=W
+
+M:#TS1#0Q-2!V86QI9VX]
+
+T0G=VED=&@Z
+S$Q+C
+U
+
+
+M
+
+M9VEN+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F
+M=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G
+M:6XM8F]T=&]M.BXP
+
+
+
+
+M.C!I;B`P:6X@
+
+&EN)SX@/'`@86QI9VX]
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R
+M9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+M9&EN9SHP)SX@/'`@86QI9VX]
+
+T1M87)G:6XM=&]P
+
+
+3`N
+'!T.VUA
+
+
+M
+
+
+
+
+T0V('9A;&EG;CTS1&)O
+
+&EN(#!I;B`Q
+
+
+M87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M
+M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+
+
+
+M
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN
+M+6)O='1O;3HN
+#`P
+
+
+2P@
+C`Q
+
+
+
+M9&5R+6QE9G0Z;F]N93MP861D:6YG.C!I;B`P:6X@
+
+&EN)SX@/'`@
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#ML
+
+M1#0Q-2!V86QI9VX]
+
+T0G=VED=&@Z
+S$Q+C
+
+
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN
+M+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M:&5I9VAT
+
+
+
+
+
+M:6=H=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#HC0T-%149&.W1E
+
+
+
+M;W=T97AT(#$N
+
+
+&EN.VQI;F4M:&5I9VAT
+M.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T
+
+T0W
+2!V86QI
+M9VX]
+
+T0G=VED=&@Z-3
+N
+S5P=#MB;W)D97(M=&]P
+M.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O;&ED('=I
+
+
+M
+
+
+#4\
+
+
+M+W1D/B`\=&0@=VED=&@]
+
+T1M87)G:6XM
+
+
+3`N
+'!T
+
+
+M;VTZ
+
+#%P=#MT97AT+6%L:6=N.G)I9VAT
+
+
+M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T=&]M.G-O;&ED
+
+
+
+
+
+
+
+M;6%R9VEN+6)O='1O;3HQ
+
+M+W1D/B`\=&0@=VED=&@]
+
+M+7)I9VAT.C!I;CMM87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP
+M:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM
+M8F]T=&]M.BXP
+
+
+
+
+M+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[
+M;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+'!T.V)A8VMG
+
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[
+M;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+M=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N93MB;W)D97(M8F]T
+
+
+
+
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+M:6YD;W=T97AT(#$N
+
+
+M:6X[;6%R9VEN+6)O='1O;3HQ
+
+3DL-S`U/]P
+M/B`\+W1D/B`\=&0@=VED=&@],T0V('9A;&EG;CTS1&)O='1O;2!S='EL93TS
+M1=W:61T:#HT+C1P=#MB;W)D97(M=&]P.FYO;F4[8F]R9&5R+6QE9G0Z;F]N
+
+
+
+
+
+M
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN
+M+6)O='1O;3HN
+#`P
+
+
+
+
+M:6YD;W=T97AT(#$N
+
+M/'`@86QI9VX]
+
+M
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN
+M+6)O='1O;3HN
+#`P
+
+
+
+
+2XP
+
+
+
+M9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP
+M:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+M;W`Z
+
+
+
+
+M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG:'0Z
+3$U)3MM87)G
+M:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+
+
+T1L969T/B`\=&0@=VED
+M=&@]
+T0T
+
+Q
+2XS
+
+M
+
+
+M97AT(#$N
+
+
+M87)G:6XM8F]T=&]M.C$P+C!P=#MM87)G:6XM;&5F=#HP:6X[;&EN92UH96EG
+M:'0Z
+3$U)3MM87)G:6XM8F]T=&]M.C!I;CMM87)G:6XM8F]T=&]M.BXP
+#`Q
+
+M+W1D/B`\=&0@=VED=&@]
+
+
+
+
+M;BUR:6=H=#HP:6X[;6%R9VEN+6)O='1O;3HQ
+
+
+M:#HU
+
+
+
+
+M;6%R9VEN+6QE9G0Z
+&EN.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O
+M;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+
+
+
+
+M(#$N
+
+&EN.VQI;F4M:&5I9VAT.C$Q-24[
+M;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+7!T.VQI;F4M
+
+
+
+
+
+T1R
+
+&EN.VQI;F4M:&5I
+M9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O='1O;3HN
+#`P
+M
+
+
+
+
+
+T1M87)G:6XM=&]P.C!I;CMM87)G
+
+
+3`N
+
+M.C!I;CML:6YE+6AE:6=H=#HQ
+
+
+M;BUB;W1T;VTZ+C`P
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N
+
+T1M87)G:6XM
+
+
+3`N
+'!T
+
+
+M;VTZ
+
+#%P=#MT97AT+6%L:6=N.G)I9VAT
+
+
+
+
+M;&4]
+
+
+M;W1T;VTZ
+3`N
+
+34E
+
+
+#%P=#ML:6YE
+
+
+'!T
+
+
+6QE
+
+
+
+
+
+
+
+
+
+
+
+
+M;W=T97AT(#$N
+
+M86QI9VX]
+
+&EN
+M.VQI;F4M:&5I9VAT.C$Q-24[;6%R9VEN+6)O='1O;3HP:6X[;6%R9VEN+6)O
+M='1O;3HN
+#`P
+
+
+
+
+
+T1M87)G:6XM=&]P.C!I
+
+
+3`N
+
+M;BUL969T.C!I;CML:6YE+6AE:6=H=#HQ
+
+&EN
+
+#%P=#ML:6YE+6AE:6=H=#IN;W)M86P[8F%C
+
+
+
+T1M
+
+
+M
+3`N
+
+
+M;BUB;W1T;VTZ
+
+#%P=#MT97AT+6%L:6=N
+
+
+
+
+M;W=T97AT(#$N
+
+
+
+
+M;BUB;W1T;VTZ
+3`N
+
+M
+
+
+#%P=#ML
+M:6YE+6AE:6=H=#IN;W)M86P[8F%C:V=R;W5N9#IW:&ET93MT97AT+6%U=&]S
+
+
+
+
+
+
+M('=I9'1H/3-$-B!V86QI9VX]
+
+
+
+
+
+M-C%D.#!C7SDV8SA?-#AB9E]A
+
+
+
+
+
+]
+
+T1)1#!%
+
+
+
+]
+
+
+]
+
+
+
+]
+T1T
+M:#Y-87D@
+S$L(#(P
+3
+
+
+
+
+
+
+
+
+#$I/'-P
+
+
+#8Q9#@P
+M8U\Y-F
+
+M;G1E;G0]
+
+M
+T0Q(')O=W-P86X]
+
+BX@0F%S:7
+
+
+
+
+3(@36]N=&AS($5N9&5D/]T:#X-B`@(`@(`@
+
+S(@36]N=&AS($5N9&5D/]T
+M:#X-B`@(`@(#PO='(^#0H@(`@(`\='(^#0H@(`@(`@(#QT:!C;&%S
+
+2P@
+C`Q
+
+#$S/&)R/CPO=&@^#0H@(`@(`\+W1R/@T*
+
+]
+
+
+]
+
+
+
+]
+
+
+]
+T1N=6UP/B0@
+
+
+P
+M
+
+
+
+
+
+^+RH@1&\@
+
+
+$4T
+
+
+#$R/&)R
+
+
+]
+T1T97AT
+
+
+T1T
+
+;V%N/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$;G5M
+
+
+
+
+
+60X
+&-?.39C.%\T.&)F7V$Q
+
+M
+&0T#0I#;VYT96YT+4QO8V%T:6]N.B!F:6QE.B\O+T
+Z+V$P-C%D.#!C7SDV
+M8SA?-#AB9E]A
+
+
+
+
+
+
+]
+
+M;W)Y(%)A=&5S($ES($%S($9O;&QO=W
+@*$1E=&%I;'
+I(A54T0@)D\8G(^
+
+
+]
+T1T:#Y-
+M87D@
+S$L(#(P
+3(\8G(^/]T:#X-B`@(`@(`@/'1H(&-L87-S/3-$=&@^
+M36%Y(#
+
+
+
+
+]
+
+
+
+
+
+C0L
+
+
+
+
+]
+
+
+;V-A=&EO;CH@9FEL93HO+R]#.B]A
+#8Q9#@P8U\Y-F
+X
+
+R+FAT
+
+
+M:2(-@T*/&AT;6P^#0H@(#QH96%D/@T*(`@(#Q-151!(&AT='`M97%U:78]
+M
+
+]
+T13
+
+
+M;F-O;64@5&%X97
+Z(%-I9VYI9FEC86YT($-O;7!O;F5N='
+@;V8@1&5F97)R
+
+M/3-$=&@^36%Y(#
+Q+`R,#$S/&)R/CPO=&@^#0H@(`@(`@(#QT:!C;&%S
+
+2P@
+C`Q
+
+
+]
+
+
+
+
+
+
+
+
+]
+
+M='
+
+]
+
+L
+
+]
+T1N=6UP/B0@
+
+
+M965T
+S
+
+M(G5S+6%S8VEI(@T*#0H\:'1M;#X-B`@/&AE860^#0H@(`@/$U%5$$@:'1T
+
+
+^+RH@1&\@3F]T(%)E;6]V92!4:&ES($-O;6UE;G0@
+
+
+
+
+M/D1E=&%I;'
+
+
+M
+!96YE9FET<R!297-U;'1I;F<@:6X@
+M3F5T($]P97)A=&EN9R!
+
+
+
+
+3!C
+
+
+
+
+
+
+]
+
+T1)1#!%
+
+
+
+3XQ
+B!-;VYT:'
+
+
+
+
+2P@
+C`Q
+M
+
+]
+
+
+
+M/3-$=&]P/D-O;6UO;B!S:&%R97
+
+
+
+
+M=F%L:6=N/3-$=&]P/D-O;6UO;B!S:&%R97
+
+]
+T1N=6UP/C$L.3`P+#`P
+
+
+
+T1T;W`^0V]M;6]N
+M(%-T;V-K+!3:&%R97,@075T:&]R:7IE9#PO=&0^#0H@(`@(`@(#QT9!C
+
+#`P+#`P
+
+
+
+
+
+M(#`N
+
+
+
+T1T;W`^0V]M;6]N(%-T;V-K+!3:&%R97,@27-S=65D/]T
+
+
+]
+
+
+
+
+
+
+
+]
+T1N=6UP/B0@
+
+
+;V-A=&EO;CH@9FEL93HO+R]#
+M.B]A
+#8Q9#@P8U\Y-F
+X7S0X8F9?83$P8U]B-SAE-V%E8CDP9#0O5V]R:W-H
+
+
+M;&4@2%)E9CTS1(N+B]7;W)K8F]O:RYH=&UL(B\^#0H@/&\Z1FEL92!(4F5F
+M/3-$(E-H965T,#$N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#`R
+M+FAT;6PB+SX-B`\;SI&:6QE($A2968]
+T0B4VAE970P
+RYH=&UL(B\^#0H@
+M/&\Z1FEL92!(4F5F/3-$(E-H965T
+
+M(#QO.D9I;&4@2%)E9CTS1)3:&5E=#`X+FAT;6PB+SX-B`\;SI&:6QE($A2
+M968]
+T0B4VAE970P.2YH=&UL(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+M
+3`N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#$Q+FAT;6PB+SX-
+MB`\;SI&:6QE($A2968],T0B4VAE970Q,BYH=&UL(B\^#0H@/&\Z1FEL92!(
+M4F5F/3-$(E-H965T,3,N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E
+M=#$T+FAT;6PB+SX-B`\;SI&:6QE($A2968]
+T0B4VAE970Q-2YH=&UL(B\^
+M#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+38N:'1M;(O/@T*(#QO.D9I;&4@
+M2%)E9CTS1)3:&5E=#$W+FAT;6PB+SX-B`\;SI&:6QE($A2968],T0B4VAE
+M970Q.YH=&UL(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+3DN:'1M;(O
+M/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#(P+FAT;6PB+SX-B`\;SI&:6QE
+M($A2968],T0B4VAE970R,2YH=&UL(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H
+M965T,C(N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#(S+FAT;6PB
+M+SX-B`\;SI&:6QE($A2968]
+T0B4VAE970R-YH=&UL(B\^#0H@/&\Z1FEL
+M92!(4F5F/3-$(E-H965T,C4N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3
+M:&5E=#(V+FAT;6PB+SX-B`\;SI&:6QE($A2968]
+T0B4VAE970R-RYH=&UL
+M(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+C@N:'1M;(O/@T*(#QO.D9I
+M;&4@2%)E9CTS1)3:&5E=#(Y+FAT;6PB+SX-B`\;SI&:6QE($A2968],T0B
+M4VAE970S,YH=&UL(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+S$N:'1M
+M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#
+
+`
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A fee charged for services from professionals such as doctors
+ lawyers and accountants. The term is often expanded to include other professions
+ for example
+Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 946
+ -SubTopic 225
+ -Section S99
+ -Paragraph 1
+ -Subparagraph (SX 210.6-07.2(a)
+(b)
+(c)
+(d))
+ -URI http://asc.fasb.org/extlink&amp;oid=6488393&amp;loc=d3e606610-122999
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 946
+ -SubTopic 225
+ -Section 45
+ -Paragraph 3
+ -Subparagraph (k)
+ -URI http://asc.fasb.org/extlink&amp;oid=6488370&amp;loc=d3e13550-115849
+
+The sum of expenses not otherwise specified in the taxonomy for managing and administering the affairs of an entity
+ including affiliates of the reporting entity
+ which are not directly or indirectly associated with the manufacture
+Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 225
+ -SubTopic 10
+ -Section S99
+ -Paragraph 2
+ -Subparagraph (SX 210.5-03.4)
+ -URI http://asc.fasb.org/extlink&amp;oid=26872669&amp;loc=d3e20235-122688
+
+The aggregate total of expenses of managing and administering the affairs of an entity
+ including affiliates of the reporting entity
+ which are not directly or indirectly associated with the manufacture
+Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 225
+ -SubTopic 10
+ -Section S99
+ -Paragraph 2
+ -Subparagraph (SX 210.5-03.4)
+ -URI http://asc.fasb.org/extlink&amp;oid=26872669&amp;loc=d3e20235-122688
+
+Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 235
+ -SubTopic 10
+ -Section S99
+ -Paragraph 1
+ -Subparagraph (SX 210.4-08.(h))
+ -URI http://asc.fasb.org/extlink&amp;oid=26873400&amp;loc=d3e23780-122690
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 08
+ -Paragraph h
+ -Article 4
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Glossary Income Tax Expense (or Benefit)
+ -URI http://asc.fasb.org/extlink&amp;oid=6515339
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 740
+ -SubTopic 10
+ -Section 50
+ -Paragraph 9
+ -Subparagraph (a)
+(b)
+ -URI http://asc.fasb.org/extlink&amp;oid=6907707&amp;loc=d3e32639-109319
+
+The portion of profit or loss for the period
+ net of income taxes
+Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 04
+ -Paragraph 20
+ -Article 9
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 230
+ -SubTopic 10
+ -Section 45
+ -Paragraph 28
+ -URI http://asc.fasb.org/extlink&amp;oid=31042434&amp;loc=d3e3602-108585
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Glossary Other Comprehensive Income
+ -URI http://asc.fasb.org/extlink&amp;oid=6519514
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Glossary Net Income
+ -URI http://asc.fasb.org/extlink&amp;oid=6518256
+Reference 5: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 260
+ -SubTopic 10
+ -Section 50
+ -Paragraph 1
+ -URI http://asc.fasb.org/extlink&amp;oid=6371337&amp;loc=d3e3550-109257
+Reference 6: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 944
+ -SubTopic 225
+ -Section S99
+ -Paragraph 1
+ -Subparagraph (SX 210.7-04.19)
+ -URI http://asc.fasb.org/extlink&amp;oid=6879464&amp;loc=d3e573970-122913
+Reference 7: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 225
+ -SubTopic 10
+ -Section S99
+ -Paragraph 2
+ -Subparagraph (SX 210.5-03.18)
+ -URI http://asc.fasb.org/extlink&amp;oid=26872669&amp;loc=d3e20235-122688
+Reference 8: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 944
+ -SubTopic 225
+ -Section S99
+ -Paragraph 1
+ -Subparagraph (SX 210.7-04.22)
+ -URI http://asc.fasb.org/extlink&amp;oid=6879464&amp;loc=d3e573970-122913
+Reference 9: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 220
+ -SubTopic 10
+ -Section 45
+ -Paragraph 6
+ -URI http://asc.fasb.org/extlink&amp;oid=28358780&amp;loc=d3e565-108580
+Reference 10: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 03
+ -Paragraph 19
+ -Article 5
+
+
+Number of [basic] shares or units
+ after adjustment for contingently issuable shares or units and other shares or units not deemed outstanding
+Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 260
+ -SubTopic 10
+ -Section 50
+ -Paragraph 1
+ -Subparagraph (a)
+ -URI http://asc.fasb.org/extlink&amp;oid=6371337&amp;loc=d3e3550-109257
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Topic 260
+ -SubTopic 10
+ -Section 45
+ -Paragraph 10
+ -URI http://asc.fasb.org/extlink&amp;oid=7655603&amp;loc=d3e1448-109256
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Accounting Standards Codification
+ -Glossary Weighted-Average Number of Common Shares Outstanding
+ -URI http://asc.fasb.org/extlink&amp;oid=6528421
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+
+ 2010 to May 31
+
+      
+      
+
+ 2010 to May 31
+
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+
+
+
+    
+
+
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+begin 644 0001127855-13-000645-xbrl.zip
+
+
+
+
+D1
+
+
+O+RPZ+QU397CJ1
+
+
+
+
+
+
+CHR]D$4%)_3`W*.:(PB5G$IS#=KS=./AQOE/H^R?9:
+
+
+^P6(F]_9JA)
+
+
+
+
+
+M``Q3
+
+W4H+-YS*UF&^WN5+?1@BX6LW(?
+
+O=IV3^;I(CIK4UI([9(KNZXO-4M-+^=G\GW$-E
+
+MGQGFT5@\N(5';,/Z73(U,?1#?UEV;C3HLU5ETMU_5!,SUG-/YWI1LOLN5R\
+MPE6KYP=ZDCQ(8O?I.8S;&(TV_R'
+
+*G@!H]?;WBJO]V'ZF\G
+M
+.TPDM_.S+O?
+
+ATDQ
+
+
+M
+A](&Y/XK6R?!#
+
+
+M\?YN[RE/R$
+
+
+
+
+HAGL4L--F?MQ5[_XG`W&S+
+MWA^888B*42RX=W]/Q
+
+
+
+
+
+9('TLU7LIQN=
+3=]+&`:\
+
+
++L
+
+
+
+MODD0L1:=N/XF
+
++W
+
+
+
+2
+M#]3`_!$Y(EXCPB(@W<UAUL/F#%^1)S]9Q6P\HT$!_RF^-?5CB]=+]_7'Y0;
+
+'_+4BEJ9T$@,$1]*1FZ70A[9$
+MF!C3,3JO'%$_@6G5S!#M+1W8<'+2ZF^X`-#O`R+:0TO#)D`7<70$$W<&66P
+
+DEK8.C%`8THYV
+X4B.0'P6&=\2QZY
+
+7A
+
+
+MJLU$W`DD
+
+
+
+
+M-BUXAK'8JY-:T*E.$V.YE;G+:'F*L`)WE$BP2G.;T@9
+IZ+:T,5MGH?0<2^**'ZVC&T]9\N2\-+J3FF'2WZBKAL
+
+?LU1%$\PF`DU
+M%OH5HS%/;.\73!F.1X2Y`&UGE17\'3+WDA4B=VM8():@=(0TSAT@ZN0(-!]
+
+
+
+
+KL]\Q=EJ-);*O-
+
+
+
+
+
+/VICT7'!'
+(BC+W2;!H
+
+
+
+69&=G&4&W'W&`?V$.VYVM
+
+MO8DQY$)MKF5R+9-WE
+FM6IG\6$5@7WP(0DR8?82VP+P!70'B^?WDBCV&J`
+
+
+
+
+G&-F:1T&?
+)[NY0X
+`#2Z`D[=_WHC.QM=\/07;CJK2!`5W'3G9$3
+
+
+M'+O+M
+
+
+
+
+
+
+MG368
+4GS`Q4IGNK!XOA6*868';X?G'VV!13P1*_=W6YA0:V(G1
+
+M38B[3XK4EU54JBK()^>CY46_^4E+^^#)\:
+
+
+XN#3KW
+
+
+
+M;
+
+
+M%N8UL6
+0#SS\GV$Y+4R5'
+TK)_NMRK%/P/!=5!LH@LADPE$J+
+@KQ-S1RA)_
+
+#E
+
+MN/9+'2CC4-QLX-9J8BG\K5-/2^^N
+
+
+
+(X%QWR
+W/IK
+
+
+G^IZ;M_RH[Y`[:_H
+M$E:6.*6^M]T%I5XU`D#J/XL@+P8-R!LFV(@;\K/5P.0#&-;YKQP0^_-'1T$V
+
+
+A7JI<EX\R\U\O
+M=G9;_6[OY:W7P6$_0H8WSV?!TU96$DRY[;DX%$5BF0Z-SV+.\0JRH^@879'H
+M1;ES\7XW$;^;YK*7-2\?67'<C'H:B]A`@<GNRC5[L%KK-9#$W1&KUTM*X;@
+
+
+Y[
+
+DJG8VLD0C6[T`_UT5=V
+
+MEYXX)=DUCEA@CU/-6*?)B5-V4T2PDVPDDPC3O-GC*$
+
+
+#Y!EL:;!F92Q'G@H*#D#HAACQ
+2#30%%;-;#6*;11A(H0
+M[E)XR8ROY$+!X!M'
+
+M.!(4T@%9$UV\5]2:+G9FTF7#Z5I.D`@C+GO
+
+-
+M23094
+MI]IR+LJ`3
+
+MR`UX[V/_.^
+
+
+
+
+
+
+
+8`V_&AN@LO52I4K3)/196`B)K
+
+W'5G'HWKYI5NQ#SUO8J
+RA(V8Y<K-O5\
+
+
+MD79''KX)(C&E$`9F#.!FH:`J;J+X54==$H#?H
+
+
+1X3LW%R#$.
+
+W*_4&1T]JE67BM_I
+
+
+
+MI]1
+
+
+MHE;31:+TMN-
+RVFU*2UD:6CYS=+*TFJ;:65EX_;3T/);C6FU/::]T2CA[^?G
+
+
+M#M?MT+&N&A/ULU!VP/$[U&M4T)5*LIDH3]*.KC!2;65&6%C/;J:JW[&^\UQ6
+MQ5
+Z)^\A5K%ABCUJI*O%5]<W'SN[SU75#'RU&$5U@GIW
+(?+J*GKZMZ-DZ
+
+
+ML*TF@)5@5H(]N01S2Q+
+EOG46(+97
+
+M;#
+'T(O%URN;X4;2<K6Y7<.&ZV*KF%?+S3.^AT
+
+
+.YV&K@
+
+MR5T?RFZ70*XO1=O)PU87-XZ;K2YN(1];75P'RCY'0L=^RH8!WQ9TW&_M=E$U
+
+
+
+
+Q%S?*O7[;M..H'=-Y[@'WU'C)PP
+
+
+M9\GNF+'9J;QY!YYZ)Q(/N#&+^3=@^;=!Y/UX\^__]K?7^L'+%+Z91`&RP/L_
+M
+#J50OB@<W1XV#D\.7:28LYJ4O@MRFP<8+\Y
+
+
+
+
+
+
+
+
+
+:/))$GX)`!'Z^CF'(1
+M<H$ZS%*R2&..MT0%-WH\80OY4+.5AUE+L1S7!I62A2P:O3$2Y2%:D'B0V#
+M7/$@FI$^`0MP3`8LK0&E.4@A%$M7F`*<Y0`*LTDU8T$03^Q9'X34<R/9HAS
+
+M0*$C0OY92W'+95?:&]YBDEQ7X]$R$*2&@F*JG=4$SY1D
+
+V
+
+MM&J
+?[NIEFXJT$N5.VDF!0=N!A(DJ!:T0D
+!G8`N\W
+
+C320$SK$5(
+
+AT8.CCGS
+
+M)-\3L+'?`U&F)
+
+AX
+M)!
+`Y'`VV*X$DKK?#(!D*6+.`AG:4E*58VH(K%ZW3^Q7%C53R`O_.?,QZB;]3/
+MXJ(`A<I$$-D5U5*N#
+
+
+
+(&AL;
+MR^`\*1N*I):D$`(D:`KKJ=KB
+NP?@+3X0X$SBZ
+K.*IB(&84LRG'H`^-.R40
+
+F\'FF4*=
+
+PGC-Z6I
+
+
+
+
+
+
+V@NR`
+'Z-Z7
+
+
+
+
+M
+
+
+
+
+[G`\X*NZB
+
+
+J=C;`]QCO0AU
+LS'8'
+
+
+M/
+
+.]I14
+
+IS0%96.N<I6PZ8G5TDXE:Y,`W)$^3KHPQ/OIQQ!'#L7^&CB
+
+M;-QMYH-(I7YTT`6E/F\$P*[_'AK1++P`[BT/^4BDSK](`SN?P+#^G`=G/V)P
+)
+MK\Y/,I6-^KHY
+
+
+_/$T9F&U_M]M2]QV
+
+
+
+
+
+
+1&-^_18P%B*&EK/U8#(0YA)!=/
+
+^+461I2'WS=4&37ED
+
+
+
+
+
+82UD
+
+
+
+HWU'L3
+
+
+
+X](&4
+
+
+
+
+
+
+
+
+
+Z%KYVILG/RUL:*VLW.3
+MS2G+T
+
+
+[-I!R/D.2SF\-$915CODIS.D9HHZD@^4?RI!;7'
+
+
+
+M;%)9AGYNAJZQ+*\/B2U%+3-O`^FM=JXQ-UOM;!FZ0;*\/B2V21PVB0-7A$4L
+
+*QA[J'YMIA;6(V7
+
+^^,S<$A&!D%
+MT`^;O=RM.07M?Y$D&???93$\_87'(O(O)RSFB?S^0Q2?LV1B`'WQZ<.:$D^.
+M\_)-[_CP\/#DV+!3UIYW?7`_\6OZ*7D0J.Y)MUO]GISEL`\CZ;3**07Y6-G
+M63J)8J37*M@6J:^!.AQTYZ!:
+
+2^!Q?IFA4X[GL`YZ]6X@?4]\_2)P
+
+^^Y=PUMESO_EMN[GC][
+
+
+
+MQ:]X$
+
+
+7\CDNB@YQZ=PB^O
+
+M-5Q27N5(\V_]7J_@+)J53I/L(26BO&-=P,1_C@=15$:1BG_'\X/^FK]&8&
+
+M8R+AWQ7G_#Z?6JG.\D/NO\W2[Z&@1
+O2`?\K][BXPKJ6WV_).OA=Y`L)V)`'
+
+
+
+
+
+
+-WCR0/STM3^[Q4T,HKI&*#T3
+
+
+3
+P
+M-3
+
+MNFWGW2^O7YW_X+IH+`6)?2!HLD*CCT/TGG+
+
+
+
+
+M
+\%
+B
+IBTJL[IY5JPC.P/=E#03WC6TO!2='H*Y:NNN[+$9MR!_IZ5^&`
+
+
+
+WGW6B]U&6<B
+@FQ%Q4W
+
+M=M6G
+
+
+
+MU!94V-VDTVDRR1NPYMC
+=MIRO_[L`&V`A`0(Q+DO+03[]?
+
+
+
+$2S)./B
+-;J^X^J/:J
+
+5EP=#
+
+
+
+
+
+P+WX%G3EU_N6\OC82JK+O:KTS951
+B!%8*]D.
+1
+
+
+
+E&4PQ?KJ
+
+MBG?48[=H?%+3H7
+
+
+-0)P7H#
+
+
+
+KWU5(Y^(QV)7.^WX;[
+
+
+/*QVRB303_`Z:NNM72(EQ_U`
+
+
+
+
+&0@Q3;#5^`2KD!
+
+
+JY/7G+(0L@;R6(_94!
+
+
+
+
+
+M[P`/ST`88I*
+(
+OFE?73
+L(R-S!`1*U\#H`^
+6Q*R9$(JVRVR)+(+A[)1E^'
+
+
+E+J;V@+/C!\S[RVH5K(M/%RY^;M[TF
+
+`YN
+
+
+G!R].0`H7`8):MO#R**
+
+
+P[/=^3
+
+M=Z31!RH^O\2!T
+
+
+%62-1+YDK/\:3%*8S[2;OKF4N;+Z3\@TOVTY[0
+
+
+U&_#C+S`1D35^QLBFAZ`R/9
+
+
+
+9
+
+
+MP&&YXPOV&?L&T;XVJN/6;G3'W(?^
+
+9$XF$
+
+
+MLHC+*XY&+GVMW25
+MQ&%F).LBKNJ=I8QUJ&OL:*0J.5OCQ.$11#D3V0QU_
+
+
+MY6C&RZJOO&`/%A@L'A8K;E#I,RL\$L%1_SZ(^
+
+
+
+
+=U-5LS+*X?I$?-J&:[
+
+M=&:1BN'
+`Y/S\0TH&NW;CRN:41@/0I54`ELJBVLH=+SCZ
+JT+4Y9=N3UD-
+M`KH
+
+9/4-ZD/9LCY?
+
+
+YPM
+
+
+
+(
+MO(H*YFS'G/_@G6^\BWE:_)\=!W#DRNQS48WU+.\$(+(2A*[CROT)/XBKQEJ
+MTM=-1793$:TNY/,ZBWLE:O,T(.\\\)ULTEJ0O=NXC0?([U"(QG23@+UU$2
+M\?T)CPXL0ITTVTS3WM:@[BF#2P+5L+)N,^L3-[Q+P.GHWGJ.TUC!-6H-76
+
+
+
+
+%IK9/_29BM3&ZPQBMS[OZ7I&Y3:
+M-6Z\::FP\ZBY(+NDQ)$[+=QD='19&F;M,%#RQTG8G04LN59ZYZR3I1!T=2W
+M)4E!H1)BA-LXR)N
+
+
+
+MY7J*J0S+
+
+FQ2)YZ[
+
+
+
+
+
+`H9KSM)UQMY(VBES^FHJ^C9/'9A(
+
+M
+30^&%EK^Q)P:C%L
+
+
+
+F$]T_RR6+\$
+
+
+
+
+^FX1P678
+
+
+O
+'6*C21$P
+;1LT73&B4;7]S
+M7&+D$4]6D#[
+
+5$^^E16
+
+ML%1SGE\G2O-E!%TQNKY
+
+S*
+
+
+
+K[@1:VJU(_?
+
+T'(]U.
+
+
+
+
+
+R4@*:T--K#7W(2N^C_5TJ?/])T#_:/(]\JV9%K)65K'BK:N)I4W
+M7Q,:?:MQWUH[C[G@TY27_V+E$L7\5HS!PMS.V.[BP6:OQP*8_^V#S*%F\N%
+MRM33!GW+';FFO08)_W;LRI7%@'OHQNUH%9-H\-$=N;
+U2D*1=1_#MON!_;];
+
+:4WM`:II#U)'^PRE
+(J]^^XQ+J#M
+
+3^_`[.K
+M
+
+
+
+M0=?+(J8)2T-@6QK:!^I)F5LE$9$53*+?O'1WR#5NQ)YI[#WB;IN_
+BQ2EQ8$
+
+
+^3:W](QBU-EQ')!.
+M2*?A0(R9G_6#NME$'0QD-G(#9^OE&8.W:
+
+
+M5^1[;CF`G(4O#,U14MGV)0JMI=LI_89^5'[)][2!'[Y/\!4$L#!!0````(
+M`$Z+'4/#4:6=Z1$``'TQ`0`5`!P`=&5A;2TR
+#$S
+#4S
+
+M``.$O!]2A+P?4G5XP`!!4.```$.0$``.U=;7/;-A+^W
+
+
+
+M+64)^;_VLEA;/FJ?OFZ?G1X_
+
+M'+7DWY_O^EKZ=V3A#O+IEPOBA5.(^?+O+O8O
+
+MW[]B:#H+X/+9A
+
+J.0B6+1\VOQ(/5:^
+PA]J&_
+
+
+
+
+;
+(49
+M@97%D@(F
+
+
+M:%'M704$9)WG_#).XI!2
+M_L;_=K]BL40-H3`W9
+J'JV2)=RTO091?.-?[YG
+
+M-645&.QM?1R+]2L
+
+JNM6HW%RM+F/IB4*9`K5-HW04*.3)6J.XJS
+M;XO%PO?4@B1;MF9D\CO3.@9K*EH'10^PB6!^^=?E'R%Z!(&0EW5Y#U`Z%PN
+
+P:D/P!H)&V`6`
+
+
+
+
+
+
+M(\2A
+
+
+Z71UXJY8_QU#:U;0G^D
+
+
+
+
+VF#+C$[=
+MVI)G%\(-Y9ZS
+@WB0O9\VC#-GTWK:MTJ=B5@K(N\1(%@^7V@^XQ4[E9Q'5N@
+M2O6N7$SR5;8.HHR8%V0*$%;Y7KEE;8&DJ(^E_*Y\C:U#)O'E\A.4WD3Y5]M%
+
+
+OWS
+39JW)8^LM:]BX?[9H:L[&RC611&$L)3
+
+
+
+
+
+
+
+
+
+
+M5=P:U
+
+
+HZF
+
+MIL68AH#N48Z&4@?Z
+
+
+
+
+MVJ_]
+
+
+F&K(<6:M.<UO
+MAH:SA=LJ^TI_`3E`0=T!LCR)W(N-Y6E1$\]I!L2L86E;G97)F(ER]3-.GKY
+
+
+
+MQ&HD\&=
+
+;S4%LC'
+
+
+
+
+
+
+/8?
+3_*G_
+
+
+X3J-1:ZY4
+NQVM=#S5(0=
+
+_CSC
+)7M&2')4B`@
+
+M*0E9P*A?:`M8N*9
+
+[`LFL^'1EP^B7U.O
+^&
+
+
+M[$L\$JNQY_$T5C@:N.
+A\Y`@YT3.
+
+
+MN8O2!@^4`#71^171^8(JPL*]PG
+
+
+
+
+
+
+
+
+
+
+JCE!?;\(_DL6@KU77
+
+M2W.V#J:Z
+
+
+KXLM_
+5`AT!@SEX68&`Q#'V@R
+
+
+C`Q
+S`U
+S%?8V%L
+
+MTU9
+
+
+ 'defref_us-gaap_StatementOfFinancialPositionAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_BasisOfAccounting'
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProfitLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockShareSubscribedButUnissuedSubscriptionsReceivable'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProfitLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProfitLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AssetsCurrentAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsAtCarryingValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_Assets'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LiabilitiesCurrentAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AccruedLiabilitiesCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NotesPayableRelatedPartiesClassifiedCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_Liabilities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AdditionalPaidInCapital'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DevelopmentStageEnterpriseDeficitAccumulatedDuringDevelopmentStage'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LiabilitiesAndStockholdersEquity'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerSharePolicyTextBlock'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<Label Key=Calendar Id=0 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NatureOfOperations'
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NotesPayableRelatedPartiesClassifiedCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_UseOfEstimates'
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DisclosureTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SubsequentEventsTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DisclosureTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_UnrecognizedTaxBenefitsResultingInNetOperatingLossCarryforward'
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsPolicyTextBlock'
+<Label Key=Calendar Id=0 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DevelopmentStageEnterprises'
+<Label Key=Calendar Id=1 Label=May 31
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_fil_DocumentAndEntityInformationAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityRegistrantName'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentType'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentPeriodEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_AmendmentFlag'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCentralIndexKey'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_CurrentFiscalYearEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityPublicFloat'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityFilerCategory'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCurrentReportingStatus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityVoluntaryFilers'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityWellKnownSeasonedIssuer'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalYearFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalPeriodFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PolicyTextBlockAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LiquidityDisclosureTextBlock'
+<Label Key=Calendar Id=1 Label=May 31
+

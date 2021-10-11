@@ -1,0 +1,1698 @@
+
+
+ACCESSION NUMBER:		0001464865-18-000014
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20151231
+FILED AS OF DATE:		20180925
+DATE AS OF CHANGE:		20180924
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Lone Star Gold
+ Inc.
+		CENTRAL INDEX KEY:			0001464865
+		STANDARD INDUSTRIAL CLASSIFICATION:	METAL MINING [1000]
+		IRS NUMBER:				452578051
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-54509
+		FILM NUMBER:		181084286
+	BUSINESS ADDRESS:	
+		STREET 1:		20311 CHARTWELL CENTER DRIVE
+		STREET 2:		STE 1469
+		CITY:			CORNELIUS
+		STATE:			NC
+		ZIP:			28031
+		BUSINESS PHONE:		704-790-9799
+	MAIL ADDRESS:	
+		STREET 1:		20311 CHARTWELL CENTER DRIVE
+		STREET 2:		STE 1469
+		CITY:			CORNELIUS
+		STATE:			NC
+		ZIP:			28031
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Keyser Resources
+ Inc.
+		DATE OF NAME CHANGE:	20090526
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Washington
+ D.C. 20549
+
+
+
+
+
+
+
+
+ 2015
+
+
+
+
+
+
+
+
+LONE STAR GOLD
+ INC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Ste. 1469
+
+ NC
+
+
+
+
+
+
+
+
+ including area code: (704) 790-9799
+
+
+
+
+ as defined in Rule 405 of the Securities Act.
+
+
+
+
+
+
+ and (2) has been subject to such filing requirements for the past 90 days. &nbsp;&nbsp;&nbsp;Yes [ &nbsp;] &nbsp;&nbsp;&nbsp;&nbsp;No [x ]
+
+
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). &nbsp;&nbsp;Yes [ &nbsp;] &nbsp;&nbsp;&nbsp;No [x]
+
+
+ and will not be contained
+ to the best of registrant's knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K &nbsp;[ &nbsp;]
+
+
+
+
+
+
+
+
+
+
+
+ an accelerated filer
+ a non-accelerated filer
+ a smaller reporting company or an emerging growth company. See the definitions of &#147;large accelerated filer
+&#148; &#147;accelerated filer
+&#148; &#147;smaller reporting company
+&#148; and &#147;emerging growth company&#148; in Rule 12b-2 of the Exchange Act.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ indicate by checkmark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. &nbsp;[ &nbsp;]
+
+
+
+
+ 2018
+ was approximately $0. 
+
+
+ 2018 the Company had 143
+361
+963 outstanding shares of common stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as amended
+ or the Securities Act
+ and Section 21E of the Securities Exchange Act of 1934
+ as amended
+ or the Exchange Act
+ which include but are not limited to
+ statements concerning our business strategy
+ plans and objectives
+ projected revenues
+ expenses
+ gross profit
+ income
+ and mix of revenue. These forward-looking statements are based on our current expectations
+ estimates and projections about our industry
+ management&#146;s beliefs and certain assumptions made by us. Words such as &#147;anticipates
+&#148; &#147;expects
+&#148; &#147;intends
+&#148; &#147;plans
+&#148; &#147;predicts
+&#148; &#147;potential
+&#148; &#147;believes
+&#148; &#147;seeks
+&#148; &#147;hopes
+&#148; &#147;estimates
+&#148; &#147;should
+&#148; &#147;may
+&#148; &#147;will
+&#148; &#147;with a view to&#148; and variations of these words or similar expressions are intended to identify forward-looking statements. These statements are not guarantees of future performance and are subject to risks
+ uncertainties and assumptions that are difficult to predict. Therefore
+ our actual results could differ materially and adversely from those expressed in any forward-looking statements. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. is referred to as &#147;we
+&#148; &#147;our
+&#148; &#147;us
+&#148; the &#147;Company
+&#148; or &#147;Lone Star.&#148;
+
+
+ 2007 as Keyser Resources
+ Inc.&nbsp;&nbsp;On June 14
+ 2011
+ the Company changed its name to Lone Star Gold
+ Inc. &nbsp;The Company has been inactive since September 30
+ 2013. &nbsp;As of December 31
+ 2017 all of the Company&#146;s projects regarding La Candelaria and Chihuahua
+ Mexico (the Tailings Project) were abandoned and all contracts incident to those projects expired and or were terminated.
+
+
+ 2013 when it discontinued operations. &nbsp;In June of 2017 the Company&#146;s creditors filed a petition in the District Court of Harris County
+ Texas for the appointment of a receiver. &nbsp;In August of 2017
+ Angela Collette was appointed receiver pursuant to the petition. &nbsp;In connection with the receivership
+ Ms. Collette was appointed President
+ Secretary
+ Treasurer and Director of the Company. &nbsp;In February 2018 Ms. Collette appointed William Alessi as a director of the Company and then resigned as a director and officer of the Company.
+
+
+
+
+ commonly referred to as the JOBS Act. We will remain an &#147;emerging growth company&#148; for up to five years
+ or until the earliest of (i) the last day of the first fiscal year in which our total annual gross revenues exceed $1 billion
+ (ii) the date that we become a &#147;large accelerated filer&#148; as defined in Rule 12b-2 under the Securities Exchange Act of 1934
+ which would occur if the market value of our ordinary shares that is held by non-affiliates exceeds $700&nbsp;million as of the last business day of our most recently completed second fiscal quarter or (iii) the date on which we have issued more than $1 billion in non-convertible debt during the preceding three year period.
+
+
+&#148; we may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not &#147;emerging growth companies&#148; including
+ but not limited to:
+
+
+
+&#148; which includes issuers that had a public float of less than $75 million as of the last business day of their most recently completed second fiscal quarter);
+
+
+
+
+
+
+
+
+ Section 107 of the JOBS Act provides that an &#147;emerging growth company&#148; can take advantage of the extended transition period provided in Section&nbsp;7(a)(2)(B) of the Securities Act for complying with new or revised accounting standards. Under this provision
+ an &#147;emerging growth company&#148; can delay the adoption of certain accounting standards until those standards would otherwise apply to private companies. In other words
+ an &#147;emerging growth company&#148; can delay the adoption of such accounting standards until those standards would otherwise apply to private companies until the first to occur of the date the subject company (i) is no longer an &#147;emerging growth company&#148; or (ii) affirmatively and irrevocably opts out of the extended transition period provided in Securities Act Section 7(a) (2) (B). The Company has elected to take advantage of this extended transition period and
+ as a result
+ our financial statements may not be comparable to the financial statements of other public companies. Accordingly
+ until the date that we are no longer an &#147;emerging growth company&#148; or affirmatively and irrevocably opt out of the exemption provided by Securities Act Section 7(a) (2) (B)
+ upon the issuance of a new or revised accounting standard that applies to your financial statements and has a different effective date for public and private companies
+ clarify that we will disclose the date on which adoption is required for non-emerging growth companies and the date on which we will adopt the recently issued accounting standard.
+
+
+
+
+ Ste. 1469
+ Cornelius
+ NC 28031. &nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Market for Registrant&#146;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities. &nbsp;
+
+Since June 20
+ 2011
+ shares of the Company&#146;s common stock have been quoted on the Over-the-Counter Market under the symbol &#147;LSTG&#148;.
+
+
+
+
+
+
+
+
+
+
+
+
+Fiscal Year Ended December 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fiscal Year Ended December 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of preferred stock. The provisions in the Articles of Incorporation relating to the preferred stock allow directors to issue preferred stock with multiple votes per share and dividend rights which would have priority over any dividends paid with respect to the holders of common stock. The issuance of preferred stock with these rights may make the removal of management difficult even if the removal would be considered beneficial to shareholders generally
+ and will have the effect of limiting shareholder participation in certain transactions such as mergers or tender offers if these transactions are not favored by our management.
+
+
+ September 1
+ 2018 the Company had 143
+361
+963 outstanding shares of common stock which were owned by approximately 20 shareholders of record. &nbsp;
+
+
+
+
+
+
+
+
+
+
+ 2015 and 2014
+ the Company was inactive. &nbsp;As a result of its inactivity
+ the Company generated no revenue
+ had no expenses and had no assets for the years ended December 31
+ 2015 and 2014. &nbsp;Following the close of the receivership
+ the Company had no liabilities.
+
+
+ as of December 31
+ 2015
+ have any significant capital requirements. 
+
+
+ demands
+ commitments
+ events or uncertainties that will result in
+ or that are reasonable likely to result in
+ our liquidity increasing or decreasing in any material way.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ including our Principal Executive and Financial Officers of the effectiveness of our disclosure controls and procedures as of the end of the period covered by this report on Form 10-K. Disclosure controls and procedures are procedures designed with the objective of ensuring that information required to be disclosed in our reports filed under the Securities Exchange Act of 1934
+ such as this Form 10-K
+ is recorded
+ processed
+ summarized and reported
+ within the time period specified in the Securities and Exchange Commission&#146;s rules and forms
+ and that such information is accumulated and is communicated to our management
+ including our Principal Executive and Financial Officers
+ or persons performing similar functions
+ as appropriate
+ to allow timely decisions regarding required disclosure. Based on that evaluation
+ our management concluded that
+ as of December 31
+ 2015
+
+ however
+ that the objectives of the controls system are met
+ and no evaluation of controls can provide absolute assurance that all control issues and instances of fraud
+ if any
+ within a company have been detected.
+
+
+
+
+ internal control over financial reporting is a process designed by
+ or under the supervision of the company&#146;s Principal Executive and Financial Officers and implemented by its Board of Directors
+ management and other personnel
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of our financial statements in accordance with U.S. generally accepted accounting principles.
+
+
+ internal control over financial reporting may not prevent or detect misstatements. Also
+ projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions
+ or that the degree of compliance with the policies or procedures may deteriorate.
+
+
+ 2015
+ based on criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission
+ or the COSO Framework (2013). Management&#146;s assessment included an evaluation of the design of our internal control over financial reporting and testing of the operational effectiveness of those controls.
+
+
+ management concluded that the Company&#146;s internal control over financial reporting was not effective as of December 31
+ 2015. &nbsp;Due to the following:
+
+
+
+
+
+
+ authorizing
+ and recording of certain transactions due to the small size of our company.
+
+
+
+
+Notwithstanding the above
+&nbsp;controls system cannot provide absolute assurance that the objectives of the controls system are met
+ and no evaluation of controls can provide absolute assurance that all control issues and instances of fraud
+ if any
+ within a company have been detected.
+
+
+
+
+ or is reasonably likely to materially affect
+ the Company&#146;s internal control over financial reporting.
+
+
+
+
+
+Item 10. &nbsp;Directors
+ Executive Officers and Corporate Governance. &nbsp;
+
+
+
+
+
+
+
+
+
+
+ Financial and Accounting Officer and a Director
+
+
+ or until their successors are elected and qualified. Executive officers are elected by directors and serve at the board&#146;s discretion.
+
+Mr. Alessi
+ age 46
+ has been the Managing Director of Hybrid Titan Management
+ LLC since September 11
+ 2000. He was formerly the interim CEO of RMD Entertainment Group
+ Inc. from April of 2017 through October of 2017
+ and was the interim CEO of Land Star
+ Inc. from April of 2017 to December of 2017.
+
+
+
+ as that term is defined in Section 803 of the NYSE Company Guide. &nbsp;The Company does not have a financial expert.
+
+
+ financial and accounting officers and persons performing similar functions. &nbsp;
+
+
+
+
+
+ Angela Collette was appointed receiver of the Company pursuant to a petition filed by the Company&#146;s creditors in District Court
+ Harris County
+ Texas. &nbsp;In addition
+ in 2018 Ms. Collette was appointed President
+ Secretary
+ Treasurer and a director of the Company. 
+
+
+ 2018
+ William Alessi was appointed a director and the Company&#146;s Chief Executive
+ Financial and Accounting Officer.
+
+
+ Ms. Collette&#146;s position as receiver ended and Ms. Collette resigned as an officer and director of the Company.
+
+
+ Mark Townsend was the Company&#146;s sole officer and director. &nbsp;Mr. Townsend was removed in February 2018.
+
+
+
+
+ 2015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ The Company does not provide its officers or employees with pension
+ stock appreciation rights
+ long-term incentive or other plans. 
+
+Employee Pension
+ Profit Sharing or other Retirement Plans. 
+ pension plan
+ profit sharing or other retirement plan
+ although it may adopt one or more of such plans in the future.
+During the year ended December 31
+ 2015
+ the Company did not compensate its directors for acting as such.
+
+During the year ended December 31
+ 2015
+ none of the Company&#146;s officers was also a member of the compensation committee or a director of another entity
+ which other entity had one of its executive officers serving as one of the Company&#146;s directors.
+
+
+ 2018 and the amount of time this person expects to devote to the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as of __________
+ 2018
+ the shareholdings of (i) each person owning beneficially 5% or more of the Company&#146;s outstanding shares of common stock; (ii) each executive officer of the Company
+ and (iii) all officers and directors as a group. &nbsp;Unless otherwise indicated
+ each owner has sole voting and investment power over his shares of common stock.
+
+
+
+
+
+
+
+
+000
+
+
+
+
+ NC 28031
+
+
+
+000
+
+
+
+
+000
+000 shares of the Company&#146;s Series A Preferred stock
+ which represents 100% of the outstanding shares of this class. &nbsp;Each share of Series A Preferred stock is entitled to 100 votes on any matter upon which the holder of common stock is entitled to vote. 
+
+
+Certain Relationships and Related Transactions
+ and Director Independence. &nbsp;
+
+
+ our sole director and Executive Officer was issued 100
+000 shares of common stock and 30
+000
+000 shares of Series A preferred share. &nbsp;Each Series A preferred share is entitled to 100 votes on any matter upon which the holder of common stock is entitled to vote. 
+
+
+
+
+
+ as defined in Rule 3-11 of Regulation S-X of the Securities and Exchange Commission
+ the Company&#146;s financial statements for the years ended December 31
+ 2015 and 2014 may be unaudited. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015 and 2014
+
+
+
+ 2015 and 2014
+
+
+
+ 2015 and 2014
+
+
+
+ 2015 and 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LONE STAR GOLD
+ INC.
+
+
+
+
+December 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Property and equipment
+ net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+109
+495
+109
+495
+
+
+54
+507
+54
+507
+
+
+45
+778
+45
+778
+
+
+120
+414
+120
+414
+
+
+38
+910
+38
+910
+
+
+369
+104
+369
+104
+
+
+
+
+
+143
+262
+143
+262
+
+
+5
+398
+908
+5
+398
+908
+
+
+(5
+891
+587)
+(5
+891
+587)
+
+
+(19
+687)
+(19
+687)
+
+
+(369
+104)
+(369
+104)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LONE STAR GOLD
+ INC.
+
+
+
+
+
+
+December 31
+ 2015
+December 31
+ 2014
+
+
+
+
+
+
+
+
+
+1
+994
+
+
+
+(1
+994)
+
+
+
+
+
+
+
+45
+637
+
+
+
+43
+643
+
+
+
+
+
+Net Income (loss) attributable to Lone Star Gold
+ Inc.
+
+
+
+43
+643
+
+
+
+
+
+
+
+
+143
+261
+963
+143
+261
+963
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LONE STAR GOLD
+ INC.
+
+
+
+
+
+
+
+December 31
+ 2015
+December 31
+ 2014
+
+
+
+
+
+
+43
+643
+
+
+
+
+
+1
+994
+
+
+
+(45
+637)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LONE STAR GOLD
+ INC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ December 31
+ 2014
+143
+261
+963
+143
+262
+5
+398
+908
+(5
+891
+587)
+(19
+687)
+(369
+104)
+
+
+
+
+
+
+
+
+
+
+ December 31
+ 2015
+143
+261
+963
+143
+262
+5
+398
+908
+(5
+891
+587)
+(19
+687)
+(369
+104)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LONE STAR GOLD
+ INC.
+
+December 31
+ 2015
+
+
+
+Lone Star Gold
+ Inc. (the &#147;Company&#148; or &#147;Lone Star&#148;)
+ formerly known as Keyser Resources
+ Inc.
+ was incorporated in the State of Nevada on November 26
+ 2007.&nbsp;&nbsp;The Company is an Exploration Stage Company as defined by Financial Accounting Standards Board Accounting Standards Codification (&#147;ASC&#148;) Topic 915
+
+On January 26
+ 2012
+ the Company
+ acting through a&nbsp;&nbsp;subsidiary
+ Amiko Kay
+ S. de R.L. de C.V.
+ a company organized under the laws of Mexico (&#147;Amiko Kay&#148;)
+ entered into a Joint Venture Agreement (the &#147;JV Agreement&#148;) with Miguel Angel Jaramillo Tapia (&#147;Jaramillo&#148;)
+ a resident of Mexico. Under the JV Agreement
+ Amiko Kay and Jaramillo agreed to process mine tailings located in the city of Hidalgo Del Parral in the state of Chihuahua
+ Mexico (the &#147;Tailings&#148;)
+ and
+ after processing
+ to use
+ market and sell any minerals extracted from the Tailings. The Company owns 99% of the issued and outstanding membership interests of Amiko Kay. The JV Agreement provides Amiko Kay the right to receive 65% of the net revenues from the sale of any materials extracted from the Tailings. The Company is accounting for the activities under the JV Agreement as a collaborative arrangement as defined by ASC 808. As a result
+ acquisition costs related to the JV Agreement have been capitalized and all other expenditures by the Company related to the JV Agreement have been expensed as incurred as exploration costs. This is in accordance with the Company&#146;s Mineral Property Cost Accounting Policy. 
+
+Shortly after September 30
+ 2013
+ the Company ceased operation as it was in default of certain creditor obligations. The Company was put into receivership to satisfy outstanding judgment creditor claims. 
+
+
+
+
+
+
+
+
+
+ and in represented in the consolidated balance sheets as a component of stockholders&#146; equity.&nbsp;&nbsp;Non-controlling interests in the results of operations of the Company are presented in the face of the statement of operations as an allocation of the total profit or loss between non-controlling interests and the shareholders of the Company.
+
+
+
+
+
+
+
+ and are expressed in US dollars. The Company&#146;s fiscal year-end is December 31.
+
+
+
+
+
+
+
+ historical experience and various other factors that it believes to be reasonable under the circumstances
+ the results of which form the basis for making judgments about the carrying values of assets and liabilities and the accrual of costs and expenses that are not readily apparent from other sources. The actual results experienced by the Company may differ materially and adversely from the Company&#146;s estimates. To the extent there are material differences between the estimates and the actual results
+ future results of operations will be affected.&nbsp;
+
+
+
+
+
+
+
+ basic net loss per share is computed by dividing the net loss available to common stockholders for the period by the weighted average number of shares of common stock outstanding during the period. The calculation of diluted net loss per share gives effect to common stock equivalents; however
+ potential common shares are excluded if their effect is anti-dilutive.
+
+
+
+
+
+ which requires recognition of deferred tax assets and liabilities for future tax consequences attributable to differences between the financial statement carrying amounts of existing assets and liabilities and their respective tax bases and tax credit carry forwards. Deferred tax assets and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be recovered or settled. The effect on deferred tax assets and liabilities of a change in tax rates is recognized in operations in the period that includes the enactment date. A valuation allowance is
+
+
+ the statement implements a process for measuring those tax positions which meet the recognition threshold of being ultimately sustained upon examination by the taxing authorities. There are no uncertain tax positions taken by the Company on its tax returns and the adoption of the statement had no material impact to the Company&#146;s consolidated financial statements. The Company files tax returns in the US and states in which it has operations and is subject to taxation. Tax years subsequent to 2013 remain open to examination by U.S. federal and state tax jurisdictions.
+
+
+
+
+
+ 2013. All operations prior to that have been presented in the statement of operations and the cash flow statement as net income or loss from discontinued operations. In fact we had no assets related to an operating business as December 31
+ 2017
+ 2016
+ 2015
+ 2014 or 2013.
+
+
+
+
+ &#147;Presentation of Financial Statements&#151;Going Concern (Subtopic 205-40): Disclosure of Uncertainties about an Entity&#146;s Ability to Continue as a Going Concern (&#147;ASU 2014-15&#148;).
+
+
+
+
+
+
+ the Company had an accumulated deficit of $5
+891
+587 at December 31
+ 2015. These factors raise substantial doubt about the Company&#146;s ability to continue as a going concern in the future once it acquires a viable entity.
+
+
+
+
+ 2015 through the financial statement issuance date for subsequent event disclosure consideration and noted no significant subsequent event that needs to be disclosed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+ thereunto duly authorized. 
+
+LONE STAR GOLD
+ INC.
+
+
+
+Dated: September 20
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+Chief Executive
+ Financial and Accounting 
+
+
+
+
+
+
+
+
+
+
+ this Report has been signed below by the following persons on behalf of the Registrant and in the capacities and on the dates indicated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Financial and Accounting
+
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ William Alessi
+ certify that:
+
+
+ Inc.;
+
+
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+
+
+
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+
+ or cause such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+
+ as of the end of the period covered by this report based on such evaluation; and
+
+
+ or is reasonably likely to materially affect
+ the registrant's internal control over financial reporting; and
+
+
+ based on our most recent evaluation of the internal control over financial reporting
+ to the registrant's auditors and the audit committee of the registrant's board of directors (or persons performing the equivalent functions):
+
+
+ process
+ summarize and report financial information; and
+
+
+ whether or not material
+ that involves management or other employees who have significant role in the registrant's internal control over financial reporting.
+
+
+ 2018
+
+
+ Principal Executive Officer
+
+
+
+
+
+
+
+
+
+
+
+
+
+ William Alessi
+ certify that:
+
+
+ Inc..
+
+
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+
+
+
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared;
+
+
+ or cause such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+
+ as of the end of the period covered by this report based on such evaluation; and
+
+
+ or is reasonably likely to materially affect
+ the registrant's internal control over financial reporting; and
+
+
+ based on our most recent evaluation of the internal control over financial reporting
+ to the registrant's auditors and the audit committee of the registrant's board of directors (or persons performing the equivalent functions):
+
+
+ process
+ summarize and report financial information; and
+
+
+ whether or not material
+ that involves management or other employees who have significant role in the registrant's internal control over financial reporting.
+
+
+ 2018
+
+
+ Principal Financial Officer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (the &quot;Company&quot;) on Form 10-K for the year ending December 31
+ 2015 as filed with the Securities and Exchange Commission (the &quot;Report&quot;)
+ William Alessi
+ the Company&#146;s Principal Executive and Financial Officer
+ certifies pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2013
+ that to the best of their knowledge:
+
+
+
+
+
+
+ in all material respects
+ the financial condition and results of the Company.
+
+
+
+ 2018
+
+
+ Principal Executive and Financial Officer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
