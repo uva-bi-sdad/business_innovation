@@ -1,0 +1,85 @@
+---
+title: "State of the Literature - March 2022"
+author: "Emily Kurtz"
+date: "3/6/2022"
+fontsize: 12pt
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Process
+
+We have been working with data from 2015 to present. I decided to get a sense of the literature that has been published in the latter end of that time frame, so I have been searching for articles from 2017 or after. I started my search in Google Scholar, searching for related keywords like "SEC EDGAR," "10-K," "filings," etc. I refined by date.
+
+I paid attention initially to abstracts and methods/data sections. If the article seemed relevant, I began to read more thoroughly. I have not read through everything yet, but I have so far identified 10 useful articles. I plan to add more and read through the chosen ones in more detail.
+
+## Run EDGAR Run: SEC Dissemination in a High-Frequency World - Rogers, Skinner, and Zechman
+
+### Summary and Importance
+
+Accoding to the SEC's homepage, "the SEC protects investors, promotes fairness in the securities markets, and shares information about companies and investment professionals to help investors make informed decisions and invest with confidence" (https://www.sec.gov/). One obligation in the pursuit of fairness is that the SEC make filings "publicly available." The release of filings has a financial impact on the market; trades occur and prices change as a result of the information in the filings. Thus, access to the information in the filings can give investors and advantage.
+
+This is no problem if all investors are on equal footing, and indeed making this information publicly available helps achieve this goal. However, as of the publishing of this article, "the majority of filings [were] available to paying subscribers of the SEC's public dissemination system (PDS) feed before they [were] posted to the EDGAR website, and so provide[d] subscribers and thier clients with a private advantage." This advantage was economically significant and the article showed that the market responds to information contained in the filings before they are even posted to EDGAR. These results caused the SEC to launch an investigation and to eliminate the PDS advantage.
+
+### Methods
+
+The researchers use data from March 2012 through December 2013. They obtain Form 4 filings from Thomson-Reuters. The article uses some standard statistical tools, like OLS and Wilcoxon rank sum tests. There doesn't seem to be anything particularly unusual statistically.
+
+## The Pessimism Factor: SEC EDGAR Form 10-K Textual Analysis and Stock Returns - Chouliaras
+
+### Summary and Importance
+
+### Methods
+
+## edgar: An R package for the U.S. SEC EDGAR retrieval and parsing of corporate filings - Lonare, Patil, and Raut
+
+### Summary and Importance
+
+### Methods
+
+## OpenEDGAR: Open Source Software for SEC EDGAR Analysis - Bommarito, Katz, and Detterman
+
+### Summary and Importance
+
+### Methods
+
+## Do Retail Investors Use SEC Filings? Evidence from EDGAR Search - Chi and Shanthikumar
+
+### Summary and Importance
+
+### Methods
+
+## A New Variable in Corporate Disclosure Analysis: An AI Study of the SEC EDGAR Database - Aldridge and Li
+
+### Summary and Importance
+
+### Methods
+
+## The Effects of Information Acquisition in M&As: Evidence from SEC EDGAR Web Traffic - Wang
+
+### Summary and Importance
+
+### Methods
+
+## EDGAR-CORPUS: Billions of Tokens Make The World Go Round - Loukas, Fergadiotis, Androutsopoulos, and Malakasiotis
+
+### Summary and Importance
+
+Potentially a great new package to deal with this data! - https://github.com/nlpaueb/edgar-crawler
+
+### Methods
+
+## The Interplay between Information Acquisition and Information Integration: Evidence from SEC 10-K/10-Q Filing Dates - Coyne, Kim, and Kim
+
+### Summary and Importance
+
+### Methods
+
+## FinBERT: pre-trained model on SEC filings for financial natural language tasks - DeSola, Hanna, and Nonis
+
+### Summary and Importance
+
+### Methods
