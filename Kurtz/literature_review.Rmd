@@ -32,7 +32,17 @@ The researchers use data from March 2012 through December 2013. They obtain Form
 
 ### Summary and Importance
 
+This paper studies the impact that pessimism plays on stock behavior. Previous literature has explored this idea and found that negative (pessimism) percentage itself does not play a significant role in future stock returns. But this paper finds that the change in pessimism over time, along with how a stock previously performed, does play a significant role.
+
+More specifically, the pessimism percentage (a metric which is defined in the Methods section of this paper) is not significant when measuring returns for a filing during the month that the filing is submitted. However, the change in pessimism from the previous year to the current year is significant in mearuing the returns in the month when the filing is submitted. The coefficient is negative, meaning a positive change in pessimism (i.e. more negative words used in the filing in the current year compared to the previous year) leads to lower returns in the submission month compared the the previous year. 
+
+The distinction is important. It seems to make sense that more negativity in a filing would lead to lower returns, but previous research was not able to empirically show this. This paper shows that the change from the previous year, and increased negativity as compared to previous years, not just the raw negativity overall, is what is really significant.
+
 ### Methods
+
+The paper uses a Python webcrawler to access SEC 10-K data files. It looks at the years from 1992 to 2015. It cleans the files. The reseacher measures the positive percentage of words by dividing the number of positive words by the total number of words for each 10-K filing. They remove stop words from the denominator. They repeat this same process for negative words, and obtain a Pessimism metric for each filing, which is defined as the difference between the proportion of words that are negative and the proportion that are positive. To that point, the Pessimism metric is negative if the filing contains a higher proportion of positive words than negative words, and is positive if the filing contains a higher proportion of negative words than positive words. Positive pessimism scores signify overall net negativitiy, and vice versa.
+
+To find that the change in pessimism is significant, as discussed in the previous section, the researcher uses a linear regression model. The variable of interest is the interaction between change in pessimism and returns from the previous year (i.e. showing that the current year's returns change significantly with changes in the interaction between the previous year's returns and the change in pessimism between the two years). I wonder if some sort of time series analysis might have been more straightforward here.
 
 ## edgar: An R package for the U.S. SEC EDGAR retrieval and parsing of corporate filings - Lonare, Patil, and Raut
 
