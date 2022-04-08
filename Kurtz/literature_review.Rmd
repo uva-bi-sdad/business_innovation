@@ -48,7 +48,41 @@ To find that the change in pessimism is significant, as discussed in the previou
 
 ### Summary and Importance
 
+This paper was published quite recently (December 2021). It summarizes the functions of an R package that downloads and analyzes the SEC public disclosures. It "facilitates downloading, parsing, searching, and sentiment analysis of corporate reports," so it probably would be a good aid to the type of work that a lot of these recent articles have done/perhaps future work for this project.
+
+The name of the package is "edgar." It has 12 total functions.
+
 ### Methods
+
+I'll discuss the functions in more detail here. However, it might also be useful, if interested, to just dive into the help manual.
+
+```{r}
+#install.packages("edgar")
+library(edgar)
+```
+
+Here is a summary of the functions:
+
+\begin{table}[!htbp]
+\begin{tabular}{ll}
+get8KItems         & Retrieves Form 8-K event information                   \\
+getBusinDescr      & Retrieves business descriptions from annual statements \\
+getDailyMaster     & Retrieves daily master index                           \\
+getFilingHeader    & Scrape EDGAR filing header information                 \\
+getFilingInfo      & Retrieves filing information of a firm                 \\
+getFilings         & Retrieves EDGAR filings from SEC server                \\
+getFilingsHTML     & Get HTML view of EDGAR filings                         \\
+getMasterIndex     & Retrieves quarterly master index                       \\
+getMgmtDisc        & Retrieves management's discussion and analysis section \\
+getSentiment       & Provides sentiment measures of EDGAR filings           \\
+LMMasterDictionary & Loughran and McDonald Sentiment Master Dictionary      \\
+searchFilings      & Search EDGAR filings for specific keywords            
+\end{tabular}
+\end{table}
+
+It seems getFilingInfo() is the function that does essentially what I did last semester (i.e. gets all of the 10-K filings). The paper itself references quarterly returns, as does the help text, so that is expected to match up exactly with what I was collecting. The package also has cleaning functions and a handful of NLP functions.
+
+
 
 ## OpenEDGAR: Open Source Software for SEC EDGAR Analysis - Bommarito, Katz, and Detterman
 
