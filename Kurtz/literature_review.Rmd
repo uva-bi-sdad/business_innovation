@@ -92,7 +92,7 @@ This is similar to the last article, but it is presenting a Python package for E
 
 ### Methods
 
-
+The paper goes into decent detail about coding processes and practices. Those discussions seem more targeted to someone with more experience with Python and/or more of a computer science background than I have; if they are of interest, they're in section 2, which is on pages 2 and 3. The remainder of the paper talks about how the data set is built, stored, and accessed using the library.
 
 ## Do Retail Investors Use SEC Filings? Evidence from EDGAR Search - Chi and Shanthikumar
 
