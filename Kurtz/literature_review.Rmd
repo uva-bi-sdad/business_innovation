@@ -88,7 +88,11 @@ It seems getFilingInfo() is the function that does essentially what I did last s
 
 ### Summary and Importance
 
+This is similar to the last article, but it is presenting a Python package for EDGAR analysis, not an R package. Its main motivation is, perhaps unsurprisingly, to make using SEC data easier, given it is a legal requirement that companies share this data and it is within the spirit of the law to make it equitably accessible. The paper says the library was built on the Django application framework (I am not sure this is useful information since I am unfamiliar with that, but I figured I'd add it here anyways since it was apparently important enough to include in the abstract). It retrieves and parses filings abd creates tables for the most important data, among some other useful functionalities.
+
 ### Methods
+
+
 
 ## Do Retail Investors Use SEC Filings? Evidence from EDGAR Search - Chi and Shanthikumar
 
@@ -127,3 +131,9 @@ Potentially a great new package to deal with this data! - https://github.com/nlp
 ### Summary and Importance
 
 ### Methods
+
+
+
+## Future Directions?
+
+After scouring the web for recent work using SEC EDGAR, I had some idea for future work, if you change paths in this project. The first is to somehow see if the increased focus on access to SEC data in the past few years has made a difference in who uses the data, who is making trades, etc. Unfortunately, this idea can't "simply" be executed using SEC data like the project has in the past. It would require outside data, and I'm not sure where/how/if such data exists and can be found. But, a few of the articles touched upon equity and accessibility being the motivation for the papers, and it also seems to really fit in with the idea of "data science for the public good," so I think such a project, if possible to carry out, would be fulfilling and make a big splash.
