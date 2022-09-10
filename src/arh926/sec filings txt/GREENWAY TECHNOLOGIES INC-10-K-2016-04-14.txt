@@ -1,0 +1,13894 @@
+
+
+ACCESSION NUMBER:		0001010549-16-000571
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		5
+CONFORMED PERIOD OF REPORT:	20151231
+FILED AS OF DATE:		20160414
+DATE AS OF CHANGE:		20160414
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			UMED HOLDINGS
+ INC.
+		CENTRAL INDEX KEY:			0001572386
+		STANDARD INDUSTRIAL CLASSIFICATION:	MISCELLANEOUS FOOD PREPARATIONS & KINDRED PRODUCTS [2090]
+		IRS NUMBER:				900893594
+		STATE OF INCORPORATION:			TX
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55030
+		FILM NUMBER:		161572504
+	BUSINESS ADDRESS:	
+		STREET 1:		6628 BRYANT IRVIN ROAD
+		STREET 2:		SUITE 250
+		CITY:			FORT WORTH
+		STATE:			TX
+		ZIP:			76132
+		BUSINESS PHONE:		817-346-6900
+	MAIL ADDRESS:	
+		STREET 1:		6628 BRYANT IRVIN ROAD
+		STREET 2:		SUITE 250
+		CITY:			FORT WORTH
+		STATE:			TX
+		ZIP:			76132
+
+
+
+
+
+
+
+
+
+
+    Document created using EDGARfilings PROfile 4.0.0.0
+    Copyright 1995 - 2016 Summit Financial Printing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ $0.0001 par value
+
+
+
+
+ as defined in Rule&#160;405 of the Securities Act.&#160;&#160;Yes&#160;
+
+
+
+
+
+
+ and (2)&#160;has been subject to such filing requirements for the past 90 days.&#160;&#160;Yes&#160;
+
+
+
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files).&#160;&#160;Yes&#160;
+
+
+
+ and will not be contained
+ to the best of registrant's knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K.&#160;&#160;
+
+
+
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See the definitions of large accelerated filer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the aggregate market value of the voting and non-voting common equity held by non-affiliates of the registrant computed by reference to the price at which the common equity was last sold based on the closing price on that date was approximately $6
+974
+090. On March 24
+ 2016
+ the registrant had outstanding 188
+446
+419 shares of Common Stock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (the Company) was originally incorporated as Dynalyst Manufacturing Corporation on March 13
+ 2002 and adopted a name change to Universal Media Corporation upon completion of a reverse acquisition of Dynalyst Manufacturing Corporation in August of 2009.&#160; In March 2011
+ we changed our name to UMED Holdings
+
+
+
+
+ (2) the ability to grow with steady growth to follow
+ and (3) an emphasis on emerging core industry markets
+ such as energy
+
+
+
+
+ we refer to ourselves as UMED, We, Us
+ the Company
+
+ Times
+
+ Times
+<font style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+covering its mobile<font style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 39.6pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ or in Conjunction with Selling
+
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+ specifying the computation
+
+
+
+
+
+
+
+ market
+ or foreign currency risks. UMED evaluates all of it financial instruments to determine if such instruments are derivatives or contain features that qualify as embedded derivatives. For derivative financial instruments that are accounted for as liabilities
+ the derivative instrument is initially recorded at its fair value and is then re-valued at each reporting date
+ with changes in the fair value reported as charges or credits to income. For option-based derivative financial instruments
+ UMED uses the Black-Scholes option-pricing model to value the derivative instruments at inception and subsequent valuation dates. The classification of derivative instruments
+ including whether such instruments should be recorded as liabilities or as equity
+
+
+
+
+
+
+ which potentially subject the Company to concentrations of credit risk
+ consist primarily of cash
+ cash equivalents and trade receivables. The Company places its cash and temporary cash investments with high credit quality institutions.&#160;&#160;At times
+
+
+
+
+
+
+ (ASC 105-10)
+ which was formerly known as SFAS 168. ASC 105-10 establishes the FASB Accounting Standards Codification (the Codification) as the source of authoritative accounting principles recognized by the FASB to be applied by nongovernmental entities in the preparation of financial statements in conformity with U.S. GAAP. Rules and interpretive releases of the Securities and Exchange Commission (the SEC) under authority of federal securities laws are also sources of authoritative U.S. GAAP for SEC registrants.&#160;&#160;All guidance contained in the Codification carries an equal level of authority.&#160;&#160;The Codification superseded all existing non-SEC accounting and reporting standards and all other non-grandfathered
+ non-SEC accounting literature not included in the Positions or Emerging Issues Task Force Abstracts.&#160;&#160;Instead
+ it will issue Accounting Standards Updates (ASUs). The FASB will not consider ASUs as authoritative in their own right.&#160;&#160;ASUs will serve only to update the Codification
+
+
+
+
+ but not yet adopted
+ accounting standards in order to determine their effects
+ if any
+ on its results of operation
+ financial position or cash flows.&#160;&#160;Based on that review
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ UMED Holdings
+ Inc. (the Company) accepted the resignation of Terry L. Johnson
+ CPA as the independent registered public accounting firm of the Company. The resignation of Terry L. Johnson
+
+
+
+
+ the subsequent interim period thereto
+ and through May 6
+ 2015
+ there were no disagreements (as defined in Item 304 of Regulation S-K) with Terry L
+ Johnson
+ CPA on any matter of accounting principles or practices
+ financial statement disclosure
+ or auditing scope or procedure
+ which disagreements
+ if not resolved to the satisfaction of Terry L. Johnson
+ CPA
+ would have caused it to make reference in connection with his opinion to the subject matter of the disagreement.&#160;&#160;Further during the Company's two most recent fiscal years
+ the subsequent interim periods thereto
+ and through May 6
+ 2015
+
+
+
+On September 24
+ 2015
+ the Company was made aware of the Securities and Exchange Commission (SEC) order dated September 17
+ 2015
+ against Terry L. Johnson
+ CPA instituting a public administrative and cease-and-desist order against Terry L. Johnson
+ CPA
+ the previous auditor for the registrant who resigned as the Company's auditor on May 6
+ 2015.&#160;&#160;On July 7
+ 2015
+ the PCAOB withdrew the registration of Terry L. Johnson
+ CPA.&#160;&#160;As a result of the Commission's order
+ Terry L. Johnson
+ CPA was denied the privilege of appearing or practicing before the Commission for failing to comply with PCAOB auditing standards.&#160;&#160;Terry L. Johnson
+ CPA was also cited for the issuance of audit reports that falsely stated that Terry L. Johnson
+Due to the Commission's order
+ the registrant can no longer include the audit reports of Terry L. Johnson
+ CPA in the registrant's filings with the Commission.&#160; The Company filed an 8K/A on September 30
+ 2015 to disclose the SEC and PCAOB actions.
+
+
+ 2015
+ the Company's Board of Directors engaged Patrick D. Heyn
+ CPA
+ P.A. as its new independent registered public accounting firm to audit the Company's financial statements for the Company's fiscal year ending December 31
+
+
+
+ 2014 and December 31
+ 2013
+ and the subsequent interim periods thereto
+ and through May 6
+ 2015
+ neither the Company nor anyone acting on its behalf consulted Patrick D. Heyn
+ CPA
+ P.A. with respect to (i) the application of accounting principles to a specified transaction
+ either contemplated or proposed
+ or the type of audit opinion that might be rendered on the Company's financial statements
+ and neither a written report or oral advice was provided to the Company that Patrick D
+ Heyn
+ CPA
+ P.A. concluded was an important factor considered by the Company in reaching a decision as to the accounting
+ auditing or financial reporting issues: or (ii) any matter that was the subject of disagreement or a reportable event set forth in Item 304(a)(1)(iv) and (v)
+ respectively
+
+
+
+
+
+
+
+
+
+
+ with the participation of our Principal Executive Officer and Principal Financial Officer
+
+
+ management recognizes that any controls and procedures
+ no matter how well designed and operated
+ can provide only reasonable assurance of achieving the desired control objectives. In addition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ our Principal Executive Officer and Principal Financial Officer
+ after considering the existence of material weaknesses identified
+ determined that our internal control over financial reporting disclosure controls and procedures were not effective as of December 31
+
+
+
+
+
+
+
+
+
+
+
+
+ and that our receipts and expenditures are being made only in accordance with authorizations of our management and directors
+ and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition
+
+
+
+
+ internal control over financial reporting may not prevent or detect misstatements. Also
+ projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions
+
+
+
+
+
+
+ including our Principal Executive Officer and Principal Financial Officer
+ assessed the effectiveness of our internal control over financial reporting as of December&#160;31
+ 2015.&#160; In making this assessment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ the Company internally performed all aspects of its financial reporting process
+ including
+ but not limited to the underlying accounting records and record journal entries and responsibility for the preparation of the financial statement due to the fact these duties were performed often times by the same people
+ a lack of review was created over the financial reporting process that might result in a failure to detect errors in spreadsheets
+ calculations
+
+
+
+
+
+
+
+
+
+
+
+
+ which is comprised of seven directors
+ and we do not have a functioning audit committee. As a publicly-traded company
+
+
+
+
+
+
+ the material weakness in internal control over financial reporting that has been identified will not be remediated until numerous internal controls are implemented and operate for a period of time
+ are tested
+ and the Company is able to conclude that such internal controls are operating effectively. The Company cannot provide assurance that these procedures will be successful in identifying material errors that may exist in the financial statements. The Company cannot make assurances that it will not identify additional material weaknesses in its internal control over financial reporting in the future. Management plans
+ as capital becomes available to the Company
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#160;however&#160;well&#160;designed&#160;and operated
+&#160;can provide only&#160;reasonable
+&#160;and not absolute
+&#160;assurance&#160;that the objectives of the system are met. In addition
+ the design of any control system is based in part upon certain assumptions about the likelihood of future events.&#160;&#160;Because of these and other inherent limitations of control system
+ there can be no assurance that any design will succeed in achieving its stated goals under all potential future conditions
+
+
+
+
+
+
+
+
+
+
+
+
+ or are reasonably likely to materially affect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Financial Officer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ was appointed interim chief executive officer on January 14
+ 2016 and director on March 7
+
+ Western Preferred Corporation and El Paso Refining
+ Inc.&#160;&#160;He has also served as an officer of some of the largest and most prestigious global financial institutions including Goldman Sachs
+ Citicorp
+ ABN-AMRO Bank and AIG.&#160;&#160;After resigning from AIG
+ Mr. Jones created a very successful small business for life insurance lending.&#160;&#160;He graduated from the University of Texas at El Paso in 1971 with a BBA
+
+
+
+ was appointed chief executive officer
+ chief financial officer and chairman of the board on August 18
+ 2009.&#160;&#160;Mr. Moseley served as chief financial officer and director (August 2009 to December 2012) for Swordfish Financial
+ Inc.
+ a financial company focusing on recovering financial assets in dormant accounts for clients.&#160;&#160;&#160;Mr. Moseley served as the chief financial officer and director (March 2007 to February 2013) for Utilicraft Aerospace Industries
+ Inc.
+ a developing aerospace company focusing on freight related aircraft.&#160;&#160;&#160;Mr. Moseley served (2001 to 2006) as executive vice president
+ chief financial officer and director of Urban Television Network Corp
+ a network created to serve independent broadcast television stations and cable operators.&#160;&#160;&#160;From 1999 to 2001
+ Mr. Moseley served as executive vice president and chief financial officer for Tensor Information Systems
+ Inc.
+ a private Fort Worth company in the business of developing custom software applications.&#160;&#160;Mr. Moseley
+ a certified public accountant
+
+
+ was appointed president and director of UMED Holdings
+ Inc. on August 18
+ 2009.&#160;&#160;On January 14
+ 2016
+ Mr. Halden resigned as President of the Company but continues to serve as a director.&#160; Mr. Halden also currently serves as president of Capital Equity Partners
+ LLC
+ (2007 to present) a management services firm providing corporate financial and marketing services to public companies.&#160;&#160;Mr. Halden was co-founder of Channel 28
+ in 2004
+ a Dallas
+ Texas independent television station airing programming provided by Urban Television Network Corporation
+ which contracted with Mr. Halden from 2001 to 2006.&#160;&#160;Prior to the founding of Channel 28
+ Mr. Halden provided consulting services to American Independent Network Corporation
+ Hispanic Television Network
+
+
+ has served as a Director of the Company since its incorporation in March 2002.&#160;&#160;Mr. Takacs served as president and chief executive officer of the Company's predecessor
+ Dynalyst Manufacturing Corporation
+ from March 2002 until his resignation in August 2009.&#160;&#160;Prior to Dynalyst
+ Mr. Takacs worked for Institutional Capital Management
+
+
+ was elected as a director of the Company on March 7
+ 2016. Kevin founded All Commercial Floors in 1999 and is responsible for its overall operation.&#160; Under his leadership ACF has grown from a two-person business in the corner of his garage to one of the largest and
+ we feel
+ one of the most respected commercial flooring companies in the country with offices throughout the United States
+ and with annual sales exceeding $40 million.&#160; Today
+ ACF may well be considered the premier healthcare flooring contractor in the country
+ serving customers from Alaska to Florida
+ Maine to California and beyond.&#160; ACF has also spread beyond the healthcare sector with expansion into the general commercial flooring sector with offices in key U.S. markets.&#160; This has led to landmark projects at venues such as the Gaylord Texan
+ American Airlines Center
+ the University of Alabama and Cowboys Stadium.&#160; We believe that no other flooring contractor in the country has the ability to reach any corner of North American continent with the skill and success of ACF.&#160; He attended Texas Tech University in Lubbock
+
+ was elected as a director of the Company on March 7
+ 2016.&#160; Ray has served as the President of Greenway Innovative Energy
+ Inc. (a wholly-owned subsidiary of the registrant) since August 2012.&#160; Mr. Wright was a co-founder of DFW Genesis in 2009
+ where he began working on the natural gas to liquid (GTL) process and worked through 2012
+ when he and Conrad Greer formed Greenway Innovative Energy
+ Inc. to continue working on the GTL process.&#160; Previously
+
+ was elected as a director of the Company on March 7
+ 2016.&#160; Patrick has served as a Vice-President of Greenway Innovative Energy
+ Inc. since 2013.&#160; He has also provided consulting serves to the registrant
+ since May 2011.&#160; He has been in the oil and gas industry for 37 years as an independent operator of oil and gas properties both as an owner and consultant.&#160; He received a BBA in marketing from Texas Tech University in Lubbock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ but who are expected to make a significant contribution to our business. We intend in the future to hire independent geologists
+
+
+
+
+
+ there have been no events under any bankruptcy act
+ no criminal proceedings and no judgments
+ injunctions
+
+
+
+
+
+We have a Code of Ethics that applies to our principal executive officers and our principal financial officers
+ principal accounting officer or controller
+ or persons performing similar functions. We undertake to provide to any person
+ without charge
+ upon request
+ a copy of our Code of Ethics. You may request a copy of our Code of Ethics by mailing your written request to us. Your written request must contain the phrase Request for a Copy of the Code of Ethics of UMED Holdings, Inc. A copy of our Code of Ethics is also posted on our website
+. Our address is: UMED Holdings
+ Inc.
+ 8851 Camp Bowie West Blvd.
+ Suite 240
+ Fort Worth
+ Texas 76116.
+
+
+
+
+
+
+ directors and persons who beneficially own more than 10% of our common stock to file reports of ownership and changes in ownership with the SEC. These reporting persons also are required to furnish us with copies of all Section 16(a) forms they file. Based solely on the reports received by us
+ the transaction report of Company transactions supplied by our transfer agent and our shareholders list as of March 31
+ 2016
+ to the best of our knowledge all required directors
+ officers and greater than 9.99% percent shareholders complied with applicable filing requirements during the fiscal year ended December 31
+
+
+
+
+
+
+&#160; Ransom Jones and Kevin Jones are brothers.&#160; Otherwise
+
+
+
+
+
+
+
+ 2015
+
+
+
+
+
+
+
+ or committee performing a similar function. Shareholders may recommend nominees for Director by sending written communications to the company's Board of Directors to the attention of the Chairman of the Board
+ Randy Moseley at UMED Holdings
+ Inc.
+ 8851 Camp Bowie West Blvd.
+ Suite 240
+ Fort Worth
+
+
+
+
+
+
+
+
+
+
+ as amended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ and (4) have discussed with the independent accountant the independent accountant's independence; and based on the review and discussions referred to above
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Randy Moseley. Persons wishing to write to the Board or to a specified director or committee of the Board should send correspondence to the Corporate Secretary at UMED Holdings
+ Inc.
+ 8851 Camp Bowie West Blvd.
+ Suite 240
+ Fort Worth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015
+ 2014 and 2013 to our principal executive officers and principal financial officers. No other officer or person received total annual compensation in excess of $100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Interim Chief Executive Officer
+ effective January 14
+ 2016
+ Chief Operating Officer
+
+
+ 2015 &#8211; January 14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Chief Executive Officer
+ resigned April 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000 shares of restricted class A common stock due Executive per his employment agreement
+
+
+
+
+
+
+
+
+
+
+375
+000 shares of restricted class A common stock due Executive per his employment agreement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+375
+000 shares of restricted class A common stock due Executive per his employmentagreement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+375
+000 shares of restricted class A common stock due Executive per his employment agreement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ no director received and/or accrued any compensation for his services as a director
+
+
+
+
+
+
+
+
+
+ 2016 which was 98
+811
+192 shares
+ by: (i) each person (including any group) known by us to own more than five (5%) of any class of our voting securities
+ (ii) each of our directors and executive officers
+ and (iii) our officers and directors as a group. Unless otherwise indicated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+567
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+677
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+157
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+333
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+700
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+811
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the address for each of these stockholders is c/o UMED Holdings
+ Inc.
+ at 8851 Camp Bowie Blvd. West
+ Suite 240
+ Fort Worth
+ Texas 76116.&#160; Also
+ unless otherwise indicated
+
+
+
+
+
+
+
+
+
+
+
+
+
+219
+085 shares of class A common stock outstanding as of March 24
+ 2016 and the 15
+126
+938 class B common shares outstanding at March 24
+ 2016 for a total of 203
+346
+
+
+
+
+
+
+
+
+
+
+280
+809 shares of class A common held directly by Mr. Moseley
+ 2
+797
+000 shares of class A common held by Mr. Moseley's spouse
+ 7
+500
+000 shares of class B shares held directly by Mr. Moseley
+ 1
+183
+164 shares of class A common&#160; held by Capital Equity Partners
+ LLC of which Mr. Moseley is a member
+ 5
+000
+000 shares of class A common held by Media Advertising LLC of which Mr. Moseley is a member
+ 3
+500
+000 shares of class A common held by Arkansas Partners of which Mr. Moseley is a partner
+ and 2
+148
+
+
+
+
+
+
+
+
+
+
+
+
+
+836
+139 shares of class A common held directly by Mr. Halden
+ 4
+500
+000 shares of class A common held by Mr. Halden's spouse
+ 7
+500
+000 shares of class B shares held directly by Mr. Halden
+ 1
+183
+164 shares of class A common held by Capital Equity Partners
+ LLC of which Mr. Halden is a member
+ 5
+000
+000 shares of class A common held by Media Advertising Partners LLC of which Mr. Halden is a member and 3
+500
+
+
+
+
+
+
+
+
+
+
+
+
+
+583
+334 shares of class A common held directly by Mr. Jones and 12
+750
+
+
+
+
+
+
+
+
+
+
+
+
+
+000 shares of class A common held directly by Mr. Six and 4
+500
+
+
+
+
+
+
+
+
+
+
+ including any pledge by any person of the Company's securities
+
+
+
+
+
+
+
+
+878 and $715
+070 during the years ended December 31
+ 2015 and 2014
+ respectively.&#160; The shareholders have elected to convert advances of $314
+517 and $1
+527
+180 to shares of class A common stock at market value ($.173 and $.228 per share) and received repayments of $122
+976 and $0 during the years ended December 31
+ 2015 and 2014
+
+
+
+
+ the Company's then Chief Executive Officer resigned and in his settlement agreement gave up claims to receive deferred compensation
+ which amounted to $518
+
+
+
+
+
+125
+000 shares of restricted class A common stock to its former CEO
+ its President and Chief Financial Officer per their employment agreements. The shares were valued at $0.15 per share based on market value.
+
+
+
+
+179
+340 shares of restricted class A common stock to its President and Chief Financial Officer for the conversion of 611
+956 shares of class B stock at the rate of fifteen shares of restricted common stock for each share of Class B stock
+ on terms set by the Company's predecessor
+ Dynalyst Manufacturing Corporation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ were for professional services for auditing and reviewing the Company's financial statements
+
+
+
+
+
+
+
+ the Board of Directors reviews the audit plans and anticipated fees for audit and tax work prior to the commencement of that work.&#160;All fees paid to the independent auditors are pre-approved by the Board of Directors.&#160;These services may include audit services
+ audit-related services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. dated May 1
+
+
+
+
+
+
+
+
+
+ Inc. dated December 31
+
+
+
+
+
+
+
+
+
+ Inc. dated December 31
+
+
+
+
+
+
+
+
+
+ Inc. dated August 29
+
+
+
+
+
+
+
+
+
+ Inc. dated February 23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. Promissory Note with Southwest Capital Funding Ltd dated August 17
+
+
+
+
+
+
+
+
+
+ Inc. and Southwest Capital Funding Ltd dated October1
+
+
+
+
+
+
+
+
+
+ Inc. and Southwest Capital Funding Ltd dated December 20
+
+
+
+
+
+
+
+
+
+ Inc. Promissory Note to Robert R. Romer dated August 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filed in Form 10 filed on November 12
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the registrant caused this report to be signed on its behalf by the undersigned
+ thereunto duly authorized in Houston
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. and its subsidiaries (the Company) as of December 31
+ 2015 and 2014 and the related consolidated statements of operations
+ stockholders' deficit and cash flows for the years ended December 31
+
+
+
+ nor were we engaged to perform
+ an audit of its internal control over financial reporting. our audits included consideration of internal control over financial reporting as a basis for designing audit procedures that are appropriate in the circumstances
+ but not for the purpose of expressing an opinion on the effectiveness of the Company's internal control over financial reporting. Accordingly
+ we express no such opinion. An audit also includes examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the consolidated financial statements. An audit also includes assessing the accounting principles used and significant estimates made by management
+
+
+
+ the consolidated financial statements referred to above present fairly
+ in all material respects
+ the consolidated financial position of the Company as of December 31
+ 2015 and 2014 and the consolidated results of its operations and its cash flows for the years ended December 31
+ 2015 and 2014
+
+
+
+
+
+
+
+ the Company has minimal revenues
+ has incurred losses since inception
+ and has a negative working capital balance at December 31
+ 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ less impairment allowance of $100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ less impairment allowance of $90
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+757
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+909
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+793
+
+
+
+
+
+
+
+822
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ net of discounts of $0 and $110
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+860
+
+
+
+
+
+
+
+
+
+
+
+
+271
+
+
+
+
+
+
+
+340
+
+
+
+
+
+
+
+
+
+
+
+
+271
+
+
+
+
+
+
+
+340
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 20
+000
+000 shares authorized
+ par value $0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+126
+938 issued and outstanding at December 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+738
+894 at December 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares authorized
+ par value $0.0001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+882
+132 and 145
+559
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015 and December 31
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+167
+
+
+
+
+
+
+
+983
+
+
+
+
+
+
+
+
+
+
+
+
+458
+
+
+
+
+
+
+
+
+
+429
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+270
+
+
+
+
+
+
+
+
+
+430
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+909
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+829
+
+
+
+
+
+
+
+
+
+241
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+596
+
+
+
+
+
+
+
+459
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+596
+
+
+
+
+
+
+
+
+
+459
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+210
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+230
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+028
+
+
+
+
+
+
+
+
+
+384
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+028
+
+
+
+
+
+
+
+
+
+
+
+384
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+860
+
+
+
+
+
+
+
+442
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+798
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+911
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+818
+
+
+
+
+
+
+
+
+
+044
+
+
+
+
+
+
+
+
+
+
+
+211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+310
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+703
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+526
+
+
+
+
+
+
+
+
+
+
+
+
+527
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+034
+
+
+
+
+
+
+
+
+
+
+
+
+
+301
+
+
+
+
+
+
+
+
+
+
+
+302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+384
+
+
+
+
+
+
+
+
+
+384
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2014
+
+
+
+
+
+
+
+738
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+559
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+983
+
+
+
+
+
+
+
+
+
+429
+
+
+
+
+
+
+
+
+
+
+
+430
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+915
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+081
+
+
+
+
+
+
+
+
+
+
+
+082
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+179
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+817
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+410
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+403
+
+
+
+
+
+
+
+
+
+
+
+404
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+028
+
+
+
+
+
+
+
+
+
+028
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+126
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+882
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+167
+
+
+
+
+
+
+
+
+
+458
+
+
+
+
+
+
+
+
+
+
+
+270
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+230
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+404
+
+
+
+
+
+
+
+302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+304
+
+
+
+
+
+
+
+
+
+272
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+527
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+082
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+270
+
+
+
+
+
+
+
+935
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Inc. (UMED or the Company) was organized on March 13
+ 2002 under the laws of the State of Texas as Dynalyst Manufacturing Corporation.&#160;&#160;On August 18
+ 2009
+ in connection with a merger with Universal Media Corporation
+ a privately held Nevada company
+ the Company changed its name to Universal Media Corporation (UMC).&#160;&#160;The company changed its name to UMED Holdings
+ Inc. on March 23
+
+
+
+
+
+
+ UMED has acquired 1
+440 acres of placer mining claims on Bureau of Land Management land in Mohave County
+ Arizona. See discussion in Note 4.&#160; Due the Company not producing any revenues from its BLM mining leases since its acquisition of the leases
+ achieving a position of producing cash flow levels to fund the development of its BLM mining leases in December of 2010 and not having current resources for an appraisal
+ we recognized an impairment charge of $100
+000 during the year ended December 31
+
+
+
+
+ UMED has acquired a 49% interest in Jet Regulators
+ LP
+ an aircraft maintenance company located at Meacham Field in Fort Worth
+ Texas.&#160;&#160;See discussion in Notes 5 and 7.&#160; Due to reduced growth expectations and the Company not receiving any revenues from its ownership in Jet Tech described in Note 7
+ we recognized an impairment charge of $90
+000 during the year ended December 31
+
+
+
+ the Company acquired 80% of Mamaki Tea &amp; Extract of Hawaii
+ Inc. (nka Mamaki of Hawaii
+ Inc.) which owns and operates Wood Valley Plantation a 25 acre Mamaki Tea plantation located in the Kau district of the Island of Hawaii and lies at the foot of Mauna Loa
+ the Earth's largest volcano.&#160;&#160;&#160;On December 31
+ 2012
+ the Company acquired the remaining 20% for 500
+000 shares of restricted common stock and $127
+800 of cash.&#160; Mamaki of Hawaii
+ Inc. was sold in October 2015 as discussed further in Notes 2
+ 3
+ 4
+
+
+
+
+ the Company acquired 100% of Greenway Innovative Energy
+ Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ which contemplates realization of assets and the satisfaction of liabilities in the normal course of business. As shown in the accompanying consolidated financial statements
+ the Company sustained a loss of $4 million for the year ended December 31
+ 2015 and has a deficit of $12.5 million at December 31
+
+
+
+ the Company continues to seek other sources of financing in order to support existing operations and expand the range and scope of its business. However
+ there are no assurances that any such financing can be obtained on acceptable terms and timely manner
+ if at all.&#160;&#160;The failure to obtain the necessary working capital would have a material adverse effect on the business prospects and
+ depending upon the shortfall
+
+
+
+
+
+
+
+
+
+
+ 2014
+ the Company (through procedures performed by its independent auditors) determined that it had failed to properly value shares issued for services and shareholder conversions and properly&#160;identify and value&#160;derivatives related to a convertible note with associated warrants.&#160; As the result of this error
+ we are restating our financial statements (The Restatement) and associated disclosures to include the cost associated with the shares issued and the derivatives associated with the convertible note and warrants.&#160; The error resulted in the understatement of non-cash expenses and a corresponding understatement of net loss by $1
+699
+129
+ for the year ended December 31
+
+
+
+
+ the Company has reclassified the accounts and operations related to Mamaki of Hawaii
+ Inc.
+ a wholly-owned subsidiary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+084
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+757
+
+
+
+
+
+
+
+
+
+
+
+757
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+155
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+909
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+245
+
+
+
+
+
+
+
+245
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+860
+
+
+
+
+
+
+
+
+
+
+
+
+860
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+189
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+340
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+679
+
+
+
+
+
+
+
+
+
+
+
+
+
+303
+
+
+
+
+
+
+
+983
+
+
+
+
+
+
+
+
+
+
+
+
+730
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+699
+
+
+
+
+
+
+
+
+
+429
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+034
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+418
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+092
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+241
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+430
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+459
+
+
+
+
+
+
+
+
+
+
+
+
+
+460
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+459
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+685
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+687
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+685
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+687
+
+
+
+
+
+
+
+
+
+384
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+685
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+687
+
+
+
+
+
+
+
+
+
+
+
+384
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+685
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+669
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+081
+
+
+
+
+
+
+
+455
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+582
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+049
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+935
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ in accordance with ASC Topic 360
+ Property, Plant and Equipment.&#160;&#160;An asset or asset group is considered impaired if its carrying amount exceeds the undiscounted future net cash flow the asset or asset group is expected to generate.&#160;&#160;If an asset or asset group is considered impaired
+ the impairment to be recognized is measured by the amount by which the carrying amount of the assets exceeds its fair value.&#160;&#160;If estimated fair value is less than the book value
+ the asset is written down to the estimated fair value and an impairment loss is recognized.&#160; Due the Company not producing any revenues from its BLM mining leases since its acquisition of the leases
+ achieving a position of producing cash flow levels to fund the development of its BLM mining leases in December of 2010 and not having current resources for an appraisal
+ we recognized an impairment charge of $100
+000 during the year ended December 31
+ 2014.&#160; The Company will continue to pay the annual renewal fees of $11
+160 based on obtaining encouraging results from samples on surface material.&#160; Due to reduced growth expectations and the Company not receiving any revenues from its ownership in Jet Tech described in Note 7
+ we recognized an impairment charge of $90
+000 during the year ended December 31
+
+
+
+
+
+
+ 2015
+ the Company consummated the sale of its wholly owned subsidiary
+ Mamaki of Hawaii
+ Inc. (Mamaki) to Hawaiian Beverages
+ Inc. (HBI).&#160;&#160; Under the agreement
+ HBI acquired 100% of the common stock of Mamaki in exchange for seven hundred thousand dollars ($700
+000) and the assumption of eighty-four thousand two hundred seventy-five thousand dollars ($84
+275) of UMED debts.&#160; HBI has paid so far two hundred forty-five thousand five hundred dollars ($245
+400) of the two hundred fifty thousand dollars ($250
+000) due at closing and pay three installments of one hundred fifty thousand dollars ($150
+000) on each of thirty
+ sixty and ninety-day from the closing date. The Company has not received any payment on the $454
+600 and has determined that the account is doubtful and wrote it off
+ as of December 31
+ 2015
+
+
+
+
+ Allocation of Interest to Discontinued Operations
+
+
+
+
+
+
+
+ to date
+ generated significant revenues.&#160; The Company plans to recognize revenue in accordance with Accounting Standards Codification subtopic 605-10
+ Revenue Recognition (ASC 605-10) which requires that four basic criteria must be met before revenue can be recognized: (1) persuasive evidence of an arrangement exists; (2) delivery has occurred; (3) the selling price is fixed and determinable; and (4) collectability is reasonably assured. Determination of criteria (3) and (4) are based on management's judgments regarding the fixed nature of the selling prices of the products delivered and the collectability of those amounts. Provisions for discounts and rebates to customers
+ estimated returns and allowances
+
+
+
+
+ (ASC 605-25). ASC 605-25 addresses accounting for arrangements that may involve the delivery or performance of multiple products
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2015 and 2014
+
+
+
+
+
+
+
+
+ Times
+ requires use of the <font style=FONT-STYLE: italic; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Mamaki of Hawaii
+ Inc.
+ in addition to its corporate activities
+
+
+
+
+
+
+
+&#160; All exploration expenditures are expensed as incurred. Mine development costs are capitalized until production
+ other than production incidental to the mine development process
+ commences and are amortized on a units of production method based on the estimated proven and probable reserves. Mine development costs represent costs incurred in establishing access to mineral reserves and include costs associated with sinking or driving shafts and underground drifts
+ permanent excavations
+ roads and tunnels. The end of the development phase and the beginning of the production phase takes place when construction of the mine for economic extraction is substantially complete. Coal extracted during the development phase is incidental to the mine's production capacity and is not considered to shift the mine into the production phase. Amortization of capitalized mine development is computed based on the estimated life of the mine and commences when production
+ other than production incidental to the mine development process
+ begins.&#160;&#160; Due to the Company not producing any revenues from its BLM mining leases since its acquisition of the leases
+ achieving a position of producing cash flow levels to fund the development of its BLM mining leases in December of 2010 and not having current resources for an appraisal
+ we recognized an impairment charge of $100
+000 during the year ended December 31
+ 2014.&#160; Through December 31
+ 2015
+ the Company had not incurred any mine development costs.&#160; During the year ended December 31
+ 2015
+ the Company incurred $9
+166 in costs of obtaining surface samples. Through December 31
+ 2015
+
+
+
+
+
+
+&#160; Costs of acquiring mine properties are capitalized by project area upon purchase of the associated claims.&#160;&#160;Mine properties are periodically assessed for impairment of value and any diminution in value. The Company had 1
+440 acres of placer mining claims at December 31
+ 2015
+ which were acquired in December 2010 in exchange for 5
+066
+000 shares of common stock valued at $100
+000.&#160; Due to the Company not producing any revenues from its BLM mining leases since its acquisition of the leases
+ achieving a position of producing cash flow levels to fund the development of its BLM mining leases in December of 2010 and not having current resources for an appraisal
+ we recognized an impairment charge of $100
+000 during the year ended December 31
+
+
+
+
+
+
+
+ Income Taxes, which requires that the Company recognize deferred tax liabilities and assets based on the differences between the financial statement carrying amounts and the tax bases of assets and liabilities
+
+
+. The ASC clarifies the accounting for uncertainty in income taxes recognized in an enterprise's financial statements.&#160;&#160;The ASC prescribes a recognition threshold and measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken in a tax return.&#160;&#160;The ASC provides guidance on de-recognition
+ classification
+ interest and penalties
+ accounting in interim periods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+112
+
+
+
+
+
+
+
+
+
+ including certain derivative instruments embedded in other contracts
+
+
+
+
+ a derivative may be specifically designated as a hedge
+ the objective of which is to match the timing of gain or loss recognition on the hedging derivative with the recognition of (i) the changes in the fair value of the hedged asset or liability that are attributable to the hedged risk or (ii) the earnings effect of the hedged forecasted transaction. For a derivative not designated as a hedging instrument
+
+
+
+
+ which was repaid on July 22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ as defined by Accounting Standard Codification subtopic 825-10
+
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 257.45pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=BORDER-BOTTOM: black 3px double; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=BORDER-BOTTOM: black 3px double; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=BORDER-BOTTOM: black 3px double; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=BORDER-BOTTOM: black 3px double; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 9.1pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+<font style=FONT-STYLE: normal; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<body style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<body style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; TEXT-INDENT: 36pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<table style=WIDTH: 100%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; TEXT-INDENT: -79.2pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<body style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; BORDER-COLLAPSE: collapse; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; BORDER-COLLAPSE: collapse; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<td style=FONT-VARIANT: normal; FONT-STYLE: normal; WIDTH: 29.94%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<font style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+<body style=FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: right; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: center; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; BORDER-COLLAPSE: collapse; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: justify; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+
+<table style=WIDTH: 100%; BORDER-COLLAPSE: collapse; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 3.3pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<td style=BORDER-BOTTOM-COLOR: ; FONT-VARIANT: normal; FONT-STYLE: normal; WIDTH: 32.8%; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+
+<div style=TEXT-ALIGN: left; LINE-HEIGHT: 11.4pt; FONT-FAMILY: 'Times New Roman'
+ Times
+

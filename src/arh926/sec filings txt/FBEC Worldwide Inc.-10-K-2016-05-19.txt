@@ -1,0 +1,6184 @@
+
+
+ACCESSION NUMBER:		0001019687-16-006394
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20151231
+FILED AS OF DATE:		20160519
+DATE AS OF CHANGE:		20160519
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			FBEC Worldwide Inc.
+		CENTRAL INDEX KEY:			0001311735
+		STANDARD INDUSTRIAL CLASSIFICATION:	BEVERAGES [2080]
+		IRS NUMBER:				061678089
+		STATE OF INCORPORATION:			WY
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-52297
+		FILM NUMBER:		161663647
+	BUSINESS ADDRESS:	
+		STREET 1:		16639 ROCKER ROAD
+		CITY:			ROUGH AND READY
+		STATE:			CA
+		ZIP:			95975
+		BUSINESS PHONE:		714-330-3798
+	MAIL ADDRESS:	
+		STREET 1:		16639 ROCKER ROAD
+		CITY:			ROUGH AND READY
+		STATE:			CA
+		ZIP:			95975
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Frontier Beverage Company
+ Inc
+		DATE OF NAME CHANGE:	20100305
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ASSURE DATA INC
+		DATE OF NAME CHANGE:	20041216
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+Washington
+ D.C.&nbsp;20549
+
+
+
+
+
+ANNUAL REPORT PURSUANT TO SECTION 13
+OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+
+
+    
+December 31
+ 2015
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+
+FBEC WORLDWIDE
+ INC.
+
+    
+
+
+
+
+    
+    
+    
+
+    
+        
+        
+    
+    
+        
+        
+
+
+
+
+1621 Central Ave
+ Cheyenne
+ WY 
+    
+
+    
+    
+
+
+
+
+Registrant&rsquo;s telephone number
+ including area code&nbsp;&nbsp;
+    
+
+
+
+of the Exchange Act:
+
+
+
+    
+    
+    
+
+
+        
+        
+    
+
+        
+        
+
+
+to Section 12(g) of the Exchange Act: 
+
+
+
+Common Stock
+ par value $0.001 per share
+
+    
+
+
+
+a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act.
+
+No 
+
+Indicate
+by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. Yes 
+No 
+
+
+has (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding
+12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2) has been subject to such
+filing requirements for the past 90 days. Yes 
+
+Indicate
+by check mark whether the registrant has submitted electronically and posted on its corporate Website
+ if any
+ every Interactive
+Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&sect;232.405 of this chapter) during the
+preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). Yes 
+No 
+
+
+filers pursuant to Item 405 of Regulation S-K (&sect;229.405 of this chapter) is not contained herein
+ and will not be contained
+to the best of the registrant's knowledge
+ in definitive proxy or information statements incorporated by reference in Part III
+of this Form 10-K or any amendment to this Form 10-K. 
+
+
+is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See the definitions
+of &ldquo;large accelerated filer
+&rdquo; &ldquo;accelerated filer&rdquo; and &ldquo;smaller reporting company&rdquo; in Rule 12b-2
+of the Exchange Act.
+
+
+
+&uml;
+
+    
+
+
+
+
+&uml;
+
+    
+
+
+
+is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes 
+
+
+non-voting common equity held by non-affiliates as of May 18
+ 2016 was $1
+092
+719 (computed by reference to the price at which
+the common equity was last sold ($0.0175)
+ or the average bid and asked price of such common equity as of the last business day
+of the registrant's most recently completed second fiscal quarter). For purposes of the foregoing calculation only
+ directors
+executive officers
+ and holders of 10% or more of the issuer&rsquo;s common capital stock have been deemed affiliates.
+
+
+common stock as of May 18
+ 2016 was 167
+847
+598.
+
+
+None.
+
+
+
+
+    
+    
+
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+INTRODUCTORY
+    COMMENT
+    
+
+FORWARD
+    LOOKING STATEMENTS
+    
+
+    
+    
+
+    
+    
+
+Item
+    1.
+    
+    
+
+Item
+    1A.
+Risk
+    Factors
+    
+
+Item
+    1B.
+Unresolved
+    Staff Comments
+    
+
+Item
+    2.
+    
+    
+
+Item
+    3.
+Legal
+    Proceedings
+    
+
+ITEM
+    4.
+MINE
+    SAFETY DISCLOSURES
+    
+
+    
+    
+    
+
+    
+    
+
+Item
+    5.
+Market
+    for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities
+    
+
+Item
+    6.
+Selected
+    Financial Data
+    
+
+Item
+    7.
+Management&rsquo;s
+    Discussion and Analysis of Financial Condition and Results of Operations
+    
+
+Item
+    7A.
+QUANTITATIVE
+    AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+    
+
+Item
+    8.
+Financial
+    Statements and Supplementary Data
+    
+
+Item
+    9.
+Changes
+    in and Disagreements with Accountants on Accounting and Financial Disclosure
+    
+
+Item
+    9A.
+Controls
+    and Procedures
+    
+
+Item
+    9B.
+Other
+    Information
+    
+
+    
+    
+    
+
+    
+    
+
+Item
+    10.
+Directors
+    Executive Officers and Corporate Governance
+    
+
+Item
+    11.
+Executive
+    Compensation
+    
+
+Item
+    12.
+Security
+    Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
+    
+
+Item
+    13.
+Certain
+    Relationships and Related Transactions
+ and Director Independence
+    
+
+Item
+    14.
+Principal
+    Accountant Fees and Services
+    
+
+    
+    
+    
+
+    
+    
+
+Item
+    15.
+Exhibits
+    AND Financial Statement Schedules
+    
+
+    
+    
+    
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+Report on Form 10-K (the &quot;Report&rdquo;)
+ the terms &ldquo;we
+&rdquo; &ldquo;us
+&rdquo; &ldquo;our
+&rdquo; &ldquo;FBEC
+&rdquo;
+or the &ldquo;Company&rdquo; refers to FBEC Worldwide
+ Inc f/k/a Frontier Beverage Company
+ Inc.
+ a Wyoming corporation.
+
+
+
+
+the words &ldquo;may
+&rdquo; &ldquo;will
+&rdquo; &ldquo;expect
+&rdquo; &ldquo;anticipate
+&rdquo; &ldquo;continue
+&rdquo; &ldquo;estimate
+&rdquo;
+&ldquo;intend
+&rdquo; and similar expressions are intended to identify forward-looking statements within the meaning of Section
+27A of the Securities Act of 1933
+ as amended (the &ldquo;Act&rdquo;) and Section 21E of the Securities Exchange Act of 1934
+ as
+amended (the &ldquo;Exchange Act&rdquo;) regarding events
+ conditions and financial trends which may affect the Company&rsquo;s
+future plans of operations
+ business strategy
+ operating results and financial position. Such statements are not guarantees of
+future performance and are subject to risks and uncertainties and actual results may differ materially from those included within
+the forward-looking statements. Additional factors are described in the Company&rsquo;s other public reports and filings with the
+Securities and Exchange Commission (the &ldquo;SEC&rdquo;). Readers are cautioned not to place undue reliance on these forward-looking
+statements
+ which speak only as of the date made. The Company undertakes no obligation to publicly release the result of any revision
+of these forward-looking statements to reflect events or circumstances after the date they are made or to reflect the occurrence
+of unanticipated events.
+
+
+estimates and plans related to us and the industry in which we operate
+ which assume certain events
+ trends and activities will
+occur and the projected information based on those assumptions. We do not know that all of our assumptions are accurate. If our
+assumptions are wrong about any events
+ trends and activities
+ then our estimates for future growth for our business may also be
+wrong. There can be no assurance that any of our estimates as to our business growth will be achieved.
+
+
+and analysis should be read in conjunction with our financial statements and the notes associated with them contained elsewhere
+in this Report. This discussion should not be construed to imply that the results discussed in this Report will necessarily continue
+into the future or that any conclusion reached in this Report will necessarily be indicative of actual operating results in the
+future. The discussion represents only the best assessment of management.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+under the laws of Nevada on November&nbsp;18
+ 2002 under the name Assure Data
+ Inc. after which it commenced operations as a comprehensive
+automated data backup and retrieval company for small and medium-sized businesses. Currently
+ the Company is engaged in the sale
+of hemp based energy products.
+
+
+ 2010
+ the Company
+entered into a purchase agreement with Innovative Beverage Group Holdings
+ Inc.
+ a Nevada corporation and a trademark assignment
+for the purchase of the intellectual property rights of a beverage created and developed by Innovative known as &ldquo;Unwind.&rdquo;
+The Company subsequently applied for and received a separate trademark featuring its new logo and the term Unwind Ultimate Relaxation
+in 2010. The Company intends to reformulate the product.
+
+
+ 2014
+ the
+Company purchased 90% of Dance Broadcast Systems
+ Inc. for 10
+000 Series A Preferred Stock with a par value of $.001. The preference
+allows the holder to vote 66.67% of the available votes for all purposes regardless of the other votes outstanding as long as one
+share of this series is outstanding. The designation for the Series A Preferred Stock was filed with the Secretary of State of
+Nevada on January 24
+ 2014. This transaction was recorded as a reverse merger with January 13
+ 2014 now becoming the inception
+date for accounting purposes. This transaction caused a change of control of the company to Vinyl Groove Productions
+ Inc.
+
+
+Inc. was incorporated in Delaware on January 13
+ 2014. The company was to set up an internet dance music broadcast station and
+sponsor concerts for our other subsidiaries. Assets were to be purchased for this purpose but the purchase of equipment was not
+concluded.
+
+
+ the Company
+sold its 51% stake in Blue 22 Entertainment for the receipt of 50 million common shares of NX Global
+ Inc. stock. Because the stock
+received does not have a current filing on Pink Sheets no value has been placed on the stock and no gain or loss has been recognized.
+
+
+ the Company
+entered into an agreement to be the distributor at retail of a oil emulsification product used to separate oil from various waste
+streams produced from oil wells
+ and oil storage or shipping. We will issue 5
+000 preferred shares
+ when available
+ after filing
+a designation which will be earned upon issuance.
+
+
+ 2014
+ the Company
+increased its authorized shares from 500
+000
+000 to 950
+000
+000.
+
+
+ 2014
+ the
+Company increased its authorized shares from 950
+000
+000 to 1
+970
+000
+000.
+
+
+subsidiaries were sold on June 26
+ 2014. The company does not retain any rights nor any liabilities of the disposed of subsidiaries.
+
+
+ 2014
+ the
+Company increased its authorized shares from 1
+970
+000
+000 to 2
+970
+000
+000.
+
+
+ 2014
+ the
+Company was re-domiciled to the State of Wyoming and increased its authorized common shares to 5
+000
+000
+000.
+
+
+ 2014
+ the
+Company changed its name to FBEC Worldwide
+ Inc.
+
+
+ 2014
+ the
+company effected 1:1000 reverse split. All share and per share amounts herein have been retroactively restated to reflect the split.
+
+
+June 2015
+
+ Consulting
+Agreement
+ and Royalty Agreement with G. Randall &amp; Sons
+ Inc. These agreements provide for the asset purchase of the proprietary
+hemp-based formula used in the Company&rsquo;s beverage energy shot. G. Randall and Sons will provide ongoing consulting services
+in blending new formula(s) and working directly with FBEC to improve and blend existing formulas. The Company purchased the asset
+for $50
+000. The purchase includes a $15
+000 cash payment and $35
+000 8% Convertible Note with a 6 month maturity date and conversion
+features of 75% of the average closing price 20 days previous to conversion. This represents a 25% discount to the average closing
+price 20 days previous to conversion.
+
+
+
+
+    
+    
+
+
+
+November 12
+ 2015
+ FBEC Worldwide
+ Inc.
+ (&ldquo;FBEC&rdquo;) entered into a joint venture agreement (the &ldquo;JV Agreement&rdquo;)
+with CBD Globe Distributors Ltd (&ldquo;CBD&rdquo;). Pursuant to the JV Agreement FBEC and CBD will form a limited liability company
+(the &ldquo;LLC&rdquo;)
+ which shall be owned as follows: 50.1% by FBEC and 49.9% by CBD. The LLC shall create a strategic alliance
+between the brands currently held by the parties
+ respectively in an effort to lend support in a multitude of areas and consolidate
+businesses in the cannabis and hemp industry. FBEC will take on the role of online digital marketer in a wide variety of online
+spaces as well as provide fulfillment support for the distribution of all brands at FBEC&rsquo;s expense. To the extent set forth
+in this Agreement
+ each of the Parties shall own an undivided fractional part in the LLC. Jason Spatafora and Patrick Folkes shall
+be the managing members of the LLC (the &ldquo;Managing Members&rdquo;).
+
+
+The JV Agreement may be terminated by either party in writing with thirty
+(30) days&rsquo; notice.
+
+
+through the operations of LLC
+ in connection with m&aacute; products
+ an ultra-high grade certified CBD hemp oil product which
+comes with a flavor cartridge
+ vapor pen
+ and 1ml of ma CBD oil
+ will perform the following tasks:
+
+Handle all digital and social media marketing;
+attempt to increase sales online and via wholesale channels utilizing SEO activities and Google Adword commitment.
+
+Connect fulfillment centre to website
+and coordinate sales GUI for wholesale ordering by sales team members.
+
+Data collection on retailers
+ distributors
+and wholesalers.
+
+Identify
+ list and provide all free or
+discounted banner groups available.
+
+Implement logistical and distribution
+manager to handle fulfillment needs by using inventory management software.
+
+Create a tracking platform using available
+technology to maintain accurate records of purchase orders
+ accounts receivable and all other expenditures related to day to day
+business of m&aacute; products.
+
+Create marketing strategies to extend
+the footprint of all brands associated with the LLC by both traditional marketing means
+ celebrity endorsement and product placement
+with prior approval of strategy and marketing aims in unison with CBD as brand owners.
+
+Seek funding commitments for both promotions
+and conventions.
+
+Provide its scientific advisory team to
+propose ideas to CBD
+ test and create new products that CBD could deem unique and worth pursuing by unanimous consent of the Managing
+Members.
+
+Seek approval from CBD in connection with
+the marketing of any other competing product or proposition
+ without such approval FBEC would be prohibited from any further activity
+in this respect.
+
+Liaise with CBD on all proposed product
+pricing issues
+ discounts
+ promotions
+ campaigns
+ PR
+ social media
+ advertising and all other marketing issues with the objective
+of streamlining m&aacute; brand and marketing campaigns worldwide.
+
+Coordinate the payment to CBD of its profit
+distribution
+ pursuant to the Operating Agreement
+ within 10 business days of each month end.
+
+
+through the operations of the LLC
+ will:
+
+Share any future distribution pipeline
+opportunities with FBEC for the purpose of extending the m&aacute; brand exposure in the cannabis and hemp space.
+
+Design a website
+ and create a new e-Commerce
+platforms.
+
+
+
+Direct all revenue and product flow related
+to the m&aacute; brand in the United States through the LLC and assist FBEC in its preparation of periodic financial reports as
+to be filed with the Securities and Exchange Commission.
+
+
+
+
+    
+    
+
+
+
+parties shall share the net profit realized by the LLC
+ if any
+ within 10 business days of each month end. All net profit is to
+be disbursed 50% (Fifty percent) to each party. FBEC shall also issue CBD 6
+000
+000 shares of restricted common stock over the
+coming year.
+
+
+to the date of the JV Agreement
+ the parties thereto had no interaction other than the negotiation of the JV Agreement.
+
+
+ 2015
+ FBEC
+Worldwide
+ Inc.
+ (&ldquo;FBEC&rdquo;) entered into a joint venture agreement (the &ldquo;JV Agreement&rdquo;) with DuBe Hemp Beverages
+Inc. (&ldquo;DUBE&rdquo;). Pursuant to the JV Agreement FBEC and DUBE will form a limited liability company (the &ldquo;LLC&rdquo;)
+which shall be owned as follows: 50.1% by FBEC and 49.9% by DUBE. The LLC shall create a strategic alliance between the brands
+currently held by the parties
+ respectively in an effort to lend support in a multitude of areas and consolidate businesses in
+the cannabis and hemp industry. FBEC will take on the role of online digital marketer in a wide variety of online spaces as well
+as provide fulfillment support for the distribution of all brands at FBEC&rsquo;s expense. To the extent set forth in this Agreement
+each of the Parties shall own an undivided fractional part in the LLC. Jason Spatafora and Phil Restifo shall be the managing members
+of the LLC (the &ldquo;Managing Members&rdquo;).
+
+
+shall be one year.
+
+
+ through the operations
+of LLC
+ in connection with the products produced by DUBE
+ will perform the following tasks:
+
+Handle all digital and social media marketing;
+attempt to increase sales online and via wholesale channels utilizing SEO activities and Google Adword commitment.
+
+Connect fulfillment centre to website
+and coordinate sales GUI for wholesale ordering by sales team members.
+
+Data collection on retailers
+ distributors
+and wholesalers.
+
+Identify
+ list and provide all free or
+discounted banner groups available.
+
+Implement logistical and distribution
+manager to handle fulfillment needs by using inventory management software.
+
+Create a tracking platform using available
+technology to maintain accurate records of purchase orders
+ accounts receivable and all other expenditures related to day to day
+business of m&aacute; products.
+
+Create marketing strategies to extend
+the footprint of all brands associated with the LLC by both traditional marketing means
+ celebrity endorsement and product placement
+with prior approval of strategy and marketing aims in unison with DUBE as brand owners.
+
+Agree to a funding commitments for both
+promotions and conventions.
+
+Provide its scientific advisory team to
+propose ideas to DUBE
+ test and create new products that DUBE could deem unique and worth pursuing.
+
+Seek approval from DUBE in connection
+with the marketing of any other competing product or proposition
+ without such approval FBEC would be prohibited from any further
+activity in this respect.
+
+Liaise with DUBE on all proposed product
+pricing issues
+ discounts
+ promotions
+ campaigns
+ PR
+ social media
+ advertising and all other marketing issues with the objective
+of streamlining m&aacute; brand and marketing campaigns worldwide.
+
+Coordinate the payment to DUBE of its
+profit distribution
+ pursuant to the Operating Agreement
+ within 10 business days of each month end.
+
+DUBE
+ through the operations of the LLC
+will:
+
+Share distribution pipeline opportunities
+marketing
+ and public relations with FBEC for the purpose of extending DUBE products and FEBEC&rsquo;s WolfShot (&ldquo;WolfShot&rdquo;)
+brand footprints in the cannabis and hemp space.
+
+Connect FBEC with all personnel currently
+managing and overseeing the production
+ sales
+ distribution
+ packaging
+ and marketing of DUBE products.
+
+Direct all revenue and product flow related
+to the DUBE brand in the United States through the LLC and assist FBEC in its preparation of periodic financial reports as to be
+filed with the Securities and Exchange Commission.
+
+
+
+
+    
+    
+
+
+the net profit realized by the LLC
+ if any
+ within 10 business days of each month end. 30% of all net profits related to DUBE products
+shall be distributed to FBEC. 70% of all net profits related to DUBE products shall be distributed to DUBE. 30% of all net profits
+related to WolfShot products to shall be distributed to DUBE. 70% of all net profits related to WolfShot products shall be distributed
+to FBEC. 50% of all net profits related to co-branded products shall be distributed to both parties. FBEC shall also issue DUBE
+6
+000
+000 shares of restricted common stock over the coming year.
+
+
+JV Agreement
+ the parties thereto had no interaction other than the negotiation of the JV Agreement.
+
+
+on or before 2015 have ceased to be sold or utilized by the
+
+
+
+ the Company
+resolved to reduce the authorized common shares to 2
+200
+000
+000
+
+ 2016.
+
+
+OTC Market Groups
+ Inc. OTCQB (the &ldquo;OTCQB&rdquo;)
+
+
+
+
+
+Worldwide
+ Inc. operates a sales
+ distribution and marketing business for the promotion and sale of hemp based energy drinks.
+
+
+
+
+ 2010
+ we acquired
+certain intellectual property rights for a proprietary relaxation beverage created and developed by Innovative Beverage Group Holdings
+is a light beverage designed
+to relax the consumer's mind and body without the negative hang-over and side effects of alcohol and other substances. The Company
+as the polar opposite of mainstream energy drinks. Whereas energy drinks generally give the consumer a short
+burst of energy
+by contrast
+
+
+
+formulation uses natural ingredients generally known for their calming properties. The main ingredients of melatonin
+rose hips
+ valerian root
+ of Goji and Acai. Most of the principle
+are generally regarded as safe (GRAS) by the Food and Drug Administration (&ldquo;FDA&rdquo;)
+ meaning
+generally recognized
+ among qualified experts
+ as having been adequately
+shown to be safe under the conditions of its intended use. However
+ some of the ingredients are considered dietary ingredients
+and have not been evaluated by the FDA for safety
+ effectiveness
+ or purity. As a product that contains dietary ingredients
+ 
+is considered a dietary supplement as defined by the Dietary Supplement Health and Education Act (DSHEA) of 1994.
+
+
+ Kruud Kleen&trade;
+has a primary function to separate oil and water to recycle the water for use in fracking
+ pumping down oil and gas wells to increase
+pressure or for agricultural irrigation. The separated oil is then available for sale on the spot market. We are looking for other
+products relative the oil patch to distribute as well so that we might be able to fulfill all the needs of the oil service companies
+in recovering as much oil as possible from the water and from other mud/slurry derived from pumping the well(s).
+
+
+process of being sold by the formula&rsquo;s owners with potential customers before our involvement. This is an exclusive U.S.
+retail distribution agreement so all contacts by our supplier have been forwarded to us. These potential customers began product
+delivery during August 2014 which has been limited.
+
+
+formula has used it in various wells and tested it on frack water
+ sludge from oil tanks and mud from wells over the last couple
+of years. Every test on this formula has been successful in separating the oil from the water in two to three days depending on
+the material being separated. The savings comes from reducing the cost of other chemicals used
+ reduction in the use of machinery
+plus reduced power and labor.
+
+
+
+
+    
+    
+
+
+
+ the Company
+purchased the formula for its first hemp based energy shot Wolf Shot&trade; and began distribution in the fourth quarter of 2015.
+
+
+ the Company
+entered into two joint venture agreements to market
+ distribute and promote two additional lines of hemp based energy drink products.
+
+
+offering any products or services acquired or represented prior to June of 2015.
+
+
+
+
+is quite diverse in its products ranging from caffeine based through &ldquo;all natural&rdquo; products derived from organic compounds.
+There are few products distributed nationally that are hemp based for energy production.
+
+
+
+
+is highly competitive. Competition in the category exists based on price
+ packaging
+ flavors
+ consumer acceptance of products
+shelf space and new product development. In order to compete effectively in the industry
+ we believe that we must produce products
+that stand out from the competition through taste
+ visual appearance
+ price
+ and product quality. We believe that our principal
+strength is our product quality and that we will face competition from companies who focus on price as opposed to quality.
+
+
+to compete with a wide variety of energy drinks produced by companies that have substantially greater financial
+ marketing and
+distribution resources. Competition in the industry could have a material adverse effect on our products and business results if
+we are unable to gain the market share required for us to attain profitability.
+
+
+with all other liquid refreshments
+ including those produced by large internationally known companies
+ all of which have greater
+financial and marketing resources.
+
+
+we believe that our products currently compete favorably with respect to such factors
+ we cannot provide any assurance that we
+can maintain our competitive position against current and potential competitors
+ especially those with significantly greater brand
+recognition
+ or financial
+ marketing
+ support
+ technical and other resources.
+
+
+
+
+own products
+ but rely on third-party contract packers (&quot;Co-packers&quot;) to produce and package our products on an &ldquo;as
+needed&rdquo; basis. We have no long term agreement in place for the services and we intend to evaluate and potentially make arrangements
+with additional Co-packers to manufacture our products.
+
+
+
+
+of our beverages and snack products are subject to the rules and regulations of various federal
+ state and local health agencies
+including in particular the U.S. Food and Drug Administration (&ldquo;FDA&rdquo;). The FDA also regulates labeling of our products.
+We have no regulatory notifications or actions pending at this time.
+
+
+ distribution
+and sale of our products in the United States is subject to various federal and state regulations
+ including but not limited to:
+the Federal Food
+ Drug and Cosmetic Act; the Dietary Supplement Health and Education Act of 1994; the Occupational Safety and Health
+Act; various environmental statutes; and various other federal
+ state and local statutes and regulations applicable to the production
+transportation
+ sale
+ safety
+ advertising
+ labeling and ingredients of such products.
+
+
+
+
+    
+    
+
+
+
+federal and state regulations is crucial to the Company&rsquo;s success. Although we believe that we are in compliance with applicable
+regulations
+ should the FDA or any state in which we operate amend its guidelines or impose more stringent interpretations of current
+laws or regulations
+ we may not be able to comply with these new guidelines. Such regulations could require the reformulation of
+certain products to meet new standards
+ market withdrawal or discontinuation of certain products we are unable to reformulate
+imposition of additional record keeping requirements
+ expanded documentation regarding the properties of certain products
+ expanded
+or different labeling and/or additional scientific substantiation. Failure to comply with applicable requirements could result
+in sanctions being imposed on the Company or the manufacturers of any of our products
+ including but not limited to fines
+ injunctions
+product recalls
+ seizures and criminal prosecution.
+
+
+
+
+the production and distribution of our products and do not own or operate our own manufacturing facilities. As such
+ we do not
+believe that we are subject to any federal
+ state and local environmental laws and regulations which would have a material adverse
+effect upon our capital expenditures
+ net income or competitive position. We have not expended any capital resources on compliance
+with federal
+ state or local environmental laws since entering the beverage and snack product industry.
+
+
+
+
+ 2010
+ the Company
+entered into a Purchase Agreement with Innovative Beverage Group Holdings
+ Inc.
+ a Nevada corporation
+ for the purchase of the
+intellectual property rights for 
+ which was created and developed by Innovative. In conjunction with the Purchase
+Agreement
+ the parties executed a Trademark Assignment which was filed with the United States Patent and Trademark Office (the
+&ldquo;USPTO&rdquo;) assigning us rights to trademarks for &ldquo;Unwind Extreme Relaxation&rdquo; and &ldquo;Unwind.&rdquo; Under
+the terms of the Purchase Agreement
+ flavor
+ including all rights to the proprietary
+formula used to manufacture 
+ name and trademark
+ and all other trademarks
+ service marks
+copyrights
+ patents and other intellectual property associated therewith
+ and (iii) all documentation used in and/or necessary
+ beverage
+ including but not limited to manufacturing instructions
+ ingredient
+lists
+ (the &quot;Purchased Property&quot;). As consideration
+for the Purchased Property
+ we agreed to pay Innovative or its assigns: (i) sixty cents ($0.60) for every twenty-four (24) cans
+or bottles (or such other beverage container in which Frontier chooses to sell the 
+flavor brand
+ flavor brand
+(and/or any beverages developed using any of the intellectual property rights included in the Purchased Property) that the Company
+sells during each fiscal quarter (the &quot;Royalty Payments&quot;).
+
+
+to pay the Royalty Payments to Innovative is perpetual. The Company is obligated to provide a detailed breakdown of product sold
+during each quarter with Royalty Payments due and payable within thirty (30) days of the end of each fiscal quarter. In the event
+ is sold to a third party
+ the Company's obligation to make Royalty Payments shall cease. Royalty Payments will
+not be paid to Innovative on samples or slotting product or product used in lieu of money.
+
+
+Agreement
+ the Company has the right to sell
+ transfer or convey the Purchased Property to a third-party purchaser (a &quot;Future
+Sale&quot;). Upon such a Future Sale
+ the Company is obligated to pay Innovative three and one-half percent (3.5%) of the sales
+price it receives from such sale of the Purchased Property and/or the sale of any right thereof. Such payment will be due and payable
+to Innovative within ten (10) days of the closing of any such Future Sale. If the consideration that the Company agrees to receive
+through a proposed Future Sale involves anything but a lump sum payment of cash
+ then the Company must allocate three and one-half
+percent (3.5%) of any consideration received directly to Innovative. Upon completion of a Future Sale transaction
+ the Company's
+obligations to Innovative will cease.
+
+
+a trademark for &ldquo;Unwind Ultimate Relaxation.&rdquo;
+
+
+June 2015
+
+ Consulting
+Agreement
+ and Royalty Agreement with G. Randall &amp; Sons
+ Inc. These agreements provide for the asset purchase of the proprietary
+hemp-based formula used in the Company&rsquo;s beverage energy shot. G. Randall and Sons will provide ongoing consulting services
+in blending new formula(s) and working directly with FBEC to improve and blend existing formulas. 
+
+
+
+
+    
+    
+
+
+
+
+
+ the Company
+dedicated no funds to research and development. However
+ in light of our operational focus
+ we anticipate that we will allocate
+little funds
+ to the extent available
+ for future research and development of energy drink products.
+
+
+
+
+full-time employee and from time to time we also use independent contractors on an as-needed basis for our operations.
+
+
+
+
+located at http://www.fbecworldwide.com. Reference to our Internet website herein does not constitute incorporation by reference
+in this Annual Report of the information contained on or hyperlinked from our Internet website and such information should not
+be considered part of this Annual Report.
+
+
+annual reports on Form 10-K and quarterly reports on Form 10-Q with the SEC on a regular basis
+ and are required to disclose certain
+material events in a current report on Form 8-K. The public may read and copy any materials that we file with the SEC at the Public
+Reference Room at the SEC located at 100 F Street NE
+ Washington
+ DC 20549
+ on official business days during the hours of 10 a.m.
+to 3 p.m. The public may also obtain information on the operation of the Public Reference Room by calling the SEC at 1-800-SEC-0330.
+The SEC maintains an Internet site that contains reports
+ proxy and information statements
+ and other information regarding issuers
+that file electronically with the SEC at http://www.sec.gov.
+
+
+
+
+reporting company&rdquo; as defined by Rule 12b-2 of the Exchange Act
+ and as such
+ is not required to provide the information
+required under this Item.
+
+
+
+
+
+
+
+
+
+
+
+
+issue with prior director if it is unresolved
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+ITEM 5.&#9;MARKET FOR REGISTRANT&rsquo;S
+COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES
+
+
+
+
+on the OTC Market Groups
+ Inc. OTCQB under the symbol &ldquo;FBEC.&rdquo; The following table shows the high and low bid information
+for our Common Stock for each quarter ended during the last two fiscal years. This information has been obtained from the OTCQB.
+The quotations below reflect inter-dealer prices
+ without retail mark-up
+ mark-down or commission
+ and may not necessarily represent
+actual transactions.
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+ 2016
+ the last
+sale price of our Common Stock reported by the OTCQB was $0.0175 .
+
+
+
+
+Corporation
+ our transfer agent
+ indicate that as of May 18
+ 2016
+ we had 53 holders of record of our Common Stock. The number
+of registered shareholders excludes any estimate by us of the number of beneficial owners of shares of Common Stock held in &ldquo;street
+name.&rdquo; As of May 18
+ 2016
+ we had 167
+847
+598 shares of our Common Stock outstanding to these parties.
+
+
+
+
+we will declare or pay any dividends in the foreseeable future. Our current policy is to retain earnings
+ if any
+ to fund operations
+and the development and growth of our business. Any future determination to pay cash dividends will be at the discretion of our
+Board of Directors and will be dependent upon our financial condition
+ operating results
+ capital requirements
+ applicable contractual
+restrictions
+ restrictions in our organizational documents
+ and any other factors that our Board of Directors deems relevant.
+
+Securities Authorized for Issuance under
+Equity Compensation Plans
+
+
+
+
+
+
+sales of unregistered securities during the year ended December 31
+ 2015.
+
+
+
+
+    
+    
+
+
+Purchases of Equity Securities by the
+Issuer and Affiliated Purchasers
+
+
+of equity securities by the Company or affiliated purchasers during the year ended December 31
+ 2015.
+
+
+
+
+reporting company&rdquo; as defined by Rule 12b-2 of the Exchange Act
+ and as such
+ is not required to provide the information
+required under this Item.
+
+
+AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+
+Cautionary Notice Regarding Forward Looking
+Statements
+
+
+number of forward-looking statements that reflect management's current views and expectations with respect to our business
+ strategies
+products
+ future results and events and financial performance. All statements made in this Report other than statements of historical
+fact
+ including statements that address operating performance
+ events or developments that management expects or anticipates will
+or may occur in the future
+ statements related to distributor channels
+ volume growth
+ revenues
+ profitability
+ new products
+ adequacy
+of funds from operations
+ statements expressing general optimism about future operating results and non-historical information
+are forward looking statements. In particular
+ the words &quot;believe
+&quot; &quot;expect
+&quot; &quot;intend
+&quot; &ldquo;anticipate
+&quot;
+&quot;estimate
+&quot; &quot;may
+&quot; &quot;will
+&quot; variations of such words
+ and similar expressions identify forward-looking
+statements
+ but are not the exclusive means of identifying such statements and their absence does not mean that the statement is
+not forward-looking. These forward-looking statements are subject to certain risks and uncertainties
+ including those discussed
+herein. Our actual results
+ performance or achievements could differ materially from historical results as well as those expressed
+in
+ anticipated or implied by these forward-looking statements. We do not undertake any obligation to revise any forward-looking
+statements whether because of new information
+ future events or otherwise.
+
+
+undue reliance on these forward-looking statements
+ which are based on management's current expectations and projections about
+future events
+ are not guarantees of future performance
+ are subject to risks
+ uncertainties and assumptions (including those described
+below) and apply only as of the date of this Report. Our actual results
+ performance or achievements could differ materially from
+the results expressed in
+ or implied by
+ these forward-looking statements. Factors that could cause or contribute to such differences
+include those discussed in press releases and other communications to shareholders issued by us from time to time which attempt
+to advise interested parties of the risks and factors that may affect our business.
+
+
+
+
+to pursue our business plan and conduct our operations; however
+ the ability to obtain the necessary and appropriate funding is
+uncertain. We intend to expand our product line
+ either through development or acquisition
+ and intend to hire sufficient sales
+personnel necessary for us to gain a greater distribution network for our products. We believe that we will require significant
+additional capital resources from outside sources including equity and/or debt financings in order to meet our goals and continue
+operations. We believe we need to raise between $2
+000
+000 and $5
+000
+000 in order to meet these goals.
+
+
+
+
+statements have been prepared in conformity with generally accepted accounting principles in the United States of America (&ldquo;GAAP&rdquo;)
+which contemplate continuation of the Company as a going concern
+ which is dependent upon the Company's ability to establish itself
+as a profitable business. At December 31
+ 2015
+ the Company has an accumulated deficit of approximately $5
+314
+920 and for the
+year ended December 31
+ 2015
+ incurred net losses of approximately $4
+058
+028. Management's plans to increase operations to include
+the marketing of the oil emulsification products by obtaining additional funds through the issuance of securities or borrowings.
+Accordingly
+ management is of the opinion that marketing combined with additional funding will result in improved operations and
+cash flow in 2015 and beyond. However
+ there can be no assurance that management will be successful in obtaining additional funding
+or in attaining profitable operations.
+
+
+
+
+    
+    
+
+
+
+do not include adjustments relating to the recoverability and realization of assets and classification of liabilities that might
+be necessary should the Company be unable to continue in operation.
+
+
+have been modified the to reflect accounting for our acquisition as a reverse acquisition and reflect the operations of the acquired
+company for 2014 and no activity in 2013. All references to comparative data of FBEC Worldwide
+ Inc. f/k/a Frontier Beverage Company
+Inc. have been removed for period prior to January 13
+ 2014.
+
+
+Liquidity
+and Capital Resources
+
+
+ 2015
+our working capital deficit was approximately $1
+555
+788
+ our accumulated deficit was approximately $5
+314
+920 and our stockholders&rsquo;
+deficit was approximately $1
+955
+718. Operating loss was approximately $3
+049
+629 during the period from January 13
+ 2014 (date
+of inception) through December 31
+ 2015. Net cash outlay from operations was approximately $940
+352 for the year ended December
+31
+ 2015.
+
+
+of our current business plan in January 2014 and have not yet attained a level of revenue to allow us to meet our current overhead.
+We have historically reported net losses from operations and negative cash flows. Additionally
+ we have not yet attained a level
+of revenues to allow us to meet our current overhead and we had $45
+309 cash at December 31
+ 2015. In view of these facts
+ the
+continued successful operation of the Company is dependent upon us obtaining additional financing and achieving a positive cash
+flow while maintaining adequate liquidity. Based on our current marketing plan and expected sales demand
+ we do not contemplate
+attaining profitable operations until 2016
+ and there is no assurance that such an operating level can ever be achieved. We are
+dependent upon obtaining additional financing in order to adequately fund working capital
+ infrastructure
+ manufacturing expenses
+and sales and marketing expenses to gain market recognition
+ so that we can achieve a level of revenue adequate to support our
+cost structure
+ none of which can be assured.
+
+
+will be able to raise the capital required to execute the Company's business plan and become profitable; however
+ due to conditions
+and influences out of our control
+ including the current state of the national economy
+ we cannot guarantee that profitability
+will be achieved or that it will be achieved in the stated time frame
+ nor is there any assurance that such an operating level
+can ever be achieved.
+
+
+amounts on the development or acquisition of new businesses. Further
+ we may not have sufficient resources to fully develop any
+new products unless we are able to raise additional financing on acceptable terms or secure funds from new or existing partners.
+We can make no assurances that additional financing will be available on favorable terms or at all. Additionally
+ these conditions
+may increase the cost to raise capital. If additional capital is raised through the sale of equity or convertible debt securities
+the issuance of such securities would result in dilution to our existing stockholders. Additionally
+ these conditions may increase
+costs to raise capital and/or result in further dilution. Our failure to raise capital when needed would adversely affect our business
+financial condition and results of operations
+ and could force us to reduce or cease our operations.
+
+
+next twelve (12) months
+ we will be able to meet the costs of growth and public reporting with funds generated from operations
+and additional amounts generated through debt and equity financing. Although management believes that the required financing to
+fund product development and increasing inventory levels can be secured at terms satisfactory to the Company
+ there is no guarantee
+these funds will be made available
+ and if funds are available
+ that the terms will be satisfactory to the Company.
+
+
+
+
+    
+    
+
+
+
+of the following components for the years ended December 31:
+
+
+
+    
+    
+
+    
+985
+661
+
+    
+    
+
+    
+985
+661
+
+    
+    
+
+    
+940
+352
+
+    
+    
+
+    
+    
+
+    
+940
+352
+
+    
+    
+
+    
+45
+309
+
+
+
+
+
+costs include the following items as a percentage and dollar value of total operating expense.
+
+
+
+    
+December 31
+
+
+    
+    
+
+
+ (paid and accrued officers&rsquo; compensation)
+    
+994
+966
+
+    
+    
+59
+489
+
+    
+    
+1
+420
+017
+
+    
+    
+346
+188
+
+
+
+821
+476
+as a result of the following items:
+
+
+the paid and accrued officer&rsquo;s compensation by the current officers of the Company.
+
+
+from the audit and accounting services related to the acquisition.
+
+
+of consultants who provided
+ accounting
+ business advisory
+ promotional and subsidiary management services.
+
+Other Expense
+ net
+
+
+attributable to the change in fair value of derivatives for an amount of $1
+406
+613 and also the amortization of debt discounts
+of $51
+703.
+
+
+
+
+sheet arrangements.
+
+ITEM 7A.&#9;QUANTITATIVE AND QUALITATIVE DISCLOSURES
+ABOUT MARKET RISK
+
+
+of the Exchange Act
+ and as such
+ is not required
+to provide the information required under this Item.
+
+ITEM 8.&#9;FINANCIAL STATEMENTS AND SUPPLEMENTARY
+DATA
+
+
+by this Item are listed in Part IV
+ Item 15 of this Form 10-K
+ are presented beginning on Page F-1
+ and are incorporated herein
+by this reference.
+
+
+
+
+    
+    
+
+
+ITEM 9.&#9;CHANGES IN AND DISAGREEMENTS
+WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE
+
+
+
+
+
+Management's
+Annual Report on Internal Control Over Financial Reporting
+
+
+is responsible for establishing and maintaining adequate internal control over financial reporting as defined in Rules 13a-15(f)
+and 15d-15(f) under the Exchange Act. The Company's internal control over financial reporting is designed to provide reasonable
+assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in
+accordance with GAAP. The Company's internal control over financial reporting includes those policies and procedures that:
+
+
+
+pertain to the maintenance of records that
+ in reasonable detail
+ accurately and fairly reflect the transactions and dispositions
+of the assets of the Company;
+
+
+in accordance with GAAP
+ and that receipts and expenditures of the Company are being made only in accordance with authorizations
+of management and directors of the Company; and
+
+provide reasonable assurance regarding prevention
+or timely detection of unauthorized acquisition
+ use or disposition of the Company&rsquo;s assets that could have a material effect
+on the financial statements.
+
+
+
+internal control over financial reporting may not prevent or detect misstatements. Also
+ projections of any evaluation of effectiveness
+to future periods are subject to the risk that controls may become inadequate because of changes in conditions
+ or that the degree
+of compliance with the policies or procedures may deteriorate.
+
+
+of our annual financial statements
+ we have assessed the effectiveness of internal control over financial reporting as of December
+31
+ 2015
+ based on criteria established in Internal Control-Integrated Framework issued by the Committee of Sponsoring Organizations
+of the Treadway Commission
+ or the COSO Framework. Management&rsquo;s assessment included an evaluation of the design of our internal
+control over financial reporting and testing of the operational effectiveness of those controls. Based on this evaluation
+ management
+has determined that as of December 31
+ 2015
+ our internal controls over financial reporting were not effective and there were weaknesses
+in our internal control over financial reporting as outlined below.
+
+
+
+
+are designed to ensure that information required to be disclosed in the reports filed or submitted under the Securities Exchange
+Act of 1934 (the &quot;Exchange Act&quot;) is recorded
+ processed
+ summarized and reported
+ within the time period specified in
+the SEC's rules and forms and is accumulated and communicated to the Company's management
+ as appropriate
+ in order to allow timely
+decisions in connection with required disclosure.
+
+
+
+
+under the Securities Exchange Act of 1934 (&quot;Exchange Act&quot;)
+ the Mr. Harris
+ the Company's Chief Executive Officer (&quot;CEO&quot;)
+and Chief Financial Officer (&quot;CFO&quot;) (the Company&rsquo;s principal financial and accounting officer)
+ of the effectiveness
+of the Company&rsquo;s disclosure controls and procedures (as defined under Rule 13a-15(e) under the Exchange Act) as of the end
+of the period covered by this report.
+
+
+the Company&rsquo;s CEO and CFO concluded that the Company&rsquo;s disclosure controls and procedures were effective as of December
+31
+ 2015 to ensure that information required to be disclosed by the Company in the reports that the Company files or submits under
+the Exchange Act
+ is recorded
+ processed
+ summarized and reported
+ within the time periods specified in the SEC&rsquo;s rules and
+forms
+ and that such information is accumulated and communicated to the Company&rsquo;s management
+ including the Company&rsquo;s
+CEO and CFO
+ as appropriate
+ to allow timely decisions regarding required disclosure
+ due to the material weaknesses described
+below.
+
+
+
+
+    
+    
+
+
+
+or a combination of deficiencies
+ in internal control over financial reporting
+ such that there is a reasonable possibility that
+a material misstatement of the Company's annual or interim financial statements will not be prevented or detected on a timely basis.
+
+
+in internal controls and procedures is due to the Company's lack of sufficient personnel with expertise in the area of SEC
+ generally
+accepted accounting principles (GAAP) and tax accounting procedures. In addition
+ the Company lacks the personnel structure
+ size
+and complexity to segregate duties sufficiently for proper controls. The Company has not implemented a formal system of internal
+control that provides for multiple levels of supervision and review.
+
+
+sufficient funds to hire additional personnel with expertise in these areas and to segregate duties for proper controls and until
+such time as additional personnel are hired
+ the Company believes that it will continue to recognize a weakness in its internal
+controls and procedures.
+
+
+to hire additional personnel to properly implement a control structure when the appropriate funds become available. In the meantime
+the Chief Executive Officer and Chief Financial Officer will continue to perform or supervise the performance of additional accounting
+and financial analyses and other post-closing procedures including detailed validation work with regard to balance sheet account
+balances
+ additional analysis on income statement amounts and managerial review of all significant account balances and disclosures
+to ensure that the Company's Annual Report and the financial statements forming part thereof are in accordance with accounting
+principles generally accepted in the United States of America.
+
+
+
+
+internal controls over financial reporting during the fourth quarter of the year ended December 31
+ 2015 that have materially affected
+or are reasonably likely to materially affect our internal controls over financial reporting.
+
+Attestation Report of the Registered
+Public Accounting Firm
+
+
+include an attestation report of our registered public accounting firm regarding internal control over financial reporting. Management's
+report was not subject to attestation by the Company&rsquo;s registered public accounting firm pursuant to the Dodd-Frank Wall
+Street Reform and Consumer Protection Act
+ wherein non-accelerated filers are exempt from Sarbanes-Oxley internal control audit
+requirements.
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+ITEM 10.&#9;DIRECTORS
+ EXECUTIVE OFFICERS
+AND CORPORATE GOVERNANCE
+
+
+
+
+serve or have served during the year ended December 31
+ 2015 as directors and executive officers of our Company. All directors
+of our Company hold office until the next annual meeting of shareholders or until their successors have been elected and qualified.
+The executive officers of our Company are appointed by our Board of Directors and hold office until their death
+ resignation or
+removal from office.
+
+
+
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+        
+        
+
+    
+    
+October 9
+ 2013
+    
+
+    
+    
+October 9
+ 2013
+    
+
+    
+    
+May 15
+ 2014
+    
+
+    
+    
+October 1
+ 2014
+    
+
+    
+    
+November 1
+ 2014
+    
+
+    
+    
+March 31
+ 2015
+    
+
+    
+    
+April 28
+ 2015
+CEO
+ President and Director
+
+    
+    
+May 8
+ 2015
+    
+
+    
+    
+August 1
+ 2015 and September 29
+ 2015
+    
+
+    
+    
+September 10
+ 2015
+    
+
+
+
+
+    
+
+ 2014.
+
+
+
+    
+
+ 2014
+
+
+
+    
+
+ 2014
+
+
+
+    
+
+ 2015
+
+
+
+    
+
+ 2015
+
+
+
+    
+    
+
+
+
+    
+
+ 2015
+
+
+
+    
+
+ 2015
+
+
+
+or understandings between our officers and directors and any other person pursuant to which he was or is to be selected as a director
+or officer
+ and there are no arrangements
+ plans or understandings as to whether non-management shareholders will exercise their
+voting rights to continue to elect the current Board of Directors. There are also no arrangements
+ agreements or understandings
+to our knowledge between non-management shareholders that may directly or indirectly participate in or influence the management
+of our affairs.
+
+
+account of the business experience during at least the past five years of our current and prior officers and directors.
+
+
+ 2013
+ Michael
+Jamison was seated as President and Director of the Company. He has been a musician working with various producers and artists
+for the several years. He launched Lexium Entertainment a musical talent and booking agency and has been a successful broadcaster
+and entertainment professional.
+
+
+ 2013 William
+Coogan was seated as a Director of the Company. On May 15
+ 2014 William Coogan was seated as CEO and COO of the Company. He is
+a studio musician and has played in various bands. He is also an entrepreneur and works in transportation in NewYork City
+ NY.
+
+
+ 2014 Thomas
+L. Crom III was seated as President and Director of the Company. He is also chief financial officer
+ secretary and treasurer of
+Midwest Oil and Gas
+ Inc. since January 23
+ 2013. Mr. Crom has been a senior mining executive (CMA and MS-tax) with over 25 years
+experience dealing with start-up companies
+ international operations
+ natural resources
+ and serving as chief financial officer
+with an involvement in operational details for a number of different companies including US and Canadian public companies.
+
+
+
+
+    
+    
+
+
+
+ 2014 Ian
+Hobday was seated as President and Director of the Company. He previously was a director of Green Automotive Company beginning
+in May 2007 and assumed the role of CEO in September 2013 and resigned in August 2014. He has extensive managerial manufacturing
+and sales experience.
+
+
+ 2015 Michael
+Wilcox was seated as a Director. Mr. Wilcox has been a self-employed entrepreneur for the last several years.
+
+
+ 2015 Robert
+Sand was seated as Chief Executive Officer
+ President and Chairman of the Board of Directors. Mr. Sand has extensive experience
+developing new businesses and start-ups. Mr. sand resigned on September 12
+ 2015.
+
+
+ 2015 Darren Hamans
+
+start-ups. Mr. Hamans started his management career with the Canadian based Meridian/Wolsely as the Territory Manager for five
+years where he was instrumental in developing marketing programs and managing a $2
+000
+000 portfolio. He was CEO of Gasketmaster
+&amp; Supply Corp for 14 years
+ based in Edmonton
+ Alberta-Canada; and CEO of Tri-C Industrial Supply for 4 years. More recently
+Mr. Hamans was CEO of the Southern California-based Simply Talk where he developed a distribution network in South America.&nbsp;Mr.
+Hamans ceased activities with the company in July 2015.
+
+On
+August 1
+ 2015 Jason Spatafora was seated as a Director of the Company. On September 29
+ 2015 Mr. Spatafora signed a replacement
+employment contract and became CEO
+ President and Chairman of the Board of Directors. Mr. Spatafora as substantial experience in
+marketing and public relations. 
+
+
+
+
+employee. 
+
+
+
+
+
+
+
+
+during the past ten years
+ our sole officer and director was not involved in any legal proceedings that are material to an evaluation
+of his ability or integrity as an officer and director.
+
+Section 16(a) Beneficial Ownership Reporting
+Compliance
+
+
+are in compliance as of the filing date.
+
+
+
+
+ 2009
+ the
+Company's Board of Directors approved a Code of Ethics for Financial Executives for 2010 to be signed by the Company's principal
+executive officer
+ principal financial officer
+ and any other senior officers with financial oversight responsibilities. A form
+of the Code of Ethics for Financial Executives is attached as Exhibit 14.1 to the Company&rsquo;s Annual Report on Form 10-K filed
+with the Commission on April 13
+ 2010. The Company will provide a copy of this policy free of charge upon written request to Jeffrey
+Greene
+ President
+ FBEC Worldwide
+ Inc.
+ 1621 Central Ave
+ Cheyenne
+ WY 82001
+
+
+
+
+maintain separate audit
+ nominating or compensation committees. When necessary
+ the entire Board of Directors performs the tasks
+that would be required of those committees. Furthermore
+ we do not have a qualified financial expert serving on the Board of Directors
+at this time
+ because we have not been able to hire a qualified candidate and we have inadequate financial resources at this time
+to hire such an expert.
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+information for services rendered in all capacities from the period since inception (January 13
+ 2014) through December 31
+ 2015.
+The following information includes the dollar value of base salaries
+ bonus awards
+ the number of stock options granted and certain
+other compensation
+ if any
+ whether paid or deferred.
+
+
+compensation of the Company's principal executive officers who served the Company in such capacities during the period since inception
+(January 13
+ 2014) through December 31
+ 2015. The following information includes the dollar value of base salaries
+ bonus awards
+the number of stock options granted and certain other compensation
+ if any
+ whether paid or deferred.
+
+
+
+    
+
+
+        
+        
+    
+Year
+
+        
+        
+
+        
+        
+    
+Compensation ($)
+
+        
+        
+
+
+        
+
+ Director
+
+        
+        
+
+        
+
+000
+
+        
+        
+
+        
+        
+
+        
+
+000
+
+
+        
+
+ Director
+
+        
+        
+
+        
+
+000
+
+        
+        
+
+        
+        
+
+        
+
+000
+
+
+        
+
+ Director
+
+        
+        
+
+        
+
+000
+
+        
+        
+
+        
+        
+
+        
+
+000
+
+
+        
+
+ Treasurer
+ Director
+
+        
+        
+
+        
+
+000
+
+        
+        
+
+        
+        
+
+        
+
+000
+
+    
+    
+95
+625
+498
+421
+65
+678
+659
+724
+
+    
+    
+16
+667
+    
+    
+16
+667
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+75
+000
+189
+200
+    
+264
+200
+
+
+
+to Mr. Sand or Mr. Spatafora issuance of 150
+000
+000 or 2
+000
+000 common shares. Internal Revenue Service rules related to taxable
+values are different from the reporting rules of the Securities and Exchange Commission.
+
+Narrative Disclosure to Summary Compensation
+Table
+
+
+
+
+as Director and President entered into an employment agreement January 2
+ 2014 for a one year term for $8
+000 per month and preferred
+stock to be issued when available.
+
+
+
+
+as a Director and President entered into an employment agreement for a one month term on October 9
+ 2013. The contract is for $5
+000
+per month with no bonuses.
+
+
+
+
+employment contract October 1
+ 2014 to a director and President of the Company. The contract called for an annual salary of $72
+000
+paid monthly and a stock grant of $62
+500 in its first year until certain conditions were met that would increase the salary to
+$125
+000. The conditions weren&rsquo;t met and only $6
+000 was accrued for his contract upon his resignation October 31
+ 2014.
+
+
+
+
+an employment contract to be a director and President of the Company on November 1
+ 2014. The contract is for one year with an
+automatic renewal for one year unless notice is given 60 days prior to the end of the contract by the Company that it doesn&rsquo;t
+intend to extend the contract. The base salary is $150
+000 to be paid as $7
+500 in cash and $5
+000 in preferred stock from November
+1
+ 2014 through April 30
+ 2015. Upon sufficient operating capital being raised and completion of other anticipated corporate events
+and 100% of Mr. Hobday employment hours being supplied to the Company he will be paid $7
+500 cash and $5
+000 in preferred stock
+from May 1
+ 2015 through October 31
+ 2015. On November 1 of each year of the contract Mr. Hobday will receive $75
+000 in Preferred
+Series C stock
+ when available. Mr. Hobday may also receive up to &frac12; of his base salary as a bonus per year based on milestones
+to be agreed by the Board of Directors and the employee. Mr. Hobday resigned effective March 31
+ 2015.
+
+
+
+
+    
+    
+
+
+
+
+
+employment contract to be Chairman of the Board of Directors and Chief Executive Officer on April 28
+ 2015. Mr. Sand will receive
+an annual salary of $175
+000 paid in equal monthly installments. Additionally
+ he received 150
+000
+000 restricted common shares
+that fully vest on April 27
+ 2016 and will also receive $75
+000 in restricted common stock at each anniversary date of the contract
+at a 50% discount to market of the volume weighted average of the prior ten days to the anniversary date. His contract was changed
+in June 2015 to increase his salary to $295
+000. Mr. Sand resigned September 12
+ 2015.
+
+
+
+
+an employment agreement to provide corporate business development and be a corporate director on May 8
+ 2015. Mr. Hamans will receive
+$100
+000 per annum in salary to be paid in equal installments. Additionally
+ he will receive $50
+000 in restricted common stock
+at the signing of the agreement and at each anniversary date of the contract at a 50% discount to market of the volume weighted
+average of the prior ten days to the anniversary date. Mr. Hamans ceased association with the Company in July 2015.
+
+
+
+
+an employment agreement to provide marketing development and later to become President of the Company on August 1
+ 2015 and September
+29 
+ 2015. Mr. Spatafora will receive $15
+000 per month in salary and 2
+000
+000 restricted shares of common stock.
+
+
+
+
+or other equity awards outstanding under the Company's 2009 Equity Incentive Plan. For a description of the Company's 2008 Equity
+Incentive Plan
+
+ RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES
+OF EQUITY SECURITIES - Securities Authorized for Issuance under Equity Compensation Plans
+
+
+
+
+a compensation policy for its directors for their service at this time. We have no present formal plan for further compensating
+our directors for their service in their capacity as such.
+
+
+
+
+    
+    
+
+
+ITEM 12.&#9;SECURITY OWNERSHIP OF CERTAIN
+BENEFICIAL OWNERS AND &#9;MANAGEMENT AND RELATED STOCKHOLDER MATTERS
+
+
+the ownership
+ as of May 17
+ 2016
+ of our Common Stock by each person known by us to be the beneficial owner of more than 5% of
+our outstanding Common Stock
+ each of our directors and executive officers; and all of our directors and executive officers as
+a group. The information presented below regarding beneficial ownership of our Common Stock has been presented in accordance with
+the rules of the SEC and is not necessarily indicative of ownership for any other purpose. This table is based upon information
+derived from our stock records. Unless otherwise indicated in the footnotes to this table and subject to community property laws
+where applicable
+ we believe that each of the shareholders named in this table has sole voting and investment power with respect
+to the shares indicated as beneficially owned. Except as otherwise listed below
+ the address of each person is c/o Jeffrey Greene
+President
+ FBEC Worldwide
+ Inc.
+ 1621 Central 167
+847
+598 shares of Common Stock outstanding as of May 18
+ 2016.
+
+
+
+    
+    
+
+    
+    
+    
+
+
+ President
+ Director
+2
+000
+000
+    
+
+    
+2
+000
+000
+    
+
+    
+50
+000
+000
+    
+
+
+ President
+ Director or S&amp;L Capital LLC
+53
+406
+528
+    
+
+    
+    
+    
+
+    
+    
+    
+
+President
+ Director
+5
+000
+    
+
+President
+ Director
+    
+    
+
+President
+ Director
+    
+    
+
+President
+ Director
+    
+    
+
+    
+103
+411
+528
+    
+
+
+
+ITEM 13.&#9;CERTAIN RELATIONSHIPS AND RELATED
+TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+
+
+ the Company issued to officers
+and directors
+ and a prior officer a total of 25
+750 common shares for the settlement of $93
+500 of liabilities resulting in a
+loss on the extinguishment of liabilities of $12
+000 for the period from January 13
+ 2014 (date of inception) through December
+31
+ 2015.
+
+
+ 2014
+ the Company owed $43
+000
+in accrued salary to a former officer and director which was disposed along with the disposal of the subsidiary and recorded as
+a gain on sale of subsidiary.
+
+
+ liabilities owed to a prior affiliate
+of the Company
+ of $9
+767 and to an entity controlled by the prior affiliate of $16
+858 were converted to notes payable totaling
+$26
+625. The notes are unsecured
+ due on demand and bear no interest.
+
+
+ the Company issued 150
+000
+000
+common shares to Robert Sand as a signing bonus related to his employment contract.
+
+
+ the Company agreed to issue
+10
+000
+000 common shares to Jason Spatafora related to his employment contract. The share amount was reduced to 2
+000
+000 in September
+2015 and as of this filing have not been issued.
+
+
+ 2015
+ the Company has outstanding
+advances to former officers and directors aggregating $22
+675. The advances are unsecured
+ due on demand and bear no interest.
+
+
+
+
+listed on a national securities exchange or interdealer quotation system which would require that the Board of Directors include
+a majority of directors that are &ldquo;independent.&rdquo; Furthermore
+ no members of our Board of Directors would qualify as
+&ldquo;independent&rdquo; directors as such term is defined in the NASDAQ Global Market listing standards.
+
+
+
+
+    
+    
+
+
+ITEM 14.&#9;PRINCIPAL ACCOUNTANT FEES AND
+SERVICES
+
+
+
+
+$28
+000 for fiscal 2014 and 2015 for services rendered by MaloneBailey
+ LLP for the audit of our 2014 financial statements and
+reviews of two quarters 2015.
+
+
+000 for the
+3
+
+
+
+
+for the 2014 and 2015 fiscal years for professional services rendered by RBSM LLP
+ MaloneBailey
+ LLP or Pinaki and Associates LLP
+other than the fees disclosed above under the caption &ldquo;Audit Fees&rdquo; for assurance and related services relating to performance
+of the audit or review of our financial statements.
+
+
+
+
+for the 2014 and 2015 fiscal years for professional services rendered by RBSM LLP or MaloneBailey
+ LLP for tax compliance
+ tax
+advice
+ or tax planning.
+
+
+
+
+or expenses for the 2014 and 2015 fiscal years for any other products or professional services rendered by RBSM LLP or MaloneBailey
+LLP other than as described above.
+
+
+
+
+maintain a separate audit committee. When necessary
+ the entire Board of Directors performs the tasks that would be required of
+such committees. As such
+ at its regularly scheduled and special meetings
+ the Board of Directors considers and pre-approves any
+audit and non-audit services to be performed by our independent accountants.
+
+
+
+ITEM 15.&#9;EXHIBITS
+ FINANCIAL STATEMENT SCHEDULES
+
+
+
+
+
+following documents are filed as part of this Annual Report on Form&nbsp;10-K beginning on the pages referenced below:
+
+
+
+    
+    
+
+    
+    
+
+Consolidated Balance Sheet as of December 31
+ 2014
+    
+
+Consolidated Statements of Operations for the Period from January 13
+ 2014 (Inception) through December 31
+ 2014
+    
+
+Consolidated Statements of Cash Flows for the Period from January 13
+ 2014 (Inception) through December 31
+ 2014
+    
+
+Consolidated Statements of Stockholders&rsquo; Deficit Period from January 13
+ 2014 (Inception) through December 31
+ 2014
+    
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+following exhibits are filed with this Annual Report on Form&nbsp;10-K or are incorporated by reference as described below.
+
+
+
+    
+    
+
+    
+
+ 2008 (incorporated by reference to Exhibit 3.1 of the Company&rsquo;s Annual Report on Form 10-K filed with the Commission on April 3
+ 2009).
+
+    
+
+ 2010 (to change name to Frontier Beverage Company
+ Inc.) (incorporated by reference to Exhibit 3.2 of the Company&rsquo;s Annual Report on Form 10-K filed with the Commission on April 13
+ 2010).
+
+    
+
+ 2004).
+
+    
+
+ Inc. (f/k/a Assure Data
+ Inc.) (incorporated by reference to Exhibit 3.2 of the Current Report on Form 8-K filed with the Commission on August 20
+ 2010).
+
+    
+
+ Inc.
+ State of Wyoming (incorporated by reference to Exhibit 3.5 of the Current Report Form 8-K filed with the Commission on March 22
+ 2016)
+
+    
+
+ Inc. and Innovative Beverage Group Holdings
+ Inc. dated March 1
+ 2010 (incorporated by reference to Exhibit 10.0 of the Company&rsquo;s Report on Form 8-K filed with the Commission on March 5
+ 2010).
+
+    
+Demand Promissory Note payable to HBB
+ LLC dated November 12
+ 2009 (incorporated by reference to Exhibit 10.6 of the Company&rsquo;s Annual Report on Form 10-K filed with the Commission on April 13
+ 2010). 
+
+    
+
+ dated effective as of March 15
+ 2010 (incorporated by reference to Exhibit 10.3 of the Company&rsquo;s Quarterly Report on Form 10-Q filed with the Commission on May 13
+ 2010).
+
+    
+Employment Agreement with Terry Harris&nbsp;(incorporated by reference to Exhibit 10.1 of the Company&rsquo;s Report on Form 8-K filed with the Commission on July 7
+ 2010). 
+
+    
+
+ 2010). (1)
+
+    
+Universal Note and Security Agreement by and among Frontier Beverage Company
+ Inc. and Empire Food Brokers
+ Inc. (Borrowers) and Trust One Bank (Lender) dated June 23
+ 2010. (incorporated by reference to Exhibit 10.5 of the Company&rsquo;s Quarterly Report on Form 10-Q filed with the Commission on August 16
+ 2010). 
+
+    
+Demand Promissory Note payable to Terry Harris dated April 15
+ 2010 (incorporated by reference to Exhibit 10.6 of the Company&rsquo;s Quarterly Report on Form 10-Q filed with the Commission on August 16
+ 2010).
+
+    
+
+ 2010 (incorporated by reference to Exhibit 10.7 of the Company&rsquo;s Quarterly Report on Form 10-Q filed with the Commission on August 16
+ 2010). (1)
+
+    
+
+ 2009 (incorporated by reference to Exhibit 10.2 of the Company&rsquo;s Report on Form 8-K filed with the Commission on November 13
+ 2009).
+
+    
+
+ Inc. and Gallant Acquisitions Corp. dated October 8
+ 2013 (incorporated by reference to Exhibit 10.10 of the Company&rsquo;s Report on Form 8-K filed with the Commission on October 14
+ 2013.
+
+    
+
+ 2013).
+
+    
+
+ Inc. and Vinyl Groove
+    Productions
+ Inc. dated February 3
+ 2014 (incorporated by reference to Exhibit 10.12 of the Company&rsquo;s Report on Form
+    8-K filed with the Commission on March 3
+ 2014. Contract attached hereto.
+
+
+
+
+
+    
+    
+
+
+
+
+
+    
+
+ 2014
+ incorporated by reference to Exhibit 10.13 on the Company&rsquo;s Report on Form 10-K filed with the Commission on June 23
+ 2015.
+
+    
+
+ attached hereto incorporated by reference to Exhibit 10.13 on the Company&rsquo;s Report on Form 10-K filed with the Commission on June 23
+ 2015.
+
+    
+
+ 2014
+ attached hereto incorporated by reference to Exhibit 10.13 on the Company&rsquo;s Report on Form 10-K filed with the Commission on June 23
+ 2015.
+
+    
+
+ 2014)
+
+    
+
+ 2015)
+
+    
+
+ 2015)
+
+    
+
+ 2015)
+
+    
+
+ 2015 and again on September&nbsp;&nbsp;30
+ 2015)
+
+    
+
+ 2016)
+
+    
+
+ 2010).
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+of Section 13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this report to be signed on its behalf
+by the undersigned
+ thereunto duly authorized.
+
+
+
+    
+    
+    
+
+DATE:
+    May 19
+ 2016
+FBEC WORLDWIDE
+ INC.
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+        
+        
+
+
+
+of the Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf of the registrant
+and in the capacities and on the dates indicated.
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+        
+        
+    
+President and Director (Principal Executive Officer
+ Principal Financial Officer and Principal Accounting Officer)
+    
+May 19
+ 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+ Ste # 113
+
+ DE 19711
+
+
+
+
+
+
+ Inc.
+
+ Wyoming
+
+
+balance sheet of FBEC Worldwide
+ Inc. (formerly Frontier Beverage Company
+ Inc.) (the &ldquo;Company&rdquo;) as of December 31
+2015 and the related consolidated statements of operations
+ stockholders&rsquo; deficit
+ and cash flows for the year then ended
+at December 31
+ 2015. These financial statements are the responsibility of the Company&rsquo;s management. Our responsibility is
+to express an opinion on these financial statements based on our audit. The Company's financial statements as of December 31
+ 2014
+and the related consolidated statements of operations
+ stockholders&rsquo; deficit
+ and cash flows for the period from January
+13
+ 2014 (inception) to December 31
+ 2014 were audited by other auditors whose report thereon
+ dated June 22
+ 2015
+ expressed an
+unqualified opinion on those statements.
+
+
+standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan and perform the
+audits to obtain reasonable assurance about whether the financial statements are free of material misstatement. An audit includes
+examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements. An audit also includes
+assessing the accounting principles used and significant estimates made by management
+ as well as evaluating the overall financial
+statement presentation. We believe that our audits provide a reasonable basis for our opinion.
+
+
+ the consolidated financial
+statements referred to above present fairly
+ in all material respects
+ the financial position of FBEC Worldwide
+ Inc. (formerly
+Frontier Beverage Company
+ Inc.) as of December 31
+ 2015 and 2014
+ and the related consolidated statements of income
+ stockholders&rsquo;
+equity and cash flows for the years ended December 31
+ 2015 and for the period from January 13
+ 2014 (inception) to December 31
+2014
+ in conformity with accounting principles generally accepted in the United States of America.
+
+
+been prepared assuming that the Company will continue as a going concern. As discussed in Note 1 to the financial statements
+ the
+Company has suffered recurring losses from operations that raises a substantial doubt about its ability to continue as a going
+concern. The financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+ LLC
+
+ DE
+
+ 2016
+
+
+
+    
+    
+
+
+
+
+ INC.
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+45
+309
+    
+
+    
+16
+844
+    
+
+    
+    
+    
+
+    
+62
+153
+    
+
+    
+    
+    
+
+    
+50
+000
+    
+
+    
+    
+    
+
+    
+112
+153
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+35
+495
+15
+281
+
+    
+87
+842
+46
+175
+
+    
+    
+26
+625
+
+    
+951
+465
+131
+439
+
+    
+543
+139
+902
+551
+
+    
+    
+    
+
+    
+1
+617
+941
+1
+122
+071
+
+    
+    
+    
+
+    
+    
+    
+
+    
+449
+931
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+2
+067
+872
+1
+122
+071
+
+    
+    
+    
+
+    
+    
+    
+
+
+ $0.001 par value
+ 20
+000
+000 shares authorized 1
+000 and 10
+000 shares respectively issued and
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+ $0.001 par value
+ 5
+000
+000
+000 shares authorized; 268
+847
+666 and 2
+244
+413
+
+    
+    
+
+
+    
+    
+    
+
+
+    
+
+
+    
+3
+090
+352
+132
+567
+
+    
+(5
+314
+920
+(1
+256
+892
+
+    
+    
+    
+
+    
+(1
+955
+719
+(1
+122
+071
+
+    
+    
+    
+
+    
+112
+153
+    
+
+
+
+
+
+
+    
+    
+
+
+
+
+ INC.
+
+
+
+
+
+
+    
+  December 31
+    2015
+
+ 2014
+ (inception) to
+ December 31
+ 2014
+
+    
+    
+    
+
+    
+    
+    
+
+    
+3
+129
+    
+
+    
+3
+129
+    
+
+    
+    
+    
+
+    
+2
+313
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+ selling and administrative expenses
+1
+826
+480
+176
+969
+
+    
+994
+996
+52
+000
+
+    
+    
+    
+
+    
+2
+821
+476
+228
+969
+
+    
+    
+    
+
+    
+(2
+820
+660
+(228
+969
+
+    
+    
+    
+
+    
+    
+    
+
+    
+(62
+430
+(156
+588
+
+    
+(1
+511
+589
+(910
+064
+
+    
+336
+651
+38
+729
+
+    
+    
+    
+
+    
+(1
+237
+368
+(1
+027
+923
+
+    
+    
+    
+
+    
+(4
+058
+028
+(1
+256
+892
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+(4
+058
+028
+(1
+256
+892
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+163
+564
+942
+680
+199
+
+    
+163
+564
+942
+680
+199
+
+
+
+notes are integral part of these financials statements.&nbsp;
+
+
+    
+    
+
+
+
+
+ INC.
+
+
+
+
+
+
+    
+    
+ December 31
+ 2015
+
+ 2014
+ (inception) to
+ December 31
+ 2014
+
+    
+    
+    
+
+    
+    
+    
+
+    
+(4
+058
+028
+(1
+256
+892
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+1
+511
+589
+910
+064
+
+    
+959
+821
+    
+
+    
+1
+171
+900
+54
+100
+
+    
+    
+(53
+329
+
+    
+(234
+020
+153
+344
+
+    
+(336
+651
+14
+600
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+(16
+844
+    
+
+    
+    
+    
+
+    
+20
+214
+127
+990
+
+    
+41
+667
+39
+498
+
+    
+    
+    
+
+    
+(940
+352
+(10
+000
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+985
+661
+10
+000
+
+    
+    
+    
+
+    
+985
+661
+10
+000
+
+    
+    
+    
+
+    
+    
+    
+
+    
+45
+309
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+45
+309
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+33
+068
+302
+244
+
+    
+1
+059
+592
+    
+
+    
+    
+1
+093
+332
+
+    
+26
+625
+143
+111
+
+    
+    
+26
+858
+
+    
+    
+    
+
+    
+    
+    
+
+    
+33
+068
+1
+500
+
+    
+    
+93
+500
+
+    
+51
+703
+153
+344
+
+
+
+notes are an integral part of these consolidated financial statements.&nbsp;
+
+
+
+    
+    
+
+
+
+
+ INC.
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ at inception
+    
+    
+    
+    
+    
+    
+    
+
+    
+10
+000
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+138
+781
+    
+(1
+093
+481
+    
+(1
+093
+342
+
+    
+    
+    
+19
+250
+    
+54
+081
+    
+54
+100
+
+    
+    
+    
+1
+000
+    
+4
+099
+    
+4
+100
+
+    
+    
+    
+25
+750
+    
+105
+475
+    
+105
+500
+
+    
+    
+    
+15
+000
+    
+    
+    
+    
+
+    
+    
+    
+2
+044
+632
+2
+045
+300
+824
+    
+302
+869
+
+    
+    
+    
+    
+    
+761
+584
+    
+761
+584
+
+    
+    
+    
+    
+    
+    
+(1
+256
+892
+(1
+256
+892
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ December 31
+ 2014
+10
+000
+    
+2
+244
+413
+2
+244
+132
+567
+(1
+256
+892
+(1
+122
+071
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+152
+000
+000
+152
+000
+1
+019
+900
+    
+1
+171
+900
+
+    
+    
+    
+26
+339
+226
+26
+339
+933
+482
+    
+959
+821
+
+    
+    
+    
+34
+857
+499
+34
+858
+(1
+790
+    
+33
+068
+
+    
+    
+    
+    
+    
+1
+059
+592
+    
+1
+059
+592
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+(8
+999
+    
+53
+406
+528
+53
+407
+(53
+398
+    
+    
+
+    
+    
+    
+    
+    
+    
+(4
+058
+028
+(4
+058
+028
+
+
+ December 31
+ 2015
+1
+000
+    
+268
+847
+666
+268
+848
+3
+090
+353
+(5
+314
+920
+(1
+955
+718
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+FBEC WORLDWIDE
+ INC.
+(FORMERLY FRONTIER BEVERAGE COMPANY
+ INC.)
+
+
+
+
+
+
+
+
+ Inc.
+ f/k/a
+Frontier Beverage Company
+ Inc. (the &quot;Company&quot;
+ &ldquo;FBEC&rdquo;
+ &ldquo;we&rdquo;
+ &ldquo;us&rdquo; or &ldquo;our&rdquo;)
+is a Wyoming corporation that was formed in November 2002 and commenced operations in April 2003. The Company was originally formed
+to provide fully automated remote data backup services for small to medium sized businesses. Currently
+ the Company is engaged
+in developing additional beverage products.
+
+
+ 2010
+ the Company
+entered into a purchase agreement with Innovative Beverage Group Holdings
+ Inc.
+ a Nevada corporation and a trademark assignment
+for the purchase of the intellectual property rights of a beverage created and developed by Innovative known as &ldquo;Unwind.&rdquo;
+The Company subsequently applied for and received a separate trademark featuring its new logo and the term Unwind Ultimate Relaxation
+in 2010. The Company intends to reformulate the product.
+
+
+ 2014
+ the
+Company purchased 90% of Dance Broadcast Systems
+ Inc. for 10
+000 Series A Preferred Stock with a stated value of $1
+000
+000 and
+a par value of $.001. The preference allows the holder to vote 66.67% of the available votes for all purposes regardless of the
+other votes outstanding as long as one share of this series is outstanding. The designation for the Series A Preferred Stock was
+filed with the Secretary of State of Nevada on January 24
+ 2014. This transaction was recorded as a reverse merger with January
+13
+ 2014 now becoming the inception date for accounting purposes. This transaction caused a change of control of the company to
+Vinyl Groove Productions
+ Inc.
+
+
+ the Company
+sold its 51% stake in Blue 22 Entertainment for the receipt of 50 million common shares of NX Global
+ Inc. stock. Because the stock
+received does not have a current filing on Pink Sheets and no active market exists for the shares
+ no value has been placed on
+the stock received. The subsidiary had no assets or liabilities on the date of disposal and no consideration was received.
+
+
+ the Company
+entered into an agreement to be the distributor at retail of a oil emulsification product used to separate oil from various waste
+streams produced from oil wells
+ and oil storage or shipping. The Company agreed to issue 5
+000 Series C preferred shares
+ when
+available
+ after filing a designation which will be earned upon issuance. As of the date of this report
+ the Series C Preferred
+Stock designation has not been filed nor have any preferred shares been issued under the agreement. The product is no longer marketed
+by the Company.
+
+
+ 2014
+ the Company
+increased its authorized common shares from 500
+000
+000 to 950
+000
+000.
+
+
+ 2014
+ the
+Company increased its authorized common shares from 950
+000
+000 to 1
+970
+000
+000.
+
+
+subsidiaries were disposed on June 26
+ 2014. The company does not retain any rights nor any liabilities of the disposed of subsidiaries.
+The disposal resulted in a gain on the sale of $53
+329 (see Note 4).
+
+
+ 2014
+ the
+Company increased its authorized common shares from 1
+970
+000
+000 to 2
+970
+000
+000.
+
+
+ 2014
+ the
+Company was re-domiciled to the State of Wyoming and increased its authorized common shares to 5
+000
+000
+000.
+
+
+ 2014
+ the
+Company changed its name to FBEC Worldwide
+ Inc.
+
+
+ 2014
+ the
+company effected 1:1
+000 reverse split on the outstanding shares. All share and per share amounts herein have been retroactively
+restated to reflect the split.
+
+
+
+    
+    
+
+
+
+June 29
+ 2015
+
+ Consulting
+Agreement
+ and Royalty Agreement with G. Randall &amp; Sons
+ Inc. These agreements provide for the asset purchase of the proprietary
+hemp-based formula used in the Company&rsquo;s beverage energy shot. G. Randall and Sons will provide ongoing consulting services
+in blending new formula(s) and working directly with FBEC to improve and blend existing formulas. The Company purchased the asset
+for $50
+000. The purchase includes a $15
+000 cash payment and a $35
+000 8% Convertible Note with a 6 month maturity date and conversion
+features of 75% of the average closing price 20 days previous to conversion. 
+
+On
+November 12
+ 2015
+ the Company entered into a joint venture agreement operating as FBEC CBD Globe LLC. The joint venture provides
+the Company with a product pipeline and revenue stream from the products of CBD Globe Distributors Ltd. The Company is responsible
+to provide various services for the venture. All revenue from the CBD Globe product line are to be received by the venture. The
+venture is for one year and may be terminated by either party with 30 day written notice as long as all conditions in the contract
+have been met (see Form 8-K filed with the Securities and Exchange Commission on November 17
+ 2015).
+
+On
+November 30
+ 2015
+ the Company entered into a joint venture agreement operating as FBEC Dube Group LLC. The joint venture provides
+the Company with a product pipeline and revenue stream from the products of Dube Hemp Beverages
+ Inc. The Company is responsible
+to provide various services for the venture. All revenue from the Dube product line are to be received by the venture. The venture
+is for one year and may be terminated by either party with 30 day written notice as long as all conditions in the contract have
+been met (see Form 8-K filed with the Securities and Exchange Commission on November 30
+ 2015).
+
+
+
+
+financial statements have been prepared in conformity with generally accepted accounting principles in the United States of America
+(&ldquo;GAAP&rdquo;)
+ which contemplates continuation of the Company as a going concern
+ which is dependent upon the Company's
+ability to establish itself as a profitable business. At December 31
+ 2015
+ the Company has an accumulated deficit of $5
+314
+920
+and for the year ended December 31
+ 2015 incurred net loss of $4
+058
+028. These factors raise substantial doubt about the Company's
+ability to continue as a going concern. These consolidated financial statements do not include any adjustments that might result
+from the outcome of these uncertainties
+ nor do they include adjustments relating to the recoverability and realization of assets
+and classification of liabilities that might be necessary should the Company be unable to continue in operation.
+
+
+to continue in business is dependent upon obtaining sufficient financing or attaining profitable operations. However
+ there can
+be no assurance that management will be successful in obtaining additional funding or in attaining profitable operations
+
+
+
+
+
+
+held by financial institutions and short-term investments with an original maturity of 90 days or less to be cash and cash equivalents.
+In the future
+ the Company may periodically make deposits with financial institutions in excess of the maximum federal insurance
+limits (FDIC) of $250
+000 per bank. As of December 31
+ 2015
+ the Company had $45
+309 cash or cash equivalents.
+
+
+
+
+financial statements include the accounts of wholly-owned subsidiaries Blue 22 Entertainment
+ Inc. and 22 Social Club
+ Inc. and
+90% owned Dance Broadcast System
+ Inc. All intercompany accounts and transactions have been eliminated. All subsidiaries had been
+sold or disposed of at December 31
+ 2014. There were no activities of the joint ventures entered into in 2015.
+
+
+
+
+    
+    
+
+
+
+
+
+stock-based compensation to employees in accordance with FASB ASC 718 and accounts for stock-based compensation to non-employees
+in accordance with FASB ASC 505. The fair value of option awards is estimated on the date of grant based on the Black-Scholes options-pricing
+model utilizing certain assumptions for a risk free interest rate; volatility; and expected remaining lives of the awards. The
+assumptions used in calculating the fair value of share-based payment awards represent management&rsquo;s best estimates
+ but these
+estimates involve inherent uncertainties and the application of management judgment. As a result
+ if factors change and the Company
+uses different assumptions
+ the Company&rsquo;s stock-based compensation expense could be materially different in the future.
+
+
+
+
+earnings per share (&ldquo;EPS&rdquo;) based on the weighted average number of shares of Common Stock outstanding during the period.
+Diluted EPS is computed based on the weighted average number of shares of Common Stock outstanding plus all potentially dilutive
+shares of Common Stock outstanding during the period. Such potential dilutive shares of Common Stock consist of stock options
+non-vested shares (restricted stock)
+ shares underlying convertible debt and warrants. During the year ended December 31
+ 2015
+all shares underlying the convertible debt were excluded as their impact would have been anti-dilutive.
+
+
+
+
+tax losses are not recognized in the accounts until realization is more likely than not. The Company has adopted FASB ASC 740 &ldquo;Accounting
+for Income Taxes&rdquo; as of its inception which requires an asset and liability approach to calculating deferred income taxes.
+Pursuant to FASB ASC 740
+ the Company is required to compute tax asset benefits for net operating losses carried forward. The potential
+benefits of net operating losses have not been recognized in this financial statement because the Company cannot be assured it
+is more likely than not it will utilize the net operating losses carried forward in future years.
+
+
+
+
+statements in conformity with US GAAP requires management to make estimates and assumptions that affect the reported amounts of
+assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported
+amounts of revenues and expenses during the reporting period. The Company regularly evaluates estimates and assumptions related
+to the deferred income tax asset valuation allowances. The Company bases its estimates and assumptions on current facts
+ historical
+experience and various other factors that it believes to be reasonable under the circumstances
+ the results of which form the basis
+for making judgments about the carrying values of assets and liabilities and the accrual of costs and expenses that are not readily
+apparent from other sources. The actual results experienced by the Company may differ materially and adversely from the Company&rsquo;s
+estimates. To the extent there are material differences between the estimates and the actual results
+ future results of operations
+will be affected.
+
+
+
+
+costs incurred with the issuance of notes payable are deferred and amortized over the life of the loan. For the year ended December
+31
+ 2015
+ the Company incurred amortization expense of $51
+703 associated with debt discounts related to derivative liabilities.
+
+
+
+
+classification of its derivative financial instruments as of December 31
+ 2015
+ which consist of convertible instruments and rights
+to shares of the Company&rsquo;s common stock
+ and determined that such derivatives meet the criteria for liability classification
+under ASC 815.
+
+
+three criteria that
+ if met
+ require companies to bifurcate conversion options from their host instruments and account for them
+as free standing derivative financial instruments. These three criteria include circumstances in which (a) the economic characteristics
+and risks of the embedded derivative instrument are not clearly and closely related to the economic characteristics and risks of
+the host contract
+ (b) the hybrid instrument that embodies both the embedded derivative instrument and the host contract is not
+re-measured at fair value under otherwise applicable generally accepted accounting principles with changes in fair value reported
+in earnings as they occur and (c) a separate instrument with the same terms as the embedded derivative instrument would be considered
+a derivative instrument subject to the requirements of ASC 815. ASC 815 also provides an exception to this rule when the host instrument
+is deemed to be conventional
+ as described.
+
+
+
+
+    
+    
+
+
+
+the fair value of its assets and liabilities which qualify as financial instruments under this statement and includes this additional
+information in the notes to the financial statements when the fair value is different than the carrying value of those financial
+instruments. The estimated fair value of cash
+ accounts receivable and accounts payable approximate their carrying amounts due
+to the short maturity of these instruments. At December 31
+ 2014 and 2015
+ the Company did not have any other financial instruments.
+
+
+820 Fair Value Measurements and Disclosures defines fair value as the exchange price that would be received for an asset or paid
+to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction
+between market participants on the measurement date. ASC 820 also establishes a fair value hierarchy that distinguishes between
+(1) market participant assumptions developed based on market data obtained from independent sources (observable inputs) and (2)
+an entity&rsquo;s own assumptions about market participant assumptions developed based on the best information available in the
+circumstances (unobservable inputs). The fair value hierarchy consists of three broad levels
+ which gives the highest priority
+to unadjusted quoted prices in active markets for identical assets or liabilities (Level 1) and the lowest priority to unobservable
+inputs (Level 3). The three levels of the fair value hierarchy are described below:
+
+
+
+Level 1 - Unadjusted quoted prices in active markets that are accessible
+at the measurement date for identical
+ unrestricted assets or liabilities.
+
+Level 2 - Inputs other than quoted prices included within Level 1
+that are observable for the asset or liability
+ either directly or indirectly
+ including quoted prices for similar assets or liabilities
+in active markets; quoted prices for identical or similar assets or liabilities in markets that are not active; inputs other than
+quoted prices that are observable for the asset or liability (e.g.
+ interest rates); and inputs that are derived principally from
+or corroborated by observable market data by correlation or other means.
+
+Level 3 - Inputs that are both significant to the fair value measurement
+and unobservable.
+
+
+value estimates discussed herein are based upon certain market assumptions and pertinent information available to management. The
+respective carrying value of certain on-balance-sheet financial instruments approximated their fair values due to the short-term
+nature of these instruments. These financial instruments include accounts receivable
+ other current assets
+ accounts payable
+ accrued
+compensation and accrued expenses. The fair value of the Company&rsquo;s notes payable is estimated based on current rates that
+would be available for debt of similar terms which is not significantly different from its stated value.
+
+
+accounts for conversion options embedded in its convertible instruments in accordance with professional standards for &ldquo;Accounting
+for Derivative Instruments and Hedging Activities&rdquo;.
+
+
+generally provides three criteria that
+ if met
+ require companies to bifurcate conversion options from their host instruments and
+account for them as free standing derivative financial instruments. These three criteria include circumstances in which (a)&nbsp;the
+economic characteristics and risks of the embedded derivative instrument are not clearly and closely related to the economic characteristics
+and risks of the host contract
+ (b)&nbsp;the hybrid instrument that embodies both the embedded derivative instrument and the host
+contract is not re-measured at fair value under otherwise applicable generally accepted accounting principles with changes in fair
+value reported in earnings as they occur and (c)&nbsp;a separate instrument with the same terms as the embedded derivative instrument
+would be considered a derivative instrument. Professional standards also provide an exception to this rule when the
+host instrument is deemed to be conventional as defined under professional standards as &ldquo;The Meaning of &ldquo;Conventional
+Convertible Debt Instrument&rdquo;.
+
+
+convertible instruments (when it has determined that the embedded conversion options should not be bifurcated from their host instruments)
+in accordance with professional standards when &ldquo;Accounting for Convertible Securities with Beneficial Conversion Features
+&rdquo;
+as those professional standards pertain to &ldquo;Certain Convertible Instruments.&rdquo; Accordingly
+ the Company records
+ when
+necessary
+ discounts to convertible notes for the intrinsic value of conversion options embedded in debt instruments based upon
+the differences between the fair value of the underlying common stock at the commitment date of the note transaction and the effective
+conversion price embedded in the note. Debt discounts under these arrangements are amortized over the term of the related debt
+to their earliest date of redemption. The Company also records when necessary deemed dividends for the intrinsic value of conversion
+options embedded in preferred shares based upon the differences between the fair value of the underlying common stock at the commitment
+date of the note transaction and the effective conversion price embedded in the note.
+
+
+
+
+    
+    
+
+
+
+among other things
+ generally
+ if an event is not within the entity&rsquo;s control could or require net cash settlement
+ then
+the contract shall be classified as an asset or a liability.
+
+
+3 inputs to estimate the fair value of its derivative liabilities.
+
+
+ 2015
+ the
+Company financial instruments consist of the derivative liabilities related to convertible notes which were valued using the Black-Scholes
+Pricing model
+ a level 3 input.
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+Derivative liabilities as of December 31
+ 2015
+    
+    
+$&nbsp;&nbsp;993
+070
+$ 993
+070
+
+
+
+
+
+
+ Loss Contingencies
+ to report accounting for contingencies. Liabilities for loss contingencies
+arising from claims
+ assessments
+ litigation
+ fines and penalties and other sources are recorded when it is probable that a liability
+has been incurred and the amount of the assessment can be reasonably estimated. There were no commitments or contingencies as of
+December 31
+ 2015.
+
+
+
+
+all new accounting pronouncements that are in effect. These pronouncements did not have any material impact on the financial statements
+unless otherwise disclosed
+ and the Company does not believe that there are any other new accounting pronouncements that have been
+issued that might have a material impact on its financial position or results of operations.
+
+
+
+
+ 2014
+ the
+Company purchased 90% of Dance Broadcast Systems
+ Inc. for 10
+000 Series A Preferred Stock. The preferred stock allows the holder
+to vote 66.67% of the available votes for all purposes regardless of the other votes outstanding as long as one share of this series
+is outstanding. The designation for the Series A Preferred Stock was filed with the Secretary of State of Nevada on January 24
+2014. This transaction was recorded as a reverse merger where Dance Broadcast Systems
+ Inc. is deemed the accounting acquirer and
+is the surviving entity
+ with January 13
+ 2014 now becoming the inception date for accounting purposes. This transaction caused
+a change of control of the company to Vinyl Groove Productions
+ Inc. As of the reverse merger date
+ the total net liabilities of
+FBEC were $1
+093
+332 with 138
+781 outstanding common shares.
+
+
+FBEC consisted of the following as of the date of the merger:
+
+
+
+    
+69
+090
+
+    
+120
+500
+
+    
+22
+675
+
+    
+280
+340
+
+    
+600
+727
+
+    
+1
+093
+332
+
+
+
+
+
+
+ the Company
+sold its 51% stake in Blue 22 Entertainment for the receipt of 50 million common shares of NX Global
+ Inc. stock. Because the stock
+received does not have a current filing on Pink Sheets and no active market exists for the shares
+ no value has been placed on
+the stock received. The subsidiary had no assets or liabilities on the date of disposal.
+
+
+
+ 2014
+ the Company
+sold its holdings in Dance Broadcast System
+ Inc. and 22 Social Club
+ Inc. The buyer waived a remaining payment of $10
+000 owed
+by the Company under a consulting contract and assumed the remaining liabilities of 22 Social Club totaling $43
+329. Dance Broadcast
+had no assets or liabilities on the date of disposal. The disposal of 22 Social Club resulted in a gain of $53
+329 as follows:
+
+
+
+    
+43
+329
+
+    
+43
+329
+
+    
+    
+
+    
+10
+000
+
+    
+53
+329
+
+
+
+
+
+    
+    
+
+
+
+
+
+ the Company
+issued to officers and directors
+ and a prior officer a total of 25
+750 common shares for the settlement of $93
+500 of liabilities
+resulting in a loss on the extinguishment of liabilities of $12
+000 for the period from January 13
+ 2014 (date of inception) through
+December 31
+ 2014.
+
+
+ 2014
+ the
+Company owed $43
+000 in accrued salary to a former officer and director which was disposed along with the disposal of the subsidiary
+and recorded as a gain on sale of subsidiary.
+
+
+ liabilities
+owed to a former affiliate of the Company
+ of $9
+767 and an entity controlled a former affiliate of the company of $16
+858 were
+converted to notes payable totaling $26
+625. The notes are unsecured
+ due on demand and bear no interest.
+
+
+ 2015
+the Company has outstanding advances to former officers and directors aggregating $22
+675. The advances are unsecured
+ due on demand
+and bear no interest.
+
+
+ 2015 Vinyl
+Groove Productions sold controlling interest of the Company to S &amp; L Capital LLC.
+
+
+ 2015 S&amp;L
+Capital LLC converted 8
+999 Series A preferred shares to 53
+406
+528 restricted common shares. The Company issued 150
+000
+000 restricted
+common shares to Robert Sand as required by his employment contract.
+
+
+ 2015
+Midam Ventures LLC bought controlling interest of the Company by purchasing 1
+000 Preferred Series A shares from S&amp;L Capital
+LLC. One share of the Series A Preferred Stock was canceled.
+
+
+
+
+ 2015
+ the
+Company had 5
+000
+000
+000 authorized shares of Common Stock and 20
+000
+000 authorized shares of Preferred Stock
+ both with a par
+value of $0.001 per share.
+
+
+
+
+ 2015
+ the
+Company had 1
+000 share of its Series A Preferred Stock issued and outstanding. The shares were issued to founders at inception
+on January 13
+ 2014. We are authorized to issue up to 20
+000
+000 shares of Preferred Stock with designations
+ rights and preferences
+determined from time to time by our Board of Directors. Accordingly
+ our Board of Directors is empowered
+ without stockholder approval
+to issue Preferred Stock with dividend
+ liquidation
+ conversion
+ voting
+ or other rights which could adversely affect the voting
+power or other rights of the holders of the Common Stock. In the event of issuance
+ the Preferred Stock could be utilized
+ under
+certain circumstances
+ as a method of discouraging
+ delaying or preventing a change in control of the Company. If the Company issues
+shares of Preferred Stock and we are subsequently liquidated or dissolved
+ the preferred shareholders would have preferential rights
+to receive a liquidating distribution for their shares prior to any distribution to common shareholders.
+
+
+
+
+ 2015
+ the
+Company had 268
+847
+666 shares of its Common Stock issued and outstanding. Holders of Common Stock are entitled to one vote per
+share and are to receive dividends or other distributions when and if declared by the Company's Board of Directors.
+
+
+ the Company
+issued 5
+000 common shares for services with a value of $19
+000.
+
+
+ the Company
+issued 1
+250 common shares for services with a value of $5
+000.
+
+
+ the Company
+issued 15
+000 common shares held in escrow to secure an outstanding convertible note.
+
+
+ the Company
+issued to officers and directors
+ and a prior officer a total of 25
+750 common shares for the settlement of $93
+500 of liabilities
+resulting in a loss on the extinguishment of liabilities of $12
+000.
+
+
+ the Company
+issued 1
+000 common shares for the extinguishment of accounts payable of $1
+500. The shares were valued at $4
+100 resulting in
+a loss on the extinguishment of liabilities of $2
+600.
+
+
+ the Company
+issued 8
+000 common shares for services valued at $17
+600.
+
+
+ the Company
+issued 5
+000 common shares for services valued at $12
+500.
+
+
+
+
+    
+    
+
+
+
+ the Company issued
+an aggregate of 2
+044
+632 common shares for the conversion of $302
+244 of convertible debt. The Company recognized an additional
+loss of $625 due to the over conversion of one convertible note.
+
+
+ the Company
+issued 15
+500
+000 common shares for the conversion of $16
+500 of debt.
+
+
+ agreements
+were reached to issue 10
+000
+000 restricted common shares for services which partially issued in June and completed in July with
+a value of $927
+000.
+
+
+ the Company issued 10
+007
+499
+common shares for debt conversion with a value of $13
+057.
+
+
+ the
+Company issued 4
+000
+000 restricted common shares for services with a value of $81
+600 . 6
+250
+000 restricted common shares were
+issued for debt conversion with a value of $12
+500. The Company entered into an agreement to issue 2
+000
+000 restricted common
+shares per an officer employment contract with a value of $189
+200. These employment shares are included in this filing but have
+not been issued.
+
+
+ the Company
+issued 3
+100
+000 common shares for $310 in debt conversion.
+
+
+ the Company
+issued 2
+000
+000 restricted common shares for services with a value of $62
+000.
+
+
+ the Company
+entered into an agreement to issue 5
+000
+000 restricted common shares for services no value has been assigned as services had not
+been performed prior to December 31
+ 2015. The value these shares have been included common shares with an offset to additional
+paid in capital in these financial statements but were not issued as of its filing.
+
+
+
+
+ 2015 convertible
+notes payable consisted of the following:
+
+
+
+    
+December 31
+
+
+    
+951
+465
+
+    
+(234
+020
+
+    
+717
+445
+
+
+
+outstanding convertible notes are secured by 15
+000 common shares of the Company which were issued and held in escrow as of December
+31
+ 2015. Still hold as of the date of filing.
+
+Note outstanding as of February 3
+ 2014:
+
+
+merger
+ February 3
+ 2014
+ the Company had an outstanding balance of convertible notes payable of $280
+339 which were convertible
+into common stock at a 50% discount to the lowest bid of stock&rsquo;s market price during the last 20 days prior to conversion
+date. The notes are unsecured
+ due on demand and bear no interest.
+
+
+identified embedded derivatives related to the convertible notes outstanding as of February 3
+ 2014.&nbsp;These embedded
+derivatives included certain conversion features. The accounting treatment of derivative financial instruments requires
+that the Company record the fair value of the derivatives as of the inception date of the convertible note and to adjust the
+fair value as of each subsequent balance sheet date.&nbsp;As of February 3
+ 2014
+ the Company determined a fair value of
+$600
+727 of the embedded derivatives. The fair value of the embedded derivatives was determined using the Black Scholes
+Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+
+
+
+outstanding embedded derivatives was determined to be $902
+551 at December 31
+ 2014 using the Black Scholes Option Pricing Model
+with the following assumptions:
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+ the
+Company adjusted the recorded fair value of the derivative liability on the dates of conversion of these notes. The aggregate fair
+value of these embedded derivative liabilities on the dates of conversion was determined to be $399
+953 and this amount was reclassified
+to equity on the date of resolution of these derivative liabilities. The fair value was estimated using the Black Scholes Option
+Pricing Model with the following assumptions:
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $701
+777 for the period from January 13
+ 2014 (date of inception) through ended December
+31
+ 2015 due to the change in fair value.
+
+Note issued on March 10
+ 2014:
+
+
+ 2014
+ a convertible
+note agreement was entered into for a total of $50
+000 due on January 5
+ 2015 with an interest of 8% per annum. A cash draw against
+that note was received of $10
+000. The additional $40
+000 resulted from accounts payable converted to convertible debt. The agreement
+allows conversion into shares of common stock at 50% discount to the average of the three lowest intraday trading prices during
+the 15 days prior to conversion date.
+
+
+embedded derivatives related to the Convertible Promissory Note entered into on March 10
+ 2014. These embedded derivatives
+included certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company
+record the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value
+as of each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company
+determined a fair value of $107
+668 of the embedded derivative.
+
+
+of the embedded debt derivative of $107
+668 was allocated as a debt discount up to the face value of the note ($50
+000) with the
+remaining $57
+668 recognized as a loss on derivative liabilities. The debt discount was fully amortized to interest expense during
+2014.
+
+
+January 13
+ 2014 (date of inception) through December 31
+ 2014
+ the $50
+000 note payable was fully converted into 567
+600 shares
+of common stock. The aggregate fair value of these embedded derivative liabilities on the dates of conversion was determined to
+be $97
+156 and this amount was reclassified to equity on the date of resolution of these derivative liabilities.
+
+
+derivatives under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $47
+156 for the period from January 13
+ 2014 (date of inception) through ended December 31
+2014 due to the change in fair value.
+
+
+
+
+    
+    
+
+
+Note issued on June 4
+ 2014:
+
+
+ 2014
+ a convertible
+note agreement was entered into for a total of $103
+344 with an interest of 0% per annum. The $103
+344 represents the conversion
+of accounts payable to convertible debt. The agreement allows conversion into shares of common stock at 50% discount to the lowest
+intraday trading prices during the 15 days prior to conversion date. The note was converted in full at December 31
+ 2014.
+
+
+embedded derivatives related to the Convertible Promissory Note entered into on June 4
+ 2014.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $215
+674 of the embedded derivative.
+
+
+of the embedded debt derivative of $215
+674 was allocated as a debt discount up to the face value of the note ($103
+344) with the
+remaining $112
+330 recognized as a loss on derivative liabilities. The debt discount was fully amortized to interest expense during
+2014.
+
+
+13
+ 2014 (period of inception) through December 31
+ 2014
+ the Company issued 339
+872 common shares for the conversion of the principal
+amount of $103
+344. The Company adjusted the recorded fair value of the derivative liability on the dates of conversion and determined
+the aggregate fair value to be $264
+475 and this amount was reclassified to equity on the date of resolution of these derivative
+liabilities.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+liabilities was $161
+131 for the period from January 13
+ 2014 (date of inception) through ended December 31
+ 2014 due to the change
+in fair value.
+
+Note issued on May 15
+ 2015 with
+a maturity date of November 15
+ 2015:
+
+
+ 2015
+ a convertible
+note agreement was entered into for a total of $37
+500 with an interest of 0% per annum. The agreement allows conversion into shares
+of common stock at 38% discount to the lowest intraday trading prices during the 20 days prior to conversion date. The note became
+convertible at its maturity on November 15
+ 2015. No conversions have been made and the note is in default which triggers 10% interest
+per annum until paid on the face value of the note beginning on the maturity date.
+
+
+embedded derivatives related to the Convertible Promissory Note as of its maturity date.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $62
+556 of the embedded derivative.
+
+
+of the embedded debt derivative of $62
+556 was allocated as a debt discount up to the face value of the note ($37
+500) with the
+remaining $25
+056 recognized as a loss on derivative liabilities. The debt discount of $4
+687 was amortized to derivative expense
+during 2015.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $121
+487 for the year ended December 31
+ 2015 due to the change in fair value.
+
+
+
+
+    
+    
+
+
+Note issued on May 29
+ 2015:
+
+
+ 2015
+ a convertible
+note agreement was entered into for a total of $25
+000 with an interest of 8% per annum. The agreement allows conversion into shares
+of common stock at the lower of $0.01 or 50% discount to the lowest intraday trading prices during the 20 days prior to conversion
+date. The note was immediately convertible and $12
+500 of the note has been converted. The note is in default.
+
+
+embedded derivatives related to the Convertible Promissory Note as of its maturity date.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $422
+306 of the embedded derivative.
+
+
+of the embedded debt derivative of $422
+306 was allocated as a debt discount up to the face value of the note ($25
+000) with the
+remaining $397
+306 recognized as a loss on derivative liabilities. The debt discount was fully amortized to derivative expense
+during 2015.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $581
+ 203 for the year ended December 31
+ 2015 due to the change in fair value and loss
+on conversion.
+
+Note issued on June 11
+ 2015
+with a maturity date of December 11
+ 2015:
+
+
+ 2015
+ a convertible
+note agreement was entered into for a total of $75
+000 with an interest of 0% per annum. The agreement allows conversion into shares
+of common stock at 37.5% discount to the lowest intraday trading prices during the 15 days prior to conversion date. The note became
+convertible at its maturity on December 11
+ 2015. No conversions have been made and the note is in default which triggers 12% interest
+per annum until paid on the face value of the note beginning on the maturity date.
+
+
+embedded derivatives related to the Convertible Promissory Note as of its maturity date.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $99
+047 of the embedded derivative.
+
+
+of the embedded debt derivative of $99
+047 was allocated as a debt discount up to the face value of the note ($75
+000) with the
+remaining $24
+047 recognized as a loss on derivative liabilities. The debt discount of $2
+260 was amortized to derivative expense
+during 2015.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $216
+037 for the year ended December 31
+ 2015 due to the change in fair value.
+
+
+
+
+    
+    
+
+
+Note issued on June 17
+ 2015
+with a maturity date of December 17
+ 2015:
+
+
+ 2015
+ a convertible
+note agreement was entered into for a total of $75
+000 with an interest of 0% per annum. The agreement allows conversion into shares
+of common stock at 37.5% discount to the lowest intraday trading prices during the 15 days prior to conversion date. The note became
+convertible at its maturity on December 11
+ 2015. No conversions have been made and the note is in default which triggers 12% interest
+per annum until paid on the face value of the note beginning on the maturity date.
+
+
+embedded derivatives related to the Convertible Promissory Note as of its maturity date.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $118
+368 of the embedded derivative.
+
+
+of the embedded debt derivative of $118
+368 was allocated as a debt discount up to the face value of the note ($75
+000) with the
+remaining $43
+368 recognized as a loss on derivative liabilities. The debt discount of $1
+663 was amortized to derivative expense
+during 2015.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $216
+037 for the year ended December 31
+ 2015 due to the change in fair value.
+
+Note issued on August 26
+ 2015:
+
+
+ 2015
+ a convertible
+note agreement was entered into for a total of $30
+000 with an interest of 8% per annum. The agreement allows conversion into shares
+of common stock at 50% discount to the lowest intraday trading prices during the 10 days prior to conversion date.
+
+
+embedded derivatives related to the Convertible Promissory Note as of its maturity date.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $77
+517 of the embedded derivative.
+
+
+of the embedded debt derivative of $77
+517 was allocated as a debt discount up to the face value of the note ($30
+000) with the
+remaining $47
+517 recognized as a loss on derivative liabilities. The debt discount of $35
+509 was fully amortized to derivative
+expense during 2015.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $83
+611 for the year ended December 31
+ 2015 due to the change in fair value.
+
+
+
+
+    
+    
+
+
+Note issued on August 26
+ 2015:
+
+
+ 2015
+ a convertible
+note agreement was entered into for a total of $26
+625 with an interest of 0% per annum. The agreement allows conversion into shares
+of common stock at 50% discount to the lowest intraday trading prices during the 20 days prior to conversion date. The note was
+immediately convertible and has been fully converted as of August 31
+ 2015.
+
+
+embedded derivatives related to the Convertible Promissory Note as of its maturity date.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $68
+875 of the embedded derivative.
+
+
+of the embedded debt derivative of $68
+875 was allocated as a debt discount up to the face value of the note ($26
+625) with the
+remaining $42
+250 recognized as a loss on derivative liabilities. The debt discount was fully amortized to derivative expense during
+2015.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $500
+810 for the year ended December 31
+ 2015 due to the change in fair value and loss on
+conversion.
+
+Note issued on December 24
+ 2015:
+
+
+ 2015
+ a
+convertible note agreement was entered into for a total of $50
+000 with an interest of 10% per annum. The agreement allows conversion
+into shares of common stock 50% discount to the lowest intraday trading prices during the 15 days prior to conversion date with
+a ceiling of $0.003.
+
+
+embedded derivatives related to the Convertible Promissory Note as of its maturity date.&nbsp;These embedded derivatives included
+certain conversion features.&nbsp;The accounting treatment of derivative financial instruments requires that the Company record
+the fair value of the derivatives as of the inception date of the Convertible Promissory Note and to adjust the fair value as of
+each conversion date and subsequent balance sheet date.&nbsp;At the inception of the Convertible Promissory Note
+ the Company determined
+a fair value of $418
+331 of the embedded derivative.
+
+
+of the embedded debt derivative of $418
+331 was allocated as a debt discount up to the face value of the note ($50
+000) with the
+remaining $366
+831 recognized as a loss on derivative liabilities. The debt discount of $479 was amortized to derivative expense
+during 2015.
+
+
+derivative under this note was determined using the Black Scholes Option Pricing Model based on the following assumptions:&nbsp;&nbsp;
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+with these derivative liabilities was $818
+262 for the year ended December 31
+ 2015 due to the change in fair value.
+
+
+
+
+    
+    
+
+
+
+
+
+for in accordance with FASB ASC 740
+ which requires the recognition of deferred tax assets and liabilities to reflect the future
+tax consequences of events that have been recognized in the Company's financial statements or tax returns. Measurement of the deferred
+items is based on enacted tax laws. In the event the future consequences of differences between financial reporting bases and tax
+bases of the Company's assets and liabilities result in a deferred tax asset
+ the guidance requires an evaluation of the probability
+of being able to realize the future benefits indicated by such assets. A valuation allowance related to a deferred tax asset is
+recorded when it is more likely than not that some or the entire deferred tax asset will not be realized.
+
+
+losses at December 31
+ 2015 of $5
+314
+920 expiring through 2034. Utilization of these losses may be limited by the &quot;change
+of ownership&quot; rules as set forth in section 382 of the Internal Revenue Code.
+
+
+the expected income tax expense (benefit) and the actual tax expense (benefit) computed by using the federal statutory rate of
+35% is as follows:
+
+
+
+    
+    
+from 
+January 13
+ 2014 
+(date of inception) through 
+December 31
+
+ 2015
+
+    
+    
+
+    
+1
+860
+222
+
+    
+(1
+860
+222
+
+    
+    
+
+    
+    
+
+
+
+liabilities are provided for significant income and expense items recognized in different years for tax and financial reporting
+purposes. Temporary differences
+ which give rise to a net deferred tax asset
+ are as follows:
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+1
+860
+222
+
+    
+(1
+860
+222
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+require companies to recognize in their financial statements the impact of a tax position if that position is more likely than
+not to be sustained upon audit
+ based upon the technical merits of the position. ASC 740 prescribes a recognition threshold and
+measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken on
+a tax return. ASC 740 also provides guidance on de-recognition
+ classification
+ interest and penalties
+ accounting in interim periods
+and disclosure.
+
+
+that the Company has any material uncertain tax positions requiring recognition or measurement in accordance with the provisions
+of ASC 740. Accordingly
+ the adoption of these provisions of ASC 740 did not have a material effect on the Company&rsquo;s financial
+statements. The Company&rsquo;s policy is to record interest and penalties on uncertain tax positions
+ if any
+ as income tax expense.
+
+
+
+
+Relaxation continue future payments will be required to Innovative Beverage Group Holdings
+ Inc. These payments are $0.60 for each
+24-pack
+ $0.12 for each 12-pack sold. If the formula is sold 3.5% of the sale price would be due.
+
+
+
+
+    
+    
+
+
+
+
+
+ 2016
+ the
+Company received from its majority shareholder 100
+000
+000 restricted common shares for immediate cancellation. There was no consideration
+to the majority shareholder.
+
+
+ the Company
+entered into a convertible debt agreements with total principal amount of $25
+000 and 10% simple interest per annum. The note is
+convertible at a 70% discount to the lowest market price of the 20 days preceding the conversion request. The note is due September
+21
+ 2016.
+
+
+ 2016
+ the
+Company amended its Articles of Incorporation reducing the authorized common shares from 5
+000
+000
+000 downward to 2
+200
+000
+000.
+
+
+ 2016
+ Jason
+Spatafora resigned from all positions. The Company entered into an employment agreement with Jeffrey Greene to become the Chief
+Executive Officer. The term of the agreement is one year with a base salary of $10
+000 per month. Mr. Greene is to receive 50
+000
+000
+restricted common shares and 150 Series A Preferred shares are to be transferred from their current holder. An additional bonus
+of 10
+000
+000 common shares will be due for each $500
+000 in revenue up to $1
+000
+000 the Company receives during the term of the
+agreement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+Exhibit
+31.1
+
+
+
+
+
+
+ Jeffrey Greene
+ certify that:
+
+
+
+    
+I have reviewed this annual report on Form 10-K of FBEC Worldwide
+ Inc.; 
+
+
+
+
+    
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report; 
+
+
+
+
+    
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report; 
+
+
+
+
+    
+    
+
+    
+    
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being prepared; 
+
+    
+    
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+    
+    
+Evaluated the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report our conclusions about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on such evaluation; and 
+
+    
+    
+Disclosed in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the registrant&rsquo;s most recent fiscal quarter (the registrant&rsquo;s fourth fiscal quarter in the case of an annual report) that has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s internal control over financial reporting; and 
+
+
+
+
+    
+The registrant&rsquo;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+ to the registrant&rsquo;s auditors and the audit committee of registrant&rsquo;s board of directors (or persons performing the equivalent functions): 
+
+    
+    
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial information; and 
+
+    
+    
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s internal control over financial reporting. 
+
+
+
+
+May
+    19
+ 2016
+    
+    
+
+    
+    
+    
+
+    
+    
+
+
+        Executive Officer
+
+        Financial Officer
+
+        Accounting Officer
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+the annual report of FBEC Worldwide
+ Inc. (the &ldquo;Company&rdquo;) on Form 10-K for the period ending December 31
+ 2015 as
+filed with the Securities and Exchange Commission on May 
+ 2016 (the &ldquo;Report&rdquo;)
+ I
+ Jeffrey Greene
+ Principal Executive
+Officer of the Company
+ certify
+ pursuant to 18 U.S.C. &sect; 1350
+ as adopted pursuant to &sect; 906 of the Sarbanes-Oxley
+Act of 2002
+ that:
+
+
+The Report fully complies with the requirements of section 13(a) or 15(d) of the Securities
+
+
+
+The information contained in the Report fairly presents
+ in all material respects
+
+
+
+
+
+
+
+
+
+
+ 2016
+
+
+provided to the Company and will be retained by the Company and furnished to the Securities and Exchange Commission or its staff
+upon request.
+
+
+
+
+

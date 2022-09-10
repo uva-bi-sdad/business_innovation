@@ -1,0 +1,1551 @@
+
+
+ACCESSION NUMBER:		0001021432-18-000077
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20171231
+FILED AS OF DATE:		20180313
+DATE AS OF CHANGE:		20180313
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Anutra Corp
+		CENTRAL INDEX KEY:			0001693686
+		STANDARD INDUSTRIAL CLASSIFICATION:	BLANK CHECKS [6770]
+		IRS NUMBER:				814625032
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55740
+		FILM NUMBER:		18686395
+	BUSINESS ADDRESS:	
+		STREET 1:		9454 WILSHIRE BOULEVARD STE 612
+		CITY:			BEVERLY HILLS
+		STATE:			CA
+		ZIP:			90212
+		BUSINESS PHONE:		3108881870
+	MAIL ADDRESS:	
+		STREET 1:		9454 WILSHIRE BOULEVARD STE 612
+		CITY:			BEVERLY HILLS
+		STATE:			CA
+		ZIP:			90212
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Still Sound Acquisition Corp
+		DATE OF NAME CHANGE:	20170104
+
+
+
+
+
+
+                   SECURITIES AND EXCHANGE COMMISSION
+                       Washington
+ D.C.  20549
+                              FORM 10-K
+(Mark One)
+[X]         ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d)
+              OF THE SECURITIES EXCHANGE ACT OF 1934
+             For the fiscal year ended December 31
+ 2017
+[  ]        TRANSITION REPORT PURSUANT TO SECTION 13 OR
+            15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+            For the transition period from          to
+                   Commission file number 000-55740
+                          ANUTRA CORPORATION
+         (Exact name of registrant as specified in its charter)
+                 STILL SOUND ACQUISITION CORPORATION
+                      (Former name of registrant )
+            Delaware                           81-4664596
+    (State or other jurisdiction of           (I.R.S. Employer
+     incorporation or organization)          Identification No.)
+                        9454 Wilshire Boulevard
+ Suite 612
+                         Los Angeles
+ California 90212
+        (Address of principal executive offices)  (zip code)
+   Registrant's telephone number
+ including area code:   310-888-1870
+   Securities registered pursuant to Section 12(b) of the Act:  None
+   Securities registered pursuant to Section 12(g) of the Exchange Act:
+             Common Stock
+ $.0001 par value per share
+                    (Title of class)
+Indicate by check mark if the registrant is a well-known seasoned issuer
+as defined in Rule 405 of the Securities Act
+						[  ] Yes   [ X ] No
+Indicate by check mark if the registrant is not required to file
+reports pursuant to Section 13 or Section 15(d) of the Act.
+						[  ] Yes   [ X ] No
+Indicate by check mark whether the registrant (1) has filed all reports
+required to be filed by Section 13 or 15(d) of the Securities Exchange
+Act of 1934 during the preceding 12 months (or for such shorter
+period that the registrant was required to file such reports)
+ and (2)
+has been subject to such filing requirements for the past 90 days.
+						[ X ] Yes   [   ] No
+Indicate by check mark whether the registrant has submitted electronically
+and posted on its corporate Website
+ if any
+ every Interactive Data File
+required to be submitted and posted pursuant to Rule 405 of Regulation
+S-T (Section 232.405 of this chapter) during the preceding 12 months
+(or for such shorter period that the registrant was required to submit
+and post such files).
+						[ X ] Yes   [   ] No
+Indicate by check mark if disclosure of delinquent filers pursuant to
+Item 405 of Regulation S-K (Section 229.405 of this chapter) is not
+contained herein
+ and will not be contained
+ to the best of registrant's
+knowledge
+ in definitive proxy or information statements incorporated by
+reference in Part III of this Form 10-K or any amendment to this Form
+10-K.
+						[ X ] Yes   [  ] No
+Indicate by check mark whether the registrant is a large accelerated
+filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller
+reporting company.  See the definitions of large accelerated
+filer
+ accelerated filer
+ non-accelerated filer
+ and smaller
+reporting company in Rule 12b-2 of the Exchange Act.
+Large Accelerated filer  [  ]       Accelerated filer         [   ]
+Non-accelerated filer    [  ]       Smaller reporting company [ X ]
+  (do not check if smaller reporting company)
+Indicate by check mark whether the registrant is a shell company
+   (as defined in Rule 12b-2 of the Exchange Act).
+						[ X ] Yes   [  ] No
+State the aggregate market value of the voting and non-voting common
+equity held by non-affiliates computed by reference to the price at
+which the common equity was last sold
+ or the average bid and asked
+price of such common equity
+ as of the last business day of the
+registrant's most recently completed second fiscal quarter.
+							    $ 0
+Indicate the number of shares outstanding of each of the registrant's
+classes of common stock as of the latest practicable date.
+       Class                                   Outstanding at
+                                               March 7
+ 2018
+Common Stock
+ par value $0.0001                20
+000
+000
+Documents incorporated by reference:            Form 10-12G filed
+					        January 18
+ 2017
+                               PART I
+Item 1.  Business
+     Anutra Corporation (formerly Still Sound Acquisition Corporation)
+(Anutra or the Company) was incorporated on December 7
+ 2016 under
+the laws of the State of Delaware to engage in any lawful corporate
+undertaking
+ including
+ but not limited to
+ selected mergers and
+acquisitions. In February
+ 2018 the Company changed its name to Anutra
+Corporation in anticipation of a subsequent change in control.
+      The Company has been in the developmental stage since inception.
+The Company was formed to provide a method for a foreign or domestic
+private company to become a reporting company with a class of
+securities registered under the Securities Exchange Act of 1934.
+     The Company registered its common stock on a Form 10
+registration statement filed pursuant to the Securities Exchange
+Act of 1934 (the Exchange Act) and Rule 12(g) thereof.  The
+Company files with the Securities and Exchange Commission periodic
+and current reports under Rule 13(a) of the Exchange Act
+ including
+quarterly reports on Form 10-Q and annual reports Form 10-K.
+     As of December 31
+ 2017
+ the Company had not generated revenues
+and had no income or cash flows from operations since inception.  At
+December 31
+ 2017
+ the Company had sustained net loss of $1
+539
+and an accumulated deficit of $4
+851.
+     The Company's independent auditors have issued a report raising
+substantial doubt about the Company's ability to continue as a going
+concern.  At present
+ the Company has no operations and the
+continuation of the Company as a going concern is dependent upon
+financial support from its stockholders
+ its ability to obtain
+necessary equity financing to continue operations and/or to
+successfully locate and negotiate with a business entity for the
+combination of that target company with the Company.
+      There is no assurance that the Company will ever be profitable.
+     The Company has no employees.
+   The president of the Company is the sole officer and director of
+Tiber Creek Corporation.  Tiber Creek Corporation assists companies in
+becoming public companies and assists companies with introductions to
+the financial community.  Such services may include
+ when and if
+appropriate
+ the use of an existing reporting company such as the
+Company.
+      In August
+ 2017
+ Tiber Creek Corporation entered into a contract
+with Anutra LLC
+ a private company
+ to assist it to become a public
+trading company and to assist it with introductions to the financial
+community.  Pursuant to such contract
+ the Company
+ a public reporting
+company
+ will effect a change in control and a subsequent business
+combination with Anutra LLC.
+    A business combination will normally take the form of a merger
+stock-for-stock exchange or stock-for-assets exchange. In most
+instances the private company will wish to structure the business
+combination to be within the definition of a tax-free reorganization
+under Section 351 or Section 368 of the Internal Revenue Code of 1986
+as amended.
+     Once a change in control has been effected
+ new management
+may issue shares of its stock prior to filing a registration statement
+for the registration of its shares pursuant to the Securities Act of
+1933 and such shares will be governed by the rules and regulations
+of the Securities and Exchange Commission regarding the sale of
+unregistered securities.
+Subsequent Event
+      Pursuant to the contract with Tiber Creek Corporation
+ Anutra
+LLC anticipates effecting a change in control with the Company and
+subsequently effecting a business combination of Anutra LLC with the
+Company.
+      In expectation of such change in control
+ on February 22
+ 2018
+the Company changed its name to Anutra Corporation.  The change in
+control transaction has not yet been effected but is anticipated to
+be completed shortly and the Company will file a Form 8-K noticing the
+transaction.
+    It is anticipated that as part of the change in control
+ the
+Company will:
+	Cancel an aggregate of 19
+500
+000 shares of the 20
+000
+000
+shares of outstanding stock valued at par.
+       The current officers and directors of the Company
+ James
+Cassidy and James McKillop
+ will resign from the offices held by
+them.
+      New officers and directors will be appointed and elected.
+      The Company anticipates that the new officers and directors
+may issue shares of common stock upon effectiveness of the change
+in control.
+Item 2.  Properties
+     The Company has no properties and at this time has no
+agreements to acquire any properties.  The Company currently uses
+the offices of Management at no cost to the Company.
+Item 3.  Legal Proceedings
+     There is no litigation pending or threatened by or against the
+Company.
+    Management is aware that certain current and prior blank check
+companies of which Messrs. Cassidy and McKillop were the former
+officers and directors have received subpoenas for documents in regard
+to an inquiry by the Securities and Exchange Commission requesting
+documentation regarding the transactions and filings for the past
+five years and former share ownership of certain blank check companies.
+     Management of the Company has also received subpoenas from the
+Securities and Exchange Commission in regard to certain of the
+transactions and filings for the past five years of certain of its
+blank check companies. Management has no independent knowledge or
+information as to the intent or purpose of such subpoenas but believes
+the SEC is investigating whether the change in control transaction is
+considered a sale of a security and if so whether a broker needs to be
+used to effect the transaction.
+Item 4.  Mine Safety Disclosures.
+      Not applicable.
+                              PART II
+Item 5.  Market for Registrant's Common Equity
+ Related Stockholder
+	 Matters and Issuer Purchases of Equity Securities
+      There is currently no public market for the Company's securities.
+     Following a business combination
+ a target company will normally
+wish to cause the Company's common stock to trade in one or more United
+States securities markets.  The target company may elect to take the
+steps required for such admission to quotation following the business
+combination or at some later time.
+     At such time as it qualifies
+ the Company may choose to apply for
+quotation of its securities on the OTC Bulletin Board.
+     The OTC Bulletin Board is a dealer-driven quotation service.
+Unlike the Nasdaq Stock Market
+ companies cannot directly apply to be
+quoted on the OTC Bulletin Board
+ only market makers can initiate
+quotes
+ and quoted companies do not have to meet any quantitative
+financial requirements.  Any equity security of a reporting company
+not listed on the Nasdaq Stock Market or on a national securities
+exchange is eligible.
+     As such time as it qualifies
+ the Company may choose to apply
+for quotation of its securities on the Nasdaq Capital Market.
+     In general there is greatest liquidity for traded securities on
+the Nasdaq Capital Market and less on the OTC Bulletin Board.  It is
+not possible to predict where
+ if at all
+ the securities of the Company
+will be traded following a business combination.
+     Since inception
+ the Company has sold securities which
+were not registered as follows:
+                                            NUMBER OF
+DATE                     NAME               SHARES       CONSIDERATION
+December 7
+ 2016      James Cassidy (1)   10
+000
+000       Services
+December 7
+ 2016      James McKillop      10
+000
+000	   Services
+(1)  James M. Cassidy
+ president and a director of the Company
+is the sole shareholder and director of Tiber Creek Corporation
+a Delaware corporation
+ which company has agreed to assist the
+Company in registering its stock and introductions to the brokerage
+community.
+Item 6.  Selected Financial Data.
+	There is no selected financial data required to be filed for
+a smaller reporting company.
+Item 7.  Management's Discussion and Analysis of Financial Condition
+	 and Results of Operations
+   The Company has no operations nor does it currently engage in any
+business activities generating revenues.  The Company's principal
+business objective is to achieve a business combination with a target
+company.
+     A combination will normally take the form of a merger
+ stock-for-
+stock exchange or stock-for-assets exchange.  In most instances the
+target company will wish to structure the business combination to be
+within the definition of  a tax-free reorganization under Section 351
+or Section 368 of the Internal Revenue Code of 1986
+ as amended.
+     Tiber Creek Corporation has entered into a contract with Anutra
+LLC to assist it in becoming a public company and with introductions
+and relations with the brokerage and financial community.  As part of
+that contract the Company will effect a change in control.
+     The president of the Company is the president
+ director and sole
+shareholder of Tiber Creek Corporation.
+     It is anticipated that as part of the change in control
+ the
+Company will:
+	Cancel an aggregate of 19
+500
+000 shares of the 20
+000
+000
+shares of outstanding stock valued at par.
+       The current officers and directors of the Company
+ James
+Cassidy and James McKillop
+ will resign from the offices held by
+them.
+      New officers and directors will be appointed and elected.
+      The Company anticipates that the new officers and directors
+may issue shares of common stock upon effectiveness of the change
+in control.
+      Anutra LLC develops
+ markets and sells the Anutra brand of
+products of healthy whole foods.  The Anutra line consists of over
+22 food products representing years of research on Anutra Chia
+intended to create healthy whole foods.  With such change in control
+and anticipated subsequent business combination with Anutra LLC
+ the
+Company will be a sales and marketing company of the Anutra products
+utilizing radio
+ television
+ print and social media to reach retail
+food service sports nutrition and other markets.
+     As of December 31
+ 2017
+ the Company had not generated revenues
+and had no income or cash flows from operations since inception.  At
+December 31
+ 2017
+ the Company had sustained net loss of $1
+539.
+    The Company's independent auditors have issued a report raising
+substantial doubt about the Company's ability to continue as a going
+concern.  At present
+ the Company has no operations and the continuation
+of the Company as a going concern is dependent upon financial support
+from its stockholders
+ its ability to obtain necessary equity financing
+to continue operations and/or to successfully locate and negotiate with
+a business entity for the combination of that target company with
+the Company.
+2017 Year-End Analysis
+      The Company has received no income
+ has had no operations
+nor expenses
+ other than Delaware state fees and accounting fees
+as required for incorporation and for the preparation of the
+Company's financial statements.
+Item 8.  Financial Statements and Supplementary Data
+     The financial statements for the year ended December 31
+ 2017
+are attached hereto.
+Item 9.   Changes in and Disagreements with Accountants on
+          Accounting and Financial Disclosure
+     There were no changes in or disagreements with accountants on
+accounting and financial disclosure for the period covered by this
+report.
+Item 9A.   Controls and Procedures
+  Pursuant to Rules adopted by the Securities and Exchange Commission.
+the Company carried out an evaluation of the effectiveness of the
+design and operation of its disclosure controls and procedures pursuant
+to Exchange Act Rules.  This evaluation  was done as of the end of the
+fiscal year under the supervision and with the participation of the
+Company's principal executive officer (who is also the principal
+financial officer).
+   Management is responsible for maintaining a system of internal
+control over financial reporting (ICFR) that provides reasonable
+assurance regarding the reliability of such reporting and the
+accuracy and reliability of the preparation of financial statements
+of such. Management is responsible to maintain records accurately and
+fairly to reflect transactions and transactions are recorded as
+necessary.  The controls should provide reasonable assurance regarding
+the prevention of unauthorized
+acquisition or use of assets.
+     In the present case of the Company
+ management consists solely
+of the president and vice president and has no employees or other
+personnel. As such
+ management maintains sole control of all financial
+transactions and all assets.  Since the president of the Company is in
+sole control of the financial transactions and assets management
+believes that its control reasonably and adequately addresses the
+risk of a misstatement in the financial reporting.  Based upon that
+evaluation
+ the principal officer believes that the Company's
+disclosure controls and procedures are effective in gathering
+analyzing and disclosing information needed to ensure that the
+information required to be disclosed by the Company in its periodic
+reports is recorded
+ summarized and processed timely.  The principal
+executive officer is directly involved in the day-to-day operations
+of the Company.
+Management's Report of Internal Control over Financial Reporting
+     The Company is responsible for establishing and maintaining
+adequate internal control over financial reporting in accordance with
+the Rule 13a-15 of the Securities Exchange Act of 1934. The Company's
+officer
+ its president
+ conducted an evaluation of the effectiveness
+of the Company's internal control over financial reporting as of
+December 31
+ 2017. In assessing its control and procedure over financial
+reporting
+ management used the integrated framework created by the
+Committee of Sponsoring Organizations of the Treadway Commission
+(COSO).  As outlined by COSO
+ suitable control criteria can be
+grouped into a five-component structure consisting of control
+environment
+ risk assessment
+ control activities
+ monitoring
+ and
+information and communication. Whether a system of internal control
+is effective is a subjective judgment resulting from an assessment
+of those five components
+ that is
+ such components are present and
+functioning effectively.  Management consists solely of the president
+and vice president and has no employees or other personnel and
+management maintains sole control of all financial transactions and
+all assets.  Using the five-component guidelines in performing its
+assessment
+ management believes that its ICFR is effective as of
+December 31
+ 2017
+ based on those criteria. A control system can
+provide only reasonably
+ not absolute
+ assurance that the objectives
+of the control system are met and no evaluation of controls can
+provide absolute assurance that all control issues have been detected.
+    KCCW Accountancy Corp.
+ the independent registered public
+accounting firm of the Company
+ has not issued an attestation report
+on the effectiveness of the Company's internal control over financial
+reporting.
+Changes in Internal Control Over Financial Reporting
+      There have been no changes in the Company's internal controls
+over financial reporting  during its fourth fiscal quarter that have
+materially affected
+ or are reasonably likely to materially affect
+its internal control over financial reporting.
+Item 9B.  Other information
+      Not applicable.
+                             PART III
+Item 10.  Directors
+ Executive Officers
+ and Corporate Governance;
+     The Directors and Officers of the Company:
+      Name                Age       Positions and Offices Held
+     -----------------    ----      -------
+     James Cassidy         82       President
+ Secretary
+ Director
+     James McKillop	   58       Vice President
+ Director
+Management of The Company
+    The Company has no full time employees.  James Cassidy and
+James McKillop are the officers and directors of the Company and
+its shareholders.  Mr. Cassidy
+ as president of the Company
+ and
+Mr. McKillop as vice president
+ will allocate a limited portion of
+time to the activities of the Company without compensation.
+Potential conflicts may arise with respect to the limited time
+commitment by management and the potential demands of the
+activities of the Company.
+     There are no agreements or understandings for the officer or
+director to resign at the request of another person and the above-
+named officer and director is not acting on behalf of nor will act
+at the direction of any other person.
+     Set forth below are the names of the directors and officers of
+the Company
+ all positions and offices with the Company held
+ the
+period during which they have served as such
+ and the business
+experience during at least the last five years:
+    James Cassidy
+ Esq.
+ LL.B.
+ LL.M.
+ serves as a director
+president and secretary of the Company.  Mr. Cassidy received a
+Bachelor of Science in Languages and Linguistics from Georgetown
+University in 1960
+ a Bachelor of Laws from The Catholic University
+School of Law in 1963
+ and a Master of Laws in Taxation from The
+Georgetown University School of Law in 1968.  From 1963-1964
+ Mr.
+Cassidy was law clerk to the Honorable Inzer B. Wyatt of the United
+States District Court for the Southern District of New York.  From
+1964-1965
+ Mr. Cassidy was law clerk to the Honorable Wilbur K.
+Miller of the United States Court of Appeals for the District of
+Columbia.  From 1969-1975
+ Mr. Cassidy was an associate of the law
+firm of Kieffer & Moroney and a principal in the law firm of Kieffer
+& Cassidy
+ Washington
+ D.C. From 1975 to date
+ Mr. Cassidy has been a
+principal in the law firm of Cassidy & Associates
+ and its predecessors
+specializing in securities law and related corporate and federal
+taxation matters.  Mr. Cassidy is a member of the bars of the District
+of Columbia and the State of New York
+ and is admitted to practice
+before the United States Tax Court and the United States Supreme Court.
+The Company believes Mr. Cassidy to have the business experience
+necessary to serve as a director of the Company as it seeks to enter
+into a business combination.  As a lawyer involved in business
+transactions and securities matters
+ Mr. Cassidy has  had ample
+experience in evaluating companies and management
+ understanding
+business plans
+  assisting in capital raising  and determining
+corporate structure and objectives.
+    James McKillop serves as a director and vice president of
+the Company. Mr. McKillop began his career at Merrill Lynch. Mr.
+McKillop has also been involved in financial reporting and did a
+daily stock market update for KPCC radio in Pasadena
+ California.
+Mr. McKillop is the founder of MB Americus LLC which specializes
+in consulting and public relations. Mr. McKillop has provided
+consulting services to Tiber Creek Corporation for more than five
+years.  Mr. McKillop has written articles for various publications
+on financial matters. He has been a past member of the World Affairs
+Council. Mr. McKillop received his Bachelor of Arts in Economics
+in 1984 from the University of California at Los Angeles.  With his
+background in financial and securities matters
+ the Company believes
+Mr. McKillop to have experience and knowledge that will serve
+the Company in seeking
+ evaluating and determining a suitable
+target company.
+Recent Blank Check Companies
+     James Cassidy
+ the former president and a director of the Company
+and James McKillop
+ former vice president and a director of the Company
+are involved with other existing blank check companies
+ and in creating
+additional similar companies.  The initial business purpose of each
+of these companies was or is to engage in a business combination with
+an unidentified company or companies and each were or will be classified
+as a blank check company until completion of a business combination.
+Conflicts of Interest
+     There are no binding guidelines or procedures for resolving
+potential conflicts of interest. Failure by management to resolve
+conflicts of interest in favor of the Company could result in
+liability of management to the Company.  However
+ any attempt by
+shareholders to enforce a liability of management to the Company
+would most likely be prohibitively expensive and time consuming.
+     Code of Ethics.  The Company has not at this time adopted a
+Code of Ethics pursuant to rules described in Regulation S-K.  The
+Company has two persons who are the only shareholders and who serve as
+the directors and officers. The Company has no operations or business and
+does not receive any revenues or investment capital.  The adoption of an
+Ethical Code at this time would not serve the primary purpose of such a
+code to provide a manner of conduct as the development
+ execution and
+enforcement of such a code would be by the same persons and only
+persons to whom such code applied.  Furthermore
+ because the Company
+does not have any activities
+ there are activities or transactions
+which would be subject to this code.  At the time the Company enters
+into a business combination or other corporate transaction
+ the current
+officers and directors will recommend to any new management that such a
+code be adopted.  The Company does not maintain an Internet website on
+which to post a code of ethics.
+     Corporate Governance.  For reasons similar to those described
+above
+ the Company does not have a nominating nor audit committee of the
+board of directors.  At this time
+ the Company consists of two shareholders
+who serve as the corporate directors and officers. The Company has no
+activities
+ and receives no revenues.  At such time that the Company enters
+into a business combination and/or has additional shareholders and a larger
+board of directors and commences activities
+ the Company will propose
+creating committees of its board of directors
+ including both a nominating
+and an audit committee.  Because there are only two shareholders of the
+Company
+ there is no established process by which shareholders to the
+Company can nominate members to the Company's board of directors.
+Similarly
+ however
+ at such time as the Company has more shareholders and
+an expanded board of directors
+ the new management of the Company may
+review and implement
+ as necessary
+ procedures for shareholder nomination
+of members to the Company's board of directors.
+Item 11.  Executive Compensation
+     The Company's officers and directors do not receive any
+compensation for services rendered to the Company
+ nor have they
+received such compensation in the past.  The officers and directors
+are not accruing any compensation pursuant to any agreement with the
+Company.
+     No retirement
+ pension
+ profit sharing
+ stock option or
+insurance programs or other similar programs have been adopted by
+the Company for the benefit of its employees.
+     The Company does not have a compensation committee for
+the same reasons as described above.
+Item 12.  Security Ownership of Certain Beneficial Owners and
+          Management and Related Stockholder Matters
+     The following table sets forth
+ as of December 31
+ 2017
+ each
+person known by the Company to be the beneficial owner of five
+percent or more of the Company's common stock and the director and
+officer of the Company.  The Company does not have any compensation
+plans and has not authorized any securities for future issuance.
+Except as noted
+ the holder thereof has sole voting and investment
+power with respect to the shares shown.
+Name and Address              Amount of Beneficial     Percent of
+of Beneficial Owner               Ownership          Outstanding Stock
+James M. Cassidy                    10
+000
+000               50%
+215 Apolena Avenue
+Newport Beach
+ CA 92662
+James K. McKillop                    10
+000
+000               50%
+9454 Wilshire Boulevard
+Beverly Hills
+ California 90212
+All Executive Officers and           20
+000
+000              100%
+Directors as a Group (2 Persons)
+Item 13.  Certain Relationships and Related Transactions and
+	  Director Independence
+   As of December 31
+ 2017
+ the Company has issued a total of
+20
+000
+000 shares of common stock pursuant to Section 4(2) of the
+Securities Act for services performed for the Company with a valuation
+of an aggregate of $2
+000.
+    As the organizers and developers of the Company
+ James M. Cassidy
+and James McKillop may be considered promoters.  Mr. Cassidy has
+provided services to the Company without charge consisting of preparing
+and filing the charter corporate documents and preparing this
+registration statement.
+   The Company is not currently required to maintain an independent
+director as defined by Rule 4200 of the Nasdaq Capital Market nor
+does it anticipate that it will be applying for listing of its
+securities on an exchange in which an independent directorship is
+required. It is likely that neither Mr. Cassidy nor Mr. McKillop
+would be considered independent directors if it were to do so.
+Item 14.  Principal Accounting Fees and Services.
+	The Company has no activities
+ no income and no expenses
+except for independent audit and Delaware state fees.  The Company's
+president has donated his time in preparation and filing of all
+state and federal required taxes and reports.
+Audit Fees
+        The aggregate fees incurred in 2017 for professional services
+rendered by the independent registered public accounting firm for
+the audits of the Company's annual financial statements and review
+of financial statements included in the Company's Form 10-K and Form
+10-Q reports and services normally provided in connection with
+statutory and regulatory filings or engagements were as follows:
+                         December 31
+ 2017
+	                 -----------------
+     Audit-Related Fees          $ 1
+000
+	The Company does not currently have an audit committee serving
+and as a result its board of directors performs the duties of an audit
+committee.  The board of directors will evaluate and approve in advance
+the scope and cost of the engagement of an auditor before the auditor
+renders audit and non-audit services.  The Company does not rely on pre-
+approval policies and procedures.
+                        PART IV
+Item 15.  Exhibits
+ Financial Statement Schedules
+	There are no financial statement schedules nor exhibits filed
+herewith.
+Exhibits:
+ 31   Certification of the Chief Executive Officer and Chief
+                    Financial Officer pursuant to Section 302 of
+                    the Sarbanes-Oxley Act of 2002
+ 32   Certification of the Chief Executive Officer and Chief
+                    Financial Officer pursuant to Section 906 of
+                    the Sarbanes-Oxley Act of 2002
+
+______________________________________________________________________
+                              FINANCIAL STATEMENTS
+Report of Independent Registered Public Accounting Firm          1
+Financial Statements                                            2-5
+Notes to Financial Statements  				        6-8
+
+______________________________________________________________________
+KCCW Accountancy Corp.                        CERTIFIED PUBLIC ACCOUNTANTS
+       REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Board of Directors and
+Stockholders of Anutra Corporation
+   (formerly Still Sound Acquisition Corporation)
+Opinion on the Financial Statements
+We have audited the accompanying balance sheets of Anutra Corporation
+(formerly Still Sound Acquisition Corporation) (the Company) as of
+December 31
+ 2017 and 2016
+ and the related statements of
+operations
+ changes in stockholders' equity
+ and cash flows
+for the year ended December 31
+ 2017 and for the period from
+December 7
+ 2016 (Inception) to December 31
+ 2016
+ and the related
+notes (collectively referred to as the financial statements). In our
+opinion
+ the financial statements present fairly
+ in all material
+respects
+ the financial position of the Company as of December 31
+2017 and 2016
+ and the results of its operations and its cash flows
+for the year ended December 31
+ 2017 and for the period from December
+7
+ 2016 (Inception) to December 31
+ 2016
+ in conformity with
+accounting principles generally accepted in the United States of
+America.
+Going Concern
+The accompanying financial statements have been prepared assuming that
+the Company will continue as a going concern. As discussed in Note 2
+to the financial statements
+ the Company has had no revenues and income
+since inception. These conditions
+ among others
+ raise substantial
+doubt about the Company's ability to continue as a going concern.
+Management's plans concerning these matters are also described in
+Note 2
+ which includes the raising of additional equity financing or
+merger with another entity. The financial statements do not include
+any adjustments that might result from the outcome of this uncertainty.
+Basis for Opinion
+These financial statements are the responsibility of the Company's
+management. Our responsibility is to express an opinion on the Company's
+financial statements based on our audits. We are a public accounting
+firm registered with the Public Company Accounting Oversight Board
+(United States) (PCAOB) and are required to be independent with respect
+to the Company in accordance with the U.S. federal securities laws
+and the applicable rules and regulations of the Securities and
+Exchange Commission and the PCAOB.
+We conducted our audits in accordance with the standards of the PCAOB.
+Those standards require that we plan and perform the audit to obtain
+reasonable assurance about whether the financial statements are free
+of material misstatement
+ whether due to error or fraud. The Company
+is not required to have
+ nor were we engaged to perform
+ an audit of
+its internal control over financial reporting. As part of our audits
+we are required to obtain an understanding of internal control over
+financial reporting
+ but not for the purpose of expressing an opinion
+on the effectiveness of the Company's internal control over financial
+reporting. Accordingly
+ we express no such opinion.
+Our audits included performing procedures to assess the risks of
+material misstatement of the financial statements
+ whether due to
+error or fraud
+ and performing procedures that respond to those risks.
+Such procedures included examining
+ on a test basis
+ evidence regarding
+the amounts and disclosures in the financial statements. Our audits
+also included evaluating the accounting principles used and significant
+estimates made by management
+ as well as evaluating the overall
+presentation of the financial statements. We believe that our audits
+provide a reasonable basis for our opinion.
+/s/ KCCW Accountancy Corp.
+We have served as the Company's auditor since 2017.
+Los Angeles
+ California
+March 7
+ 2018
+                                       1
+
+ ______________________________________________________________________
+
+
+                           ANUTRA CORPORATION
+                (FORMERLY STILL SOUND ACQUISITION CORPORATION)
+                             BALANCE SHEETS
+                      ASSETS
+                                              December 31
+    December 31
+                                              2017            2016
+                                              -----------     -----------
+
+  Current assets
+    Cash                                      $        -      $       -
+                                              -----------     -----------
+        Total assets                          $        -      $       -
+                                              ===========     ===========
+          LIABILITIES AND SHAREHOLDERS' DEFICIT
+  Current liabilities
+     Accrued liabilities                      $    1
+000      $   1
+000
+                                              -----------     ----------
+         Total liabilities                         1
+000          1
+000
+                                              -----------     ----------
+  Stockholders' deficit
+    Preferred stock
+ $0.0001 par value
+    20
+000
+000 shares authorized; none
+    outstanding as of December 31
+ 2017
+    and 2016
+ respectively                            -              -
+    Common stock
+ $0.0001 par value
+    100
+000
+000 shares authorized;
+    20
+000
+000 shares issued and
+    outstanding as of December 31
+    2017 and 2016
+ respectively                    2
+000          2
+000
+    Additional paid-in capital                     1
+851            312
+    Accumulatd deficit                            (4
+851)        (3
+312)
+                                              -----------     -----------
+         Total stockholders' deficit              (1
+000)        (1
+000)
+                                              -----------     -----------
+         Total liabilities and stockholders'
+                 deficit                      $        -      $      -
+                                              ===========     ===========
+The accompanying notes are an integral part of these financial statements.
+
+
+______________________________________________________________________
+                              ANUTRA CORPORATION
+                (FORMERLY STILL SOUND ACQUISITION CORPORATION)
+                            STATEMENTS OF OPERATIONS
+
+
+                                                              For the period
+                                            For the          from December 7
+                                           year ended        2016 (Inception)
+                                         December 31
+ 2017   to December 31
+ 2016
+                                          -----------          ----------
+
+    Revenue                                $       -            $      -
+    Cost of revenue                                -                   -
+                                           -----------          ----------
+    Gross profit                                   -                   -
+                                           -----------          ----------
+    Operating expenses                          1
+539               3
+312
+                                           -----------          ----------
+    Loss before income taxes                   (1
+539)             (3
+312)
+    Income tax expense                             -                   -
+                                           -----------          ----------
+  Net loss                                 $   (1
+539)          $  (3
+312)
+                                           ===========		==========
+    Loss per share - basic and diluted     $    (0.00)          $   (0.00)
+                                           ===========          ==========
+    Weighted average shares-basic
+      and diluted                           20
+000
+000          20
+000
+000
+                                           -----------          ----------
+The accompanying notes are an integral part of these financial statements.
+                                   3
+
+
+______________________________________________________________________
+
+
+                           ANUTRA CORPORATION
+                (FORMERLY STILL SOUND ACQUISITION CORPORATION)
+                 STATEMENTS OF CHANGES IN STOCKHOLDERS' DEFICIT
+                        Common Stock     Additional   Accumu-   Total
+                    -------------------  Paid-in      lated     Stockholders'
+                    Shares      Amount   Capital      Deficit   Deficit
+                    ----------  -------  ---------    -------   ---------
+
+Balance
+  December 7
+ 2016
+       (Inception)         -    $    -     $    -     $    -      $      -
+Issuance of
+   common stock
+   for service     20
+000
+000     2
+000         -          -          2
+000
+Stockholder con-
+    tributions
+    for company
+    expenses               -          -         312        -            312
+Net loss                   -          -         -        (3
+312)     (3
+312)
+                    ----------   -------   ---------   ---------    ---------
+Balance
+   December 31
+    2016            20
+000
+000     2
+000        312      (3
+312)      (1
+000)
+Stockholder con-
+    tributions
+    for company
+    expenses               -          -       1
+539         -         1
+539
+Net Loss                   -          -           -      (1
+539)     (1
+539)
+                    ----------   -------   ---------   ---------    ---------
+Balance
+   December 31
+    2017            20
+000
+000   $ 2
+000    $     -     $(4
+851)    $(1
+000)
+		    ==========   =======   =========   =========    =========
+   The accompanying notes are an integral part of these financial statements.
+                                   4
+
+
+______________________________________________________________________
+
+
+                              ANUTRA CORPORPATION
+                (FORMERLY STILL SOUND ACQUISITION CORPORATION)
+                            STATEMENTS OF CASH FLOWS
+                                                              For the period
+                                            For the          from December 7
+                                           year ended        2016 (Inception)
+                                         December 31
+ 2017   to December 31
+ 2016
+                                         ------------         ------------
+
+ OPERATING ACTIVITIES
+   Net loss                              $   (1
+539)           $ (3
+312)
+  Expenses paid for by stockholder
+    and contributed as capital                1
+539                 312
+  Common Stock issued for services               -                2
+000
+  Changes in Operating Assets and Liabilities:
+    Increase in accrued liabilities              -                1
+000
+                                         ------------         ------------
+       Net cash used in operating
+                 activities                      -                   -
+                                         ------------         ------------
+   Net increase in cash                          -                   -
+   Cash
+ beginning of period                     -                   -
+                                         ------------         ------------
+   Cash
+ end of period                   $       -            $      -
+                                         ============         ============
+ SUPPLEMENTAL DISCLOSURES:
+   Cash paid during the period for:
+      Income Tax                         $       -            $      -
+                                         ============         ============
+      Interest                           $       -            $      -
+                                         ============         ============
+The accompanying notes are an integral part of these financial statements.
+                                   5
+
+
+______________________________________________________________________
+                        ANUTRA CORPORATION
+                (FORMERLY STILL SOUND ACQUISITION CORPORATION)
+                    Notes to Financial Statements
+NOTE 1   NATURE OF OPERATIONS AND SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+NATURE OF OPERATIONS
+Anutra Corporation (formerly Still Sound Acquisition Corporation)
+(Anutra or the Company) was incorporated on December 7
+ 2016 under
+the laws of the state of Delaware to engage in any lawful corporate undertaking
+including
+ but not limited to
+ selected mergers and acquisitions. The Company
+changed its name in February
+ 2018 in anticipation of the subsequent change in
+control.  The Company has been in the developmental stage since inception
+and its operations to date have been limited to issuing shares to its original
+shareholders. The Company will attempt to locate and negotiate with a business
+entity for the combination of that target company with the Company. The
+combination will normally take the form of a merger
+ stock-for-stock exchange
+or stock-for-assets exchange. In most instances the target company will wish
+to structure the business combination to be within the definition of a tax-free
+reorganization under Section 351 or Section 368 of the Internal Revenue Code of
+1986
+ as amended. No assurances can be given that the Company will be successful
+in locating or negotiating with any target company. The Company has been
+formed to provide a method for a foreign or domestic private company to
+become a reporting company with a class of securities registered under the
+Securities Exchange Act of 1934.
+BASIS OF PRESENTATION
+The summary of significant accounting policies presented below is designed
+to assist in understanding the Company's financial statements. Such financial
+statements and accompanying notes are the representations of the Company's
+management
+ who are responsible for their integrity and objectivity. These
+accounting policies conform to accounting principles generally accepted in
+the United States of America (GAAP) in all material respects
+ and have
+been consistently applied in preparing the accompanying financial statements.
+The Company has not earned any revenue from operations since inception.
+Accordingly
+ the Company's activities have been accounted for as those of
+a Development Stage Enterprise as set forth in ASC 915
+ Development
+Stage Entities. Among the disclosures required by ASC 915
+ are that the
+Company's financial statements be identified as those of a development stage
+company
+ and that the statements of operations
+ stockholders' equity and cash
+flows disclose activity since the date of the Company's inception.  The Company
+chose December 31 as its fiscal year end.
+USE OF ESTIMATES
+The preparation of financial statements in conformity with GAAP requires
+management to make estimates and assumptions that affect the reported
+amounts of assets and liabilities and disclosure of contingent assets and
+liabilities at the date of the financial statements
+ and the reported amounts
+of revenues and expenses during the reporting periods.  Actual results could
+differ from those estimates.
+CASH AND CASH EQUIVALENTS
+Cash and cash equivalents include cash on hand and on deposit at banking
+institutions as well as all highly liquid short-term investments with original
+maturities of 90 days or less. The Company did not have cash equivalents as
+of December 31
+ 2017 and 2016
+ respectively.
+CONCENTRATION OF RISK
+Financial instruments that potentially subject the Company to concentrations
+of credit risk consist principally of cash. The Company places its cash with
+high quality banking institutions. The Company did not have cash balances
+in excess of the Federal Deposit Insurance Corporation limit as of December 31
+2017 and 2016
+ respectively.
+                                   6
+
+______________________________________________________________________
+                        ANUTRA CORPORATION
+                (FORMERLY STILL SOUND ACQUISITION CORPORATION)
+                    Notes to Financial Statements
+INCOME TAXES
+Under ASC 740
+ Income Taxes, deferred tax assets and liabilities are
+recognized for the future tax consequences attributable to temporary
+differences between the financial statement carrying amounts of existing
+assets and liabilities and their respective tax bases. Deferred tax assets
+and liabilities are measured using enacted tax rates expected to apply to
+taxable income in the years in which those temporary differences are expected
+to be recovered or settled. Valuation allowances are established when it is
+more likely than not that some or all of the deferred tax assets will not be
+realized.  As of December 31
+ 2017 and 2016
+ there were no deferred taxes due
+to the uncertainty of the realization of net operating loss or carry forward
+prior to expiration.
+LOSS PER COMMON SHARE
+Basic loss per common share excludes dilution and is computed by dividing
+net loss by the weighted average number of common shares outstanding
+during the period. Diluted loss per common share reflect the potential
+dilution that could occur if securities or other contracts to issue common
+stock were exercised or converted into common stock or resulted in the
+issuance of common stock that then shared in the loss of the entity.  As
+of December 31
+ 2017 and 2016
+ there are no outstanding dilutive securities.
+FAIR VALUE OF FINANCIAL INSTRUMENTS
+The Company follows guidance for accounting for fair value measurements of
+financial assets and financial liabilities and for fair value measurements
+of nonfinancial items that are recognized or disclosed at fair value in the
+financial statements on a recurring basis. Additionally
+ the Company adopted
+guidance for fair value measurement related to nonfinancial items that are
+recognized and disclosed at fair value in the financial statements on a
+nonrecurring basis. The guidance establishes a fair value hierarchy that
+prioritizes the inputs to valuation techniques used to measure fair value.
+The hierarchy gives the highest priority to unadjusted quoted prices in active
+markets for identical assets or liabilities (Level 1 measurements) and the
+lowest priority to measurements involving significant unobservable inputs
+(Level 3 measurements). The three levels of the fair value hierarchy are as
+follows:
+  Level 1 inputs are quoted prices (unadjusted) in active markets for identical
+assets or liabilities that the Company has the ability to access at the
+measurement date.
+  Level 2 inputs are inputs other than quoted prices included within Level 1
+that are observable for the asset or liability
+ either directly or indirectly.
+  Level 3 inputs are unobservable inputs for the asset or liability.
+The carrying amounts of financial assets such as cash approximate their fair
+values because of the short maturity of these instruments.
+NOTE 2 - GOING CONCERN
+The Company has not yet generated any revenue since inception to date and
+has sustained operating losses of $1
+539 amd $3
+312 during the year ended
+December 31
+ 2017 and the period from December 7
+ 2016 (Inception) to
+December 31
+ 2016
+ respectively. The Company had a working capital deficit
+of $1
+000 and an accumulated deficit of $4
+851 as of December 31
+ 2017 and a
+working capital deficit of $1
+000 and an accumulated deficit of $3
+312 as of
+December 31
+ 2016.  The Company's continuation as a going concern is dependent
+on its ability to generate sufficient cash flows from operations to meet its
+obligations and/or obtaining additional financing from its shareholders or
+other sources
+ as may be required.
+                                   7
+
+______________________________________________________________________
+                       ANUTRA CORPORATION
+                (FORMERLY STILL SOUND ACQUISITION CORPORATION)
+                    Notes to Financial Statements
+The accompanying financial statements have been prepared assuming that the
+Company will continue as a going concern; however
+ the above condition
+raises substantial doubt about the Company's ability to do so. The financial
+statements do not include any adjustments to reflect the possible future
+effects on the recoverability and classification of assets or the amounts and
+classifications of liabilities that may result should the Company be unable to
+continue as a going concern.
+In order to maintain its current level of operations
+ the Company will require
+additional working capital from either cash flow from operations or from
+the sale of its equity.  However
+ the Company currently has no commitments
+from any third parties for the purchase of its equity. If the Company is
+unable to acquire additional working capital
+ it will be required to
+significantly reduce its current level of operations.
+NOTE 3 - RECENT ACCOUNTING PRONOUNCEMENTS
+In January 2017
+ the FASB issued ASU No. 2017-01
+ Business Combinations
+(Topic 805): Clarifying the Definition of a Business. The amendments
+in this ASU clarify the definition of a business with the objective of
+adding guidance to assist entities with evaluating whether transactions
+should be accounted for as acquisitions (or disposals) of assets or
+businesses. Basically these amendments provide a screen to determine
+when a set is not a business. If the screen is not met
+ the amendments
+in this ASU first
+ require that to be considered a business
+ a set
+must include
+ at a minimum
+ an input and a substantive process that
+together significantly contribute to the ability to create output and
+second
+ remove the evaluation of whether a market participant could
+replace missing elements. These amendments take effect for public
+businesses for fiscal years beginning after December 15
+ 2017 and
+interim periods within those periods
+ and all other entities should
+apply these amendments for fiscal years beginning after December 15
+2018
+ and interim periods within annual periods beginning after
+December 15
+ 2019. The Company does not expect that the adoption of
+this guidance will have a material impact on its consolidated
+financial statements.
+In May 2017
+ the FASB issued ASU 2017-09
+ Scope of Modification
+Accounting
+ which amends the scope of modification accounting for
+share-based payment arrangements
+ provides guidance on the types of
+changes to the terms or conditions of share-based payment awards to
+which an entity would be required to apply modification accounting
+under ASC 718. For all entities
+ the ASU is effective for annual
+reporting periods
+ including interim periods within those annual
+reporting periods
+ beginning after December 15
+ 2017. Early adoption
+is permitted
+ including adoption in any interim period. The  Company
+does not expect that adoption of this guidance will have a material
+impact on its consolidated financial statements and related
+disclosures.
+In November 2016
+ the FASB issued Accounting Standards Update No. 2016-18
+Statement of Cash Flows (Topic 230): Restricted Cash (ASU 2016-18).
+The new guidance is intended to reduce diversity in practice by adding or
+clarifying guidance on classification and presentation of changes in
+restricted cash on the statement of cash flows. ASU 2016-18 is effective
+for annual and interim periods beginning after December 15
+ 2017. Early
+adoption is permitted. The amendments in this update should be applied
+retrospectively to all periods presented. Managementbelieves that this
+ASU will only impact the Company if it has restricted cash in the future.
+In August 2016
+ the FASB issued ASU 2016-15
+ Statement of Cash Flows (Topic
+230): Classification of Certain Cash Receipts and Cash Payments (ASU 2016-
+15). ASU 2016-15 will make eight targeted changes to how cash receipts and
+cash payments are presented and classified in the statement of cash flows.
+ASU 2016-15 is effective for fiscal years beginning after December 15
+ 2017.
+The new standard will require adoption on a retrospective basis unless it
+is impracticable to apply
+ in which case it would be required to apply the
+amendments prospectively as of the earliest date practicable. Management
+believes that the impact of this ASU to the Company's financial statements
+would be insignificant.
+Other recent accounting pronouncements issued by the FASB (including its
+Emerging Issues Task Force) and the United States Securities and Exchange
+Commission did not or are not believed by management to have a material
+impact on the Company's present or future financial statements.
+NOTE 4     ACCRUED LIABILITIES
+As of December 31
+ 2017 and 2016
+ the Company had accrued professional
+fees of $1
+000 and $1
+000
+ respectively.
+NOTE 5   STOCKHOLDERS' DEFICIT
+On December 7
+ 2016
+ the Company issued 20
+000
+000 founders common stock
+to two directors and officers pro rata as founder shares for services
+rendered to the Company
+ valued at $0.0001 par value per share
+ for a
+total of $2
+000.  The Company is authorized to issue 100
+000
+000
+shares of common stock and 20
+000
+000 shares of preferred stock.
+As of December 31
+ 2017
+ 20
+000
+000 shares of common stock and no
+preferred stock were issued and outstanding.
+NOTE 6 SUBSEQUENT EVENT
+Management has evaluated subsequent events through March 7
+ 2018
+the date which the financial statements were available to be issued.
+Except for the events disclosed above
+ all subsequent events
+requiring recognition as of December 31 2017 have been incorporated
+into these financial statements in accordance with FASB ASC Topic
+855
+ Subsequent Events.
+                                    8
+______________________________________________________________________
+                        SIGNATURES
+     Pursuant to the requirements of Section 13 or 15(d) of the
+Securities Exchange Act of 1934
+ the registrant has duly caused
+this report to be signed on its behalf by the undersigned thereunto
+duly authorized.
+                         ANUTRA CORPORATION
+                	(Formerly Still Sound Acquisition Corporation)
+                        By:   /s/ James Cassidy
+ President
+			Principal executive officer
+Dated: March 13
+ 2018
+                        By:   /s/ James Cassidy
+                        Principal financial officer
+Dated: March 13
+ 2018
+     Pursuant to the Securities Exchange Act of 1934
+ this report
+has been signed below by the following persons on behalf of the
+registrant and in the capacities and on the dates indicated.
+NAME                          OFFICE              DATE
+/s/ James Cassidy 		Director 	March 13
+ 2018
+/s/  James McKillop		Director	March 13
+ 2018
+
+
+
+
+
+
+
+
+                                                       EXHIBIT 31
+CERTIFICATION PURSUANT TO SECTION 302
+I
+ James Cassidy
+ certify that:
+1.   I have reviewed this Form 10-K of Anutra Corporation (formerly
+     Still Sound Acquisition Corporation).
+2.   Based on my knowledge
+ this report does not contain any
+     untrue statement of a material fact or omit to state a material
+     fact necessary to make the statements made
+ in light of the
+     circumstances under which such statements were made
+ not
+     misleading with respect to the period covered by this report;
+3.   Based on my knowledge
+ the financial statements
+ and other
+     financial information included in this report
+ fairly present
+     in all material respects the financial condition
+ results of
+     operations and cash flows of the registrant as of
+ and for
+     the periods presented in this report;
+4.   The registrant's other certifying officer(s) and I are
+     responsible for establishing and maintaining disclosure
+     controls and procedures (as defined in Exchange Act Rules 13a-15(e)
+     and 15d-15(e)) and internal control over financial reporting (as
+     defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the
+     registrant and have:
+a)   Designed such disclosure controls and procedures
+or caused such
+     disclosure controls and procedures to be designed under our
+     supervision
+ to ensure that material information relating to the
+     registrant
+ including its consolidated subsidiaries
+ is made known
+     to us by others within those entities
+ particularly during the period
+     in which this report is being prepared;
+b)   Designed such internal control over financial reporting
+ or caused
+     such internal control over financial reporting to be designed under
+     our supervision
+ to provide reasonable assurance regarding the
+     reliability of financial reporting and the preparation of financial
+     statements for external purposes in accordance with generally
+     accepted accounting principles;
+c)   Evaluated the effectiveness of the registrant's disclosure
+     controls and procedures and presented in this report our
+     conclusions about the effectiveness of the disclosure
+     controls and procedures
+ as of the end of the period covered
+     by this report based on such evaluations; and
+d)   Disclosed in this report any change in the registrant's
+     internal control over financial reporting that occurred
+     during the registrant's most recent fiscal quarter (the
+     registrant's fourth fiscal quarter in the case of an
+     annual report) that has materially affected
+ or is reasonably
+     likely to materially affect
+ the registrant's internal control
+     over financial reporting; and
+5.   The registrant's other certifying officer(s) and I have disclosed
+     based on our most recent evaluation
+ to the registrant's auditors
+     and the audit committee of registrant's board of directors (or
+     persons performing the equivalent functions):
+a)   All significant deficiencies and material weaknesses in the design
+     or operation of internal control over financial reporting  which
+     are reasonably likely to adversely affect the registrant's ability
+     to record
+ process
+ summarize and report financial information; and
+b)   Any fraud
+ whether or not material
+ that involves management or
+     other employees who have a significant role in the registrant's
+     internal control over financial reporting.
+      Date: March 13
+ 2018               /s/ James Cassidy
+                                          Chief Executive Officer and
+                                          Chief Financial Officer
+
+
+
+
+
+
+
+                            EXHIBIT 32
+CERTIFICATION PURSUANT TO SECTION 906
+Pursuant to 18 U.S.C. Section 1350 as adopted pursuant to
+Section 906 of the Sarbanes-Oxley Act of 2002
+ I
+ the
+undersigned officer of Anutra Corporation (formerly
+Still Sound Acquisition Corporation) (the Company)
+hereby certify to my knowledge that:
+The Report on Form 10-K for the year ended December 31
+2017 of the Company fully complies
+ in all material respects
+with the requirements of Section 13(a) or 15(d) of the Securities
+Exchange Act of 1934
+ and the information contained in the
+Report fairly represents
+ in all material respects
+ the
+financial condition and results of operations of the Company.
+A signed original of this written statement required by Section
+906 has been provided to the Company and will be retained by
+the Company and furnished to the Securities and Exchange
+Commission or its staff upon request.
+                             /s/ James Cassidy
+                                 Chief Executive Officer
+                                 Chief Financial Officer
+Date: March 13
+ 2018
+
+
+

@@ -1,0 +1,9618 @@
+
+
+ACCESSION NUMBER:		0001079974-19-000022
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		35
+CONFORMED PERIOD OF REPORT:	20180831
+FILED AS OF DATE:		20190118
+DATE AS OF CHANGE:		20190118
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			China WuYi Mountain
+ Ltd.
+		CENTRAL INDEX KEY:			0001687065
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOTTLED & CANNED SOFT DRINKS CARBONATED WATERS [2086]
+		IRS NUMBER:				813433108
+		STATE OF INCORPORATION:			NV
+		FISCAL YEAR END:			0831
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-214276
+		FILM NUMBER:		19533870
+	BUSINESS ADDRESS:	
+		STREET 1:		1900 AVENUE OF THE STARS
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90067
+		BUSINESS PHONE:		310.843.9300
+	MAIL ADDRESS:	
+		STREET 1:		1900 AVENUE OF THE STARS
+		CITY:			LOS ANGELES
+		STATE:			CA
+		ZIP:			90067
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Kokos Group Inc.
+		DATE OF NAME CHANGE:	20161007
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON
+ D.C. 20549
+
+
+
+year ended
+
+August 31
+ 2017
+
+
+TRANSITION REPORT
+PURSUANT TO SECTION 13 or 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+
+Commission
+File No. 333-21436
+
+
+
+CHINA
+        WUYI MOUNTAIN LTD.
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+
+    
+
+
+1900 Avenue of the Stars
+ Los Angeles
+        CA 90067
+
+ Zip
+        Code)
+        
+        
+
+
+ including
+area code)
+
+
+
+ former address and former fiscal
+year
+ if changed since last report)
+
+
+of the Exchange Act:
+
+Common stock
+
+
+
+
+issuer
+ as defined in Rule 405 of the Securities Act. [ ] Yes [X] No
+
+
+reports pursuant to Section 13 or Section 15(d) of the Act. [ ] Yes [X] No
+
+
+(1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding
+12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2) has been subject to such
+filing requirements for the past 90 days. [ ] Yes [X] No
+
+
+has submitted electronically and posted on its corporate Web site
+ if any
+ every Interactive Data File required to be submitted
+and posted pursuant to Rule 405 of Regulation S-T (&sect; 232.405 of this chapter) during the preceding 12 months (or for such
+shorter period that the registrant was required to submit and post such files). [ ] Yes [ ] No
+
+
+filers pursuant to Item 405 of Regulation S-K (&sect; 229.405 of this chapter) is not contained herein
+ and will not be contained
+to the best of registrant&rsquo;s knowledge
+ in definitive proxy or information statements incorporated by reference in Part III
+of this Form 10-K or any amendment to this Form 10-K. [ ] Yes [ ] No
+
+
+is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See the definitions
+of &ldquo;large accelerated filer
+&rdquo; &ldquo;accelerated filer&rdquo; and &ldquo;smaller reporting company&rdquo; in Rule 12b-2
+of the Exchange Act. [ ] Large accelerated filer [ ] Accelerated filer [ ] Non-accelerated filer (Do not check if a smaller reporting
+company) [X] Smaller reporting company Emerging growth company (_)
+
+
+ indicate by check mark if the registrant
+has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided
+pursuant to Section 13(a) of the Exchange Act. (_)
+
+
+(as defined in Rule 12b-2 of the Act). [ ] Yes [X ] No
+
+
+and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold
+or the average bid and asked price of such common equity
+ as of the last business day of the registrant&rsquo;s most recently completed
+second fiscal quarter. N/A
+
+
+
+
+600
+000
+shares of common stock issued and outstanding
+
+
+
+
+    
+    
+
+
+
+
+
+        WUYI MOUNTAIN LTD.
+
+
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+context
+ references in this report to &ldquo;China WuYi Mountain
+ Ltd.&rdquo;
+ &ldquo;we
+&rdquo; &ldquo;us
+&rdquo; &ldquo;our
+&rdquo;
+&ldquo;our Company
+&rdquo;
+
+
+&ldquo;forward-looking statements&rdquo; within the meaning of the Private Securities Litigation Reform Act of 1995
+ Section 27A
+of the Securities Act of 1933
+ as amended
+ or the Securities Act
+ and Section 21E of the Securities Exchange Act of 1934
+ as amended
+(the &ldquo;Exchange Act&rdquo;). Forward-looking statements discuss matters that are not historical facts. Because they discuss
+future events or conditions
+ forward-looking statements may include words such as &ldquo;anticipate
+&rdquo; &ldquo;believe
+&rdquo;
+&ldquo;estimate
+&rdquo; &ldquo;intend
+&rdquo; &ldquo;could
+&rdquo; &ldquo;should
+&rdquo; &ldquo;would
+&rdquo; &ldquo;may
+&rdquo;
+&ldquo;seek
+&rdquo; &ldquo;plan
+&rdquo; &ldquo;might
+&rdquo; &ldquo;will
+&rdquo; &ldquo;expect
+&rdquo; &ldquo;anticipate
+&rdquo;
+&ldquo;predict
+&rdquo; &ldquo;project
+&rdquo; &ldquo;forecast
+&rdquo; &ldquo;potential
+&rdquo; &ldquo;continue&rdquo; negatives
+thereof or similar expressions. Forward-looking statements speak only as of the date they are made
+ are based on various underlying
+assumptions and current expectations about the future and are not guarantees. Such statements involve known and unknown risks
+uncertainties and other factors that may cause our actual results
+ level of activity
+ performance or achievement to be materially
+different from the results of operations or plans expressed or implied by such forward-looking statements.
+
+uncertainties. Accordingly
+ such information should not be regarded as representations that the results or conditions described
+in such statements or that our objectives and plans will be achieved
+ and we do not assume any responsibility for the accuracy
+or completeness of any of these forward-looking statements. These forward-looking statements are found at various places throughout
+this Annual Report on Form 10-K and include information concerning possible or assumed future results of our operations
+ including
+statements about potential acquisition or merger targets; business strategies; future cash flows; financing plans; plans and objectives
+of management; any other statements regarding future acquisitions
+ future cash needs
+ future operations
+ business plans and future
+financial results
+ and any other statements that are not historical facts.
+
+our intentions
+ plans
+ expectations
+ assumptions and beliefs about future events and are subject to risks
+ uncertainties and other
+factors. Many of those factors are outside of our control and could cause actual results to differ materially from the results
+expressed or implied by those forward-looking statements. In light of these risks
+ uncertainties and assumptions
+ the events described
+in the forward-looking statements might not occur or might occur to a different extent or at a different time than we have described.
+You are cautioned not to place undue reliance on these forward-looking statements
+ which speak only as of the date of the Annual
+Report on Form 10-K. All subsequent written and oral forward-looking statements concerning other matters addressed in this Annual
+Report on Form 10-K and attributable to us or any person acting on our behalf are expressly qualified in their entirety by the
+cautionary statements contained or referred to in this Annual Report on Form 10-K.
+
+we undertake no obligation to update or revise any forward-looking statements
+ whether as a result of new information
+ future events
+a change in events
+ conditions
+ circumstances or assumptions underlying such statements
+ or otherwise.
+
+
+
+    
+    
+
+
+
+I
+
+
+
+
+
+
+to engage in the business of the production
+ distribution and marketing of bottled organic coconut water from bulk coconut water
+sourced from the Philippine and bottled in the United States. We currently have no product
+ but plan on developing our first bottled
+coconut water product under the brand name &ldquo;Koos Coconut Water&rdquo;.
+
+
+of B vitamins
+ vitamin C.
+ micronutrients
+ and phyto-hormones that are exceptionally beneficial to your health. A scientific review
+of pure organic coconut water with no additives shows that it can help to prevent heart attacks; lower high blood pressure
+ has
+anti-aging effects
+ and fights free radicals to help prevent cancer. Our primary business objective is to produce
+ distribute and
+market and sell our core planned product organic coconut water under the brand name Koos Coconut Water
+ which is pure organic coconut
+water
+ with no additives.
+
+
+or otherwise obtain special equipment to manufacture
+ bottle
+ and label or pack its China WuYi Mountain
+ Ltd. proposed coconut
+water product. The Company plans to manufacture
+ bottle
+ label and pack its proposed Koos Coconut Water product under its as yet
+to be negotiate with a co-packing company
+ which has all such equipment. The China WuYi Mountain
+ Ltd. plans to sell its proposed
+coconut water product in the following bottle sizes: 8oz and 16oz.
+
+
+ China WuYi Mountain
+Ltd. intends on developing the China WuYi Mountain
+ Ltd. proposed coconut water product. The Company also intends to investigate
+potential acquisition or merger targets in the beverage industry. 
+
+
+filing change its business.
+
+
+independent registered public accountant has issued an audit opinion which includes a statement expressing substantial doubt as
+to our ability to continue as a going concern.
+
+
+
+
+ market
+distribute and sell our own brand of coconut water
+ presently called &ldquo;Koos Coconut Water&rdquo;.
+
+
+
+
+of B vitamins
+ vitamin C
+ potassium
+ magnesium
+ micro-nutrients
+ and phyto-hormones (plant hormones) that are exceptionally beneficial
+to your health. A scientific review of coconut water
+ published in the journal Molecules highlights some of the ways that coconut
+water replenishes your body: helps to prevent heart attacks
+ lower high blood pressure
+ can have anti-aging effects
+ fights free
+radicals to help prevent cancer
+ contains trans-zeatin (plant hormone which regulates cell division and development) which can
+be used to treat Alzheimer&rsquo;s disease or dementia.
+
+
+to beat tropical summer thirst. Because of its electrolyte composition
+ coconut water is also used to rehydrate the body in case
+of dehydration and fluid loss due to diarrhea
+ vomiting or excessive sweating. A good source of carbohydrates
+ it also helps lift
+your energy level. Research suggests coconut water can be used to rehydrate the body after exercise. The International Society
+of Sports Nutrition found that coconut water has similar positive effects as sports drinks. In addition to boosting rehydration
+coconut water is also easy on the stomach and thus is used to soothe stomach troubles like indigestion
+ acid reflux and gastroenteritis.
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+incorporated on July 26
+ 2016 under the laws of the State of Nevada. Jeoffrey Baterina has served as President and Chief Executive
+Officer
+ and Secretary of our company from July 26
+ 2016 to the October 19
+ 2017. On October 19
+ 2017 Mr. Lei Wang became its Chief
+Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaport was appointed Secretary. In addition
+ Mr.
+Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations from all executive officer positions
+with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+ and each submitted their resignation
+as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation as Secretary of Kokos Group Inc. (the
+&quot;Company&quot;)
+ effective immediately.&nbsp;&nbsp; On the same day
+&nbsp;Ying Zhang was appointed Secretary
+ effective immediately.
+
+
+ 2017 the Board of directors
+and the majority of its shareholders of Kokos Group Inc.
+ amended the Company&rsquo;s current Certificate of Incorporation in conformity
+with the applicable laws of the State of Nevada to change the name of the Company from Kokos Group Inc. to China Wu Yi Mountain
+Ltd. On May 24
+ 2018 FINRA approved the Company&rsquo;s corporate action changing the Company&rsquo;s name and trading symbol effective
+May 25
+ 2018.
+
+
+
+
+
+
+000
+000 common shares
+with a par value of $0.001 per share and 2
+000
+000 preferred shares with a par value of $0.001 per share. Total shares issued as
+of August 31
+ 2018 are 65
+600
+000 common shares and no preferred shares have been issued.
+
+
+ 2016 the Company issued 800
+000
+000 (pre-split-10
+000
+000)
+common shares at $0.0000125 (pre-split $0.001) per share to the sole director and President of the Company for cash proceeds of
+$10
+000.
+
+
+600 in private placements
+for the purchase of 25
+600
+000 (pre-split -320
+000 common shares of the Company&rsquo;s stock at $0.000375 (pre-split $0.03) per
+share.
+
+
+ 2017 the directors of the Company amended the Company&rsquo;s
+Articles of Incorporation to increase the authorized capital structure of the Corporation to include two million (2
+000
+000) shares
+of preferred stock
+ par value $0.001
+ and to retain the previously authorized two hundred million (200
+000
+000) shares of common
+stock
+ par value ($0.001).
+
+
+ 2017
+ the founding shareholder
+of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common stock to treasury and the shares were subsequently
+cancelled by the Company. The shares were returned to treasury for $0.000000013 per share for a total consideration of $10 to the
+shareholder. Post-split our founding shareholder will have 40
+000
+000 shares of common stock of the Company.
+
+
+ 2017
+ the directors of the Company
+approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 80 new common shares
+for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average
+number of shares outstanding prior to the 80:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+unless otherwise noted.
+
+On May
+2
+ 2018
+ the Company entered into a subscription agreement with a China-based company
+ Grand Biotechnology Group Liaoning
+ (the
+authorized signor for Grand Biotechnology is a 4.9% shareholder of the Company)
+ for the issuance of an aggregate of 20
+000
+000
+shares of restricted common stock at $0.0075 per share for an aggregate purchase price of U.S.$150
+000. As of August 31
+ 2018
+the Company had received $100
+Advance receipts
+for common stock
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+ 2018 the Company has not granted
+any stock options and has not recorded any stock-based compensation.
+
+
+ 2018
+ the Company issued 0
+shares of preferred stock and 65
+600
+000 common shares are issued and outstanding.
+
+On October
+19
+ 2017
+ Jeoffrey C. Baterina
+ our previous President
+ Chief Executive Officer
+ director&nbsp; and majority shareholder
+ entered
+into stock purchase agreements (the &quot;Purchase Agreements&quot;) for the sale of an aggregate of 40
+000
+000 shares of Common
+Stock of the Company
+ representing approximately 61% of the issued and outstanding shares of Common Stock of the Company as of
+such date
+ to nine (9) non-U.S. accredited investors
+ including Mr. Lei Wang who acquired 20
+038
+000 shares
+ or approximately 30.54%
+of the issued and outstanding shares of common stock
+ and two U.S. accredited investors
+ including WP Acquisition Company
+ LLC
+who acquired 16
+480
+000 shares
+ or approximately 25.12% of the issued and outstanding shares of common stock.&nbsp; The Purchase
+Agreements were fully executed and delivered on October 19
+ 2017.&nbsp; The new shareholders other than Lei Wang and WP Acquisition
+Company
+ LLC each acquired less than 5% of the outstanding shares.&nbsp; Consequently
+ Lei Wang and WP Acquisition Company
+ LLC
+are now collectively able to unilaterally control the election of our board of directors
+ all matters upon which shareholder approval
+is required and
+ ultimately
+ the direction of our Company.
+
+
+
+
+
+
+the market. You can find it in bottles
+ cartons or powdered
+ frozen
+ flavored
+ carbonated and sweetened. With all these choices
+it can be confusing and difficult to know if you are choosing the best one. The Company&rsquo;s product competes broadly with all
+beverages available to consumers. The coconut water industry is highly competitive with estimated sales in the United States of
+1 billion dollars and growing. We estimate that there are approximately 50 bottled coconut water brands in the United States with
+sales concentrated among the larger companies
+ especially those controlled by PepsiCo and Coca-Cola. Nearly all of our competitors
+are more experienced
+ have vastly greater financial and management resources and have more established proprietary trademarks and
+distribution networks than we do. On a national basis
+ we would compete with large beverage companies
+ such as PepsiCo (which produces
+O.N.E Coconut Water)
+ Coca-Cola (which produces Zico coconut water). Other brands include Vito CoCo (partially owned by Red Bull)
+Harmless Harvest
+ Invo Coconut Water
+ Taste Nirvana Coconut water and CocoZona to name a few&nbsp;competitions for market share
+in the coconut water industry.&nbsp;These and other competitors are likely to have distribution channels for their products that
+we do not have
+ which places us at a significant disadvantage. While the Company believes that it can compete favorably on differentiation
+providing our proposed organic non-additive coconut water
+ we are yet to see if we can compete in quality
+ merchandising and are
+weak with regards to
+ brand name recognition and loyalty
+ there can be no assurance that the Company and its product lines will
+not experience increasing competitive pressures from both traditional and new age beverage companies
+ many of whom have substantially
+greater marketing
+ cash
+ distribution
+ technical and other resources than the Company.
+
+
+
+
+patents relating to our proposed organic coconut water product.
+
+
+
+
+ 2017
+Mr. Lei Wang became its Chief Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaport was appointed
+Secretary. In addition
+ Mr. Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations from all
+executive officer positions with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+ and each
+submitted their resignation as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation as Secretary
+of Kokos Group Inc. (the &quot;Company&quot;)
+ effective immediately.&nbsp;&nbsp; On the same day
+&nbsp;Ying Zhang was appointed
+Secretary
+ effective immediately.
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+&rdquo; as defined in Rule
+12b-2 of the Exchange Act
+ we are not required to provide the information called for by this Item.
+
+
+
+
+
+company&rdquo; as defined in Item 10(f)(1) of Regulation S-K.
+
+
+
+
+
+has not entered into any long-term lease or rental agreements for property.
+
+
+
+
+the Company is a party or in which any director
+ officer or affiliate of the Company
+ any owner of record or beneficially of more
+than 5% of any class of voting securities of the Company
+ or stockholder is a party adverse to the Company or has a material interest
+adverse to the Company.
+
+
+
+
+
+
+II
+
+MARKET FOR REGISTRANT&rsquo;S COMMON EQUITY
+ RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY
+SECURITIES
+
+
+ 2018
+ the Company had
+12 shareholders of record. There is no established public trading market for the Company&rsquo;s common stock whose common stock
+is quoted under the symbol is WUYI. The Company has not paid cash dividends and has no outstanding options.
+
+ 2017 the Board of directors
+and the majority of its shareholders of Kokos Group Inc..
+ approved an amendment of&nbsp;the Company's current Certificate of Incorporation
+in conformity with the applicable laws of the State of Nevada to change the name of the Company from Kokos Group Inc. to China
+WuYi Mountain
+ Ltd. and change the symbol from KOKG to WUYI. On May 24
+ 2018 the Financial Industry Regulatory Authority (FINRA)
+approved the Corporate action.
+
+
+
+company&rdquo; as defined in Rule 12b-2 of the Exchange Act.
+
+
+
+    
+    
+
+
+
+
+
+
+This Management&rsquo;s Discussion
+and Analysis of Financial Condition and Results of Operations is intended to provide a reader of our financial statements with
+a narrative from the perspective of our management on our financial condition
+ results of operations
+ liquidity
+ and certain other
+factors that may affect our future results. The following discussion and analysis should be read in conjunction with our audited
+consolidated financial statements and the accompanying notes thereto included in &ldquo;Item 8. Financial Statements and Supplementary
+Data.&rdquo; In addition to historical financial information
+ the following discussion and analysis contains forward-looking statements
+that involve risks
+ uncertainties and assumptions. See &ldquo;Forward-Looking Statements.&rdquo; Our results and the timing of
+selected events may differ materially from those anticipated in these forward-looking statements as a result of many factors.
+
+
+to engage in the business of the production
+ distribution and marketing of bottled organic coconut water from bulk coconut water
+sourced from the Philippine and bottled in the United States. We currently have no product
+ but plan on developing our first bottled
+coconut water product under the brand name &ldquo;Koos Coconut Water&rdquo;.
+
+
+of B vitamins
+ vitamin C.
+ micronutrients
+ and phyto-hormones that are exceptionally beneficial to your health. A scientific review
+of pure organic coconut water with no additives shows that it can help to prevent heart attacks; lower high blood pressure
+ has
+anti-aging effects
+ and fights free radicals to help prevent cancer. Our primary business objective is to produce
+ distribute and
+market and sell our core planned product organic coconut water under the brand name Koos Coconut Water
+ which is pure organic coconut
+water
+ with no additives.
+
+
+or otherwise obtain special equipment to manufacture
+ bottle
+ and label or pack its China WuYi Mountain
+ Ltd. proposed coconut
+water product. The Company plans to manufacture
+ bottle
+ label and pack its proposed Koos Coconut Water product under its as yet
+to be negotiate with a co-packing company
+ which has all such equipment. The Kokos Group Inc. plans to sell its proposed coconut
+water product in the following bottle sizes: 8oz and 16oz.
+
+
+ China WuYi Mountain
+Ltd. intends on developing the China WuYi Mountain
+ Ltd. proposed coconut water product. The Company also intends to investigate
+potential acquisition or merger targets in the beverage industry. No potential targets have been identified to date.
+
+independent registered public accountant has issued an audit opinion which includes a statement expressing substantial doubt as
+to our ability to continue as a going concern.
+
+
+
+885 as of August 31
+2018. We believe our cash balance is not sufficient to fund our limited levels of operations for any period of time. We have been
+utilizing and may utilize funds from private placement and from unsecured loan from a shareholder controlling 25.12% of the Company&rsquo;s
+issued and outstanding common stock
+ who has informally agreed to advance funds to allow us to pay for offering costs
+ filing fees
+and professional fees. However
+ has no formal commitment
+ arrangement or legal obligation to advance or loan funds to the company.
+In order to develop and begin to implement our business plan
+ we will need the funding from this offering.
+
+
+has issued a going concern opinion. This means that there is substantial doubt that we can continue as an on-going business for
+the next twelve months unless we obtain additional capital to pay our bills. This is because we have not generated revenues and
+no revenues are anticipated until we begin selling bottled water. There is no assurance we will ever reach that stage.
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+phases
+ as follows: (I) develop a business relationship with the Philippine coconut water producer we have identified and contacted;
+and conclude an contract with one of the several bottler
+ labeler and packer we have sourced; and run an initial production for
+marketing purposes while we conduct marketing studies
+ initial promotional events
+ and generate interest for China WuYi Mountain
+Ltd..
+ under the brand name &ldquo;Koos Coconut Water&rdquo;; (II) negotiate and enter into supply agreements with retail businesses
+merchandisers
+ and distributors
+ (III) expand proposed operations through-out Oregon
+ Washington State and nationally
+ (IV) establish
+a national and possibly international distributor network and team
+ with possibly production facilities or multiple co-packer agreements
+.. While we have identified both a supplier and bottler for our proposed product
+ we do not have any signed agreements or formal
+commitments to obligate any identified company to supply
+ bottle
+ label and package China WuYi Mountain&rsquo;s proposed coconut
+water product. We have not yet commenced any production or activities.
+
+
+Ltd. intends to bottle sell the China WuYi Mountain
+ Ltd. branded product &ldquo;Koos Coconut Water&rdquo; throughout Oregon
+ Washington
+State and neighboring States to large box store retailers
+ convenience stores
+ specialty health food stores
+ grocery chains
+ hotels
+and some non-traditional corporate business within this market. The Company is also investigation potential acquisition or merger
+targets in the beverage industry. No definite targets have been identified to date.
+
+
+following the date of this prospectus is to (i) complete Phase I of our program
+ which is to develop our a business relationship
+with the Philippine coconut water producer we have identified and conclude an contract with one of the several bottler
+ labeler
+and packer we have sourced
+ and run an initial production for marketing purposes while we conduct marketing studies
+ initial promotional
+events
+ and generate interest for China WuYi Mountain
+ Ltd. proposed coconut water under the brand name &ldquo;Koos Coconut Water&rdquo;
+and (ii) begin Phase II of our program
+ which is negotiate and enter into supply agreements with retail businesses
+ merchandisers
+and distributors. In order to execute Phases I and II of our development program as outlined below
+ we anticipate spending $550
+000
+on program development
+ professional and administrative fees
+ including fees payable in connection with the filing of this registration
+statement
+ complying with reporting obligations and arranging financing for Phases I and II of our development program. Total expenditures
+over the next 12 - 14 months are therefore expected to be approximately $550
+000. If we experience a shortage of funds prior to
+funding during the next 12 -14 months
+ we may utilize funds from shareholder of the Company
+ who has informally agreed to advance
+funds to allow us to pay for professional fees
+ including fees payable in connection with the filing of this registration statement
+and operation expenses
+ however he has no formal commitment
+ arrangement or legal obligation to advance or loan funds to the company.
+We will require the funds from this offering to proceed. If we receive only nominal funds from this offering
+ we plan to operate
+on a limited basis for the limited purpose of meeting our reporting obligations to the Securities and Exchange Commission. No such
+plan exists at this time in case of such contingency
+ and we cannot guarantee we would be able to raise additional funding if only
+nominal funding is obtained from this offering. New management will not as of the date of this filing change its business.
+
+
+this offering
+ we plan to commence activities to raise the $400
+000 in funds required for Phase II of the development program in
+Februaryof 2020. We expect this phase to take 120 - 180 days to complete and an additional 9 to 12 months for distribution networks
+and market acceptance. We cannot provide investors with any assurance that we will be able to raise sufficient funds to proceed
+with any work or activities on Phase I and or II of the development program since we currently have no plan in place to raise these
+funds. We plan to raise the additional funding for Phase I and Phase II by way of a private debt or equity financing but have not
+commenced any activities to raise such funds.
+
+
+estimates and the actual project costs may exceed our estimates. To date
+ we have not commenced with any activities or operations
+of any phase of our development program.
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+on our financial statements for the fiscal years ended August 31
+ 2018 and August 31
+ 2017
+ that conditions exist that raise substantial
+doubt about our ability to continue as a going concern due to our recurring losses from operations
+ deficit in equity
+ and the
+need to raise additional capital to fund operations. A &ldquo;going concern&rdquo; opinion could impair our ability to finance
+our operations through the sale of debt or equity securities.
+
+Fiscal Year Ended August 31
+ 2018 compared to the Fiscal Year
+Ended August 31
+ 2017
+
+
+2016 (inception) to August 31
+ 2018.
+
+
+ 2018
+totaled $88
+294 and net loss of $85
+794 consisting primarily of office and general expenses of $22
+794 consisting primarily of
+$18
+749 in transfer agent expenses; office expenses of $353; filing fees of $3
+293; and bank services charges of $399; and professional
+fees of $20
+500; consulting fees of $45
+000 and a deduction of other revenue of $2
+500 resulting in a net loss of $85
+794. Expenses
+for the year ended August 31
+ 2017 totaled $25
+190 consisting primarily of office and general expenses of $9
+240 consisting primarily
+of $2
+942 in filing expenses; $2
+329 in transfer agent expense; $1
+905 in rent expenses; $1
+816 in web-site expenses; $102 in offices
+expenses and $146 in bank service charges
+ Also
+ included are professional fees of $15
+950 resulting in a net loss of $25
+190.
+The increase in expenses from fiscal 2017 to fiscal 2018 was primarily due to the increase expenses transfer agent expenses
+ consulting
+fees and professional fees. This was due to the change in transfer agents and increase in accounting and legal fees activities
+during the period. Also
+ the use of Consultants to pursue possible acquisitions.
+
+
+and Liquidity
+
+31
+ 2018 financial statements expresses an opinion that substantial doubt exists as to whether we can continue as an ongoing business.
+Since our sole director maybe unwilling or unable to loan or advance us additional capital
+ we believe that if we do not raise
+additional capital over the next 12 months
+ we may be required to suspend or cease the implementation of our business plans. See
+&ldquo;August 31
+ 2018 Audited Financial Statements &ndash; Auditors Report.&rdquo;
+
+ 2018
+ we had $40
+885
+of cash compared to $4
+211 of cash as of August 31
+ 2017. We anticipate that our current cash and cash equivalents and cash generated
+from financing activities will be insufficient to satisfy our liquidity requirements for the next 12 months. To date the Company
+has incurred operating losses since inception of $112
+323. As at August 31
+ 2018
+ the Company has a working capital of $12
+768.
+
+to meet its ongoing obligations and to fund anticipated operating losses. Our auditor has expressed substantial doubt about our
+ability to continue as a going concern. The ability of the Company to continue as a going concern is dependent on raising capital
+to fund its initial business plan and ultimately to attain profitable operations. These financial statements do not include any
+adjustments relating to the recoverability and classification of recorded asset amounts or amounts and classification of liabilities
+that might result from this uncertainty.
+
+and administrative expenses as well expenses associated with maintaining our filings with the Commission. We will require additional
+funds during this time and will seek to raise the necessary additional capital. If we are unable to obtain additional financing
+we may be required to reduce the scope of our business development activities
+ which could harm our business plans
+ financial condition
+and operating results. Additional funding may not be available on favorable terms
+ if at all. The Company intends to continue to
+fund its business by way of equity or debt financing and advances from related parties. Any inability to raise capital as needed
+would have a material adverse effect on our business
+ financial condition and results of operations.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+ we will
+have to cease business operations. As a result
+ investors in the Company&rsquo;s common stock would lose all of their investment.
+
+
+Arrangements
+
+currently contemplated by management or in place that are reasonably likely to have a current or future effect on the business
+financial condition
+ changes in financial condition
+ revenue or expenses
+ result of operations
+ liquidity
+ capital expenditures
+and/or capital resources.
+
+Pronouncements
+
+accounting pronouncements that are in effect and that may impact its financial statements and does not believe that there are any
+other new accounting pronouncements that have been issued that might have a material impact on its financial position or results
+of operations.
+
+
+
+company&rdquo; as defined in Rule 12b-2 of the Exchange Act.
+
+
+
+financial statements for the fiscal years ended August 31
+ 2018 and August 31
+ 2017
+ begins on page F-1 of this Annual Report on
+Form 10-K.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD.
+
+
+
+
+
+August 31
+ 2018
+
+
+
+
+
+
+
+
+REPORT OF INDEPENDENT REGISTERED
+PUBLIC ACCOUNTING FIRM&nbsp;
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+STATEMENT OF
+    STOCKHOLDERS&rsquo; EQUITY (DEFICIT)
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+PLS CPA
+ A PROFESSIONAL CORPORATION
+        
+        
+CALIFORNIA
+        92111 
+        
+        
+FAX
+        (858) 764-5480
+t
+changgpark@gmail.com
+
+
+
+
+
+Report of
+Independent Registered Public Accounting Firm
+
+
+Directors of China Wuyi Mountain
+ Ltd.
+
+
+
+balance sheets of China Wuyi Mountain
+ Ltd. (the Company) as of August 31
+ 2018 and 2017
+ the related statements of operations
+changes in shareholders' deficit
+ and cash flows for the year ended August 31
+ 2018 and 2017
+ and the related notes to the financial
+statements (collectively
+ the financial statements). In our opinion
+ the financial statements present fairly
+ in all material respects
+the financial position of the Company as of August 31
+ 2018 and 2017
+ and the results of its operations and its cash flows for
+the period then ended
+ in conformity with accounting principles generally accepted in the United States of America.
+
+
+
+have been prepared assuming that the Company will continue as a going concern. As discussed in Note 1 to the financial statements
+the Company has a losse from operations through August 31
+ 2018
+ and does not have sufficient working capital to fund its planned
+operations during the twelve-month period subsequent to the issuance of these financial statements. This raises substantial doubt
+about the Company&rsquo;s ability to continue as a going concern. Management's plans in regard to these matters also are described
+in Note 1. The financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+
+responsibility of the Company&rsquo;s management. Our responsibility is to express an opinion on the Company&rsquo;s financial
+statements based on our audits. We are a public accounting firm registered with the&nbsp;Public Company Accounting Oversight Board
+(United States) (PCAOB)&nbsp;and are required to be independent with respect to the Company in accordance with U.S. federal securities
+laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+
+
+with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about
+whether the financial statements are free of material misstatement
+ whether due to error or fraud. The Company is not required
+to have
+ nor were we engaged to perform
+ an audit of its internal control over financial reporting. As part of our audits we are
+required to obtain an understanding of internal control over financial reporting but not for the purpose of expressing an opinion
+on the effectiveness of the Company's internal control over financial reporting. Accordingly
+ we express no such opinion.
+
+
+to assess the risks of material misstatement of the financial statements
+ whether due to error or fraud
+ and performing procedures
+that respond to those risks. Such procedures included examining
+ on a test basis
+ evidence regarding the amounts and disclosures
+in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates made
+by management
+ as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a
+reasonable basis for our opinion.
+
+/s/
+
+
+ A Professional Corp
+
+
+Company&rsquo;s auditor since 2016.
+
+ CA. 92111
+
+ 2019
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD.
+
+
+
+
+
+
+    
+
+ 
+
+ 
+
+    
+    
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+40
+885
+4
+211
+
+    
+    
+    
+
+    
+    
+    
+
+    
+41
+195
+4
+211
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+3
+927
+3
+149
+
+    
+    
+2
+500
+
+    
+24
+500
+5
+501
+
+    
+    
+    
+
+    
+28
+427
+11
+150
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+000
+000 shares of preferred stock
+ $0.001 par value
+
+    
+    
+
+    
+    
+    
+
+
+000
+000 shares of common stock
+ $0.001 par value
+
+    
+    
+
+    
+    
+    
+
+
+600
+000 shares of common stock (65
+600
+000 - August 31
+ 2017)
+65
+600
+65
+600
+
+    
+100
+000
+    
+
+    
+(40
+509
+(46
+010
+
+    
+(112
+323
+(26
+529
+
+    
+    
+    
+
+    
+12
+768
+(6
+939
+
+    
+    
+    
+
+    
+41
+195
+4
+211
+
+    
+    
+    
+
+
+Going
+Concern (Note 1)
+
+
+
+
+The accompanying
+notes are an integral part of these financial statements.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+CHINA
+WUYI MOUNTAIN
+ LTD.
+(Formerly
+Kokos Group Inc.)
+
+STATEMENTS
+OF OPERATIONS
+
+
+
+    
+August 31
+ 2018
+August 31
+ 2017
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+22
+794
+9
+240
+
+    
+45
+000
+    
+
+    
+20
+500
+15
+950
+
+    
+    
+    
+
+    
+(88
+294
+(25
+190
+
+    
+    
+    
+
+    
+2
+500
+    
+
+    
+    
+    
+
+    
+(85
+794
+(25
+190
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+65
+600
+000
+515
+502
+466
+
+
+
+
+
+The accompanying
+notes are an integral part of these financial statements.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD.&#9;
+
+STATEMENT OF STOCKHOLDERS&rsquo; EQUITY (DEFICIT)
+
+FOR THE PERIOD FROM August 31
+ 2016 TO August
+31
+ 2018
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+Balance
+ August 31
+ 2016
+800
+000
+000
+&nbsp;$&nbsp;&nbsp;800
+000 
+&nbsp;$(790
+000)
+&nbsp;$&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 
+&nbsp;$
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1
+339)
+&nbsp;$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8
+661 
+
+    
+    
+    
+    
+    
+    
+    
+
+Common shares issued for cash &ndash; at $0.000375 per share
+ March 31
+ 2017
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25
+600
+000 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25
+600 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(16
+000)
+    
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9
+600 
+
+    
+    
+    
+    
+    
+    
+    
+
+Shares return to treasury &ndash; at $0.000000013 per share &ndash; April 20
+ 2017
+&nbsp;&nbsp;(760
+000
+000)
+&nbsp;&nbsp;&nbsp;&nbsp;(760
+000)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;759
+990 
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+Net loss for the year ended August 31
+ 2017
+    
+    
+    
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(25
+190)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(25
+190)
+
+    
+    
+    
+    
+    
+    
+    
+
+Balance
+ August 31
+ 2017
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;65
+600
+000 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;65
+600 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(46
+010)
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(26
+529)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6
+939)
+
+    
+    
+    
+    
+    
+    
+    
+
+Common shares subscribed not issued for cash at $0.0075 &ndash; May 2
+ 2018 (Note 4)
+    
+    
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+000 
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+000 
+
+    
+    
+    
+    
+    
+    
+    
+
+Loan forgiveness &ndash; October 19
+ 2017
+    
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5
+501 
+    
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5
+501 
+
+    
+    
+    
+    
+    
+    
+    
+
+Net loss for the year ended August 31
+ 2018
+    
+    
+    
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(85
+794)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(85
+794)
+
+    
+    
+    
+    
+    
+    
+    
+
+Balance
+ August 31
+ 2018
+65
+600
+000&nbsp;
+&nbsp;$&nbsp;&nbsp;&nbsp;&nbsp;65
+600 
+&nbsp;$&nbsp;&nbsp;&nbsp;(40
+509)
+&nbsp;$&nbsp;&nbsp;&nbsp;&nbsp;100
+000
+&nbsp; 
+&nbsp;$ (112
+323)
+&nbsp;$&nbsp;&nbsp;&nbsp;(12
+768)
+
+
+
+
+
+The accompanying
+notes are an integral part of these financial statements.
+
+
+
+
+
+    
+    
+
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD.
+
+
+
+
+
+
+    
+
+ 2018
+
+ 
+
+    
+    
+    
+
+    
+    
+    
+
+    
+(85
+794
+(25
+190
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+3
+149
+
+    
+(2
+500
+2
+500
+
+    
+    
+    
+
+    
+(87
+826
+(19
+541
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+9
+600
+
+    
+100
+000
+    
+
+    
+34
+500
+3
+816
+
+    
+(10
+000
+    
+
+    
+    
+    
+
+    
+124
+500
+13
+416
+
+    
+    
+    
+
+    
+36
+674
+(6
+125
+
+    
+    
+    
+
+
+ BEGINNING
+4
+211
+10
+336
+
+    
+    
+    
+
+
+ ENDING
+40
+885
+4
+211
+
+    
+    
+    
+
+SUPPLEMENTAL CASH FLOW INFORMATION AND NONCASH
+FINANCING ACTIVITIES;
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+The accompanying
+notes are an integral part of these financial statements.
+
+
+
+
+
+
+    
+    
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD
+
+
+August 31
+ 2018
+
+
+
+
+
+
+BASIS OF PRESENTATION
+
+
+
+of Nevada as a for-profit Company on July 26
+ 2016 and established a fiscal year end of August 31. The Company is organized to
+bottle
+ market
+ distribute and sell our own brand of coconut water
+ presently called &ldquo;Koos Coconut Water&rdquo;. On November
+10
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group Inc.
+ amended the Company&rsquo;s current Certificate
+of Incorporation in conformity with the applicable laws of the State of Nevada to change the name of the Company from Kokos Group
+Inc. to China Wu Yi Mountain Ltd. On May 24
+ 2018 FINRA approved the Company&rsquo;s corporate action changing the Company&rsquo;s
+name and trading symbol effective May 25
+ 2018.
+
+
+ 2017
+Mr. Lei Wang became its Chief Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaprt was appointed
+Secretary. In addition
+ Mr. Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations from all
+executive officer positions with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+ and each
+submitted their resignation as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation as Secretary
+of Kokos Group Inc. (the &quot;Company&quot;)
+ effective immediately.&nbsp;&nbsp; On the same day
+&nbsp;Ying Zhang was appointed
+Secretary
+ effective immediately.
+
+
+
+from its business operations and has incurred operating losses since inception of $112
+323. As at August 31
+ 2018
+ the Company
+has working capital of $12
+768. The Company requires additional funding to meet its ongoing obligations and to fund anticipated
+operating losses. The ability of the Company to continue as a going concern is dependent on raising capital to fund its initial
+business plan and ultimately to attain profitable operations. Accordingly
+ these factors raise substantial doubt as to the Company&rsquo;s
+ability to continue as a going concern. The Company intends to continue to fund its business by way of private placements and advances
+from related parties as may be required. As of August 31
+ 2018
+ the Company has issued 800
+000
+000 founders shares at $0.0000125
+per share for net proceeds of $10
+000 to the Company and private placements of 25
+600
+000 common shares at $0.000375 per share
+for net proceeds of $9
+
+ 2018
+ the Company entered into a subscription agreement
+with a China-based company
+ Grand Biotechnology Group Liaoning
+ (the authorized signor for Grand Biotechnology is a 4.9%&nbsp;shareholder
+of the Company)
+ for the issuance of an aggregate of 20
+000
+000 shares of restricted common stock at $0.0075 per share for an aggregate
+purchase price of U.S.$150
+000. On May 15
+ 2018 the Company had received $100
+
+any adjustments relating to the recoverability and classification of recorded asset amounts or amounts and classification of liabilities
+that might result from this uncertainty.
+
+NOTE 2
+&ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+
+
+
+sheet
+ statements of operations
+ stockholders&rsquo; equity (deficit) and cash flows of the Company. These financial statements
+are presented in the United States dollars and have been prepared in accordance with accounting principles generally accepted in
+the United States.
+
+
+
+
+ &ldquo;Disclosure about Segments
+of an Enterprise and Related Information&rdquo;
+ changed the way public companies report information about segments of their business
+in their quarterly reports issued to shareholders. It also requires entity-wide disclosures about the products and services the
+entity provides
+ the material countries in which it holds assets and reports revenues and its major customers.
+
+
+
+
+&rdquo;
+establishes standards for the reporting and display of comprehensive loss and its components in the financial statements. As at
+August 31
+ 2018 the Company has no items that represent a comprehensive loss and
+ therefore
+ has not included a schedule of comprehensive
+loss in the financial statements.
+
+
+
+
+
+    
+    
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD
+
+
+August 31
+ 2018
+
+
+
+NOTE 2
+&ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (continued)
+
+
+
+
+conformity with generally accepted accounting principles requires management to make estimates and assumptions that affect certain
+reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements
+and the reported amounts of revenues and expenses during the period. Accordingly
+ actual results could differ from those estimates.
+
+
+
+
+the Company considers highly liquid financial instruments purchased with a maturity of three months or less to be cash equivalents.
+
+
+
+
+with ASC topic 605 &ldquo;Revenue Recognition
+ and other applicable revenue recognition guidance under US GAAP. &nbsp;Sales revenue
+is recognized for our retail and wholesale customers when: (i) persuasive evidence of a sales arrangement exists
+ (ii) the sales
+terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv) collectability is reasonably assured &mdash;
+generally when products are shipped to the customer and services are rendered
+ except in situations in which title passes upon
+receipt of the products by the customer.&nbsp;Revenue consists of revenue earned for the sale of organic coconut water and services
+provided by the Company. Revenue is recognized at the time the product is shipped to the customer and or services provided by the
+Company are fulfilled.
+
+
+
+
+ financial
+liabilities and equity instruments of the Company are either recognized or disclosed in the financial statements together with
+other information relevant for making a reasonable assessment of future cash flows
+
+
+the fair values of financial assets and financial liabilities have been determined and disclosed; otherwise only available information
+pertinent to fair value has been disclosed.
+
+
+
+
+by dividing the Company&rsquo;s net income available to common shareholders by the weighted average number of common shares during
+the year. The diluted earnings (loss) per share is calculated by dividing the Company&rsquo;s net income (loss) available to common
+shareholders by the diluted weighted average number of shares outstanding during the year. The diluted weighted average number
+of shares outstanding is the basic weighted number of shares adjusted for any potentially dilutive debt or equity. Diluted earnings
+(loss) per share are the same as basic earnings (loss) per share due to the lack of dilutive items in the Company.
+
+
+
+
+accounting for income taxes. Under this method
+ deferred tax assets and liabilities are recognized for the future tax consequences
+attributable to differences between the financial statement carrying amounts of existing assets and liabilities and their respective
+tax balances and tax loss carry-forwards. Deferred tax assets and liabilities are measured using enacted or substantially enacted
+tax rates expected to apply to the taxable income in the years in which those differences are expected to be recovered or settled.
+The effect on deferred tax assets and liabilities of a change in tax rates is recognized in income in the period that includes
+the date of enactment or substantive enactment.
+
+
+
+
+ &quot;Stock
+Compensation&quot;
+ which addresses the accounting for transactions in which an entity exchanges its equity instruments for goods
+or services
+ with a primary focus on transactions in which an entity obtains employee services in share-based payment transactions.
+ASC 718-10 is a revision to SFAS No. 123
+ &quot;Accounting for Stock-Based Compensation
+&quot; and supersedes Accounting Principles
+Board (&quot;APB&quot;) Opinion No. 25
+ &quot;Accounting for Stock Issued to
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD
+
+
+August 31
+ 2018
+
+
+
+NOTE 2
+&ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (continued)
+
+
+
+
+&quot; and its related implementation
+guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange for an award of equity instruments
+based on the grant-date fair value of the award (with limited exceptions). Incremental compensation costs arising from subsequent
+modifications of awards after the grant date must be recognized. The Company has not adopted a stock option plan and has not granted
+any stock options. As at May 31
+ 2017 the Company had not adopted a stock option plan nor had it granted any stock options. Accordingly
+no stock-based compensation has been recorded to date.
+
+
+
+
+all the recently issued
+ but not yet effective
+ accounting standards that have been issued or proposed by the FASB or other standards-setting
+bodies through the filing date of these financial statements and does not believe the future adoption of any such pronouncements
+will have a material effect on the Company&rsquo;s financial position and results of operations.
+
+NOTE
+3 &ndash; CAPITAL STOCK
+
+
+000
+000
+common shares with a par value of $0.001 per share and 2
+000
+000 preferred shares with a par value of $0.001 per share. Total shares
+issued as of November 30
+ 2017 are 65
+600
+000 common shares and no preferred shares have been issued.
+
+
+ 2016 the Company issued 800
+000
+000
+(pre-split-10
+000
+000) common shares at $0.0000125 (pre-split $0.001) per share to the former sole director and President of the
+Company for cash proceeds of $10
+000.
+
+
+600
+in private placements for the purchase of 25
+600
+000 (pre-split -320
+000 common shares of the Company&rsquo;s stock at $0.000375
+(pre-split $0.03) per share.
+
+
+ 2017 the directors of the Company
+amended the Company&rsquo;s Articles of Incorporation to increase the authorized capital structure of the Corporation to include
+two million (2
+000
+000) shares of preferred stock
+ par value $0.001
+ and to retain the previously authorized two hundred million
+(200
+000
+000) shares of common stock
+ par value ($0.001).
+
+
+ 2017
+ the founding shareholder
+of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common stock to treasury and the shares were subsequently
+cancelled by the Company. The shares were returned to treasury for $0.000000013 per share for a total consideration of $10 to the
+shareholder. Post-split our founding shareholder will have 40
+000
+000 shares of common stock of the Company.
+
+
+ 2017
+ the directors of the Company
+approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 80 new common shares
+for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average
+number of shares outstanding prior to the 80:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+unless otherwise noted.
+
+On May
+2
+ 2018
+ the Company entered into a subscription agreement with a China-based company
+ Grand Biotechnology Group Liaoning
+ (the
+authorized signor for Grand Biotechnology is a 4.9% shareholder of the Company)
+ for the issuance of an aggregate of 20
+000
+000
+shares of restricted common stock at $0.0075 per share for an aggregate purchase price of U.S.$150
+000. As of August 31
+ 2018
+the Company had received $100
+Advance receipts
+for common stock
+
+
+ 2018
+ the Company has not
+granted any stock options and has not recorded any stock-based compensation.
+
+
+ 2018
+ the Company issued 0
+shares of preferred stock and 65
+600
+000 common shares are issued and outstanding.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD
+
+
+August 31
+ 2018
+
+
+
+NOTE
+4 &ndash; RELATED PARTY TRANSACTIONS
+
+
+ 2017
+ the former CEO of the Company
+forgave all related party loans to the Company in a total of $5
+501. This will be reflected an increase in Additional-Paid-In-Capital
+in the financial statements. &nbsp;
+
+
+ 2018
+ Century
+Acquisition (Formerly WP Acquisition Company
+ LLC)
+ a 25.12% shareholder
+ advanced the Company $31
+000 and paid invoices in the
+amount of $3
+500 on behalf of the Company. On June 8
+ 2018 the Company repaid a total of $10
+000 to related party advances. The
+amounts due to the related party are unsecured and non- interest-bearing with no set terms of repayment.
+
+
+ 2018
+ the balance of due to
+related party is $24
+500 (August 31
+ 2017 - $5
+501). The amounts due to the related party are unsecured and non- interest-bearing
+with no set terms of repayment.
+
+NOTE
+5 &ndash; AGREEMENTS
+
+
+ 2017 the Company entered into
+a Purchase Agreement to supply 69
+300 private label Tetra Prisma 330ml packs of organic coconut water. The total purchase price
+is $55
+410. The purchaser has made the initial non-refundable payment of $2
+500. Other items on payment schedule include; an additional
+$2
+500 non-refundable payment upon approval of private label artwork; $35
+000 upon final order by purchaser; and $15
+410 due on
+delivery and acceptance of product by purchaser. Product will be delivered to purchaser within 90 days of the Company receiving
+payments as per above schedule. Subsequent to the year end on August 31
+ 2018 the client who entered into the Purchase Agreement
+has decided not to proceed with the purchase order.
+
+NOTE 6
+&ndash; INCOME TAXES
+
+
+taxes at the United States federal statutory rate compared to the Company&rsquo;s income tax expense as reported is as follows:
+
+
+
+    
+
+ 
+&nbsp;August 31
+
+                                                                                
+
+    
+    
+    
+
+    
+(85
+794
+(25
+190
+
+    
+    
+    
+
+    
+(18
+017
+(5
+290
+
+    
+    
+    
+
+    
+18
+017
+5
+290
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+tax assets at August 31
+ 2018 and August31
+ 2017
+ is as follows:
+
+
+
+    
+
+ 
+
+ 
+
+    
+23
+588
+9
+019
+
+    
+(23
+588
+(9
+019
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+tax assets must reflect that portion of the income tax loss carry forwards that is more likely-than-not to be realized from future
+operations. The Company has chosen to provide a full valuation allowance against all available income tax loss carry forwards.
+The Company has recognized a valuation allowance for the deferred income tax asset since the Company cannot be assured that it
+is more likely than not that such benefit will be utilized in future
+
+
+
+
+    
+    
+
+
+
+
+
+CHINA WUYI MOUNTAIN
+ LTD
+
+
+August 31
+ 2018
+
+
+
+
+
+
+
+
+annually. When circumstances change
+ and which cause a change in management's judgment about the realizability of deferred income
+tax assets
+ the impact of the change on the valuation allowance is generally reflected in current income.
+
+
+ 2017
+ new federal tax reform
+legislation was enacted in the United States (the &ldquo;2017 Tax Act&rdquo;)
+ resulting in significant changes from previous tax
+law. The 2017 Tax Act reduces the federal corporate income tax rate to 21% from 35% effective July 1
+ 2018 for the Company. The
+rate change
+ along with certain immaterial changes in tax basis resulting from the 2017 Tax Act
+ resulted in a reduction of the
+Company&rsquo;s deferred tax assets of $4
+838 and a corresponding reduction in the valuation allowance.
+
+
+ 2018
+and August 31
+ 2017 the Company has no unrecognized income tax benefits. The Company&rsquo;s policy for classifying interest and
+penalties associated with unrecognized income tax benefits is to include such items as tax expense. No interest or penalties have
+been recorded during the year ended August 31
+ 2018 and August 31
+ 2017 and no interest or penalties have been accrued as of August
+31
+ 2018 and August 31
+ 2017. As of August 31
+ 2018
+ and August 31
+ 2017
+ the Company did not have any amounts recorded pertaining
+to uncertain tax positions.
+
+
+2016 and forward remain open to examination by federal and state authorities due to net operating loss and credit carryforwards.
+The Company is currently not under examination by the Internal Revenue Service or any other taxing authorities.
+
+
+change in control
+ certain losses may not be available for carryforward under Section 382 of the Internal Revenue Code.
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+regarding our accounting
+ financial disclosures or any other matter.
+
+
+
+
+
+and other procedures that are designed to ensure that information required to be disclosed in our reports filed or submitted under
+the Securities Exchange Act of 1934 is recorded
+ processed
+ summarized and reported
+ within the time period specified in the SEC&rsquo;s
+rules and forms. Disclosure controls and procedures include
+ without limitation
+ controls and procedures designed to ensure that
+information required to be disclosed in our reports filed or submitted under the Securities Exchange Act of 1934 is accumulated
+and communicated to management including our principal executive officer and principal financial officer as appropriate
+ to allow
+timely decisions regarding required disclosure.
+
+
+ as required
+by Rule 13a -15d and 15d-15e under the Securities Exchange Act of 1934
+ we have carried out an evaluation of the effectiveness
+of the design and operation of our company&rsquo;s disclosure controls and procedures. This evaluation was carried out under the
+supervision and with the participation of our company&rsquo;s management
+ including our company&rsquo;s principal executive officer
+and principal financial officer. Based upon that evaluation
+ our company&rsquo;s principal executive officer and principal financial
+officer concluded that as of August 31
+ 2018 our disclosure controls and procedures were not effective due to the existence of
+material weaknesses in our internal controls over financial reporting.
+
+Management&rsquo;s Annual Report on Internal
+Control Over Financial Reporting
+
+
+and maintaining adequate internal control over financial reporting. Internal control over financial reporting is defined in Rule
+13a-15(f) or 15d-15(f) promulgated under the Securities Exchange Act of 1934 as a process designed by
+ or under the supervision
+of
+ the Company&rsquo;s Principal Executive and Principal Financial officer and effected by the Company&rsquo;s board of directors
+management and other personnel to provide reasonable assurance regarding the reliability of our financial reporting and the preparation
+of financial statements for external purposes in accordance with accounting principles generally accepted in the United States
+of America and includes those policies and procedures that:
+
+
+Pertains to the maintenance of records that in reasonable detail accurately and fairly reflect
+our transactions and disposition of assets;
+
+Provide reasonable assurance that transactions are recorded as necessary to permit preparation
+of our financial statements in accordance with accounting principles generally accepted in the United States of America and receipts
+and expenditures are being made in accordance with authorizations of management and directors; and
+
+Provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition
+use or disposition of company assets that could have a material effect on our financial statements. &nbsp;
+
+Company&rsquo;s internal control over financial reporting based on the criteria for effective internal control over financial reporting
+established in SEC guidance on conducting such assessments as of the end of the period covered by this report. Management conducted
+the assessment based on certain criteria established in Internal Control - Integrated Framework issued by the Committee of Sponsoring
+Organizations of the Treadway Commission in 2013. As of August 31
+ 2018
+ management determined material weaknesses occurred over
+our internal control over financial reporting as discussed below.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+procedures that the Company&rsquo;s management considered to be material weaknesses under the standards of the Public Company Accounting
+Oversight Board were: (1) lack of a functioning audit committee and lack of a majority of outside directors on the Company's board
+of directors
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures;
+(2) inadequate segregation of duties consistent with control objectives; (3) insufficient written policies and procedures for accounting
+and financial reporting with respect to the requirements and application of US GAAP and SEC disclosure requirements; and (4) ineffective
+controls over period end financial disclosure and reporting processes. Due to these material weaknesses management concluded that
+our internal control over financial reporting was not effective as of August 31
+ 2018.
+
+
+
+
+set forth in items (2)
+ (3) and (4) above did not have an effect on the Company's previous reported financial results. However
+management believes that the lack of a functioning audit committee and lack of a majority of outside directors on the Company's
+board of directors
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures
+can result in the Company's determination to its financial statements for the future periods.
+
+
+organization. As part of this commitment
+ we will create a position to segregate duties consistent with control objectives and
+will increase our personnel resources and technical accounting expertise within the accounting function when funds are available
+to the Company: i) Appointing one or more outside directors to our board of directors who shall be appointed to the audit committee
+of the Company resulting in a fully functioning audit committee who will undertake the oversight in the establishment and monitoring
+of required internal controls and procedures; and ii) Preparing and implementing sufficient written policies and checklists which
+will set forth procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and
+SEC disclosure requirements.
+
+
+one or more outside directors
+ who shall be appointed to a fully functioning audit committee
+ will remedy the lack of a functioning
+audit committee and a lack of a majority of outside directors on the Company's Board. In addition
+ management believes that preparing
+and implementing sufficient written policies and checklists will remedy the following material weaknesses (i) insufficient written
+policies and procedures for accounting and financial reporting with respect to the requirements and application of US GAAP and
+SEC disclosure requirements; and (ii) ineffective controls over period end financial close and reporting processes. Further
+ management
+believes that the hiring of additional personnel who have the technical expertise and knowledge will result proper segregation
+of duties and provide more checks and balances within the department. Additional personnel will also provide the cross training
+needed to support the Company if personnel turn over issues within the department occur. This coupled with the appointment of additional
+outside directors will greatly decrease any control and procedure issues the company may encounter in the future.
+
+
+effectiveness of our internal controls and procedures and our internal controls over financial reporting on an ongoing basis and
+are committed to taking further action and implementing additional enhancements or improvements
+ as necessary and as funds allow.
+
+
+report of the company&rsquo;s registered public accounting firm regarding internal control over financial reporting. Management&rsquo;s
+report was not subject to attestation by the company&rsquo;s registered public accounting firm pursuant to temporary rules of the
+Securities and Exchange Commission that permit the Company to provide only management&rsquo;s report in this annual report.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+Changes in Internal Control Over Financial
+Reporting
+
+
+control over financial reporting identified in connection with the evaluation required by paragraph (d) of Rules 13a-15 or 15d-15
+under the Exchange Act that occurred during the small business issuer's last fiscal year that has materially affected
+ or is reasonably
+likely to materially affect
+ our internal control over financial reporting.
+
+
+
+
+
+
+III
+
+DIRECTORS
+ EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE
+
+
+are as follows:
+
+
+
+        
+
+        
+
+        
+
+    
+
+    
+
+    
+
+
+    
+    
+    
+
+    
+    
+    
+ Chief Executive Officer
+ Treasurer
+ Chief Financial Officer and Chairman of the Board of Directors
+
+    
+    
+    
+
+
+On October
+19
+ 2017
+ each of Mr. Baterina and Messrs. Flemming J.H. Hansen and Arthur T. Claravall submitted his resignation from all executive
+officer positions with the Company
+ including Chief Executive Officer and President
+ effective immediately
+ and each submitted
+his resignation as a member of the Board
+ which resignation is effective immediately.&nbsp;&nbsp; On October 19
+ 2017
+ Lei Wang
+was appointed as Chief Executive Officer
+ Chief Financial Officer
+ sole Director
+ and Richard Rappaport was appointed Secretary
+each effective October 19
+ 2017.
+
+
+ 2018
+Richard Rappaport submitted his resignation as Secretary of China WuYi Mountain
+ Ltd. (formerly Kokos Group Inc.) (the &quot;Company&quot;)
+effective immediately.&nbsp;&nbsp; On the same day
+&nbsp;Ying Zhang was appointed Secretary
+ effective immediately.
+
+Business Experience - Current Officer and
+Directors
+
+
+Chief Executive
+Officer and Director
+
+Mr.
+Wang has served as the general manager of Wuyishan Tongtai Tea Industry Co.
+ Ltd. since February 2010.
+
+Mr.
+Wang served as a member of the armed forces in China from February 1979 to February 1983 following his primary and secondary school
+education.&nbsp;&nbsp; After serving four years in the army
+ he worked in the tourism industry in Wuyi Mountain
+ Fujian Province
+China. Mr. Wang was one of the pioneers in the tourism industry of Wuyi Mountain. He has unique insight into the tourism development
+and prospect of Wuyi Mountain
+ including the planting
+ production and marketing of Wuyi Mountain tea.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+Ying
+Zhang has served as a Director of Wuyi Mountain Co.
+ since 2017.&nbsp; Previously
+ she was the COO of Shenzhen E.C Fashion Company
+between 2011 and 2015
+ and the Manager of China Minsheng Bank
+ between 2015-2017 Manager. &nbsp;
+
+
+
+
+of one member
+ Mr. Lei Wang who does not qualify as an independent director in accordance with the published listing requirements
+of the NASDAQ Global Market.&nbsp;&nbsp;The NASDAQ independence definition includes a series of objective tests
+ such as that the
+director is not
+ and has not been for at least three years
+ one of our employees and that neither the director
+ nor any of his
+family members has engaged in various types of business dealings with us.&nbsp;&nbsp;In addition
+ our board of directors has not
+made a subjective determination as to each director that no relationships exist which
+ in the opinion of our board of directors
+would interfere with the exercise of independent judgment in carrying out the responsibilities&nbsp;of a director
+ though such
+subjective determination is required by the NASDAQ rules.&nbsp;&nbsp;Our board of directors has not made these determinations
+our board of directors have reviewed and discussed information provided by the directors and us with regard to each director&rsquo;s
+business and personal activities and relationships as they may relate to us and our management.
+
+
+Legal Proceedings
+
+ there have been no
+material legal proceedings during the last ten years that would require disclosure under the federal securities laws that are material
+to an evaluation of the ability or integrity of any of our directors or executive officers.
+
+of Interest
+
+conflicts of interest with our former officers and directors Lei Wang and our secretary Ying Zhang other business interests and
+his involvement with China WuYi Mountain
+ Ltd. or our current Officer and Directors of Mr. Lei Wang.
+
+
+
+
+Table
+
+ Ltd..
+ has made no provisions
+for paying cash or non-cash compensation to its sole officer and director. No salaries are being paid at the present time
+ and
+none will be paid unless and until our operations generate sufficient cash flows.
+
+
+awarded to
+ earned by
+ or paid to our named executive officer for all services rendered in all capacities to us for the period
+from inception through August 31
+ 2018.
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+Officers
+
+
+    
+
+Fiscal
+        Year
+
+Salary
+        ($)
+
+        
+
+Stock Awards
+        
+        
+
+Option
+        Awards 
+        
+
+All Other
+        Compensation ($)
+
+        
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ Chief Executive Officer
+ Secretary
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ Chief Executive Officer
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ Chief Executive Officer
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+*Mr. Baterina resigned all Executive
+positions in the Company on October 19
+ 2017.
+**On January 18
+ 2018
+ Richard
+Rappaport submitted his resignation as Secretary of the &quot;Company
+ effective immediately.&nbsp;&nbsp;On the same day
+ Ying
+Zhang was appointed Secretary.
+Outstanding Equity Awards at Fiscal
+Year End
+
+or 2017. None of our executive officers received any equity awards
+ including
+ options
+ restricted stock
+ performance awards or
+other equity incentives during the fiscal year ended August 31
+ 2018 and August 31
+ 2017 for China WuYi Mountain
+ Ltd.
+
+
+ China WuYi Mountain
+ Ltd. has
+not entered into any employment agreements with its sole officer and director. If there is sufficient cash flow available from
+our future operations
+ the company may enter into employment agreements with our sole officer and director or future key staff
+members.
+
+
+
+
+Plan but may do so in the future. The terms of any such plan have not been determined.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+adopted a stock option plan. The company has no plans to adopt it but may choose to do so in the future. If such a plan is adopted
+this may be administered by the board or a committee appointed by the board (the &ldquo;Committee&rdquo;). The committee would
+have the power to modify
+ extend or renew outstanding options and to authorize the grant of new options in substitution therefore
+provided that any such action may not impair any rights under any option previously granted. China WuYi Mountain
+ Ltd.
+ may develop
+an incentive-based stock option plan for its officers and directors and may reserve up to 10% of its outstanding shares of common
+stock for that purpose.
+
+
+awarded to
+ earned by
+ or paid to our directors for all services rendered in all capacities to us for the period from inception
+(July 26
+ 2016) through August 31
+ 2018.
+
+
+
+    
+
+    
+
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+* Former Directors of the Company
+effective as of October 19
+ 2017
+** Current Director of the Company
+effective as of October 19
+ 2017
+
+
+of Mr. Hansen and Claravall
+ as of August 31
+ 2017. However as of October 19
+ 2017 both Audit Committee members resigned as directors
+as well as Mr. Baterina from the Board of Directors. We have not a Compensation Committee or Nominating and Corporate Governance
+Committee as of the filing of this Annual Report. Our Board of Directors performs the principal functions of an Audit Committee.
+We currently do not have an audit committee financial expert on our Board of Directors. We believe that an audit committee financial
+expert is not required because the cost of hiring an audit committee financial expert to act as one of our directors and to be
+a member of an Audit Committee outweighs the benefits of having an audit committee financial expert at this time.
+
+
+
+
+
+information with respect to the beneficial ownership of our voting securities by (i) each director and named executive officer
+(ii) all executive officers and directors as a group; and (iii) each shareholder known to be the beneficial owner of 5% or more
+of the outstanding common stock of the Company as of August 31
+ 2018.
+
+
+    
+    
+
+
+
+
+
+inaccordance with the rules of the SEC. Generally
+ a person is considered to beneficially own securities: (i) over which such
+person
+ directly or indirectly
+ exercises sole or shared voting or investment power
+ and (ii) of which such person has the right
+to acquire beneficial ownership at any time within 60 days (such as through exercise of stock options or warrants). For purposes
+of computing the percentage of outstanding shares held by each person or group of persons
+ any shares that such person or persons
+has the right to acquire within 60 days of August 31
+ 2018 are deemed to be outstanding but are not deemed to be outstanding for
+the purpose of computing the percentage ownership of any other person. The inclusion herein of any shares listed as beneficially
+owned does not constitute an admission of beneficial ownership.
+
+
+    
+    
+
+    
+    
+    
+
+    
+20
+038
+000
+    
+
+
+ Chief Executive Officer
+ Treasurer
+ Chief Financial Officer
+ and Chairman of the Board of Directors; 
+ Wuyishan City
+ Fujian Province
+ China
+    
+    
+
+
+ LLC.
+ )1900 Ave. of the Stars
+ Suite 310
+ Los Angeles
+ CA 90067
+16
+480
+000
+    
+
+    
+    
+    
+
+    
+36
+518
+000
+    
+
+    
+    
+    
+
+
+
+Based on 65
+600
+000 shares of common stock issued and outstanding as of August 31
+ 2018.
+
+On October 19
+ 2017
+ Jeoffrey C. Baterina
+ our previous President
+Chief Executive Officer
+ director&nbsp; and majority shareholder
+ entered into stock purchase agreements (the &quot;Purchase Agreements&quot;)
+for the sale of an aggregate of 40
+000
+000 shares of Common Stock of the Company
+ representing approximately 61% of the issued
+and outstanding shares of Common Stock of the Company as of such date
+ to nine (9) non-U.S. accredited investors
+ including Mr.
+Lei Wang who acquired 20
+038
+00 shares
+ or approximately 30.54% of the issued and outstanding shares of common stock
+ and two U.S.
+accredited investors
+ including WP Acquisition Company
+ LLC who acquired 16
+480
+000 shares
+ or approximately 25.12% of the issued
+and outstanding shares of common stock.&nbsp; The Purchase Agreements were fully executed and delivered on October 19
+ 2017.&nbsp;
+The new shareholders other than Lei Wang and WP Acquisition Company
+ LLC each acquired less than 5% of the outstanding shares.&nbsp;
+Consequently
+ Lei Wang and WP Acquisition Company
+ LLC are now collectively able to unilaterally control the election of our board
+of directors
+ all matters upon which shareholder approval is required and
+ ultimately
+ the direction of our Company.
+
+WP Acquisitions Company
+ LLC.
+ changed is name to Century Acquisitions.
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+CERTAIN RELATIONSHIP AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE.
+
+
+
+ 2017
+ Jeoffrey C. Baterina
+our previous President
+ Chief Executive Officer
+ director and and majority shareholder
+ entered into stock purchase agreements
+(the &quot;Purchase Agreements&quot;) for the sale of an aggregate of 40
+000
+000 shares of Common Stock of the Company
+ representing
+approximately 61% of the issued and outstanding shares of Common Stock of the Company as of such date
+ to nine (9) non-U.S. accredited
+investors
+ including Mr. Lei Wang who acquired 20
+038
+000 shares
+ or approximately 30.54% of the issued and outstanding shares
+of common stock
+ and two U.S. accredited investors
+ including WP Acquisition Company
+ LLC who acquired 16
+480
+000 shares
+ or approximately
+25.12% of the issued and outstanding shares of common stock. The Purchase Agreements were fully executed and delivered on October
+19
+ 2017. The new shareholders other than Lei Wang and WP Acquisition Company
+ LLC each acquired less than 5% of the outstanding
+shares. Consequently
+ Lei Wang and WP Acquisition Company
+ LLC are now collectively able to unilaterally control the election of
+our board of directors
+ all matters upon which shareholder approval is required and
+ ultimately
+ the direction of our Company.
+
+
+ 2017
+ the former CEO of the Company forgave all related
+party loans to the Company in a total of $5
+501. This will be reflected an increase in Additional-Paid-In-Capital in the financial
+statements. &nbsp;
+
+
+ 2018
+ Century
+Acquisition (Formerly WP Acquisition Company
+ LLC)
+ a 25.12% shareholder
+ advanced the Company $31
+000 and paid invoices in the
+amount of $3
+500 on behalf of the Company. On June 8
+ 2018 the Company repaid a total of $10
+000 to related party advances. The
+amounts due to the related party are unsecured and non- interest-bearing with no set terms of repayment.
+
+
+ 2018
+ the balance of due to
+related party is $24
+500 (August 31
+ 2017 - $5
+501). The amounts due to the related party are unsecured and non- interest-bearing
+with no set terms of repayment.
+
+
+
+
+
+to Auditors
+
+
+recently completed fiscal years for professional services rendered by PLS CPA
+ our independent auditor
+ for the audit of our annual
+financial statements and review of the financial statements that are normally provided by the accountant in connection with statutory
+and regulatory filings or engagements for those fiscal periods were as follows:
+
+
+
+    
+
+ 2018
+
+ 2017
+
+    
+13
+300
+10
+000
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+13
+300
+10
+000
+
+
+
+August 31
+ 2018 is the year end fees charged for August 31
+ 2017. No audit fees have been accrued for the fiscal year ended August
+31
+ 2018.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+registered public accounting firm is engaged by us to render any auditing or permitted non-audit related service
+ the engagement
+be either: (i) approved by our Audit Committee or (ii) entered into pursuant to pre-approval policies and procedures established
+by the Audit Committee
+ provided that the policies and procedures are detailed as to the particular service
+ the Audit Committee
+is informed of each service
+ and such policies and procedures do not include delegation of the Audit Committee&rsquo;s responsibilities
+to management.
+
+does not have an Audit Committee. Our Board pre-approves all services provided by our independent registered public accounting
+firm. All of the above services and fees paid during 2018 were pre-approved by our Board.
+
+IV
+
+EXHIBITS
+ FINANCIAL STATEMENT SCHEDULES
+
+&rdquo;
+which is incorporated herein by reference
+ following the signature page for a list of our exhibits.
+
+
+
+    
+    
+
+
+
+
+
+
+
+13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this report to be signed on its behalf by the
+undersigned
+ thereunto duly authorized.
+
+
+    
+China WuYi Mountain
+ Ltd.
+
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+        
+        
+        
+        
+
+
+
+Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf of the registrant and in
+the capacities and on the dates indicated.
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+        
+    
+    
+ 2019 
+
+
+        
+        
+        
+        
+        
+        
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+Incorporated by reference from the Company&rsquo;s S-1 filed with the Commission on April 30
+ 2015.
+
+Incorporate by reference from the Company&rsquo;s S-1 filed with the Commission on April 30
+ 2015
+
+in Exhibit 31.1
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+OFFICER AND PRINCIPAL ACCOUNTING OFFICER
+PURSUANT TO 18 U.S.C. SECTION 1350
+
+AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002
+
+
+ Lei Wang
+ certify that:
+
+
+
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or
+omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements
+were made
+ not misleading with respect to the period covered by this report;
+
+Based on my knowledge
+ the financial statements
+ and other financial information included in this
+report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant
+as of
+ and for
+ the periods presented in this report;
+
+The registrant's other certifying officer(s) and I are responsible for establishing and maintaining
+disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial
+reporting (as defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the registrant and have:
+
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures
+to be designed under our supervision
+ to ensure that material information relating to the registrant
+ including its consolidated
+subsidiaries
+ is made known to us by others within those entities
+ particularly during the period in which this report is being
+prepared;
+
+Designed such internal control over financial reporting
+ or caused such internal control over financial
+reporting to be designed under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting
+and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles;
+
+Evaluated the effectiveness of the registrant's disclosure controls and procedures and presented
+in this report our conclusions about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered
+by this report based on such evaluation; and
+
+Disclosed in this report any change in the registrant's internal control over financial reporting
+that occurred during the registrant's most recent fiscal quarter (the registrant's fourth fiscal quarter in the case of an annual
+report) that has materially affected
+ or is reasonably likely to materially affect
+ the registrant's internal control over financial
+reporting; and
+
+The registrant's other certifying officer(s) and I have disclosed
+ based on our most recent evaluation
+of internal control over financial reporting
+ to the registrant's auditors and the audit committee of the registrant's board of
+directors (or persons performing the equivalent functions):
+
+All significant deficiencies and material weaknesses in the design or operation of internal control
+over financial reporting which are reasonably likely to adversely affect the registrant's ability to record
+ process
+ summarize
+and report financial information; and
+
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant
+role in the registrant's internal control over financial reporting.
+
+
+
+
+China WuYi Mountain
+ Ltd.
+
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+AND PRINCIPAL ACCOUNTING OFFICER PURSUANT TO 18 U.S.C. SECTION 1350
+ AS ADOPTED PURSUANT TO SECTION 906 OF THE SARBANES-OXLEY ACT
+OF 2002
+
+
+
+ Lei Wang
+ President and Chief Executive
+Officer of China WuYi Mountain
+ Ltd.
+ hereby certify
+ pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section 906 of
+the Sarbanes-Oxley Act of 2002
+ that:
+
+
+the annual report on Form 10-K of China WuYi Mountain
+ Ltd. for the fiscal year ended August 31
+2018 (the &ldquo;Report&rdquo;) fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of
+1934; and
+
+
+the information contained in the Report fairly presents
+ in all material respects
+ the financial
+condition and results of operations of China WuYi Mountain
+ Ltd..
+
+
+
+
+
+
+China WuYi Mountain
+ Ltd.
+
+    
+    
+
+    
+    
+
+    
+    
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+      
+
+
+      
+
+
+
+
+          
+
+
+          
+
+
+
+
+      
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+ 2016 and established a fiscal year end of August 31. The Company is organized to&#13;bottle
+ market
+ distribute and sell our own brand of coconut water
+ presently called &amp;#8220;Koos Coconut Water&amp;#8221;. On November&#13;10
+ 2017 the Board of directors and the majority of its shareholders of Kokos Group Inc.
+ amended the Company&amp;#8217;s current Certificate&#13;of Incorporation in conformity with the applicable laws of the State of Nevada to change the name of the Company from Kokos Group&#13;Inc. to China Wu Yi Mountain Ltd. On May 24
+ 2018 FINRA approved the Company&amp;#8217;s corporate action changing the Company&amp;#8217;s&#13;name and trading symbol effective May 25
+
+ 2017&#13;Mr. Lei Wang became its Chief Executive Officer
+ Chief Financial Officer and sole Director and Mr. Richard Rappaprt was appointed&#13;Secretary. In addition
+ Mr. Baterina and Messrs. Flemming H.H. Hansen and Arthur T. Claravall submitted his resignations from all&#13;executive officer positions with the Company
+ including Chief Executive Officer and President effective October 19
+ 2017
+ and each&#13;submitted their resignation as a member of the Board. On January 18
+ 2018
+ Richard Rappaport submitted his resignation as Secretary&#13;of Kokos Group Inc. (the &amp;#34;Company&amp;#34;)
+ effective immediately.&amp;#160;&amp;#160; On the same day
+&amp;#160;Ying Zhang was appointed&#13;Secretary
+
+323. As at August 31
+ 2018
+ the Company&#13;has working capital of $12
+768. The Company requires additional funding to meet its ongoing obligations and to fund anticipated&#13;operating losses. The ability of the Company to continue as a going concern is dependent on raising capital to fund its initial&#13;business plan and ultimately to attain profitable operations. Accordingly
+ these factors raise substantial doubt as to the Company&amp;#8217;s&#13;ability to continue as a going concern. The Company intends to continue to fund its business by way of private placements and advances&#13;from related parties as may be required. As of August 31
+ 2018
+ the Company has issued 800
+000
+000 founders shares at $0.0000125&#13;per share for net proceeds of $10
+000 to the Company and private placements of 25
+600
+000 common shares at $0.000375 per share&#13;for net proceeds of $9
+600. &lt;font style=background-color: white&gt;On May 2
+ 2018
+ the Company entered into a subscription agreement&#13;with a China-based company
+ Grand Biotechnology Group Liaoning
+ (the authorized signor for Grand Biotechnology is a 4.9%&amp;#160;shareholder&#13;of the Company)
+ for the issuance of an aggregate of 20
+000
+000 shares of restricted common stock at $0.0075 per share for an aggregate&#13;purchase price of U.S.$150
+000. On May 15
+ 2018 the Company had received $100
+
+
+000
+000&#13;common shares with a par value of $0.001 per share and 2
+000
+000 preferred shares with a par value of $0.001 per share. Total shares&#13;issued as of November 30
+ 2017 are 65
+600
+
+ 2016 the Company issued 800
+000
+000&#13;(pre-split-10
+000
+000) common shares at $0.0000125 (pre-split $0.001) per share to the former sole director and President of the&#13;Company for cash proceeds of $10
+
+600&#13;in private placements for the purchase of 25
+600
+000 (pre-split -320
+
+ 2017 the directors of the Company&#13;amended the Company&amp;#8217;s Articles of Incorporation to increase the authorized capital structure of the Corporation to include&#13;two million (2
+000
+000) shares of preferred stock
+ par value $0.001
+ and to retain the previously authorized two hundred million&#13;(200
+000
+000) shares of common stock
+
+ 2017
+ the founding shareholder&#13;of the Company returned 760
+000
+000 (9
+500
+000 pre-split) restricted shares of common stock to treasury and the shares were subsequently&#13;cancelled by the Company. The shares were returned to treasury for $0.000000013 per share for a total consideration of $10 to the&#13;shareholder. Post-split our founding shareholder will have 40
+000
+
+ 2017
+ the directors of the Company&#13;approved a special resolution to undertake a forward split of the common stock of the Company on a basis of 80 new common shares&#13;for 1 old common share. All references in these financial statements to number of common shares
+ price per share and weighted average&#13;number of shares outstanding prior to the 80:1 forward split have been adjusted to reflect the stock split on a retroactive basis
+
+ 2018
+ the Company entered into a subscription agreement with a China-based company
+ Grand Biotechnology Group Liaoning
+ (the&#13;authorized signor for Grand Biotechnology is a 4.9% shareholder of the Company)
+ for the issuance of an aggregate of 20
+000
+000&#13;shares of restricted common stock at $0.0075 per share for an aggregate purchase price of U.S.$150
+000. As of August 31
+ 2018
+&#13;the Company had received $100
+
+ 2018
+
+ 2018
+ the Company issued 0&#13;shares of preferred stock and 65
+600
+
+
+ 2017
+ the former CEO of the Company forgave all related&#13;party loans to the Company in a total of $5
+
+ 2018
+ WP Acquisition&#13;Company
+ LLC
+ a 25.12% shareholder
+ advanced the Company $31
+500 and paid invoices in the amount of $3
+
+ 2018
+ the balance of due to related&#13;party is $34
+500 (August 31
+ 2017 - $5
+
+
+ 2017 the Company entered into&#13;a Purchase Agreement to supply 69
+300 private label Tetra Prisma 330ml packs of organic coconut water.&amp;#160; The total purchase&#13;price is $55
+410.&amp;#160; The purchaser has made the initial non-refundable payment of $2
+500. Other items on payment schedule include;&#13;an additional $2
+500 non-refundable payment upon approval of private label artwork; $35
+000 upon final order by purchaser; and&#13;$15
+410 due on delivery and acceptance of product by purchaser. Product will be delivered to purchaser within 90 days of the Company&#13;receiving payments as per above schedule.&amp;#160;&amp;#160; On November 30
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+ statements of operations
+
+ &amp;#8220;Disclosure about Segments&#13;of an Enterprise and Related Information&amp;#8221;
+ changed the way public companies report information about segments of their business&#13;in their quarterly reports issued to shareholders. It also requires entity-wide disclosures about the products and services the&#13;entity provides
+
+&amp;#8221;&#13;establishes standards for the reporting and display of comprehensive loss and its components in the financial statements. As at&#13;August 31
+ 2018 the Company has no items that represent a comprehensive loss and
+ therefore
+
+
+
+ and other applicable revenue recognition guidance under US GAAP. &amp;#160;Sales revenue&#13;is recognized for our retail and wholesale customers when: (i) persuasive evidence of a sales arrangement exists
+ (ii) the sales&#13;terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv) collectability is reasonably assured &amp;#8212;&#13;generally when products are shipped to the customer and services are rendered
+
+ financial&#13;liabilities and equity instruments of the Company are either recognized or disclosed in the financial statements together with&#13;other information relevant for making a reasonable assessment of future cash flows
+
+
+ &amp;#34;Stock&#13;Compensation&amp;#34;
+ which addresses the accounting for transactions in which an entity exchanges its equity instruments for goods&#13;or services
+ with a primary focus on transactions in which an entity obtains employee services in share-based payment transactions.&#13;ASC 718-10 is a revision to SFAS No. 123
+ &amp;#34;Accounting for Stock-Based Compensation
+&amp;#34; and supersedes Accounting Principles&#13;Board (&amp;#34;APB&amp;#34;) Opinion No. 25
+
+&amp;#34; and its related implementation&#13;guidance. ASC 718-10 requires measurement of the cost of employee services received in exchange for an award of equity instruments&#13;based on the grant-date fair value of the award (with limited exceptions). Incremental compensation costs arising from subsequent&#13;modifications of awards after the grant date must be recognized. The Company has not adopted a stock option plan and has not granted&#13;any stock options. As at May 31
+ 2017 the Company had not adopted a stock option plan nor had it granted any stock options. Accordingly
+
+ but not yet effective
+
+    
+
+ statements of operations
+
+
+ &amp;#8220;Disclosure about Segments&#13;of an Enterprise and Related Information&amp;#8221;
+ changed the way public companies report information about segments of their business&#13;in their quarterly reports issued to shareholders. It also requires entity-wide disclosures about the products and services the&#13;entity provides
+
+
+&amp;#8221;&#13;establishes standards for the reporting and display of comprehensive loss and its components in the financial statements. As at&#13;August 31
+ 2018 the Company has no items that represent a comprehensive loss and
+ therefore
+
+
+
+
+
+
+ and other applicable revenue recognition guidance under US GAAP.&#13;&amp;#160;Sales revenue is recognized for our retail and wholesale customers when: (i) persuasive evidence of a sales arrangement exists
+&#13;(ii) the sales terms are fixed or determinable
+ (iii) title and risk of loss have transferred
+ and (iv) collectability is reasonably&#13;assured &amp;#8212; generally when products are shipped to the customer and services are rendered
+
+
+ financial&#13;liabilities and equity instruments of the Company are either recognized or disclosed in the financial statements together with&#13;other information relevant for making a reasonable assessment of future cash flows
+
+    
+
+
+
+ &amp;#34;Stock&#13;Compensation&amp;#34;
+ which addresses the accounting for transactions in which an entity exchanges its equity instruments for goods&#13;or services
+ with a primary focus on transactions in which an entity obtains employee services in share-based payment transactions.&#13;ASC 718-10 is a revision to SFAS No. 123
+ &amp;#34;Accounting for Stock-Based Compensation
+&amp;#34; and supersedes Accounting Principles&#13;Board (&amp;#34;APB&amp;#34;) Opinion No. 25
+ &amp;#34;Accounting for Stock Issued to Employees
+&amp;#34; and its related implementation guidance.&#13;ASC 718-10 requires measurement of the cost of employee services received in exchange for an award of equity instruments based&#13;on the grant-date fair value of the award (with limited exceptions). Incremental compensation costs arising from subsequent modifications&#13;of awards after the grant date must be recognized. The Company has not adopted a stock option plan and has not granted any stock&#13;options. As at November 30
+
+
+ but not yet effective
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+ 2017 the Company entered into a Purchase Agreement to supply 69
+
+    
+    
+    
+    
+    
+    
+
+
+    
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+
+    
+
+    
+    
+    
+
+
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+    
+    
+
+ &lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;2018&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=border-bottom: black 1pt solid&gt;&#13;        &lt;p style=font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center&gt;&amp;#160;August 31
+&lt;/p&gt;&#13;        &lt;p style=font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center&gt;2017&amp;#160;&amp;#160;&amp;#160;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=text-align: right&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=text-align: right&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=width: 72%&gt;&lt;font style=font-size: 10pt&gt;Net loss before income taxes per financial statements&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(85
+794&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(25
+190&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;&amp;#160;&amp;#160;Income tax rate&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;21&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;21&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Income tax recovery&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;(18
+017&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;(5
+290&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Non-deductible&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;--&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;--&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance change&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;18
+017&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;5
+
+ 2018 and August31
+ 2017
+
+ &lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;2018&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: center&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=border-bottom: black 1pt solid; text-align: center&gt;&lt;font style=font-size: 10pt&gt;August 31
+ &lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;2017&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=width: 72%; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Net operating loss carry-forward&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;23
+588&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;9
+019&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(23
+588&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(9
+
+ and which cause a change in management's judgment about the realizability of deferred income tax assets
+
+ 2017
+ new federal tax reform&#13;legislation was enacted in the United States (the &amp;#8220;2017 Tax Act&amp;#8221;)
+ resulting in significant changes from previous tax&#13;law. The 2017 Tax Act reduces the federal corporate income tax rate to 21% from 35% effective July 1
+ 2018 for the Company. The&#13;rate change
+ along with certain immaterial changes in tax basis resulting from the 2017 Tax Act
+ resulted in a reduction of the&#13;Company&amp;#8217;s deferred tax assets of $4
+
+ 2018
+&#13;and August 31
+ 2017 the Company has no unrecognized income tax benefits. The Company&amp;#8217;s policy for classifying interest and&#13;penalties associated with unrecognized income tax benefits is to include such items as tax expense. No interest or penalties have&#13;been recorded during the year ended August 31
+ 2018 and August 31
+ 2017 and no interest or penalties have been accrued as of August&#13;31
+ 2018 and August 31
+ 2017. As of August 31
+ 2018
+ and August 31
+ 2017
+
+
+
+ &lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;2018&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=border-bottom: black 1pt solid&gt;&#13;        &lt;p style=font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center&gt;&amp;#160;August 31
+&lt;/p&gt;&#13;        &lt;p style=font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center&gt;2017&amp;#160;&amp;#160;&amp;#160;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom&gt;&#13;    &lt;td style=text-align: justify&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=text-align: right&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=text-align: right&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=width: 72%&gt;&lt;font style=font-size: 10pt&gt;Net loss before income taxes per financial statements&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(85
+794&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(25
+190&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;&amp;#160;&amp;#160;Income tax rate&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;21&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;21&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;%&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Income tax recovery&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;(18
+017&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;(5
+290&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Non-deductible&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;--&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right&gt;&lt;font style=font-size: 10pt&gt;--&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance change&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;18
+017&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;5
+
+
+ &lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;2018&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=text-align: center&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td colspan=3 style=border-bottom: black 1pt solid; text-align: center&gt;&lt;font style=font-size: 10pt&gt;August 31
+ &lt;/font&gt;&lt;br /&gt;&#13;&lt;font style=font-size: 10pt&gt;2017&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=width: 72%; text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Net operating loss carry-forward&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;23
+588&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&lt;font style=font-size: 10pt&gt;$&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 11%; text-align: right&gt;&lt;font style=font-size: 10pt&gt;9
+019&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=text-align: justify&gt;&lt;font style=font-size: 10pt&gt;Valuation allowance&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(23
+588&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&lt;font style=font-size: 10pt&gt;)&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1pt solid; text-align: right&gt;&lt;font style=font-size: 10pt&gt;(9
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+000
+000 shares of preferred stock
+ $0.001 par value
+
+
+
+
+000
+000 shares of common stock
+ $0.001 par value
+ Issued and outstanding 65
+600
+000 shares of common stock (65
+600
+000 - August 31
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+      
+
+      
+
+      
+
+
+
+
+
+ Shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 image_001.jpg
+
+
+
+ 'defref_wuyi_DocumentAndEntityInformationAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityRegistrantName'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCentralIndexKey'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentType'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentPeriodEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_AmendmentFlag'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_CurrentFiscalYearEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityWellKnownSeasonedIssuer'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityVoluntaryFilers'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityPublicFloat'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityEmergingGrowthCompany'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntitySmallBusiness'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityShellCompany'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCurrentReportingStatus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityFilerCategory'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalPeriodFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalYearFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AssetsCurrentAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsAtCarryingValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PrepaidExpenseAndOtherAssets'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AssetsCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LiabilitiesCurrentAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AccountsPayableCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OtherAccruedLiabilitiesCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DueToRelatedPartiesCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LiabilitiesCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AdditionalPaidInCapital'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RetainageDeposit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RetainedEarningsAccumulatedDeficit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LiabilitiesAndStockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_StatementsOfOperationsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_Revenues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CostsAndExpensesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_GeneralAndAdministrativeExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_BusinessCombinationAcquisitionRelatedCosts'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProfessionalFees'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CostsAndExpenses'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AdvertisingBarterTransactionsAdvertisingBarterRevenue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerShareBasic'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_WeightedAverageNumberOfSharesOutstandingBasic'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonSharesIssuedForCashAtPerShareShares'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonSharesIssuedForCashAtPerShareValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_StockIssuedDuringPeriodSharesReturnToTreasury'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_StockIssuedDuringPeriodValueSharesReturnToTreasury'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonSharesSubscribedNotIssuedForCashAt0.0075Shares'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonSharesIssuedForCashAtPerShareShares'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonSharesIssuedForCashAtPerShareValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_StockIssuedDuringPeriodSharesReturnToTreasury'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_StockIssuedDuringPeriodValueSharesReturnToTreasury'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonSharesSubscribedNotIssuedForCashAt0.0075Shares'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_LoanForgiveness'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquity'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncreaseDecreaseInOperatingCapitalAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncreaseDecreaseInPrepaidExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncreaseDecreaseInAccountsPayable'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncreaseDecreaseInAccountsPayableAndOtherOperatingLiabilities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInOperatingActivities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInInvestingActivities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashFlowFinancingActivitiesLesseeAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromIssuanceOfCommonStock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_SharesToBeIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromRelatedPartyDebt'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PaymentsToFundLongtermLoansToRelatedParties'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetCashProvidedByUsedInFinancingActivities'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsAtCarryingValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsAtCarryingValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SupplementalCashFlowInformationAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxesPaid'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentDecreaseForgiveness'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NotesToFinancialStatementsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_BusinessDescriptionAndBasisOfPresentationTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NotesToFinancialStatementsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SignificantAccountingPoliciesTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 11pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NotesToFinancialStatementsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityNoteDisclosureTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NotesToFinancialStatementsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RelatedPartyTransactionsDisclosureTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NotesToFinancialStatementsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_AgreementsDisclosureTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NotesToFinancialStatementsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<table cellspacing=0 cellpadding=0 style=font: 12pt Times New Roman
+ Times
+
+        <p style=font: 10pt Times New Roman
+ Times
+
+        <p style=font: 10pt Times New Roman
+ Times
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<table cellspacing=0 cellpadding=0 style=font: 12pt Times New Roman
+ Times
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_SummaryOfSignificantAccountingPoliciesPoliciesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_BasisOfAccountingPolicyPolicyTextBlock'
+
+
+<p style=font: 11pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SegmentReportingPolicyPolicyTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ComprehensiveIncomePolicyPolicyTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_UseOfEstimates'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CashAndCashEquivalentsPolicyTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LongDurationContractsRevenueRecognitionPolicy'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueOfFinancialInstrumentsPolicy'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerSharePolicyTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxPolicyTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ShareBasedCompensationOptionAndIncentivePlansPolicy'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock'
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+
+
+<p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_IncomeTaxesTablesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock'
+
+
+<table cellspacing=0 cellpadding=0 style=font: 12pt Times New Roman
+ Times
+
+        <p style=font: 10pt Times New Roman
+ Times
+
+        <p style=font: 10pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock'
+
+
+<table cellspacing=0 cellpadding=0 style=font: 12pt Times New Roman
+ Times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityIncorporationDateOfIncorporation'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityIncorporationStateCountryName'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_WorkingCapitalDeficit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_RetainedEarningsAccumulatedDeficit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SaleOfStockPricePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SubsidiarySaleOfStockAxis=us-gaap_PrivatePlacementMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SaleOfStockPricePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueNewIssues'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromIssuanceOfCommonStock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesAuthorized'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PreferredStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesStockSplits'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockRedeemedOrCalledDuringPeriodShares'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_SharesReturn'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_PostSplitCommonStockShares'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NewCommonShares'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_OldCommonShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityReverseStockSplit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TitleOfIndividualAxis=us-gaap_PresidentMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromIssuanceOfCommonStock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonStockPerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_CommonSharesIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesStockSplits'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_StockPresplitParValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SubsidiarySaleOfStockAxis=us-gaap_PrivatePlacementMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockParOrStatedValuePerShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CommonStockSharesIssued'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesStockSplits'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_StockPresplitParValue'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProceedsFromIssuanceOfPrivatePlacement'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentDecreaseForgiveness'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DueToRelatedPartiesCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_TitleOfIndividualAxis=wuyi_JeoffreyCBaterinaMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DebtInstrumentDecreaseForgiveness'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_LegalEntityAxis=wuyi_WPAcquisitionCompanyLLCMember'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DueToRelatedPartiesCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_DueToRelatedPartyInPercentage'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PaymentForIncentiveFee'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_AgreementsDetailsNarrativeAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_PurchaseAgreementToSupply'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_NetPurchasePrice'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OtherAccruedLiabilitiesCurrent'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_AdditionalInitialNonRefundablePayment'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_PurchasePriceOfFinalOrder'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_RemainingPayment'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_ProductDeliveryTimePeriod'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_IncomeTaxesDetailsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeLossFromContinuingOperationsBeforeInterestExpenseInterestIncomeIncomeTaxesExtraordinaryItemsNoncontrollingInterestsNet'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxExpenseBenefit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_Nondeductible'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxReconciliationChangeInDeferredTaxAssetsValuationAllowance'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_ProvisionForIncomeTaxes'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_wuyi_IncomeTaxesDetails1Abstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OperatingLossCarryforwards'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DeferredTaxAssetsValuationAllowance'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_DeferredIncomeTaxAssetsNet'
+
+O+G)E;'.MDD^+
+MPD 
+Q;]*F?L:5\'#8CUYZ6U9_ )Q)OU#.Y
+
+
+
+*P).B0\5?UX^8 TBTH_0(:+L A#&^NQT:E8(C
+
+0;FP@R8;-OGYIH(?
+MMWF\81AU8\K(XK%T-8943OTJDH\ Q:X831F:3LTXXFBD(3^ G/
+6+V2?$9/
+M-(X'PJ8%EQV^3O8:W7..7AKQ%/25V^9CGIYFHQ*/B76_..7+8\#?NW_+
+
+
+
+!3+UES@6QHO(];JM-O=5H1I;*$81V1@?5XL:$#05%%:;U\@M.4?
+M
+_@5RU2-9:
+!$U=!)KF(M/+Y;
+
+M5
++$P&IG/U9KQ]'22(R7V4!;I)]J/3%0@R#3LZG5C.=GSVQ.V?C
+K:=#1M
+
+
+
+
+
+
+_Y/%_GM
+T+
+T.W
+
+
+M4E5@
+5O& RN0HGQ
+
+
+MOT4SMA*7&+SCYL=Q3E.X$G:V#P(RN;LYJ7IE
+
+
+G'G%$0%T10(C
+
+
+
+U_HL@6V$5#)DU1?*0XG!/3-R0]A4)?.NVB8+
+MA=OB5
+
+)%K/]8UA[Y
+M
+
+
+
+0QY@%CS#*%F.-^'19H:
+M
+
+
++O
+MFC7\MDQQ^K[P7)_.RBR@U:*G)_:3J5_]D] S-$8YUWK9
+V[1+#C
+GW$#UN2
+
+
+
+
+
+
+'U1M?]GJILJ-
+
+J+.ES.N[FG9CG71U
+6M7IJ@O9857GSYU&5^KP(
+M(;Q
+
+M?^J*M\6\Y*U:Z?)7L3'[19B&P49M\V-IGO7YLQH*DF$P5/]5G51IY8[$KK'6
+
+MK7&W
+
+MO3W+
+WH5I*QASQQ^K2K
+_FV!T';C^N[[QDMY*83:0'G6X O\!/&KV3.Y0GV4
+
+MP0X(49$DQ]\NJ-OG5
+
+M&;JI.)UD:R3!0!*
+
+M2:RBM\N/3H9%\U@WXEG-\JRF/%;5V]4DCTUR3S%BD%UA]J;RIA2!?55Y#S'N
+
+
+
+
+X\+7_.JLI&
+MCK]]T'#(:8GC\7OT+\Z\
+
+\S
+
+T#'KW
+
+
+
+
+
+
+
+
+
+.QB_A
+U5M#^Z
+
+
+
+
+MO.E*T3@M/VW=?\A#3ND0
+
+
+
+
+M(0+DVI'4CF1V)%]$-+EK5.X:RC46W#U$@%P[DMJ1S([DBX@F-T'E)END6)_
+M0Z(1:90SJ#\\4V^7J'Z
+)?A0GO%
+)#
+
+
+=E-0THHPI-OO
+.=W
+#F2
+
+1*KTF5
+
+
+*%FNZ$)1I%/S'H2T-TG]&X2Y)H6&9
+M#U*F&.WFKZ
+X
+5;WW
+
+
+
+M_'1P$D+R?DS_0]_9
+R^.TT'%3W+8C?O]]O:5YW8@Q45]P?*FSVB[WU!+ P04
+
+
+D'4/
+MX1
+
+
+
+
+
+
+Y'8U]=!^#)FY+:
+
+H^]LR]P
+
+
+
+
+
+
+
+
+  !@   !X
+
+S1MRUQO@=<1I1+=[M;IKC0M
+
+
+MSR_LGV+M6
+
+
+2S%$9
+
+VP;D
+
+
+4DZYCE@B&[$N*=O%*7T%
+M3[?A^TV%^PC?_Z/P=IL@VR3((D'V9HE;,1_^2\)6/55@VSA-CE1FT'&25]YE
+M8._2^9_PZ=I_\9M*[0C%^/Q96/_&V
+\H)3=#8Y0AQ]L
+20T/AS?X]E.8S89
+
+
+
+MH(2[
+
+
+F74(&XOI\5?\:
+
+
+
+
+( 7J=_WP%[72NQ^@+,<,Z9T
+
+
+3UH
+
+
+
+
+
+
+M!!0    ( %R+
+
+
+
+
+
+
+
+MUNH+
+
+
+Y9RX
+Z6#LFVL //E04KN
+
+
+
+
+
+
+
+MTM8)?+PF7 ?6P
+
+
+GNS7!7:K KLHL/MO
+
+1L.;;OI!;/[&^2=02P
+$%     @ 7(LR
+
+
+
+M+_ #S
+_VH.R*#RGJH9&5[()%)RWX8YN]C1Q!A[Q6L%=C^:!^4HY9M;?#UM
+MP\AY! (*XRBX'6[P#$(X)NO'[YXT'#2=X7C^P?[9!V^#.7(-SU+\JDZFW(:K
+M
+
+
+
+MM=V]Y92M
+G)S1#UFWV'8&#
+
+M$R1C@CB:A(AA9H)
+49$4(6 3$0P3XR(+5&2!$03$0R3XB)+5&2)$PF(AAF
+MB8NL4)$50C]=AAF)O%K5&3]2)!,$X]A9A)/([R(H1BFGH4-)-[.E.I%*&8
+
+
+
+
+;
+M:R(9[W1A=A1%YD:K. ='#4R@Y1
+_SN 4&..M_@C\
+
+
+MF!O.
+
+
+^*)R
+
+Y+9Y YP2Z
+
+
+$
+
+
+
+
+
+M6:P(_?P$U@Y4#
+Z?XBT P  @A$
+M !D   !X;]W;W)K<VAE971S+W-H965T
+
+M5$FD]2/=I$VJ-FU[IHG3H '.@#;=OY\!+XM]+R3K0\/'.3['U_;!
+
+
+
+=^8I:^2M
+M*G[DFW:W\%/?V\AM]E*T7]3A@S0=2GS/]/Z3?)6%AG=.M
+9:%4W_WUN_-*TJ
+
+
+
+Q(/S/LQ^GU:H9T7=3
+L#A'0&A]@%RKSPK(U)B.UCY%D Q)2-
+
+
+
+
+
+%TV)T3C B)U+NBL7_\]!E=  P(@X&&F7M8
++VMW2WQG
+#/'
+
+
+
+
+
+MMWUE(#?%W!&2393C#?J^O8A9&##U]KPIS;FHW9L&DRH,&73,#^P1VW=3E%!
+M8'_0DD#K)=!X\?0H58@_+RGZ_ _;
+
+M-'-MFKDF33!*H\.$^B1B
+FBO!ELC
+
+X
+
+
+
+
+
+
+MP3UBOT2$D3V*T)IJ:/CAU
+'S[ *152 R M&=@#^KE0T3V$UBJTEL$0AG)CTF
+M
+
+H22#S+M\?$_^62
+
+
+QW;LSRC%T'J%O;
+
+O];D2*H#RK
+-G^ GB
+
+M$/%^Z\P^(E=9S#_':Y I%R1R!XE)5Q_.N6%]H
+521*@]_
+LV[ULS=OXFA(
+
+
+
+M.C^\
+7$'
+;(6B'2!Z*; #+(PFD1K6JWYE
+
+
+M2FXP4BM&:L&8N2V
+
+YZ
+M^'*GI)=6J/_N)#K.]^= 3:19O)!SWXSICS+FTOB!V;ENN7.@0LX[/95.E J0
+
+DZU
+
+M
+
+MT3UBI.O#
+
+
+
+
+MF0C)3(C3#PEX(N 5 3EG-NHC4:3
+!1\#X3[60
+R=B+=8'V9EFO;L[)I.*W7W
+
+
+3.)5
+
+MI \'N^JS^$EM&Z&
+
+
+)*3XHWS_Z
+
+
+M0.;7K+Y)9[XWAWN&
+MFQ
+
+M
+
+
+
+
+
+M]O#+RL-%V'= -YF.^S^]'U]=#&XGWXK!?]P-IQ]?'%P
++H?]X;2R;5]NO 0(
+
+
+
+M#U\V']0O4#DC[^['9
+:UNY_SB$5V/Q
+VJ]B;
+
+MLQ#C#5HMX/P*A6\'/P]&=X.*(?OSS6 TJ2JJ\0)86Y&@+E4 FU;U AR2^F2)
+M%ZK*43=1N  _@(6P[@'F^
+;S24T/ Q#%N%& ]QXTEES7EO
+NP+\ZT E(K^
+M^/IZ/ *)Z-U6KOYA
+
+
+2UNT5I%TES7V*'/KL!?78T#$1_ISYSP4_2NW(J%2P9C/5P+E:DXF
+M=DLC)X0 A3=O?+##3D?P'#+DFF80TLYQ! ! 'N
+9
+^0I6Y2#(1MNMQNL?*
+MWAK-^J
+
+
+MWHO+J_&'/:V'MC:C=Z+7GPY_KO541RH1?ABS0X0Z8$.Q2H6#5C)8HG0$(F3;
+
+(ZVI^+O*F%=
+
+
+
+MNIW.6]$$CU
+
+M+UT)6D-(Q
+O1!EQ'\$5T
+
+
+
+
+M
+
+M/
+
+M_T3N;2)WXU[O0EP+T@RX#
+
+
+
+
+VE=]^R9'*!0P
+W
+
+
+
+
+MYG+&\9D@O)+S_
+
+
+MIA1J2@5*@]=(4H_$4
+SWG'U ;084AS
+WOC)VT0=]BZ7A#9_G5
+
+
+
+
+
+\!HZX1N:#X
+
+
+
+MR\#+S&
+
+
+U)^I
+MX#MQX!TB/X;11I!H0(V#A?EIX&-H@AM#M%.??;B!!3T@0?K.%Z%1QS0U&M\
+M$+GU
+
+
+
+
+
+M$QS@
+
+
+
+
+
+M
+
+*'
+
+
+R_73$$5SB 4.H-G99[H6!-77!P'
+I9515(GG@]8ISW#Z
+M6_,%011DX\.
+
+FSSWE
+
+
+
+
+
+M?W8HQALOP&/Q.*QDUIYFFK41MB;'YB,OGLH!AHGL8;)H\0+FSH/OB,%PNZ
+
+O$F\?
+
+/.7!X
+
+
+
+
+MA)%B&Y=)-I$?+K
+
+
+VI53L)G4KN_%;@HWB550YC)'158F(]$'NF1R
+SJ5ZNXCAV[\%%
+M97J#O28KW@7J?KB!D!*XD4
+
+
+Z(7^1XQ%?0M0NIF!-)2;RXK44)R?'
+
+
+AF);Z$)A0
+-^=@JQPY9+[N0Z1OE=RU%T7JPS/51(
+
+M\%_G9\J
+DL^-MR(QT3EVO0
+M=VYJ*!O\CQ3G,_! E!D:K5X9$V.9%&,SY13
+M,*N#569$N&F0/C,H;3U@O+OQA )BM
+
+M$
+
+
+
+
+
+
+
+MX)U+%=3$$A15E:XTDPB8I0XOCR@6EH[P@;@3+596T#=CZ*ZI7T-4A*M_
+-
+
+9!P*QQ/O^]!N[ B'EXT?R2
+
+
+M&+DA:*I84OM[&A0:)#+T:S$M*K'L+IO0]^:ZZ.##7;S%EGE#]^JA?PFN@/3U
+
+
+
+:A:BN'TF-2LI
+MLX8!OCWS9E_G/O\UYS[W'^G
+
+
+
+MZ
+
+M
+
+
+
+
+
+
+$%     @ 78LR
+
+D79DR6]-?/QEP2JC5+UDWC)3X7G^_[#(=P
+
+
+
+
+
+
+
+
+
+MSH[5[$]0\VM?YQQS+!'=%JU[_W^^RO]8\?G%GTMN_E7&@E]1HWF;3T#D? HB
+M@RF(G$1/7DY!Y-5?%NFT+_M*6%G1NBC8%D3J@AOY18D3;'58X:T'XU\R'=
+
+
+
+1-
+
+F$G@
+
+
+
+
+MK65-&:WI
+RG;EMSRIQD7])DSA:NL$+RJVEG-0#M)KR!_]]P2H6C1
+U1XG6+-
+
+M#
+
+-X JYA%F7 @/QH@?SH
+M.)*KQ0*F=VVRHYLXFD8AU+F'89BLXMQ
+]YD%\LPM9 B740[GW7$TD
+XM2.=N
+
+.UI0;RD@9:]]2
+M]^L?WV(I0//HRNS):;/;S;ZJ0MV7L#G'[46B\7&XH5W]!%!+ P04     !=
+
+
+K;7/CS:6HZZ
+
+BM;\6OMYKI[1IML?SPMAUJ
+
+
+
+*'HO:U1)N#8I
+
+
+MQ5
+
+M 0(4 Q0    ( %R+
+DX?(\\#P    !
+   +                0    !?
+
+
+
+
+
+
+M4$L! A0#%     @ 7(LR3MI-LP'E @  ?PL  !@              ( !ZPL
+
+
+DY0N=56
+
+M
+
+
+M3L%XWP_+ P  4A
+
+O
+
+DZ.J)!K. 
+  %
+-   8
+
+
+U 0  T@
+  !@
+
+
+M Q0    ( %R+
+
+
+
+
+M970Q
+
+M971S+W-H965T
+
+
+M% 
+
+
+
+
+M:&5E=#$Y+GAM;%!+ 0(4 Q0    ( %R+
+DZUIMWOW@$  .H$   9
+
+
+M  @ 7(LR3B1IKA*)(   YH$  !0              ( !VSL  'AL+W-H87)E
+
+
+
+
+
+end
+
+
+
+
+
+
+
+
+// Edgar(tm) Renderer was created by staff of the U.S. Securities and Exchange Commission.  Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection. 17 U.S.C. 105.
+var Show={};Show.LastAR=null
+Show.showAR=function(a
+r
+w){if(Show.LastAR)Show.hideAR();var e=a;while(e&&e.nodeName!='TABLE')e=e.nextSibling;if(!e||e.nodeName!='TABLE'){var ref=((window)?w.document:document).getElementById(r);if(ref){e=ref.cloneNode(!0);
+e.removeAttribute('id');a.parentNode.appendChild(e)}}
+if(e)e.style.display='block';Show.LastAR=e};Show.hideAR=function(){Show.LastAR.style.display='none'};Show.toggleNext=function(a){var e=a;while(e.nodeName!='DIV')e=e.nextSibling;if(!e.style){}else if(!e.style.display){}else{var d
+p_;if(e.style.display=='none'){d='block';p='-'}else{d='none';p='+'}
+e.style.display=d;if(a.textContent){a.textContent=p+a.textContent.substring(1)}else{a.innerText=p+a.innerText.substring(1)}}}
+
+
+
+
+
+
+
+
+/* Updated 2009-11-04 */
+/* v2.2.0.24 */
+/* DefRef Styles */
+..report table.authRefData{
+	background-color: #def;
+	border: 2px solid #2F4497;
+	font-size: 1em;
+	position: absolute;
+}
+..report table.authRefData a {
+	display: block;
+	font-weight: bold;
+}
+..report table.authRefData p {
+	margin-top: 0px;
+}
+..report table.authRefData .hide {
+	background-color: #2F4497;
+	padding: 1px 3px 0px 0px;
+	text-align: right;
+}
+..report table.authRefData .hide a:hover {
+	background-color: #2F4497;
+}
+..report table.authRefData .body {
+	height: 150px;
+	overflow: auto;
+	width: 400px;
+}
+..report table.authRefData table{
+	font-size: 1em;
+}
+/* Report Styles */
+..pl a
+ .pl a:visited {
+	color: black;
+	text-decoration: none;
+}
+/* table */
+..report {
+	background-color: white;
+	border: 2px solid #acf;
+	clear: both;
+	color: black;
+	font: normal 8pt Helvetica
+ Arial
+ san-serif;
+	margin-bottom: 2em;
+}
+..report hr {
+	border: 1px solid #acf;
+}
+/* Top labels */
+..report th {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+..report th.void	{
+	background-color: transparent;
+	color: #000000;
+	font: bold 10pt Helvetica
+ Arial
+ san-serif;
+	text-align: left;
+}
+..report .pl {
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+	width: 200px;
+	white-space: normal; /* word-wrap: break-word; */
+}
+..report td.pl a.a {
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	overflow: hidden;
+}
+..report td.pl div.a {
+	width: 200px;
+}
+..report td.pl a:hover {
+	background-color: #ffc;
+}
+/* Header rows... */
+..report tr.rh {
+	background-color: #acf;
+	color: black;
+	font-weight: bold;
+}
+/* Calendars... */
+..report .rc {
+	background-color: #f0f0f0;
+}
+/* Even rows... */
+..report .re
+ .report .reu {
+	background-color: #def;
+}
+..report .reu td {
+	border-bottom: 1px solid black;
+}
+/* Odd rows... */
+..report .ro
+ .report .rou {
+	background-color: white;
+}
+..report .rou td {
+	border-bottom: 1px solid black;
+}
+..report .rou table td
+ .report .reu table td {
+	border-bottom: 0px solid black;
+}
+/* styles for footnote marker */
+..report .fn {
+	white-space: nowrap;
+}
+/* styles for numeric types */
+..report .num
+ .report .nump {
+	text-align: right;
+	white-space: nowrap;
+}
+..report .nump {
+	padding-left: 2em;
+}
+..report .nump {
+	padding: 0px 0.4em 0px 2em;
+}
+/* styles for text types */
+..report .text {
+	text-align: left;
+	white-space: normal;
+}
+..report .text .big {
+	margin-bottom: 1em;
+	width: 17em;
+}
+..report .text .more {
+	display: none;
+}
+..report .text .note {
+	font-style: italic;
+	font-weight: bold;
+}
+..report .text .small {
+	width: 10em;
+}
+..report sup {
+	font-style: italic;
+}
+..report .outerFootnotes {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+      
+      
+      
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+begin 644 0001079974-19-000022-xbrl.zip
+M4$L#!!0    ( %V+
+DZF(D22T30  &WU 0 1    =W5Y:2TR
+#$X
+#4S
+2YX
+
+M19$:'G9I?OV+B$R228J22(DZ7-8V^,2R8S(R,BX,B+RY__Z-K+9_=\RW4^
+
+
+
+
+'H_U
+
+
+
+
+!HJ
+\D(]
+0.;;
+MV+8
+
+
+O
+
+MM%XL
+
+
+
+M1JY#?N7WL:
+
+
+MLU.LL[
+G(IT]N^P&NRC:IK.!7)F]AMF]=5_KX5XZD6R_[CNT[IO(C3O=K_O.
+
+N\=2[UL17H]KOBA[DTV'L;9;V-/4OM
+
+M.RUUSU)O@J5V+P-WAF.[9Z
+=8Z
+M.[Q[?MA=?MB&([SGA]WEAVTXR'M^V%U^
+MV);C+
+_:N^8+EF2;C]S@UCCPWP5/T-EW_LSW;G)1-WG/0+O'0&_**=XST.XQ
+MT
+
+MOCQ=39%EQ'4_]/@OLI/Y.;P3#18]2H/ T6:
+3\7L_DP0DE/HI:5A 'X/
+^!0
+
+
+M8 9BQYUCNC
+
+0W;FQ]4!A
+
+
+
+
+
+M!Z(4O3OX!PN&G&XNY(2
+
+WA59WW7JX\]MV\%3'879*[#_A[:$]8Z
+
+
+
+M.V?:$7LRW:#I$7;H
+
+
+\*[E1Z!<<
+M_M&]81-] B
+H(^]@(02_.U:H-A
+PN*)&QY' [
+!C
+
+:N:+3J)WM
+LF
+
+H2E
+
+
+M6(^X.3LQ 57O6;:T+%2*HN*&5;. B$(2#-2U1]O*Y&
+T
+
+
+
+'
+M)I-.Q!V+T#M.7
+
+
+
+MUU-PK!@G352:2LX
+
+
+M&W!CZ #\P43JL
+^6[F+*2DTH
+CV)F:
+
+^MY#WCAIG/R;B7C'W(W6I
+M3 54(8Z%OU@R
+( $P_TU@(D
+
+
+M3
+  K:$0A0J*NF&$5$P8))C$20AH_(1H&P,B0)+TL\4B5IWP*I7X(*#@D]
+
+#:Z=B8)?=A]OG
+
+CO@@U6+!2CBEM9Q4'J#
+V0NF.Y JHRP/
+
+
+
+
+G1_F&?+O9
+UO H]M 1^
+
+
+MK$0/V@I;O)/%@PW8A;6PV;$2
+
+
+
+M
+'*7P62\QZESD[B\Y_(
+
+
+M20
+
+
+[E W:$T/)!.U9%
+
+
+
+
+
+
+,GR*0A^P [7.??
+PJPM9CXKUZJFA@DOK^^G$NXP*1+L4YVL
+
+
+
+
+
+
+
+
+
+MHO.8Z/A[C$Z^L!+1_H7-1O:O.&:-Y0@:WP!WC#E5HA;+QMPDLI?IV_@L
+05S
+MMTX8UE]#]R0ZDL+\XZ8C6]M!N^
+]WSQU/['NTR5KG8*GHIS')E8Z^CS@U4KZ
+
+VPHHK
+Z$8;I2R(+['E[WHU^3[0.P
+
+
+
+M/DJD#@O-
+
+F
+
+
+
+=^!8[S6\H13%(1G^
+MS6-7(!T(%2(P]!U]PQN%''S0Y+&8E3%!753)0
+
+
+M-VPJXS&3XX^P77O8@ Z^P8^LP!9.*WBO5&Y!-B&%7K#%KR^BNX)B'ZP7+!^U
+M
+
+
+MAK:
+
+M=CAFI1F2]D0CW9+5M$3H['+10
+
+
+T
+
+
+8Q-6PHL9PPL9NP*GGGCT1T-%X-GDO0-TA
+MU$Z#765H3GA
+
+
+7-I9&= H6B<.+)TRA
+M!=DB'5&*YY'V02TG@[<L&J(@O#QP\F--%P7'B4+EE:(AY&-Z
+
+
+M\22[3W=D_@.&F&A/^'30F^.ZXB #US5E'D@2:ZG%[?(\:Z13?QN\/P=+]A?
+
+
+
+M*:VE;.%!+2GJI^5V(B$+T;Z0/+$MD:4MABW[CC?\(+) R!
+
+
+
+
+
+S
+
+M3\IXWJD4V&XYTZX9'OMBIATH9E*Z0RU1UA3)YWFE356(G;3XF#(^P*GL.B;^
+MCU)
+
+MV%9JQX2)
+
+\J G'&\:Q_VSD-L!TQOKE:P5V4WE65
+
+
+M?5M^M@4A5&&A6Q5Z=PE]FE7)()V5[/54&=$^-S1U9KS-ZKVM5Z
+D :%9M7AX
+M
+
+
+
+
+
+
+
+
+MY;5#(C
+@SW=;I\DD?
+.N6W\ VA0EBRX@EO;9OOG7N
+
++_X7.2&YVZ/4V4O1NZVI/I3
+
+
+MP/HPT12TW.%RIC;DMKTR
+'64:1@/U-CPQG;U66R
+
+
+EBRR@,H#*F: J$)F
+M/HPI^U DS_C@SV&L;,5%;Y^I:YX_]O(8%*%%6SLZ*XT!E4&L./4C33M3$@-2
+M8Y8&6&2F1RU-*PCOP9-5'Q3IFC[Y6XVIXZ^M-
+0A^C*(IXB%P4%4KT'4\
+N
+
+
+
+
+
+
+
+
+
+
+GN=V9N\&E[
+&R4DSEJ'EZ
+
+
+K(%3F%'
+CU[@ED5SY0]UZH:;F$3HBK
+
+
+M 41W=6)&)%VOE]PG&]VGRND6
+WSKBT-7M]%E
+
+[5-'-0V'@@OF#UX(R
+MO%U
+
+M;MO^6
+
+].^Q;IK1O].XM1;C]FJ9P1GT?PQ9G0#2*/?7[.HK\.$GP0
+
+
+
+
+
+Z[
+ 8M[<?2S/CRP+S^6%)W+0?TQM,6=04#^<=FHG
+
+
+
+
+
+MRF[XF4-5IHO6;GK E!
+
+
+
+M*B/+=TC0
+
+M2KN.^=L0Q&@(93PW%GMM6Y0=:]#;ZY
+
+
+
+
+6\0
+
+M1L3#=_S0&
+
+
+
+MVX*JK\#\W-$C DZ7S7S GR+YW6I2 (D]PX!=(XA_UBY^J@$$/[0I$@
+#I0+
+MM**^D -C9$@W]!$I@8W^*AA8'1D&
+
+K45RTM!\%
+04\DI1_3@
+M)7K48DX+@L=19
+
+MZ6$P=#UQU8
+
+M128&WF6/_(4[ !JH]&*!O0)
+
+
+M:R#
+
+
+M+)JN@
+
+
+M7
+
+(CK&?NH
+MF94.\XE2E&6+ 9DQW5E 3&Z=7X.828WELV]2U!@ [QSM^C!+:9SZH;!;209
+M./XTRL^'
+X8%J#\??NMYMG6._X5__G]02P
+
+M*$X  !$   !W=7EI+3(P
+3@P-3
+
+
+?_6.
+M;%9.G
+ /D
+M&Y_&0_$P/UE@[%YZUV=O)R9%M<6I_]:A/\[-LX\_7O_W^E?<'81+GGOV'9XA
+M#3Q.O8M*L2'XR/&I[5&O:[7/M_TS(N$A(V'UUOQ:1ZV=G9[5@-B9=H7P<
+
+Q=[A3S!3 $3993Z
+MLV)T'
+
+
+A[C4:<')T%;&QHC.(&MD=$W
+
+M?ZO:#-J;4
+
+M_?\(9/E/=@6
+
+
+
+
+
+:;'9C%'S#D')TO4\'SM7
+MC
+M?V&
+
+
+
+
+
+M*^
+
+
+
+
+5]0;T
+MV_OSS[@RA
+
+
+
+R%UY6\;6S.]=;]?:R 3(YLI
+[6SE:%'V*;=KY
+
+2ZMYF]9
+
+@DI0
+MWF'EXR=J$]FH&NN?MZP
+
+
+X;6X9R[\Q;;9I59*D5
+
+[C3-G/^^2ZZWZG\_+R
+
+
+
+
+1BN!Y%7W+#\5&,'[D 39N%X$F
+W
+
+
+
+
+
+N)#FD#=@;PP6SDJ
+
+
+FZSY^BND7(.S8YK3$#+Z-FQL!
+
+
+
+T?=J7A!.LN;I7'
+CHF[O6@ZHBR#O
+BPN@-C
+
+
+M]C-A_/8E48=([F?FF=NH\!S_!H7R0:$D09&(D1Q5&E?& T:'8$8&9/M;L2-M
+
+M&D
+&X%X?%XC11; 
+
+M9X:W
+
+4-:Q
+['KV'RC*@SGM8
+H8V=C.%='
+
+M#Z60+,7.QT382(A !IDA_R%_S\:^.3_4$L#!!0    ( %V+,D[AX,\Z?0P
+M -;   5    =W5Y:2TR
+#$X
+#4S
+
+
+;F;*MM\
+
+
+
+
+F
+ADY&FQLI%@N
+
+MN9H
+L09LMQIF(I*X*=BWYB99DSUJ=KK-\\[9BZ4W-CRYQB;8@%.XD-C_M#:]
+
+%
+
+
+
+
+
+
+565=J0:)&8?
+
+
+
+
+
+
+^DZ!#601MIIG[]H7[,N@JR2/QO%X2*=0U-MUYQ:V__N(1&$MZ7SIW
+MX84@AY?T5H*S,8O9V<FZ[MH-&!. =,7TG7A9K*2*5=\2J<H6P$N7[L2%G=9
+
+M**X&MXLZ.#=N0.'NU+CB1\_
+
+M8I5 8#DDJ;-BF13*0VR*BJOX^GB(#RY]:4,LE(R.DK&LO3AT?:ANGYOYLPM
+MC: YU$?8CK3_]EF[_?$B]_4-RNQJ=M9(QYY'\LE;XB!24$LT1
+
+M;)
+
+
+
+
+M_DG6-&?MN
+XF/C>
+
+M2 P$+!QLHS#/114A[^Z'U*V=D_/VY+P].6]/SMN3\_;DO!6=P)/S]D_FO*WI
+
+
+5]#';6(7B.P!$2% 0NYK0T!GGLV.[K
+
+
+
+&T[Z
+&E4H#P
+
+
+I
+M?**?X=OR)&.NDBXL
+
+ V=:(E=&
+$OAP&< D,+R+$]A+4\421K.FP25:_O#7[/ #=;<WD=04Z1MBMVB
+M-R94&CA;L5V%C&XM;/MJ@E5Y]U),9(U.2S70.R-*L!\'0Y[J6_I294Y^-N1
+
+T]F
+T]F
+(SB;P1GN_@GQ8D'@:^\+[9D(
+D'J
+M0
+=)7=.-
+
+
+
+$%     @ 78LR
+M3E 2U[&N(0  &;0! !4   !W=7EI+3(P
+3@P-3
+Q7VQA8BYX;6S=76USXS:2
+
+
+
+
+
+
+MO'GS_LV[]Y=7_VWX
+
+
+@8H.SQ*\*+=:*3._J^^^_O^#?
+
+0EB
+M?Q@=AKJI[0@^?7=(^H(.5/6M=V$1IUYX$/BJIG788WS8$]_KV7_2=#+!ASWI
+
+
+$F]PE'[$
+MFWM,%-U6=MDDAYPE49R23 <TL)K$B@71J4T^GLF#X1&BR!E[\$H\H/'P-]Y
+
+
+
+
+
+
+
+
+M4]OZ8Z5FS2%VZ4=HG$R7GY.J*5.!9KHJH;A$&JF@[B0-F
+&9X'3#H
+
+
+
+D;#L+600$W(RV/T=(0QD
+E'GGF)[AD^2L*.;LL4LLLZ<A!(@U<F0ZMI0:B*NXI
+AT
+M=Q\&RYLP]IIA
+X6
+76I(X-5I41$ 1 D1E9!!S240%W$X_
+
+-)NL@6G\@\5/Z
+
+
+
+S410%21X5+LN.0U0G)9
+
+M_-F
+-!5)-Y01H
+
+
+
+
+
+
+
+M
+#C56R[C'742I]ZS=Q_BECE2(6QULM0KLV:4DDP'-+$R(*N3#:9M(PR).Y
+
+
+
+
+
+
+
+
+=
+
+
+I:N%W?.''.
+ZACZ7AU-
+
+M%_(RU2N
+@3A.4Q*O:*=X[O
+
+
+
+M
+IM?YJL-Q6
+
+MC86K@Q0R-CDHA5?E5DT 5M:P#%J3$./A MU.YD 
+7'$TH]BCO/:28*GHG4+6
+
+
+
+
+
+MOOWN':(TS^1
+K
+)IR2@K ]51%Q(5A8)1G11_
+
+
+
+2UYFW.
+
+ K\ N=XY2
+K&4!2G
+AG&&GK2DKQB7?*^_\/ F]O 3Y]-<JV
+M
+
+
+
+MYZG?F_^$[N;# 1J-4=?@E'/6CJ)'G+R$M=(& +!6TS$#UDJTP9U1[89;6(8Q
+
+
+?:3&SK:;$^=;=5.5I4RYXH'9*!GN:R-
+
+
+-RW/D&V%E-]5KATXM
+
+
+M
+
+
+ 1'#U7?W]]V8)0$E&#.6.\H2GY#/3W!74KQYQG?1!!2*L3;
+
+:P5E+)F8+&!=Y&$;6B.V9D]]:
+
+MISL=::)E;;_&O OE#DZ[BG
+
+I+*R9(@MIEJJ5HY
+PC-EU?LO+ +
+
+
+
+LED5;:
+M.7^
+(0IGSS_
+
+
+M#:;
+;J=J^3[M:I^C739KI@:-D1L*0N]UX=L?I<
+M,(AYE^#):IBDP8:N[%4[T$TAFR23 ZQ2J2X!AC!26$U:4$V=Y9BO.I4+TEV
+M&[[1 H0DBEQA
+
+
+
+
+W;
+
+
+
+
+M
+
+M;I5[+:!K;%/(.I^.# $*@;B\@G^U&C_GX!G?G$W@[
+
+
+
+
+
+
+MR2-^
+97PV87GKCGR]08[W+QJM[\C1!$24$O#\_\
+
+
+0+C?(\R+8XR50<I:
+
+
+
+
+V?3X= 2B?&1^
+
+MD$1+WNKIPEV/04)_
+
+
+MDWG9S:-Z2+!X6)KOK&/J@+M.P07KU
+!E9!.EP1BZ5H@R0^
+
+
+
+
+H6I
+%+^C+1-W5OLKX9?/Y9D&TL!M
+
+8X
+
+
+
+S^Q=R9
+M1R_D5][SX%K38DE=C [Z@
+;X(-C26M3
+
+^%_5-HY0UE+2&*Z7:ZQ3GG-')RQ
+
+
+MY^W5TY*PWP
+
+
+
+
+M[\.$O1%R0)2
+
+
+
+M=\G
+
+XS@H)E-.L)HBG\ )A7I6
+
+
+M1
+
+
+
+^/09=(@H$_)/;R]#O<\4 H-)5$H6
+
+
+
+
+'?HLUM+HO#&
+
+
+6\59I)(0O.S2=!(:4$C/G\@/R8J
+
+3B33Y@QO%8%#(
+
+
+
+M
+
+
+
+
+
+)V78_J#OA3X+G#8']SCK
+%9Q'H.SZMBHQ =C
+
+
+M%
+
+NJYG: \3W*(3ZI]:
+GT-4
+\&)&;F)RS.%.$E+E'+T
+MV
+T,EY%:QJ/1G=22-@F;BRE?$IM;@)76GAC0F=P2
+
+$1%I/0!X@$$
+
+
+
+
+
+
+ F %Q_'F
+M'N+)LA!Z$4FV(W6=_XJ05E)3YKC5$I%J$Z56]8P2H:JYHO)MW??YN
+
+
+
+1
+
+
+
+
+MLIN!CUR^4:4
+
+
+M0^VMAO:7JKJP-/IN S/=C=AW^OV]&-
+ZU*EU)GR1!33&P0(M
+ 1A7%IV( T4
+
+
+
+
+
+!&!
+
+MR3*3*
+U&68)4;X6E*J$\:7VTE1Z1G
+
+M8I
+
+
+
+#Y9^K
+
+
+
+
+
+*2G
+C'...5S126@&MPA7P%B27&_YRB8Q5M*7&1#3
+M1W(Q7
+
+@]!Y@NIHHHBS?@[8+ZXT#K:HU
+[#^'
++)LA]&WH;L+CAGE/EVVFZ3
+M-XY;N0;
+
+;:L5NM%T3;QSR2OHS _H!\'2_3=9'KV\YRR)4 2Y)+FVN^-0ZVD
+M+S
+
+\NWY$]*$O
+D(A#GJT
+<T#G]23?55! FTUR3IBPI3C<':&
+
+FM]/\I[(
+-PZH/4[Q15JF6UU_W$
+
+
+
+Y,G)<0<V(6.2K?]N.$V_BY(%&YCC
+
+RKT1O==/
+D^LNF5#7
+
+M\
+
+
+
+
+
+
+
+
+
+51?\A!42=M37;)
+
+
+
+NS'&
+
+IQ+0: EBQHK\&MWSHEPL6$IP,RQJG94
+M'&+QQSH5 \A+1F6T/YN;#GR!-8=\
+^6[I8*\;]DUX-L.ZK)9%81Q90@;/2V-
+ML;
+
+
+
+TK@#33WD#OUB
+VVW!ZOKF5K6P,:(S=VHA[T5]XM_ V
+M
+
+
+M
+
+
+M-( $//JH*(ABPLCNI#%[1#;2N5:'3WED-:A/
+
+
+P_T$ZM@-3WEJKKZAF
+
+
+C Q.# U
+
+
+M
+C Q.# U
+
+

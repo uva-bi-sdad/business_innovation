@@ -1,0 +1,18094 @@
+
+
+ACCESSION NUMBER:		0001493152-19-005430
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		45
+CONFORMED PERIOD OF REPORT:	20181231
+FILED AS OF DATE:		20190416
+DATE AS OF CHANGE:		20190416
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Global Diversified Marketing Group Inc.
+		CENTRAL INDEX KEY:			0001725911
+		STANDARD INDUSTRIAL CLASSIFICATION:	BLANK CHECKS [6770]
+		IRS NUMBER:				823707673
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55889
+		FILM NUMBER:		19750332
+	BUSINESS ADDRESS:	
+		STREET 1:		4042 AUSTIN BOULEVARD
+		STREET 2:		SUITE B
+		CITY:			ISLAND PARK
+		STATE:			NY
+		ZIP:			11558
+		BUSINESS PHONE:		800-550-5996
+	MAIL ADDRESS:	
+		STREET 1:		4042 AUSTIN BOULEVARD
+		STREET 2:		SUITE B
+		CITY:			ISLAND PARK
+		STATE:			NY
+		ZIP:			11558
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Dense Forest Acquisition Corp
+		DATE OF NAME CHANGE:	20171220
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+Washington
+D.C. 20549
+
+FORM
+10-K
+(Mark
+One)
+
+
+
+    
+ANNUAL
+    REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+
+    
+    
+
+    
+For
+    the fiscal year ended December 31
+ 2018
+
+    
+    
+
+    
+TRANSITION
+    REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+
+For
+the transition period from&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Commission
+file number 000-55889
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+(Exact
+name of registrant as specified in its charter)
+
+
+
+    
+    
+    
+
+(State
+                                         or other jurisdiction of
+incorporation
+        or organization)
+    
+(I.R.S.
+                                         Employer
+Identification
+        No.)
+
+
+4042
+Austin Boulevard
+ Suite B
+Island
+Park
+ New York 11558
+(Address
+of principal executive offices) (zip code)
+
+Registrant&rsquo;s
+telephone number
+ including area code: 800-500-5996
+
+Securities
+registered pursuant to Section 12(b) of the Act: None
+
+
+
+Securities
+    registered pursuant to Section 12(g) of the Exchange Act: 
+    
+Common
+                                         Stock
+ $.0001 par value per share
+(Title
+        of class)
+
+
+Indicate
+by check mark if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act
+
+[&nbsp;&nbsp;]
+Yes [X] No
+
+Indicate
+by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act.
+
+[&nbsp;&nbsp;]
+Yes [X] No
+
+Indicate
+by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange
+Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+and (2) has been subject to such filing requirements for the past 90 days.
+
+
+
+Indicate
+by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted and posted
+pursuant to Rule 405 of Regulation S-T (Section 232.405 of this chapter) during the preceding 12 months (or for such shorter period
+that the registrant was required to submit and post such files).
+
+
+
+Indicate
+by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (Section 229.405 of this chapter) is not
+contained herein
+ and will not be contained
+ to the best of registrant&rsquo;s knowledge
+ in definitive proxy or information statements
+incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K.
+
+
+
+Indicate
+by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller
+reporting company. See the definitions of &ldquo;large accelerated filer&rdquo;
+ &ldquo;accelerated filer&rdquo;
+ &ldquo;non-accelerated
+filer&rdquo;
+ and &ldquo;smaller reporting company&rdquo; in Rule 12b-2 of the Exchange Act.
+
+
+
+Large
+    Accelerated filer [&nbsp;&nbsp;] 
+Accelerated
+    filer [&nbsp;&nbsp;]
+
+Non-accelerated
+    filer [&nbsp;&nbsp;] 
+Smaller
+    reporting company [X]
+
+    
+Emerging
+    growth company[&nbsp;&nbsp;]
+
+
+If
+an emerging growth company
+ indicate by check mark if the registrant has elected not to use the extended transition period for
+complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+
+Indicate
+by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).
+
+[&nbsp;&nbsp;]
+Yes [X] No
+
+State
+the aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price
+at which the common equity was last sold
+ or the average bid and asked price of such common equity
+ as of the last business day
+of the registrant&rsquo;s most recently completed second fiscal quarter.
+
+$
+0
+
+Indicate
+the number of shares outstanding of each of the registrant&rsquo;s classes of common stock as of the latest practicable date.
+
+
+
+    
+    
+Outstanding
+    at April 10
+ 2019
+
+    
+    
+    
+
+Common
+    Stock
+ par value $0.0001
+    
+13
+380
+200
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+PART
+I
+
+
+
+Item
+    1.
+    
+
+
+Global
+Diversified Marketing Group
+ Inc. (the &ldquo;Company&rdquo;) is a food and snack manufacturer
+ marketer and distributor through
+its subsidiary Global Diversified Holdings
+ Inc (&ldquo;GDHI&rdquo;) in the United States
+ Canada
+ and Europe. The Company operates
+through snacks segments offering Italian Wafers
+ French Madeleines
+ Wafer Pralines
+ Mini Honey Wafers
+ Puffs Bites
+ Coconut Rolls
+and other wholesome snacks.
+
+The
+Company (through its subsidiary GDHI) is a successfully operating snack and gourmet food company. The Company travels the world
+and attends global food trade shows to look for unique products and snacks. When it locates exciting and suitable products
+ the
+Company will enter into a non-exclusive manufacturing contract with a factory to produce the product under the Company&rsquo;s
+own trademarked brands for sale in the United States and global markets.
+
+The
+products are chosen based on the trend of consumer interests as garnered by the Company as well as certain requests from the buyers
+as to what they are looking for to add to their product offerings. If the product sales are not within the projected targets
+then the Company will discontinue that product. To date
+ the Company has not discontinued a product for failure to meet its projected
+targets.
+
+Although
+the Company does not have long-term contracts with any of retail chains
+ it has been supplying its current chain retail stores
+for several years. In the food industry
+ there are no on-going contracts. A buyer will place a Purchase Order with the Company
+and the Company will deliver on it. If the product does well
+ the buyer typically will continue to reorder the product. Typical
+payment schedule for the Company&rsquo;s products are net 30 day terms.
+
+Vending
+Operations
+
+In
+addition to placing its products with large retail chains
+ the Company places its products in vending machines throughout the
+United States. These vending machines are located in malls
+ service stations and schools. The Company works with vending companies
+that have
+ in the aggregate
+ more than 100
+000 machines nationwide. The Company supplies vending companies with product. The Company
+works directly with some vending companies and with others through its food service distributors. The broker pre-sells the products
+and the distributor services the accounts. When the distributor services the accounts
+ the distributor buys product directly from
+the Company and pays on a net 10 day term.
+
+Products
+and Trademarked Brands
+
+The
+Company currently has five trademark brands. Each brand encompasses numerous SKUs which are brought to market from time to time.
+The Company produces its products primarily on an &ldquo;on request&rdquo; basis from its retail chain buyers for sale through
+such chains.
+
+The
+Company&rsquo;s trademark brands are listed on the left below with sample products for several of the trademarked brands itemized:
+
+
+
+Puff
+    Bites
+Sweet
+    Puffs
+
+    
+Choco
+    Puffs
+
+    
+    
+
+BonBons
+    de Paris
+Plain
+    French Madeleines
+
+    
+Marble
+    French Madeleines
+
+    
+    
+
+CoCo
+    Bliss
+Coconut
+    Rolls
+
+    
+Coconut
+    Wafer Bites
+
+    
+    
+
+    
+250g
+    Wafers
+
+    
+Mini
+    Wafer
+
+    
+Chocolate
+    Filled Croissant
+
+    
+150g
+    Honey Wafer
+
+    
+    
+
+    
+Jams
+    (in development)
+
+
+
+    
+    
+
+
+Retail
+Chain Buyers
+
+The
+primary distribution of the Company&rsquo;s products are through several major retail chains. The Company works with the buyers
+who place orders for the Company&rsquo;s products. The retail chain represented by these buyers will then distribute the product
+to its retail outlets.
+
+
+
+The
+Company&rsquo;s products appeal to a wide range of consumers
+ including most all age brackets. The young snackers
+ classified
+as those being between the ages of 18-34
+ tend to consume more snacks then average adult but the gourmet foods reach the broader
+adult market. The senior market tends to reduce snacks and gourmet foods.
+
+The
+Company sells its products throughout the United States and global markets to buyers which typically represent recognized large
+retail chain stores. The products are then distributed by the chains to their local outlets. The Company locates and develops
+snacks and gourmet foods to brand under its trademarks based on feedback and demand. The Company works closely with buyers to
+determine what products to locate and produce and to supply to the buyers.
+
+The
+Company intends to continue to develop additional gourmet foods and snack products under its own trademarked brands expanding
+the Company&rsquo;s offering portfolio. Management believes that the acquisition of small brands that have regional success and
+adding these to the Company&rsquo;s national distribution can immediately generate additional revenue streams for the Company.
+
+Product
+Activations 
+
+The
+Company will set up blind taste test at neutral locations
+ in stores
+ malls and snack shops to let consumers sample products and
+to determine consumer preferences
+ and most importantly
+ find out the basis for those preferences. Is it the taste
+ the packaging
+or Company image? This will also serve as an opportunity for the Company to highlight its products directly to the consumer.
+
+The
+Company anticipates that it will primarily target teens and adults up to age 65. The primary target market is &ldquo;Young Snackers&rdquo;
+that are 18-34 years old and tend to eat more snacks than other age groups. The trend of snacks between meals is especially strong
+with millennial and younger Americans. A quarter of American millennials
+ age 23 to 40
+ report eating four or more times a day
+compared to just 10% of Gen X and 9% of Baby Boomers. The Company believes that the senior age bracket (over 65) is not a strong
+snack market.
+
+
+
+The
+snack food industry in the United States is very competitive
+ particularly in the savory and salty snack segment. Snacks are satisfying
+consumer cravings around the world with the snacking business growing to US$3.4 billion globally in 2017. In the United States
+a study conducted by the Packaging Strategies reported that snacks account for 51% of all food sales
+ and 92% of adults in the
+US have snacked within the last 24 hours.
+
+The
+snack industry has experienced an increase demand for &ldquo;healthy&rdquo; snacks. In the United States
+ companies are finding
+success in the &ldquo;snackable&rdquo; fruit and vegetable category
+ such as grapes or baby carrots. These portable-produce items
+are then repackaged into individual serving such as dried fruit and nut snack packs
+ small fresh smoothies and fruit cups. Consumers
+has shown a very positive response to this snacking sub-category making it a billion dollar industry with an compounded annual
+growth rate of 10% between 2012 and 2016.
+
+A
+challenge facing entrants is snack and gourmet food market is the dominance of leading snack food producers
+ particularly the
+industry leader PepsiCo. Large producers experience a high degree of brand and consumer loyalty and possess sufficient capital
+to invest in extensive advertising and promotions to obtain a greater market share. Furthermore
+ companies such as PepsiCo benefit
+from higher profit margins when compared with small- to medium-sized operators
+ enabling them to lower their product prices and
+to engage in price-based competition with competitors. Multinational producers also experience lower per-unit costs due to economies
+of scale and scope.
+
+
+    
+    
+
+
+Trading
+Market
+
+Currently
+there is no trading market for the securities of the Company. The Company intends to initially apply for admission to quotation
+of its securities on the OTC QB or QX as soon as possible which may be while this offering is still in process. There can be no
+assurance that the Company will qualify for quotation of its securities on the OTCQB or QX.
+
+Corporate
+History
+
+The
+Company
+ formerly known as Dense Forest Acquisition Corporation
+ was incorporated in Delaware on December 1
+ 2017 and changed
+its name as part of the a subsequent change in control. The Company filed a registration statement on Form 10 with the Securities
+and Exchange Commission (&ldquo;SEC&rdquo;) on January 19
+ 2018 registering its common stock by which it became a public reporting
+company sixty days thereafter.
+
+On
+June 13
+ 2018 the Company effected a change in control with the resignation of the then officers and directors
+ contribution back
+to the Company of 19
+500
+000 shares of the 20
+000
+000 outstanding shares of its common stock
+ and the appointment of new officers
+and directors. On June 14
+ 2018 new management of the Company issued 12
+500
+000 shares of its common stock to Paul Adler
+ the
+then president of the Company.
+
+On
+November 26
+ 2018 the Company effected the acquisition of GDHI
+ a private New York company owned by the Company&rsquo;s president
+with the issuance of 200 shares of the Company&rsquo;s common stock in exchange for all the outstanding shares of common stock
+of GDHI. GDHI became a wholly-owned subsidiary of the Company.
+
+Prior
+to that acquisition
+ the Company had no business and no operations. Pursuant to the acquisition
+ the Company acquired the operations
+and business plan of its subsidiary.
+
+
+
+The
+Company has only one executive officers and one staff employee.
+
+
+
+The
+wholly-owned subsidiary
+ Global Diversified Holdings
+ Inc.
+ is the Company&rsquo;s only subsidiary.
+
+
+
+Item
+    2.
+    
+
+
+The
+Company has its office headquarters at 4042 Austin Boulevard
+ Suite B
+ Island Park
+ New York 11558. The Company entered into a
+60-month lease in October
+ 2016 to rent 1
+000 SF for $19
+680 per year. The lease contains one five year renewal option. The Company
+maintains a 12
+000 sq. ft. warehouse in Inwood
+ New York. The Company&rsquo;s website is www.360worldsnacks.com.
+
+
+
+Item
+    3.
+Legal
+    Proceedings
+
+
+There
+are no pending
+ threatened or actual legal proceedings in which the Company is a party.
+
+
+
+Item
+    4.
+Mine
+    Safety Disclosures.
+
+
+Not
+applicable.
+
+
+    
+    
+
+
+PART
+II
+
+
+
+Item
+    5.
+Market
+    for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities
+
+
+There
+is currently no public market for the Company&rsquo;s securities. The Company has filed with the Securities and Exchange Commission
+a registration statement on Form S-1 for the offer and sale of 2
+500
+000 shares of its common stock at $2.00 per share. At such
+time as it qualifies after effectiveness of the registration statement
+ the Company may choose to apply for quotation of its securities
+on the OTCQX.
+
+As
+such time as it qualifies
+ the Company may choose to apply for quotation of its securities on the Nasdaq Capital Market.
+
+In
+general there is greatest liquidity for traded securities on the Nasdaq Capital Market and less on the OTC Markets. It is not
+possible to predict where
+ if at all
+ the securities of the Company will be traded following a business combination.
+
+In
+the reporting year hereof
+ 2018
+ the Company has issued the following listed securities which were not registered under the Securities
+Act of 1933 pursuant to exemptions from registration of the Securities Act of 1933
+ as amended
+ as transactions by an issuer not
+involving any public offering:
+
+
+
+    
+    
+Number
+    of shares
+    
+Shareholder
+    of common stock
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+June
+    2018
+    
+12
+500
+000
+    
+Paul
+    Adler
+    
+Value
+    equal to $0.0001 per share
+
+November
+    2018
+    
+    
+    
+Paul
+    Adler
+    
+Value
+    equal to $0.0001 per share
+
+
+(1)
+380
+000 shares were issued in 2019 and 500
+000 shares were issued in 2017 for an aggregate outstanding 13
+380
+200
+shares.
+
+
+
+Item
+    6.
+Selected
+    Financial Data
+
+
+There
+is no selected financial data required to be filed for a smaller reporting company.
+
+
+
+Item
+    7.
+Management&rsquo;s
+    Discussion and Analysis of Financial Condition and Results of Operations
+
+
+Prior
+to the acquisition of GDHI as a subsidiary
+ the Company had no operations other than the administrative operations involved with
+the change in control. The information discussed hereinbelow reflects the results of the Company&rsquo;s subsidiary
+ GDHI
+ a successfully
+operating company in the snack and gourmet food production
+ marketing and distribution industry.
+
+Discussion
+of the Year Ended 2017 and Year Ended 2018
+
+Revenues
+and Losses
+
+Sales
+for the years ended December 31
+ 2018 and 2017 were relatively consistent with sales in 2018 of $1
+161
+995 and sales in 2017 of
+$1
+298
+372. For the year ended December 31
+ 2018 gross profit was $378
+273 with expenses of $431
+192 resulting in
+a loss of $52
+919) compared to gross profit of $311
+944 with expenses of $292
+863 resulting in net income of $19
+081 for the
+year ended December 31
+ 2017. The increase in expenses included to a large part legal and other professional fees required to
+effect the Company&rsquo;s initial public offering.
+
+
+    
+    
+
+
+Total
+current liabilities for the year ended December 31
+ 2018 were $434
+111 including $$357
+909 in accounts payable and accrued expenses
+compared to total current liabilities for year ended December 31
+ 2017 were $358
+182 including $237
+596 accounts payable and accrued
+expenses. Loans payable remained relatively consistent of $76
+202 for the year ended December 31
+ 2018 and$75
+586 for the year
+ended December 31
+ 2017.
+
+The
+Company has four customers that represent 100% of its business in 2018 ranging which is up from such customers representing 95%
+of the company&rsquo;s business in 2017. The largest of these customers represents 31% and the smallest 20%. However
+ the loss
+of any one of these customers would have a material impact on the Company&rsquo;s business and revenues until such time as the
+Company was able to locate other buyers. Presently the Company spends a minimum amount on advertising consisting of $3
+424 and
+$2
+015 for the years ended December
+ 31
+ 2018 and December 31
+ 2017
+ respectively.
+
+During
+the years ended December 31
+ 2018 and 2017
+ the Company incurred consulting fees of $180
+000 and $127
+500 respectively
+ related
+to services provided to it by the president of the Company.
+
+The
+Company has two short term credit line debts which have remained relatively consistent in the years ending December 31
+ 2018 and
+December 31
+ 2017:
+
+
+
+    
+59
+125
+60
+147
+
+    
+17
+077
+8
+077
+
+
+Liquidity
+and Capital Resources
+
+GDHI
+has not incurred any significant debt during the development of its operations and as of December 31
+ 2018 and December 31
+ 2017.
+The Company had lease payments for its office space of $17
+600 in 2017
+ $19
+334 in 2018 and has continuing annual lease
+obligations of $19
+923 in 2019
+ $20
+517 in 2020 and $21
+132 in 2021.
+
+Results
+of Operations
+
+The
+Company has not experienced any unusual or infrequent events or transactions or any significant economic changes that have materially
+affected the amount of reported income from continuing operations The Company does not believe that its operations and revenues
+have been impacted by any economic inflation. The Company anticipates that its sales may increase as it develops it health food
+brands targeted to the more economic and health-aware consumer.
+
+Off-Balance
+Sheet Arrangements.
+
+The
+Company has no off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on its financial
+condition
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures or capital
+resources.
+
+Critical
+Accounting Policies
+
+The
+financial statements of the Company have been prepared in accordance with accounting principles generally accepted in the United
+States. The preparation of these financial statements requires making estimates and judgments that affect the reported amounts
+of assets
+ liabilities
+ revenues and expenses
+ and related disclosure of contingent assets and liabilities. The estimates are
+based on historical experience and on various other assumptions that are believed to be reasonable under the circumstances
+ the
+results of which form the basis of making judgments about the carrying values of assets and liabilities that are not readily apparent
+from other sources. Actual results may differ from these estimates under different assumptions or conditions.
+
+Going
+Concern
+
+The
+Company&rsquo;s independent auditor has indicated substantial doubt about the Company continuing as a going concern based on
+the Company&rsquo;s accumulated deficit and accrued liabilities.
+
+The
+Company attributes the losses in 2018 to the legal fees incurred in order to go public. &nbsp;The Company is in a period of expansion
+which causes some cash flow changes. The Company has a strong relationship with its suppliers and has good credit terms with them.
+In order to meet such expansion demands the Company has a revolving credit facility in place.
+
+The
+Company has projected that its expansion and placements will be above expectations in 2019 and will create a strong year
+in revenue and net profits. The Company has had discussions with its clients what needs to be done to increase orders in
+December 2019.
+
+The
+Company is undertaking a public offering of its 2
+500
+000 shares of its common stock at $2 per share to raise funds for expansion
+and distribution.
+
+
+    
+    
+
+
+
+
+Item
+    8.
+Financial
+    Statements and Supplementary Data
+
+
+The
+financial statements for the year ended December 31
+ 2018 and 2017 are attached hereto.
+
+
+
+Item
+    9.
+Changes
+    in and Disagreements with Accountants on Accounting and Financial Disclosure
+
+
+There
+were no disagreements with the Company&rsquo;s accountants on accounting or financial disclosure for the period covered by this
+report.
+
+
+
+
+    
+    
+
+
+Pursuant
+to Rules adopted by the Securities and Exchange Commission
+ the Company carried out an evaluation of the effectiveness of
+the design and operation of its disclosure controls and procedures pursuant to Exchange Act Rules. This evaluation was done
+
+executive officer (who is also the principal financial officer). There have been no significant changes in internal controls
+or in other factors that could significantly affect internal controls subsequent to the date of the evaluation. Based upon
+that evaluation
+ the principal officer believes that the Company&rsquo;s disclosure controls and procedures are effective in
+gathering
+ analyzing and disclosing information needed to ensure that the information required to be disclosed by the Company
+in its periodic reports is recorded
+ summarized and processed timely. The principal executive officer is directly involved in
+the day-to-day operations of the Company
+
+Management&rsquo;s
+Report of Internal Control over Financial Reporting
+
+The
+Company is responsible for establishing and maintaining adequate internal control over financial reporting in accordance with
+the Rule 13a-15 of the Securities Exchange Act of 1934. The Company&rsquo;s sole officer
+ its president
+ conducted an evaluation
+of the effectiveness of the Company&rsquo;s internal control over financial reporting as of December 31
+ 2018
+ based on the criteria
+established in Internal Control Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission
+(2013). Based on this evaluation
+ management concluded that the Company&rsquo;s internal control over financial reporting was
+effective as of December 31
+ 2018
+ based on those criteria. A control system can provide only reasonably
+ not absolute
+ assurance
+that the objectives of the control system are met and no evaluation of controls can provide absolute assurance that all control
+issues have been detected.
+
+
+    
+    
+
+
+BF
+Borgers CPA PC.
+ Lakewood
+ Colorado
+ the independent registered public accounting firm of the Company
+ has not issued an attestation
+report on the effectiveness of the Company&rsquo;s internal control over financial reporting as no such report is required for
+a smaller reporting company.
+
+Changes
+in Internal Control Over Financial Reporting
+
+In
+the fourth fiscal quarter of the year
+ the Company changed control and consequently the Company&rsquo;s internal controls over
+its financial reporting were transferred to new management. However
+ such control rested with the principal officer prior to the
+change of control and with the change of control it continues to rest with the principal officer
+ the Company&rsquo;s sole officer.
+Thus such change has not materially affected
+ or is not reasonably likely to materially affect
+ the Company&rsquo;s internal control
+over financial reporting.
+
+
+
+Item
+    9B.
+Other
+    Information
+
+
+Not
+applicable.
+
+
+    
+    
+
+
+PART
+III
+
+
+
+Item
+    10.
+Directors
+    Executive Officers
+ and Corporate Governance 
+
+
+Officers
+and Directors
+
+The
+Directors and Officers of the Company as of December 31
+ 2018 are as follows:
+
+
+
+    
+    
+Positions
+    and Offices Held
+
+    
+    
+    
+
+Paul
+    Adler
+    
+Director
+    President
+ Secretary
+ Chief Financial Officer
+
+
+Paul
+Adler is the sole executive officer and director of the Company and its majority shareholder.
+
+There
+are no agreements or understandings for the officer or director to resign at the request of another person and the above-named
+officer and director is not acting on behalf of nor will act at the direction of any other person.
+
+Paul
+Adler 
+President
+Secretary
+ Chief Financial Officer and sole director of the Company. 
+
+Mr.
+Adler has a decade of experience in food manufacturing and marketing industries having served as a board member in two food manufacturing
+companies. He developed a strong desire to bring healthy beverages and snacks to the market which began after he saw there were
+no healthy alternatives. Mr. Adler spent the first decade of his career in the securities industry as a broker/dealer company
+branch manager where he supervised sixteen registered representative and was involved in all aspects of investment banking including
+public offerings and private placements. In 2008
+ Mr. Adler retired from the securities industry and established Beverage Brands
+a company offering a line of healthy RTD teas and MATE fusion tea.
+
+Beverage
+Brands&rsquo; product placement reached over 2500 supermarkets in the Northeast and South. In 2012
+ Mr. Adler established Fruttata
+Brand
+ a line of freeze dried healthy fruit snacks
+ under the corporate umbrella of Global Diversified Holdings
+ Inc.
+ the subsidiary
+of the Company. Since 2012
+ Mr. Adler has worked with Global Diversified Holdings to continue its development as a manufacturer
+marketer and supplier of unique products. Mr. Adler has extensive knowledge of day to day business operations ranging from Wall
+Street companies to running a private company and has been successful at establishing long-lasting business relationships throughout
+his career.
+
+
+
+The
+Company is authorized to have at least one director but no more than five.
+
+Director
+Independence
+
+The
+Board of Directors has determined that it does not have any independent directors as that term is defined by NASDAQ Marketplace
+Rule 5605(a)(2). In assessing the independence of the directors
+ the Board considers any transactions
+ relationships and arrangements
+between our Company and our independent directors or their affiliated companies. This review is based primarily on responses of
+the directors to questions in a director and officer questionnaire regarding employment
+ business
+ familial
+ compensation and
+other relationships with our Company or our management.
+
+
+    
+    
+
+
+Director
+Compensation
+
+Directors
+do not receive any compensation for serving on the Board of Directors.
+
+Committees
+and Terms
+
+The
+Board of Directors has not established any committees.
+
+Conflicts
+of Interest
+
+There
+are no binding guidelines or procedures for resolving potential conflicts of interest. Failure by management to resolve conflicts
+of interest in favor of the Company could result in liability of management to the Company. However
+ any attempt by shareholders
+to enforce a liability of management to the Company would most likely be prohibitively expensive and time consuming.
+
+Code
+of Ethics
+
+The
+Company has not at this time adopted a Code of Ethics pursuant to rules described in Regulation S-K. The Company anticipates that
+it will adopt a code of ethics when either the number of directors or the number of employees increases. The adoption of an Ethical
+Code at this time would not serve the primary purpose of such a code to provide a manner of conduct as the development
+ execution
+and enforcement of such a code would be by the same persons and only persons to whom such code applied.
+
+Corporate
+Governance 
+
+For
+reasons similar to those described above
+ the Company does not have a nominating nor audit committee of the board of directors.
+At this time
+ the Company has only one officer and one director. The Company promotes accountability for adherence to honest and
+ethical conduct; endeavors to provide full
+ fair
+ accurate
+ timely and understandable disclosure in reports and documents that
+the Company files and will file with the SEC and in other public communications made by the Company; and strives to be compliant
+with applicable governmental laws
+ rules and regulations. The Company has not formally adopted a written code of business conduct
+and ethics that governs the Company&rsquo;s employees
+ officers and Directors as the Company is not required to do so.
+
+In
+lieu of an Audit Committee
+ the Company&rsquo;s director is responsible for reviewing and making recommendations concerning the
+selection of outside auditors
+ reviewing the scope
+ results and effectiveness of the annual audit of the Company&rsquo;s financial
+statements and other services provided by the Company&rsquo;s independent public accountants. The Company&rsquo;s director reviews
+the Company&rsquo;s internal accounting controls
+ practices and policies.
+
+Officers
+and Directors of Global Diversified Holdings
+ Inc. (&ldquo;GDHI&rdquo;)
+
+The
+Company&rsquo;s operating subsidiary
+ GDHI
+ has a separate board of directors from the Company which consists of:
+
+
+
+    
+    
+Position
+    
+
+    
+    
+    
+
+Paul
+    Adler
+    
+President
+    Secretary
+ CFO
+ Director
+
+
+Advisory
+Board
+
+The
+Company has developed an advisory team that supports the Company and will provide guidance and contacts as needed and requested.
+The advisory board includes:
+
+Michael
+Cascione. Michael Cascione
+ Sr. is the founder and president of Group C
+ whose various companies provide Pantry
+ Micro Markets
+Coffee and Vending services.
+
+
+    
+    
+
+
+Anthony
+Cascione. Anthony Cascione is a lifetime member of the Vending industry and a partner in Group C.
+
+Oleg
+Kaplun. In 2010
+ Mr. Kaplun started a food distribution company in New York to service specialty and ethnic markets.
+
+James
+Donegan. Mr. Donegan has a 30 plus-year track record of accomplishment as a sales and marketing executive in the food industry.
+
+
+
+Item
+    11.
+Executive
+    Compensation
+
+
+The
+Company has not paid compensation to any executive officer or director. The Company&rsquo;s subsidiary
+ GDHI
+ paid its president
+and director
+ Paul Adler
+ an annual compensation of $180
+000. The Company anticipates that it will continue paying such compensation
+to Mr. Adler with annual increases as approved by the Board..
+
+The
+Company may choose to pay an additional salary or stock to its executive management in the future.
+
+
+
+Item
+    12.
+Security
+    Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
+
+
+The
+following table sets forth each person known by the Company to be the officer or director of the Company or a beneficial owner
+of five percent or more of the Company&rsquo;s common stock. The Company does not have any compensation plans. Except as noted
+the holder thereof has sole voting and investment power with respect to the shares shown.
+
+
+
+Name
+    and Position
+Shares
+    Owned
+Percent
+    of Class(1)
+
+    
+    
+    
+
+    
+12
+500
+200
+    
+
+President
+ CFO
+    Director
+    
+    
+
+    
+    
+    
+
+All Officers and directors as a Group
+    (1 person)
+12
+500
+200
+    
+
+
+
+
+    
+Based
+    on 13
+380
+200 shares outstanding at the date of this Report.
+
+
+
+
+Item
+    13.
+Certain
+    Relationships and Related Transactions and Director Independence
+
+
+The
+Company issued 200 shares of its common stock in an stock-for-stock acquisition of its now wholly-owned subsidiary
+ GDHI. GDHI
+was 100% owned by the President of the Company and the transaction cannot be deemed an arm&rsquo;s length transaction.
+
+
+    
+    
+
+
+
+
+Item
+    14.
+Principal
+    Accounting Fees and Services.
+
+
+Audit
+Fees
+
+The
+aggregate fees incurred for each of the last two years for professional services rendered by the independent registered public
+accounting firm for the audits of the Company&rsquo;s annual financial statements and review of financial statements included
+in the Company&rsquo;s Form 10-K and Form 10-Q reports and services normally provided in connection with statutory and regulatory
+filings or engagements were as follows:
+
+
+
+    
+December
+    31
+ 2018
+
+    
+    
+
+    
+23
+100
+
+
+The
+Company does not currently have an audit committee serving and as a result its board of directors performs the duties of an audit
+committee. The board of directors will evaluate and approve in advance
+ the scope and cost of the engagement of an auditor before
+the auditor renders audit and non-audit services. The Company does not rely on pre-approval policies and procedures.
+
+
+    
+    
+
+
+PART
+IV
+
+
+
+    
+Exhibits
+ Financial Statement
+ Schedules
+
+
+
+    
+    
+
+
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+
+FINANCIAL
+STATEMENTS
+
+DECEMBER
+31
+ 2018
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+
+TABLE
+OF CONTENTS
+
+DECEMBER
+31
+ 2018
+
+
+
+    
+    
+
+    
+    
+
+Consolidated Balance Sheets as of December 31
+ 2018 and 2017
+    
+
+    
+    
+
+Consolidated Statements of Operations for the years ended December 31
+ 2018 and 2017
+    
+
+    
+    
+
+Consolidated Statement of Stockholders&rsquo; Deficit for the years ended December 31
+ 2018 and 2017
+    
+
+    
+    
+
+Consolidated Statements of Cash Flows for the years ended December 31
+ 2018 and 2017
+    
+
+    
+    
+
+    
+F-6
+    - F-10
+
+
+
+    
+    
+
+
+Report
+of Independent Registered Public Accounting Firm
+
+To
+the shareholders and the board of directors of Global Diversified Marketing Group
+ Inc.
+
+Opinion
+on the Financial Statements
+
+We
+have audited the accompanying consolidated balance sheets of Global Diversified Marketing Group
+ Inc. as of December 31
+ 2018
+and 2017
+ the related statements of operations
+ stockholders&rsquo; equity (deficit)
+ and cash flows for the years then ended
+and the related notes (collectively referred to as the &ldquo;financial statements&rdquo;). In our opinion
+ the financial statements
+present fairly
+ in all material respects
+ the financial position of the Company as of December 31
+ 2018 and 2017
+ and the results
+of its operations and its cash flows for the years then ended
+ in conformity with accounting principles generally accepted in
+the United States.
+
+Basis
+for Opinion
+
+These
+financial statements are the responsibility of the Company&rsquo;s management. Our responsibility is to express an opinion on
+the Company&rsquo;s financial statements based on our audit. We are a public accounting firm registered with the Public Company
+Accounting Oversight Board (United States) (&ldquo;PCAOB&rdquo;) and are required to be independent with respect to the Company
+in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission
+and the PCAOB.
+
+We
+conducted our audit in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit
+to obtain reasonable assurance about whether the financial statements are free of material misstatement
+ whether due to error
+or fraud.
+
+Our
+audit included performing procedures to assess the risks of material misstatement of the financial statements
+ whether due to
+error or fraud
+ and performing procedures that respond to those risks. Such procedures included examining
+ on a test basis
+ evidence
+regarding the amounts and disclosures in the financial statements. Our audit also included evaluating the accounting principles
+used and significant estimates made by management
+ as well as evaluating the overall presentation of the financial statements.
+We believe that our audit provides a reasonable basis for our opinion.
+
+Substantial
+Doubt about the Company&rsquo;s Ability to Continue as a Going Concern
+
+The
+accompanying financial statements have been prepared assuming that the Company will continue as a going concern. As discussed
+in Note 1 to the financial statements
+ the Company&rsquo;s significant operating losses raise substantial doubt about its ability
+to continue as a going concern. The financial statements do not include any adjustments that might result from the outcome of
+this uncertainty.
+
+/S/
+BF Borgers CPA PC
+BF
+Borgers CPA PC
+
+We
+have served as the Company&rsquo;s auditor since 2018
+Lakewood
+CO
+April
+16
+ 2019
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+CONSOLIDATED
+BALANCE SHEETS
+AS
+OF DECEMBER 31
+ 2018 AND 2017
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+Cash
+    and cash equivalents
+21
+515
+    
+
+    
+2
+005
+18
+108
+
+    
+9
+054
+4
+874
+
+    
+453
+002
+361
+028
+
+    
+485
+576
+384
+010
+
+    
+    
+    
+
+Property and Equipment
+ net
+2
+501
+3
+057
+
+    
+    
+    
+
+    
+    
+    
+
+Security
+    deposit
+1
+600
+1
+600
+
+    
+    
+    
+
+    
+489
+677
+388
+667
+
+    
+    
+    
+
+LIABILITIES AND
+    STOCKHOLDERS&rsquo; EQUITY
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+Accounts payable
+    and accrued expenses
+357
+909
+237
+596
+
+    
+76
+202
+75
+586
+
+Stock
+    redemption payable &ndash; current portion
+    
+45
+000
+
+    
+434
+111
+358
+182
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+434
+111
+358
+182
+
+    
+    
+    
+
+    
+    
+    
+
+Common stock
+ no
+    par value
+ 200 shares authorized
+ 13
+340
+200 and 13
+000
+000 shares issued and outstanding
+1
+334
+1
+300
+
+Additional paid-in
+    capital
+77
+966
+    
+
+Retained
+    earnings (deficit)
+(23
+734
+29
+185
+
+    
+    
+    
+
+TOTAL STOCKHOLDERS&rsquo;
+    EQUITY
+55
+566
+30
+485
+
+    
+    
+    
+
+TOTAL LIABILITIES
+    AND STOCKHOLDERS&rsquo; EQUITY
+489
+677
+388
+667
+
+
+See
+accompanying notes to financial statements.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+CONSOLIATED
+STATEMENTS OF OPERATIONS
+FOR
+THE YEARS ENDED DECEMBER 31
+ 2018 AND 2017
+
+
+
+    
+Year
+    ended December 31
+ 2018
+Year
+    ended December 31
+ 2017
+
+    
+    
+    
+
+    
+1
+161
+995
+1
+298
+372
+
+    
+    
+    
+
+    
+783
+722
+986
+428
+
+GROSS
+                                         PROFIT
+378
+273
+311
+944
+
+OPERATING
+                                         EXPENSE
+431
+192
+292
+863
+
+    
+    
+    
+
+NET INCOME (LOSS)
+    BEFORE INCOME TAXES
+(52
+919
+19
+081
+
+    
+    
+    
+
+PROVISION
+    FOR INCOME TAXES
+    
+    
+
+    
+    
+    
+
+NET
+    INCOME (LOSS)
+(52
+919
+19
+081
+
+    
+    
+    
+
+NET
+    INCOME (LOSS) PER SHARE: BASIC AND DILUTED
+    
+    
+
+    
+    
+    
+
+WEIGHTED AVERAGE
+    SHARES OUTSTANDING: BASIC AND DILUTED
+13
+085
+718
+13
+000
+000
+
+
+See
+accompanying notes to financial statements.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+CONSOLIDATED
+STATEMENT OF STOCKHOLDERS&rsquo; EQUITY
+FOR
+THE YEARS ENDED DECEMBER 31
+ 2018 AND 2017
+
+
+
+    
+Common
+    Stock
+Additional
+    Paid-in
+Retained
+    Earnings
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+Balance
+ January 1
+ 2017
+20
+000
+000
+2
+000
+    
+10
+104
+11
+104
+
+    
+    
+    
+    
+    
+    
+
+Common shares returned as part of
+    
+(19
+500
+000
+(1
+950
+    
+    
+(1
+950
+
+    
+    
+    
+    
+    
+    
+
+change
+    in control
+12
+500
+000
+1
+250
+    
+    
+1
+250
+
+    
+    
+    
+    
+    
+    
+
+Net income for
+    the year ended December 31
+ 2017
+    
+    
+    
+19
+081
+19
+081
+
+    
+    
+    
+    
+    
+    
+
+Balance
+ December 31
+ 2017
+13
+000
+000
+1
+300
+    
+29
+185
+30
+485
+
+    
+    
+    
+    
+    
+    
+
+    
+340
+000
+    
+77
+966
+    
+78
+000
+
+    
+    
+    
+    
+    
+    
+
+Common shares issued in connection
+    with the acquisition of subsidiary
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+Net (loss) for
+    the year ended December 31
+ 2018
+    
+    
+    
+(52
+919
+(52
+919
+
+    
+    
+    
+    
+    
+    
+
+Balance
+ December 31
+ 2018
+13
+340
+200
+1
+334
+77
+966
+(23
+734
+55
+566
+
+
+See
+accompanying notes to financial statements.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+CONSOLIDATED
+STATEMENTS OF CASH FLOWS
+FOR
+THE YEARS ENDED DECEMBER 31
+ 2018 AND 2017
+
+
+
+    
+Year
+    ended December 31
+ 2018
+Year
+    ended December 31
+ 2017
+
+CASH FLOWS FROM OPERATING
+    ACTIVITIES
+    
+    
+
+Net
+    income (loss) for the year
+(52
+919
+19
+081
+
+Adjustments to reconcile net loss to
+    net cash used in operating activities:
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+(Increase) decrease
+    in accounts receivable
+16
+103
+29
+913
+
+(Increase) decrease
+    in prepaid expenses
+(4
+180
+    
+
+    
+(91
+974
+(124
+530
+
+Increase
+    in accounts payable and accrued expenses
+120
+313
+78
+314
+
+Net Cash Provided
+    by (Used in) Operating Activities
+(12
+101
+3
+364
+
+    
+    
+    
+
+CASH FLOWS FROM FINANCING
+    ACTIVITIES
+    
+    
+
+Increase in loans
+    payable
+    
+12
+390
+
+Issuances of common
+    stock
+78
+000
+2
+312
+
+Payments
+    to redeem common stock
+(45
+000
+(45
+000
+
+Net Cash Provided
+    by (Used in) Financing Activities
+33
+616
+(30
+298
+
+    
+    
+    
+
+CASH FLOWS FROM INVESTING
+    ACTIVITIES
+    
+    
+
+Acquisition
+    of property and equipment
+    
+    
+
+Net Cash Used
+    by Investing Activities
+    
+    
+
+    
+    
+    
+
+NET INCREASE (DECREASE)
+    IN CASH
+21
+515
+(26
+934
+
+Cash
+ beginning of period
+    
+26
+934
+
+Cash
+ end of
+    period
+21
+515
+    
+
+    
+    
+    
+
+SUPPLEMENTAL CASH
+    FLOW INFORMATION:
+    
+    
+
+Interest
+    paid
+25
+427
+20
+237
+
+Federal
+    income taxes paid
+    
+    
+
+
+See
+accompanying notes to financial statements.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2018
+
+NOTE
+1 &ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+Nature
+of Business
+
+Global
+Diversified Marketing Group
+ Inc. (the &ldquo;Company&rdquo;)
+ formerly known as Dense Forest Acquisition Corporation
+ was incorporated
+in Delaware on December 1
+ 2017 and changed its name on June 13
+ 2018 as part of a change in control. As part of the change in
+control
+ its then officers and directors resigned and contributed back to the Company 19
+500
+000 shares of the 20
+000
+000 outstanding
+shares of its common stock
+ and appointed new officers and directors. On June 14
+ 2018 new management of the Company issued 12.500
+000
+shares of its common stock to Paul Adler
+ the then president of the Company.
+
+On
+November 26
+ 2018 the Company effected the acquisition of Global Diversified Holdings
+ Inc. (&ldquo;GDHI&rdquo;)
+ a private New
+York company owned by the Company&rsquo;s president
+ with the issuance of 200 shares of the Company&rsquo;s common stock in exchange
+for all of the outstanding shares of GDHI. GDHI became a wholly owned subsidiary of the Company
+ and its activity for the years
+2018 and 2017 are reflected in these financial statements along with the expenses of the Company.
+
+Prior
+to the acquisition of GDHI
+ the Company had no business and no operations. Pursuant to the acquisition
+ the Company acquired the
+operations and business plan of GDHI
+ which imports and sells snack food products. For accounting purposes
+ GDHI is considered
+to be the acquirer
+ and the equity is presented as if the business combination had occurred on January 1
+ 2017
+
+Basis
+of Presentation
+
+The
+financial statements of the Company have been prepared in accordance with generally accepted accounting principles in the United
+States of America and are presented in US dollars. The Company has adopted a December 31 year end.
+
+Principles
+of Consolidation
+
+The
+accompanying consolidated financial statements include the accounts of the Company and its wholly owned subsidiary. All intercompany
+accounts and transactions have been eliminated in consolidation.
+
+Fair
+Value of Financial Instruments
+
+The
+Company&rsquo;s financial instruments consist of cash
+ accounts receivable from customers
+ accounts payable
+ and loans payable.
+The carrying amounts of these financial instruments approximates fair value due either to length of maturity or interest rates
+that approximate prevailing market rates unless otherwise disclosed in these financial statements.
+
+Use
+of Estimates
+
+The
+preparation of financial statements in conformity with accounting principles generally accepted in the United States of America
+requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of
+the balance sheet. Actual results could differ from those estimates.
+
+Stock-Based
+Compensation
+
+As
+of December 31
+ 2018
+ the Company has not issued any share-based payments to its employees. Under the modified prospective method
+the Company uses
+ stock compensation expense includes compensation expense for all stock-based compensation awards granted
+ based
+on the grant-date estimated fair value.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2018
+
+NOTE
+1 &ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (continued)
+
+Cash
+and Cash Equivalents
+
+The
+Company considers all highly liquid investments with the original maturities of three months or less to be cash equivalents. At
+December 31
+ 2018 and 2017
+ the Company had $21
+515 and $0 of cash.
+
+Accounts
+Receivable
+
+Accounts
+receivable are generated from sales of snack food products to retail outlets throughout the United States. The Company performs
+ongoing credit evaluations of its customers and adjusts credit limits based on customer payment and current credit worthiness
+as determined by review of their current credit information. The Company continuously monitors credit limits for its customers
+and maintains a provision for estimated credit losses based on its historical experience and any specific customer issues that
+have been identified. An allowance for doubtful; accounts is provided against accounts receivable for amounts management believes
+may be uncollectible. The Company historically has not had issues collecting on its accounts receivable from its customers. The
+Company factors certain of its receivables to improve its cash flow.
+
+Bad
+debt expense for the years ended December 31
+ 2018 and 2017 was $0; the allowance for doubtful accounts at December 31
+ 2018 and
+2017 was $0.
+
+
+
+Inventory
+consists of snack food products and packaging supplies
+ and are stated at the lower of cost or market.
+
+Property
+and Equipment
+
+Property
+and equipment are stated at cost
+ net of accumulated depreciation. Depreciation is calculated using the straight-line method over
+the estimated useful life of the assets. Maintenance
+ repairs
+ and renewals that do not materially add to the value of the equipment
+nor appreciably prolong its useful life are charged to expense as incurred.
+
+Revenue
+Recognition
+
+Beginning
+January 1
+ 2018
+ the Company implemented ASC 606
+ Revenue from Contracts with Customers. Although the new revenue standard is
+expected to have an immaterial impact
+ if any
+ on our ongoing net income
+ we did implement changes to our processes related to
+revenue recognition and the control activities within them. These included the development of new policies based on the five-step
+model provided in the new revenue standard
+ ongoing contract review requirements
+ and gathering of information provided for disclosures.
+
+The
+Company recognizes revenue from product sales or services rendered when control of the promised goods are transferred to our clients
+in an amount that reflects the consideration to which we expect to be entitled in exchange for those goods and services. To achieve
+this core principle we apply the following five steps: identify the contract with the client
+ identify the performance obligations
+in the contract
+ determine the transaction price
+ allocate the transaction price to performance obligations in the contract and
+recognize revenues when or as the Company satisfies a performance obligation.
+
+Advertising
+and Marketing Costs
+
+The
+Company&rsquo;s policy regarding advertising and marketing is to record the expense when incurred. The Company incurred advertising
+and marketing expenses of $3
+424 and $2
+015 during the years ended December 31
+ 2018 and 2017
+ respectively.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+NOTES
+TO THE CONSOLIDATED FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2018
+
+NOTE
+1 &ndash; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (continued)
+
+Impairment
+of Long-Lived Assets
+
+The
+Company continually monitors events and changes in circumstances that could indicate carrying amounts of long-lived assets may
+not be recoverable. When such events or changes in circumstances are present
+ the Company assesses the recoverability of long-lived
+assets by determining whether the carrying value of such assets will be recovered through undiscounted expected future cash flows.
+If the total of the future cash flows is less than the carrying amount of those assets
+ the Company recognizes an impairment loss
+based on the excess of the carrying amount over the fair value of the assets. Assets to be disposed of are reported at the lower
+of the carrying amount or the fair value less costs to sell.
+
+Income
+Taxes
+
+Income
+taxes are computed using the asset and liability method. Under the asset and liability method
+ deferred income tax assets and
+liabilities are determined based on the differences between the financial reporting and tax bases of assets and liabilities and
+are measured using the currently enacted tax rates and laws. A valuation allowance is provided for the amount of deferred tax
+assets that
+ based on available evidence
+ are not expected to be realized.
+
+The
+Company&rsquo;s wholly owned subsidiary
+ with the consent of its stockholder
+ had elected to be taxed as an S Corporation under
+the provisions of the Internal Revenue Code. Instead of paying federal corporate income taxes
+ the stockholder(s) of an S Corporation
+are taxed individually on their proportionate share of the Company&rsquo;s taxable income. Therefore
+ prior to the business combination
+discussed above
+ the Company had made no provision for income taxes. Effective with the business combination
+ the wholly owned
+subsidiary became a C-corporation
+ and the loss incurred for the period as a C-corporation approximated $270
+000. See Note 7.
+
+The
+Company&rsquo;s income tax returns are open for examination for up to the past three years under the statute of limitations. There
+are no tax returns currently under examination.
+
+Comprehensive
+Income
+
+The
+Company has which established standards for reporting and display of comprehensive income
+ its components and accumulated balances.
+When applicable
+ the Company would disclose this information on its Statement of Stockholders&rsquo; Equity. Comprehensive income
+comprises equity except those resulting from investments by owners and distributions to owners. The Company has not had any significant
+transactions that are required to be reported in other comprehensive income.
+
+Basic
+Income (Loss) Per Share
+
+Basic
+income (loss) per share has been calculated based on the weighted average number of shares of common stock outstanding during
+the period.
+
+Recent
+Accounting Pronouncements
+
+The
+Company does not expect the adoption of recently issued accounting pronouncements to have a significant impact on the Company&rsquo;s
+results of operations
+ financial position or cash flow.
+
+Going
+Concern
+
+As
+of December 31
+ 2018
+ the Company had cash and cash equivalents of $21
+515 and an accumulated deficit of $23
+734.&nbsp; Additionally
+the Company had accounts payable and accrued liabilities of $357
+909. These conditions raise substantial doubt about the
+Company&rsquo;s ability to continue as a going concern. The consolidated financials have been prepared assuming that the
+Company will continue as a going concern and
+ accordingly
+ do not include any adjustments that might result from the outcome of
+this uncertainty. If the Company is in fact unable to continue as a going concern
+ the shareholders may lose some or all of their
+investment in the Company.
+
+NOTE
+2 &ndash; STOCK REDEMPTION PAYABLE
+
+On
+September 7
+ 2016
+ the Company entered into a Stock Redemption and Purchase Agreement with a 50% shareholder to purchase back
+his 100 common shares. The shares had been purchased for $70
+000 and the Company agreed to buy them back for $90
+000. Payments
+required under the Agreement are $3
+750 per month starting on January 2
+ 2017. At December 31
+ 2018 and 2017
+ the Company owed
+$0 and $45
+000
+ respectively. See Note 3.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+NOTES
+TO CONSOLIDATED THE FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2018
+
+NOTE
+3 &ndash; CAPITAL STOCK
+
+The
+Company has 100
+000
+000 shares of $.0001 par value common stock authorized. The Company has 13
+340
+200 and 20
+000
+000 shares of
+common stock issued and outstanding as of December 31
+ 2018 and 2017
+ respectively.
+
+The
+Company has 20
+000
+000 shares of $.0001 par value preferred stock authorized. Preferred shares have not yet been issued.
+
+NOTE
+4 &ndash; RELATED PARTY TRANSACTIONS
+
+During
+the years ended December 31
+ 2018 and 2017
+ the Company incurred consulting fees of $180
+000 and $127
+500
+ respectively
+ related
+to services provided to it by an officer/ shareholder.
+
+NOTE
+5 &ndash; COMMITMENTS AND CONTINGENCIES
+
+The
+Company entered into a 60 month lease agreement on October 1
+ 2016 to rent office space. The lease requires monthly payments of
+$1
+600 for the first 24 months and after that increases by 3% each year
+ and contains one five year renewal option. Rental expenses
+under this lease for the years ended December 31
+ 2018 and 2017 was $19
+334 and $17
+600
+ respectively. The lease also required
+an advance payment of $1
+600 for the last month of rent as well as a $1
+600 security deposit. Future minimum lease payments due
+under this operating lease
+ including renewal periods
+ are as follows:
+
+
+
+Year ended December 31
+ 2019
+19
+923
+
+Year ended December 31
+ 2020
+20
+517
+
+Year ended December 31
+ 2021
+21
+132
+
+    
+109
+284
+
+Total
+    minimum lease payments
+170
+856
+
+
+The
+Company also pays rental charges for warehouse and storage space under a three year lease agreement dated May 18
+ 2017
+ with payments
+due calculated at $1
+400 per container.
+
+NOTE
+6 &ndash; LOANS PAYABLE
+
+The
+Company had various loans outstanding at December 31
+ 2018 and 2017 &ndash; all were short-term in nature
+ with varying rates
+of interest and fees
+ and no set minimum monthly payments
+ as follows:
+
+
+
+    
+    
+    
+
+    
+    
+7
+362
+
+    
+59
+125
+60
+147
+
+Credit Line -
+    Fundbox
+17
+077
+8
+077
+
+Total
+    loans payable
+76
+202
+75
+586
+
+
+NOTE
+7 &ndash; INCOME TAXES
+
+For
+the period ended December 31
+ 2018
+ the Company has incurred net losses and
+ therefore
+ has no tax liability. The net deferred
+tax asset generated by the loss carry-forward has been fully reserved. The net operating loss carry-forward is approximately $270
+000
+at December 31
+ 2018.
+
+
+    
+    
+
+
+GLOBAL
+DIVERSIFIED MARKETING GROUP
+ INC.
+NOTES
+TO CONSOLIDATED THE FINANCIAL STATEMENTS
+DECEMBER
+31
+ 2018
+
+NOTE
+7 &ndash; INCOME TAXES (continued)
+
+The
+provision for Federal income tax consists of the following at December 31
+ 2018 and 2017:
+
+
+
+    
+    
+    
+
+Federal income tax benefit attributable
+    to:
+    
+    
+
+Current
+    Operations
+56
+700
+    
+
+Less:
+    valuation allowance
+(56
+700
+    
+
+Net provision
+    for Federal income taxes
+    
+    
+
+
+NOTE
+8 &ndash; CONCENTRATIONS
+
+The
+Company does a significant amount of its total business with 4 customers
+ as follows for 2018 and 2017 (percentage of total sales
+of $1
+161
+995 and $1
+298
+372
+ respectively):
+
+
+
+    
+    
+    
+    
+    
+
+Customer
+    A
+    
+    
+    
+    
+
+Customer
+    B
+    
+    
+    
+    
+
+Customer
+    C
+    
+    
+    
+    
+
+Customer
+    D
+    
+    
+    
+    
+
+
+NOTE
+9 &ndash; SUBSEQUENT EVENTS
+
+In
+accordance with ASC 855-10
+ the Company has analyzed its operations subsequent to December 31
+ 2018 to the date these financial
+statements were issued
+ and has determined that it does not have any other material subsequent events to disclose in these financial
+statements.
+
+
+    
+    
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+    
+    
+
+
+
+
+Pursuant
+to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this report
+to be signed on its behalf by the undersigned thereunto duly authorized.
+
+
+
+    
+GLOBAL
+    DIVERSIFIED MARKETING GROUP
+ INC.
+
+    
+    
+    
+
+Dated:
+    April 16
+ 2019
+    
+/s/
+    Paul Adler
+
+    
+    
+    
+
+    
+    
+    
+
+Dated:
+    April 16
+ 2019
+    
+/s/
+    Paul Adler
+
+    
+    
+Chief
+    Financial Officer
+
+
+Pursuant
+to the Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf of the registrant
+and in the capacities and on the dates indicated.
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+/s/
+    Paul Adler
+    
+    
+    
+April
+    16
+ 2019
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+EXHIBIT
+31
+
+CERTIFICATION
+PURSUANT TO SECTION 302
+
+I
+Paul Adler
+ the undersigned officer
+ certify that:
+
+1.
+I have reviewed this Form 10-K of Global Diversified Marketing Group
+ Inc.
+
+2.
+Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+to the period covered by this report;
+
+3.
+Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all
+material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods
+presented in this report;
+
+4.
+The registrant&rsquo;s other certifying officer(s) and I are responsible for establishing and maintaining disclosure controls
+and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) and internal control over financial reporting (as defined
+in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the registrant and have:
+
+a)
+Designed such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under our supervision
+to ensure that material information relating to the registrant
+ including its consolidated subsidiaries
+ is made known to us by
+others within those entities
+ particularly during the period in which this report is being prepared;
+
+b)
+Designed such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed
+under our supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of
+financial statements for external purposes in accordance with generally accepted accounting principles;
+
+c)
+Evaluated the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report our conclusions
+about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based on
+such evaluations; and
+
+d)
+Disclosed in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the
+registrant&rsquo;s most recent fiscal quarter (the registrant&rsquo;s fourth fiscal quarter in the case of an annual report) that
+has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s internal control over financial
+reporting; and
+
+5.
+The registrant&rsquo;s other certifying officer(s) and I have disclosed
+ based on our most recent evaluation
+ to the registrant&rsquo;s
+auditors and the audit committee of registrant&rsquo;s board of directors (or persons performing the equivalent functions):
+
+a)
+All significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which
+are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial information;
+and
+
+b)
+Any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s
+internal control over financial reporting.
+
+
+
+Date:
+    April 16
+ 2019 
+/s/
+    Paul Adler
+
+    
+President
+    and
+
+    
+Chief
+    Financial Officer
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+EXHIBIT
+32
+
+CERTIFICATION
+PURSUANT TO SECTION 906
+
+Pursuant
+to 18 U.S.C. Section 1350 as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+ I
+ the undersigned officer of
+Global Diversified Marketing Group
+ Inc. (the &ldquo;Company&rdquo;)
+ hereby certify to my knowledge that:
+
+The
+Report on Form 10-K for the period ended December 31
+ 2018 of the Company fully complies
+ in all material respects
+ with the requirements
+of Section 13(a) or 15(d) of the Securities Exchange Act of 1934
+ and the information contained in the Report fairly represents
+in all material respects
+ the financial condition and results of operations of the Company.
+
+A
+signed original of this written statement required by Section 906 has been provided to the Company and will be retained by the
+Company and furnished to the Securities and Exchange Commission or its staff upon request.
+
+
+
+    
+/s/
+    Paul Adler
+
+    
+President
+    Director
+
+
+    
+Chief
+    Financial Officer and
+
+    
+Principal
+    Accounting Officer
+
+    
+    
+
+Date:
+    April 16
+ 2019
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+          
+          
+
+
+
+        
+        
+
+
+
+
+        
+
+
+        
+        
+
+
+
+
+        
+
+          
+
+
+
+        
+        
+
+
+
+      
+
+
+      
+
+
+
+
+          
+
+
+          
+
+
+
+
+      
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+&#13;Inc. (the &amp;#8220;Company&amp;#8221;)
+ formerly known as Dense Forest Acquisition Corporation
+ was incorporated in Delaware on December&#13;1
+ 2017 and changed its name on June 13
+ 2018 as part of a change in control. As part of the change in control
+ its then officers&#13;and directors resigned and contributed back to the Company 19
+500
+000 shares of the 20
+000
+000 outstanding shares of its common&#13;stock
+ and appointed new officers and directors. On June 14
+ 2018 new management of the Company issued 12.500
+000 shares of its&#13;common stock to Paul Adler
+
+ 2018 the Company effected&#13;the acquisition of Global Diversified Holdings
+ Inc. (&amp;#8220;GDHI&amp;#8221;)
+ a private New York company owned by the Company&amp;#8217;s&#13;president
+ with the issuance of 200 shares of the Company&amp;#8217;s common stock in exchange for all of the outstanding shares of&#13;GDHI. GDHI became a wholly owned subsidiary of the Company
+
+ the&#13;Company had no business and no operations. Pursuant to the acquisition
+ the Company acquired the operations and business plan of&#13;GDHI
+ which imports and sells snack food products. For accounting purposes
+ GDHI is considered to be the acquirer
+ and the equity&#13;is presented as if the business combination had occurred on January 1
+
+ accounts receivable from customers
+ accounts payable
+
+ 2018
+ the Company&#13;has not issued any share-based payments to its employees. Under the modified prospective method the Company uses
+ stock compensation&#13;expense includes compensation expense for all stock-based compensation awards granted
+
+ 2018 and 2017
+ the Company&#13;had $21
+
+
+ 2018 and 2017 was $0; the allowance for doubtful accounts at December 31
+
+
+ net of accumulated depreciation. Depreciation is calculated using the straight-line method over the estimated useful life&#13;of the assets. Maintenance
+ repairs
+
+ 2018
+ the Company&#13;implemented ASC 606
+ Revenue from Contracts with Customers. Although the new revenue standard is expected to have an immaterial&#13;impact
+ if any
+ on our ongoing net income
+ we did implement changes to our processes related to revenue recognition and the control&#13;activities within them. These included the development of new policies based on the five-step model provided in the new revenue&#13;standard
+ ongoing contract review requirements
+
+ identify the performance obligations in the contract
+ determine&#13;the transaction price
+
+424&#13;and $2
+015 during the years ended December 31
+ 2018 and 2017
+
+ the Company assesses the recoverability of long-lived assets by determining whether the&#13;carrying value of such assets will be recovered through undiscounted expected future cash flows. If the total of the future cash&#13;flows is less than the carrying amount of those assets
+
+ deferred income tax assets and liabilities are determined based&#13;on the differences between the financial reporting and tax bases of assets and liabilities and are measured using the currently&#13;enacted tax rates and laws. A valuation allowance is provided for the amount of deferred tax assets that
+ based on available evidence
+
+&#13;with the consent of its stockholder
+ had elected to be taxed as an S Corporation under the provisions of the Internal Revenue Code.&#13;Instead of paying federal corporate income taxes
+ the stockholder(s) of an S Corporation are taxed individually on their proportionate&#13;share of the Company&amp;#8217;s taxable income. Therefore
+ prior to the business combination discussed above
+ the Company had made&#13;no provision for income taxes. Effective with the business combination
+ the wholly owned subsidiary became a C-corporation
+ and&#13;the loss incurred for the period as a C-corporation approximated $270
+
+ its components and accumulated balances. When applicable
+
+
+ 2018
+ the Company&#13;had cash and cash equivalents of $21
+515 and an accumulated deficit of $23
+734.&amp;#160; Additionally
+ the Company had accounts payable&#13;and accrued liabilities of $357
+909. These conditions raise substantial doubt about the Company&amp;#8217;s ability to continue as&#13;a going concern. The consolidated financials have been prepared assuming that the Company will continue as a going concern and
+&#13;accordingly
+ do not include any adjustments that might result from the outcome of this uncertainty. If the Company is in fact&#13;unable to continue as a going concern
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+
+&#13;2018 and 2017
+ the Company incurred consulting fees of $180
+000 and $127
+500
+ respectively
+
+
+ 2016 to rent office space. The lease requires monthly payments of $1
+600 for the first 24 months&#13;and after that increases by 3% each year
+ and contains one five year renewal option. Rental expenses under this lease for the years&#13;ended December 31
+ 2018 and 2017 was $19
+334 and $17
+600
+ respectively. The lease also required an advance payment of $1
+600 for&#13;the last month of rent as well as a $1
+600 security deposit. Future minimum lease payments due under this operating lease
+ including&#13;renewal periods
+
+
+923&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; line-height: 107%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;Year ended December 31
+ 2020&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;20
+517&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;Year ended December 31
+ 2021&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;21
+
+
+
+ 2017
+ with payments due calculated at $1
+
+
+ as follows for 2018 and 2017 (percentage of total sales of $1
+161
+995 and $1
+298
+372
+
+
+ the&#13;Company has analyzed its operations subsequent to December 31
+ 2018 to the date these financial statements were issued
+
+
+ accounts receivable from customers
+ accounts payable
+
+    
+
+ 2018 and 2017
+ the Company&#13;had $21
+
+
+
+ 2018 and 2017 was $0; the allowance for doubtful accounts at December 31
+
+
+
+    
+
+ 2018
+ the Company&#13;implemented ASC 606
+ Revenue from Contracts with Customers. Although the new revenue standard is expected to have an immaterial&#13;impact
+ if any
+ on our ongoing net income
+ we did implement changes to our processes related to revenue recognition and the control&#13;activities within them. These included the development of new policies based on the five-step model provided in the new revenue&#13;standard
+ ongoing contract review requirements
+
+ identify the performance obligations in the contract
+ determine&#13;the transaction price
+
+
+ net of accumulated depreciation. Depreciation is calculated using the straight-line method over the estimated useful life&#13;of the assets. Maintenance
+ repairs
+
+
+424&#13;and $2
+015 during the years ended December 31
+ 2018 and 2017
+
+
+ the Company assesses the recoverability of long-lived assets by determining whether the&#13;carrying value of such assets will be recovered through undiscounted expected future cash flows. If the total of the future cash&#13;flows is less than the carrying amount of those assets
+
+
+ its components and accumulated balances. When applicable
+
+
+ deferred income tax assets and liabilities are determined based&#13;on the differences between the financial reporting and tax bases of assets and liabilities and are measured using the currently&#13;enacted tax rates and laws. A valuation allowance is provided for the amount of deferred tax assets that
+ based on available evidence
+
+&#13;with the consent of its stockholder
+ had elected to be taxed as an S Corporation under the provisions of the Internal Revenue Code.&#13;Instead of paying federal corporate income taxes
+ the stockholder(s) of an S Corporation are taxed individually on their proportionate&#13;share of the Company&amp;#8217;s taxable income. Therefore
+ prior to the business combination discussed above
+ the Company had made&#13;no provision for income taxes. Effective with the business combination
+ the wholly owned subsidiary became a C-corporation
+ and&#13;the loss incurred for the period as a C-corporation approximated $270
+
+
+
+
+ 2018 and 2017 &amp;#8211; all were short-term in nature
+ with varying rates of interest and fees
+ and no set minimum&#13;monthly payments
+
+
+125&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;60
+
+077&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1.5pt solid; line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1.5pt solid; text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;8
+
+
+
+    
+    
+
+
+
+    
+    
+    
+    
+    
+
+ 2018
+&#13;the Company has incurred net losses and
+ therefore
+ has no tax liability. The net deferred tax asset generated by the loss carry-forward&#13;has been fully reserved. The net operating loss carry-forward is approximately $270
+000 at December 31
+
+
+
+
+    
+    
+    
+    
+    
+
+600 for the first 24 months and after that increases by 3% each year
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+000
+000 shares of&#13;$.0001 par value common stock authorized. The Company has 13
+340
+200 and 20
+000
+000 shares of common stock issued and outstanding&#13;as of December 31
+ 2018 and 2017
+
+000
+
+
+ 2016
+ the Company entered&#13;into a Stock Redemption and Purchase Agreement with a 50% shareholder to purchase back his 100 common shares. The shares had been&#13;purchased for $70
+000 and the Company agreed to buy them back for $90
+000. Payments required under the Agreement are $3
+750 per&#13;month starting on January 2
+ 2017. At December 31
+ 2018 and 2017
+ the Company owed $0 and $45
+000
+
+
+ 2018 and 2017 &amp;#8211; all were short-term in nature
+ with varying rates of interest and fees
+ and no set minimum&#13;monthly payments
+
+
+125&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;60
+
+077&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1.5pt solid; line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=border-bottom: black 1.5pt solid; text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;8
+
+
+
+    
+
+&#13;Inc. (the &amp;#8220;Company&amp;#8221;)
+ formerly known as Dense Forest Acquisition Corporation
+ was incorporated in Delaware on December&#13;1
+ 2017 and changed its name on June 13
+ 2018 as part of a change in control. As part of the change in control
+ its then officers&#13;and directors resigned and contributed back to the Company 19
+500
+000 shares of the 20
+000
+000 outstanding shares of its common&#13;stock
+ and appointed new officers and directors. On June 14
+ 2018 new management of the Company issued 12.500
+000 shares of its&#13;common stock to Paul Adler
+
+ 2018 the Company effected&#13;the acquisition of Global Diversified Holdings
+ Inc. (&amp;#8220;GDHI&amp;#8221;)
+ a private New York company owned by the Company&amp;#8217;s&#13;president
+ with the issuance of 200 shares of the Company&amp;#8217;s common stock in exchange for all of the outstanding shares of&#13;GDHI. GDHI became a wholly owned subsidiary of the Company
+
+ the&#13;Company had no business and no operations. Pursuant to the acquisition
+ the Company acquired the operations and business plan&#13;of GDHI
+ which imports and sells snack food products. For accounting purposes
+ GDHI is considered to be the acquirer
+ and the&#13;equity is presented as if the business combination had occurred on January 1
+
+
+ 2018
+ the Company&#13;has not issued any share-based payments to its employees. Under the modified prospective method the Company uses
+ stock compensation&#13;expense includes compensation expense for all stock-based compensation awards granted
+
+
+ including renewal periods
+
+
+923&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=width: 1%; line-height: 107%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: white&gt;&#13;    &lt;td style=line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;Year ended December 31
+ 2020&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;20
+517&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&lt;/tr&gt;&#13;&lt;tr style=vertical-align: bottom; background-color: #CCEEFF&gt;&#13;    &lt;td style=line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;Year ended December 31
+ 2021&lt;/font&gt;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=line-height: 107%&gt;&amp;#160;&lt;/td&gt;&#13;    &lt;td style=text-align: right; line-height: 107%&gt;&lt;font style=font: 10pt Times New Roman, Times, Serif&gt;21
+
+
+
+
+
+
+
+
+ as follows for 2018 and 2017 (percentage of total sales of $1
+161
+995 and $1
+298
+372
+
+    
+    
+    
+    
+    
+
+ 2018
+ the Company&#13;had cash and cash equivalents of $21
+515 and an accumulated deficit of $23
+734.&amp;#160; Additionally
+ the Company had accounts payable&#13;and accrued liabilities of $357
+909. These conditions raise substantial doubt about the Company&amp;#8217;s ability to continue as&#13;a going concern. The consolidated financials have been prepared assuming that the Company will continue as a going concern and
+&#13;accordingly
+ do not include any adjustments that might result from the outcome of this uncertainty. If the Company is in fact&#13;unable to continue as a going concern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+ no par value
+ 200 shares authorized
+ 13
+340
+200 and 13
+000
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+
+      
+
+
+      
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+      
+
+
+      
+
+      
+
+      
+
+      
+
+
+      
+
+      
+
+      
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+      
+
+
+
+
+      
+
+      
+
+      
+
+      
+
+
+
+
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+ Cash Equivalents
+ Restricted Cash and Restricted Cash Equivalents
+ Period Increase (Decrease)
+
+
+
+ Cash Equivalents
+ Restricted Cash and Restricted Cash Equivalents
+
+
+
+
+
+
+
+
+
+ Operating Lease
+ Liability
+ Payments
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+Apr. 10
+ 2019
+Jun. 30
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entity Common Stock
+ Shares Outstanding
+
+
+
+380
+200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If the value is true
+ then the document is an amendment to previously-filed/accepted document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal period of the document report. For a first quarter 2006 quarterly report
+ which may also provide financial information from prior periods
+ the first fiscal quarter should be given as the fiscal period focus. Values: FY
+ Q1
+ Q2
+ Q3
+ Q4
+ H1
+ H2
+ M9
+ T1
+ T2
+ T3
+ M8
+ CY.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is focus fiscal year of the document report in CCYY format. For a 2006 annual report
+ which may also provide financial information from prior periods
+ fiscal 2006 should be given as the fiscal year focus. Example: 2006.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The end date of the period reflected on the cover page if a periodic report. For all other reports and registration statements containing historical data
+ it is the date up through which that historical data is presented.  If there is no historical data in the report
+ use the filing date. The format of the date is CCYY-MM-DD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The type of document being provided (such as 10-K
+ 10-Q
+ 485BPOS
+ etc). The document type is limited to the same value as the supporting SEC submission type
+ or the word 'Other'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests
+ if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member]
+ Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings
+ Instrument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate 'Yes' or 'No' whether registrants (1) have filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that registrants were required to file such reports)
+ and (2) have been subject to such filing requirements for the past 90 days. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate whether the registrant is one of the following: (1) Large Accelerated Filer
+ (2) Accelerated Filer
+ (3) Non-accelerated Filer
+ (4) Smaller Reporting Company (Non-accelerated)
+ (5) Smaller Reporting Accelerated Filer or (6) Smaller Reporting Company and Large Accelerated Filer. Definitions of these categories are stated in Rule 12b-2 of the Exchange Act. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State aggregate market value of voting and non-voting common equity held by non-affiliates computed by reference to price at which the common equity was last sold
+ or average bid and asked price of such common equity
+ as of the last business day of registrant's most recently completed second fiscal quarter. The public float should be reported on the cover page of the registrants form 10K.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The exact name of the entity filing the report as specified in its charter
+ which is required by forms filed with the SEC.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate if company meets the shell company criteria: a company with no or nominal operations
+ and with no or nominal assets or assets consisting solely of cash and cash equivalents.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate 'Yes' or 'No' if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Is used on Form Type: 10-K
+ 10-Q
+ 8-K
+ 20-F
+ 6-K
+ 10-K/A
+ 10-Q/A
+ 20-F/A
+ 6-K/A
+ N-CSR
+ N-Q
+ N-1A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+515
+
+
+
+
+
+
+
+005
+
+
+108
+
+
+
+
+
+054
+
+
+874
+
+
+
+
+
+002
+
+
+028
+
+
+
+
+
+576
+
+
+010
+
+
+
+Property and Equipment
+ net
+
+501
+
+
+057
+
+
+
+
+
+
+
+
+
+
+
+
+600
+
+
+600
+
+
+
+
+
+677
+
+
+667
+
+
+
+
+
+
+
+
+
+
+
+
+909
+
+
+596
+
+
+
+
+
+202
+
+
+586
+
+
+
+
+
+
+
+000
+
+
+
+
+
+111
+
+
+182
+
+
+
+
+
+
+
+
+
+
+
+
+111
+
+
+182
+
+
+
+
+
+
+
+
+
+
+Common stock
+ no par value
+ 200 shares authorized
+ 13
+340
+200 and 13
+000
+000 shares issued and outstanding
+
+334
+
+
+300
+
+
+
+
+
+966
+
+
+
+
+
+
+
+734)
+
+
+185
+
+
+
+
+
+566
+
+
+485
+
+
+
+
+
+677
+
+
+667
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying values as of the balance sheet date of obligations incurred through that date and due within one year (or the operating cycle
+ if longer)
+ including liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received
+ taxes
+ interest
+ rent and utilities
+ accrued salaries and bonuses
+ payroll taxes and fringe benefits.
+ -Subparagraph (SX 210.5-02.19
+20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount due from customers or clients
+ within one year of the balance sheet date (or the normal operating cycle
+ whichever is longer)
+ for goods or services (including trade receivables) that have been delivered or sold in the normal course of business
+ reduced to the estimated net realizable fair value by an allowance established by the entity of the amount it deems uncertain of collection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock
+ use the element additional paid in capital
+ common stock. For additional paid-in capital associated with only preferred stock
+ use the element additional paid in capital
+ preferred stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash
+ sold
+ or consumed within one year (or the normal operating cycle
+ if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount after valuation and LIFO reserves of inventory expected to be sold
+ or consumed within one year or operating cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of liabilities and equity items
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount after unamortized (discount) premium and debt issuance costs of long-term debt classified as noncurrent and excluding amounts to be repaid within one year or the normal operating cycle
+ if longer. Includes
+ but not limited to
+ notes payable
+ bonds payable
+ debentures
+ mortgage loans and commercial paper. Excludes capital lease obligations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of asset related to consideration paid in advance for costs that provide economic benefits in future periods
+ and amount of other assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount after accumulated depreciation
+ depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include
+ but are not limited to
+ land
+ buildings
+ machinery and equipment
+ office equipment
+ and furniture and fixtures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The amount of an asset
+ typically cash
+ provided to a counterparty to provide certain assurance of performance by the entity pursuant to the terms of a written or oral agreement
+ such as a lease.
+ -Subparagraph (SX 210.5-02.8
+17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+Common Stock
+ no par value
+
+
+
+
+
+
+Common Stock
+ authorized
+
+
+
+
+
+
+Common Stock
+ issued
+
+340
+200
+
+
+000
+000
+
+
+
+Common Stock
+ outstanding
+
+340
+200
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+161
+995
+
+
+298
+372
+
+
+
+
+
+722
+
+
+428
+
+
+
+
+
+273
+
+
+944
+
+
+
+
+
+192
+
+
+863
+
+
+
+
+
+919)
+
+
+081
+
+
+
+
+
+
+
+
+
+
+
+
+919)
+
+
+081
+
+
+
+
+
+
+
+
+
+
+
+
+085
+718
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -Subparagraph (SX 210.5-03.1
+2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of income (loss) from continuing operations
+ including income (loss) from equity method investments
+ before deduction of income tax expense (benefit)
+ and income (loss) attributable to noncontrolling interest.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generally recurring costs associated with normal operations except for the portion of these expenses which can be clearly related to production and included in cost of sales or services. Includes selling
+ general and administrative expense.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount
+ excluding tax collected from customer
+ of revenue from satisfaction of performance obligation by transferring promised good or service to customer. Tax collected from customer is tax assessed by governmental authority that is both imposed on and concurrent with specific revenue-producing transaction
+ including
+ but not limited to
+ sales
+ use
+ value added and excise.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+Balance at Dec. 31
+ 2016
+
+000
+
+
+
+
+104
+
+
+104
+
+
+
+Balance
+ shares at Dec. 31
+ 2016
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+950)
+
+
+
+
+
+
+950)
+
+
+
+Common shares returned as part of change in control
+ shares
+
+500
+000)
+
+
+
+
+
+
+
+
+
+
+
+250
+
+
+
+
+
+
+250
+
+
+
+Common shares issued as part of change in control
+ shares
+
+500
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+081
+
+
+081
+
+
+
+Balance at Dec. 31
+ 2017
+
+300
+
+
+
+
+185
+
+
+485
+
+
+
+Balance
+ shares at Dec. 31
+ 2017
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+966
+
+
+
+
+000
+
+
+
+Common shares sold
+ shares
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common shares issued in connection with the acquisition of subsidiary
+ shares
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+919)
+
+
+919)
+
+
+
+Balance at Dec. 31
+ 2018
+
+334
+
+
+966
+
+
+734)
+
+
+566
+
+
+
+Balance
+ shares at Dec. 31
+ 2018
+
+340
+200
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total of all stockholders' equity (deficit) items
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest
+ minority interest). This excludes temporary equity and is sometimes called permanent equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+919)
+
+
+081
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+103
+
+
+913
+
+
+
+
+
+180)
+
+
+
+
+
+
+
+974)
+
+
+530)
+
+
+
+
+
+313
+
+
+314
+
+
+
+
+
+101)
+
+
+364
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+390
+
+
+
+
+
+000
+
+
+312
+
+
+
+
+
+000)
+
+
+000)
+
+
+
+
+
+616
+
+
+298)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+515
+
+
+934)
+
+
+
+Cash
+ beginning of period
+
+
+
+934
+
+
+
+Cash
+ end of period
+
+515
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+427
+
+
+237
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash and cash equivalents
+ and cash and cash equivalents restricted to withdrawal or usage; including
+ but not limited to
+ disposal group and discontinued operations. Cash includes
+ but is not limited to
+ currency on hand
+ demand deposits with banks or financial institutions
+ and other accounts with general characteristics of demand deposits. Cash equivalents include
+ but are not limited to
+ short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of increase (decrease) in cash
+ cash equivalents
+ and cash and cash equivalents restricted to withdrawal or usage; including effect from exchange rate change. Cash includes
+ but is not limited to
+ currency on hand
+ demand deposits with banks or financial institutions
+ and other accounts with general characteristics of demand deposits. Cash equivalents include
+ but are not limited to
+ short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The amount of cash paid during the current period to foreign
+ federal
+ state
+ and local authorities as taxes on income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The increase (decrease) during the reporting period in the aggregate value of all inventory held by the reporting entity
+ associated with underlying transactions that are classified as operating activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash paid for interest
+ excluding capitalized interest
+ classified as operating activity. Includes
+ but is not limited to
+ payment to settle zero-coupon bond for accreted interest of debt discount and debt instrument with insignificant coupon interest rate in relation to effective interest rate of borrowing attributable to accreted interest of debt discount.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from financing activities
+ including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from investing activities
+ including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property
+ plant
+ and equipment and other productive assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of cash inflow (outflow) from operating activities
+ including discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The portion of profit or loss for the period
+ net of income taxes
+ which is attributable to the parent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash outflow associated with the acquisition of long-lived
+ physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale; includes cash outflows to pay for construction of self-constructed assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cash inflow from a debt initially having maturity due after one year or beyond the operating cycle
+ if longer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+NOTE 1 &#8211; SUMMARY OF SIGNIFICANT
+ACCOUNTING POLICIES
+
+
+
+
+Inc. (the &#8220;Company&#8221;)
+ formerly known as Dense Forest Acquisition Corporation
+ was incorporated in Delaware on December
+1
+ 2017 and changed its name on June 13
+ 2018 as part of a change in control. As part of the change in control
+ its then officers
+and directors resigned and contributed back to the Company 19
+500
+000 shares of the 20
+000
+000 outstanding shares of its common
+stock
+ and appointed new officers and directors. On June 14
+ 2018 new management of the Company issued 12.500
+000 shares of its
+common stock to Paul Adler
+ the then president of the Company.
+
+
+ 2018 the Company effected
+the acquisition of Global Diversified Holdings
+ Inc. (&#8220;GDHI&#8221;)
+ a private New York company owned by the Company&#8217;s
+president
+ with the issuance of 200 shares of the Company&#8217;s common stock in exchange for all of the outstanding shares of
+GDHI. GDHI became a wholly owned subsidiary of the Company
+ and its activity for the years 2018 and 2017 are reflected in these
+financial statements along with the expenses of the Company.
+
+
+ the
+Company had no business and no operations. Pursuant to the acquisition
+ the Company acquired the operations and business plan of
+GDHI
+ which imports and sells snack food products. For accounting purposes
+ GDHI is considered to be the acquirer
+ and the equity
+is presented as if the business combination had occurred on January 1
+ 2017
+
+
+
+
+have been prepared in accordance with generally accepted accounting principles in the United States of America and are presented
+in US dollars. The Company has adopted a December 31 year end.
+
+
+
+
+statements include the accounts of the Company and its wholly owned subsidiary. All intercompany accounts and transactions have
+been eliminated in consolidation.
+
+
+
+
+consist of cash
+ accounts receivable from customers
+ accounts payable
+ and loans payable. The carrying amounts of these financial
+instruments approximates fair value due either to length of maturity or interest rates that approximate prevailing market rates
+unless otherwise disclosed in these financial statements.
+
+
+
+
+in conformity with accounting principles generally accepted in the United States of America requires management to make estimates
+and assumptions that affect the reported amounts of assets and liabilities at the date of the balance sheet. Actual results could
+differ from those estimates.
+
+
+
+
+ 2018
+ the Company
+has not issued any share-based payments to its employees. Under the modified prospective method the Company uses
+ stock compensation
+expense includes compensation expense for all stock-based compensation awards granted
+ based on the grant-date estimated fair value.
+
+
+
+
+investments with the original maturities of three months or less to be cash equivalents. At December 31
+ 2018 and 2017
+ the Company
+had $21
+515 and $0 of cash.
+
+
+
+
+sales of snack food products to retail outlets throughout the United States. The Company performs ongoing credit evaluations of
+its customers and adjusts credit limits based on customer payment and current credit worthiness
+ as determined by review of their
+current credit information. The Company continuously monitors credit limits for its customers and maintains a provision for estimated
+credit losses based on its historical experience and any specific customer issues that have been identified. An allowance for doubtful;
+accounts is provided against accounts receivable for amounts management believes may be uncollectible. The Company historically
+has not had issues collecting on its accounts receivable from its customers. The Company factors certain of its receivables to
+improve its cash flow.
+
+
+December 31
+ 2018 and 2017 was $0; the allowance for doubtful accounts at December 31
+ 2018 and 2017 was $0.
+
+
+
+
+and packaging supplies
+ and are stated at the lower of cost or market.
+
+
+
+
+cost
+ net of accumulated depreciation. Depreciation is calculated using the straight-line method over the estimated useful life
+of the assets. Maintenance
+ repairs
+ and renewals that do not materially add to the value of the equipment nor appreciably prolong
+its useful life are charged to expense as incurred.
+
+
+
+
+ 2018
+ the Company
+implemented ASC 606
+ Revenue from Contracts with Customers. Although the new revenue standard is expected to have an immaterial
+impact
+ if any
+ on our ongoing net income
+ we did implement changes to our processes related to revenue recognition and the control
+activities within them. These included the development of new policies based on the five-step model provided in the new revenue
+standard
+ ongoing contract review requirements
+ and gathering of information provided for disclosures.
+
+
+product sales or services rendered when control of the promised goods are transferred to our clients in an amount that reflects
+the consideration to which we expect to be entitled in exchange for those goods and services. To achieve this core principle we
+apply the following five steps: identify the contract with the client
+ identify the performance obligations in the contract
+ determine
+the transaction price
+ allocate the transaction price to performance obligations in the contract and recognize revenues when or
+as the Company satisfies a performance obligation.
+
+
+
+
+advertising and marketing is to record the expense when incurred. The Company incurred advertising and marketing expenses of $3
+424
+and $2
+015 during the years ended December 31
+ 2018 and 2017
+ respectively.
+
+
+
+
+and changes in circumstances that could indicate carrying amounts of long-lived assets may not be recoverable. When such events
+or changes in circumstances are present
+ the Company assesses the recoverability of long-lived assets by determining whether the
+carrying value of such assets will be recovered through undiscounted expected future cash flows. If the total of the future cash
+flows is less than the carrying amount of those assets
+ the Company recognizes an impairment loss based on the excess of the carrying
+amount over the fair value of the assets. Assets to be disposed of are reported at the lower of the carrying amount or the fair
+value less costs to sell.
+
+
+
+
+asset and liability method. Under the asset and liability method
+ deferred income tax assets and liabilities are determined based
+on the differences between the financial reporting and tax bases of assets and liabilities and are measured using the currently
+enacted tax rates and laws. A valuation allowance is provided for the amount of deferred tax assets that
+ based on available evidence
+are not expected to be realized.
+
+
+with the consent of its stockholder
+ had elected to be taxed as an S Corporation under the provisions of the Internal Revenue Code.
+Instead of paying federal corporate income taxes
+ the stockholder(s) of an S Corporation are taxed individually on their proportionate
+share of the Company&#8217;s taxable income. Therefore
+ prior to the business combination discussed above
+ the Company had made
+no provision for income taxes. Effective with the business combination
+ the wholly owned subsidiary became a C-corporation
+ and
+the loss incurred for the period as a C-corporation approximated $270
+000. See Note 7.
+
+
+are open for examination for up to the past three years under the statute of limitations. There are no tax returns currently under
+examination.
+
+
+
+
+for reporting and display of comprehensive income
+ its components and accumulated balances. When applicable
+ the Company would
+disclose this information on its Statement of Stockholders&#8217; Equity. Comprehensive income comprises equity except those resulting
+from investments by owners and distributions to owners. The Company has not had any significant transactions that are required
+to be reported in other comprehensive income.
+
+
+
+
+calculated based on the weighted average number of shares of common stock outstanding during the period.
+
+
+
+
+of recently issued accounting pronouncements to have a significant impact on the Company&#8217;s results of operations
+ financial
+position or cash flow.
+
+
+
+
+ 2018
+ the Company
+had cash and cash equivalents of $21
+515 and an accumulated deficit of $23
+734.&#160; Additionally
+ the Company had accounts payable
+and accrued liabilities of $357
+909. These conditions raise substantial doubt about the Company&#8217;s ability to continue as
+a going concern. The consolidated financials have been prepared assuming that the Company will continue as a going concern and
+accordingly
+ do not include any adjustments that might result from the outcome of this uncertainty. If the Company is in fact
+unable to continue as a going concern
+ the shareholders may lose some or all of their investment in the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+ 2016
+ the Company entered
+into a Stock Redemption and Purchase Agreement with a 50% shareholder to purchase back his 100 common shares. The shares had been
+purchased for $70
+000 and the Company agreed to buy them back for $90
+000. Payments required under the Agreement are $3
+750 per
+month starting on January 2
+ 2017. At December 31
+ 2018 and 2017
+ the Company owed $0 and $45
+000
+ respectively. See Note 3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+000
+000 shares of
+$.0001 par value common stock authorized. The Company has 13
+340
+200 and 20
+000
+000 shares of common stock issued and outstanding
+as of December 31
+ 2018 and 2017
+ respectively.
+
+
+000
+000 shares of
+$.0001 par value preferred stock authorized. Preferred shares have not yet been issued.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for shareholders' equity comprised of portions attributable to the parent entity and noncontrolling interest
+ including other comprehensive income. Includes
+ but is not limited to
+ balances of common stock
+ preferred stock
+ additional paid-in capital
+ other capital and retained earnings
+ accumulated balance for each classification of other comprehensive income and amount of comprehensive income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+2018 and 2017
+ the Company incurred consulting fees of $180
+000 and $127
+500
+ respectively
+ related to services provided to it
+by an officer/ shareholder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+lease agreement on October 1
+ 2016 to rent office space. The lease requires monthly payments of $1
+600 for the first 24 months
+and after that increases by 3% each year
+ and contains one five year renewal option. Rental expenses under this lease for the years
+ended December 31
+ 2018 and 2017 was $19
+334 and $17
+600
+ respectively. The lease also required an advance payment of $1
+600 for
+the last month of rent as well as a $1
+600 security deposit. Future minimum lease payments due under this operating lease
+ including
+renewal periods
+ are as follows:
+
+
+
+Year ended December 31
+ 2019
+    
+    
+19
+923
+    
+
+Year ended December 31
+ 2020
+    
+    
+20
+517
+    
+
+Year ended December 31
+ 2021
+    
+    
+21
+132
+    
+
+    
+    
+    
+109
+284
+    
+
+    
+    
+    
+170
+856
+    
+
+
+
+for warehouse and storage space under a three year lease agreement dated May 18
+ 2017
+ with payments due calculated at $1
+400
+per container.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+at December 31
+ 2018 and 2017 &#8211; all were short-term in nature
+ with varying rates of interest and fees
+ and no set minimum
+monthly payments
+ as follows:
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+7
+362
+    
+
+    
+    
+    
+59
+125
+    
+    
+    
+60
+147
+    
+
+    
+    
+    
+17
+077
+    
+    
+    
+8
+077
+    
+
+    
+    
+    
+76
+202
+    
+    
+    
+75
+586
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for information about short-term and long-term debt arrangements
+ which includes amounts of borrowings under each line of credit
+ note payable
+ commercial paper issue
+ bonds indenture
+ debenture issue
+ own-share lending arrangements and any other contractual agreement to repay funds
+ and about the underlying arrangements
+ rationale for a classification as long-term
+ including repayment terms
+ interest rates
+ collateral provided
+ restrictions on use of assets and activities
+ whether or not in compliance with debt covenants
+ and other matters important to users of the financial statements
+ such as the effects of refinancing and noncompliance with debt covenants.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+ 2018
+the Company has incurred net losses and
+ therefore
+ has no tax liability. The net deferred tax asset generated by the loss carry-forward
+has been fully reserved. The net operating loss carry-forward is approximately $270
+000 at December 31
+ 2018.
+
+
+consists of the following at December 31
+ 2018 and 2017:
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+56
+700
+    
+    
+    
+    
+    
+
+    
+    
+    
+(56
+700
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for income taxes. Disclosures may include net deferred tax liability or asset recognized in an enterprise's statement of financial position
+ net change during the year in the total valuation allowance
+ approximate tax effect of each type of temporary difference and carryforward that gives rise to a significant portion of deferred tax liabilities and deferred tax assets
+ utilization of a tax carryback
+ and tax uncertainties information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+of its total business with 4 customers
+ as follows for 2018 and 2017 (percentage of total sales of $1
+161
+995 and $1
+298
+372
+ respectively):
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+The entire disclosure for any concentrations existing at the date of the financial statements that make an entity vulnerable to a reasonably possible
+ near-term
+ severe impact. This disclosure informs financial statement users about the general nature of the risk associated with the concentration
+ and may indicate the percentage of concentration risk as of the balance sheet date.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+ the
+Company has analyzed its operations subsequent to December 31
+ 2018 to the date these financial statements were issued
+ and has
+determined that it does not have any other material subsequent events to disclose in these financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The entire disclosure for significant events or transactions that occurred after the balance sheet date through the date the financial statements were issued or the date the financial statements were available to be issued. Examples include: the sale of a capital stock issue
+ purchase of a business
+ settlement of litigation
+ catastrophic loss
+ significant foreign exchange rate changes
+ loans to insiders or affiliates
+ and transactions not in the ordinary course of business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+
+
+Inc. (the &#8220;Company&#8221;)
+ formerly known as Dense Forest Acquisition Corporation
+ was incorporated in Delaware on December
+1
+ 2017 and changed its name on June 13
+ 2018 as part of a change in control. As part of the change in control
+ its then officers
+and directors resigned and contributed back to the Company 19
+500
+000 shares of the 20
+000
+000 outstanding shares of its common
+stock
+ and appointed new officers and directors. On June 14
+ 2018 new management of the Company issued 12.500
+000 shares of its
+common stock to Paul Adler
+ the then president of the Company.
+
+
+ 2018 the Company effected
+the acquisition of Global Diversified Holdings
+ Inc. (&#8220;GDHI&#8221;)
+ a private New York company owned by the Company&#8217;s
+president
+ with the issuance of 200 shares of the Company&#8217;s common stock in exchange for all of the outstanding shares of
+GDHI. GDHI became a wholly owned subsidiary of the Company
+ and its activity for the years 2018 and 2017 are reflected in these
+financial statements along with the expenses of the Company.
+
+
+ the
+Company had no business and no operations. Pursuant to the acquisition
+ the Company acquired the operations and business plan
+of GDHI
+ which imports and sells snack food products. For accounting purposes
+ GDHI is considered to be the acquirer
+ and the
+equity is presented as if the business combination had occurred on January 1
+ 2017
+
+
+
+
+
+
+
+
+have been prepared in accordance with generally accepted accounting principles in the United States of America and are presented
+in US dollars. The Company has adopted a December 31 year end.
+
+
+
+
+
+
+
+
+statements include the accounts of the Company and its wholly owned subsidiary. All intercompany accounts and transactions have
+been eliminated in consolidation.
+
+
+
+
+
+
+
+
+consist of cash
+ accounts receivable from customers
+ accounts payable
+ and loans payable. The carrying amounts of these financial
+instruments approximates fair value due either to length of maturity or interest rates that approximate prevailing market rates
+unless otherwise disclosed in these financial statements.
+
+
+
+
+
+
+
+
+in conformity with accounting principles generally accepted in the United States of America requires management to make estimates
+and assumptions that affect the reported amounts of assets and liabilities at the date of the balance sheet. Actual results could
+differ from those estimates.
+
+
+
+
+
+
+
+
+ 2018
+ the Company
+has not issued any share-based payments to its employees. Under the modified prospective method the Company uses
+ stock compensation
+expense includes compensation expense for all stock-based compensation awards granted
+ based on the grant-date estimated fair
+value.
+
+
+
+
+
+
+
+
+investments with the original maturities of three months or less to be cash equivalents. At December 31
+ 2018 and 2017
+ the Company
+had $21
+515 and $0 of cash.
+
+
+
+
+
+
+
+
+sales of snack food products to retail outlets throughout the United States. The Company performs ongoing credit evaluations of
+its customers and adjusts credit limits based on customer payment and current credit worthiness
+ as determined by review of their
+current credit information. The Company continuously monitors credit limits for its customers and maintains a provision for estimated
+credit losses based on its historical experience and any specific customer issues that have been identified. An allowance for doubtful;
+accounts is provided against accounts receivable for amounts management believes may be uncollectible. The Company historically
+has not had issues collecting on its accounts receivable from its customers. The Company factors certain of its receivables to
+improve its cash flow.
+
+
+December 31
+ 2018 and 2017 was $0; the allowance for doubtful accounts at December 31
+ 2018 and 2017 was $0.
+
+
+
+
+
+
+
+
+and packaging supplies
+ and are stated at the lower of cost or market.
+
+
+
+
+
+
+
+
+cost
+ net of accumulated depreciation. Depreciation is calculated using the straight-line method over the estimated useful life
+of the assets. Maintenance
+ repairs
+ and renewals that do not materially add to the value of the equipment nor appreciably prolong
+its useful life are charged to expense as incurred.
+
+
+
+
+
+
+
+
+ 2018
+ the Company
+implemented ASC 606
+ Revenue from Contracts with Customers. Although the new revenue standard is expected to have an immaterial
+impact
+ if any
+ on our ongoing net income
+ we did implement changes to our processes related to revenue recognition and the control
+activities within them. These included the development of new policies based on the five-step model provided in the new revenue
+standard
+ ongoing contract review requirements
+ and gathering of information provided for disclosures.
+
+
+product sales or services rendered when control of the promised goods are transferred to our clients in an amount that reflects
+the consideration to which we expect to be entitled in exchange for those goods and services. To achieve this core principle we
+apply the following five steps: identify the contract with the client
+ identify the performance obligations in the contract
+ determine
+the transaction price
+ allocate the transaction price to performance obligations in the contract and recognize revenues when or
+as the Company satisfies a performance obligation.
+
+
+
+
+
+
+
+
+advertising and marketing is to record the expense when incurred. The Company incurred advertising and marketing expenses of $3
+424
+and $2
+015 during the years ended December 31
+ 2018 and 2017
+ respectively.
+
+
+
+
+
+
+
+
+and changes in circumstances that could indicate carrying amounts of long-lived assets may not be recoverable. When such events
+or changes in circumstances are present
+ the Company assesses the recoverability of long-lived assets by determining whether the
+carrying value of such assets will be recovered through undiscounted expected future cash flows. If the total of the future cash
+flows is less than the carrying amount of those assets
+ the Company recognizes an impairment loss based on the excess of the carrying
+amount over the fair value of the assets. Assets to be disposed of are reported at the lower of the carrying amount or the fair
+value less costs to sell.
+
+
+
+
+
+
+
+
+asset and liability method. Under the asset and liability method
+ deferred income tax assets and liabilities are determined based
+on the differences between the financial reporting and tax bases of assets and liabilities and are measured using the currently
+enacted tax rates and laws. A valuation allowance is provided for the amount of deferred tax assets that
+ based on available evidence
+are not expected to be realized.
+
+
+with the consent of its stockholder
+ had elected to be taxed as an S Corporation under the provisions of the Internal Revenue Code.
+Instead of paying federal corporate income taxes
+ the stockholder(s) of an S Corporation are taxed individually on their proportionate
+share of the Company&#8217;s taxable income. Therefore
+ prior to the business combination discussed above
+ the Company had made
+no provision for income taxes. Effective with the business combination
+ the wholly owned subsidiary became a C-corporation
+ and
+the loss incurred for the period as a C-corporation approximated $270
+000. See Note 7.
+
+
+are open for examination for up to the past three years under the statute of limitations. There are no tax returns currently under
+examination.
+
+
+
+
+
+
+
+
+for reporting and display of comprehensive income
+ its components and accumulated balances. When applicable
+ the Company would
+disclose this information on its Statement of Stockholders&#8217; Equity. Comprehensive income comprises equity except those resulting
+from investments by owners and distributions to owners. The Company has not had any significant transactions that are required
+to be reported in other comprehensive income.
+
+
+
+
+
+
+
+
+calculated based on the weighted average number of shares of common stock outstanding during the period.
+
+
+
+
+
+
+
+
+of recently issued accounting pronouncements to have a significant impact on the Company&#8217;s results of operations
+ financial
+position or cash flow.
+
+
+
+
+
+
+
+
+ 2018
+ the Company
+had cash and cash equivalents of $21
+515 and an accumulated deficit of $23
+734.&#160; Additionally
+ the Company had accounts payable
+and accrued liabilities of $357
+909. These conditions raise substantial doubt about the Company&#8217;s ability to continue as
+a going concern. The consolidated financials have been prepared assuming that the Company will continue as a going concern and
+accordingly
+ do not include any adjustments that might result from the outcome of this uncertainty. If the Company is in fact
+unable to continue as a going concern
+ the shareholders may lose some or all of their investment in the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for advertising costs. For those costs that cannot be capitalized
+ discloses whether such costs are expensed as incurred or the first period in which the advertising takes place. For direct response advertising costs that are capitalized
+ describes those assets and the accounting policy used
+ including a description of the qualifying activity
+ the types of costs capitalized and the related amortization period. An entity also may disclose its accounting policy for cooperative advertising arrangements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for basis of accounting
+ or basis of presentation
+ used to prepare the financial statements (for example
+ US Generally Accepted Accounting Principles
+ Other Comprehensive Basis of Accounting
+ IFRS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for cash and cash equivalents
+ including the policy for determining which items are treated as cash equivalents. Other information that may be disclosed includes (1) the nature of any restrictions on the entity's use of its cash and cash equivalents
+ (2) whether the entity's cash and cash equivalents are insured or expose the entity to credit risk
+ (3) the classification of any negative balance accounts (overdrafts)
+ and (4) the carrying basis of cash equivalents (for example
+ at cost) and whether the carrying amount of cash equivalents approximates fair value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for salaries
+ bonuses
+ incentive awards
+ postretirement and postemployment benefits granted to employees
+ including equity-based arrangements; discloses methodologies for measurement
+ and the bases for recognizing related assets and liabilities and recognizing and reporting compensation expense.
+ -Subparagraph (b)
+(f(1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy regarding (1) the principles it follows in consolidating or combining the separate financial statements
+ including the principles followed in determining the inclusion or exclusion of subsidiaries or other entities in the consolidated or combined financial statements and (2) its treatment of interests (for example
+ common stock
+ a partnership interest or other means of exerting influence) in other entities
+ for example consolidation or use of the equity or cost methods of accounting.  The accounting policy may also address the accounting treatment for intercompany accounts and transactions
+ noncontrolling interest
+ and the income statement treatment in consolidation for issuances of stock by a subsidiary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for computing basic and diluted earnings or loss per share for each class of common stock and participating security. Addresses all significant policy factors
+ including any antidilutive items that have been excluded from the computation and takes into account stock dividends
+ splits and reverse splits that occur after the balance sheet date of the latest reporting period but before the issuance of the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for income taxes
+ which may include its accounting policies for recognizing and measuring deferred tax assets and liabilities and related valuation allowances
+ recognizing investment tax credits
+ operating loss carryforwards
+ tax credit carryforwards
+ and other carryforwards
+ methodologies for determining its effective income tax rate and the characterization of interest and penalties in the financial statements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of inventory accounting policy for inventory classes
+ including
+ but not limited to
+ basis for determining inventory amounts
+ methods by which amounts are added and removed from inventory classes
+ loss recognition on impairment of inventories
+ and situations in which inventories are stated above cost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy pertaining to new accounting pronouncements that may impact the entity's financial reporting. Includes
+ but is not limited to
+ quantification of the expected or actual impact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for long-lived
+ physical assets used in the normal conduct of business and not intended for resale. Includes
+ but is not limited to
+ basis of assets
+ depreciation and depletion methods used
+ including composite deprecation
+ estimated useful lives
+ capitalization policy
+ accounting treatment for costs incurred for repairs and maintenance
+ capitalized interest and the method it is calculated
+ disposals and impairments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for revenue recognition. If the entity has different policies for different types of revenue transactions
+ the policy for each material type of transaction is generally disclosed. If a sales transaction has multiple element arrangements (for example
+ delivery of multiple products
+ services or the rights to use assets) the disclosure may indicate the accounting policy for each unit of accounting as well as how units of accounting are determined and valued. The disclosure may encompass important judgment as to appropriateness of principles related to recognition of revenue. The disclosure also may indicate the entity's treatment of any unearned or deferred revenue that arises from the transaction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclosure of accounting policy for trade and other accounts receivables. This disclosure may include the basis at which such receivables are carried in the entity's statements of financial position (for example
+ net realizable value)
+ how the entity determines the level of its allowance for doubtful accounts
+ when impairments
+ charge-offs or recoveries are recognized
+ and the entity's income recognition policies for such receivables
+ including its treatment of related fees and costs
+ its treatment of premiums
+ discounts or unearned income
+ when accrual of interest is discontinued
+ how the entity records payments received on nonaccrual receivables and its policy for resuming accrual of interest on such receivables.  If the enterprise holds a large number of similar loans
+ disclosure may include the accounting policy for the anticipation of prepayments and significant assumptions underlying prepayment estimates for amortization of premiums
+ discounts
+ and nonrefundable fees and costs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+this operating lease
+ including renewal periods
+ are as follows:
+
+
+
+Year ended December 31
+ 2019
+    
+    
+19
+923
+    
+
+Year ended December 31
+ 2020
+    
+    
+20
+517
+    
+
+Year ended December 31
+ 2021
+    
+    
+21
+132
+    
+
+    
+    
+    
+109
+284
+    
+
+    
+    
+    
+170
+856
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+at December 31
+ 2018 and 2017 &#8211; all were short-term in nature
+ with varying rates of interest and fees
+ and no set minimum
+monthly payments
+ as follows:
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+7
+362
+    
+
+    
+    
+    
+59
+125
+    
+    
+    
+60
+147
+    
+
+    
+    
+    
+17
+077
+    
+    
+    
+8
+077
+    
+
+    
+    
+    
+76
+202
+    
+    
+    
+75
+586
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of information pertaining to short-term and long-debt instruments or arrangements
+ including but not limited to identification of terms
+ features
+ collateral requirements and other information necessary to a fair presentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+consists of the following at December 31
+ 2018 and 2017:
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+56
+700
+    
+    
+    
+    
+    
+
+    
+    
+    
+(56
+700
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of the components of income tax expense attributable to continuing operations for each year presented including
+ but not limited to: current tax expense (benefit)
+ deferred tax expense (benefit)
+ investment tax credits
+ government grants
+ the benefits of operating loss carryforwards
+ tax expense that results from allocating certain tax benefits either directly to contributed capital or to reduce goodwill or other noncurrent intangible assets of an acquired entity
+ adjustments of a deferred tax liability or asset for enacted changes in tax laws or rates or a change in the tax status of the entity
+ and adjustments of the beginning-of-the-year balances of a valuation allowance because of a change in circumstances that causes a change in judgment about the realizability of the related deferred tax asset in future years.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+
+
+
+
+
+
+
+
+
+of its total business with 4 customers
+ as follows for 2018 and 2017 (percentage of total sales of $1
+161
+995 and $1
+298
+372
+ respectively):
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tabular disclosure of the nature of a concentration
+ a benchmark to which it is compared
+ and the percentage that the risk is to the benchmark.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+Nov. 26
+ 2018
+Jun. 14
+ 2018
+Jun. 13
+ 2018
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+Stock redeemed or called during period
+ shares
+
+
+
+
+
+500
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+000
+
+
+340
+200
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+515
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+424
+
+
+015
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+734)
+
+
+185
+
+
+
+
+
+
+
+
+
+
+
+909
+
+
+596
+
+
+
+Global Diversified Holdings
+ Inc. [Member]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+500
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of the carrying values as of the balance sheet date of obligations incurred through that date and due within one year (or the operating cycle
+ if longer)
+ including liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received
+ taxes
+ interest
+ rent and utilities
+ accrued salaries and bonuses
+ payroll taxes and fringe benefits.
+ -Subparagraph (SX 210.5-02.19
+20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For an unclassified balance sheet
+ a valuation allowance for receivables due a company that are expected to be uncollectible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The total expense recognized in the period for promotion
+ public relations
+ and brand or product advertising.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of expense related to write-down of receivables to the amount expected to be collected. Includes
+ but is not limited to
+ accounts receivable and notes receivable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jun. 13
+ 2018
+Sep. 07
+ 2016
+Dec. 31
+ 2017
+Dec. 31
+ 2018
+Jan. 02
+ 2017
+
+
+Common stock
+ repurchase shares
+
+500
+000
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ value
+
+
+
+
+
+300
+
+
+334
+
+
+
+
+
+
+
+
+
+
+
+950)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ repurchase shares
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ value
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+Stock redemption
+ monthly payments
+
+
+
+
+
+
+
+
+
+750
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares
+ par value and other disclosure concepts are in another section within stockholders' equity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Dec. 31
+ 2018
+Jun. 13
+ 2018
+Dec. 31
+ 2017
+
+
+Common stock
+ shares authorized
+
+
+
+
+
+
+
+
+Common stock
+ shares issued
+
+340
+200
+
+
+
+
+000
+000
+
+
+
+Common stock
+ shares outstanding
+
+340
+200
+
+
+000
+000
+
+
+000
+000
+
+
+
+Preferred stock
+ share authorized
+
+000
+000
+
+
+
+
+
+
+
+Preferred stock
+ value per share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common stock
+ shares authorized
+
+000
+000
+
+
+
+
+
+
+
+Common stock
+ value per share
+
+
+
+
+
+
+
+
+Common stock
+ shares issued
+
+340
+200
+
+
+
+
+000
+000
+
+
+
+Common stock
+ shares outstanding
+
+340
+200
+
+
+
+
+000
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+500
+
+
+
+
+
+
+
+A fee charged for services from professionals such as doctors
+ lawyers and accountants. The term is often expanded to include other professions
+ for example
+ pharmacists charging to maintain a medicinal profile of a client or customer.
+ -Subparagraph (SX 210.6-07.2(a)
+(b)
+(c)
+(d))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+May 18
+ 2017
+Oct. 01
+ 2016
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+600 for the first 24 months and after that increases by 3% each year
+ and contains one five year renewal option. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+334
+
+
+600
+
+
+
+
+
+
+
+
+
+600
+
+
+
+
+
+
+
+
+
+
+
+600
+
+
+600
+
+
+
+
+
+400
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Term of lessee's operating lease renewal
+ in 'PnYnMnDTnHnMnS' format
+ for example
+ 'P1Y5M13D' represents reported fact of one year
+ five months
+ and thirteen days.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Term of lessee's operating lease
+ in 'PnYnMnDTnHnMnS' format
+ for example
+ 'P1Y5M13D' represents reported fact of one year
+ five months
+ and thirteen days.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This element represents the description of a lease related indemnification agreement including the nature of the indemnification
+ the maximum potential amount of future payments the indemnification agreement could be required to make under the agreement
+ the current carrying amount of the liability and the nature of any recourse provision that would enable the lessee guarantor) to recover from third parties any of the amounts paid under the agreement and any assets held either as collateral or by third parties that upon occurrence of any triggering event or condition under the indemnification agreement the guarantor can obtain and liquidate to recover all or a portion of the amounts paid under the indemnification agreement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rental expense for the reporting period incurred under operating leases
+ including minimum and any contingent rent expense
+ net of related sublease income.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The amount of an asset
+ typically cash
+ provided to a counterparty to provide certain assurance of performance by the entity pursuant to the terms of a written or oral agreement
+ such as a lease.
+ -Subparagraph (SX 210.5-02.8
+17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Year ended December 31
+ 2019
+
+923
+
+
+
+Year ended December 31
+ 2020
+
+517
+
+
+
+Year ended December 31
+ 2021
+
+132
+
+
+
+
+
+284
+
+
+
+
+
+856
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of lessee's undiscounted obligation for lease payments for operating lease
+ due after fifth fiscal year following latest fiscal year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of lessee's undiscounted obligation for lease payments for operating lease
+ due in next fiscal year following latest fiscal year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of lessee's undiscounted obligation for lease payments for operating lease
+ due in third fiscal year following latest fiscal year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of lessee's undiscounted obligation for lease payments for operating lease
+ due in second fiscal year following latest fiscal year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+202
+
+
+586
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+362
+
+
+
+
+
+
+
+
+
+
+
+
+125
+
+
+147
+
+
+
+
+
+
+
+
+
+
+
+
+077
+
+
+077
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amount of operating loss carryforward
+ before tax effects
+ available to reduce future taxable income under enacted tax laws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+700
+
+
+
+
+
+
+
+700)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+Concentration risk
+ percentage
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concentration risk
+ percentage
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concentration risk
+ percentage
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concentration risk
+ percentage
+
+
+
+
+
+
+
+
+
+
+For an entity that discloses a concentration risk in relation to quantitative amount
+ which serves as the benchmark (or denominator) in the equation
+ this concept represents the concentration percentage derived from the division.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							function toggleNextSibling (e) {
+							if (e.nextSibling.style.display=='none') {
+							e.nextSibling.style.display='block';
+							} else { e.nextSibling.style.display='none'; }
+
+
+
+
+
+
+
+
+
+Dec. 31
+ 2018
+Dec. 31
+ 2017
+
+
+
+
+
+
+
+
+
+
+
+161
+995
+
+
+298
+372
+
+
+
+
+
+
+
+Amount of revenue recognized from goods sold
+ services rendered
+ insurance premiums
+ or other activities that constitute an earning process. Includes
+ but is not limited to
+ investment and interest income before deduction of interest expense when recognized as a component of revenue
+ and sales and trading gain (loss).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 Financial_Report.xlsx
+M4$L#!!0    ( /!@D$X?(\\#P    !
+
+
+
+0;FP@R8;-OGYIH(?
+MMWF\81AU8\K(XK%T-8943OTJDH\ Q:X831F:3LTXXFBD(3^ G/
+6+V2?$9/
+M-(X'PJ8%EQV^3O8:W7..7AKQ%/25V^9CGIYFHQ*/B76_..7+8\#?NW_+
+
+
+
+
+
+
+XP:P!;
+M]!@H@R@%
+
+M !
+
+
+
+
+B0103 9IZ_PP JE3%ZU6FD PSA]R1
+2
+(<7<K_WUE[O)
+
+
+
+9:AAOBTQJP1X!-]M[X(
+
+
+MCVFS(Z=T)LWH
+
+
+
+
+
+
+
+M\J(A[J&&F
+
+
+O
+
+MV?Y]
+
+M12'OBYC$[P
+
+
+
+
+
+
+
+
+/
+MG+^_M?YY2-XF\U1T:J.KW^7.')=A%@8[M2_.E7G4ER]J2DB&P93]-_6B*BOO
+
+
+
+
+M
+0//@LE(-QEVXTS .L
++1C)G*C=8))CT;
+
+M)XRY-/F/ZM:-!VN W:2N&R F.D_2U/6#=2++DL0SOD S#C#D8L_*!9IR@#$7
+
+T)Z[A(99YX'-&\ PP\Z0(/
+
+
+
+X&YO0B=D!AGW.*+1!YA]TF4?8*JA
+
+U[.]Z3QH+1I^D.
+
+
+
+
+
+
+
+M/@
+
+
+23+EG
+M4%V5%GS*8E X?1O'MG/C
+.ZDN\GF-\23(9X-4?+008#61GP2.9*_40U+7,I
+MAD.?U9/[3L1[8FYS
+
+
+
+
+
+
+
+
+MO:8)2:S:Q@.2=-]^@%W7!=J\B '_[^YW9\QY=17R29TXU\ESU_9JG9ZT'FZS
+
+
+MV7_G%]X:N24Q
+
+
+
+
+
+IQ)12#V:4 8I(.^\:#0*0T
+8;WO6-(CB;?3M
+M1XHW#!#$SQ
+
+
+
+!&7P5QOPOF[B)
+
+MK2RJ=F$?A:AGCM-NCZS
+
+
+M]5
+
+
+MF[G)1+:
+
+0?)8[$&%D\E
+7KXX-I?&P#)*PEU2]1*XIDP;F
+MB8P\&YB'N,0U5FB(E.5QN2C3#YD@VF01(93.Z42RL4H(46@R@4 YX'0
+
+
+
+
+@
+
+
+M_QZ\YUPPF=5]E 
+
+M_4$L#!!0
+
+
+
+FONU%%6YI^=
+MJLM
+
+
+
+
+G.10D?&^H_HM\D861
+
+MF860
+ O&5?&)\PJ
+
+
+
+
+
+
+M-2@[I;0TA.S.L!U
+
+$%
+
+
+
+
+M%RU\!?^M/]M@L86EEAJ
+
+M* @45#XRB+!=X1&4BD1!QH^9DRXI(W!]?F/_D&H/M5R$@T=4S[+V74'O*:FA
+_P:=J_-M*X\@%?7C9U/\&
+
+
+M;MLP#/T501]0)4JZ9H%MH.DP;
+
+
+VA.[(F];T,+?V X,WM36:1'0= WSG0-1)9!6
+MC&\V[Y@6TM B2[ZS*S+;!R4-G!WQO=;_3Z!LD-.M_3%\2B;-D0'*[).-/ -
+MPO?N[-!B
+
+
+M:(HYC3%\&3-'
+
+M_RH)6_14@VO2-'E2VMZD25YXYX&]Y^E-_H:/T_Y5N$8:3RXVX
+NF_M?6!D I
+
+\WN'9C6
+
+
+M_17$!RP.R;919%O:[*IJI5:*MFK[3.RQC1:
+&
+M?#+VQ74 GKQJU;N=MX/)\9<U8$6[LX
+T.--8ZP6'DW;
+
+
+
+
+
+
+
+
+MP^9 
+?
+GX4696S
+
+!  #2
+
+
+YX;6Q]4V%OW 
+_2N('U#N
+
+
+
+
+MN(+RX4&)SU&BLG$EY6 =ZIG%2]'B==IE%_=QNDD.
+
+!+V=WX$6K]!UL
+!;4+
+MQX_^;*8QFPR'_?R#V/*-B]]02P
+
+
+
+
+ ;Q(&MSB36,D%\34:'ZN<;J(@4%#ZR#=H5'4H2!1D_)DXZ
+
+
+
+MDS;IU&G=9RYQ$E2(
+
+
+X$C/U
+MOA?AB7='[GM3!F=L1;SSXJWW7HO=_IQ:R:8TY3#%_'+!'
+LR\I^%:*$W\%
+
+
+M@&=O
+
+Z9
+^-Q
+1G[Z'H 3YZ4U*ZDO??#D3%7
+
+
+)4WHL^-!=+T/#E85 ^_@*_AOP]FBQ5:61BC03AA-++0EO4N.ISS$
+
+-_6^-\8!2#C<X0CU^L-60T/IP?(=G.X_9;'@S+#^(
+MK=^X^@U02P,$%     @ \&03H +Z'RT 0  T@
+
+
+]HXUQT8LT4#2M@K
+M[$#[FPJ-$LZ;IF:V
+
+
+
+
+
+D99= -
+KG<1
+MOOM#X7Z=(%DE2)!\M\2UV*N_TK%CU58.HX3984V.LXR0OO/+!W/+[)9_@X
+
+
+
+
+;G$F
+MH9*S
+4_!^%YF=!
+
+
+
+$9
+
+MX^12:L9_$MN9G5G;V=$N;T*^J9)S';PW=:M68:EUMX@B=2AYP]23Z'AKOIR$
+
+P^6?+:W%;
+
+M_*;NQD&_E;T0;_WDZW$5QGU&O.8'W5
+
+
+Q&@=1
+M*_L
+
+M.1Q^Q_H[)@MJSN;0+]JCL-]
+
+=L!0^\Q$R(R[)
+$11);
+
+9CBSX;-[=9IB@@02))8@^6^+Q-DBPGBR3*%(@AFC@C)%@D@R(9
+M($@=$83)L$@.17) D#LB%-@D0**%(!@[H@ 3!9CD3D4F0,]^(1QG/Q)
+85
+M% 
+=R?&7-F%NX..S#AID:K
+MA0^F;9CK+(@JD;1B?+
+Y
+
+MEDWKHX
+
+
+
+
+
+
+
+
+
+5_ARLHA(=
+
+$9AE(LK*7KGC9Y4
+!4M7L==
+
+M3-ZA]YIO]ON478/0A#F-&+[$S B&ZG
+(OA;BQ/^C\W7Z=C7#;:1OE]&WAW6!
+
+M965T
+
+
+
+
+MK'R;TUM**JC%H/R#&3_#7
+
+
+
+P]PO[N3\1:;52JA0%N!FABH<WJW/1S3@(^ )P&#79Q)J.2
+^!*
+?0R1K(8[)?_1DG;Y;S7 7Z;ME]'2_+IN
+
+$
+
+M
+
+M.L2O@E_ES7U@4GD6XL4
+
+
+
+3*6@B
+
+
+
+O-5
+MLNE-F(
+
+
+
+
+
+
+
+M0UE!S4M:6PR.*_NSN]RXCB)HQ*\26C[J6RJ5':5O:O#ML+(=%1$0V LE@65S
+
+
+MC&1]]VI2EU.OR0)P.7O)/-=/T44)]9CG#N.-
+
+
+
+V-
+P95 -,FXPT0:4VN,FX2.^IF=?*.3;W:)+SN
+M
+
+
+
+C
+
+
+
+5T2J+C\AT7 @
+
+
+MOAU6/M9$0&$O=0JB'A=8 Z4ZD^)XMTG]WE
+
+L
+RNC(_8YT[VN8-],6?_Q_IQFGA=%HX
+MG)*!4Z=)KYSP3-D$;I_$Z9.
+
+D
+
+'P _.QC-8I_X
+M2BY*/7OC2Y6CU<$'$KK%9A;KG SKV02^/WI(GFD)ZXW+^J?PJUNUHNS,!)
+M\5]=9=L</:D@IH-W#ZI\3-
+
+A7_%:[ '=QGXF*4BIOPGY2#L4I
+*BX5
+
+V-S_ET G GTCA-O$
+;-0ZD=F69%I-28Z/E;/
+
+MD?UN 8OIX
+
+XEV+JQGPT.M?7;O=OKV/S1L*J?YAK/'Y?B+U!+ P04
+
+
+-XN7=^]#KR4
+MIT*9 9)G#3W!-U#?FZW0/3*H'
+H*:EGRVA%P7+H?_
+7&]PS!(GZ4T
+J;MF.B
+
+
+
+
+!0G20(4V I@DL/[SA^V&X2H0&@%HE&
+:#(=
+
+N
+
+
+=5MTET374;SI+T RW
++Y'U!+ P04
+@5)MI
+KX
+WOZU(GKN=W]R^F=]7+F0AX9O1W
+M5\NV\'>^5T-#KE2^L.DKS/TDOC
+
+M4\4+%;V5.$YR=--&L^9H-?B#)ETT2/DO$.R$8&
+
+DS-R8Q(E)')C]!I
+\8L(PPFY
+MZL2DCY@DV&#2!TP8[/$N=G
+
+(-)WO\.%FP2[:' *V.K;X5?A!^Z0;A
+
+
+$
+
+M
+
+
+
+^56QIH.#\.2U;:GX^PB
+#X4?^J\3
+
+
+
+
+%=E)@
+
+
+
+M 0  70
+$A)563
+M=:]^  CD32OC:SJ$,!X8\^T 6O@'.X+!G=XZ+0*Z[L+\Z$!T*4DKQHOBD6DA
+M#6VJ%#NYIK+7H*2!DR/^JK5P_XZ@[%33DKX'GN5E#' FFH4%_@%X?=X<NBQ
+
+M2N;F?\ -%
+
+
+M^M?$
+HTW@%\=C&*Q
+
+
+&T^1ONDW^;V:)_;YO\G88?0=\Z;KA7=B4KTC<]MK
+
+
+
+
+
+
+
+C8OL[1%
+
+
+09OD.
+
+2J0( +)YU@F-DDR'W,C9$9:F2&*2X0(H*I \DP3#9)
+E]
+MS(V1##62(0)S7&.LP?2()A%I
+
+% V
+M/2DH:)J&7!U^#O+H^J3R2G%JM#UF5]6Q%S]'MGE
+
+MH[R=T*8UN09R$$*#\1@\F8^X
+G?*N&!PT'::F;GL&VN_T*(=+@TRWES%/U!+
+
+
+@#&Z.
+
+M(L2+-;Z6:;Q0&#0EL%:HXKY
+
+C$(PY7Y1
+2@M^*1B4N'T
+
+
+[QU
+M?OSI;@ D2)2G
+
+M%/AM$:9^L&$D1PCBB)VPQ\DU
+
+MT\.KZL
+?L@AZMNM[[B+WS[V92!-OGOY/M:=J_
+
+T^#:
+
+[6E' &#Z-<Q-Z
+
+4/T=LPCT1
+M1\#NH1 93ZH=1G'#$)_B$':%E[P .2'(K$DRBN8'OHD3$N8D]=+
+:OZ9-XU
+MP[
+
+
+)@#R;&7-G$Z
+M7J]AJDD:SW]V85 OX8*-LU2D7N0#W8UZK-1)J?
+-?&V)XN;SKMZDC+5]ZY2_
+
+
+VW@MRB(B%30A[IYDMMS'L!MW#(AB5%GCN\_6&
+
+4
+M$/G*R]:<H9F$T*K)+9(^P5#N VFJCR4MN^_F)8]!FBB9
+13:$5;_SB
+A; T
+MID$@%OC:(1 ;K)56 
+K=9/F
+?#C_5HB)+@]@B3H@K+X O;-ORETRDDJ@T1H@=@YL&E ?HEF%W_!8_
+M$TK/A.1Y+!T8!%[@CX(G G?O[=@ 7#*X?)*@J#6 FE?!S3(_!-JHL(*
+U
+
+J-= +BC:?
+MAY:S%W;\*#G^1F
+&8'DO9_DN=;D9CGJC_G9U
+
+
+TVU/7.R0
+
+
+
+
+
+
+QS1GN
+![+PM9SP]YXM(X
+
+MX!7@7(%2$_7
+MDF1EA)+Q1\7B7Y22(2[![*_J5RMV!U?18O@_V
+0YJKC'GB&^C7=!;BK$ 5
+M!-5&@927$A(2:G] &[F=8)LE?!$2YY%.:BXL\@3%Z* ;UX8 Y$Y/[1+MR1]
+M#T8YT5N@*DA8$JF+H\6^\GQ,=LRT/4+2X.\XSQ; @%FK$]KQG1+*D0/P/M*
+MSA;Y!APSGV #8%;S&
+
+
+
+
+
+BC)2@BC+5&)(/6#;9DH-%;0KW3
+
+
+
+
+
+
+\Y2EJO+P
+X%.P%XC-0DYQ (1!RQ7\
+
+
+\9 @5RP@ &%KB('$J?8/B DVKJB!@
+
+]DGI
+./
+MLUFZR
+
+
+
+
+)+YRKAA@1+(E 3 F!
+MF4Y/ 
+[D;@F$)R53^ +P3LC@
+
+M:AOY
+
+U?&
+7'B$&V
+CUS&#'B &C!K)XADD$8
+@($Z6
+M
+E+2&B:S013DM
+
+
+
+
+
+
+
+7NE6*?5&KJM US]$BR*()VE
+
+
+
+
+M(Y*M?8Y\V7
++!04R#3. 
+?#!M$(SBF0C
+
+
+M
+
+M#I*5V8P5=_+UY-Z4R%
+=GP.(R8I%D*VF0 1P)9I 9($Z6B57M
+
+MHX3+HC2+HV?1*
+
+
+
+
+
+M5UMLPCD;Q2VRWIU-R O.@G2*VQQDLF4KYX:\T\_#O;:/YN/)&JI)QT\86^
+M85B:R80MY6_T(1N)BLEM8TY9;&TYB&/
+
+
+
+
+
+
+M'@VKMWMP6V
+^V
+
+
+AST
+
+
+
+6LY$?6Y
+
+
+
+M>P_3SVSZT!M-\)KS>#1AU[OS6
+L
+
+
+M8 ^
+YVF
+
+Y1=%
+
+*3$-*09Q#BO?-9W=^KX=45.\);TU?=
+
+
+
+
+
+
+;T)%9_ 7TSFU?7K)W
+
+
+
+
+
+
+
+M0T\B1ROU4\[6R$
+
+
+MJL^Z '\Z5\97US 0?647LLT$8 U4B
+%3W=MIK :[1'!E5*M]F S^^ A28(-/
+M!#.'=J4!WMEY=WY^@F\(2TO%(BA^+WSYFRK_
+
+
+[XSRAGK JF6MVXZ_FA
+M^O%7JGZL/2E5M8%F
+
+
+
+
+
+
+O
+
+M*T)4ERVT6!W4JT9T:F
+
+
+
+
+M3F0-PD0*J3C1QE5ET-0*2-[8)
+
+
+
+
+M C4_]3J7($ 1MBW:'/WGO
+
+
+MS:$@+=
+
+M /!@D$ZW5[@C+@
+
+
+
+
+!.JB* IX
+
+M)-
+
+MSKTI;R/( P3RX
+
+LQ'E9F@;B/((\
+M1 /$T.&CTIFO.*J#H5DRAY82_!$=X30'27^SJP6L-:_F'K'-)Q6J19R(19
+M-V465NJ%9=JQUG_Q2ECTL;6ZGSHXE!)^&Q 
+
+
+$32P)/$X&
+
+
+
+
+
+
+
+
+M: $/6L:#EO@53QH!0]:QX/6\*!-/&@##]K&@[;P($H%&5-\DH0U7FL2N:\
+
+
+
+1RXP.I$
+&?2A3=9
+
+
+
+
+MOHQ9[.NS]J_B] =02P$% ,4     #P8)!.'R// \     3 @  P
+M        @ $     7W)E;',O+G)E;'-02P$% 
+
+O87!P+GAM;%!+ 0(4
+
+
+4
+
+
+
+M 0(4 Q0    ( /!@D$Y7 6?1-0
+
+
+
+
+
+
+M Q0    ( /!@D$Z@-
+Z
+M0$  -(#   9                20E  !X;]W
+
+
+
+RYX
+M;6Q02P$% ,4     #P8)!.@ OH?+0!  #2 P  &0              @ 'Z
+
+
+M965T
+
+
+
+
+
+M A0#%     @ \&03DS=(JV 0  T@
+  !D              ( !@#
+  'AL
+
+
+
+M+GAM;%!+ 0(4 Q0    ( /!@D$[)Q8C+LP(  T*   9              
+
+
+O
+
+
+
+
+
+
+
+  !D
+
+
+
+
+4     #P8)!.F;K4_^\=  6
+
+
+  #L5   /
+
+
+
+
++5WC.
+3L+
+
+@_
+3^Y%Z?PDN7$^$[#3H#SP1W@@9SIFAP?5
+
+^Z?PG2#\=GN9CMN+X\'QQX]/3T\'?O#(GX+P1W1@![
+
+
+
+*^I_\_+?G3NBYQ_@O@WWPH^/GR/W]@[&\I]I!$#Y\K%8J
+
+
+\^(@;
+
+
+M5S^??;U
+
+
+M;D67D=0X[A$O/3A]MZP_.'B.G _J
+
+
+
+
+
+
+
+
+
+!&CZ(3;/T1X&@K'C;_ 7[:#
+
+
+MYKU
+V=/(!M/(.Y$C%XGO=(+G72*1W)+W4F1/(1M+(6\4A)PZ
+
+
+
+MT\/FTL
+
+
+
+
+
+
+MW%[:WL=/[GK\Y
+^X
+
+
+
+
+R#-H ?9]^S@HAYVJ_H
+M
+
+
+
+Z\3
+=2[0/4VIV3X;=( ..GQW7;CD&?C]WEZ;PBE7)\^B,LR\7[GG%?ZW6
+M.%PAU!=@2OGVTK$-4%N-%\$NF'RY8,^+['*M4FT=+0/N2X %FG&PPQ&609.
+
+
+
+[ PE.
+MT4SCD)S2/8YWZ3OB^1]B.#
+
+
+M./-TXM+
+4Z&I:
+
+
+
+
+
+
+M@'[Z#ZNF_C$_Z
+
+\7M#M-)._C#U?7].;/8?_+^X--_'%4MZQ.[^_;U:_OV
+
+SKLL$28?,E^B7LB)<%JY9-*B4O_8GWZ
+MM<2Z )H(O2'[X0=//N,1.T-/*+L(R*-M=-IBIT$X*3V76)/\*;KV^I/ (?K
+
+H7QGV'R7
+
+[+JC3()TB!LL#] (@
+M!!1^Z7:H$D6'@PR* QI;)R5:K5*]4BE5*A4FTR'UY%7Z(ST(C
+
+
+
+
+
+
+
+
+
+
+
+MKU (8Z6) 9&LP0XAZ'GNP!.1DJ/L&]B'\ [U
+J9IVZ!@EDGU1J0OGI2U[P
+
+
+
+
+
+
+
+
+
+M. 4L!DPC5+LR#N8R[Y%XWKA@Y?(+/%KU6=GA'JF/44^(&$Y$.TX $0!8XI&_
+
+&
+
+
+
+5$^AMT\!OJ=#7+^MS3%Y1
+
+5\Q6
+MC0/VP&0-4-/UZ.P
+78%:)J$
+CW@XI3%^)$
+
+
+
+M92PD/L-E..V
+
+M'
+
+
+MTQC'#%WIGG
+
+MZ'-&QM-1$
+!N\YTN$P'63O#@NWNOV(F -[#2Y4AD2(%?#/0XCQ12H*WVW2EK
+M5!HEIA%*ZJ(N(*)
+_=-
+E4*M83K+,\!M@(UN0
+ME1 **17(9)-@A1E]I!$X*@)4J?9ILR5<JG2M]TE#SAQV\C,'AO2@0ZHQ
+4/
+M5%AZWA77=1]%.8K% +V'PLM
+
+*6\/5'04#B;7 ;0<P '; ^M
+M3WB)@M4H D==
+\$
+
+M7U
+
+M!=0O
+
+
+
+ 1;
+  Y^Q$$(RXUI$(=5EU
+M+U)A%6H.#)X8%H/4&:8'(H(/[V#GU04?;JNU-8D,-7'3Z[G&8LA!9;N+%CB
+MHTZ(J( _IGIZ-Z$,NM2IPK#I51QXB#FJ;YCO$9 T*LHDN0%'R!%'K%YG
+NO
+M@T@;V7G$&&H960DIHZ#G/Z]7@ZI#
+
+M065
+
+M4(X4'!)W9I(QGFB*)=+KY/2
+HJ6&)^BO5NG@2,. Z
+
+
+
+
+U
+O)9;3*7@(PJF9PMY;M2FY2=
+
+
+
+M9GX5:/.T2Y\(6NVP4ET^:/
+T )\ 6K4R-]9NM-?K(@C/5/!]FCZTW
+XVTZ9:
+
+
+
+
+
+
+
+M-E__M*
+
+<K.IUY1;5WLJ*SF5=4
+
+
+K
+19
+
+
+
+#
+;\-YBO!.-5
+M00@O0#-S'
+
+
+M?;7CC7#/7B[-08!
+KJR=9=MA&*+
+&&%=H4(CK2/9))2J@5C5)G4YS57W*)FE
+
+
+
+
+
+
+
+MD PA5I]$PI:]H1Q!R0P'[$(6
+
+
+
+
+
+MO.
+%W$__I(J9%G1=&^$@L* RNSB$9G]N]M+US9_Q@GO ?9-@?OBC^ZA1
+
+
+
+
+
+
+
+
+MU0T!].[G,2.54/J&/0K+ ?OR::*U&U6U\?/G4CY=D*JCSIFJZC[Z%P7+2D
+
+
+MYK.& ]C_
+
+
++4GO%%G+:7?4+G
+MLL-2J#%&WG\0LM=J0JW!;4':O%%.0X
+59O1!QXKJH1Z'@:=4\-A]E%X)7*IT
+
+
+M6VGZM$&I(2//IUH-9+Y)HS$4732TI#*D*)
+
+
+
+MC
+GS#+
+
+
+E;1.HZ
+M.@*^P;
+
+
+
+E W@.%XH&'
+
+M6JI8==
+0G50
+
+
+
+4V49P0?A( .]5$AHNJ[T
+
+M2
+
+
+M?S+UE3H-[DG3(^6NH.^TR%_!
+
+
+
+%&TF#<M)Q@H_^=\VWL#D%/LL&?X)SPI/1V*.W(
+
+]\U&)UN.!I$V4'3(D$N/!,1/7.%0VV6=W
+
+
+M$OU*-#X*#UU*$+1H]P 120-*\I-+MV?$
+($/4\CK*+K]5B 7(12&(Y)41P^C
+
+
+
+
+
+
+
+
+
+MJ:S;O+7N]KA\38F\Q3'A32OVLXKF)LWJ:MI\G&@;XP2 PZI4
+
+M[31W^ZAK'D
+
+
+M_T_BRKN5F8L9C@#W'+G'ONN!RA\FX@/[N.+I4\2=4GJ[@;6_9$F8OSY[08=[
+
+
+/@H?=0(A
+
+
+Y648YK'Q]A:DA
+
+
+
+
+
+ME:$FF$RM @L*7?J.Z
+
+H)
+
+M;-0O+?!ERP)ZILLT
+
+
+M64X6]
+MX
+]'TP$X1 FS3++5GS1P0?&&-^!*.Z?@M5(Y$K=:D[?UD@+;0B*AFSDC59
+
+
+
+
+MKOYE2*W*F%'V.G@7
+
+L3S8;TRT38K
+MG'0Y8
+
+
+
+
+
+MFB#-C.3HD2[U Q=J]-U^@ #RT*9N8SYSJ&#@3WR1D)6T,5D:7BUZ(C'973
+
+
+
+??O#DX^7;
+
+
+
+9=Y^IU59P@#@/O@+6SY[CL3=*-#8\
+M\N&5KFL#JN2=)\SNN*&PXRD=NB 7A5%15]BB5$LN8T'?1SDKO6M5JD^%I*%
+M+QBQ0\85J_$2@B*C(53A!^!
+
+
+
+10$II$10N^SH
+TSH)
+
+
+YU@
+
+(%#+4(D
+
+
+
+
+B^7V4
+M'!:1P?S!-*]TI K/_;8$=
+D*W4?1+//^LU5J
+
+ML4
+
+
+
+
+
+
+
+B_ ':&)S?HR;@@S/ H)MR[@-EZA18FZ*=(*I-IO
+
+M:2TR
+#$X
+3(S
+
+
+
+M&NP.!VC0_PU-_H7&D\N=U0Q\&&
+9DO?_OCONOX=_@[V[_MZH_W'4W_NC9E\2
+M2U]L^NJO^M%?/?$+1U@;X?V]BZ7XN+IQ?I\3^LD?8_HDON*ODZOI]?Z_/_SQ
+MR2
+<O]R<6M
+
+L#82V(AQ' 3L5A+Q7)
+
+
+M@FPT ]71\#M42$RM#+\M-P)IY@]F2
+
+
+M1(S^P!@.8G9?&'.
+EQN1&1;30'5$*!?AS6B5:@E A11JGOE4?'EMR4ZR4Q
+TAB/B=230*QQ!9IUTD\
+MP3E#.8AI)VH1;4MEPY
+
+
+
+<B) 32!T#@V18,12(61AU_+=9C*)*:4B44,,PDO<L*H
+
+M:\S!W07P@1
+
+MPR71B-@
+)3H[1$H0N9K=2F8]+)AK@\SG;SZD^QPPI2QZ?#[4PD?!DU;]#Q0J
+
+
+
+MGX]X)!M&O@MS$N8;XJJ$#N6H7-]Q3 6V4O56)54;_D$_'_Y(#PH4H;2F#HOT
+
+8K)E[0*9%
+M'_;=?-@#V2[=%\-\1N&2W.%5/-;3#?H@#_-!#D51(-O%.+
+#98&+F15UKDT?
+
+
+M)980J_2S(
+
+
+=
+
+
+4H53
+
+
+
+
+
+
+
+M1D3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+MT];#7?OL[GPX;*$PPH&+/1:0TU; 6G_\\^]_0_#OTP_M-AI0XKDGJ
+
+\/#H]'J-W6
+MX/LG5S&'VZ':[[3*)J==#K/S\\' 7OSXP_A@<.TV-WQV+ND#6OPV[OM][A
+M40_UNO]@[]0?W!U
+
+
+D%X
+@_I:2N#\/GH@/%)Y[#;[77^\_7R
+
+
+
+L\%FHOO
+
+
+MTK^*:K^!$
+
+
+MZ
+
+
+
+MGV-OW5+36+MS;KRR7B3],'U^):&C]JC=6N6MD&M-8O[6OQ52H!F3NPEC[A
+M=XD:BD46X]8 3H_:P9P&/!.EWTZ:$V6E%E?P0.:
+D23R:1E2Q)!A.00
+MZU$*/P-M6K*VH
+
+
+
+0Y@];?56
+
+MVC%]D0MOB4- =J@_KDA4[8=**CVK'1JUF@YNZXQUP\D
+4_=B/A/1#YSN&C(-
+M7\(M-Y::2L]81T:-I8/;.F
+
+
+!AFF ^6((
+M6@K%R['P0^:!?)-A$!%.0N4BZAX[-3U\&]#HAJL5.:-MPWR]\3?=%*8NBMH
+
+
+
+
+
+
+
+= W#
+!:KL^)&
+
+
+
+
+E'CL;+LCG-)[ _Y
+
+M#M#Z$EXC!Z)J7;
+2M<4\B^^?TSVQWM
+
+
+MT3_
+
+
+\(N([V#MI]7:Z+8 \]N.-SYI/=ZW3^_[%Q<MX ?0LZ&+/732
+
+
+
+
+
+^HCH
+
+
+M:PA]!@SGG_\[CLGK92&;WL[F(P[N]UNK_.OJ\M[:X*FL.UXC$+M1(I5DN1
+
+
+
+M#VHL9^S1DA:D8X)EX=!CA6^QZU@.DL
+
+
+*B
+
+3;W
+
+=*E=7EQI=;YZ-OE_#I NFZ%&BG0BVW!+\Z;!/@
+M')-S.N@3Z
+
+
+M!37KH;!'F-%E3UT7\E3WX^UZR;92LSHM2_2:U$1P.0KDJ71L)-QHQB!TJ*
+M
+;W2-?X5Q'7&^B4:NMC*J.6RU 5
+
+?E
+MEB$OVM
+
+
+9PURC6(G%6P_4RF].!1N:^?R@O?#PM:X#5ZBWZ1$2D3WPX:
+ME;3@D7A@(HFSQK<ZBTORVTICD1H\'@]-Y#%JAS?!1#2WEXIN*WM+&O(^VPB
+
+?FD8EL
+
+\6MG21'ZF&=M
+
+AI]9=I#CLVWEDF[JRR**5A41U8
+
+
+]J-E[+$(B&5J!BP]%9P&
+
+S,X.5/OS\
+MX\T9^#FWG1Z[]*$7'GE.*[;<]U947TJ;/Y
+
+VK$#P#STW$_-EF_
+M3=;O;S7K]X%UG)O1A4=[K6/3'B7.]N44-SO+5ZBC:7DA.;#_=())M.1BP^3$
+
+^LLS2TA7IR0@6DR
+
+:;
+2
+MIP)$4L:3)@5OYN*\IIQ6T]DKH8:94TZ6V\$V9N@_[*#0*W2CK9J@#PGYH/I(
+
+
+M8U?A%
+
+
+
+
+5%45H_O7
+'N
+M?.(
+
+
+A-PWP1*=) 4/B$P':!BP
+
+#ZQOBANC@^OK\U?K88+D
+
+
+M'650U=RT@$
+
+
+A-9F
+
+
+M\;
+
+7W_[ 8!X] N4
+
+
+M9UW*O1^O_+E&[
+
+
+
+MMSS
+V0M:(Q
+M8%P*R(I^74Q: !AAV;!LB^R 00Q$9TRH@ &3W!)G7ACC8.:1F,[4ZW65
+8N
+
+K+3TVGHJC5%IC5Y/\2;TP^P-
+
+
+.Y]5(\NB&8LY'ZI;Y@%\(ZKD)
+
+
+
+
+
+
+MZTPQ)KJ55E2&
+%1B8-=9
+ZWIX125$'?2.
+_CX#IYL%%&RW0 84C)2G31L(
+F
+
+
+1IH!4]O$
+
+
+
+D
+
+
+
+
+M^9FL'G8X9UKH4XU*(#8@&*KIP;0MI1***!8)
+
+
+IGEG+</WNV8TD[.;94
+M&(-0D0U#Q5B3@4XYI4P)' #ZNE[$N5QYI$]SSW77B#5V+G5CX)F4S<M(T!Z
+
+
+EJ)K4
+
+
+M1DY3ADL)-G*$-RS B$A*JQ
+8L5K-UBM(4BCV
+
+
+
+'%94[U$I99.':::L/S=<W 2$O-K=-O
+
+M
+MJ+E) F[@=)'$-^55J(?E4J7SE!N[[8-TA)O=D
+
+
+
+M/_&B*R\
+
+
+
+MW7D. 6)!NC:L9BKGT7
+
+
+
+)G=-#OJ:C8.[;2
+
+M)A'E=S./
+
+
+
+L]?S
+
+
+
+
+
+
+
+
+
+
+0@_*Q53:E_1X
+
+
+
+
+
+
+
+
+
+
+M
+(UV!3B\TQR8L(
+
+
+
+U4%O90Y$UO02Y\B.D];$ !A
+
+
+
+
+MU7&
+
+ 
+
+M#+
+&X/3TL9%XX]RPTAJ
+G(P4N\O2)05' )/%;A31QN0I\MM'?JM\8/V3A2
+
+
+M N\\H6B?:NFS(2K @\OR6
+
+
+4][;;B)
+
+
+MK;&\TAZ
+TBQ(=I*HD3#VPUTDTODUHALG
+O)/RB\L6F2([E1?.8#@QSOFLE
+
+
+MM.
+
+M3@%A!
+*3MWJ#9WN^&N)]W<;)?;0KMVW,SN]<.ZGXP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_&ZU-368&1FI-B6V&&?)Z((.I^B$%1@!AJ8+S%+
+MPHB#
+
+
+2@ZE/
+_
+
+NVV:$L2_%
+
+(:E*&X#[X53
+M0WPAVS
+
+
+
+
+M3=])?.]%S''W\/
+
+
+
+
+?
+M6U4*1(&WJGB
+
+M
+
+
+MU6,*<NDECZ]HW7'V+P76B.IH_IT4:#A#.VFZU%D2\W@Y!!N)+MDB2ZO
+&$?
+
+
+0Y0
+M996W ?T1)+ZSYQ\4A#Q)[%]?QNT&*J%HQ.ZHYF!40Z/?2_Q_#M%^7Z+DVHNF
+
+
+
+M C](R\D/M7=:2VX&JX6T'&T/YK]]IADM=[#\1V]IXU
+EL'OFLWWSY:C7Q@!P
+
+
+
+
+
+
+M@4._
+
+
+
+MR[:61%GH-?O5-X@U
+
+9T^LI]&A3W_\1/4_#%4_MI0O:3-Y3Q#W\BC
+M[2.M;^ 1EB=H87?ISO-Z L(R4DRQ^/
+M@]#K$OX&A3&J[HD^% &F$:\(WGEA4P_V35@$P.Z\114+1NN0*,#J;1YO$=
+M'1
+
+IV5;U: #M=
+
+=5.J1GX5W
+MRFFS/1I0QY!6G8PGY6!RD+0]1Z]9N705GV#JJ+0H:R!VK=QRT9Y-3R[B:6Z
+M64_6KF84H/;L0589(LUR*QS ;.NIN$:0XV&]F^=T/!W[Q[Z;$C2@MCR=,]W
+MLRIJ^'=345G6*:1'^UX)&G[[ZDCW;-^JJ.';E[%D_[%ICLOPGP\GF8D]#
+
+*K[!2R_#L\T&RV\-<\L D
+X&JG@G
+MX(T6?+46BO_!!U^6GS)EB/;GS4 @A*2#-YW@!!#)7
+
+P
+
+
+3@Q
+M
+C
+
+
+^&-*_O(GH
+MF[_]][__F\/_^?D_#@Z<44!_Z
+SI-[!132F?W6NW!GYZ'PB$6%N0ME?G5_=
+M
+
+
+
+MSV$0??TH_GAP8^)P9*+XXW
+
+.W/.-(6XK\.RF8'XJ.#XY.#=\=OGV/_32G\3(*
+AN26C!WQ;ZXG
+MRU^=A/3!#?T@4_=Q0/R9R[Z2A*OZA-%TSE5F=BAH#CENZ8Q$R2#RSZ
+
+
+
+WZJ5GZ7/0;XE/9G.AL3?N
+
+N(%D1
+.4?(GX.;N8*Z))
+
+
+
+
+
+M)2/WO-]V\==; *5^@DGJ;3Q:%?8-80'E+/@B0T M];6F0/&_PRC^5JZMX##@
+
+$:YN[U-R$;\F<,G&*RW/RE)M5040E9_PH:*6@45P
+M
+
+
+
+M5 =P*;LV][)T-J-1EHQP-^6
+
+
+
+(G+
+
+
+('_!2*Y(4WHL2TEE
+
+
+
+
+MU$9 &F/6VT'66/!RW+!#!';JJ6CLA68!$I=B@]K)5_I'BHNG7 WY)RSE$WV#
+
+
+
+
+M\UN03
+
+\F9%@V+CT-]97%AFUYA/
+M0@4;JNFTULSV#L4
+
+
+A\
+MU\46%UP(6;*TF+IIR
+
+
+
+
+3];$-Z<P-(L46
+MLKTY
+
+
+MEMAW3!EDJ'1/2^E_%M3
+@\V644RRNX7!C^-3MSPY#XPY1Q1O
+2UIHT3@]
+MFND49+9@@2:4U5CSI5X Q3+#FP'[;8'8UTDB'#
+$Q
+;&G=%GK)O=CJR6U'
+MU\PPA(H#-8*YLG6'L$%O.SW*882@: &
+
+L2&V'W;9B?C4QH$:M
+MV+]U@JU&:SN6MAV3VQW@
+
+
+
+Q)')_DZDR6W]]4$3=5BGM!W@ZT$5VH6SCVI0/GVHK&NM(;
+=
+
+D#^M/#&X 6/LJ
+
+
+LH\/CF1GS!U;S^
+
+
+MSY
+).V&Y;2OHC&E
+
+
+
+M%LEMYTEO=7I*J[5_VP=G9(E&G5BV12B.C3K!QG+:Y\BQ2C([[$-(C]_F6U
+
+ME+ZYZ/!:]27ETY+J#'=\LF[&&0F@YO(3C:Q3UE[JQ?:JT,6)R4P+)IJ;%H
+
+
+
+D_4_XKY^):N
+
+
+
+M.H#2VRXQ:9PC888'&NRNN*X40C65[?J
+QL!!A( #KI$;L/QID7%Q'=0-
+
+
+
+
+
+$VI<N5%94F-*@?5
+MBR^;&9*T9
+:REEA6U#;F
+
+
+Q5U^/
+MEV
+LWGL[)1$9!QWLK$.GMLRP$W(:X^PL4[RV6[\PHS#?DT8UA3HIAI5P[R[=
+
+
+&%V6V*U W;C;M1A\'D[D'Q \Z5R\38'LDW?PEA6Z6
+
+FGRR&=,87;0.<
+M=!WA0%IC3H@=2RNME3;#&K<N&DX\$//I/9 V$MD(AFC5:V+VETU+1J0$/
+
+D
+
+
+
+
+F3Y#SOY9-
+
+
+
+ROJW-XE7YVZ&Z
+
+
+
+
+H
+M'$:5PYK.4=32U/:95*E9\F
+
+
+M2 A$I'G!L)5CO:GJB4.LKH?#(OJHS*\;ZZ^_B773D+J1=WO9ME130U7$)H
+
+L\
+M7#[3QAX+LBBO'+Y.G=EV(6P#X@VDB$
+-VF84KJSDR0W%Q&(VX]8(;?L0^IIO
+
+
+LQU
+T*?T$K]X!RQO5LIK$HJ)!5UR7[Y](^$BR
+
+M2P=
+
+Q367%+1V3[@*_1GZK#&
+
+
+
+2D;$J
+
+M7J6:#$
+
+
+
+
+
+'-D4$L! A0#%     @ \&03N(0;:6OP  HX<  !4
+M     ( !$DP  &=D;6DM,C Q.#$R,S%?8V%L+GAM;%!+ 0(4 Q0    ( /!@
+MD$[85Z%IQPX  !C;   5                ?17  !G9&UI+3(P
+3@Q
+C
+Q
+M7V1E9BYX;6Q02P$% ,4     #P8)!.7R#30@@I  #I-@( %0
+M    @ 'N9@  9V1M:2TR
+#$X
+3(S
+
+end
+
+
+

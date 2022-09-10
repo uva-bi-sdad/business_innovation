@@ -1,0 +1,1336 @@
+
+
+ACCESSION NUMBER:		0001021432-14-000113
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20131231
+FILED AS OF DATE:		20140326
+DATE AS OF CHANGE:		20140326
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Natural Resources Corp
+		CENTRAL INDEX KEY:			0001586513
+		STANDARD INDUSTRIAL CLASSIFICATION:	BLANK CHECKS [6770]
+		IRS NUMBER:				463570919
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-55062
+		FILM NUMBER:		14717990
+	BUSINESS ADDRESS:	
+		STREET 1:		215 APOLENA AVENUE
+		CITY:			NEWPORT BEACH
+		STATE:			CA
+		ZIP:			92662
+		BUSINESS PHONE:		202-387-5400
+	MAIL ADDRESS:	
+		STREET 1:		215 APOLENA AVENUE
+		CITY:			NEWPORT BEACH
+		STATE:			CA
+		ZIP:			92662
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Plum Run Acquisition Corp
+		DATE OF NAME CHANGE:	20130911
+
+
+
+
+
+
+                   SECURITIES AND EXCHANGE COMMISSION
+                       Washington
+ D.C.  20549
+                              FORM 10-K
+(Mark One)
+[X]         ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d)
+              OF THE SECURITIES EXCHANGE ACT OF 1934
+             For the fiscal year ended December 31
+ 2013
+[  ]        TRANSITION REPORT PURSUANT TO SECTION 13 OR
+            15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+            For the transition period from          to
+                   Commission file number 000-55062
+                   PLUM RUN ACQUISITION CORPORATION
+           (Exact name of registrant as specified in its charter)
+            Delaware                           46-3570919
+    (State or other jurisdiction of           (I.R.S. Employer
+     incorporation or organization)          Identification No.)
+            215 Apolena Avenue
+ Newport Beach
+ CA 92662
+        (Address of principal executive offices)  (zip code)
+Registrant's telephone number
+ including area code:    202/387-5400
+    Securities registered pursuant to Section 12(b) of the Act:  None
+   Securities registered pursuant to Section 12(g) of the Exchange Act:
+             Common Stock
+ $.0001 par value per share
+                    (Title of class)
+Indicate by check mark if the registrant is a well-known seasoned issuer
+as defined in Rule 405 of the Securities Act
+						[  ] Yes   [ X ] No
+Indicate by check mark if the registrant is not required to file
+reports pursuant to Section 13 or Section 15(d) of the Act.
+						[  ] Yes   [ X ] No
+Indicate by check mark whether the registrant (1) has filed all reports
+required to be filed by Section 13 or 15(d) of the Securities Exchange
+Act of 1934 during the preceding 12 months (or for such shorter
+period that the registrant was required to file such reports)
+ and (2)
+has been subject to such filing requirements for the past 90 days.
+						[ X ] Yes   [   ] No
+Indicate by check mark whether the registrant has submitted electronically
+and posted on its corporate Website
+ if any
+ every Interactive Data File
+required to be submitted and posted pursuant to Rule 405 of Regulation
+S-T (Section 232.405 of this chapter) during the preceding 12 months
+(or for such shorter period that the registrant was required to submit
+and post such files).
+						[ X ] Yes   [   ] No
+Indicate by check mark if disclosure of delinquent filers pursuant to
+Item 405 of Regulation S-K (Section 229.405 of this chapter) is not
+contained herein
+ and will not be contained
+ to the best of registrant's
+knowledge
+ in definitive proxy or information statements incorporated by
+reference in Part III of this Form 10-K or any amendment to this Form
+10-K.
+						[ X ] Yes   [  ] No
+Indicate by check mark whether the registrant is a large accelerated
+filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller
+reporting company.  See the definitions of large accelerated
+filer
+ accelerated filer
+ non-accelerated filer
+ and smaller
+reporting company in Rule 12b-2 of the Exchange Act.
+Large Accelerated filer  [  ]       Accelerated filer         [   ]
+Non-accelerated filer    [  ]       Smaller reporting company [ X ]
+  (do not check if smaller reporting company)
+Indicate by check mark whether the registrant is a shell company
+   (as defined in Rule 12b-2 of the Exchange Act).
+						[ X ] Yes   [  ] No
+State the aggregate market value of the voting and non-voting common
+equity held by non-affiliates computed by reference to the price at
+which the common equity was last sold
+ or the average bid and asked
+price of such common equity
+ as of the last business day of the
+registrant's most recently completed second fiscal quarter.
+							    $ 0
+Indicate the number of shares outstanding of each of the registrant's
+classes of common stock as of the latest practicable date.
+       Class                                  Outstanding at
+                                               March 26
+ 2014
+Common Stock
+ par value $0.0001                 20
+000
+000
+Documents incorporated by reference:            Form 10 filed
+					        January 23
+ 2014
+                               PART I
+Item 1.  Business
+      Plum Run Acquisition Corporation (Plum Run or the Company)
+was incorporated on July 2
+ 2013 under the laws of the State of
+Delaware to engage in any lawful corporate undertaking
+ including
+ but not
+limited to
+ selected mergers and acquisitions. Plum Run has been in the
+developmental stage since inception and its operations to date have been
+limited to issuing shares to its original shareholders and filing a
+registration statement. Plum Run has been formed to provide a method
+for a foreign or domestic private company to become a reporting company
+with a class of securities registered under the Securities Exchange Act
+of 1934.
+     The Company registered its common stock on a Form 10
+registration statement filed pursuant to the Securities Exchange
+Act of 1934 (the Exchange Act) and Rule 12(g) thereof.  The
+Company files with the Securities and Exchange Commission periodic
+and current reports under Rule 13(a) of the Exchange Act
+ including
+quarterly reports on Form 10-Q and annual reports Form 10-K.
+     The Company has no employees and two officers
+ directors and
+shareholders.
+    The president of Plum Run is also the president
+ director and
+shareholder of Tiber Creek Corporation.  Tiber Creek Corporation assists
+companies in becoming public companies and assists companies with
+introductions to the financial community.  Such services may include
+when and if appropriate
+ the use of an existing reporting company such
+as Plum Run.
+     Tiber Creek will typically enter into an agreement with a private
+company to assist it in becoming a public reporting company and for
+its introduction to brokers and market makers.  A private company may
+become a public reporting by effecting a business combination with
+an existing public reporting company such as Plum Run or by a
+filing registration pursuant to the Securities Act of 1933 (typically
+a Form S-1) or the Securities Exchange Act of 1934 (Form 10).
+     A combination will normally take the form of a merger
+ stock-for-stock
+exchange or stock-for-assets exchange.  In most instances the target
+company will wish to structure the business combination to be within the
+definition of  a tax-free reorganization under Section 351 or Section 368
+of the Internal Revenue Code of 1986
+ as amended.
+   Once a change of control of Plum Run has been effected
+ if at all
+new management may issue shares of its stock prior to filing a registration
+statement for the registration of its shares pursuant to the Securities Act
+of 1933 and such shares will be governed by the rules and regulations of
+the Securities and Exchange Commission regarding the sale of unregistered
+securities.
+     As of December 31
+ 2013
+ Plum Run had not generated revenues and had
+no income or cash flows from operations since inception.  At December 31
+2013
+ Plum Run had sustained net loss of $657  and a deficit accumulated
+during the development stage of $657.
+     The Company's independent auditors have issued a report raising
+substantial doubt about the Company's ability to continue as a going
+concern.  At present
+ the Company has no operations and the continuation
+of Plum Run as a going concern is dependent upon financial support from
+its stockholders
+ its ability to obtain necessary equity financing to
+continue operations and/or to successfully locate and negotiate with a
+business entity for the combination of that target company with Plum Run.
+     Management of the Company will pay all expenses incurred by Plum
+Run until a  change in control of the Company is effected.  Management does
+not expect any repayment for such paid expenses.
+      There is no assurance that Plum Run will ever be profitable.
+Subsequent Event
+	In anticipation of a possible change in control
+ and subsequent
+to the date of this filing
+ on March 3
+ 2014
+ the Company changed its
+name to Natural Resources Corporation and filed such change with the
+State of Delaware.  The Company a Form 8-K noticing the name change
+with the Securities and Exchange Commission.  No agreements or contracts
+have been executed to finalize any such change in control and when
+ and
+if
+ such documents are effected
+ the Company will file a Form 8-K with
+the Securities and Exchange Commisison.
+Item 2.  Properties
+     The Company has no properties and at this time has no
+agreements to acquire any properties.  The Company currently uses
+the offices of Management at no cost to the Company.  The Company
+expects this arrangement to continue until the Company completes
+a change in control.
+Item 3.  Legal Proceedings
+     There is no litigation pending or threatened by or against the
+Company.
+Item 4.  Mine Safety Disclosures.
+      Not applicable.
+                              PART II
+Item 5.  Market for Registrant's Common Equity
+ Related Stockholder
+	 Matters and Issuer Purchases of Equity Securities
+      There is currently no public market for the Company's securities.
+     Following a business combination
+ a target company will normally
+wish to cause the Company's common stock to trade in one or more United
+States securities markets.  The target company may elect to take the
+steps required for such admission to quotation following the business
+combination or at some later time.
+     At such time as it qualifies
+ the Company may choose to apply for
+quotation of its securities on the OTC Bulletin Board.
+     The OTC Bulletin Board is a dealer-driven quotation service.
+Unlike the Nasdaq Stock Market
+ companies cannot directly apply to be
+quoted on the OTC Bulletin Board
+ only market makers can initiate
+quotes
+ and quoted companies do not have to meet any quantitative
+financial requirements.  Any equity security of a reporting company not
+listed on the Nasdaq Stock Market or on a national securities exchange is
+eligible.
+     As such time as it qualifies
+ the Company may choose to apply for
+quotation of its securities on the Nasdaq Capital Market.
+     In general there is greatest liquidity for traded securities on
+the Nasdaq Capital Market and less on the OTC Bulletin Board.  It is
+not possible to predict where
+ if at all
+ the securities of the Company
+will be traded following a business combination.
+     Since inception
+ the Company has sold securities which
+were not registered as follows:
+                                            NUMBER OF
+DATE                     NAME               SHARES       CONSIDERATION
+July 9
+ 2013	    James Cassidy (1)	     10
+000
+000    $1
+000
+July 9
+ 2013        James McKillop           10
+000
+000	   $1
+000
+(1)  James M. Cassidy
+ the president and a director of the Company
+is the sole shareholder and director of Tiber Creek Corporation
+a Delaware corporation
+ which company has agreed to assist the
+Company in registering its stock and introductions to the brokerage
+community.
+Item 6.  Selected Financial Data.
+	There is no selected financial data required to be filed for
+a smaller reporting company.
+Item 7.  Management's Discussion and Analysis of Financial Condition
+	 and Results of Operations
+   Plum Run has no operations nor does it currently engage in any
+business activities generating revenues.  Plum Run's principal
+business objective is to achieve a business combination with a target
+company.
+     A combination will normally take the form of a merger
+ stock-for-stock
+exchange or stock-for-assets exchange.  In most instances the target
+company will wish to structure the business combination to be within the
+definition of  a tax-free reorganization under Section 351 or Section 368
+of the Internal Revenue Code of 1986
+ as amended.
+     No assurances can be given that Plum Run will be successful in
+locating or negotiating with any target company.
+   The most likely target companies are those seeking the perceived
+benefits of a reporting corporation.  Such perceived benefits may include
+facilitating or improving the terms on which additional equity financing
+may be sought
+ providing liquidity for incentive stock options or similar
+benefits to key employees
+ increasing the opportunity to use securities
+for acquisitions
+ providing liquidity for shareholders and other factors.
+Business  opportunities may be available in many different industries and
+at various stages of development
+ all of which will make the task of
+comparative investigation and analysis of such business opportunities
+difficult and complex.
+   The search for a target company will not be restricted to any specific
+kind of business entities
+ but may acquire a venture which is in its
+preliminary or development stage
+ which is already in operation
+ or in
+essentially any stage of its business life.  It is impossible to predict
+at this time the status of any business in which the Company may become
+engaged
+ whether such business may need to seek additional capital
+ may
+desire to have its shares publicly traded
+ or may seek other perceived
+advantages which the Company may offer.
+   In implementing a structure for a particular business acquisition
+ the
+Company may become a party to a merger
+ consolidation
+ reorganization
+joint venture
+ licensing agreement or other arrangement with another
+corporation or entity.  On the consummation of a transaction
+ it is likely
+that the present management and shareholders of the Company will no longer
+be in control of the Company.  In addition
+ it is likely that the officer
+and director of the Company will
+ as part of the terms of the business
+combination
+ resign and be replaced by one or more new officers and
+directors.
+     As of December 31
+ 2013
+ Plum Run had not generated revenues and had
+no income or cash flows from operations since inception.  At December 31
+2013
+ Plum Run had sustained net loss of $657
+ and had a deficit
+accumulated during the development stage of $657.
+    The Company's independent auditors have issued a report raising
+substantial doubt about the Company's ability to continue as a going concern.
+At present
+ the Company has no operations and the continuation of Plum Run
+as a going concern is dependent upon financial support from its stockholders
+its ability to obtain necessary equity financing to continue operations
+and/or to successfully locate and negotiate with a business entity for the
+combination of that target company with Plum Run.
+     Management will pay all expenses incurred by Plum Run until a
+change in control is effected.  There is no expectation of repayment
+for such expenses.
+     The president of Plum Run is the president
+ director and
+shareholder of Tiber Creek Corporation.  Tiber Creek Corporation assists
+companies in becoming public reporting companies and with introductions
+to the financial community.
+2012 Year-End Analysis
+      The Company has received no income
+ has had no operations
+nor expenses
+ other than Delaware state fees and accounting fees
+as required for incorporation and for the preparation of the
+Company's financial statements.
+Item 8.  Financial Statements and Supplementary Data
+     The financial statements for the year ended December 31
+ 2013
+are attached hereto.
+Item 9.   Changes in and Disagreements with Accountants on
+          Accounting and Financial Disclosure
+     There were no changes in or disagreements with accountants on
+accounting and financial disclosure for the period covered by this
+report.
+Item 9A.   Controls and Procedures
+    Pursuant to Rules adopted by the Securities and Exchange Commission.
+the Company carried out an evaluation of the effectiveness of the design
+and operation of its disclosure controls and procedures pursuant to
+Exchange Act Rules.  This evaluation  was done as of the end of the fiscal
+year under the supervision and with the participation of the Company's
+principal executive officer (who is also the principal financial officer).
+There have been no significant changes in internal controls or in other
+factors that could significantly affect internal controls subsequent to
+the date of the evaluation.  Based upon that evaluation
+ he believes that
+the Company's disclosure controls and procedures are effective in gathering
+analyzing and disclosing information needed to ensure that the information
+required to be disclosed by the Company in its periodic reports is recorded
+summarized and processed timely.  The principal executive officer
+is directly involved in the day-to-day operations of the Company.
+Management's Report of Internal Control over Financial Reporting
+     The Company is responsible for establishing and maintaining
+adequate internal control over financial reporting in accordance with
+the Rule 13a-15 of the Securities Exchange Act of 1934. The Company's
+officer
+ its president
+ conducted an evaluation of the
+effectiveness of the Company's internal control over financial reporting
+as of December 31
+ 2013
+ based on the criteria establish in Internal
+Control Integrated Framework issued by the Committee of Sponsoring
+Organizations of the Treaedway Commission.  Based on this evaluation
+management concluded that the Company's internal control over financial
+reporting was effective as of December 31
+ 2013
+ based on those criteria.
+A control system can provide only reasonably
+ not absolute
+ assurance
+that the objectives of the control system are met and no evaluation
+of controls can provide absolute assurance that all control issues have
+been detected.
+      Anton & Chia the independent registered public accounting
+firm for Plum Run
+ has not issued an attestation report on the
+effectiveness of Plum Run's internal control over financial reporting.
+Changes in Internal Control Over Financial Reporting
+      There have been no changes in the Company's internal controls over
+financial reporting  during its fourth fiscal quarter that have materially
+affected
+ or are reasonably likely to materially affect
+ its internal
+control over financial reporting.
+Item 9B.  Other information
+      Not applicable.
+                             PART III
+Item 10.  Directors
+ Executive Officers
+ and Corporate Governance;
+     The Directors and Officers of the Company are as follows:
+      Name                Age       Positions and Offices Held
+     -----------------    -----------
+     James Cassidy         78       President
+ Secretary
+ Director
+     James McKillop	   54       Vice President
+ Director
+Management of Plum Run
+     Plum Run has no full time employees.  James Cassidy and James
+McKillop are the officers and directors of Plum Run and its shareholders.
+Mr. Cassidy
+ as president of Plum Run
+ and Mr. McKillop as vice president
+will allocate a limited portion of time to the activities of Plum Run
+without compensation. Potential conflicts may arise with respect to the
+limited time commitment by management and the potential demands of the
+activities of Plum Run.
+     There are no agreements or understandings for the officer or
+director to resign at the request of another person and the above-
+named officer and director is not acting on behalf of nor will act
+at the direction of any other person.
+     Set forth below are the names of the directors and officers of
+the Company
+ all positions and offices with the Company held
+ the
+period during which they have served as such
+ and the business
+experience during at least the last five years:
+    James Cassidy
+ Esq.
+ LL.B.
+ LL.M.
+ serves as a director
+president and secretary of Plum Run.  Mr. Cassidy received a Bachelor of
+Science in Languages and Linguistics from Georgetown University in
+1960
+ a Bachelor of Laws from The Catholic University School of Law in
+1963
+ and a Master of Laws in Taxation from The Georgetown University
+School of Law in 1968.  From 1963-1964
+ Mr. Cassidy was law clerk to
+the Honorable Inzer B. Wyatt of the United States District Court for the
+Southern District of New York.  From 1964-1965
+ Mr. Cassidy was law
+clerk to the Honorable Wilbur K. Miller of the United States Court of
+Appeals for the District of Columbia.  From 1969-1975
+ Mr. Cassidy was
+an associate of the law firm of Kieffer & Moroney and a principal in the
+law firm of Kieffer & Cassidy
+ Washington
+ D.C. From 1975 to date
+ Mr.
+Cassidy has been a principal in the law firm of Cassidy & Associates
+ and
+its predecessors
+ specializing in securities law and related corporate and
+federal taxation matters.  Mr. Cassidy is a member of the bars of the
+District of Columbia and the State of New York
+ and is admitted to
+practice before the United States Tax Court and the United States Supreme
+Court.  Plum Run believes Mr. Cassidy to have the business experience
+necessary to serve as a director of Plum Run as it seeks to enter into a
+business combination.  As a lawyer involved in business transactions and
+securities matters
+ Mr. Cassidy has  had ample experience in evaluating
+companies and management
+ understanding business plans
+  assisting in
+capital raising  and determining corporate structure and objectives.
+    James McKillop serves as a director and vice president of
+Plum Run. Mr. McKillop began his career at Merrill Lynch. Mr. McKillop
+has also been involved in financial reporting and did a daily stock market
+update for KPCC radio in Pasadena
+ California.  Mr. McKillop is the founder
+of MB Americus LLC which specializes in consulting and public relations.
+Mr. McKillop has provided consulting services to Tiber Creek Corporation
+for more than five years.  Mr. McKillop has written articles for various
+publications on financial matters. He has been a past member of the World
+Affairs Council. Mr. McKillop received his Bachelor of Arts in Economics
+in 1984 from the University of California at Los Angeles.  With his
+background in financial and securities matters
+ Plum Run believes Mr.
+McKillop to have experience and knowledge that will serve Plum Run in
+seeking
+ evaluating and determining a suitable target company.
+     There are no agreements or understandings for the above-named
+officers or directors to resign at the request of another person and the
+above-named officers and directors are not acting on behalf of nor will
+act at the direction of any other person.
+Recent Blank Check Companies
+     James Cassidy
+ the president and a director of Plum Run and
+James McKillop
+ vice president and a director of Plum Run
+ are involved
+with other existing blank check companies
+ and in creating additional
+similar companies.  The initial business purpose of each of these
+companies was or is to engage in a business combination with an
+unidentified company or companies and each were or will be classified
+as a blank check company until completion of a business combination.
+Conflicts of Interest
+    The officers and directors of Plum Run have organized and expect to
+organize other companies with an identicial structure
+ purpose
+ officers
+directors and shareholders.  As such management believes there is no
+conflict of interest in these companies.
+      The blank check companies with which management (including
+the directors) is involved are identical except for the name.  As and
+when created
+ no one blank check company offers management any more
+favorable terms than the others.  Thus no conflict of interest
+arises for management between any of the blank check companies.
+     Mr. Cassidy and/or Mr. McKillop may become associated with
+additional blank check companies prior to the time that Plum Run has
+effected a business combination.
+     Mr. Cassidy is the principal of Cassidy & Associates
+ a securities
+law firm.  As such
+ demands may be placed on the time of Mr. Cassidy
+which will detract from the amount of time he is able to devote to
+Plum Run.  Mr. Cassidy intends to devote as much time to the activities
+of Plum Run as required.  However
+ should such a conflict arise
+ there
+is no assurance that Mr. Cassidy would not attend to other matters prior
+to those of Plum Run.
+     There are no binding guidelines or procedures for resolving
+potential conflicts of interest. Failure by management to resolve
+conflicts of interest in favor of the Company could result in
+liability of management to the Company.  However
+ any attempt by
+shareholders to enforce a liability of management to the Company
+would most likely be prohibitively expensive and time consuming.
+     Code of Ethics.  The Company has not at this time adopted a
+Code of Ethics pursuant to rules described in Regulation S-K.  The
+Company has two persons who are the only shareholders and who serve as
+the directors and officers. The Company has no operations or business and
+does not receive any revenues or investment capital.  The adoption of an
+Ethical Code at this time would not serve the primary purpose of such a
+code to provide a manner of conduct as the development
+ execution and
+enforcement of such a code would be by the same persons and only
+persons to whom such code applied.  Furthermore
+ because the Company does
+not have any activities
+ there are activities or transactions which would
+be subject to this code.  At the time the Company enters
+into a business combination or other corporate transaction
+ the current
+officers and directors will recommend to any new management that such a
+code be adopted.  The Company does not maintain an Internet website on
+which to post a code of ethics.
+     Corporate Governance.  For reasons similar to those described
+above
+ the Company does not have a nominating nor audit committee of the
+board of directors.  At this time
+ the Company consists of two shareholders
+who serve as the corporate directors and officers. The Company has no
+activities
+ and receives no revenues.  At such time that the Company enters
+into a business combination and/or has additional shareholders and a larger
+board of directors and commences activities
+ the Company will propose
+creating committees of its board of directors
+ including both a nominating
+and an audit committee.  Because there are only two shareholders of the
+Company
+ there is no established process by which shareholders to the
+Company can nominate members to the Company's board of directors.
+Similarly
+ however
+ at such time as the Company has more shareholders and
+an expanded board of directors
+ the new management of the Company may
+review and implement
+ as necessary
+ procedures for shareholder nomination
+of members to the Company's board of directors.
+Item 11.  Executive Compensation
+     The Company's officers and directors do not receive any
+compensation for services rendered to the Company
+ nor have they
+received such compensation in the past.  The officers and directors
+are not accruing any compensation pursuant to any agreement with the
+Company.
+     No retirement
+ pension
+ profit sharing
+ stock option or
+insurance programs or other similar programs have been adopted by
+the Company for the benefit of its employees.
+     The Company does not have a compensation committee for
+the same reasons as described above.
+Item 12.  Security Ownership of Certain Beneficial Owners and
+          Management and Related Stockholder Matters
+     The following table sets forth
+ as of December 31
+ 2013
+ each
+person known by the Company to be the beneficial owner of five
+percent or more of the Company's common stock and the director and
+officer of the Company.  The Company does not have any compensation
+plans and has not authorized any securities for future issuance.
+Except as noted
+ the holder thereof has sole voting and investment
+power with respect to the shares shown.
+Name and Address              Amount of Beneficial     Percent of
+of Beneficial Owner               Ownership          Outstanding Stock
+James M. Cassidy                    10
+000
+000               50%
+215 Apolena Avenue
+Newport Beach
+ CA 92662
+James K. McKillop                    10
+000
+000               50%
+9454 Wilshire Boulevard
+Beverly Hills
+ California 90212
+All Executive Officers and           20
+000
+000              100%
+Directors as a Group (2 Persons)
+Item 13.  Certain Relationships and Related Transactions and
+	  Director Independence
+   Plum Run has issued a total of 20
+000
+000 shares of common stock
+pursuant to Section 4(2) of the Securities Act for a total of $2
+000
+in cash.
+    As the organizers and developers of Plum Run
+ James M. Cassidy and
+James McKillop may be considered promoters.  Mr. Cassidy has provided
+services to Plum Run without charge consisting of preparing and filing
+the charter corporate documents and preparing this registration statement.
+   Plum Run is not currently required to maintain an independent director
+as defined by Rule 4200 of the Nasdaq Capital Market nor does it
+anticipate that it will be applying for listing of its securities on an
+exchange in which an independent directorship is required. It is likely
+that neither Mr. Cassidy nor Mr. McKillop would not be considered
+independent directors if it were to do so.
+Item 14.  Principal Accounting Fees and Services.
+	The Company has no activities
+ no income and no expenses
+except for independent audit and Delaware state fees.
+The Company's president has donated his time in preparation and
+filing of all state and federal required taxes and reports.
+Audit Fees
+        The aggregate fees incurred for each of the last two years for
+professional services rendered by the independent registered public
+accounting firm for the audits of the Company's annual financial
+statements and review of financial statements included in the Company's
+Form 10-K and Form 10-Q reports and services normally provided in
+connection with statutory and regulatory filings or engagements were
+as follows:
+                         December 31
+ 2013
+	                 -----------------
+                            =======
+Audit-Related Fees          $ 750
+	The Company does not currently have an audit committee serving
+and as a result its board of directors performs the duties of an audit
+committee.  The board of directors will evaluate and approve in advance
+the scope and cost of the engagement of an auditor before the auditor
+renders audit and non-audit services.  The Company does not rely on pre-
+approval policies and procedures.
+                        PART IV
+Item 15.  Exhibits
+ Financial Statement Schedules
+	There are no financial statement schedules nor exhibits filed
+herewith.  The exhibits filed in earlier reports and the Company's
+Form 10 are incorporated herein by reference.
+
+                 FINANCIAL STATEMENTS
+Report of Independent Registered Public Accounting Firm	            1
+Balance Sheet as of December 31
+ 2013                               2
+Statement of Operations for the period from July 9
+ 2013
+ (Inception) to December 31
+ 2013	                            3
+Statement of Changes in Stockholders' Equity for the Period
+ from July 9
+ 2013 (Inception) to December 31
+ 2013                4
+Statement of Cash Flows for the period from July 9
+ 2013
+ (Inception) to December 31
+ 2013                                   5
+Notes to Financial Statements                                      6-8
+ANTON & CHIA                             CERTIFIED PUBLIC ACCOUNTANTS
+ REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Board of Directors and
+Stockholders of Plum Run Acquisition Corporation:
+We have audited the accompanying balance sheet of Plum Run Acquisition
+Corporation (the Company) (a development stage company) as of December 31
+2013
+ and the related statements of income
+ comprehensive income
+stockholders' equity
+ and cash flows for the period from July 9
+ 2013
+(Inception) through December 31
+ 2013. Plum Run Acquisition Corporation's
+management is responsible for these financial statements. Our responsibility
+is to express an opinion on these financial statements based on our audits.
+We conducted our audit in accordance with the standards of the Public Company
+Accounting Oversight Board (United States). Those standards require that we
+plan and perform the audit to obtain reasonable assurance about whether the
+financial statements are free of material misstatement. The company is not
+required to have
+ nor were we engaged to perform
+ an audit of its internal
+control over financial reporting. Our audit included consideration of internal
+control over financial reporting as a basis for designing audit procedures that
+are appropriate in the circumstances
+ but not for the purpose of expressing an
+opinion on the effectiveness of the company's internal control over financial
+reporting. Accordingly
+ we express no such opinion. An audit also includes
+examining
+ on a test basis
+ evidence supporting the amounts and disclosures in
+the financial statements
+ assessing the accounting principles used and
+significant estimates made by management
+ as well as evaluating the overall
+financial statement presentation. We believe that our audit provides a
+reasonable basis for our opinion.
+In our opinion
+ the financial statements referred to above present fairly
+in all material respects
+ the financial position of Plum Run Acquisition
+Corporation as of December 31
+ 2013
+ and the results of its operations and
+its cash flows for the period from July 9
+ 2013 (Inception) through
+December 31
+ 2013
+ in conformity with accounting principles generally
+accepted in the United States of America.
+Anton & Chia LLP
+Newport Beach
+ CA
+March 26
+ 2014
+
+--------------------------------------------------------------------
+                     PLUM RUN ACQUISITION CORPORATION
+                       (A DEVELOPMENT STAGE COMPANY)
+                               BALANCE SHEET
+                       ASSETS
+                                                 December 31
+ 2013
+                                                 -----------------
+  Current assets
+    Cash                                         $         2
+000
+                                                 -----------------
+  Total assets                                   $         2
+000
+                                                 =================
+             LIABILITIES AND STOCKHOLDERS' EQUITY
+  Current liabilities
+    Accrued liabilities     		         $           400
+                                                 -----------------
+  Total liabilities                              $           400
+                                                 -----------------
+  Stockholders' equity
+    Common Stock; $0.0001 par value
+                       2
+000
+    100
+000
+000 shares authorized;
+    20
+000
+000 shares issued and
+    outstanding
+    Additional paid-in capital                               257
+    Deficit accumulated during the
+    development stage                                       (657)
+                                                 -----------------
+ Total stockholders' equity                                1
+600
+                                                 -----------------
+ Total Liabilities and stockholders' equity      $         2
+000
+                                                 =================
+ The accompanying notes are an integral part of these financial statements
+                                     2
+
+--------------------------------------------------------------------
+                     PLUM RUN ACQUISITION CORPORATION
+                       (A DEVELOPMENT STAGE COMPANY)
+                         STATEMENT OF OPERATIONS
+                                         For the period from July 9
+                                            2013 (Inception) to
+                                             December 31
+ 2013
+                                             -----------------
+    Revenue                                  $              -
+    Cost of revenue                                         -
+                                              -----------------
+    Gross profit                                            -
+    Operating expenses                                    657
+                                                 -----------------
+    Operating loss                                       (657)
+    Loss before income taxes                             (657)
+                                                 -----------------
+    Income tax expense                                      -
+                                                 -----------------
+    Net loss                                     $       (657)
+                                                 =================
+    Loss per share - basic and diluted           $         (0)
+                                                 -----------------
+    Weighted average shares-basic and diluted          20
+000
+000
+                                                 =================
+ The accompanying notes are an integral part of these financial statements
+                                     3
+
+--------------------------------------------------------------------
+                     PLUM RUN ACQUISITION CORPORATION
+                       (A DEVELOPMENT STAGE COMPANY)
+                 STATEMENT OF CHANGES IN STOCKHOLDERS' EQUITY
+
+
+                                                                Deficit
+                                                                Accumulated
+                             Common Stock           Additional  During the    Total
+                          -----------------------   Paid-In     Development   Stockholders'
+                           Shares       Amount      Capital     Stage         Equity
+
+Balance
+ July 9
+  2012 (Inception)             -        $     -     $    -      $      -      $     -
+Issuance of common stock   20
+000
+000     2
+000          -             -         2
+000
+Additional paid-in
+  capital                      -              -         257             -          257
+Net loss                       -              -          -          (657)         (657)
+                          ==========     =======    =======     =========      =========
+Balance
+ December 31
+ 2013        20
+000
+000    $ 2
+000     $   257      $  (657)      $ 1
+600
+                          ==========     =======    =======     =========      =========
+
+ The accompanying notes are an integral part of these financial statements
+                                    4
+
+--------------------------------------------------------------------
+                     PLUM RUN ACQUISITION CORPORATION
+                       (A DEVELOPMENT STAGE COMPANY)
+                          STATEMENT OF CASH FLOWS
+                                                 For the period from
+                                                    July 9
+ 2013
+                                                    (Inception) to
+                                                  December 31
+ 2013
+                                                 ------------------
+OPERATING ACTIVITIES
+   Net loss                                      $           (657)
+                                                 ------------------
+   Changes in Operating Assets and Liabilities
+       Accrued liabilities                                    400
+                                                 ------------------
+       Net cash used in operating activities                 (257)
+                                                 ------------------
+INVESTING ACTIVITIES
+   Acquisition of Intangible Assets                             -
+   Capital Expenditures                                         -
+                                                 ------------------
+       Net cash used in investing activities                    -
+                                                 ------------------
+FINANCING ACTIVITIES
+   Proceeds from issuance of common stock                   2
+000
+   Proceeds from stockholders' contribution                   257
+                                                 ------------------
+        Net cash provided by financing activities           2
+257
+                                                 ------------------
+   Net increase in cash                                     2
+000
+   Cash
+ beginning of period                                   -
+                                                 ------------------
+    Cash
+ end of period                            $        2
+000
+                                                 ==================
+ The accompanying notes are an integral part of these financial statements
+                                     5
+
+--------------------------------------------------------------------
+                     PLUM RUN ACQUISITION CORPORATION
+                       (A DEVELOPMENT STAGE COMPANY)
+                     Notes to the Financial Statements
+NOTE 1   NATURE OF OPERATIONS AND SUMMARY OF SIGNIFICANT
+		ACCOUNTING POLICIES
+NATURE OF OPERATIONS
+Plum Run Acquisition Corporation (Plum Run or the Company) was
+incorporated on July 9
+ 2013 under the laws of the state of Delaware to
+engage in any lawful corporate undertaking
+ including
+ but not limited to
+selected mergers and acquisitions. The Company has been in the
+developmental stage since inception and its operations to date have been
+limited to issuing shares to its original shareholders. The Company will
+attempt to locate and negotiate with a business entity for the combination
+of that target company with Plum Run. The combination will normally
+take the form of a merger
+ stock-for-stock exchange or stock-for-assets
+exchange. In most instances the target company will wish to structure the
+business combination to be within the definition of a tax-free
+reorganization under Section 351 or Section 368 of the Internal Revenue
+Code of 1986
+ as amended. No assurances can be given that the Company
+will be successful in locating or negotiating with any target company.
+The Company has been formed to provide a method for a foreign or domestic
+private company to become a reporting company with a class of securities
+registered under the Securities Exchange Act of 1934.
+DEVELOPMENT STAGE ENTERPRISE
+The Company has not earned any revenue from operations since inception.
+Accordingly
+ the Company's activities have been accounted for as those of
+a Development Stage Enterprise as set forth in ASC 915
+ Development
+Stage Entities. Among the disclosures required by ASC 915
+ are that the
+Company's financial statements be identified as those of a development
+stage company
+ and that the statements of operations
+ stockholders' equity
+and cash flows disclose activity since the date of the Company's inception.
+BASIS OF PRESENTATION
+The summary of significant accounting policies presented below is
+designed to assist in understanding the Company's financial statements.
+Such financial statements and accompanying notes are the representations
+of the Company's management
+ who are responsible for their integrity and
+objectivity. These accounting policies conform to accounting principles
+generally accepted in the United States of America (GAAP) in all
+material respects
+ and have been consistently applied in preparing the
+accompanying financial statements.
+USE OF ESTIMATES
+The preparation of financial statements in conformity with GAAP requires
+management to make estimates and assumptions that affect the reported
+amounts of assets and liabilities and disclosure of contingent assets
+and liabilities at the date of the financial statements
+ and the reported
+amounts of revenues and expenses during the reporting periods.  Actual
+results could differ from those estimates.
+CASH AND CASH EQUIVALENTS
+Cash and cash equivalents include cash on hand and on deposit at banking
+institutions as well as all highly liquid short-term investments with
+original maturities of 90 days or less. The Company did not have cash
+equivalents as of December 31
+ 2013.
+
+--------------------------------------------------------------------
+CONCENTRATION OF RISK
+Financial instruments that potentially subject the Company to
+concentrations of credit risk consist principally of cash. The Company
+places its cash with high quality banking institutions. The Company did
+not have cash balances in excess of the Federal Deposit Insurance
+Corporation limit as of December 31
+ 2013
+INCOME TAXES
+Under ASC 740
+ Income Taxes, deferred tax assets and liabilities are
+recognized for the future tax consequences attributable to temporary
+differences between the financial statement carrying amounts of existing
+assets and liabilities and their respective tax bases. Deferred tax assets
+and liabilities are measured using enacted tax rates expected to apply to
+taxable income in the years in which those temporary differences are expected
+to be recovered or settled. Valuation allowances are established when it is
+more likely than not that some or all of the deferred tax assets will not be
+realized. As of December 31
+ 2013
+ there were no deferred taxes due to the
+uncertainty of the realization of net operating loss or carry forward prior
+to expiration.
+LOSS PER COMMON SHARE
+Basic loss per common share excludes dilution and is computed by
+dividing net loss by the weighted average number of common shares
+outstanding during the period. Diluted loss per common share reflect
+the potential dilution that could occur if securities or other contracts
+to issue common stock were exercised or converted into common stock or
+resulted in the issuance of common stock that then shared in the loss of
+the entity. As of December 31
+ 2013
+ there are no outstanding dilutive
+securities.
+FAIR VALUE OF FINANCIAL INSTRUMENTS
+The Company follows guidance for accounting for fair value measurements
+of financial assets and financial liabilities and for fair value
+measurements of nonfinancial items that are recognized or disclosed at
+fair value in the financial statements on a recurring basis. Additionally
+the Company adopted guidance for fair value measurement related to
+nonfinancial items that are recognized and disclosed at fair value in the
+financial statements on a nonrecurring basis. The guidance establishes a
+fair value hierarchy that prioritizes the inputs to valuation techniques
+used to measure fair value. The hierarchy gives the highest priority to
+unadjusted quoted prices in active markets for identical assets or liabilities
+(Level 1 measurements) and the lowest priority to measurements involving
+significant unobservable inputs (Level 3 measurements). The three levels
+of the fair value hierarchy are as follows:
+  Level 1 inputs are quoted prices (unadjusted) in active markets for
+identical assets or liabilities that the Company has the ability to access
+at the measurement date.
+  Level 2 inputs are inputs other than quoted prices included within Level
+1 that are observable for the asset or liability
+ either directly or
+indirectly.
+  Level 3 inputs are unobservable inputs for the asset or liability.
+The carrying amounts of financial assets such as cash approximate their
+fair values because of the short maturity of these instruments.
+
+--------------------------------------------------------------------
+NOTE 2 - GOING CONCERN
+The Company has not yet generated any revenue since inception to date
+and has sustained operating losses during the period ended December 31
+2013.  The Company had working capital of $1
+600 and an accumulated
+deficit of $657 as of December 31
+ 2013.  The Company's continuation as
+a going concern is dependent on its ability to generate sufficient cash
+flows from operations to meet its obligations and/or obtaining additional
+financing from its members or other sources
+ as may be required.
+The accompanying financial statements have been prepared assuming that
+the Company will continue as a going concern; however
+ the above
+condition raises substantial doubt about the Company's ability to do so.
+The financial statements do not include any adjustments to reflect the
+possible future effects on the recoverability and classification of assets
+or the amounts and classifications of liabilities that may result should
+the Company be unable to continue as a going concern.
+In order to maintain its current level of operations
+ the Company will
+require additional working capital from either cash flow from operations
+or from the sale of its equity.  However
+ the Company currently has no
+commitments from any third parties for the purchase of its equity. If
+the Company is unable to acquire additional working capital
+ it will be
+required to significantly reduce its current level of operations.
+NOTE 3 - RECENT ACCOUNTING PRONOUNCEMENTS
+Not Adopted
+In April 2013
+ the FASB issued ASU No. 2013-07
+ Presentation of
+Financial Statements (Top 205): Liquidation Basis of Accounting. The
+objective of ASU No. 2013-07 is to clarify when an entity should apply
+the liquidation basis of accounting and to provide principles for the
+measurement of assets and liabilities under the liquidation basis of
+accounting
+ as well as any required disclosures. The amendments in this
+standard are effective prospectively for entities that determine liquidation
+is imminent during annual reporting periods beginning after December 15
+2013
+ and interim reporting periods therein. We are evaluating the effect
+if any
+ adoption of ASU No. 2013-07 will have on our financial statements.
+Other recent accounting pronouncements issued by the FASB (including
+its Emerging Issues Task Force) and the United States Securities and
+Exchange Commission did not or are not believed by management to have
+a material impact on the Company's present or future financial statements.
+NOTE 4   STOCKHOLDERS' EQUITY
+On July 9
+ 2013
+ the Company issued 20
+000
+000 common shares to two
+directors and officers for $2
+000 in cash.
+The Company is authorized to issue 100
+000
+000 shares of common stock
+and 20
+000
+000 shares of preferred stock. As of December 31
+ 2013
+20
+000
+000 shares of common stock and no preferred stock were issued
+and outstanding.
+Subsequent Event
+	In anticipation of a possible change in control
+ and subsequent
+to the date of this filing
+ on March 3
+ 2014
+ the Company changed its
+name to Natural Resources Corporation and filed such change with the
+State of Delaware.  The Company a Form 8-K noticing the name change
+with the Securities and Exchange Commission.  No agreements or contracts
+have been executed to finalize any such change in control and when
+ and
+if
+ such documents are effected
+ the Company will file a Form 8-K with
+the Securities and Exchange Commisison.
+
+--------------------------------------------------------------------
+                        SIGNATURES
+     Pursuant to the requirements of Section 13 or 15(d) of the
+Securities Exchange Act of 1934
+ the registrant has duly caused
+this report to be signed on its behalf by the undersigned thereunto
+duly authorized.
+                              PLUM RUN ACQUISITION CORPORATION
+                              By:   /s/ James M. Cassidy
+                                        James M. Cassidy
+ President
+					Principal executive officer
+Dated:       March 26
+ 2014
+                              By:   /s/ James M. Cassidy
+                                        James M. Cassidy
+ President
+					Principal financial officer
+Dated:        March 26
+ 2014
+     Pursuant to the Securities Exchange Act of 1934
+ this report
+has been signed below by the following persons on behalf of the
+registrant and in the capacities and on the dates indicated.
+NAME                          OFFICE              DATE
+/s/ James M. Cassidy          Director            March 26
+ 2014
+
+
+
+
+
+
+
+
+                                                       EXHIBIT 31
+CERTIFICATION PURSUANT TO SECTION 302
+I
+ James Cassidy
+ certify that:
+1.   I have reviewed this Form 10-K of Plum Run Acquisition
+     Corporation.
+2.   Based on my knowledge
+ this report does not contain any
+     untrue statement of a material fact or omit to state a material
+     fact necessary to make the statements made
+ in light of the
+     circumstances under which such statements were made
+ not
+     misleading with respect to the period covered by this report;
+3.   Based on my knowledge
+ the financial statements
+ and other
+     financial information included in this report
+ fairly present
+     in all material respects the financial condition
+ results of
+     operations and cash flows of the registrant as of
+ and for
+     the periods presented in this report;
+4.   The registrant's other certifying officer(s) and I are
+     responsible for establishing and maintaining disclosure
+     controls and procedures (as defined in Exchange Act Rules 13a-15(e)
+     and 15d-15(e)) and internal control over financial reporting (as
+     defined in Exchange Act Rules 13a-15(f) and 15d-15(f)) for the
+     registrant and have:
+a)   Designed such disclosure controls and procedures
+or caused such
+     disclosure controls and procedures to be designed under our
+     supervision
+ to ensure that material information relating to the
+     registrant
+ including its consolidated subsidiaries
+ is made known
+     to us by others within those entities
+ particularly during the period
+     in which this report is being prepared;
+b)   Designed such internal control over financial reporting
+ or caused
+     such internal control over financial reporting to be designed under
+     our supervision
+ to provide reasonable assurance regarding the
+     reliability of financial reporting and the preparation of financial
+     statements for external purposes in accordance with generally
+     accepted accounting principles;
+c)   Evaluated the effectiveness of the registrant's disclosure
+     controls and procedures and presented in this report our
+     conclusions about the effectiveness of the disclosure
+     controls and procedures
+ as of the end of the period covered
+     by this report based on such evaluations; and
+d)   Disclosed in this report any change in the registrant's
+     internal control over financial reporting that occurred
+     during the registrant's most recent fiscal quarter (the
+     registrant's fourth fiscal quarter in the case of an
+     annual report) that has materially affected
+ or is reasonably
+     likely to materially affect
+ the registrant's internal control
+     over financial reporting; and
+5.   The registrant's other certifying officer(s) and I have disclosed
+     based on our most recent evaluation
+ to the registrant's auditors
+     and the audit committee of registrant's board of directors (or
+     persons performing the equivalent functions):
+a)   All significant deficiencies and material weaknesses in the design
+     or operation of internal control over financial reporting  which
+     are reasonably likely to adversely affect the registrant's ability
+     to record
+ process
+ summarize and report financial information; and
+b)   Any fraud
+ whether or not material
+ that involves management or
+     other employees who have a significant role in the registrant's
+     internal control over financial reporting.
+      Date: March 26
+ 2014             /s/ James Cassidy
+                                          Chief Executive Officer and
+                                          Chief Financial Officer
+
+
+
+
+
+
+
+                            EXHIBIT 32
+CERTIFICATION PURSUANT TO SECTION 906
+Pursuant to 18 U.S.C. Section 1350 as adopted pursuant to
+Section 906 of the Sarbanes-Oxley Act of 2002
+ I
+ the
+undersigned officer of Plum Run Acquisition Corporation
+ (the Company)
+ hereby certify to my knowledge that:
+The Report on Form 10-K for the year ended December 31
+2013 of the Company fully complies
+ in all material respects
+with the requirements of Section 13(a) or 15(d) of the Securities
+Exchange Act of 1934
+ and the information contained in the
+Report fairly represents
+ in all material respects
+ the
+financial condition and results of operations of the Company.
+A signed original of this written statement required by Section
+906 has been provided to the Company and will be retained by
+the Company and furnished to the Securities and Exchange
+Commission or its staff upon request.
+                             /s/ James Cassidy
+                                 Chief Executive Officer
+                                 Chief Financial Officer
+Date: March 26
+ 2014
+
+
+

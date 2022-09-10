@@ -1,0 +1,12648 @@
+
+
+ACCESSION NUMBER:		0001188112-14-000707
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		9
+CONFORMED PERIOD OF REPORT:	20131130
+FILED AS OF DATE:		20140317
+DATE AS OF CHANGE:		20140317
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Sipup Corp
+		CENTRAL INDEX KEY:			0001563227
+		STANDARD INDUSTRIAL CLASSIFICATION:	DAIRY PRODUCTS [2020]
+		IRS NUMBER:				990382107
+		FISCAL YEAR END:			1130
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	333-185408
+		FILM NUMBER:		14697195
+	BUSINESS ADDRESS:	
+		STREET 1:		245 PARK AVENUE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10167
+		BUSINESS PHONE:		212-792-4000
+	MAIL ADDRESS:	
+		STREET 1:		245 PARK AVENUE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10167
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+Washington
+ D.C. 20549
+
+
+
+
+
+
+
+
+
+
+For the fiscal year ended November 30
+ 2013 or
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#160;245 Park Avenue
+ New York
+ NY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Registrant&#8217;s telephone number
+ including area code&#160;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicate by check mark if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act.&#160;
+
+
+
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2) has been subject to such filing requirements for the past 90 days.&#160;
+
+Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Web site
+ if any
+ every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (&#167; 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files).&#160;
+
+Indicate by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (&#167; 229.405 of this chapter) is not contained herein
+ and will not be contained
+ to the best of registrant&#8217;s knowledge
+ in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K.&#160;
+
+Indicate by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ or a smaller reporting company. See the definitions of &#8220;large accelerated filer
+&#8221; &#8220;accelerated filer&#8221; and &#8220;smaller reporting company&#8221; in Rule 12b-2 of the Exchange Act.&#160;
+
+
+
+The aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold
+ or the average bid and asked price of such common equity
+ as of the last business day of the registrant&#8217;s most recently completed second fiscal quarter is $1
+500
+000.
+
+
+Indicate by check mark whether the registrant has filed all documents and reports required to be filed by Section 12
+ 13 or 15(d) of the Securities Exchange Act of 1934 subsequent to the distribution of securities under a plan confirmed by a court.&#160;
+
+
+Indicate the number of shares outstanding of each of the registrant&#8217;s classes of common stock
+ as of the latest practicable date. As of March 14
+ 2014
+ Sipup Corporation had 4
+000
+000 shares issued and outstanding.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 5. Market for Registrant&#8217;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 10. Directors
+ Executive Officers and Corporate Governance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 13 Certain Relationships and Related Transactions
+ and Director Independence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 15. Exhibits
+ Financial Statement Schedules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+This Annual Report on Form 10-K of Sipup Corporation
+ a Nevada corporation
+ contains &#8220;forward-looking statements
+&#8221; as defined in the United States Private Securities Litigation Reform Act of 1995. In some cases
+ you can identify forward-looking statements by terminology such as &#8220;may&#8221;
+ &#8220;will&#8221;
+ &#8220;should&#8221;
+ &#8220;could&#8221;
+ &#8220;expects&#8221;
+ &#8220;plans&#8221;
+ &#8220;intends&#8221;
+ &#8220;anticipates&#8221;
+ &#8220;believes&#8221;
+ &#8220;estimates&#8221;
+ &#8220;predicts&#8221;
+ &#8220;potential&#8221; or &#8220;continue&#8221; or the negative of such terms and other comparable terminology. These forward-looking statements include
+ without limitation
+ statements about our market opportunity
+ our strategies
+ competition
+ expected activities and expenditures as we pursue our business plan
+ and the adequacy of our available cash resources. Although we believe that the expectations reflected in the forward-looking statements are reasonable
+ we cannot guarantee future results
+ levels of activity
+ performance or achievements. Actual results may differ materially from the predictions discussed in these forward-looking statements. The economic environment within which we operate could materially affect our actual results. Additional factors that could materially affect these forward-looking statements and/or predictions include
+ among other things:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This list is not an exhaustive list of the factors that may affect any of our forward-looking statements. These and other factors should be considered carefully and readers should not place undue reliance on our forward-looking statements. Forward looking statements are made based on management&#8217;s beliefs
+ estimates and opinions on the date the statements are made and we undertake no obligation to update forward-looking statements if these beliefs
+ estimates and opinions or other circumstances should change. Although we believe that the expectations reflected in the forward-looking statements are reasonable
+ we cannot guarantee future results
+ levels of activity
+ performance or achievements. Except as required by applicable law
+ including the securities laws of the United States
+ we do not intend to update any of the forward-looking statements to conform these statements to actual results.
+
+Our management has included projections and estimates in this Form 10-K
+ which are based primarily on management&#8217;s experience in the industry
+ assessments of our results of operations
+ discussions and negotiations with third parties and a review of information filed by our competitors with the SEC or otherwise publicly available. We caution readers not to place undue reliance on any such forward-looking statements
+ which speak only as of the date made. We disclaim any obligation subsequently to revise any forward-looking statements to reflect events or circumstances after the date of such statements or to reflect the occurrence of anticipated or unanticipated events.
+
+All references in this Form 10-K to the &#8220;Company&#8221;
+ &#8220;Sipup&#8221;
+ &#8220;we&#8221;
+ &#8220;us
+&#8221; or &#8220;our&#8221; are to Sipup Corporation
+
+
+
+
+
+Sipup Corporation was incorporated on October 31
+ 2012 under the laws of the State of Nevada for the purpose of producing
+ packing and selling flavored yogurts. &#160;
+
+We are a development stage company that has not realized any revenues to date
+ and our accumulated deficit as of November 30
+ 2013&#160;is $69
+803. &#160;To date we have raised an aggregate of $66
+823 through the sales of our securities and from stockholders loans. Our independent auditor has issued an audit opinion for our Company which includes a statement expressing substantial doubt as to our ability to continue as a going concern. &#160;The Company&#8217;s principal offices are located at 245 Park Avenue
+ New York
+ NY
+ 10167. Our telephone number is 212 792-4000.
+
+
+
+On October 31
+ 2012
+ the Company was incorporated under the laws of the State of Nevada. We were formed to produce
+ pack
+ and sell flavored yogurts. We are in the development stage
+ and have not realized any revenues from our operations.
+
+
+    
+    
+
+
+
+Rashid Naeem has served as our President
+ Chief Executive Officer
+ Secretary and Treasurer
+ from October 31
+ 2012
+ until December 5
+ 2013 and was replaced following his resignation by Jacob Daddon. Our board of directors is comprised of one person: Jacob Daddon. &#160;
+We are authorized to issue 75
+000
+000 shares of common stock
+ par value $.001 per share. On November 19
+ 2012
+ we issued 3
+000
+000 shares of common stock to our sole officer and director on that date. Mr. Naeem purchased such 3
+000
+000 shares at a purchase price of $0.001 per share
+ for an aggregate purchase price of $3
+000.
+
+On December 5
+ 2013
+ Mr. Nissim Barih (&#8220;Barih&#8221;) and several other unrelated persons (each a &#8220;Buyer&#8221; and collectively
+ the &#8220;Buyers&#8221;)
+ closed on a transaction (the &#8220;Purchase&#8221;) in which the Buyers acquired a total of 3
+000
+000 shares (the &#8220;Shares&#8221;) of common stock
+ par value $0.001 per share (the &#8220;Common Stock&#8221;) of Sipup from Rashid Naeem
+ the Company&#8217;s sole director and officer (&#8220;Naeem&#8221;) immediately prior to the Purchase. The Purchase was consummated pursuant to the Stock Purchase Agreement by and among the Buyers and Naeem. The aggregate purchase price paid for the Shares was $131
+000. &#160;The Shares represented&#160;&#160;in the aggregate 75% of all of the issued and outstanding shares of the Company&#8217;s Common Stock.&#160;&#160;Barih
+ one of the Buyers
+ holds 2
+475
+000 of the Shares
+ representing approximately 61% of all of our issued and outstanding Common Stock. The funds used to consummate the Purchase of the Shares were the personal funds of each participating Buyer. Accordingly
+ the purchase of the Shares resulted in a change in control of the Company.
+
+In connection with the above transaction
+ Naeem resigned from all officers&#8217; positions that he held in the Company
+ including President
+ Chief Executive Officer
+ Secretary and Treasurer
+ which resignation became effective immediately upon the closing of the Purchase.&#160;&#160;Contemporaneously with closing of the Purchase
+ Jacob Daddon was appointed as our President and Chief Executive Officer and one of our directors.
+
+
+
+We were incorporated on October 31
+ 2012 in the State of Nevada. &#160;We have never declared bankruptcy
+ have never been in receivership
+ and have never been involved in any legal action or proceedings. &#160;Since incorporation
+ we have not made any significant purchase or sale of assets. &#160;We are not a blank check registrant as that term is defined in Rule 419(a)(2) of Regulation C of the Securities Act of 1933
+ since we have a specific business plan or purpose.
+
+From inception until the date of this filing we have had limited operating activities
+ primarily consisting of the incorporation of our company
+ the initial equity funding by our officer and sole director
+ contacting FDA
+ and&#160;preparing our recipes.&#160;&#160;Our financial statements from inception (October 31
+ 2012) through our fiscal year ended November 30
+ 2013 report no revenues and a net loss of $69
+803. &#160;Our independent auditor has issued an audit opinion for our Company which includes a statement expressing substantial doubt as to our ability to continue as a going concern.
+
+We are a development stage company which plans to be in the business of producing
+ packing
+ and selling flavored yogurts. To implement our plan of operations we require a minimum funding of $25
+000 for the next twelve months. &#160;After twelve months period&#160;we may need additional financing. &#160;If we do not generate any revenue we may need a minimum of $25
+000 of additional funding to pay for SEC filing requirements.&#160;&#160;We have no revenues and have incurred losses since inception. The Company&#8217;s principal offices are located at 245 Park Avenue
+ New York
+ NY
+ 10167. Our telephone number is 212 792-4000.
+
+Our operations to date have been devoted primarily to start-up and development activities
+ which include:
+
+
+
+
+
+
+
+
+
+
+
+Our flavored yogurt recipes currently include all fruit flavors. The following list follows what we will be making: Apple
+ apricot
+ blueberry
+ cherry
+ peach
+ orange
+ pear
+ and strawberry. Our flavors under development will include all the following products: Carrot
+ cucumber
+ raisin
+ almonds and more as we expand the business. All of our flavored yogurts will have sugar added to them. &#160;The yogurt business has a lot of competition especially in the recent decades as many flavored and frozen yogurt companies have surfaced. Some of the world&#8217;s most established and biggest yogurt companies started out in Europe and we will face immense competition from these established companies. We plan to manufacture
+ distribute and conduct our planned business from Germany but once we establish our brand like other yogurt companies we will have our yogurts made and distributed all over the place.
+
+
+    
+    
+
+
+
+
+
+We intend to produce
+ pack
+ and sell our flavored yogurts and market them. We have contacted the Food and Drug Administration (FDA) for the product labeling procedure
+ and registration requirement of our manufacturing facility. We have not registered our facility with FDA as we will once we setup our office and warehouse. &#160;We plan to have our flavored yogurts shelved and refrigerated at local grocery stores and at bigger retailers and wholesalers.
+
+As we will be new in the business
+ we will require full payments from our customers prior to releasing our flavored yogurts. &#160;Potential customers will have two options to pay: by wire transfer or by sending a check/money order. &#160;Our customers will be responsible to cover the transporting costs for bigger quantities
+ as we will not be able to transport products in big quantity. &#160;We plan to purchase or lease out delivery vehicles once we start making revenue. Once the customer becomes a regular client we will take a partial deposit to have our product released at our own expense and risk. &#160;
+
+
+
+We plan to market our yogurts locally initially.&#160;&#160;We intend to develop and maintain a database of potential small grocery stores locally who may want to buy and have our yogurts put in their refrigerators. Our methods of communication will include: phone calls
+ email
+ and regular mail. &#160;We will ask our satisfied customers for referrals. &#160;To draw attention from potential customers we plan to market and advertise our company though social networking. We intend to use Facebook and Twitter to spread information about our flavored yogurts.
+
+
+
+We do not maintain any insurance. Because we do not have any insurance
+ if we are made a party of a legal action
+ we may not have sufficient funds to defend the litigation. If that occurs a judgment could be rendered against us that could cause us to cease operations.
+
+
+
+We are a development stage company and currently have no employees. Our sole officer and director
+ is a non-employee officer and director of the Company. We intend to hire employees on an as needed basis. Our sole officer and director handles the company&#8217;s day to day operations.
+
+
+
+The Company&#8217;s principal offices are located at 245 Park Avenue
+ New York
+ NY
+ 10167. Our telephone number is 212 792-4000.
+
+
+
+We will be required to comply with all regulations
+ rules and directives of governmental authorities and agencies in any jurisdiction which we would conduct activities in the future. As of now there are no required government approvals present that we need approval from or any existing government regulation on our business.
+
+However once we start producing
+ and packing flavored yogurts we will be required to comply with all regulations
+ rules and directives of governmental authorities and agencies. We do not believe that regulation will have a material impact on the way we conduct our business. We do not need to receive any government approvals necessary to conduct our business and do not need to demonstrate that; however we will have to comply with all applicable export
+ import
+ and product labeling regulations. Also our flavored yogurts shall comply with all applicable Federal regulations including those contained in the Food and Drug Administration&#8217;s Standard of Identity for Yogurt (21 CFR Part 131.200).
+
+We currently have not obtained any copyrights
+ patents or trademarks. We do not anticipate filing any copyright or trademark applications related to any assets over the next 12 months.
+
+
+    
+    
+
+
+
+
+
+Our cash balance is $Nil as of November 30
+ 2013. We do not believe that our cash balance is sufficient to fund our limited levels of operations beyond one year&#8217;s time.
+
+
+
+We anticipate that our current cash and cash equivalents and cash generated from operations
+ if any
+ will be insufficient to satisfy our liquidity requirements for at least the next 12 months. We will require additional funds prior to such time and the Company will seek to obtain theses funds by selling additional capital through private equity placements
+ debt or other sources of financing. If we are unable to obtain sufficient additional financing
+ we may be required to reduce the scope of our planned operations
+ which could harm our business
+ financial condition and operating results. Additional funding to meet our requirements may not be available on favorable terms
+ if at all.
+
+At the present time
+ we have been able to raise additional cash by selling of common stock
+ it will likely not be sufficient to support our planned operations. If we are unable to raise the cash needed to support our operations
+ we will either suspend product development and marketing activities until we do raise the cash
+ or cease operations entirely
+
+In the next twelve months
+ we plan to engage in the following activities to expand our business operations:
+
+(1) In the first and second months after receiving sufficient financing
+ we plan to set up an office and a small warehouse for operations and storage. Our officer and director will handle our administrative duties.
+
+(2) In the third and fourth months after receiving sufficient financing
+ we plan to buy used or lease cheap machinery for our flavored yogurts to be produced
+ and packed in-house instead of out-sourcing to other companies to save costs. We also plan to purchase ingredients and yogurt containers necessary to make and pack the yogurts.
+
+(3) In the fifth and sixth months after receiving sufficient financing
+ we plan to have a small promotion by sampling our flavored yogurts out to businesses for a feedback and to get our companies name out in the communities and to improve on our flavors.
+
+
+
+(5) In the ninth and tenth months after receiving sufficient financing
+ we plan to meet with bigger retailers and wholesalers to have our flavored yogurts put on shelves at their stores.
+
+(6) In the eleventh and twelfth months after receiving sufficient financing
+ we plan to come out with more flavors of our flavored yogurts under our company&#8217;s name and market them as well.
+
+Subject to raising working capital
+ management may also consider other business opportunities
+ including a strategic merger or acquisition outside our current line of business
+ in order to increase shareholder value.
+
+
+
+We have no off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on our financial condition
+ changes in financial condition
+ revenues or expenses
+ results of operations
+ liquidity
+ capital expenditures or capital resources.
+
+
+
+There is no historical financial information about us upon which to base an evaluation of our performance. We are in start-up stage operations and have not generated any revenues. We cannot guarantee we will be successful in our business operations. Our business is subject to risks inherent in the establishment of a new business enterprise
+ including limited capital resources and possible cost overruns due to price and cost increases in services and products.
+
+We have no assurance that future financing will be available to us on acceptable terms. If financing is not available on satisfactory terms
+ we may be unable to continue
+ develop or expand our operations. Equity financing could result in additional dilution to existing shareholders.
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+The
+Company does not own or lease any property.
+
+
+
+The Company is not party to any legal proceedings
+ nor is there any known legal proceedings contemplated against the Company.
+
+No director
+ officer or affiliate of the Company and no owner of record or beneficial owner of more than 5.0% of the securities of the Company
+ or any associate of any such director
+ officer or security holder is a party adverse to the Company or has a material interest adverse to the Company in reference to pending litigation.
+
+
+
+
+
+
+
+5. Market for Registrant&#8217;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+
+
+
+
+
+The following table sets forth
+ for the periods indicated
+ the high and low closing bid prices of our common stock. These prices reflect inter-dealer prices
+ without retail mark-up
+ mark-down or commission
+ and may not represent actual transactions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Year Ended November 30
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Year Ended November 30
+ 2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As
+of the date of this&#160;Form 10-K&#160;the Company had 4
+000
+000 shares of our common stock issued and outstanding held by 17 holders of record. I will get this form the transfer agent.
+
+
+    
+    
+
+
+
+
+
+We have not declared or paid dividends on our common stock since our formation
+ and we do not anticipate paying dividends in the foreseeable future. Declaration or payment of dividends
+ if any
+ in the future
+ will be at the discretion of our Board of Directors and will depend on our then current financial condition
+ results of operations
+ capital requirements and other factors deemed relevant by the Board of Directors. There are no contractual restrictions on our ability to declare or pay dividends.
+
+
+
+
+
+
+
+
+
+From Inception (October 31
+ 2012) to November 30
+ 2013
+
+During the period
+ we incorporated the Company
+ Our loss since inception is $69
+803 related primarily to professional fees
+ officers compensation
+ the incorporation of the Company
+ bank charges and office supplies. We have not meaningfully commenced our proposed business operations and will not do so until after receiving sufficient financing.
+
+Since inception
+ we have offered and sold (i) 3
+000
+000 shares of common stock to Rashid Naeem
+ our former officer and a director
+ at a purchase price of $0.001 per share
+ for aggregate proceeds of $3
+000 and we have offered and sold 1
+000
+000 shares at a purchase price of $0.05 per share
+ for aggregate proceeds of $50
+000.
+
+For the fiscal year ended November 30
+ 2013
+ we had no revenue and had expenses of $63
+939 comprised of Officers compensation of $47
+000
+ Advertising and promotion of $89
+ Professional fees of $16
+240 and General and administrative expense of $610 resulting in a net loss of $63
+939 as compared to expenses of $5
+864 comprised of Officers compensation of $Nil
+ Advertising and promotion of $Nil
+ Professional fees of $5
+010 and General and administrative expense of $854 resulting in a net loss of $5
+864 for the fiscal year ended November 30
+ 2012.
+
+
+
+As of November 30
+ 2013
+ the company had $Nil cash and our liabilities were $4
+735
+ consisting primarily of Accounts payable and accrued expenses of $2
+980 and Loans payable of $1
+755. As of November 30
+ 2012
+ the company had $2
+993 cash and our liabilities were $5
+857
+ consisting of primarily professional fees
+ the incorporation of the Company
+ bank charges and office supplies. The available capital reserves of the Company are not sufficient for the Company to remain operational.
+
+During 2013 and 2012 a stockholder advanced the Company $7
+348 and $5
+322
+ respectively
+ to pay expenses.&#160;&#160;Of this amount
+ $2
+328 was contributed to additional paid-in capital while the remainder of the loan was repaid.&#160;&#160;The loan was interest free and had a zero balance at November 30
+ 2013.
+
+During 2013 and 2012 two stockholders advanced the Company $1
+755 and $-0-
+ respectively
+ to pay expenses.&#160;&#160;The loans bear no interest and are payable on demand.
+
+As of the date of this Form 10-K
+ the current funds available to the Company will not be sufficient to continue maintaining a reporting status. Our primary priority will be to retain our reporting status with the SEC which means that we will first ensure by being a &#8220;reporting issuer&#8221; under the Securities Exchange Act of 1934
+ as amended.&#8221; that we have sufficient capital to cover our legal and accounting expenses. Once these costs are accounted for
+ in accordance with how much cash we are able to retain
+ we will focus on meeting all our planned expenses.
+
+Our auditors have issued a &#8220;going concern&#8221; opinion
+ meaning that there is substantial doubt if we can continue as an on-going business for the next twelve months unless we obtain additional capital. No substantial revenues are anticipated until after receiving sufficient financing and implementing our plan of operations. We must raise cash to implement our strategy and stay in business. The Company anticipates over the next 12 months the cost of being a reporting public company will be approximately $25
+000.
+
+Existing working capital
+ further advances and debt instruments
+ and anticipated cash flow are expected to be inadequate to fund our operations over the next twelve months. We have no lines of credit or other bank financing arrangements. Generally
+ we have financed operations to date through the proceeds of the private placement of equity and debt instruments. In connection with our business plan
+ management anticipates additional increases in operating expenses and capital expenditures relating to: (i) acquisition of inventory; (ii) developmental expenses associated with a start-up business; and (iii) marketing expenses. Although we intend to finance these expenses with further issuances of securities
+ and debt issuances
+ no assurance can be provided that we will be able to raise funds on commercially acceptable terms or at all.
+
+
+    
+    
+
+
+
+We anticipate that our current cash and cash equivalents and cash generated from operations
+ if any
+ will be insufficient to satisfy our liquidity requirements for at least the next 12 months. We will require additional funds prior to such time and the Company will seek to obtain theses funds by selling additional capital through private equity placements
+ debt or other sources of financing. If we are unable to obtain sufficient additional financing
+ we may be required to reduce the scope of our planned operations
+ which could harm our business
+ financial condition and operating results. Additional funding to meet our requirements may not be available on favorable terms
+ if at all.
+
+At the present time
+ we have been able to raise additional cash by selling of common stock
+ it will likely not be sufficient to support our planned operations. If we are unable to raise the cash needed to support our operations
+ we will either suspend product development and marketing activities until we do raise the cash
+ or cease operations entirely. Because we have been unable to raise additional cash
+ Management may consider other business opportunities in order to maintain and increase shareholder value.
+
+We are highly dependent upon the success of the private offerings of equity or debt securities
+ as described herein. Therefore
+ the failure thereof would result in the need to seek capital from other resources such as taking loans
+ which would likely not even be possible for the Company. At such time these funds are required
+ management would evaluate the terms of such debt financing. If the Company cannot raise additional proceeds via a private placement of its equity or debt securities
+ or secure a loan
+ the Company would be required to cease business operations. As a result
+ investors would lose all of their investment.
+
+
+
+
+
+
+
+
+
+Management uses estimates and assumption in preparing these financial statements in accordance with generally accepted accounting principles. Those estimates and assumptions affect the reported amounts of assets and liabilities
+ the disclosure of contingent assets and liabilities
+ and the reported revenues and expenses.
+
+
+
+The Company accounts for income taxes under ASC 740 &#8220;Income Taxes&#8221; which codified SFAS 109
+ &#8220;Accounting for Income Taxes&#8221; and FIN 48 &#8220;Accounting for Uncertainty in Income Taxes &#8211; an Interpretation of FASB Statement No. 109.&#8221; Under the asset and liability method of ASC 740
+ deferred tax assets and liabilities are recognized for the future tax consequences attributable to differences between the financial statements carrying amounts of existing assets and liabilities and their respective tax bases. Deferred tax assets and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be recovered or settled. Under ASC 740
+ the effect on deferred tax assets and liabilities of a change in tax rates is recognized in income in the period the enactment occurs. A valuation allowance is provided for certain deferred tax assets if it is more likely than not that the Company will not realize tax assets through future operations.
+
+
+
+Accounting Standards Codification Topic 820
+ &#8220;Disclosures About Fair Value of Financial Instruments&#8221;
+ requires the Company to disclose
+ when reasonably attainable
+ the fair market values of its assets and liabilities which are deemed to be financial instruments. The Company&#8217;s financial instruments consist primarily of cash.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+Stock-based compensation is accounted for at fair value in accordance with ASC Topic 718. &#160;To date
+ the Company has not adopted a stock option plan and has not granted any stock options.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting. Internal control over financial reporting is defined in Rule 13a-15(f) or 15d-15(f) promulgated under the Securities Exchange Act of 1934 as a process designed by
+ or under the supervision of
+ the Company&#8217;s principal executive and principal financial officers and effected by the Company&#8217;s board of directors
+ management and other personnel to provide reasonable assurance regarding the reliability of our financial reporting and the preparation of financial statements for external purposes in accordance with accounting principles generally accepted in the United States of America and includes those policies and procedures that:
+
+
+
+
+
+
+
+
+Pertains to the maintenance of
+records that in reasonable detail accurately and fairly reflect our transactions and disposition of assets;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition
+ use or disposition of company assets that could have a material effect on our financial statements.
+
+
+
+
+Under the supervision and with the participation of our management
+ including our President and principal financial officer
+ an evaluation was performed on the effectiveness of the design and operation of our disclosure controls and procedures as of the end of the period covered by this report. Based on that evaluation
+ our President and principle executive officer
+ who also acts as our principal financial officer
+ concluded that our disclosure controls and procedures were not effective as of the end of the period covered by this report for the purpose of gathering
+ analyzing and disclosing of information that the Company is required to disclose in the reports it files under the Securities Exchange Act of 1934
+ within the time periods specified in the SEC&#8217;s rules and forms.
+
+
+
+As of November 30
+ 2013 management assessed the effectiveness of the Company&#8217;s internal control over financial reporting based on the criteria for effective internal control over financial reporting established in Internal Control - Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (&#8220;COSO&#8221;) and SEC guidance on conducting such assessments. Based on that evaluation
+ they concluded that
+ during the period covered by this report
+ such internal control over financial reporting were not effective to detect the inappropriate application of US GAAP rules as more fully described below. This was due to deficiencies that existed in the design or operation of our internal control over financial reporting that adversely affected our internal controls and that may be considered to be material weaknesses.
+
+The matters involving internal controls and procedures that the Company&#8217;s management considered to be material weaknesses under the standards of the Public Company Accounting Oversight Board were: (1) lack of a functioning audit committee due to the lack of a majority of independent members and a lack of a majority of outside directors on our board of directors
+ resulting in ineffective oversight in the establishment and monitoring of required internal controls and procedures; (2) inadequate segregation of duties consistent with control objectives; and (3) ineffective controls over period end financial disclosure and reporting processes. The aforementioned material weaknesses were identified by our Chief Executive Officer in connection with the review of our financial statements as of November 30
+ 2013.
+
+
+    
+    
+
+
+
+Management believes that the material weaknesses set forth in items (2) and (3) above did not have an effect on our financial results. However
+ management believes that the lack of a functioning audit committee and lack of a majority of outside directors on our board of directors
+ results in ineffective oversight in the establishment and monitoring of required internal controls and procedures which could result in a material misstatement in our financial statements in future periods.
+
+In an effort to remediate the identified material weaknesses and other deficiencies and enhance our internal controls
+ we have initiated or plan to initiate the following series of measures.
+
+
+
+Management believes that the appointment of one or more outside directors
+ who shall be appointed to a fully functioning audit committee
+ will remedy the lack of a functioning audit committee and a lack of a majority of outside directors on our Board.
+We will continue to monitor and evaluate the effectiveness of our internal controls and procedures and our internal controls over financial reporting on an ongoing basis and are committed to taking further action and implementing additional enhancements or improvements
+ as necessary and as funds allow.
+
+There have been no significant changes in our internal controls over financial reporting that occurred during the period covered by this report fourth quarter of 2013 which has materially affected or are reasonably likely to materially affect
+ our internal controls over financial reporting.
+
+
+
+
+
+
+
+
+
+10. Directors
+ Executive Officers and Corporate Governance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+President
+ Chief Executive Officer
+ Secretary
+ Treasurer and Director
+
+
+
+
+
+
+
+
+
+
+
+President
+ Chief Executive Officer and Director
+
+
+
+
+(1) Resigned as President
+ Chief Executive Officer
+ Secretary
+ Treasurer and Director December 5
+ 2013: 8-K filed with the SEC December 12
+ 2013 is incorporated by reference herein.
+(2) Appointed December 5
+ 2013: 8-K filed with the SEC December 12
+ 2013 is incorporated by reference herein.
+
+The director named above will serve until the next annual meeting of the stockholders or until their respective resignation or removal from office. Thereafter
+ directors are anticipated to be elected for one-year terms at the annual stockholders&#8217; meeting. Officers will hold their positions at the pleasure of the Board of Directors
+ absent any employment agreement
+ of which none currently exists or is contemplated.
+
+Rashid Naeem
+ Age 42
+
+Mr. Naeem has served as our President
+ Chief Executive Officer
+ Secretary
+ Treasurer and a Director since our inception on October 31
+ 2012. Since March 2012 he has planned the formation and operation of the Company. Mr. Naeem has been making plain and flavoured yogurts for his personal use for over twenty years. Mr. Naeem decided in March that he should start his own company that produces
+ packs
+ and sells flavoured yogurts. Prior to the formation of the company Mr. Naeem has been self employed from 2007 until now and has been a wholesaler of bed sheets. He had them shipped in containers from Asia and sold them to storekeepers for a profit. These experiences
+ qualifications and attributes have led to our conclusion that Mr. Naeem should be serving as a member of our Board of Director in light of our business and structure.
+
+
+    
+    
+
+
+
+Jacob Daddon
+ Age 33
+Mr. Daddon has been engaged in the financial services industry in Israel since January 2008. &#160;Between October 2012 to the present
+ Mr. Daddon has been providing financial advisory services to small business entities
+ on an independent basis
+ including performing economic feasibility analysis. &#160;From January 2011 through September 2012
+ Mr. Daddon served as an economist with the Eilat Port Authority where his responsibilities included budgetary auditing
+ operational management
+ working on the privatization program and internal accounting functions. Between July 2009 and July 2010
+ Mr. Daddon worked for Psagot
+ a Tel Aviv based investment bank where his responsibilities included interacting with clients and prospective clients of the bank regarding investment products. &#160;Between December 2008 and July 2009
+ Mr. Daddon worked at Bank Mizrahi in Tel Aviv where he was primarily responsible for managing clients&#8217; investment accounts as well as marketing investment products . Between January 2001through July2008
+ Mr. Daddon held a managerial position with a publishing house. Mr. Daddon obtained a B.A. in Economics in 2008 from Ben Gurion University in Israel. Mr. Daddon is a resident of Israel and will continue to reside and work out of Israel following his appointment. &#160;&#160;&#160;&#160;&#160;
+
+
+
+Our board of director is currently composed of one member
+ who does not qualify as an independent director in accordance with the published listing requirements of the NASDAQ Global Market. The NASDAQ independence definition includes a series of objective tests
+ such as that the director is not
+ and has not been for at least three years
+ one of our employees and that neither the director
+ nor any of his family members has engaged in various types of business dealings with us. In addition
+ our board of director has not made a subjective determination as to its sole director that no relationships exist which
+ in the opinion of our board of director
+ would interfere with the exercise of independent judgment in carrying out the responsibilities of a director
+ though such subjective determination is required by the NASDAQ rules. &#160;Had our board of director made these determinations
+ our board of director would have reviewed and discussed information provided by the director and us with regard to each director business and personal activities and relationships as they may relate to us and our management.
+
+
+
+During the period ended November 30
+ 2013
+ Rashid Naeem
+ our sole officer and a director
+ was our only employee (though not &#8220;employees&#8221; for the purpose of determining employee status under tax laws).
+
+
+
+Since we do not have an audit or compensation committee comprised of independent directors
+ the functions that would have been performed by such committees are performed by our sole director. The Board of Director has not established an audit committee and does not have an audit committee financial expert
+ nor has the Board established a nominating committee. The Board is of the opinion that such committees are not necessary since the Company is an early development stage company and has only one director
+ and to date
+ such director has been performing the functions of such committees. Thus
+ there is a potential conflict of interest in that our director has the authority to determine issues concerning management compensation
+ nominations
+ and audit issues that may affect management decisions.
+
+
+
+There are no legal proceedings that have occurred in the past 10 years concerning our sole officer and director which involved a criminal conviction
+ a criminal proceeding
+ an administrative or civil proceeding limiting one&#8217;s participation in the securities or banking industries
+ or a finding of securities or commodities law violations.&#160;
+
+
+
+The Company does not
+ at present
+ have any employees other than the current officers and director. We have not entered into any employment agreements
+ as we currently do not have any employees other than the current officers and directors.
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+Since we do not have an audit or compensation committee comprised of independent directors
+ the functions that would have been performed by such committees are performed by our directors. The Board of Directors has not established an audit committee and does not have an audit committee financial expert
+ nor has the Board of Directors established a nominating committee. The Board is of the opinion that such committees are not necessary since the Company is an early exploration stage company and has only two directors
+ and to date
+ such directors have been performing the functions of such committees. Thus
+ there is a potential conflict of interest in that our directors and officers have the authority to determine issues concerning management compensation
+ nominations
+ and audit issues that may affect management decisions.
+
+There are no family relationships among our directors or officers. Other than as described above
+ we are not aware of any other conflicts of interest with any of our executive officers or directors.
+
+
+
+The Company has not adopted a code of ethics that applies to its principal executive officers
+ principal financial officer
+ principal accounting officer or controller
+ or persons performing similar functions. The Company has not adopted a code of ethics because it has only commenced operations.
+
+
+
+Section 16(a) of the Securities Exchange Act of 1934 requires our executive officers and directors
+ and persons who own more than ten percent of a registered class of our equity securities
+ file reports of ownership and changes in ownership with the SEC. Executive officers
+ directors and greater-than-ten percent stockholders are required by SEC regulations to furnish us with all Section 16(a) forms they file. Based on our review of filings made on the SEC website
+ and the fact of us not receiving certain forms or written representations from certain reporting persons that they have complied with the relevant filing requirements
+ we believe that
+ during the year ended November 30
+ 2013
+ none of our executive officers
+ directors and greater-than-ten percent stockholders complied with all Section 16(a) filing requirements.&#160;
+
+
+
+
+
+The table below summarizes all compensation awarded to
+ earned by
+ or paid to our Officer for all services rendered in all capacities to us for the fiscal periods indicated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1) Former President and Chief Executive Officer
+ Secretary
+ Treasurer and Director. Mr. Rashid resigned as an officer of the Company on December 5
+ 2013.
+
+
+
+
+
+We have not granted any stock options to the executive officer since our inception. Upon the further development of our business
+ we will likely grant options to our sole director and officer consistent with industry standards for businesses similar to ours.
+
+
+
+The Company is not a party to any employment agreement and during 2013 and thereafter had no compensation agreement with its then sole officer and director
+ Rashid Naeem. Following December 5
+ 2013
+ upon the resignation of Mr. Naeem and the appointment of Mr. Daddon
+ its current officer and director
+ the Company has no employment agreement with Mr. Daddon.
+
+
+    
+    
+
+
+
+
+
+The following table sets forth director compensation as of November 30
+ 2013:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1) Former President and Chief Executive Officer
+ Secretary
+ Treasurer and Director. Mr. Rashid resigned as an officer of the Company on December 5
+ 2013.
+
+
+
+The
+following table lists
+ as of March 14
+ 2014
+ the number of shares of common stock of our Company that are beneficially owned by
+(i) each person or entity known to our Company to be the beneficial owner of more than 5% of the outstanding common stock;
+(ii) each officer and director of our Company; and (iii) all officers and directors as a group. Information relating to
+beneficial ownership of common stock by our principal shareholders and management is based upon information furnished by each
+person using &#8220;beneficial ownership&#8221; concepts under the rules of the Securities and Exchange Commission. Under
+these rules
+ a person is deemed to be a beneficial owner of a security if that person has or shares voting power
+ which
+includes the power to vote or direct the voting of the security
+ or investment power
+ which includes the power to vote or
+direct the voting of the security. The person is also deemed to be a beneficial owner of any security of which that person
+has a right to acquire beneficial ownership within 60 days. Under the Securities and Exchange Commission rules
+ more than one
+person may be deemed to be a beneficial owner of the same securities
+ and a person may be deemed to be a beneficial owner of
+securities as to which he or she may not have any pecuniary beneficial interest. Except as noted below
+ each person has sole
+voting and investment power.
+
+The
+percentages below are calculated based on 4
+000
+000 shares of our common stock issued and outstanding as of March 14
+ 2014. We
+do not have any outstanding warrant
+ options or other securities exercisable for or convertible into shares of our common
+stock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stock (1)
+
+
+
+
+
+(2)
+
+
+
+
+
+
+
+
+2
+475
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jacob Daddon
+ Chief Executive Officer &amp; Director (4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Under Rule 13d-3 of the Exchange Act
+ a beneficial owner of a security includes any person who
+ directly or indirectly
+ through any contract
+ arrangement
+ understanding
+ relationship
+ or otherwise has or shares: (i) voting power
+ which includes the power to vote
+ or to direct the voting of shares; and (ii) investment power
+ which includes the power to dispose or direct the disposition of shares.&#160;&#160;Certain shares may be deemed to be beneficially owned by more than one person (if
+ for example
+ persons share the power to vote or the power to dispose of the shares).&#160;&#160;In addition
+ shares are deemed to be beneficially owned by a person if the person has the right to acquire the shares (for example
+ upon exercise of an option) within 60 days of the date as of which the information is provided. In computing the percentage ownership of any person
+ the amount of shares outstanding is deemed to include the amount of shares beneficially owned by such person (and only such person) by reason of these acquisition rights.
+
+(2)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Based on 4
+000
+000 shares of Common Stock issued and outstanding as of the closing of the Purchase.
+
+(3)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A holder of 10% or more of our voting stock. &#160;The business address of Nissim Barih is 41 Shlomo Hamelech Street
+ Lod Israel.
+
+
+
+
+    
+    
+
+
+
+ 13. Certain Relationships and Related Transactions
+ and Director Independence.
+
+Currently
+ there are no contemplated transactions that the Company may enter into with our officers
+ directors or affiliates. If any such transactions are contemplated we will file such disclosure in a timely manner with the Commission on the proper form making such transaction available for the public to view.
+
+
+
+
+
+
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Aggregate fees for professional services rendered for the Company by David A. Aronson
+ C.P.A.
+ P.A.
+ our independent registered public accounting firm
+ for the fiscal years ended December 31
+ 2013 and 2012 are set forth below.
+
+
+
+
+
+
+
+
+November 30
+
+2013
+
+
+
+
+
+November 30
+ 
+2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+500
+
+
+
+
+
+
+
+1
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+560
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+060
+
+
+
+
+
+
+
+1
+758.75
+
+
+
+
+
+
+
+. Exhibits
+ Financial Statement Schedules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Certification of Chief Executive Officer (Principal Executive Officer
+ Principal Financial Officer
+ and Principal Accounting Officer) Pursuant to Rule 13a&#8211;14(a) or 15d-14(a) of the Securities Exchange Act of 1934
+
+
+
+
+
+
+
+
+
+
+
+Certification of Chief Executive Officer (Principal Executive Officer
+ Principal Financial Officer
+ and Principal Accounting Officer) under Section 1350 as Adopted Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1] Incorporated by reference from the Company&#8217;s S-1 filed with the Commission on December 12
+ 2012.
+
+[2] Incorporated by reference from the Company&#8217;s S-1 filed with the Commission on December 12
+ 2012.
+
+
+
+
+
+
+
+
+
+Pursuant to Rule&#160;406T of Regulation&#160;S-T
+ these interactive data files are deemed not filed or part of a registration statement or prospectus for purposes of Sections&#160;11 or 12 of the Securities Act of 1933 or Section&#160;18 of the Securities Exchange Act of 1934 and otherwise are not subject to liability.
+
+
+
+
+
+    
+    
+
+
+
+
+
+Pursuant to the requirements of Section 13 or 15(d) of the Securities and Exchange Act of 1934
+ the registrant has duly caused this report to be signed on its behalf by the undersigned
+ thereunto duly authorized.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dated:&#160;&#160;March 17
+ 2014
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FOR THE YEARS ENDED NOVEMBER 30
+ 2013 AND 2012
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We have audited the accompanying balance sheets of Sipup Corporation
+ (A Development Stage Company) as of November 30
+ 2013 and 2012
+ and the related statements of operations
+ deficit and cash flows for the years ended November 30
+ 2013 and 2012 and from inception (October 31
+ 2012) to November 30
+ 2013.&#160;&#160;These financial statements are the responsibility of the Company&#8217;s management.&#160;&#160;Our responsibility is to express an opinion on these financial statements based on our audits.
+
+
+
+
+
+We conducted our audit in accordance with the standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the financial statements are free of material misstatement. An audit includes examining
+ on a test basis
+ evidence supporting the amounts and disclosures in the financial statements. An audit also includes assessing the accounting principles used and significant estimates by management
+ as well as evaluating the overall financial statement presentation. We believe that our audits provide a reasonable basis for our opinion.
+
+
+
+
+
+In our opinion
+ the financial statements referred to above present fairly
+ in all material respects
+ the financial position of Sipup Corporation (A Development Stage Company) as of November 30
+ 2013 and 2012
+ and results of its operations and its cash flows for the years then ended and from inception (October 31
+ 2012) to November 30
+ 2013
+ in conformity with accounting principles generally accepted in the United States of America.
+
+
+
+
+
+The accompanying financial statements have been prepared assuming that the Company will continue as a going concern. As discussed in Note 5 to the financial statements
+ the Company has suffered a loss from operations and is in the development stage. These factors raise substantial doubt about the Company&#8217;s ability to continue as a going concern. Management&#8217;s plans in regard to this matter are also discussed in Note 5. The financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+
+
+
+
+/s/ David A. Aronson
+ CPA
+ P.A.
+
+
+
+
+David A. Aronson
+ CPA. P.A.
+
+
+
+
+
+North Miami Beach
+ Florida
+
+
+
+March 12
+ 2014
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+November 30
+ 2013 and 2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+993
+
+
+
+
+
+
+
+
+
+
+
+2
+993
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+993
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+980
+
+
+
+
+
+
+
+
+
+
+
+1
+755
+
+
+
+5
+322
+
+
+
+
+
+
+
+4
+735
+
+
+
+5
+857
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Common
+stock
+ $0.001 par value; 75
+000
+000 shares authorized
+ 4
+000
+000 and 3
+000
+000 shares issued and outstanding
+ respectively
+
+
+
+
+4
+000
+
+
+
+3
+000
+
+
+
+
+
+
+
+61
+068
+
+
+
+
+
+
+
+
+
+
+
+(69
+803
+
+
+
+(5
+864
+
+
+
+
+
+(4
+735
+
+
+
+(2
+864
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+993
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From October 31
+ 2012&#160;(Inception) to November 30
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From October 31
+ 
+2012 (Inception) to 
+November 30
+ 
+2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Revenue
+ net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47
+000
+
+
+
+47
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21
+250
+
+
+
+16
+240
+
+
+
+5
+010
+
+
+
+
+
+
+
+1
+464
+
+
+
+
+
+
+
+
+
+
+
+
+
+69
+803
+
+
+
+63
+939
+
+
+
+5
+864
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(69
+803
+
+
+
+(63
+939
+
+
+
+(5
+864
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+561
+424
+
+
+
+3
+282
+627
+
+
+
+3
+000
+000
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From October 31
+ 2012 (Inception) to November 30
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in Capital
+
+
+
+
+
+Accumulated 
+During 
+Development 
+Stage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+000
+000
+
+
+
+3
+000
+
+
+
+
+
+
+
+
+
+
+
+3
+000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(5
+864
+
+
+
+(5
+864
+
+
+
+Balance - November 30
+ 2012
+
+
+
+3
+000
+000
+
+
+
+3
+000
+
+
+
+
+
+
+
+(5
+864
+
+
+
+(2
+864
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+90
+000
+
+
+
+
+
+
+
+4
+410
+
+
+
+
+
+
+
+4
+500
+
+
+
+
+
+
+
+910
+000
+
+
+
+
+
+
+
+44
+590
+
+
+
+
+
+
+
+45
+500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
+740
+
+
+
+
+
+
+
+9
+740
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+328
+
+
+
+
+
+
+
+2
+328
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(63
+939
+
+
+
+(63
+939
+
+
+
+Balance - November 30
+ 2013
+
+
+
+4
+000
+000
+
+
+
+4
+000
+
+
+
+61
+068
+
+
+
+(69
+803
+
+
+
+(4
+735
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From October 31
+ 2012&#160;&#160;(Inception) to November 30
+ 2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31
+ 2012 
+(Inception) to 
+November 30
+ 
+2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(69
+803
+
+
+
+(63
+939
+
+
+
+(5
+864
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+980
+
+
+
+2
+445
+
+
+
+
+
+
+
+
+
+
+
+(66
+823
+
+
+
+(61
+494
+
+
+
+(5
+329
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53
+000
+
+
+
+50
+000
+
+
+
+3
+000
+
+
+
+
+
+
+
+1
+755
+
+
+
+(3
+567
+
+
+
+5
+322
+
+
+
+
+
+
+
+12
+068
+
+
+
+12
+068
+
+
+
+
+
+
+
+
+
+
+
+66
+823
+
+
+
+58
+501
+
+
+
+8
+322
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(2
+993
+
+
+
+2
+993
+
+
+
+
+
+
+
+
+
+
+
+2
+993
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+993
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+November 30
+ 2013 and 2012
+
+
+
+
+Sipup Corporation (&#8220;Sipup&#8221; or the &#8220;Company&#8221;) was incorporated on October 31
+ 2012
+ under the laws of the State of Nevada. The Company is in the development stage as defined under Financial Accounting Standards Board (&#8220;FASB&#8221;) Accounting Standards Codification (&#8220;ASC&#8221;) Topic 915
+ &#8220;Development Stage Entities&#8221;. The Company intends to produce flavored yogurts.
+
+
+
+
+
+Basic net (loss) income per common share is calculated using the weighted average common shares outstanding during each reporting period. Diluted net (loss) income per common share adjusts the weighted average common shares for the potential dilution that could occur if common stock equivalents (convertible debt and preferred stock
+ warrants
+ stock options and restricted stock shares and units) were exercised or converted into common stock. There were no common stock equivalents at November 30
+ 2013.
+
+
+Deferred income taxes are recognized for the tax consequences related to temporary differences between the carrying amount of assets and liabilities for financial reporting purposes and the amounts used for tax purposes at each year end
+ based on enacted tax laws and statutory tax rates applicable to the periods in which the differences are expected to affect taxable income. A valuation allowance is recognized when
+ based on the weight of all available evidence
+ it is considered more likely than not that all
+ or some portion
+ of the deferred tax assets will not be realized. Income tax expense is the sum of current income tax plus the change in deferred tax assets and liabilities.
+
+A company is required to determine whether it is more likely than not (which is defined as a likelihood of more than fifty percent) that a tax position will be sustained based on its technical merits as of the reporting date
+ assuming that taxing authorities will examine the position and have full knowledge of all relevant information. A tax position that meets this more likely than not threshold is then measured and recognized at the largest amount of benefit that is greater than fifty percent likely to be realized upon effective settlement with a taxing authority.
+
+
+    
+    
+
+
+
+
+
+
+November 30
+ 2013 and 2012
+
+
+
+
+The Company is required to estimate the fair value of all financial instruments included on its balance sheet as of November 30
+ 2013. The Company&#8217;s financial instruments consist of cash. The Company considers the carrying value of such amounts in the financial statements to approximate their fair value due to the short-term nature of these financial instruments.
+
+
+
+
+
+
+
+
+
+During 2013 and 2012 a stockholder advanced the Company $7
+348 and $5
+322
+ respectively
+ to pay expenses. Of this amount
+ $2
+328 was contributed to additional paid-in capital while the remainder of the loan was repaid. The loan was interest free and had a zero balance at November 30
+ 2013.
+
+During 2013 and 2012 two stockholders advanced the Company $1
+755 and $-0-
+ respectively
+ to pay expenses. The loans bear no interest and are payable on demand.
+
+
+
+In October 2012
+ the Company issued 3
+000
+000 shares of common stock at $0.001 per share.
+
+In May 2013
+ the Company issued 1
+000
+000 shares of common stock at $0.05 per share.
+
+
+    
+    
+
+
+
+
+
+
+November 30
+ 2013 and 2012
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As of November 30
+ 2013
+ the Company has a net operating loss carryforward of approximately $70
+000. This loss will be available to offset future taxable income. If not used
+ this carryforward will expire in 2032. The deferred tax asset relating to the operating loss carryforward has been fully reserved at November 30
+ 2013 due to the uncertainty of its recognition.
+
+
+
+The Company&#8217;s financial statements are presented on a going concern basis
+ which contemplates the realization of assets and satisfaction of liabilities in the normal course of business.
+
+The Company has experienced a loss from operations during its development stage as a result of its investment necessary to achieve its operating plan
+ which is long-range in nature. From October 31
+ 2012 (inception) to November 30
+ 2013
+ the Company incurred a net loss of approximately $70
+000. In addition
+ the Company has no significant assets or revenue generating operations.
+
+The Company does not have sufficient cash to sustain itself for the next 12 months
+ and will require additional funding in order to execute its plan of operations and to continue as a going concern. To meet its cash needs
+ certain stockholders have agreed
+ orally
+ to loan
+ on a non-interest bearing demand basis
+ sufficient funds to maintain the Company&#8217;s operations for the next 12 months.
+
+
+
+
+    
+    
+
+
+
+
+
+
+November 30
+ 2013 and 2012
+
+
+
+
+In accordance with ASC 855
+ management has evaluated the subsequent events through the date of issuance of the financial statements. Based upon this evaluation
+ there are no subsequent events that require disclosure.
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+I
+ Jacob Daddon
+ certify that:
+
+1. I have reviewed this Annual Report on Form 10-K of Sipup Corporation for the fiscal year ended November 30
+ 2013;
+
+2. Based on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect to the period covered by this report;
+
+3. Based on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods presented in this report;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+designed such disclosure
+controls and procedures
+ or caused such internal control over financial report to be designed under our
+supervision
+&#160;&#160;to ensure that material information relating to the registrant
+ including its consolidated
+subsidiaries
+ is made known to  me by others within those entities
+ particularly during the period in which this report is
+being prepared;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+designed such internal control
+over financial reporting
+ or caused such internal control over financial reporting to be designed under  my supervision
+ to
+provide reasonable assurance regarding the reliability of financial reporting and preparation of financial statements for
+external purposes in accordance with generally accepted accounting principles;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+evaluated the effectiveness of
+the registrant?s disclosure controls and procedures and presented in this report  my conclusions about the effectiveness of
+the disclosure controls and procedures
+ as of the end of the period cover by this report based on such evaluation;
+and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+disclosed in this report any change in the registrant&#8217;s internal control over financial reporting that occurred during the registrant&#8217;s fourth fiscal quarter that has materially affected
+ or is reasonably likely to materially affect
+ the registrant&#8217;s internal control over financial reporting; and
+
+
+
+
+5. I have disclosed
+ based on our most recent evaluation of internal control over financial reporting
+ to the registrant&#8217;s auditors and the audit committee of small business issuer&#8217;s board of directors (or persons performing the equivalent functions):
+
+
+
+
+
+
+
+
+
+
+
+all significant deficiencies and material weaknesses in the design or operation of internal controls over financial reporting which are reasonably likely to adversely affect the registrant&#8217;s ability to record
+ process
+ summarize and report financial information; and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+any fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&#8217;s internal control over financial reporting;
+
+
+
+
+Date:&#160;&#160;March 17
+ 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Principal Executive Officer
+ Principal Financial Officer
+ and Principal Accounting Officer)
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+18 U.S.C. SECTION 1350
+
+
+
+
+In connection with the Annual Report of Sipup Corporation. (the &#8220;Company&#8221;) on Form&#160;10-K for the fiscal year ended November 30
+ 2013 as filed with the Securities and Exchange Commission on the date hereof (the &#8220;Report&#8221;)
+ I
+ Jacob Daddon
+ Chief Executive Officer (Principal Executive Officer
+ Principal Financial Officer
+ and Principal Accounting Officer)&#160;certify
+ pursuant to 18&#160;U.S.C. &#167;&#160;1350
+ as adopted pursuant to &#167;&#160;906 of the Sarbanes-Oxley Act of 2002
+ that
+ to the best of my knowledge and belief:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The information&#160;contained in the Report fairly presents
+ in all material respects
+ the financial condition and result of operations of the Company.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Principal Executive Officer
+ Principal Financial Officer
+ and Principal Accounting Officer)
+
+Dated: March 17
+ 2014
+
+A signed original of this written statement required by Section 906
+ or other document authenticating
+ acknowledging
+ or otherwise adopting the signature that appears in typed form within the electronic version of this written statement has been provided to the Company and will be retained by the Company and furnished to the Securities and Exchange Commission or its staff upon request.
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 17
+
+
+
+
+
+
+
+
+
+
+
+2012-10-31
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+2013-05-31
+
+
+
+
+
+
+
+
+
+2013-05-01
+
+
+2013-05-31
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-12-01
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2012-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+2013-11-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Organization&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Sipup Corporation (&amp;#8220;Sipup&amp;#8221; or the &amp;#8220;Company&amp;#8221;) was incorporated on October 31
+ 2012
+ under the laws of the State of Nevada. The Company is in the development stage as defined under Financial Accounting Standards Board (&amp;#8220;FASB&amp;#8221;) Accounting Standards Codification (&amp;#8220;ASC&amp;#8221;) Topic 915
+ &amp;#8220;Development Stage Entities&amp;#8221;. The Company intends to produce flavored yogurts.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div align=left style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Use of Estimates&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Actual results could differ from those estimates.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Net Loss Per Common Share&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Basic net (loss) income per common share is calculated using the weighted average common shares outstanding during each reporting period. Diluted net (loss) income per common share adjusts the weighted average common shares for the potential dilution that could occur if common stock equivalents (convertible debt and preferred stock
+ warrants
+ stock options and restricted stock shares and units) were exercised or converted into common stock. There were no common stock equivalents at November 30
+ 2013.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div align=left style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Income Taxes&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Deferred income taxes are recognized for the tax consequences related to temporary differences between the carrying amount of assets and liabilities for financial reporting purposes and the amounts used for tax purposes at each year end
+ based on enacted tax laws and statutory tax rates applicable to the periods in which the differences are expected to affect taxable income. A valuation allowance is recognized when
+ based on the weight of all available evidence
+ it is considered more likely than not that all
+ or some portion
+ of the deferred tax assets will not be realized. Income tax expense is the sum of current income tax plus the change in deferred tax assets and liabilities.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal;
+ letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;A company is required to determine whether it is more likely than not (which is defined as a likelihood of more than fifty percent) that a tax position will be sustained based on its technical merits as of the reporting date
+ assuming that taxing authorities will examine the position and have full knowledge of all relevant information. A tax position that meets this more likely than not threshold is then measured and recognized at the largest amount of benefit that is greater than fifty percent likely to be realized upon effective settlement with a taxing authority.&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Fair Value of Financial Instruments&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;The Company is required to estimate the fair value of all financial instruments included on its balance sheet as of November 30
+ 2013. The Company&amp;#8217;s financial instruments consist of cash. The Company considers the carrying value of such amounts in the financial statements to approximate their fair value due to the short-term nature of these financial instruments.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div align=left style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Reclassifications&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Certain reclassifications have been made to the prior period financial statements to conform with the current year presentation&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Recent Pronouncements&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+
+
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;In October 2012
+ the Company issued 3
+000
+000 shares of common stock at $0.001 per share.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;In May 2013
+ the Company issued 1
+000
+
+
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;The provision for income taxes differs from the amount computed by applying the statutory federal income tax rate to income before provision for income taxes. The sources and tax effects of the differences are as follows:&lt;/font&gt;&lt;/div&gt;
+&lt;div style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div align=center style=text-transform: none; text-indent: 0px; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;
+&lt;table style=width: 60%; font-family: 'times new roman'; font-size: 10pt; cellspacing=0 cellpadding=0&gt;
+&lt;tr bgcolor=azure&gt;
+&lt;td style=text-align: left; text-indent: 0pt; margin-left: 0pt; margin-right: 0pt; valign=bottom width=48%&gt;
+&lt;div style=text-align: left; text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;
+&lt;div align=left style=text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Income tax provision at the federal&amp;#160;&lt;/font&gt;statutory rate&lt;/font&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td align=right valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: right; valign=bottom width=9%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;25&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; valign=bottom width=1% nowrap=nowrap&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;%&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr bgcolor=white&gt;
+&lt;td align=left style=padding-bottom: 2px; valign=bottom width=48%&gt;
+&lt;div align=left style=text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Effect of operating losses&lt;/font&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td align=right style=padding-bottom: 2px; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 2px solid; text-align: left; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 2px solid; text-align: right; valign=bottom width=9%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;(25&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; padding-bottom: 2px; valign=bottom width=1% nowrap=nowrap&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;) %&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr bgcolor=azure&gt;
+&lt;td style=padding-bottom: 4px; valign=bottom width=48%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td align=right style=padding-bottom: 4px; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 4px double; text-align: left; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 4px double; text-align: right; valign=bottom width=9%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;0&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; padding-bottom: 4px; valign=bottom width=1% nowrap=nowrap&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;%&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;As of November 30
+ 2013
+ the Company has a net operating loss carryforward of approximately $70
+000. This loss will be available to offset future taxable income. If not used
+ this carryforward will expire in 2032. The deferred tax asset relating to the operating loss carryforward has been fully reserved at November 30
+
+
+&lt;div align=justify style=text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: times new roman; font-size: 10pt;&gt;&lt;font style=display: inline; text-decoration: underline;&gt;Organization&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;/font&gt;&lt;/font&gt;
+&lt;div style=text-align: justify; text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: times new roman; font-size: 10pt;&gt;Sipup Corporation (&amp;#8220;Sipup&amp;#8221; or the &amp;#8220;Company&amp;#8221;) was incorporated on October 31
+ 2012
+ under the laws of the State of Nevada. The Company is in the development stage as defined under Financial Accounting Standards Board (&amp;#8220;FASB&amp;#8221;) Accounting Standards Codification (&amp;#8220;ASC&amp;#8221;) Topic 915
+ &amp;#8220;Development Stage Entities&amp;#8221;. The Company intends to produce flavored yogurts.&lt;/font&gt;&lt;/div&gt;
+
+
+
+
+&lt;div style=color: #000000; font-family: 'times new roman', times, serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0pt; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-align: justify; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Basic net (loss) income per common share is calculated using the weighted average common shares outstanding during each reporting period. Diluted net (loss) income per common share adjusts the weighted average common shares for the potential dilution that could occur if common stock equivalents (convertible debt and preferred stock
+ warrants
+ stock options and restricted stock shares and units) were exercised or converted into common stock. There were no common stock equivalents at November 30
+
+
+&lt;div style=color: #000000; font-family: 'times new roman', times, serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0pt; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-align: justify; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Deferred income taxes are recognized for the tax consequences related to temporary differences between the carrying amount of assets and liabilities for financial reporting purposes and the amounts used for tax purposes at each year end
+ based on enacted tax laws and statutory tax rates applicable to the periods in which the differences are expected to affect taxable income. A valuation allowance is recognized when
+ based on the weight of all available evidence
+ it is considered more likely than not that all
+ or some portion
+ of the deferred tax assets will not be realized. Income tax expense is the sum of current income tax plus the change in deferred tax assets and liabilities.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=color: #000000; font-family: 'times new roman', times, serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0pt; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=color: #000000; font-family: 'times new roman', times, serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0pt; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-align: justify; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;A company is required to determine whether it is more likely than not (which is defined as a likelihood of more than fifty percent) that a tax position will be sustained based on its technical merits as of the reporting date
+
+
+&lt;div align=center style=text-transform: none; text-indent: 0px; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;
+&lt;table style=width: 100%; font-family: 'times new roman'; font-size: 10pt; border=0 cellspacing=0 cellpadding=0&gt;
+&lt;tr bgcolor=azure&gt;
+&lt;td style=text-align: left; text-indent: 0pt; margin-left: 0pt; margin-right: 0pt; valign=bottom width=48%&gt;
+&lt;div style=text-align: left; text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;
+&lt;div align=left style=text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Income tax provision at the federal&amp;#160;&lt;/font&gt;statutory rate&lt;/font&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td align=right valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: right; valign=bottom width=9%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;25&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; valign=bottom width=1% nowrap=nowrap&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;%&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr bgcolor=white&gt;
+&lt;td align=left style=padding-bottom: 2px; valign=bottom width=48%&gt;
+&lt;div align=left style=text-indent: 0pt; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;Effect of operating losses&lt;/font&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td align=right style=padding-bottom: 2px; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 2px solid; text-align: left; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 2px solid; text-align: right; valign=bottom width=9%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;(25&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; padding-bottom: 2px; valign=bottom width=1% nowrap=nowrap&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;) %&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr bgcolor=azure&gt;
+&lt;td style=padding-bottom: 4px; valign=bottom width=48%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td align=right style=padding-bottom: 4px; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 4px double; text-align: left; valign=bottom width=1%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;&amp;#160;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=border-bottom: #000000 4px double; text-align: right; valign=bottom width=9%&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;0&lt;/font&gt;&lt;/td&gt;
+&lt;td style=text-align: left; padding-bottom: 4px; valign=bottom width=1% nowrap=nowrap&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;%&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;During 2013 and 2012 a stockholder advanced the Company $7
+348 and $5
+322
+ respectively
+ to pay expenses. Of this amount
+ $2
+328 was contributed to additional paid-in capital while the remainder of the loan was repaid. The loan was interest free and had a zero balance at November 30
+ 2013.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;During 2013 and 2012 two stockholders advanced the Company $1
+755 and $-0-
+ respectively
+
+
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;The Company&amp;#8217;s financial statements are presented on a going concern basis
+ which contemplates the realization of assets and satisfaction of liabilities in the normal course of business.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;The Company has experienced a loss from operations during its development stage as a result of its investment necessary to achieve its operating plan
+ which is long-range in nature. From October 31
+ 2012 (inception) to November 30
+ 2013
+ the Company incurred a net loss of approximately $70
+000. In addition
+ the Company has no significant assets or revenue generating operations.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;The Company does not have sufficient cash to sustain itself for the next 12 months
+ and will require additional funding in order to execute its plan of operations and to continue as a going concern. To meet its cash needs
+ certain stockholders have agreed
+ orally
+ to loan
+ on a non-interest bearing demand basis
+ sufficient funds to maintain the Company&amp;#8217;s operations for the next 12 months.&lt;/font&gt;&lt;/div&gt;
+&lt;div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+
+
+&lt;div style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&amp;#160;&lt;/div&gt;
+&lt;div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman', times, serif; white-space: normal; letter-spacing: normal; color: #000000; margin-left: 0pt; margin-right: 0pt; word-spacing: 0px; -webkit-text-stroke-width: 0px;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;In accordance with ASC 855
+ management has evaluated the subsequent events through the date of issuance of the financial statements. Based upon this evaluation
+
+
+&lt;div style=color: #000000; font-family: 'times new roman', times, serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0pt; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-align: justify; display: block; margin-left: 0pt; margin-right: 0pt;&gt;&lt;font style=display: inline; font-family: 'times new roman'; font-size: 10pt;&gt;The Company is required to estimate the fair value of all financial instruments included on its balance sheet as of November 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Current
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Current
+
+
+
+
+
+
+
+
+
+
+
+ $0.001 par value; 75
+000
+000 shares authorized
+ 4
+000
+000 and 3
+000
+000 shares issued and outstanding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Goods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Stock Issued
+ Value
+
+
+ 2012 and November 30
+
+
+
+
+ Stock Issued
+ Shares
+
+
+
+ 2012 and November 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ which may be a single entity (for example
+ but not limited to
+ a bank
+ pension fund
+
+
+
+
+
+ which may be a single entity (for example
+ a bank
+ pension fund
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Equity Issuance
+
+
+
+
+
+ at Federal Statutory Income Tax Rate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Continuing Operations
+
+
+
+
+
+ Continuing Operations
+
+
+
+
+
+
+
+
+
+ Deduction
+ Percent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ March 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 Financial_Report.xlsx
+M4$L#!!0`!@`(````(0GC=:&K@$``#P/```3``@6T-O;G1E;G1?5'EP97-=
+
+
+
+FBPJ0'1HTS;[
+M#K\!``#__P
+`4$L#!!0`!@`(````(0U53`C]0```$P```+``@7W)E;',O
+M+G)E;',@H@0**```@``````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````C)+/3L
+P#
+;O2+Q#Y/OJ
+
+
+
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M`````````````+R7RVK#
+!!%]X7^@]&^D4=YESC9E$*V;?H!PI[8)K9D)/61
+
+
+]$%4+W+*7/*VRUG]@.35PY
+
+
+
+4Y?
+MG5%BN-&09(`;#9!LU*A=1(CO*;RZU`]E_QVJKKQYD&U_`0``__\#`%!+`P04
+
+RUK=$
+
+
+
+
+M
+
+
+
+
+V6!IM\ER\`##;C3TN#4?R3HF@6GO-FV`_LOIE8_^
+M&_S
+
+M?CH+F.X`/$+'UME;3'D*$04SEMO*2%D!`N#7*'-
+
+_K
+MQVF1_2WBJD0\12A:80+G:T5X:\*
+
+
+
+!JZ0PK2)6.]6N^=*2U9-&+*I'
+
+
+
+M&1/O+WBKZ6^;NU\```#__P
+`4$L#!!0`!@`(````(0#X$P&B(0(``)L$```9
+
+
+MP+41:BAQ$L48\8&I6@QMB7]\W]Q]P
+A8.M2T5P
+O\2LW^+%Z_ZZ8E-Z9CG.+
+
+GB5@@)!?G^
+MUM32JM!J0K`SD-*
+
+
+
+
+?SF]Z'CL%_!_Y&V_`O5K1@
+
+M?=XJUOA'SOX'`80AR!N%'*G@]N?^?/2O4;``#__P
+`4$L#!!0`!@`(````
+
+M6V^;
+
+N#MS#X`6]DL)HJRN7(!T+1E]F/F?G
+
+@Y)9C8GON-MDR7;
+[K*D8
+
+
+
+
+
+
+
+MJ1YUS9A!P-#J'-?&=*LPU+1F@NA`=JR%E5(J00P
+
+
+
+
+
+=T^:.6TJ
+
+
+
+
+
+
+M$BBCX!(T*=^'_
+
+``/__
+M`P!02P
+
+MU\^'JVN
+
+1&T
+
+?76F6)4IXO'HN&;N8]ZL_(VGO
+
+
+
+
+
+M]
+
+
+
+]9PZ!
+
+
+M970R
+
+
+-J+JD)5
+=;6F5
+MEM34%?$=)K3HM\D&S()PY1(*EKL&9;Z&@Y5EH+Q7+&]Y*WU))HWU()^4XO.
+MG-@DNX9.4OVP[VZ8DAU0[$0C['-/BI%DRT]5JS3=-1#W4S2E[
+3=#R[HI6!:
+
+M+JYE\9QSP\!0H`DFB6-BJ@$!\$12N
+H`0^A3_SZ(PM89CM
+)$=L;J^0O#XJ.5)YD<B2!]Y$D2H+I))G-_X<E/K)
+
+
+ZQ9'B!$7AA(
+F/ZVB6K
+@C
+M9(8=
+
+^!Y+KB6]XT!C&U=ZT@@I.'V:%+W4WZ1C,L0)?H:,6_4%V)
+MUJ&E[`U#&9@NO9]Q@^LZOI;ME
+
+%S&U8FUA
+
+M_D:MD]$L@.SC
+
+
+
+
+54&2KI3J2
+:_UW99A3JMN7PKFRWO6W8Q
+J29_=$L5Z%^P^6
+
+7R%O6N0K^KT-Y;7Z%7Y?+%U^5%*88JK1L2VVN;SCM:V7A/*&
+#
+M-6?DIC2]MX0-:-R'0;W.'#I)?A!+0GC4F0P
+
+
+MM!FC=4W@K
+S6KZ1$0;?785;30IV96\V(9HJBPRU769O8G
+O!Y+EJ
+)A;$SH;
+
+
+
+
+
+
+
+`U!
+
+MX)_N?&PR@U)N'38-36;_7
+2\/5CLJG:]69[MO45%]
+2BS:IG60'
+
+
+MI['SYLQEY^3B11H[M;!C:SNVTM3@V9
+ID.3[!C'&.^E!4_9O'1?7#T#GPV
+
+$%``&``@````A`#9]
+M?VUR@```U@```T```!X;]S='EL97
+
+
+
+M9
+
+
+
+@U$1.E(?\FRQ:UAI.Z+%SKI=;SP(K@R
+
+MC($!DL;#:!G:899J;KR
+
+
+
+
+MI
+
+M/PBJ*6FGBY
+V.#
+
+\R
+MV?D1R.:TJZOV*D&@R*L$@2*OLK6%(2'S%ST%RBR*^RI!H
+
+
+
+
+
+
+'JT
+M35-;(;]L]8V)B7]L=KS#TB
+
+
+!4
+MI!HP%$@3@*C'J,2@:@6DT*!J*01N#+Y@GZ#1P(V0BC``'B6]HIXGM+D1
+MXX(T$`BJ
+B2)!E-5BJ085.7(VA6FJA1)(*C*D-03JE(DQ:`J1Q)7J$J1!`(P
+
+B3Q1.?
+
+
+
+
+
+
+
+
+/[*[ZV^#D_OM/B![@\RV($?50N
+
+
+M!:MX5@*$HA^YA9*_@;(J$6KXP@-X05/KC]J5]M[%*EN5^MM8
+E[Z`3R2A+4_
+M+-^ZL`:*PTE^LBBX'9(%(9E/0TQ
+WT06S`::R@()A2PLZ1-9D(.:R@+UN:P.
+2FN&H_@E3EP47FLJJ
+
+
+
+
+26)N.M$
+
+
+
+
+
+
+M9W
+
+
+
+
+
+
+_*__)G
+M[OL/W&ENS5W
+
+
+M\(?O?S7!
+[?$CUE2I:7.']5EG
+
+1_YJ=$X+JW-=AIH[
+
+
+
+72:9
+
+BV'`M3=M8
+
+
+%%ED0=
+;@I?+)=$O%CN\A^
+
+
+!-UDANO!/[I#*
+
+
+
+
+
+497E
+
+1DG2.!J0!B
+
+Z$1MDEVA\&.6`0_7=5E,S]!=6?
+MFUF&Y`_BB#0D@,JG_U!4!7`O.GC\Y8F)#\YRS^T?XBY92.[#X'
+
+S
+&J5'.
+
+
+
+
+
+M:GAU
+?:/X`H8'O
+F0V&+&D=M[Z&
+LM*H_I'ZO^]WG=_I-/ZYD_DTG9;
+
+D-U
+
+
+A!4A%EN*?UB8M4U=[)!*<I#R:3O=9S(LH;4!D;I
+
+
+;)U.KI+)#9I`(-3H@
+
+
+
+
+
+
+
+O7%#66+V6
+
+
+
+
+
+A!6M+TM;A*T
+
+
+
+
+M
+R+-MCU&P^O/%VHR^
+
+
+
+
+.H!-%Y@:$3+*=($W2SD^0#6!`F3)-?FL%VG
+
+
+LR+%/4N'NF
+
+MG/);07P?@UT?;\I^T6X6`[TUSH*R%8A23F/C21UE%;TN?9%&_VHTH^T*!E
+
+M=@@BF=37:IO+4&G(OD4
+
+
+-M]
+
+
+
+M!Z$=I%?_
+
+
+
+
+
+
+M'ZI3`'LO*&IE]TT
+
+
+)J;]Q4/A_8@OU@RB+[+:2TCJ-JJ/^7*
+
+
+%
+
+M:(_W.45_N^8]_\0````__\#`%!+`P04``8`````$`*DG;2GX``#0!@``
+
+
+!2&[R?M/UB^;YP0
+MH`
+
+EH4.
+
+
+:
+MD`#DZWNBEDXG6FT1K!EXI&FH6X')&(S?+P@J<=I')_93@-5`$S;3_FA-A`<
+
+[QKF
+Y
+
+9D$2X/KOLITKTHZBA3;\
+M'S0G[J#UVZ'
+@N0:VKGB?;1P*(5-V]`5_T;U2M0&5;R`51=']U=#D=2&%C5
+M^$VZ5!:.$G]9PIN#PPZ.(Q`72MGCP!UZIW?1]\```#__P
+`4$L#!!0`!@`(
+
+
+
+
+FEQB3CPLX(T[.A6
+
+M-.=3L'
+
+
+
+M'6;\D0A+VTJ?&:?5/R7R!-3)Q.]
+`J#OQOVQ)HXDNM[0!QM5BT]6%`T\$K6
+M(%&WA*
+#0AAHSWWAL8+]XJ21\M
+MB`TV)9G)L/N+Q3LQ@P,!Q-B`VRFOW6K)(-@2A)_``86X\&$V`;&V!*
+@BF
+ZN$:F%%,VTZCP&+/
+MC8WFDG2ZP'6X41;[NV#<7O44\U<@S3Z_;;3*
+
+
+
+MCN'.Y$Y!G%/*CP_BFGFZ_F_^`P``__\#`%!+`P04``8`````$`@4\SLTD$
+
+
+MOE067N#[*Z]
+
+
+
+M)A%U!
+
+
+TT
+O3^;
+
+[H_M/(T/SC&[`
+JG<84H;8BI@1L/M-CZ![I1&!5'C/
+
+
+
+M``#__P
+
+
+
+M)AC;*
+
+
+EOZ+;A,SF[?#`7X;E`I*G9HW0]]_)D
+
+
+
+MLF$\XP'
+5L]J\8V96G86M:*JVDRA\@F3&=8.-T/';[3#J9J^&S@)RJ@3]($
+MP)76[K3P\Q]_RYN_````__\#`%!+`P04``8`````$`Y82^,C\$``U#P``
+
+*-<E;`75_DGF27K#EPP^S-.&<;87
+X#S5*+#FI^\
+
+
+M._#&V#N&_LAP9[@]FOL@-_-DY&]\FI$'^Q\V\T/QP%M'L!%6%A4?;U0GD*
+MB@+
+
+
+MG692J5T+AG2;$V?9G&K$K(T07]=O41*`-SEO4\GHOK2$:&@E;1ME\H]H2]`]
+
+M'ICNW:9$'G(E&=U36)F0O8!)EYM,AB]E
+JO)Y6&*?U:-40_';;ALSU0K-9
+N:3.Y)H!](6VP[9]8SMBH<LAVC/
+:5::JG:
+
+M!\IA8&?H)=P.F042
+G*2!0_9CHSNQQT)U8KL'(BDW],8(@Q;6A8(SNK24U
+
+
+
+`4$L#!!0`!@`(
+
+
+?O=V:_`\-]!43Q9=1GJKRS.[.SLR_7%*
+R%7`MD^__7-*#6!
+=2J2TGB?7-3=M;&NFYI69SF*E-8EK=H%(=#FA[2%XRDM=
+
+
+
+H2TU5M+&D+
+M'Y.%6=M-GZ]F#TP;JO)(9=8J#`Y,C`JF_.MF9JRT5YBE28ML!Y`QC^P8`I^?
+M*@)BXX@ST-4;\@=4!$0#T?\@88LOJ%@`)GQ2#B`F#P2#23#M'`R<Y.6':<
+MG<-K_L,U2E/7Z!Y`;=R*!3M6`.U_.B)TSAY`/CO7R#JBK#MPCR#K#2"K_*
+
+F2T$SQ@B\PPE;)1P4
+)%
+
+
+M
+K11PND3IK#-NWU$:
+9#1\E`D9\]:PA*A#)
+
+
+
+M(9S=
+
+
+M3
+
+MB-LB[228381)XG'U8W
+
+MK[WJ!?8M(S%BAR
+
+
+7)X^+:W@XXG/-/%B+N2X$
+MS`%/3&:F
+!XAWDHD17B_Z#'[CE7&3N77JVPNO!/:0HJ/^L7F)/5KP#+9X;YY
+
+
+$%``&``@````A
+
+
+:6Y;#
+
+MWZX^?ECNI7K4-6
+&`4.K
+
+
+
+
+YW0L]SOO%O
+
+F9IF`HT'A1
+M8IFH;$``/)'@MC/`$/+
+
+
+M'*9`/-CCDAD-^Y=?8)0EN;
+
+
+6V`T[B&[B-^K-[$E]'Z;K'^^
+
+
+
+
+MG
+
+M`L^?YP42HM@G!6_
+T#0@Y!J*^;H-PK7UOE/.R1!%Y[Q/
+I$M\CC!+\GO6
+M/6*!\EX^I'2Z?`4K^:K,*IX(?QB*==W^/BT2WR,.)?@80;1`:=K5?#&A(KT
+
+Z.HB+?M:CT:(C&7_(<''!*$_W^
+
+4
+
+
+
+
+5.UTG@4CQEU7!WQ@U'@
+
+
+
+N*
+S38\4@3LF/)
+
+
+MV)BF
+HM0
+!M-Y^/``[IS($+&5$DB)SD+R8J_AN354D8$F%ID=A49S;WQ(IC_
+M5\
+
+%-;I:T;!H1)9*Y4(+9`#'@04
+
+
+
+
+
+
+
+M`N[:!?`@J/)_,#\1$OAY.0(5L:Z/;EY4I@/6=?MP0\!70)
+
+
+
+
+
+
+M_QLGHI
+
+MQ)?`[-N.A'?;X`W82&J?1^
+
+C79C*HS%T
+MP]#A
+
+
+MA-3:L;RH26
+
+
+MW
+9D
+
+X1=CU0B=PK1\V@R
+'
+
+
+
+/N%#U.2]
+M$*IY@
+
+
+
+
+
+MMP'?#
+[/0=#ZO)7VZ%S:@0!/$<V3*=`T)P)4HB2<#
+
+
+
+
+K
+
+M+TZWD#E
+
+M+GAM;)1576^;
+!1]G[3_8/F]&&A2%A12I:NZ5=JD:=K'LV
+N8!5C9#M-^^]W
+
+!UFZIJ!I%BVS^#)!.-F!=7?24U(B
+M]M9I]3N`DI$JD*0C;Y'DLNKN20L)#3XN^6.;]9&'PCV#$K:GOL.3'(D?ML0
+
+:O.5/=@K^]+Z
+
+[@ZHCVO
+
+)LTU]/[Z.+_+M
+M,(G8]`$G0<]K^,I-+3M+6JB0,HXR]&++`D+IWO
+
+
+M'H4V4I41];T1):*
+52++743__+Z[FE-B+\3GJM21/19&'J]_OQI=5#ZP61
+M6`(
+I8EH9FVU9
+
+
+
+
+
+M:1D.[
+
+
+MI]T-YAZLJB!WN(24A8NG_IG!FX:`
+
+
+M
+
+M4HPDR^ZK5FFZ:\#W4S*G[
+
+M2/
+
+
+
+
+SRU=FPDD6!EUR
+M7?%/O&D
+
+ML6^
+
+63C3_6
+
+?C
+/TQLYXJ90]OH`P&?Z)F[\```#__P
+`
+
+M:&5E=#$Q+GAM;*Q776^C.!1]7VG_`^)]0B!)DZ`DHR3`[DB[TFHU
+_M
+B).@
+M`HZ`-.V_WV
+;NS9FJE;J2U
+.QX=[[KW^6GU]+@OGB=1-3JNUZX_&KD.JC![S
+
+
+
+MK8&
+I
+_\]YX?V\O:G8Q'TV`V7_C@.P?2M$G.-%TGNS4M+?\3++_3$BI!IX)?
+MJ?(PFLW'DX^(3#J1J1+QEZ.Y/UY.YHCDC:_C+??PH`:BNVV^)ZSS3$9IFVY6
+M-;T[:$]X:ZXI:W8_A(9
+H5!02?U53I%
+
+
+QEXR6*68;-0'XCZ0:(`'1\H6BO$)MI@*LR4#VDG@U6?/Y5XRY)H
+M#\1](-$`PP-ZXA,\,)6UB[[22C,Q$[\3G`=HT@SD[)7%&7
+0F(+273$\(9X
+
+M9].T5P]%DL
+GI\+-OXVB_V5=G(;)`99X<@#=KT?.@U<D=:J$4V4L-D
+
+
+ME6!&CMF4/U':R@?V`77MW?P/``#__P
+
+O8V]R92YX;6P@H@0!**```0``````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+
+
+
+
+M_OGG[`L``/__`P!02P
+
+
+
+
+M4JV(@5?U[
+
+
+
+
+Q(96GV&\HVLJTGHFDM9VQOB&)$&)!5
+
+
+N?YW1M)S/O?M''$]Q$MY&X33TO2C%GN_'RRCMU32+
+
+
+
+IR0(``%4'```/````````````````
+M`-
+)``!X;]W;W)K8F]O:RYX;6Q02P$+0`4``8`````$`J5R+0O
+
+&PO=V]R:W-H965T<R]S:&5E
+M=#$Y+GAM;%!+`0(M`!0`!@`(````(0!;A[HUL`(``,4&```9````````````
+M`````!$6``!X;]W;W)K<VAE971S+W-H965T
+
+
+M='
+
+
+
+6QE<RYX;6Q02P$+0`4``8`````$`
+MGBJS?\X1``!<,P``%`````````````````%
+
+
+
+
+&PO=V]R:W-H
+M965T<R]S:&5E=#$V+GAM;%!+`0(M`!0`!@`(````(0#EA+XR/P0``+4/```9
+M``````````````````Y0``!X;]W;W)K<VAE971S+W-H965T
+
+
+M;6Q02P$+0`4``8`````$`+9P'3E\$```'$0``&`````````````````'
+&UL4$L!`BT`%``&``@````A`.43
+
+
+
+
+
+
+
+
+9U
+
+ 'defref_us-gaap_ShortTermBorrowingsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ShortTermDebtTextBlock'
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+M;VL-D-O;G1E;G0M5'EP93H@;75L=&EP87)T+W)E;&%T960[(&)O=6YD87)Y
+M/2(M+2TM/5].97AT4&%R=%\X,3(X,3DX85\V.&8T7S0P93E?860Y8E\U.3DT
+M-V9C-6)C,V8B#0H-E1H:7
+@9&]C=6UE;G0@:7
+@82!3:6YG;&4@1FEL92!7
+
+
+
+3(X
+3DX85\V.&8T7S0P93E?860Y8E\U
+M.3DT-V9C-6)C
+
+
+
+
+
+
+
+T0B5V]R:W-H965T
+&-E;%=O<FMS:&5E=#X-B`@
+
+
+O4VAE970P
+
+M8V5?4VAE971?4&%R96YT:&5T:6-A;'
+
+
+
+\+W@Z
+
+
+
+
+
+
+T0B5V]R
+
+&-E;%=O<FMS:&5E=#X-B`@(#QX.D5X8V5L5V]R:W-H965T/@T*
+M(`@(#QX.DYA;64^4U5-34%265]/1E]324=.249)0T%.5%]!0T-/54Y4/]X
+M.DYA;64^#0H@(`@/'@Z5V]R:W-H965T4V]U<F-E($A2968]
+T0B5V]R:W-H
+
+#DN:'1M;(O/@T*(`@
+
+
+
+O4VAE970Q
+M
+#I.86UE
+M/@T*(`@(#QX.E=O<FMS:&5E=%-O=7)C92!(4F5F/3-$(E=O<FMS:&5E='
+O
+M4VAE970Q
+
+
+
+
+
+#I7;W)K<VAE9713;W5R8V4@2%)E9CTS1)7;W)K<VAE971S+U-H
+M965T
+30N:'1M;(O/@T*(`@/]X.D5X8V5L5V]R:W-H965T/@T*(`@/'@Z
+
+M:&5E=#X-B`@(#QX.D5X8V5L5V]R:W-H965T/@T*(`@(#QX.DYA;64^4U5-
+M34%265]/1E]324=.249)0T%.5%]!0T-/54Y4
+#I.86UE/DQ/04Y37U!!64%3$5?4U1/0TM(3TQ$
+
+
+
+O4VAE970Q
+
+
+
+M86UE/DE.0T]-15]405A%4U]$971A:6Q?5&5X='5A;'
+
+
+&-E;%=O<FMS:&5E='
+^#0H@(#QX.E-T
+
+
+
+
+
+
+
+
+;V-A=&EO;CH@9FEL
+M93HO+R]#.B\X
+3(X
+3DX85\V.&8T7S0P93E?860Y8E\U.3DT-V9C-6)C
+V8O
+
+
+
+
+]
+
+
+
+
+3(@36]N=&AS($5N9&5D/]T:#X-B`@
+
+M
+S`L(#(P
+3
+\8G(^/]T:#X-B`@(`@(`@/'1H(&-L87-S/3-$=&@^36%R
+
+]
+T1T:#Y-
+M87D@
+S$L(#(P
+3
+
+
+
+]
+M
+
+
+
+
+
+]
+'0^
+M)S`P
+#$U-C
+R
+
+
+
+]
+T1P
+
+
+]
+
+
+]
+
+]
+T1T97AT/B=9
+M97
+
+
+
+]
+
+
+]
+
+
+
+
+]
+T1T97AT
+
+
+
+]
+
+
+
+
+
+]
+
+
+
+
+]
+M
+T1N=6UP/C0L
+#`P+#`P
+
+
+]
+
+]
+
+
+
+
+
+
+
+]
+
+
+
+
+]
+
+
+M;CX\+W-P86X^/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#XG/'-P
+
+
+]
+T1P;!V86QI9VX],T1T;W`^
+M1&]C=6UE;G0@1FES8V%L(%EE87(@1F]C=7,\+W1D/@T*(`@(`@(`\=&0@
+
+]
+
+
+
+
+]
+
+M1F]C=7
+
+]
+
+M;CX\+W-P86X^/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#XG/'-P
+
+
+3(X
+3DX
+M85\V.&8T7S0P93E?860Y8E\U.3DT-V9C-6)C
+
+M;G1E;G0]
+
+
+M=BX@
+S`L(#(P
+3
+\8G(^/]T:#X-B`@(`@(`@/'1H(&-L87-S/3-$=&@^
+M3F]V+B`S
+
+
+M
+
+
+
+
+
+
+
+
+
+
+
+BPY.3
+
+
+
+
+BPY.3
+\
+
+
+
+
+
+M+#DX
+
+
+M9VX]
+T1T;W`^3&]A;G
+
+
+
+
+]
+T1N
+M=6UP/C0L-S
+
+
+
+
+]
+
+
+M/D-O;6UO;B!S=&]C:RP@)#`N
+
+#`P+#`P
+!S
+M:&%R97,@875T:&]R:7IE9P@-PP,#`L,#`P(&%N9`S+#`P
+
+
+
+
+
+
+]
+
+
+]
+
+
+M=F5L;W!M96YT('-T86=E/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$;G5M
+M/B@V.2PX
+#
+
+
+]
+M
+T1P;!V86QI9VX],T1T;W`^4W1O8VMH;VQD97)S)R!$969I8VET+!4;W1A
+
+S4I/'-P86X^
+
+BPX-C0I
+
+]
+
+]
+
+3(X
+3DX85\V.&8T7S0P93E?860Y
+M8E\U.3DT-V9C-6)C
+
+
+
+^#0H@(`@(`\='(^#0H@
+
+
+C`Q
+
+#$R/&)R/CPO=&@^#0H@(`@(`\+W1R/@T*(`@(`@
+
+
+
+M+C`P
+
+]
+T1P;!V86QI9VX]
+M,T1T;W`^0V]M;6]N('-T;V-K+!S:&%R97
+@875T:&]R:7IE9#PO=&0^#0H@
+
+]
+
+
+
+]
+
+
+
+
+
+
+
+M;#X-@T*+2TM+2TM/5].97AT4&%R=%\X,3(X,3DX85\V.&8T7S0P93E?860Y
+M8E\U.3DT-V9C-6)C,V8-D-O;G1E;G0M3&]C871I;VXZ(&9I;&4Z+R\O0SHO
+M.#$R.#$Y.&%?-CAF-%\T
+
+M='
+
+
+
+
+M;CTS1#$^
+2!-;VYT:'
+
+3XQ
+B!-;VYT:'
+@16YD960\+W1H/@T*(`@(`@
+
+3XQ
+R!-;VYT:'
+@16YD960\
+
+M87-S/3-$=&@^3F]V+B`S
+
+
+]
+T1T:#Y.;W8N(#
+
+S`L(#(P
+3
+
+
+
+]
+
+M;CX\+W-P86X^/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#XG/'-P
+
+
+]
+
+
+
+
+]
+T1P;!V86QI9VX],T1T;W`^0V]S=!O
+
+
+
+
+]
+T1R
+
+]
+
+
+
+
+
+]
+
+]
+T1T
+
+
+
+]
+
+
+]
+T1N=6UP/C0W+#`P
+
+
+
+]
+
+
+
+]
+
+
+
+
+]
+T1N=6UP/C(Q+#(U
+
+
+]
+T1P;!V86QI9VX],T1T;W`^1V5N97)A;!A;F0@861M
+
+
+
+]
+T1N=6UP/C8Q
+
+
+
+
+RPY
+SD\
+
+M.2PX
+#
+
+
+
+
+]
+T1R;SX-B`@(`@
+
+]
+T1N=6UP/B0@
+M
+
+
+
+M:&%R97
+
+
+
+
+M@T*+2TM+2TM/5].97AT4&%R=%\X,3(X,3DX85\V.&8T7S0P93E?860Y8E\U
+M.3DT-V9C-6)C,V8-D-O;G1E;G0M3&]C871I;VXZ(&9I;&4Z+R\O0SHO.#$R
+M.#$Y.&%?-CAF-%\T
+
+O
+M4VAE970P-2YH=&UL#0I#;VYT96YT+51R86YS9F5R+45N8V]D:6YG.B!Q=6]T
+
+M=#TB=7
+M87-C:6DB#0H-CQH=&UL/@T*(`\:&5A9#X-B`@(`\345402!H
+
+
+T1T97AT+VIA=F%S8W)I
+
+@0V]M;65N
+
+
+T0Q(')O=W-P86X]
+T0Q/CQS
+
+]
+T1T
+M:#Y#;VUM;VX@4W1O8VL\8G(^3&]T(#$\8G(^/]T:#X-B`@(`@(`@/'1H
+
+M86P@4&%I9!I;B!#87!I=&%L/&)R/DQO=`Q/&)R/CPO=&@^#0H@(`@(`@
+
+
+M:70@06-C=6UU;&%T960@1'5R:6YG($1E=F5L;W!M96YT(%-T86=E/&)R/CPO
+
+
+S$L(#(P
+3(\+W1D/@T*
+
+
+
+]
+
+
+
+]
+
+
+
+
+
+
+
+]
+
+
+
+T1T;W`^27-S=6%N8V4@;V8@8V]M;6]N('-H87)E
+
+
+M3F]V96UB97(@
+S`L(#(P
+3(@86YD($YO=F5M8F5R(#
+
+]
+T1T97AT
+
+
+
+
+]
+T1N=6UP/B0@
+RPP
+
+
+]
+
+
+M
+
+
+
+]
+
+
+
+
+]
+
+
+
+]
+
+
+
+
+]
+T1T
+
+M/3-$=&]P/D)A;&%N8V4@870@3F]V+B`S
+
+RPP
+
+
+
+
+
+]
+
+
+]
+
+M;CX\+W-P86X^/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#XG/'-P
+
+I(&%T($YO=BX@
+S`L(#(P
+
+]
+
+
+
+
+]
+
+M+W-P86X^/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#XG/'-P86X^
+
+
+]
+
+
+
+]
+
+
+
+
+2!A;F0@)#`N
+
+
+
+
+
+
+]
+
+
+
+C`Q
+B!A;F0@3F]V96UB97(@
+S`L
+M(#(P
+3
+
+
+
+]
+
+
+
+
+]
+
+
+M:6)U=&EO;B!T;R!A9&1I=&EO;F%L('!A:60@:6X@8V%P:71A;#PO=&0^#0H@
+
+]
+
+
+
+]
+T1N=6UP/CDL-S0P
+
+M
+BPS
+
+
+]
+T1T
+
+
+
+
+
+]
+
+
+]
+
+]
+T1N=6UP
+M/B0@-C$L
+
+
+
+]
+
+
+M:&%R97
+I(&%T($YO=BX@
+S`L(#(P
+3
+
+]
+
+
+
+]
+
+
+
+
+
+
+]
+
+G($1E9FEC:70@
+
+T0Q/C$@36]N=&AS($5N
+
+M
+
+S`L(#(P
+3(\8G(^/]T
+M:#X-B`@(`@(`@/'1H(&-L87-S/3-$=&@^3F]V+B`S
+
+]
+T1T:#Y.;W8N(#
+P
+M+`R,#$S/&)R/DQO=`R/&)R/CPO=&@^#0H@(`@(`\+W1R/@T*(`@(`@
+
+
+#$\
+
+M(#`N
+
+
+
+
+C@Q.3AA7S8X9C1?-#!E.5]A9#EB7S4Y.30W9F
+U8F
+S9@T*
+
+
+
+]
+
+M:60]
+
+
+
+
+M(&-O;'-P86X]
+
+
+
+C`Q
+
+]
+
+
+
+
+]
+
+
+L.3
+
+
+
+]
+
+
+
+T1T;W`^06-C;W5N='
+
+
+M-3
+
+M;7`^
+
+
+
+
+]
+T1N=6T^*#4L
+S(Y
+
+M/3-$;G5M/B@V-BPX
+C
+
+
+@9G)O;2!F:6YA
+
+
+
+T1T;W`^4')O8V5E9'
+
+
+
+
+]
+T1N=6UP/C4L
+
+
+
+
+
+]
+M
+
+M;F%N8VEN9R!A8W1I=FET:65S/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$
+
+R
+
+
+]
+T1N=6UP/C8V+#@R
+
+
+]
+T1N=6T^*#(L.3DS*3QS
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+]
+
+
+
+]
+
+
+
+
+3(X
+M
+3DX85\V.&8T7S0P93E?860Y8E\U.3DT-V9C-6)C
+
+
+
+
+
+
+M;W0@4F5M;W9E(%1H:7
+
+
+]
+
+
+]
+
+C`Q
+
+]
+M
+
+]
+M
+
+
+M:6=N/3-$=&]P/E-534U!4ED@3T8@4TE'3DE&24-!3E0@04-#3U5.5$E.1R!0
+
+@;F5W(')O;6%N)RP@=&EM97
+
+
+M
+#`P
+
+
+
+
+M:6QY.B`G=&EM97
+
+M1=T97AT+71R86YS9F]R;3H@;F]N93L@=&5X=UI;F1E;G0Z(#!P=#L@9&ES
+
+
+P
+#`P
+
+
+
+
+
+
+P
+M
+#`P
+
+'!T.R!W
+
+
+
+
+
+
+
+
+
+M93H@
+
+C`[1D%30B8C.#(R
+3LI
+
+X
+C(P.T%3
+M0R8C.#(R
+
+X
+C(P.T1E=F5L;W!M96YT(%-T86=E
+M($5N=&ET:65S)B
+X
+
+
+
+
+
+
+#`P
+#`P
+M.R!M87)G:6XM;&5F=#H@
+
+M(&)L;V-K.R!F;VYT.B`Q
+
+
+M;W)M86P[(&-O;&]R.B`C
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+'!T.R!M87)G
+
+
+
+M=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@9F]N=#H@
+
+M='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97,@
+M;F5W(')O;6%N)SL@9F]N=US:7IE.B`Q
+
+
+M8V-O=6YT:6YG('!R:6YC:7!L97
+@9V5N97)A;&QY(&%C8V5P=&5D(&EN('1H
+
+@;6%N86=E;65N
+
+M8W0@=&AE(&%M;W5N='
+
+
+
+
+P
+#`P
+
+M=#H@
+
+
+M+6EN9&5N=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@9F]N=#H@
+
+
+M;&4]
+
+
+
+
+
+P
+#`P
+
+
+
+
+
+
+L
+M('-T;V-K(&]P=&EO;G
+
+
+P@,C`Q,RX\+V9O;G0^/]D:78^#0H\9&EV
+
+
+P
+M
+#`P
+
+'!T.R!W
+
+
+
+T0G9&ES
+3H@)W1I;65S(&YE=R!R;VUA;B<[
+
+
+
+
+
+P
+#`P
+
+
+
+
+@8F5T=V5E;B!T
+
+@
+
+
+
+
+M92P@:70@:7
+
+
+
+@=&AE(&-H
+
+
+
+
+
+
+M.B`Q
+
+
+M.B`C
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+
+
+
+@
+
+
+
+
+
+38P.SPO9&EV/@T*/&1I=B!S='EL93TS
+
+
+P
+#`P
+M
+
+'!T.R!W;W)D
+
+
+
+M=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@9F]N=#H@
+
+M='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97,@
+M;F5W(')O;6%N)SL@9F]N=US:7IE.B`Q
+
+@
+
+
+@8F%L86YC92!S
+
+C`Q
+RX@5&AE($-O;7!A;GDF(S@R
+M
+
+
+
+
+
+
+
+
+Q-C`[/]D:78^#0H\9&EV(&%L:6=N
+M/3-$;&5F=!S='EL93TS1=T97AT+71R86YS9F]R;3H@;F]N93L@=&5X=UI
+
+
+P
+#`P
+#`[(&UA
+
+'!T.R!W;W)D+7-P86-I
+
+
+@;F5W(')O;6%N)RP@=&EM97
+
+
+
+#`P
+#L@;6%R9VEN+6QE9G0Z(#!P=#L@;6%R9VEN+7)I9VAT
+
+
+
+M(&9O;G0M9F%M:6QY.B`G=&EM97
+
+
+
+@;F5W(')O;6%N)RP@=&EM97
+L
+
+
+#`P
+#L@;6%R9VEN+6QE9G0Z(#!P=#L@;6%R
+
+'!X.R`M=V5B:VET+71E
+
+
+
+
+
+
+
+
+
+M:6YG.B!N;W)M86P[(&-O;&]R.B`C
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+'!T
+
+
+
+
+M-%\T
+
+O4VAE970P.2YH
+
+
+M87-C
+M:6DB#0H-CQH=&UL/@T*(`\:&5A9#X-B`@(`\345402!H='1P+65Q=6EV
+
+
+
+
+
+
+]
+
+
+
+
+]
+
+]
+T1T
+
+M/3-$=&]P/DQ/04Y3(%!!64%3$4@+2!35$]#2TA/3$1%4E,\+W1D/@T*(`@
+
+]
+
+M='EL93TS1=T97AT+71R86YS9F]R;3H@;F]N93L@=&5X=UI;F1E;G0Z(#!P
+
+
+P
+#`P
+
+
+
+
+T1J
+
+M9&5N=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@9F]N=#H@
+
+
+M87DZ(&)L;V-K.R!F;VYT.B`Q
+
+
+M.B!N;W)M86P[(&-O;&]R.B`C
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+'!T.R!M
+
+
+'!E;G-E<RX@3V8@=&AI<R!A;6]U
+M;G0L(0R+#,R.!W87
+
+#$S+CPO9F]N=#X\
+
+@;F5W(')O;6%N)RP@=&EM97
+
+
+
+#`P
+#L@;6%R9VEN+6QE9G0Z(#!P=#L@;6%R9VEN+7)I
+
+
+
+
+
+
+
+M
+C`Q
+R!A;F0@
+C`Q
+
+
+
+&4Y
+M7V%D.6)?-3DY-#=F8S5B8S-F#0I#;VYT96YT+4QO8V%T:6]N.B!F:6QE.B\O
+M+T
+Z+S@Q
+C@Q.3AA7S8X9C1?-#!E.5]A9#EB7S4Y.30W9F
+U8F
+S9B]7;W)K
+
+
+M(&-H87)S970](G5S+6%S8VEI(@T*#0H\:'1M;#X-B`@/&AE860^#0H@(`@
+
+
+^+RH@1&\@3F]T(%)E;6]V92!4:&ES
+
+
+
+
+3(@
+
+S`L(#(P
+3
+
+
+
+
+]
+
+
+
+
+
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+M
+
+
+T1J=7-T
+
+M=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@9F]N=#H@
+
+
+M(&)L;V-K.R!F;VYT.B`Q
+
+
+M;W)M86P[(&-O;&]R.B`C
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+'!T.R!M87)G
+
+
+
+
+T1J=7-T
+
+M=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@9F]N=#H@
+
+
+M(&)L;V-K.R!F;VYT.B`Q
+
+
+M;W)M86P[(&-O;&]R.B`C
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+'!T.R!M87)G
+
+
+
+
+M+2TM+2TM/5].97AT4&%R=%\X
+3(X
+3DX85\V.&8T7S0P93E?860Y8E\U.3DT
+M-V9C-6)C
+
+
+
+
+
+
+
+3XQ
+B!-;VYT:'
+@16YD960\+W1H/@T*
+
+M=&@^3F]V+B`S
+
+
+M9VX]
+
+
+
+T1T
+M;W`^24Y#3TU%(%1!6$53/]T9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X
+
+
+P
+#`P
+
+M:6=H=#H@
+
+
+M.B`Q
+
+
+M.B`C
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+
+
+
+
+
+
+
+
+
+
+
+M9&EF9F5R96YC97
+@87)E(&%S(&9O;&QO=W
+
+
+
+T0G=&5X
+
+
+
+
+M:6=H=#H@
+
+
+
+
+'!T
+
+
+
+M(&9O;G0M9F%M:6QY.B`G=&EM97
+
+M
+
+T1R:6=H=!V86QI9VX],T1B;W1T;VT@=VED
+M=&@],T0Q)3X\9F]N=!S='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M
+M9F%M:6QY.B`G=&EM97,@;F5W(')O;6%N)SL@9F]N=US:7IE.B`Q
+
+M)B
+
+
+
+
+#L\+V9O;G0^/]T9#X-
+MCQT9!S='EL93TS1=T97AT+6%L:6=N.B!R:6=H=#LG('9A;&EG;CTS1&)O
+
+
+
+M9VXZ(&QE9G0[)R!V86QI9VX]
+T1B;W1T;VT@=VED=&@]
+T0Q)2!N;W=R87`]
+M
+
+
+
+3!P=#LG
+
+M/'1D(&%L:6=N/3-$;&5F=!S='EL93TS1=P861D:6YG+6)O='1O;3H@
+G!X
+
+
+
+
+
+M9VX]
+T1B;W1T;VT@=VED=&@]
+T0Q)3X\9F]N=!S='EL93TS1=D:7-P;&%Y
+M.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97
+@;F5W(')O;6%N)SL@9F]N
+
+M
+T0G8F]R9&5R+6)O='1O;3H@(S`P
+#`P
+
+M='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97,@
+M;F5W(')O;6%N)SL@9F]N=US:7IE.B`Q
+
+
+
+
+
+
+3!P=#LG
+
+
+T1B;W1T;VT@=VED
+M=&@]
+T0Q)2!N;W=R87`]
+
+
+
+
+
+
+
+
+@;F5W
+
+M#0H\=&0@86QI9VX]
+T1R:6=H=!S='EL93TS1=P861D:6YG+6)O='1O;3H@
+
+
+M
+
+
+3!P=#LG/B8C
+38P.SPO9F]N=#X\+W1D/@T*
+
+
+M
+#L\+V9O;G0^/]T9#X-CQT9!S='EL93TS1=B;W)D97(M8F]T=&]M.B`C
+M
+#`P
+
+
+M;&4]
+
+
+38P.SPO9&EV/@T*
+
+
+P
+#`P
+
+M=#H@
+
+
+
+
+#
+R+B!4:&4@
+
+
+M3F]V96UB97(@
+S`L(#(P
+3
+
+M='
+
+&4Y7V%D
+M.6)?-3DY-#=F8S5B8S-F#0I#;VYT96YT+4QO8V%T:6]N.B!F:6QE.B\O+T
+Z
+M+S@Q
+C@Q.3AA7S8X9C1?-#!E.5]A9#EB7S4Y.30W9F
+U8F
+
+M971S+U-H965T
+
+M87)S970](G5S+6%S8VEI(@T*#0H\:'1M;#X-B`@/&AE860^#0H@(`@/$U%
+
+
+^+RH@1&\@3F]T(%)E;6]V92!4:&ES($-O
+
+
+
+
+
+#$S/&)R/CPO=&@^#0H@(`@(`\+W1R
+
+
+
+M(&-L87-S/3-$=&5X=#XG/&1I=B!S='EL93TS1=T97AT+6%L:6=N.B!J=7-T
+M:69Y.R!T97AT+71R86YS9F]R;3H@;F]N93L@=&5X=UI;F1E;G0Z(#!P=#L@
+
+
+P
+#`P
+
+
+
+
+
+
+'!T.R!D:7-P;&%Y
+M.B!B;&]C:SL@9F]N=#H@
+
+M;&4]
+
+
+M
+
+
+M
+#`P
+#`P.R!M87)G:6XM;&5F=#H@
+
+
+
+
+M96UP;&%T97
+
+
+
+@;F5W(')O
+M;6%N)RP@=&EM97
+
+
+#`P
+#L@;6%R9VEN+6QE
+
+'!X
+
+#L\+V1I
+
+
+
+2!H87
+@97AP97)I96YC960@82!L;W-S
+
+
+
+@;&]N9RUR86YG
+
+2P@
+C`Q
+B`H:6YC97!T:6]N
+
+
+
+
+
+
+@;F5W(')O;6%N)RP@=&EM97
+
+
+
+#`P
+#L@;6%R9VEN+6QE9G0Z(#!P=#L@;6%R9VEN+7)I9VAT.B`P
+
+
+
+
+
+
+
+
+
+
+
+3(@;6]N=&AS+!A;F0@=VEL;!R97%U:7)E(&%D
+
+M(&]F(&]P97)A=&EO;G
+
+
+
+
+
+L('-U9F9I8VEE;G0@9G5N
+M9'
+@=&\@;6%I;G1A:6X@=&AE($-O;7!A;GDF(S@R
+
+
+
+
+
+38P.SPO9&EV/@T*/&1I=B!S='EL93TS1=T97AT+6%L:6=N.B!J
+M=7-T:69Y.R!T97AT+71R86YS9F]R;3H@;F]N93L@=&5X=UI;F1E;G0Z(#!P
+
+
+P
+#`P
+
+
+
+
+@;VX@=&AE(')E8V]V97)A
+
+M($-O;7!A;GD@=&\@8V]N=&EN=64@87
+@82!G;VEN9R!C;VYC97)N+CPO9F]N
+
+
+M87)T7S@Q
+C@Q.3AA7S8X9C1?-#!E.5]A9#EB7S4Y.30W9F
+U8F
+S9@T*0V]N
+
+
+
+
+
+]
+
+M
+
+
+
+M
+S`L(#(P
+3
+
+
+
+]
+T1P;!V86QI9VX],T1T;W`^4U54T51545.
+
+]
+
+
+M.B!N;VYE.R!T97AT+6EN9&5N=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@9F]N
+M=#H@
+
+'!T
+
+
+
+
+#`P
+#`P.R!W;W)D+7-P
+
+
+'!T.R!D
+M:7-P;&%Y.B!B;&]C:SL@9F]N=#H@
+
+
+
+M=F5N='
+
+
+&4Y7V%D.6)?
+M-3DY-#=F8S5B8S-F#0I#;VYT96YT+4QO8V%T:6]N.B!F:6QE.B\O+T
+Z+S@Q
+M
+C@Q.3AA7S8X9C1?-#!E.5]A9#EB7S4Y.30W9F
+U8F
+
+M+U-H965T
+
+M970](G5S+6%S8VEI(@T*#0H\:'1M;#X-B`@/&AE860^#0H@(`@/$U%5$$@
+
+
+^+RH@1&\@3F]T(%)E;6]V92!4:&ES($-O;6UE
+
+
+
+CX\
+
+M0TE%4R`H4&]L:6-I97
+
+
+]
+M
+T1T:#Y.;W8N(#
+P+`R,#$S/&)R/CPO=&@^#0H@(`@(`\+W1R/@T*(`@
+
+
+
+
+
+T1T
+
+
+
+M
+
+
+
+
+
+M;BUR:6=H=#H@
+
+
+
+M
+
+
+
+
+T0G9&ES
+
+@;F5W(')O;6%N.R!F
+
+
+
+
+
+M(&9O;G0M9F%M:6QY.B`G=&EM97
+
+
+M;B`H)B
+X
+
+X
+
+X
+C(P.T-O;7!A;GDF
+M(S@R
+C$[*2!W87
+@:6YC;W)P;W)A=&5D(&]N($]C=&]B97(@
+S$L(#(P
+3(L
+M('5N9&5R('1H92!L87=S(&]F('1H92!3=&%T92!O9B!.979A9&$N(%1H92!#
+
+M)B
+X
+C(P.T9!4T(F(S@R
+
+M9FEC871I;VX@*8C.#(R,#M!4T,F(S@R,C$[*2!4;W!I8R`Y,34L(8C.#(R
+M
+
+
+
+
+
+'!X.R!D:7-P;&%Y.B!B;&]C:SL@;6%R9VEN+6QE9G0Z
+
+M;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97
+@;F5W(')O;6%N)SL@
+
+
+
+
+
+
+3H@8FQO8VL[
+
+
+
+
+
+
+
+
+
+
+M
+
+@4&5R($-O;6UO;B!3:&%R93PO=&0^#0H@(`@(`@
+
+P
+#`P
+M
+#`[(&9O;G0M9F%M:6QY.B`G=&EM97
+@;F5W(')O;6%N)RP@=&EM97
+L('-E
+
+
+
+#`P
+
+
+W!X.R!F
+
+
+
+M
+
+
+
+M0F%S:6
+
+M:&%R97
+
+
+I(&EN8V]M92!P97(@8V]M;6]N('-H87)E
+M(&%D:G5S='
+
+
+
+@86YD('5N:71S*2!W97)E(&5X
+
+
+
+
+
+
+'!X.R!D:7-P;&%Y.B!B;&]C:SL@;6%R9VEN+6QE
+
+M:7-P;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97
+@;F5W(')O;6%N
+
+M.B`C
+#`P
+
+M;65S+!S97)I9CL@9F]N=US:7IE.B`Q
+
+M86P[(&9O;G0M=F%R:6%N=#H@;F]R;6%L.R!F;VYT+7=E:6=H=#H@;F]R;6%L
+
+
+'!T.R!T97AT+71R86YS
+
+
+M='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97,@
+M;F5W(')O;6%N)SL@9F]N=US:7IE.B`Q
+
+F5D(&9O<B!T:&4@=&%X(&-O;G-E<75E;F-E
+
+
+
+
+M97
+
+M92X@02!V86QU871I;VX@86QL;W=A;F-E(&ES(')E8V]G;FEZ960@=VAE;BP@
+
+@86YD(&QI86)I;&ET:65S+CPO
+
+M:61T:#H@
+'!X.R!D:7-P;&%Y.B!B;&]C:SL@;6%R9VEN+6QE9G0Z(#!P=#L@
+
+
+P
+#`P
+#`[(&9O;G0M9F%M:6QY.B`G=&EM97
+@;F5W(')O
+M;6%N)RP@=&EM97
+
+
+
+
+@=&AE;B!M96%S
+
+
+
+
+
+
+
+
+
+
+
+
+
+T0G
+
+
+
+
+'!X.R!T97AT+6%L:6=N.B!J
+M=7-T:69Y.R!D:7-P;&%Y.B!B;&]C:SL@;6%R9VEN+6QE9G0Z(#!P=#L@;6%R
+
+M;F4[(&9O;G0M9F%M:6QY.B`G=&EM97
+
+
+M
+
+@
+
+M86YC:6%L('-T871E;65N='
+
+
+
+
+'!X.R!D:7-P;&%Y.B!B
+
+M9F]N=!S='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G
+M=&EM97
+
+
+P
+#`P
+#`[(&9O;G0M9F%M:6QY.B`G
+M=&EM97
+@;F5W(')O;6%N)RP@=&EM97
+
+
+
+
+]
+T1P;!V
+M86QI9VX],T1T;W`^4F5C96YT(%!R;VYO=6YC96UE;G1S/]T9#X-B`@(`@
+M(`@/'1D(&-L87-S/3-$=&5X=#XG/&1I=B!S='EL93TS1=T97AT+6%L:6=N
+M.B!J=7-T:69Y.R!T97AT+6EN9&5N=#H@
+'!T.R!D:7-P;&%Y.B!B;&]C:SL@
+
+
+
+
+
+
+;V-A
+M=&EO;CH@9FEL93HO+R]#.B\X
+3(X
+3DX85\V.&8T7S0P93E?860Y8E\U.3DT
+M-V9C-6)C
+
+
+
+]
+T13:&]W+FIS/B\J($1O($YO
+
+M
+T0Q(')O=W-P86X]
+
+M;'-P86X]
+
+
+M
+#$S/&)R/CPO=&@^#0H@(`@(`\+W1R/@T*(`@(`@/'1R(&-L87-S/3-$
+
+
+
+M9#X-B`@(`@(`@/'1D(&-L87-S/3-$=&5X=#XG/&1I=B!S='EL93TS1=T
+
+
+
+
+
+
+
+
+M:6=H=#H@
+
+
+
+
+'!T
+
+
+
+M(&9O;G0M9F%M:6QY.B`G=&EM97
+
+M
+
+T1R:6=H=!V86QI9VX],T1B;W1T;VT@=VED
+M=&@],T0Q)3X\9F]N=!S='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M
+M9F%M:6QY.B`G=&EM97,@;F5W(')O;6%N)SL@9F]N=US:7IE.B`Q
+
+M)B
+
+
+
+
+#L\+V9O;G0^/]T9#X-
+MCQT9!S='EL93TS1=T97AT+6%L:6=N.B!R:6=H=#LG('9A;&EG;CTS1&)O
+
+
+
+M9VXZ(&QE9G0[)R!V86QI9VX]
+T1B;W1T;VT@=VED=&@]
+T0Q)2!N;W=R87`]
+M
+
+
+
+3!P=#LG
+
+M/'1D(&%L:6=N/3-$;&5F=!S='EL93TS1=P861D:6YG+6)O='1O;3H@
+G!X
+
+
+
+
+
+M9VX]
+T1B;W1T;VT@=VED=&@]
+T0Q)3X\9F]N=!S='EL93TS1=D:7-P;&%Y
+M.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97
+@;F5W(')O;6%N)SL@9F]N
+
+M
+T0G8F]R9&5R+6)O='1O;3H@(S`P
+#`P
+
+M='EL93TS1=D:7-P;&%Y.B!I;FQI;F4[(&9O;G0M9F%M:6QY.B`G=&EM97,@
+M;F5W(')O;6%N)SL@9F]N=US:7IE.B`Q
+
+
+
+
+
+
+3!P=#LG
+
+
+T1B;W1T;VT@=VED
+M=&@]
+T0Q)2!N;W=R87`]
+
+
+
+
+
+
+
+
+@;F5W
+
+M#0H\=&0@86QI9VX]
+T1R:6=H=!S='EL93TS1=P861D:6YG+6)O='1O;3H@
+
+
+M
+
+
+3!P=#LG/B8C
+38P.SPO9F]N=#X\+W1D/@T*
+
+
+M
+#L\+V9O;G0^/]T9#X-CQT9!S='EL93TS1=B;W)D97(M8F]T=&]M.B`C
+M
+#`P
+
+
+
+
+
+
+
+
+
+24-)15
+@*$1E
+
+
+
+M1'1H/DYO=BX@
+S`L(#(P
+3
+\8G(^/]T:#X-B`@(`@(#PO='(^#0H@(`@
+
+
+
+
+M
+
+
+]
+T1T97AT/B=3=&%T92!O9B!.979A
+
+M
+C@Q.3AA7S8X9C1?-#!E.5]A9#EB7S4Y.30W9F
+U8F
+
+
+
+
+
+]
+
+T1)1#!%
+
+M4U1/0TM(3TQ$15)3(A$971A:6P@5&5X='5A;',I(A
+
+
+]
+
+M(`@/'1H(&-L87-S/3-$=&@^3F]V+B`S,P@
+C`Q
+
+#$S/&)R/CPO=&@^#0H@
+
+
+
+
+]
+
+
+]
+
+]
+T1N
+
+
+
+]
+T1N
+M=6UP/C(L
+
+
+
+
+]
+
+
+
+
+
+]
+
+
+
+
+M3&]C871I;VXZ(&9I;&4Z+R\O0SHO.#$R.#$Y.&%?-CAF-%\T
+&4Y7V%D.6)?
+
+
+M/@T*(`\:&5A9#X-B`@(`\345402!H='1P+65Q=6EV/3-$0V]N=&5N=U4
+
+
+
+M14A#04
+
+
+#$S/&)R/CPO=&@^#0H@
+
+S$L(#(P
+
+
+
+
+]
+T1N=6UP/C$L
+M
+#`P+#`P
+
+
+
+
+
+
+
+
+M/5].97AT4&%R=%\X
+3(X
+3DX85\V.&8T7S0P93E?860Y8E\U.3DT-V9C-6)C
+M
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+]
+
+
+
+]
+
+
+
+C@Q.3AA7S8X9C1?
+M-#!E.5]A9#EB7S4Y.30W9F
+U8F
+
+
+
+
+
+]
+
+T1)1#!%4T4^#0H@(`@(`\
+
+I
+
+C`Q
+
+
+]
+
+
+]
+
+
+
+C@Q.3AA7S8X9C1?-#!E
+M.5]A9#EB7S4Y.30W9F
+U8F
+
+
+
+
+
+
+]
+
+T1)1#!%6$)!0SX-B`@(`@(#QT
+
+I
+
+]
+
+]
+
+C`Q
+
+
+#$S/&)R/CPO=&@^
+
+
+]
+T1R93X-B`@(`@
+
+]
+
+
+]
+
+]
+
+
+RPY
+SDI/'-P
+
+M;G0M3&]C871I;VXZ(&9I;&4Z+R\O0SHO.#$R.#$Y.&%?-CAF-%\T
+&4Y7V%D
+
+
+
+
+
+M93IO9F9I8V4B/@T*(#QO.DUA:6Y&:6QE($A2968]
+T0B+BXO5V]R:V)O;VLN
+M:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#`Q+FAT;6PB+SX-B`\
+M;SI&:6QE($A2968],T0B4VAE970P,BYH=&UL(B\^#0H@/&\Z1FEL92!(4F5F
+M/3-$(E-H965T,#,N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#`T
+M+FAT;6PB+SX-B`\;SI&:6QE($A2968]
+T0B4VAE970P-2YH=&UL(B\^#0H@
+M/&\Z1FEL92!(4F5F/3-$(E-H965T
+#8N:'1M;(O/@T*(#QO.D9I;&4@2%)E
+M9CTS1)3:&5E=#`W+FAT;6PB+SX-B`\;SI&:6QE($A2968],T0B4VAE970P
+M.YH=&UL(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+#DN:'1M;(O/@T*
+M(#QO.D9I;&4@2%)E9CTS1)3:&5E=#$P+FAT;6PB+SX-B`\;SI&:6QE($A2
+M968],T0B4VAE970Q,2YH=&UL(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+M,3(N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E=#$S+FAT;6PB+SX-
+MB`\;SI&:6QE($A2968]
+T0B4VAE970Q-YH=&UL(B\^#0H@/&\Z1FEL92!(
+M4F5F/3-$(E-H965T,34N:'1M;(O/@T*(#QO.D9I;&4@2%)E9CTS1)3:&5E
+M=#$V+FAT;6PB+SX-B`\;SI&:6QE($A2968]
+T0B4VAE970Q-RYH=&UL(B\^
+M#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+3@N:'1M;(O/@T*(#QO.D9I;&4@
+M2%)E9CTS1)3:&5E=#$Y+FAT;6PB+SX-B`\;SI&:6QE($A2968],T0B4VAE
+M970R,YH=&UL(B\^#0H@/&\Z1FEL92!(4F5F/3-$(E-H965T
+
+C@Q.3AA7S8X9C1?-#!E
+7.5]A9#EB7S4Y.30W9F
+U8F
+S9BTM#0H`
+`
+end
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+      
+
+          
+
+        
+
+      
+
+
+
+
+
+
+        
+        
+
+
+        
+        
+
+
+Sipup Corporation (&#8220;Sipup&#8221; or the &#8220;Company&#8221;) was incorporated on October 31
+ 2012
+ under the laws of the State of Nevada. The Company is in the development stage as defined under Financial Accounting Standards Board (&#8220;FASB&#8221;) Accounting Standards Codification (&#8220;ASC&#8221;) Topic 915
+ &#8220;Development Stage Entities&#8221;. The Company intends to produce flavored yogurts.
+
+
+
+
+
+Basic net (loss) income per common share is calculated using the weighted average common shares outstanding during each reporting period. Diluted net (loss) income per common share adjusts the weighted average common shares for the potential dilution that could occur if common stock equivalents (convertible debt and preferred stock
+ warrants
+ stock options and restricted stock shares and units) were exercised or converted into common stock. There were no common stock equivalents at November 30
+ 2013.
+
+
+Deferred income taxes are recognized for the tax consequences related to temporary differences between the carrying amount of assets and liabilities for financial reporting purposes and the amounts used for tax purposes at each year end
+ based on enacted tax laws and statutory tax rates applicable to the periods in which the differences are expected to affect taxable income. A valuation allowance is recognized when
+ based on the weight of all available evidence
+ it is considered more likely than not that all
+ or some portion
+ of the deferred tax assets will not be realized. Income tax expense is the sum of current income tax plus the change in deferred tax assets and liabilities.
+
+A company is required to determine whether it is more likely than not (which is defined as a likelihood of more than fifty percent) that a tax position will be sustained based on its technical merits as of the reporting date
+ assuming that taxing authorities will examine the position and have full knowledge of all relevant information. A tax position that meets this more likely than not threshold is then measured and recognized at the largest amount of benefit that is greater than fifty percent likely to be realized upon effective settlement with a taxing authority.
+
+
+The Company is required to estimate the fair value of all financial instruments included on its balance sheet as of November 30
+ 2013. The Company&#8217;s financial instruments consist of cash. The Company considers the carrying value of such amounts in the financial statements to approximate their fair value due to the short-term nature of these financial instruments.
+
+
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+      
+
+          
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+
+
+        
+        
+
+993
+
+
+        
+        
+
+993
+
+
+Assets
+ Total
+        
+
+993
+
+
+        
+        
+        
+
+
+        
+
+980
+        
+
+
+        
+
+755
+
+322
+
+
+        
+
+735
+
+857
+
+
+        
+        
+        
+
+
+Common stock
+ $0.001 par value; 75
+000
+000 shares authorized
+ 4
+000
+000 and 3
+000
+000 shares issued and outstanding
+ respectively
+
+000
+
+000
+
+
+        
+
+068
+        
+
+
+        
+
+803)
+
+864)
+
+
+Stockholders' Deficit
+ Total
+
+735)
+
+864)
+
+
+Liabilities and Equity
+ Total
+        
+
+993
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ if longer)
+ including liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received
+ taxes
+ interest
+ rent and utilities
+ accrued salaries and bonuses
+ payroll taxes and fringe benefits.
+              
+ -Subparagraph (SX 210.5-02.19
+20)
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ capital in excess of par
+ capital surplus
+ or paid-in capital.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ sold
+ or consumed within one year (or the normal operating cycle
+ if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ par value and other disclosure concepts are in another section within stockholders' equity.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ including the portion of equity attributable to noncontrolling interests
+ if any.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ if longer.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ net of receivables from officers
+ directors
+ owners
+ and affiliates of the entity
+ attributable to both the parent and noncontrolling interests. Amount excludes temporary equity. Alternate caption for the concept is permanent equity.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+      
+
+          
+
+        
+        
+
+      
+
+
+
+
+
+
+ 2013
+
+          
+
+
+
+ 2013
+
+          
+
+
+
+        
+        
+        
+        
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Rivet Software Inc.
+ *
+ * @copyright Copyright (c) 2006-2011 Rivet Software
+ Inc. All rights reserved.
+ * Version 2.4.0.3
+ *
+ */
+var Show = {};
+Show.LastAR = null
+Show.hideAR = function(){
+	Show.LastAR.style.display = 'none';
+};
+Show.showAR = function ( link
+ id
+ win ){
+	if( Show.LastAR ){
+		Show.hideAR();
+	}
+	var ref = link;
+	do {
+		ref = ref.nextSibling;
+	} while (ref && ref.nodeName != 'TABLE');
+	if (!ref || ref.nodeName != 'TABLE') {
+		var tmp = win ?
+			win.document.getElementById(id) :
+			document.getElementById(id);
+		if( tmp ){
+			ref = tmp.cloneNode(true);
+			ref.id = '';
+			link.parentNode.appendChild(ref);
+		}
+	}
+	if( ref ){
+		ref.style.display = 'block';
+		Show.LastAR = ref;
+	}
+};
+Show.toggleNext = function( link ){
+	var ref = link;
+	do{
+		ref = ref.nextSibling;
+	}while( ref.nodeName != 'DIV' );
+	if( ref.style &&
+		ref.style.display &&
+		ref.style.display == 'none' ){
+		ref.style.display = 'block';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '+'
+ '-' );
+		}else{
+			link.innerText = link.innerText.replace( '+'
+ '-' );
+		}
+	}else{
+		ref.style.display = 'none';
+		if( link.textContent ){
+			link.textContent = link.textContent.replace( '-'
+ '+' );
+		}else{
+			link.innerText = link.innerText.replace( '-'
+ '+' );
+		}
+	}
+};
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+      
+
+          
+
+        
+        
+        
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+
+
+        
+
+864)
+
+939)
+
+803)
+
+
+        
+        
+        
+        
+
+
+        
+        
+
+445
+
+980
+
+
+        
+
+329)
+
+494)
+
+823)
+
+
+        
+        
+        
+        
+
+
+        
+
+000
+
+000
+
+000
+
+
+        
+
+322
+
+567)
+
+755
+
+
+        
+        
+
+068
+
+068
+
+
+        
+
+322
+
+501
+
+823
+
+
+        
+
+993
+
+993)
+        
+
+
+        
+        
+
+993
+        
+
+
+        
+
+993
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ federal
+ state
+ and local authorities as taxes on income.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ excluding discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on
+ and a return of
+ their investment; borrowing money and repaying amounts borrowed
+ or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ excluding discontinued operations. Operating activity cash flows include transactions
+ adjustments
+ and changes in value not defined as investing or financing activities.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ net of income taxes
+ which is attributable to the parent.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+      
+
+          
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+
+
+Common stock
+ par value (in dollars per share)
+        
+        
+
+
+Common stock
+ shares authorized
+
+000
+000
+
+000
+000
+
+
+Common stock
+ shares issued
+
+000
+000
+
+000
+000
+
+
+Common stock
+ shares outstanding
+
+000
+000
+
+000
+000
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners
+ and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+      
+
+LOANS PAYABLE - STOCKHOLDERS (Detail Textuals) (Loan from stockholders
+ USD $)
+
+        
+        
+
+      
+
+
+
+
+
+
+
+
+
+
+
+          
+
+        
+        
+
+
+        
+        
+        
+
+
+        
+
+322
+
+348
+
+
+        
+        
+
+328
+
+
+        
+        
+        
+
+
+
+          
+
+        
+        
+
+
+        
+        
+        
+
+
+        
+        
+
+755
+
+
+
+
+        
+          
+
+        
+          
+            
+                
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ if longer.
+              
+                
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+ if longer.
+              
+ -Subparagraph (SX 210.7-03.(a)
+ -Subparagraph 2
+ 3
+              
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+        
+          
+
+        
+          
+            
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+                  
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+begin 644 0001188112-14-000707-xbrl.zip
+
+
+
+
+
+
+
+
+%T
+
+
+
+
+
+
+
+MF
+
+VFJZ^7\;VTU5R#W519D&L;TD'C7-N]`'',*F:Q3CL<(&Z[
+M^+2D]/`D)OQ7WTJ;8P[[2$YBO)4[CR(L**5W%:]KNK-:.BMZ;%*7WNYQ;
+
+
+
+.![SU'VP[J-6/]%JMIM?K=?WQ_WIGGXX/#XZ.
+
+
+
+
+
+)8J
+MC:&*^:/]
+EY&6`#^1MMOC2ZJDTV/;=G_XG
+Q;G:I`@C^'7NKDJG!W6R^J?
+
+
+R@]MEG6Z[.
+
+PBI;3=ALH7I1
+
+
+
+@WO54SY
+
+
+%0OYS)5:
+
+MH*J5I'I9`9L)^[!NRA:
+
+HC-F**\_5(ZWG9A#
+
+
+@P&(#`IJ76G_?(^K+'I&P
+M))T3,NAQEQ6E0W6&``3PZ828S'694%^!NNB[;INV:)_^'F4$]*GHLNMHLDZ
+
+
+MK\A#Z]--ZZIUWKQY)
+WS\]LO-X^MFT_D[O9SZ[QU^8!XE'N$*D2K!C^_X\_
+MY,LW8_EHWSGYBW90SGGVRB(_=U:%$NC(H.2C`=K38$*UJ0EN19=:_$_5.+D;
+M9F^-^+*J)6^08,D#N/E:KW.MHQ+*LSI9W\C'E4J9;]U]+-V0FQ!W!XCL2Y!
+
+
+3Y:,-?6JO
+MF@\?$W2DCCM7OV=9GV16\^$\
+
+
+=`4:&
+#GH
+
+(Q%247R
+M
+Q@_`.#RMHD13]M5%@0
+
+&U+%G)G0N
+593;WP@6&7-7#N!GXI
+!/
+'6?9TW('
+&_O)?UNK
+
+H!T0L+Y=2]7(
+
+M_UP-*FDS=E
+
+
+7[08U8
+Z\@D*^:9
+
+379AAC^!;=NKH6
+
+
+
+
++@N5'E@=
+M]D25.D%Y5H4]6F$`6USYB*9*;QS^U!C(`O!@3ZRB+!TYY&$%2
+-#%U@Q
+
+
+
+M&RZYE=CN!3]G`N
+1=
+
+
+
+
+
+
+M96?
+
+
+M:[
+
+M'(
+I2+NKJ#@MT#_!T
+
+
+MP=
+
+
+R3DCN0E&RF7YM.'O#T5/$1/C&0
+
+6-F/CJE[W.WVHH
+
+
+
+`IB7`.8E@'D)8%X
+MT*B)9&PP5\#\<A$_Z
+MA#W`D_C4/$Q3?KOM
+M)#(QWT9#+UC;?1PZK/G
+
+
+
+
+*Q06@K$
+
+
+M**1'KE*?3HZ]!*M@4]N$HW]]=V9W[3788`=S?)Q?$@'V[LSL[GSL[OQF(UF;
+
+WAZ6R9EK?W\
+
+
+=_:]`Y6:SO9[S=;H2--_.*DDK/]
+M_*+)RT!N^21%K!AV[G8'O$30^3ZXZXVJ\C#H/`Z5I\[?G8\//465*[^4..PE
+
+M!;)X9FQC9;*L(`!L127@?VJ,ABQ^V?LQEA%^=@K[41_\&
+
+
+M^F%XD'\7+C[
+
+
+B(3TD',M:H&Y)K@'C*+[8#Z$.4R%^A_2V0M?3A.695
+MQ:9#4=H+;O
+
+0&0YS[*NQ^C.8.'
+
+
+
+
+M:/0E@SL?21Z2Q%:R]$JU4JJ5
+
+
+M$0B!
+
+
+5(B=3)-2A.=)B%O0
+
+M$8$J$$X!3]Q(B#*$\1SXF`P7+ZE3(P@]42M4IYFVY]-TJ[Q#?V_8WE^4&C(8
+
+
+
+
+1!Y%I
+A`934*1
+
+MLZHJ]ZX;0`5[94A8`JNJ@FPFMO//S8C_]D`_*-_PJV`Y([]?4+9AL\*ZX-]Z
+
+M]
+
+
+
+M-
+
+C`Q
+S$Q
+S!?8V%L+GAM;%540`#9D(G4V9
+
+MC$O!
+
+A+F.KA/[-C
+5
+
+
+A
+&3C
+
+2OQ`LA!WVY]4ER
+
+XQ7$I8
+57A4
+MA1)!\D`#(%[#F`.=3!5^5#F%3_851ACB.C$%VWR?(*B<CZOT\TE8^I11:%$
+
+
+
+
+
+J=
+
+
+
+
+
+
+M:WM56N)^%EQ*+$5
+N2/O(/=/.++$3YI[&2Y.
+
+
+
+C`Q
+S$Q
+
+M#@``!#D!``#=7-]SVC@0?K^9^Q]\]+7&&)*V89IVTI+.
+$
+:)J&=OGF$+4!7
+
+7I`P1?-FRVYV6
+
+\/N]
+
+
+MH93TJI?(VM:/F]&]NX`!
+
+
+
+;@
+
+
+
+
+U4_XXYI%[H+<78V5=3?2-D
+
+M$?N1=!;O_R/
+M(47$^P[\$*YO]L^`[;(6ZD+Z3A])HN[*YE\#65X/28/I%BEY$_E6.FP)%6
+
+
+G]4]
+MK;]+AQ`C@B+.L
+
+M@QR6=*&_VIK&G)/N`
+
+M^&-Y:65=BUH/EC
+&NC+=G&%$==Y.;YDR#J-?09!YMIG1I)HBC`IWBP(&57@.
+
+M#E[ZHIUE19
+.RV)DGPBE9(7PO-#K\I-T/54-+\Y^J`W8)%K+7Y*:FENOMU:A
+
+MK
+:01L=W5P$)
+
+
+
+MJ_O
+
+
+M\4BR)Y$EG33.)N7:4E$D1N*%0\Z2'$F3J_ON!X/X0,``9+#1BJU&T5-]&-
+
+
+
+
+DGH;VZSJ#3QB=G';KR9^8L@7#)W
+
+&RXQ!D/0LZ
+
+
+
+
+
+
+
+
+
+M4J7V$.ZHTF'AXCG]NQ'NA:=AH2/AJ'?7(Y]OONI.W_@
+(%V'20A2)*&9D[:
+MI./3Z$=D@[,K1$W(!QWZT3//4LIXR@00WJ3:Y2I2\K\CVL`(?\+5LMA\%2\
+M:X^R728X([_16KL6L3#!J]3%$OJ5XHH0:VRD9Q&
+D[)OX0_2
+.A*_)H(7\(@
+
+
+*Z96&=5%A7)JP!$TY5
+M2O.0A7Q/*9TKU0/`W6?AQN!&=S!
+
+ZN3;%?
+
+
+@C%;PM0/@B)&
+
+M@'9PL^VS]Z#S&=V^9QI/VG\P)A9+C4`:?
+46D/T#9LRMC-@
+XVV&_0BQ.YO]
+
+'A
+M?.Y:=ZY'9FHXFO@..R#W$'@.R1U._[5VXXUN/J;
+
+
+MS$(I]HIM8L\TF:;:-&5M;'N/$S\#OE-N,9.H7.ZTRH-EF3+BVQ:UE@2HU2
+
+
+!(W)@^5G'Q.8I
+
+
+P1H+8G7+H*SUH9
+6=4
+
+M=#[YIMK4I04:'/:W8'M=?H3(WU;8CMU'[
+
+
+
+40+'RV//O^S(X&WK]68+2YX`MZOKQQP
+
+
+M(54#Q4KQ4AW()::E,.=Y+L+39X:BP
+
+
+
+
+
+
+ML*0]$;VKP75\7%JHHP0I&8D2;.7$;(+#8V(T[U*`!8-982AD4)FH8SAR]6
+
+WVIJI;I!LX`8=*1N%K4(O)T@*K&Q)LHAC5
+#1%J\H$!5P
+
+
+
+**7MT%Y!#XNU
+
+MG_QG-'EVM5\OE#
+SQLT)1*V=
+
+
+
+
+
+
+
+-I:7USA\!68[O
+
+M:ZN=57I
+SFYQ^J_O['-GV%C2$@3(SK1`0DE=7L[5(+^/L7NM$#C.O;(;8B
+M
+
+
+
+
+D!=DN'J&E,E
+MNQXN58R9!XJM8T1.^D#=&S9D6)EDQZ2@^4?0H6R4&DM&/)G9KW9!]'=!KVB
+
+
+
+MZRN+5ZY0$N7S#Q2B_(A?(`XL^`^KL.J$9I%KZ\TH6EI9&TF-.TL;#@W1/IK
+M8^RP$G7Y38I%H1*![NRDF2'T5$-%YKL
+YH$]**#ML8EKLJCJY2%J@WM\*&T
+
+
+1O*Q-L5G[^2(CZRF]V"J0#M]LVJ%9[
+
+M(6X`_
+
+
+
+
+
+
+
+
+
++M)Z&Y<U\,FMG-8*CI'NZ84R-*70P4Q6]BD9*E[R70K.H
+MG!05:$TR/B@=&!?SM*N%/ET<#YDS0XW),;)M?8]JPH8N=`V0VOO-C=8[L
+
+
+:%[+8FH+8Z
+
+
+
+%[L-@O6+S[O3)=6/BLZJ9--]9:+:1_@U9F/QQ*K]).<!4%FP0
+M2LM\!8D?0*C3%:MJN@XUDFROAAH-_6T+R^UNI89$5R7P2^H4*B_BVENX[8P
+M9Y:XGBKU
+&4^)6Z
+
+
+M.X:J[2L2I#HZI)VITV
+
+8+[6OG0FX&+5
+6Q2NL0H;;8Q8:\/7:&M#IK]$6QTO
+MF'?-2EU2W8$2
+
+
+
+MNG?!#?63
+
+
+
+
+
+B=-4^%(`T
+
+MZPM(
+
+&N<7A4T[I8?<KW9
+
+
+VC;FYZF6\.I1+JU0?5B4[VL
+
+
+
+#$S
+3$S
+
+
+
+
+
+.@+I\4K-4#-;D6
+MW
+1AT+39E'9P-
+#'C)W2!\R8K_!K/$6O.1`
+
+
+
+
+
+
+
+^H)M\8?'_^GY
+M8.?*^H'_-/._/
+$K(CYH.7=HC5
+8EC6=#7S^PJ@-6917Q(Q]C_S/!&11W]NN
+
+B2V9H_;
+M]9R:$E2B;5H(0TS(G=Z3DU./B[7$_CN!^$4;'L\F[O8`M='/QY;BNIE'A#
+M)!FRT
+
+X&X09-;9(1CLA#
+M7C@B45RJH6UCQ];@/]H0*#:14YFQD2`593\@CAT/SYC-Z2$0('DSI&F#6BL
+M/5T0XZ
+
+
+
+
+
+MII50YD:FBR76%IN62&D$D=,BN=V!P
+%POBL_V`R&)L7:(-X5-C2%[5'C&3
+
+MR#B%PJ:.[QPJ9%R[S96CJN/W5.E7+]NXJZI\-S4;P+I!:[/-\M156M2^P8[8
+
+PLH.?O7G;\1*'W/YBCW
+
+
+M(Z-N==Z'GGR=.
+XD;B$
+
+
+
+M4WA2/5)3O;Q%6@)O8'*#F&2_&_N4+XS:]@.C2Z(:AJ%6P/N1W
+
+
+
+MAB*WMUA
+_7KA:[]M4W(49
+AD!JL#
+
+
+
+
+
+
+
+
+
+MFEQ49
+
+
+
+UZ]UZ*$O?I9I#BFBE39)@-_RJ\D:&E*QJPIK
+
+
+
+
+MDEH&9I;^*)'XK\*=:5F^!A6`Y=\0/C
+
+
+0L@
+
+TL
+
+
+MC50X-I?)6SOPZ*TO))7N%)91$9E@%=`UU_2PZ2+(RK$*1C8_;@HLCG
+`(O
+
+MIDR4\E!-G=J=M.G.JZY`91U``
+
+7=\[VU
+9RI'[`:E851K
+M7U?\F&]DW13+UQ'PA%Z9U40D/'Z^O_`MQ
+
+M7D;T99/UYI!6)?-!?;D?WWVYO+^['$WN8L.B)WK].AEG5D*1=Y$`M921K/C@
+
+
+
+
+WX1*J`IX7@2ZA
+
+BA7%H)D&ST1(
+M
+
+
+
+'@@)`AW\`/%`
+@$M83QMD1GV
+
+`R*G
+
+
+(UR8
+4?T'
+
+M7E0%%WU?E/'O$XOV*C!B/!^'A&N%2:0WT
+Q1?K
+6Y0R
+
+
+
+JW*Y\ZK\
+
+S_#SU/9CO6M_GU*ANF1HO=F_9(B.9%]:N5RG#AUWIRJ&B%-P:5I<\S?
+M5B5B]'V
+
+MKWF1WNU2;I_\LACJ;.
+
+
+
+1OU*.LM
+V$!AES2%`@'W#N$1!J0&NLI\E;IX;
+$?+
+M*?;-&($V\:1(9ZQ
+5'
+IW'@_U#*DU.UR@5:UFZF5'6Z;3D#%&_62G.4E-6
+
+M$6*.$SN=^NC@%YY@&?A4[]K-A'P/,_:TUST8*4K?UE56U65:E9Q
+N/27
+MW;+2]J;56G;D@:O?K$S
+KI:LM\+6
+2+%J
+$!02@UP];1O0+IT0':#7VU=?3G
+M8
+GX`!O*?;IU3
+
+
+)UW9`\4J6^YH+B
+2WOF`R=:0
+
+C`Q
+S$Q
+S!?8V%L+GAM;%54
+
+
+`Q0````(`'EU<421RWA
+
+3
+Q
+3
+P+GAS9%54
+
+ 'defref_spup_DocumentAndEntityInformationAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityRegistrantName'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCentralIndexKey'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_TradingSymbol'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCurrentReportingStatus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityVoluntaryFilers'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_CurrentFiscalYearEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityFilerCategory'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityWellKnownSeasonedIssuer'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityCommonStockSharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityPublicFloat'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentType'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentPeriodEndDate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_AmendmentFlag'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalYearFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_DocumentFiscalPeriodFocus'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EquityAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EquityIssuancePerShareAmount'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeStatementAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SalesRevenueGoodsNet'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_CostOfGoodsSold'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_GrossProfit'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OperatingExpensesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OfficersCompensation'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_MarketingAndAdvertisingExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ProfessionalFees'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_GeneralAndAdministrativeExpense'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OperatingExpenses'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeLossFromContinuingOperationsPerBasicAndDilutedShare'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_spup_GoingConcernDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_LiquidityDisclosureTextBlock'
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureTextBlock'
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=center style=text-transform: none; text-indent: 0px; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EffectiveIncomeTaxRateReconciliationDeductions'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EffectiveIncomeTaxRateContinuingOperations'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_ScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock'
+<div style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=center style=text-transform: none; text-indent: 0px; font: 13px 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SubsequentEventsAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SubsequentEventsTextBlock'
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AccountingPoliciesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NatureOfOperations'
+<div style=color: #000000; font-family: 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_UseOfEstimates'
+<div align=left style=color: #000000; font-family: 'times new roman'
+ times
+
+<div style=color: #000000; font-family: 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EarningsPerSharePolicyTextBlock'
+<div style=color: #000000; font-family: 'times new roman'
+ times
+
+<div style=color: #000000; font-family: 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxPolicyTextBlock'
+<div align=left style=color: #000000; font-family: 'times new roman'
+ times
+
+<div style=color: #000000; font-family: 'times new roman'
+ times
+
+<div align=justify style=color: #000000; font-family: 'times new roman'
+ times
+
+<div style=color: #000000; font-family: 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_FairValueOfFinancialInstrumentsPolicy'
+<div style=color: #000000; font-family: 'times new roman'
+ times
+
+<div style=color: #000000; font-family: 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_PriorPeriodReclassificationAdjustmentDescription'
+<div align=left style=color: #000000; font-family: 'times new roman'
+ times
+
+<div style=color: #000000; font-family: 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_AccountingPoliciesAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityIncorporationDateOfIncorporation'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_dei_EntityIncorporationStateCountryName'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_spup_GoingConcernDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncreaseDecreaseInStockholdersEquityRollForward'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncreaseDecreaseInStockholdersEquityRollForward'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodValueIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockIssuedDuringPeriodSharesIssuedForCash'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_spup_AdjustmentsToAdditionalPaidInCapitalShortTermLoanFromStockholder'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_NetIncomeLoss'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_SharesOutstanding'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_EquityAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_StockholdersEquityNoteDisclosureTextBlock'
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div align=justify style=text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+
+<div style=text-align: justify; text-transform: none; text-indent: 0pt; display: block; font: 13px 'times new roman'
+ times
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_IncomeTaxDisclosureAbstract'
+<a class=a href=javascript:void(0); onclick=top.Show.showAR( this
+ 'defref_us-gaap_OperatingLossCarryforwards'
+

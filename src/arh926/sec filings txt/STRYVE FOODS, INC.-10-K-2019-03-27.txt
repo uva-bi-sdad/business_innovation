@@ -1,0 +1,4498 @@
+
+
+ACCESSION NUMBER:		0001493152-19-004007
+CONFORMED SUBMISSION TYPE:	10-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	20181231
+FILED AS OF DATE:		20190327
+DATE AS OF CHANGE:		20190327
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Andina Acquisition Corp. III
+		CENTRAL INDEX KEY:			0001691936
+		STANDARD INDUSTRIAL CLASSIFICATION:	BLANK CHECKS [6770]
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			E9
+		FISCAL YEAR END:			1231
+	FILING VALUES:
+		FORM TYPE:		10-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-38785
+		FILM NUMBER:		19708494
+	BUSINESS ADDRESS:	
+		STREET 1:		250 WEST 57TH STREET
+		STREET 2:		SUITE 2223
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10107
+		BUSINESS PHONE:		646-565-3861
+	MAIL ADDRESS:	
+		STREET 1:		250 WEST 57TH STREET
+		STREET 2:		SUITE 2223
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10107
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+Washington
+D.C. 20549 
+
+FORM
+10-K 
+
+
+
+    
+Annual
+    Report Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 
+
+
+For
+the year ended December 31
+ 2018
+
+Commission
+File Number 001-38563
+
+ANDINA
+ACQUISITION CORP. III
+(Exact
+name of registrant as specified in its charter)
+
+
+
+
+Cayman
+    Islands
+    
+    
+
+(State
+                                         or Other Jurisdiction
+of
+        Incorporation)
+    
+(I.R.S.
+                                         Employer
+Identification
+        No.)
+
+
+
+
+
+
+Calle
+                                         113 # 7-45 Torre B
+Oficina
+        1012
+Bogot&aacute;
+        Colombia
+    
+    
+
+(Address
+    of principal executive offices)
+    
+(zip
+    code)
+
+
+
+(646)
+565-3861
+(Issuer&rsquo;s
+Telephone Number
+ Including Area Code)
+
+Securities
+registered pursuant to Section 12(b) of the Act:
+
+
+
+Title
+    of Each Class
+    
+Name
+    of Each Exchange on Which Registered
+
+Units
+    each consisting of one ordinary share
+ one right
+ and one redeemable warrant
+    
+The
+    NASDAQ Stock Market LLC
+
+Ordinary
+    Shares
+ par value $0.0001 per share
+    
+The
+    NASDAQ Stock Market LLC
+
+Rights
+    each to receive one-tenth (1/10) of one ordinary share
+    
+The
+    NASDAQ Stock Market LLC
+
+Redeemable
+    warrants
+ exercisable for ordinary shares at a price of $11.50 per share
+    
+The
+    NASDAQ Stock Market LLC
+
+
+Securities
+registered pursuant to Section 12(g) of the Act: 
+
+Indicate
+by check mark if the registrant is a well-known seasoned issuer
+ as defined in Rule 405 of the Securities Act. Yes[&nbsp;&nbsp;]  No
+[X]
+
+Indicate
+by check mark if the registrant is not required to file reports pursuant to Section 13 or 15(d) of the Exchange Act. Yes [&nbsp;&nbsp;]
+No [X]
+
+Indicate
+by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Exchange Act
+of 1934 during the past 12 months (or for such shorter period that the registrant was required to file such reports)
+ and (2)
+has been subject to such filing requirement for the past 90 days. Yes [X] No [&nbsp;&nbsp;]
+
+Indicate
+by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant
+to Rule 405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit
+such files). Yes [&nbsp;&nbsp;] No [&nbsp;&nbsp;]
+
+Indicate
+by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (&sect;229.405 of this chapter) is not
+contained herein
+ and will not be contained
+ to the best of the registrant&rsquo;s knowledge
+ in definitive proxy or information
+statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K. [X]
+
+Indicate
+by check mark whether the registrant is a large accelerated filer
+ an accelerated filer
+ a non-accelerated filer
+ a smaller reporting
+company
+ or emerging growth company. See the definitions of &ldquo;large accelerated filer
+&rdquo; &ldquo;accelerated filer
+&rdquo;
+&ldquo;smaller reporting company
+&rdquo; and &ldquo;emerging growth company&rdquo; in Rule 12b-2 of the Exchange Act.
+
+
+
+Large
+    accelerated filer [&nbsp;&nbsp;]
+Accelerated
+    filer [&nbsp;&nbsp;]
+
+Non-accelerated
+    filer [X]
+Smaller
+    reporting company [X]
+
+    
+Emerging
+    growth company [X]
+
+
+Indicate
+by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).
+Yes
+[X] No [&nbsp;&nbsp;]
+
+As
+of June 30
+ 2018
+ the last business day of the registrant&rsquo;s most recently completed second fiscal quarter
+ the registrant&rsquo;s
+ordinary shares were not publicly traded. Accordingly
+ there was no market value for the registrant&rsquo;s ordinary shares on
+such date.
+
+As
+of March 21
+ 2019
+ 13
+895
+000 ordinary shares
+ par value $0.0001 per share
+ were issued and outstanding.
+
+Documents
+Incorporated by Reference: The information contained in the registrant&rsquo;s prospectus dated January 28
+ 2019
+ as filed with
+the Securities and Exchange Commission on January 29
+ 2019
+ pursuant to Rule 424(b)(3) (SEC File Nos. 333-228530) is incorporated
+into certain portions of Parts I
+ II
+ and III
+ as disclosed herein.
+
+
+
+
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III 
+FORM
+10-K
+TABLE
+OF CONTENTS
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+Item 5. Market for Registrant&rsquo;s Common Equity
+ Related Stockholder Matters and Issuer Purchases of Equity Securities.
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+Item 10. Directors
+ Executive Officers and Corporate Governance.
+    
+
+    
+    
+
+    
+    
+
+Item 13. Certain Relationships and Related Transactions
+ and Director Independence.
+    
+
+    
+    
+
+    
+    
+
+PART
+    IV 
+    
+
+Item 15. Exhibits
+ Financial Statement Schedules.
+    
+
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+
+
+PART
+I
+
+ITEM
+1. BUSINESS
+
+In
+this Annual Report on Form 10-K (the &ldquo;Form 10-K&rdquo;)
+ references to the &ldquo;Company&rdquo; and to &ldquo;we
+&rdquo;
+&ldquo;us
+&rdquo; and &ldquo;our&rdquo; refer to Andina Acquisition Corp. III
+
+We
+are a Cayman Islands company incorporated on July 29
+ 2016 as an exempted company with limited liability. Exempted companies are
+Cayman Islands companies wishing to conduct business outside the Cayman Islands and
+ as such
+ are exempted from complying with
+certain provisions of the Companies Law. As an exempted company
+ we have applied for and received a tax exemption undertaking
+from the Cayman Islands government that
+ in accordance with section 6 of the Tax Concessions Law (2018 Revision) of the Cayman
+Islands
+ for a period of 20 years from the date of the undertaking
+ no law which is enacted in the Cayman Islands imposing any
+tax to be levied on profits
+ income
+ gains or appreciations shall apply to us or our operations and
+ in addition
+ that no tax
+to be levied on profits
+ income
+ gains or appreciations or which is in the nature of estate duty or inheritance tax shall be payable
+(i) on or in respect of our shares
+ debentures or other obligations or (ii) by way of the withholding in whole or in part of a
+payment of dividend or other distribution of income or capital by us to our shareholders or a payment of principal or interest
+or other sums due under a debenture or other obligation of us.
+
+We
+were incorporated for the purpose of entering into a merger
+ share exchange
+ asset acquisition
+ share purchase
+ recapitalization
+reorganization or similar business combination with one or more businesses or entities. Our efforts to identify a prospective
+target business will not be limited to a particular industry or geographic location
+ although we are currently focusing our search
+for target businesses in the Americas. While we expect to explore target businesses throughout the Americas that our management
+team finds attractive
+ our management team&rsquo;s most extensive experience is with companies in Latin America. Within Latin
+America
+ we intend to focus on the countries with stable political and macro-economic frameworks which include: Brazil
+ Chile
+Colombia
+ Chile
+ Mexico and Peru. We intend to capitalize on opportunities presented by high growth rates within these countries.
+
+In
+July and August 2016
+ we issued an aggregate of 2
+875
+000 ordinary shares (&ldquo;insider shares&rdquo;) to B. Luke Weil
+ our
+Chairman
+ for an aggregate purchase price of $25
+000
+ or approximately $0.009 per share. Subsequent to such date
+ Mr. Weil transferred
+shares to other individuals and entities
+ including the underwriters in our initial public offering (&ldquo;IPO&rdquo;)
+ for the
+same price originally paid for such shares.
+
+On
+January 31
+ 2019
+ we consummated the IPO of 10
+800
+000 units
+ including 800
+000 units subject to the underwriters&rsquo; over-allotment
+option. Each unit consisted of one ordinary share
+ one right to receive one-tenth of one ordinary share
+ and one redeemable warrant
+with each warrant entitling the holder to purchase one ordinary share at a price of $11.50 per share. The units were sold at an
+offering price of $10.00 per unit
+ generating gross proceeds of $108
+000
+000.
+
+Simultaneously
+with the consummation of the IPO
+ we consummated the private placement (&ldquo;Private Placement&rdquo;) of 395
+000 Units (&ldquo;Private
+Units&rdquo;) at a price of $10.00 per Private Unit
+ generating total proceeds of $3
+950
+000
+ to certain of our initial shareholders
+and the joint book-running managers of the IPO and their respective affiliates. The Private Units are identical to the units sold
+in the IPO
+ except that the warrants underlying the Private Units are non-redeemable and may be exercised on a cashless basis
+in each case so long as they continue to be held by the initial shareholders or their permitted transferees. The purchasers of
+the Private Units have agreed (A) to vote the ordinary shares underlying the Private Units in favor of any proposed business combination
+(B) not to propose
+ or vote in favor of
+ an amendment to our amended and restated memorandum and articles of association with
+respect to our pre-business combination activities prior to the consummation of such a business combination unless we provide
+public shareholders with the opportunity to convert their public shares in connection with any such vote
+ (C) not to convert any
+ordinary shares underlying the Private Units for cash from the trust account in connection with a shareholder vote to approve
+a proposed initial business combination or a vote to amend the provisions of our amended and restated memorandum and articles
+of association relating to shareholders&rsquo; rights or pre-business combination activity
+ and (D) that the ordinary shares underlying
+the Private Units shall not participate in any liquidating distribution from the trust account upon winding up if a business combination
+is not consummated. The purchasers of Private Units have also agreed not to transfer
+ assign or sell any of the Private Units
+or underlying securities (except to certain permitted transferees) until the completion of our initial business combination.
+
+
+    
+    
+
+
+Transaction
+costs amounted to $3
+204
+451
+ consisting of $2
+700
+000 of underwriting fees and $504
+451 of offering costs. In addition
+ $715
+097
+of cash was held outside of the trust account established in connection with the IPO and was available for working capital purposes.
+
+For
+further details regarding our business
+ see the section titled &ldquo;Proposed Business&rdquo; contained in our prospectus dated
+January 28
+ 2019
+ incorporated by reference herein.
+
+ITEM
+1A. RISK FACTORS
+
+For
+the risks relating to our operations
+ see the section titled &ldquo;Risk Factors&rdquo; contained in our prospectus dated January
+28
+ 2019
+ incorporated by reference herein.
+
+ITEM
+1B. UNRESOLVED STAFF COMMENTS
+
+Not
+applicable.
+
+ITEM
+2. PROPERTY
+
+We
+maintain our principal executive offices at Calle 113 # 7-45 Torre B
+ Oficina 1012
+ Bogot&aacute;
+ Colombia. This space is being
+provided to us at no cost by a third party affiliated with Julio Torres
+ our Chief Executive Officer and one of our directors.
+We consider our current office space
+ combined with the other office space otherwise available to our executive officers
+ adequate
+for our current operations.
+
+ITEM
+3. LEGAL PROCEEDINGS
+
+
+
+ITEM
+4. MINE SAFETY DISCLOSURES
+
+Not
+applicable.
+
+
+    
+    
+
+
+PART
+II 
+
+ITEM
+5. MARKET FOR COMMON EQUITY AND RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES 
+
+Market
+Information 
+
+Our
+units
+ ordinary shares
+ right
+ and warrants are listed on the Nasdaq Capital Market (&ldquo;Nasdaq&rdquo;) under the symbols ANDAU
+ANDA
+ ANDAR and ANDAW
+ respectively. Our units commenced public trading on January 29
+ 2019 and since the ordinary shares
+ rights
+and warrants commenced separate public trading on March 6
+ 2019.
+
+
+
+
+As
+of March 21
+ 2019
+ there were 13 holder of record of our units
+ 18 holders of record of our ordinary shares
+ 1 holder of record
+of our rights
+ and 1 holder of record of our warrants.
+
+
+
+We
+have not paid any cash dividends on our ordinary shares to date and do not intend to pay cash dividends prior to the completion
+of a business combination. The payment of cash dividends in the future will be contingent upon our revenues and earnings
+ if any
+capital requirements
+ and general financial condition subsequent to completion of a business combination. The payment of any dividends
+subsequent to a business combination will be within the discretion of our then board of directors. It is the present intention
+of our board of directors to retain all earnings
+ if any
+ for use in our business operations and
+ accordingly
+ our board does
+not anticipate declaring any dividends in the foreseeable future. Further
+ if we incur any indebtedness in connection with our
+initial business combination
+ our ability to declare dividends may be limited by restrictive covenants we may agree to in connection
+therewith.
+
+Cayman
+Islands Laws Relating to Our Equity Securities
+
+For
+a summary of the relevant Cayman Island laws relating to taxation
+ foreign exchange controls
+ and dividends
+ see the section titled
+&ldquo;Taxation &ndash; Cayman Islands Tax Considerations&rdquo; contained in our prospectus dated January 28
+ 2019
+ incorporated
+by reference herein.
+
+Recent
+Sales of Unregistered Securities; Use of Proceeds from Registered Securities
+
+In
+July and August 2016
+ we issued an aggregate of 2
+875
+000 ordinary shares to our initial shareholders for an aggregate purchase
+price of $25
+000
+ or approximately $0.009 per share
+ in connection with our organization pursuant to the exemption from registration
+contained in Section 4(a)(2) of the Securities Act of 1933
+ as amended (&ldquo;Securities Act&rdquo;).&#9;
+
+On
+January 31
+ 2019
+we consummated the IPO of 10
+800
+000
+units
+ including 800
+000 units subject to the underwriters&rsquo; over-allotment option. Each unit consisted of one ordinary share
+one right to receive one-tenth of one ordinary share
+ and one redeemable warrant
+ with each warrant entitling the holder to purchase
+one ordinary share at a price of $11.50 per share. The units were sold at an offering price of $10.00 per unit
+ generating gross
+proceeds of $108
+000
+000. Cowen and Company
+ LLC and Craig-Hallum Capital Group LLC acted as joint book-running managers of the
+
+statement on Form S-1 (No. 333-228530) which became effective under Section 8(a) of the Securities Act on January 24
+ 2019.
+
+
+    
+    
+
+
+Simultaneously
+with the consummation of the IPO
+ we consummated the Private Placement of 395
+000 Private Units at a price of $10.00 per Private
+Unit
+ generating total proceeds of $3
+950
+000
+ to certain of our initial shareholders and the joint book-running managers of the
+IPO and their respective affiliates. This issuance was made pursuant to the exemption from registration contained in Section 4(a)(2)
+of the Securities Act. The Private Units are identical to the units sold in the IPO
+ except that the warrants underlying the Private
+Units are non-redeemable and may be exercised on a cashless basis
+ in each case so long as they continue to be held by the initial
+shareholders or their permitted transferees. The purchasers of the Private Units have agreed (A) to vote the ordinary shares underlying
+the Private Units in favor of any proposed business combination
+ (B) not to propose
+ or vote in favor of
+ an amendment to our
+amended and restated memorandum and articles of association with respect to our pre-business combination activities prior to the
+consummation of such a business combination unless we provide public shareholders with the opportunity to convert their public
+shares in connection with any such vote
+ (C) not to convert any ordinary shares underlying the Private Units for cash from the
+trust account in connection with a shareholder vote to approve a proposed initial business combination or a vote to amend the
+provisions of our amended and restated memorandum and articles of association relating to shareholders&rsquo; rights or pre-business
+combination activity
+ and (D) that the ordinary shares underlying the Private Units shall not participate in any liquidating distribution
+from the trust account upon winding up if a business combination is not consummated. The purchasers of Private Units have also
+agreed not to transfer
+ assign or sell any of the Private Units or underlying securities (except to certain permitted transferees)
+until the completion of our initial business combination.
+
+Transaction
+costs amounted to $3
+204
+451
+ consisting of $2
+700
+000 of underwriting fees and $504
+451 of offering costs. In addition
+ $715
+097
+of cash was held outside of the trust account established in connection with the IPO and was available for working capital purposes.
+
+We
+intend to use substantially all of the funds held in the trust account
+ including any amounts representing interest earned on
+the trust account not previously released to us (less taxes payable and deferred underwriting commissions) to complete our initial
+business combination. We may withdraw interest to pay our franchise and income taxes
+ if any
+ and up to $100
+000 for our working
+capital requirements. To the extent that our equity or debt is used
+ in whole or in part
+ as consideration to complete our initial
+business combination
+ the remaining proceeds held in the trust account will be used as working capital to finance the operations
+of the target business or businesses
+ make other acquisitions
+ and pursue our growth strategies.
+
+We
+intend to use the funds held outside the trust account primarily to identify and evaluate target businesses
+ perform business
+due diligence on prospective target businesses
+ travel to and from the offices
+ plants
+ or similar locations of prospective target
+businesses or their representatives or owners
+ review corporate documents and material agreements of prospective target businesses
+and structure
+ negotiate
+ and complete a business combination.
+
+ITEM
+6. SELECTED FINANCIAL DATA
+
+Note
+required for smaller reporting companies.
+
+ITEM
+7. MANAGEMENT&rsquo;S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS 
+
+The
+following discussion and analysis of the Company&rsquo;s financial condition and results of operations should be read in conjunction
+with our audited financial statements and the notes related thereto which are included in &ldquo;Item 8. Financial Statements
+and Supplementary Data&rdquo; of this Annual Report on Form 10-K. Certain information contained in the discussion and analysis
+set forth below includes forward-looking statements. Our actual results may differ materially from those anticipated in these
+forward-looking statements as a result of many factors
+ including those set forth under &ldquo;Special Note Regarding Forward-Looking
+Statements
+&rdquo; &ldquo;Item 1A. Risk Factors&rdquo; and elsewhere in this Annual Report on Form 10-K.
+
+
+    
+    
+
+
+
+
+We
+are a blank check company formed on July 29
+ 2016 for the purpose of entering into a merger
+ share exchange
+ asset acquisition
+stock purchase
+ recapitalization
+ reorganization or other similar business combination with one or more target businesses. We
+intend to effectuate our initial business combination using cash from the proceeds of the IPO and the sale of the Private Placement
+Warrants
+ our capital stock
+ debt or a combination of cash
+ stock and debt.
+
+The
+issuance of additional ordinary shares or preferred shares:
+
+
+
+
+    
+may
+    significantly reduce the equity interest of our shareholders;
+
+    
+    
+
+    
+may
+    subordinate the rights of holders of ordinary shares if we issue preferred shares with rights senior to those afforded to
+    our ordinary shares;
+
+    
+    
+
+    
+will
+    likely cause a change in control if a substantial number of our ordinary shares are issued
+ which may affect
+ among other
+    things
+ our ability to use our net operating loss carry forwards
+ if any
+ and most likely will also result in the resignation
+    or removal of our present officers and directors; and
+
+    
+    
+
+    
+may
+    adversely affect prevailing market prices for our securities.
+
+
+Similarly
+if we issue debt securities
+ it could result in:
+
+
+
+    
+default
+    and foreclosure on our assets if our operating revenues after a business combination are insufficient to pay our debt obligations;
+
+    
+    
+
+    
+acceleration
+    of our obligations to repay the indebtedness even if we have made all principal and interest payments when due if the debt
+    security contains covenants that required the maintenance of certain financial ratios or reserves and we breach any such covenant
+    without a waiver or renegotiation of that covenant;
+
+    
+    
+
+    
+our
+    immediate payment of all principal and accrued interest
+ if any
+ if the debt security is payable on demand; and
+
+    
+    
+
+    
+our
+    inability to obtain additional financing
+ if necessary
+ if the debt security contains covenants restricting our ability to
+    obtain additional financing while such security is outstanding.
+
+
+Results
+of Operations
+
+We
+have neither engaged in any operations nor generated any revenues to date. Our only activities from July 29
+ 2016 (inception)
+to December 31
+ 2018 were organizational activities and those necessary to consummate the IPO
+ described below. Following the
+IPO
+ we do not expect to generate any operating revenues until after the completion of our business combination. We expect to
+generate non-operating income in the form of interest income on cash and marketable securities held after the IPO. We expect to
+incur increased expenses as a result of being a public company (for legal
+ financial reporting
+ accounting and auditing compliance)
+as well as for due diligence expenses.
+
+
+    
+    
+
+
+For
+the year ended December 31
+ 2018 and 2017
+ we had a net loss of $14
+772 and $424 which consists of operating and formation costs
+respectively.
+
+Liquidity
+and Capital Resources
+
+As
+of December 31
+ 2018
+ we had no cash. Until the consummation of the IPO
+ our liquidity needs were satisfied through the receipt
+of $25
+000 from our sale of the Founder Shares
+ and unsecured loans from our sponsor.
+
+On
+January 31
+ 2019
+ we consummated the IPO of 10
+800
+000 Units
+ which includes a partial exercise by the underwriters of their over-allotment
+option in the amount of 800
+000 Units
+ at a price of $10.00 per Unit
+ generating gross proceeds of $108
+000
+000. Simultaneously
+with the closing of the IPO
+ we consummated the sale of 395
+000 Private Units to certain Initial Shareholders and the underwritiers
+at a price of $10.00 per unit
+ generating gross proceeds of $3
+950
+000.
+
+Following
+the IPO and the sale of the Private Units
+ a total of $108
+000
+000 was placed in the Trust Account and
+ following the payment
+of certain transaction expenses
+ we had approximately $715
+000 of cash held outside of the Trust Account and available for working
+capital purposes. We incurred $3
+204
+451 in IPO related costs
+ including $2
+700
+000 of underwriting fees and $504
+451 of other
+costs.
+
+We
+intend to use substantially all of the funds held in the trust account
+ including any amounts representing interest earned on
+the trust account (less taxes payable) to complete our initial Business Combination. We may withdraw interest from the trust account
+to pay franchise and income taxes. To the extent that our equity or debt is used
+ in whole or in part
+ as consideration to complete
+our initial business combination
+ the remaining proceeds held in the trust account will be used as working capital to finance
+the operations of the target business or businesses
+ make other acquisitions and pursue our growth strategies.
+
+
+we entered into a letter agreement with a member of our board of directors that provides for a success fee to be paid to such
+director upon consummation of a Business Combination with a target business introduced to us by such director in an amount equal
+to 0.6% of the total consideration paid by us in the transaction
+ subject to certain minimum and maximum amounts set forth in
+the agreement.
+
+
+ we entered
+into several letter agreements with unaffiliated third parties that provide for a success fee to be paid to each such third party
+upon consummation of a Business Combination with a target business introduced to us by such third party in amounts ranging from
+0.75% to 1% of the total consideration paid by us in the transaction
+ subject to certain minimum and maximum amounts set forth
+in the various agreements.
+
+
+We
+intend to use the funds held outside the Trust Account primarily to identify and evaluate target businesses
+ perform business
+due diligence on prospective target businesses
+ travel to and from the offices
+ plants or similar locations of prospective target
+businesses or their representatives or owners
+ review corporate documents and material agreements of prospective target businesses
+and structure
+ negotiate and complete a business combination.
+
+We
+do not believe we will need to raise additional funds in order to meet the expenditures required for operating our business prior
+to our initial business combination. However
+ if our estimates of the costs of identifying a target business
+ undertaking in-depth
+due diligence and negotiating an initial business combination are less than the actual amount necessary to do so
+ we may have
+insufficient funds available to operate our business prior to our business combination. Moreover
+ we may need to obtain additional
+financing either to complete our business combination or because we become obligated to redeem a significant number of our public
+shares upon completion of our business combination
+ in which case we may issue additional securities or incur debt in connection
+with such business combination. If we are unable to complete our initial business combination because we do not have sufficient
+funds available to us
+ we will be forced to cease operations and liquidate the trust account.
+
+Off-Balance
+Sheet Arrangements; Commitments and Contractual Obligations
+
+We
+have no obligations
+ assets or liabilities which would be considered off-balance sheet arrangements as of December 31
+ 2018. We
+do not participate in transactions that create relationships with unconsolidated entities or financial partnerships
+ often referred
+to as variable interest entities
+ which would have been established for the purpose of facilitating off-balance sheet arrangements.
+We have not entered into any off-balance sheet financing arrangements
+ established any special purpose entities
+ guaranteed any
+debt or commitments of other entities
+ or purchased any non-financial assets.
+
+
+    
+    
+
+
+Contractual
+obligations
+
+We
+do not have any long-term debt
+ capital lease obligations
+ operating lease obligations or long-term.
+
+Critical
+Accounting Policies
+
+The
+preparation of financial statements and related disclosures in conformity with GAAP requires management to make estimates and
+assumptions that affect the reported amounts of assets and liabilities
+ disclosure of contingent assets and liabilities at the
+date of the financial statements
+ and income and expenses during the periods reported. Actual results could materially differ
+from those estimates. We have not identified any critical accounting policies.
+
+Recent
+accounting standards
+
+Management
+does not believe that any recently issued
+ but not yet effective
+ accounting pronouncements
+ if currently adopted
+ would have
+a material effect on our financial statements.
+
+ITEM
+7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+
+
+
+ITEM
+8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA
+
+This
+information appears following Item 16 of this Report and is incorporated herein by reference.
+
+ITEM
+9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE.
+
+
+
+ITEM
+9A. CONTROL AND PROCEDURES
+
+Evaluation
+of Disclosure Controls
+
+Disclosure
+controls and procedures are controls and other procedures that are designed to ensure that information required to be disclosed
+in company reports filed or submitted under the Securities Exchange Act of 1934
+ as amended (the &ldquo;Exchange Act&rdquo;) is
+recorded
+ processed
+ summarized
+ and reported within the time periods specified in the Securities and Exchange Commission&rsquo;s
+rules and forms. Disclosure controls and procedures include
+ without limitation
+ controls and procedures designed to ensure that
+information required to be disclosed in company reports filed or submitted under the Exchange Act is accumulated and communicated
+to management
+ including our Chief Executive Officer
+ as appropriate to allow timely decisions regarding required disclosure.
+
+
+    
+    
+
+
+As
+required by Rules 13a-15 and 15d-15 under the Exchange Act
+ our Chief Executive Officer and Chief Financial Officer carried
+out an evaluation of the effectiveness of the design and operation of our disclosure controls and procedures as of December 31
+2018. Based upon their evaluation
+ they concluded that our disclosure controls and procedures were effective.
+
+Management&rsquo;s
+Report on Internal Control Over Financial Reporting
+
+Our
+internal control over financial reporting is a process designed by
+ or under the supervision of
+ our Chief Executive Officer and
+Chief Financial Officer
+ and effected by our board of directors
+ management
+ and other personnel to provide reasonable assurance
+regarding the reliability of our financial reporting and the preparation of our financial statements for external purposes in
+accordance with generally accepted accounting principles (United States). Internal control over financial reporting includes policies
+and procedures that pertain to the maintenance of records that in reasonable detail accurately and fairly reflect the transactions
+and dispositions of our assets
+ provide reasonable assurance that transactions are recorded as necessary to permit preparation
+of our financial statements in accordance with generally accepted accounting principles (United States)
+ that our receipts and
+expenditures are being made only in accordance with the authorization of our board of directors and management
+ and provide reasonable
+assurance regarding prevention or timely detection of unauthorized acquisition
+ use
+ or disposition of our assets that could have
+a material effect on our financial statements.
+
+Limitations
+on the effectiveness of controls
+
+A
+control system
+ no matter how well conceived and operated
+ can provide only reasonable
+ not absolute
+ assurance that the objectives
+of the control system are met. Because of the inherent limitations in all control systems
+ no evaluation of controls can provide
+absolute assurance that all control issues and instances of fraud
+ if any
+ within a company have been detected. Our disclosure
+controls and procedures are designed to provide reasonable assurance of achieving its objectives. Our principal executive officer
+and principal financial officer concluded that our internal controls over financial reporting are effective at December 31
+ 2018.
+
+During
+the most recently completed fiscal quarter
+ there has been no change in our internal control over financial reporting that has
+materially affected
+ or is reasonably likely to materially affect
+ our internal control over financial reporting.
+
+ITEM
+9B. OTHER INFORMATION
+
+
+
+PART
+III
+
+ITEM
+10. DIRECTORS AND EXECUTIVE OFFICERS OF THE REGISTRANT 
+
+Directors
+and Executive Officers
+
+Our
+current directors and executive officers are as follows:
+
+
+
+    
+    
+    
+    
+    
+
+Julio
+    A. Torres
+    
+    
+    
+Chief
+    Executive Officer and Director
+
+Mauricio
+    Orellana
+    
+    
+    
+Chief
+    Operating Officer and Director
+
+Marjorie
+    Hernandez
+    
+    
+    
+    
+
+B.
+    Luke Weil
+    
+    
+    
+Director
+    (Chairman)
+
+Matthew
+    S. N. Kibble
+    
+    
+    
+    
+
+David
+    Schulhof
+    
+    
+    
+    
+
+
+
+    
+    
+
+
+Julio
+ has served as our Chief Executive Officer since August 2018 and as a member of our Board of Directors since
+November 2018. Since 2013
+ he has been a managing partner at Multiple Equilibria Capital
+ a financial advisory firm covering Latin
+and Central America. From October 2015 to March 2018
+ Mr. Torres served as CEO of Andina Acquisition Corp. II on the deal that
+resulted in the merger with Lazydays. Between 2012 and 2013
+ Mr. Torres served as the co-CEO and board member of Andina Acquisition
+Corp. I. Since the merger with Tecnoglass he has continued as a board member of the merged entity. Prior to that he was managing
+director of Nexus Capital Partners
+ a private equity firm focused in the infrastructure sector in the Andean region. From 2006
+to 2008
+ Mr. Torres served with the Colombian Ministry of Finance as director general of public credit and the treasury. He has
+also worked in other well recognized institutions in the financial sector such as JP Morgan Chase and is currently a board member
+of several companies in the region including Tuscany Oilfield Holdings
+ Fiduprevisora
+ and Serfinansa. Mr. Torres graduated from
+the Universidad de los Andes and received an M.B.A. from the Kellogg Graduate School of Management at Northwestern University
+and a master in public administration from the J.F. Kennedy School of Government at Harvard University.
+
+We
+believe Mr. Torres is well-qualified to serve as a member of our Board due to his contacts and prior experience with Andina I
+and Andina II.
+
+Mauricio
+has served as our Chief Operating Officer since September 2016 and a member of our Board of Directors since November
+2018. Since 2013
+ Mr. Orellana has served as a financial consultant to companies in Latin America in the media
+ infrastructure
+and services sectors. From August 2015 to March 2018
+ Mr. Orellana served as Chief Financial Officer and a member of the board
+of directors of Andina II. From 2005 to 2013
+ Mr. Orellana was a Managing Director at Stephens Inc.
+ a private investment banking
+firm. From 2000 to 2005
+ Mr. Orellana was a Vice President and Managing Director at Cori Capital Partners
+ L.P.
+ a financial services
+firm. Prior to this
+ he served as Investment Officer for Emerging Markets Partnership and Inter-American Investment Corporation
+each private investment firms. Mr. Orellana received a degree in electrical engineering from the Universidad Central de Venezuela
+and an M.B.A. from the Instituto de Education Superior de Administracion.
+
+We
+believe Mr. Orellana is well-qualified to serve as a member of our Board due to his contacts and prior experience with Andina
+II.
+
+Marjorie
+ has served as our Treasurer since September 2016. Ms. Hernandez served as Secretary of Andina II from August
+2015 and as Treasurer from October 2015
+ in each case until March 2018. She was also an initial investor and advisor to Andina
+I. From 2008 to 2015
+ Ms. Hernandez served as senior currency strategist for Latin America at HSBC Securities (USA). From 2005
+to 2008
+ she was the lead macro-economic and political analyst for HSBC
+ covering the Andean region. Previously
+ she was a public
+policy associate at the Council of the Americas
+ a forum dedicated to the contemporary political
+ social
+ and economic issues
+in Latin America. Ms. Hernandez received a B.A. from Columbia University.
+
+
+    
+    
+
+
+B.
+ has served as a member of our Board of Directors (Chairman) since our inception and as our Chief Executive Officer
+from inception until August 2018. In October 2014
+ he founded the Long Island Marine Purification Initiative
+ a non-profit foundation
+established to improve the water quality on Long Island
+ New York
+ and has served as its Chairman since such time. In November
+2012
+ he also co-founded Rios Nete
+ a medical clinic in the upper Amazon region of Peru. Mr. Weil served as Chief Executive Officer
+of Andina II from its inception in July 2015 until August 2015
+ served as a member of its Board of Directors from its inception
+until its business combination with Lazy Days&rsquo; R.V. Center
+ Inc. (including as Non-Executive Chairman of the Board from
+February 2016 until the business combination) and has served as a director of the newly formed public company
+ Lazydays Holdings
+Inc.
+ since the business combination. From 2008 to 2013
+ Mr. Weil was Vice President
+ International Business Development &mdash;
+Latin America for Scientific Games Corporation
+ a supplier of technology-based products
+ systems and services to gaming markets
+worldwide. From January 2013 until its merger in December 2013
+ Mr. Weil served as Chief Executive Officer of Andina 1 and previously
+served as a member of its board from September 2011 until March 2012. From January 2004 to January 2006
+ Mr. Weil served as an
+associate of Business Strategies &amp; Insight
+ a public affairs and business consulting firm. From June 2002 to December 2004
+Mr. Weil served as an analyst at Bear Stearns. Mr. Weil received a B.A. from Brown University and an M.B.A. from Columbia Business
+School.
+
+We
+believe Mr. Weil is well-qualified to serve as a member of our Board due to his contacts and prior experience with Andina I and
+Andina II.
+
+Matthew
+ has served as a member of our Board of Directors since November 2018. In November 2013
+ Mr. Kibble founded
+Australy International LLC
+ a boutique investment bank
+ and has served as a Partner since. He also is the founder and Managing
+Partner of Kibble Holdings
+ a private investment vehicle. Since July 2013
+ he has also served as Principal and an advisor to Cap-Meridian
+Ventures
+ a venture capital firm. From October 2010 to July 2013
+ Mr. Kibble was the Founder and Chief Operating Officer of Everlight
+Capital
+ LLC
+ a boutique investment bank. From June 2009 to June 2010
+ Mr. Kibble served as Executive Director of The Westrock
+Group
+ Inc.
+ a broker-dealer and asset management firm. From November 2005 to May 2009
+ Mr. Kibble was with JPMorgan Securities
+Inc. where he worked in the institutional equities and derivatives section. Prior to this
+ Mr. Kibble was an analyst at JPMorgan
+Chase and GMCG
+ LLC. Mr. Kibble is currently a director of Kibble Pet
+ Sargon Capital and Selong Selo Developments
+ all private
+companies. Mr. Kibble served as a member of the Board of Directors of Andina II from August 2015 until its business combination
+with Lazy Days&rsquo; R.V. Center
+ Inc. Mr. Kibble received a Bachelor of Science and a Bachelor of Commerce from the University
+of Queensland in Australia.
+
+We
+believe Mr. Kibble is well-qualified to serve as a member of our Board due to his contacts and prior experience with Andina II.
+
+David
+ has served as a member of our Board of Directors since November 2018. Mr. Schulhof has served as President of
+Music at AGC Studios since January 2018 and is the co-founder and President of IM Global Music which he founded in December 2014.
+From March 2012 to November 2014
+ he was a Managing Director at G2 Investment Group
+ an offshoot of New York private equity firm
+Guggenheim Partners
+ focusing on the firm&rsquo;s media investments. Prior to G2
+ he was the Co-Founder and Chief Executive Officer
+of Evergreen Copyrights from January 2005 through December 2010
+ which pursued a global acquisition strategy. Mr. Schulhof and
+his partners built Evergreen into one of the leading independent music publishing companies worldwide and in 2010 sold Evergreen
+to KKR/BMG Rights Management. Before launching Evergreen
+ from 1997 to 2004
+ he was Vice President of Motion Picture Music at
+Miramax and Dimension Films. Prior to joining Miramax
+ he was a lawyer at the law offices of Pryor Cashman Sherman and Flynn
+representing film
+ music and TV clients. He began his career at Interscope Records. Mr. Schulhof served as Director of MI Acquisitions
+Inc.
+ a blank check company that successfully completed a business combination with Priority Holdings LLC. Mr. Schulhof received
+a B.A. from Georgetown University and a J.D. from the NYU School of Law.
+
+
+    
+    
+
+
+We
+believe Mr. Schulhof is well-qualified to serve as a member of our Board due to his prior experience including with MI Acquisitions
+Inc.
+
+Our
+board of directors is divided into three classes with only one class of directors being elected in each year and each class serving
+a three-year term. The term of office of the first class of directors
+ consisting of David Schulhof
+ will expire at our first
+annual meeting of shareholders. The term of office of the second class of directors
+ consisting of Mauricio Orellana and Matthew
+S. N. Kibble
+ will expire at the second annual meeting. The term of office of the third class of directors
+ consisting of B. Luke
+Weil and Julio Torres
+ will expire at the third annual meeting.
+
+Director
+Independence
+
+Our
+board has determined that each of B. Luke Weil
+ Matthew S. N. Kibble and David Schulhof is an &ldquo;independent director&rdquo;
+under the Nasdaq listing standards and applicable SEC rules. Our independent directors will have regularly scheduled meetings
+at which only independent directors are present.
+
+Any
+affiliated transactions will be on terms no less favorable to us than could be obtained from independent parties. Our board of
+directors will review and approve all affiliated transactions with any interested director abstaining from such review and approval.
+
+Audit
+Committee
+
+Effective
+January 28
+ 2019
+ we established an audit committee of the board of directors
+ in accordance with Section 3(a)(58)(A) of the Exchange
+Act
+ which consists of Messrs. Weil
+ Kibble and Schulhof
+ each of whom is an independent director under Nasdaq&rsquo;s listing
+standards. The audit committee&rsquo;s duties
+ which are specified in our Audit Committee Charter
+ include
+ but are not limited
+to:
+
+
+
+    
+    
+reviewing
+    and discussing with management and the independent auditor the annual audited financial statements
+ and recommending to the
+    board whether the audited financial statements should be included in our Form 10-K;
+
+    
+    
+    
+
+    
+    
+discussing
+    with management and the independent auditor significant financial reporting issues and judgments made in connection with the
+    preparation of our financial statements;
+
+    
+    
+    
+
+    
+    
+discussing
+    with management major risk assessment and risk management policies;
+
+    
+    
+    
+
+    
+    
+monitoring
+    the independence of the independent auditor;
+
+    
+    
+    
+
+    
+    
+verifying
+    the rotation of the lead (or coordinating) audit partner having primary responsibility for the audit and the audit partner
+    responsible for reviewing the audit as required by law;
+
+    
+    
+    
+
+    
+    
+reviewing
+    and approving all related-party transactions;
+
+    
+    
+    
+
+    
+    
+inquiring
+    and discussing with management our compliance with applicable laws and regulations;
+
+    
+    
+    
+
+    
+    
+pre-approving
+    all audit services and permitted non-audit services to be performed by our independent auditor
+ including the fees and terms
+    of the services to be performed;
+
+
+
+    
+    
+
+
+
+
+    
+    
+appointing
+    or replacing the independent auditor;
+
+    
+    
+    
+
+    
+    
+determining
+    the compensation and oversight of the work of the independent auditor (including resolution of disagreements between management
+    and the independent auditor regarding financial reporting) for the purpose of preparing or issuing an audit report or related
+    work;
+
+    
+    
+    
+
+    
+    
+establishing
+    procedures for the receipt
+ retention and treatment of complaints received by us regarding accounting
+ internal accounting
+    controls or reports which raise material issues regarding our financial statements or accounting policies; and
+
+    
+    
+    
+
+    
+    
+approving
+    reimbursement of expenses incurred by our management team in identifying potential target businesses.
+
+
+Financial
+Experts on Audit Committee
+
+The
+audit committee will at all times be composed exclusively of &ldquo;independent directors&rdquo; who are &ldquo;financially literate&rdquo;
+as defined under Nasdaq&rsquo;s listing standards. In addition
+ we must certify to Nasdaq that the committee has
+ and will continue
+to have
+ at least one member who has past employment experience in finance or accounting
+ requisite professional certification
+in accounting
+ or other comparable experience or background that results in the individual&rsquo;s financial sophistication. The
+board of directors has determined that Mr. Weil qualifies as an &ldquo;audit committee financial expert
+&rdquo; as defined under
+rules and regulations of the SEC.
+
+Nominating
+Committee
+
+Effective
+January 28
+ 2019
+ we established a nominating committee of the board of directors
+ which consists of Messrs. Weil
+ Kibble and
+Schulhof
+ each of whom is an independent director under Nasdaq&rsquo;s listing standards. The nominating committee is responsible
+for overseeing the selection of persons to be nominated to serve on our board of directors. The nominating committee considers
+persons identified by its members
+ management
+ shareholders
+ investment bankers and others.
+
+Guidelines
+for Selecting Director Nominees
+
+The
+guidelines for selecting nominees
+ which are specified in the Nominating Committee Charter
+ generally provide that persons to
+be nominated:
+
+
+
+    
+    
+should
+    have demonstrated notable or significant achievements in business
+ education or public service;
+
+    
+    
+    
+
+    
+    
+should
+    possess the requisite intelligence
+ education and experience to make a significant contribution to the board of directors
+    and bring a range of skills
+ diverse perspectives and backgrounds to its deliberations; and
+
+    
+    
+    
+
+    
+    
+should
+    have the highest ethical standards
+ a strong sense of professionalism and intense dedication to serving the interests of the
+    shareholders.
+
+
+The
+Nominating Committee will consider a number of qualifications relating to management and leadership experience
+ background
+ and
+integrity and professionalism in evaluating a person&rsquo;s candidacy for membership on the board of directors. The nominating
+committee may require certain skills or attributes
+ such as financial or accounting experience
+ to meet specific board needs that
+arise from time to time and will also consider the overall experience and makeup of its members to obtain a broad and diverse
+mix of board members. The nominating committee does not distinguish among nominees recommended by shareholders and other persons.
+
+
+    
+    
+
+
+There
+have been no material changes to the procedures by which security holders may recommend nominees to our board of directors.
+
+Compensation
+Committee
+
+Effective
+January 28
+ 2019
+ we established a compensation committee of the board of directors
+ which consists of Messrs. Weil
+ Kibble and
+Schulhof
+ each of whom is an independent director under Nasdaq&rsquo;s listing standards. The compensation committee&rsquo;s duties
+which are specified in our Compensation Committee Charter
+ include
+ but are not limited to:
+
+
+
+    
+    
+reviewing
+    and approving on an annual basis the corporate goals and objectives relevant to our Chief Executive Officer&rsquo;s compensation
+    evaluating our Chief Executive Officer&rsquo;s performance in light of such goals and objectives and determining and approving
+    the remuneration (if any) of our Chief Executive Officer based on such evaluation;
+
+    
+    
+    
+
+    
+    
+reviewing
+    and approving the compensation of all of our other executive officers;
+
+    
+    
+    
+
+    
+    
+reviewing
+    our executive compensation policies and plans;
+
+    
+    
+    
+
+    
+    
+implementing
+    and administering our incentive compensation equity-based remuneration plans;
+
+    
+    
+    
+
+    
+    
+assisting
+    management in complying with our proxy statement and annual report disclosure requirements;
+
+    
+    
+    
+
+    
+    
+approving
+    all special perquisites
+ special cash payments and other special compensation and benefit arrangements for our executive officers
+    and employees;
+
+    
+    
+    
+
+    
+    
+if
+    required
+ producing a report on executive compensation to be included in our annual proxy statement; and
+
+    
+    
+    
+
+    
+    
+reviewing
+    evaluating
+ and recommending changes
+ if appropriate
+ to the remuneration for directors.
+
+
+Code
+of Ethics
+
+Effective
+January 28
+ 2019
+ we adopted a code of ethics that applies to all of our executive officers
+ directors
+ and employees. The code
+of ethics codifies the business and ethical principles that govern all aspects of our business.
+
+Section
+16(a) Beneficial Ownership Reporting Compliance
+
+Section
+16(a) of the Exchange Act requires our officers
+ directors
+ and persons who own more than ten percent of a registered class of
+our equity securities to file reports of ownership and changes in ownership with the Securities and Exchange Commission. Officers
+directors
+ and ten percent stockholders are required by regulation to furnish us with copies of all Section 16(a) forms they file.
+Based solely on copies of such forms received or written representations from certain reporting persons that no Form 5s were required
+for those persons
+ we believe that
+ during the fiscal year ended December 31
+ 2018
+ all filing requirements applicable to our
+officers
+ directors
+ and greater than ten percent beneficial owners were complied with.
+
+
+    
+    
+
+
+ITEM
+11. EXECUTIVE COMPENSATION
+
+Executive
+Compensation
+
+No
+executive officer has received any cash compensation for services rendered to us. We may pay consulting
+ finder or success fees
+to our officers
+ directors
+ shareholders or their affiliates for assisting us in consummating our initial business combination.
+They will also receive reimbursement for any out-of-pocket expenses incurred by them in connection with activities on our behalf
+such as identifying potential target businesses
+ performing business due diligence on suitable target businesses and business
+combinations
+ as well as traveling to and from the offices
+ plants
+ or similar locations of prospective target businesses to examine
+their operations. There is no limit on the amount of out-of-pocket expenses reimbursable by us.
+
+After
+our initial business combination
+ members of our management team who remain with us may be paid consulting
+ management
+ or other
+fees from the combined company with any and all amounts being fully disclosed to shareholders
+ to the extent then known
+ in the
+proxy solicitation materials furnished to our shareholders. The amount of such compensation may not be known at the time of a
+shareholder meeting held to consider an initial business combination
+ as it will be up to the directors of the post-combination
+business to determine executive and director compensation. In this event
+ such compensation will be publicly disclosed at the
+time of its determination in a Current Report on Form 8-K
+ as required by the SEC.
+
+Since
+our formation
+ we have not granted any stock options or stock appreciation rights or any other awards under long-term incentive
+plans to any of our executive officers or directors.
+
+ITEM
+12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED SHAREHOLDER MATTERS
+
+The
+following table sets forth information regarding the beneficial ownership of our ordinary shares by:
+
+
+
+    
+    
+each
+    person known by us to be the beneficial owner of more than 5% of our outstanding ordinary shares;
+
+    
+    
+    
+
+    
+    
+each
+    of our officers and directors; and
+
+    
+    
+    
+
+    
+    
+all
+    of our officers and directors as a group.
+
+
+Unless
+otherwise indicated
+ we believe that all persons named in the table have sole voting and investment power with respect to all
+ordinary shares beneficially owned by them. The following table does not reflect record of beneficial ownership of the rights
+or warrants included in the units offered in the IPO or the warrants or rights underlying the Private Placement Units
+as these rights and warrants are not convertible or exercisable within 60 days of the date hereof.
+
+
+    
+    
+
+
+
+
+    
+    
+Amount
+    and
+    
+
+    
+    
+Nature
+    of
+Percentage
+    of
+
+    
+    
+    
+    
+
+Name
+    and Address of Beneficial Owner
+    
+    
+Ordinary
+    Shares
+
+Julio
+    A. Torres
+    
+201
+981
+    
+
+Mauricio
+    Orellana
+    
+180
+490
+    
+
+Marjorie
+    Hernandez
+    
+160
+436
+    
+
+B.
+    Luke Weil
+    
+1
+514
+680
+    
+
+Matthew
+    S. N. Kibble
+    
+5
+000
+    
+
+David
+    Schulhof
+    
+50
+249
+    
+
+All
+    directors and executive officers as a group (six individuals)
+    
+2
+112
+836
+    
+
+LWEH3
+    LLC
+    
+598
+957
+    
+
+Weiss
+    Asset Management LP
+    
+1
+124
+234
+    
+
+AQR
+    Capital Management
+ LLC
+    
+1
+200
+000
+    
+
+
+
+
+
+
+
+    
+    
+
+    
+Unless otherwise indicated
+ the business address
+    of each of the individuals is Calle 113 # 7-45 Torre B
+ Oficina 1012
+ Bogot&aacute;
+ Colombia.
+
+    
+Includes
+    55
+784 insider shares held by Andina Equity LLC
+ of which Mr. Torres is a member and which will vest in full in Mr. Torres
+    only upon the happening of certain events. Also includes 69
+688 insider shares held by Mr. Torres which will vest in Mr. Torres
+    only if he remains affiliated with our company at the time of our initial business combination.
+
+    
+Includes
+    49
+909 insider shares held by Andina Equity LLC
+ of which Mr. Orellana is a member and which will vest in full in Mr. Orellana
+    only upon the happening of certain events. Also includes 62
+703 insider shares held by Mr. Orellana which will vest in Mr.
+    Orellana only if he remains affiliated with our company at the time of our initial business combination.
+
+    
+Includes
+    44
+307 insider shares held by Andina Equity LLC
+ of which Ms. Hernandez is a member and which will vest in in full in Ms.
+    Hernandez only upon the happening of certain events. Also includes 55
+328 insider shares held by Ms. Hernandez which will
+    vest in Ms. Hernandez only if she remains affiliated with our company at the time of our initial business combination.
+
+    
+Includes
+    shares held by LWEH3 LLC
+ a limited liability company controlled by Mr. Weil. Does not include the vesting shares referred
+    to in footnotes 2
+ 3 and 4 above. Mr. Weil may have a right to some or all of such shares if they do not vest in the individuals
+    as indicated therein.
+
+    
+This
+    entity is controlled by B. Luke Weil.
+
+    
+Weiss
+    Asset Management LP
+ a Delaware limited partnership (&ldquo;Weiss Asset Management&rdquo;)
+ BIP GP LLC
+ a Delaware limited
+    liability company (&ldquo;BIP GP&rdquo;) WAM GP LLC
+ a Delaware limited liability company (&ldquo;WAM GP&rdquo;)
+ and Andrew
+    M. Weiss
+ Ph.D.
+ have a business address of 222 Berkeley St.
+ 16th Floor
+ Boston
+ Massachusetts 02116. Weiss Asset Management
+    BP GP
+ WAM GP and Andrew Weiss have shared voting and dispositive power of all the shares. Shares reported for BIP GP include
+    shares beneficially owned by a private investment partnership (the &ldquo;Partnership&rdquo;) of which BIP GP is the sole
+    general partner. Weiss Asset Management is the sole investment manager to the Partnership. WAM GP is the sole general partner
+    of Weiss Asset Management. Andrew Weiss is the managing member of WAM GP. Shares reported for WAM GP
+ Andrew Weiss and Weiss
+    Asset Management include shares beneficially owned by the Partnership and BIP GP. Each of BIP GP
+ WAM GP
+ Weiss Asset Management
+    and Andrew Weiss disclaims beneficial ownership of the shares reported herein as beneficially owned by each except to the
+    extent of their respective pecuniary interest therein. Information as reported in a Schedule 13G filed on February 8
+ 2019.
+
+    
+AQR
+    Capital Management
+ LLC is a wholly owned subsidiary of AQR Capital Management Holdings
+ LLC. CNH Partners
+ LLC is deemed
+    to be controlled by AQR Capital Management
+ LLC. AQR Capital Management
+ LLC
+ and CNH Partners
+ LLC act as investment manager
+    to AQR Absolute Return Master Account
+ L.P. AQR Principal Global Asset Allocation
+ LLC is the general partner of AQR Absolute
+    Return Master Account
+ L.P. The principal business address of each is Two Greenwich Plaza
+ Greenwich
+ CT 06830. Information
+    as reported in a Schedule 13G filed on February 6
+ 2019.
+
+
+All
+of the insider shares outstanding prior to our IPO have been placed in escrow with Continental Stock Transfer &amp; Trust Company
+as escrow agent
+ until (1) with respect to 50% of the insider shares
+ the earlier of one year after the date of the consummation
+of our initial business combination and the date on which the closing price of our ordinary shares equals or exceeds $12.50 per
+share (as adjusted for share splits
+ share dividends
+ reorganizations and recapitalizations) for any 20 trading days within any
+30-trading day period commencing after our initial business combination and (2) with respect to the remaining 50% of the insider
+shares
+ one year after the date of the consummation of our initial business combination
+ or earlier
+ in either case
+ if
+ subsequent
+to our initial business combination
+ we consummate a liquidation
+ merger
+ share exchange or other similar transaction which results
+in all of our shareholders having the right to exchange their shares for cash
+ securities or other property.
+
+During
+the escrow period
+ the holders of the insider shares will not be able to sell or transfer their securities except (i) to any persons
+(including their affiliates and members) that participated in the Private Placement of the Private Units
+ (ii) for transfers to
+our officers
+ directors or their respective affiliates (including for transfers to an entity&rsquo;s members upon its liquidation)
+(iii) to relatives and trusts for estate planning purposes
+ (iv) by virtue of the laws of descent and distribution upon death
+(v) pursuant to a qualified domestic relations order
+ (vi) by certain pledges to secure obligations incurred in connection with
+purchases of our securities
+ (vii) by private sales made at or prior to the consummation of a business combination at prices no
+greater than the price at which the shares were originally purchased or (viii) to us for no value for cancellation in connection
+with the consummation of our initial business combination
+ in each case (except for clause (viii) or with our prior consent) where
+the transferee agrees to the terms of the escrow agreement
+ but will retain all other rights as our shareholders
+ including
+ without
+limitation
+ the right to vote their ordinary shares and the right to receive cash dividends
+ if declared. If dividends are declared
+and payable in ordinary shares
+ such dividends will also be placed in escrow. If we are unable to effect a business combination
+and liquidate
+ there will be no liquidation distribution with respect to the insider shares.
+
+B.
+Luke Weil is our &ldquo;promoter
+&rdquo; as that term is defined under the federal securities laws.
+
+Equity
+Compensation Plans
+
+As
+of December 31
+ 2018
+ we had no compensation plans (including individual compensation arrangements) under which equity securities
+of the registrant were authorized for issuance.
+
+
+    
+    
+
+
+ITEM
+13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ AND DIRECTOR INDEPENDENCE
+
+
+regarding certain relationships and related transactions
+ see the section titled &ldquo;Certain Transactions&rdquo; contained
+in our prospectus dated January 28
+ 2019
+ incorporated by reference herein.
+
+
+above
+ we entered into a letter agreement with a member of our board of directors that provides for a success fee to be paid to
+such director upon consummation of a Business Combination with a target business introduced to us by such director in an amount
+equal to 0.6% of the total consideration paid by us in the transaction
+ subject to certain minimum and maximum amounts set forth
+in the agreement.
+
+ITEM
+14. PRINCIPAL ACCOUNTING FEES AND SERVICES.
+
+The
+firm of Marcum LLP acts as our independent registered public accounting firm. The following is a summary of fees paid to Marcum
+LLP for services rendered.
+
+Audit
+Fees
+
+During
+the fiscal periods ended December 31
+ 2018 and 2017
+ fees for our independent registered public accounting firm
+were approximately $97
+500 and $37
+500
+ respectively
+ for the services they performed in connection with our IPO and the
+audit of our December 31
+ 2018 and 2017 financial statements included in this Annual Report on Form 10-K.
+
+Audit-Related
+Fees
+
+During
+the fiscal periods ended December 31
+ 2018 and 2017
+ our independent registered public accounting firm did not render
+assurance and related services related to the performance of the audit or review of financial statements.
+
+Tax
+Fees
+
+During
+the fiscal periods ended December 31
+ 2018 and 2017
+ our independent registered public accounting firm did not render
+services to us for tax compliance
+ tax advice and tax planning.
+
+All
+Other Fees
+
+During
+the fiscal periods ended December 31
+ 2018 and 2017
+ there were no fees billed for products and services provided
+by our independent registered public accounting firm other than those set forth above.
+
+Audit
+Committee Approval
+
+Because
+our audit committee was not formed until January 28
+ 2019
+ the audit committee did not pre-approve all of the foregoing services
+although any services rendered prior to the formation of our audit committee were approved by our board of directors. However
+in accordance with Section 10A(i) of the Exchange Act
+ before we engage our independent registered public accounting firm to render
+audit or non-audit services on a going-forward basis
+ the engagement will be approved by our audit committee.
+
+ITEM
+15. EXHIBITS
+ FINANCIAL STATEMENTS
+ AND SCHEDULES
+
+(a)
+The following documents are filed as part of this report:
+
+
+Financial
+                                         Statements:
+
+
+
+
+    
+    
+
+    
+    
+
+Financial
+    Statements:
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+F-7
+    &ndash; F-13
+
+
+
+
+
+
+
+(2)
+Financial Statement Schedules:
+
+
+
+
+    
+    
+
+
+(b)
+The following Exhibits are filed as part of this report:
+
+
+
+    
+                                                                        
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+Form of Letter Agreement from each of the Registrant&rsquo;s initial shareholders
+ officers and directors.**
+
+    
+    
+    
+
+    
+    
+Stock Escrow Agreement between the Registrant
+ Continental Stock Transfer &amp; Trust Company and the Initial Shareholders.*
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+Incorporated
+    by reference to the Registrant&rsquo;s Current Report on Form 8-K filed on January 31
+ 2019
+
+    
+Incorporated
+    by reference to the Registrant&rsquo;s Registration Statement on Form S-1 (SEC File No. 333-228530).
+
+
+ITEM
+16. FORM 10-K SUMMARY
+
+
+
+
+    
+    
+
+
+SIGNATURES
+
+
+Pursuant
+to the requirements of the Section 13 or 15 or 15(d) of the Securities Exchange Act of 1934
+ the registrant has duly caused this
+report to be signed on its behalf by the undersigned
+ day of March
+2019.
+
+
+
+    
+ANDINA
+    ACQUISITION CORP. III
+
+    
+    
+    
+
+    
+    
+Julio
+    Torres
+
+    
+    
+Julio
+    Torres
+
+    
+    
+Chief
+    Executive Officer
+
+
+In
+accordance with the Securities Exchange Act of 1934
+ this report has been signed below by the following persons on behalf of the
+registrant and in the capacities and on the dates indicated.
+
+
+
+    
+    
+    
+    
+    
+
+    
+        
+        
+    
+    
+Chief
+        Executive Officer and Director 
+    
+    
+March
+        27
+ 2019
+
+    
+    
+(Principal Executive
+    Officer)
+    
+    
+
+    
+    
+    
+    
+    
+
+/s/
+
+    
+Chief
+Financial Officer 
+    
+March
+        27
+ 2019
+
+Mauricio
+    Orellana
+    
+(Principal Financial
+    and Accounting Officer)
+    
+    
+
+    
+    
+    
+    
+    
+
+/s/
+B. Luke Weil
+    
+    
+    
+March
+        27
+ 2019
+
+B.
+    Luke Weil
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+/s/
+
+    
+    
+    
+March
+        27
+ 2019
+
+Matthew
+    S. N. Kibble
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+/s/
+David Schulhof
+        
+    
+    
+    
+March
+        27
+ 2019
+
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+
+
+ANDINA
+ACQUISITION CORP. III
+
+INDEX
+TO FINANCIAL STATEMENTS
+
+
+
+    
+    
+
+Financial
+    Statements:
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+F-7
+    &ndash; F-13
+
+
+
+
+    
+    
+
+
+REPORT
+OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+
+To
+the Shareholders and the Board of Directors of
+Andina Acquisition Corp. III
+
+Opinion
+on the Financial Statements
+
+We
+have audited the accompanying balance sheets of Andina Acquisition Corp. III (the &ldquo;Company&rdquo;) as of December 31
+ 2018
+and 2017
+ the related statements of operations
+ changes in shareholder&rsquo;s equity (deficit) and cash flows for the years ended
+December 31
+ 2018 and 2017
+ and the related notes (collectively referred to as the &ldquo;financial statements&rdquo;). In our
+opinion
+ the financial statements present fairly
+ in all material respects
+ the financial position of the Company as of December
+31
+ 2018 and 2017
+ and the results of its operations and its cash flows for the years ended December 31
+ 2018 and 2017
+ in conformity
+with accounting principles generally accepted in the United States of America.
+
+Basis
+for Opinion
+
+These
+financial statements are the responsibility of the Company&rsquo;s management. Our responsibility is to express an opinion on
+the Company&rsquo;s financial statements based on our audits. We are a public accounting firm registered with the Public Company
+Accounting Oversight Board (United States) (the &ldquo;PCAOB&rdquo;) and are required to be independent with respect to the Company
+in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission
+and the PCAOB.
+
+We
+conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audits
+to obtain reasonable assurance about whether the financial statements are free of material misstatement
+ whether due to error
+or fraud. The Company is not required to have
+ nor were we engaged to perform
+ an audit of its internal control over financial
+reporting. As part of our audits
+ we are required to obtain an understanding of internal control over financial reporting but
+not for the purpose of expressing an opinion on the effectiveness of the Company&rsquo;s internal control over financial reporting.
+Accordingly
+ we express no such opinion.
+
+Our
+audits included performing procedures to assess the risks of material misstatement of the financial statements
+ whether due to
+error or fraud
+ and performing procedures that respond to those risks. Such procedures included examining
+ on a test basis
+ evidence
+regarding the amounts and disclosures in the financial statements. Our audits also included evaluating the accounting principles
+used and significant estimates made by management
+ as well as evaluating the overall presentation of the financial statements.
+We believe that our audits provide a reasonable basis for our opinion.
+
+/s/
+Marcum LLP
+
+Marcum
+LLP
+
+We
+have served as the Company&rsquo;s auditor since 2016.
+
+New
+York
+ NY
+
+ 2019
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+156
+276
+35
+839
+
+    
+156
+276
+35
+839
+
+    
+    
+    
+
+    
+    
+    
+
+    
+10
+075
+2
+917
+
+    
+43
+700
+    
+
+    
+72
+239
+    
+
+    
+34
+259
+22
+147
+
+    
+160
+273
+25
+064
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+
+ $0.0001 par value; 1
+000
+000 shares authorized; none issued and outstanding
+    
+    
+
+Ordinary shares
+ $0.0001 par value; 100
+000
+000 shares authorized; 2
+875
+000 shares issued and outstanding
+    
+    
+
+    
+24
+713
+24
+713
+
+    
+(28
+997
+(14
+225
+
+    
+(3
+997
+10
+775
+
+    
+156
+276
+35
+839
+
+
+
+
+    
+As
+    of December 31
+ 2018 and 2017
+ this amount included an aggregate of 375
+000 shares that were subject to forfeiture to the
+    extent that the underwriters&rsquo; over-allotment option was not exercised in full. As a result of the underwriters&rsquo;
+    election to partially exercise their over-allotment option in January 2019
+ an aggregate of 200
+000 shares were no longer
+    subject to forfeiture and 175
+000 shares were subject to forfeiture to the extent that the underwriters&rsquo; over-allotment
+    was not exercised in full. The remaining over-allotment option expired unexercised on March 17
+ 2019 (see Note 7).
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+14
+772
+    
+
+    
+    
+    
+
+    
+(14
+772
+    
+
+    
+    
+    
+
+Weighted average number of shares outstanding
+ basic and diluted 
+2
+500
+000
+2
+500
+000
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+    
+As
+    of December 31
+ 2018 and 2017
+ this amount excluded an aggregate of 375
+000 shares that were subject to forfeiture to the
+    extent that the underwriters&rsquo; over-allotment option was not exercised in full. As a result of the underwriters&rsquo;
+    election to partially exercise their over-allotment option in January 2019
+ an aggregate of 200
+000 shares were no longer
+    subject to forfeiture and 175
+000 shares were subject to forfeiture to the extent that the underwriters&rsquo; over-allotment
+    was not exercised in full. The remaining over-allotment option expired unexercised on March 17
+ 2019 (see Note 7).
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+
+ January 1
+ 2017
+2
+875
+000
+    
+24
+713
+(13
+801
+11
+199
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+ December 31
+ 2017
+2
+875
+000
+    
+24
+713
+(14
+225
+10
+775
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+(14
+772
+(14
+772
+
+    
+    
+    
+    
+    
+    
+
+
+ December 31
+ 2018
+2
+875
+000
+    
+24
+713
+(28
+997
+(3
+997
+
+
+
+
+    
+As
+    of December 31
+ 2018 and 2017
+ this amount included an aggregate of 375
+000 shares that were subject to forfeiture to the
+    extent that the underwriters&rsquo; over-allotment option was not exercised in full. As a result of the underwriters&rsquo;
+    election to partially exercise their over-allotment option in January 2019
+ an aggregate of 200
+000 shares were no longer
+    subject to forfeiture and 175
+000 shares were subject to forfeiture to the extent that the underwriters&rsquo; over-allotment
+    was not exercised in full. The remaining over-allotment option expired unexercised on March 17
+ 2019 (see Note 7).
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    
+(14
+772
+    
+
+    
+    
+    
+
+    
+7
+158
+(5
+884
+
+    
+(7
+614
+(6
+308
+
+    
+    
+    
+
+    
+    
+    
+
+    
+72
+239
+    
+
+    
+12
+112
+6
+308
+
+    
+(76
+737
+    
+
+    
+7
+614
+6
+308
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+43
+700
+    
+
+
+The
+accompanying notes are an integral part of these financial statements.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+ 2018
+
+Note
+1 &mdash; Organization and Plan of Business Operations
+
+Andina
+Acquisition Corp. III (the &ldquo;Company&rdquo;) was incorporated in the Cayman Islands on July 29
+ 2016 as a blank check company
+for the purpose of effecting a merger
+ share exchange
+ asset acquisition
+ share purchase
+ recapitalization
+ reorganization or
+other similar business combination with one or more businesses or entities (a &ldquo;Business Combination&rdquo;). The Company&rsquo;s
+efforts to identify a prospective target business will not be limited to a particular industry or geographic region
+ although
+the Company initially intends to focus on target businesses in the Americas.
+
+At
+December 31
+ 2018
+ the Company had not yet commenced operations. All activity through December 31
+ 2018 relates to the Company&rsquo;s
+formation and its initial public offering (the &ldquo;Initial Public Offering&rdquo;)
+ which is described below. The Company is
+subject to all of the risks associated with early stage and emerging growth companies.
+
+Initial
+Public Offering
+
+The
+registration statement for the Initial Public Offering was declared effective on January 24
+ 2019 pursuant to Section 8(a) of
+the Securities Act of 1933
+ as amended. On January 31
+ 2019
+ the Company consummated the Initial Public Offering of 10
+800
+000
+units (the &ldquo;Units&rdquo; and
+ with respect to the ordinary shares included in the Units offered
+ the &ldquo;Public Shares&rdquo;)
+which includes a partial exercise by the underwriters of their over-allotment option in the amount of 800
+000 Units
+ at $10.00
+per Unit
+ generating gross proceeds of $108
+000
+000
+ which is described in Note 3.
+
+Simultaneously
+with the closing of the Initial Public Offering
+ the Company consummated the sale of 395
+000 units (the &ldquo;Private Units&rdquo;)
+at a price of $10.00 per Unit in a private placement (the &ldquo;Private Placement&rdquo;) to certain shareholders
+ or their affiliates
+(collectively
+ the &ldquo;Initial Shareholders&rdquo;) and the underwriters
+ generating gross proceeds of $3
+950
+000
+ which is
+described in Note 4.
+
+Transaction
+costs amounted to $3
+204
+451
+ consisting of $2
+700
+000 of underwriting fees and $504
+451 of offering costs. In addition
+ as of
+January 31
+ 2019
+ $715
+097 of cash was held outside of the Trust Account (defined below) and is available for working capital
+purposes.
+
+Following
+the closing of the Initial Public Offering on January 31
+ 2019
+ an amount of $108
+000
+000 ($10.00 per Unit) from the net proceeds
+of the sale of the Units in the Initial Public Offering and the sale of the Private Units was placed in a trust account (the &ldquo;Trust
+Account&rdquo;)
+ which has been invested in U.S. government securities
+ within the meaning set forth in Section 2(a)(16) of the
+Investment Company Act of 1940
+ as amended (the &ldquo;Investment Company Act&rdquo;)
+ with a maturity of 180 days or less or
+in any open-ended investment company that holds itself out as a money market fund meeting the conditions of Rule 2a-7 of the Investment
+Company Act
+ as determined by the Company
+ until the earlier of: (i) the consummation of a Business Combination or (ii) the distribution
+of the Trust Account to its shareholders
+ as described below.
+
+The
+Company&rsquo;s management has broad discretion with respect to the specific application of the net proceeds of the Initial Public
+Offering and sale of the Private Units
+ although substantially all of the net proceeds are intended to be applied generally toward
+consummating a Business Combination. Placing funds in the Trust Account may not protect those funds from third party claims against
+the Company. Although the Company will seek to have all vendors
+ service providers
+ prospective target businesses or other entities
+it engages
+ execute agreements with the Company waiving any claim of any kind in or to any monies held in the Trust Account
+ there
+is no guarantee that such persons will execute such agreements. One of the Company&rsquo;s directors has agreed to be personally
+liable if the Company liquidates the Trust Account prior to the consummation of a Business Combination to ensure that the proceeds
+held in the Trust Account are not reduced by the claims of target businesses or claims of vendors or other entities that are owed
+money by the Company for services rendered or contracted for or products sold to the Company. However
+ such director may not be
+able to satisfy those obligations should they arise. The remaining net proceeds (not held in the Trust Account) may be used to
+pay for business
+ legal and accounting due diligence on prospective acquisitions and continuing general and administrative expenses.
+Additionally
+ the interest earned on the Trust Account balance may be released to the Company to pay the Company&rsquo;s tax obligations
+and up to $100
+000 may be released to pay for the Company&rsquo;s working capital obligations
+ including any necessary liquidation
+or dissolution expenses.
+
+In
+order to meet its working capital needs following the consummation of the Initial Public Offering
+ the Company&rsquo;s Initial
+Shareholders
+ officers and directors or their affiliates may
+ but are not obligated to
+ loan the Company funds
+ from time to time
+or at any time
+ in whatever amount they deem reasonable in their sole discretion. Each loan would be evidenced by a promissory
+note. The notes would either be paid upon consummation of the Company&rsquo;s initial Business Combination
+ without interest
+or
+ at the lender&rsquo;s discretion
+ up to $500
+000 of the notes may be converted upon consummation of the Company&rsquo;s initial
+Business Combination into additional Private Units at a price of $10.00 per unit. In the event that the initial Business Combination
+does not close
+ the Company may use a portion of the working capital held outside the Trust Account to repay such loaned amounts
+but no proceeds from the Trust Account would be used for such repayment.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+ 2018
+
+Initial
+Business Combination
+
+Pursuant
+to the Nasdaq Capital Markets listing rules
+ the Company&rsquo;s initial Business Combination must be with a target business or
+businesses whose collective fair market value is at least equal to 80% of the balance in the Trust Account at the time of the
+execution of a definitive agreement for such Business Combination
+ although this may entail simultaneous acquisitions of several
+target businesses. The fair market value of the target will be determined by the Company&rsquo;s board of directors based upon
+one or more standards generally accepted by the financial community (such as actual and potential sales
+ earnings
+ cash flow and/or
+book value). The target business or businesses that the Company acquires may have a collective fair market value substantially
+in excess of 80% of the Trust Account balance. In order to consummate such a Business Combination
+ the Company may issue a significant
+amount of its debt or equity securities to the sellers of such business and/or seek to raise additional funds through a private
+offering of debt or equity securities. There are no limitations on the Company&rsquo;s ability to incur debt or issue securities
+in order to consummate a Business Combination. Since the Company has no specific Business Combination under consideration
+ the
+Company has not entered into any arrangement to issue debt or equity securities. If the net proceeds of Initial Public Offering
+prove to be insufficient
+ either because of the size of the Business Combination
+ the depletion of the available net proceeds
+in search of a target business
+ or the obligation to convert a significant number of shares from shareholders into cash
+ the Company
+will be required to seek additional financing in order to complete its initial Business Combination. In addition
+ if the Company
+consummates a Business Combination
+ it may require additional financing to fund the operations or growth of the target business.
+The failure to secure additional financing could have a material adverse effect on the continued development or growth of the
+target business. None of the Company&rsquo;s officers
+ directors or shareholders is required to provide any financing to the Company
+in connection with or after a Business Combination.
+
+In
+connection with any proposed initial Business Combination
+ the Company will either (1) seek shareholder approval of such initial
+Business Combination at a meeting called for such purpose at which public shareholders may seek to convert their Public Shares
+regardless of whether they vote for or against the proposed Business Combination
+ into their pro rata share of the aggregate amount
+then on deposit in the Trust Account (net of taxes payable) or (2) provide public shareholders with the opportunity to sell their
+Public Shares to the Company by means of a tender offer (and thereby avoid the need for a shareholder vote) for an amount equal
+to their pro rata share of the aggregate amount then on deposit in the Trust Account (net of taxes payable)
+ in each case subject
+to the limitations described herein. Notwithstanding the foregoing
+ the Initial Shareholders have agreed
+ pursuant to written
+letter agreements with the Company
+ not to convert any Public Shares held by them into their pro rata share of the aggregate amount
+then on deposit in the Trust Account. If the Company determines to engage in a tender offer
+ such tender offer will be structured
+so that each public shareholder may tender any or all of his
+ her or its Public Shares rather than some pro rata portion of his
+her or its shares. The decision as to whether the Company will seek shareholder approval of a proposed Business Combination or
+will allow shareholders to sell their Public Shares to it in a tender offer will be made by the Company based on a variety of
+factors such as the timing of the transaction
+ whether the terms of the transaction would otherwise require it to seek shareholder
+approval or whether the Company is deemed to be a foreign private issuer (which would require us to conduct a tender offer rather
+than seeking shareholder approval under the U.S. Securities and Exchange Commission (the &ldquo;SEC&rdquo;) rules). If the Company
+engages in a tender offer in connection with an initial Business Combination
+ the Company will file tender offer documents with
+the SEC
+ which will contain substantially the same financial and other information about the initial Business Combination as is
+required under the SEC&rsquo;s proxy rules. The Company will consummate an initial Business Combination only if it has net tangible
+assets of at least $5
+000
+001 upon such consummation of a Business Combination and
+ solely if it seeks shareholder approval
+ a
+majority of the issued and outstanding ordinary shares voted are voted in favor of the Business Combination. The $5
+000
+001 net
+tangible asset value would be determined once a target business is located and the Company can assess all of the assets and liabilities
+of the combined company.
+
+The
+Initial Shareholders have agreed (i) to vote their insider shares
+ Private Shares (as defined in Note 4) and any Public Shares
+purchased in or after the Initial Public Offering in favor of any proposed Business Combination and (ii) not to convert any shares
+(including the insider shares) in connection with a shareholder vote to approve
+ or sell their shares to the Company in any tender
+offer in connection with
+ a proposed initial Business Combination.
+
+Failure
+to Consummate a Business Combination
+
+Pursuant
+to the terms of the Company&rsquo;s amended and restated memorandum and articles of association
+ failure to consummate a Business
+Combination by July 31
+ 2020 will trigger the automatic winding up
+ dissolution and liquidation of the Company. As a result
+ this
+has the same effect as if the Company had formally gone through a voluntary liquidation procedure under the Cayman Islands Companies
+Law. Accordingly
+ no vote would be required from shareholders to commence such a voluntary winding up
+ dissolution and liquidation.
+The holders of the insider shares will not participate in any liquidation distribution from the Trust Account with respect to
+their insider shares.
+
+Note
+2 &mdash; Significant Accounting Policies
+
+Basis
+of Presentation
+
+The
+accompanying financial statements are presented in U.S. dollars and have been prepared in accordance with accounting principles
+generally accepted in the United States of America (&ldquo;U.S. GAAP&rdquo;) and pursuant to the accounting and disclosure rules
+and regulations of the SEC.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+ 2018
+
+Use
+of Estimates
+
+The
+preparation of financial statements in conformity with accounting principles generally accepted in the United States of America
+requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure
+of contingent assets and liabilities at the date of the financial statements and the reported amounts of expenses during the reporting
+period. Actual results could differ from those estimates.
+
+Cash
+and Cash Equivalents
+
+The
+Company considers all short-term investments with an original maturity of three months or less when purchased to be cash equivalents.
+The Company did not have any cash equivalents as of December 31
+ 2018 and 2017.
+
+Income
+Taxes
+
+The
+Company complies with the accounting and reporting requirements of ASC Topic 740
+ &ldquo;Income Taxes
+&rdquo; which requires an
+asset and liability approach to financial accounting and reporting for income taxes. Deferred income tax assets and liabilities
+are computed for differences between the financial statement and tax bases of assets and liabilities that will result in future
+taxable or deductible amounts
+ based on enacted tax laws and rates applicable to the periods in which the differences are expected
+to affect taxable income. Valuation allowances are established
+ when necessary
+ to reduce deferred tax assets to the amount expected
+to be realized.
+
+ASC
+Topic 740 prescribes a recognition threshold and a measurement attribute for the financial statement recognition and measurement
+of tax positions taken or expected to be taken in a tax return. For those benefits to be recognized
+ a tax position must be more-likely-than-not
+to be sustained upon examination by taxing authorities. The Company&rsquo;s management determined that the Cayman Islands is the
+Company&rsquo;s major tax jurisdiction. The Company recognizes accrued interest and penalties related to unrecognized tax benefits
+as income tax expense. As of December 31
+ 2018 and 2017
+ there were no unrecognized tax benefits and no amounts accrued for interest
+and penalties. The Company is currently not aware of any issues under review that could result in significant payments
+ accruals
+or material deviation from its position over the next twelve months.
+
+The
+Company may be subject to potential examination by foreign taxing authorities in the areas of income taxes. These potential examinations
+may include questioning the timing and amount of deductions
+ the nexus of income among various tax jurisdictions and compliance
+with foreign tax laws.
+
+The
+Company is considered an exempted Cayman Islands company and is presently not subject to income taxes or income tax filing requirements
+in the Cayman Islands or the United States. As such
+ the Company&rsquo;s tax provision is zero for all periods presented.
+
+Net
+Loss per Ordinary Share
+
+Net
+loss per ordinary share is computed by dividing net loss by the weighted average number of ordinary shares outstanding during
+the period
+ excluding ordinary shares subject to forfeiture. Weighted average shares were reduced for the effect of an aggregate
+of 375
+000 ordinary shares that were subject to forfeiture if the over-allotment option was not exercised by the underwriters
+(see Note 6). At December 31
+ 2018 and 2017
+ the Company did not have any dilutive securities or other contracts that could
+ potentially
+be exercised or converted into ordinary shares and then share in the losses of the Company. As a result
+ diluted loss per share
+is the same as basic loss per share for the periods presented.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+ 2018
+
+Fair
+Value of Financial Instruments
+
+The
+fair value of the Company&rsquo;s assets and liabilities
+ which qualify as financial instruments under ASC Topic 820
+ &ldquo;Fair
+Value Measurements and Disclosures
+&rdquo; approximates the carrying amounts represented in the accompanying financial statements
+primarily due to their short-term nature.
+
+Recent
+Accounting standards
+
+Management
+does not believe that any recently issued
+ but not yet effective
+ accounting standards if currently adopted would have a material
+effect on the accompanying financial statements.
+
+Note
+3 &mdash; Initial Public Offering
+
+Pursuant
+to the Initial Public Offering
+ the Company sold 10
+800
+000 Units at a purchase price of $10.00 per Unit
+ which includes a partial
+exercise by the underwriters of their over-allotment option in the amount of 800
+000 Units at $10.00 per Unit. Each Unit consists
+of one ordinary share of the Company
+ one right (the &ldquo;Public Right&rdquo;) and one redeemable warrant (the &ldquo;Public
+Warrant&rdquo;). Each Public Right entitles the holder to receive one-tenth (1/10) of an ordinary share upon consummation of a
+Business Combination. Each Public Warrant entitles the holder to purchase one ordinary share at an exercise price of $11.50 per
+share (see Note 7).
+
+If
+the Company is unable to complete an initial Business Combination by July 31
+ 2020 and the Company redeems the public shares for
+the funds held in the Trust Account
+ holders of the rights and warrants will not receive any of such funds for their rights and
+warrants and the rights and warrants will expire worthless.
+
+Note
+4 &mdash; Private Units
+
+Simultaneously
+with the closing of the Initial Public Offering
+ certain of the Initial Shareholders
+ including the underwriters in the Initial
+Public Offering (and their respective designees)
+ purchased an aggregate of 395
+000 Private Units at a price of $10.00 per Private
+Unit
+ for an aggregate purchase price of $3
+950
+000. Each Private Unit consists of one ordinary share (&ldquo;Private Share&rdquo;)
+one right (the &ldquo;Private Right&rdquo;) and one redeemable warrant (each
+ a &ldquo;Private Warrant&rdquo;). The proceeds from
+the Private Units have been added to the proceeds from the Initial Public Offering held in the Trust Account. If the Company does
+not complete a Business Combination by July 31
+ 2020
+ the proceeds of the sale of the Private Units will be used to fund the redemption
+of the public shares (subject to the requirements of applicable law)
+ and the Private Units and all underlying securities will
+expire worthless.
+
+The
+Private Units are identical to the Units sold in the Initial Public Offering except that the Private Warrants are non-redeemable
+and exercisable on a cashless basis so long as they are held by the initial purchasers or their permitted transferees. Additionally
+the purchasers of the Private Units have agreed (A) to vote the Private Shares in favor of any proposed Business Combination
+(B) not to propose
+ or vote in favor of
+ an amendment to the Company&rsquo;s amended and restated memorandum and articles of association
+with respect to its pre-Business Combination activities prior to the consummation of such a Business Combination unless the Company
+provides public shareholders with the opportunity to convert their Public Shares in connection with any such vote
+ (C) not to
+convert any Private Shares into the right to receive cash from the Trust Account in connection with a shareholder vote to approve
+a proposed initial Business Combination or a vote to amend the provisions of the Company&rsquo;s amended and restated memorandum
+and articles of association relating to shareholders&rsquo; rights or pre-Business Combination activity and (D) that the Private
+Shares shall not participate in any liquidating distribution from the Trust Account upon winding up if a Business Combination
+is not consummated. The purchasers of the Private Units have also agreed not to transfer
+ assign or sell any of the Private Units
+or underlying securities (except to permitted transferees) until the completion of an initial Business Combination.
+
+Note
+5 &mdash; Related Party Transactions
+
+Advance
+from Related Party
+
+Through
+December 31
+ 2018
+ a director of the Company advanced the Company an aggregate of $72
+239 to cover expenses related to the Initial
+Public Offering. The advances were non-interest bearing and due on demand. As of December 31
+ 2018 and 2017
+ $72
+239 and $0
+ respectively
+of advances were outstanding. The advances were repaid upon the consummation of the Initial Public Offering on January 31
+ 2019.
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+ 2018
+
+Promissory
+Note &ndash; Related Party
+
+On
+November 7
+ 2016
+ the Company issued a promissory note to a director of the Company
+ pursuant to which the Company borrowed an
+aggregate of $34
+259. The promissory note was payable without interest on the earlier of (i) July 1
+ 2019
+ (ii) the date on which
+the Company consummated the Initial Public Offering or (iii) the date on which the Company determined to not proceed with such
+Initial Public Offering. As of December 31
+ 2018 and 2017
+ $34
+259 and $22
+147
+ respectively
+ was outstanding under the promissory
+note. The promissory note was repaid upon the consummation of the Initial Public Offering on January 31
+ 2019.
+
+Note
+6 &mdash; Commitments
+
+Underwriting
+Agreement
+
+The
+Company granted the underwriters a 45-day option from the date of Initial Public Offering to purchase up to 1
+500
+000 additional
+Units to cover over-allotments
+ if any
+ at the Initial Public Offering price less the underwriting discounts and commissions.
+In connection with the closing of the Initial Public Offering
+ the underwriters partially exercised this right to purchase 800
+000
+Units. On March 17
+ 2019
+ the remaining over-allotment option expired unexercised and
+ as a result
+ an aggregate of 175
+000 shares
+were forfeited.
+
+The
+underwriters were paid a cash underwriting discount of 2.5% of the gross proceeds of the Initial Public Offering
+ or $2
+700
+000
+in the aggregate. A &ldquo;qualified independent underwriter&rdquo; participated in the Initial Public Offering in compliance
+with Financial Industry Regulatory Authority (&ldquo;FINRA&rdquo;) Rule 5121. The qualified independent underwriter was paid a
+fee of $75
+000 from the total underwriting discount in consideration for its services and expenses
+ and was paid no other
+compensation.
+
+Business
+Combination Marketing Agreement
+
+The
+Company engaged the joint book-running managers in the Initial Public Offering as advisors in connection with a Business Combination
+to assist the Company in holding meetings with its shareholders to discuss the potential Business Combination and the target business&rsquo;
+attributes
+ introduce the Company to potential investors that are interested in purchasing the Company&rsquo;s securities in connection
+with a Business Combination
+ assist the Company in obtaining shareholder approval for the Business Combination and assist the
+Company with its press releases and public filings in connection with the Business Combination. The Company will pay the joint
+book-running managers aggregate cash fees for such services upon the consummation of a Business Combination in an amount equal
+to 3.0% of the gross proceeds of the Initial Public Offering (exclusive of any applicable finders&rsquo; fees which might become
+payable).
+
+
+
+
+
+the Company entered into a letter agreement with a member of the Company&rsquo;s board of directors that provides for a success
+fee to be paid to such director upon consummation of a Business Combination with a target business introduced to the Company by
+such director in an amount equal to 0.6% of the total consideration paid by the Company in the transaction
+ subject to certain
+minimum and maximum amounts set forth in the agreement.
+
+
+ the Company entered into several
+letter agreements with unaffiliated third parties that provide for a success fee to be paid to each such third party upon consummation
+of a Business Combination with a target business introduced to the Company by such third party in amounts ranging from 0.75% to
+1.0% of the total consideration paid by the Company in the transaction
+ subject to certain minimum and maximum amounts set forth
+in the various agreements.
+
+
+
+Registration
+Rights
+
+Pursuant
+to a registration rights agreement entered into on January 28
+ 2019
+ the holders of the insider shares
+ as well as the holders
+of the Private Units (and underlying securities) and any securities issued in payment of working capital loans made to the Company
+are entitled to registration rights. The holders of a majority of these securities are entitled to make up to three demands that
+the Company register such securities. Notwithstanding anything to the contrary
+ the underwriters (and their designees) may only
+make a demand registration (i) on one occasion and (ii) during the five year period beginning on January 28
+ 2019. The holders
+of the majority of the insider shares can elect to exercise these registration rights at any time commencing three months prior
+to the date on which these ordinary shares are to be released from escrow. The holders of a majority of the Private Units (and
+underlying securities) and securities issued in payment of working capital loans (or underlying securities) can elect to exercise
+these registration rights at any time after the Company consummates a Business Combination. In addition
+ the holders have certain
+&ldquo;piggy-back&rdquo; registration rights with respect to registration statements filed subsequent to the consummation of a
+Business Combination. Notwithstanding anything to the contrary
+ the underwriters (and their designees) may participate in a &ldquo;piggy-back&rdquo;
+registration only during the seven year period beginning January 28
+ 2019. The Company will bear the expenses incurred in connection
+with the filing of any such registration statements.
+
+Note
+7 &mdash; Shareholder&rsquo;s Equity
+
+Preferred
+Shares
+
+The
+Company is authorized to issue 1
+000
+000 preferred shares with a par value of $0.0001 per share with such designation
+ rights
+and preferences as may be determined from time to time by the Company&rsquo;s board of directors. As of December 31
+ 2018 and
+2017
+ no preferred shares were issued or outstanding.
+
+Ordinary
+Shares
+
+The
+Company is authorized to issue 100
+000
+000 ordinary shares with a par value of $0.0001 per share. As of December 31
+ 2018 and
+2017
+ there were 2
+875
+000 ordinary shares issued and outstanding
+ of which 375
+000 shares were subject to forfeiture to the extent
+that the underwriter&rsquo;s over-allotment option was not exercised in full so that the Initial Shareholders would own 20% of
+the issued and outstanding shares after the Initial Public Offering (excluding any Units that may have been purchased by them
+in the Initial Public Offering).
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+ 2018
+
+In
+connection with the organization of the Company
+ a total of 2
+875
+000 ordinary shares were sold to the Initial Shareholders at
+approximately $.009 per share for an aggregate purchase price of $25
+000. As a result of the underwriters election to partially
+exercise their over-allotment option on January 31
+ 2019
+ this number included an aggregate of up to 175
+000 shares subject to
+forfeiture to the extent that the underwriters&rsquo; over-allotment option was not exercised in full so that the Company&rsquo;s
+Initial Shareholders would own 20% of the issued and outstanding shares after the Initial Public Offering. On March 17
+ 2019
+the remaining over-allotment option expired unexercised and
+ as a result
+ an aggregate of 175
+000 shares were forfeited
+ resulting
+in an aggregate of 2
+700
+000 shares issued and outstanding.
+
+The
+Initial Shareholders have agreed not to transfer
+ assign or sell any of the insider shares (except to certain permitted transferees)
+until (1) with respect to 50% of the insider shares
+ the earlier of one year after the date of the consummation of an initial
+Business Combination and the date on which the closing price of the Company&rsquo;s ordinary shares equals or exceeds $12.50 per
+share (as adjusted for share splits
+ share dividends
+ reorganizations and recapitalizations) for any 20 trading days within any
+30-trading day period commencing after an initial Business Combination and (2) with respect to the remaining 50% of the insider
+shares
+ one year after the date of the consummation of an initial Business Combination
+ or earlier
+ in either case
+ if
+ subsequent
+to an initial Business Combination
+ the Company consummates a liquidation
+ merger
+ stock exchange or other similar transaction
+which results in all of the Company&rsquo;s shareholders having the right to exchange their ordinary shares for cash
+ securities
+or other property.
+
+
+
+Each
+holder of a right will receive one-tenth (1/10) of one ordinary share upon consummation of a Business Combination
+ even if a holder
+of such right converted all ordinary shares held by it in connection with a Business Combination. No fractional shares will be
+issued upon exchange of the rights. No additional consideration will be required to be paid by a holder of rights in order to
+receive its additional shares upon consummation of a Business Combination as the consideration related thereto has been included
+in the Unit purchase price paid for by investors in the Initial Public Offering. If the Company enters into a definitive agreement
+for a Business Combination in which the Company will not be the surviving entity
+ the definitive agreement will provide for the
+holders of rights to receive the same per share consideration the holders of the ordinary shares will receive in the transaction
+on an as-converted into ordinary shares basis and each holder of rights will be required to affirmatively covert its rights in
+order to receive 1/10 of an ordinary share underlying each right (without paying additional consideration). The ordinary shares
+issuable upon exchange of the rights will be freely tradable (except to the extent held by affiliates of the Company).
+
+If
+the Company is unable to complete a Business Combination by July 31
+ 2020 and the Company liquidates the funds held in the Trust
+Account
+ holders of rights will not receive any of such funds with respect to their rights
+ nor will they receive any distribution
+from the Company&rsquo;s assets held outside of the Trust Account with respect to such rights
+ and the rights will expire worthless.
+Further
+ there are no contractual penalties for failure to deliver securities to the holders of the rights upon consummation of
+a Business Combination. Additionally
+ in no event will the Company be required to net cash settle the rights. Accordingly
+ the
+rights may expire worthless.
+
+
+
+The
+Public Warrants will become exercisable on the later of the completion of an initial Business Combination or January 28
+ 2020.
+However
+ except as set forth below
+ no Public Warrants will be exercisable for cash unless the Company has an effective and current
+registration statement covering the ordinary shares issuable upon exercise of the Public Warrants and a current prospectus relating
+to such ordinary shares. Notwithstanding the foregoing
+ if a registration statement covering the ordinary shares issuable upon
+exercise of the Public Warrants is not effective within 90 days from the consummation of an initial Business Combination
+ warrant
+holders may
+ until such time as there is an effective registration statement and during any period when the Company shall have
+failed to maintain an effective registration statement
+ exercise warrants on a cashless basis pursuant to the exemption from registration
+provided by Section 3(a)(9) of the Securities Act provided that such exemption is available. If an exemption from registration
+is not available
+ holders will not be able to exercise their Public Warrants on a cashless basis. The warrants will expire five
+years from the consummation of an initial Business Combination.
+
+The
+Company may call the Public Warrants for redemption (excluding the Private Warrants)
+ in whole and not in part
+ at a price of
+$.01 per warrant:
+
+
+
+    
+    
+at
+    any time while the warrants are exercisable
+
+
+    
+    
+upon
+    not less than 30 days&rsquo; prior written notice of redemption to each warrant holder
+
+
+    
+    
+if
+    and only if
+ the reported last sale price of the ordinary shares equals or exceeds $18.00 per share
+ for any 20 trading days
+    within a 30 trading day period ending on the third business day prior to the notice of redemption to warrant holders
+ and
+
+    
+    
+if
+    and only if
+ there is a current registration statement in effect with respect to the ordinary shares underlying such warrants
+    at the time of redemption and for the entire 30-day trading period referred to above and continuing each day thereafter until
+    the date of redemption.
+
+
+
+    
+    
+
+
+ANDINA
+ACQUISITION CORP. III
+
+
+ 2018
+
+The
+Private Warrants are identical to the Public Warrants underlying the Units sold in the Proposed Public Offering
+ except that the
+Private Warrants and the ordinary shares issuable upon the exercise of the Private Warrants will not be transferable
+ assignable
+or salable until after the completion of a Business Combination
+ subject to certain limited exceptions. Additionally
+ the Private
+Warrants will be exercisable on a cashless basis and be non-redeemable so long as they are held by the initial purchasers or their
+permitted transferees. If the Private Warrants are held by someone other than the initial purchasers or their permitted transferees
+the Private Warrants will be redeemable by the Company and exercisable by such holders on the same basis as the Public Warrants.
+
+If
+the Company calls the Public Warrants for redemption
+ management will have the option to require all holders that wish to exercise
+the Public Warrants to do so on a &ldquo;cashless basis
+&rdquo; as described in the warrant agreement. The exercise price and
+number of ordinary shares issuable upon exercise of the warrants may be adjusted in certain circumstances including in the event
+of a share dividend
+ extraordinary dividend or recapitalization
+ reorganization
+ merger or consolidation. In addition
+ if&thinsp;
+(x) the Company issues additional ordinary shares or equity-linked securities for capital raising purposes in connection with
+the closing of its initial business combination at an issue price or effective issue price of less than $8.50 per ordinary share
+(with such issue price or effective issue price to be determined in good faith by the Company&rsquo;s board of directors
+ and
+in the case of any such issuance to Company affiliates
+ without taking into account any insider shares held by such affiliates
+prior to such issuance) (where &ldquo;insider shares&rdquo; refers to the 2
+875
+000 ordinary shares held by the Company&rsquo;s
+Initial Shareholders prior to the Company&rsquo;s initial public offering)
+ (y) the aggregate gross proceeds from such issuances
+represent more than 60% of the total equity proceeds
+ and interest thereon
+ available for the funding of the Company&rsquo;s initial
+business combination on the date of the consummation of its initial business combination (net of redemptions) and (z) the volume
+weighted average trading price of the Company&rsquo;s ordinary shares during the 20 trading day period starting on the trading
+day prior to the day on which the Company consummates its initial business combination (such price
+ the &ldquo;Market Value&rdquo;)
+is below $8.50 per share
+ the exercise price of the warrants will be adjusted (to the nearest cent) to be equal to 115% of the
+greater of (i) the Market Value or (ii) the price at which the Company issues the additional ordinary shares or equity-linked
+securities. Additionally
+ in no event will the Company be required to net cash settle the warrants. If the Company is unable to
+complete a Business Combination within the required time period and the Company liquidates the funds held in the Trust Account
+holders of warrants will not receive any of such funds with respect to their warrants
+ nor will they receive any distribution
+from the Company&rsquo;s assets held outside of the Trust Account with respect to such warrants. Accordingly
+ the warrants may
+expire worthless.
+
+Note
+8 &mdash; Subsequent Events
+
+The
+Company evaluated subsequent events and transactions that occurred after the balance sheet date up to the date that the financial
+statements were issued. Other than as described in Notes 1
+ 3
+ 4 and 7
+ the Company did not identify subsequent events that would
+have required adjustment or disclosure in the financial statements.
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+Exhibit
+31.1
+
+CERTIFICATION
+OF CHIEF EXECUTIVE OFFICER
+PURSUANT
+TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002
+
+I
+Julio Torres
+ certify that:
+
+
+
+    
+I
+    have reviewed this annual report on Form 10-K of Andina Acquisition Corp. III;
+
+    
+    
+
+    
+Based
+    on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+    to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+    to the period covered by this report;
+
+    
+    
+
+    
+Based
+    on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all
+    material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods
+    presented in this report;
+
+    
+    
+
+    
+The
+    registrant&rsquo;s other certifying officer and I are responsible for establishing and maintaining disclosure controls and
+    procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) for the registrant and have:
+
+
+
+
+    
+    
+Designed
+    such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under my supervision
+    to ensure that material information relating to the registrant
+ is made known to us by others within those entities
+ particularly
+    during the period in which this report is being prepared; and
+
+    
+    
+    
+
+    
+    
+Designed
+    such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under
+    my supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial
+    statements for external purposes in accordance with generally accepted accounting principles; and
+
+    
+    
+    
+
+    
+    
+Evaluated
+    the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report my conclusions
+    about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based
+    on such evaluation; and
+
+    
+    
+    
+
+    
+    
+Disclosed
+    in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the registrant&rsquo;s
+    most recent fiscal quarter that has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s
+    internal control over financial reporting; and
+
+
+
+
+    
+The
+    registrant&rsquo;s other certifying officer and I have disclosed
+ based on our most recent evaluation of internal control
+    over financial reporting
+ to the registrant&rsquo;s auditors and the audit committee of the registrant&rsquo;s board of directors
+    (or persons performing the equivalent functions):
+
+
+
+
+    
+    
+All
+    significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which
+    are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial
+    information; and
+
+    
+    
+    
+
+    
+    
+Any
+    fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s
+    internal control over financial reporting.
+
+
+
+
+Date:
+    March 27
+ 2019
+/s/
+    Julio Torres
+
+
+    
+Julio
+    Torres 
+
+
+    
+Chief
+    Executive Officer (Principal Executive Officer)
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+Exhibit
+31.2
+
+CERTIFICATION
+OF CHIEF FINANCIAL OFFICER
+PURSUANT
+TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002
+
+I
+Mauricio Orellana
+ certify that:
+
+
+
+    
+I
+    have reviewed this annual report on Form 10-K of Andina Acquisition Corp. III;
+
+    
+    
+
+    
+Based
+    on my knowledge
+ this report does not contain any untrue statement of a material fact or omit to state a material fact necessary
+    to make the statements made
+ in light of the circumstances under which such statements were made
+ not misleading with respect
+    to the period covered by this report;
+
+    
+    
+
+    
+Based
+    on my knowledge
+ the financial statements
+ and other financial information included in this report
+ fairly present in all
+    material respects the financial condition
+ results of operations and cash flows of the registrant as of
+ and for
+ the periods
+    presented in this report;
+
+    
+    
+
+    
+The
+    registrant&rsquo;s other certifying officer and I are responsible for establishing and maintaining disclosure controls and
+    procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) for the registrant and have:
+
+
+
+
+    
+    
+Designed
+    such disclosure controls and procedures
+ or caused such disclosure controls and procedures to be designed under my supervision
+    to ensure that material information relating to the registrant
+ is made known to us by others within those entities
+ particularly
+    during the period in which this report is being prepared; and
+
+    
+    
+    
+
+    
+    
+Designed
+    such internal control over financial reporting
+ or caused such internal control over financial reporting to be designed under
+    my supervision
+ to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial
+    statements for external purposes in accordance with generally accepted accounting principles; and
+
+    
+    
+    
+
+    
+    
+Evaluated
+    the effectiveness of the registrant&rsquo;s disclosure controls and procedures and presented in this report my conclusions
+    about the effectiveness of the disclosure controls and procedures
+ as of the end of the period covered by this report based
+    on such evaluation; and
+
+    
+    
+    
+
+    
+    
+Disclosed
+    in this report any change in the registrant&rsquo;s internal control over financial reporting that occurred during the registrant&rsquo;s
+    most recent fiscal quarter that has materially affected
+ or is reasonably likely to materially affect
+ the registrant&rsquo;s
+    internal control over financial reporting; and
+
+
+
+
+    
+The
+    registrant&rsquo;s other certifying officer and I have disclosed
+ based on our most recent evaluation of internal control
+    over financial reporting
+ to the registrant&rsquo;s auditors and the audit committee of the registrant&rsquo;s board of directors
+    (or persons performing the equivalent functions):
+
+
+
+
+    
+    
+All
+    significant deficiencies and material weaknesses in the design or operation of internal control over financial reporting which
+    are reasonably likely to adversely affect the registrant&rsquo;s ability to record
+ process
+ summarize and report financial
+    information; and
+
+    
+    
+    
+
+    
+    
+Any
+    fraud
+ whether or not material
+ that involves management or other employees who have a significant role in the registrant&rsquo;s
+    internal control over financial reporting.
+
+
+
+
+Date:
+    March 27
+ 2019
+/s/
+    Mauricio Orellana
+
+    
+Mauricio
+    Orellana
+
+    
+Chief
+    Financial Officer (Principal Financial Officer)
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+Exhibit
+32
+
+CERTIFICATION
+PURSUANT TO
+18
+U.S.C. SECTION 1350
+AS
+ADOPTED PURSUANT TO
+SECTION
+906 OF THE SARBANES-OXLEY ACT OF 2002
+
+In
+connection with the Annual Report of Andina Acquisition Corp. III (the &ldquo;Company&rdquo;) on Form 10-K for the year ended
+December 31
+ 2018 as filed with the Securities and Exchange Commission (the &ldquo;Report&rdquo;)
+ each of the undersigned
+ in
+the capacities and on the dates indicated below
+ hereby certifies pursuant to 18 U.S.C. Section 1350
+ as adopted pursuant to Section
+906 of the Sarbanes-Oxley Act of 2002
+ that:
+
+
+
+    
+The
+    Report fully complies with the requirements of Section 13(a) or 15(d) of the Securities Exchange Act of 1934; and
+
+    
+    
+
+    
+The
+    information contained in the Report fairly presents
+ in all material respects
+ the financial condition and results of operation
+    of the Company.
+
+
+
+
+
+Date:
+    March 27
+ 2019
+/s/
+    Julio Torres
+
+    
+Julio
+    Torres
+
+    
+Chief
+    Executive Officer (Principal Executive Officer)
+
+
+
+
+    
+/s/
+    Mauricio Orellana
+
+    
+Mauricio
+    Orellana
+
+    
+Chief
+    Financial Officer (Principal Financial Officer)
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
